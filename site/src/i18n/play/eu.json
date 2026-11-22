@@ -5,6 +5,13 @@
       "stopReading": "Irakurtzeari utzi",
       "region": "Jokoa",
       "restart": "Berriro hasi",
+      "rest": "Atseden hartu orain",
+      "restingTitle": "Atsedenean",
+      "restingText": "Hartu behar duzun denbora guztia. Zure lekua orri honetan gordeta dago.",
+      "resume": "Jarraitu",
+      "placeText": "Azkenekoan erdian utzi duzu. Jarrai dezakezu han bertan, edo hasi berriro.",
+      "placeResume": "Jarraitu",
+      "placeFresh": "Hasi berriro",
       "soundOn": "Soinu leunak piztuta",
       "soundOff": "Soinu leunak itzalita",
       "done": "Amaitu dugu oraingoz",
@@ -43,7 +50,19 @@
       "viewShowing": "Irudiak ikusgai",
       "viewHidden": "Irudi ezkutuak",
       "playAgain": "Berriro jokatu irudi berriekin",
-      "talk": "Hitz egin irudiei buruz elkarrekin"
+      "talk": "Hitz egin irudiei buruz elkarrekin",
+      "modeLegend": "Zein irudiak",
+      "modePlay": "Edozein irudi",
+      "modeDaily": "Gaurko txartela",
+      "dayLegend": "Zein egun",
+      "dayHelp": "Egun berean guztiek irudi berberak dituzte. Aurreko egunak ere hemen daude, eta egun bat saltatzeak ez du ezer kostatzen.",
+      "guidanceDaily": "Gaurko txartelak lau pare ditu. Sakatu ezazu irudi bat, eta gero hari dagokiona.",
+      "restartDaily": "Hasi berriro txartel hau",
+      "copy": "Kopiatu lerro hau",
+      "copied": "Kopiatuta. Ez da ezer inora bidaltzen.",
+      "calendarTitle": "Gaurko txartelak, {month}",
+      "calendarHelp": "Egun bakoitzak lau irudi berdin ditu guztientzat. Ez da punturik ematen, eta ez da egunik galdutzat markatzen.",
+      "calendarVersion": "Bertsioa {date}. Irudiak berdinak dira egun berean guztientzat."
     },
     "choose": {
       "countLegend": "Zenbat irudi",
@@ -62,6 +81,635 @@
       "shadowAlt": "Elkartzeko itzala",
       "foundAlt": "{name|lower} irudiaren itzala"
     },
+    "fourTogether": {
+      "hintLegend": "Laguntzak",
+      "hintOn": "Laguntza pausa baten ondoren",
+      "hintOff": "Laguntzarik ez",
+      "guidance": "Aurki itzazu elkarrekin doazen {n} irudiak, eta sakatu ezazu bakoitza.",
+      "countLegend": "Zenbat irudi",
+      "count": "{n} irudi",
+      "found": "Bai, {name|lower} talde honetakoa da.",
+      "elsewhere": "{name|lower} beste zerbaitekin doa. Hartu ezazu denbora.",
+      "hint": "Laguntza bat: bilatu ezazu {theme|lower}.",
+      "together": "Elkarrekin doaz: {theme}.",
+      "shown": "Hona hemen taldea: {theme}.",
+      "groupName": "Elkarrekin: {theme}",
+      "show": "Erakutsi taldea",
+      "next": "Beste multzo bat"
+    },
+    "oddOneOut": {
+      "hintLegend": "Laguntzak",
+      "hintOn": "Laguntza pausa baten ondoren",
+      "hintOff": "Laguntzarik ez",
+      "guidance": "Aurki ezazu gainerakoekin bat ez datorren irudia, eta sakatu ezazu.",
+      "countLegend": "Zenbat irudi",
+      "count": "{n} irudi",
+      "belongs": "{name|lower} gainerakoekin doa. Hartu ezazu denbora.",
+      "found": "Bai, {name|lower} da bat ez datorrena. Gainerakoak {theme|lower} dira.",
+      "shown": "Hona: {name|lower}. Gainerakoak {theme|lower} dira.",
+      "hint": "Laguntza bat: hauetako {n} {theme|lower} dira.",
+      "others": "Gainerakoak: {theme}",
+      "show": "Erakutsi",
+      "next": "Beste multzo bat"
+    },
+    "seatedToss": {
+      "guidance": "Eseri mahai baten aurrean, eta txandaka bota ezazu poltsa bigun bat helburu handira. Eraman kontuak paperean, elkarrekin.",
+      "stepsHeading": "Nola egiten da",
+      "steps": [
+        "Inprimatu helburua eta kontu-orria, eta jarri ezazu mahai gainean, zuen artean, laua.",
+        "Eseri ongi, bata alde batean eta bestea bestean. Txandaka, bakoitzak bota bat leun, edo pasa, nahi ez baduzu.",
+        "Poltsa eraztun batean geratzen denean, bota duenak laukitxo bat markatzen du bere zutabean, eraztun horri dagokion lerroan.",
+        "Markak elkarrekin begiratu, nahi baduzu, gelditzean. Inork ez du ezer batu behar.",
+        "Gelditu inork nahi duenean."
+      ],
+      "safetyHeading": "Segurtasuna",
+      "safetyLine": "Erabili soilik estalki josia duen poltsa bat edo bildutako kalzetin bat, egon eserita, ez bota inoiz aurpegirantz, eta izan ezazu helduren bat hurbil. Pieza txikiek itotzeko arriskua dakarte.",
+      "flags": [
+        "3 urtetik beherakoentzat ez: pieza txikiak",
+        "Ahotik urrun"
+      ],
+      "safety": [
+        "Aukeratu estalki josia duen poltsa bigun bat, edo bildu garbitako kalzetin bat. Lehen begiratu zuloak edo lotura askatuak dauden, betegarririk irten ez dadin.",
+        "Babarrunak, arroza eta beste betegarri txiki batzuek itotzeko arriskua dakarte. Gorde haiek haur txikien eta ahoan gauzak sartzen dituen edonoren urrunean.",
+        "Egon besoaren luzeran, eta zaindu arretaz ahoan sar daitekeen ezer badago.",
+        "Egon eserita. Bota leun eta baxu mahaiko helburura, inoiz ez aurpegirantz."
+      ],
+      "previewLabel": "Inprimatutako orria: hiru eraztunez osatutako helburua, Hurbil, Erdi eta Urrun izenekoak, kanpotik barrura, eta kontu-orria, pertsona bakoitzeko zutabe batekin eta eraztun bakoitzeko laukitxo hutsen lerro batekin.",
+      "sheetHow": "Jarri orria laua zuen artean. Poltsa eraztun batean geratzen denean, markatu laukitxo bat zure zutabean, eraztun horren lerroan.",
+      "rings": [
+        "Hurbil",
+        "Erdi",
+        "Urrun"
+      ],
+      "people": [
+        "Lehen pertsona",
+        "Bigarren pertsona"
+      ],
+      "ringHeading": "Eraztuna",
+      "print": "Inprimatu helburua eta kontu-orria"
+    },
+    "seasonalPack": {
+      "guidance": "Aukeratu hilabete bat, inprimatu bere hiru paper-jolasak, eta egin bat, bi edo hirurak elkarrekin.",
+      "monthLegend": "Aukeratu hilabete bat",
+      "months": [
+        "Urtarrila",
+        "Otsaila",
+        "Martxoa",
+        "Apirila",
+        "Maiatza",
+        "Ekaina",
+        "Uztaila",
+        "Abuztua",
+        "Iraila",
+        "Urria",
+        "Azaroa",
+        "Abendua"
+      ],
+      "monthNote": "Hilabete bakoitzak bere irudiak ditu. Orria hilabete honetan irekitzen da, eta beste edozein aukeratu dezakezu.",
+      "restDay": "Gaur atseden eguna da",
+      "restLine": "Gaur ez dago jolasik. Atseden eguna ere egun ona da.",
+      "previewHeading": "Hiru jolasak",
+      "puzzles": {
+        "pairs": {
+          "title": "Parekatu bikoteak",
+          "how": "Marraztu lerro bat goiko errenkadako irudi bakoitzetik beheko errenkadako irudi berera.",
+          "describe": "Bi errenkada, lau irudi berberekin, ordena desberdinean."
+        },
+        "different": {
+          "title": "Zein da desberdina?",
+          "how": "Biribildu gainerako hiruekin desberdina den irudia.",
+          "describe": "Lau irudiko errenkada. Hiru berdin dira, eta bat desberdina."
+        },
+        "color": {
+          "title": "Koloreztatu",
+          "how": "Koloreztatu irudia nahi duzun moduan, krayoiekin edo lapitzekin.",
+          "describe": "Irudi handi bat koloreztatzeko."
+        }
+      },
+      "print": "Inprimatu hilabete honetako paketea",
+      "sheetHow": "Inprimatu orri bat. Egin jolas bat, bi edo hiru, edozein ordenatan.",
+      "printFooter": "Egin bat, bi edo hiru. Gelditu nahi duzun unean."
+    },
+    "decorateACard": {
+      "guidance": "Aukeratu arrazoi bat, eta apaindu txartel bat elkarrekin krayoiekin edo boligrafoekin. Ez dago txartel zuzenik.",
+      "occasionLegend": "Aukeratu arrazoia",
+      "occasions": {
+        "birthday": {
+          "label": "Urtebetetzea",
+          "words": "Urtebetetze on"
+        },
+        "thank-you": {
+          "label": "Eskerrik asko",
+          "words": "Eskerrik asko"
+        },
+        "thinking-of-you": {
+          "label": "Zure gogoan",
+          "words": "Zure gogoan"
+        },
+        "new-season": {
+          "label": "Denboraldi berria",
+          "words": "Denboraldi berria"
+        },
+        "just-because": {
+          "label": "Besterik gabe",
+          "words": "Besterik gabe"
+        }
+      },
+      "stepsHeading": "Nola apaindu elkarrekin",
+      "steps": {
+        "fold": "Inprimatu txartela eta bildu erdibitan marra etenen gainetik, aurrealdea kanpoaldean gera dadin.",
+        "front": "Pertsona batek aurrealdea apaintzen du, hitzen inguruan.",
+        "inside": "Bestea atzealdea apaintzen du, edo txandaka apaindu dezakezu alde batean.",
+        "message": "Idatzi mezu bat elkarrekin. Pertsona batek idatz dezake, bestea hitzak esaten duen bitartean.",
+        "stop": "Gelditu nahi duzun unean. Ez dago txartel zuzenik, eta sinple bat berdin ona da."
+      },
+      "materials": "Erabili krayoiak, kolorezko lapitzak edo errotulagailuak. Ez dago ezer moztu, itsatsi edo pegatu beharrik.",
+      "previewLabel": "Txartela erdibituta aurrebista. Aurrealdeak {words} dio, hosto eta izarrez egindako marko sinple batekin. Atzealdeak mezurako lerroak ditu, eta Nortik lerro bat.",
+      "from": "Nortik",
+      "sheetHow": "Pleka ezazu txartela erdian, marra puntukatuaren gainean, aurrealdea kanpoan geratuta. Idatzi mezua atzealdean.",
+      "rulesHeading": "Bi pertsonarentzat",
+      "sheetRules": [
+        "Txandaka aritu, edo banatu lana: pertsona batek aurrealdea apainduko du, besteak atzealdea.",
+        "Idatzi mezua elkarrekin, edo pertsona batek besteak esaten duena idatz dezake.",
+        "Edozeinek utzi dezake noiznahi. Ez dago txartel zuzenik."
+      ],
+      "print": "Txartela inprimatu"
+    },
+    "storyDice": {
+      "guidance": "Begira ezazu irudiei, eta kontatu istorio bat haiekin, edozein ordenatan. Ez dago istorio zuzenik.",
+      "countLegend": "Zenbat dado",
+      "count": "{n} dado",
+      "roll": "Berriro bota",
+      "pass": "Pasatu",
+      "passed": "Pasatzea ondo dago. Hurrengo pertsonak has dezake, edo zuk berriro bota dezakezu.",
+      "rolled": "Irudi berriak: {names}.",
+      "tapped": "{name}. Hasi horrekin, edo beste edozeinekin."
+    },
+    "wordPicture": {
+      "guidance": "Sakatu ezazu irudi bat, eta gero irudia izendatzen duen hitza. Edo sakatu ezazu hitz bat, eta gero haren irudia.",
+      "countLegend": "Zenbat irudi",
+      "count": "{n} irudi",
+      "picturesGroup": "Irudiak",
+      "wordsGroup": "Hitzak",
+      "readWord": "Irakurri ozen: {name}",
+      "next": "Irudi berriak",
+      "putBack": "Jarri berriro",
+      "pickWord": "Orain sakatu ezazu horrekin bat datorren hitza.",
+      "pickPicture": "Orain sakatu ezazu horrekin bat datorren irudia.",
+      "fit": "Bai, hitz hori {name|lower} da.",
+      "newSet": "Hona irudi multzo berri bat.",
+      "restarted": "Hasierara itzuli gara. Irudi eta hitz guztiak berriro banatuta daude.",
+      "restored": "Berriro jarrita. Bat datozen pareak berriro agertzen dira.",
+      "all": "Hitz guztiek dute beren irudia."
+    },
+    "colorMatch": {
+      "guidance": "Begira ezazu kolorea eta haren izena, eta sakatu ezazu kolore hori duen irudi guztia.",
+      "target": "Kolorea {color|lower} da. Sakatu ezazu {color|lower} diren irudi guztiak.",
+      "countLegend": "Zenbat irudi",
+      "count": "{n} irudi",
+      "found": "Bai, {name|lower} {color|lower} da.",
+      "named": "Hau {name|lower} da, eta kolorea {color|lower} da.",
+      "all": "Hauek dira {color|lower} irudi guztiak.",
+      "shown": "Hona {color|lower} irudiak.",
+      "show": "Erakutsi",
+      "next": "Beste kolore bat",
+      "names": {
+        "red": "Gorria",
+        "orange": "Laranja",
+        "yellow": "Horia",
+        "green": "Berdea",
+        "blue": "Urdina"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Sakatu ezazu ezkerreko erdi bat, eta gero horrekin bat datorren eskuineko erdia.",
+      "countLegend": "Zenbat irudi",
+      "count": "{n} irudi",
+      "leftGroup": "Ezkerreko erdiak",
+      "rightGroup": "Eskuineko erdiak",
+      "left": "Ezkerreko erdia: {name|lower}",
+      "right": "Eskuineko erdia: {name|lower}",
+      "joined": "Batuta",
+      "pickRight": "Orain sakatu ezazu horrekin bat datorren eskuineko erdia.",
+      "pickLeft": "Orain sakatu ezazu horrekin bat datorren ezkerreko erdia.",
+      "fit": "Bai, bi horiek {name|lower} osatzen dute.",
+      "apart": "Bi horiek ez dira bat etortzen. Saia ezazu beste bat.",
+      "all": "Irudi guztiak osorik daude.",
+      "shown": "Hona irudiak, batuta.",
+      "show": "Erakutsi iezadazu",
+      "next": "Beste multzo bat"
+    },
+    "colorByNumber": {
+      "guidance": "Aukeratu ezazu kolore bat koloreen gakotik, eta bete ezazu koadro bat harekin. Edozein kolore ondo dago.",
+      "sizeLegend": "Sarearen tamaina",
+      "size": "{n} x {n}",
+      "keyLegend": "Koloreak",
+      "colors": [
+        "Horia",
+        "Laranja",
+        "Berdea",
+        "Morea"
+      ],
+      "motifs": {
+        "house": "etxe bat",
+        "flower": "lore bat",
+        "heart": "bihotz bat",
+        "tree": "zuhaitz bat",
+        "boat": "belaontzi bat",
+        "pot-plant": "lorontzi batean landare bat"
+      },
+      "region": "Irudi-sarea, {n} x {n}. Pantaila estua bada, alboz mugitzen da.",
+      "cell": "Zenbakia {number}, lerroa {row}, zutabea {column}, {color}",
+      "empty": "hutsik",
+      "chose": "{name} aukeratuta. Sakatu ezazu koadro bat betetzeko.",
+      "painted": "{name}, lerroa {row}, zutabea {column}.",
+      "sheet": "Koadro bakoitzak bere zenbakiaren kolorea du. Hau da orrian dagoen irudia: {name}.",
+      "own": "Koadro guztiak beteta daude. Hau zure irudi propioa da.",
+      "fillAll": "Bete zenbakien arabera",
+      "filledAll": "Koadro huts guztiek orain beren zenbakiaren kolorea dute.",
+      "clear": "Garbitu",
+      "cleared": "Sarea garbi dago.",
+      "next": "Beste irudi bat",
+      "fresh": "Hona kolorez betetzeko beste irudi bat."
+    },
+    "patternMaker": {
+      "guidance": "Sakatu ezazu koadro bat kolorea aldatzeko. Zure patroia haren ondoan hazten da. Egiten duzun ezer ez da gordetzen ez bidaltzen.",
+      "sizeLegend": "Baldosaren tamaina",
+      "size": "{n} x {n}",
+      "keyLegend": "Koloreak, sakatzean aldatzen diren ordenan",
+      "colors": [
+        "Horia",
+        "Laranja",
+        "Berdea",
+        "Morea"
+      ],
+      "tileLabel": "Zure baldosa",
+      "region": "Zure baldosa, {n} x {n}. Pantaila estua bada, alboz mugitzen da.",
+      "patternLabel": "Zure patroia",
+      "pattern": "Zure patroia: zure baldosa {n} aldiz zabalean eta {n} aldiz goitik behera errepikatuta.",
+      "square": "Lerroa {row}, zutabea {column}, {color}",
+      "changed": "Lerroa {row}, zutabea {column}: orain {color} da.",
+      "cleared": "Baldosa garbi dago. Nahi baduzu, berreskura dezakezu.",
+      "surprise": "Harritu nazazu",
+      "surprised": "Hona baldosa berri bat. Nahi baduzu, zaharra berreskura dezakezu.",
+      "putBack": "Berreskuratu",
+      "restored": "Zure baldosa lehen zegoen moduan berreskuratu da.",
+      "print": "Inprimatu nire patroia",
+      "sheetTitle": "Nire patroia"
+    },
+    "buildTogether": {
+      "guidance": "Txandaka jarri ezazu pieza bat leku huts batean. Bakoitzak bere kolorea du. Egiten duzun ezer ez da gordetzen ez bidaltzen.",
+      "sizeLegend": "Sarearen tamaina",
+      "size": "{n} x {n}",
+      "people": [
+        "Lehen pertsona",
+        "Bigarren pertsona"
+      ],
+      "colorLegend": "Kolorea: {person}",
+      "colors": [
+        "Horia",
+        "Laranja",
+        "Berdea",
+        "Morea"
+      ],
+      "inUse": "Erabilita",
+      "turn": "Zure txanda: {person|lower}",
+      "yourColor": "Zure kolorea {color|lower} da.",
+      "built": "Elkarrekin egina. Hau da biok egindako irudia.",
+      "gridLabel": "Partekatutako sarea",
+      "region": "Partekatutako sarea, {n} x {n}. Pantaila estua bada, alboz mugitzen da.",
+      "cellEmpty": "Lerroa {row}, zutabea {column}, hutsik",
+      "cellFilled": "Lerroa {row}, zutabea {column}, {color}, jarri du: {person|lower}",
+      "placed": "Lerroa {row}, zutabea {column}: orain {color} da. Zure txanda: {next|lower}.",
+      "placedLast": "Lerroa {row}, zutabea {column}: orain {color} da. Elkarrekin eraikita.",
+      "taken": "Lerroa {row}, zutabea {column}: dagoeneko badago pieza bat. Aukeratu ezazu leku huts bat.",
+      "pass": "Pasatu",
+      "passed": "Pasatzea ondo dago. Zure txanda: {person|lower}.",
+      "takeBack": "Azken pieza berreskuratu",
+      "takeBackPass": "Pasa berreskuratu",
+      "tookBack": "Pieza berreskuratu da. Zure txanda: {person|lower}.",
+      "tookBackPass": "Pasa berreskuratu da. Zure txanda: {person|lower}.",
+      "colorChanged": "{person}: kolorea orain {color|lower} da.",
+      "restarted": "Sarea hutsik dago. Zure txanda: {person|lower}.",
+      "print": "Inprimatu sarea",
+      "sheetTitle": "Elkarrekin eraiki",
+      "sheetHelp": "Txandaka aritu. Koadro huts batean, pertsona bakoitzak bere forma marrazten du bere arkatzarekin.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Sakatu ezazu pieza bat, eta gero irudiko espazioa, pieza non joan behar duen. Egiten duzun ezer ez da gordetzen ez bidaltzen.",
+      "hints": "Erakutsi laguntza-lerroak",
+      "pictureLine": "Hau {picture} da.",
+      "pictures": {
+        "house": "etxea",
+        "boat": "belaontzia",
+        "tree": "zuhaitza",
+        "fish": "arraina",
+        "cat": "katua",
+        "rocket": "kohetea"
+      },
+      "outlineLabel": "Kontornoa: {picture}. Sakatu ezazu espazio bat, aukeratutako pieza hor jartzeko.",
+      "trayHeading": "Piezak",
+      "pieces": {
+        "large-triangle": "Triangelu handia",
+        "small-triangle": "Triangelu txikia",
+        "square": "Karratua",
+        "parallelogram": "Paralelogramoa",
+        "rectangle": "Laukizuzena"
+      },
+      "shapes": {
+        "large-triangle": "triangelu handi bat",
+        "small-triangle": "triangelu txiki bat",
+        "square": "karratu bat",
+        "parallelogram": "paralelogramo bat",
+        "rectangle": "laukizuzen bat"
+      },
+      "chosenLabel": "Aukeratuta",
+      "spaceEmpty": "Espazioa {n}, {shape}, hutsik",
+      "spaceFilled": "Espazioa {n}, {shape}, bere pieza du. Sakatu pieza berreskuratzeko.",
+      "chosen": "{piece} aukeratuta dago. Orain sakatu ezazu irudiko espazio bat.",
+      "unchosen": "Ang piyesa ay hindi na napili.",
+      "placed": "Ang piyesa ay nasa espasyo {n}.",
+      "complete": "Kumpleto na ang {picture}.",
+      "different": "Ibang hugis ang piyesang iyon kaysa sa espasyong ito. Subukan ang ibang espasyo.",
+      "needPiece": "Pumili muna ng piyesa mula sa tray.",
+      "filled": "May piyesa na ang espasyong iyon. Pindutin ito para bawiin ang piyesa.",
+      "tookBack": "Nasa tray na ulit ang piyesa.",
+      "cleared": "Nasa tray na ulit ang mga piyesa. Ibalik ito kung nagbago ang isip mo.",
+      "restored": "Nasa larawan na ulit ang mga piyesa.",
+      "next": "Ito ay isang {picture}.",
+      "putBack": "Ibalik",
+      "another": "Ibang hugis",
+      "print": "I-print ang hugis na ito",
+      "sheetTitle": "Tahimik na mga hugis",
+      "sheetHow": "Kulayan ang mga piyesa, o gupitin ang mga ito para magkasya sa balangkas. Maaaring gumupit ang isang nasa hustong gulang.",
+      "sheetPieces": "Ang mga piyesa, kasing laki ng balangkas"
+    },
+    "picnicPlanner": {
+      "guidance": "Pindutin ang isang larawan para ilagay ito sa basket ng piknik, at pindutin ito sa basket para alisin. Anim na bagay ang kasya sa basket.",
+      "guidancePlay": "Pindutin ang dalawang larawang magkapareho. Mananatiling nakikita ang mga larawan, at walang oras na sinusukat.",
+      "basketHeading": "Ang aming basket",
+      "basketLabel": "Ang basket ng piknik",
+      "takeOut": "Alisin ang {picture} sa basket",
+      "inBasket": "Nasa basket",
+      "foodHeading": "Pagkain",
+      "outingsHeading": "Mga gagawin",
+      "added": "Nasa basket na ang {picture}.",
+      "removed": "Wala na sa basket ang {picture}.",
+      "already": "Nasa basket na ang {picture}. Pindutin ito roon para alisin.",
+      "full": "Puno na ang basket. Mag-alis ng isang bagay para magkaroon ng puwang.",
+      "summary": "Ang aming piknik: {list}.",
+      "summaryNone": "Wala pang laman ang basket.",
+      "and": "at",
+      "play": "Maglaro tayo gamit ang ating piknik",
+      "needTwo": "Pumili muna ng hindi bababa sa dalawang bagay.",
+      "playAgain": "Maglaro muli",
+      "back": "Balik sa piknik",
+      "print": "I-print ang listahan ng aming piknik",
+      "cleared": "Walang laman ang basket.",
+      "notice": "Ito ay plano na pag-uusapan. Walang oras, marka, o naka-save.",
+      "sheetTitle": "Listahan ng aming piknik",
+      "sheetHow": "Lagyan ng tsek ang bawat bagay habang iniimpake mo. Gamitin ang mga blangkong linya para sa anumang iba pang gusto mong dalhin.",
+      "sheetToPack": "Iimpake"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Pumili ng dalawa hanggang labindalawa sa sarili mong mga larawan para simulan ang aklat.",
+      "guidance": "Buklatin ang mga pahina nang magkasama, gamit ang mga pindutan o ang mga arrow key na Kaliwa at Kanan. Magdagdag ng ilang salita sa ilalim ng larawan kung gusto mo. Walang nasa-save o naipapadala sa ginagawa mo.",
+      "lookGuidance": "Tingnan ang bawat pahina nang magkasama. Puwede kayong mag-usap o tahimik lang tumingin.",
+      "intro": "Pumili ng dalawa hanggang labindalawang larawan mula sa device na ito. Ang bawat isa ay magiging pahina ng aklat na puwedeng buklatin nang magkasama.",
+      "consent": "Gamitin ang sarili ninyong larawan ng pamilya. Magtanong muna kung gagamit ng larawan ng taong hindi makasagot ng oo.",
+      "privacy": "Nananatili sa device na ito ang iyong mga larawan. Hindi ito ina-upload o sine-save.",
+      "choose": "Pumili ng mga larawan",
+      "chooseDifferent": "Pumili ng ibang mga larawan",
+      "backToBook": "Balik sa aklat",
+      "backToChoose": "Balik sa pagpili ng mga larawan",
+      "needTwo": "Pumili ng hindi bababa sa dalawang larawan.",
+      "usingFirst": "Ginagamit ang unang {max} larawan.",
+      "cleared": "Nabura na ang aklat. Pumili ng mga larawan para magsimulang muli.",
+      "moved": "Inilipat sa pahina {n}.",
+      "pageOf": "Pahina {n} ng {total}",
+      "lookTogether": "Tingnan nang magkasama",
+      "leaveLook": "Balik sa aklat",
+      "print": "I-print ang scrapbook",
+      "clear": "Burahin ang aklat",
+      "bookLabel": "Ang scrapbook ng pamilya",
+      "pagesLabel": "Buklatin ang mga pahina",
+      "previous": "Nakaraang pahina",
+      "next": "Susunod na pahina",
+      "moveEarlier": "Ilipat pauna",
+      "moveLater": "Ilipat pahuli",
+      "captionLabel": "Ilang salita para sa pahinang ito, kung gusto mo",
+      "captionHelp": "Hanggang 80 karakter. Nananatili lang ang mga caption sa pahinang ito at mawawala kapag isinara mo ito.",
+      "sheetTitle": "Ang aming scrapbook",
+      "sheetHow": "Isang larawan bawat pahina, na may mga salita sa ilalim. Buklatin ang mga pahina nang sunod-sunod at pag-usapan ang bawat isa.",
+      "sheetEmpty": "Pumili ng iyong mga larawan sa pahina ng laro para mag-print ng sarili ninyong aklat, o i-print ang blangkong pahinang ito at idikit ang naka-print na larawan.",
+      "sheetFrame": "Idikit dito ang naka-print na larawan",
+      "sheetWords": "Ilang salita para sa pahinang ito",
+      "skipped": {
+        "one": "Hindi larawang magagamit namin ang {n} file.",
+        "other": "Hindi larawang magagamit namin ang {n} na file."
+      }
+    },
+    "quietScene": {
+      "guidance": "Tingnan ang isang larawan sa bawat pagkakataon. Pindutin ang Susunod o Nakaraan kapag handa ka na. Walang gumagalaw nang mag-isa.",
+      "next": "Susunod na larawan",
+      "previous": "Nakaraang larawan",
+      "bigPicture": "Mas malaking larawan",
+      "showEverything": "Ipakita lahat",
+      "first": "Ito ang unang larawan.",
+      "last": "Ito ang huling larawan.",
+      "lines": {
+        "sunrise": "Sumisikat ang araw sa ibabaw ng lupa.",
+        "window-with-birds": "Mga ibon sa labas ng bintana.",
+        "vase-of-flowers": "Isang plorera ng bulaklak sa mesa.",
+        "teacup": "Isang tasa ng tsaa sa tabi ng bintana.",
+        "tree": "Isang punong nakatayo sa hardin.",
+        "sailboat": "Isang bangkang may layag sa tubig.",
+        "lighthouse": "Isang parola sa tabi ng dagat.",
+        "rainbow": "Isang bahaghari pagkatapos ng ulan.",
+        "moon": "Ang buwan sa kalangitang gabi.",
+        "daisies": "Isang kumpol ng margaritas sa damuhan.",
+        "rowing-boat": "Isang bangkang de-sagwan sa kalmadong tubig.",
+        "potted-plant": "Isang berdeng halaman sa paso."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Magpalitan. Pindutin ang isang gupit na larawan, saka pindutin ang bakanteng lugar para ilagay ito roon. Walang nasa-save o naipapadala sa ginagawa ninyo.",
+      "people": [
+        "Unang tao",
+        "Ikalawang tao"
+      ],
+      "marks": [
+        "isang bilog",
+        "isang parisukat"
+      ],
+      "turn": "Ikaw na, {person|lower}.",
+      "marked": "Mamarkahan ang mga piyesa ninyo ng {mark}.",
+      "boardLabel": "Ang pinagsamang board",
+      "placeEmpty": "Lugar {n}, bakante",
+      "placeFilled": "Lugar {n}, {picture|lower}, inilagay ng {person|lower}",
+      "trayHeading": "Ang mga gupit na larawan",
+      "chosenLabel": "Napili",
+      "chosen": "Napili na ang {picture}. Ngayon, pindutin ang isang bakanteng lugar.",
+      "unchosen": "Hindi na napili ang gupit na larawan.",
+      "needCutout": "Pumili muna ng gupit na larawan, saka pindutin ang isang bakanteng lugar.",
+      "filled": "May larawan na ang lugar {n}. Pumili ng bakanteng lugar.",
+      "placed": "Nasa lugar {n} na ang {picture}. Ikaw na, {next|lower}.",
+      "full": "May larawan na ang bawat lugar. Bawiin ang isa para baguhin ito, o magsimulang muli.",
+      "pass": "Laktawan",
+      "passed": "Ayos lang ang laktaw. Ikaw na, {person|lower}.",
+      "takeBack": "Bawiin ang huling piyesa",
+      "takeBackPass": "Bawiin ang laktaw",
+      "tookBack": "Nabawi na ang piyesa. Ikaw na, {person|lower}.",
+      "tookBackPass": "Nabawi na ang laktaw. Ikaw na, {person|lower}.",
+      "restarted": "Walang laman ang board. Ikaw na, {person|lower}.",
+      "putBack": "Ibalik",
+      "putBackDone": "Nasa board na ulit ang mga piyesa.",
+      "another": "Ibang hanay ng mga larawan",
+      "anotherSet": "May bagong hanay ng mga gupit na larawan sa tray. Mananatili sa kanilang lugar ang mga piyesa sa board.",
+      "print": "I-print ang board",
+      "sheetTitle": "Collage board",
+      "sheetHow": "Gupitin ang mga larawan at magpalitan sa paglalagay nito sa board. Maaaring gumupit ang isang nasa hustong gulang.",
+      "sheetTray": "Ang mga larawang gugupitin"
+    },
+    "gardenPlanner": {
+      "guidance": "Pindutin ang isang larawan, saka pindutin ang isang kama para ilagay ito roon. Pindutin ang kamang may larawan, kapag walang napiling larawan, para burahin ito.",
+      "bedsLabel": "Ang mga kama sa hardin",
+      "bedEmpty": "Kama {n}, bakante",
+      "bedFilled": "Kama {n}, {picture|lower}",
+      "plantsHeading": "Mga halaman",
+      "extrasHeading": "Mga dagdag sa hardin",
+      "chosenLabel": "Napili",
+      "chosen": "Napili na ang {picture}. Ngayon, pindutin ang isang kama.",
+      "unchosen": "Walang napiling larawan.",
+      "needPicture": "Aukeratu lehen irudi bat, eta gero ukitu landare-lursail bat.",
+      "planted": "{picture} {n}. lursailean dago.",
+      "replaced": "{picture}-(e)k {n}. lursailean zegoen irudiaren lekua hartzen du.",
+      "cleared": "{n}. lursaila hutsik dago. Irudi hori berriro nahi baduzu, jarri berriz.",
+      "restarted": "Lursail guztiak hutsik daude.",
+      "putBack": "Jarri berriz",
+      "putBackDone": "Irudiak berriz daude beren lursailetan.",
+      "summaryHeading": "Nire lorategia",
+      "summary": "Zure planak honako hauek ditu: {list}.",
+      "summaryNone": "Oraindik ez dago irudirik lursail batean ere.",
+      "and": "eta",
+      "print": "Inprimatu plana",
+      "sheetTitle": "Gure lorategiaren plana",
+      "sheetHow": "Lursailek pantailan aukeratutako irudiak erakusten dituzte. Hutsik dauden lursailetan marraztu nahi baduzu, egin ezazu.",
+      "sheetNotes": "Oharrak",
+      "notice": "Irudien plan bat da, hizketan aritzeko. Ez da landatzeko aholku bat."
+    },
+    "coloringWall": {
+      "guidance": "Aukeratu irudi bat eta orri kopurua. Inprimatu horma, eta pertsona bakoitzak orri bat edo gehiago koloreztatuko du. Ez da denborarik neurtzen, puntuaziorik ematen ez da, eta ez da ezer gordetzen.",
+      "pictureLegend": "Irudia",
+      "sizeLegend": "Zenbat orri",
+      "sizes": {
+        "2x2": "4 orri (2 x 2)",
+        "3x2": "6 orri (3 x 2)",
+        "3x3": "9 orri (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} {n} orritan banatuta, {across} zutabe eta {down} lerro. Orri bakoitzak etiketa bat dauka izkinan.",
+      "previewCaption": "Irudia, orri-lerroak eta etiketak marraztuta.",
+      "labelsNote": "Hormaren behealdera letrak doaz eta zeharka zenbakiak, beraz A1 goiko ezkerreko orria da.",
+      "wallHeading": "Nola batu horma",
+      "steps": [
+        "Inprimatu orri guztiak. Lehen orria urrats hauek eta hormaren mapa dira.",
+        "Pertsona bakoitzak orri bat edo gehiago hartu eta koloreztatuko ditu.",
+        "Koloreek eta estiloek ez dute bat etorri behar. Orri guztiak irudi bereko zati dira.",
+        "Jarri orriak etiketen arabera, eta gero batu atzealdean zinta batekin.",
+        "Jarri horma non denek ikus dezaketen."
+      ],
+      "mapLabel": "Hormaren mapa: {down} lerro, bakoitzean {across} orri, A1etik {last}-era etiketatuak.",
+      "edgeNote": "Marra etenak orri bakoitzaren ertza markatzen du. Jarri orriak ertzez ertz, marra horren ondoan, edo gainjarri pixka bat.",
+      "pictureLine": "Irudia: {picture}. Horma honek {n} orri ditu: {across} zutabe eta {down} lerro.",
+      "print": "Inprimatu horma"
+    },
+    "findTogether": {
+      "guidance": "Txandaka aritu. Zure txandan, bi txartel irauli, bikote bat bilatzeko. Bikoteak elkarrekin aurkitu.",
+      "sizeLegend": "Zenbat txartel",
+      "size": "{n} txartel",
+      "viewLegend": "Nola jokatu",
+      "viewShowing": "Irudiak agerian dituztela jokatu",
+      "viewHidden": "Txartelak alderantziz",
+      "people": [
+        "Lehen pertsona",
+        "Bigarren pertsona"
+      ],
+      "turn": "Txanda: {person}",
+      "turnDone": "Bikote guztiak aurkitu dira.",
+      "tally": "Elkarrekin aurkitutako bikoteak: {n}",
+      "cardNamed": "{name}, {n}. txartela",
+      "cardFaceDown": "{n}. txartela, alderantziz",
+      "first": "{name}. Orain, irauli bigarren txartel bat.",
+      "found": "{name}: bikote bat, elkarrekin aurkitua. Orain {next|lower}aren txanda da.",
+      "allTogether": "Bikote guztiak elkarrekin aurkitu dituzue.",
+      "different": "{a} eta {b} desberdinak dira. Hartu zure denbora, eta gero sakatu Berriz alderantzikatu.",
+      "waiting": "Sakatu Berriz alderantzikatu prest zaudenean. Orduan txanda igaroko da.",
+      "turnedBack": "Berriz alderantzikatu dira. Orain {person|lower}aren txanda da.",
+      "passed": "Txanda igarotzea ondo dago. Orain {person|lower}aren txanda da.",
+      "turnBack": "Berriz alderantzikatu",
+      "pass": "Igaro",
+      "playAgain": "Berriz jokatu"
+    },
+    "drawingDuet": {
+      "guidance": "Txandaka aritu, lerro bat bakoitzak, eta gero arkatza pasatu. Edonork igaro dezake. Ez da ezer inora bidaltzen. Irudi bat orri honetatik irteten da soilik gordetzen baduzu.",
+      "people": [
+        "Lehen pertsona",
+        "Bigarren pertsona"
+      ],
+      "colorLegend": "{person}-(r)en kolorea",
+      "colors": [
+        "Horia",
+        "Laranja",
+        "Berdea",
+        "Morea"
+      ],
+      "turn": "{person}-(r)en txanda",
+      "penColor": "Arkatzaren kolorea: {color}.",
+      "canvasLabel": "Partekatutako marrazkia, orain arte {n} lerro",
+      "canvasLabelOne": "Partekatutako marrazkia, orain arte lerro {n}",
+      "keys": "Gezi-teklek arkatzaren puntua mugitzen dute marrazkian. Zuriuneak arkatza jaitsi edo altxatzen du.",
+      "penDown": "Arkatza jaitsi",
+      "penUp": "Arkatza altxatu",
+      "pass": "Arkatza pasatu",
+      "passed": "Txanda igarotzea ondo dago. Zure txanda da, {person|lower}.",
+      "takeBack": "Kendu nire azken lerroa",
+      "tookBack": "{person|lower}-(r)en azken lerroa kendu da.",
+      "noLine": "Ez dago {person|lower}-(r)en lerrorik kentzeko.",
+      "restarted": "Orria garbi dago. Lehen pertsonak du txanda. Nahi ez baduzu hori egin, jarri berriz.",
+      "putBack": "Jarri berriz",
+      "restored": "Lerroak lehen zeuden moduan daude berriz.",
+      "save": "Gorde irudia",
+      "saved": "Zure irudia prest dago. Erabili deskargatzeko esteka gailu honetan gordetzeko.",
+      "download": "Deskargatu drawing-duet.png",
+      "print": "Inprimatu paperezko bertsioa",
+      "sheetTitle": "Marrazki-duoa",
+      "paperRules": "Bi pertsona, orri bat, bi arkatz. Txandaka aritu: lerro edo forma bat bakoitzak, eta gero arkatza pasatu. Edonork igaro dezake. Ez dago marrazki zuzen bakarrik."
+    },
+    "colorWash": {
+      "guidance": "Koloreztatu orria kolore leunez, garbitzaile bat aldi bakoitzean. Altxatu pintzela gelditzeko, eta gelditu nahi duzunean. Ez da ezer gordetzen ez bidaltzen.",
+      "colorLegend": "Garbitzailearen kolorea",
+      "sizeLegend": "Pintzelaren tamaina",
+      "colors": [
+        "Horia",
+        "Laranja",
+        "Berdea",
+        "Morea"
+      ],
+      "sizes": {
+        "wide": "Zabala",
+        "veryWide": "Oso zabala"
+      },
+      "color": "Garbitzailearen kolorea: {color}.",
+      "brushDown": "Pintzela jaitsi",
+      "brushUp": "Pintzela altxatu",
+      "keys": "Gezi-teklek pintzelaren eraztuna mugitzen dute orrian. Zuriuneak pintzela jaitsi edo altxatzen du.",
+      "canvasLabel": "Kolore leunezko garbitzailez egindako orri bat",
+      "fresh": "Orri berria",
+      "freshMessage": "Orri berria.",
+      "putBack": "Jarri berriz",
+      "restored": "Orria berriz dago."
+    },
     "sortTogether": {
       "guidance": "Sakatu irudi bat, eta gero dagokion saskia.",
       "restart": "Irudi berriak",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} «{basket}» saskian joan daiteke. Sakatu saski hori bertan jartzeko.",
       "placed": "{name|lower} «{basket}» saskian dago.",
       "sorted": "Dena sailkatuta dago. Begiratu saskiei elkarrekin, edo probatu beste gai bat.",
+      "largerTargets": "Helburu handiagoak",
+      "largerOn": "Helburu handiagoak piztuta daude. Ez da ezer mugitu.",
+      "largerOff": "Helburu handiagoak itzalita daude. Ez da ezer mugitu.",
+      "largerOnNewRound": "Helburu handiagoak piztuta daude, bi saskirekin. Hemen daude irudi berriak ordenatzeko.",
       "basket": {
         "one": "«{basket}» saskia, {count} irudi barruan",
         "other": "«{basket}» saskia, {count} irudi barruan"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Sakatu pieza bat, eta gero beste bat. Lekuz aldatuko dira.",
-      "restart": "Nahastu berriro",
+      "restart": "Mix up again",
       "pictureLegend": "Irudia",
       "pictures": {
         "sailboat": "Belaontzia",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Irudi osoa: {name}",
       "guideText": "Hala ikusten da irudia osorik dagoenean.",
+      "ownChoose": "Erabili zure argazkia",
+      "ownChange": "Aukeratu beste argazki bat",
+      "ownBack": "Itzuli gure irudietara",
+      "ownPrivacy": "Zure argazkia gailu honetan geratzen da. Ez da igotzen ez gordetzen.",
+      "ownConsent": "Erabili zure argazkiak. Galdetu aurretik norbaiten argazkia erabili baino lehen, baiezkoa esan ezin duenean.",
+      "ownWorking": "Zure argazkia prestatzen.",
+      "ownNotUsable": "Fitxategi hori ezin izan da erabili. Aukeratu argazki-fitxategi bat, adibidez JPEG edo PNG.",
+      "ownAlt": "Zure argazkia",
+      "ownPiece": "{n}. zatia, {place}",
+      "ownWhole": "Zure argazkia berriro osorik dago. Nahi duzunean berriz nahastu.",
+      "ownSheetTitle": "Zure argazkia zatitan",
+      "ownSheetHow": "Moztu lerroen arabera. Nahastu zatiak, eta gero trukatu bi zati aldi bakoitzean, irudia osorik egon arte.",
       "piece": "{place} dagoen pieza",
       "pieceInPlace": ", leku egokian",
       "piecePickedUp": ", hartuta",
@@ -122,7 +786,7 @@
         "behean eskuinean"
       ],
       "done": "Irudia osorik dago berriro. Berriro jokatu edo atseden bat har dezakezue.",
-      "playAgain": "Nahastu berriro"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Irakurri esaera elkarrekin, eta gero sakatu amaitzen duen hitza.",
@@ -190,6 +854,14 @@
       "guidance": "Irakurri txartela ozenki. Ez dago erantzun okerrik.",
       "position": "{n} / {total} txartela",
       "themeLegend": "Gaia",
+      "showPrompt": "Erakutsi elkarrizketa-gonbita bat",
+      "bigPicture": "Irudi handia, taldeentzat",
+      "passNote": "Edonork igaro dezake.",
+      "groupTitle": "Txartela taldean zehar pasatzea",
+      "groupSit": "Eseri zirkulu batean, denek irudia ikus dezaten. Txartela duen pertsonak, edo irudi handia duen gailuak, gonbita ozen irakurriko du lehenik.",
+      "groupPass": "Ondoren, pasatu txartela hurrengo pertsonari. Pertsona bakoitzak hitz bat edo esaldi bat esango du irudiari buruz, eta gero pasatuko du.",
+      "groupNoSpeech": "Txartela pasatzea beti onartuta dago. Pertsona batek ezer esan gabe igaro dezake, eta inork ez du zergatia azaldu behar.",
+      "groupEnd": "Txanda amaitzen da txartela zirkulu osoan pasa denean, edo taldeak nahikoa duenean. Inork ez du irabazten. Gelditu taldeak nahi duenean.",
       "next": "Hurrengo txartela",
       "previous": "Aurreko txartela",
       "print": "Inprimatu txartel guztiak",
@@ -252,6 +924,20 @@
       "started": "Hasita. Hartu arnasa zirkulua handitu ahala.",
       "stopped": "Geldituta.",
       "finished": "Sei arnasaldi lasai izan dira. Hasi berriro nahi duzunean."
+    },
+    "storyChain": {
+      "guidance": "Txandaka jardun: esaldi bat bakoitzak, eta gehitu hurrengo irudia.",
+      "passNote": "Esan zure esaldia ozen. Ez da ezer idazten ez gordetzen. Edonork pasa dezake txanda.",
+      "chainLabel": "Orain arteko katea",
+      "item": "Irudia {n}: {name}",
+      "add": "Gehitu irudi bat",
+      "fullAdd": "Katea beteta dago. Hasi kate berri bat",
+      "newChain": "Hasi kate berri bat",
+      "takeOff": "Kendu azkena",
+      "added": "{name|lower} orain katearen amaieran dago.",
+      "removed": "Katetik kendu da: {name|lower}.",
+      "fresh": "Kate berria hasi da: lehen irudia {name|lower} da.",
+      "full": "Kateak 8 irudi ditu guztira. Kontatu istorio osoa, edo hasi kate berri bat."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Hodeia euriarekin",
     "snowflake": "Elur-maluta",
     "kite": "Kometea",
-    "sunrise": "Egunsentia mendietan"
+    "sunrise": "Egunsentia mendietan",
+    "decorated-keepsake-box": "Apaindutako oroitzapen-kutxa",
+    "painted-plant-pot": "Lorontzi margotua, belarrekin",
+    "repeating-pattern-sheet": "Patroi errepikatuen orria",
+    "music-drawn-lines": "Lerroak, musikaren arabera marraztuak",
+    "paper-boat-afloat": "Paper-ontzia uretan",
+    "folded-towel-stack": "Eskuoihal doblatuen pila",
+    "hand-massage-with-lotion": "Eskua, losioarekin",
+    "open-photo-album": "Argazki-album irekia",
+    "button-flower-card": "Botoi-lorea txartelean",
+    "blue-torn-paper-collage": "Collage urdina, paper urratuz",
+    "family-tree-of-hands": "Familia-zuhaitza, eskuekin",
+    "open-greeting-card": "Felicitazio-txartel irekia, bihotzarekin",
+    "lavender-sachet": "Lavanda-poltsa, lokarriz lotua",
+    "memory-collage-of-photos": "Familiaren argazkien collage-a",
+    "paper-chain-garland": "Paper-kateen girlanda",
+    "open-songbook-with-notes": "Kantu-liburu irekia, notekin",
+    "photo-postcard-with-stamp": "Argazki-postala, zigiluarekin",
+    "pine-cone-bird-feeder": "Pinaza-txori-jatontzia, adarrean zintzilik",
+    "playlist-phone-and-card": "Telefonoa, kanta-zerrenda eta txartela",
+    "sealed-rice-shaker": "Arroz-txirrina, itxia",
+    "texture-board-with-scraps": "Testura-taula, mozketekin",
+    "painted-garden-stone": "Lorategiko harri margotua",
+    "shared-painted-canvas": "Margo-lona partekatua",
+    "watercolor-washes-sheet": "Akuarela-orria",
+    "seedling-in-pot": "Hazi-ernamuinak lorontzian",
+    "pressed-leaves-in-book": "Hostoak, liburuan prentsatuta",
+    "printed-leaves-sheet": "Hosto-inprimaketen orria",
+    "pinch-pot-clay-bowl": "Buztinezko ontzi txikia",
+    "table-sketch-pencil": "Edalontziaren arkatz-zirriborroa",
+    "buttons-in-muffin-tin": "Botoiak, muffin-molde batean",
+    "family-recipe-book": "Familiako errezeta-liburua",
+    "drum-with-beat-marks": "Mahai-danbora, makilekin",
+    "torn-paper-flower": "Lore-mosaikoa, paper urratuz",
+    "window-with-birds": "Leihoa, txoriekin",
+    "woven-paper-mat": "Alfonbra txikia, paper-ehunez",
+    "yarn-ball-with-thread": "Ile-bilobra",
+    "letter-and-envelope": "Gutuna, gutun-azalean"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Etxetik kanpo"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fruituak",
+        "animals": "Animaliak",
+        "travel": "Bidaiatzeko moduak",
+        "flowers": "Loreak",
+        "hot-drinks": "Edari beroetarako gauzak",
+        "weather": "Eguraldi-motak",
+        "baked": "Labean egindako gauzak"
       }
     }
   }

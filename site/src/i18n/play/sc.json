@@ -5,6 +5,13 @@
       "stopReading": "Firma sa letura",
       "region": "Giogu",
       "restart": "Torra a comintzare",
+      "rest": "Riposa pro como",
+      "restingTitle": "Riposende",
+      "restingText": "Pigade su tempus chi bolis. Su logu tuo est sarvadu in custa pàgina.",
+      "resume": "Sighire",
+      "placeText": "S’àtera borta s’est firmadu a mesu. Sighire dae inoghe, o cumintzare de nou.",
+      "placeResume": "Sighire",
+      "placeFresh": "Cumintzare de nou",
       "soundOn": "Sonos durches ativos",
       "soundOff": "Sonos durches disativados",
       "done": "Acabbadu pro como",
@@ -43,7 +50,19 @@
       "viewShowing": "Figuras a bista",
       "viewHidden": "Figuras cuadas",
       "playAgain": "Gioga torra cun figuras noas",
-      "talk": "Faeddade paris de sas figuras"
+      "talk": "Faeddade paris de sas figuras",
+      "modeLegend": "Cales imàgines",
+      "modePlay": "Imàgines a piaghere",
+      "modeDaily": "Carta de oe",
+      "dayLegend": "Cale die",
+      "dayHelp": "Pro cadaunu sunt sas matessi imàgines in sa matessi die. Sos dies antis sunt in sa lista puru, e unu die sartadu no costat nudda.",
+      "guidanceDaily": "Sa carta de oe tenet bator paris. Incarca un’imàgine, e pustis incarca cudda chi si cumpagnat cun ella.",
+      "restartDaily": "Comintza custa carta de nou",
+      "copy": "Còpia custa linia",
+      "copied": "Copiada. Nudda est imbiada in logu.",
+      "calendarTitle": "Cartas de oe, {month}",
+      "calendarHelp": "Cada die tenet sas matessi bator imàgines pro cadaunu. Peruna cosa no est punnada, e peruna die no est signada comente mancada.",
+      "calendarVersion": "Versione {date}. Sas imàgines sunt sas matessi pro cadaunu in sa matessi die."
     },
     "choose": {
       "countLegend": "Cantas figuras",
@@ -62,6 +81,635 @@
       "shadowAlt": "Un'umbra de abbinare",
       "foundAlt": "S'umbra de {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Sugerimentos",
+      "hintOn": "Sugerimentu a pustis de una pausa",
+      "hintOff": "Peruna sugestione",
+      "guidance": "Agata sas {n} imàgines chi andant paris, e incarca cada una.",
+      "countLegend": "Cantas imàgines",
+      "count": "{n} imàgines",
+      "found": "Eja, {name|lower} benit in custu grupu.",
+      "elsewhere": "{name|lower} andat cun àteru. Pigade su tempus chi bolis.",
+      "hint": "Unu sugerimentu: pensa a {theme|lower}.",
+      "together": "Custos andant paris: {theme}.",
+      "shown": "Inoghe est su grupu: {theme}.",
+      "groupName": "Paris: {theme}",
+      "show": "Mustra su grupu",
+      "next": "Un’àtera serie"
+    },
+    "oddOneOut": {
+      "hintLegend": "Sugerimentos",
+      "hintOn": "Sugerimentu a pustis de una pausa",
+      "hintOff": "Peruna sugestione",
+      "guidance": "Agata s’imàgine chi no andat cun sas àteras, e incàrcala.",
+      "countLegend": "Cantas imàgines",
+      "count": "{n} imàgines",
+      "belongs": "{name|lower} andat cun sas àteras. Pigade su tempus chi bolis.",
+      "found": "Eja, {name|lower} est sa chi no andat cun sas àteras. Sas àteras sunt {theme|lower}.",
+      "shown": "Inoghe est: {name|lower}. Sas àteras sunt {theme|lower}.",
+      "hint": "Unu sugerimentu: {n} de custas sunt {theme|lower}.",
+      "others": "Sas àteras: {theme}",
+      "show": "Mustra",
+      "next": "Un’àtera serie"
+    },
+    "seatedToss": {
+      "guidance": "Sentare a una mesa e tirare a turnu unu saccu mòllidu in su bersagliu mannu. Tenede sa contzada in pabiru, paris.",
+      "stepsHeading": "Comente andat",
+      "steps": [
+        "Istampa su bersagliu e sa fitza de contzada, e istènde·los prana in sa mesa, intre bois.",
+        "Sentade·bos comodos, unu pro cada parte. Tiradi a turnu, unu tiru lenu pro cadaunu, o passade si pretendides.",
+        "Cando unu tiru cadit in unu circulu, chi tirat sinnalat una casedda in sa colunna sua, in sa lìnea de cuddu circulu.",
+        "Pustis, si cheres, mirade sas sinnales paris cando ses firmados. Nemos depet contare nudda.",
+        "Firma gai-gai chi unu de bois siat prontu."
+      ],
+      "safetyHeading": "Seguresa",
+      "safetyLine": "Imprea isceti unu saccu cun sa coberta cosida o unu calzetu enrolladu, istade sentados, no tirare mai contra una cara, e tenede unu adultu acanta. Sas partes minores faent perìcul de sufocamentu.",
+      "flags": [
+        "No pro sos chi tenent mancu de 3 annos: partes minores",
+        "Tenere lontanu dae sa bucca"
+      ],
+      "safety": [
+        "Sèbera unu saccu cun sa coberta cosida, o enrolla unu calzetu netu. Controllalu prima, chi no tenat bucos o puntos isvintos, chi nudda potat essire.",
+        "Sos grànulos, su risu e àteros riempimentos minores faent perìcul de sufocamentu. Tenerelos lontanu dae minores pitticos e dae cale si siat chi pone cosas in bucca.",
+        "Istade a pagu dae logu de manu, e controllade cun atentzione si calchi cosa podet esser ponida in bucca.",
+        "Istade sentados. Tira a pagu e bassu contra su bersagliu in sa mesa, mai contra una cara."
+      ],
+      "previewLabel": "Sa stampa in sa pàgina: unu bersagliu de tres circulos, nomenados Vitzinu, Mesu e Longu, dae foras a intro, e una contzada cun una colunna pro cada persona e unu versu de casedde bòidas pro cada circulu.",
+      "sheetHow": "Istènde sa fitza prana intre bois. Cando unu tiru cadit in unu circulu, sinnala una casedda in sa colunna tua, in sa lìnea de cudda circulu.",
+      "rings": [
+        "Vitzinu",
+        "Mesu",
+        "Longu"
+      ],
+      "people": [
+        "Primu tiradore",
+        "Segundu tiradore"
+      ],
+      "ringHeading": "Circulu",
+      "print": "Istampa su bersagliu e sa fitza de contzada"
+    },
+    "seasonalPack": {
+      "guidance": "Sèbera unu mese, istampa sos tres enigmas de paperi, e fa·nde·unu, duos o totu tres, paris.",
+      "monthLegend": "Sèbera unu mese",
+      "months": [
+        "Ghennàrgiu",
+        "Friàrgiu",
+        "Martzu",
+        "Abrile",
+        "Maju",
+        "Làmpadas",
+        "Triulas",
+        "Austu",
+        "Cabudanni",
+        "Ladàmine",
+        "Santu Andria",
+        "Nadale"
+      ],
+      "monthNote": "Cada mese tenet sas imàgines suas. Sa pàgina si aberit in custu mese, e pones cale si siat àteru.",
+      "restDay": "Oe est die de riposu",
+      "restLine": "Oe no bi sunt enigmas. Unu die de riposu est unu bonu die puru.",
+      "previewHeading": "Sos tres enigmas",
+      "puzzles": {
+        "pairs": {
+          "title": "Agata sos paris",
+          "how": "Tira una lìnea dae cada imàgine in sa fila de subra a sa matessi imàgine in sa fila de subta.",
+          "describe": "Duas filas de sas matessi bator imàgines, in un’ordine diferente."
+        },
+        "different": {
+          "title": "Cale est diferente?",
+          "how": "Circhinza s’imàgine chi est diferente dae sas àteras tres.",
+          "describe": "Una fila de bator imàgines. Tres sunt sas matessi, e una est diferente."
+        },
+        "color": {
+          "title": "Colora·la",
+          "how": "Colora s’imàgine comente cheres, cun crayones o làpices.",
+          "describe": "Un’imàgine manna a colorire."
+        }
+      },
+      "print": "Istampa su pacchetu de custu mese",
+      "sheetHow": "Istampa una pàgina. Fa unu, duos o totu tres enigmas, in s’ordine chi cheres.",
+      "printFooter": "Fa unu, duos o totu tres. Firma cando cheres."
+    },
+    "decorateACard": {
+      "guidance": "Sèbera un’occasione, e pustis decora una carta paris cun crayones o penas. Non b’at carta giusta.",
+      "occasionLegend": "Sèbera un’occasione",
+      "occasions": {
+        "birthday": {
+          "label": "Cumpleannu",
+          "words": "Bonu cumpleannu"
+        },
+        "thank-you": {
+          "label": "Gràties",
+          "words": "Gràties"
+        },
+        "thinking-of-you": {
+          "label": "Pensande a bois",
+          "words": "Pensande a bois"
+        },
+        "new-season": {
+          "label": "Una stagione noa",
+          "words": "Una stagione noa"
+        },
+        "just-because": {
+          "label": "Isceti gai",
+          "words": "Isceti gai"
+        }
+      },
+      "stepsHeading": "Comente la decorades paris",
+      "steps": {
+        "fold": "Istampa sa carta e piega·la a mesu, a longu de sa lìnea a puntos, de manera chi sa faccia siat in foras.",
+        "front": "Unu persone decorat sa faccia, a in giru de sas paràulas.",
+        "inside": "S’àtera persone decorat su retro, o si faghent a turnu in unu latu.",
+        "message": "Iscrie unu messàgiu paris. Unu podet iscrier mentres s’àteru narat sas paràulas.",
+        "stop": "Firma cando cheres. Non b’at carta giusta, e una semplitzi est bene matessi."
+      },
+      "materials": "Imprea crayones, làpices colorados o penas de feltru. Nudda depet esser tagliadu, incoladu o pegadu.",
+      "previewLabel": "Un’antepròpriu de sa carta piegada a mesu. Sa faccia narat {words}, cun unu marcu semplitze de fozas e istrellas. Su retro tenet lìneas pro unu messàgiu e una lìnea pro De.",
+      "from": "De",
+      "sheetHow": "Pligade sa carta a pare, segundu sa lìnea tratteggiada, cun sa parte de fora in fora. Iscriede su messàgiu in sa parte de segus.",
+      "rulesHeading": "Pro duas persones",
+      "sheetRules": [
+        "Turnade a bortas, o partide su traballu: unu decorat sa parte de fora, s'àteru sa parte de segus.",
+        "Iscriede su messàgiu impare, o unu iscrit su chi narat s'àteru.",
+        "Si podet firmare in cale si siat momentu. Non b'at una carta giusta."
+      ],
+      "print": "Imprime sa carta"
+    },
+    "storyDice": {
+      "guidance": "Ammirade sas immàgines e contade una storia cun issas, in cale si siat ordine. Non b'at una storia giusta.",
+      "countLegend": "Cantos dados",
+      "count": "{n} dados",
+      "roll": "Torra a tirare",
+      "pass": "Passa",
+      "passed": "Passare no est male. S'àtera persona podet cumintzare, o si podet torrare a tirare.",
+      "rolled": "Immàgines noas: {names}.",
+      "tapped": "{name}. Cumintza cun custa, o cun cale si siat àtera."
+    },
+    "wordPicture": {
+      "guidance": "Toca un'immàgine, e a pustis sa paràula chi la nomenat. O toca una paràula, e a pustis s'immàgine sua.",
+      "countLegend": "Cantas immàgines",
+      "count": "{n} immàgines",
+      "picturesGroup": "Immàgines",
+      "wordsGroup": "Paràulas",
+      "readWord": "Lege a boche alta: {name}",
+      "next": "Immàgines noas",
+      "putBack": "Torra a pone",
+      "pickWord": "Como toca sa paràula chi b'andat.",
+      "pickPicture": "Como toca s'immàgine chi b'andat.",
+      "fit": "Eja, cussa paràula andat cun {name|lower}.",
+      "newSet": "Custu est unu set nou de immàgines.",
+      "restarted": "Torramus a cumintzare. Ogni immàgine e ogni paràula sunt de nou separadas.",
+      "restored": "Torradu a pone. Sas paris cumbinadas sunt torradas a mostrare.",
+      "all": "Ogni paràula tenet s'immàgine sua."
+    },
+    "colorMatch": {
+      "guidance": "Ammirade su colore e su nome sou, e a pustis toca cada immàgine chi est de cussu colore.",
+      "target": "Su colore est {color|lower}. Toca cada immàgine chi est {color|lower}.",
+      "countLegend": "Cantas immàgines",
+      "count": "{n} immàgines",
+      "found": "Eja, {name|lower} est {color|lower}.",
+      "named": "{name|lower} est {color|lower}.",
+      "all": "Cussas sunt totu sas immàgines {color|lower}.",
+      "shown": "Custas sunt sas immàgines {color|lower}.",
+      "show": "Mustralas",
+      "next": "Un'àtera colore",
+      "names": {
+        "red": "Ruju",
+        "orange": "Aranzada",
+        "yellow": "Giallu",
+        "green": "Birde",
+        "blue": "Azzurru"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Toca una mesa de sa manca, e a pustis toca sa mesa de sa dresta chi b'andat.",
+      "countLegend": "Cantas immàgines",
+      "count": "{n} immàgines",
+      "leftGroup": "Mesas de sa manca",
+      "rightGroup": "Mesas de sa dresta",
+      "left": "Mesa de sa manca de {name|lower}",
+      "right": "Mesa de sa dresta de {name|lower}",
+      "joined": "Junta",
+      "pickRight": "Como toca sa mesa de sa dresta chi b'andat.",
+      "pickLeft": "Como toca sa mesa de sa manca chi b'andat.",
+      "fit": "Eja, custas duas faghent {name|lower}.",
+      "apart": "Custas duas non andant impare. Proa un'àtera.",
+      "all": "Ogni immàgine est intrea.",
+      "shown": "Custas sunt sas immàgines, juntas.",
+      "show": "Mustramelas",
+      "next": "Un'àtera série"
+    },
+    "colorByNumber": {
+      "guidance": "Sèbera unu colore dae sa lègenda, e a pustis imple unu cuadru cun issu. Cale si siat colore est bene.",
+      "sizeLegend": "Mannària de sa grìglia",
+      "size": "{n} pro {n}",
+      "keyLegend": "Colores",
+      "colors": [
+        "Giallu",
+        "Aranzada",
+        "Birde",
+        "Viola"
+      ],
+      "motifs": {
+        "house": "una domo",
+        "flower": "unu fiore",
+        "heart": "unu coro",
+        "tree": "un'arvure",
+        "boat": "una barca a vela",
+        "pot-plant": "una pianta in vasu"
+      },
+      "region": "Grìglia de immàgines, {n} pro {n}. Si movet a costazu si s'ischermu est istrintu.",
+      "cell": "Nùmeru {number}, riga {row}, colonna {column}, {color}",
+      "empty": "vòida",
+      "chose": "{name} seberadu. Toca unu cuadru pro l'imprire.",
+      "painted": "{name} in riga {row}, colonna {column}.",
+      "sheet": "Ogni cuadru tenet su colore de su nùmeru sou. Custa est s'immàgine in sa fogia: {name}.",
+      "own": "Ogni cuadru est imprinidu. Custa est s'immàgine tua.",
+      "fillAll": "Imple cun sos nùmeros",
+      "filledAll": "Ogni cuadru vòidu tenet como su colore de su nùmeru sou.",
+      "clear": "Lìmpia",
+      "cleared": "Sa grìglia est lìmpia.",
+      "next": "Un'àtera immàgine",
+      "fresh": "Custa est un'àtera immàgine de colorare."
+    },
+    "patternMaker": {
+      "guidance": "Toca unu cuadru pro cambiare su colore sou. Su motivu tuo crescet a costazu. Nudda de su chi faghes est sarvadu o imbiadu.",
+      "sizeLegend": "Mannària de sa piastrella",
+      "size": "{n} pro {n}",
+      "keyLegend": "Colores, in s'òrdine chi cambiat unu tocu",
+      "colors": [
+        "Giallu",
+        "Aranzada",
+        "Birde",
+        "Viola"
+      ],
+      "tileLabel": "Sa piastrella tua",
+      "region": "Sa piastrella tua, {n} pro {n}. Si movet a costazu si s'ischermu est istrintu.",
+      "patternLabel": "Su motivu tuo",
+      "pattern": "Su motivu tuo: sa piastrella tua repetida {n} in largu e {n} in artu.",
+      "square": "Riga {row}, colonna {column}, {color}",
+      "changed": "Riga {row}, colonna {column} como est {color}.",
+      "cleared": "Sa piastrella est lìmpia. Podet torrare a la pònere.",
+      "surprise": "Sorpresa",
+      "surprised": "Custa est una piastrella noa. Podet torrare sa betza a pone.",
+      "putBack": "Torra a pone",
+      "restored": "Sa piastrella tua est torrada comente fit.",
+      "print": "Imprime su motivu meu",
+      "sheetTitle": "Su motivu meu"
+    },
+    "buildTogether": {
+      "guidance": "Turnade a pone unu pezzu in unu logu vòidu. Cada unu de bois tenet su colore sou. Nudda de su chi faghides est sarvadu o imbiadu.",
+      "sizeLegend": "Mannària de sa grìglia",
+      "size": "{n} pro {n}",
+      "people": [
+        "Sa prima persona",
+        "Sa segunda persona"
+      ],
+      "colorLegend": "Colore de {person}",
+      "colors": [
+        "Giallu",
+        "Aranzada",
+        "Birde",
+        "Viola"
+      ],
+      "inUse": "Impreadu",
+      "turn": "Est su turnu bostru, {person|lower}",
+      "yourColor": "Su colore bostru est {color|lower}.",
+      "built": "Fatu impare. Custa est s'immàgine chi sos duos hant fatu.",
+      "gridLabel": "Sa grìglia comuna",
+      "region": "Sa grìglia comuna, {n} pro {n}. Si movet a costazu si s'ischermu est istrintu.",
+      "cellEmpty": "Riga {row}, colonna {column}, vòida",
+      "cellFilled": "Riga {row}, colonna {column}, {color}, postu dae {person|lower}",
+      "placed": "Riga {row}, colonna {column} como est {color}. Est su turnu bostru, {next|lower}.",
+      "placedLast": "Riga {row}, colonna {column} como est {color}. Fatu impare.",
+      "taken": "Riga {row}, colonna {column} tenet giai unu pezzu. Sèbera unu logu vòidu.",
+      "pass": "Passa",
+      "passed": "Passare no est male. Est su turnu bostru, {person|lower}.",
+      "takeBack": "Torra a pigare s'ùltimu pezzu",
+      "takeBackPass": "Torra a pigare su passu",
+      "tookBack": "Su pezzu est torradu a pigare. Est su turnu bostru, {person|lower}.",
+      "tookBackPass": "Su passu est torradu a pigare. Est su turnu bostru, {person|lower}.",
+      "colorChanged": "{person} como tenet {color|lower}.",
+      "restarted": "Sa grìglia est vòida. Est su turnu bostru, {person|lower}.",
+      "print": "Imprime sa grìglia",
+      "sheetTitle": "Fatu impare",
+      "sheetHelp": "Turnade a pone. In cada cuadru vòidu, cada persona disegnat su motivu sou cun su lapis sou.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Toca unu pezzu, e a pustis toca su logu in s'immàgine in ue depet istare. Nudda de su chi faghes est sarvadu o imbiadu.",
+      "hints": "Mustra sas lìneas de agiudu",
+      "pictureLine": "Custu est unu {picture}.",
+      "pictures": {
+        "house": "domo",
+        "boat": "barca",
+        "tree": "arvure",
+        "fish": "pische",
+        "cat": "gatu",
+        "rocket": "rocheta"
+      },
+      "outlineLabel": "Su contorno de {picture}. Toca unu logu pro pònnere su pezzu sèberadu.",
+      "trayHeading": "Sos pezzos",
+      "pieces": {
+        "large-triangle": "Triàngulu mannu",
+        "small-triangle": "Triàngulu minore",
+        "square": "Cuadru",
+        "parallelogram": "Parallelogrammu",
+        "rectangle": "Rettàngulu"
+      },
+      "shapes": {
+        "large-triangle": "unu triàngulu mannu",
+        "small-triangle": "unu triàngulu minore",
+        "square": "unu cuadru",
+        "parallelogram": "unu parallelogrammu",
+        "rectangle": "unu rettàngulu"
+      },
+      "chosenLabel": "Seberadu",
+      "spaceEmpty": "Logu {n}, {shape}, vòidu",
+      "spaceFilled": "Logu {n}, {shape}, tenet su pezzu sou. Toca pro torrare a pigare su pezzu.",
+      "chosen": "{piece} est seberadu. Como toca unu logu in s'immàgine.",
+      "unchosen": "Su pezzu no est prus seberadu.",
+      "placed": "Su pezzu est in logu {n}.",
+      "complete": "Sa {picture} est acabada.",
+      "different": "Cussu pezzu tenet una forma diferente de custu logu. Proa un'àteru logu.",
+      "needPiece": "Sèbera prima unu pezzu de sa bandeja.",
+      "filled": "Cussu logu tenet giai su pezzu suo. Toca·lu pro torrare su pezzu.",
+      "tookBack": "Su pezzu est torradu in sa bandeja.",
+      "cleared": "Sos pezzos sunt torraos in sa bandeja. Torra·los a ponnere si ti ses pentzadu.",
+      "restored": "Sos pezzos sunt torraos in sa imagine.",
+      "next": "Custa est una {picture}.",
+      "putBack": "Torra·lu a ponnere",
+      "another": "Un'àtera forma",
+      "print": "Stampa custa forma",
+      "sheetTitle": "Formas chetas",
+      "sheetHow": "Colora sos pezzos, o tàgliatos pro ajustarli a su contornu. Un adultu podet fàghere su tàgliu.",
+      "sheetPieces": "Sos pezzos, de sa matessi mannària de su contornu"
+    },
+    "picnicPlanner": {
+      "guidance": "Toca una imagine pro l'ponner in sa cesta de su picnic, e tocaddu in sa cesta pro la tirare fora. Sa cesta cabit ses cosas.",
+      "guidancePlay": "Toca duas imàgines chi sunt the matessi. Sas imàgines restant a bista, e nudda no est cronometrada.",
+      "basketHeading": "Sa cesta nostra",
+      "basketLabel": "Sa cesta de su picnic",
+      "takeOut": "Tira {picture} fora de sa cesta",
+      "inBasket": "In sa cesta",
+      "foodHeading": "Mannicare",
+      "outingsHeading": "Cosas de fàghere",
+      "added": "{picture} est in sa cesta.",
+      "removed": "{picture} est fora de sa cesta.",
+      "already": "{picture} est giai in sa cesta. Tocaddu inoghe pro l'ischire.",
+      "full": "Sa cesta est prena. Tira calicosa fora pro fàghere logu.",
+      "summary": "Su picnic nostru: {list}.",
+      "summaryNone": "Ancora nudda no est in sa cesta.",
+      "and": "e",
+      "play": "Jughemus cun su picnic nostru",
+      "needTwo": "Sèbera prima a su mancu duas cosas.",
+      "playAgain": "Juga un'àtera Bolta",
+      "back": "Torra a su picnic",
+      "print": "Stampa sa lista de su picnic nostru",
+      "cleared": "Sa cesta est vòida.",
+      "notice": "Custu est unu pianu pro chistionare. Nudda no est cronometrada, valutada o sarvada.",
+      "sheetTitle": "Sa lista de su picnic nostru",
+      "sheetHow": "Sinna ogni cosa cando la pones in sa cesta. Usa sas rigas bòidas pro cale si siat àtera cosa chi cheres portare.",
+      "sheetToPack": "A pònnere in sa cesta"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Sèbera dae duas a dexi photos tuas pro cumintzare su libru.",
+      "guidance": "Gira sas paginas paris, cun sos butones o sas teclas de frecha Manca e Dereta. Iscrie-nde calchi paràula sutta de una foto si cheres. Nudda de ce faghes no est sarvadu nen imbiadu.",
+      "lookGuidance": "Mira ogni pàgina paris. Podes chistionare o isceti miraresi.",
+      "intro": "Sèbera dae duas a dexi fotos de custu dispositivu. Ognuna diventat una pàgina de unu libru chi podes girare paris.",
+      "consent": "Imprea fotos de sa famìlia tua. Dimanda prima si ses impreende una foto de unu chi non podet narrer de sí.",
+      "privacy": "Sas fotos tuas restant in custu dispositivu. Non sunt carrigadas nen sarvadas.",
+      "choose": "Sèbera fotos",
+      "chooseDifferent": "Sèbera fotos diferentes",
+      "backToBook": "Torra a su libru",
+      "backToChoose": "Torra a sa sèberta de fotos",
+      "needTwo": "Sèbera a su mancu duas fotos.",
+      "usingFirst": "Impreende sas primas {max} fotos.",
+      "cleared": "Su libru est bòidu. Sèbera fotos pro cumintzare de nou.",
+      "moved": "Torradu a sa pàgina {n}.",
+      "pageOf": "Pàgina {n} de {total}",
+      "lookTogether": "Mira paris",
+      "leaveLook": "Torra a su libru",
+      "print": "Stampa su libru de sa famìlia",
+      "clear": "Bòida su libru",
+      "bookLabel": "Su libru de sa famìlia",
+      "pagesLabel": "Gira sas paginas",
+      "previous": "Pàgina pretzedente",
+      "next": "Pàgina sighente",
+      "moveEarlier": "Mòvi a segus",
+      "moveLater": "Mòvi a suta",
+      "captionLabel": "Calchi paràula pro custa pàgina, si cheres",
+      "captionHelp": "Finz'a 80 caràteres. Sas didascalias restant isceti in custa pàgina e si perdent cando serras.",
+      "sheetTitle": "Su libru nostru de fotos",
+      "sheetHow": "Una foto pro pàgina, cun sas paràulas suta. Gira sas paginas in ordine e chistiona de ognuna.",
+      "sheetEmpty": "Sèbera sas fotos tuas in sa pàgina de sos giogos pro stampare su libru tuo, o stampa custa pàgina bòida e apica-nde una foto stampada.",
+      "sheetFrame": "Apica inoghe una foto stampada",
+      "sheetWords": "Calchi paràula pro custa pàgina",
+      "skipped": {
+        "one": "{n} archìviu no fiat una foto chi podimus impreende.",
+        "other": "{n} archìvios no fiant fotos chi podimus impreende."
+      }
+    },
+    "quietScene": {
+      "guidance": "Mira una imagine a sa borta. Incarca Sighente o Pretzedente cando ses prontu. Nudda si movet a solu.",
+      "next": "Imagine sighente",
+      "previous": "Imagine pretzedente",
+      "bigPicture": "Imagine prus manna",
+      "showEverything": "Mustra totu",
+      "first": "Custa est sa primu imagine.",
+      "last": "Custa est s'ùltima imagine.",
+      "lines": {
+        "sunrise": "Su sole est pesende subra sa terra.",
+        "window-with-birds": "Aves foras de sa fenèstra.",
+        "vase-of-flowers": "Unu vasu de fiores in sa mesa.",
+        "teacup": "Una tatza de tè a costa de sa fenèstra.",
+        "tree": "Un'àrbore in mèdiu de s'ortu.",
+        "sailboat": "Una barcheta a vela in s'abba.",
+        "lighthouse": "Unu faro a costa de su mare.",
+        "rainbow": "Un'arcobalenu, dae pois de sa pioza.",
+        "moon": "Sa luna in su chelu de note.",
+        "daisies": "Un'ispiga de margheritas in s'erba.",
+        "rowing-boat": "Una barca a remos in abba chieta.",
+        "potted-plant": "Una pranta birde in d'unu vasu."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Turnades. Toca una pèssia de tàgliu, e a pustis toca unu logu bòidu pro l'ponner inoghe. Nudda de ce faghes no est sarvadu nen imbiadu.",
+      "people": [
+        "Primu chi giogat",
+        "Segundu chi giogat"
+      ],
+      "marks": [
+        "unu tzircu",
+        "unu cuadru"
+      ],
+      "turn": "Est a tue, {person|lower}.",
+      "marked": "Sos pezzos tuos sunt sinnalados cun {mark}.",
+      "boardLabel": "Su tabellone comunu",
+      "placeEmpty": "Logu {n}, bòidu",
+      "placeFilled": "Logu {n}, {picture|lower}, postu dae su {person|lower}",
+      "trayHeading": "Sos pezzos de tàgliu",
+      "chosenLabel": "Sèberadu",
+      "chosen": "{picture} est sèberada. Como toca unu logu bòidu.",
+      "unchosen": "Su pezzu de tàgliu no est prus sèberadu.",
+      "needCutout": "Sèbera prima unu pezzu de tàgliu, e a pustis toca unu logu bòidu.",
+      "filled": "Su logu {n} giai tenet un'imagine. Sèbera unu logu bòidu.",
+      "placed": "{picture} est in su logu {n}. Est a tue, {next|lower}.",
+      "full": "Ogni logu tenet un'imagine. Torra·nde unu a segus pro la cambiare, o cumintza de nou.",
+      "pass": "Passa",
+      "passed": "Passare est bene. Est a tue, {person|lower}.",
+      "takeBack": "Torra s'ùltimu pezzu",
+      "takeBackPass": "Torra s'ùltimu passu",
+      "tookBack": "Su pezzu est torradu. Est a tue, {person|lower}.",
+      "tookBackPass": "Su passu est torradu. Est a tue, {person|lower}.",
+      "restarted": "Su tabellone est bòidu. Est a tue, {person|lower}.",
+      "putBack": "Torra·lu a ponnere",
+      "putBackDone": "Sos pezzos sunt torraos in su tabellone.",
+      "another": "Un'àtera serie de imàgines",
+      "anotherSet": "Una serie noa de pezzos de tàgliu est in sa bandeja. Sos pezzos in su tabellone restant inue sunt.",
+      "print": "Stampa su tabellone",
+      "sheetTitle": "Tabellone de collage",
+      "sheetHow": "Tàglia sas imàgines e turnade a ponnere·las in su tabellone. Un adultu podet fàghere su tàgliu.",
+      "sheetTray": "Sas imàgines de tagliare"
+    },
+    "gardenPlanner": {
+      "guidance": "Toca una imagine, e a pustis toca unu cuadru de ortu pro la ponner inoghe. Toca unu cuadru chi tenet una imagine, cun nudda sèberadu, pro la bogare.",
+      "bedsLabel": "Sos cuadros de ortu",
+      "bedEmpty": "Cuadru {n}, bòidu",
+      "bedFilled": "Cuadru {n}, {picture|lower}",
+      "plantsHeading": "Prantas",
+      "extrasHeading": "Cosas de ortu",
+      "chosenLabel": "Sèberadu",
+      "chosen": "{picture} est sèberada. Como toca unu cuadru.",
+      "unchosen": "Nisciuna imagine no est sèberada.",
+      "needPicture": "Tria prima una imàgine, pustis toca un'àrea.",
+      "planted": "{picture} est in àrea {n}.",
+      "replaced": "{picture} leat su logu de s'imàgine in àrea {n}.",
+      "cleared": "S'àrea {n} est vòida. Si cheres s'imàgine un'àtra borta, ponela a pòstu.",
+      "restarted": "Totu is àreas sunt vòidas.",
+      "putBack": "Torra a pòstu",
+      "putBackDone": "Is imàgines sunt torradas in is àreas issoro.",
+      "summaryHeading": "S'ortu meu",
+      "summary": "Su pranu tuo tenet {list}.",
+      "summaryNone": "Non b'at ancora peruna imàgine in un'àrea.",
+      "and": "e",
+      "print": "Istampa su pranu",
+      "sheetTitle": "Su pranu nostru de s'ortu",
+      "sheetHow": "Is àreas mostrant is imàgines sceltas in s'ischermu. Disegna in is àreas vòidas si ti praghet.",
+      "sheetNotes": "Notas",
+      "notice": "Custu est unu pranu de imàgines pro chistionare, non consizos de piantare."
+    },
+    "coloringWall": {
+      "guidance": "Tria una imàgine e cantas pàginas boles. Istampa su muru, e cada persone colorat una o prus pàginas. Nudda non est cronometradu, punteadu nè sarvadu.",
+      "pictureLegend": "Imàgine",
+      "sizeLegend": "Cantas pàginas",
+      "sizes": {
+        "2x2": "4 pàginas (2 x 2)",
+        "3x2": "6 pàginas (3 x 2)",
+        "3x3": "9 pàginas (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} divididu in {n} pàginas, {across} a largu e {down} a fundu. Cada pàgina tenet una tichetta in s'àngulu.",
+      "previewCaption": "Sa imàgine cun is lìneas de is pàginas e is tichettas disegnadas subra.",
+      "labelsNote": "Is lettoras benint a fundu in su muru e is nùmeros benint a largu in su muru, duncas A1 est sa pàgina de subra a manca.",
+      "wallHeading": "Gai si ponet a pare su muru",
+      "steps": [
+        "Istampa totu is pàginas. Sa primma pàgina tenet custas indicatziones e una mapa de su muru.",
+        "Cada persone pigat una o prus pàginas e las colorat.",
+        "Is colores e is istilos non tenent a èssere a paris. Cada pàgina est parte de sa matessi imàgine.",
+        "Pone is pàginas in ordine segundu is tichettas, pustis ùnelas cun nastru adesivu in sa parte de segus.",
+        "Ponet su muru in logu inue totus lu podent bìdere."
+      ],
+      "mapLabel": "Una mapa de su muru: {down} filas de {across} pàginas, tichettadas dae A1 a {last}.",
+      "edgeNote": "Sa linea a trattos signat s'orìllu de cada pàgina. Pone is pàginas orìllu cun orìllu, o ponet·las unu pagu subra de s'àtera.",
+      "pictureLine": "Imàgine: {picture}. Custu muru est {n} pàginas: {across} a largu e {down} a fundu.",
+      "print": "Istampa su muru"
+    },
+    "findTogether": {
+      "guidance": "Pigade a turnu. Cando est su turnu tuo, girade duas cartas pro chircare unu paru. Agatade is paris a pare.",
+      "sizeLegend": "Cantas cartas",
+      "size": "{n} cartas",
+      "viewLegend": "Gai si giogat",
+      "viewShowing": "Giogade cun is imàgines a bista",
+      "viewHidden": "Cartas cara a suta",
+      "people": [
+        "Sa primma persone",
+        "Sa segunda persone"
+      ],
+      "turn": "Turnu: {person}",
+      "turnDone": "Totus is paris sunt agatados.",
+      "tally": "Paris agatados a pare: {n}",
+      "cardNamed": "{name}, carta {n}",
+      "cardFaceDown": "Carta {n}, cara a suta",
+      "first": "{name}. Como gira una segunda carta.",
+      "found": "{name}: unu paru, agatadu a pare. Como est su turnu de {next|lower}.",
+      "allTogether": "Agatastes totus is paris a pare.",
+      "different": "{a} e {b} sunt diferentes. Pigade su tempus, pustis preme «Torra a suta».",
+      "waiting": "Preme «Torra a suta» cando ses prontu. Pustis passat su turnu.",
+      "turnedBack": "Giradas a suta. Como est su turnu de {person|lower}.",
+      "passed": "Est bene a passare. Como est su turnu de {person|lower}.",
+      "turnBack": "Torra a suta",
+      "pass": "Passa",
+      "playAgain": "Giogade un'àtra borta"
+    },
+    "drawingDuet": {
+      "guidance": "Pigade a turnu, una lìnea cada una, pustis passade sa pinna. Cale persone podet passare. Nudda est mandadu in logu. Un'imàgine essit de custa pàgina petzi si la sarvades.",
+      "people": [
+        "Sa primma persone",
+        "Sa segunda persone"
+      ],
+      "colorLegend": "Colore de {person}",
+      "colors": [
+        "Grogu",
+        "Aranzada",
+        "Birde",
+        "Morada"
+      ],
+      "turn": "Turnu de {person}",
+      "penColor": "Colore de sa pinna: {color}.",
+      "canvasLabel": "Disegnu cumpartidu, {n} lìneas finora",
+      "canvasLabelOne": "Disegnu cumpartidu, {n} lìnea finora",
+      "keys": "Is tastos cun sa saèta movent su puntu de sa pinna subra su disegnu. Su spàtziu pone sa pinna in carta o la lèvat.",
+      "penDown": "Pinna in carta",
+      "penUp": "Pinna lèvada",
+      "pass": "Passa sa pinna",
+      "passed": "Est bene a passare. Est su turnu de bois, {person|lower}.",
+      "takeBack": "Lèva s'ùltima lìnea mea",
+      "tookBack": "Est lèvada s'ùltima lìnea de {person|lower}.",
+      "noLine": "Non b'at peruna lìnea de {person|lower} de lèvare.",
+      "restarted": "Su fogliu est nettu. Sa primma persone tenet su turnu. Si no l'ais cherfidu, torra la a pòstu.",
+      "putBack": "Torra a pòstu",
+      "restored": "Is lìneas sunt torradas gai comente fiant.",
+      "save": "Sarva s'imàgine",
+      "saved": "S'imàgine tua est prònta. Imprea su ligòngiu de iscarrigada pro la tènnere in custu dispositivu.",
+      "download": "Iscarriga drawing-duet.png",
+      "print": "Istampa sa versione in carta",
+      "sheetTitle": "Duetu de disegnu",
+      "paperRules": "Duas persones, unu fogliu, duas pinnas. Pigade a turnu: una lìnea o forma cada una, pustis passade sa pinna. Cale persone podet passare. Non b'at imàgine giusta."
+    },
+    "colorWash": {
+      "guidance": "Pinta colores suaves in totu sa pàgina, unu lavatu a sa borta. Lèva su pinzellu pro firmare, e firma cando boles. Nudda est sarvadu nè mandadu.",
+      "colorLegend": "Colore de su lavatu",
+      "sizeLegend": "Mannària de su pinzellu",
+      "colors": [
+        "Grogu",
+        "Aranzada",
+        "Birde",
+        "Morada"
+      ],
+      "sizes": {
+        "wide": "Largu",
+        "veryWide": "Tropu largu"
+      },
+      "color": "Colore de su lavatu: {color}.",
+      "brushDown": "Pinzellu in carta",
+      "brushUp": "Pinzellu lèvadu",
+      "keys": "Is tastos cun sa saèta movent su cìrculu de su pinzellu subra de sa pàgina. Su spàtziu pone su pinzellu in carta o lu lèvat.",
+      "canvasLabel": "Una pàgina de lavados de colore suave",
+      "fresh": "Pàgina noa",
+      "freshMessage": "Pàgina noa.",
+      "putBack": "Torra a pòstu",
+      "restored": "Sa pàgina est torrada."
+    },
     "sortTogether": {
       "guidance": "Toca una figura, a pustis toca su canisteddu in ue andat.",
       "restart": "Figuras noas",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} diat pòdere andare in \"{basket}\". Toca cussu canisteddu pro lu pònnere in cue.",
       "placed": "{name|lower} est in \"{basket}\".",
       "sorted": "Est totu ordinadu. Mirade sos canisteddos paris, o proade un'àteru tema.",
+      "largerTargets": "Bersàgios prus mannos",
+      "largerOn": "Is bersàgios prus mannos sunt in funtzione. Nudda est mòvidu.",
+      "largerOff": "Is bersàgios prus mannos non sunt in funtzione. Nudda est mòvidu.",
+      "largerOnNewRound": "Is bersàgios prus mannos sunt in funtzione, cun duas cestas. Custas sunt imàgines noas pro ordinare.",
       "basket": {
         "one": "Canisteddu {basket}, {count} figura a intru",
         "other": "Canisteddu {basket}, {count} figuras a intru"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Toca unu cantu, a pustis toca un'àteru. Si càmbiant de postu.",
-      "restart": "Mèschia torra",
+      "restart": "Mix up again",
       "pictureLegend": "Figura",
       "pictures": {
         "sailboat": "Barca a vela",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Sa figura intrenca: {name}",
       "guideText": "Gasi paret sa figura cando est intrenca.",
+      "ownChoose": "Imprea sa foto tua",
+      "ownChange": "Tria un'àtera foto",
+      "ownBack": "A is imàgines nostras",
+      "ownPrivacy": "Sa foto tua restat in custu dispositivu. Non b'est carrigada nè sarvada.",
+      "ownConsent": "Imprea is fotos tuas. Dimanda pèrmissu prima de imprear una foto de cale persone chi non podet nàrrere de sì.",
+      "ownWorking": "Sa foto tua est in preparu.",
+      "ownNotUsable": "Custu archìviu non podiat èssere impreadu. Tria unu archìviu de foto, gai comente JPEG o PNG.",
+      "ownAlt": "Sa foto tua",
+      "ownPiece": "Pedatzu {n}, {place}",
+      "ownWhole": "Sa foto tua est torrada intrea. Torra a mìschere cada borta chi boles.",
+      "ownSheetTitle": "Sa foto tua in pedatzos",
+      "ownSheetHow": "Tàgia segundu is lìneas. Misca is pedatzos, pustis càmbia duos pedatzos a una borta fintzas a chi sa imàgine est intrea.",
       "piece": "Cantu in {place}",
       "pieceInPlace": ", a su postu giustu",
       "piecePickedUp": ", pigadu",
@@ -122,7 +786,7 @@
         "in bàsciu a dereta"
       ],
       "done": "Sa figura est intrenca torra. Gioga torra o faghe una pàusa.",
-      "playAgain": "Mèschia torra"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Leghide su ditzu paris, a pustis tocade su faeddu chi lu cumprit.",
@@ -190,6 +854,14 @@
       "guidance": "Leghide sa carta a boghe arta. No b'at rispostas giustas.",
       "position": "Carta {n} de {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Ammustra un'incitu pro chistionare",
+      "bigPicture": "Imàgine manna, pro unu grupu",
+      "passNote": "Cale persone podet passare.",
+      "groupTitle": "Passare una carta in unu grupu",
+      "groupSit": "Sedide in cerchiu inue totus bident s'imàgine. Sa persone chi tenet sa carta, o su dispositivu cun s'imàgine manna, leghet a boche arta s'incitu primu.",
+      "groupPass": "Pustis passade sa carta a sa persone chi sighit. Cada persone narat una paràula o una frase subra de s'imàgine, pustis la passat.",
+      "groupNoSpeech": "Passare sa carta est semper permitidu. Una persone podet passare chene de narrare nudda, e nemos tenet de nàrrere su motivu.",
+      "groupEnd": "Su giru finit cando sa carta at fatu su tzirculu, o cando su grupu est istracu. Nemos no bincet. Firmare cando su grupu bolet.",
       "next": "Carta imbeniente",
       "previous": "Carta colada",
       "print": "Imprenta totu sas cartas",
@@ -252,6 +924,20 @@
       "started": "Incumentzadu. Respirade a intro cando su chircu si faghet prus mannu.",
       "stopped": "Firmadu.",
       "finished": "Custas fiant ses respiradas lentas. Podides torrare a comintzare cando cherides."
+    },
+    "storyChain": {
+      "guidance": "A turnos: una frase pro cada unu, e agiunghere s'immàgine chi sighit.",
+      "passNote": "Narrare sa frase a boche forte. Nudda no si iscrit nè si sarvat. Chie cheret podet passare su turnu.",
+      "chainLabel": "Sa catena finas a como",
+      "item": "Immàgine {n}: {name}",
+      "add": "Agiunghere un'immàgine",
+      "fullAdd": "Sa catena est piena. Cumintzare una catena noa",
+      "newChain": "Cumintzare una catena noa",
+      "takeOff": "Bogare s'ùltima",
+      "added": "Agiuntu in fine de sa catena: {name|lower}.",
+      "removed": "Bogadu dae sa catena: {name|lower}.",
+      "fresh": "Catena noa, cumintzada dae: {name|lower}.",
+      "full": "Sa catena tenet totu 8 immàgines. Contare sa storia intrea, o cumintzare una catena noa."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Nue de pròia",
     "snowflake": "Firrincu de nie",
     "kite": "Cometa",
-    "sunrise": "Arvèschida subra sas collinas"
+    "sunrise": "Arvèschida subra sas collinas",
+    "decorated-keepsake-box": "Iscatula decorada",
+    "painted-plant-pot": "Vasu pintadu cun erbas",
+    "repeating-pattern-sheet": "Fògliu cun motivos ripetidos",
+    "music-drawn-lines": "Lìnias disegnadas a sa musica",
+    "paper-boat-afloat": "Barchitta de carta a galla in s'abba",
+    "folded-towel-stack": "Pila de tovallos pieghados",
+    "hand-massage-with-lotion": "Manu posada subra unu tovallu cun crema",
+    "open-photo-album": "Àlbum de fotos abertu",
+    "button-flower-card": "Flore de butones subra carta",
+    "blue-torn-paper-collage": "Collage de carta azzurra lacerada",
+    "family-tree-of-hands": "Àrbore de famìlia disegnada cun sas manos",
+    "open-greeting-card": "Carta de saludos abertu cun coro",
+    "lavender-sachet": "Sacchetu de lavanda legadu cun nastru",
+    "memory-collage-of-photos": "Collage de fotos de famìlia",
+    "paper-chain-garland": "Ghirlanda de catena de carta",
+    "open-songbook-with-notes": "Libru de cantos abertu cun notas",
+    "photo-postcard-with-stamp": "Cartolina cun foto e francobollu",
+    "pine-cone-bird-feeder": "Pastadora de pinna pro aves, pendente dae unu ramu",
+    "playlist-phone-and-card": "Telefonu cun lista de cantos e carta",
+    "sealed-rice-shaker": "Sonajolu de arrosu serradu",
+    "texture-board-with-scraps": "Tàbula de tessuras cun pedatzos",
+    "painted-garden-stone": "Pedra de ortu pintada",
+    "shared-painted-canvas": "Tela pintada impare",
+    "watercolor-washes-sheet": "Lavadas de acuarella subra carta",
+    "seedling-in-pot": "Piantitzas in vasu",
+    "pressed-leaves-in-book": "Fògias pressadas in libru",
+    "printed-leaves-sheet": "Fògliu cun imprentas de fògias",
+    "pinch-pot-clay-bowl": "Iscudedda de argilla",
+    "table-sketch-pencil": "Schizzu a lapis de tatza",
+    "buttons-in-muffin-tin": "Butones ordinados in teglia",
+    "family-recipe-book": "Libru de ricetas de famìlia",
+    "drum-with-beat-marks": "Tamburu de tàula cun baghettas",
+    "torn-paper-flower": "Mosaicu de flore de carta lacerada",
+    "window-with-birds": "Fenestra cun aves",
+    "woven-paper-mat": "Istoja de carta tessida",
+    "yarn-ball-with-thread": "Bòlla de lana",
+    "letter-and-envelope": "Littera in busta"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Foras in giru"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Frutta",
+        "animals": "Animales",
+        "travel": "Modos de biaggiare",
+        "flowers": "Frores",
+        "hot-drinks": "Cosas pro bevanda calda",
+        "weather": "Tipos de tempus",
+        "baked": "Cosas coghidas in fornu"
       }
     }
   }

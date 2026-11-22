@@ -5,6 +5,13 @@
       "stopReading": "Gyae kenkan",
       "region": "Agodi",
       "restart": "Fi ase bio",
+      "rest": "Fa ahome ma ɛberɛ yi",
+      "restingTitle": "Ɛreho ahome",
+      "restingText": "Fa bere a ɛsɛ ma wo. Wo beaeɛ bɛda hɔ wɔ saa kratafa yi so.",
+      "resume": "Kɔ so",
+      "placeText": "Woagyaw wo ho bere a woreyɛ no ɛtwa to. Kɔ so firi hɔ, anaa fi ase foforo.",
+      "placeResume": "Kɔ so",
+      "placeFresh": "Fi ase foforo",
       "soundOn": "Dwoodwoo nne aso",
       "soundOff": "Dwoodwoo nne asɛe",
       "done": "Awie ɛnnɛ",
@@ -43,7 +50,19 @@
       "viewShowing": "Mfonini a wɔda so",
       "viewHidden": "Mfonini a wɔakata",
       "playAgain": "Yɛ bio wɔ mfonini foforo so",
-      "talk": "Ka mfonini ho asɛm bom"
+      "talk": "Ka mfonini ho asɛm bom",
+      "modeLegend": "Mfonini bɛn",
+      "modePlay": "Mfonini biara",
+      "modeDaily": "Ɛnnɛ kaad",
+      "dayLegend": "Da bɛn",
+      "dayHelp": "Obiara nya mfonini koro ara wɔ da koro mu. Da a atwam nso wɔ ha, na sɛ wogyae da bi a, ɛnyɛ ɔhaw biara.",
+      "guidanceDaily": "Ɛnnɛ kaad no wɔ mfonini mmienu-mmienu anan. Tɔ mfonini bi, afei tɔ no a ɛne no pɛ.",
+      "restartDaily": "Fi kaad yi ase bio",
+      "copy": "Kopi saa asɛm yi",
+      "copied": "Wɔakopi. Wɔnsoma biara nkɔ baabi.",
+      "calendarTitle": "Ɛnnɛ kaad, {month}",
+      "calendarHelp": "Da biara wɔ mfonini anan a ɛyɛ pɛ ma obiara. Wɔnnyan mmɔdensɛm biara, na wɔnnkyerɛ da biara sɛ wɔagyaw.",
+      "calendarVersion": "Mmaeɛ {date}. Mfonini no yɛ pɛ ma obiara wɔ da koro mu."
     },
     "choose": {
       "countLegend": "Mfonini dodow a wɔbɛpaw",
@@ -62,6 +81,635 @@
       "shadowAlt": "Esum a wɔbɛtoa so",
       "foundAlt": "Esum a ɛfiri {name|lower} mu"
     },
+    "fourTogether": {
+      "hintLegend": "Akwankyerɛ",
+      "hintOn": "Akwankyerɛ bere a woatwa to",
+      "hintOff": "Akwankyerɛ biara nni hɔ",
+      "guidance": "Hwehwɛ mfonini {n} a ɛkɔ ho pɛ, na tɔ biara.",
+      "countLegend": "Mfonini dodow",
+      "count": "Mfonini {n}",
+      "found": "Yiw, {name|lower} wɔ saa kuw yi mu.",
+      "elsewhere": "{name|lower} kɔ ho ne biribi foforo. Fa bere.",
+      "hint": "Akwankyerɛ: hwehwɛ {theme|lower}.",
+      "together": "Wɔn ne ho kɔ: {theme}.",
+      "shown": "Yei ne kuw no: {theme}.",
+      "groupName": "Ho kɔ: {theme}",
+      "show": "Kyerɛ me kuw no",
+      "next": "Nea foforo"
+    },
+    "oddOneOut": {
+      "hintLegend": "Akwankyerɛ",
+      "hintOn": "Akwankyerɛ bere a woatwa to",
+      "hintOff": "Akwankyerɛ biara nni hɔ",
+      "guidance": "Hwehwɛ mfonini a ɛnkɔ ne nkaeɛ no ho, na tɔ no.",
+      "countLegend": "Mfonini dodow",
+      "count": "Mfonini {n}",
+      "belongs": "{name|lower} kɔ ho ne nkaeɛ no ho. Fa bere.",
+      "found": "Yiw, {name|lower} ne mfonini a ɛnkɔ ho. Nkaeɛ no yɛ {theme|lower}.",
+      "shown": "Yei ne: {name|lower}. Nkaeɛ no yɛ {theme|lower}.",
+      "hint": "Akwankyerɛ: {n} a wɔ mu no yɛ {theme|lower}.",
+      "others": "Nkaeɛ no: {theme}",
+      "show": "Kyerɛ me",
+      "next": "Nea foforo"
+    },
+    "seatedToss": {
+      "guidance": "Fa wo ho to ntwa so, na mo bɛnnɛ mo bɛtɔ akatua ketewa bi wɔ pampam kɛse no mu. Kyerɛw mo nkontaabu wɔ pampam so, bom.",
+      "stepsHeading": "Sɛnea ɛyɛ",
+      "steps": [
+        "Prin akyerɛdifo ne nkontaabu pampam, na de too ntwa no so wɔ mo ntam.",
+        "Fa wo ho ma ɛyɛ wo yie, wo baako wɔ mpɔtam biara so. Tɔ bɔkɔ biara mmɔ bere so, anaa gyaw sɛ wopɛ.",
+        "Sɛ akatua no kɔ ntam bi mu a, nea ɔtɔɔ no to ase ntam wɔ ne kɔlɔm mu, wɔ ntam no kwan so.",
+        "Sɛ mo pɛ a, hwɛ nkontaabu no bom bere a mo gyae. Obiara nhia sɛ ɔbɛka biara.",
+        "Gyae bere biara a obiara wɔ ho ayɛ no."
+      ],
+      "safetyHeading": "Ahobammɔ",
+      "safetyLine": "Fa akatua a kɔbɔ no asiw hɔ anaa sɔks a wɔakunkum ara nko, tena ase, nnto aniwa so, na ma opanyin bi nka ho. Nneɛma kakra kakra nso yɛ akyɛnsɛm a ɛbɛma obi agugu.",
+      "flags": [
+        "Ɛnnyɛ ma wɔn a wɔn afe ne 3 ase: nneɛma kakra kakra",
+        "Mma nneɛma nkɔ anom"
+      ],
+      "safety": [
+        "Fa akatua a kɔbɔ no asiw hɔ, anaa sɔks a wɔakunkum. Hwɛ ho ansa na wode di so, na hwɛ sɛ ɛwɔ abɔnten anaa nkɔnsɔ biara a, na nneɛma ntwa.",
+        "Nneɛma kakra kakra te sɛ akatua, bayerɛ ne nneɛma foforo a wɔde ma no yɛ akyɛnsɛm a ɛbɛma obi agugu. Fa nneɛma yi kɔ ankasa nkyɛn mmofra ne obiara a ɔde nneɛma kɔ anom.",
+        "Tena nkyɛn nea wobɛtumi atwe, na hwɛ yie sɛ biribi bɛkɔ anom.",
+        "Tena ase. Tɔ no ntɛm, na tɔ akatua no kɔ pampam so wɔ ntam, na mmom nkɔ anifuo so."
+      ],
+      "previewLabel": "Akyerɛdifo a wɔaprin: ɛwɔ ntam abiɛsa a wɔfrɛ no Nea Ɛbɛn, Mfinimfini ne Nea Ɛda So, firi akyiri kɔ mfinimfini mu, ne nkontaabu bi a ɛwɔ obi biara akɔnnɔ ne mpɔtam biara a ɛnni nsɛnkyerɛ.",
+      "sheetHow": "Ma pampam no ntɔ ntam wɔ mo ntam. Sɛ akatua bi kɔ ntam a, tɔ bɔkɔ wɔ wo kɔlɔm mu, wɔ ntam no kwan so.",
+      "rings": [
+        "Nea Ɛbɛn",
+        "Mfinimfini",
+        "Nea Ɛda So"
+      ],
+      "people": [
+        "Obi a ɛdi kan",
+        "Obi a ɛto so mmienu"
+      ],
+      "ringHeading": "Ntam",
+      "print": "Prin akatua ntam ne nkontaabu pampam"
+    },
+    "seasonalPack": {
+      "guidance": "Paw bosome, prin nhwɛsoɔ abiɛsa a ɛwɔ hɔ ma no, na yɛ baako, mmienu anaa nyinaa bom.",
+      "monthLegend": "Paw bosome",
+      "months": [
+        "Janawaarɛ",
+        "Febrewarɛ",
+        "Maasi",
+        "Epreel",
+        "Me",
+        "Juun",
+        "Julai",
+        "Ogyɛst",
+        "Sɛptɛmba",
+        "Ɔktoba",
+        "Nɔvɛmba",
+        "Disɛmba"
+      ],
+      "monthNote": "Bosome biara wɔ ne mfonini ankasa. Asɛmfua no bue saa bosome yi, na wobetumi apaw biribiara foforo.",
+      "restDay": "Ɛnnɛ yɛ ɔdwo da",
+      "restLine": "Nhwɛsoɔ biara nni hɔ ɛnnɛ. Ɔdwo da nso yɛ da pa.",
+      "previewHeading": "Nhwɛsoɔ abiɛsa no",
+      "puzzles": {
+        "pairs": {
+          "title": "Bɔ mmienu a wɔpɛ",
+          "how": "Twa kɔkɔɔ fi mfonini biara a ɛwɔ soro ɔpɔ no so kɔ mfonini a ɛte saa no a ɛwɔ ase no so.",
+          "describe": "Nkyekyɛmu mmienu a ɛwɔ mfonini anan a ɛte saa, nanso wɔahyehyɛ wɔn foforo."
+        },
+        "different": {
+          "title": "Ɛden na ɛnyɛ saa?",
+          "how": "Kɔkɔ ho ka mfonini a ɛnyɛ mfonini abiɛsa no ho.",
+          "describe": "Ɔkwan a ɛwɔ mfonini anan. Abiɛsa no te saa, nanso baako nyɛ saa."
+        },
+        "color": {
+          "title": "Fa kɔlɔ ma no",
+          "how": "Fa kɔlɔ ma mfonini no sɛnea wopɛ, fa kɔlɔpɛn anaa pɛnsel.",
+          "describe": "Mfonini kɛse baako a wɔde kɔlɔ ma."
+        }
+      },
+      "print": "Prin bosome yi nhwɛsoɔ",
+      "sheetHow": "Prin kratafa baako. Yɛ nhwɛsoɔ baako, mmienu anaa nyinaa, wɔ biribiara ntam.",
+      "printFooter": "Yɛ baako, mmienu anaa nyinaa. Gyae bere biara a wopɛ."
+    },
+    "decorateACard": {
+      "guidance": "Paw ɔberɛ bi, na fa kɔlɔpɛn anaa pɛn ayɛ kaad bi bom. Kaad a ɛfata biara nni hɔ.",
+      "occasionLegend": "Paw ɔberɛ bi",
+      "occasions": {
+        "birthday": {
+          "label": "Da a wɔwoo wo",
+          "words": "Afmaeɛ anigye"
+        },
+        "thank-you": {
+          "label": "Medaase",
+          "words": "Medaase"
+        },
+        "thinking-of-you": {
+          "label": "Mesusuw wo",
+          "words": "Mesusuw wo"
+        },
+        "new-season": {
+          "label": "Bere foforo",
+          "words": "Bere foforo"
+        },
+        "just-because": {
+          "label": "Ɛnyɛ bi nti",
+          "words": "Ɛnyɛ bi nti"
+        }
+      },
+      "stepsHeading": "Sɛnea mo bɛkɔ kaad no ho bom",
+      "steps": {
+        "fold": "Prin kaad no, na twa no mfinimfini wɔ kɔkɔɔ akwan no so, na kaad no anim nka akyirikyiri.",
+        "front": "Obi baako kɔlɔ kaad no anim, ɛmfa nkyɛn ne nsɛm no.",
+        "inside": "Obi a aka no kɔlɔ kaad no akyi, anaa mo bɛnnɛ mo bɛkɔlɔ ɔfa baako so.",
+        "message": "Kyerɛw asɛm bom. Obi baako bɛtumi akyerɛw bere a obi foforo rekyerɛ nsɛm no.",
+        "stop": "Gyae bere biara a wopɛ. Kaad a ɛyɛ mmerɛ nni hɔ, na kaad a ɛyɛ kakra no nso yɛ pa."
+      },
+      "materials": "Fa kɔlɔpɛn, pɛnsel anaa felt-tip pɛn de. Ɛnhia sɛ woteɛ, wodi, anaa wode ɛka ho.",
+      "previewLabel": "Kaad a wɔatwa mfinimfini no nhwɛso. Anim no kyerɛ {words}, ne nkaeɛ bi a ɛyɛ nhaban ne nnoboɔ. Akyi no wɔ nsɛm ma asɛm ne baabi a ɛkyerɛ Firi.",
+      "from": "Firi",
+      "sheetHow": "Pae kaad no mfinimfini wɔ akwan a wɔatwa no so, na kaad no anim wɔ ne so. Kyerɛw nkra no wɔ kaad no akyi.",
+      "rulesHeading": "Ma nnipa mmienu",
+      "sheetRules": [
+        "Momfa adwuma no nkyɛ: obi bɛyɛ kaad no anim, na obi foforo nyɛ akyi.",
+        "Mo mmienu nkyerɛw nkra no, anaa obi kyerɛw deɛ obi foforo ka.",
+        "Obiara bɛtumi agyae bere biara. Kaad pa biara nni hɔ."
+      ],
+      "print": "Prin kaad no"
+    },
+    "storyDice": {
+      "guidance": "Hwɛ mfonini no na fa abakɔsɛm ka wɔ ho, wɔ nsusuwii biara so. Abakɔsɛm pa biara nni hɔ.",
+      "countLegend": "Dɔmpa dodow",
+      "count": "{n} dɔmpa",
+      "roll": "Tow bio",
+      "pass": "Gyae",
+      "passed": "Gyae yɛ mu. Nea ɛdi hɔ bɛfi ase, anaa wobetow bio.",
+      "rolled": "Mfonini foforo: {names}.",
+      "tapped": "{name}. Fi saa no ase, anaa biribi foforo."
+    },
+    "wordPicture": {
+      "guidance": "Fa mfonini bi, afei nsɛm a ɛka ne din no. Anaa fa nsɛm bi, afei ne mfonini no.",
+      "countLegend": "Mfonini dodow",
+      "count": "{n} mfonini",
+      "picturesGroup": "Mfonini",
+      "wordsGroup": "Nsɛm",
+      "readWord": "Kenkan so: {name}",
+      "next": "Mfonini foforo",
+      "putBack": "Sane fa no",
+      "pickWord": "Afei, fa nsɛm a ɛne no ka ho no.",
+      "pickPicture": "Afei, fa mfonini a ɛne no ka ho no.",
+      "fit": "Yiw, saa nsɛm yi ne {name|lower} ka ho.",
+      "newSet": "Yi ne mfonini foforo a wɔahyehyɛ.",
+      "restarted": "Yɛasan akɔ mfitiase. Mfonini ne nsɛm nyinaa adi kɔ bio, wɔ mfiri mu.",
+      "restored": "Wɔasan de aba. Mfonini ne nsɛm a ɛfata nyinaa wɔ hɔ bio.",
+      "all": "Nsɛm biara wɔ ne mfonini."
+    },
+    "colorMatch": {
+      "guidance": "Hwɛ kɔla no ne ne din, afei fa mfonini nyinaa a ɛyɛ saa kɔla no.",
+      "target": "Kɔla no ye {color|lower}. Fa mfonini biara a ɛyɛ {color|lower} no.",
+      "countLegend": "Mfonini dodow",
+      "count": "{n} mfonini",
+      "found": "Yiw, {name|lower} no yɛ {color|lower}.",
+      "named": "{name|lower} no yɛ {color|lower}.",
+      "all": "Saa ne {color|lower} mfonini nyinaa.",
+      "shown": "Yi ne {color|lower} mfonini no.",
+      "show": "Kyerɛ wɔn",
+      "next": "Kɔla foforo",
+      "names": {
+        "red": "Kɔkɔɔ",
+        "orange": "Ɔrenji",
+        "yellow": "Akyerɛyɛ",
+        "green": "Ahabammɔ",
+        "blue": "Bluu"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Fa ɛfã a ɛwɔ benkum fam, afei fa ɛfã a ɛwɔ nifa fam a ɛbɛfata no.",
+      "countLegend": "Mfonini dodow",
+      "count": "{n} mfonini",
+      "leftGroup": "Ɛfã a ɛwɔ benkum fam",
+      "rightGroup": "Ɛfã a ɛwɔ nifa fam",
+      "left": "{name|lower} no benkum fã",
+      "right": "{name|lower} no nifa fã",
+      "joined": "Wɔadi ho",
+      "pickRight": "Afei, fa ɛfã a ɛwɔ nifa fam a ɛbɛfata no.",
+      "pickLeft": "Afei, fa ɛfã a ɛwɔ benkum fam a ɛbɛfata no.",
+      "fit": "Yiw, saa mmienu yi yɛ {name|lower}.",
+      "apart": "Saa mmienu yi nka ho. Sɔ bio.",
+      "all": "Mfonini biara yɛ ne ankasa.",
+      "shown": "Yi ne mfonini a wɔadi ho no.",
+      "show": "Kyerɛ me",
+      "next": "Nhyehyɛe foforo"
+    },
+    "colorByNumber": {
+      "guidance": "Fa kɔla bi fi nkyerɛkyerɛ no mu, afei fa ɛkɔ sikwe biara mu. Kɔla biara yɛ.",
+      "sizeLegend": "Sikwe kɛseɛ",
+      "size": "{n} x {n}",
+      "keyLegend": "Kɔla",
+      "colors": [
+        "Akyerɛyɛ",
+        "Ɔrenji",
+        "Ahabammɔ",
+        "Pɛpuru"
+      ],
+      "motifs": {
+        "house": "fie bi",
+        "flower": "ɔbɔbɔ bi",
+        "heart": "akoma bi",
+        "tree": "dua bi",
+        "boat": "ɔkwan bi a wɔde mpoma",
+        "pot-plant": "ɔhaw bi a ɛwɔ kuruwa mu"
+      },
+      "region": "Mfonini sikwe, {n} x {n}. Sɛ ɔdan no yɛ tẽ a, ɛbɛtu nifa-benkum.",
+      "cell": "Dodow {number}, nsaano {row}, kɔlɔm {column}, {color}",
+      "empty": "ɛnni biribiara",
+      "chose": "{name} ayi. Fa sikwe bi ma ɛdi mu.",
+      "painted": "{name} wɔ nsaano {row}, kɔlɔm {column} mu.",
+      "sheet": "Sikwe biara wɔ ne dodow kɔla. Eyi ne mfonini a ɛwɔ krataa no so: {name}.",
+      "own": "Sikwe biara adi mu. Eyi ne wo ankasa mfonini.",
+      "fillAll": "Fa dodow no yɛ kɔla",
+      "filledAll": "Sikwe a ɛnni biribiara nyinaa wɔ ne dodow kɔla afei.",
+      "clear": "Tu fi",
+      "cleared": "Nhyehyɛe no atu fi.",
+      "next": "Mfonini foforo",
+      "fresh": "Yi ne mfonini foforo a wobɛkɔla."
+    },
+    "patternMaker": {
+      "guidance": "Fa sikwe bi ma ne kɔla sesa. Wo nhyehyɛe bɛtrɛw ne nkyɛn. Biribiara a wobɛyɛ no nnsie na wɔnsoma.",
+      "sizeLegend": "Ɛkyɛ kɛseɛ",
+      "size": "{n} x {n}",
+      "keyLegend": "Kɔla, sɛnea wɔsesa no",
+      "colors": [
+        "Akyerɛyɛ",
+        "Ɔrenji",
+        "Ahabammɔ",
+        "Pɛpuru"
+      ],
+      "tileLabel": "Wo ɛkyɛ",
+      "region": "Wo ɛkyɛ, {n} x {n}. Sɛ ɔdan no yɛ tẽ a, ɛbɛtu nifa-benkum.",
+      "patternLabel": "Wo nhyehyɛe",
+      "pattern": "Wo nhyehyɛe: wo ɛkyɛ wɔ anafo {n} ne fam {n}.",
+      "square": "Nsaano {row}, kɔlɔm {column}, {color}",
+      "changed": "Nsaano {row}, kɔlɔm {column} ayɛ {color} afei.",
+      "cleared": "Ɛkyɛ no atu fi. Wobetumi asan de aka.",
+      "surprise": "Ma me ani agye",
+      "surprised": "Yi ne ɛkyɛ foforo. Wobetumi asan de tẽ no aka.",
+      "putBack": "San de aka",
+      "restored": "Wo ɛkyɛ asan aba sɛnea ɛteɛ kan no.",
+      "print": "Prin me nhyehyɛe no",
+      "sheetTitle": "Me nhyehyɛe"
+    },
+    "buildTogether": {
+      "guidance": "Monyɛ kwan, obiara de nneɛma bi ka baabi a ɛnni biribiara. Obiara wɔ ne kɔla. Biribiara a wobɛyɛ no nnsie na wɔnsoma.",
+      "sizeLegend": "Sikwe kɛseɛ",
+      "size": "{n} x {n}",
+      "people": [
+        "Obi a ɛdi kan",
+        "Obi a ɛtɔ so mmienu"
+      ],
+      "colorLegend": "{person} kɔla",
+      "colors": [
+        "Akyerɛyɛ",
+        "Ɔrenji",
+        "Ahabammɔ",
+        "Pɛpuru"
+      ],
+      "inUse": "Wɔde rekɔ so",
+      "turn": "Wo bere, {person|lower}",
+      "yourColor": "Wo kɔla ye {color|lower}.",
+      "built": "Mo mmienu ayɛ no together. Eyi ne mfonini a mo mmienu yɛe.",
+      "gridLabel": "Sikwe a mo mmienu nkɔ so",
+      "region": "Sikwe a mo mmienu nkɔ so, {n} x {n}. Sɛ ɔdan no yɛ tẽ a, ɛbɛtu nifa-benkum.",
+      "cellEmpty": "Nsaano {row}, kɔlɔm {column}, ɛnni biribiara",
+      "cellFilled": "Nsaano {row}, kɔlɔm {column}, {color}, {person|lower} de too hɔ",
+      "placed": "Nsaano {row}, kɔlɔm {column} ayɛ {color}. Wo bere, {next|lower}.",
+      "placedLast": "Nsaano {row}, kɔlɔm {column} ayɛ {color}. Mo mmienu ayɛ no together.",
+      "taken": "Nsaano {row}, kɔlɔm {column} wɔ biribi dada. Paw baabi a ɛnni biribiara.",
+      "pass": "Gyae",
+      "passed": "Gyae yɛ mu. Wo bere, {person|lower}.",
+      "takeBack": "Sane fa nea ɛtɔ so no",
+      "takeBackPass": "Sane gyae no",
+      "tookBack": "Wɔasan fa biribi no. Wo bere, {person|lower}.",
+      "tookBackPass": "Wɔasan gyae no. Wo bere, {person|lower}.",
+      "colorChanged": "{person} wɔ {color|lower} afei.",
+      "restarted": "Sikwe no atu fi. Wo bere, {person|lower}.",
+      "print": "Prin sikwe no",
+      "sheetTitle": "Yɛ no mu",
+      "sheetHelp": "Monyɛ kwan. Wɔ sikwe a ɛnni biribiara mu, obiara de ne pensil ne ne ankasa ... nkyekyɛ ne nkyekyɛ.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Fa biribi bi, afei fa baabi a ɛwɔ mfonini no mu a ɛbɛkɔ. Biribiara a wobɛyɛ no nnsie na wɔnsoma.",
+      "hints": "Kyerɛ nsɛnkyerɛ akwan no",
+      "pictureLine": "Eyi yɛ {picture}.",
+      "pictures": {
+        "house": "fie",
+        "boat": "ɔkwan",
+        "tree": "dua",
+        "fish": "ɛnam",
+        "cat": "ɔsɔ",
+        "rocket": "rɔket"
+      },
+      "outlineLabel": "Mfonini {picture} no ankasa. Fa baabi bi ma nneɛma a wopaw no ka mu.",
+      "trayHeading": "Nneɛma no",
+      "pieces": {
+        "large-triangle": "Triangle kɛse",
+        "small-triangle": "Triangle kakra",
+        "square": "Sikwe",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Sikwe tenten"
+      },
+      "shapes": {
+        "large-triangle": "triangle kɛse bi",
+        "small-triangle": "triangle kakra bi",
+        "square": "sikwe bi",
+        "parallelogram": "parallelogram bi",
+        "rectangle": "sikwe tenten bi"
+      },
+      "chosenLabel": "Wɔapaw",
+      "spaceEmpty": "Baabi {n}, {shape}, ɛnni biribiara",
+      "spaceFilled": "Baabi {n}, {shape}, wɔ ne nneɛma. Fa ma nneɛma no asan.",
+      "chosen": "{piece} apaw. Afei fa baabi bi a ɛwɔ mfonini no mu.",
+      "unchosen": "Wɔamfa ɔkwan no nnyi bio.",
+      "placed": "Ɔkwan no wɔ beaeɛ {n} mu.",
+      "complete": "{picture} no awie.",
+      "different": "Saa ɔkwan yi sɛnkyerɛnne nnyɛ sɛ beaeɛ yi. Sɔ beaeɛ foforo hwɛ.",
+      "needPiece": "Di kan, paw ɔkwan bi firi sini no mu.",
+      "filled": "Saa beaeɛ yi wɔ ne ɔkwan dada. Tɔ so sɛ wobɛyi ɔkwan no firi hɔ.",
+      "tookBack": "Ɔkwan no asan akɔ sini no mu.",
+      "cleared": "Ɔkwan no nyinaa asan akɔ sini no mu. Sɛ wosesa wo adwene a, san de hyɛ hɔ.",
+      "restored": "Ɔkwan no asan akɔ mfonini no mu.",
+      "next": "Eyi yɛ {picture}.",
+      "putBack": "San de hyɛ hɔ",
+      "another": "Sɛnkyerɛnne foforo",
+      "print": "Prin saa sɛnkyerɛnne yi",
+      "sheetTitle": "Sɛnkyerɛnne a ɛyɛ dwodwo",
+      "sheetHow": "Fa loro hyɛ ɔkwan no mu, anaa twa wɔn firi hɔ na wɔafa wɔn ahyɛ nkyerɛnne no mu. Obi a ɔyɛ panyin bi tumi twa.",
+      "sheetPieces": "Ɔkwan no, a wɔn tenten ne nkyerɛnne no pɛ"
+    },
+    "picnicPlanner": {
+      "guidance": "Tɔ mfonini bi na wɔahyɛ no kɛntɛn a yɛde kɔ piknik no mu, na tɔ so wɔ kɛntɛn no mu na wɔayi no firi hɔ. Kɛntɛn no tumi hyɛ nneɛma 6.",
+      "guidancePlay": "Tɔ mfonini 2 a wɔte sɛ ɛnam so. Mfonini no sɛ ɛda so, na bere biara nni hɔ.",
+      "basketHeading": "Yɛn kɛntɛn",
+      "basketLabel": "Piknik kɛntɛn no",
+      "takeOut": "Yi {picture} firi kɛntɛn no mu",
+      "inBasket": "Wɔ kɛntɛn no mu",
+      "foodHeading": "Aduane",
+      "outingsHeading": "Nneɛma a yɛbɛyɛ",
+      "added": "{picture} wɔ kɛntɛn no mu.",
+      "removed": "{picture} afi kɛntɛn no mu.",
+      "already": "{picture} wɔ kɛntɛn no mu dada. Tɔ so hɔ sɛ wobɛyi no firi hɔ.",
+      "full": "Kɛntɛn no ama. Yi biribi firi mu na wɔanya hɔ bi.",
+      "summary": "Yɛn piknik: {list}.",
+      "summaryNone": "Hwannɛ nea wɔwɔ kɛntɛn no mu nni hɔ.",
+      "and": "ne",
+      "play": "Momma yɛn piknik no so ayɛ anigyeɛ",
+      "needTwo": "Di kan, paw nneɛma a ɛboro 2.",
+      "playAgain": "Yɛ bio",
+      "back": "San kɔ piknik no so",
+      "print": "Prin yɛn piknik kyerɛwde no",
+      "cleared": "Kɛntɛn no nni hɔ.",
+      "notice": "Eyi yɛ nhyehyɛe a yɛbɛka ho asɛm. Yɛnnhwɛ bere, yɛnnhyɛ amanneɛ, na yɛnnsie ho hɔ.",
+      "sheetTitle": "Yɛn piknik kyerɛwde",
+      "sheetHow": "Bɔ tiki wɔ biribiara ase sɛ woreto no. Fa nkaeɛ a ɛda so ma biribiara foforo a wopɛ sɛ wode kɔ.",
+      "sheetToPack": "Nea yɛbɛto mu"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Paw wo ankasa mfonini 2 kɔsi 12 de fi nhoma no ase.",
+      "guidance": "Momma yɛnnhwɛ nhoma no so bom, de bɔtɔn anaa “Left” ne “Right” akyekyedeɛ no. Sɛ wopɛ a, fa nsɛm kakraa bi ka mfonini ase. Biribiara a wobɛyɛ remfa nnkɔ.",
+      "lookGuidance": "Hwɛ kwan biara so bom. Wobɛtumi aka anaa wo nhwɛ kɛkɛ.",
+      "intro": "Paw mfonini 2 kɔsi 12 firi saa aparato yi so. Mfonini biara bɛyɛ nhoma kwan a mo ne mo bom bɛkɔ.",
+      "consent": "Fa wo ankasa abusua mfonini di dwuma. Bisa ansa na woyɛ mfonini a ɛyɛ obi a ɔntumi mmuaa “aane” no.",
+      "privacy": "Wo mfonini no wɔ saa aparato yi so kɛkɛ. Wɔnnsoma wɔn, na wɔnnsie wɔn.",
+      "choose": "Paw mfonini",
+      "chooseDifferent": "Paw mfonini a ɛyɛ foforo",
+      "backToBook": "San kɔ nhoma no so",
+      "backToChoose": "San kɔ mfonini paw no so",
+      "needTwo": "Mesrɛ wo, paw mfonini 2 anaa ɛboro saa.",
+      "usingFirst": "Yɛde mfonini {max} a ɛdi kan no di dwuma.",
+      "cleared": "Wɔayi nhoma no nyinaa. Paw mfonini ma ɛfi ase bio.",
+      "moved": "Wɔasan akɔ kyɛfa {n}.",
+      "pageOf": "Kyɛfa {n} wɔ {total} mu",
+      "lookTogether": "Hwɛ ne bom",
+      "leaveLook": "San kɔ nhoma no so",
+      "print": "Prin nhoma no",
+      "clear": "Yi nhoma no nyinaa firi hɔ",
+      "bookLabel": "Abusua nhoma no",
+      "pagesLabel": "Bom nhoma no kyɛfa",
+      "previous": "Kyɛfa a edi kan",
+      "next": "Kyɛfa a edi so",
+      "moveEarlier": "San kɔ kan",
+      "moveLater": "San kɔ so",
+      "captionLabel": "Nsɛm kakra ma saa kyɛfa yi, sɛ wopɛ a",
+      "captionHelp": "Kɔsi 80 ahyɛnsode. Nsɛm yi bɛkɔ saa kyɛfa yi nko so, na wɔbɛyi wɔn firi hɔ sɛ wobɛtu nhoma no.",
+      "sheetTitle": "Yɛn nhoma",
+      "sheetHow": "Mfonini baako wɔ kyɛfa biara so, nsɛm no ase. Bom nhoma no kyɛfa so na ka biara ho asɛm.",
+      "sheetEmpty": "Paw wo mfonini wɔ agyinamu kyɛfa no so de prin wo ankasa nhoma, anaa prin saa kyɛfa a ɛnni nsɛm yi na de mfonini a wɔaprin no ahyɛ mu.",
+      "sheetFrame": "Hyɛ mfonini a wɔaprin no ha",
+      "sheetWords": "Nsɛm kakra ma saa kyɛfa yi",
+      "skipped": {
+        "one": "Faele {n} nnyɛ mfonini a yɛbɛtumi de adi dwuma.",
+        "other": "Faele {n} nyinaa nnyɛ mfonini a yɛbɛtumi de adi dwuma."
+      }
+    },
+    "quietScene": {
+      "guidance": "Hwɛ mfonini baako daa daa. Sɛ woayɛ no, tɔ “Next” anaa “Previous”. Biribiara remfa ne ho nnsisi.",
+      "next": "Mfonini a ɛdi so",
+      "previous": "Mfonini a ɛdi kan",
+      "bigPicture": "Mfonini a ɛyɛ kɛse",
+      "showEverything": "Kyerɛ biribiara",
+      "first": "Eyi ne mfonini a ɛdi kan.",
+      "last": "Eyi ne mfonini a ɛdi so.",
+      "lines": {
+        "sunrise": "Owia resɔre wɔ asase no so.",
+        "window-with-birds": "Mmoa wɔ dan no anofa.",
+        "vase-of-flowers": "Ɛbɛ bi a nnuane wɔ mu wɔ tebul no so.",
+        "teacup": "Tii kɔp bi wɔ dan no akyi.",
+        "tree": "Dua bi a ɛgyina wɔ afuo mu.",
+        "sailboat": "Sɛɛlboat bi wɔ nsu so.",
+        "lighthouse": "Lightaus bi wɔ ɛpo no akyi.",
+        "rainbow": "Ahoɔfɛ bi wɔ osu akyi.",
+        "moon": "Ɔsram no wɔ anadwo ɔsoro so.",
+        "daisies": "Daisi bi wɔ afifi mu.",
+        "rowing-boat": "Kɔnkɔ a wɔde ntɛ so wɔ nsu a ɛnnwosow so.",
+        "potted-plant": "Dua a ɛyɛ ahahan wɔ ɔbɔɔ mu."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Mo mmɔ bere mu. Tɔ mfonini a wɔatwa, afei tɔ beaeɛ a ɛnni hɔ de to hɔ. Biribiara a wobɛyɛ remfa nnkɔ.",
+      "people": [
+        "Nipa a ɔdi kan",
+        "Nipa a ɔto so mmienu"
+      ],
+      "marks": [
+        "ɔkyekyeɛ",
+        "kwadrɔ"
+      ],
+      "turn": "Ɛyɛ wo bere, {person|lower}.",
+      "marked": "Wɔde {mark} na ɛda wo nneɛma no so.",
+      "boardLabel": "Agyinamu a yɛn nyinaa de yɛ adwuma",
+      "placeEmpty": "Beaeɛ {n}, a ɛnni hɔ",
+      "placeFilled": "Beaeɛ {n}, {picture|lower}, {person|lower} de hyɛɛ hɔ",
+      "trayHeading": "Mfonini a wɔatwa",
+      "chosenLabel": "Wɔapaw",
+      "chosen": "{picture} apaw. Afei tɔ beaeɛ a ɛnni hɔ.",
+      "unchosen": "Wɔamfa mfonini a wɔatwa no nnyi bio.",
+      "needCutout": "Di kan, paw mfonini a wɔatwa bi, afei tɔ beaeɛ a ɛnni hɔ.",
+      "filled": "Beaeɛ {n} wɔ mfonini dada. Paw beaeɛ a ɛnni hɔ.",
+      "placed": "{picture} wɔ beaeɛ {n} mu. Ɛyɛ wo bere, {next|lower}.",
+      "full": "Beaeɛ biara wɔ mfonini. Yi baako firi hɔ sɛ wobɛsesa, anaa fi ase bio.",
+      "pass": "Gyae",
+      "passed": "Ɛyɛ yie sɛ wogyae. Ɛyɛ wo bere, {person|lower}.",
+      "takeBack": "Yi nea ɛtoa so no firi hɔ",
+      "takeBackPass": "Yi gyaeɛ no firi hɔ",
+      "tookBack": "Wɔayi ɔkwan no firi hɔ. Ɛyɛ wo bere, {person|lower}.",
+      "tookBackPass": "Wɔayi gyaeɛ no firi hɔ. Ɛyɛ wo bere, {person|lower}.",
+      "restarted": "Agyinamu no nni hɔ. Ɛyɛ wo bere, {person|lower}.",
+      "putBack": "San de hyɛ hɔ",
+      "putBackDone": "Ɔkwan no asan akɔ agyinamu no so.",
+      "another": "Mfonini nhyehyɛe foforo",
+      "anotherSet": "Mfonini a wɔatwa nhyehyɛe foforo wɔ sini no mu. Ɔkwan a ɛwɔ agyinamu no so no bɛtena baabi a ɛwɔ so.",
+      "print": "Prin agyinamu no",
+      "sheetTitle": "Mfonini nhyehyɛe agyinamu",
+      "sheetHow": "Twa mfonini no firi hɔ, na mo mmɔ bere mu de hyɛ agyinamu no so. Obi a ɔyɛ panyin bi tumi twa.",
+      "sheetTray": "Mfonini a wɔbɛtwa"
+    },
+    "gardenPlanner": {
+      "guidance": "Tɔ mfonini bi, afei tɔ mpɔtam bi de hyɛ hɔ. Tɔ mpɔtam a mfonini wɔ mu, a wɔanpaw biribiara, de yi no firi hɔ.",
+      "bedsLabel": "Afuo mpɔtam no",
+      "bedEmpty": "Mpɔtam {n}, a ɛnni hɔ",
+      "bedFilled": "Mpɔtam {n}, {picture|lower}",
+      "plantsHeading": "Nnua",
+      "extrasHeading": "Afuo nneɛma a ɛka ho",
+      "chosenLabel": "Wɔapaw",
+      "chosen": "{picture} apaw. Afei tɔ mpɔtam bi.",
+      "unchosen": "Wɔnnpaw mfonini biara.",
+      "needPicture": "Fa mfonini bi kan, afei to afuw bi so.",
+      "planted": "{picture} wɔ afuw {n} mu.",
+      "replaced": "{picture} gyina mfonini a ɛwɔ afuw {n} mu no hɔ.",
+      "cleared": "Afuw {n} nni hɔ. Sɛ wopɛ sɛ mfonini no ba bio a, san de ba.",
+      "restarted": "Afuw nyinaa nni hɔ.",
+      "putBack": "San de ba hɔ",
+      "putBackDone": "Mfonini no asan aba wɔn afuw mu.",
+      "summaryHeading": "Me turo",
+      "summary": "Wo nhyehyɛe no mu wɔ {list}.",
+      "summaryNone": "Mfonini biara nni afuw mu kɔsi seesei.",
+      "and": "ne",
+      "print": "Prin nhyehyɛe no",
+      "sheetTitle": "Yɛn turo nhyehyɛe",
+      "sheetHow": "Afuw no kyerɛ mfonini a wɔpaw wɔ screen no so. Sɛ wopɛ a, twe afuw a ɛnni hɔ no mu.",
+      "sheetNotes": "Nkyerɛwee",
+      "notice": "Eyi yɛ mfonini nhyehyɛe a yɛbɛkasa fa so, ɛnyɛ nkyerɛkyerɛ a ɛfa aduabɔ ho."
+    },
+    "coloringWall": {
+      "guidance": "Paw mfonini ne nsɛnkyerɛnne dodow. Prin ɔfasu no, na obiara nsi nsɛnkyerɛnne baako anaa pii ase. Bere nni so, mmuae nni so, na wɔnsie biribiara.",
+      "pictureLegend": "Mfonini",
+      "sizeLegend": "Nsɛnkyerɛnne dodow",
+      "sizes": {
+        "2x2": "Nsɛnkyerɛnne 4 (2 x 2)",
+        "3x2": "Nsɛnkyerɛnne 6 (3 x 2)",
+        "3x3": "Nsɛnkyerɛnne 9 (3 x 3)"
+      },
+      "previewLabel": "Wɔakyekyɛ {picture|lower} no nsɛnkyerɛnne {n} mu, {across} wɔ ɔkwan so ne {down} wɔ ase. Nsɛnkyerɛnne biara wɔ din wɔ ne kɔnkɔn mu.",
+      "previewCaption": "Mfonini no a wɔde nsɛnkyerɛnne kyɛwmu ne din atwe so.",
+      "labelsNote": "Nkyerɛwee kɔ ase wɔ ɔfasu no so, na nɔma kɔ ɔkwan so, enti A1 yɛ nsɛnkyerɛnne a ɛwɔ kɔnkɔn a ɛwɔ hɔ nifa.",
+      "wallHeading": "Sɛnea wɔbɛbɔ ɔfasu no",
+      "steps": [
+        "Prin nsɛnkyerɛnne no nyinaa. Nsɛnkyerɛnne a edi kan yɛ saa nkyerɛkyerɛ yi ne ɔfasu no mpɔn.",
+        "Obiara fa nsɛnkyerɛnne baako anaa pii, na ɔde loro hwɛ.",
+        "Loro ne ɔkwan a wɔfa so no nhyɛ ɛnyɛ pɛ nso. Nsɛnkyerɛnne nyinaa yɛ mfonini baako mu kyɛfa.",
+        "Fa nsɛnkyerɛnne no ahyɛ hɔ sɛdeɛ din no kyerɛ, afei fa tape ka ne akyi.",
+        "Hyɛ ɔfasu no wɔ beaɛ a obiara bɛhwɛ."
+      ],
+      "mapLabel": "Ɔfasu no mpɔn: akwan {down}, nsɛnkyerɛnne {across} wɔ akwan biara so, na din no fi A1 kɔsi {last}.",
+      "edgeNote": "Dash no kyerɛ nsɛnkyerɛnne biara anim. Hyɛ nsɛnkyerɛnne no anim ne anim, anaa ma ɛntwa mu kakra.",
+      "pictureLine": "Mfonini: {picture}. Ɔfasu yi yɛ nsɛnkyerɛnne {n}: {across} wɔ ɔkwan so ne {down} wɔ ase.",
+      "print": "Prin ɔfasu no"
+    },
+    "findTogether": {
+      "guidance": "Yɛ nnanom nkɔ so. Wɔ wo bere mu, bue mpapahwɛ abien, na hwehwɛ nhyɛe. Hwehwɛ nhyɛe no mu bom.",
+      "sizeLegend": "Mpapahwɛ dodow",
+      "size": "Mpapahwɛ {n}",
+      "viewLegend": "Sɛnea wɔtɔ",
+      "viewShowing": "Tɔ de mfonini a ɛda so",
+      "viewHidden": "Mpapahwɛ no ɛda fam",
+      "people": [
+        "Obi a edi kan",
+        "Obi a ɛtɔ so mmienu"
+      ],
+      "turn": "Ɛyɛ {person} bere.",
+      "turnDone": "Nhyɛe nyinaa ahunu.",
+      "tally": "Nhyɛe a yɛahunu bom: {n}",
+      "cardNamed": "{name}, mpapahwɛ {n}",
+      "cardFaceDown": "Mpapahwɛ {n}, ɛda fam",
+      "first": "{name}. Afei bue mpapahwɛ foforɔ.",
+      "found": "{name}: nhyɛe, yɛahunu bom. Afei ɛyɛ {next|lower} bere.",
+      "allTogether": "Yɛahunu nhyɛe nyinaa bom.",
+      "different": "{a} ne {b} nyɛ pɛ. Fa bere ka, afei pɛ 'Sane wɔn'.",
+      "waiting": "Sɛ woayɛ a, pɛ 'Sane wɔn'. Afei bere no bɛkɔ obi a aka no so.",
+      "turnedBack": "Wɔasane wɔn. Afei ɛyɛ {person|lower} bere.",
+      "passed": "Ɛyɛ, wobetumi agyae bere. Afei ɛyɛ {person|lower} bere.",
+      "turnBack": "Sane wɔn",
+      "pass": "Gyae",
+      "playAgain": "Tɔ bio"
+    },
+    "drawingDuet": {
+      "guidance": "Yɛ nnanom nkɔ so, obiara de tiri baako di, afei ma pɛn no nkɔ obi a aka no so. Obiara tumi gyae bere. Biribiara nkɔ baabi. Mfonini biara firi saa peeji yi nkɔ sɛ wosie no nko ara.",
+      "people": [
+        "Obi a edi kan",
+        "Obi a ɛtɔ so mmienu"
+      ],
+      "colorLegend": "{person} loro",
+      "colors": [
+        "Ayɛlo",
+        "Ɔrɛnjɛ",
+        "Ahabammono",
+        "Pɛɛpuro"
+      ],
+      "turn": "{person} bere",
+      "penColor": "Pɛn loro: {color}.",
+      "canvasLabel": "Nnanom mfonini, tiri {n} kɔsi seesei",
+      "canvasLabelOne": "Nnanom mfonini, tiri {n} kɔsi seesei",
+      "keys": "Nkyɛn ɛnsɔ (arrow keys) ma pɛn no ntɔ mfonini no so. Space ma pɛn no to ase anaa ɛsɔre.",
+      "penDown": "Pɛn to ase",
+      "penUp": "Pɛn sɔre",
+      "pass": "Ma pɛn no nkɔ",
+      "passed": "Ɛyɛ, wobetumi agyae bere. Ɛyɛ wo bere, {person|lower}.",
+      "takeBack": "Yi me tiri a edi akyiri no firi hɔ",
+      "tookBack": "Wɔayi {person|lower} tiri a edi akyiri no fi.",
+      "noLine": "{person|lower} nni tiri biara a wɔbɛyi fi.",
+      "restarted": "Ɛpapa ntwɛ no mu nni hɔ. Obi a edi kan na ɔwɔ bere. Sɛ wompɛ a, san de no ba hɔ.",
+      "putBack": "San de ba hɔ",
+      "restored": "Tiri no asan aba sɛdeɛ ɛte kan.",
+      "save": "Sie mfonini no",
+      "saved": "Wo mfonini no ayɛ. Fa download link no de sie no wɔ saa device yi so.",
+      "download": "Download drawing-duet.png",
+      "print": "Prin mfonini no wɔ pepa so",
+      "sheetTitle": "Nnanom mfonini",
+      "paperRules": "Nnipa mmienu, pepa baako, pɛn mmienu. Yɛ nnanom nkɔ so: obiara de tiri anaa mfonini baako di, afei ma pɛn no nkɔ. Obiara tumi gyae bere. Mfonini pa biara nni hɔ."
+    },
+    "colorWash": {
+      "guidance": "Twe nsuo loro a ɛyɛ kyɛɛ kyerɛ peeji no so, mpɛnsɛ biara mu. Yi brush no firi so sɛ wopɛ sɛ woagyae, na gyae bere biara a wopɛ. Biribiara nsie anaa nkɔ baabi.",
+      "colorLegend": "Nsuo loro",
+      "sizeLegend": "Brush no kɛse",
+      "colors": [
+        "Ayɛlo",
+        "Ɔrɛnjɛ",
+        "Ahabammono",
+        "Pɛɛpuro"
+      ],
+      "sizes": {
+        "wide": "Kɛse",
+        "veryWide": "Kɛse paa"
+      },
+      "color": "Nsuo loro: {color}.",
+      "brushDown": "Brush to ase",
+      "brushUp": "Brush sɔre",
+      "keys": "Nkyɛn ɛnsɔ (arrow keys) ma brush ring no ntɔ peeji no so. Space ma brush no to ase anaa ɛsɔre.",
+      "canvasLabel": "Peeji a nsuo loro wɔ so",
+      "fresh": "Peeji foforɔ",
+      "freshMessage": "Peeji foforɔ.",
+      "putBack": "San de ba hɔ",
+      "restored": "Peeji no asan aba."
+    },
     "sortTogether": {
       "guidance": "Tɔ mfonini, afei tɔ kɛntɛn a ɛbɛkɔ mu no.",
       "restart": "Mfonini foforo",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} bɛkɔ \"{basket}\" mu. Tɔ kɛntɛn no na ɛbɛkɔ mu.",
       "placed": "{name|lower} wɔ \"{basket}\" mu.",
       "sorted": "Biribiara ahyɛ mu. Hwɛ kɛntɛn no mu bom anaa fa asɛmfua foforo.",
+      "largerTargets": "Nkaaso kɛse",
+      "largerOn": "Nkaaso kɛse no reyɛ adwuma. Biribiara nsan.",
+      "largerOff": "Nkaaso kɛse no nyɛ adwuma. Biribiara nsan.",
+      "largerOnNewRound": "Nkaaso kɛse no reyɛ adwuma, na nkaaso abien wɔ hɔ. Ɛha na mfonini foforɔ a wɔbɛhyehyɛ.",
       "basket": {
         "one": "Kɛntɛn {basket}, mfonini {count} pɛ wɔ mu",
         "other": "Kɛntɛn {basket}, mfonini {count} wɔ mu"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Tɔ akwakyerɛ baako, afei tɔ foforɔ. Wɔbɛsesa wɔn beaeɛ.",
-      "restart": "Fa ano bio",
+      "restart": "Mix up again",
       "pictureLegend": "Mfonini",
       "pictures": {
         "sailboat": "Sɛlboat",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Mfonini a ɛyɛ pɛ: {name}",
       "guideText": "Eyi na mfonini no te sɛ ɛyɛ pɛ.",
+      "ownChoose": "Fa wo ankasa mfonini",
+      "ownChange": "Yi mfonini foforɔ a ɛyɛ bi",
+      "ownBack": "San kɔ yɛn mfonini no so",
+      "ownPrivacy": "Wo mfonini no bɛtena device yi so. Wɔnnkɔ so, na wɔnnsie no.",
+      "ownConsent": "Fa wo ankasa mfonini. Bisa ansa na woafa mfonini a ɛwɔ obi a ɔntumi nka 'yɛ' no ho.",
+      "ownWorking": "Yɛreyɛ wo mfonini no ama.",
+      "ownNotUsable": "Saa faele no ntumi ankɔ so. Fa mfonini faele bi a ɛyɛ JPEG anaa PNG.",
+      "ownAlt": "Wo mfonini",
+      "ownPiece": "Ɔkyɛfa {n}, {place}",
+      "ownWhole": "Wo mfonini ayɛ pɛ bio. Twe mu bio bere biara a wopɛ.",
+      "ownSheetTitle": "Wo mfonini a wɔakyɛ no ɔkyɛfa",
+      "ownSheetHow": "Tɔ nsɛnkyerɛnne no so. Twe ɔkyɛfa no mu, afei sesa ɔkyɛfa abien bere biara kɔsi sɛ mfonini no bɛyɛ pɛ.",
       "piece": "Akwakyerɛ a ɛwɔ {place} fa",
       "pieceInPlace": ", wɔ beaeɛ a ɛfata mu",
       "piecePickedUp": ", wɔafa mu",
@@ -122,7 +786,7 @@
         "fam benkum"
       ],
       "done": "Mfonini no ayɛ pɛ bio. Fa ano bio anaa hom.",
-      "playAgain": "Fa ano bio"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Ka mmebusɛm no bom, afei tɔ asɛm a ɛde awiei besi so no.",
@@ -190,6 +854,14 @@
       "guidance": "Kenkan kaad no. Mmuae a ɛyɛ pɛ nni hɔ.",
       "position": "Kaad {n} afi {total} mu",
       "themeLegend": "Asɛmfua",
+      "showPrompt": "Kyerɛ nkasa ho asɛmfua",
+      "bigPicture": "Mfonini kɛse, ma nnipa pii",
+      "passNote": "Obiara tumi gyae bere.",
+      "groupTitle": "Kaad no nkɔ nnipa a wɔatete so",
+      "groupSit": "Fa mo ho tete kuw mu baabi a obiara behu mfonini no. Obi a ɔwɔ kaad no anaa device a mfonini kɛse no wɔ so, ɔkenkan asɛmfua no kan denam nkasa so.",
+      "groupPass": "Afei ma kaad no nkɔ obi a aka no so. Obiara ka asɛm baako anaa nkyerɛase kakra ho asɛm, afei ɔma no nkɔ.",
+      "groupNoSpeech": "Ma kaad no nkɔ wɔ bere nyinaa ye. Obi tumi gyae bere a ɔnkasa hwee, na obiara nhia sɛ ɔka nea ɛma.",
+      "groupEnd": "Nkɔso no awie bere a kaad no akɔ ahyia no ho nyinaa, anaa bere a mo nyinaa abɔ mmɔden. Obiara nni nkonim. Gyae bere biara a mo pɛ.",
       "next": "Kaad a ɛdi so",
       "previous": "Kaad a ɛdi kan",
       "print": "Print kaad nyinaa",
@@ -252,6 +924,20 @@
       "started": "Afi ase. Fa mframa to mu bere a sakara no reyɛ kɛse.",
       "stopped": "Agyae.",
       "finished": "Ɛno ne ahome enum a dodoɔ. Fi ase bio bere biara a wopɛ."
+    },
+    "storyChain": {
+      "guidance": "Mommɔ bere: obiara ka asɛm baako, na ka mfonini a edi so ho.",
+      "passNote": "Ka wo asɛm kyerɛ nkaebɔ. Wɔnkyerɛw biribiara, na wɔnkora nso. Obiara tumi gyae.",
+      "chainLabel": "Asɛm no kɔsi seesei",
+      "item": "Mfonini {n}: {name}",
+      "add": "Fa mfonini ka ho",
+      "fullAdd": "Asɛm no ahyɛ ma. Fi ase asɛm foforɔ",
+      "newChain": "Fi ase asɛm foforɔ",
+      "takeOff": "Yi nea ɛdi akyiri no fi hɔ",
+      "added": "{name|lower} no ano wɔ asɛm no awiei seesei.",
+      "removed": "{name|lower} no afi asɛm no mu.",
+      "fresh": "Asɛm foforɔ, a ɛfiri {name|lower} ase.",
+      "full": "Asɛm no wɔ mfonini 8 nyinaa. Ka asɛm no nyinaa, anaa fi asɛm foforɔ ase."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Cloud",
     "snowflake": "Snowflake",
     "kite": "Kite",
-    "sunrise": "Sunrise"
+    "sunrise": "Sunrise",
+    "decorated-keepsake-box": "Bokɔ a wɔayɛ fɛ",
+    "painted-plant-pot": "Aduabɔ a wɔde langa ayɛ fɛ, a ahaban wɔ mu",
+    "repeating-pattern-sheet": "Krataa a ahyehyɛde a ɛsan aba wɔ so",
+    "music-drawn-lines": "Nkyerɛwde a wɔtwe wɔ nnwom ase",
+    "paper-boat-afloat": "Krataa ɔkɔ a ɛreto nsuo so",
+    "folded-towel-stack": "Ntoma a wɔapɛ",
+    "hand-massage-with-lotion": "Nsa a ɛda ntoma so, ne lotion",
+    "open-photo-album": "Mfonini nhoma a wɔabue",
+    "button-flower-card": "Bɔtɔn aduaba wɔ kaad so",
+    "blue-torn-paper-collage": "Krataa bluu a wɔatutu",
+    "family-tree-of-hands": "Abusua dua a wɔde nsa ayɛ",
+    "open-greeting-card": "Kaad a wɔabue a akoma wɔ so",
+    "lavender-sachet": "Lavender ntɔn a wɔadeɛ kyɛ",
+    "memory-collage-of-photos": "Mfonini a wɔahyehyɛ abusua ho",
+    "paper-chain-garland": "Krataa ahoma a wɔadeɛ",
+    "open-songbook-with-notes": "Nnwom nhoma a wɔabue, a nnwom wɔ so",
+    "photo-postcard-with-stamp": "Mfonini kaad, ne sitem",
+    "pine-cone-bird-feeder": "Pine cone anomaa aduan a ɛtɔ dua so",
+    "playlist-phone-and-card": "Fon ne nnwom kaad",
+    "sealed-rice-shaker": "Nkwantempa a ɛwɔ ɛmo mu, a wɔadeɛ kyɛ",
+    "texture-board-with-scraps": "Ahyɛde a ɛwɔ ntwa ne ahoma",
+    "painted-garden-stone": "Ɛboɔ a wɔde langa ayɛ fɛ",
+    "shared-painted-canvas": "Kanvas a obiara de langa aka ho",
+    "watercolor-washes-sheet": "Krataa a wɔde nsuo langa ayɛ fɛ",
+    "seedling-in-pot": "Nnuaba ketewa wɔ bɔkɔ mu",
+    "pressed-leaves-in-book": "Nhaban a wɔapɛ wɔ nhoma mu",
+    "printed-leaves-sheet": "Krataa a nhaban abɔsɛm wɔ so",
+    "pinch-pot-clay-bowl": "Dɔteɛ bɔkɔ a wɔde nsa ayɛ",
+    "table-sketch-pencil": "Kɔfi kuruwa a wɔde ɔpensil akyerɛ",
+    "buttons-in-muffin-tin": "Bɔtɔn a wɔahyehyɛ wɔ pan mu",
+    "family-recipe-book": "Abusua nnuane nhoma",
+    "drum-with-beat-marks": "Ngoma nketewa ne nkwadaa",
+    "torn-paper-flower": "Aduaba a wɔatutu krataa so ayɛ",
+    "window-with-birds": "Windo a anomaa wɔ so",
+    "woven-paper-mat": "Krataa ntama a wɔabɔ",
+    "yarn-ball-with-thread": "Ntwa tɔ",
+    "letter-and-envelope": "Krataa wɔ envelope mu"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Akwantu mu"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Aba",
+        "animals": "Mmoa",
+        "travel": "Akwan a yɛde kɔ",
+        "flowers": "Aduaba",
+        "hot-drinks": "Nneɛma a wɔde ahyɛ ɛsu mu",
+        "weather": "Ɛwiem ahoma",
+        "baked": "Nneɛma a wɔde ɛfirim ahyɛ"
       }
     }
   }

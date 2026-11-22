@@ -5,6 +5,13 @@
       "stopReading": "O‘qishni to‘xtatish",
       "region": "Oʻyin",
       "restart": "Qaytadan boshlash",
+      "rest": "Hozircha dam oling",
+      "restingTitle": "Dam olinmoqda",
+      "restingText": "Xohlaganicha vaqt oling. Sizning joyingiz shu sahifada saqlanadi.",
+      "resume": "Davom eting",
+      "placeText": "Oxirgi safar siz yarim yoʻlda toʻxtagan edingiz. Shu yerdan davom eting yoki boshidan boshlang.",
+      "placeResume": "Davom eting",
+      "placeFresh": "Boshidan boshlang",
       "soundOn": "Yumshoq tovushlar yoqilgan",
       "soundOff": "Yumshoq tovushlar oʻchirilgan",
       "done": "Hozircha yetarli",
@@ -43,7 +50,19 @@
       "viewShowing": "Rasmlar koʻrinib turadi",
       "viewHidden": "Yashirin rasmlar",
       "playAgain": "Yangi rasmlar bilan yana oʻynash",
-      "talk": "Rasmlar haqida birga gaplashing"
+      "talk": "Rasmlar haqida birga gaplashing",
+      "modeLegend": "Qaysi rasmlar",
+      "modePlay": "Istalgan rasmlar",
+      "modeDaily": "Bugungi karta",
+      "dayLegend": "Qaysi kun",
+      "dayHelp": "Hamma bir kuni bir xil rasmlarni koʻradi. Oldingi kunlar ham shu yerda, kunni oʻtkazib yuborsangiz ham hech narsa yoʻqolmaydi.",
+      "guidanceDaily": "Bugungi kartada toʻrtta juft bor. Rasmni bosing, soʻng unga mos keladigan rasmni bosing.",
+      "restartDaily": "Bu kartani qaytadan boshlang",
+      "copy": "Bu qatorni nusxalash",
+      "copied": "Nusxalandi. Hech narsa boshqa joyga yuborilmaydi.",
+      "calendarTitle": "Bugungi kartalar, {month}",
+      "calendarHelp": "Har bir kunda hamma uchun bir xil toʻrtta rasm bor. Hech narsa baholanmaydi va hech bir kun oʻtkazib yuborilgan deb belgilanmaydi.",
+      "calendarVersion": "Versiya {date}. Bir kunda hamma uchun rasmlar bir xil."
     },
     "choose": {
       "countLegend": "Nechta rasm",
@@ -62,6 +81,635 @@
       "shadowAlt": "Mos keladigan soya",
       "foundAlt": "{name|lower} soyasi"
     },
+    "fourTogether": {
+      "hintLegend": "Maslahatlar",
+      "hintOn": "Pauzadan keyin maslahat",
+      "hintOff": "Maslahatsiz",
+      "guidance": "Birga keladigan {n} ta rasmni toping va har birini bosing.",
+      "countLegend": "Nechta rasm",
+      "count": "{n} ta rasm",
+      "found": "Ha, {name|lower} shu guruhga tegishli.",
+      "elsewhere": "{name|lower} boshqa narsa bilan birga keladi. Shoshilmang.",
+      "hint": "Maslahat: {theme|lower} mavzusiga qarang.",
+      "together": "Bular birga keladi: {theme}.",
+      "shown": "Mana guruh: {theme}.",
+      "groupName": "Birga: {theme}",
+      "show": "Guruhni koʻrsating",
+      "next": "Yana bir toʻplam"
+    },
+    "oddOneOut": {
+      "hintLegend": "Maslahatlar",
+      "hintOn": "Pauzadan keyin maslahat",
+      "hintOff": "Maslahatsiz",
+      "guidance": "Boshqalarga oʻxshamagan rasmni toping va uni bosing.",
+      "countLegend": "Nechta rasm",
+      "count": "{n} ta rasm",
+      "belongs": "{name|lower} boshqalar bilan birga keladi. Shoshilmang.",
+      "found": "Ha, {name|lower} ajralib turadi. Boshqalari: {theme|lower}.",
+      "shown": "Mana u: {name|lower}. Boshqalari: {theme|lower}.",
+      "hint": "Maslahat: bulardan {n} tasi {theme|lower} mavzusiga kiradi.",
+      "others": "Boshqalari: {theme}",
+      "show": "Koʻrsating",
+      "next": "Yana bir toʻplam"
+    },
+    "seatedToss": {
+      "guidance": "Stol atrofida oʻtirib, navbat bilan katta nishonga yumshoq xaltacha tashlang. Hisobni qogʻozga birgalikda yozib boring.",
+      "stepsHeading": "Qanday oʻtadi",
+      "steps": [
+        "Nishon va hisob varagʻini chop eting hamda stol ustiga, ikkingiz orasiga tekis qoʻying.",
+        "Qulay oʻtiring, har biringiz bir tomonda. Navbat bilan har biringiz bir marta yumshoq tashlang yoki xohlamasangiz oʻtkazib yuboring.",
+        "Xaltacha halqalardan biriga tushsa, tashlagan kishi oʻz ustunidagi, shu halqa qatoridagi bitta katakchani belgilaydi.",
+        "Xohlasangiz, toʻxtaganingizda belgilarga birgalikda qarang. Hech kim hech narsani qoʻshib hisoblashi shart emas.",
+        "Kimdir charchasa yoki tayyor boʻlsa, istalgan payt toʻxtang."
+      ],
+      "safetyHeading": "Xavfsizlik",
+      "safetyLine": "Faqat tikib yopilgan qopqoqli xaltacha yoki oʻralgan paypoqdan foydalaning, oʻtirgan holda qoling, hech qachon yuzga qarab tashlamang va yonda katta odam boʻlsin. Mayda buyumlar boʻgʻilish xavfi tugʻdiradi.",
+      "flags": [
+        "3 yoshgacha boʻlganlar uchun emas: mayda buyumlar",
+        "Ogʻizdan uzoqroq tuting"
+      ],
+      "safety": [
+        "Tikib yopilgan qopqoqli xaltacha tanlang yoki toza paypoqni oʻrang. Avval teshik yoki boʻsh tikuv yoʻqligini tekshiring, toki ichidagi toʻldirgich chiqib ketmasin.",
+        "Loviya, guruch va boshqa mayda toʻldirgichlar boʻgʻilish xavfi tugʻdiradi. Ularni kichik bolalardan hamda narsalarni ogʻziga solib qoʻyadigan kishilardan uzoqda saqlang.",
+        "Agar biror narsa ogʻizga tushishi mumkin boʻlsa, qoʻl choʻzim masofasida turing va diqqat bilan kuzating.",
+        "Oʻtirib turing. Stol ustidagi nishonga yumshoq va past tashlang, hech qachon yuzga qarab emas."
+      ],
+      "previewLabel": "Chop etilgan varaq: tashqaridan ichkariga qarab Yaqin, Oʻrta va Uzoq deb nomlangan uchta halqali nishon, hamda har bir kishi uchun ustun va har bir halqa uchun boʻsh katakchalar qatori boʻlgan hisob jadvali.",
+      "sheetHow": "Varaqni ikkingiz orasida tekis qoʻying. Xaltacha halqalardan biriga tushsa, oʻz ustuningizda, shu halqa qatoridagi bitta katakchani belgilang.",
+      "rings": [
+        "Yaqin",
+        "Oʻrta",
+        "Uzoq"
+      ],
+      "people": [
+        "Birinchi kishi",
+        "Ikkinchi kishi"
+      ],
+      "ringHeading": "Halqa",
+      "print": "Nishon va hisob varagʻini chop eting"
+    },
+    "seasonalPack": {
+      "guidance": "Oyni tanlang, uning uchta qogʻoz topishmogʻini chop eting va ularning birini, ikkitasini yoki uchalasini birga bajaring.",
+      "monthLegend": "Oyni tanlang",
+      "months": [
+        "Yanvar",
+        "Fevral",
+        "Mart",
+        "Aprel",
+        "May",
+        "Iyun",
+        "Iyul",
+        "Avgust",
+        "Sentyabr",
+        "Oktyabr",
+        "Noyabr",
+        "Dekabr"
+      ],
+      "monthNote": "Har bir oyning oʻz rasmlari bor. Sahifa shu oy bilan ochiladi, siz esa istalgan boshqa oyni tanlashingiz mumkin.",
+      "restDay": "Bugun dam olish kuni",
+      "restLine": "Bugun topishmoq yoʻq. Dam olish kuni ham yaxshi kun.",
+      "previewHeading": "Uchta topishmoq",
+      "puzzles": {
+        "pairs": {
+          "title": "Juftlarni toping",
+          "how": "Yuqori qatordagi har bir rasmdan pastki qatordagi xuddi shu rasmga chiziq torting.",
+          "describe": "Bir xil toʻrtta rasmdan iborat ikki qator, lekin boshqa tartibda."
+        },
+        "different": {
+          "title": "Qaysi biri boshqacha?",
+          "how": "Boshqa uchtasidan farq qiladigan rasmni doira bilan belgilang.",
+          "describe": "Toʻrtta rasmdan iborat qator. Uchtasi bir xil, bittasi boshqacha."
+        },
+        "color": {
+          "title": "Boʻyang",
+          "how": "Rasmni xohlaganingizcha boʻyang, rangli qalamlar yoki flomasterlar bilan.",
+          "describe": "Boʻyash uchun bitta katta rasm."
+        }
+      },
+      "print": "Bu oylik toʻplamni chop eting",
+      "sheetHow": "Bitta sahifani chop eting. Topishmoqlardan birini, ikkitasini yoki uchalasini istalgan tartibda bajaring.",
+      "printFooter": "Birini, ikkitasini yoki uchalasini bajaring. Xohlagan payt toʻxtashingiz mumkin."
+    },
+    "decorateACard": {
+      "guidance": "Bayram sababini tanlang, soʻng rangli qalamlar yoki ruchkalar bilan birgalikda kartochkani bezang. Toʻgʻri kartochka degan narsa yoʻq.",
+      "occasionLegend": "Sababni tanlang",
+      "occasions": {
+        "birthday": {
+          "label": "Tugʻilgan kun",
+          "words": "Tugʻilgan kuningiz muborak"
+        },
+        "thank-you": {
+          "label": "Rahmat",
+          "words": "Rahmat"
+        },
+        "thinking-of-you": {
+          "label": "Sizni eslayapman",
+          "words": "Sizni eslayapman"
+        },
+        "new-season": {
+          "label": "Yangi fasl",
+          "words": "Yangi fasl"
+        },
+        "just-because": {
+          "label": "Shunchaki",
+          "words": "Shunchaki"
+        }
+      },
+      "stepsHeading": "Birgalikda qanday bezash",
+      "steps": {
+        "fold": "Kartochkani chop eting va chiziqli chiziq boʻylab ikkiga bukling, shunda old tomoni tashqarida boʻlsin.",
+        "front": "Bir kishi soʻzlar atrofida old tomonini bezaydi.",
+        "inside": "Boshqa kishi orqa tomonini bezaydi yoki bitta tomonda navbat bilan ishlaysiz.",
+        "message": "Birgalikda xabar yozing. Bir kishi yozadi, ikkinchisi esa soʻzlarni aytib turishi mumkin.",
+        "stop": "Istalgan vaqtda toʻxtang. Toʻgʻri kartochka degan narsa yoʻq, oddiy kartochka ham xuddi shunday yaxshi."
+      },
+      "materials": "Rangli qalam, rangli qalamlar yoki flomasterlardan foydalaning. Hech narsani kesish, yelimlash yoki yopishtirish shart emas.",
+      "previewLabel": "Ikkiga bukilgan kartochkaning koʻrinishi. Old tomonida {words} deb yozilgan, atrofida barg va yulduzlardan oddiy ramka bor. Orqa tomonida xabar uchun chiziqlar va «Kimdan» uchun chiziq bor.",
+      "from": "Kimdan",
+      "sheetHow": "Kartani punktir chiziq boʻylab ikkiga buklang, old tomoni tashqarida boʻlsin. Xabarni orqa tomoniga yozing.",
+      "rulesHeading": "Ikki kishi uchun",
+      "sheetRules": [
+        "Navbatma-navbat yoki ishni boʻlib oling: biri old tomonini, ikkinchisi orqa tomonini bezatsin.",
+        "Xabarni birgalikda yozing yoki bir kishi ikkinchisi aytganini yozib qoʻysin.",
+        "Istalgan kishi istalgan vaqtda toʻxtashi mumkin. Toʻgʻri karta yoʻq."
+      ],
+      "print": "Kartani chop etish"
+    },
+    "storyDice": {
+      "guidance": "Rasmlarga qarang va ularni ishlatib istalgan tartibda hikoya tuzing. Toʻgʻri hikoya yoʻq.",
+      "countLegend": "Kubiklar soni",
+      "count": "{n} ta kubik",
+      "roll": "Yana tashlash",
+      "pass": "Oʻtkazib yuborish",
+      "passed": "Oʻtkazib yuborish ham yaxshi. Keyingi kishi boshlashi yoki yana tashlashingiz mumkin.",
+      "rolled": "Yangi rasmlar: {names}.",
+      "tapped": "{name}. Shu bilan yoki boshqasi bilan boshlang."
+    },
+    "wordPicture": {
+      "guidance": "Rasmni bosing, soʻng uni nomlaydigan soʻzni bosing. Yoki soʻzni bosing, soʻng uning rasmini.",
+      "countLegend": "Rasmlar soni",
+      "count": "{n} ta rasm",
+      "picturesGroup": "Rasmlar",
+      "wordsGroup": "Soʻzlar",
+      "readWord": "Ovoz chiqarib oʻqish: {name}",
+      "next": "Yangi rasmlar",
+      "putBack": "Qaytarib qoʻyish",
+      "pickWord": "Endi unga mos soʻzni bosing.",
+      "pickPicture": "Endi unga mos rasmni bosing.",
+      "fit": "Ha, bu soʻz {name|lower} bilan mos keladi.",
+      "newSet": "Mana, yangi rasmlar toʻplami.",
+      "restarted": "Boshiga qaytdik. Har bir rasm va soʻz yana ajratilgan.",
+      "restored": "Qaytarib qoʻyildi. Juftlangan rasmlar yana koʻrsatildi.",
+      "all": "Har bir soʻzning oʻz rasmi bor."
+    },
+    "colorMatch": {
+      "guidance": "Rangga va uning nomiga qarang, soʻng shu rangdagi har bir rasmni bosing.",
+      "target": "Rang: {color|lower}. {color|lower} rangdagi har bir rasmni bosing.",
+      "countLegend": "Rasmlar soni",
+      "count": "{n} ta rasm",
+      "found": "Ha, {name|lower} {color|lower} rangda.",
+      "named": "{name|lower} {color|lower} rangda.",
+      "all": "Bular barcha {color|lower} rasmlar.",
+      "shown": "Mana, {color|lower} rasmlar.",
+      "show": "Koʻrsatish",
+      "next": "Boshqa rang",
+      "names": {
+        "red": "Qizil",
+        "orange": "Toʻq sariq",
+        "yellow": "Sariq",
+        "green": "Yashil",
+        "blue": "Koʻk"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Chapdagi yarmini bosing, soʻng unga mos keladigan oʻng yarmini bosing.",
+      "countLegend": "Rasmlar soni",
+      "count": "{n} ta rasm",
+      "leftGroup": "Chap yarmlar",
+      "rightGroup": "Oʻng yarmlar",
+      "left": "{name|lower} — chap yarmi",
+      "right": "{name|lower} — oʻng yarmi",
+      "joined": "Birlashtirilgan",
+      "pickRight": "Endi unga mos keladigan oʻng yarmini bosing.",
+      "pickLeft": "Endi unga mos keladigan chap yarmini bosing.",
+      "fit": "Ha, bu ikkisi {name|lower} hosil qiladi.",
+      "apart": "Bu ikkisi mos kelmaydi. Boshqasini sinab koʻring.",
+      "all": "Har bir rasm butun.",
+      "shown": "Mana, rasmlar birlashtirilgan.",
+      "show": "Koʻrsatish",
+      "next": "Boshqa toʻplam"
+    },
+    "colorByNumber": {
+      "guidance": "Izohdan rang tanlang, soʻng katakchani shu rang bilan toʻldiring. Istalgan rang mumkin.",
+      "sizeLegend": "Panjara oʻlchami",
+      "size": "{n} × {n}",
+      "keyLegend": "Ranglar",
+      "colors": [
+        "Sariq",
+        "Toʻq sariq",
+        "Yashil",
+        "Binafsha"
+      ],
+      "motifs": {
+        "house": "uy",
+        "flower": "gul",
+        "heart": "yurak",
+        "tree": "daraxt",
+        "boat": "yelkanli qayiq",
+        "pot-plant": "guldondagi oʻsimlik"
+      },
+      "region": "Rasm panjarasi, {n} × {n}. Ekran tor boʻlsa, yon tomonga suriladi.",
+      "cell": "{number}-raqam, {row}-qator, {column}-ustun, {color}",
+      "empty": "boʻsh",
+      "chose": "{name} tanlandi. Toʻldirish uchun katakchani bosing.",
+      "painted": "{row}-qator, {column}-ustundagi {name}.",
+      "sheet": "Har bir katakcha oʻz raqamining rangida. Varaqdagi rasm: {name}.",
+      "own": "Har bir katakcha toʻldirilgan. Bu sizning oʻz rasmingiz.",
+      "fillAll": "Raqamlar boʻyicha toʻldirish",
+      "filledAll": "Endi har bir boʻsh katakcha oʻz raqamining rangiga ega.",
+      "clear": "Tozalash",
+      "cleared": "Panjara tozalandi.",
+      "next": "Boshqa rasm",
+      "fresh": "Mana, boʻyash uchun yana bir rasm."
+    },
+    "patternMaker": {
+      "guidance": "Rangini oʻzgartirish uchun katakchani bosing. Naqshingiz yonida oʻsadi. Yaratganingiz saqlanmaydi va yuborilmaydi.",
+      "sizeLegend": "Plitka oʻlchami",
+      "size": "{n} × {n}",
+      "keyLegend": "Ranglar, bosish tartibida",
+      "colors": [
+        "Sariq",
+        "Toʻq sariq",
+        "Yashil",
+        "Binafsha"
+      ],
+      "tileLabel": "Sizning plitkangiz",
+      "region": "Sizning plitkangiz, {n} × {n}. Ekran tor boʻlsa, yon tomonga suriladi.",
+      "patternLabel": "Sizning naqshingiz",
+      "pattern": "Sizning naqshingiz: plitkangiz eniga {n} ta, boʻyiga {n} ta takrorlangan.",
+      "square": "{row}-qator, {column}-ustun, {color}",
+      "changed": "{row}-qator, {column}-ustun endi {color}.",
+      "cleared": "Plitka tozalandi. Uni qaytarib qoʻyishingiz mumkin.",
+      "surprise": "Tasodifiy plitka",
+      "surprised": "Mana, yangi plitka. Eskisini qaytarib qoʻyishingiz mumkin.",
+      "putBack": "Qaytarib qoʻyish",
+      "restored": "Plitkangiz avvalgi holiga qaytdi.",
+      "print": "Naqshimni chop etish",
+      "sheetTitle": "Mening naqshim"
+    },
+    "buildTogether": {
+      "guidance": "Navbatma-navbat boʻsh joyga boʻlak qoʻying. Har biringizning oʻz rangingiz bor. Yaratganingiz saqlanmaydi va yuborilmaydi.",
+      "sizeLegend": "Panjara oʻlchami",
+      "size": "{n} × {n}",
+      "people": [
+        "Birinchi ishtirokchi",
+        "Ikkinchi ishtirokchi"
+      ],
+      "colorLegend": "{person} rangi",
+      "colors": [
+        "Sariq",
+        "Toʻq sariq",
+        "Yashil",
+        "Binafsha"
+      ],
+      "inUse": "Band",
+      "turn": "Navbat: {person|lower}",
+      "yourColor": "Sizning rangingiz: {color|lower}.",
+      "built": "Birgalikda yasaldi. Bu ikkovingiz yaratgan rasm.",
+      "gridLabel": "Umumiy panjara",
+      "region": "Umumiy panjara, {n} × {n}. Ekran tor boʻlsa, yon tomonga suriladi.",
+      "cellEmpty": "{row}-qator, {column}-ustun, boʻsh",
+      "cellFilled": "{row}-qator, {column}-ustun, {color}, {person|lower} qoʻygan",
+      "placed": "{row}-qator, {column}-ustun endi {color}. Navbat: {next|lower}.",
+      "placedLast": "{row}-qator, {column}-ustun endi {color}. Birgalikda yasaldi.",
+      "taken": "{row}-qator, {column}-ustunda allaqachon boʻlak bor. Boʻsh joyni tanlang.",
+      "pass": "Oʻtkazib yuborish",
+      "passed": "Oʻtkazib yuborish ham mumkin. Navbat: {person|lower}.",
+      "takeBack": "Oxirgi boʻlakni qaytarib olish",
+      "takeBackPass": "Oʻtkazib yuborishni bekor qilish",
+      "tookBack": "Boʻlak qaytarib olindi. Navbat: {person|lower}.",
+      "tookBackPass": "Oʻtkazib yuborish bekor qilindi. Navbat: {person|lower}.",
+      "colorChanged": "{person} rangi endi: {color|lower}.",
+      "restarted": "Panjara boʻsh. Navbat: {person|lower}.",
+      "print": "Panjarani chop etish",
+      "sheetTitle": "Birgalikda yasash",
+      "sheetHelp": "Navbatma-navbat. Boʻsh katakchaga har kim oʻz qalami bilan oʻz shaklini chizadi.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Boʻlakni tanlang, soʻng rasmda uning joylashadigan boʻshligʻini bosing. Yaratganingiz saqlanmaydi va yuborilmaydi.",
+      "hints": "Yordamchi chiziqlarni koʻrsatish",
+      "pictureLine": "Bu {picture}.",
+      "pictures": {
+        "house": "uy",
+        "boat": "qayiq",
+        "tree": "daraxt",
+        "fish": "baliq",
+        "cat": "mushuk",
+        "rocket": "raketa"
+      },
+      "outlineLabel": "{picture} konturi. Tanlangan boʻlakni qoʻyish uchun boʻshliqni bosing.",
+      "trayHeading": "Boʻlaklar",
+      "pieces": {
+        "large-triangle": "Katta uchburchak",
+        "small-triangle": "Kichik uchburchak",
+        "square": "Kvadrat",
+        "parallelogram": "Parallelogramm",
+        "rectangle": "Toʻrtburchak"
+      },
+      "shapes": {
+        "large-triangle": "katta uchburchak",
+        "small-triangle": "kichik uchburchak",
+        "square": "kvadrat",
+        "parallelogram": "parallelogramm",
+        "rectangle": "toʻrtburchak"
+      },
+      "chosenLabel": "Tanlangan",
+      "spaceEmpty": "{n}-joy, {shape}, boʻsh",
+      "spaceFilled": "{n}-joy, {shape}, boʻlagi bor. Boʻlakni qaytarib olish uchun bosing.",
+      "chosen": "{piece} tanlandi. Endi rasmdagi joyni bosing.",
+      "unchosen": "Bu parcha endi tanlanmagan.",
+      "placed": "Parcha {n}-joyda.",
+      "complete": "{picture} tayyor.",
+      "different": "Bu parcha shu joyning shaklidan farq qiladi. Boshqa joyni sinab ko‘ring.",
+      "needPiece": "Avval lotokdan parcha tanlang.",
+      "filled": "Bu joyda allaqachon parcha bor. Parchani olish uchun ustiga bosing.",
+      "tookBack": "Parcha yana lotokka qaytdi.",
+      "cleared": "Barcha parchalar lotokka qaytdi. Fikringiz o‘zgarsa, ularni yana joyiga qo‘yishingiz mumkin.",
+      "restored": "Parchalar yana rasmga qaytdi.",
+      "next": "Bu {picture}.",
+      "putBack": "Qaytarib qo‘yish",
+      "another": "Boshqa shakl",
+      "print": "Bu shaklni chop etish",
+      "sheetTitle": "Sokin shakllar",
+      "sheetHow": "Parchalarni bo‘yang yoki kontur bo‘ylab kesib oling. Kesishni katta odam bajarishi mumkin.",
+      "sheetPieces": "Parchalar, kontur bilan bir xil o‘lchamda"
+    },
+    "picnicPlanner": {
+      "guidance": "Savatga qo‘yish uchun rasmga bosing, olib chiqish uchun esa savatdagi rasmga bosing. Savatga oltita narsa sig‘adi.",
+      "guidancePlay": "Bir xil ikkita rasmga bosing. Rasmlar ko‘rinib turadi, vaqt cheklanmaydi.",
+      "basketHeading": "Bizning savat",
+      "basketLabel": "Piknik savati",
+      "takeOut": "{picture} ni savatdan olib chiqish",
+      "inBasket": "Savatda",
+      "foodHeading": "Ovqat",
+      "outingsHeading": "Qiladigan ishlar",
+      "added": "{picture} savatga qo‘shildi.",
+      "removed": "{picture} savatdan olib chiqildi.",
+      "already": "{picture} allaqachon savatda. Olib chiqish uchun u yerda bosing.",
+      "full": "Savat to‘ldi. Joy bo‘shatish uchun biror narsani olib chiqing.",
+      "summary": "Bizning piknik: {list}.",
+      "summaryNone": "Savatda hali hech narsa yo‘q.",
+      "and": "va",
+      "play": "Keling, piknik bilan o‘ynaymiz",
+      "needTwo": "Avval kamida ikkita narsa tanlang.",
+      "playAgain": "Yana o‘ynash",
+      "back": "Piknikka qaytish",
+      "print": "Piknik ro‘yxatini chop etish",
+      "cleared": "Savat bo‘shatildi.",
+      "notice": "Bu suhbat uchun reja. Vaqt o‘lchanmaydi, baholanmaydi va saqlanmaydi.",
+      "sheetTitle": "Bizning piknik ro‘yxati",
+      "sheetHow": "Har bir narsani savatga solganingizda belgilang. Boshqa olib bormoqchi bo‘lgan narsalaringiz uchun bo‘sh qatorlardan foydalaning.",
+      "sheetToPack": "Savatga solish kerak"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Kitobni boshlash uchun o‘z suratlaringizdan ikki tadan o‘n ikki tagacha tanlang.",
+      "guidance": "Tugmalar yoki klaviaturadagi chap va o‘ng strelkalar yordamida sahifalarni birga varaqlang. Xohlasangiz, suratning ostiga bir necha so‘z yozing. Yaratgan narsangiz saqlanmaydi va yuborilmaydi.",
+      "lookGuidance": "Har bir sahifaga birga qarang. Gaplashishingiz yoki shunchaki tomosha qilishingiz mumkin.",
+      "intro": "Ushbu qurilmadan ikki tadan o‘n ikki tagacha surat tanlang. Har bir surat birgalikda varaqlash mumkin bo‘lgan kitobning bir sahifasiga aylanadi.",
+      "consent": "Faqat o‘z oilangiz suratlaridan foydalaning. Rozilik bera olmaydigan odamning suratini ishlatishdan oldin so‘rang.",
+      "privacy": "Suratlaringiz shu qurilmada qoladi. Ular yuklanmaydi va saqlanmaydi.",
+      "choose": "Suratlarni tanlash",
+      "chooseDifferent": "Boshqa suratlarni tanlash",
+      "backToBook": "Kitobga qaytish",
+      "backToChoose": "Suratlarni tanlashga qaytish",
+      "needTwo": "Iltimos, kamida ikkita surat tanlang.",
+      "usingFirst": "Birinchi {max} ta surat ishlatilmoqda.",
+      "cleared": "Kitob tozalandi. Qayta boshlash uchun suratlarni tanlang.",
+      "moved": "{n}-sahifaga ko‘chirildi.",
+      "pageOf": "{total} sahifadan {n}-sahifa",
+      "lookTogether": "Birga tomosha qiling",
+      "leaveLook": "Kitobga qaytish",
+      "print": "Albomni chop etish",
+      "clear": "Kitobni tozalash",
+      "bookLabel": "Oilaviy albom",
+      "pagesLabel": "Sahifalarni varaqlash",
+      "previous": "Oldingi sahifa",
+      "next": "Keyingi sahifa",
+      "moveEarlier": "Oldinga surish",
+      "moveLater": "Orqaga surish",
+      "captionLabel": "Xohlasangiz, bu sahifa uchun bir necha so‘z",
+      "captionHelp": "80 tagacha belgi. Izohlar faqat shu sahifada saqlanadi va kitobni yopganingizda yo‘qoladi.",
+      "sheetTitle": "Bizning albom",
+      "sheetHow": "Har bir sahifada bitta surat va uning ostida so‘zlar bo‘ladi. Sahifalarni ketma-ket varaqlang va har biri haqida gaplashing.",
+      "sheetEmpty": "O‘z kitobingizni chop etish uchun o‘yin sahifasida suratlaringizni tanlang, yoki bu bo‘sh sahifani chop etib, chop etilgan suratni yopishtiring.",
+      "sheetFrame": "Chop etilgan suratni shu yerga yopishtiring",
+      "sheetWords": "Bu sahifa uchun bir necha so‘z",
+      "skipped": {
+        "one": "{n} ta fayl ishlatiladigan surat emas edi.",
+        "other": "{n} ta fayl ishlatiladigan surat emas edi."
+      }
+    },
+    "quietScene": {
+      "guidance": "Bir vaqtda bitta rasmga qarang. Tayyor bo‘lganingizda Keyingi yoki Oldingi tugmasini bosing. Hech narsa o‘zi harakatlanmaydi.",
+      "next": "Keyingi rasm",
+      "previous": "Oldingi rasm",
+      "bigPicture": "Kattaroq rasm",
+      "showEverything": "Hammasini ko‘rsatish",
+      "first": "Bu birinchi rasm.",
+      "last": "Bu oxirgi rasm.",
+      "lines": {
+        "sunrise": "Quyosh yer ustida ko‘tarilmoqda.",
+        "window-with-birds": "Deraza tashqarisidagi qushlar.",
+        "vase-of-flowers": "Stol ustida gullar solingan vaza.",
+        "teacup": "Deraza yonidagi bir piyola choy.",
+        "tree": "Bog‘da turgan daraxt.",
+        "sailboat": "Suvdagi yelkanli qayiq.",
+        "lighthouse": "Dengiz bo‘yidagi mayoq.",
+        "rainbow": "Yomg‘irdan keyingi kamalak.",
+        "moon": "Tungi osmondagi oy.",
+        "daisies": "Maysa orasidagi tipratikan gullar.",
+        "rowing-boat": "Sokin suvdagi eshkakli qayiq.",
+        "potted-plant": "Guldonda o‘sayotgan yashil o‘simlik."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Navbat bilan o‘ynang. Qirqilgan rasmga bosing, so‘ng bo‘sh joyga bosing. Yaratgan narsangiz saqlanmaydi va yuborilmaydi.",
+      "people": [
+        "Birinchi ishtirokchi",
+        "Ikkinchi ishtirokchi"
+      ],
+      "marks": [
+        "doira",
+        "kvadrat"
+      ],
+      "turn": "Navbat sizda, {person|lower}.",
+      "marked": "Sizning parchalaringiz {mark} belgisi bilan belgilangan.",
+      "boardLabel": "Umumiy taxta",
+      "placeEmpty": "{n}-joy, bo‘sh",
+      "placeFilled": "{n}-joy, {picture|lower}, {person|lower} qo‘ygan",
+      "trayHeading": "Qirqilgan rasmlar",
+      "chosenLabel": "Tanlangan",
+      "chosen": "{picture} tanlandi. Endi bo‘sh joyga bosing.",
+      "unchosen": "Qirqilgan rasm endi tanlanmagan.",
+      "needCutout": "Avval qirqilgan rasmni tanlang, so‘ng bo‘sh joyga bosing.",
+      "filled": "{n}-joyda allaqachon rasm bor. Bo‘sh joyni tanlang.",
+      "placed": "{picture} {n}-joyda. Navbat sizda, {next|lower}.",
+      "full": "Har bir joyda rasm bor. O‘zgartirish uchun birini olib tashlang yoki boshidan boshlang.",
+      "pass": "O‘tkazib yuborish",
+      "passed": "O‘tkazib yuborish ham mumkin. Navbat sizda, {person|lower}.",
+      "takeBack": "Oxirgi parchani qaytarib olish",
+      "takeBackPass": "O‘tkazib yuborishni bekor qilish",
+      "tookBack": "Parcha qaytarib olindi. Navbat sizda, {person|lower}.",
+      "tookBackPass": "O‘tkazib yuborish bekor qilindi. Navbat sizda, {person|lower}.",
+      "restarted": "Taxta bo‘sh. Navbat sizda, {person|lower}.",
+      "putBack": "Qaytarib qo‘yish",
+      "putBackDone": "Parchalar yana taxtaga qaytdi.",
+      "another": "Boshqa rasmlar to‘plami",
+      "anotherSet": "Lotokda qirqilgan rasmlarning yangi to‘plami bor. Taxtadagi parchalar o‘z joyida qoladi.",
+      "print": "Taxtani chop etish",
+      "sheetTitle": "Kollaj taxtasi",
+      "sheetHow": "Rasmlarni qirqib oling va navbat bilan taxtaga joylashtiring. Kesishni katta odam bajarishi mumkin.",
+      "sheetTray": "Qirqib olish uchun rasmlar"
+    },
+    "gardenPlanner": {
+      "guidance": "Rasmni tanlang, so‘ng uni qo‘yish uchun yotoqqa bosing. Tanlovsiz, rasmi bor yotoqqa bosilsa, u tozalanadi.",
+      "bedsLabel": "Bog‘ yotoqlari",
+      "bedEmpty": "{n}-yotoq, bo‘sh",
+      "bedFilled": "{n}-yotoq, {picture|lower}",
+      "plantsHeading": "O‘simliklar",
+      "extrasHeading": "Bog‘ qo‘shimchalari",
+      "chosenLabel": "Tanlangan",
+      "chosen": "{picture} tanlandi. Endi yotoqqa bosing.",
+      "unchosen": "Hech qanday rasm tanlanmagan.",
+      "needPicture": "Avval rasm tanlang, keyin esa gulzorga bosing.",
+      "planted": "{picture} {n}-gulzorda.",
+      "replaced": "{picture} {n}-gulzordagi rasm oʻrniga qoʻyildi.",
+      "cleared": "{n}-gulzor boʻsh. Agar rasmni yana istasangiz, uni qaytarib qoʻying.",
+      "restarted": "Barcha gulzorlar boʻsh.",
+      "putBack": "Qaytarib qoʻyish",
+      "putBackDone": "Rasmlar yana oʻz gulzorlarida.",
+      "summaryHeading": "Mening bogʻim",
+      "summary": "Rejangizda {list} bor.",
+      "summaryNone": "Hali hech qaysi gulzorda rasm yoʻq.",
+      "and": "va",
+      "print": "Rejani chop etish",
+      "sheetTitle": "Bizning bogʻ rejamiz",
+      "sheetHow": "Gulzorlarda ekranda tanlangan rasmlar koʻrinadi. Xohlasangiz, boʻsh gulzorlarga oʻzingiz chizing.",
+      "sheetNotes": "Eslatmalar",
+      "notice": "Bu suhbat uchun rasm rejasi, ekish boʻyicha maslahat emas."
+    },
+    "coloringWall": {
+      "guidance": "Rasm va sahifalar sonini tanlang. Devorni chop eting, har bir kishi bir yoki bir necha sahifani rangga boʻyaydi. Vaqt yoki ball hisoblanmaydi, hech narsa saqlanmaydi.",
+      "pictureLegend": "Rasm",
+      "sizeLegend": "Sahifalar soni",
+      "sizes": {
+        "2x2": "4 ta sahifa (2 × 2)",
+        "3x2": "6 ta sahifa (3 × 2)",
+        "3x3": "9 ta sahifa (3 × 3)"
+      },
+      "previewLabel": "Bu {picture|lower} {n} ta sahifaga boʻlingan: enida {across} ta, boʻyida {down} ta. Har bir sahifaning burchagida belgi bor.",
+      "previewCaption": "Sahifa chiziqlari va belgilari chizilgan rasm.",
+      "labelsNote": "Harflar devorning boʻyi boʻylab, raqamlar esa eni boʻylab boradi, shuning uchun A1 yuqori chapdagi sahifa.",
+      "wallHeading": "Devorni qanday yigʻish mumkin",
+      "steps": [
+        "Barcha sahifalarni chop eting. Birinchi sahifada shu qadamlar va devor xaritasi bor.",
+        "Har bir kishi bir yoki bir necha sahifani olib, ularni rangga boʻyaydi.",
+        "Ranglar va uslublar bir xil boʻlishi shart emas. Har bir sahifa bitta umumiy rasmning bir qismi.",
+        "Sahifalarni belgilari boʻyicha terib chiqing, soʻng orqa tomonidan lenta bilan birlashtiring.",
+        "Devorni hamma koʻra oladigan joyga osing."
+      ],
+      "mapLabel": "Devor xaritasi: {down} ta qator, har birida {across} ta sahifa, A1 dan {last} gacha belgilangan.",
+      "edgeNote": "Uzuq chiziq har bir sahifaning chetini bildiradi. Sahifalarni shu chiziq boʻylab chetma-chet terib chiqing yoki bir oz ustma-ust qoʻying.",
+      "pictureLine": "Rasm: {picture}. Bu devor {n} ta sahifadan iborat: enida {across} ta, boʻyida {down} ta.",
+      "print": "Devorni chop etish"
+    },
+    "findTogether": {
+      "guidance": "Navbat bilan oʻynang. Navbatingizda juftlik izlab, ikkita kartani ochib koʻring. Juftliklarni birgalikda toping.",
+      "sizeLegend": "Kartalar soni",
+      "size": "{n} ta karta",
+      "viewLegend": "Qanday oʻynaladi",
+      "viewShowing": "Rasmlar ochiq holda oʻynash",
+      "viewHidden": "Kartalar yuzi pastga qaratilgan",
+      "people": [
+        "Birinchi kishi",
+        "Ikkinchi kishi"
+      ],
+      "turn": "Navbat: {person}",
+      "turnDone": "Barcha juftliklar topildi.",
+      "tally": "Birgalikda topilgan juftliklar: {n}",
+      "cardNamed": "{name}, {n}-karta",
+      "cardFaceDown": "{n}-karta, yuzi pastga",
+      "first": "{name}. Endi ikkinchi kartani oching.",
+      "found": "{name}: juftlik, birgalikda topildi. Endi {next|lower} navbati.",
+      "allTogether": "Siz barcha juftliklarni birgalikda topdingiz.",
+      "different": "{a} va {b} bir xil emas. Shoshilmang, soʻng «Kartalarni yopish» tugmasini bosing.",
+      "waiting": "Tayyor boʻlganingizda «Kartalarni yopish» tugmasini bosing. Shundan soʻng navbat oʻtadi.",
+      "turnedBack": "Kartalar yopildi. Endi {person|lower} navbati.",
+      "passed": "Oʻtkazib yuborish mumkin. Endi {person|lower} navbati.",
+      "turnBack": "Kartalarni yopish",
+      "pass": "Oʻtkazib yuborish",
+      "playAgain": "Yana oʻynash"
+    },
+    "drawingDuet": {
+      "guidance": "Navbat bilan har biringiz bir chiziq chizing, soʻng qalamni uzating. Istagan kishi navbatini oʻtkazishi mumkin. Hech narsa boshqa joyga yuborilmaydi. Rasm bu sahifadan faqat saqlasangizgina chiqadi.",
+      "people": [
+        "Birinchi kishi",
+        "Ikkinchi kishi"
+      ],
+      "colorLegend": "{person} rangi",
+      "colors": [
+        "Sariq",
+        "Apelsin rangi",
+        "Yashil",
+        "Binafsha"
+      ],
+      "turn": "{person} navbati",
+      "penColor": "Qalam rangi: {color}.",
+      "canvasLabel": "Umumiy rasm, hozircha {n} ta chiziq",
+      "canvasLabelOne": "Umumiy rasm, hozircha {n} ta chiziq",
+      "keys": "Oʻq tugmalari rasmdagi qalam nuqtasini siljitadi. Probel tugmasi qalamni qogʻozga tekkizadi yoki uzadi.",
+      "penDown": "Qalamni tushirish",
+      "penUp": "Qalamni koʻtarish",
+      "pass": "Qalamni uzatish",
+      "passed": "Oʻtkazib yuborish mumkin. Endi {person|lower} navbati.",
+      "takeBack": "Oxirgi chizigʻimni olib tashlash",
+      "tookBack": "{person|lower}ning oxirgi chizigʻi olib tashlandi.",
+      "noLine": "{person|lower}ning olib tashlaydigan chizigʻi yoʻq.",
+      "restarted": "Qogʻoz tozalandi. Navbat birinchi kishida. Agar bunday qilmoqchi boʻlmagan boʻlsangiz, qaytarib qoʻying.",
+      "putBack": "Qaytarib qoʻyish",
+      "restored": "Chiziqlar avvalgidek qaytdi.",
+      "save": "Rasmni saqlash",
+      "saved": "Rasmingiz tayyor. Uni shu qurilmada saqlab qoʻyish uchun yuklab olish havolasidan foydalaning.",
+      "download": "Yuklab olish: drawing-duet.png",
+      "print": "Qogʻoz nusxasini chop etish",
+      "sheetTitle": "Birgalikda chizish",
+      "paperRules": "Ikki kishi, bitta qogʻoz, ikkita qalam. Navbat bilan: har kim bitta chiziq yoki shakl chizadi, soʻng qalamni uzatadi. Istagan kishi navbatini oʻtkazishi mumkin. Toʻgʻri rasm yoʻq."
+    },
+    "colorWash": {
+      "guidance": "Sahifa boʻylab yumshoq rang surting, har safar bir qatlam. Toʻxtash uchun choʻtkani koʻtaring va istagan payt toʻxtashingiz mumkin. Hech narsa saqlanmaydi va yuborilmaydi.",
+      "colorLegend": "Rang",
+      "sizeLegend": "Choʻtka oʻlchami",
+      "colors": [
+        "Sariq",
+        "Apelsin rangi",
+        "Yashil",
+        "Binafsha"
+      ],
+      "sizes": {
+        "wide": "Keng",
+        "veryWide": "Juda keng"
+      },
+      "color": "Rang: {color}.",
+      "brushDown": "Choʻtkani tushirish",
+      "brushUp": "Choʻtkani koʻtarish",
+      "keys": "Oʻq tugmalari sahifadagi choʻtka halqasini siljitadi. Probel tugmasi choʻtkani tushiradi yoki koʻtaradi.",
+      "canvasLabel": "Yumshoq rang qatlamlari bilan sahifa",
+      "fresh": "Yangi sahifa",
+      "freshMessage": "Yangi sahifa.",
+      "putBack": "Qaytarib qoʻyish",
+      "restored": "Sahifa qayta tiklandi."
+    },
     "sortTogether": {
       "guidance": "Rasmni bosing, soʻng u tegishli savatni bosing.",
       "restart": "Yangi rasmlar",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} uchun mos savat: «{basket}». Uni oʻsha savatga qoʻyish uchun bosing.",
       "placed": "{name|lower} «{basket}» savatiga qoʻyildi.",
       "sorted": "Hammasi saralandi. Savatlarni birga koʻrib chiqing yoki boshqa mavzuni sinab koʻring.",
+      "largerTargets": "Kattaroq nishonlar",
+      "largerOn": "Kattaroq nishonlar yoqildi. Hech narsa joyidan qoʻzgʻalmadi.",
+      "largerOff": "Kattaroq nishonlar oʻchirildi. Hech narsa joyidan qoʻzgʻalmadi.",
+      "largerOnNewRound": "Kattaroq nishonlar yoqilgan, ikkita savat bilan. Saralash uchun yangi rasmlar mana.",
       "basket": {
         "one": "{basket} savati, ichida {count} ta rasm",
         "other": "{basket} savati, ichida {count} ta rasm"
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Butun rasm: {name}",
       "guideText": "Rasm butun boʻlganda shunday koʻrinadi.",
+      "ownChoose": "Oʻz rasmingizdan foydalanish",
+      "ownChange": "Boshqa rasm tanlash",
+      "ownBack": "Bizning rasmlarga qaytish",
+      "ownPrivacy": "Rasmingiz shu qurilmada qoladi. U yuklanmaydi va saqlanmaydi.",
+      "ownConsent": "Oʻz rasmlaringizdan foydalaning. Rozilik bera olmaydigan kishining rasmini ishlatishdan oldin undan ruxsat soʻrang.",
+      "ownWorking": "Rasmingiz tayyorlanmoqda.",
+      "ownNotUsable": "Bu faylni ishlatib boʻlmadi. JPEG yoki PNG kabi rasm faylini tanlang.",
+      "ownAlt": "Sizning rasmingiz",
+      "ownPiece": "{n}-boʻlak, {place}",
+      "ownWhole": "Rasmingiz yana butun boʻldi. Istagan payt yana aralashtirishingiz mumkin.",
+      "ownSheetTitle": "Rasmingiz boʻlaklarda",
+      "ownSheetHow": "Chiziqlar boʻylab kesing. Boʻlaklarni aralashtiring, soʻng rasm butun boʻlguncha bir vaqtda ikkita boʻlakni almashtiring.",
       "piece": "Boʻlak: {place}",
       "pieceInPlace": ", toʻgʻri joyda",
       "piecePickedUp": ", olingan",
@@ -190,6 +854,14 @@
       "guidance": "Kartani ovoz chiqarib oʻqing. Toʻgʻri javob yoʻq.",
       "position": "{n}-karta, jami {total} ta",
       "themeLegend": "Mavzu",
+      "showPrompt": "Suhbat taklifini koʻrsatish",
+      "bigPicture": "Guruh uchun katta rasm",
+      "passNote": "Istagan kishi oʻtkazib yuborishi mumkin.",
+      "groupTitle": "Kartani guruh boʻylab uzatish",
+      "groupSit": "Hamma rasmni koʻra oladigan qilib doira boʻlib oʻtiring. Avval kartani ushlab turgan kishi yoki katta rasm koʻrsatilgan qurilma taklifni ovoz chiqarib oʻqiydi.",
+      "groupPass": "Soʻng kartani keyingi kishiga uzating. Har bir kishi rasm haqida bir soʻz yoki bir gap aytadi, soʻng kartani uzatadi.",
+      "groupNoSpeech": "Kartani uzatish har doim mumkin. Kishi hech narsa demasdan oʻtkazib yuborishi mumkin va hech kim sababini aytishi shart emas.",
+      "groupEnd": "Davra kartochka doira bo‘ylab aylanib chiqqanda yoki guruh yetarli deb hisoblaganda tugaydi. Hech kim yutmaydi. Guruh xohlagan paytda to‘xtashi mumkin.",
       "next": "Keyingi karta",
       "previous": "Oldingi karta",
       "print": "Barcha kartalarni chop etish",
@@ -252,6 +924,20 @@
       "started": "Boshlandi. Doira kattalashganda nafas oling.",
       "stopped": "Toʻxtatildi.",
       "finished": "Bu olti sekin nafas edi. Xohlagan paytingizda yana boshlang."
+    },
+    "storyChain": {
+      "guidance": "Navbatma-navbat: har biringiz bitta gap ayting va keyingi rasmni qo‘shing.",
+      "passNote": "Gapingizni ovoz chiqarib ayting. Hech narsa yozilmaydi va saqlanmaydi. Istagan kishi o‘tkazib yuborishi mumkin.",
+      "chainLabel": "Hozirgacha zanjir",
+      "item": "Rasm {n}: {name}",
+      "add": "Rasm qo‘shing",
+      "fullAdd": "Zanjir to‘ldi. Yangi zanjir boshlang",
+      "newChain": "Yangi zanjir boshlang",
+      "takeOff": "Oxirgisini olib tashlang",
+      "added": "{name|lower} endi zanjir oxiriga qo‘shildi.",
+      "removed": "{name|lower} zanjirdan olib tashlandi.",
+      "fresh": "Yangi zanjir, {name|lower} bilan boshlandi.",
+      "full": "Zanjirda barcha 8 ta rasm bor. Butun hikoyani aytib bering yoki yangi zanjir boshlang."
     }
   },
   "pictures": {
@@ -287,191 +973,96 @@
     "balloon": "Issiq havo shari",
     "lighthouse": "Mayoq",
     "sun": "Quyosh",
-    "moon": "Oy va yulduzlar"
+    "moon": "Oy va yulduzlar",
+    "teapot": "Choynak",
+    "apple-pie": "Olma pirogi",
+    "honey-jar": "Asal bankasi",
+    "boiled-egg": "Tuxum qadahda",
+    "toaster": "Toster",
+    "cheese": "Pishloq bo‘lagi",
+    "milk-jug": "Sut kuvshini",
+    "cupcake": "Kapkeyk",
+    "orange": "Apelsin",
+    "grapes": "Uzum dastasi",
+    "watermelon": "Tarvuz bo‘lagi",
+    "pineapple": "Ananas",
+    "peach": "Shaftoli",
+    "rose": "Atirgul",
+    "daisies": "Romashkalar",
+    "mushroom": "Qo‘ziqorin",
+    "wheelbarrow": "Tachka",
+    "birdhouse": "Qushxona",
+    "cactus": "Kaktus, guldonda",
+    "acorn": "Eman mevasi",
+    "autumn-leaf": "Kuz bargi",
+    "rabbit": "Quyon",
+    "duck": "O‘rdak",
+    "hen": "Tovuq",
+    "sheep": "Qo‘y",
+    "owl": "Boyo‘g‘li",
+    "ladybird": "Xonqizi",
+    "snail": "Salyangoz",
+    "frog": "Qurbaqa",
+    "bee": "Asalari",
+    "clock": "Kamin soati",
+    "vase-of-flowers": "Vaza, gullar bilan",
+    "radio": "Radio (eski)",
+    "books": "Kitoblar uyumi",
+    "candle": "Sham",
+    "glasses": "Ko‘zoynak",
+    "telephone": "Telefon",
+    "ball-of-wool": "Jun galtagi",
+    "straw-hat": "Shlyapa",
+    "train": "Bug‘ poyezdi",
+    "bus": "Avtobus",
+    "airplane": "Samolyot",
+    "suitcase": "Chamadon",
+    "tractor": "Traktor",
+    "rowing-boat": "Qayiq (eshkakli)",
+    "rainbow": "Kamalak",
+    "rain-cloud": "Yomg‘ir buluti",
+    "snowflake": "Qor donasi",
+    "kite": "Uchirtma",
+    "sunrise": "Quyosh chiqishi, tepaliklar ustida",
+    "decorated-keepsake-box": "Bezakli esdalik qutisi",
+    "painted-plant-pot": "Bo‘yalgan guldon, ziravorlar bilan",
+    "repeating-pattern-sheet": "Naqsh varag‘i",
+    "music-drawn-lines": "Chiziqlar, musiqa ostida chizilgan",
+    "paper-boat-afloat": "Qog‘oz qayiq, suvda",
+    "folded-towel-stack": "Sochiqlar to‘plami",
+    "hand-massage-with-lotion": "Qo‘l massaji, losyon bilan",
+    "open-photo-album": "Foto albom, ochiq",
+    "button-flower-card": "Tugmadan gul, kartochkada",
+    "blue-torn-paper-collage": "Ko‘k qog‘oz kolaji",
+    "family-tree-of-hands": "Oila daraxti, qo‘llardan",
+    "open-greeting-card": "Tabrik kartochkasi, yurakli",
+    "lavender-sachet": "Lavanda xaltachasi",
+    "memory-collage-of-photos": "Oila suratlari kolaji",
+    "paper-chain-garland": "Qog‘oz halqalar zanjiri",
+    "open-songbook-with-notes": "Qo‘shiqlar kitobi, ochiq",
+    "photo-postcard-with-stamp": "Foto otkritka, markali",
+    "pine-cone-bird-feeder": "Qarag‘ay konusi, qushlar uchun ozuqa",
+    "playlist-phone-and-card": "Telefon, qo‘shiqlar ro‘yxati va kartochka",
+    "sealed-rice-shaker": "Guruch shakeri, yopiq",
+    "texture-board-with-scraps": "Tekstura taxtasi, matolar bilan",
+    "painted-garden-stone": "Bog‘ toshi, bo‘yalgan",
+    "shared-painted-canvas": "Polotno, birgalikda bo‘yalgan",
+    "watercolor-washes-sheet": "Akvarel dog‘lari, qog‘ozda",
+    "seedling-in-pot": "Ko‘chatlar, guldonda",
+    "pressed-leaves-in-book": "Bosilgan barglar, kitobda",
+    "printed-leaves-sheet": "Barg izlari bosilgan varaq",
+    "pinch-pot-clay-bowl": "Loy idish, qo‘lda yasalgan",
+    "table-sketch-pencil": "Kruzka eskizi, qalam bilan",
+    "buttons-in-muffin-tin": "Tugmalar, muffin qolipida saralangan",
+    "family-recipe-book": "Oila retsept kitobi",
+    "drum-with-beat-marks": "Baraban, tayoqchalar bilan",
+    "torn-paper-flower": "Gul mozaikasi, yirtilgan qog‘ozdan",
+    "window-with-birds": "Deraza, qushlar bilan",
+    "woven-paper-mat": "Qog‘oz gilamcha, to‘qilgan",
+    "yarn-ball-with-thread": "Jun galtagi, ip bilan",
+    "letter-and-envelope": "Xat, konvertda"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Birlashgan oʻzar, birlashmagan",
-        "end": "toʻzar",
-        "others": [
-          "qolar",
-          "yurar"
-        ],
-        "prompt": "Birgalikda qilgan qaysi ishingizdan zavqlangansiz?"
-      },
-      {
-        "start": "Mehnatning noni",
-        "end": "shirin",
-        "others": [
-          "issiq",
-          "mazali"
-        ],
-        "prompt": "Oʻz qoʻlingiz bilan qilgan qaysi ishdan mamnun boʻlgansiz?"
-      },
-      {
-        "start": "Mehnatning tagi —",
-        "end": "rohat",
-        "others": [
-          "shirin",
-          "baraka"
-        ],
-        "prompt": "Ishdan keyin dam olish sizga qanday yoqadi?"
-      },
-      {
-        "start": "Yaxshi soʻz —",
-        "end": "jon ozigʻi",
-        "others": [
-          "dil rohati",
-          "el ozigʻi"
-        ],
-        "prompt": "Koʻnglingizni koʻtargan biror yaxshi soʻz haqida gapirib bering."
-      },
-      {
-        "start": "Yaxshi soʻz bilan ilon",
-        "end": "inidan chiqar",
-        "others": [
-          "uyidan chiqar",
-          "qoʻlga kirar"
-        ],
-        "prompt": "Mehribon gap bilan hal boʻlgan biror voqea haqida gapirib bering."
-      },
-      {
-        "start": "Sabrning tagi —",
-        "end": "sariq oltin",
-        "others": [
-          "oq kumush",
-          "yashil bogʻ"
-        ],
-        "prompt": "Sabr bilan kutib, keyin xursand boʻlgan biror narsa haqida gapirib bering."
-      },
-      {
-        "start": "Sabr qilgan",
-        "end": "murodiga yetar",
-        "others": [
-          "xursand boʻlar",
-          "yoʻlini topar"
-        ],
-        "prompt": "Kutilgan quvonchli kun haqida gapirib bering."
-      },
-      {
-        "start": "Yetti oʻlchab,",
-        "end": "bir kes",
-        "others": [
-          "bir tik",
-          "bir yoz"
-        ],
-        "prompt": "Nimadir tikkan yoki yasagan paytingiz haqida gapirib bering."
-      },
-      {
-        "start": "Nima eksang,",
-        "end": "shuni oʻrasan",
-        "others": [
-          "shuni yersan",
-          "shuni olasan"
-        ],
-        "prompt": "Bogʻingizda yoki hovlingizda nima ekishni yoqtirgansiz?"
-      },
-      {
-        "start": "Ona yurt —",
-        "end": "oltin beshik",
-        "others": [
-          "kumush beshik",
-          "katta uy"
-        ],
-        "prompt": "Tugʻilib oʻsgan joyingiz haqida gapirib bering."
-      },
-      {
-        "start": "Mehmon —",
-        "end": "otangdan ulugʻ",
-        "others": [
-          "uyga fayz",
-          "dasturxon ziynati"
-        ],
-        "prompt": "Uyingizga mehmon kelganda dasturxonga nima qoʻyishni yoqtirasiz?"
-      },
-      {
-        "start": "Koʻrpangga qarab",
-        "end": "oyoq uzat",
-        "others": [
-          "qadam tashla",
-          "yoʻl yur"
-        ],
-        "prompt": "Uyingizdagi eng qulay joy qayer?"
-      },
-      {
-        "start": "Sutdan ogʻzi kuygan qatiqni ham",
-        "end": "puflab ichar",
-        "others": [
-          "sovitib ichar",
-          "oldin tatib koʻrar"
-        ],
-        "prompt": "Qatiqni nima bilan yeyishni yoqtirasiz?"
-      },
-      {
-        "start": "Yaxshilik qil, daryoga tashla, baliq bilmasa,",
-        "end": "Xoliq biladi",
-        "others": [
-          "daryo biladi",
-          "qush biladi"
-        ],
-        "prompt": "Kimgadir yordam berish sizga qanday tuyuladi?"
-      },
-      {
-        "start": "Bir bolaga yetti",
-        "end": "qoʻshni ota-ona",
-        "others": [
-          "qoʻshni doʻst",
-          "mahalla ota-ona"
-        ],
-        "prompt": "Qoʻshnilaringiz haqida yoqimli narsa aytib bering."
-      },
-      {
-        "start": "Qoʻshni haqi —",
-        "end": "Tangri haqi",
-        "others": [
-          "ota haqi",
-          "mehmon haqi"
-        ],
-        "prompt": "Mahallada bayramlar qanday oʻtishi sizga yoqadi?"
-      },
-      {
-        "start": "Qush uyasida",
-        "end": "koʻrganini qiladi",
-        "others": [
-          "koʻrganini yeydi",
-          "koʻrganini aytadi"
-        ],
-        "prompt": "Birovdan oʻrgangan biror ish haqida gapirib bering."
-      },
-      {
-        "start": "Til —",
-        "end": "dilning tarjimoni",
-        "others": [
-          "dilning kaliti",
-          "dilning koʻzgusi"
-        ],
-        "prompt": "Sevimli qoʻshiq yoki ashulangiz haqida gapirib bering."
-      },
-      {
-        "start": "Bilagi zoʻr birni yiqar, bilimi zoʻr",
-        "end": "mingni",
-        "others": [
-          "yuzni",
-          "ikkini"
-        ],
-        "prompt": "Qaysi hunar yoki mahoratni qadrlaysiz?"
-      },
-      {
-        "start": "Yaxshi niyat —",
-        "end": "yarim davlat",
-        "others": [
-          "yarim bayram",
-          "yarim non"
-        ],
-        "prompt": "Yaxshi niyat bilan qilingan biror sovgʻa haqida gapirib bering."
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABDEGIKLMNORSTUY",
@@ -795,11 +1386,6 @@
           "theme": "seasons",
           "picture": "umbrella",
           "prompt": "Qor, yomgʻir yoki quyosh: qaysi birini afzal koʻrasiz?"
-        },
-        {
-          "theme": "seasons",
-          "picture": "tulip",
-          "prompt": "Bahor bayramlari, masalan Navroʻz, qanday oʻtishi sizga yoqadi?"
         }
       ]
     },
@@ -902,6 +1488,17 @@
             "Sayohat"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Mevalar",
+        "animals": "Hayvonlar",
+        "travel": "Sayohat qilish usullari",
+        "flowers": "Gullar",
+        "hot-drinks": "Issiq ichimlik narsalari",
+        "weather": "Ob-havo turlari",
+        "baked": "Pechda pishiriladigan narsalar"
       }
     }
   }

@@ -5,6 +5,13 @@
       "stopReading": "Yima ku hlaya",
       "region": "Masewu",
       "restart": "Sungula nakambe",
+      "rest": "Phumula hi nkarhi lowu",
+      "restingTitle": "Mi phumula",
+      "restingText": "Teka nkarhi lowu mi wu lavaka. Ndhawu ya n'wina yi hlayisiwa eka tsamba leli.",
+      "resume": "Qhubeka",
+      "placeText": "Eka nkarhi wo hetelela mi yimile hakona. Qhubeka laha mi yimeke kona, kumbe sungula hi ntsha.",
+      "placeResume": "Qhubeka",
+      "placeFresh": "Sungula hi ntsha",
       "soundOn": "Mintsoro leyi olovaka yi tshameka",
       "soundOff": "Mintsoro leyi olovaka yi pfariwile",
       "done": "Se hi hetile namuntlha",
@@ -43,7 +50,19 @@
       "viewShowing": "Swifaniso swi komba",
       "viewHidden": "Swifaniso swi fihliwe",
       "playAgain": "Tshameka nakambe hi swifaniso swa leswaku",
-      "talk": "Vulavula hi swifaniso swin'we"
+      "talk": "Vulavula hi swifaniso swin'we",
+      "modeLegend": "Swifaniso swihi",
+      "modePlay": "Swifaniso leswi nga kona",
+      "modeDaily": "Khadi ra namuntlha",
+      "dayLegend": "Siku rihi",
+      "dayHelp": "Hinkwavo va kuma swifaniso leswi fanaka hi siku rin'we. Masiku ya khale nawu wa kona, naswona ku hambalasa siku a ku khumbi nchumu.",
+      "guidanceDaily": "Khadi ra namuntlha ri ni tipare ta mune. Cinca xifaniso, kutani mi cinca lexi fanaka na xona.",
+      "restartDaily": "Sungula khadi leli hi ntsha",
+      "copy": "Kopa mutsari lowu",
+      "copied": "Ku kopiwile. A ku rhumeriwi nchumu xikan'we.",
+      "calendarTitle": "Makhadi ya namuntlha, {month}",
+      "calendarHelp": "Siku ro hambana ni ro hambana ri ni swifaniso swa mune leswi fanaka eka hinkwavo. A ku balwi mpimo, naswona a ku na siku leri tsaliwaka leri hi lahlekeke.",
+      "calendarVersion": "Vhesheni {date}. Swifaniso swi fanana eka hinkwavo hi siku rinwe."
     },
     "choose": {
       "countLegend": "Swifaniso swi nga kanakana",
@@ -62,6 +81,635 @@
       "shadowAlt": "Xivumbeko xo fanana na xifaniso",
       "foundAlt": "Xivumbeko xa {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Tinyiketelo",
+      "hintOn": "Nyiketelo endzhaku ka ku orha",
+      "hintOff": "A ku na tinyiketelo",
+      "guidance": "Kuma swifaniso swa {n} leswi tirhaka swin'we, kutani mi cinca un'wana ni un'wana.",
+      "countLegend": "Swifaniso swingahi",
+      "count": "Swifaniso swa {n}",
+      "found": "Ina, {name|lower} i xiphemu xa leli qembu.",
+      "elsewhere": "{name|lower} i ya nchumu wun'wana. Teka nkarhi wa n'wina.",
+      "hint": "Nyiketelo: lavani {theme|lower}.",
+      "together": "Leswi tirhaka swin'we: {theme}.",
+      "shown": "Leli i qembu: {theme}.",
+      "groupName": "Swin'we: {theme}",
+      "show": "Komba qembu",
+      "next": "Seti yin'wana"
+    },
+    "oddOneOut": {
+      "hintLegend": "Tinyiketelo",
+      "hintOn": "Nyiketelo endzhaku ka ku orha",
+      "hintOff": "A ku na tinyiketelo",
+      "guidance": "Kuma xifaniso lexi nga fanangiki ni swin'wana, kutani mi cinca xona.",
+      "countLegend": "Swifaniso swingahi",
+      "count": "Swifaniso swa {n}",
+      "belongs": "{name|lower} yi fanana ni swin'wana. Teka nkarhi wa n'wina.",
+      "found": "Ina, {name|lower} i xona xi nga fanangiki. Swin'wana i {theme|lower}.",
+      "shown": "Nala: {name|lower}. Swin'wana i {theme|lower}.",
+      "hint": "Nyiketelo: {n} ya swona i {theme|lower}.",
+      "others": "Swin'wana: {theme}",
+      "show": "Komba mina",
+      "next": "Seti yin'wana"
+    },
+    "seatedToss": {
+      "guidance": "Tshamani etafuleni mi hlahlana xikwama xa swimila xo olova eka xikhutazo xikulu. Hlayisani xibalo papila, mi ri swin'we.",
+      "stepsHeading": "Ndlela yo tirha",
+      "steps": [
+        "Printa xikhutazo ni papila ra xibalo, mi ri veka ri lulamile etafuleni exikarhi ka n'wina.",
+        "Tshamani hi ku olova, un'we eka ndhawu yin'wana ni un'wana. Un'wana ni un'wana a hlahla kan'we hi ku olova, kumbe a hlayisa loko a lava.",
+        "Loko xikwama xi wela exikhutazweni, munhu la hlahlaka u tsemeta bokisi rin'we exikolomeni ra yena, enhoveni ra xikhutazo xoleyo.",
+        "Loko mi yimile, mi nga langutana swi tsemiwile swin'we, loko mi lava. A ku na munhu la laviwaka ku engetela nchumu.",
+        "Yima nkarhi wihi na wihi loko munhu un'wana a lulamile ku yima."
+      ],
+      "safetyHeading": "Ku sirhelela",
+      "safetyLine": "Tirhisa xikwama lexi nga ni xikhavhelo lexi tlhariweke ntsena kumbe ntsoko lowu pfuriweke, tshama phasi, u nga hlahli eka xikandza, naswona hlayisa munhu lonkulu a ri ekusuhi. Swipahla leswitsongo swi ni khombo ra ku khunguleka.",
+      "flags": [
+        "A swi faneli vana ka 3: swipahla switsongo",
+        "Hlayisa ekule ni milomo"
+      ],
+      "safety": [
+        "Hlawula xikwama xa swimila xo tlhariwa xikhavhelo, kumbe pfuriwa ntsoko lowu basileke. Kambisisa swona u lava timbhoko kumbe tinsinya leti nga tiyiki, leswaku ku nga ri na nchumu lowu nga ta huma.",
+        "Swinyenyana, mpunga ni swin'wana swo tala swi ni khombo ra ku khunguleka. Swi hlayise ekule ni vana lava tsongo ni munhu un'wana ni un'wana la vekaka swilo emilomweni.",
+        "Tshama ekusuhi, u languta hi ku tiyisa loko ku ri na nchumu lowu nga vekiwa emilomweni.",
+        "Tshama phasi. Hlahla hi ku olova, hi le hansi eka xikhutazo etafuleni, u nga hlahli eka xikandza."
+      ],
+      "previewLabel": "Papila leri printiweke: xikhutazo xa mirhangu harhu leyi vitaniwaka Kusuhi, Pakati ni Kule, ku suka ehandle ku ya enhoveni, ni xibalo xa xikolomo xa munhu un'wana ni un'wana ni nhlayo ya tibokisi leti nga na nchumu eka xikhutazo xin'wana ni xin'wana.",
+      "sheetHow": "Veka papila ri lulamile exikarhi ka n'wina. Loko xikwama xi wela exikhutazweni, tsemeta bokisi exikolomeni ra wena, enhoveni ra xikhutazo xoleyo.",
+      "rings": [
+        "Kusuhi",
+        "Pakati",
+        "Kule"
+      ],
+      "people": [
+        "Munhu wo sungula",
+        "Munhu wa vumbirhi"
+      ],
+      "ringHeading": "Xikhutazo",
+      "print": "Printa xikhutazo ni papila ra xibalo"
+    },
+    "seasonalPack": {
+      "guidance": "Hlawula nyanga, printa swihlamariso harhu swa papila swa nyanga yoleyo, kutani mi endla un'we, mbirhi kumbe harhu hinkwavo swin'we.",
+      "monthLegend": "Hlawula nyanga",
+      "months": [
+        "Janawari",
+        "Febhuwari",
+        "Mbirhi",
+        "Mudyaxihi",
+        "Mawuwani",
+        "Khotavuxika",
+        "Mhawuri",
+        "Ndzhati",
+        "Nyenyenyani",
+        "Nhlolanja",
+        "Hukuri",
+        "Dyambu"
+      ],
+      "monthNote": "Nyanga yin'wana ni yin'wana yi ni swifaniso swa yona. Tsamba ri pfuleka eka nyanga leyi, naswona mi nga hlawula yin'wana yoleyo.",
+      "restDay": "Namuntlha i siku ro phumula",
+      "restLine": "A ku na swihlamariso namuntlha. Siku ro phumula i siku lerinene nakambe.",
+      "previewHeading": "Swihlamariso harhu",
+      "puzzles": {
+        "pairs": {
+          "title": "Hlanganisa swipare",
+          "how": "Dirowa xikhomo ku suka eka xifaniso xin'wana ni xin'wana eka mutsara lowu nga henhla ku ya eka xifaniso lexi fanaka eka mutsara lowu nga hansi.",
+          "describe": "Mitsara mbirhi ya swifaniso swa mune leswi fanaka, hi ndlela yo hambana."
+        },
+        "different": {
+          "title": "I yihi leyi hambanaka?",
+          "how": "Rhendzela xifaniso lexi hambanaka ni swin'wana harhu.",
+          "describe": "Mutsara wa swifaniso swa mune. Harhu swa swona swa fana, un'we wu hambanile."
+        },
+        "color": {
+          "title": "Pfala xona",
+          "how": "Pfala xifaniso hi ndlela leyi u yi lavaka, hi kirayoni kumbe hi pensele.",
+          "describe": "Xifaniso xin'we lexikulu xo pfala."
+        }
+      },
+      "print": "Printa xikhomelo xa nyanga leyi",
+      "sheetHow": "Printa tsamba rin'we. Endla un'we, mbirhi kumbe harhu hinkwavo swihlamariso, hi ndlela yihi na yihi.",
+      "printFooter": "Endla un'we, mbirhi kumbe harhu hinkwavo. Yima nkarhi wihi na wihi loko mi lava."
+    },
+    "decorateACard": {
+      "guidance": "Hlawula xivangelo, kutani mi andlisa khadi swin'we hi kirayoni kumbe hi pene. A ku na khadi leri lulameke.",
+      "occasionLegend": "Hlawula xivangelo",
+      "occasions": {
+        "birthday": {
+          "label": "Siku ro veleka",
+          "words": "Siku ro velekeka lerinene"
+        },
+        "thank-you": {
+          "label": "Hi khensa",
+          "words": "Hi khensa"
+        },
+        "thinking-of-you": {
+          "label": "Ku anakanya ha n'wina",
+          "words": "Ndza mi anakanya"
+        },
+        "new-season": {
+          "label": "Nkarhi wo sungula lowu ntsha",
+          "words": "Nkarhi wo sungula lowu ntsha"
+        },
+        "just-because": {
+          "label": "Ku nga na xivangelo",
+          "words": "Ku nga na xivangelo"
+        }
+      },
+      "stepsHeading": "Ku andlisa khadi swin'we ku ri njhani",
+      "steps": {
+        "fold": "Printa khadi u kandziyela exikarhi hi le ndzhengeni lowu nga ni timhaka, leswaku xiphemu xa le mahlweni xi va ehandle.",
+        "front": "Un'we wa n'wina u andlisa xiphemu xa le mahlweni, ekusuhi ni marito.",
+        "inside": "Munhu wun'wana u andlisa xiphemu xa le endzhaku, kumbe mi hambanisa xiphemu xin'we hi ndlela ya ku tshinta.",
+        "message": "Tsalani mhaka swin'we. Un'we a nga tsala, un'wana a vula marito.",
+        "stop": "Yima nkarhi wihi na wihi loko mi lava. A ku na khadi leri lulameke, naswona khadi ra ku olova ri kahle ku fana."
+      },
+      "materials": "Tirhisa kirayoni, pensele ya mavala kumbe pene ya felt. A ku laveki ku sema, ku namarhela kumbe ku tlanganisa nchumu.",
+      "previewLabel": "Nkombiso wa khadi leri kandziyeriweke exikarhi. Xiphemu xa le mahlweni xi ri {words}, xi ni xikhwari xa masamba ni tinyeleti. Xiphemu xa le endzhaku xi ni mitsara ya mhaka ni mutsara wa Ku suka eka.",
+      "from": "Ku suka eka",
+      "sheetHow": "Pindla kaadi endzhaku ka mugondzo lowu nga ehansi, ku nga ri ndzhetsa ya kaadi yi ri ehandle. Tsala muhlaya emahlweni ya kaadi.",
+      "rulesHeading": "Ya vanhu va mbirhi",
+      "sheetRules": [
+        "Tshinya nkarhi, kumbe avanyana ntirho: un'wana u hlamusela ngaphandle, un'wana emahlweni.",
+        "Tsalani muhlaya swin'we, kumbe un'wana a tsala leswi un'wana a swi vulavulaka.",
+        "Un'wana na un'wana u nga yima nkarhi wihi na wihi. A ku na kaadi leyi nga ntiyiso."
+      ],
+      "print": "Printa kaadi"
+    },
+    "storyDice": {
+      "guidance": "Languta swifaniso u vulavula nhlamuselo hi swona, hi ndlela yihi na yihi. A ku na nhlamuselo leyi nga ntiyiso.",
+      "countLegend": "Swi nga ni tintlhampfu",
+      "count": "tintlhampfu {n}",
+      "roll": "Khoma nakambe",
+      "pass": "Hundzisela",
+      "passed": "Ku hundzisela a ku khomeki. Munhu la landzelaka a nga sungula, kumbe u nga khoma nakambe.",
+      "rolled": "Swifaniso swa ntsha: {names}.",
+      "tapped": "{name}. Sungula hi leyi, kumbe hi yin'wana."
+    },
+    "wordPicture": {
+      "guidance": "Klikela xifaniso, kutani rito leri vulavulaka xona. Kumbe klikela rito, kutani xifaniso xa rona.",
+      "countLegend": "Swifaniso swi nga ni yini",
+      "count": "swifaniso {n}",
+      "picturesGroup": "Swifaniso",
+      "wordsGroup": "Marito",
+      "readWord": "Hlaya ehenhla: {name}",
+      "next": "Swifaniso leswintshwa",
+      "putBack": "Tlherisela",
+      "pickWord": "Sweswi klikela rito leri landzelelanaka na xona.",
+      "pickPicture": "Sweswi klikela xifaniso lexi landzelelanaka na rona.",
+      "fit": "Ina, rito leri ri landzelelana na {name|lower}.",
+      "newSet": "Hi leswi swifaniso leswintshwa.",
+      "restarted": "Hi tlhela eku sunguleni. Xifaniso ni rito ro tala swi hambanile nakambe.",
+      "restored": "Swi tlhelisiwile. Mapeyiri lama landzelelanaka swi kombisiwa nakambe.",
+      "all": "Rito ro tala ri ni xifaniso xa rona."
+    },
+    "colorMatch": {
+      "guidance": "Languta muvala ni vito ra wona, kutani klikela swifaniso hinkwaswo leswi nga ni muvala wolowo.",
+      "target": "Muvala i {color|lower}. Klikela swifaniso hinkwaswo leswi nga {color|lower}.",
+      "countLegend": "Swifaniso swi nga ni yini",
+      "count": "swifaniso {n}",
+      "found": "Ina, {name|lower} i {color|lower}.",
+      "named": "{name|lower} i {color|lower}.",
+      "all": "Hi swona hinkwaswo swifaniso swa {color|lower}.",
+      "shown": "Hi leswi swifaniso swa {color|lower}.",
+      "show": "Swi kombise",
+      "next": "Muvala un'wana",
+      "names": {
+        "red": "Lowo tshuka",
+        "orange": "Lowa orenji",
+        "yellow": "Lowo cheneta",
+        "green": "Lowo hlaya",
+        "blue": "Lowo mpfeni"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Klikela hafu ya le nhoveni, kutani klikela hafu ya le xineneni leyi yi lulamaka na yona.",
+      "countLegend": "Swifaniso swi nga ni yini",
+      "count": "swifaniso {n}",
+      "leftGroup": "Tihafu ta le nhoveni",
+      "rightGroup": "Tihafu ta le xineneni",
+      "left": "Hafu ya le nhoveni ya {name|lower}",
+      "right": "Hafu ya le xineneni ya {name|lower}",
+      "joined": "Tibumbelerile",
+      "pickRight": "Sweswi klikela hafu ya le xineneni leyi yi lulamaka na yona.",
+      "pickLeft": "Sweswi klikela hafu ya le nhoveni leyi yi lulamaka na yona.",
+      "fit": "Ina, mambirhi lawa ma endla {name|lower}.",
+      "apart": "Mambirhi lawa a ma lulamani. Ringeta un'wana.",
+      "all": "Xifaniso xin'wana ni xin'wana xi heleleke.",
+      "shown": "Hi leswi swifaniso, swi tibumbelerile.",
+      "show": "Ndzi kombise",
+      "next": "Seti un'wana"
+    },
+    "colorByNumber": {
+      "guidance": "Hlawula muvala eka tafula ra wona, kutani tlaka sikwele hi wona. Muvala wun'wana na wun'wana wu antswa.",
+      "sizeLegend": "Vukulu bya gridi",
+      "size": "{n} hi {n}",
+      "keyLegend": "Mimfungho",
+      "colors": [
+        "Cheneta",
+        "Orenji",
+        "Hlaya",
+        "Purple"
+      ],
+      "motifs": {
+        "house": "yindlu",
+        "flower": "luva",
+        "heart": "mbilu",
+        "tree": "nhlave",
+        "boat": "xikepe xa mbhaxa",
+        "pot-plant": "xitshembu xa le mbitsini"
+      },
+      "region": "Gridi ya swifaniso, {n} hi {n}. Yi hambeta hi tlhelo leri nga ehansi loko xikrini xi ri xikhwenyana.",
+      "cell": "Nomboro {number}, mugoti {row}, kholomu {column}, {color}",
+      "empty": "a ku tele",
+      "chose": "{name} yi hlawuliwile. Klikela sikwele leri nga ta tlakiwa.",
+      "painted": "{name} eka mugoti {row}, kholomu {column}.",
+      "sheet": "Sikwele ro tala ri ni muvala wa nomboro yaro. Leyi i xifaniso exikarateni: {name}.",
+      "own": "Sikwele ro tala ri tlakiwile. Leyi i xifaniso xa wena.",
+      "fillAll": "Tlaka hi tinomboro",
+      "filledAll": "Sikwele ro tala leri a ku tele ri ni muvala wa nomboro yaro.",
+      "clear": "Basisa",
+      "cleared": "Gridi yi basile.",
+      "next": "Xifaniso xin'wana",
+      "fresh": "Hi leswi xifaniso xin'wana xo tlanga."
+    },
+    "patternMaker": {
+      "guidance": "Klikela sikwele ro cinca muvala wa rona. Xiphatheni xa wena xi kula ehansi. A ku hlayisiwi kumbe ku rhumeriwi nchumu lowu u wu endleke.",
+      "sizeLegend": "Vukulu bya tayili",
+      "size": "{n} hi {n}",
+      "keyLegend": "Mimuvala, hi ndlela leyi klikela yi yi cincaka ha yona",
+      "colors": [
+        "Cheneta",
+        "Orenji",
+        "Hlaya",
+        "Purple"
+      ],
+      "tileLabel": "Tayili ya wena",
+      "region": "Tayili ya wena, {n} hi {n}. Yi hambeta hi tlhelo leri nga ehansi loko xikrini xi ri xikhwenyana.",
+      "patternLabel": "Xiphatheni xa wena",
+      "pattern": "Xiphatheni xa wena: tayili ya wena yi phindiwa {n} eka vulehi na {n} eka ehansi.",
+      "square": "Mugoti {row}, kholomu {column}, {color}",
+      "changed": "Mugoti {row}, kholomu {column} sweswi i {color}.",
+      "cleared": "Tayili yi basile. U nga yi tlherisela.",
+      "surprise": "Ndzi endle xo hlamarisa",
+      "surprised": "Hi leyi tayili yo sha. U nga tlherisela leyi yakale.",
+      "putBack": "Tlherisela",
+      "restored": "Tayili ya wena yi tlhelile leswi a yi ri swona.",
+      "print": "Printa xiphatheni xa mina",
+      "sheetTitle": "Xiphatheni xa mina"
+    },
+    "buildTogether": {
+      "guidance": "Tshinyani ku veka xinhlayo endhawini yo basa. Un'wana na un'wana u ni muvala wa yena. A ku hlayisiwi kumbe ku rhumeriwi nchumu lowu mi wu endleke.",
+      "sizeLegend": "Vukulu bya gridi",
+      "size": "{n} hi {n}",
+      "people": [
+        "Munhu wo sungula",
+        "Munhu wa vumbirhi"
+      ],
+      "colorLegend": "Muvala wa {person}",
+      "colors": [
+        "Cheneta",
+        "Orenji",
+        "Hlaya",
+        "Purple"
+      ],
+      "inUse": "Yi tirhisiwa",
+      "turn": "Nkarhi wa wena, {person|lower}",
+      "yourColor": "Muvala wa wena i {color|lower}.",
+      "built": "Swi endliwile hi swona. Hi leswi mi swi endleke swin'we.",
+      "gridLabel": "Gridi ya swin'we",
+      "region": "Gridi ya swin'we, {n} hi {n}. Yi hambeta hi tlhelo leri nga ehansi loko xikrini xi ri xikhwenyana.",
+      "cellEmpty": "Mugoti {row}, kholomu {column}, a ku tele",
+      "cellFilled": "Mugoti {row}, kholomu {column}, {color}, yi veke hi {person|lower}",
+      "placed": "Mugoti {row}, kholomu {column} sweswi i {color}. Nkarhi wa wena, {next|lower}.",
+      "placedLast": "Mugoti {row}, kholomu {column} sweswi i {color}. Swi endliwile hi swona.",
+      "taken": "Mugoti {row}, kholomu {column} se yi ni xinhlayo. Hlawula ndhawu leyi nga ni nchumu.",
+      "pass": "Hundzisela",
+      "passed": "Ku hundzisela a ku khomeki. Nkarhi wa wena, {person|lower}.",
+      "takeBack": "Teka xinhlayo xo hetelela",
+      "takeBackPass": "Teka ku hundzisela ko hetelela",
+      "tookBack": "Xinhlayo xi tekiwile. Nkarhi wa wena, {person|lower}.",
+      "tookBackPass": "Ku hundzisela ku tekiwile. Nkarhi wa wena, {person|lower}.",
+      "colorChanged": "{person} sweswi u ni {color|lower}.",
+      "restarted": "Gridi a yi nga ni nchumu. Nkarhi wa wena, {person|lower}.",
+      "print": "Printa gridi",
+      "sheetTitle": "Aki swin'we",
+      "sheetHelp": "Tshinyani nkarhi. Eka sikwele leri nga ni nchumu, un'wana na un'wana u dirowa xivumbeko xa yena hi peni ya yena.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Klikela xinhlayo, kutani klikela ndhawu leyi nga eka xifaniso leyi xinhlayo xi yaka eka yona. A ku hlayisiwi kumbe ku rhumeriwi nchumu lowu u wu endleke.",
+      "hints": "Kombisa mitsondzo ya nkongomiso",
+      "pictureLine": "Leyi i {picture}.",
+      "pictures": {
+        "house": "yindlu",
+        "boat": "xikepe",
+        "tree": "nhlave",
+        "fish": "hove",
+        "cat": "mhaka",
+        "rocket": "rhoketi"
+      },
+      "outlineLabel": "Murhi wa {picture}. Klikela ndhawu ku veka xinhlayo lexi hlawuleriweke.",
+      "trayHeading": "Swinhlayo",
+      "pieces": {
+        "large-triangle": "Ntiyo lowukulu",
+        "small-triangle": "Ntiyo lowtsongo",
+        "square": "Sikwele",
+        "parallelogram": "Paralelogramu",
+        "rectangle": "Rektangele"
+      },
+      "shapes": {
+        "large-triangle": "ntiyo lowukulu",
+        "small-triangle": "ntiyo lowtsongo",
+        "square": "sikwele",
+        "parallelogram": "paralelogramu",
+        "rectangle": "rektangele"
+      },
+      "chosenLabel": "Yi hlawuliwile",
+      "spaceEmpty": "Ndhawu {n}, {shape}, a yi na nchumu",
+      "spaceFilled": "Ndhawu {n}, {shape}, yi ni xinhlayo xa yona. Klikela ku teka xinhlayo.",
+      "chosen": "{piece} yi hlawuliwile. Sweswi klikela ndhawu eka xifaniso.",
+      "unchosen": "Xiphemu xexo a xi hlawuliwi nakambe.",
+      "placed": "Xiphemu xi ndhawu ya {n}.",
+      "complete": "{picture} yi heleriwile.",
+      "different": "Xiphemu lexi xi na xibumbabumba lexi nga fananiki ni ndhawu leyi. Ringetelani ndhawu yin'wana.",
+      "needPiece": "Hlawulani xiphemu eka tiresi kutani.",
+      "filled": "Ndhawu yoleyo yi ni xiphemu xa yona hi sweswi. Kanetelani yona ku teka xiphemu nakambe.",
+      "tookBack": "Xiphemu xi tlhele xi ya eka tiresi.",
+      "cleared": "Swiphemu swi tlhele swi ya eka tiresi. Swi vekelani endzhaku loko mi cinca mianakanyo.",
+      "restored": "Swiphemu swi tlhele swi ya eka xifaniso.",
+      "next": "Leyi i {picture}.",
+      "putBack": "Vekelani endzhaku",
+      "another": "Xibumbabumba xin'wana",
+      "print": "Printelani xibumbabumba lexi",
+      "sheetTitle": "Swibumbabumba swo rhula",
+      "sheetHow": "Pendaka swiphemu, kumbe mi swi sema leswaku swi lingana ni mahlaya. Munhu lowikulu a nga sema.",
+      "sheetPieces": "Swiphemu, swi ringana ni mahlaya"
+    },
+    "picnicPlanner": {
+      "guidance": "Kanetelani xifaniso leswaku mi xi nghenisa ebasketini ya picnic, kutani mi kanetela xona leswaku mi xi humesa. Basketi yi khoma swilo swi 6.",
+      "guidancePlay": "Kanetelani swifaniso swi 2 leswi fanaka. Swifaniso swi tshama swi kombisiwa, naswona a ku na nkarhi lowu bekiweke.",
+      "basketHeading": "Basketi ya hina",
+      "basketLabel": "Basketi ya picnic",
+      "takeOut": "Humesa {picture} ebasketini",
+      "inBasket": "Ebasketini",
+      "foodHeading": "Swakudya",
+      "outingsHeading": "Swilo leswi nga ta endliwa",
+      "added": "{picture} yi ebasketini.",
+      "removed": "{picture} yi humesiwile ebasketini.",
+      "already": "{picture} yi ebasketini hi sweswi. Kanetelani yona kwala ku yi humesa.",
+      "full": "Basketi yi tele. Humesani nchumu leswaku ku va na ndhawu.",
+      "summary": "Picnic ya hina: {list}.",
+      "summaryNone": "A ku ri nchumu ebasketini hi sweswi.",
+      "and": "ni",
+      "play": "A hi tlange na picnic ya hina",
+      "needTwo": "Hlawulani swilo swi nga ri ntsongo swi 2 eku sunguleni.",
+      "playAgain": "Tlanga nakambe",
+      "back": "Tlhela eka picnic",
+      "print": "Printelani rhisto ya picnic ya hina",
+      "cleared": "Basketi yi basile.",
+      "notice": "Leyi i xirongo xo vulavula hi xona. A ku tshuketiwi nchumu, a ku vekiwi matsanya kumbe ku hlayisiwa nchumu.",
+      "sheetTitle": "Rhistho ya picnic ya hina",
+      "sheetHow": "Tiyisekisani xin'wana ni xin'wana loko mi xi pakisa. Tirhisani mitsara leyi nga ri na nchumu leswaku mi engetela leswi mi lavaka ku tisa swona.",
+      "sheetToPack": "Leswi fanelaka ku pakisiwa"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Hlawulani swifaniso swa n'wina swi 2 ku ya eka swi 12 ku sungula buku.",
+      "guidance": "Hundzukelani matluka swin'we, hi ku tirhisa bothoni kumbe tinhompfa ta xinene ni xilaha. Engetelani marito man'wana ehansi ka xifaniso loko mi lava. A ku hlayisiwi kumbe ku rhumeriwi nchumu lowu mi wu endlaka.",
+      "lookGuidance": "Languteleni tluka ny'wani ni ny'wani swin'we. Mi nga vulavula kumbe mi languta ntsena.",
+      "intro": "Hlawulani swifaniso swi 2 ku ya eka swi 12 eka xitirhisiwa lexi. Xin'wana ni xin'wana xi va tluka ra buku leri mi nga hundzukelana swin'we.",
+      "consent": "Tirhisani swifaniso swa ndyangu wa n'wina. Vutisani ku nga si tirhisa xifaniso xa munhu loyi a nga kotiyi ku hlamula ha ina.",
+      "privacy": "Swifaniso swa n'wina swi tshama eka xitirhisiwa lexi. A swi rhwexiwi kumbe swi hlayisiwi.",
+      "choose": "Hlawula swifaniso",
+      "chooseDifferent": "Hlawula swifaniso swo hambana",
+      "backToBook": "Tlhela eka buku",
+      "backToChoose": "Tlhela eka ku hlawula swifaniso",
+      "needTwo": "Hi kombela mi hlawula swifaniso swi nga ri ntsongo swi 2.",
+      "usingFirst": "Ku tirhisiwa swifaniso swa sungula swi {max}.",
+      "cleared": "Buku yi basisiwile. Hlawulani swifaniso leswaku mi sungula nakambe.",
+      "moved": "Yi yile eka tluka {n}.",
+      "pageOf": "Tluka {n} eka {total}",
+      "lookTogether": "Languteleni swin'we",
+      "leaveLook": "Tlhela eka buku",
+      "print": "Printelani buku ya swikhumbulo",
+      "clear": "Basisani buku",
+      "bookLabel": "Buku ya swikhumbulo ya ndyangu",
+      "pagesLabel": "Hundzukelani matluka",
+      "previous": "Tluka ra nkarhi lowu hundzeke",
+      "next": "Tluka ra nkarhi lowu landzelaka",
+      "moveEarlier": "Yisa ekusuhi ni sungule",
+      "moveLater": "Yisa ekusuhi ni makumu",
+      "captionLabel": "Marito man'wana eka tluka leli, loko mi lava",
+      "captionHelp": "Ku fika eka swihlamuseriso swi 80. Marito ya xivumbeko ya hlayisiwa ntsena eka tluka leli naswona ma hela loko mi pfala tluka.",
+      "sheetTitle": "Buku ya hina ya swikhumbulo",
+      "sheetHow": "Xifaniso xin'we eka tluka rin'we, ni marito ya xona ehansi ka xona. Hundzukelani matluka hi ndlela yo landzelelana mi vulavula hi xin'wana ni xin'wana.",
+      "sheetEmpty": "Hlawulani swifaniso swa n'wina eka tluka ra tlanga leswaku mi printa buku ya n'wina, kumbe printelani tluka leri nga ri na nchumu mi faka xifaniso xo printiwa eka rona.",
+      "sheetFrame": "Faka xifaniso xo printiwa laha",
+      "sheetWords": "Marito man'wana eka tluka leli",
+      "skipped": {
+        "one": "Fayili ya {n} a yi ri xifaniso lexi hi nga xi tirhisaka.",
+        "other": "Tifayili ta {n} a ti ri swifaniso leswi hi nga swi tirhisaka."
+      }
+    },
+    "quietScene": {
+      "guidance": "Languteleni xifaniso xin'we hi nkarhi wun'we. Kanetelani Landzelaka kumbe Hundzukeni loko mi lulamile. A ku na nchumu lowu tsutsumaka hi ku tiyimela.",
+      "next": "Xifaniso xo landzelela",
+      "previous": "Xifaniso xa nkarhi lowu hundzeke",
+      "bigPicture": "Xifaniso xo kula",
+      "showEverything": "Kombisa hinkwaswo",
+      "first": "Leli i xifaniso xo sungula.",
+      "last": "Leli i xifaniso xo hetelela.",
+      "lines": {
+        "sunrise": "Dyambu ri humelela ehenhla ka misava.",
+        "window-with-birds": "Tinyenyana handle ka fasitere.",
+        "vase-of-flowers": "Vasi ya tiluva etafuleni.",
+        "teacup": "Xikopo xa tiya kusuhi ni fasitere.",
+        "tree": "Murhi wu yime egadeni.",
+        "sailboat": "Xikepe xa maseyili ehenhla ka mati.",
+        "lighthouse": "Xibaxa xa ku khanyisa kusuhi ni lwandle.",
+        "rainbow": "Nhlekanhi endzhaku ka mpfula.",
+        "moon": "Nyanga ebyeni ra vusiku.",
+        "daisies": "Ntsundza wa madeyisi exikarhi ka mbyana.",
+        "rowing-boat": "Xikepe xa ku chela ehenhla ka mati lama rhuleke.",
+        "potted-plant": "Xisimu xo tala exikotwaneni."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Hundzukelanani. Kanetelani xifaniso xo sema, kutani kanetelani ndhawu leyi nga ri na nchumu leswaku mi xi veka laha. A ku hlayisiwi kumbe ku rhumeriwi nchumu lowu mi wu endlaka.",
+      "people": [
+        "Munhu wo sungula",
+        "Munhu wa vumbirhi"
+      ],
+      "marks": [
+        "xirhendzevutana",
+        "xikwere"
+      ],
+      "turn": "Nkarhi wa n'wina wu fikile, {person|lower}.",
+      "marked": "Swiphemu swa n'wina swi vekiwile hi {mark}.",
+      "boardLabel": "Bodo ya swin'we",
+      "placeEmpty": "Ndhawu ya {n}, yi nga ri na nchumu",
+      "placeFilled": "Ndhawu ya {n}, {picture|lower}, yi vekiwile hi {person|lower}",
+      "trayHeading": "Swifaniso swo sema",
+      "chosenLabel": "Yi hlawuliwile",
+      "chosen": "{picture} yi hlawuliwile. Sweswi kanetelani ndhawu leyi nga ri na nchumu.",
+      "unchosen": "Xifaniso xo sema a xi hlawuliwi nakambe.",
+      "needCutout": "Hlawulani xifaniso xo sema xo sungula, kutani kanetelani ndhawu leyi nga ri na nchumu.",
+      "filled": "Ndhawu ya {n} yi ni xifaniso hi sweswi. Hlawulani ndhawu leyi nga ri na nchumu.",
+      "placed": "{picture} yi ndhawu ya {n}. Nkarhi wa {next|lower} wu fikile.",
+      "full": "Ndhawu hinkwayo yi ni xifaniso. Tlhelisani xin'we ku xi cinca, kumbe sungulani nakambe.",
+      "pass": "Hundzisela",
+      "passed": "Ku hundzisela a ku vileli. Nkarhi wa n'wina wu fikile, {person|lower}.",
+      "takeBack": "Tlhelisa xiphemu xa makumu",
+      "takeBackPass": "Tlhelisa ku hundzisela",
+      "tookBack": "Xiphemu xi tlhelisiwile. Nkarhi wa n'wina wu fikile, {person|lower}.",
+      "tookBackPass": "Ku hundzisela ku tlhelisiwile. Nkarhi wa n'wina wu fikile, {person|lower}.",
+      "restarted": "Bodo yi basile. Nkarhi wa n'wina wu fikile, {person|lower}.",
+      "putBack": "Vekelani endzhaku",
+      "putBackDone": "Swiphemu swi tlhele swi ya eka bodo.",
+      "another": "Seti yin'wana ya swifaniso",
+      "anotherSet": "Seti leyintshwa ya swifaniso swo sema yi eka tiresi. Swiphemu leswi nga eka bodo swi tshama laha swi nga.",
+      "print": "Printelani bodo",
+      "sheetTitle": "Bodo ya collage",
+      "sheetHow": "Semani swifaniso mi hundzukelana mi swi veka eka bodo. Munhu lowikulu a nga sema.",
+      "sheetTray": "Swifaniso leswi fanelaka ku semiwa"
+    },
+    "gardenPlanner": {
+      "guidance": "Kanetelani xifaniso, kutani kanetelani nhenha leti veka xona laha. Kanetelani nhenha leyi nga ni xifaniso, loko ku nga hlawuliwi nchumu, leswaku mi yi basisa.",
+      "bedsLabel": "Tinhenha ta egadeni",
+      "bedEmpty": "Nhenha ya {n}, yi nga ri na nchumu",
+      "bedFilled": "Nhenha ya {n}, {picture|lower}",
+      "plantsHeading": "Swimilana",
+      "extrasHeading": "Swilo swo engetela swa egadeni",
+      "chosenLabel": "Yi hlawuliwile",
+      "chosen": "{picture} yi hlawuliwile. Sweswi kanetelani nhenha.",
+      "unchosen": "A ku hlawuliwi xifaniso.",
+      "needPicture": "Hlawula xifaniso xo sungula, kutani kanetela ndzawu.",
+      "planted": "{picture} yi ndzawu {n}.",
+      "replaced": "{picture} yi tsakela xifaniso xa ndzawu {n}.",
+      "cleared": "Ndzawu {n} yi tala. Loko mi lava xifaniso lexo nakambe, mi nga xi veka ndzhaka.",
+      "restarted": "Ndzawu hinkwawo yi tala.",
+      "putBack": "Veka ndzhaka",
+      "putBackDone": "Swifaniso swi tlhele swi veka eka tindzawu ta swona.",
+      "summaryHeading": "Ngadi ya mina",
+      "summary": "Plan ya wena yi ni {list}.",
+      "summaryNone": "A ku si ri na xifaniso xa ndzaweni.",
+      "and": "na",
+      "print": "Printa plan",
+      "sheetTitle": "Plan ya ngadi ya hina",
+      "sheetHow": "Tindzawu ti kombisa swifaniso leswi hlawuriweke eka skrini. Loko mi lava, mi nga dirowa eka tindzawu leti nga tala.",
+      "sheetNotes": "Tinhlamuselo",
+      "notice": "Leyi i plan ya swifaniso yo vulavula hi yona, a yi ri ndzayo wa ku byala."
+    },
+    "coloringWall": {
+      "guidance": "Hlawula xifaniso ni ntani wa tiphepha. Printa ndziro, kutani un'wana ni un'wana a pena phepha kumbe matiphepha. A ku na nkarhi wo tirhiwa, a ku na mpapalo, kumbe ku hlayisiwa nchumu.",
+      "pictureLegend": "Xifaniso",
+      "sizeLegend": "Ntani wa tiphepha",
+      "sizes": {
+        "2x2": "4 tiphepha (2 hi 2)",
+        "3x2": "6 tiphepha (3 hi 2)",
+        "3x3": "9 tiphepha (3 hi 3)"
+      },
+      "previewLabel": "{picture|lower} yi hambanyisiwile ku va tiphepha ta {n}, {across} hi mutsara ni {down} hi le hansi. Phepha rin'wana ni rin'wana ri ni nhlamuselo ka xikokwa xa rona.",
+      "previewCaption": "Xifaniso xo tala ni mitsara ya tiphepha ni tinhlamuselo leti dirowiweke eka xona.",
+      "labelsNote": "Tinhlamuselo ti ya ehansi ka ndziro, tinomboro ti ya hi mitsara. Kutani A1 i phepha ra le henhla hi le ximbeni.",
+      "wallHeading": "Ndlela yo hlanganisa ndziro",
+      "steps": [
+        "Printa matiphepha hinkwawo. Phepha ro sungula i tinyiko ta ndlela ni mapu ya ndziro.",
+        "Un'wana ni un'wana a teka phepha kumbe matiphepha a pena ma.",
+        "Mivala ni swifaniso a swi nga fani. Phepha rin'wana ni rin'wana i xiphemu xa xifaniso xinwe.",
+        "Vekela matiphepha hi tinhlamuselo ta wona, kutani mi ma hlanganisa hi tepe ehansi ka swona.",
+        "Veka ndziro laha hinkwaswo va nga yi voni kahle."
+      ],
+      "mapLabel": "Mapu ya ndziro: mitsara ya {down} ya tiphepha ta {across}, yi tsariweke ku suka eka A1 ku ya eka {last}.",
+      "edgeNote": "Mutsara wa tintlhela wa kombisa mupaka wa phepha rin'wana ni rin'wana. Vekela matiphepha ma tsakana ehansi ka wona, kumbe ma tsakanisa swintsongo.",
+      "pictureLine": "Xifaniso: {picture}. Ndziro leyi yi ni tiphepha ta {n}: {across} hi mutsara ni {down} hi le hansi.",
+      "print": "Printa ndziro"
+    },
+    "findTogether": {
+      "guidance": "Teketelanani nkarhi. Eka nkarhi wa wena, pfuleka karata mbirhi u lava mbirho. Mi lava mbirho swin'we.",
+      "sizeLegend": "Ntani wa karata",
+      "size": "karata {n}",
+      "viewLegend": "Ndlela yo tlanga",
+      "viewShowing": "Tlanga u ri ni swifaniso swi kombisiwa",
+      "viewHidden": "Karata yi wisiwile ehansi",
+      "people": [
+        "Munhu wo sungula",
+        "Munhu wa vumbirhi"
+      ],
+      "turn": "Nkarhi: {person}",
+      "turnDone": "Swi kumile mbirho hinkwawo.",
+      "tally": "Mbirho lowu kumiweke swin'we: {n}",
+      "cardNamed": "{name}, karata {n}",
+      "cardFaceDown": "Karata {n}, yi wisiwile ehansi",
+      "first": "{name}. Sweswi pfuleka karata ya vumbirhi.",
+      "found": "{name}: mbirho, kumiwe swin'we. Sweswi i nkarhi wa {next|lower}.",
+      "allTogether": "Mi kumile mbirho hinkwawo swin'we.",
+      "different": "{a} ni {b} a swi fani. Teketa nkarhi wa wena, kutani kanetela “Wisa swona”.",
+      "waiting": "Kanetela “Wisa swona” loko u lulamile. Kutani nkarhi wu hundzela un'wana.",
+      "turnedBack": "Swi wisiwile ehansi. Sweswi i nkarhi wa {person|lower}.",
+      "passed": "Ku hundzisa a swi xiyo lexi biha. Sweswi i nkarhi wa {person|lower}.",
+      "turnBack": "Wisa swona",
+      "pass": "Hundzisela",
+      "playAgain": "Tlanga nakambe"
+    },
+    "drawingDuet": {
+      "guidance": "Teketelanani nkarhi, mutsara wun'we un'wana ni un'wana, kutani hundzisela peni. Un'wana ni un'wana a nga hundzisa. A ku rhumeriwi nchumu ndzhawu. Xifaniso xi huma eka leli phepha loko mi xi hlayisa ntsena.",
+      "people": [
+        "Munhu wo sungula",
+        "Munhu wa vumbirhi"
+      ],
+      "colorLegend": "Muvala wa {person}",
+      "colors": [
+        "Yelo",
+        "Orenji",
+        "Girini",
+        "Pepile"
+      ],
+      "turn": "Nkarhi wa {person}",
+      "penColor": "Muvala wa peni: {color}.",
+      "canvasLabel": "Xifaniso xa swin'we, mitsara {n} ku fikela sweswi",
+      "canvasLabelOne": "Xifaniso xa swin'we, mutsara {n} ku fikela sweswi",
+      "keys": "Tinhompfa ta ku tsutsuma ti tsutsuma xidodana xa peni eka xifaniso. Space yi veka peni ehansi kumbe yi susa.",
+      "penDown": "Veka peni ehansi",
+      "penUp": "Susa peni",
+      "pass": "Hundzisela peni",
+      "passed": "Ku hundzisa a swi xiyo lexi biha. Nkarhi wa wena, {person|lower}.",
+      "takeBack": "Susa mutsara wa mina wo hetelela",
+      "tookBack": "Mutsara wo hetelela wa {person|lower} wu susiwile.",
+      "noLine": "A ku na mutsara wa {person|lower} wo susa.",
+      "restarted": "Phepha ri tala. Munhu wo sungula u ni nkarhi. Vekela ndzhaka loko mi nga lavanga ku xi endla.",
+      "putBack": "Veka ndzhaka",
+      "restored": "Mitsara yi tlhele yi va ndlela leyi a yi ri ha yona.",
+      "save": "Hlayisa xifaniso",
+      "saved": "Xifaniso xa wena xi lulamile. Tirhisa xiyimo xa ku download ku xi hlayisa eka xitirhisiwa lexi.",
+      "download": "Ku download drawing-duet.png",
+      "print": "Printa version ya phepha",
+      "sheetTitle": "Duet ya ku dirowa",
+      "paperRules": "Vanhu vambirhi, phepha rin'we, peni mbirhi. Teketelanani nkarhi: mutsara kumbe xidzikwana xin'we un'wana ni un'wana, kutani hundzisela peni. Un'wana ni un'wana a nga hundzisa. A ku na xifaniso lexi lulameke."
+    },
+    "colorWash": {
+      "guidance": "Pena mivala leyi nonon'hwa emasekeni hinkwawo, nkarhi wun'we ni wun'we. Susa burasi ku yima, kutani yima nkarhi wihi na wihi lowu u wu lavaka. A ku hlayisiwi kumbe ku rhumeriwi nchumu.",
+      "colorLegend": "Muvala wa ku pena",
+      "sizeLegend": "Vukulu bya burasi",
+      "colors": [
+        "Yelo",
+        "Orenji",
+        "Girini",
+        "Pepile"
+      ],
+      "sizes": {
+        "wide": "Hi kulu",
+        "veryWide": "Hi kulu swinene"
+      },
+      "color": "Muvala wa ku pena: {color}.",
+      "brushDown": "Veka burasi ehansi",
+      "brushUp": "Susa burasi",
+      "keys": "Tinhompfa ta ku tsutsuma ti tsutsuma ndzingo ya burasi eka phepha. Space yi veka burasi ehansi kumbe yi susa.",
+      "canvasLabel": "Phepha ra mivala leyi nonon'hwa ya ku pena",
+      "fresh": "Phepha ro sha",
+      "freshMessage": "Phepha ro sha.",
+      "putBack": "Veka ndzhaka",
+      "restored": "Phepha ri tlhele ri va kona."
+    },
     "sortTogether": {
       "guidance": "Khinsa xifaniso, kutani khinsa basketi leyi xi faneleke eka yona.",
       "restart": "Swifaniso swa leswaku",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} a xi nga ta ya eka \"{basket}\". Khinsa basketi yoleyo ku xi veka kona.",
       "placed": "{name|lower} i eka \"{basket}\".",
       "sorted": "Hinkwaswo swi hlamuseriwile. Lavisisa swibasketi swin'we, kumbe ringeta nhlokomhaka yin'wana.",
+      "largerTargets": "Tindzawu leti kulu",
+      "largerOn": "Tindzawu leti kulu ti tirha. A ku tsutsumiwanga nchumu.",
+      "largerOff": "Tindzawu leti kulu a ti tirhi. A ku tsutsumiwanga nchumu.",
+      "largerOnNewRound": "Tindzawu leti kulu ti tirha, ni tibasketi timbirhi. Ha swifaniso swin'wana swo hlela.",
       "basket": {
         "one": "Basketi ya {basket}, xifaniso {count} xi kona",
         "other": "Basketi ya {basket}, swifaniso {count} swi kona"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Khinsa xinxe rin'we, kutani khinsa rin'wana. Va cinca ndhawu.",
-      "restart": "Hlanganisa nakambe",
+      "restart": "Mix up again",
       "pictureLegend": "Xifaniso",
       "pictures": {
         "sailboat": "Xikepe",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Xifaniso hinkwaxo: {name}",
       "guideText": "Xifaniso xi tano loko xi hlanganile.",
+      "ownChoose": "Tirhisa xifaniso xa wena",
+      "ownChange": "Hlawula xifaniso lexi nga xin'wana",
+      "ownBack": "Tlhela eka swifaniso swa hina",
+      "ownPrivacy": "Xifaniso xa wena xi tshama eka xitirhisiwa lexi. A xi rhumeriwi kumbe ku hlayisiwa.",
+      "ownConsent": "Tirhisa swifaniso swa wena. Vutisa u nga si tirhisa xifaniso xa munhu loyi a nga koti ku vula ina.",
+      "ownWorking": "Xifaniso xa wena xi lunghekela.",
+      "ownNotUsable": "Fayili yo rhangela a yi tirhisiwanga. Hlawula fayili ya xifaniso, lowu fana na JPEG kumbe PNG.",
+      "ownAlt": "Xifaniso xa wena",
+      "ownPiece": "Xiphemu {n}, {place}",
+      "ownWhole": "Xifaniso xa wena xi hlanganile nakambe. Xi hlanganise nakambe loko u lava.",
+      "ownSheetTitle": "Xifaniso xa wena hi swiphemu",
+      "ownSheetHow": "Tsema hi le mitsareni. Hlanganisa swiphemu, kutani tsakanisa swiphemu swimbirhi nkarhi wun'we kukondza xifaniso xi hlanganile.",
       "piece": "Xinxe laha {place}",
       "pieceInPlace": ", eka ndhawu ya xona",
       "piecePickedUp": ", xi tekiwile",
@@ -122,7 +786,7 @@
         "hansi xinene"
       ],
       "done": "Xifaniso xi hlanganile nakambe. Tshameka nakambe kumbe teka ku wisa.",
-      "playAgain": "Hlanganisa nakambe"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Hlaya rito ra vanhu swin'we, kutani khinsa rito leri ri hetisaka rona.",
@@ -190,6 +854,14 @@
       "guidance": "Hlaya khadi hi mantlha. A ku na tinhlamuselo leti nga ni ntsena.",
       "position": "Khadi {n} ya {total}",
       "themeLegend": "Nhlokomhaka",
+      "showPrompt": "Kombisa xikombiso xa ku vulavula",
+      "bigPicture": "Xifaniso lexikulu, eka ntlawa",
+      "passNote": "Un'wana ni un'wana a nga hundzisa.",
+      "groupTitle": "Ku hundzisa karata eka ntlawa",
+      "groupSit": "Tshama hi xibalo laha hinkwaswo va nga vona xifaniso kahle. Munhu la tshamaka karata, kumbe xitirhisiwa lexi nga na xifaniso lexikulu, u hlaya xikombiso hi rito leri kulu ku sungula.",
+      "groupPass": "Kutani hundzisela karata munhu la landzelaka. Un'wana ni un'wana a vula rito kumbe ntiyiso wo tala hi xifaniso, kutani a hundzisela karata.",
+      "groupNoSpeech": "Ku hundzisa karata ku tshama ku pfumelelekile. Munhu a nga hundzisa a nga vulavuli nchumu, a ku na munhu loyi a faneleke ku vula xivangelo.",
+      "groupEnd": "Ndzhawu wu hela loko kadi yi fambe kwihenhla ra mbumbeto, kumbe loko vanhu va hlupheriwile. A ku na loyi hlulaka. Mi nga yima nkarhi wun'wana loko mi lava.",
       "next": "Khadi leri landzelaka",
       "previous": "Khadi leri nga emahlweni",
       "print": "Printa makhadi hinkwawo",
@@ -252,6 +924,20 @@
       "started": "Ku sungurile. Hefemula loko xikhwama xi kula.",
       "stopped": "Ku yimile.",
       "finished": "Lowu a ku ri mihefemulo ya tsevu leyi nyaka. Sungula nakambe loko u lava."
+    },
+    "storyChain": {
+      "guidance": "Tirhanisani hi nkarhi: rito rin'we eka un'we, mi engetela xifaniso lexi landzelaka.",
+      "passNote": "Vulavulani rito ra n'wina hi mavoko ma nga khomeki. A ku tsariwi nchumu naswona a ku hlayisiwi nchumu. Un'wana ni un'wana a a nga hundzisela.",
+      "chainLabel": "Ntlhamu wa ha swi fika sweswi",
+      "item": "Xifaniso {n}: {name}",
+      "add": "Engetela xifaniso",
+      "fullAdd": "Ntlhamu wu tele. Sungula ntlhamu wun'wana",
+      "newChain": "Sungula ntlhamu wun'wana",
+      "takeOff": "Susa xo hetelela",
+      "added": "{name|lower} yi engeteriwile endzhaku ka ntlhamu.",
+      "removed": "{name|lower} yi susiwile eka ntlhamu.",
+      "fresh": "Ntlhamu wu sha, wu sungula hi {name|lower}.",
+      "full": "Ntlhamu wu ni swifaniso swa 8 hinkwaswo. Vulavulani nhlamuselo hinkwayo, kumbe sungulani ntlhamu wun'wana."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Gova ra mpfula",
     "snowflake": "Xinyuvu xa snow",
     "kite": "Kaiti",
-    "sunrise": "Ku vuka ka dyambu ehenhla ka tintshava"
+    "sunrise": "Ku vuka ka dyambu ehenhla ka tintshava",
+    "decorated-keepsake-box": "Bokisi leyi hlobeleriweke",
+    "painted-plant-pot": "Mbiya leyi pendiweke ni tinhlamu",
+    "repeating-pattern-sheet": "Phepha ra mapatani lama phindaka",
+    "music-drawn-lines": "Mitsawu leyi tsariweke hi musika",
+    "paper-boat-afloat": "Xikepe xa phepha xi yandlaka emati",
+    "folded-towel-stack": "Ntlawa wa thaulo leyi pindisiweke",
+    "hand-massage-with-lotion": "Voko eka thaulo, ni lotion",
+    "open-photo-album": "Albamu ya fotu leyi pfuriweke",
+    "button-flower-card": "Luva ra bututu eka kadi",
+    "blue-torn-paper-collage": "Collage ya phepha ro hlatsa leri nga blu",
+    "family-tree-of-hands": "Murhi wa ndyangu wo tsariwa hi mavoko",
+    "open-greeting-card": "Kadi yo phahla leyi pfuriweke ni mbilu",
+    "lavender-sachet": "Xikwama xa lavender leri nga ni ribbon",
+    "memory-collage-of-photos": "Collage ya fotu ya ndyangu",
+    "paper-chain-garland": "Ntambhu wa tinkatana ta phepha",
+    "open-songbook-with-notes": "Buku ya tinkwembe leyi pfuriweke",
+    "photo-postcard-with-stamp": "Kadi ya fotu ni stempa",
+    "pine-cone-bird-feeder": "Xikhoyi xa xipayini xa tinyoni",
+    "playlist-phone-and-card": "Foni ya tinkwembe ni kadi",
+    "sealed-rice-shaker": "Shaker ya mpunga leyi pfariweke",
+    "texture-board-with-scraps": "Bodi ya tinhlayo ta mihovo",
+    "painted-garden-stone": "Ribye ra ntangha leri pendiweke",
+    "shared-painted-canvas": "Canvas leyi pendiweke hi vanhu",
+    "watercolor-washes-sheet": "Phepha ra mapendo ya mati",
+    "seedling-in-pot": "Mahlanga emumbiyeni",
+    "pressed-leaves-in-book": "Matluka lo cinciwa ebukeni",
+    "printed-leaves-sheet": "Phepha ra matluka yo kanetiwa",
+    "pinch-pot-clay-bowl": "Xibya xa bulu",
+    "table-sketch-pencil": "Xikopo xo tsariwa hi pensile",
+    "buttons-in-muffin-tin": "Bututu leti hlengeletiweke ebakisini",
+    "family-recipe-book": "Buku ya swakudya swa ndyangu",
+    "drum-with-beat-marks": "Ngoma ya tafula ni timbhovo",
+    "torn-paper-flower": "Luva ra phepha ro hlatsa",
+    "window-with-birds": "Fasitere ni tinyoni",
+    "woven-paper-mat": "Xirhendzelo xa phepha xo lukiwa",
+    "yarn-ball-with-thread": "Bolo ya wuli",
+    "letter-and-envelope": "Ncwadi ni envelopu"
   },
   "content": {
     "wordSearch": {
@@ -567,7 +1290,7 @@
         {
           "theme": "animals",
           "picture": "fish",
-          "prompt": "Xana u kile u famba u ya khuvuka kumbe u hlayisa hlampfi ka tanka?"
+          "prompt": "Have you ever been fishing, or kept a fish tank?"
         },
         {
           "theme": "animals",
@@ -765,6 +1488,17 @@
             "Ehandle"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Mihandzu",
+        "animals": "Swiharhi",
+        "travel": "Tindlela to famba",
+        "flowers": "Swiluva",
+        "hot-drinks": "Swinwiwa leswi hisiweke",
+        "weather": "Mimo wa moya",
+        "baked": "Swakudya leswi bakiweke"
       }
     }
   }

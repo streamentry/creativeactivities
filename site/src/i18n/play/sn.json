@@ -5,6 +5,13 @@
       "stopReading": "Mirirai kuverenga",
       "region": "Mutambo",
       "restart": "Tangai zvakare",
+      "rest": "Zorora panguva ino",
+      "restingTitle": "Uri kuzorora",
+      "restingText": "Zorai kwenguva yose yamunoda. Nzvimbo yenyu inochengetwa papeji iyi.",
+      "resume": "Enderera",
+      "placeText": "Nguva yapfuura makamira pakati. Mienderere kubva papo, kana mutange patsva.",
+      "placeResume": "Enderera",
+      "placeFresh": "Tanga patsva",
       "soundOn": "Mazwi akapfava avhurwa",
       "soundOff": "Mazwi akapfava adzimwa",
       "done": "Ngatipedzei panguva ino",
@@ -43,7 +50,19 @@
       "viewShowing": "Mifananidzo yakaratidzwa",
       "viewHidden": "Mifananidzo yakavanzwa",
       "playAgain": "Tamba zvakare nemifananidzo mitsva",
-      "talk": "Tauriranai nezvemifananidzo pamwechete"
+      "talk": "Tauriranai nezvemifananidzo pamwechete",
+      "modeLegend": "Mifananidzo ipi",
+      "modePlay": "Mifananidzo yega yega",
+      "modeDaily": "Kadhi yanhasi",
+      "dayLegend": "Zuva ripi",
+      "dayHelp": "Munhu wese anowana mifananidzo yakafanana pazuva rimwe chete. Mazuva apfuura ari pano zvakare, uye kusapinda zuva rimwe hakuna chinhu chinorasikirwa.",
+      "guidanceDaily": "Kadhi yanhasi ine mapaya mana. Dzvanyai mufananidzo mumwe, mobva mudzvanya chinofanana nacho.",
+      "restartDaily": "Tanga kadhi iyi zvakare",
+      "copy": "Kopera mutsara uyu",
+      "copied": "Yakopera. Hapana chinotumirwa kunzvimbo ipi neipi.",
+      "calendarTitle": "Makadhi anhasi, {month}",
+      "calendarHelp": "Zuva rimwe nerimwe rine mifananidzo mina yakafanana kune munhu wese. Hapana mapoinzi anoverengwa, uye hapana zuva rinoratidzwa sokurasikirwa.",
+      "calendarVersion": "Version {date}. Mifananidzo yakafanana kune munhu wese pazuva rimwe chete."
     },
     "choose": {
       "countLegend": "Mifananidzo mingani",
@@ -62,6 +81,635 @@
       "shadowAlt": "Mumvuri wokuenderanisa",
       "foundAlt": "Mumvuri we {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Mazano",
+      "hintOn": "Pfungwa mushure mekumira",
+      "hintOff": "Hapana mazano",
+      "guidance": "Wanai mifananidzo {n} inoenderana, mudzvanye imwe neimwe.",
+      "countLegend": "Mifananidzo mingani",
+      "count": "Mifananidzo {n}",
+      "found": "Hongu, {name|lower} ndeyeboka iri.",
+      "elsewhere": "{name|lower} inoenderana nechimwe chinhu. Torai nguva yenyu.",
+      "hint": "Pfungwa: tsvakai {theme|lower}.",
+      "together": "Izvi zvinoenderana: {theme}.",
+      "shown": "Heino boka: {theme}.",
+      "groupName": "Pamwe chete: {theme}",
+      "show": "Ratidza boka",
+      "next": "Imwe seti"
+    },
+    "oddOneOut": {
+      "hintLegend": "Mazano",
+      "hintOn": "Pfungwa mushure mekumira",
+      "hintOff": "Hapana mazano",
+      "guidance": "Wanai mufananidzo usingaenderani nemamwe, mudzvanye.",
+      "countLegend": "Mifananidzo mingani",
+      "count": "Mifananidzo {n}",
+      "belongs": "{name|lower} inoenderana nemamwe. Torai nguva yenyu.",
+      "found": "Hongu, {name|lower} ndiyo isinoenderana. Mamwe ndeye {theme|lower}.",
+      "shown": "Heino: {name|lower}. Mamwe ndeye {theme|lower}.",
+      "hint": "Pfungwa: {n} dzemifananidzo iyi ndeye {theme|lower}.",
+      "others": "Mamwe: {theme}",
+      "show": "Ndiratidzei",
+      "next": "Imwe seti"
+    },
+    "seatedToss": {
+      "guidance": "Garai patafura, muchishandurana kukanda bhegi rine nyoro mukati mechinangwa chikuru. Chengetai kuverenga papepa, pamwe chete.",
+      "stepsHeading": "Kuita kunoitika sei",
+      "steps": [
+        "Dhindai chinangwa nepepa rekuverenga, muise zvakatsetseka patafura pakati penyu.",
+        "Garai zvakanaka, mumwe kune rumwe rutivi. Shandurai kukanda kamwe kamwe nyoro, kana mungada kusakanda.",
+        "Kukanda kunopinda mumhete, munhu akakanda anoisa chiratidzo pabhokisi rimwe mukholamu yake, pamutsara wemhete iyoyo.",
+        "Kana muchida, tarisai zviratidzo pamwe chete pamunomira. Hapana munhu anofanira kuwedzera nhamba.",
+        "Mirai nguva ipi neipi kana wenyu akagadzirira."
+      ],
+      "safetyHeading": "Kuchengeteka",
+      "safetyLine": "Shandisai bhegi rine chivharo chakabatirwa kana sokisi yakamonyororwa chete, garai pasi, musambokanda kumeso, uye muve nomukuru pedyo. Zvidimbu zvidiki zvinogona kupinza munhu mukufema.",
+      "flags": [
+        "Haisi yevana vari pasi pe 3 makore: zvidimbu zvidiki",
+        "Regai kure nemiromo"
+      ],
+      "safety": [
+        "Sarudzai bhegi rine chivharo chakabatirwa, kana mumonyorore sokisi yakachena. Ongororai kutanga kuona kana pane mabowo kana mataira asina kusimba, kuti kuzadza kusabuda.",
+        "Nyemba, mupunga nezvimwe zvizadzo zvidiki zvinogona kupinza munhu mukufema. Zvichengetei kure nevana vadiki nomunhu wese anoisa zvinhu mumuromo.",
+        "Garai pedyo kwazvo, muchitarisa zvakanaka kana pane chinhu chingaiswa mumuromo.",
+        "Garai pasi. Kandai nyoro uye pasi-pasi kuchinangwa chiri patafura, musambokanda kumeso."
+      ],
+      "previewLabel": "Pepa rakadhindwa: chinangwa chine mhete nhatu dzinonzi Pedyo, Pakati na Kure, kubva kunze kusvika mukati, uye tafura yekuverenga ine kholamu yomunhu wega wega nomutsara wemabhokisi asina chinhu chimwe nechimwe mhete.",
+      "sheetHow": "Isai pepa zvakatsetseka pakati penyu. Kukanda kunopinda mumhete, isai chiratidzo pabhokisi rimwe mukholamu yenyu, pamutsara wemhete iyoyo.",
+      "rings": [
+        "Pedyo",
+        "Pakati",
+        "Kure"
+      ],
+      "people": [
+        "Munhu wekutanga",
+        "Munhu wechipiri"
+      ],
+      "ringHeading": "Mhete",
+      "print": "Dhinda chinangwa nepepa rekuverenga"
+    },
+    "seasonalPack": {
+      "guidance": "Sarudzai mwedzi, dhindai mapazuru matatu epepa rawo, mobva muaita imwe, piri kana zvose zvitatu pamwe chete.",
+      "monthLegend": "Sarudzai mwedzi",
+      "months": [
+        "Ndira",
+        "Kukadzi",
+        "Kurume",
+        "Kubvumbi",
+        "Chivabvu",
+        "Chikumi",
+        "Chikunguru",
+        "Nyamavhuvhu",
+        "Gunyana",
+        "Gumiguru",
+        "Mbudzi",
+        "Zvita"
+      ],
+      "monthNote": "Mwedzi wega wega une mifananidzo yawo. Peji rinovhurwa nemwedzi uno, uye mungasarudza imwe ipi neipi.",
+      "restDay": "Nhasi izuva rekuzorora",
+      "restLine": "Hapana mapazuru nhasi. Zuva rekuzorora zvakare zuva rakanaka.",
+      "previewHeading": "Mapazuru matatu",
+      "puzzles": {
+        "pairs": {
+          "title": "Tsvaga mapaya",
+          "how": "Dhirowai mutsara kubva pamufananidzo wega wega wemutsara wepamusoro kuenda kumufananidzo wakafanana uri mutsara wepasi.",
+          "describe": "Mitsara miviri yemifananidzo mina imwe chete, asi yakarongwa nenzira dzakasiyana."
+        },
+        "different": {
+          "title": "Ipi isiyana?",
+          "how": "Potai denderedzwa pamufananidzo unosiyana nemamwe matatu.",
+          "describe": "Mutsara wemifananidzo mina. Matatu akafanana, imwe yakasiyana."
+        },
+        "color": {
+          "title": "Ipai ruvara",
+          "how": "Ipai mufananidzo ruvara sezvamunoda, nemakirayoni kana mapenseru.",
+          "describe": "Mufananidzo mukuru mumwe chete wekupa ruvara."
+        }
+      },
+      "print": "Dhindai pakiti yemwedzi uno",
+      "sheetHow": "Dhindai peji rimwe. Itai imwe, piri kana zvose zvitatu, nenzira ipi neipi.",
+      "printFooter": "Itai imwe, piri kana zvose zvitatu. Mirai nguva ipi neipi kana muchida."
+    },
+    "decorateACard": {
+      "guidance": "Sarudzai chiitiko, mobva mashongedza kadhi pamwe chete nemakirayoni kana mapeni. Hapana nzira imwe chete yekuita kadhi rakarurama.",
+      "occasionLegend": "Sarudzai chiitiko",
+      "occasions": {
+        "birthday": {
+          "label": "Zuva rekuzvarwa",
+          "words": "Mufaro pazuva rekuzvarwa"
+        },
+        "thank-you": {
+          "label": "Kutenda",
+          "words": "Ndinokutendai"
+        },
+        "thinking-of-you": {
+          "label": "Kufunga nezvenyu",
+          "words": "Ndinokufungai"
+        },
+        "new-season": {
+          "label": "Nguva itsva",
+          "words": "Nguva itsva"
+        },
+        "just-because": {
+          "label": "Nekuti ndinoda",
+          "words": "Nekuti ndinoda"
+        }
+      },
+      "stepsHeading": "Kuashongedza pamwe chete",
+      "steps": {
+        "fold": "Dhindai kadhi muuputire pakati pemutsara wakanyatsoputsika, kuti kumberi kuve kunze.",
+        "front": "Munhu mumwe anoshongedza kumberi, achitenderedza mashoko.",
+        "inside": "Munhu wechipiri anoshongedza kumashure, kana muchishandurana pachivi chimwe.",
+        "message": "Nyorai shoko rimwe nerimwe pamwe chete. Mumwe anogona kunyora, uye mumwe achitaura.",
+        "stop": "Mirai nguva ipi neipi kana muchida. Hapana nzira imwe chete yekuita kadhi, uye rakareruka rakanaka sekumwe chete."
+      },
+      "materials": "Shandisai makirayoni, mapenseru ane ruvara, kana mapeni. Hapana chinodikanwa kucheka, kunamatira kana kubatanidza.",
+      "previewLabel": "Kuona kwekadhi rakamupiwa pakati. Kumberi kune mashoko {words}, nemucheto wakareruka wemashizha nenyeredzi. Kumashure kune mitsara yemeseji nemutsara wekuti Kubva kwa.",
+      "from": "Kubva kwa",
+      "sheetHow": "Pindirai kadhi pakati pemutsara wakaputsika, nekumberi kwakakwira kunze. Nyorai meseji kumashure.",
+      "rulesHeading": "Vanhu vaviri",
+      "sheetRules": [
+        "Tendeukai, kana kuti govanai basa: mumwe anoshongedza kumberi, mumwe kumashure.",
+        "Nyorai meseji pamwe chete, kana kuti mumwe anonyora zvinotaurwa nemumwe.",
+        "Mumwe nomumwe anogona kumira nguva ipi neipi. Hapana kadhi rakakodzera zvakanyanya."
+      ],
+      "print": "Dhinda kadhi"
+    },
+    "storyDice": {
+      "guidance": "Tarisai mifananidzo muzotaura nyaya nayo, nerongero ipi neipi. Hapana nyaya chaiyo yakarurama.",
+      "countLegend": "Madayisi mangani",
+      "count": "{n} madayisi",
+      "roll": "Kanda zvakare",
+      "pass": "Pfuurira",
+      "passed": "Kupfuurira hakuna dambudziko. Munhu anotevera anogona kutanga, kana imi mungakanda zvakare.",
+      "rolled": "Mifananidzo nyowani: {names}.",
+      "tapped": "{name}. Tanga neiyi, kana imwe ipi neipi."
+    },
+    "wordPicture": {
+      "guidance": "Dzvanyai mufananidzo, wobva wadzvanya izwi rinoureva. Kana kuti dzvanyai izwi, wobva wadzvanya mufananidzo waro.",
+      "countLegend": "Mifananidzo mingani",
+      "count": "{n} mifananidzo",
+      "picturesGroup": "Mifananidzo",
+      "wordsGroup": "Mazwi",
+      "readWord": "Verengai nenzwi: {name}",
+      "next": "Mifananidzo nyowani",
+      "putBack": "Dzosera",
+      "pickWord": "Zvino dzvanyai izwi rinoenderana nayo.",
+      "pickPicture": "Zvino dzvanyai mufananidzo unoenderana nazvo.",
+      "fit": "Hongu, izwi iroro rinoenderana ne-{name|lower}.",
+      "newSet": "Heyi seti nyowani yemifananidzo.",
+      "restarted": "Tangazve kutanga. Mifananidzo nemazwi ese akasunungurwa zvakare.",
+      "restored": "Yadzoserwa. Mapeya akafanana anoonekwazve.",
+      "all": "Izwi rimwe nerimwe rine mufananidzo waro."
+    },
+    "colorMatch": {
+      "guidance": "Tarisai ruvara nezita rarwo, wobva wadzvanya mifananidzo yose yeruvara urwu.",
+      "target": "Ruvara: {color|lower}. Dzvanyai mifananidzo yose ye-{color|lower}.",
+      "countLegend": "Mifananidzo mingani",
+      "count": "{n} mifananidzo",
+      "found": "Hongu, {name|lower} ine ruvara rwe-{color|lower}.",
+      "named": "{name|lower} ine ruvara rwe-{color|lower}.",
+      "all": "Iyoyo ndiyo mifananidzo yose ye-{color|lower}.",
+      "shown": "Heyi mifananidzo ye-{color|lower}.",
+      "show": "Ratidza",
+      "next": "Ruvara rumwe",
+      "names": {
+        "red": "Tsvuku",
+        "orange": "Orenji",
+        "yellow": "Yero",
+        "green": "Girinhi",
+        "blue": "Bhuru"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Dzvanyai hafu iri kuruboshwe, wobva wadzvanya hafu yekurudyi inoenderana nayo.",
+      "countLegend": "Mifananidzo mingani",
+      "count": "{n} mifananidzo",
+      "leftGroup": "Hafu dzekuruboshwe",
+      "rightGroup": "Hafu dzekurudyi",
+      "left": "Hafu yekuruboshwe ye-{name|lower}",
+      "right": "Hafu yekurudyi ye-{name|lower}",
+      "joined": "Zvakabatanidzwa",
+      "pickRight": "Zvino dzvanyai hafu yekurudyi inoenderana nayo.",
+      "pickLeft": "Zvino dzvanyai hafu yekuruboshwe inoenderana nayo.",
+      "fit": "Hongu, hafu idzi mbiri dzinoita {name|lower}.",
+      "apart": "Hafu idzi hadzibatani. Edzai imwe.",
+      "all": "Mifananidzo yose yakazara.",
+      "shown": "Heyi mifananidzo, yakabatanidzwa.",
+      "show": "Ndiratidzei",
+      "next": "Seti imwe"
+    },
+    "colorByNumber": {
+      "guidance": "Sarudzai ruvara rwuri mukiyi, wobva wazadza sikweya nerwo. Ruvara rwupi neupi rwakanaka.",
+      "sizeLegend": "Saizi yegridhi",
+      "size": "{n} x {n}",
+      "keyLegend": "Mavara",
+      "colors": [
+        "Yero",
+        "Orenji",
+        "Girinhi",
+        "Pepuru"
+      ],
+      "motifs": {
+        "house": "imba",
+        "flower": "ruva",
+        "heart": "mwoyo",
+        "tree": "muti",
+        "boat": "ngarava yemhepo",
+        "pot-plant": "chirimwa muhari"
+      },
+      "region": "Gridhi yemifananidzo, {n} x {n}. Inofamba kurutivi kana skrini yakatetepa.",
+      "cell": "Nhamba {number}, mutsara {row}, kholomu {column}, {color}",
+      "empty": "isina chinhu",
+      "chose": "{name} yasarudzwa. Dzvanyai sikweya kuizadza.",
+      "painted": "{name} pamutsara {row}, kholomu {column}.",
+      "sheet": "Sikweya yega yega ine ruvara rwenhamba yayo. Iyi ndiyo mifananidzo iri papepa: {name}.",
+      "own": "Sikweya yose yazadzwa. Iyi ndiyo mifananidzo yenyu yega.",
+      "fillAll": "Zadza nenhamba",
+      "filledAll": "Sikweya yose isina chinhu yava neruvara rwenhamba yayo.",
+      "clear": "Bvisa",
+      "cleared": "Gridhi yakachena.",
+      "next": "Mufananidzo mumwe",
+      "fresh": "Heyi mumwe mufananidzo wekupenda."
+    },
+    "patternMaker": {
+      "guidance": "Dzvanyai sikweya kuchinja ruvara rwayo. Pateni yenyu inokura parutivi. Hapana chamakagadzira chinochengetwa kana kutumirwa.",
+      "sizeLegend": "Saizi yetaili",
+      "size": "{n} x {n}",
+      "keyLegend": "Mavara, mukurongeka kwaanochinja nekudzvanya",
+      "colors": [
+        "Yero",
+        "Orenji",
+        "Girinhi",
+        "Pepuru"
+      ],
+      "tileLabel": "Taili yenyu",
+      "region": "Taili yenyu, {n} x {n}. Inofamba kurutivi kana skrini yakatetepa.",
+      "patternLabel": "Pateni yenyu",
+      "pattern": "Pateni yenyu: taili yenyu yakadzokororwa {n} kurutivi uye {n} pasi.",
+      "square": "Mutsara {row}, kholomu {column}, {color}",
+      "changed": "Mutsara {row}, kholomu {column} zvino ndeye {color}.",
+      "cleared": "Taili yakachena. Unogona kuidzosera.",
+      "surprise": "Shamisai ini",
+      "surprised": "Heyi taili nyowani. Unogona kudzosera yekare.",
+      "putBack": "Dzosera",
+      "restored": "Taili yenyu yadzoserwa sezvakanga yakaita.",
+      "print": "Dhinda pateni yangu",
+      "sheetTitle": "Pateni yangu"
+    },
+    "buildTogether": {
+      "guidance": "Tendeukai kuisa chidimbu munzvimbo isina chinhu. Mumwe nomumwe ane ruvara rwake. Hapana chamakagadzira chinochengetwa kana kutumirwa.",
+      "sizeLegend": "Saizi yegridhi",
+      "size": "{n} x {n}",
+      "people": [
+        "Munhu wekutanga",
+        "Munhu wechipiri"
+      ],
+      "colorLegend": "Ruvara rwake ({person})",
+      "colors": [
+        "Yero",
+        "Orenji",
+        "Girinhi",
+        "Pepuru"
+      ],
+      "inUse": "Inoshandiswa",
+      "turn": "Nguva yako, {person|lower}",
+      "yourColor": "Ruvara rwako: {color|lower}.",
+      "built": "Takavaka pamwe chete. Iyi ndiyo mifananidzo yamakagadzira vaviri.",
+      "gridLabel": "Gridhi yemunhu wese",
+      "region": "Gridhi yemunhu wese, {n} x {n}. Inofamba kurutivi kana skrini yakatetepa.",
+      "cellEmpty": "Mutsara {row}, kholomu {column}, isina chinhu",
+      "cellFilled": "Mutsara {row}, kholomu {column}, {color}, yakaiswa ne-{person|lower}",
+      "placed": "Mutsara {row}, kholomu {column} zvino ndeye {color}. Nguva yako, {next|lower}.",
+      "placedLast": "Mutsara {row}, kholomu {column} zvino ndeye {color}. Takavaka pamwe chete.",
+      "taken": "Mutsara {row}, kholomu {column} unenge uine chidimbu. Sarudzai nzvimbo isina chinhu.",
+      "pass": "Pfuurira",
+      "passed": "Kupfuurira hakuna dambudziko. Nguva yako, {person|lower}.",
+      "takeBack": "Dzosa chidimbu chekupedzisira",
+      "takeBackPass": "Dzosa kupfuurira",
+      "tookBack": "Chidimbu chadzoserwa. Nguva yako, {person|lower}.",
+      "tookBackPass": "Kupfuurira kwadzoserwa. Nguva yako, {person|lower}.",
+      "colorChanged": "{person} ane zvino ruvara {color|lower}.",
+      "restarted": "Gridhi yakachena. Nguva yako, {person|lower}.",
+      "print": "Dhinda gridhi",
+      "sheetTitle": "Vakai pamwe chete",
+      "sheetHelp": "Tendeukai. Munzvimbo isina chinhu, mumwe nomumwe anodhirowa chimiro chake nepenseru yake.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Dzvanyai chidimbu, wobva wadzvanya nzvimbo mumufananidzo kwaunoenda. Hapana chamakagadzira chinochengetwa kana kutumirwa.",
+      "hints": "Ratidza mitsara yerubatsiro",
+      "pictureLine": "Uyu ndiwo {picture}.",
+      "pictures": {
+        "house": "imba",
+        "boat": "ngarava",
+        "tree": "muti",
+        "fish": "hove",
+        "cat": "katsi",
+        "rocket": "roketi"
+      },
+      "outlineLabel": "Mutsara wakatenderedza {picture}. Dzvanyai nzvimbo kuisa chidimbu chasarudzwa.",
+      "trayHeading": "Zvidimbu",
+      "pieces": {
+        "large-triangle": "Dhayamani huru",
+        "small-triangle": "Dhayamani diki",
+        "square": "Sikweya",
+        "parallelogram": "Parareragramu",
+        "rectangle": "Rekitangere"
+      },
+      "shapes": {
+        "large-triangle": "dhayamani huru",
+        "small-triangle": "dhayamani diki",
+        "square": "sikweya",
+        "parallelogram": "parareragramu",
+        "rectangle": "rekitangere"
+      },
+      "chosenLabel": "Yasarudzwa",
+      "spaceEmpty": "Nzvimbo {n}, {shape}, isina chinhu",
+      "spaceFilled": "Nzvimbo {n}, {shape}, ine chidimbu chayo. Dzvanyai kuti mudzosere chidimbu.",
+      "chosen": "{piece} yasarudzwa. Zvino dzvanyai nzvimbo mumufananidzo.",
+      "unchosen": "Kidimbo hachisati chisarudzwa zvakare.",
+      "placed": "Kidimbo chiri munzvimbo {n}.",
+      "complete": "{picture} yapera.",
+      "different": "Kidimbo iroro chimiro chakasiyana nenzvimbo iyi. Edza imwe nzvimbo.",
+      "needPiece": "Sarudza kidimbo kubva pabhodhi kutanga.",
+      "filled": "Nzvimbo iyi yakatova nekidimbo chayo. Ipa kakaneta kuti udzosere kidimbo.",
+      "tookBack": "Kidimbo chadzoserwa pabhodhi.",
+      "cleared": "Makidimbo adzoserwa pabhodhi. Dzorera kana wachinja pfungwa.",
+      "restored": "Makidimbo adzoserwa mupikicha.",
+      "next": "Iyi ndeye {picture}.",
+      "putBack": "Dzorera",
+      "another": "Chimiro chimwe",
+      "print": "Dhinda chimiro ichi",
+      "sheetTitle": "Zvimiro zvakanyarara",
+      "sheetHow": "Pendesa makidimbo, kana uacheke kuti akwane mukati mechimiro. Mukuru anogona kuchekera.",
+      "sheetPieces": "Makidimbo, akaenzana nekukura kwechimiro"
+    },
+    "picnicPlanner": {
+      "guidance": "Ita kakaneta pamufananidzo kuti uuise mudengu repikiniki, uye ita kakaneta pariri mudengu kuti ubvise. Dengu rinotakura zvinhu zvitanhatu.",
+      "guidancePlay": "Ita kakaneta pamifananidzo miviri yakafanana. Mifananidzo inoramba yoonekwa, uye hapana nguva inoverengwa.",
+      "basketHeading": "Dengu redu",
+      "basketLabel": "Dengu repikiniki",
+      "takeOut": "Bvisa {picture} mudengu",
+      "inBasket": "Mudengu",
+      "foodHeading": "Zvokudya",
+      "outingsHeading": "Zvinhu zvokuita",
+      "added": "{picture} yakuiswa mudengu.",
+      "removed": "{picture} yabviswa mudengu.",
+      "already": "{picture} iripo mudengu. Ita kakaneta ipapo kuti uibvise.",
+      "full": "Dengu razara. Bvisa chimwe chinhu kuti upe nzvimbo.",
+      "summary": "Pikiniki yedu: {list}.",
+      "summaryNone": "Hapana chinhu chakaiswa mudengu zvino.",
+      "and": "ne",
+      "play": "Ngatitambei nepikiniki yedu",
+      "needTwo": "Sarudza zvinhu zviviri zvangu kutanga.",
+      "playAgain": "Tamba zvakare",
+      "back": "Dzokera kupikiniki",
+      "print": "Dhinda rondedzero yedu yepikiniki",
+      "cleared": "Dengu rasvuurwa.",
+      "notice": "Iyi ndiyo hurongwa hwekutaurirana. Hapana nguva inoverengwa, hapana mavhoti, uye hapana chinochengetwa.",
+      "sheetTitle": "Rondedzero yedu yepikiniki",
+      "sheetHow": "Tiki chinhu chega chega paunachigadzira. Shandisa mitsara isina chinyorwa kune zvimwe zvaunoda kuunza.",
+      "sheetToPack": "Zvinofanira kuisirwa"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Sarudza mifananidzo yako mipfumbamwe kusvika gumi nembiri kuti utange bhuku.",
+      "guidance": "Pendurai peji pamwe chete, nemabatani kana nemitsara yekuruboshwe neyekurudyi. Wedzera mashoko mashoma pasi pemufananidzo kana uchida. Hapana chinhu chaunoita chinochengetwa kana kutumwa.",
+      "lookGuidance": "Tarisai peji rega rega pamwe chete. Mungataura kana kungotarisa chete.",
+      "intro": "Sarudza mifananidzo mipfumbamwe kusvika gumi nembiri kubva pachishandiso ichi. Imwe neimwe inova peji rebhuku raungapendurira pamwe chete.",
+      "consent": "Shandisa mifananidzo yemhuri yako. Bvunza kana uchida kushandisa mufananidzo wemunhu asingakwanisi kuti hongu.",
+      "privacy": "Mifananidzo yako inogara pachishandiso ichi. Haisi kutumirwa kana kuchengetwa.",
+      "choose": "Sarudza mifananidzo",
+      "chooseDifferent": "Sarudza mifananidzo yakasiyana",
+      "backToBook": "Dzokera kubhuku",
+      "backToChoose": "Dzokera kusarudza mifananidzo",
+      "needTwo": "Ndapota sarudza mifananidzo yosachepera miviri.",
+      "usingFirst": "Tiri kushandisa mifananidzo {max} yekutanga.",
+      "cleared": "Bhuku rasvuurwa. Sarudza mifananidzo kuti utange zvakare.",
+      "moved": "Yaendeswa kupeji {n}.",
+      "pageOf": "Peji {n} rechi {total}",
+      "lookTogether": "Tarisai pamwe chete",
+      "leaveLook": "Dzokera kubhuku",
+      "print": "Dhinda bhuku remifananidzo",
+      "clear": "Svuta bhuku",
+      "bookLabel": "Bhuku remifananidzo yemhuri",
+      "pagesLabel": "Pendurai mapeji",
+      "previous": "Peji rapfuura",
+      "next": "Peji rinotevera",
+      "moveEarlier": "Enda kumashure",
+      "moveLater": "Enda kumberi",
+      "captionLabel": "Mashoko mashoma epeji iri, kana uchida",
+      "captionHelp": "Kusvika mavara 80. Mashoko anochengetwa peji iri chete uye anopera kana wavhara.",
+      "sheetTitle": "Bhuku redu remifananidzo",
+      "sheetHow": "Mufananidzo mumwe peji rega rega, mashoko awo pasi pawo. Pendurai mapeji murongo uye mutaurire pamusoro peimwe neimwe.",
+      "sheetEmpty": "Sarudza mifananidzo yako papeji remutambo kuti udhinda bhuku rako, kana udhinda peji iri risina chinhu uisire mufananidzo wakadhindwa.",
+      "sheetFrame": "Isa mufananidzo wakadhindwa pano",
+      "sheetWords": "Mashoko mashoma epeji iri",
+      "skipped": {
+        "one": "{n} file was not a photo we can use.",
+        "other": "Mafaira {n} haana kuva mifananidzo yatinogona kushandisa."
+      }
+    },
+    "quietScene": {
+      "guidance": "Tarisa mufananidzo mumwe chete panguva. Dzvanya Inotevera kana Yapfuura kana wagadzirira. Hapana chinofamba chega.",
+      "next": "Mufananidzo unotevera",
+      "previous": "Mufananidzo wapfuura",
+      "bigPicture": "Mufananidzo mukuru",
+      "showEverything": "Ratidza zvose",
+      "first": "Iyi ndiyo yekutanga mifananidzo.",
+      "last": "Iyi ndiyo yekupedzisira mifananidzo.",
+      "lines": {
+        "sunrise": "Zuva rinomuka pamusoro penyika.",
+        "window-with-birds": "Shiri kunze kwewindo.",
+        "vase-of-flowers": "Vase rine maruva patafura.",
+        "teacup": "Kapu retii pedyo newindo.",
+        "tree": "Muti unomira mugadheni.",
+        "sailboat": "Bhoti rine mhepo pamvura.",
+        "lighthouse": "Lighthouse pedyo negungwa.",
+        "rainbow": "Rainbow mushure memvura.",
+        "moon": "Mwedzi mudenga rousiku.",
+        "daisies": "Madaisy akanaka mumadhoro.",
+        "rowing-boat": "Bhoti rekurova pamvura isingafambi.",
+        "potted-plant": "Chirimwa chinoshinga mumbiya."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Tendeukai. Ita kakaneta pachidimbo chakacheka, wobva waita kakaneta panzvimbo isina chinhu kuti uchiise ipapo. Hapana chinhu chaunoita chinochengetwa kana kutumwa.",
+      "people": [
+        "Munhu wekutanga",
+        "Munhu wechipiri"
+      ],
+      "marks": [
+        "denderedzwa",
+        "sikweya"
+      ],
+      "turn": "Ndiwe wakatendeuka, {person|lower}.",
+      "marked": "Makidimbo enyu ane chiratidzo {mark}.",
+      "boardLabel": "Bhodhi rakagovaniswa",
+      "placeEmpty": "Nzvimbo {n}, isina chinhu",
+      "placeFilled": "Nzvimbo {n}, {picture|lower}, yakaiswa na{person|lower}",
+      "trayHeading": "Zvidimbo zvakacheka",
+      "chosenLabel": "Yasarudzwa",
+      "chosen": "{picture} yasarudzwa. Zvino ita kakaneta panzvimbo isina chinhu.",
+      "unchosen": "Chidimbo chacheka hachichasarudzwa zvakare.",
+      "needCutout": "Sarudza chidimbo chakacheka kutanga, wobva waita kakaneta panzvimbo isina chinhu.",
+      "filled": "Nzvimbo {n} yakatova nemufananidzo. Sarudza nzvimbo isina chinhu.",
+      "placed": "{picture} iri munzvimbo {n}. Ndiwe wakatendeuka, {next|lower}.",
+      "full": "Nzvimbo dzose dzine mifananidzo. Bvisa imwe kuti uchinje, kana utange zvakare.",
+      "pass": "Pfuurira",
+      "passed": "Kupfuurira hakuna kunaka. Ndiwe wakatendeuka, {person|lower}.",
+      "takeBack": "Dzosera chidimbo chekupedzisira",
+      "takeBackPass": "Dzosera kupfuurira",
+      "tookBack": "Chidimbo chadzoserwa. Ndiwe wakatendeuka, {person|lower}.",
+      "tookBackPass": "Kupfuurira kwadzoserwa. Ndiwe wakatendeuka, {person|lower}.",
+      "restarted": "Bhodhi rasvuurwa. Ndiwe wakatendeuka, {person|lower}.",
+      "putBack": "Dzorera",
+      "putBackDone": "Makidimbo adzoserwa pabhodhi.",
+      "another": "Imwe seti yemifananidzo",
+      "anotherSet": "Seti nyowani yezvidimbo zvakacheka iri mugaba. Makidimbo ari pabhodhi anoramba ari pachinzvimbo chawo.",
+      "print": "Dhinda bhodhi",
+      "sheetTitle": "Bhodhi rekolasi",
+      "sheetHow": "Cheka mifananidzo uye mutendeuke kuiisa pabhodhi. Mukuru anogona kuchekera.",
+      "sheetTray": "Mifananidzo yekucheka"
+    },
+    "gardenPlanner": {
+      "guidance": "Ita kakaneta pamufananidzo, wobva waita kakaneta pachikwata chemiriwo kuti uuise ipapo. Ita kakaneta pachikwata chine mufananidzo, kana pasina chasarudzwa, kuti uchisvuture.",
+      "bedsLabel": "Makwata emiriwo",
+      "bedEmpty": "Kwata {n}, rakasvuurwa",
+      "bedFilled": "Kwata {n}, {picture|lower}",
+      "plantsHeading": "Zvirimwa",
+      "extrasHeading": "Zvinhu zvowedzerwa zvegadheni",
+      "chosenLabel": "Yasarudzwa",
+      "chosen": "{picture} yasarudzwa. Zvino ita kakaneta pakwata.",
+      "unchosen": "Hapana mufananidzo wasarudzwa.",
+      "needPicture": "Chigadzo chekutanga sarudza pikicha, wobva wanyora bhedi.",
+      "planted": "{picture} iri mubhedi {n}.",
+      "replaced": "{picture} ratsiva pikicha iri mubhedi {n}.",
+      "cleared": "Bhedi {n} harina chinhu. Chidzorere kana uchida pikicha iyoyo zvakare.",
+      "restarted": "Mabhedi ese akasvinuka.",
+      "putBack": "Dzorera",
+      "putBackDone": "Mapikicha akadzoserwa mumabhedi aro.",
+      "summaryHeading": "Munda wangu",
+      "summary": "Chirongwa chako chine {list}.",
+      "summaryNone": "Hapana pikicha iri mubhedi panguva ino.",
+      "and": "ne",
+      "print": "Dhinda chirongwa",
+      "sheetTitle": "Chirongwa chedu chemunda",
+      "sheetHow": "Mabhedi anoratidza mapikicha akasarudzwa pascreen. Dhirowa mumabhedi asina chinhu kana uchida.",
+      "sheetNotes": "Zvinyorwa",
+      "notice": "Iyi chirongwa chepikicha chekutaurirana nayo, havasi zano rekudyara."
+    },
+    "coloringWall": {
+      "guidance": "Sarudza pikicha nehuwandu hwamapeji. Dhinda idziva, wobva wagadzira munhu mumwe nemumwe anopenda kupenda peji rimwe kana mapeji akawanda. Hapana nguva inoverengwa, hapana mhedzisiro inoverengwa, hapana chinochengetwa.",
+      "pictureLegend": "Pikicha",
+      "sizeLegend": "Mapeji akawanda sei",
+      "sizes": {
+        "2x2": "Mapeji 4 (2 x 2)",
+        "3x2": "Mapeji 6 (3 x 2)",
+        "3x3": "Mapeji 9 (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} yakaputsirwa kuita mapeji {n}, {across} nokurebesa uye {down} nokudzika. Peji rimwe nerimwe rine zita pakona yaro.",
+      "previewCaption": "Pikicha ine mitsara yemapeji nemazita akadhirwa pairi.",
+      "labelsNote": "Tsamba dzinofamba nedziva kudzika, nhamba dzinofamba nedziva kurebesa, saka A1 ndiro peji rakakwirira kuruboshwe.",
+      "wallHeading": "Kuvaka idziva",
+      "steps": [
+        "Dhinda mapeji ese. Peji rekutanga ndiro matanho aya uye mepu yedziva.",
+        "Munhu mumwe nemumwe anotora peji rimwe kana mapeji akawanda ayo oapenda.",
+        "Mavara nemaitiro haafanirwe kuenderana. Peji rimwe nerimwe rinhengo yepikicha imwe chete.",
+        "Isai mapeji pasi maererano nemazita awo, wobva mabatanidza nebhandi kumashure.",
+        "Isai idziva panzvimbo yose ivanhu vanogona kuona."
+      ],
+      "mapLabel": "Mepu yedziva: mitsara {down} yemapeji {across}, akanyorwa kubva kuA1 kusvika ku{last}.",
+      "edgeNote": "Mutsara wakasvetuka unoratidza mupendero wepeji rimwe nerimwe. Isai mapeji mupendero nomupendero pamusoro pawo, kana kuti mafukidzwe zvishoma.",
+      "pictureLine": "Pikicha: {picture}. Idziva iri rine mapeji {n}: {across} nokurebesa uye {down} nokudzika.",
+      "print": "Dhinda idziva"
+    },
+    "findTogether": {
+      "guidance": "Tinhira mukutora nguva. Pakutora kwako, dzorera makadhi maviri kuti utsvake mapaired. Tsvagai mapaired pamwe chete.",
+      "sizeLegend": "Makadhi akawanda sei",
+      "size": "Makadhi {n}",
+      "viewLegend": "Kutamba sei",
+      "viewShowing": "Tamba nemapikicha ari kuonekwa",
+      "viewHidden": "Makadhi akatarisa pasi",
+      "people": [
+        "Munhu wekutanga",
+        "Munhu wechipiri"
+      ],
+      "turn": "Kutora kwa: {person}",
+      "turnDone": "Mapaired ese awanikwa.",
+      "tally": "Mapaired awanikwa pamwe chete: {n}",
+      "cardNamed": "{name}, kadhi {n}",
+      "cardFaceDown": "Kadhi {n}, rakatarisa pasi",
+      "first": "{name}. Zvino dzorera kadhi rechipiri.",
+      "found": "{name}: paired, yawanikwa pamwe chete. Zvino ndizvo kutora kwa{next|lower}.",
+      "allTogether": "Mawanikwa mapaired ese pamwe chete.",
+      "different": "{a} ne {b} zvakasiyana. Tora nguva yako, wobva wadzvanya Dzorera.",
+      "waiting": "Dzvanya Dzorera kana wagadzirira. Ipapo kutora kunopfuura.",
+      "turnedBack": "Yadzoserwa. Zvino ndizvo kutora kwa{person|lower}.",
+      "passed": "Kupfuura hakuna dambudziko. Zvino ndizvo kutora kwa{person|lower}.",
+      "turnBack": "Dzorera",
+      "pass": "Pfuura",
+      "playAgain": "Tamba zvakare"
+    },
+    "drawingDuet": {
+      "guidance": "Tinhira mukutora nguva nomutsara mumwe nemumwe, wobva wapfuudza peni. Munhu wese anogona kupfuura. Hapana chinotumirwa kwoga. Pikicha inobuda peji rino chete kana ukachengeta.",
+      "people": [
+        "Munhu wekutanga",
+        "Munhu wechipiri"
+      ],
+      "colorLegend": "Mavara a{person}",
+      "colors": [
+        "Yero",
+        "Orenji",
+        "Girini",
+        "Pepuru"
+      ],
+      "turn": "Kutora kwa{person}",
+      "penColor": "Mavara epeni: {color}.",
+      "canvasLabel": "Kudhirowa pamwe chete, mitsara {n} kusvika zvino",
+      "canvasLabelOne": "Kudhirowa pamwe chete, mutsara {n} kusvika zvino",
+      "keys": "Mitsvi yemucheto inofambisa dooko repeni pakudhirowa. Space inoisa peni pasi kana kuimutsa.",
+      "penDown": "Peni pasi",
+      "penUp": "Peni kumusoro",
+      "pass": "Pfuudza peni",
+      "passed": "Kupfuura hakuna dambudziko. Ndiwe wekutora, {person|lower}.",
+      "takeBack": "Bvisa mutsara wangu wekupedzisira",
+      "tookBack": "Mutsara wekupedzisira wa{person|lower} wabviswa.",
+      "noLine": "Hapana mutsara wa{person|lower} wekubvisa.",
+      "restarted": "Pepa rakasvinuka. Munhu wekutanga ndiye ane kutora. Dzorera kana usina kuda kuita izvi.",
+      "putBack": "Dzorera",
+      "restored": "Mitsara yadzoserwa sekwakanga kuri.",
+      "save": "Chengeta pikicha",
+      "saved": "Pikicha yako yagadzirira. Shandisa chinongedzo chekudhawunirodha kuti uchengete pamudziyo uyu.",
+      "download": "Dhawunirodha drawing-duet.png",
+      "print": "Dhinda kopi yepepa",
+      "sheetTitle": "Kudhirowa pamwe chete",
+      "paperRules": "Vanhu vaviri, pepa rimwe, peni mbiri. Tinhira mukutora nguva: mutsara kana chimiro chimwe chimwe, wobva wapfuudza peni. Munhu wese anogona kupfuura. Hapana pikicha yakarurama."
+    },
+    "colorWash": {
+      "guidance": "Dzora mavara akapfava pamapeji, rimwe rimwe. Bvisa burashi kuti umire, uye mira kana uchida. Hapana chinochengetwa kana kutumirwa.",
+      "colorLegend": "Ruvara rekuzora",
+      "sizeLegend": "Ukuru hwebhurashi",
+      "colors": [
+        "Yero",
+        "Orenji",
+        "Girini",
+        "Pepuru"
+      ],
+      "sizes": {
+        "wide": "Hukuru",
+        "veryWide": "Hukuru hwakanyanya"
+      },
+      "color": "Ruvara rekuzora: {color}.",
+      "brushDown": "Burashi pasi",
+      "brushUp": "Burashi kumusoro",
+      "keys": "Mitsvi yemucheto inofambisa mhete yeburashi pamapeji. Space inoisa burashi pasi kana kuimutsa.",
+      "canvasLabel": "Peji rine mazuva emavara akapfava",
+      "fresh": "Peji idzva",
+      "freshMessage": "Peji idzva.",
+      "putBack": "Dzorera",
+      "restored": "Peji radzoserwa."
+    },
     "sortTogether": {
       "guidance": "Tsvodai mufananidzo, mozotsvoda dengu rinoenderana nawo.",
       "restart": "Mifananidzo mitsva",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} rinogona kuenda mu \"{basket}\". Tsvodai dengu iroro kuti muriise ipapo.",
       "placed": "{name|lower} riri mu \"{basket}\".",
       "sorted": "Zvose zvarongwa. Tarirai madengu pamwechete, kana kuti sarudzai nyaya imwe.",
+      "largerTargets": "Zvinangwa zvakakura",
+      "largerOn": "Zvinangwa zvakakura zvakavhurwa. Hapana chakafamba.",
+      "largerOff": "Zvinangwa zvakakura zvavharwa. Hapana chakafamba.",
+      "largerOnNewRound": "Zvinangwa zvakakura zvakavhurwa, nemadengu maviri. Heyi mapikicha matsva ekurongedza.",
       "basket": {
         "one": "Dengu {basket}, mufananidzo {count} mukati",
         "other": "Madengu {basket}, mifananidzo {count} mukati"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Tsvodai chidimbu chimwe, wozotsvoda chimwe. Zvinotsinhana nzvimbo.",
-      "restart": "Sanganisai zvakare",
+      "restart": "Mix up again",
       "pictureLegend": "Mufananidzo",
       "pictures": {
         "sailboat": "Ngarava",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Mufananidzo wose: {name}",
       "guideText": "Izvi ndizvo zvinoita mufananidzo wakazara.",
+      "ownChoose": "Shandisa foto yako",
+      "ownChange": "Sarudza foto imwe",
+      "ownBack": "Dzokera kumapikicha edu",
+      "ownPrivacy": "Foto yako inogara pamudziyo uyu. Haisi kutumirwa kana kuchengetwa.",
+      "ownConsent": "Shandisa mifananidzo yako. Bvunza kumberi kana uchishandisa foto yomunhu asingakwanisi kubvuma.",
+      "ownWorking": "Tiri kugadzirira foto yako.",
+      "ownNotUsable": "Faira iyi haina kukwanisa kushandiswa. Sarudza faira yefoto, sejpeg kana png.",
+      "ownAlt": "Foto yako",
+      "ownPiece": "Chidimbu {n}, {place}",
+      "ownWhole": "Foto yako yazozara zvakare. Ivhenekere zvakare kana uchida.",
+      "ownSheetTitle": "Foto yako yakaputsirwa zvidimbu",
+      "ownSheetHow": "Cheka pamitsara. Vhenekera zvidimbu pamwe chete, wobva wachinja zvidimbu zviviri panguva kusvika foto yazara.",
       "piece": "Chidimbu chiri {place}",
       "pieceInPlace": ", chiri panzvimbo yacho",
       "piecePickedUp": ", chatorwa",
@@ -122,7 +786,7 @@
         "pasi kurudyi"
       ],
       "done": "Mufananidzo wazara zvakare. Tambai zvakare kana kuti muzorore.",
-      "playAgain": "Sanganisai zvakare"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Verengai tsumo pamwechete, wozotsvoda shoko rinoipedzisa.",
@@ -190,6 +854,14 @@
       "guidance": "Verengai kadhi nenzwi rakanaka. Hapana mhinduro dzakarurama.",
       "position": "Kadhi {n} kubva pa{total}",
       "themeLegend": "Nyaya",
+      "showPrompt": "Ratidza chirevo chekutaurirana",
+      "bigPicture": "Pikicha hombe, yeboka",
+      "passNote": "Munhu wese anogona kupfuura.",
+      "groupTitle": "Kupfuudza kadhi muboka",
+      "groupSit": "Garai mudenderedzwa apo wese anogona kuona pikicha. Munhu anobata kadhi, kana mudziyo une pikicha hombe, ndiye anoverenga chirevo kutanga nenzwi.",
+      "groupPass": "Wobva wapfuudza kadhi kumunhu anotevera. Munhu wese anoti shoko kana mutsara nezvepikicha, wobva wapfuudza.",
+      "groupNoSpeech": "Kupfuudza kadhi nguva dzose kunobvumidzwa. Munhu anogona kupfuura asina chaanotaura, uye hapana anofanira kutsanangura nei.",
+      "groupEnd": "Dendere rinopera kana kadhi rapoteredza denga, kana boka rasvika pakuneta. Hapana anokunda. Mirai chero nguva boka rinoda.",
       "next": "Kadhi rinotevera",
       "previous": "Kadhi rakapfuura",
       "print": "Dhinda makadhi ese",
@@ -252,6 +924,20 @@
       "started": "Tangwa. Fema mukati pamene denderedzwa rinenge richikura.",
       "stopped": "Gumiswa.",
       "finished": "Ndiwo mafemo matanhatu akanyorova. Tanga zvakare kana muchida."
+    },
+    "storyChain": {
+      "guidance": "Tendeukai: mutsara mumwe nemumwe, wedzerai mufananidzo unotevera.",
+      "passNote": "Taurai mutsara wenyu nekunzwika. Hapana chinonyorwa kana kuchengetwa. Munhu wese anogona kupfuura.",
+      "chainLabel": "Ketani yakusvika parizvino",
+      "item": "Mufananidzo {n}: {name}",
+      "add": "Wedzera mufananidzo",
+      "fullAdd": "Ketani yazara. Tanga ketani itsva",
+      "newChain": "Tanga ketani itsva",
+      "takeOff": "Bvisa rekupedzisira",
+      "added": "Chinhu {name|lower} chava kumagumo eketani.",
+      "removed": "Chinhu {name|lower} chabviswa kuketani.",
+      "fresh": "Ketani itsva, ichitanga ne {name|lower}.",
+      "full": "Ketani ine mifananidzo yose masere. Rondedzerai nyaya yose, kana tangai ketani itsva."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Gore remvura",
     "snowflake": "Chando",
     "kite": "Kaiti",
-    "sunrise": "Zuva rinobuda pamakomo"
+    "sunrise": "Zuva rinobuda pamakomo",
+    "decorated-keepsake-box": "Bhokisi rakashongedzwa",
+    "painted-plant-pot": "Hari yakapendwa ine mishonga",
+    "repeating-pattern-sheet": "Pepa remapatani anodzokororwa",
+    "music-drawn-lines": "Mitsara yakadhirwa nemimhanzi",
+    "paper-boat-afloat": "Chikepe chepepa chinoyangarara pamvura",
+    "folded-towel-stack": "Matauro akapetwa",
+    "hand-massage-with-lotion": "Ruoko pamusoro petauro nemafuta",
+    "open-photo-album": "Album yemifananidzo yakavhurika",
+    "button-flower-card": "Ruva rebhatani pakadhi",
+    "blue-torn-paper-collage": "Collage yepepa rebhuru rakatsemurwa",
+    "family-tree-of-hands": "Muti wemhuri wakadhirwa nemaoko",
+    "open-greeting-card": "Kadhi rakavhurika rine mwoyo",
+    "lavender-sachet": "Chikwama chelavender chakasungwa netepi",
+    "memory-collage-of-photos": "Collage yemifananidzo yemhuri",
+    "paper-chain-garland": "Ketani yepepa",
+    "open-songbook-with-notes": "Bhuku remimhanzi rakavhurika",
+    "photo-postcard-with-stamp": "Kadhi rekutumira remufananidzo rine sitambi",
+    "pine-cone-bird-feeder": "Muchero wepaini wekudyisira shiri wakarembedzwa patavi",
+    "playlist-phone-and-card": "Foni ine playlist nekadhi rerwiyo",
+    "sealed-rice-shaker": "Shaker yemupunga yakavharwa",
+    "texture-board-with-scraps": "Bhodhi rine zvidimbu zvakasiyana",
+    "painted-garden-stone": "Dombo remunda rakapendwa",
+    "shared-painted-canvas": "Kanvasi yakapendwa pamwe chete",
+    "watercolor-washes-sheet": "Pepa remavara ewatercolor",
+    "seedling-in-pot": "Mbeu dzakamera muhari",
+    "pressed-leaves-in-book": "Mashizha akasvinurwa mubhuku",
+    "printed-leaves-sheet": "Pepa remashizha akadhirwa",
+    "pinch-pot-clay-bowl": "Hari yedongo yakaumbwa namaoko",
+    "table-sketch-pencil": "Mukombe wakadhirwa nepenseri",
+    "buttons-in-muffin-tin": "Mabhatani akarongwa mumudziyo wekubikira",
+    "family-recipe-book": "Bhuku remaresipi emhuri",
+    "drum-with-beat-marks": "Ngoma yepatafura nemitsvimbo",
+    "torn-paper-flower": "Mosaic yeruva yepepa rakatsemurwa",
+    "window-with-birds": "Hwindo rine shiri",
+    "woven-paper-mat": "Chiteshi chepepa chakarukwa",
+    "yarn-ball-with-thread": "Bhora retambo",
+    "letter-and-envelope": "Tsamba muenvelopu"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Kunze uye kufamba"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Michero",
+        "animals": "Mhuka",
+        "travel": "Nzira dzekufamba",
+        "flowers": "Maruva",
+        "hot-drinks": "Zvinwiwa zvinopisa",
+        "weather": "Mamiriro ekunze",
+        "baked": "Zvinhu zvakabikwa muovheni"
       }
     }
   }

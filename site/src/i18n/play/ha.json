@@ -5,6 +5,13 @@
       "stopReading": "Dakatar da karatu",
       "region": "Wasa",
       "restart": "A sake farawa",
+      "rest": "Huta yanzu",
+      "restingTitle": "Ana hutawa",
+      "restingText": "Ɗauki lokacin da kake buƙata. Wurinka yana nan a wannan shafi.",
+      "resume": "Ci gaba",
+      "placeText": "Lokaci na ƙarshe ka tsaya a tsakiya. Ci gaba daga nan, ko fara daga farko.",
+      "placeResume": "Ci gaba",
+      "placeFresh": "Fara daga farko",
       "soundOn": "Sautuka masu taushi a kunne",
       "soundOff": "Sautuka masu taushi a kashe",
       "done": "Ya isa a yanzu",
@@ -43,7 +50,19 @@
       "viewShowing": "Hotuna a bayyane",
       "viewHidden": "Hotuna a ɓoye",
       "playAgain": "A sake wasa da sababbin hotuna",
-      "talk": "Mu yi magana game da hotunan tare"
+      "talk": "Mu yi magana game da hotunan tare",
+      "modeLegend": "Waɗanne hotuna",
+      "modePlay": "Kowane hotuna",
+      "modeDaily": "Katin yau",
+      "dayLegend": "Wace rana",
+      "dayHelp": "Kowa yana samun hotuna iri ɗaya a rana ɗaya. Kwanakin baya suna nan ma, kuma tsallake rana ba ya kashe komai.",
+      "guidanceDaily": "Katin yau yana da nau'i huɗu. Taɓa hoto, sannan ka taɓa wanda ya dace da shi.",
+      "restartDaily": "Fara wannan katin daga farko",
+      "copy": "Kwafi wannan layin",
+      "copied": "An kwafa. Ba a aika komai ko'ina ba.",
+      "calendarTitle": "Katunan yau, {month}",
+      "calendarHelp": "Kowace rana tana da hotuna huɗu iri ɗaya ga kowa. Ba a ci maki ba, kuma ba a yi alama da cewa an rasa wata rana ba.",
+      "calendarVersion": "Sigar {date}. Hotunan iri ɗaya ne ga kowa a rana ɗaya."
     },
     "choose": {
       "countLegend": "Adadin hotuna",
@@ -62,6 +81,635 @@
       "shadowAlt": "Inuwa da za a haɗa",
       "foundAlt": "Inuwar {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Alamu",
+      "hintOn": "Alama bayan an tsaya",
+      "hintOff": "Babu alamu",
+      "guidance": "Nemo hotuna {n} da suka dace tare, sannan ka taɓa kowanne.",
+      "countLegend": "Hotuna nawa",
+      "count": "Hotuna {n}",
+      "found": "Eh, {name|lower} yana cikin wannan rukuni.",
+      "elsewhere": "{name|lower} yana tare da wani abu daban. Ka ɗauki lokacinka.",
+      "hint": "Alama: nemi {theme|lower}.",
+      "together": "Waɗannan suna tare: {theme}.",
+      "shown": "Ga rukunin: {theme}.",
+      "groupName": "Tare: {theme}",
+      "show": "Nuna rukunin",
+      "next": "Wani saiti"
+    },
+    "oddOneOut": {
+      "hintLegend": "Alamu",
+      "hintOn": "Alama bayan an tsaya",
+      "hintOff": "Babu alamu",
+      "guidance": "Nemo hoton da bai dace da sauran ba, sannan ka taɓa shi.",
+      "countLegend": "Hotuna nawa",
+      "count": "Hotuna {n}",
+      "belongs": "{name|lower} yana tare da sauran. Ka ɗauki lokacinka.",
+      "found": "Eh, {name|lower} ne wanda bai dace ba. Sauran su ne {theme|lower}.",
+      "shown": "Ga shi: {name|lower}. Sauran su ne {theme|lower}.",
+      "hint": "Alama: {n} daga cikin waɗannan su ne {theme|lower}.",
+      "others": "Sauran: {theme}",
+      "show": "Nuna mini",
+      "next": "Wani saiti"
+    },
+    "seatedToss": {
+      "guidance": "Ku zauna a teburi, ku riƙa jifan jaka mai laushi ta wake a cikin babban manufa a juyi. Ku riƙa rubuta maki a takarda, tare.",
+      "stepsHeading": "Yadda ake yi",
+      "steps": [
+        "Buga manufar da takardar maki, ka shimfiɗa ta a kwance a kan teburi tsakaninku.",
+        "Ku zauna cikin kwanciyar hankali, kowa a gefe ɗaya. Ku riƙa juyawa da jifa ɗaya a hankali, ko ku wuce idan ba ku so.",
+        "Idan jifa ya faɗa cikin zobe, wanda ya jefa ya yi alama a akwati ɗaya a jerinsa, a layin wannan zobe.",
+        "Ku duba alamun tare idan kun tsaya, idan kuna so. Ba wanda zai ƙidaya komai.",
+        "Ku tsaya duk lokacin da wani ya shirya."
+      ],
+      "safetyHeading": "Tsaro",
+      "safetyLine": "Yi amfani da jaka mai murfin da aka dinka ko mirgina safa kawai, ku zauna, kada ku jefa wajen fuska, kuma ku sa babba a kusa. Ƙananan sassa suna haifar da haɗarin shaƙewa.",
+      "flags": [
+        "Ba don ƙasa da shekara 3 ba: ƙananan sassa",
+        "A nisanta daga baki"
+      ],
+      "safety": [
+        "Zaɓi jakar wake mai murfin da aka dinka, ko mirgina safa mai tsabta. Duba ta farko don ramuka ko dinki da suka sako, don kada cikonta ya fito.",
+        "Wake, shinkafa da sauran cikon ƙanana suna haifar da haɗarin shaƙewa. A nisanta su daga yara ƙanana da duk wanda ya saka abubuwa a baki.",
+        "Ku kasance a tsawon hannu kuma ku kula sosai idan wani abu zai iya shiga baki.",
+        "Ku zauna. Ku jefa a hankali kuma a ƙasa zuwa manufar da ke kan teburi, kada ku jefa wajen fuska."
+      ],
+      "previewLabel": "Takardar da aka buga: manufa mai zobe uku mai suna Kusa, Tsakiya da Nesa, daga waje zuwa ciki, da jerin maki mai ginshiƙi ga kowane mutum da layi na akwatuna marasa komai ga kowane zobe.",
+      "sheetHow": "Shimfiɗa takardar a kwance tsakaninku. Idan jifa ya faɗa cikin zobe, yi alama a akwati a cikin ginshiƙinka, a layin zoben.",
+      "rings": [
+        "Kusa",
+        "Tsakiya",
+        "Nesa"
+      ],
+      "people": [
+        "Mutum na farko",
+        "Mutum na biyu"
+      ],
+      "ringHeading": "Zobe",
+      "print": "Buga manufar da takardar maki"
+    },
+    "seasonalPack": {
+      "guidance": "Zaɓi wata, buga wasanin takarda guda uku na watan, sannan ka yi ɗaya, biyu ko duka uku tare.",
+      "monthLegend": "Zaɓi wata",
+      "months": [
+        "Janairu",
+        "Fabrairu",
+        "Maris",
+        "Afrilu",
+        "Mayu",
+        "Yuni",
+        "Yuli",
+        "Agusta",
+        "Satumba",
+        "Oktoba",
+        "Nuwamba",
+        "Disamba"
+      ],
+      "monthNote": "Kowane wata yana da hotunansa. Shafin yana buɗewa a wannan watan, kuma kana iya zaɓar kowane wata.",
+      "restDay": "Yau ranar hutu ce",
+      "restLine": "Babu wasanin yau. Ranar hutu ma rana ce mai kyau.",
+      "previewHeading": "Wasanin guda uku",
+      "puzzles": {
+        "pairs": {
+          "title": "Haɗa nau'i-nau'i",
+          "how": "Zana layi daga kowane hoto a layin sama zuwa hoto ɗaya a layin ƙasa.",
+          "describe": "Layuka biyu na hotuna huɗu iri ɗaya, a tsari daban."
+        },
+        "different": {
+          "title": "Wane ne ya bambanta?",
+          "how": "Da'ira hoton da ya bambanta da sauran uku.",
+          "describe": "Layi na hotuna huɗu. Uku iri ɗaya ne, ɗaya kuma ya bambanta."
+        },
+        "color": {
+          "title": "Yi masa launi",
+          "how": "Yi wa hoton launi yadda kake so, da fensir masu launi ko alƙalami.",
+          "describe": "Hoto ɗaya babba da za a yi wa launi."
+        }
+      },
+      "print": "Buga kayan wannan watan",
+      "sheetHow": "Buga shafi ɗaya. Yi ɗaya, biyu ko duka uku, kowane tsari.",
+      "printFooter": "Yi ɗaya, biyu ko duka uku. Tsaya duk lokacin da kake so."
+    },
+    "decorateACard": {
+      "guidance": "Zaɓi lokaci, sannan ku yi wa kati ado tare da fensir masu launi ko alƙalami. Babu katin da ya dace.",
+      "occasionLegend": "Zaɓi lokaci",
+      "occasions": {
+        "birthday": {
+          "label": "Ranar haihuwa",
+          "words": "Barka da ranar haihuwa"
+        },
+        "thank-you": {
+          "label": "Na gode",
+          "words": "Na gode"
+        },
+        "thinking-of-you": {
+          "label": "Ina tunanin ku",
+          "words": "Ina tunanin ku"
+        },
+        "new-season": {
+          "label": "Sabon lokaci",
+          "words": "Sabon lokaci"
+        },
+        "just-because": {
+          "label": "Kawai kawai",
+          "words": "Kawai kawai"
+        }
+      },
+      "stepsHeading": "Yadda za ku yi masa ado tare",
+      "steps": {
+        "fold": "Buga katin ka naɗe shi rabi tare da layin dige-dige, don gaban ya kasance a waje.",
+        "front": "Mutum ɗaya yana yi wa gaba ado, a kewayen kalmomin.",
+        "inside": "Ɗayan yana yi wa bayan ado, ko ku riƙa juyawa a gefe ɗaya.",
+        "message": "Ku rubuta saƙo tare. Mutum ɗaya zai iya rubutawa yayin da ɗayan yake faɗin kalmomin.",
+        "stop": "Tsaya duk lokacin da kake so. Babu katin da ya dace, kuma mai sauƙi ma yana da kyau."
+      },
+      "materials": "Yi amfani da fensir masu launi, alƙalami masu launi ko alƙalami masu ji. Babu buƙatar yankewa, manne ko liƙawa.",
+      "previewLabel": "Samfurin katin da aka naɗe rabi. Gaban yana cewa {words}, tare da firam mai sauƙi na ganye da taurari. Bayan yana da layuka don saƙo da layi don Daga.",
+      "from": "Daga",
+      "sheetHow": "Naɗe katin rabi-rabi tare da layin dige-dige, gaban katin yana waje. Rubuta saƙon a bayan katin.",
+      "rulesHeading": "Don mutane biyu",
+      "sheetRules": [
+        "Ku yi juyi-juyi, ko ku raba aikin: mutum ɗaya ya yi ado a gaba, ɗayan ya yi a baya.",
+        "Ku rubuta saƙon tare, ko mutum ɗaya ya rubuta abin da ɗayan ya faɗa.",
+        "Kowa na iya tsayawa a kowane lokaci. Babu katin daidai."
+      ],
+      "print": "Buga katin"
+    },
+    "storyDice": {
+      "guidance": "Ku duba hotunan, ku ba da labari da su, a kowane tsari. Babu labari daidai.",
+      "countLegend": "Adadin dis",
+      "count": "{n} dis",
+      "roll": "Sake jefa",
+      "pass": "Wuce",
+      "passed": "Babu laifi a wuce. Mutum na gaba zai iya fara, ko kuma ku sake jefa.",
+      "rolled": "Sababbin hotuna: {names}.",
+      "tapped": "{name}. Fara da wannan, ko kuma wani."
+    },
+    "wordPicture": {
+      "guidance": "Danna hoto, sannan kalmar da ke sunansa. Ko kuma danna kalma, sannan hotonta.",
+      "countLegend": "Adadin hotuna",
+      "count": "{n} hotuna",
+      "picturesGroup": "Hotuna",
+      "wordsGroup": "Kalmomi",
+      "readWord": "Karanta da babbar murya: {name}",
+      "next": "Sababbin hotuna",
+      "putBack": "Mayar da shi",
+      "pickWord": "Yanzu danna kalmar da ta dace da shi.",
+      "pickPicture": "Yanzu danna hoton da ya dace da shi.",
+      "fit": "Eh, kalmar nan ta dace da {name|lower}.",
+      "newSet": "Ga sabon saitin hotuna.",
+      "restarted": "An koma farko. Kowane hoto da kowace kalma sun sake zama daban.",
+      "restored": "An mayar da su. An sake nuna waɗanda suka dace da juna.",
+      "all": "Kowace kalma tana da hotonta."
+    },
+    "colorMatch": {
+      "guidance": "Duba launin da sunansa, sannan ku danna kowane hoto mai wannan launi.",
+      "target": "Launin shi ne {color|lower}. Danna kowane hoto mai launin {color|lower}.",
+      "countLegend": "Adadin hotuna",
+      "count": "{n} hotuna",
+      "found": "Eh, launin {name|lower} {color|lower} ne.",
+      "named": "Launin {name|lower} shi ne {color|lower}.",
+      "all": "Waɗannan su ne duk hotunan {color|lower}.",
+      "shown": "Ga hotunan {color|lower}.",
+      "show": "Nuna su",
+      "next": "Wani launi",
+      "names": {
+        "red": "Ja",
+        "orange": "Lemu",
+        "yellow": "Rawaya",
+        "green": "Kore",
+        "blue": "Shuɗi"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Danna rabin da ke hagu, sannan danna rabin da ke dama wanda ya dace da shi.",
+      "countLegend": "Adadin hotuna",
+      "count": "{n} hotuna",
+      "leftGroup": "Rabin hagu",
+      "rightGroup": "Rabin dama",
+      "left": "Rabin hagu na {name|lower}",
+      "right": "Rabin dama na {name|lower}",
+      "joined": "An haɗa",
+      "pickRight": "Yanzu danna rabin dama wanda ya dace da shi.",
+      "pickLeft": "Yanzu danna rabin hagu wanda ya dace da shi.",
+      "fit": "Eh, waɗannan biyun sun zama {name|lower}.",
+      "apart": "Waɗannan biyun ba sa dacewa. Ku gwada wani.",
+      "all": "Kowane hoto ya cika.",
+      "shown": "Ga hotunan, an haɗa su.",
+      "show": "Nuna mini",
+      "next": "Wani saiti"
+    },
+    "colorByNumber": {
+      "guidance": "Zaɓi launi daga jerin launuka, sannan ku cika murabba'i da shi. Kowane launi ba laifi ba ne.",
+      "sizeLegend": "Girman raga",
+      "size": "{n} x {n}",
+      "keyLegend": "Launuka",
+      "colors": [
+        "Rawaya",
+        "Lemu",
+        "Kore",
+        "Shunayya"
+      ],
+      "motifs": {
+        "house": "gida",
+        "flower": "fure",
+        "heart": "zuciya",
+        "tree": "bishiya",
+        "boat": "jirgin ruwa mai tafiya da iska",
+        "pot-plant": "shuka a cikin tukunya"
+      },
+      "region": "Ragar hotuna, {n} x {n}. Yana zamewa gefe idan allon ya yi kunkuntar.",
+      "cell": "Lamba {number}, layi {row}, ginshiƙi {column}, {color}",
+      "empty": "babu komai",
+      "chose": "An zaɓi {name}. Danna murabba'i domin cika shi.",
+      "painted": "{name} a layi {row}, ginshiƙi {column}.",
+      "sheet": "Kowane murabba'i yana da launin lambarsa. Wannan ne hoton da ke takardar: {name}.",
+      "own": "An cika kowane murabba'i. Wannan hotonku ne.",
+      "fillAll": "Cika bisa lambobin",
+      "filledAll": "Kowane murabba'i da babu komai yanzu yana da launin lambarsa.",
+      "clear": "Goge",
+      "cleared": "An goge ragar.",
+      "next": "Wani hoto",
+      "fresh": "Ga wani hoto da za ku yi wa launi."
+    },
+    "patternMaker": {
+      "guidance": "Danna murabba'i don canza launinsa. Tsarinku yana girma a gefensa. Babu abin da kuka yi da ake ajiyewa ko aikawa.",
+      "sizeLegend": "Girman fale-falen",
+      "size": "{n} x {n}",
+      "keyLegend": "Launuka, a tsarin da danna ke canza su",
+      "colors": [
+        "Rawaya",
+        "Lemu",
+        "Kore",
+        "Shunayya"
+      ],
+      "tileLabel": "Fale-falenku",
+      "region": "Fale-falenku, {n} x {n}. Yana zamewa gefe idan allon ya yi kunkuntar.",
+      "patternLabel": "Tsarinku",
+      "pattern": "Tsarinku: fale-falenku da aka maimaita sau {n} a faɗi da sau {n} a tsawo.",
+      "square": "Layi {row}, ginshiƙi {column}, {color}",
+      "changed": "Layi {row}, ginshiƙi {column} yanzu {color} ne.",
+      "cleared": "An goge fale-falen. Kuna iya mayar da shi.",
+      "surprise": "Ku ba ni mamaki",
+      "surprised": "Ga sabon fale-fale. Kuna iya mayar da tsohon.",
+      "putBack": "Mayar da shi",
+      "restored": "An mayar da fale-falenku yadda yake.",
+      "print": "Buga tsarina",
+      "sheetTitle": "Tsarina"
+    },
+    "buildTogether": {
+      "guidance": "Ku yi juyi-juyi wajen sanya guntu a wurin da babu komai. Kowannenku yana da launinsa. Babu abin da kuka yi da ake ajiyewa ko aikawa.",
+      "sizeLegend": "Girman raga",
+      "size": "{n} x {n}",
+      "people": [
+        "Mutum na farko",
+        "Mutum na biyu"
+      ],
+      "colorLegend": "Launin {person}",
+      "colors": [
+        "Rawaya",
+        "Lemu",
+        "Kore",
+        "Shunayya"
+      ],
+      "inUse": "Ana amfani da shi",
+      "turn": "Lokacinku, {person|lower}",
+      "yourColor": "Launinku {color|lower} ne.",
+      "built": "An gina tare. Wannan ne hoton da ku biyu kuka yi.",
+      "gridLabel": "Ragar gama-gari",
+      "region": "Ragar gama-gari, {n} x {n}. Yana zamewa gefe idan allon ya yi kunkuntar.",
+      "cellEmpty": "Layi {row}, ginshiƙi {column}, babu komai",
+      "cellFilled": "Layi {row}, ginshiƙi {column}, {color}, {person|lower} ne ya sanya shi",
+      "placed": "Layi {row}, ginshiƙi {column} yanzu {color} ne. Lokacinku, {next|lower}.",
+      "placedLast": "Layi {row}, ginshiƙi {column} yanzu {color} ne. An gina tare.",
+      "taken": "Layi {row}, ginshiƙi {column} yana da guntu. Zaɓi wurin da babu komai.",
+      "pass": "Wuce",
+      "passed": "Babu laifi a wuce. Lokacinku, {person|lower}.",
+      "takeBack": "Ɗauke guntun ƙarshe",
+      "takeBackPass": "Janye wucewar",
+      "tookBack": "An ɗauke guntun. Lokacinku, {person|lower}.",
+      "tookBackPass": "An janye wucewar. Lokacinku, {person|lower}.",
+      "colorChanged": "{person} yanzu yana da launin {color|lower}.",
+      "restarted": "Ragar babu komai. Lokacinku, {person|lower}.",
+      "print": "Buga ragar",
+      "sheetTitle": "Gina tare",
+      "sheetHelp": "Ku yi juyi-juyi. A murabba'i da babu komai, kowane mutum ya zana siffarsa da fensirinsa.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Danna guntu, sannan danna wurin da ya dace a hoton. Babu abin da kuka yi da ake ajiyewa ko aikawa.",
+      "hints": "Nuna layin alama",
+      "pictureLine": "Wannan {picture} ne.",
+      "pictures": {
+        "house": "gida",
+        "boat": "jirgin ruwa",
+        "tree": "bishiya",
+        "fish": "kifi",
+        "cat": "kyanwa",
+        "rocket": "roka"
+      },
+      "outlineLabel": "Ƙirar {picture}. Danna wuri don sanya guntun da aka zaɓa a ciki.",
+      "trayHeading": "Guntuna",
+      "pieces": {
+        "large-triangle": "Babban triyangul",
+        "small-triangle": "Ƙaramin triyangul",
+        "square": "Murabba'i",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Murabba'i mai tsawo"
+      },
+      "shapes": {
+        "large-triangle": "babban triyangul",
+        "small-triangle": "ƙaramin triyangul",
+        "square": "murabba'i",
+        "parallelogram": "parallelogram",
+        "rectangle": "murabba'i mai tsawo"
+      },
+      "chosenLabel": "An zaɓa",
+      "spaceEmpty": "Wuri {n}, {shape}, babu komai.",
+      "spaceFilled": "Wuri {n}, {shape}, yana da guntunsa. Danna don ɗauke guntun.",
+      "chosen": "An zaɓi {piece}. Yanzu danna wuri a hoton.",
+      "unchosen": "Ba a ƙara zaɓar guntun ba.",
+      "placed": "Guntun yana wuri na {n}.",
+      "complete": "An kammala {picture}.",
+      "different": "Wannan guntun siffarsa ba ɗaya take da wannan wurin ba. Gwada wani wurin.",
+      "needPiece": "Da farko, zaɓi guntu daga tire.",
+      "filled": "Wannan wurin yana da guntunsa tuni. Danna shi don ɗauko guntun baya.",
+      "tookBack": "Guntun ya koma cikin tire.",
+      "cleared": "Guntuwan sun koma cikin tire. Ku mayar da shi idan kun canja ra'ayi.",
+      "restored": "Guntuwan sun koma cikin hoton.",
+      "next": "Wannan {picture} ne.",
+      "putBack": "Mayar da shi",
+      "another": "Wata siffa",
+      "print": "Buga wannan siffar",
+      "sheetTitle": "Siffofi masu natsuwa",
+      "sheetHow": "Ku yi wa guntuwan launi, ko ku yanke su don su dace da layin siffar. Babba zai iya yankewar.",
+      "sheetPieces": "Guntuwan, girmansu ɗaya da layin siffar"
+    },
+    "picnicPlanner": {
+      "guidance": "Ku danna hoto don sanya shi a cikin kwandon fiki, kuma ku danna shi a cikin kwandon don cire shi. Kwandon yana ɗaukar abubuwa shida.",
+      "guidancePlay": "Ku danna hotuna biyu masu kama da juna. Hotunan suna nan a bayyane, kuma babu lokacin da ake ƙidaya.",
+      "basketHeading": "Kwandonmu",
+      "basketLabel": "Kwandon fiki",
+      "takeOut": "Cire {picture} daga kwandon",
+      "inBasket": "A cikin kwandon",
+      "foodHeading": "Abinci",
+      "outingsHeading": "Abubuwan yi",
+      "added": "{picture} yana cikin kwandon.",
+      "removed": "{picture} ya fita daga kwandon.",
+      "already": "{picture} yana cikin kwandon tuni. Ku danna shi a can don cire shi.",
+      "full": "Kwandon ya cika. Ku cire wani abu don samun wuri.",
+      "summary": "Fikinmu: {list}.",
+      "summaryNone": "Babu abin da ke cikin kwandon tukuna.",
+      "and": "da",
+      "play": "Bari mu yi wasa da fikinmu",
+      "needTwo": "Da farko, zaɓi abubuwa biyu aƙalla.",
+      "playAgain": "Sake yin wasa",
+      "back": "Koma ga fiki",
+      "print": "Buga jerin fikinmu",
+      "cleared": "Kwandon babu komai a ciki.",
+      "notice": "Wannan tsari ne da za a tattauna. Babu lokaci, ba a bayar da maki ba, kuma ba a adana komai ba.",
+      "sheetTitle": "Jerin fikinmu",
+      "sheetHow": "Ku yi alamar ɗigo a kowane abu yayin da kuke shiryawa. Ku yi amfani da layukan da babu komai don kowane abu da kuke so ku kawo.",
+      "sheetToPack": "Abin shiryawa"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Zaɓi hotuna biyu zuwa goma sha biyu na naku don fara littafin.",
+      "guidance": "Ku juya shafuka tare, da maɓallan ko maɓallan kibiya na Hagu da Dama. Ku ƙara 'yan kalmomi ƙarƙashin hoto idan kuna so. Babu abin da kuka yi da ake adanawa ko aikawa.",
+      "lookGuidance": "Ku duba kowane shafi tare. Kuna iya magana ko kawai ku duba.",
+      "intro": "Zaɓi hotuna biyu zuwa goma sha biyu daga wannan na'ura. Kowane hoto zai zama shafi a littafin da za ku iya juyawa tare.",
+      "consent": "Ku yi amfani da hotunan iyalinku. Ku tambaya kafin amfani da hoton wanda ba zai iya cewa eh ba.",
+      "privacy": "Hotunanku suna zama a wannan na'ura. Ba a loda su ko adana su ba.",
+      "choose": "Zaɓi hotuna",
+      "chooseDifferent": "Zaɓi wasu hotuna",
+      "backToBook": "Koma ga littafin",
+      "backToChoose": "Koma ga zaɓar hotuna",
+      "needTwo": "Don Allah ku zaɓi hotuna biyu aƙalla.",
+      "usingFirst": "Ana amfani da hotuna {max} na farko.",
+      "cleared": "An share littafin. Zaɓi hotuna don sake farawa.",
+      "moved": "An koma shafi na {n}.",
+      "pageOf": "Shafi na {n} daga cikin {total}",
+      "lookTogether": "Ku duba tare",
+      "leaveLook": "Koma ga littafin",
+      "print": "Buga littafin hotuna",
+      "clear": "Share littafin",
+      "bookLabel": "Littafin hotunan iyali",
+      "pagesLabel": "Juya shafuka",
+      "previous": "Shafin da ya gabata",
+      "next": "Shafi na gaba",
+      "moveEarlier": "Matsa baya",
+      "moveLater": "Matsa gaba",
+      "captionLabel": "'Yan kalmomi don wannan shafi, idan kuna so",
+      "captionHelp": "Har zuwa haruffa 80. Ana riƙe rubutun a wannan shafi kawai, kuma su ɓace idan kun rufe shi.",
+      "sheetTitle": "Littafin hotunanmu",
+      "sheetHow": "Hoto ɗaya a kowane shafi, tare da kalmominsa a ƙasa. Ku juya shafukan bi-da-bi kuma ku yi magana game da kowane ɗaya.",
+      "sheetEmpty": "Ku zaɓi hotunanku a shafin wasan don buga littafinku, ko ku buga wannan shafi babu komai ku manne hoto da aka buga.",
+      "sheetFrame": "Manne hoton da aka buga a nan",
+      "sheetWords": "'Yan kalmomi don wannan shafi",
+      "skipped": {
+        "one": "{n} fayil ba hoto ba ne da za mu iya amfani da shi.",
+        "other": "{n} fayiloli ba hotuna ba ne da za mu iya amfani da su."
+      }
+    },
+    "quietScene": {
+      "guidance": "Ku duba hoto ɗaya a lokaci guda. Ku danna Gaba ko Baya idan kun shirya. Babu abin da ke motsi da kansa.",
+      "next": "Hoto na gaba",
+      "previous": "Hoton da ya gabata",
+      "bigPicture": "Babban hoto",
+      "showEverything": "Nuna duka",
+      "first": "Wannan shi ne hoto na farko.",
+      "last": "Wannan shi ne hoto na ƙarshe.",
+      "lines": {
+        "sunrise": "Rana tana fitowa bisa ƙasa.",
+        "window-with-birds": "Tsuntsaye a wajen taga.",
+        "vase-of-flowers": "Tulun furanni a kan teburi.",
+        "teacup": "Kofin shayi kusa da taga.",
+        "tree": "Bishiya tsaye a cikin lambu.",
+        "sailboat": "Jirgin ruwa mai shara a bisa ruwa.",
+        "lighthouse": "Fitila a bakin teku.",
+        "rainbow": "Bakan gizo bayan ruwan sama.",
+        "moon": "Wata a sararin dare.",
+        "daisies": "Wani fili na furannin daisy a cikin ciyawa.",
+        "rowing-boat": "Kwale-kwale a kan ruwa mai natsuwa.",
+        "potted-plant": "Koren tsire a cikin tukunya."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Ku yi juyi-juyi. Ku danna yankakken hoto, sannan ku danna wurin da babu komai don sanya shi a can. Babu abin da kuka yi da ake adanawa ko aikawa.",
+      "people": [
+        "Mutum na farko",
+        "Mutum na biyu"
+      ],
+      "marks": [
+        "da'ira",
+        "murabba'i"
+      ],
+      "turn": "Lokacinku ya yi, {person|lower}.",
+      "marked": "An yi wa guntayenku alama da {mark}.",
+      "boardLabel": "Allon da aka raba",
+      "placeEmpty": "Wuri {n}, babu komai",
+      "placeFilled": "Wuri {n}, {picture|lower}, {person|lower} ne ya sanya shi",
+      "trayHeading": "Yankakkun hotuna",
+      "chosenLabel": "An zaɓa",
+      "chosen": "An zaɓi {picture}. Yanzu ku danna wurin da babu komai.",
+      "unchosen": "Ba a ƙara zaɓar yankakken hoton ba.",
+      "needCutout": "Da farko, zaɓi yankakken hoto, sannan ku danna wurin da babu komai.",
+      "filled": "Wuri {n} yana da hoto tuni. Zaɓi wurin da babu komai.",
+      "placed": "{picture} yana wuri {n}. Lokacin {next|lower} ya yi.",
+      "full": "Kowane wuri yana da hoto. Ku ɗauki ɗaya baya don canza shi, ko ku sake farawa.",
+      "pass": "Wuce",
+      "passed": "Wucewa ba laifi ba ne. Lokacinku ya yi, {person|lower}.",
+      "takeBack": "Ɗauki ƙarshen guntu baya",
+      "takeBackPass": "Ɗauki wucewar baya",
+      "tookBack": "An ɗauki guntun baya. Lokacinku ya yi, {person|lower}.",
+      "tookBackPass": "An ɗauki wucewar baya. Lokacinku ya yi, {person|lower}.",
+      "restarted": "Allon babu komai. Lokacinku ya yi, {person|lower}.",
+      "putBack": "Mayar da shi",
+      "putBackDone": "Guntuwan sun koma kan allon.",
+      "another": "Wani saitin hotuna",
+      "anotherSet": "Sabon saitin yankakkun hotuna yana cikin tire. Guntuwan da ke kan allon suna nan inda suke.",
+      "print": "Buga allon",
+      "sheetTitle": "Allon haɗa hotuna",
+      "sheetHow": "Ku yanke hotunan ku yi juyi-juyi wajen sanya su a kan allon. Babba zai iya yankewar.",
+      "sheetTray": "Hotunan da za a yanke"
+    },
+    "gardenPlanner": {
+      "guidance": "Ku danna hoto, sannan ku danna wani gado don sanya shi a can. Ku danna gadon da yake da hoto, ba tare da an zaɓi komai ba, don share shi.",
+      "bedsLabel": "Gadajen lambu",
+      "bedEmpty": "Gado {n}, babu komai",
+      "bedFilled": "Gado {n}, {picture|lower}",
+      "plantsHeading": "Tsirrai",
+      "extrasHeading": "Ƙarin abubuwan lambu",
+      "chosenLabel": "An zaɓa",
+      "chosen": "An zaɓi {picture}. Yanzu ku danna gado.",
+      "unchosen": "Ba a zaɓi hoto ba.",
+      "needPicture": "Zaɓi hoto da farko, sannan ka taɓa wani gado.",
+      "planted": "{picture} yana cikin gado {n}.",
+      "replaced": "{picture} ya maye gurbin hoton da ke gado {n}.",
+      "cleared": "Gado {n} babu kowa a ciki. Ka mayar da shi idan kana son hoton kuma.",
+      "restarted": "Kowane gado babu kowa a ciki.",
+      "putBack": "Mayar da shi",
+      "putBackDone": "An mayar da hotuna a gadajensu.",
+      "summaryHeading": "Lambun na",
+      "summary": "Tsarinka ya ƙunshi {list}.",
+      "summaryNone": "Babu hoto a kowane gado tukuna.",
+      "and": "da",
+      "print": "Buga tsarin",
+      "sheetTitle": "Tsarin lambunmu",
+      "sheetHow": "Gadajen suna nuna hotunan da aka zaɓa a allo. Zana a gadajen da babu kowa idan kana so.",
+      "sheetNotes": "Bayanan kula",
+      "notice": "Wannan tsarin hotuna ne don a tattauna a kai, ba shawarar noma ba."
+    },
+    "coloringWall": {
+      "guidance": "Zaɓi hoto da adadin shafuka. Buga bangon, kuma kowane mutum ya yi launi a shafi ɗaya ko fiye. Ba a yin lokaci, ba a bayar da maki, ba kuma a adana komai.",
+      "pictureLegend": "Hoto",
+      "sizeLegend": "Adadin shafuka",
+      "sizes": {
+        "2x2": "Shafuka 4 (2 da 2)",
+        "3x2": "Shafuka 6 (3 da 2)",
+        "3x3": "Shafuka 9 (3 da 3)"
+      },
+      "previewLabel": "{picture|lower} da aka raba zuwa shafuka {n}, {across} a fadin bango da {down} a tsaye. Kowane shafi yana da lamba a kusurwarsa.",
+      "previewCaption": "Hoton tare da layukan shafuka da lambobi da aka zana a kansa.",
+      "labelsNote": "Harrufa suna tafiya a tsaye a bangon, lambobi kuma suna tafiya a kwance, don haka A1 ita ce shafin da ke saman hagu.",
+      "wallHeading": "Yadda ake haɗa bangon",
+      "steps": [
+        "Buga dukkan shafuka. Shafin farko shi ne waɗannan matakai da taswirar bangon.",
+        "Kowane mutum ya ɗauki shafi ɗaya ko fiye ya yi musu launi.",
+        "Launuka da salo ba sai sun yi daidai ba. Kowane shafi wani ɓangare ne na hoto ɗaya.",
+        "Shimfiɗa shafukan bisa ga lambobinsu, sa'annan ka haɗa su da tef a bayansu.",
+        "Ka ɗora bangon inda kowa zai iya gani."
+      ],
+      "mapLabel": "Taswirar bangon: layuka {down} na shafuka {across}, an yi musu lamba daga A1 zuwa {last}.",
+      "edgeNote": "Layin dige-dige yana nuna gefen kowane shafi. Shimfiɗa shafukan gefe da gefe a bisansa, ko kuma ka ɗan haɗa su.",
+      "pictureLine": "Hoto: {picture}. Wannan bangon shafuka {n} ne: {across} a fadin bango da {down} a tsaye.",
+      "print": "Buga bangon"
+    },
+    "findTogether": {
+      "guidance": "A yi juyi-juyi. A lokacin juyinka, juya katunan biyu don neman nau'i ɗaya. A nemo nau'ikan tare.",
+      "sizeLegend": "Adadin katuna",
+      "size": "katuna {n}",
+      "viewLegend": "Yadda ake wasa",
+      "viewShowing": "A yi wasa da hotuna a bayyane",
+      "viewHidden": "Katuna suna fuskantar ƙasa",
+      "people": [
+        "Mutum na farko",
+        "Mutum na biyu"
+      ],
+      "turn": "Juyi: {person}",
+      "turnDone": "An samo dukkan nau'ikan.",
+      "tally": "Nau'ikan da aka samo tare: {n}",
+      "cardNamed": "{name}, kati {n}",
+      "cardFaceDown": "Kati {n}, yana fuskantar ƙasa",
+      "first": "{name}. Yanzu juya kati na biyu.",
+      "found": "{name}: nau'i ɗaya, an same shi tare. Yanzu juyin {next|lower} ne.",
+      "allTogether": "Kun sami dukkan nau'ikan tare.",
+      "different": "{a} da {b} ba iri ɗaya ba ne. Ɗauki lokacinka, sa'annan ka danna Mayar da su.",
+      "waiting": "Danna Mayar da su idan ka shirya. Sa'annan juyi zai wuce.",
+      "turnedBack": "An mayar da su. Yanzu juyin {person|lower} ne.",
+      "passed": "Wucewa ba laifi ba ne. Yanzu juyin {person|lower} ne.",
+      "turnBack": "Mayar da su",
+      "pass": "Wuce",
+      "playAgain": "Sake wasa"
+    },
+    "drawingDuet": {
+      "guidance": "A yi juyi, kowa ya zana layi ɗaya, sa'annan a mika alkalami. Kowa yana iya wucewa. Ba a aika komai ko'ina. Hoto yana barin wannan shafi ne kawai idan ka adana shi.",
+      "people": [
+        "Mutum na farko",
+        "Mutum na biyu"
+      ],
+      "colorLegend": "Launin {person}",
+      "colors": [
+        "Rawaya",
+        "Lemu",
+        "Kore",
+        "Shunayya"
+      ],
+      "turn": "Juyin {person}",
+      "penColor": "Launin alkalami: {color}.",
+      "canvasLabel": "Zanen tare, layuka {n} zuwa yanzu",
+      "canvasLabelOne": "Zanen tare, layi {n} zuwa yanzu",
+      "keys": "Maɓallan kibiya suna motsa digon alkalami a kan zane. Sarari yana ɗaga alkalami ko ya saukar da shi.",
+      "penDown": "Saukar da alkalami",
+      "penUp": "Ɗaga alkalami",
+      "pass": "Mika alkalami",
+      "passed": "Wucewa ba laifi ba ne. Juyinka ne yanzu, {person|lower}.",
+      "takeBack": "Cire layina na ƙarshe",
+      "tookBack": "An cire layin ƙarshe na {person|lower}.",
+      "noLine": "Babu layin {person|lower} da za a cire.",
+      "restarted": "Takardar ta share. Mutum na farko ne yake da juyi. Mayar da ita idan ba ka nufa ba.",
+      "putBack": "Mayar da shi",
+      "restored": "An mayar da layukan yadda suke.",
+      "save": "Adana hoto",
+      "saved": "Hotonka ya shirya. Yi amfani da hanyar sauke fayil don ajiye shi a wannan na'ura.",
+      "download": "Sauke drawing-duet.png",
+      "print": "Buga sigar takarda",
+      "sheetTitle": "Zanen tare",
+      "paperRules": "Mutum biyu, takarda ɗaya, alkalami biyu. A yi juyi: layi ko siffa ɗaya kowa, sa'annan a mika alkalami. Kowa yana iya wucewa. Babu hoto daidai."
+    },
+    "colorWash": {
+      "guidance": "Shafa launi a hankali a fadin shafin, bugu ɗaya a lokaci guda. Ɗaga buroshi don tsayawa, kuma tsaya duk lokacin da kake so. Ba a adana komai ko aika komai.",
+      "colorLegend": "Launin shafawa",
+      "sizeLegend": "Girman buroshi",
+      "colors": [
+        "Rawaya",
+        "Lemu",
+        "Kore",
+        "Shunayya"
+      ],
+      "sizes": {
+        "wide": "Fadi",
+        "veryWide": "Fadi sosai"
+      },
+      "color": "Launin shafawa: {color}.",
+      "brushDown": "Saukar da buroshi",
+      "brushUp": "Ɗaga buroshi",
+      "keys": "Maɓallan kibiya suna motsa zoben buroshi a kan shafin. Sarari yana ɗaga buroshi ko ya saukar da shi.",
+      "canvasLabel": "Shafin shafawar launuka masu laushi",
+      "fresh": "Sabon shafi",
+      "freshMessage": "Sabon shafi.",
+      "putBack": "Mayar da shi",
+      "restored": "An mayar da shafin."
+    },
     "sortTogether": {
       "guidance": "Ku taɓa hoto, sannan ku taɓa kwandon da yake ciki.",
       "restart": "Sababbin hotuna",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} na iya shiga “{basket}”. Ku taɓa wannan kwando don sa shi a ciki.",
       "placed": "{name|lower} yana cikin “{basket}”.",
       "sorted": "An rarraba komai. Ku duba cikin kwandunan tare, ko ku gwada wani jigo.",
+      "largerTargets": "Manyan manufofi",
+      "largerOn": "Manyan manufofi suna kunne. Babu abin da ya motsa.",
+      "largerOff": "Manyan manufofi suna kashe. Babu abin da ya motsa.",
+      "largerOnNewRound": "Manyan manufofi suna kunne, tare da kwanduna biyu. Ga sababbin hotuna da za a raba.",
       "basket": {
         "one": "Kwandon {basket}, hoto {count} a ciki",
         "other": "Kwandon {basket}, hotuna {count} a ciki"
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Cikakken hoton: {name}",
       "guideText": "Haka hoton yake idan ya cika.",
+      "ownChoose": "Yi amfani da hotonka",
+      "ownChange": "Zaɓi wani hoto",
+      "ownBack": "Koma ga hotunanmu",
+      "ownPrivacy": "Hotonka yana zama a wannan na'ura. Ba a loda shi ko a adana shi ba.",
+      "ownConsent": "Yi amfani da hotunanka. Ka tambayi kafin amfani da hoton wanda ba zai iya cewa eh ba.",
+      "ownWorking": "Ana shirya hotonka.",
+      "ownNotUsable": "Ba a iya amfani da wannan fayil ɗin ba. Zaɓi fayil ɗin hoto, kamar JPEG ko PNG.",
+      "ownAlt": "Hotonka",
+      "ownPiece": "Yanki {n}, {place}",
+      "ownWhole": "Hotonka ya sake cika. Sake haɗa shi duk lokacin da kake so.",
+      "ownSheetTitle": "Hotonka a guntu-guntu",
+      "ownSheetHow": "A yanke bisa layukan. A gauraya guntuwar, sa'annan a musanya guntu biyu a lokaci guda har hoton ya cika.",
       "piece": "Guntu a {place}",
       "pieceInPlace": ", a wurin da ya dace",
       "piecePickedUp": ", an ɗauke shi",
@@ -190,6 +854,14 @@
       "guidance": "Ku karanta katin da murya. Babu amsa madaidaiciya.",
       "position": "Kati na {n} cikin {total}",
       "themeLegend": "Jigo",
+      "showPrompt": "Nuna tambayar tattaunawa",
+      "bigPicture": "Babban hoto, don rukuni",
+      "passNote": "Kowa yana iya wucewa.",
+      "groupTitle": "Mika kati a cikin rukuni",
+      "groupSit": "A zauna a da'ira inda kowa zai iya ganin hoton. Mutumin da yake riƙe da katin, ko na'urar mai babban hoto, shi ne zai karanta tambayar da babbar murya da farko.",
+      "groupPass": "Sa'annan a mika katin ga mutum na gaba. Kowane mutum yana faɗin kalma ko jumla game da hoton, sa'annan ya mika shi.",
+      "groupNoSpeech": "Mika katin koyaushe abin yarda ne. Mutum yana iya wucewa ba tare da ya ce komai ba, kuma babu wanda zai tilasta masa bayani.",
+      "groupEnd": "The round ends when the card has gone round the circle, or the group has had enough. Nobody wins. Stop whenever the group wants to.",
       "next": "Kati na gaba",
       "previous": "Kati na baya",
       "print": "Buga dukan katuna",
@@ -252,6 +924,20 @@
       "started": "An fara. Ku jawo numfashi yayin da da’irar take girma.",
       "stopped": "An tsaya.",
       "finished": "Wannan numfashi shida ne a hankali. Ku sake farawa a duk lokacin da kuke so."
+    },
+    "storyChain": {
+      "guidance": "Ku yi juyi: jumla ɗaya kowa, ku ƙara hoto na gaba.",
+      "passNote": "Ku faɗi jumlarku da ƙarfi. Ba a rubuta ko ajiye komai ba. Kowa na iya wucewa.",
+      "chainLabel": "Sarkar zuwa yanzu",
+      "item": "Hoto {n}: {name}",
+      "add": "Ƙara hoto",
+      "fullAdd": "Sarkar ta cika. Fara sabuwar sarka",
+      "newChain": "Fara sabuwar sarka",
+      "takeOff": "Cire na ƙarshe",
+      "added": "{name|lower} yanzu yana a ƙarshen sarkar.",
+      "removed": "{name|lower} ya fita daga sarkar.",
+      "fresh": "Sabuwar sarka, tana farawa da {name|lower}.",
+      "full": "Sarkar tana da dukan hotuna takwas. Ku faɗi labarin gaba ɗaya, ko ku fara sabuwar sarka."
     }
   },
   "pictures": {
@@ -287,173 +973,96 @@
     "balloon": "Balan-balan",
     "lighthouse": "Hasumiyar haske",
     "sun": "Rana",
-    "moon": "Wata da taurari"
+    "moon": "Wata da taurari",
+    "teapot": "Tukunyar shayi",
+    "apple-pie": "Pai na apple",
+    "honey-jar": "Kwalbar zuma",
+    "boiled-egg": "Kwai a cikin kofin kwai",
+    "toaster": "Injin toya burodi",
+    "cheese": "Yanki na cuku",
+    "milk-jug": "Jug na madara",
+    "cupcake": "Keken kofi",
+    "orange": "Lemu",
+    "grapes": "Gungun inabi",
+    "watermelon": "Yanki na kankana",
+    "pineapple": "Abarba",
+    "peach": "Peach",
+    "rose": "Fure",
+    "daisies": "Furannin daisy",
+    "mushroom": "Naman kaza",
+    "wheelbarrow": "Keken hannu",
+    "birdhouse": "Gidan tsuntsaye",
+    "cactus": "Cactus a cikin tukunya",
+    "acorn": "Goro na itacen oak",
+    "autumn-leaf": "Ganyen kaka",
+    "rabbit": "Zomo",
+    "duck": "Agwagwa",
+    "hen": "Kaza",
+    "sheep": "Rago",
+    "owl": "Mujiya",
+    "ladybird": "Ladybird",
+    "snail": "Katantanwa",
+    "frog": "Kwado",
+    "bee": "Zuma",
+    "clock": "Agogon bango",
+    "vase-of-flowers": "Vaza mai furanni",
+    "radio": "Tsohon rediyo",
+    "books": "Tarin littattafai",
+    "candle": "Kyandir",
+    "glasses": "Gilashin karatu",
+    "telephone": "Waya",
+    "ball-of-wool": "Ƙwallon ulu",
+    "straw-hat": "Hular rana",
+    "train": "Jirgin ƙasa mai tururi",
+    "bus": "Bas",
+    "airplane": "Jirgin sama",
+    "suitcase": "Akwati",
+    "tractor": "Taraktan noma",
+    "rowing-boat": "Jirgin ruwa mai ɗan kwale-kwale",
+    "rainbow": "Bakan gizo",
+    "rain-cloud": "Girgije mai ruwan sama",
+    "snowflake": "Dusar ƙanƙara",
+    "kite": "Kite",
+    "sunrise": "Fitowar rana bisa tuddai",
+    "decorated-keepsake-box": "Akwatin ajiyar abubuwan tunawa mai ado",
+    "painted-plant-pot": "Tukunyar shuka mai zane da ganyen magani",
+    "repeating-pattern-sheet": "Takardar zane mai maimaituwa",
+    "music-drawn-lines": "Layi da aka zana bisa waƙa",
+    "paper-boat-afloat": "Jirgin takarda yana iyo a ruwa",
+    "folded-towel-stack": "Tarin tawul ɗin da aka naɗe",
+    "hand-massage-with-lotion": "Hannu a kan tawul, tare da mai shafawa",
+    "open-photo-album": "Buɗaɗɗen kundin hotuna",
+    "button-flower-card": "Furen maɓalli a kan kati",
+    "blue-torn-paper-collage": "Hoton yankan takarda shuɗi",
+    "family-tree-of-hands": "Bishiyar iyali da aka zana da hannu",
+    "open-greeting-card": "Buɗaɗɗen katin gaisuwa mai zuciya",
+    "lavender-sachet": "Jakar lavender da aka ɗaure da ribbon",
+    "memory-collage-of-photos": "Hoton haɗin hotunan iyali",
+    "paper-chain-garland": "Sarkar takarda",
+    "open-songbook-with-notes": "Buɗaɗɗen littafin waƙa mai bayanan kiɗa",
+    "photo-postcard-with-stamp": "Katin hoto mai tambari",
+    "pine-cone-bird-feeder": "Mazaunin tsuntsaye daga mazugi na pine mai rataye a reshe",
+    "playlist-phone-and-card": "Jerin waƙoƙi a waya da katin waƙa",
+    "sealed-rice-shaker": "Kwalbar shinkafa mai rufi",
+    "texture-board-with-scraps": "Allo mai ɓangarorin yadi da takarda",
+    "painted-garden-stone": "Dutse na lambu mai zane",
+    "shared-painted-canvas": "Zane a kan kanfas da aka raba",
+    "watercolor-washes-sheet": "Zanen ruwa a kan takarda",
+    "seedling-in-pot": "Ƙananan shuke-shuke a cikin tukunya",
+    "pressed-leaves-in-book": "Ganyaye da aka matse a cikin littafi",
+    "printed-leaves-sheet": "Takardar bugun ganye",
+    "pinch-pot-clay-bowl": "Tukunyar yumɓu da aka tsunkule",
+    "table-sketch-pencil": "Zanen fensir na kofi",
+    "buttons-in-muffin-tin": "Maɓalli da aka raba a cikin tiren muffin",
+    "family-recipe-book": "Littafin girke-girke na iyali",
+    "drum-with-beat-marks": "Ganga ta tebur da sanduna",
+    "torn-paper-flower": "Hoton furen takarda da aka yage",
+    "window-with-birds": "Taga da tsuntsaye",
+    "woven-paper-mat": "Tabarma ta takarda da aka saka",
+    "yarn-ball-with-thread": "Ƙwallon zare",
+    "letter-and-envelope": "Wasiƙa a cikin ambulan"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Da zafi-zafi ake bugun",
-        "end": "ƙarfe",
-        "others": [
-          "gwal",
-          "itace"
-        ],
-        "prompt": "Wane aiki da hannu kuka sani ko kuka taɓa gani?"
-      },
-      {
-        "start": "Ruwa ba ya tsami",
-        "end": "banza",
-        "others": [
-          "kullum",
-          "da safe"
-        ],
-        "prompt": "Wane abin sha kuke so a lokacin zafi?"
-      },
-      {
-        "start": "Gani ya kori",
-        "end": "ji",
-        "others": [
-          "tafiya",
-          "magana"
-        ],
-        "prompt": "Wane hoto ko wuri kuke so ku riƙa kallo?"
-      },
-      {
-        "start": "Haƙuri maganin",
-        "end": "duniya",
-        "others": [
-          "gajiya",
-          "ɗaci"
-        ],
-        "prompt": "Me ke taimaka muku ku natsu?"
-      },
-      {
-        "start": "Mai haƙuri yana dafa dutse har ya sha",
-        "end": "romonsa",
-        "others": [
-          "ruwansa",
-          "shayinsa"
-        ],
-        "prompt": "Wane abinci aka fi so a gidanku?"
-      },
-      {
-        "start": "Sannu ba ta hana",
-        "end": "zuwa",
-        "others": [
-          "cin abinci",
-          "barci"
-        ],
-        "prompt": "Kuna son yin abubuwa a hankali? Wanne?"
-      },
-      {
-        "start": "Rashin sani ya fi dare",
-        "end": "duhu",
-        "others": [
-          "tsawo",
-          "sanyi"
-        ],
-        "prompt": "Wane abu kuka koya a rayuwa da kuke so ku koya wa wani?"
-      },
-      {
-        "start": "Hannu ɗaya ba ya ɗaukar",
-        "end": "jinka",
-        "others": [
-          "ruwa",
-          "dutse"
-        ],
-        "prompt": "Waɗanne ayyuka ne iyalinku suke yi tare a gida?"
-      },
-      {
-        "start": "Zaman lafiya ya fi zama",
-        "end": "ɗan sarki",
-        "others": [
-          "mai kuɗi",
-          "a gari"
-        ],
-        "prompt": "Me ke sa ku jin daɗin zama a wuri?"
-      },
-      {
-        "start": "Magana",
-        "end": "jari ce",
-        "others": [
-          "kyauta ce",
-          "waƙa ce"
-        ],
-        "prompt": "Wa kuke so ku yi hira da shi ko ita?"
-      },
-      {
-        "start": "Wanda bai ji bari ba, zai ji",
-        "end": "hoho",
-        "others": [
-          "kira",
-          "labari"
-        ],
-        "prompt": "Wace shawara mai kyau aka taɓa ba ku?"
-      },
-      {
-        "start": "Ilimi gishirin zaman",
-        "end": "duniya",
-        "others": [
-          "gari",
-          "gida"
-        ],
-        "prompt": "Me kuke so ku koya, ko ku koya wa wani?"
-      },
-      {
-        "start": "Aikin banza ya fi zaman",
-        "end": "banza",
-        "others": [
-          "gida",
-          "hira"
-        ],
-        "prompt": "Wane aiki kuka fi so a rayuwarku?"
-      },
-      {
-        "start": "Gaskiya ta fi",
-        "end": "kwabo",
-        "others": [
-          "gwal",
-          "kaya"
-        ],
-        "prompt": "Wanene mutum mai gaskiya da kuka sani?"
-      },
-      {
-        "start": "Tsintsiya ɗaya ba ta",
-        "end": "shara",
-        "others": [
-          "tsaya",
-          "bushe"
-        ],
-        "prompt": "Wa kuke so ku yi aiki tare da shi?"
-      },
-      {
-        "start": "Ba a san maci tuwo ba sai miya ta",
-        "end": "ƙare",
-        "others": [
-          "yi daɗi",
-          "yi zafi"
-        ],
-        "prompt": "Wane irin tuwo ko miya kuka fi so?"
-      },
-      {
-        "start": "Ƙarya fure take, ba ta",
-        "end": "’ya’ya",
-        "others": [
-          "ruwa",
-          "ganye"
-        ],
-        "prompt": "Wace fure ko itace kuke so?"
-      },
-      {
-        "start": "Allah ɗaya gari",
-        "end": "bamban-bamban",
-        "others": [
-          "babba-babba",
-          "kusa-kusa"
-        ],
-        "prompt": "Wane gari ko wuri ne kuke so ku ziyarta, ko kuka so ziyarta?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABDEFGHIKLMNORSTUWYZ",
@@ -879,6 +1488,17 @@
             "A waje, a kan hanya"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "'Ya'yan itace",
+        "animals": "Dabbobi",
+        "travel": "Hanyoyin tafiya",
+        "flowers": "Furanni",
+        "hot-drinks": "Abubuwan shan zafi",
+        "weather": "Nau'o'in yanayi",
+        "baked": "Abubuwan da ake gasawa a murhu"
       }
     }
   }

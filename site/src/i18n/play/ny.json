@@ -5,6 +5,13 @@
       "stopReading": "Lekani kuwerenga",
       "region": "Masewera",
       "restart": "Yambaninso",
+      "rest": "Pumulani kaye",
+      "restingTitle": "Mukupumula",
+      "restingText": "Pumulani nthawi yonse yomwe mukufuna. Malo anu adzasungidwa patsamba lino.",
+      "resume": "Pitirizani",
+      "placeText": "Nthawi yapitayi munasiya pakati. Pitirizani kuchokera pamenepo, kapena yambani mwatsopano.",
+      "placeResume": "Pitirizani",
+      "placeFresh": "Yambani mwatsopano",
       "soundOn": "Phokoso lofewa latsegulidwa",
       "soundOff": "Phokoso lofewa lazimitsidwa",
       "done": "Zatha pano",
@@ -43,7 +50,19 @@
       "viewShowing": "Zithunzi zikuonekera",
       "viewHidden": "Zithunzi zobisika",
       "playAgain": "Sewerani kachiwiri ndi zithunzi zatsopano",
-      "talk": "Kambiranani za zithunzi pamodzi"
+      "talk": "Kambiranani za zithunzi pamodzi",
+      "modeLegend": "Zithunzi ziti",
+      "modePlay": "Zithunzi zilizonse",
+      "modeDaily": "Khadi la lero",
+      "dayLegend": "Tsiku liti",
+      "dayHelp": "Aliyense amalandira zithunzi zofanana pa tsiku lomwelo. Masiku akale nawonso ali pano, ndipo kudumpha tsiku sikuwononga kanthu.",
+      "guidanceDaily": "Khadi la lero lili ndi maawiri anayi. Dinani chithunzi chimodzi, kenako dinani chithunzi chofanana nacho.",
+      "restartDaily": "Yambaninso khadi ili",
+      "copy": "Koperani mzere uwu",
+      "copied": "Yakopedwa. Palibe chomwe chitumizidwa kulikonse.",
+      "calendarTitle": "Makhadi a tsiku ndi tsiku, {month}",
+      "calendarHelp": "Tsiku lililonse lili ndi zithunzi zofanana zinayi kwa aliyense. Palibe mfundo zowerengedwa, ndipo palibe tsiku lolembedwa ngati lophonya.",
+      "calendarVersion": "Mtundu {date}. Zithunzi zili zofanana kwa aliyense pa tsiku lomwelo."
     },
     "choose": {
       "countLegend": "Zithunzi zingati",
@@ -62,6 +81,635 @@
       "shadowAlt": "Mthunzi woti ufanane nawo",
       "foundAlt": "Mthunzi wa {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Malangizo",
+      "hintOn": "Malangizo pambuyo pokhala chete",
+      "hintOff": "Palibe malangizo",
+      "guidance": "Pezani zithunzi {n} zomwe zimagwirizana, ndipo dinani chilichonse.",
+      "countLegend": "Zithunzi zingati",
+      "count": "Zithunzi {n}",
+      "found": "Inde, {name|lower} ili mgululi.",
+      "elsewhere": "{name|lower} imagwirizana ndi chinthu china. Tengani nthawi yanu.",
+      "hint": "Malangizo: yang'anani {theme|lower}.",
+      "together": "Izi zimagwirizana: {theme}.",
+      "shown": "Nayi gulu: {theme}.",
+      "groupName": "Pamodzi: {theme}",
+      "show": "Onetsani gululo",
+      "next": "Gulu lina"
+    },
+    "oddOneOut": {
+      "hintLegend": "Malangizo",
+      "hintOn": "Malangizo pambuyo pokhala chete",
+      "hintOff": "Palibe malangizo",
+      "guidance": "Pezani chithunzi chosagwirizana ndi ena, ndipo chidinani.",
+      "countLegend": "Zithunzi zingati",
+      "count": "Zithunzi {n}",
+      "belongs": "{name|lower} imagwirizana ndi ena. Tengani nthawi yanu.",
+      "found": "Inde, {name|lower} ndiyo yosiyana. Ena onse ndi {theme|lower}.",
+      "shown": "Nayi: {name|lower}. Ena onse ndi {theme|lower}.",
+      "hint": "Malangizo: {n} mwa izi ndi {theme|lower}.",
+      "others": "Ena: {theme}",
+      "show": "Ndionetseni",
+      "next": "Gulu lina"
+    },
+    "seatedToss": {
+      "guidance": "Khalani pansi patebulo ndipo muzitsatizana kuponya thumba lofewa la nyemba mu chandamale chachikulu. Sungani zowerengera pamapepala, pamodzi.",
+      "stepsHeading": "Momwe zimayendera",
+      "steps": [
+        "Sindikizani chandamale ndi pepala lowerengera, ndipo muliike pansi patebulo pakati panu.",
+        "Khalani momasuka, mmodzi mbali iliyonse. Tsatanani ponyani modekha kamodzi kalikonse, kapena pitirizani ngati simukufuna.",
+        "Ponyo likagwera mkati mwa mphete, munthu amene wataya aikepo tiki m'bokosi limodzi la mzere wake, pamzere wa mphete imeneyo.",
+        "Yang'anani matiki pamodzi mukamaliza, ngati mukufuna. Palibe amene ayenera kuwerengera chilichonse.",
+        "Lekani nthawi iliyonse pamene wina wakonzeka."
+      ],
+      "safetyHeading": "Chitetezo",
+      "safetyLine": "Gwiritsani ntchito thumba lokhala ndi chivundikiro chosokedwa kapena sokosi yopukutidwa lokha, khalani pansi, musaponye kumaso, ndipo khalani ndi wamkulu pafupi. Zinthu zing'onozing'ono zingayambitse kutsamwa.",
+      "flags": [
+        "Osati kwa ochepera 3: zinthu zing'onozing'ono",
+        "Sungani kutali ndi pakamwa"
+      ],
+      "safety": [
+        "Sankhani thumba la nyemba lokhala ndi chivundikiro chosokedwa, kapena pukutani sokosi yoyera. Choyamba liyang'aneni ngati lili ndi mabowo kapena zosoka zotayirira, kuti palibe chodzaza chingatuluke.",
+        "Nyemba, mpunga ndi zina zodzaza zing'onozing'ono zingayambitse kutsamwa. Zisungeni kutali ndi ana aang'ono komanso kwa aliyense amene amaika zinthu m'kamwa.",
+        "Khalani pafupi kuti mutha kufikira, ndipo muziyang'anira mosamala ngati pangakhale chinthu chomwe chingaikidwe m'kamwa.",
+        "Khalani pansi. Ponyani modekha komanso pansi pang'ono kulunjika ku chandamale patebulo, osati kumaso konse."
+      ],
+      "previewLabel": "Pepala losindikizidwa: chandamale cha mphete zitatu zotchedwa Pafupi, Pakati ndi Patali, kuyambira kunja kulowa mkati, ndi pepala lowerengera lokhala ndi mzere wa munthu aliyense ndi mizere ya mabokosi opanda kanthu a mphete iliyonse.",
+      "sheetHow": "Ikani pepalalo pansi pakati panu. Ponyo likagwera mkati mwa mphete, ikani tiki m'bokosi la mzere wanu, pamzere wa mphete imeneyo.",
+      "rings": [
+        "Pafupi",
+        "Pakati",
+        "Patali"
+      ],
+      "people": [
+        "Munthu woyamba",
+        "Munthu wachiwiri"
+      ],
+      "ringHeading": "Mphete",
+      "print": "Sindikizani chandamale ndi pepala lowerengera"
+    },
+    "seasonalPack": {
+      "guidance": "Sankhani mwezi, sindikizani masewero ake atatu a pamapepala, kenako chitani limodzi, awiri kapena onse atatu pamodzi.",
+      "monthLegend": "Sankhani mwezi",
+      "months": [
+        "Januwale",
+        "Febuluwale",
+        "Marichi",
+        "Epulo",
+        "Meyi",
+        "Juni",
+        "Julayi",
+        "Ogasiti",
+        "Seputembala",
+        "Okitobala",
+        "Novembala",
+        "Disembala"
+      ],
+      "monthNote": "Mwezi uliwonse uli ndi zithunzi zake. Tsambali limatsegukira pa mwezi uno, ndipo mukhoza kusankha wina uliwonse.",
+      "restDay": "Lero ndi tsiku lopumula",
+      "restLine": "Palibe masewero lero. Tsiku lopumula ndi tsiku labwino nalonso.",
+      "previewHeading": "Masewero atatu",
+      "puzzles": {
+        "pairs": {
+          "title": "Fananitsani maawiri",
+          "how": "Jambulani mzere kuchokera pa chithunzi chilichonse cha mzere wapamwamba kupita ku chithunzi chomwecho cha mzere wapansi.",
+          "describe": "Mizere iwiri ya zithunzi zinayi zomwezo, mu dongosolo losiyana."
+        },
+        "different": {
+          "title": "Ndi iti yosiyana?",
+          "how": "Zungulirani chithunzi chosiyana ndi zina zitatu.",
+          "describe": "Mzere wa zithunzi zinayi. Zitatu ndi zofanana, ndipo imodzi ndi yosiyana."
+        },
+        "color": {
+          "title": "Ichitseni utoto",
+          "how": "Ichitseni utoto momwe mukufunira, ndi makiresoni kapena mapensulo amitundu.",
+          "describe": "Chithunzi chimodzi chachikulu choti chipakidwe utoto."
+        }
+      },
+      "print": "Sindikizani paketi ya mwezi uno",
+      "sheetHow": "Sindikizani tsamba limodzi. Chitani masewero amodzi, awiri kapena onse atatu, mwadongosolo lililonse.",
+      "printFooter": "Chitani imodzi, ziwiri kapena zitatu zonse. Lekani nthawi iliyonse mukafuna."
+    },
+    "decorateACard": {
+      "guidance": "Sankhani chochitika, kenako mukongoletse khadi pamodzi ndi makiresoni kapena zolembera. Palibe khadi lolondola.",
+      "occasionLegend": "Sankhani chochitika",
+      "occasions": {
+        "birthday": {
+          "label": "Tsiku lobadwa",
+          "words": "Tsiku labwino lobadwa"
+        },
+        "thank-you": {
+          "label": "Zikomo",
+          "words": "Zikomo"
+        },
+        "thinking-of-you": {
+          "label": "Tikukuganizani",
+          "words": "Tikukuganizani"
+        },
+        "new-season": {
+          "label": "Nyengo yatsopano",
+          "words": "Nyengo yatsopano"
+        },
+        "just-because": {
+          "label": "Popanda chifukwa",
+          "words": "Popanda chifukwa"
+        }
+      },
+      "stepsHeading": "Momwe mungakongoletsere pamodzi",
+      "steps": {
+        "fold": "Sindikizani khadi ndipo lipindeni pakati pa mzere wa madontho, kuti kutsogolo kukhale kunja.",
+        "front": "Munthu m'modzi akongoletse kutsogolo, mozungulira mawuwo.",
+        "inside": "Winayo akongoletse kumbuyo, kapena muzisinthana mbali imodzi.",
+        "message": "Lembani uthenga pamodzi. Munthu m'modzi angalembe pamene winayo akunena mawuwo.",
+        "stop": "Lekani nthawi iliyonse mukafuna. Palibe khadi lolondola, ndipo lophweka ndi labwino chimodzimodzi."
+      },
+      "materials": "Gwiritsani ntchito makiresoni, mapensulo amitundu kapena zolembera za nsalu. Palibe chifukwa chodulira, kumatira kapena kulumikiza.",
+      "previewLabel": "Chithunzithunzi cha khadi lopindidwa pakati. Kutsogolo kukuti {words}, ndi chimango chophweka cha masamba ndi nyenyezi. Kumbuyo kuli mizere ya uthenga ndi mzere wa Kuchokera kwa.",
+      "from": "Kuchokera kwa",
+      "sheetHow": "Pindani kapepala pakati pa mzere wa madontho, ndi kutsogolo kukhale kunja. Lembani uthenga kumbuyo.",
+      "rulesHeading": "Kwa anthu awiri",
+      "sheetRules": [
+        "Lowetsani pakati, kapena gawanani ntchito: munthu mmodzi akongoletse kutsogolo, winayo kumbuyo.",
+        "Lembani uthengawo pamodzi, kapena munthu mmodzi alembe zomwe winayo akunena.",
+        "Aliyense akhoza kusiya nthawi iliyonse. Palibe khadi lolondola."
+      ],
+      "print": "Sindikizani khadi"
+    },
+    "storyDice": {
+      "guidance": "Yang'anani zithunzi ndipo nenani nkhani pogwiritsa ntchito zithunzizo, mwadongosolo lililonse. Palibe nkhani yolondola.",
+      "countLegend": "Madayisi angati",
+      "count": "madayisi {n}",
+      "roll": "Ponyaninso",
+      "pass": "Dumphani",
+      "passed": "Kudumpha nkwabwino. Munthu wotsatira akhoza kuyamba, kapena mungaponyenso.",
+      "rolled": "Zithunzi zatsopano: {names}.",
+      "tapped": "{name}. Yambani ndi ichi, kapena china chilichonse."
+    },
+    "wordPicture": {
+      "guidance": "Dinani chithunzi, kenako mawu odziwika nacho. Kapena dinani mawu, kenako chithunzi chake.",
+      "countLegend": "Zithunzi zingati",
+      "count": "zithunzi {n}",
+      "picturesGroup": "Zithunzi",
+      "wordsGroup": "Mawu",
+      "readWord": "Werengani mokweza: {name}",
+      "next": "Zithunzi zatsopano",
+      "putBack": "Ibwezeninso",
+      "pickWord": "Tsopano dinani mawu omwe akugwirizana nawo.",
+      "pickPicture": "Tsopano dinani chithunzi chomwe chikugwirizana nawo.",
+      "fit": "Inde, mawuwo akugwirizana ndi {name|lower}.",
+      "newSet": "Nayi seti yatsopano ya zithunzi.",
+      "restarted": "Tabwerera kuchiyambi. Chithunzi chilichonse ndi mawu aliwonse zamasuka kachiwiri.",
+      "restored": "Zabwezedwa. Maiko ogwirizana akuwonetsedwanso.",
+      "all": "Mawu aliwonse ali ndi chithunzi chake."
+    },
+    "colorMatch": {
+      "guidance": "Yang'anani mtundu ndi dzina lake, kenako dinani zithunzi zonse zamtundu umenewo.",
+      "target": "Mtunduwo ndi {color|lower}. Dinani zithunzi zonse zomwe ndi {color|lower}.",
+      "countLegend": "Zithunzi zingati",
+      "count": "zithunzi {n}",
+      "found": "Inde, {name|lower} ndi {color|lower}.",
+      "named": "{name|lower} ndi {color|lower}.",
+      "all": "Izo ndi zithunzi zonse za {color|lower}.",
+      "shown": "Nazi zithunzi za {color|lower}.",
+      "show": "Onetsani",
+      "next": "Mtundu wina",
+      "names": {
+        "red": "Wofiira",
+        "orange": "Lalanje",
+        "yellow": "Wachikasu",
+        "green": "Wobiriwira",
+        "blue": "Wabuluu"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Dinani theka lakumanzere, kenako dinani theka lakumanja lomwe likugwirizana nalo.",
+      "countLegend": "Zithunzi zingati",
+      "count": "zithunzi {n}",
+      "leftGroup": "Mbali zakumanzere",
+      "rightGroup": "Mbali zakumanja",
+      "left": "Theka lakumanzere la {name|lower}",
+      "right": "Theka lakumanja la {name|lower}",
+      "joined": "Zalumikizidwa",
+      "pickRight": "Tsopano dinani theka lakumanja lomwe likugwirizana nalo.",
+      "pickLeft": "Tsopano dinani theka lakumanzere lomwe likugwirizana nalo.",
+      "fit": "Inde, awiriwa akupanga {name|lower}.",
+      "apart": "Awiriwa sakugwirizana. Yesani wina.",
+      "all": "Chithunzi chilichonse ndi chathunthu.",
+      "shown": "Nazi zithunzi, zitalumikizidwa.",
+      "show": "Ndionetseni",
+      "next": "Seti ina"
+    },
+    "colorByNumber": {
+      "guidance": "Sankhani mtundu pa chizindikiro, kenako dzazani lalikulu ndi mtundu umenewo. Mtundu uliwonse ndi wabwino.",
+      "sizeLegend": "Kukula kwa gridi",
+      "size": "{n} ndi {n}",
+      "keyLegend": "Mitundu",
+      "colors": [
+        "Wachikasu",
+        "Lalanje",
+        "Wobiriwira",
+        "Wofiirira"
+      ],
+      "motifs": {
+        "house": "nyumba",
+        "flower": "duwa",
+        "heart": "mtima",
+        "tree": "mtengo",
+        "boat": "bwato lopalasa",
+        "pot-plant": "chomera mumphika"
+      },
+      "region": "Gridi ya chithunzi, {n} ndi {n}. Imayenda kumbali ngati chophimba chili chopapatiza.",
+      "cell": "Nambala {number}, mzere {row}, kolamu {column}, {color}",
+      "empty": "yopanda kanthu",
+      "chose": "{name} wasankhidwa. Dinani lalikulu kuti ulidzaze.",
+      "painted": "{name} pamzere {row}, kolamu {column}.",
+      "sheet": "Lalikulu lililonse lili ndi mtundu wa nambala yake. Iyi ndi chithunzi pepala: {name}.",
+      "own": "Lalikulu lililonse ladzazidwa. Ichi ndi chithunzi chanu.",
+      "fillAll": "Dzazani ndi manambala",
+      "filledAll": "Lalikulu lopanda kanthu lililonse tsopano lili ndi mtundu wa nambala yake.",
+      "clear": "Chotsani",
+      "cleared": "Gridi ndi yopanda kanthu.",
+      "next": "Chithunzi china",
+      "fresh": "Nayi chithunzi china choti mupake utoto."
+    },
+    "patternMaker": {
+      "guidance": "Dinani lalikulu kuti musinthe mtundu wake. Chitsanzo chanu chikukula pambali pake. Palibe chimene mumapanga chimene chimasungidwa kapena kutumizidwa.",
+      "sizeLegend": "Kukula kwa tayala",
+      "size": "{n} ndi {n}",
+      "keyLegend": "Mitundu, motsatira dongosolo la dinani lililonse",
+      "colors": [
+        "Wachikasu",
+        "Lalanje",
+        "Wobiriwira",
+        "Wofiirira"
+      ],
+      "tileLabel": "Tayala lanu",
+      "region": "Tayala lanu, {n} ndi {n}. Imayenda kumbali ngati chophimba chili chopapatiza.",
+      "patternLabel": "Chitsanzo chanu",
+      "pattern": "Chitsanzo chanu: tayala lanu lobwerezedwa {n} kudutsa ndi {n} pansi.",
+      "square": "Mzere {row}, kolamu {column}, {color}",
+      "changed": "Mzere {row}, kolamu {column} tsopano ndi {color}.",
+      "cleared": "Tayalayo ndi lopanda kanthu. Mungathe kuliikanso.",
+      "surprise": "Ndidabwitseni",
+      "surprised": "Nayi tayala latsopano. Mungathe kubwezera lakale.",
+      "putBack": "Ibwezeninso",
+      "restored": "Tayala lanu labwezedwa monga linalili.",
+      "print": "Sindikizani chitsanzo changa",
+      "sheetTitle": "Chitsanzo changa"
+    },
+    "buildTogether": {
+      "guidance": "Lowetsani chidutswa m'malo opanda kanthu pakutembenukirana. Aliyense ali ndi mtundu wake. Palibe chimene mumapanga chimene chimasungidwa kapena kutumizidwa.",
+      "sizeLegend": "Kukula kwa gridi",
+      "size": "{n} ndi {n}",
+      "people": [
+        "Munthu woyamba",
+        "Munthu wachiwiri"
+      ],
+      "colorLegend": "Mtundu wa {person}",
+      "colors": [
+        "Wachikasu",
+        "Lalanje",
+        "Wobiriwira",
+        "Wofiirira"
+      ],
+      "inUse": "Ikugwiritsidwa ntchito",
+      "turn": "Ndi nthawi yanu, {person|lower}",
+      "yourColor": "Mtundu wanu ndi {color|lower}.",
+      "built": "Zamangidwa pamodzi. Iyi ndi chithunzi chimene nonse awiri mwapanga.",
+      "gridLabel": "Gridi yogawana",
+      "region": "Gridi yogawana, {n} ndi {n}. Imayenda kumbali ngati chophimba chili chopapatiza.",
+      "cellEmpty": "Mzere {row}, kolamu {column}, yopanda kanthu",
+      "cellFilled": "Mzere {row}, kolamu {column}, {color}, wayikidwa ndi {person|lower}",
+      "placed": "Mzere {row}, kolamu {column} tsopano ndi {color}. Ndi nthawi yanu, {next|lower}.",
+      "placedLast": "Mzere {row}, kolamu {column} tsopano ndi {color}. Zamangidwa pamodzi.",
+      "taken": "Mzere {row}, kolamu {column} uli kale ndi chidutswa. Sankhani malo opanda kanthu.",
+      "pass": "Dumphani",
+      "passed": "Kudumpha nkwabwino. Ndi nthawi yanu, {person|lower}.",
+      "takeBack": "Chotsani chidutswa chomaliza",
+      "takeBackPass": "Chotsani kudumpha komaliza",
+      "tookBack": "Chidutswacho chachotsedwa. Ndi nthawi yanu, {person|lower}.",
+      "tookBackPass": "Kudumpha kwachotsedwa. Ndi nthawi yanu, {person|lower}.",
+      "colorChanged": "{person} tsopano ali ndi {color|lower}.",
+      "restarted": "Gridi ndi yopanda kanthu. Ndi nthawi yanu, {person|lower}.",
+      "print": "Sindikizani gridi",
+      "sheetTitle": "Mangani pamodzi",
+      "sheetHelp": "Lowetsani pakati. M'malo opanda kanthu, munthu aliyense ajambule chithunzi chake ndi pensulo yake.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Dinani chidutswa, kenako dinani malo pachithunzi komwe chikupita. Palibe chimene mumapanga chimene chimasungidwa kapena kutumizidwa.",
+      "hints": "Onetsani mizere yothandiza",
+      "pictureLine": "Ichi ndi {picture}.",
+      "pictures": {
+        "house": "nyumba",
+        "boat": "bwato",
+        "tree": "mtengo",
+        "fish": "nsomba",
+        "cat": "mphaka",
+        "rocket": "roketi"
+      },
+      "outlineLabel": "Mzere wakunja wa {picture}. Dinani malo kuti muikemo chidutswa chosankhidwa.",
+      "trayHeading": "Zidutswa",
+      "pieces": {
+        "large-triangle": "Katatu wamkulu",
+        "small-triangle": "Katatu wamng'ono",
+        "square": "Lalikulu",
+        "parallelogram": "Paralelogramu",
+        "rectangle": "Rekitangulo"
+      },
+      "shapes": {
+        "large-triangle": "katatu wamkulu",
+        "small-triangle": "katatu wamng'ono",
+        "square": "lalikulu",
+        "parallelogram": "paralelogramu",
+        "rectangle": "rekitangulo"
+      },
+      "chosenLabel": "Wasankhidwa",
+      "spaceEmpty": "Malo {n}, {shape}, opanda kanthu",
+      "spaceFilled": "Malo {n}, {shape}, ali ndi chidutswa chake. Dinani kuti muchotse chidutswacho.",
+      "chosen": "{piece} wasankhidwa. Tsopano dinani malo pachithunzi.",
+      "unchosen": "Chidutswachi sichikusankhidwanso.",
+      "placed": "Chidutswachi chili pamalo {n}.",
+      "complete": "Chithunzi cha {picture} chamalizidwa.",
+      "different": "Chidutswachi si mawonekedwe ofanana ndi malo awa. Yesani malo ena.",
+      "needPiece": "Choyamba sankhani chidutswa pa thireyi.",
+      "filled": "Malo amenewo ali kale ndi chidutswa chake. Dinani pamenepo kuti mubwezere chidutswacho.",
+      "tookBack": "Chidutswacho chabwerera pa thireyi.",
+      "cleared": "Zidutswa zonse zabwerera pa thireyi. Bwezeraninso ngati mwasintha maganizo.",
+      "restored": "Zidutswa zabwerera pa chithunzicho.",
+      "next": "Ichi ndi {picture}.",
+      "putBack": "Bwezerani",
+      "another": "Mawonekedwe ena",
+      "print": "Sindikizani mawonekedwe awa",
+      "sheetTitle": "Mawonekedwe odekha",
+      "sheetHow": "Pakani mitundu zidutswazo, kapena zidulireni kuti zikwane mzere wakunja. Wamkulu angathe kudula.",
+      "sheetPieces": "Zidutswazo, zofanana ndi kukula kwa mzere wakunja"
+    },
+    "picnicPlanner": {
+      "guidance": "Dinani chithunzi kuti chiikidwe mu dengu la picnic, ndipo dinaninso mu dengu kuti chichotsedwe. Dengu limatenga zinthu zisanu ndi chimodzi.",
+      "guidancePlay": "Dinani zithunzi ziwiri zofanana. Zithunzizo zimakhalabe zikuwonekera, ndipo palibe chimene chimayesedwa ndi nthawi.",
+      "basketHeading": "Dengu lathu",
+      "basketLabel": "Dengu la picnic",
+      "takeOut": "Chotsani {picture} mu dengu",
+      "inBasket": "Mu dengu",
+      "foodHeading": "Chakudya",
+      "outingsHeading": "Zinthu zoti muchite",
+      "added": "{picture} yaikidwa mu dengu.",
+      "removed": "{picture} yachotsedwa mu dengu.",
+      "already": "{picture} ili kale mu dengu. Dinani pamenepo kuti muchotse.",
+      "full": "Dengu ladzaza. Chotsani chinthu china kuti mupange malo.",
+      "summary": "Picnic yathu: {list}.",
+      "summaryNone": "Palibe chinthu mu dengu pano.",
+      "and": "ndi",
+      "play": "Tiyeni tisewere ndi picnic yathu",
+      "needTwo": "Choyamba sankhani zinthu zosachepera ziwiri.",
+      "playAgain": "Sewerani kachiwiri",
+      "back": "Bwererani ku picnic",
+      "print": "Sindikizani mndandanda wathu wa picnic",
+      "cleared": "Dengu lilibe kanthu.",
+      "notice": "Ili ndi ndondomeko yoti mukambirane. Palibe chimene chimayesedwa ndi nthawi, kuwerengedwa kapena kusungidwa.",
+      "sheetTitle": "Mndandanda wathu wa picnic",
+      "sheetHow": "Chongani chinthu chilichonse mukachipakira. Gwiritsani ntchito mizere yopanda kanthu pa zina zilizonse zomwe mukufuna kubweretsa.",
+      "sheetToPack": "Zoti mupakire"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Sankhani zithunzi zanu ziwiri mpaka khumi ndi ziwiri kuti muyambe bukhu.",
+      "guidance": "Tembenuzani masamba pamodzi, pogwiritsa ntchito mabatani kapena makiyi a muvi wakumanzere ndi wakumanja. Onjezerani mawu ochepa pansi pa chithunzi ngati mukufuna. Palibe chimene mumapanga chimasungidwa kapena kutumizidwa.",
+      "lookGuidance": "Yang'anani tsamba lililonse pamodzi. Mungathe kukambirana kapena kungoyang'ana.",
+      "intro": "Sankhani zithunzi ziwiri mpaka khumi ndi ziwiri kuchokera pa chipangizochi. Chilichonse chimakhala tsamba la bukhu limene mungatembenuze pamodzi.",
+      "consent": "Gwiritsani ntchito zithunzi zanu za banja. Funsani kaye musanagwiritse ntchito chithunzi cha munthu amene sangavomere.",
+      "privacy": "Zithunzi zanu zimakhalabe pa chipangizochi. Sizikwezedwa kapena kusungidwa.",
+      "choose": "Sankhani zithunzi",
+      "chooseDifferent": "Sankhani zithunzi zina",
+      "backToBook": "Bwererani ku bukhu",
+      "backToChoose": "Bwererani ku kusankha zithunzi",
+      "needTwo": "Chonde sankhani zithunzi zosachepera ziwiri.",
+      "usingFirst": "Tikugwiritsa ntchito zithunzi {max} zoyambirira.",
+      "cleared": "Bukhu lachotsedwa. Sankhani zithunzi kuti muyambirenso.",
+      "moved": "Asunthidwa ku tsamba {n}.",
+      "pageOf": "Tsamba {n} mwa {total}",
+      "lookTogether": "Yang'anani pamodzi",
+      "leaveLook": "Bwererani ku bukhu",
+      "print": "Sindikizani bukhu la zithunzi",
+      "clear": "Chotsani bukhu",
+      "bookLabel": "Bukhu la zithunzi la banja",
+      "pagesLabel": "Tembenuzani masamba",
+      "previous": "Tsamba lapitalo",
+      "next": "Tsamba lotsatira",
+      "moveEarlier": "Sunthani kumbuyo",
+      "moveLater": "Sunthani patsogolo",
+      "captionLabel": "Mawu ochepa a tsamba ili, ngati mukufuna",
+      "captionHelp": "Mpaka ma khalidwe 80. Mawu a pansi pa chithunzi amasungidwa pa tsamba ili lokha ndipo amatha mukatseka.",
+      "sheetTitle": "Bukhu lathu la zithunzi",
+      "sheetHow": "Chithunzi chimodzi pa tsamba, ndi mawu ake pansi pake. Tembenuzani masamba motsatira ndipo kambiranani za chilichonse.",
+      "sheetEmpty": "Sankhani zithunzi zanu patsamba la masewera kuti musindikize bukhu lanu, kapena sindikizani tsamba lopanda kanthu ndi kuliikamo chithunzi chosindikizidwa.",
+      "sheetFrame": "Ikani chithunzi chosindikizidwa apa",
+      "sheetWords": "Mawu ochepa a tsamba ili",
+      "skipped": {
+        "one": "Fayilo {n} si chithunzi chomwe titha kugwiritsa ntchito.",
+        "other": "Mafayilo {n} sanali zithunzi zomwe titha kugwiritsa ntchito."
+      }
+    },
+    "quietScene": {
+      "guidance": "Yang'anani chithunzi chimodzi panthawi. Dinani Lotsatira kapena Lapitalo mukakonzeka. Palibe chimene chimasuntha chokha.",
+      "next": "Chithunzi chotsatira",
+      "previous": "Chithunzi chapitacho",
+      "bigPicture": "Chithunzi chachikulu",
+      "showEverything": "Onetsani zonse",
+      "first": "Ichi ndi chithunzi choyamba.",
+      "last": "Ichi ndi chithunzi chomaliza.",
+      "lines": {
+        "sunrise": "Dzuwa likutuluka pamwamba pa dziko.",
+        "window-with-birds": "Mbalame kunja kwa zenera.",
+        "vase-of-flowers": "Mbiya ya maluwa patebulo.",
+        "teacup": "Kapu ya tiyi pafupi ndi zenera.",
+        "tree": "Mtengo wokhala m'munda.",
+        "sailboat": "Bwato la matanga pamadzi.",
+        "lighthouse": "Nyumba ya nyali pafupi ndi nyanja.",
+        "rainbow": "Utawaleza pambuyo pa mvula.",
+        "moon": "Mwezi kumwamba usiku.",
+        "daisies": "Gulu la daisi pakati pa udzu.",
+        "rowing-boat": "Bwato la chopalasa pamadzi abata.",
+        "potted-plant": "Chomera chobiriwira mumphika."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Tsatanani mmodzimmodzi. Dinani chidutswa chodulidwa, kenako dinani malo opanda kanthu kuti muchiike pamenepo. Palibe chimene mumapanga chimasungidwa kapena kutumizidwa.",
+      "people": [
+        "Munthu woyamba",
+        "Munthu wachiwiri"
+      ],
+      "marks": [
+        "bwalo",
+        "sikweya"
+      ],
+      "turn": "Nthawi yanu, {person|lower}.",
+      "marked": "Zidutswa zanu zizindikiridwa ndi {mark}.",
+      "boardLabel": "Bolodi logawana",
+      "placeEmpty": "Malo {n}, opanda kanthu",
+      "placeFilled": "Malo {n}, {picture|lower}, anaikidwa ndi {person|lower}",
+      "trayHeading": "Zidutswa zodulidwa",
+      "chosenLabel": "Yasankhidwa",
+      "chosen": "{picture} yasankhidwa. Tsopano dinani malo opanda kanthu.",
+      "unchosen": "Chidutswa chodulidwacho sichikusankhidwanso.",
+      "needCutout": "Choyamba sankhani chidutswa chodulidwa, kenako dinani malo opanda kanthu.",
+      "filled": "Malo {n} ali kale ndi chithunzi. Sankhani malo opanda kanthu.",
+      "placed": "{picture} ili pamalo {n}. Nthawi yanu, {next|lower}.",
+      "full": "Malo onse ali ndi chithunzi. Chotsani imodzi kuti musinthe, kapena yambaninso.",
+      "pass": "Dumphani",
+      "passed": "Kudumpha nkwabwino. Nthawi yanu, {person|lower}.",
+      "takeBack": "Bwezerani chidutswa chomaliza",
+      "takeBackPass": "Bwezerani kudumpha",
+      "tookBack": "Chidutswacho chabwezedwa. Nthawi yanu, {person|lower}.",
+      "tookBackPass": "Kudumpha kwabwezedwa. Nthawi yanu, {person|lower}.",
+      "restarted": "Bolodi lilibe kanthu. Nthawi yanu, {person|lower}.",
+      "putBack": "Bwezerani",
+      "putBackDone": "Zidutswa zabwerera pa bolodi.",
+      "another": "Gulu lina la zithunzi",
+      "anotherSet": "Gulu latsopano la zidutswa zodulidwa lili pa thireyi. Zidutswa za pa bolodi zikhalabe pomwe zili.",
+      "print": "Sindikizani bolodi",
+      "sheetTitle": "Bolodi la kolaji",
+      "sheetHow": "Dulani zithunzizo ndipo tsatanani kuziika pa bolodi. Wamkulu angathe kudula.",
+      "sheetTray": "Zithunzi zodula"
+    },
+    "gardenPlanner": {
+      "guidance": "Dinani chithunzi, kenako dinani bedi kuti muchiike pamenepo. Dinani bedi lomwe lili ndi chithunzi, pamene palibe chosankhidwa, kuti muchotse.",
+      "bedsLabel": "Mabedi a m'munda",
+      "bedEmpty": "Bedi {n}, lopanda kanthu",
+      "bedFilled": "Bedi {n}, {picture|lower}",
+      "plantsHeading": "Zomera",
+      "extrasHeading": "Zina zowonjezera m'munda",
+      "chosenLabel": "Yasankhidwa",
+      "chosen": "{picture} yasankhidwa. Tsopano dinani bedi.",
+      "unchosen": "Palibe chithunzi chosankhidwa.",
+      "needPicture": "Chagawo choyamba, kenako dinani bedi.",
+      "planted": "{picture} ili mu bedi {n}.",
+      "replaced": "{picture} yalowa m'malo mwa chithunzi chili mu bedi {n}.",
+      "cleared": "Bedi {n} ilibe kanthu. Ibwezeretseni ngati mukufuna chithunzicho kachiwiri.",
+      "restarted": "Bedi lililonse lilibe kanthu.",
+      "putBack": "Ibwezerani",
+      "putBackDone": "Zithunzizo zabwezedwa m'mabedi mwake.",
+      "summaryHeading": "Munda wanga",
+      "summary": "Dongosolo lanu lili ndi {list}.",
+      "summaryNone": "Palibe chithunzi chomwe chili mu bedi pano.",
+      "and": "ndi",
+      "print": "Sindikizani dongosolo",
+      "sheetTitle": "Dongosolo la munda wathu",
+      "sheetHow": "Mabedi akuwonetsa zithunzi zomwe zasankhidwa pazenera. Jambulani m'mabedi opanda kanthu ngati mukufuna.",
+      "sheetNotes": "Zolemba",
+      "notice": "Ili ndi dongosolo la zithunzi lokambirana, osati malangizo a kubzala."
+    },
+    "coloringWall": {
+      "guidance": "Sankhani chithunzi ndi kuchuluka kwa masamba. Sindikizani khoma, ndipo munthu aliyense azipaka utoto tsamba limodzi kapena angapo. Palibe nthawi, mfundo kapena kusunga.",
+      "pictureLegend": "Chithunzi",
+      "sizeLegend": "Kuchuluka kwa masamba",
+      "sizes": {
+        "2x2": "Masamba 4 (2 ndi 2)",
+        "3x2": "Masamba 6 (3 ndi 2)",
+        "3x3": "Masamba 9 (3 ndi 3)"
+      },
+      "previewLabel": "{picture|lower} yagawidwa m'masamba {n}, {across} m'mbali ndi {down} pansi. Tsamba lililonse lili ndi chizindikiro pakona yake.",
+      "previewCaption": "Chithunzicho ndi mizere ya masamba ndi zizindikiro zojambulidwa pamwamba pake.",
+      "labelsNote": "Zilembo zimayenda pansi pa khoma ndipo manambala amayenda m'mbali mwake, kotero A1 ndi tsamba lakumanzere kwapamwamba.",
+      "wallHeading": "Momwe mungasonkhanitsire khoma",
+      "steps": [
+        "Sindikizani masamba onse. Tsamba loyamba ndi malangizo awa ndi mapu a khoma.",
+        "Munthu aliyense atenge tsamba limodzi kapena angapo ndi kuwapaka utoto.",
+        "Mitundu ndi masitayilo sayenera kufanana. Tsamba lililonse ndi gawo la chithunzi chomwecho.",
+        "Ikani masamba motsatira zizindikiro zawo, kenako muwamangirize ndi tepi kumbuyo.",
+        "Pachikeni khoma pomwe aliyense angaliwone."
+      ],
+      "mapLabel": "Mapu a khoma: mizere {down} ya masamba {across}, yolembedwa kuyambira A1 mpaka {last}.",
+      "edgeNote": "Mzere wosweka umasonyeza m'mphepete mwa tsamba lililonse. Ikani masamba m'mphepete ndi mzake motsatira mzerewo, kapena muwalowetsane pang'ono.",
+      "pictureLine": "Chithunzi: {picture}. Khomali ndi masamba {n}: {across} m'mbali ndi {down} pansi.",
+      "print": "Sindikizani khoma"
+    },
+    "findTogether": {
+      "guidance": "Tengani mwayi wanu. Pa nthawi yanu, tembenuzani makadi awiri kuti mupeze awiriawiri. Pezani awiriawiri pamodzi.",
+      "sizeLegend": "Makadi angati",
+      "size": "Makadi {n}",
+      "viewLegend": "Momwe mungasewerere",
+      "viewShowing": "Sewerani ndi zithunzi zoonekera",
+      "viewHidden": "Makadi ali pansi",
+      "people": [
+        "Munthu woyamba",
+        "Munthu wachiwiri"
+      ],
+      "turn": "Nthawi ya: {person}",
+      "turnDone": "Awiriawiri onse apezeka.",
+      "tally": "Awiriawiri opezeka pamodzi: {n}",
+      "cardNamed": "{name}, khadi {n}",
+      "cardFaceDown": "Khadi {n}, lili pansi",
+      "first": "{name}. Tsopano tembenuzani khadi lachiwiri.",
+      "found": "{name}: awiriawiri, opezeka pamodzi. Tsopano ndi nthawi ya {next|lower}.",
+      "allTogether": "Mwapeza awiriawiri onse pamodzi.",
+      "different": "{a} ndi {b} ndi osiyana. Tengani nthawi yanu, kenako dinani Abwezerani.",
+      "waiting": "Dinani Abwezerani mukakonzeka. Kenako nthawi imapita kwa wina.",
+      "turnedBack": "Zabwezedwa. Tsopano ndi nthawi ya {person|lower}.",
+      "passed": "Kupititsa patsogolo nkwabwino. Tsopano ndi nthawi ya {person|lower}.",
+      "turnBack": "Abwezereni",
+      "pass": "Pitirirani",
+      "playAgain": "Sewerani kachiwiri"
+    },
+    "drawingDuet": {
+      "guidance": "Tengani nthawi yanu ndi mzere umodzi uliwonse, kenako perekani cholembera. Aliyense akhoza kupereka. Palibe chimene chimatumizidwa kulikonse. Chithunzi chimachoka patsamba lino ngati mutachisunga lokha.",
+      "people": [
+        "Munthu woyamba",
+        "Munthu wachiwiri"
+      ],
+      "colorLegend": "Mtundu wa {person}",
+      "colors": [
+        "Chikasu",
+        "Lalanje",
+        "Chobiriwira",
+        "Chibakuwa"
+      ],
+      "turn": "Nthawi ya {person}",
+      "penColor": "Mtundu wa cholembera: {color}.",
+      "canvasLabel": "Chojambula chogawana, mizere {n} mpaka pano",
+      "canvasLabelOne": "Chojambula chogawana, mzere {n} mpaka pano",
+      "keys": "Mivi ya kiyibodi imasuntha madontho a cholembera pa chojambulacho. Space imaika cholembera pansi kapena kuchikweza.",
+      "penDown": "Ikani cholembera pansi",
+      "penUp": "Kweza cholembera",
+      "pass": "Perekani cholembera",
+      "passed": "Kupereka nkwabwino. Ndi nthawi yanu, {person|lower}.",
+      "takeBack": "Chotsani mzere wanga womaliza",
+      "tookBack": "Mzere womaliza wa {person|lower} wachotsedwa.",
+      "noLine": "Palibe mzere wa {person|lower} woti uchotsedwe.",
+      "restarted": "Pepalali lilibe kanthu. Munthu woyamba ali ndi nthawi. Ibwezeretseni ngati simunafune kutero.",
+      "putBack": "Ibwezerani",
+      "restored": "Mizere yabwezeredwa monga kale.",
+      "save": "Sungani chithunzi",
+      "saved": "Chithunzi chanu chakonzeka. Gwiritsani ntchito ulalo wotsitsa kuti muchisunge pa chipangizochi.",
+      "download": "Tsitsani drawing-duet.png",
+      "print": "Sindikizani mtundu wa pepala",
+      "sheetTitle": "Duet yojambula",
+      "paperRules": "Anthu awiri, pepala limodzi, zolembera ziwiri. Tengani nthawi: mzere kapena mawonekedwe amodzi aliyense, kenako perekani cholembera. Aliyense akhoza kupereka. Palibe chithunzi cholondola."
+    },
+    "colorWash": {
+      "guidance": "Pakani mtundu wofewa pa tsamba lonse, sitiroko imodzi nthawi imodzi. Kwezani burashi kuti muleke, ndipo lekani nthawi iliyonse mukafuna. Palibe chimene chimasungidwa kapena kutumizidwa.",
+      "colorLegend": "Mtundu wa sitiroko",
+      "sizeLegend": "Kukula kwa burashi",
+      "colors": [
+        "Chikasu",
+        "Lalanje",
+        "Chobiriwira",
+        "Chibakuwa"
+      ],
+      "sizes": {
+        "wide": "Lalikulu",
+        "veryWide": "Lalikulu kwambiri"
+      },
+      "color": "Mtundu wa sitiroko: {color}.",
+      "brushDown": "Ikani burashi pansi",
+      "brushUp": "Kweza burashi",
+      "keys": "Mivi ya kiyibodi imasuntha mphete ya burashi pa tsambalo. Space imaika burashi pansi kapena kuikweza.",
+      "canvasLabel": "Tsamba la masitiroko ofewa amitundu",
+      "fresh": "Tsamba latsopano",
+      "freshMessage": "Tsamba latsopano.",
+      "putBack": "Ibwezerani",
+      "restored": "Tsambali labwezeredwa."
+    },
     "sortTogether": {
       "guidance": "Dinani chithunzi, kenako dinani dengu limene chili nalo.",
       "restart": "Zithunzi zatsopano",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} ikhoza kukhala mu \"{basket}\". Dinani dengulo kuti muiike.",
       "placed": "{name|lower} ili mu \"{basket}\".",
       "sorted": "Zonse zasanjidwa. Yang'anani madengu pamodzi, kapena yesani mutu wina.",
+      "largerTargets": "Zolinga zazikulu",
+      "largerOn": "Zolinga zazikulu zayatsidwa. Palibe chimene chasuntha.",
+      "largerOff": "Zolinga zazikulu zazimitsidwa. Palibe chimene chasuntha.",
+      "largerOnNewRound": "Zolinga zazikulu zayatsidwa, ndi madengu awiri. Nazi zithunzi zatsopano zoti mulekanitse.",
       "basket": {
         "one": "Dengu la {basket}, chithunzi {count} mkati",
         "other": "Dengu la {basket}, zithunzi {count} mkati"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Dinani chidutswa chimodzi, kenako dinani china. Zidzasinthana malo.",
-      "restart": "Sakanizaninso",
+      "restart": "Mix up again",
       "pictureLegend": "Chithunzi",
       "pictures": {
         "sailboat": "Bwato lamphepo",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Chithunzi chonse: {name}",
       "guideText": "Chithunzicho chimaoneka motere chikakhala chonse.",
+      "ownChoose": "Gwiritsani ntchito chithunzi chanu",
+      "ownChange": "Sankhani chithunzi china",
+      "ownBack": "Bwererani ku zithunzi zathu",
+      "ownPrivacy": "Chithunzi chanu chimakhala pa chipangizochi. Sichikwezedwa kapena kusungidwa.",
+      "ownConsent": "Gwiritsani ntchito zithunzi zanu. Funsani musanagwiritse ntchito chithunzi cha munthu amene sangavomereze.",
+      "ownWorking": "Tikukonza chithunzi chanu.",
+      "ownNotUsable": "Fayilo imeneyo sinathe kugwiritsidwa ntchito. Sankhani fayilo ya chithunzi, monga JPEG kapena PNG.",
+      "ownAlt": "Chithunzi chanu",
+      "ownPiece": "Chidutswa {n}, {place}",
+      "ownWhole": "Chithunzi chanu chakhalanso chathunthu. Sakanizaninso nthawi iliyonse mukafuna.",
+      "ownSheetTitle": "Chithunzi chanu m'zidutswa",
+      "ownSheetHow": "Dulani motsatira mizere. Sakanizani zidutswazo, kenako sinthanitsani zidutswa ziwiri nthawi imodzi mpaka chithunzicho chikhale chathunthu.",
       "piece": "Chidutswa chili ku {place}",
       "pieceInPlace": ", chili pamalo oyenera",
       "piecePickedUp": ", chatengedwa",
@@ -122,7 +786,7 @@
         "kumanja kumunsi"
       ],
       "done": "Chithunzicho chabwerera chonse. Sewerani kachiwiri kapena pumulani.",
-      "playAgain": "Sakanizaninso"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Werengani mwambi pamodzi, kenako dinani mawu omaliza amene amaukwaniritsa.",
@@ -190,6 +854,14 @@
       "guidance": "Werengani kadi mokweza. Palibe mayankho olondola.",
       "position": "Kadi {n} mwa {total}",
       "themeLegend": "Mutu",
+      "showPrompt": "Onetsani mutu wokambirana",
+      "bigPicture": "Chithunzi chachikulu, cha gulu",
+      "passNote": "Aliyense akhoza kupereka.",
+      "groupTitle": "Kupereka khadi mozungulira gulu",
+      "groupSit": "Khalani mozungulira pomwe aliyense akhoza kuona chithunzicho. Munthu wogwira khadi, kapena chipangizo chokhala ndi chithunzi chachikulu, awerenge mutuwo mokweza poyamba.",
+      "groupPass": "Kenako perekani khadi kwa munthu wotsatira. Aliyense anene mawu kapena chiganizo chimodzi chokhudza chithunzicho, kenako apereke.",
+      "groupNoSpeech": "Kupereka khadi nthawi zonse nkololedwa. Munthu akhoza kupereka popanda kunena kanthu, ndipo palibe amene ayenera kufotokoza chifukwa chake.",
+      "groupEnd": "Gawo limatha khadiyo ikazungulira bwalo lonse, kapena gulu likakhuta. Palibe amene wapambana. Lekani nthawi iliyonse gulu likafuna.",
       "next": "Kadi yotsatira",
       "previous": "Kadi yapitayi",
       "print": "Sindikizani makadi onse",
@@ -252,6 +924,20 @@
       "started": "Mwayamba. Kokani mpweya pamene bwalo likukula.",
       "stopped": "Mwayima.",
       "finished": "Imeneyo inali mpweya sikisi wodekha. Yambani kachiwiri nthawi iliyonse mukafuna."
+    },
+    "storyChain": {
+      "guidance": "Lankhulani motsatizana: sentensi imodzi aliyense, ndipo onjezani chithunzi chotsatira.",
+      "passNote": "Lankhulani sentensi yanu mokweza. Palibe chimene chilembedwa kapena kusungidwa. Aliyense akhoza kudutsa.",
+      "chainLabel": "Unyolo mpaka pano",
+      "item": "Chithunzi {n}: {name}",
+      "add": "Onjezani chithunzi",
+      "fullAdd": "Unyolo wadzaza. Yambani unyolo watsopano",
+      "newChain": "Yambani unyolo watsopano",
+      "takeOff": "Chotsani chomaliza",
+      "added": "Pamapeto pa unyolo pawonjezedwa {name|lower}.",
+      "removed": "Pa unyolo pachotsedwa {name|lower}.",
+      "fresh": "Unyolo watsopano ukuyamba ndi {name|lower}.",
+      "full": "Unyolo uli ndi zithunzi zonse eyiti. Nenani nkhani yonse, kapena yambani unyolo watsopano."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Mtambo wa mvula",
     "snowflake": "Chipale chofewa",
     "kite": "Kaiti",
-    "sunrise": "Kutuluka kwa dzuwa pamwamba pa mapiri"
+    "sunrise": "Kutuluka kwa dzuwa pamwamba pa mapiri",
+    "decorated-keepsake-box": "Bokosi lokongoletsedwa lokumbukira",
+    "painted-plant-pot": "Mphika wopaka utoto wokhala ndi zitsamba",
+    "repeating-pattern-sheet": "Pepala lokhala ndi mapangidwe obwerezabwereza",
+    "music-drawn-lines": "Mizere yojambulidwa ndi nyimbo",
+    "paper-boat-afloat": "Bwato la pepala loyandama pamadzi",
+    "folded-towel-stack": "Mulu wa matawulo opindidwa",
+    "hand-massage-with-lotion": "Dzanja pa thaulo, ndi mafuta odzola",
+    "open-photo-album": "Album ya zithunzi yotseguka",
+    "button-flower-card": "Duwa la mabatani pakhadi",
+    "blue-torn-paper-collage": "Kolaji ya pepala la buluu lodulidwa",
+    "family-tree-of-hands": "Mtengo wa banja wojambulidwa ndi manja",
+    "open-greeting-card": "Khadi la moni lotseguka lokhala ndi mtima",
+    "lavender-sachet": "Thumba la lavenda lomangidwa ndi riboni",
+    "memory-collage-of-photos": "Kolaji ya zithunzi za banja",
+    "paper-chain-garland": "Chingwe cha mapepala olumikizidwa",
+    "open-songbook-with-notes": "Buku la nyimbo lotseguka ndi zolemba za nyimbo",
+    "photo-postcard-with-stamp": "Positikhadi ya chithunzi ndi sitampu",
+    "pine-cone-bird-feeder": "Chodyetsera mbalame chopangidwa ndi kakoni wa paini, chopachikidwa panthambi",
+    "playlist-phone-and-card": "Foni ndi khadi la nyimbo",
+    "sealed-rice-shaker": "Shakere ya mpunga yotsekedwa",
+    "texture-board-with-scraps": "Bolodi la zidutswa zosiyana",
+    "painted-garden-stone": "Mwala wopaka utoto wa m'munda",
+    "shared-painted-canvas": "Chinsalu chopakidwa pamodzi",
+    "watercolor-washes-sheet": "Pepala lopakidwa utoto wamadzi",
+    "seedling-in-pot": "Mbande mumphika",
+    "pressed-leaves-in-book": "Masamba owumitsidwa m'buku",
+    "printed-leaves-sheet": "Pepala la masamba osindikizidwa",
+    "pinch-pot-clay-bowl": "Mphika wa dothi wopangidwa ndi manja",
+    "table-sketch-pencil": "Chithunzi cha kapu chojambulidwa ndi pensulo",
+    "buttons-in-muffin-tin": "Mabatani mu thireyi ya keke",
+    "family-recipe-book": "Buku la maphikidwe a banja",
+    "drum-with-beat-marks": "Ng'oma yapatebulo ndi ndodo zake",
+    "torn-paper-flower": "Mosaiki wa duwa la mapepala ong'ambika",
+    "window-with-birds": "Zenera ndi mbalame",
+    "woven-paper-mat": "Mphasa ya mapepala oluka",
+    "yarn-ball-with-thread": "Mpira wa ulusi",
+    "letter-and-envelope": "Kalata m'envulopu"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Poyendayenda"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Zipatso",
+        "animals": "Nyama",
+        "travel": "Njira zoyendera",
+        "flowers": "Maluwa",
+        "hot-drinks": "Zakumwa zotentha",
+        "weather": "Mitundu ya nyengo",
+        "baked": "Zinthu zophikidwa mu uvuni"
       }
     }
   }

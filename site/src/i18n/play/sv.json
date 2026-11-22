@@ -5,6 +5,13 @@
       "stopReading": "Sluta läsa",
       "region": "Spel",
       "restart": "Börja om",
+      "rest": "Vila en stund",
+      "restingTitle": "Vilar",
+      "restingText": "Ta så lång tid du behöver. Din plats sparas på den här sidan.",
+      "resume": "Fortsätt",
+      "placeText": "Sist stannade du halvvägs. Fortsätt därifrån, eller börja om från början.",
+      "placeResume": "Fortsätt",
+      "placeFresh": "Börja om",
       "soundOn": "Mjuka ljud på",
       "soundOff": "Mjuka ljud av",
       "done": "Klar för nu",
@@ -43,7 +50,19 @@
       "viewShowing": "Bilderna syns",
       "viewHidden": "Dolda bilder",
       "playAgain": "Spela igen med nya bilder",
-      "talk": "Prata om bilderna tillsammans"
+      "talk": "Prata om bilderna tillsammans",
+      "modeLegend": "Vilka bilder",
+      "modePlay": "Vilka bilder som helst",
+      "modeDaily": "Dagens kort",
+      "dayLegend": "Vilken dag",
+      "dayHelp": "Alla får samma bilder samma dag. Tidigare dagar finns också här, och att hoppa över en dag kostar ingenting.",
+      "guidanceDaily": "Dagens kort har fyra par. Tryck på en bild och tryck sedan på den som hör ihop med den.",
+      "restartDaily": "Börja om det här kortet",
+      "copy": "Kopiera den här raden",
+      "copied": "Kopierad. Ingenting skickas någonstans.",
+      "calendarTitle": "Dagens kort, {month}",
+      "calendarHelp": "Varje dag har samma fyra bilder för alla. Ingenting poängsätts, och ingen dag markeras som missad.",
+      "calendarVersion": "Version {date}. Bilderna är desamma för alla samma dag."
     },
     "choose": {
       "countLegend": "Antal bilder",
@@ -62,6 +81,635 @@
       "shadowAlt": "En skugga att para ihop",
       "foundAlt": "Skuggan till {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Tips",
+      "hintOn": "Tips efter en paus",
+      "hintOff": "Inga tips",
+      "guidance": "Hitta de {n} bilderna som hör ihop, och tryck på var och en.",
+      "countLegend": "Hur många bilder",
+      "count": "{n} bilder",
+      "found": "Ja, {name|lower} hör till den här gruppen.",
+      "elsewhere": "{name|lower} hör ihop med något annat. Ta din tid.",
+      "hint": "Ett tips: leta efter {theme|lower}.",
+      "together": "De här hör ihop: {theme}.",
+      "shown": "Här är gruppen: {theme}.",
+      "groupName": "Tillsammans: {theme}",
+      "show": "Visa gruppen",
+      "next": "En annan uppsättning"
+    },
+    "oddOneOut": {
+      "hintLegend": "Tips",
+      "hintOn": "Tips efter en paus",
+      "hintOff": "Inga tips",
+      "guidance": "Hitta bilden som inte hör ihop med de andra, och tryck på den.",
+      "countLegend": "Hur många bilder",
+      "count": "{n} bilder",
+      "belongs": "{name|lower} hör ihop med de andra. Ta din tid.",
+      "found": "Ja, {name|lower} är den som inte passar in. De andra är {theme|lower}.",
+      "shown": "Här är den: {name|lower}. De andra är {theme|lower}.",
+      "hint": "Ett tips: {n} av dessa är {theme|lower}.",
+      "others": "De andra: {theme}",
+      "show": "Visa mig",
+      "next": "En annan uppsättning"
+    },
+    "seatedToss": {
+      "guidance": "Sitt vid ett bord och turas om att kasta en mjuk bönpåse mot den stora måltavlan. För poängen på papper, tillsammans.",
+      "stepsHeading": "Så går det till",
+      "steps": [
+        "Skriv ut måltavlan och poänglistan, och lägg den plant på bordet mellan er.",
+        "Sitt bekvämt, en på varje sida. Turas om att kasta ett milt kast var, eller passa om du hellre vill.",
+        "När kastet landar i en ring sätter den som kastade ett kryss i en ruta i sin kolumn, på raden för den ringen.",
+        "Titta på krysserna tillsammans när ni slutar, om du vill. Ingen behöver räkna ihop något.",
+        "Sluta när som helst någon säger att den är redo."
+      ],
+      "safetyHeading": "Säkerhet",
+      "safetyLine": "Använd bara en påse med ett igensytt hölje eller en hopprullad strumpa, sitt kvar, kasta aldrig mot ett ansikte och ha en vuxen i närheten. Små delar är en kvävningsrisk.",
+      "flags": [
+        "Inte avsedd för under 3 år: små delar",
+        "Håll borta från munnen"
+      ],
+      "safety": [
+        "Välj en bönpåse med ett igensytt hölje, eller rulla ihop en ren strumpa. Kontrollera först att det inte finns hål eller lösa sömmar, så att ingen fyllning kan komma ut.",
+        "Bönor, ris och annan liten fyllning är en kvävningsrisk. Håll dem borta från små barn och från alla som stoppar saker i munnen.",
+        "Håll dig inom armlängds avstånd och ha uppsikt om något kan hamna i munnen.",
+        "Sitt kvar. Kasta försiktigt och lågt mot måltavlan på bordet, aldrig mot ett ansikte."
+      ],
+      "previewLabel": "En förhandsvisning av det utskrivna bladet: en måltavla med tre ringar, namngivna Nära, Mitten och Långt bort, från utsidan och in, och en poänglista med en kolumn för varje person och en rad tomma rutor för varje ring.",
+      "sheetHow": "Lägg bladet plant mellan er. När kastet landar i en ring, sätt ett kryss i en ruta i din kolumn, på den ringens rad.",
+      "rings": [
+        "Nära",
+        "Mitten",
+        "Långt bort"
+      ],
+      "people": [
+        "Första personen",
+        "Andra personen"
+      ],
+      "ringHeading": "Ring",
+      "print": "Skriv ut måltavlan och poänglistan"
+    },
+    "seasonalPack": {
+      "guidance": "Välj en månad, skriv ut dess tre pussel på papper och gör sedan ett, två eller alla tre tillsammans.",
+      "monthLegend": "Välj en månad",
+      "months": [
+        "Januari",
+        "Februari",
+        "Mars",
+        "April",
+        "Maj",
+        "Juni",
+        "Juli",
+        "Augusti",
+        "September",
+        "Oktober",
+        "November",
+        "December"
+      ],
+      "monthNote": "Varje månad har sina egna bilder. Sidan öppnas på den här månaden, och du kan välja vilken annan månad som helst.",
+      "restDay": "Idag är en vilodag",
+      "restLine": "Inga pussel idag. En vilodag är också en bra dag.",
+      "previewHeading": "De tre pusslen",
+      "puzzles": {
+        "pairs": {
+          "title": "Matcha paren",
+          "how": "Dra ett streck från varje bild på den översta raden till samma bild på den nedersta raden.",
+          "describe": "Två rader med samma fyra bilder, i en annan ordning."
+        },
+        "different": {
+          "title": "Vilken är annorlunda?",
+          "how": "Ringa in bilden som skiljer sig från de tre andra.",
+          "describe": "En rad med fyra bilder. Tre är likadana, och en är annorlunda."
+        },
+        "color": {
+          "title": "Färglägg den",
+          "how": "Färglägg bilden hur du vill, med vaxkritor eller pennor.",
+          "describe": "En stor bild att färglägga."
+        }
+      },
+      "print": "Skriv ut månadens paket",
+      "sheetHow": "Skriv ut en sida. Gör ett, två eller alla tre pussel, i valfri ordning.",
+      "printFooter": "Gör ett, två eller alla tre. Sluta när du vill."
+    },
+    "decorateACard": {
+      "guidance": "Välj ett tillfälle och dekorera sedan ett kort tillsammans med vaxkritor eller pennor. Det finns inget rätt kort.",
+      "occasionLegend": "Välj ett tillfälle",
+      "occasions": {
+        "birthday": {
+          "label": "Födelsedag",
+          "words": "Grattis på födelsedagen"
+        },
+        "thank-you": {
+          "label": "Tack",
+          "words": "Tack så mycket"
+        },
+        "thinking-of-you": {
+          "label": "Tänker på dig",
+          "words": "Tänker på dig"
+        },
+        "new-season": {
+          "label": "En ny årstid",
+          "words": "En ny årstid"
+        },
+        "just-because": {
+          "label": "Bara för att",
+          "words": "Bara för att"
+        }
+      },
+      "stepsHeading": "Så dekorerar ni det tillsammans",
+      "steps": {
+        "fold": "Skriv ut kortet och vik det på mitten längs den streckade linjen, så att framsidan är utåt.",
+        "front": "En person dekorerar framsidan, runt orden.",
+        "inside": "Den andra personen dekorerar baksidan, eller så turas ni om på en sida.",
+        "message": "Skriv ett meddelande tillsammans. Den ena kan skriva medan den andra säger orden.",
+        "stop": "Sluta när du vill. Det finns inget rätt kort, och ett enkelt är lika bra."
+      },
+      "materials": "Använd vaxkritor, färgpennor eller tuschpennor. Ingenting behöver klippas, limmas eller fästas.",
+      "previewLabel": "En förhandsvisning av kortet, vikt på mitten. Framsidan säger {words}, med en enkel ram av löv och stjärnor. Baksidan har rader för ett meddelande och en rad för Från.",
+      "from": "Från",
+      "sheetHow": "Vik kortet på mitten längs den streckade linjen, med framsidan utåt. Skriv meddelandet på baksidan.",
+      "rulesHeading": "För två personer",
+      "sheetRules": [
+        "Turas om, eller dela upp arbetet: en person dekorerar framsidan och den andra baksidan.",
+        "Skriv meddelandet tillsammans, eller låt en person skriva det som den andra säger.",
+        "Vem som helst får sluta när som helst. Det finns inget rätt kort."
+      ],
+      "print": "Skriv ut kortet"
+    },
+    "storyDice": {
+      "guidance": "Titta på bilderna och berätta en historia med hjälp av dem, i vilken ordning som helst. Det finns ingen rätt historia.",
+      "countLegend": "Antal tärningar",
+      "count": "{n} tärningar",
+      "roll": "Slå igen",
+      "pass": "Passa",
+      "passed": "Det är lugnt att passa. Nästa person kan börja, eller så kan du slå igen.",
+      "rolled": "Nya bilder: {names}.",
+      "tapped": "{name}. Börja med den här, eller med en annan."
+    },
+    "wordPicture": {
+      "guidance": "Tryck på en bild och sedan på ordet som betecknar den. Eller tryck på ett ord och sedan på dess bild.",
+      "countLegend": "Antal bilder",
+      "count": "{n} bilder",
+      "picturesGroup": "Bilder",
+      "wordsGroup": "Ord",
+      "readWord": "Läs upp: {name}",
+      "next": "Nya bilder",
+      "putBack": "Lägg tillbaka",
+      "pickWord": "Tryck nu på ordet som hör till den.",
+      "pickPicture": "Tryck nu på bilden som hör till det.",
+      "fit": "Ja, det ordet hör till {name|lower}.",
+      "newSet": "Här är en ny uppsättning bilder.",
+      "restarted": "Tillbaka till början. Alla bilder och ord är lösa igen.",
+      "restored": "Lagt tillbaka. De matchade paren visas igen.",
+      "all": "Varje ord har sin bild."
+    },
+    "colorMatch": {
+      "guidance": "Titta på färgen och dess namn, tryck sedan på varje bild som har den färgen.",
+      "target": "Färgen är {color|lower}. Tryck på varje bild som är {color|lower}.",
+      "countLegend": "Antal bilder",
+      "count": "{n} bilder",
+      "found": "Ja, färgen på {name|lower} är {color|lower}.",
+      "named": "Färgen på {name|lower} är {color|lower}.",
+      "all": "Det här är alla bilder som är {color|lower}.",
+      "shown": "Här är bilderna som är {color|lower}.",
+      "show": "Visa dem",
+      "next": "En annan färg",
+      "names": {
+        "red": "Röd",
+        "orange": "Orange",
+        "yellow": "Gul",
+        "green": "Grön",
+        "blue": "Blå"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tryck på en halva till vänster, tryck sedan på den halvan till höger som passar.",
+      "countLegend": "Antal bilder",
+      "count": "{n} bilder",
+      "leftGroup": "Vänstra halvor",
+      "rightGroup": "Högra halvor",
+      "left": "Vänstra halvan av {name|lower}",
+      "right": "Högra halvan av {name|lower}",
+      "joined": "Ihopsatt",
+      "pickRight": "Tryck nu på den högra halvan som passar.",
+      "pickLeft": "Tryck nu på den vänstra halvan som passar.",
+      "fit": "Ja, de två bildar {name|lower}.",
+      "apart": "De två passar inte ihop. Prova en annan.",
+      "all": "Alla bilder är hela.",
+      "shown": "Här är bilderna, ihopsatta.",
+      "show": "Visa mig",
+      "next": "En annan uppsättning"
+    },
+    "colorByNumber": {
+      "guidance": "Välj en färg från teckenförklaringen och fyll sedan en ruta med den. Vilken färg som helst går bra.",
+      "sizeLegend": "Rutnätets storlek",
+      "size": "{n} x {n}",
+      "keyLegend": "Färger",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grön",
+        "Lila"
+      ],
+      "motifs": {
+        "house": "ett hus",
+        "flower": "en blomma",
+        "heart": "ett hjärta",
+        "tree": "ett träd",
+        "boat": "en segelbåt",
+        "pot-plant": "en växt i kruka"
+      },
+      "region": "Bildrutnät, {n} x {n}. Det rullar åt sidan om skärmen är smal.",
+      "cell": "Nummer {number}, rad {row}, kolumn {column}, {color}",
+      "empty": "tom",
+      "chose": "Färgen {name} är vald. Tryck på en ruta för att fylla den.",
+      "painted": "{name} i rad {row}, kolumn {column}.",
+      "sheet": "Varje ruta har färgen för sin siffra. Det här är bilden på arket: {name}.",
+      "own": "Alla rutor är ifyllda. Det här är din egen bild.",
+      "fillAll": "Fyll i med siffrorna",
+      "filledAll": "Varje tom ruta har nu färgen för sin siffra.",
+      "clear": "Rensa",
+      "cleared": "Rutnätet är tomt.",
+      "next": "En annan bild",
+      "fresh": "Här är en ny bild att färglägga."
+    },
+    "patternMaker": {
+      "guidance": "Tryck på en ruta för att byta färg. Ditt mönster växer bredvid den. Inget du gör sparas eller skickas.",
+      "sizeLegend": "Brickans storlek",
+      "size": "{n} x {n}",
+      "keyLegend": "Färger, i den ordning en tryckning byter dem",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grön",
+        "Lila"
+      ],
+      "tileLabel": "Din bricka",
+      "region": "Din bricka, {n} x {n}. Den rullar åt sidan om skärmen är smal.",
+      "patternLabel": "Ditt mönster",
+      "pattern": "Ditt mönster: din bricka upprepad {n} gånger åt sidan och {n} gånger nedåt.",
+      "square": "Rad {row}, kolumn {column}, {color}",
+      "changed": "Rad {row}, kolumn {column} har nu färgen {color}.",
+      "cleared": "Brickan är tom. Du kan lägga tillbaka den.",
+      "surprise": "Överraska mig",
+      "surprised": "Här är en ny bricka. Du kan lägga tillbaka den gamla.",
+      "putBack": "Lägg tillbaka",
+      "restored": "Din bricka är tillbaka som den var.",
+      "print": "Skriv ut mitt mönster",
+      "sheetTitle": "Mitt mönster"
+    },
+    "buildTogether": {
+      "guidance": "Turas om att lägga en bit på en tom plats. Var och en av er har sin egen färg. Inget ni gör sparas eller skickas.",
+      "sizeLegend": "Rutnätets storlek",
+      "size": "{n} x {n}",
+      "people": [
+        "Första personen",
+        "Andra personen"
+      ],
+      "colorLegend": "Färg för {person}",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grön",
+        "Lila"
+      ],
+      "inUse": "Används",
+      "turn": "Din tur, {person|lower}",
+      "yourColor": "Din färg är {color|lower}.",
+      "built": "Byggt tillsammans. Det här är bilden ni skapade tillsammans.",
+      "gridLabel": "Det gemensamma rutnätet",
+      "region": "Det gemensamma rutnätet, {n} x {n}. Det rullar åt sidan om skärmen är smal.",
+      "cellEmpty": "Rad {row}, kolumn {column}, tom",
+      "cellFilled": "Rad {row}, kolumn {column}, {color}, lagd av {person|lower}",
+      "placed": "Rad {row}, kolumn {column} har nu färgen {color}. Din tur, {next|lower}.",
+      "placedLast": "Rad {row}, kolumn {column} har nu färgen {color}. Byggt tillsammans.",
+      "taken": "Rad {row}, kolumn {column} har redan en bit. Välj en tom plats.",
+      "pass": "Passa",
+      "passed": "Det är lugnt att passa. Din tur, {person|lower}.",
+      "takeBack": "Ta tillbaka den sista biten",
+      "takeBackPass": "Ta tillbaka passningen",
+      "tookBack": "Biten är tagen tillbaka. Din tur, {person|lower}.",
+      "tookBackPass": "Passningen är tagen tillbaka. Din tur, {person|lower}.",
+      "colorChanged": "{person} har nu färgen {color|lower}.",
+      "restarted": "Rutnätet är tomt. Din tur, {person|lower}.",
+      "print": "Skriv ut rutnätet",
+      "sheetTitle": "Bygg tillsammans",
+      "sheetHelp": "Turas om. I en tom ruta ritar var och en sin egen form med sin egen penna.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tryck på en bit och tryck sedan på platsen i bilden där den ska ligga. Inget du gör sparas eller skickas.",
+      "hints": "Visa hjälplinjerna",
+      "pictureLine": "Det här motivet är: {picture}.",
+      "pictures": {
+        "house": "hus",
+        "boat": "båt",
+        "tree": "träd",
+        "fish": "fisk",
+        "cat": "katt",
+        "rocket": "raket"
+      },
+      "outlineLabel": "Konturen av motivet: {picture}. Tryck på en plats för att lägga en vald bit i den.",
+      "trayHeading": "Bitarna",
+      "pieces": {
+        "large-triangle": "Stor triangel",
+        "small-triangle": "Liten triangel",
+        "square": "Kvadrat",
+        "parallelogram": "Parallellogram",
+        "rectangle": "Rektangel"
+      },
+      "shapes": {
+        "large-triangle": "en stor triangel",
+        "small-triangle": "en liten triangel",
+        "square": "en kvadrat",
+        "parallelogram": "ett parallellogram",
+        "rectangle": "en rektangel"
+      },
+      "chosenLabel": "Vald",
+      "spaceEmpty": "Plats {n}, {shape}, tom",
+      "spaceFilled": "Plats {n}, {shape}, har sin bit. Tryck för att ta tillbaka biten.",
+      "chosen": "Vald: {piece}. Tryck nu på en plats i bilden.",
+      "unchosen": "Biten är inte längre vald.",
+      "placed": "Biten ligger på plats {n}.",
+      "complete": "{picture} är klar.",
+      "different": "Den biten har en annan form än den här platsen. Prova en annan plats.",
+      "needPiece": "Välj först en bit från brickan.",
+      "filled": "På den platsen finns redan en bit. Tryck på den för att ta tillbaka biten.",
+      "tookBack": "Biten ligger tillbaka på brickan.",
+      "cleared": "Bitarna ligger tillbaka på brickan. Lägg tillbaka dem om du ändrar dig.",
+      "restored": "Bitarna ligger tillbaka i bilden.",
+      "next": "Den här är {picture}.",
+      "putBack": "Lägg tillbaka",
+      "another": "En annan form",
+      "print": "Skriv ut den här formen",
+      "sheetTitle": "Lugna former",
+      "sheetHow": "Färglägg bitarna, eller klipp ut dem så att de passar i konturen. En vuxen kan göra klippningen.",
+      "sheetPieces": "Bitarna, lika stora som konturen"
+    },
+    "picnicPlanner": {
+      "guidance": "Tryck på en bild för att lägga den i picknickkorgen, och tryck på den i korgen för att ta ut den. Korgen rymmer sex saker.",
+      "guidancePlay": "Tryck på två bilder som är likadana. Bilderna visas hela tiden, och ingenting tidtas.",
+      "basketHeading": "Vår korg",
+      "basketLabel": "Picknickkorgen",
+      "takeOut": "Ta ut {picture} ur korgen",
+      "inBasket": "I korgen",
+      "foodHeading": "Mat",
+      "outingsHeading": "Saker att göra",
+      "added": "{picture} ligger i korgen.",
+      "removed": "{picture} är inte längre i korgen.",
+      "already": "{picture} ligger redan i korgen. Tryck på den där för att ta ut den.",
+      "full": "Korgen är full. Ta ut något för att få plats.",
+      "summary": "Vår picknick: {list}.",
+      "summaryNone": "Det finns inget i korgen än.",
+      "and": "och",
+      "play": "Låt oss leka med vår picknick",
+      "needTwo": "Välj minst två saker först.",
+      "playAgain": "Spela igen",
+      "back": "Tillbaka till picknicken",
+      "print": "Skriv ut vår picknicklista",
+      "cleared": "Korgen är tom.",
+      "notice": "Det här är en plan att prata om. Ingenting tidtas, betygsätts eller sparas.",
+      "sheetTitle": "Vår picknicklista",
+      "sheetHow": "Bocka av varje sak när du packar den. Använd de tomma raderna för allt annat du vill ta med.",
+      "sheetToPack": "Att packa"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Välj två till tolv av dina egna foton för att börja boken.",
+      "guidance": "Bläddra i sidorna tillsammans, med knapparna eller piltangenterna vänster och höger. Lägg gärna till några ord under ett foto. Det du skapar sparas eller skickas inte.",
+      "lookGuidance": "Titta på varje sida tillsammans. Ni kan prata eller bara titta.",
+      "intro": "Välj två till tolv foton från den här enheten. Varje foto blir en sida i en bok som ni kan bläddra i tillsammans.",
+      "consent": "Använd dina egna familjefoton. Fråga först innan du använder ett foto på någon som inte kan säga ja.",
+      "privacy": "Dina foton stannar på den här enheten. De laddas inte upp eller sparas.",
+      "choose": "Välj foton",
+      "chooseDifferent": "Välj andra foton",
+      "backToBook": "Tillbaka till boken",
+      "backToChoose": "Tillbaka till fotoval",
+      "needTwo": "Välj minst två foton.",
+      "usingFirst": "Använder de första {max} fotona.",
+      "cleared": "Boken är tömd. Välj foton för att börja om.",
+      "moved": "Flyttad till sida {n}.",
+      "pageOf": "Sida {n} av {total}",
+      "lookTogether": "Titta tillsammans",
+      "leaveLook": "Tillbaka till boken",
+      "print": "Skriv ut fotoalbumet",
+      "clear": "Töm boken",
+      "bookLabel": "Familjens fotoalbum",
+      "pagesLabel": "Bläddra i sidorna",
+      "previous": "Föregående sida",
+      "next": "Nästa sida",
+      "moveEarlier": "Flytta tidigare",
+      "moveLater": "Flytta senare",
+      "captionLabel": "Några ord för den här sidan, om du vill",
+      "captionHelp": "Upp till 80 tecken. Bildtexterna sparas bara på den här sidan och försvinner när du stänger den.",
+      "sheetTitle": "Vårt fotoalbum",
+      "sheetHow": "Ett foto per sida, med orden under. Bläddra i ordning och prata om varje foto.",
+      "sheetEmpty": "Välj dina foton på spelsidan för att skriva ut ett eget album, eller skriv ut den här tomma sidan och klistra in ett utskrivet foto.",
+      "sheetFrame": "Klistra in ett utskrivet foto här",
+      "sheetWords": "Några ord för den här sidan",
+      "skipped": {
+        "one": "{n} fil var inte ett foto vi kan använda.",
+        "other": "{n} filer var inte foton vi kan använda."
+      }
+    },
+    "quietScene": {
+      "guidance": "Titta på en bild i taget. Tryck på Nästa eller Föregående när du är redo. Ingenting rör sig av sig självt.",
+      "next": "Nästa bild",
+      "previous": "Föregående bild",
+      "bigPicture": "Större bild",
+      "showEverything": "Visa allt",
+      "first": "Det här är den första bilden.",
+      "last": "Det här är den sista bilden.",
+      "lines": {
+        "sunrise": "Solen går upp över landskapet.",
+        "window-with-birds": "Fåglar utanför fönstret.",
+        "vase-of-flowers": "En vas med blommor på bordet.",
+        "teacup": "En kopp te vid fönstret.",
+        "tree": "Ett träd i trädgården.",
+        "sailboat": "En segelbåt på vattnet.",
+        "lighthouse": "Ett fyrtorn vid havet.",
+        "rainbow": "En regnbåge efter regnet.",
+        "moon": "Månen på natthimlen.",
+        "daisies": "En fläck med tusenskönor i gräset.",
+        "rowing-boat": "En roddbåt på stilla vatten.",
+        "potted-plant": "En grön växt i en kruka."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Turas om. Tryck på en utskuren bit och tryck sedan på en tom plats för att lägga den där. Det du skapar sparas eller skickas inte.",
+      "people": [
+        "Första personen",
+        "Andra personen"
+      ],
+      "marks": [
+        "en cirkel",
+        "en kvadrat"
+      ],
+      "turn": "Din tur, {person|lower}.",
+      "marked": "Dina bitar är märkta med {mark}.",
+      "boardLabel": "Den gemensamma tavlan",
+      "placeEmpty": "Plats {n}, tom",
+      "placeFilled": "Plats {n}, {picture|lower}, lagd av {person|lower}",
+      "trayHeading": "De utskurna bitarna",
+      "chosenLabel": "Vald",
+      "chosen": "{picture} är vald. Tryck nu på en tom plats.",
+      "unchosen": "Den utskurna biten är inte längre vald.",
+      "needCutout": "Välj först en utskuren bit och tryck sedan på en tom plats.",
+      "filled": "Plats {n} har redan en bild. Välj en tom plats.",
+      "placed": "{picture} ligger på plats {n}. Din tur, {next|lower}.",
+      "full": "Alla platser har en bild. Ta tillbaka en för att ändra, eller börja om.",
+      "pass": "Passa",
+      "passed": "Det är okej att passa. Din tur, {person|lower}.",
+      "takeBack": "Ta tillbaka den senaste biten",
+      "takeBackPass": "Ta tillbaka passningen",
+      "tookBack": "Biten är tillbaka. Din tur, {person|lower}.",
+      "tookBackPass": "Passningen är borta. Din tur, {person|lower}.",
+      "restarted": "Tavlan är tom. Din tur, {person|lower}.",
+      "putBack": "Lägg tillbaka",
+      "putBackDone": "Bitarna ligger tillbaka på tavlan.",
+      "another": "En annan uppsättning bilder",
+      "anotherSet": "En ny uppsättning utskurna bilder ligger på brickan. Bitarna på tavlan ligger kvar där de är.",
+      "print": "Skriv ut tavlan",
+      "sheetTitle": "Kollagetavla",
+      "sheetHow": "Klipp ut bilderna och turas om att lägga dem på tavlan. En vuxen kan göra klippningen.",
+      "sheetTray": "Bilderna att klippa ut"
+    },
+    "gardenPlanner": {
+      "guidance": "Tryck på en bild och tryck sedan på en bädd för att lägga den där. Tryck på en bädd som har en bild, utan att något är valt, för att tömma den.",
+      "bedsLabel": "Trädgårdsbäddarna",
+      "bedEmpty": "Bädd {n}, tom",
+      "bedFilled": "Bädd {n}, {picture|lower}",
+      "plantsHeading": "Växter",
+      "extrasHeading": "Extra i trädgården",
+      "chosenLabel": "Vald",
+      "chosen": "{picture} är vald. Tryck nu på en bädd.",
+      "unchosen": "Ingen bild är vald.",
+      "needPicture": "Välj en bild först och tryck sedan på en bädd.",
+      "planted": "{picture} ligger i bädd {n}.",
+      "replaced": "{picture} tar platsen för bilden i bädd {n}.",
+      "cleared": "Bädd {n} är tom. Lägg tillbaka bilden om du vill ha den igen.",
+      "restarted": "Alla bäddar är tomma.",
+      "putBack": "Lägg tillbaka",
+      "putBackDone": "Bilderna är tillbaka i sina bäddar.",
+      "summaryHeading": "Min trädgård",
+      "summary": "Din plan har {list}.",
+      "summaryNone": "Ingen bild ligger i en bädd än.",
+      "and": "och",
+      "print": "Skriv ut planen",
+      "sheetTitle": "Vår trädgårdsplan",
+      "sheetHow": "Bäddarna visar bilderna som valts på skärmen. Rita gärna i de tomma bäddarna.",
+      "sheetNotes": "Anteckningar",
+      "notice": "Det här är en bildplan att prata om, inte råd om växtodling."
+    },
+    "coloringWall": {
+      "guidance": "Välj en bild och hur många sidor du vill ha. Skriv ut väggen, så att var och en färglägger en eller flera sidor. Ingenting tidtas, poängsätts eller sparas.",
+      "pictureLegend": "Bild",
+      "sizeLegend": "Hur många sidor",
+      "sizes": {
+        "2x2": "4 sidor (2 gånger 2)",
+        "3x2": "6 sidor (3 gånger 2)",
+        "3x3": "9 sidor (3 gånger 3)"
+      },
+      "previewLabel": "Bilden av {picture|lower} delad i {n} sidor, {across} i bredd och {down} i höjd. Varje sida har en etikett i hörnet.",
+      "previewCaption": "Bilden med sidlinjerna och etiketterna ritade på.",
+      "labelsNote": "Bokstäverna går nedåt på väggen och siffrorna går i sidled, så A1 är sidan längst upp till vänster.",
+      "wallHeading": "Så sätter du ihop väggen",
+      "steps": [
+        "Skriv ut alla sidor. Den första sidan är de här stegen och en karta över väggen.",
+        "Var och en tar en eller flera sidor och färglägger dem.",
+        "Färgerna och stilarna behöver inte matcha. Varje sida är en del av samma bild.",
+        "Lägg ut sidorna efter deras etiketter och tejpa sedan ihop dem på baksidan.",
+        "Sätt upp väggen där alla kan se den."
+      ],
+      "mapLabel": "En karta över väggen: {down} rader med {across} sidor, märkta från A1 till {last}.",
+      "edgeNote": "Den streckade linjen visar kanten på varje sida. Lägg sidorna kant mot kant längs den, eller låt dem överlappa lite.",
+      "pictureLine": "Bild: {picture}. Den här väggen är {n} sidor: {across} i bredd och {down} i höjd.",
+      "print": "Skriv ut väggen"
+    },
+    "findTogether": {
+      "guidance": "Turas om. När det är din tur vänder du två kort för att leta efter ett par. Hitta paren tillsammans.",
+      "sizeLegend": "Hur många kort",
+      "size": "{n} kort",
+      "viewLegend": "Så spelar du",
+      "viewShowing": "Spela med bilderna synliga",
+      "viewHidden": "Korten med baksidan upp",
+      "people": [
+        "Första personen",
+        "Andra personen"
+      ],
+      "turn": "Tur: {person}",
+      "turnDone": "Alla par är hittade.",
+      "tally": "Par hittade tillsammans: {n}",
+      "cardNamed": "{name}, kort {n}",
+      "cardFaceDown": "Kort {n}, med baksidan upp",
+      "first": "{name}. Vänd nu ett andra kort.",
+      "found": "{name}: ett par, hittat tillsammans. Nu har {next|lower} turen.",
+      "allTogether": "Ni hittade alla par tillsammans.",
+      "different": "{a} och {b} är olika. Ta din tid och tryck sedan på Vänd tillbaka dem.",
+      "waiting": "Tryck på Vänd tillbaka dem när du är redo. Då går turen vidare.",
+      "turnedBack": "Vänd tillbaka. Nu har {person|lower} turen.",
+      "passed": "Det är helt okej att passa. Nu har {person|lower} turen.",
+      "turnBack": "Vänd tillbaka dem",
+      "pass": "Passa",
+      "playAgain": "Spela igen"
+    },
+    "drawingDuet": {
+      "guidance": "Turas om med en linje var, och lämna sedan pennan vidare. Vem som helst får passa. Ingenting skickas någonstans. En bild lämnar den här sidan bara om du sparar den.",
+      "people": [
+        "Första personen",
+        "Andra personen"
+      ],
+      "colorLegend": "Färg för {person}",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grön",
+        "Lila"
+      ],
+      "turn": "Tur för {person}",
+      "penColor": "Pennfärg: {color}.",
+      "canvasLabel": "Gemensam teckning, {n} linjer hittills",
+      "canvasLabelOne": "Gemensam teckning, {n} linje hittills",
+      "keys": "Piltangenterna flyttar pennprickan på teckningen. Mellanslag sänker eller lyfter pennan.",
+      "penDown": "Sänk pennan",
+      "penUp": "Lyft pennan",
+      "pass": "Lämna pennan vidare",
+      "passed": "Det är helt okej att passa. Nu har {person|lower} turen.",
+      "takeBack": "Ta tillbaka min senaste linje",
+      "tookBack": "Den senaste linjen från {person|lower} tas tillbaka.",
+      "noLine": "Det finns ingen linje från {person|lower} att ta tillbaka.",
+      "restarted": "Arket är tomt. Första personen har turen. Lägg tillbaka det om du inte menade det.",
+      "putBack": "Lägg tillbaka",
+      "restored": "Linjerna är tillbaka som de var.",
+      "save": "Spara bilden",
+      "saved": "Din bild är klar. Använd nedladdningslänken för att spara den på den här enheten.",
+      "download": "Ladda ner drawing-duet.png",
+      "print": "Skriv ut pappersversionen",
+      "sheetTitle": "Teckningsduett",
+      "paperRules": "Två personer, ett ark, två pennor. Turas om: en linje eller form var, och lämna sedan pennan vidare. Vem som helst får passa. Det finns ingen rätt bild."
+    },
+    "colorWash": {
+      "guidance": "Måla mjuk färg över sidan, ett lager i taget. Lyft penseln för att stanna, och sluta när du vill. Ingenting sparas eller skickas.",
+      "colorLegend": "Lagerfärg",
+      "sizeLegend": "Penselstorlek",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grön",
+        "Lila"
+      ],
+      "sizes": {
+        "wide": "Bred",
+        "veryWide": "Mycket bred"
+      },
+      "color": "Lagerfärg: {color}.",
+      "brushDown": "Sänk penseln",
+      "brushUp": "Lyft penseln",
+      "keys": "Piltangenterna flyttar penselringen på sidan. Mellanslag sänker eller lyfter penseln.",
+      "canvasLabel": "En sida med mjuka färglager",
+      "fresh": "En ny sida",
+      "freshMessage": "En ny sida.",
+      "putBack": "Lägg tillbaka",
+      "restored": "Sidan är tillbaka."
+    },
     "sortTogether": {
       "guidance": "Tryck på en bild och sedan på korgen som den hör hemma i.",
       "restart": "Nya bilder",
@@ -71,6 +719,10 @@
       "hint": "Bilden ”{name|lower}” kan hamna i ”{basket}”. Tryck på den korgen för att lägga den där.",
       "placed": "Bilden ”{name|lower}” ligger i ”{basket}”.",
       "sorted": "Allt är sorterat. Titta igenom korgarna tillsammans, eller prova ett annat tema.",
+      "largerTargets": "Större mål",
+      "largerOn": "Större mål är på. Inget har flyttats.",
+      "largerOff": "Större mål är av. Inget har flyttats.",
+      "largerOnNewRound": "Större mål är på, med två korgar. Här är nya bilder att sortera.",
       "basket": {
         "one": "Korgen {basket}, {count} bild i",
         "other": "Korgen {basket}, {count} bilder i"
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Hela bilden: {name}",
       "guideText": "Så här ser bilden ut när den är hel.",
+      "ownChoose": "Använd ditt eget foto",
+      "ownChange": "Välj ett annat foto",
+      "ownBack": "Tillbaka till våra bilder",
+      "ownPrivacy": "Ditt foto stannar på den här enheten. Det laddas inte upp och sparas inte.",
+      "ownConsent": "Använd dina egna foton. Fråga först innan du använder ett foto på någon som inte kan säga ja.",
+      "ownWorking": "Gör ditt foto redo.",
+      "ownNotUsable": "Filen gick inte att använda. Välj en bildfil, till exempel en JPEG eller PNG.",
+      "ownAlt": "Ditt foto",
+      "ownPiece": "Bit {n}, {place}",
+      "ownWhole": "Ditt foto är hel igen. Blanda om den när du vill.",
+      "ownSheetTitle": "Ditt foto i bitar",
+      "ownSheetHow": "Klipp längs linjerna. Blanda bitarna och byt plats på två bitar i taget tills bilden är hel.",
       "piece": "Bit {place}",
       "pieceInPlace": ", på rätt plats",
       "piecePickedUp": ", upplockad",
@@ -190,6 +854,14 @@
       "guidance": "Läs kortet högt. Det finns inga rätta svar.",
       "position": "Kort {n} av {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Visa ett samtalsförslag",
+      "bigPicture": "Stor bild, för en grupp",
+      "passNote": "Vem som helst får passa.",
+      "groupTitle": "Kortet skickas runt i en grupp",
+      "groupSit": "Sitt i en cirkel där alla kan se bilden. Personen som håller i kortet, eller enheten med den stora bilden, läser upp förslaget högt först.",
+      "groupPass": "Skicka sedan kortet vidare till nästa person. Var och en säger ett ord eller en mening om bilden och skickar det sedan vidare.",
+      "groupNoSpeech": "Att skicka kortet vidare är alltid tillåtet. Man får passa utan att säga något, och ingen behöver säga varför.",
+      "groupEnd": "Rundan är slut när kortet har gått runt cirkeln eller när gruppen har fått nog. Ingen vinner. Du kan sluta när som helst gruppen vill.",
       "next": "Nästa kort",
       "previous": "Föregående kort",
       "print": "Skriv ut alla kort",
@@ -252,6 +924,20 @@
       "started": "Startad. Andas in när cirkeln växer.",
       "stopped": "Stoppad.",
       "finished": "Det var sex långsamma andetag. Starta igen när du vill."
+    },
+    "storyChain": {
+      "guidance": "Turas om: en mening var, och lägg till nästa bild.",
+      "passNote": "Säg din mening högt. Inget skrivs eller sparas. Vem som helst får hoppa över.",
+      "chainLabel": "Kedjan hittills",
+      "item": "Bild {n}: {name}",
+      "add": "Lägg till en bild",
+      "fullAdd": "Kedjan är full. Starta en ny kedja",
+      "newChain": "Starta en ny kedja",
+      "takeOff": "Ta bort den sista",
+      "added": "Bilden {name|lower} ligger nu sist i kedjan.",
+      "removed": "Bilden {name|lower} är borttagen från kedjan.",
+      "fresh": "En ny kedja, som börjar med bilden {name|lower}.",
+      "full": "Kedjan har alla åtta bilder. Berätta hela historien, eller starta en ny kedja."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Regnmoln",
     "snowflake": "Snöflinga",
     "kite": "Drake",
-    "sunrise": "Soluppgång över kullarna"
+    "sunrise": "Soluppgång över kullarna",
+    "decorated-keepsake-box": "Minneslåda med dekorationer",
+    "painted-plant-pot": "Blomkruka med örter, målad",
+    "repeating-pattern-sheet": "Ark med upprepade mönster",
+    "music-drawn-lines": "Linjer ritade till musik",
+    "paper-boat-afloat": "Pappersbåt på vattnet",
+    "folded-towel-stack": "Hög med vikta handdukar",
+    "hand-massage-with-lotion": "Hand på handduk med lotion",
+    "open-photo-album": "Öppet fotoalbum",
+    "button-flower-card": "Kort med knappblomma",
+    "blue-torn-paper-collage": "Collage av blått, rivet papper",
+    "family-tree-of-hands": "Släktträd av händer",
+    "open-greeting-card": "Öppet hälsningskort med hjärta",
+    "lavender-sachet": "Doftpåse med lavendel och band",
+    "memory-collage-of-photos": "Collage av familjefoton",
+    "paper-chain-garland": "Girlang av pappersringar",
+    "open-songbook-with-notes": "Öppen sångbok med noter",
+    "photo-postcard-with-stamp": "Fotopostkort med frimärke",
+    "pine-cone-bird-feeder": "Fågelmatare av kotte, hängande på en gren",
+    "playlist-phone-and-card": "Spellista i telefon och sångkort",
+    "sealed-rice-shaker": "Skakbehållare med ris, förseglad",
+    "texture-board-with-scraps": "Strukturtavla med tygrester",
+    "painted-garden-stone": "Sten till trädgården, målad",
+    "shared-painted-canvas": "Duk, målad tillsammans",
+    "watercolor-washes-sheet": "Ark med vattenfärgslavyr",
+    "seedling-in-pot": "Småplantor i kruka",
+    "pressed-leaves-in-book": "Löv, pressade i en bok",
+    "printed-leaves-sheet": "Ark med bladavtryck",
+    "pinch-pot-clay-bowl": "Klämkopp av lera",
+    "table-sketch-pencil": "Blyertsskiss av mugg",
+    "buttons-in-muffin-tin": "Knappar sorterade i en muffinsplåt",
+    "family-recipe-book": "Familjens receptbok",
+    "drum-with-beat-marks": "Bordstrumma med trumpinnar",
+    "torn-paper-flower": "Blommosaik av rivet papper",
+    "window-with-birds": "Fönster med fåglar",
+    "woven-paper-mat": "Matta av vävt papper",
+    "yarn-ball-with-thread": "Nystan med garn",
+    "letter-and-envelope": "Brev i kuvert"
   },
   "illustrations": {
     "rocking-chair": "Gungstol",
@@ -442,368 +1165,6 @@
     "pocket-watch": "Fickur"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Borta bra, men hemma",
-        "end": "bäst",
-        "others": [
-          "finast",
-          "tryggast"
-        ],
-        "prompt": "Vad gör att en plats känns som hemma för dig?"
-      },
-      {
-        "start": "Bättre sent än",
-        "end": "aldrig",
-        "others": [
-          "tidigt",
-          "sällan"
-        ],
-        "prompt": "Vad är något du började med senare i livet och trivdes med?"
-      },
-      {
-        "start": "Morgonstund har guld i",
-        "end": "mun",
-        "others": [
-          "hand",
-          "sol"
-        ],
-        "prompt": "Är du en morgonmänniska eller en kvällsmänniska?"
-      },
-      {
-        "start": "Lika barn leka",
-        "end": "bäst",
-        "others": [
-          "ofta",
-          "gärna"
-        ],
-        "prompt": "Vad tyckte du och dina närmaste vänner om att göra tillsammans?"
-      },
-      {
-        "start": "Man ska inte ropa hej förrän man är över",
-        "end": "bäcken",
-        "others": [
-          "backen",
-          "bron"
-        ],
-        "prompt": "Har du någon gång gått över en bäck på stenar eller en liten bro?"
-      },
-      {
-        "start": "Många bäckar små gör en stor",
-        "end": "å",
-        "others": [
-          "sjö",
-          "flod"
-        ],
-        "prompt": "Vad tycker du om att göra vid vatten?"
-      },
-      {
-        "start": "Rom byggdes inte på en",
-        "end": "dag",
-        "others": [
-          "vecka",
-          "natt"
-        ],
-        "prompt": "Vad är något som du arbetade länge med och blev nöjd med?"
-      },
-      {
-        "start": "Man ska inte döma hunden efter",
-        "end": "håren",
-        "others": [
-          "svansen",
-          "färgen"
-        ],
-        "prompt": "Har du känt en hund som var snällare än den såg ut?"
-      },
-      {
-        "start": "Ingen rök utan",
-        "end": "eld",
-        "others": [
-          "ved",
-          "spis"
-        ],
-        "prompt": "Vad tycker du om med en brasa eller en kamin?"
-      },
-      {
-        "start": "Tala är silver, tiga är",
-        "end": "guld",
-        "others": [
-          "brons",
-          "koppar"
-        ],
-        "prompt": "Vilka stunder tycker du om när det är alldeles tyst?"
-      },
-      {
-        "start": "Äpplet faller inte långt från",
-        "end": "trädet",
-        "others": [
-          "gården",
-          "backen"
-        ],
-        "prompt": "Vad har du ärvt eller lärt dig av din familj?"
-      },
-      {
-        "start": "Allt är inte guld som",
-        "end": "glimmar",
-        "others": [
-          "skiner",
-          "brinner"
-        ],
-        "prompt": "Vad är något vackert som du har hittat på ett oväntat ställe?"
-      },
-      {
-        "start": "Där det finns vilja finns det en",
-        "end": "väg",
-        "others": [
-          "dag",
-          "stig"
-        ],
-        "prompt": "Vad är något som du ansträngde dig för att få till?"
-      },
-      {
-        "start": "Som man bäddar får man",
-        "end": "ligga",
-        "others": [
-          "sova",
-          "vila"
-        ],
-        "prompt": "Hur gillar du att ha det i din säng, med många kuddar eller få?"
-      },
-      {
-        "start": "Kärt barn har många",
-        "end": "namn",
-        "others": [
-          "vänner",
-          "kramar"
-        ],
-        "prompt": "Har du något smeknamn, eller någon som har ett?"
-      },
-      {
-        "start": "Små grytor har också",
-        "end": "öron",
-        "others": [
-          "lock",
-          "handtag"
-        ],
-        "prompt": "Vilken gryta eller maträtt lagades oftast hemma hos dig?"
-      },
-      {
-        "start": "Bättre en fågel i handen än tio i",
-        "end": "skogen",
-        "others": [
-          "trädet",
-          "luften"
-        ],
-        "prompt": "Vilka fåglar tycker du om att se eller höra?"
-      },
-      {
-        "start": "Efter regn kommer",
-        "end": "solsken",
-        "others": [
-          "dimma",
-          "blåst"
-        ],
-        "prompt": "Vad tycker du om att göra när solen kommer fram efter regn?"
-      },
-      {
-        "start": "Hastverk är",
-        "end": "lastverk",
-        "others": [
-          "hantverk",
-          "konstverk"
-        ],
-        "prompt": "Vad är något som du gjorde med egna händer?"
-      },
-      {
-        "start": "Lagom är",
-        "end": "bäst",
-        "others": [
-          "störst",
-          "vackrast"
-        ],
-        "prompt": "Vad är lagom för dig, när det gäller kaffe, sötma eller värme?"
-      },
-      {
-        "start": "Den som bor i glashus ska inte kasta",
-        "end": "sten",
-        "others": [
-          "snö",
-          "bollar"
-        ],
-        "prompt": "Har du någon gång byggt något av glas, som ett växthus?"
-      },
-      {
-        "start": "Man får ta seden dit man",
-        "end": "kommer",
-        "others": [
-          "reser",
-          "går"
-        ],
-        "prompt": "Vilken sed eller tradition tycker du om att fira?"
-      },
-      {
-        "start": "Alla goda ting är",
-        "end": "tre",
-        "others": [
-          "två",
-          "fyra"
-        ],
-        "prompt": "Vilka tre saker tycker du bäst om en vanlig dag?"
-      },
-      {
-        "start": "Man lär så länge man",
-        "end": "lever",
-        "others": [
-          "vill",
-          "reser"
-        ],
-        "prompt": "Vad är något du har lärt dig av någon i din närhet?"
-      },
-      {
-        "start": "Ingen ros utan",
-        "end": "törnen",
-        "others": [
-          "doft",
-          "blad"
-        ],
-        "prompt": "Vilka blommor tycker du om att ha i en vas?"
-      },
-      {
-        "start": "Det som göms i snö kommer fram vid",
-        "end": "tö",
-        "others": [
-          "sol",
-          "regn"
-        ],
-        "prompt": "Vad tycker du om med våren när snön smälter?"
-      },
-      {
-        "start": "Alla vägar bär till",
-        "end": "Rom",
-        "others": [
-          "stan",
-          "havet"
-        ],
-        "prompt": "Vilken plats skulle du vilja resa till, eller tyckte du om att besöka?"
-      },
-      {
-        "start": "Den som väntar på något gott väntar aldrig för",
-        "end": "länge",
-        "others": [
-          "kort",
-          "mycket"
-        ],
-        "prompt": "Vad är något gott som du gärna väntar på?"
-      },
-      {
-        "start": "En svala gör ingen",
-        "end": "sommar",
-        "others": [
-          "vår",
-          "dag"
-        ],
-        "prompt": "Vilka är de första tecknen på sommar för dig?"
-      },
-      {
-        "start": "Man ska inte kasta ut barnet med",
-        "end": "badvattnet",
-        "others": [
-          "tvålen",
-          "handduken"
-        ],
-        "prompt": "Hur badade ni hemma när du var liten?"
-      },
-      {
-        "start": "Man kan slå två flugor i en",
-        "end": "smäll",
-        "others": [
-          "hand",
-          "burk"
-        ],
-        "prompt": "Vad är något som du fick gjort tillsammans med något annat?"
-      },
-      {
-        "start": "Den som skrattar sist skrattar",
-        "end": "bäst",
-        "others": [
-          "mest",
-          "högst"
-        ],
-        "prompt": "Vem får dig alltid att skratta?"
-      },
-      {
-        "start": "Många kockar förstör",
-        "end": "soppan",
-        "others": [
-          "köket",
-          "maten"
-        ],
-        "prompt": "Vilken soppa tycker du om att äta?"
-      },
-      {
-        "start": "Den som ger sig in i leken får leken",
-        "end": "tåla",
-        "others": [
-          "älska",
-          "lära"
-        ],
-        "prompt": "Vilken lek eller vilket spel tyckte du om som barn?"
-      },
-      {
-        "start": "Allt har sin",
-        "end": "tid",
-        "others": [
-          "plats",
-          "dag"
-        ],
-        "prompt": "Vad tycker du om att göra på en lugn söndag?"
-      },
-      {
-        "start": "Bakom molnen är himlen alltid",
-        "end": "blå",
-        "others": [
-          "ljus",
-          "stor"
-        ],
-        "prompt": "Vad är en liten sak som gör dig glad en grå dag?"
-      },
-      {
-        "start": "Man kan inte få både i pose och",
-        "end": "säck",
-        "others": [
-          "låda",
-          "korg"
-        ],
-        "prompt": "Vad tycker du om att ha i en korg, till exempel vid en utflykt?"
-      },
-      {
-        "start": "Det tjänar ingenting till att gråta över spilld",
-        "end": "mjölk",
-        "others": [
-          "soppa",
-          "saft"
-        ],
-        "prompt": "Vad dricker du helst till en god kaka?"
-      },
-      {
-        "start": "Gräset är alltid grönare på andra",
-        "end": "sidan",
-        "others": [
-          "kullen",
-          "kanten"
-        ],
-        "prompt": "Hur såg trädgården ut där du växte upp?"
-      },
-      {
-        "start": "Man ska smida medan järnet är",
-        "end": "varmt",
-        "others": [
-          "kallt",
-          "tungt"
-        ],
-        "prompt": "Har du sett en smed arbeta, eller gjort något med verktyg?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABCDEFGHIKLMNOPRSTUVYÅÄÖ",
@@ -1229,6 +1590,17 @@
             "På resa"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Frukt",
+        "animals": "Djur",
+        "travel": "Sätt att resa",
+        "flowers": "Blommor",
+        "hot-drinks": "Saker till en varm dryck",
+        "weather": "Sorters väder",
+        "baked": "Saker som bakas i ugn"
       }
     }
   }

@@ -5,6 +5,13 @@
       "stopReading": "Dartin jannge",
       "region": "Fijirde",
       "restart": "Fuɗɗito",
+      "rest": "Ardu jooni",
+      "restingTitle": "Ardugo",
+      "restingText": "Ɗaɓɓi wakkati ɗe ndaaru ɗon hokka. Hoore maa wonata e ngal ɗerewol.",
+      "resume": "Ƴiɗɗo",
+      "placeText": "Hannde a ɓukkitaa e wakkati ɗum. Ƴiɗɗo fuu ɗon, walla fuɗɗo kesum.",
+      "placeResume": "Ƴiɗɗo",
+      "placeFresh": "Fuɗɗo kesum",
       "soundOn": "Huɓɓu daande ɗoyyunde",
       "soundOff": "Ñif daande ɗoyyunde",
       "done": "Yoni jooni",
@@ -43,7 +50,19 @@
       "viewShowing": "Nate peeñɗe",
       "viewHidden": "Nate cuuɗiiɗe",
       "playAgain": "Fijitee kadi e nate kese",
-      "talk": "Yeewtidee e ko fayti e nate ɗee"
+      "talk": "Yeewtidee e ko fayti e nate ɗee",
+      "modeLegend": "Ɗereeji ɗee",
+      "modePlay": "Ɗereeji fuu",
+      "modeDaily": "Kaɗɗe hannde",
+      "dayLegend": "Nyalaa ɗee",
+      "dayHelp": "Ɓesɗe fuu ɗereeji ɗeen ɗon nyalaa mo ɗo. Nyalaa ɗe ɓuri ɗon hoore, e alaa ɗum ɗo ngaɗa kuɗe gaɗa.",
+      "guidanceDaily": "Kaɗɗe hannde ɗon ɗuula nay. Tokku ɗereeji, e tokku ɗo ɗo ɗo ɗo ɗereeji ɗum.",
+      "restartDaily": "Fuɗɗo kaɗɗe ngal kesum",
+      "copy": "Ɗaɓɓi ɗum ɗereewol",
+      "copied": "Ɗaɓɓaama. Alaa ɗum ɗo ɗo ɗo ndaarata.",
+      "calendarTitle": "Kaɗɗe nyalaa {month}",
+      "calendarHelp": "Nyalaa kala ɗon ɗereeji nay ɗeen fuu ɓesɗe. Alaa ɗum ɗo lukkaaɗo, e alaa nyalaa ɗo ɗuuɗaa kuɗe.",
+      "calendarVersion": "Ɓeɗɗe {date}. Ɗereeji ɗeen ɗon ɗee fuu ɓesɗe nyalaa mo ɗo."
     },
     "choose": {
       "countLegend": "No nate ɗee poti",
@@ -62,6 +81,635 @@
       "shadowAlt": "Ɗowdi ngam hawritde",
       "foundAlt": "Ɗowdi {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Ɓaawɗi",
+      "hintOn": "Ɓaawɗi, to ɓukkitaa wakkati seɗɗi",
+      "hintOff": "Alaa ɓaawɗi",
+      "guidance": "Find the {n} pictures that go together, and tap each one.",
+      "countLegend": "Ɗereeji ɗuuɗe ɗee",
+      "count": "Ɗereeji {n}",
+      "found": "Ƴeeso, {name|lower} ɗon ɗuula ngal.",
+      "elsewhere": "{name|lower} ɗon ɗuula e ɗum goɗɗum. Ɗaɓɓi wakkati.",
+      "hint": "Ɓaawɗi: ɗaɓɓi {theme|lower}.",
+      "together": "Ɗon ɗuula ɗee: {theme}.",
+      "shown": "Ɗuula ngal ɗon: {theme}.",
+      "groupName": "Ɗuula: {theme}",
+      "show": "Hollu ɗuula",
+      "next": "Ɗuula goɗɗo"
+    },
+    "oddOneOut": {
+      "hintLegend": "Ɓaawɗi",
+      "hintOn": "Ɓaawɗi, to ɓukkitaa wakkati seɗɗi",
+      "hintOff": "Alaa ɓaawɗi",
+      "guidance": "Ɗaɓɓi ɗereeji ɗo ɗon ɗuula e ɗereeji ɓe, e tokku ɗo.",
+      "countLegend": "Ɗereeji ɗuuɗe ɗee",
+      "count": "Ɗereeji {n}",
+      "belongs": "{name|lower} ɗon ɗuula e ɗereeji ɓe. Ɗaɓɓi wakkati.",
+      "found": "Ƴeeso, {name|lower} ɗon ɗo goɗɗo. Ɗereeji ɓe ɗon {theme|lower}.",
+      "shown": "Ngal ɗon: {name|lower}. Ɗereeji ɓe ɗon {theme|lower}.",
+      "hint": "Ɓaawɗi: {n} nder ɗee ɗon {theme|lower}.",
+      "others": "Ɗereeji ɓe: {theme}",
+      "show": "Hollu mi",
+      "next": "Ɗuula goɗɗo"
+    },
+    "seatedToss": {
+      "guidance": "Sit at a table and take turns tossing a soft bean bag into the big target. Keep the tally on paper, together.",
+      "stepsHeading": "Ɗum ɗon ɗaɓɓi",
+      "steps": [
+        "Print the target and tally sheet, and lay it flat on the table between you.",
+        "Sit comfortably, one on each side. Take turns with one gentle toss each, or pass if you would rather not.",
+        "When a toss lands in a ring, the person who tossed ticks one box in their column, on the row for that ring.",
+        "Look at the ticks together when you stop, if you like. Nobody has to add anything up.",
+        "Ɓukkitee to ɗo ɗo yiɗɗaa."
+      ],
+      "safetyHeading": "Hakkilo",
+      "safetyLine": "Use only a bag with a sewn-shut cover or a rolled-up sock, stay seated, never toss toward a face, and keep an adult nearby. Small parts are a choking hazard.",
+      "flags": [
+        "Alaa ɗo keɗɗe 3: ɗereeji ɓuɓɓe",
+        "Tokkitee ɗo funɗe"
+      ],
+      "safety": [
+        "Choose a bean bag with a sewn-shut cover, or roll up a clean sock. Check it first for holes or loose stitches, so no filling can come out.",
+        "Beans, rice and other small fillings are a choking hazard. Keep them away from young children and from anyone who puts things in their mouth.",
+        "Stay within arm's reach and supervise closely if anything might be put in the mouth.",
+        "Stay seated. Toss gently and low toward the target on the table, never toward a face."
+      ],
+      "previewLabel": "The printed sheet: a target of three rings named Near, Middle and Far, from the outside in, and a tally with a column for each person and a row of empty boxes for each ring.",
+      "sheetHow": "Lay the sheet flat between you. When a toss lands in a ring, tick a box in your column, on that ring's row.",
+      "rings": [
+        "Ɓannde",
+        "Tokkoore",
+        "Ɗaaɗi"
+      ],
+      "people": [
+        "Ɓesɗo ɗimo",
+        "Ɓesɗo ɗiɗo"
+      ],
+      "ringHeading": "Ɗo",
+      "print": "Printa ɗo ɗo ɗo e daftaru ɗo ɗo"
+    },
+    "seasonalPack": {
+      "guidance": "Suɓo nyalaa, printa ɗereeji ɗi tati ɗo, e ɗaɓɓi goɗɗo, ɗiɗo walla tati fuu e fuu.",
+      "monthLegend": "Suɓo nyalaa",
+      "months": [
+        "Sanvi",
+        "Fewriyee",
+        "Mars",
+        "Awril",
+        "Me",
+        "Yuŋ",
+        "Yulyet",
+        "Ut",
+        "Sitanbar",
+        "Oktoobar",
+        "Noowanbar",
+        "Desanbar"
+      ],
+      "monthNote": "Nyalaa kala ɗon ɗereeji ɗee ɗe. Ɗo ɗo ɗo nyalaa ngal, e suɓo nyalaa goɗɗo ko yiɗɗaa.",
+      "restDay": "Hannde ɗo ardu",
+      "restLine": "Alaa ɗereeji hannde. Ardu ɗum ɗo ɗo ɗo kadi.",
+      "previewHeading": "Ɗereeji tati",
+      "puzzles": {
+        "pairs": {
+          "title": "Ɗaɓɓe ɗereeji ɗi ɗuula",
+          "how": "Draw a line from each picture in the top row to the same picture in the bottom row.",
+          "describe": "Two rows of the same four pictures, in a different order."
+        },
+        "different": {
+          "title": "Ko goɗɗo ɗon?",
+          "how": "Circle the picture that is different from the other three.",
+          "describe": "A row of four pictures. Three are the same, and one is different."
+        },
+        "color": {
+          "title": "Ɓaɓɓe ɗum",
+          "how": "Color the picture however you like, with crayons or pencils.",
+          "describe": "Ɗereeji mawɗo goɗɗo ɗo ɓaɓɓe."
+        }
+      },
+      "print": "Printa paki nyalaa ngal",
+      "sheetHow": "Print one page. Do one, two or all three puzzles, in any order.",
+      "printFooter": "Ɗaɓɓi goɗɗo, ɗiɗo walla tati. Ɓukkitee to ɗo yiɗɗaa."
+    },
+    "decorateACard": {
+      "guidance": "Choose an occasion, then decorate a card together with crayons or pens. There is no right card.",
+      "occasionLegend": "Suɓo ɗo ɗo ɗo",
+      "occasions": {
+        "birthday": {
+          "label": "Nyalaa jowoyaɗo",
+          "words": "Nyalaa jowoyaɗo jam"
+        },
+        "thank-you": {
+          "label": "Jaaraama",
+          "words": "Jaaraama"
+        },
+        "thinking-of-you": {
+          "label": "Mi hakkilo maa",
+          "words": "Mi hakkilo maa"
+        },
+        "new-season": {
+          "label": "Ndabbere kesum",
+          "words": "Ndabbere kesum"
+        },
+        "just-because": {
+          "label": "Alaa sabu",
+          "words": "Alaa sabu"
+        }
+      },
+      "stepsHeading": "Ɗum ɗon ɓaɓɓe kaɗɗe e ɗo ɗo",
+      "steps": {
+        "fold": "Print the card and fold it in half along the dashed line, so the front is on the outside.",
+        "front": "One person decorates the front, around the words.",
+        "inside": "The other person decorates the back, or you take turns on one side.",
+        "message": "Write a message together. One person can write while the other says the words.",
+        "stop": "Stop whenever you like. There is no right card, and a simple one is just as good."
+      },
+      "materials": "Use crayons, colored pencils or felt-tip pens. Nothing needs cutting, gluing or sticking.",
+      "previewLabel": "A preview of the card folded in half. The front says {words}, with a simple frame of leaves and stars. The back has lines for a message and a line for From.",
+      "from": "Ɗo",
+      "sheetHow": "Ɗoggu kaarte ɗon e laawol ɗon ɗiidi, ɓe ɗaaɗi e pelle. Winndu ɗum e ɓaawo kaarte.",
+      "rulesHeading": "Ngam ɓe ɗiɗo",
+      "sheetRules": [
+        "Ɗon yaɓ ɗon ɗowɗo, walla ɗon ɗaɓɗaɓ golle: gooɗo ɗo ɓaawo pelle, gooɗo ɗo ɓaawo ɗaɗaɗi.",
+        "Ɗon winndu bee ɗon, walla gooɗo ɗo winndu ko ɗo ɗo wi'i.",
+        "Gooɗo ɗo waɗi ɗon ko ɗun ɗun. Alaa kaarte ɗo ɗo ɗaɗi."
+      ],
+      "print": "Ɓaaɗo kaarte"
+    },
+    "storyDice": {
+      "guidance": "Ɗon ɗaɓɗaɓ ɗe ɓaawo, ɗon ɗaɓɗaɓ labbi ɗe ɗon ɗoo ɗon. Alaa labbi ɗo ɗo ɗi'a.",
+      "countLegend": "Nane ɗiɓɓe",
+      "count": "{n} ɗiɓɓe",
+      "roll": "Ɗaɓɓu fo ɗuɗɗe",
+      "pass": "Ɗaɓɗaɓ",
+      "passed": "Ɗaɓɗaɓ ɗo ɗo ɓaawo. Gooɗo ɗo ɓuri fuɗɗa, walla ɗon ɗaɓɓu fo ɗuɗɗe.",
+      "rolled": "Ɓaawo ɗuɗɗe: {names}.",
+      "tapped": "{name}. Fuɗɗa ɗe ɗun, walla ɗe ɗo ɗuɗɗe."
+    },
+    "wordPicture": {
+      "guidance": "Taɓ ɓaawo, ɗe'a ɗon ɗe'i ɗe hoore ɗum. Walla taɓ ɗe'a, ɗe ɓaawo ɗe'i.",
+      "countLegend": "Nane ɓaawo",
+      "count": "{n} ɓaawo",
+      "picturesGroup": "Ɓaawo",
+      "wordsGroup": "Ɗe'e",
+      "readWord": "Ɗaɓɓu ɗaɗɗe: {name}",
+      "next": "Ɓaawo ɗuɗɗe",
+      "putBack": "Ɗaɓɗaɓ ɗum fo ɗuɗɗe",
+      "pickWord": "Sey taɓ ɗe'a ɗon ɗe'i ɗe ɗum.",
+      "pickPicture": "Sey taɓ ɓaawo ɗon ɗe'i ɗe ɗum.",
+      "fit": "Eyy, ɗe'a ɗo ɗe'i ɗe {name|lower}.",
+      "newSet": "Ɗo ɗo ɓaawo ɗuɗɗe.",
+      "restarted": "Ɗon fuɗɗa. Ɓaawo e ɗe'e fuɗɗe ɗon ɗe ɓuri ɗaɗaɗi.",
+      "restored": "Put back. The matched pairs are shown again.",
+      "all": "Ɗe'e fuɗɗe ɗon ɗe ɓaawo ɗe."
+    },
+    "colorMatch": {
+      "guidance": "Ɗon ɗaɓɗaɓ ndiyam e innde ɗum, ɗe'a taɓ ɓaawo fuɗɗe ɗon ndiyam ɗo.",
+      "target": "Ndiyam ɗo {color|lower}. Taɓ ɓaawo fuɗɗe ɗon ɗo {color|lower}.",
+      "countLegend": "Nane ɓaawo",
+      "count": "{n} ɓaawo",
+      "found": "Eyy, {name|lower} ɗo {color|lower}.",
+      "named": "{name|lower} ɗo {color|lower}.",
+      "all": "Ɗo ɗe ɓaawo {color|lower} fuɗɗe.",
+      "shown": "Ɗo ɗe ɓaawo {color|lower}.",
+      "show": "Hollu ɗe",
+      "next": "Ndiyam ɗuɗɗe",
+      "names": {
+        "red": "Bodeeji",
+        "orange": "Oranj",
+        "yellow": "Wewal",
+        "green": "Bowal",
+        "blue": "Bunndu"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Taɓ ɗiɗi ɓaawo ɗon ɓe ɗoo ɗon, ɗe'a taɓ ɗiɗi ɓaawo ɗon ɗe ɓe ɗo ɗoo ɗon ɗe ɗun.",
+      "countLegend": "Nane ɓaawo",
+      "count": "{n} ɓaawo",
+      "leftGroup": "Ɗiɗi ɓaawo ɗon ɗoo ɗon",
+      "rightGroup": "Ɗiɗi ɓaawo ɗon ɓe ɗo",
+      "left": "Ɗiɗi ɓaawo ɗoo ɗon {name|lower}",
+      "right": "Ɗiɗi ɓaawo ɗon ɓe ɗo {name|lower}",
+      "joined": "Ɗo ɗe ɓaawo",
+      "pickRight": "Sey taɓ ɗiɗi ɓaawo ɗon ɓe ɗo ɗon ɗe ɗun.",
+      "pickLeft": "Sey taɓ ɗiɗi ɓaawo ɗoo ɗon ɗe ɗun.",
+      "fit": "Eyy, ɗiɗi ɗe ɗun ɗo {name|lower}.",
+      "apart": "Ɗiɗi ɗe ɗo ɗaɗi ɓe ɗo ɗuɗɗe. Ɗaɓɓu ɗuɗɗe.",
+      "all": "Ɓaawo fuɗɗe ɗon ɗoo ɗon.",
+      "shown": "Ɗo ɗe ɓaawo, ɗe ɓe ɗon ɗaɓɗaɓ.",
+      "show": "Hollu ɗum",
+      "next": "Ɗuɗɗe ɗuɗɗe"
+    },
+    "colorByNumber": {
+      "guidance": "Sey ndiyam e ɗo'a, ɗe'a ɓaɗɗo kaaru ɗum ɗon ndiyam. Ndiyam fuɗɗe ɗo ɗo ɗi'a.",
+      "sizeLegend": "Mawɗo ɗo ɗoo",
+      "size": "{n} e {n}",
+      "keyLegend": "Ndiyam",
+      "colors": [
+        "Wewal",
+        "Oranj",
+        "Bowal",
+        "Pirpal"
+      ],
+      "motifs": {
+        "house": "suudu",
+        "flower": "bunndu",
+        "heart": "hoore",
+        "tree": "ɓiɗɗo",
+        "boat": "ngalaaɗe",
+        "pot-plant": "ɓiɗɗo e ɗoŋɗe"
+      },
+      "region": "Ɗo ɓaawo, {n} e {n}. Ɗon ɗoo ɗon ɗe ɗun sey ɗe ɓuri ɗi'a.",
+      "cell": "Nombaaru {number}, jerɗe {row}, ɓaɗɗe {column}, {color}",
+      "empty": "ɓaawo",
+      "chose": "{name} ɗo sey. Taɓ kaaru ngam ɗum fuɗɗe.",
+      "painted": "{name} e jerɗe {row}, ɓaɗɗe {column}.",
+      "sheet": "Kaaru fuɗɗe ɗon ndiyam ɗon nombaaru ɗum. Ɗo ɗo ɓaawo e kaarte: {name}.",
+      "own": "Kaaru fuɗɗe ɗon ɓaawo. Ɗo ɗo ɓaawo ma ɗo.",
+      "fillAll": "Fuɗɗa ɗon nombaaru",
+      "filledAll": "Kaaru ɓaawo fuɗɗe ɓe ɗon ndiyam ɗon nombaaru ɗum.",
+      "clear": "Ɓaɗɗo",
+      "cleared": "Ɗo ɗo ɓaɗɗe.",
+      "next": "Ɓaawo ɗuɗɗe",
+      "fresh": "Ɗo ɗo ɓaawo ɗuɗɗe ngam ɗaɗɗaɗo."
+    },
+    "patternMaker": {
+      "guidance": "Taɓ kaaru ngam ɗaɓɓu ndiyam ɗum. Ɗaɓɓaŋ ɗaɗɗo ɗon ɗe ɓe ɗo. Alaa ɗum ɗon ɗaɓɗaɓ ɓe ɗaɗaɗi wa'ata.",
+      "sizeLegend": "Mawɗo kaaru",
+      "size": "{n} e {n}",
+      "keyLegend": "Ndiyam, ɗon ɗe ɗaɓɓu ɗe taɓɗe",
+      "colors": [
+        "Wewal",
+        "Oranj",
+        "Bowal",
+        "Pirpal"
+      ],
+      "tileLabel": "Kaaru maa",
+      "region": "Kaaru maa, {n} e {n}. Ɗon ɗoo ɗon ɗe ɗun sey ɗe ɓuri ɗi'a.",
+      "patternLabel": "Ɗaɓɓaŋ maa",
+      "pattern": "Ɗaɓɓaŋ maa: kaaru maa ɗon ɗaɓɓaŋ {n} ɓaɗɗe, {n} ɗuŋɗe.",
+      "square": "Jerɗe {row}, ɓaɗɗe {column}, {color}",
+      "changed": "Jerɗe {row}, ɓaɗɗe {column} ɗo {color} sey.",
+      "cleared": "Kaaru ɗo ɓaɗɗe. Ɗon ɗaɓɓu ɗum fo ɗuɗɗe.",
+      "surprise": "Ɗaɓɓu ɗum ɗo ɗi'a",
+      "surprised": "Here is a new tile. You can put the old one back.",
+      "putBack": "Ɗaɓɗaɓ ɗum fo ɗuɗɗe",
+      "restored": "Kaaru maa ɗo ɗuɗɗe ɗon ɗe ɗo ɗo ɗi'a.",
+      "print": "Ɓaaɗo ɗaɓɓaŋ maa",
+      "sheetTitle": "Ɗaɓɓaŋ maa"
+    },
+    "buildTogether": {
+      "guidance": "Ɗon ɗaɓɗaɓ golle ɗon ɗaɓɓu ɗum e ɗeɗe ɓaawo. Ɗon ɗiɗo ndiyam ɗon ɗe ɓaawo. Alaa ɗum ɗon ɗaɓɗaɓ ɓe ɗaɗaɗi wa'ata.",
+      "sizeLegend": "Mawɗo kaaru",
+      "size": "{n} e {n}",
+      "people": [
+        "Nelaajo ɗo ɗiɗo",
+        "Nelaajo ɗo ɗiɗaɓo"
+      ],
+      "colorLegend": "Ndiyam {person}",
+      "colors": [
+        "Wewal",
+        "Oranj",
+        "Bowal",
+        "Pirpal"
+      ],
+      "inUse": "Ɓe ɗo golle",
+      "turn": "Ɗuɗɗe maa, {person|lower}",
+      "yourColor": "Ndiyam maa ɗo {color|lower}.",
+      "built": "Ɗe ɓe ɗon golle ɗon. Ɗo ɗo ɓaawo ɗe ɗiɗo ɗe ɗaɓɓi.",
+      "gridLabel": "Kaaru ɗon ɗe ɗun",
+      "region": "Kaaru ɗon ɗe ɗun, {n} e {n}. Ɗon ɗoo ɗon ɗe ɗun sey ɗe ɓuri ɗi'a.",
+      "cellEmpty": "Jerɗe {row}, ɓaɗɗe {column}, ɓaawo",
+      "cellFilled": "Jerɗe {row}, ɓaɗɗe {column}, {color}, ɗaɓɓaŋ ɗum {person|lower}",
+      "placed": "Jerɗe {row}, ɓaɗɗe {column} ɗo {color} sey. Ɗuɗɗe maa, {next|lower}.",
+      "placedLast": "Jerɗe {row}, ɓaɗɗe {column} ɗo {color} sey. Ɗe ɓe ɗon golle ɗon.",
+      "taken": "Row {row}, column {column} already has a piece. Choose an empty place.",
+      "pass": "Ɗaɓɗaɓ",
+      "passed": "Ɗaɓɗaɓ ɗo ɗo ɓaawo. Ɗuɗɗe maa, {person|lower}.",
+      "takeBack": "Ɗaɓɓu ɗum ɗe ɗaɓɓi fo ɗuɗɗe",
+      "takeBackPass": "Ɗaɓɓu ɗaɓɗaɓ fo ɗuɗɗe",
+      "tookBack": "Ɗum ɗaɓɓi fo ɗuɗɗe. Ɗuɗɗe maa, {person|lower}.",
+      "tookBackPass": "Ɗaɓɗaɓ ɗum ɗaɓɓi fo ɗuɗɗe. Ɗuɗɗe maa, {person|lower}.",
+      "colorChanged": "{person} ɗo ɗum {color|lower} sey.",
+      "restarted": "Kaaru ɗo ɓaawo. Ɗuɗɗe maa, {person|lower}.",
+      "print": "Ɓaaɗo kaaru",
+      "sheetTitle": "Golle ɗon ɗe ɗun",
+      "sheetHelp": "Ɗon ɗaɓɗaɓ golle. Ɗe ɓaawo ɓaɗɗo, ɗo ɗo ɗiɗo ɗaɓɓu ɗuŋɗe maa ɗon ɗaɓɗaɓ ɗe ɗun.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Taɓ kaaru, ɗe'a taɓ ɓaawo e ɓaawo ɗon ɗum ɗo ɗaɓɓaɗo. Alaa ɗum ɗon ɗaɓɗaɓ ɓe ɗaɗaɗi wa'ata.",
+      "hints": "Hollu ɗe ɗe ɓaawo",
+      "pictureLine": "Ɗo ɗo {picture}.",
+      "pictures": {
+        "house": "suudu",
+        "boat": "ngalaaɗe",
+        "tree": "ɓiɗɗo",
+        "fish": "ɗiyam",
+        "cat": "ɓiɗɗo kaaɗo",
+        "rocket": "roketti"
+      },
+      "outlineLabel": "Ɗaɓɓaŋ {picture}. Taɓ ɓaawo ngam ɗaɓɓu ɗum ɗe sey ɗum.",
+      "trayHeading": "Ɓaawo",
+      "pieces": {
+        "large-triangle": "Triangle mawɗo",
+        "small-triangle": "Triangle ɗaɗɗo",
+        "square": "Kaaru",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Rectangle"
+      },
+      "shapes": {
+        "large-triangle": "triangle mawɗo",
+        "small-triangle": "triangle ɗaɗɗo",
+        "square": "kaaru",
+        "parallelogram": "parallelogram",
+        "rectangle": "rectangle"
+      },
+      "chosenLabel": "Sey",
+      "spaceEmpty": "Ɓaɗɗe {n}, {shape}, ɓaawo",
+      "spaceFilled": "Ɓaɗɗe {n}, {shape}, ɗum ɗo ɗaɓɓaŋ. Taɓ ngam ɗaɓɓu ɗum fo ɗuɗɗe.",
+      "chosen": "{piece} ɗo sey. Taɓ ɓaɗɗe ɗon ɓaawo ɗe ɓaawo.",
+      "unchosen": "Ɓoɗɗe ngo suɓaaki nyalaaka.",
+      "placed": "Ɓoɗɗe ngo ɗon e wuro {n}.",
+      "complete": "{picture} ngo timmi.",
+      "different": "Ɓoɗɗe oo ina ɗuɗi feere ɗon wuro ngo. Suɓa wuro feere.",
+      "needPiece": "Suɓa ɓoɗɗe e koppol ɗaa jippin.",
+      "filled": "Wuro ngo ɗon ɓoɗɗe ɗe hoore. Tappu ɗo ngam wattaa ɓoɗɗe.",
+      "tookBack": "Ɓoɗɗe ngo wattaaɗaa e koppol.",
+      "cleared": "Ɓoɓɓe ɗoon ɗon e koppol. Ɗaɓɓu ɗoo si ɗon sakitii.",
+      "restored": "Ɓoɓɓe ɗoon ɗon e foto.",
+      "next": "Ɗee ngo ina {picture}.",
+      "putBack": "Ngurtu ɗo",
+      "another": "Ɗuɗi feere",
+      "print": "Pirinta ɗuɗi ɗee",
+      "sheetTitle": "Ɗuɗi ɓiɗɗo",
+      "sheetHow": "Ɗaɓɓu ɓoɓɓe, walla hoosu ɗe ngam ɗuɗde ɗuɗi. Goɗɗo mawɗo mbaaɗay hoosugo.",
+      "sheetPieces": "Ɓoɓɓe, ɗuɗi ɗi ɗon ɗuɗi ɗuɗi ɗe"
+    },
+    "picnicPlanner": {
+      "guidance": "Tappu foto ngam ɗaɓɓaa e keso piknik, tappu foto ɗon e keso ngam wattaa. Keso ngo jaɓi ɗuɗi jeego.",
+      "guidancePlay": "Tappu foto ɗiɗo ɗi ɗon ɗuɗi. Foto ɗi ɗon ɗuɗi haa ɗon ɗee, alaa waktu ɗo ɗon ɗaɓɗaa.",
+      "basketHeading": "Keso amen",
+      "basketLabel": "Keso piknik",
+      "takeOut": "Wattu {picture} e keso",
+      "inBasket": "E keso",
+      "foodHeading": "Nafaaji",
+      "outingsHeading": "Ɓe waɗaaɗi",
+      "added": "{picture} ɗon e keso.",
+      "removed": "{picture} wattaaɗaa e keso.",
+      "already": "{picture} ɗon e keso hoore. Tappu ɗo e keso ngam wattaa.",
+      "full": "Keso ɗon timmi. Wattu ɗuɗi ngam ɗaɓɓaa feere.",
+      "summary": "Piknik amen: {list}.",
+      "summaryNone": "Alaa ɗuɗi e keso haa jooni.",
+      "and": "e",
+      "play": "Yoo min waɗa piknik amen",
+      "needTwo": "Suɓa ɗuɗi ɗiɗo fawaa.",
+      "playAgain": "Waɗu feere",
+      "back": "Hoosu ɗo piknik",
+      "print": "Pirinta lissafi piknik amen",
+      "cleared": "Keso ngo ɗon wattaaɗaa.",
+      "notice": "Ngo ɗee ɗo ɗaɗɗaa ɗe. Alaa waktu, alaa kuɗoo, alaa ɗon saŋgaaɗaa.",
+      "sheetTitle": "Lissafi piknik amen",
+      "sheetHow": "Ɗaɓɓu kala ko ɗaɓɓaaɗo ko ɗaɓɓaa e keso. Waɗu ɗuɗi ɗi lakkaaki ngam ɗuɗi feere ɗe ɗon yiɗi ɗaɓɓaa.",
+      "sheetToPack": "Ngam ɗaɓɓaa"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Suɓa foto ɗiɗo haa jowe ɗiɗɗe ngam fuɗɗa albom ɗo.",
+      "guidance": "Wirtu wuro e ɗaɓɗi, e tappooji walla e kaaɗe Left e Right. Ɗaɓɓu kelme ɗiɗi ngam foto, si ɗon yiɗi. Alaa ko ɗon waɗaaɗaa walla ɗon ɗaɓɓaaɗaa.",
+      "lookGuidance": "Ɗaɗɗu wuro kala kala e wonde. Ɗon ɗaɓɓaa, walla ɗon ɗaɗɗaa tan.",
+      "intro": "Suɓa foto ɗiɗo haa jowe ɗiɗɗe e ɗuuɗe ɗee. Kala foto ɗon ɗon wuro e albom ɗo ɗon wirtaa e wonde.",
+      "consent": "Waɗu foto ɗaa ɗi ɗon. Ƴamiɗo ŋana njaɓde foto ɗo wonaa ɗo ɓuri jaaɓaa.",
+      "privacy": "Your photos stay on this device. They are not uploaded or saved.",
+      "choose": "Suɓa foto",
+      "chooseDifferent": "Suɓa foto feere",
+      "backToBook": "Hoosu ɗo albom",
+      "backToChoose": "Hoosu ɗo suɓaaɗe foto",
+      "needTwo": "Suɓa foto ɗiɗo fawaa.",
+      "usingFirst": "Ɗon waɗa foto {max} ɗi ɗo'ooɗi.",
+      "cleared": "Albom ngo wattaaɗaa. Suɓa foto ngam fuɗɗa feere.",
+      "moved": "Ɗo ngo tawaa wuro {n}.",
+      "pageOf": "Wuro {n} ɗe {total}",
+      "lookTogether": "Ɗaɗɗu e wonde",
+      "leaveLook": "Hoosu ɗo albom",
+      "print": "Pirinta albom",
+      "clear": "Wattu albom",
+      "bookLabel": "Albom foto ɗo ɗeŋɗo",
+      "pagesLabel": "Wirtu wuro",
+      "previous": "Wuro ɗo ɓurɗe",
+      "next": "Wuro ɗo saa'i",
+      "moveEarlier": "Ɗaɓɓu ɗo ɓurɗe",
+      "moveLater": "Ɗaɓɓu ɗo ɗee",
+      "captionLabel": "Kelme ɗiɗi ngam wuro ɗee, si ɗon yiɗi",
+      "captionHelp": "Haa kelme 80. Kelmeeji ɗee ɗon ɗaɓɓaa e wuro ɗee tan, ɗi wattaaɗaa si ɗon wattaa albom.",
+      "sheetTitle": "Albom amen",
+      "sheetHow": "Foto ɗo ngam wuro ɗo, kelmeeji ɗi ɗon e ɗeŋgal. Wirtu wuro e kuwtal, ɗaɗɗu kala ɗo e wonde.",
+      "sheetEmpty": "Suɓa foto ɗaɗɗe e wuro ɗee ngam pirinta albom amen, walla pirinta wuro ɗo ngam ɗaɓɓa foto pirintaaɗo.",
+      "sheetFrame": "Ɗaɓɓu foto pirintaaɗo ɗon",
+      "sheetWords": "Kelme ɗiɗi ngam wuro ɗo",
+      "skipped": {
+        "one": "Fayl {n} wonaa foto ɗo min ɗon waɗaa.",
+        "other": "Fayl {n} ɗi wonaa foto ɗi min ɗon waɗaa."
+      }
+    },
+    "quietScene": {
+      "guidance": "Ɗaɗɗu foto ɗo ɗo ɗo. Tappu Saa'i walla Ɓurɗe ngam ɗaɗɗaa. Alaa ko ɗon jaɓɓaa haa ɗo.",
+      "next": "Foto saa'i",
+      "previous": "Foto ɓurɗe",
+      "bigPicture": "Foto mawɗo",
+      "showEverything": "Yiɗa fof",
+      "first": "Ɗo ko foto ɗo ɓurɗe.",
+      "last": "Ɗo ko foto ɗo ɗooɗo.",
+      "lines": {
+        "sunrise": "Naange ɗon hirnaa e ɓeeɗe.",
+        "window-with-birds": "Pinnje e ɗeŋgal pénjaaji.",
+        "vase-of-flowers": "Ɗowi ɗeeɗi ɗon e taabla.",
+        "teacup": "Kuppu caay ɗo e pénjaaji.",
+        "tree": "Ɓoŋgu ɗon ɗo e ɗuɗal.",
+        "sailboat": "Ngalaari ɗon e ndiyam.",
+        "lighthouse": "Fitila ɗo e maayo.",
+        "rainbow": "Ɓaabo ɗo ɓaaɗo ɗaɗaŋ ngalaa.",
+        "moon": "Lewru ɗon e ɗuuɗe e ɗuɗal ɗe.",
+        "daisies": "Ɗowi ɗeeɗi ɗon e ɗiil.",
+        "rowing-boat": "Ngalaari sawɗo ɗon e ndiyam ɗi ɗon mo'ɗo.",
+        "potted-plant": "Pakkaaji ɗon e pot."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Wirtu waktu. Tappu foto ɗi suɓaaɗi, ɗe tappu wuro ɗo alaa ɗon e ngaɗaa ɗe. Alaa ko ɗon waɗaaɗaa walla ɗon ɗaɓɓaaɗaa.",
+      "people": [
+        "Goɗɗo ɓurɗo",
+        "Goɗɗo ɗiɗɗo"
+      ],
+      "marks": [
+        "ruuɗe",
+        "ɗuɗaa"
+      ],
+      "turn": "Waktu maa, {person|lower}.",
+      "marked": "Ɓoɗɗe maa ɗon wa'a ɗo {mark}.",
+      "boardLabel": "Waŋki ɗaɓɓi fof",
+      "placeEmpty": "Wuro {n}, alaa ɗon",
+      "placeFilled": "Wuro {n}, {picture|lower}, ɗon ɗaɓɗaaɗo {person|lower}",
+      "trayHeading": "Foto ɗi ɗaɓɓaaɗi",
+      "chosenLabel": "Suɓaaɗo",
+      "chosen": "{picture} ɗon suɓaaɗo. Tappu wuro ɗo alaa ɗon.",
+      "unchosen": "Foto ɗaa wonaa suɓaaɗo.",
+      "needCutout": "Suɓa foto ɗaa jooni, ɗe tappu wuro ɗo alaa ɗon.",
+      "filled": "Wuro {n} ɗon foto hoore. Suɓa wuro ɗo alaa ɗon.",
+      "placed": "{picture} ɗon wuro {n}. Waktu maa, {next|lower}.",
+      "full": "Wuro fof ɗon foto. Wattu foto ngam waɗaa feere, walla fuɗɗa.",
+      "pass": "Ŋeesu",
+      "passed": "Ŋeesugo waɗaaɗo. Waktu maa, {person|lower}.",
+      "takeBack": "Wattu foto ɗo ɗo ɗo",
+      "takeBackPass": "Wattu ŋeesugo",
+      "tookBack": "Foto ngo wattaaɗaa. Waktu maa, {person|lower}.",
+      "tookBackPass": "Ŋeesugo wattaaɗaa. Waktu maa, {person|lower}.",
+      "restarted": "Waŋki ɗon ɗo alaa. Waktu maa, {person|lower}.",
+      "putBack": "Ngurtu ɗo",
+      "putBackDone": "Ɗuɗi ɗon ngurtaa e waŋki.",
+      "another": "Ɗuɗi feere ngam foto",
+      "anotherSet": "Ɗuɗi foto feere ɗon e kaddi. Foto ɗi ɗon e waŋki ɗon ɗon ɗaɓɓaa yeeso.",
+      "print": "Pirinta waŋki",
+      "sheetTitle": "Waŋki collage",
+      "sheetHow": "Ɗaɓɓu foto ɗe, ɗaɗɗu waktu ngam ɗaɓɓaa e waŋki. Goɗɗo mawɗo mbaaɗay ɗaɓɓaa.",
+      "sheetTray": "Foto ngam ɗaɓɓaa"
+    },
+    "gardenPlanner": {
+      "guidance": "Tappu foto, ɗe tappu ɗaaɗe ngam ɗaɓɓa ɗon. Tappu ɗaaɗe ɗon ɗi foto ɗon, alaa ko suɓaaɗo, ngam wattaa.",
+      "bedsLabel": "Ɗaaɗe ɗaaɗi",
+      "bedEmpty": "Ɗaaɗe {n}, alaa ɗon",
+      "bedFilled": "Ɗaaɗe {n}, {picture|lower}",
+      "plantsHeading": "Ɗowi",
+      "extrasHeading": "Ɗuɗi feere e ɗaaɗe",
+      "chosenLabel": "Suɓaaɗo",
+      "chosen": "{picture} ɗon suɓaaɗo. Tappu ɗaaɗe.",
+      "unchosen": "Alaa foto suɓaaɗo.",
+      "needPicture": "Suɓo nanndo fuɗɗo, kaɗɗe ɗaɗi tappu.",
+      "planted": "{picture} nan e ɗaɗi {n}.",
+      "replaced": "{picture} wurti nanndo e ɗaɗi {n}.",
+      "cleared": "Ɗaɗi {n} ɗon wala nanndo. Sey onon yiɗi nanndo ngoni, ɗoo sooɗu ɗum.",
+      "restarted": "Ɗaɗi fof ɗon wala.",
+      "putBack": "Sooɗu ɗo",
+      "putBackDone": "Nanndi ɗi ngoodi e ɗaɗi maɓɓe.",
+      "summaryHeading": "Gese am",
+      "summary": "Planngal maa e ɗum: {list}.",
+      "summaryNone": "Hol nanndo ɗuum e ɗaɗi wala.",
+      "and": "e",
+      "print": "Winndu planngal",
+      "sheetTitle": "Planngal gese amen",
+      "sheetHow": "Ɗaɗi ɗi holla nanndi ɗi suɓaaɗe e ekrã. Mbaɗu ɗaɗi wala, sey onon yiɗi.",
+      "sheetNotes": "Ɓinndi",
+      "notice": "Ɗum planngal nanndi ngam hakkilla, alaa ballal ngam ngesa."
+    },
+    "coloringWall": {
+      "guidance": "Suɓo nanndo e limɗi kuutiɗi. Winndu ɗum, sey kala jaɓɓo mbaɗa kuutol wala ɗuuɗi. Alaa wakkati, alaa ngaɗɗe, alaa ɓinndaaɗi.",
+      "pictureLegend": "Nanndo",
+      "sizeLegend": "Limɗi kuutiɗi",
+      "sizes": {
+        "2x2": "4 kuutiɗi (2 e 2)",
+        "3x2": "6 kuutiɗi (3 e 2)",
+        "3x3": "9 kuutiɗi (3 e 3)"
+      },
+      "previewLabel": "{picture|lower} ɗon ngoodi e {n} kuutiɗi, {across} laawol, {down} ngaado. Kala kuutol ɗon ɗum e kuuɗ makko e nder.",
+      "previewCaption": "Nanndo e lamɗi kuutiɗi e ɓinndi ɗi nder.",
+      "labelsNote": "Ɓinndi ngalu e ngaado, lambi ngalu e laawol, ko A1 kuutol ɗaɗɗi ɗum e ngaari.",
+      "wallHeading": "Noy ɗum ngalu limɗi",
+      "steps": [
+        "Winndu kala kuutiɗi. Kuutol fuɗɗo ɗon noy ɗi e lamɗi ɗi ngalu.",
+        "Kala jaɓɓo heɓa kuutiɗi fuɗɗa wala ɗuuɗi, ɗo mbaɗa.",
+        "Koloor e ɗaɗɗi nder kuutiɗi alaa ɗi ɗon ngoodi. Kala kuutol ɗon ngalu e nanndo fuɗɗo.",
+        "Ɗaɓɓu kuutiɗi e ɓinndi maɓɓe, sey ɗaɗɗu e tapo ɗo ɗon ngaari.",
+        "Ɗaɓɓu limɗi haa ɗo onon fof ɗon ngoodi."
+      ],
+      "mapLabel": "Lamɗi limɗi: {down} ngaado e {across} kuutiɗi kala ngaado, ɓinndaaɗi haa {last}.",
+      "edgeNote": "Layol ɗon ɗaɓɓaŋ nder kuutol kala. Ɗaɓɓu kuutiɗi ngo ɗon ngoodi, wala ɗaɓɓu ɗum ɗon ngoodi haa ɗum wuɗɗa.",
+      "pictureLine": "Nanndo: {picture}. Limɗi maa ɗon {n} kuutiɗi: {across} laawol e {down} ngaado.",
+      "print": "Winndu limɗi"
+    },
+    "findTogether": {
+      "guidance": "Gaɗɗu ɗuuɗi. Ɗuuɗi maa, sooɗu kaarti ɗiɗi ngam ɗaɓɓaŋ hoɓɓe. Hoɓɓe ɗaɓɓaŋ ngam ɗume.",
+      "sizeLegend": "Limɗi kaarti",
+      "size": "kaarti {n}",
+      "viewLegend": "Hoore ngam ɗaɓɓaŋ",
+      "viewShowing": "Ɗaɓɓaŋ e nanndo ɗe ɗon ngoodi",
+      "viewHidden": "Kaarti ɗon ɓaɗi",
+      "people": [
+        "Jaɓɓo fuɗɗo",
+        "Jaɓɓo ɗiɗo"
+      ],
+      "turn": "Ɗuuɗi: {person}",
+      "turnDone": "Hoɓɓe fof ɗon ɓe ngoodi.",
+      "tally": "Hoɓɓe ngoodi ngam ɗaɓɓaŋ: {n}",
+      "cardNamed": "{name}, kaarti {n}",
+      "cardFaceDown": "Kaarti {n}, ɗon ɓaɗi",
+      "first": "{name}. Sey sooɗu kaarti ɗiɗo.",
+      "found": "{name}: hoɓɓe, ɗaɓɓaŋ ngam ɗume. Sey ɗuuɗi {next|lower}.",
+      "allTogether": "Ɗaɓɓaŋ hoɓɓe fof ngam ɗume.",
+      "different": "{a} e {b} ɗon yeeso. Hakkilla, sey Sooɗ-ɗum jaɓɓe.",
+      "waiting": "Sooɗ-ɗum ngam ɗum wuɗɗa. Sey ɗuuɗi ɗo ɗon gaɗa.",
+      "turnedBack": "Ɗon sooɗaa. Sey ɗuuɗi {person|lower}.",
+      "passed": "Gaɗɗe ɗo fuu. Sey ɗuuɗi {person|lower}.",
+      "turnBack": "Sooɗ-ɗum",
+      "pass": "Gaɗ",
+      "playAgain": "Ɗaɓɓaŋ fuɗɗo"
+    },
+    "drawingDuet": {
+      "guidance": "Gaɗɗu ɗuuɗi, kala jaɓɓo e ɗorde fuɗɗo, sey gaɗɗu kalam. Jaɓɓo fof mbaɗa gaɗɗe. Alaa ko winndete ɗo. Nanndo ngoodu ɗo ɗon ɗaɓɓaŋ ko onon winndi ɗum.",
+      "people": [
+        "Jaɓɓo fuɗɗo",
+        "Jaɓɓo ɗiɗo"
+      ],
+      "colorLegend": "Koloor {person}",
+      "colors": [
+        "Ɓodeeji",
+        "Oranj",
+        "Bawo",
+        "Ɓoyan"
+      ],
+      "turn": "Ɗuuɗi {person}",
+      "penColor": "Koloor kalam: {color}.",
+      "canvasLabel": "Nanndo ɗaɓɓaŋ, ɗorde {n} haa jonta",
+      "canvasLabelOne": "Nanndo ɗaɓɓaŋ, ɗorde {n} haa jonta",
+      "keys": "Kulle ngarɗe ɗon ɗuula teeɗe kalam e nanndo. Ɓaawo ɗon waɗa wala ɗon tiiɗa kalam.",
+      "penDown": "Kalam ɗon waɗi",
+      "penUp": "Kalam ɗon tiiɗi",
+      "pass": "Gaɗɗe kalam",
+      "passed": "Gaɗɗe ɗo fuu. Ɗuuɗi maa, {person|lower}.",
+      "takeBack": "Ƴamɗu ɗorde am ɗon ngoodi",
+      "tookBack": "Ɗorde ɗon ngoodi ɗo {person|lower} ngoodi ɗon ƴamaaɗi.",
+      "noLine": "Alaa ɗorde {person|lower} ngam ƴamaago.",
+      "restarted": "Nanndo ɗon wala. Jaɓɓo fuɗɗo ɗon ɗuuɗi. Sooɗu ɗum, sey onon yiɗaa wala.",
+      "putBack": "Sooɗu ɗo",
+      "restored": "Ɗorde ɗon sooɗaa haa ɗe ngoodi.",
+      "save": "Winndu nanndo",
+      "saved": "Nanndo maa ɗon ngoodi. Ɗaɓɓu linkaaɗo ngam ɗum ngam ɗum ɓanndu e ɗum ɗon ngoodi.",
+      "download": "Ɗaɓɓu drawing-duet.png",
+      "print": "Winndu nanndo e kaɗɗi",
+      "sheetTitle": "Ɗuuɗi ngam ɗaɓɓaŋ",
+      "paperRules": "Jaɓɓo ɗiɗo, nanndo fuɗɗo, kalam ɗiɗo. Ɗuuɗi: kala jaɓɓo ɗorde wala kuutol fuɗɗo, sey gaɗɗu kalam. Jaɓɓo fof mbaɗa gaɗɗe. Alaa nanndo ngoodu ɗo ɗon ngalu."
+    },
+    "colorWash": {
+      "guidance": "Winndu koloor ɗo ɗo ɗee ɗe nanndo, kala hannde fuɗɗo. Tiiɗu burus ngam tawtaa, e taw ɗo yiɗi. Alaa ko ɓinndete wala ɗo ɗaɓɓete.",
+      "colorLegend": "Koloor hannde",
+      "sizeLegend": "Mawɗi burus",
+      "colors": [
+        "Ɓodeeji",
+        "Oranj",
+        "Bawo",
+        "Ɓoyan"
+      ],
+      "sizes": {
+        "wide": "Mawɗo",
+        "veryWide": "Mawɗo haa ɓe"
+      },
+      "color": "Koloor hannde: {color}.",
+      "brushDown": "Burus ɗon waɗi",
+      "brushUp": "Burus ɗon tiiɗi",
+      "keys": "Kulle ngarɗe ɗon ɗuula ɓaawo burus e nanndo. Ɓaawo ɗon waɗa wala ɗon tiiɗa burus.",
+      "canvasLabel": "Nanndo koloor ɗe ngalu hannde",
+      "fresh": "Nanndo kesal",
+      "freshMessage": "Nanndo kesal.",
+      "putBack": "Sooɗu ɗo",
+      "restored": "Nanndo ɗon sooɗaa."
+    },
     "sortTogether": {
       "guidance": "Mem natal, caggal ɗuum mem kankeere nde ngal jeyi hoore mum.",
       "restart": "Nate kese",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} ena waawi naatde e \"{basket}\". Mem ndee kankeere ngam waɗde ngal ɗoon.",
       "placed": "{name|lower} naatii e \"{basket}\".",
       "sorted": "Fof heɓii nokku mum. Ndaaree e nder kankeeje ɗee wondude, walla ɓonngitee fannu goɗɗo.",
+      "largerTargets": "Ɗaɗi mawɗi",
+      "largerOn": "Ɗaɗi mawɗi ɗon ngoodi. Alaa ko ɗon waɗaa.",
+      "largerOff": "Ɗaɗi mawɗi ɗon tiiɗi. Alaa ko ɗon waɗaa.",
+      "largerOnNewRound": "Ɗaɗi mawɗi ɗon ngoodi, e ɗaɗi ɗiɗi. Nanndi kesal ɗon ngoodi ngam ɗaɓɓaŋ.",
       "basket": {
         "one": "Kankeere {basket}, natal {count} ena heen",
         "other": "Kankeere {basket}, nate {count} ena heen"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Mem feccere wootere, caggal ɗuum mem goɗɗum. Eɗe lomtindira nokkuuji.",
-      "restart": "Jiiɓito kadi",
+      "restart": "Mix up again",
       "pictureLegend": "Natal",
       "pictures": {
         "sailboat": "Laana ndiyam",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Natal timmungal: {name}",
       "guideText": "Ko nii natal ngal wayi so timmii.",
+      "ownChoose": "Yaɓɓu nanndo maa",
+      "ownChange": "Suɓo nanndo ɗo ɗo ɗee",
+      "ownBack": "Sooɗu e nanndi amen",
+      "ownPrivacy": "Your photo stays on this device. It is not uploaded or saved.",
+      "ownConsent": "Yaɓɓu nanndi maa. Haɗu jaɓɓo ɗaa, sey ɗaɓɓu ɗum yeeso nanndo jaɓɓo ɗo mbaɗaa yeeso.",
+      "ownWorking": "Ɗon ɗaɓɓe nanndo maa ngam ɗaɓɓaŋ.",
+      "ownNotUsable": "Ɗum fayl waɗaaki. Suɓo fayl nanndo, ko JPEG wala PNG.",
+      "ownAlt": "Nanndo maa",
+      "ownPiece": "Kuutol {n}, {place}",
+      "ownWhole": "Nanndo maa ɗon ngoodi fuu. Ɗaɓɓaŋ ɗum fuɗɗa, kala ɗo yiɗi.",
+      "ownSheetTitle": "Nanndo maa e kuutiɗi",
+      "ownSheetHow": "Ɗaɓɓu e ɗe ɗon ngalu. Ɗaɓɓaŋ kuutiɗi, sey ƴamɗu kuutiɗi ɗiɗi hannde haa nanndo wuɗɗa.",
       "piece": "Feccere to {place}",
       "pieceInPlace": ", e nokku mum kaanɗo",
       "piecePickedUp": ", ɓamtama",
@@ -122,7 +786,7 @@
         "les ñaamo"
       ],
       "done": "Natal ngal timmitii kadi. Pijitee kadi walla fowto-ɗee.",
-      "playAgain": "Jiiɓito kadi"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Janngidee tinndol ngol, caggal ɗuum memee konngol timminroowol ngol.",
@@ -190,6 +854,14 @@
       "guidance": "Janngu kaartal ngal daande dow. Alaa jaabawol gootol kaanngol.",
       "position": "Kaartal {n} e nder {total}",
       "themeLegend": "Fannu",
+      "showPrompt": "Yaɓɓu hoɗɗo ngam hoɗɗo",
+      "bigPicture": "Nanndo mawɗo, ngam jamaa",
+      "passNote": "Jaɓɓo fof mbaɗa gaɗɗe.",
+      "groupTitle": "Gaɗɗe kaarti e jamaa",
+      "groupSit": "Ɗaɓɓu e ɓaɗɗi ɗo onon fof ɗon ɗuula nanndo. Jaɓɓo ɗon kaarti, wala kaaɗe nanndo mawɗo, ɗon ɓinndi hoɗɗo fuɗɗo ngam ɗaɓɓaŋ.",
+      "groupPass": "Sey gaɗ kaarti ɗo jaɓɓo ɗo. Kala jaɓɓo ɓinndi ɗume wala hoɗɗo ɗiɗo ngam nanndo, sey gaɗɗa.",
+      "groupNoSpeech": "Gaɗɗe kaarti alaa ko ɗon haɗaa. Jaɓɓo mbaɗa gaɗɗe alaa ɓinndi ko, alaa ko ɗon ngalu ɗume.",
+      "groupEnd": "Ɗuŋgal ɗee ɓaawo nder ɗuuɗe ɗuu, walla ɓaawo ɗo ɗume ɓaɗi. Ɓe wanaa mo ɓuri. Ɗaɓɓitaa ɗuŋgal nde ɓaawo yiɗi.",
       "next": "Kaartal garoowal",
       "previous": "Kaartal ɓennungal",
       "print": "Winndito karte ɗee fof",
@@ -252,6 +924,20 @@
       "started": "Fuɗɗiima. Noottitee nde taariindi ndii mawnata.",
       "stopped": "Dartiima.",
       "finished": "Ɗum wonnoo pooftali jeegom deeyɗi. Fuɗɗitee kadi kala nde njiɗ-ɗon."
+    },
+    "storyChain": {
+      "guidance": "Ɓaawo ɗuŋgal: kelmi ɗiɗi kala, ɓeɗɗu foto ɗaraa.",
+      "passNote": "Haɓɓu kelmi maaɗa ɗo ɓaawo. Taa ɓe ɗuu, taa ɓe ƴiɗɗaa. Neɗɗo kala waawi yaltude.",
+      "chainLabel": "Ɗuuɗe ɗo ɗuŋgal haa fuu",
+      "item": "Foto {n}: {name}",
+      "add": "Ɓeɗɗu foto",
+      "fullAdd": "Ɗuuɗe ɗo fuu. Fuɗɗa ɗuuɗe kese",
+      "newChain": "Fuɗɗa ɗuuɗe kesi",
+      "takeOff": "Ɗaɓɓitaa ɗee ɗo ɓuri",
+      "added": "{name|lower} ɗee ɗo ɗaaɓi ɗuuɗe.",
+      "removed": "{name|lower} ɗee ɗo ɗuuɗe ɗaɓɓii.",
+      "fresh": "Ɗuuɗe kesi, fuɗɗaaɗi ɗo {name|lower}.",
+      "full": "Ɗuuɗe ɗo foto ɗiɗi ɗo fuu. Haɓɓu ɗuuɗe fuu, walla fuɗɗa ɗuuɗe kesi."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Ruuldere toɓo",
     "snowflake": "Ketul kankiraawi",
     "kite": "Serwolon",
-    "sunrise": "Fuɗnaange naange dow kooseeje"
+    "sunrise": "Fuɗnaange naange dow kooseeje",
+    "decorated-keepsake-box": "Kiiri ɗo ɗaɓɓe ɗo ɓaɗɗi",
+    "painted-plant-pot": "Ndiyam ɗo ɗaɓɓe ɗo ɓaɗɗi ɗo ɗume",
+    "repeating-pattern-sheet": "Ƴaawɗe ɗo ɗaɓɓe ɗo kala",
+    "music-drawn-lines": "Dooɓe ɗo ɗaɓɓe ɗo mbaɗaaji",
+    "paper-boat-afloat": "Jirgi ɗo takaru ɗo ndiyam",
+    "folded-towel-stack": "Ɗaɗɗe ɗo sooɗi ɗo ɓeeɗi",
+    "hand-massage-with-lotion": "Junngo ɗo ɗuuɗe ɗo ɓaɗɗi ɗo ƴiyaaɗi",
+    "open-photo-album": "Album ɗo foto ɗo ɗaɓɗi",
+    "button-flower-card": "Kaarte ɗo ɓaaɗi ɗo bottoŋ",
+    "blue-torn-paper-collage": "Kaarte ɗo ɓuɓɓe ɗo kala ɗo bluu",
+    "family-tree-of-hands": "Bisi ɗo junngo ɗo ɓaawo",
+    "open-greeting-card": "Kaarte ɗo jaɓɗe ɗo ɗaɓɓe ɗo ƴiyaaɗi",
+    "lavender-sachet": "Ƴiyaaɗi ɗo lavand ɗo ɗuuɗe",
+    "memory-collage-of-photos": "Kaarte ɗo foto ɗo ɓaawo",
+    "paper-chain-garland": "Ɗaɓɓe ɗo takaru ɗo ɗuuɗe",
+    "open-songbook-with-notes": "Kitaab ɗo ɓaɗɗe ɗo kala ɗo mbaɗaaji",
+    "photo-postcard-with-stamp": "Kaarte ɗo foto ɗo timbri",
+    "pine-cone-bird-feeder": "Ɗaɓɓe ɗo pine ɗo ɗuɗɗe ɗo tinnde",
+    "playlist-phone-and-card": "Telefon ɗo mbaɗaaji ɗo kaarte",
+    "sealed-rice-shaker": "Kaŋgol ɗo maaji ɗo ɗaɓɓe",
+    "texture-board-with-scraps": "Ɗaɓɓe ɗo ɗuuɗe ɗo kala ɗo ɓuɓɓe",
+    "painted-garden-stone": "Ɗaɓɓe ɗo ɓaɗɗi ɗo ɗuuɗe ɗo ɗume",
+    "shared-painted-canvas": "Kanvas ɗo ɗaɓɓe ɗo ɓaawo",
+    "watercolor-washes-sheet": "Ƴaawɗe ɗo ɗaɓɓe ɗo dooɓe ɗo ƴiyaaɗi",
+    "seedling-in-pot": "Ɓerɗe ɗo ndiyam ɗo ɗuuɗe",
+    "pressed-leaves-in-book": "Ƴiyaaɗi ɗo kitaab ɗo ɗuuɗe",
+    "printed-leaves-sheet": "Ƴaawɗe ɗo ɗuuɗe ɗo kala",
+    "pinch-pot-clay-bowl": "Kaŋgol ɗo ɗaɓɓe ɗo ɗuuɗe",
+    "table-sketch-pencil": "Ƴaawɗe ɗo kopp ɗo ɓaɗɗi ɗo pencil",
+    "buttons-in-muffin-tin": "Bottoŋ ɗo ɗaɓɓe ɗo ɓaɗɗi ɗo kaŋgol",
+    "family-recipe-book": "Kitaab ɗo fuɗɗe ɗo ɓaawo",
+    "drum-with-beat-marks": "Dummbu ɗo ɓaɗɗi ɗo takaru",
+    "torn-paper-flower": "Pallaaji ɗo takaru ɗo ɓuɓɓe",
+    "window-with-birds": "Yaare ɗo tinnde",
+    "woven-paper-mat": "Tabal ɗo takaru ɗo ɗaɓɓe",
+    "yarn-ball-with-thread": "Ɓulde ɗo sokke",
+    "letter-and-envelope": "Winndere ɗo envelop"
   },
   "content": {
     "wordSearch": {
@@ -482,7 +1205,7 @@
         {
           "theme": "food",
           "picture": "lemon",
-          "prompt": "Ko weli walla ko lami: hol ko ɓuri weltinde on?"
+          "prompt": "Sweet or sour: which do you like better?"
         },
         {
           "theme": "food",
@@ -765,6 +1488,17 @@
             "E yaasi"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Ɓuɓɓe",
+        "animals": "Dabbaaji",
+        "travel": "Hawɗe ɗo ngoŋgaa",
+        "flowers": "Pallaaji",
+        "hot-drinks": "Ɗaɓɓe ɗo ngaari ɗo kafe",
+        "weather": "Ɗuuɗe ɗo ngaari",
+        "baked": "Ɗaɓɓe ɗo fuurɗe"
       }
     }
   }

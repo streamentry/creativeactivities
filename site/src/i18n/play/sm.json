@@ -5,6 +5,13 @@
       "stopReading": "Taofi le faitau",
       "region": "Taaloga",
       "restart": "Amata foi",
+      "rest": "Malolo mo le taimi nei",
+      "restingTitle": "Malolo",
+      "restingText": "Ia umi lava le taimi e manaʻomia outou. O le nofoaga o outou e teuina i lenei itulau.",
+      "resume": "Faaauau",
+      "placeText": "Na outou taofi i se vaega i le taimi mulimuli. Faaauau mai iina, pe amata fou.",
+      "placeResume": "Faaauau",
+      "placeFresh": "Amata fou",
       "soundOn": "Leo malūlū e ola",
       "soundOff": "Leo malūlū e tapunia",
       "done": "Ua uma mo lenei taimi",
@@ -43,7 +50,19 @@
       "viewShowing": "Ata e vaaia",
       "viewHidden": "Ata natia",
       "playAgain": "Taalo toe ma ata fou",
-      "talk": "Talanoa e uiga i ata faatasi"
+      "talk": "Talanoa e uiga i ata faatasi",
+      "modeLegend": "Ā ata?",
+      "modePlay": "Ata uma lava",
+      "modeDaily": "Pepa o le aso",
+      "dayLegend": "Aso fea?",
+      "dayHelp": "E tutusa ata mo tagata uma i le aso lava e tasi. O aso ua mavae o loo i ai foi, ma e leai se mea e leiloa pe a faasolo se aso.",
+      "guidanceDaily": "O le pepa o le aso e iai ni paolo e fa. Pepe i se ata, ona pepe lea i le ata e tutusa ma ia.",
+      "restartDaily": "Amata toe lenei pepa",
+      "copy": "Kopi lenei laina",
+      "copied": "Ua kopiina. E leai se mea ua auina atu i se nofoaga.",
+      "calendarTitle": "Pepa o aso, {month}",
+      "calendarHelp": "O aso uma e iai ni ata e fa tutusa mo tagata uma. E leai se faatinoga e faitaulaga, ma e leai se aso e faailoa o se aso ua leiloa.",
+      "calendarVersion": "Faaleleiga {date}. O ata e tutusa mo tagata uma i le aso lava e tasi."
     },
     "choose": {
       "countLegend": "Ata e fia",
@@ -62,6 +81,635 @@
       "shadowAlt": "Se malu e fetaui ma ia",
       "foundAlt": "Le malu o le {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Fesoasoani",
+      "hintOn": "Fesoasoani pe a mavae se malolo",
+      "hintOff": "Leai ni fesoasoani",
+      "guidance": "Suʻe ata e {n} o loo fetaui, ma pepe i ata taʻitasi.",
+      "countLegend": "E fia ata?",
+      "count": "Ata e {n}",
+      "found": "Ioe, o le {name|lower} e aofia i lenei vaega.",
+      "elsewhere": "O le {name|lower} e fetaui ma se mea seʻi. Ia faamalie le taimi.",
+      "hint": "Se fesoasoani: sailia {theme|lower}.",
+      "together": "O nei e fetaui: {theme}.",
+      "shown": "O lenei le vaega: {theme}.",
+      "groupName": "Fetaui: {theme}",
+      "show": "Faaali le vaega",
+      "next": "Seti isi"
+    },
+    "oddOneOut": {
+      "hintLegend": "Fesoasoani",
+      "hintOn": "Fesoasoani pe a mavae se malolo",
+      "hintOff": "Leai ni fesoasoani",
+      "guidance": "Suʻe le ata e le fetaui ma isi, ona pepe lea i ai.",
+      "countLegend": "E fia ata?",
+      "count": "Ata e {n}",
+      "belongs": "O le {name|lower} e fetaui ma isi. Ia faamalie le taimi.",
+      "found": "Ioe, o le {name|lower} o le mea e eseese. O isi o {theme|lower}.",
+      "shown": "Ia vaai: o le {name|lower}. O isi o {theme|lower}.",
+      "hint": "Se fesoasoani: {n} o nei o {theme|lower}.",
+      "others": "O isi: {theme}",
+      "show": "Faaali mai",
+      "next": "Seti isi"
+    },
+    "seatedToss": {
+      "guidance": "Nofo i le laulau ma fai i le faasolosolo le lafoina o se pulu-fuʻa i le sipa tele. Tumau le faitaulaga i luga o le pepa, faatasi.",
+      "stepsHeading": "O le auala o le taʻaloga",
+      "steps": [
+        "Pritiina le sipa ma le pepa faailoga, ma tuu i lalo i le laulau i le va o outou.",
+        "Nofo lelei, se tasi i itu taʻitasi. Fai le lafoina e tasi i le taimi, pe e te le fai pe a e le manaʻo.",
+        "Pe a pa le pulu i se mamanu, o le tagata na lafo e faailo se pusa i lana koluma, i laina o lena mamanu.",
+        "Vaai faatasi i faailoga pe a outou taofi, pe a outou manaʻo. E leai se tasi e tatau ona faaopoopo mai ni numera.",
+        "Taofi pe a mafai i so o se tasi ua sauni."
+      ],
+      "safetyHeading": "Puipuiga",
+      "safetyLine": "Faaaoga naʻo se pulu ua tui le pulou, poʻo se socks ua pei o se mamanu, nofo, aua le lafo i se foliga, ma tausi i se matua e latalata. O vaega laiti e lamatia i le manava o le gutu.",
+      "flags": [
+        "Le mo i lalo o le 3: vaega laiti",
+        "Taofi mai gutu"
+      ],
+      "safety": [
+        "Filifili se pulu ua tui le pulou, poʻo se socks mamā ua pei o se mamanu. Siaki muamua mo lavea poʻo fasi tui, ina ia le sau ai se mea mai totonu.",
+        "Fuʻa, mutu, ma isi mea laiti o se lamatia i le manava. Taofi ia mai tamaiti laiti ma tagata e tuu mea i totonu o le gutu.",
+        "Tumau i le mamao e taʻe lima, ma matamata lelei pe a iai se mea e mafai ona tuu i le gutu.",
+        "Nofo. Lafo malulu ma maualalo i le sipa i luga o le laulau, aua le lafo i se foliga."
+      ],
+      "previewLabel": "O le pepa ua pritiina: o se sipa e tolu mamanu e igoa Latalata, Ogatotonu ma Mamao, mai le pito i fafo i totonu, ma se faailoga e iai se koluma mo tagata taʻitasi ma se laina o pusa mo mamanu taʻitasi.",
+      "sheetHow": "Tuu le pepa i le va o outou. Pe a pa le pulu i se mamanu, faailo se pusa i lou koluma, i laina o lena mamanu.",
+      "rings": [
+        "Latalata",
+        "Ogatotonu",
+        "Mamao"
+      ],
+      "people": [
+        "Tagata muamua",
+        "Tagata lona lua"
+      ],
+      "ringHeading": "Mamanu",
+      "print": "Pritiina le sipa ma le pepa faailoga"
+    },
+    "seasonalPack": {
+      "guidance": "Filifili se masina, pritiina ana faataʻitaʻiga pepa e tolu, ona faia lea o le tasi, le lua poʻo le tolu faatasi.",
+      "monthLegend": "Filifili se masina",
+      "months": [
+        "Ianuari",
+        "Fepuari",
+        "Mati",
+        "Aperila",
+        "Me",
+        "Iuni",
+        "Iulai",
+        "Aukuso",
+        "Setema",
+        "Oketopa",
+        "Novema",
+        "Tesema"
+      ],
+      "monthNote": "O masina taʻitasi o loo iai ana ata lava ia. Ua faatuatua le itulau i lenei masina, ae e mafai ona outou filifili se isi.",
+      "restDay": "O le aso nei o le aso malolo",
+      "restLine": "E leai ni faataʻitaʻiga i le aso nei. O le aso malolo e lelei foi.",
+      "previewHeading": "Faataʻitaʻiga e tolu",
+      "puzzles": {
+        "pairs": {
+          "title": "Faatutusa paolo",
+          "how": "Tusi se laina mai ata taʻitasi i le laina pito i luga i le ata tutusa i le laina pito i lalo.",
+          "describe": "Laina e lua o ata e fa tutusa, i se faasologa eseese."
+        },
+        "different": {
+          "title": "O fea le mea eseese?",
+          "how": "Liliu se ata e eseese mai isi e tolu.",
+          "describe": "A row of four pictures. Three are the same, and one is different."
+        },
+        "color": {
+          "title": "Faalanu ai",
+          "how": "Lanu le ata e pei o le mea e outou manaʻo i ai, i ni ʻai lanu poʻo ni pensilo.",
+          "describe": "O se ata tele e lanu."
+        }
+      },
+      "print": "Pritiina le pusa o lenei masina",
+      "sheetHow": "Pritiina le itulau e tasi. Faia le tasi, le lua poʻo le tolu faataʻitaʻiga, i so o se faasologa.",
+      "printFooter": "Faia le tasi, le lua poʻo le tolu. Taofi pe a mafai."
+    },
+    "decorateACard": {
+      "guidance": "Filifili se mea e faia ai le kāati, ona faaliliu lea i ai faatasi i ni ʻai lanu poʻo peni. E leai se kāati sa‘o.",
+      "occasionLegend": "Filifili se mea",
+      "occasions": {
+        "birthday": {
+          "label": "Aso fanau",
+          "words": "Manuia le aso fanau"
+        },
+        "thank-you": {
+          "label": "Faafetai",
+          "words": "Faafetai"
+        },
+        "thinking-of-you": {
+          "label": "Ou te mafaufau ia te outou",
+          "words": "Ou te mafaufau ia te outou"
+        },
+        "new-season": {
+          "label": "Se vaitau fou",
+          "words": "Se vaitau fou"
+        },
+        "just-because": {
+          "label": "Naʻo le manatu",
+          "words": "Naʻo le manatu"
+        }
+      },
+      "stepsHeading": "Auala e faia ai faatasi",
+      "steps": {
+        "fold": "Pritiina le kāati ma faamamafa i le laina o le tui, ina ia taga le itu muamua i fafo.",
+        "front": "O le tasi e faaliliu le itu muamua, i tafatafa o upu.",
+        "inside": "O le isi e faaliliu le tua, poʻo outou te faasolo le faaliliu i le itu e tasi.",
+        "message": "Tusi se feʻau faatasi. O le tasi e mafai ona tusi, ae o le isi e fai upu.",
+        "stop": "Taofi pe a mafai. E leai se kāati sa‘o, ma se mea faigofie e lelei foi."
+      },
+      "materials": "Faaaoga ni ʻai lanu, pensilo lanu poʻo peni felt-tip. E leai se mea e manaʻomia ona tipi, pipii poʻo tui.",
+      "previewLabel": "O se faataʻitaʻiga o le kāati ua faamamafa i le tasi itu. O le itu muamua o loo i ai upu {words}, ma se faavaa faigofie o laau ma fetu. O le tua o loo i ai laina mo se feʻau ma se laina mo le Mai.",
+      "from": "Mai",
+      "sheetHow": "Pindang le kāe i le tafatafa i le laina e tuʻu ai le tafa, ma le mea muamua i fafo. Tusi le feau i tua.",
+      "rulesHeading": "Mo tagata e toalua",
+      "sheetRules": [
+        "Faʻavasegaina le taimi, poʻo le galuega: e tasi le tagata e teuteu le mea muamua, o le isi e le tua.",
+        "Tusi le feau faatasi, poʻo le tasi e tusi le mea e fai mai ai le isi.",
+        "E mafai i so o se tagata ona taofi i so o se taimi. E leai se kaata sa‘o."
+      ],
+      "print": "Lolomi le kaata"
+    },
+    "storyDice": {
+      "guidance": "Vaai i ata ma taʻu se tala ma i latou, i so o se faasologa. E leai se tala sa‘o.",
+      "countLegend": "Faafia taifaʻi",
+      "count": "{n} taifaʻi",
+      "roll": "Taifaʻi toe",
+      "pass": "Tuu atu",
+      "passed": "E lelei le tuu atu. E mafai e le isi tagata ona amata, poʻo e mafai ona e taifaʻi toe.",
+      "rolled": "Ata fou: {names}.",
+      "tapped": "{name}. Amata i lenei, poʻo se isi."
+    },
+    "wordPicture": {
+      "guidance": "Pa‘i i se ata, ona pa‘i lea i le upu e faaigoa ai. Poʻo le pa‘i i se upu, ona pa‘i lea i lona ata.",
+      "countLegend": "Faafia ata",
+      "count": "{n} ata",
+      "picturesGroup": "Ata",
+      "wordsGroup": "Upu",
+      "readWord": "Faitau leotele: {name}",
+      "next": "Ata fou",
+      "putBack": "Toe tuu",
+      "pickWord": "Ia pa‘i lea i le upu e fetaui ai.",
+      "pickPicture": "Ia pa‘i lea i le ata e fetaui ai.",
+      "fit": "Ioe, o lenei upu e fetaui ma le {name|lower}.",
+      "newSet": "Oti lenei seti fou o ata.",
+      "restarted": "Toe foi i le amataga. O ata uma ma upu uma ua toe wese.",
+      "restored": "Put back. The matched pairs are shown again.",
+      "all": "O upu uma ua i ai lona ata."
+    },
+    "colorMatch": {
+      "guidance": "Vaai i le lanu ma lona igoa, ona pa‘i lea i ata uma o loo lanu lenei.",
+      "target": "O le lanu o le {color|lower}. Pa‘i i ata uma o loo {color|lower}.",
+      "countLegend": "Faafia ata",
+      "count": "{n} ata",
+      "found": "Ioe, o le {name|lower} o le {color|lower}.",
+      "named": "O le {name|lower} o le {color|lower}.",
+      "all": "O ia ata uma o le {color|lower}.",
+      "shown": "O ia ata o le {color|lower}.",
+      "show": "Faaali mai",
+      "next": "Lanu isi",
+      "names": {
+        "red": "Mumu",
+        "orange": "Lanu enaena",
+        "yellow": "Samasama",
+        "green": "Lanumoana",
+        "blue": "Lanumeamata"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Pa‘i i se vaega i le itu agavale, ona pa‘i lea i le vaega i le itu taumatau e fetaui ai.",
+      "countLegend": "Faafia ata",
+      "count": "{n} ata",
+      "leftGroup": "Vaega i agavale",
+      "rightGroup": "Vaega i taumatau",
+      "left": "Vaega agavale o le {name|lower}",
+      "right": "Vaega taumatau o le {name|lower}",
+      "joined": "Ua faafetaui",
+      "pickRight": "Ia pa‘i lea i le vaega i taumatau e fetaui ai.",
+      "pickLeft": "Ia pa‘i lea i le vaega i agavale e fetaui ai.",
+      "fit": "Ioe, o nei vaega e lua e fai ai le {name|lower}.",
+      "apart": "E le fetaui nei vaega e lua. Taumafai i se isi.",
+      "all": "O ata uma ua atoatoa.",
+      "shown": "O ia ata, ua faafetaui.",
+      "show": "Faaali mai",
+      "next": "Seti isi"
+    },
+    "colorByNumber": {
+      "guidance": "Filifili se lanu mai le lisi, ona faatumu lea o se fata ma lena lanu. E lelei soo se lanu.",
+      "sizeLegend": "Tele o le faamau",
+      "size": "{n} ma {n}",
+      "keyLegend": "Lanu",
+      "colors": [
+        "Samasama",
+        "Lanu enaena",
+        "Lanumoana",
+        "Jioleta"
+      ],
+      "motifs": {
+        "house": "se fale",
+        "flower": "se fugalaau",
+        "heart": "se loto",
+        "tree": "se laau",
+        "boat": "se vaa malaga",
+        "pot-plant": "se laau i totonu o se ipu"
+      },
+      "region": "Faamau ata, {n} ma {n}. E mafai ona sosoo i le itu, afai e laiti le mata.",
+      "cell": "Numera {number}, laina {row}, koluma {column}, {color}",
+      "empty": "e leai se mea",
+      "chose": "Ua filifilia le {name}. Pa‘i i se fata e faatumu ai.",
+      "painted": "{name} i laina {row}, koluma {column}.",
+      "sheet": "O fata uma e tutusa le lanu ma lona numera. O lenei le ata i le pepa: {name}.",
+      "own": "Ua faatumuina fata uma. O lau lava ata lenei.",
+      "fillAll": "Faatumu ma numera",
+      "filledAll": "O fata uma e leai se mea ua i ai nei le lanu o lona numera.",
+      "clear": "Ave ese",
+      "cleared": "Ua mama le faamau.",
+      "next": "Ata isi",
+      "fresh": "O lenei se isi ata e lanu."
+    },
+    "patternMaker": {
+      "guidance": "Pa‘i i se fata e suia ai lona lanu. O lau faʻafaatusa e tupu i le itu. E leai se mea e te faia e teuina poʻo auina atu.",
+      "sizeLegend": "Tele o le tile",
+      "size": "{n} ma {n}",
+      "keyLegend": "Lanu, i le faasologa e suia ai e se pa‘i",
+      "colors": [
+        "Samasama",
+        "Lanu enaena",
+        "Lanumoana",
+        "Jioleta"
+      ],
+      "tileLabel": "Lau tile",
+      "region": "Lau tile, {n} ma {n}. E mafai ona sosoo i le itu, afai e laiti le mata.",
+      "patternLabel": "Lau faʻafaatusa",
+      "pattern": "Lau faʻafaatusa: lau tile e toe faia {n} i le itu i luga ma {n} i lalo.",
+      "square": "Laina {row}, koluma {column}, {color}",
+      "changed": "Laina {row}, koluma {column} ua avea nei ma {color}.",
+      "cleared": "Ua mama le tile. E mafai ona e toe tuu.",
+      "surprise": "Faafiafia ia te aʻu",
+      "surprised": "O lenei se tile fou. E mafai ona e toe tuu le muamua.",
+      "putBack": "Toe tuu",
+      "restored": "Ua toe foi lau tile e pei ona i ai muamua.",
+      "print": "Lolomi lau faʻafaatusa",
+      "sheetTitle": "Lau faʻafaatusa"
+    },
+    "buildTogether": {
+      "guidance": "Taumafai i le vaevaeina o le taimi e tuu ai se vaega i se nofoaga e leai se mea. O tagata uma e toalua e i ai lana lava lanu. E leai se mea e te faia e teuina poʻo auina atu.",
+      "sizeLegend": "Tele o le faamau",
+      "size": "{n} ma {n}",
+      "people": [
+        "Tagata muamua",
+        "Tagata lona lua"
+      ],
+      "colorLegend": "Lanu o {person}",
+      "colors": [
+        "Samasama",
+        "Lanu enaena",
+        "Lanumoana",
+        "Jioleta"
+      ],
+      "inUse": "Ua faaaogaina",
+      "turn": "Lou vaevaega, {person|lower}",
+      "yourColor": "O lou lanu o le {color|lower}.",
+      "built": "Ua faia faatasi. O lenei le ata na faia e le toalua.",
+      "gridLabel": "Le faamau faatasi",
+      "region": "Le faamau faatasi, {n} ma {n}. E mafai ona sosoo i le itu, afai e laiti le mata.",
+      "cellEmpty": "Laina {row}, koluma {column}, e leai se mea",
+      "cellFilled": "Laina {row}, koluma {column}, {color}, na tuu e le {person|lower}",
+      "placed": "Laina {row}, koluma {column} ua avea nei ma {color}. Lou vaevaega, {next|lower}.",
+      "placedLast": "Laina {row}, koluma {column} ua avea nei ma {color}. Ua faia faatasi.",
+      "taken": "Laina {row}, koluma {column} ua i ai se vaega. Filifili se nofoaga e leai se mea.",
+      "pass": "Tuu atu",
+      "passed": "E lelei le tuu atu. Lou vaevaega, {person|lower}.",
+      "takeBack": "Toe ave le vaega mulimuli",
+      "takeBackPass": "Toe ave le tuu atu",
+      "tookBack": "Ua toe ave le vaega. Lou vaevaega, {person|lower}.",
+      "tookBackPass": "Ua toe ave le tuu atu. Lou vaevaega, {person|lower}.",
+      "colorChanged": "O {person} o loo i ai nei le {color|lower}.",
+      "restarted": "E leai se mea i le faamau. Lou vaevaega, {person|lower}.",
+      "print": "Lolomi le faamau",
+      "sheetTitle": "Faia faatasi",
+      "sheetHelp": "Taumafai i le vaevaeina o le taimi. I se sikuea e leai se mea, o tagata uma e faatusa lava lo latou lava faatusa ma lona lava pene.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Pa‘i i se vaega, ona pa‘i lea i le avanoa i le ata e tatau ai ona tuu. E leai se mea e te faia e teuina poʻo auina atu.",
+      "hints": "Faaali mai laina fesoasoani",
+      "pictureLine": "O lenei o se {picture}.",
+      "pictures": {
+        "house": "fale",
+        "boat": "vaa",
+        "tree": "laau",
+        "fish": "i‘a",
+        "cat": "pusi",
+        "rocket": "roketi"
+      },
+      "outlineLabel": "Le faitaulaga o le {picture}. Pa‘i i se avanoa e tuu ai se vaega na filifilia.",
+      "trayHeading": "Vaega",
+      "pieces": {
+        "large-triangle": "Tafatolu tele",
+        "small-triangle": "Tafatolu laiti",
+        "square": "Sikuea",
+        "parallelogram": "Fa‘atusa‘a",
+        "rectangle": "Fa‘aoga"
+      },
+      "shapes": {
+        "large-triangle": "se tafatolu tele",
+        "small-triangle": "se tafatolu laiti",
+        "square": "se sikuea",
+        "parallelogram": "se fa‘atusa‘a",
+        "rectangle": "se fa‘aoga"
+      },
+      "chosenLabel": "Filifilia",
+      "spaceEmpty": "Avanoa {n}, {shape}, e leai se mea",
+      "spaceFilled": "Avanoa {n}, {shape}, ua i ai lana vaega. Pa‘i e toe ave ai le vaega.",
+      "chosen": "Ua filifilia le {piece}. Ia pa‘i lea i se avanoa i le ata.",
+      "unchosen": "Ua le toe filifilia le vaega.",
+      "placed": "O loo i le avanoa {n} le vaega.",
+      "complete": "Ua atoatoa le {picture}.",
+      "different": "O lenei vaega e ese le faatusa mai le avanoa lea. Taumafai i se isi avanoa.",
+      "needPiece": "Muamua filifili se vaega mai le ipu.",
+      "filled": "O lea avanoa ua i ai lana vaega. Pa'i i ai ina ia toe ave le vaega.",
+      "tookBack": "Ua toe i totonu o le ipu le vaega.",
+      "cleared": "Ua toe i totonu o le ipu vaega uma. Toe tuu i ai pe a suia lau manatu.",
+      "restored": "Ua toe i totonu o le ata vaega uma.",
+      "next": "O lenei o se {picture}.",
+      "putBack": "Toe tuu i ai",
+      "another": "Se isi faatusa",
+      "print": "Lolomi lenei faatusa",
+      "sheetTitle": "Faatusa filemu",
+      "sheetHow": "Vali vali vaega, po o tipi ese i latou e fetaui ai ma le tulaga. E mafai e se matua ona tipi.",
+      "sheetPieces": "Vaega, e tutusa le lapopoa ma le tulaga"
+    },
+    "picnicPlanner": {
+      "guidance": "Pa'i i se ata e tuu ai i totonu o le kete o le pikiniki, ma pa'i i ai i totonu o le kete e ave ai i fafo. E ono mea e fetaui ai le kete.",
+      "guidancePlay": "Pa'i i ata e lua e tutusa. O ata e tumau ai i luga, ma e leai se taimi e fuaina.",
+      "basketHeading": "O lo tatou kete",
+      "basketLabel": "Le kete o le pikiniki",
+      "takeOut": "Ave le {picture} i fafo o le kete",
+      "inBasket": "I totonu o le kete",
+      "foodHeading": "Meaʻai",
+      "outingsHeading": "Mea e faia",
+      "added": "O le {picture} o loo i totonu o le kete.",
+      "removed": "Ua ave le {picture} i fafo o le kete.",
+      "already": "O le {picture} o loo i ai i totonu o le kete. Pa'i i ai ina ia ave i fafo.",
+      "full": "Ua tumu le kete. Ave se mea i fafo ina ia i ai le avanoa.",
+      "summary": "Lo tatou pikiniki: {list}.",
+      "summaryNone": "E leai se mea i totonu o le kete i le taimi nei.",
+      "and": "ma",
+      "play": "Tatou taʻaloina ma lo tatou pikiniki",
+      "needTwo": "Muamua filifili mea e lua a le itiiti.",
+      "playAgain": "Taʻalo toe",
+      "back": "Toe i le pikiniki",
+      "print": "Lolomi le lisi o lo tatou pikiniki",
+      "cleared": "Ua gaʻo le kete.",
+      "notice": "O se fuafuaga e talanoa ai. E leai se taimi, se fuaʻiga po o se mea ua teuina.",
+      "sheetTitle": "Lo tatou lisi o le pikiniki",
+      "sheetHow": "Faailoa i le tikeri i mea taʻitasi pe a outou teuina. Faaaoga laina matala mo mea uma e manaʻo outou e aumai.",
+      "sheetToPack": "E teuina"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Filifili ata a outou e lua i le sefulu ma lua e amata ai le tusi.",
+      "guidance": "Liliu itulau faatasi, i le faamau po o pusa ʻagaʻi i le itu agavaʻa ma le taumatau. Faaopoopo ni upu i lalo o se ata pe a finagalo outou. E leai se mea e teuina po o auina atu.",
+      "lookGuidance": "Matamata i itulau taʻitasi faatasi. E mafai ona outou talanoa po o matamata naʻo le faatasi.",
+      "intro": "Filifili ata e lua i le sefulu ma lua mai lenei masini. O ata taʻitasi o le a avea ma itulau o se tusi e mafai ona liliu faatasi.",
+      "consent": "Faaaoga ata o le aiga a outou lava. Fesili muamua pe a faaaoga se ata o se tasi e le mafai ona tali mai.",
+      "privacy": "O ata a outou o loo i lenei masini. E le auina atu, e le teuina foi.",
+      "choose": "Filifili ata",
+      "chooseDifferent": "Filifili ata eseese",
+      "backToBook": "Toe i le tusi",
+      "backToChoose": "Toe i le filifilia o ata",
+      "needTwo": "Fa'amolemole filifili ata e le itiiti ifo i le lua.",
+      "usingFirst": "E faaaoga ai le {max} ata muamua.",
+      "cleared": "Ua gaʻo le tusi. Filifili ata e amata toe ai.",
+      "moved": "Ua siitia i le itulau {n}.",
+      "pageOf": "Itulau {n} o le {total}",
+      "lookTogether": "Matamata faatasi",
+      "leaveLook": "Toe i le tusi",
+      "print": "Lolomi le tusi o ata",
+      "clear": "Gaʻo le tusi",
+      "bookLabel": "Le tusi o ata o le aiga",
+      "pagesLabel": "Liliu itulau",
+      "previous": "Itulau muamua",
+      "next": "Itulau o le isi",
+      "moveEarlier": "Siitia i muamua",
+      "moveLater": "Siitia i tua",
+      "captionLabel": "Ni upu mo lenei itulau, pe a finagalo outou",
+      "captionHelp": "E oo i le 80 mataitusi. O upu e teuina naʻo lenei itulau, ma e le toe i ai pe a outou tapunia.",
+      "sheetTitle": "Lo tatou tusi o ata",
+      "sheetHow": "Se ata i le itulau taʻitasi, ma upu i lalo. Liliu itulau i le faasologa ma talanoa e uiga i ta ʻitasi.",
+      "sheetEmpty": "Filifili ata a outou i le itulau o taʻaloga e lolomi ai le tusi a outou lava, po o lolomi lenei itulau matala ma faapipiʻi ai se ata ua lolomia.",
+      "sheetFrame": "Faapipiʻi le ata ua lolomia i lenei itu",
+      "sheetWords": "Ni upu mo lenei itulau",
+      "skipped": {
+        "one": "{n} faila e le o se ata e mafai ona faaaoga.",
+        "other": "{n} faila e le o ata e mafai ona faaaoga."
+      }
+    },
+    "quietScene": {
+      "guidance": "Matamata i se ata i le taimi. Pa'i i le Isi pe le Muamua pe a sa outou. E leai se mea e gaosi i ai ona lava.",
+      "next": "Ata o le isi",
+      "previous": "Ata muamua",
+      "bigPicture": "Ata tele",
+      "showEverything": "Faaali mea uma",
+      "first": "O lenei o le ata muamua.",
+      "last": "O lenei o le ata mulimuli.",
+      "lines": {
+        "sunrise": "O le la o loo sosoo ae ala i luga o le laueleele.",
+        "window-with-birds": "Manu i fafo o le faamalama.",
+        "vase-of-flowers": "Se ipu fuga i luga o le laulau.",
+        "teacup": "Se ipu tī i le itu o le faamalama.",
+        "tree": "Se laau e tutū i totonu o le faatoaga.",
+        "sailboat": "Se vaʻa folau i luga o le vai.",
+        "lighthouse": "Se fale malamalama i le gataifale.",
+        "rainbow": "Se laʻei lanu i le taimi pe a uma le timu.",
+        "moon": "O le masina i le lagi i le po.",
+        "daisies": "Se ʻāvaʻe o fuga lanumeamata i le mutia.",
+        "rowing-boat": "Se vaʻa fofo i luga o le vai filemu.",
+        "potted-plant": "Se laau lanumeamata i totonu o se ipu."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Liliu. Pa'i i se vaega ua tipi, ona pa'i lea i se avanoa e gaogao e tuu ai. E leai se mea e teuina po o auina atu.",
+      "people": [
+        "Tagata muamua",
+        "Tagata lona lua"
+      ],
+      "marks": [
+        "se taamilo",
+        "se fā tulaga"
+      ],
+      "turn": "Ua sau le sa a le {person|lower}.",
+      "marked": "O vaega a outou ua faailoaina ma {mark}.",
+      "boardLabel": "Le papa faatasi",
+      "placeEmpty": "Avanoa {n}, e gaogao",
+      "placeFilled": "Avanoa {n}, {picture|lower}, na tuu e le {person|lower}",
+      "trayHeading": "Le ipu o vaega ua tipi",
+      "chosenLabel": "Ua filifilia",
+      "chosen": "Ua filifilia le {picture}. Ia pa'i i se avanoa e gaogao.",
+      "unchosen": "Le vaega ua tipi ua le toe filifilia.",
+      "needCutout": "Muamua filifili se vaega ua tipi, ona pa'i lea i se avanoa e gaogao.",
+      "filled": "O le avanoa {n} ua i ai le ata. Filifili se avanoa e gaogao.",
+      "placed": "O le {picture} o loo i le avanoa {n}. Ua sau le sa a le {next|lower}.",
+      "full": "O avanoa uma ua i ai ata. Ave se tasi i tua ina ia suia, po o amata toe.",
+      "pass": "Tuu atu",
+      "passed": "E lelei le tuu atu. Ua sau le sa a le {person|lower}.",
+      "takeBack": "Ave i tua le vaega mulimuli",
+      "takeBackPass": "Ave i tua le tuu atu",
+      "tookBack": "Ua aveina i tua le vaega. Ua sau le sa a le {person|lower}.",
+      "tookBackPass": "Ua aveina i tua le tuu atu. Ua sau le sa a le {person|lower}.",
+      "restarted": "E gaogao le papa. Ua sau le sa a le {person|lower}.",
+      "putBack": "Toe tuu i ai",
+      "putBackDone": "Ua toe tuu vaega i luga o le papa.",
+      "another": "Se isi seti o ata",
+      "anotherSet": "Ua i totonu o le ipu se seti fou o vaega ua tipi. O vaega o loo i luga o le papa o loo tumau i ai.",
+      "print": "Lolomi le papa",
+      "sheetTitle": "Papa o le kolāsi",
+      "sheetHow": "Tipi ese ata ma filifili sa e tuu ai i luga o le papa. E mafai e se matua ona tipi.",
+      "sheetTray": "Ata e tipi ese"
+    },
+    "gardenPlanner": {
+      "guidance": "Pa'i i se ata, ona pa'i lea i se tuʻu laau e tuu ai. Pa'i i se tuʻu laau o loo i ai se ata, a leai se mea filifilia, ina ia aveese.",
+      "bedsLabel": "Tuʻu laau o le faatoaga",
+      "bedEmpty": "Tuʻu {n}, e gaogao",
+      "bedFilled": "Tuʻu {n}, {picture|lower}",
+      "plantsHeading": "Laau",
+      "extrasHeading": "Mea faaopoopo o le faatoaga",
+      "chosenLabel": "Ua filifilia",
+      "chosen": "Ua filifilia le {picture}. Ia pa'i i se tuʻu laau.",
+      "unchosen": "E leai se ata ua filifilia.",
+      "needPicture": "Filifili muamua se ata, ona paʻi lea i se vaega o le māla.",
+      "planted": "O {picture} o loʻo i le vaega {n}.",
+      "replaced": "O {picture} sui le ata o loʻo i le vaega {n}.",
+      "cleared": "E gaʻo le vaega {n}. Ia toe tuu mai lea pe a e manaʻo toe i le ata.",
+      "restarted": "E gaʻo vaega uma.",
+      "putBack": "Toe tuu mai",
+      "putBackDone": "Ua toe tuu mai ata i a latou vaega.",
+      "summaryHeading": "Loʻu māla",
+      "summary": "Lau fuafuaga o loʻo i ai {list}.",
+      "summaryNone": "Leai se ata i se vaega seia oʻo ane.",
+      "and": "ma",
+      "print": "Lolomi le fuafuaga",
+      "sheetTitle": "Lo matou fuafuaga o le māla",
+      "sheetHow": "Ua faaalia i vaega ata na filifilia i le faaaliga. Afai e te manaʻo, tusi ata i vaega gaʻo.",
+      "sheetNotes": "Faamatalaga",
+      "notice": "O se fuafuaga ata e talanoaina ai lea, e le o ni fautua mo le totoina."
+    },
+    "coloringWall": {
+      "guidance": "Filifili se ata ma le aofaʻi o itulau. Lolomi le puipui, ona vali lea o tagata taʻitasi i se itulau pe sili. E leai se taimi, se sikoa, po o se teuina.",
+      "pictureLegend": "Ata",
+      "sizeLegend": "Aofaʻi o itulau",
+      "sizes": {
+        "2x2": "4 itulau (2 i le 2)",
+        "3x2": "6 itulau (3 i le 2)",
+        "3x3": "9 itulau (3 i le 3)"
+      },
+      "previewLabel": "O {picture|lower} ua vaevaeina i itulau {n}, {across} i le lautele ma {down} i le umi. O itulau taʻitasi e iai se faailoga i lona tulimanu.",
+      "previewCaption": "O le ata ma laina o itulau ma faailoga ua tusia i luga.",
+      "labelsNote": "O mataʻitusi e alu i lalo o le puipui, ma numera e alu i le lautele, o lea o A1 le itulau i luga i le agavale.",
+      "wallHeading": "Auala e faatasia ai le puipui",
+      "steps": [
+        "Lolomi uma itulau. O le itulau muamua o nei laasaga ma se faafanua o le puipui.",
+        "O tagata taʻitasi e ave se itulau pe sili, ona vali ai.",
+        "E le manaʻomia ona tutusa lanu ma auala. O itulau uma o se vaega o le ata e tasi lava.",
+        "Faasaʻo itulau e tusa ma o latou faailoga, ona faapipiʻi ma le teipi i tua.",
+        "Tuu le puipui i se mea e mafai ai ona vaai uma i ai."
+      ],
+      "mapLabel": "Faafanua o le puipui: {down} laina o {across} itulau, faailoga mai A1 i {last}.",
+      "edgeNote": "O le laina fasi e faailo ai le pito o itulau taʻitasi. Faasaʻo itulau pito i pito e tusa ai, pe faafefiloi se vaega laʻititi.",
+      "pictureLine": "Ata: {picture}. O lenei puipui e {n} itulau: {across} i le lautele ma {down} i le umi.",
+      "print": "Lolomi le puipui"
+    },
+    "findTogether": {
+      "guidance": "Faafeagai le taimi. I lou taimi, liliu ese ni pepa e lua e sailia ai se paga. Sailia paga faatasi.",
+      "sizeLegend": "Aofaʻi o pepa",
+      "size": "{n} pepa",
+      "viewLegend": "Auala o le taaloga",
+      "viewShowing": "Taalo ma ata e faaalia",
+      "viewHidden": "Pepa ua liliu i lalo",
+      "people": [
+        "Le tagata muamua",
+        "Le tagata lona lua"
+      ],
+      "turn": "Taimi: {person}",
+      "turnDone": "Ua maua uma paga.",
+      "tally": "Paga ua maua faatasi: {n}",
+      "cardNamed": "{name}, pepa {n}",
+      "cardFaceDown": "Pepa {n}, ua liliu i lalo",
+      "first": "{name}. Ia liliu ese le pepa lona lua.",
+      "found": "{name}: ua maua se paga faatasi. O le taimi lea o le {next|lower}.",
+      "allTogether": "Ua maua faatasi uma paga.",
+      "different": "E eseese {a} ma {b}. Ia faatali pe a e sauni, ona kiliki lea Toe liliu.",
+      "waiting": "Kiliki Toe liliu pe a e sauni. Ona sosoo ai lea o le taimi.",
+      "turnedBack": "Ua toe liliu. O le taimi lea o le {person|lower}.",
+      "passed": "E lelei le tuʻu atu. O le taimi lea o le {person|lower}.",
+      "turnBack": "Toe liliu",
+      "pass": "Tuʻu atu",
+      "playAgain": "Taalo toe"
+    },
+    "drawingDuet": {
+      "guidance": "Faafeagai le taimi ma se laina taʻitasi, ona tuʻu atu lea o le peni. E mafai ona tuʻu atu e so se tasi. E leai se mea e auina atu. E na o le ata e alu ese mai lenei itulau pe a e teuina.",
+      "people": [
+        "Le tagata muamua",
+        "Le tagata lona lua"
+      ],
+      "colorLegend": "Lanu o {person}",
+      "colors": [
+        "Samasama",
+        "Moli",
+        "Meamata",
+        "Violet"
+      ],
+      "turn": "Taimi o {person}",
+      "penColor": "Lanu o le peni: {color}.",
+      "canvasLabel": "Ata faatasi, {n} laina seia oʻo ane",
+      "canvasLabelOne": "Ata faatasi, {n} laina seia oʻo ane",
+      "keys": "Ki o auala e faagaoioi ai le tulimanu o le peni i luga o le ata. Ki avanoa e faaifo ai pe faaʻeʻe le peni.",
+      "penDown": "Faaifo le peni",
+      "penUp": "Faaʻeʻe le peni",
+      "pass": "Tuʻu atu le peni",
+      "passed": "E lelei le tuʻu atu. O lou taimi lea, {person|lower}.",
+      "takeBack": "Aveese laina mulimuli aʻu",
+      "tookBack": "Ua aveesea le laina mulimuli a le {person|lower}.",
+      "noLine": "E leai se laina a le {person|lower} e aveesea.",
+      "restarted": "Ua gaʻo le pepa. O le tagata muamua e iai le taimi. Toe tuu mai pe afai na e le o manaʻo i ai.",
+      "putBack": "Toe tuu mai",
+      "restored": "Ua toe tuu mai laina e pei ona i ai muamua.",
+      "save": "Teu le ata",
+      "saved": "Ua sauni lau ata. Faaaoga le fesoʻotaʻiga e lafo ai e teu ai i lenei masini.",
+      "download": "Lafo drawing-duet.png",
+      "print": "Lolomi le kopi pepa",
+      "sheetTitle": "Ata e lua tagata",
+      "paperRules": "Tagata e lua, pepa e tasi, peni e lua. Faafeagai le taimi: laina poʻo foliga e tasi taʻitasi, ona tuʻu atu lea o le peni. E mafai ona tuʻu atu e so se tasi. E leai se ata e saʻo."
+    },
+    "colorWash": {
+      "guidance": "Vali le lanu malulu i luga o le itulau, e tasi le sasa i le taimi. Aveese le pulufa e taofi ai, ma taofi pe a e manaʻo. E leai se mea e teuina poʻo auina.",
+      "colorLegend": "Lanu o le sasa",
+      "sizeLegend": "Lapopoʻa o le pulufa",
+      "colors": [
+        "Samasama",
+        "Moli",
+        "Meamata",
+        "Violet"
+      ],
+      "sizes": {
+        "wide": "Lautele",
+        "veryWide": "Lautele tele lava"
+      },
+      "color": "Lanu o le sasa: {color}.",
+      "brushDown": "Faaifo le pulufa",
+      "brushUp": "Faaʻeʻe le pulufa",
+      "keys": "Ki o auala e faagaoioi ai le mama o le pulufa i luga o le itulau. Ki avanoa e faaifo ai pe faaʻeʻe le pulufa.",
+      "canvasLabel": "Se itulau o sasa lanu malulu",
+      "fresh": "Se itulau fou",
+      "freshMessage": "Se itulau fou.",
+      "putBack": "Toe tuu mai",
+      "restored": "Ua toe tuu mai le itulau."
+    },
     "sortTogether": {
       "guidance": "Pa'i i se ata, ona pa'i lea i le fagu e tatau ai ona tuu ai.",
       "restart": "Ata fou",
@@ -71,6 +719,10 @@
       "hint": "O le {name|lower} e mafai ona tuu i le fagu \"{basket}\". Pa'i i lena fagu e tuu ai.",
       "placed": "O le {name|lower} o i totonu o le fagu \"{basket}\".",
       "sorted": "Ua uma ona vasevase mea uma. Va'ai faatasi i fagu, po'o se isi autu.",
+      "largerTargets": "Sini tetele",
+      "largerOn": "Ua ieleina sini tetele. E leai se mea na gaosia.",
+      "largerOff": "Ua tapunia sini tetele. E leai se mea na gaosia.",
+      "largerOnNewRound": "Ua ieleina sini tetele, ma kete e lua. O lenei o ata fou e faavasegaina.",
       "basket": {
         "one": "Fagu {basket}, {count} ata i totonu",
         "other": "Fagu {basket}, {count} ata i totonu"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Pa'i i se vaega, ona pa'i lea i se isi. E suia tulaga.",
-      "restart": "Faafefiloi toe",
+      "restart": "Mix up again",
       "pictureLegend": "Ata",
       "pictures": {
         "sailboat": "Va'a folau",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Le ata atoa: {name}",
       "guideText": "O lenei le auala e vaaia ai le ata pe a atoa.",
+      "ownChoose": "Faaaoga lau lava ata",
+      "ownChange": "Filifili se ata eseese",
+      "ownBack": "Toe foi i a matou ata",
+      "ownPrivacy": "E nofo lau ata i lenei masini. E le auina atu i se mea, e le teuina foi.",
+      "ownConsent": "Faaaoga au ata lava. Fesili muamua pe a faaaoga se ata o se tagata e le mafai ona tali ioe.",
+      "ownWorking": "Ua saunia lau ata.",
+      "ownNotUsable": "E le mafai ona faaaogaina lena faila. Filifili se faila ata, e pei o le JPEG poʻo le PNG.",
+      "ownAlt": "Lau ata",
+      "ownPiece": "Vaega {n}, {place}",
+      "ownWhole": "Ua toe atoatoa lau ata. Faafefiloi toe pe a e manaʻo.",
+      "ownSheetTitle": "Lau ata i vaega",
+      "ownSheetHow": "Tipi i laina. Faafefiloi vaega, ona suia lea e lua vaega i le taimi seia atoatoa le ata.",
       "piece": "Vaega i le {place}",
       "pieceInPlace": ", i le nofoaga sa tatau ai",
       "piecePickedUp": ", ua ave",
@@ -122,7 +786,7 @@
         "lalo taumatau"
       ],
       "done": "Ua toe atoa le ata. Taalo toe pe malolo se taimi.",
-      "playAgain": "Faafefiloi toe"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Faitau le faataoto faatasi, ona pa'i lea i le upu e faaiu ai.",
@@ -190,6 +854,14 @@
       "guidance": "Faitau le pepa leo tele. E leai ni tali sa'o.",
       "position": "Pepa {n} o le {total}",
       "themeLegend": "Autu",
+      "showPrompt": "Faaali se fesili e talanoa ai",
+      "bigPicture": "Ata tele, mo se vaega tagata",
+      "passNote": "E mafai ona tuʻu atu e so se tasi.",
+      "groupTitle": "Tuʻu atu le pepa i totonu o se vaega",
+      "groupSit": "Nofo i se taamilosaga e mafai ai ona vaai uma i le ata. O le tagata e umia le pepa, poʻo le masini e faaali ai le ata tele, e faitau leoleo muamua le fesili.",
+      "groupPass": "Ona tuʻu atu lea o le pepa i le tagata na sosoo. O tagata taʻitasi e fai se upu poʻo se fuaitau e uiga i le ata, ona tuʻu atu lea.",
+      "groupNoSpeech": "E faatagaina lava le tuʻu atu o le pepa. E mafai i se tagata ona tuʻu atu e aunoa ma se mea e fai, ma e leai se tasi e manaʻomia ona faamatala le mafuaʻaga.",
+      "groupEnd": "E faaiʻu le taamilosaga pe a ō atu le kāti i le taamilo uma, pe a ua fiafia le vaega. E leai se tasi e manumalo. Ia tuʻu lava pe a manaʻo le vaega.",
       "next": "Pepa e sosoo mai",
       "previous": "Pepa muamua",
       "print": "Lolomi pepa uma",
@@ -252,6 +924,20 @@
       "started": "Ua amata. Manava i totonu pe a tupu le taamilo.",
       "stopped": "Ua taofi.",
       "finished": "Ua uma le ono manava malie. Amata toe pe a e manaʻo."
+    },
+    "storyChain": {
+      "guidance": "Ia faasolo le taimi: fuaiupu e tasi mo tagata taitasi, ma faaopoopo le ata e sosoo ai.",
+      "passNote": "Ia faaleo lou fuaiupu. E leai se mea e tusia pe teuina. E mafai i se tasi ona tuʻu.",
+      "chainLabel": "Le faasologa ua oʻo ai",
+      "item": "Ata {n}: {name}",
+      "add": "Faaopoopo se ata",
+      "fullAdd": "O le faasologa ua tumu. Amata se faasologa fou",
+      "newChain": "Amata se faasologa fou",
+      "takeOff": "Aveese le mulimuli",
+      "added": "O le {name|lower} ua tu nei i le iʻuga o le faasologa.",
+      "removed": "Ua aveesea le {name|lower} mai le faasologa.",
+      "fresh": "Faasologa fou, amata i le {name|lower}.",
+      "full": "O le faasologa ua tumu i ata valu. Ta le tala atoa, pe amata se faasologa fou."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Ao o le ua",
     "snowflake": "Fuʻa aisa",
     "kite": "Kaiti",
-    "sunrise": "Ata o le lā i luga o mauga"
+    "sunrise": "Ata o le lā i luga o mauga",
+    "decorated-keepsake-box": "Pusa teuteu",
+    "painted-plant-pot": "Ipu laau manogi",
+    "repeating-pattern-sheet": "Pepa faʻataʻitaʻiga",
+    "music-drawn-lines": "Laina i le musika",
+    "paper-boat-afloat": "Vaʻa pepa i luga o le vai",
+    "folded-towel-stack": "Taʻi o tuala",
+    "hand-massage-with-lotion": "Lima i luga o le tuala ma le lotion",
+    "open-photo-album": "Album ata tatala",
+    "button-flower-card": "Fugalaʻau pateni i luga o le kāti",
+    "blue-torn-paper-collage": "Kolasi pepa lanumoana",
+    "family-tree-of-hands": "Laʻau o le aiga ua tusia ma lima",
+    "open-greeting-card": "Kāti tatala ma le loto",
+    "lavender-sachet": "Pusa lavender ua fusia ma le nafa",
+    "memory-collage-of-photos": "Kolasi ata o le aiga",
+    "paper-chain-garland": "Lei pepa",
+    "open-songbook-with-notes": "Tusi pese tatala",
+    "photo-postcard-with-stamp": "Kāti ata ma le stamp",
+    "pine-cone-bird-feeder": "Fagu manu mai fua pine",
+    "playlist-phone-and-card": "Telefoni ma kāti pese",
+    "sealed-rice-shaker": "Ipu araisa tapunia",
+    "texture-board-with-scraps": "Laupapa ma pepa vaevae",
+    "painted-garden-stone": "Maa vali o le faatoaga",
+    "shared-painted-canvas": "Kanava vali faʻatasi",
+    "watercolor-washes-sheet": "Vali vai i luga o le pepa",
+    "seedling-in-pot": "Fuamoa i le ipu",
+    "pressed-leaves-in-book": "Lau faamamafa i le tusi",
+    "printed-leaves-sheet": "Pepa o ata lau",
+    "pinch-pot-clay-bowl": "Ipu ele",
+    "table-sketch-pencil": "Ata pensala o se ipu",
+    "buttons-in-muffin-tin": "Pateni i totonu o le ipu keke",
+    "family-recipe-book": "Tusi lesipi o le aiga",
+    "drum-with-beat-marks": "Pā laupapa ma laʻau",
+    "torn-paper-flower": "Mosaic fugalaʻau pepa",
+    "window-with-birds": "Faamalama ma manu",
+    "woven-paper-mat": "Ie pepa fiʻi",
+    "yarn-ball-with-thread": "Pōlu uʻi",
+    "letter-and-envelope": "Tusi i totonu o le envelope"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Malaga i fafo"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fuaʻi",
+        "animals": "Manu",
+        "travel": "Auala malaga",
+        "flowers": "Fugalaʻau",
+        "hot-drinks": "Mea mo se inu vevela",
+        "weather": "Ituaiga o le tau",
+        "baked": "Mea tunu i le avini"
       }
     }
   }

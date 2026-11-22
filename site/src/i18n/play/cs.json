@@ -5,6 +5,13 @@
       "stopReading": "Zastavit čtení",
       "region": "Hra",
       "restart": "Začít znovu",
+      "rest": "Teď si odpočiňte",
+      "restingTitle": "Odpočíváte",
+      "restingText": "Odpočívejte, jak dlouho potřebujete. Vaše místo na této stránce zůstane uložené.",
+      "resume": "Pokračovat",
+      "placeText": "Naposledy jste skončili uprostřed. Pokračujte tam, kde jste přestali, nebo začněte znovu.",
+      "placeResume": "Pokračovat",
+      "placeFresh": "Začít znovu",
       "soundOn": "Tiché zvuky zapnuty",
       "soundOff": "Tiché zvuky vypnuty",
       "done": "Pro teď hotovo",
@@ -45,7 +52,19 @@
       "viewShowing": "Obrázky viditelné",
       "viewHidden": "Skryté obrázky",
       "playAgain": "Hrát znovu s novými obrázky",
-      "talk": "Povídejte si společně o obrázcích"
+      "talk": "Povídejte si společně o obrázcích",
+      "modeLegend": "Které obrázky",
+      "modePlay": "Libovolné obrázky",
+      "modeDaily": "Dnešní karta",
+      "dayLegend": "Který den",
+      "dayHelp": "Všichni dostanou stejné obrázky ve stejný den. Dřívější dny jsou tu také a přeskočit den nic nestojí.",
+      "guidanceDaily": "Dnešní karta má čtyři dvojice. Klepněte na obrázek a potom na ten, který mu odpovídá.",
+      "restartDaily": "Začít tuto kartu znovu",
+      "copy": "Zkopírovat tento řádek",
+      "copied": "Zkopírováno. Nic se nikam neodesílá.",
+      "calendarTitle": "Dnešní karty: {month}",
+      "calendarHelp": "Každý den má pro všechny stejné čtyři obrázky. Nic se nehodnotí a žádný den se neoznačuje jako zmeškaný.",
+      "calendarVersion": "Verze {date}. Obrázky jsou stejné pro všechny ve stejný den."
     },
     "choose": {
       "countLegend": "Kolik obrázků",
@@ -64,6 +83,637 @@
       "shadowAlt": "Stín k přiřazení",
       "foundAlt": "Stín: {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Nápovědy",
+      "hintOn": "Nápověda po chvíli",
+      "hintOff": "Bez nápověd",
+      "guidance": "Najděte skupinu obrázků, které k sobě patří, počet: {n}. Klepněte na každý z nich.",
+      "countLegend": "Kolik obrázků",
+      "count": "Obrázků: {n}",
+      "found": "Ano, {name|lower} do této skupiny patří.",
+      "elsewhere": "{name|lower} patří k něčemu jinému. Nespěchejte.",
+      "hint": "Nápověda: hledejte {theme|lower}.",
+      "together": "Patří k sobě: {theme}.",
+      "shown": "Tady je skupina: {theme}.",
+      "groupName": "Spolu: {theme}",
+      "show": "Ukázat skupinu",
+      "next": "Další sada"
+    },
+    "oddOneOut": {
+      "hintLegend": "Nápovědy",
+      "hintOn": "Nápověda po chvíli",
+      "hintOff": "Bez nápověd",
+      "guidance": "Najděte obrázek, který k ostatním nepatří, a klepněte na něj.",
+      "countLegend": "Kolik obrázků",
+      "count": "Obrázků: {n}",
+      "belongs": "{name|lower} patří k ostatním. Nespěchejte.",
+      "found": "Ano, {name|lower} je ten, který nepatří. Ostatní jsou {theme|lower}.",
+      "shown": "Tady je: {name|lower}. Ostatní jsou {theme|lower}.",
+      "hint": "Nápověda: {n} z nich jsou {theme|lower}.",
+      "others": "Ostatní: {theme}",
+      "show": "Ukažte mi to",
+      "next": "Další sada"
+    },
+    "seatedToss": {
+      "guidance": "Sedněte si ke stolu a střídejte se v hodu měkkým míčkem do velkého terče. Záznam si veďte na papíře, společně.",
+      "stepsHeading": "Jak to probíhá",
+      "steps": [
+        "Vytiskněte terč a záznamový list a položte je na stůl mezi sebe.",
+        "Posaďte se pohodlně, každý na jedné straně. Střídejte se: každý jeden jemný hod, nebo můžete přeskočit, pokud chcete.",
+        "Když hod dopadne do některého kruhu, ten, kdo házel, zaškrtne jedno políčko ve svém sloupci, na řádku pro daný kruh.",
+        "Až skončíte, podívejte se na zaškrtnutá políčka spolu, pokud chcete. Nikdo nemusí nic sčítat.",
+        "Skončete, kdykoli některý z vás bude chtít."
+      ],
+      "safetyHeading": "Bezpečnost",
+      "safetyLine": "Používejte jen míčky se zašitým krytem nebo srolovanou ponožku, zůstaňte sedět, nikdy neházejte směrem k obličeji a mějte poblíž dospělého. Malé části jsou nebezpečí udušení.",
+      "flags": [
+        "Není pro děti do 3 let: malé části",
+        "Držte mimo ústa"
+      ],
+      "safety": [
+        "Vyberte míček se zašitým krytem, nebo srolujte čistou ponožku. Nejprve jej zkontrolujte, zda nemá díry nebo uvolněné stehy, aby nemohla vypadnout náplň.",
+        "Fazole, rýže a jiné malé náplně jsou nebezpečí udušení. Držte je mimo dosah malých dětí i každého, kdo si dává věci do úst.",
+        "Zůstaňte na dosah ruky a pozorně dohlížejte, pokud by si někdo mohl něco dát do úst.",
+        "Zůstaňte sedět. Házejte jemně a nízko směrem k terči na stole, nikdy směrem k obličeji."
+      ],
+      "previewLabel": "Náhled tisku: terč se třemi kruhy pojmenovanými Blízko, Uprostřed a Daleko, od vnějšku dovnitř, a záznamový list se sloupcem pro každého a řádky prázdných políček pro každý kruh.",
+      "sheetHow": "Položte list mezi sebe na rovnou plochu. Když hod dopadne do kruhu, zaškrtněte políčko ve svém sloupci, na řádku daného kruhu.",
+      "rings": [
+        "Blízko",
+        "Uprostřed",
+        "Daleko"
+      ],
+      "people": [
+        "První z vás",
+        "Druhý z vás"
+      ],
+      "ringHeading": "Kruh",
+      "print": "Vytisknout terč a záznamový list"
+    },
+    "seasonalPack": {
+      "guidance": "Vyberte měsíc, vytiskněte jeho tři papírové hádanky a udělejte jednu, dvě nebo všechny tři společně.",
+      "monthLegend": "Vyberte měsíc",
+      "months": [
+        "Leden",
+        "Únor",
+        "Březen",
+        "Duben",
+        "Květen",
+        "Červen",
+        "Červenec",
+        "Srpen",
+        "Září",
+        "Říjen",
+        "Listopad",
+        "Prosinec"
+      ],
+      "monthNote": "Každý měsíc má vlastní obrázky. Stránka se otevře na tomto měsíci, můžete však vybrat libovolný jiný.",
+      "restDay": "Dnes je den odpočinku",
+      "restLine": "Dnes žádné hádanky. Den odpočinku je také dobrý den.",
+      "previewHeading": "Tři hádanky",
+      "puzzles": {
+        "pairs": {
+          "title": "Spárujte dvojice",
+          "how": "Spojte čárou každý obrázek v horním řádku se stejným obrázkem v dolním řádku.",
+          "describe": "Dva řádky stejných čtyř obrázků v jiném pořadí."
+        },
+        "different": {
+          "title": "Který je jiný?",
+          "how": "Zakroužkujte obrázek, který se liší od ostatních tří.",
+          "describe": "Řádek čtyř obrázků. Tři jsou stejné a jeden je jiný."
+        },
+        "color": {
+          "title": "Vybarvěte to",
+          "how": "Vybarvěte obrázek, jak chcete, voskovkami nebo pastelkami.",
+          "describe": "Jeden velký obrázek k vybarvení."
+        }
+      },
+      "print": "Vytisknout balíček tohoto měsíce",
+      "sheetHow": "Vytiskněte jednu stránku. Udělejte jednu, dvě nebo všechny tři hádanky v libovolném pořadí.",
+      "printFooter": "Udělejte jednu, dvě nebo všechny tři. Přestaňte, kdykoli chcete."
+    },
+    "decorateACard": {
+      "guidance": "Vyberte příležitost a potom společně ozdobte přání voskovkami nebo fixy. Neexistuje správné přání.",
+      "occasionLegend": "Vyberte příležitost",
+      "occasions": {
+        "birthday": {
+          "label": "Narozeniny",
+          "words": "Všechno nejlepší k narozeninám"
+        },
+        "thank-you": {
+          "label": "Poděkování",
+          "words": "Děkuji"
+        },
+        "thinking-of-you": {
+          "label": "Myslím na vás",
+          "words": "Myslím na vás"
+        },
+        "new-season": {
+          "label": "Nové roční období",
+          "words": "Nové roční období"
+        },
+        "just-because": {
+          "label": "Jen tak",
+          "words": "Jen tak"
+        }
+      },
+      "stepsHeading": "Jak ji ozdobit společně",
+      "steps": {
+        "fold": "Vytiskněte kartu a přeložte ji napůl podél čárkované čáry, aby byla přední strana venku.",
+        "front": "Jeden z vás zdobí přední stranu kolem slov.",
+        "inside": "Druhý zdobí zadní stranu, nebo se na jedné straně střídáte.",
+        "message": "Napište přání společně. Jeden může psát, zatímco druhý říká slova.",
+        "stop": "Přestaňte, kdykoli chcete. Neexistuje správná karta a jednoduchá je stejně dobrá."
+      },
+      "materials": "Použijte voskovky, pastelky nebo fixy. Nic se nemusí stříhat, lepit ani nalepovat.",
+      "previewLabel": "Náhled karty přeložené napůl. Přední strana říká {words}, s jednoduchým rámečkem z listů a hvězdiček. Zadní strana má řádky pro zprávu a řádek pro Od.",
+      "from": "Od",
+      "sheetHow": "Složte kartičku napůl podél přerušované čáry, přední stranou ven. Napište zprávu na zadní stranu.",
+      "rulesHeading": "Pro dva",
+      "sheetRules": [
+        "Střídejte se, nebo si práci rozdělte: jeden zdobí přední stranu, druhý zadní.",
+        "Napište zprávu společně, nebo jeden píše, co říká druhý.",
+        "Kterýkoli z vás může kdykoli přestat. Neexistuje správná kartička."
+      ],
+      "print": "Vytisknout kartičku"
+    },
+    "storyDice": {
+      "guidance": "Podívejte se na obrázky a vyprávějte podle nich příběh, v libovolném pořadí. Neexistuje správný příběh.",
+      "countLegend": "Počet kostek",
+      "count": "{n} kostek",
+      "roll": "Hodit znovu",
+      "pass": "Přeskočit",
+      "passed": "Přeskočit je v pořádku. Začít může další člověk, nebo můžete hodit znovu.",
+      "rolled": "Nové obrázky: {names}.",
+      "tapped": "{name}. Začněte s tímto, nebo s jiným."
+    },
+    "wordPicture": {
+      "guidance": "Klepněte na obrázek a potom na slovo, které ho pojmenovává. Nebo klepněte na slovo a potom na jeho obrázek.",
+      "countLegend": "Počet obrázků",
+      "count": "{n} obrázků",
+      "picturesGroup": "Obrázky",
+      "wordsGroup": "Slova",
+      "readWord": "Přečíst nahlas: {name}",
+      "next": "Nové obrázky",
+      "putBack": "Vrátit zpět",
+      "pickWord": "Nyní klepněte na slovo, které k tomu patří.",
+      "pickPicture": "Nyní klepněte na obrázek, který k tomu patří.",
+      "fit": "Ano, slovo patří k obrázku: {name|lower}.",
+      "newSet": "Tady je nová sada obrázků.",
+      "restarted": "Zpátky na začátku. Každý obrázek a každé slovo jsou zase volné.",
+      "restored": "Vráceno. Dvojice, které patří k sobě, se zobrazují znovu.",
+      "all": "Každé slovo má svůj obrázek."
+    },
+    "colorMatch": {
+      "guidance": "Podívejte se na barvu a její název, potom klepněte na každý obrázek, který má tuto barvu.",
+      "target": "Barva je {color|lower}. Klepněte na každý obrázek, který je {color|lower}.",
+      "countLegend": "Počet obrázků",
+      "count": "{n} obrázků",
+      "found": "Ano, {name|lower} je {color|lower}.",
+      "named": "{name|lower} je {color|lower}.",
+      "all": "To jsou všechny obrázky, které jsou {color|lower}.",
+      "shown": "Tady jsou obrázky, které jsou {color|lower}.",
+      "show": "Ukázat je",
+      "next": "Jiná barva",
+      "names": {
+        "red": "Červená",
+        "orange": "Oranžová",
+        "yellow": "Žlutá",
+        "green": "Zelená",
+        "blue": "Modrá"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Klepněte na polovinu vlevo, potom na polovinu vpravo, která k ní patří.",
+      "countLegend": "Počet obrázků",
+      "count": "{n} obrázků",
+      "leftGroup": "Levé poloviny",
+      "rightGroup": "Pravé poloviny",
+      "left": "Levá polovina: {name|lower}",
+      "right": "Pravá polovina: {name|lower}",
+      "joined": "Spojeno",
+      "pickRight": "Nyní klepněte na polovinu vpravo, která k ní patří.",
+      "pickLeft": "Nyní klepněte na polovinu vlevo, která k ní patří.",
+      "fit": "Ano, tyto dvě části dohromady tvoří obrázek: {name|lower}.",
+      "apart": "Tyto dvě části k sobě nepatří. Zkuste jinou.",
+      "all": "Každý obrázek je celý.",
+      "shown": "Tady jsou obrázky, spojené dohromady.",
+      "show": "Ukázat mi je",
+      "next": "Jiná sada"
+    },
+    "colorByNumber": {
+      "guidance": "Vyberte barvu z legendy a vyplňte jí čtvereček. Jakákoli barva je v pořádku.",
+      "sizeLegend": "Velikost mřížky",
+      "size": "{n} × {n}",
+      "keyLegend": "Barvy",
+      "colors": [
+        "Žlutá",
+        "Oranžová",
+        "Zelená",
+        "Fialová"
+      ],
+      "motifs": {
+        "house": "dům",
+        "flower": "květina",
+        "heart": "srdce",
+        "tree": "strom",
+        "boat": "plachetnice",
+        "pot-plant": "rostlina v květináči"
+      },
+      "region": "Mřížka obrázku, {n} × {n}. Na úzké obrazovce se posouvá do stran.",
+      "cell": "Číslo {number}, řádek {row}, sloupec {column}, {color}",
+      "empty": "prázdné",
+      "chose": "Vybrána barva {name}. Klepněte na čtvereček, aby se vyplnil.",
+      "painted": "{name} na řádku {row}, sloupci {column}.",
+      "sheet": "Každý čtvereček má barvu podle svého čísla. Na listu je tento obrázek: {name}.",
+      "own": "Všechny čtverečky jsou vyplněné. Toto je váš vlastní obrázek.",
+      "fillAll": "Vyplnit podle čísel",
+      "filledAll": "Každý prázdný čtvereček má nyní barvu podle svého čísla.",
+      "clear": "Vymazat",
+      "cleared": "Mřížka je prázdná.",
+      "next": "Jiný obrázek",
+      "fresh": "Tady je další obrázek k vybarvení."
+    },
+    "patternMaker": {
+      "guidance": "Klepnutím na čtvereček změníte jeho barvu. Vedle něj roste váš vzor. Nic, co vytvoříte, se neukládá ani neodesílá.",
+      "sizeLegend": "Velikost dlaždice",
+      "size": "{n} × {n}",
+      "keyLegend": "Barvy, v pořadí, v jakém je klepnutí mění",
+      "colors": [
+        "Žlutá",
+        "Oranžová",
+        "Zelená",
+        "Fialová"
+      ],
+      "tileLabel": "Vaše dlaždice",
+      "region": "Vaše dlaždice, {n} × {n}. Na úzké obrazovce se posouvá do stran.",
+      "patternLabel": "Váš vzor",
+      "pattern": "Váš vzor: vaše dlaždice opakovaná {n}krát vodorovně a {n}krát svisle.",
+      "square": "Řádek {row}, sloupec {column}, {color}",
+      "changed": "Řádek {row}, sloupec {column} je nyní {color}.",
+      "cleared": "Dlaždice je prázdná. Můžete ji vrátit zpět.",
+      "surprise": "Překvap mě",
+      "surprised": "Tady je nová dlaždice. Starou můžete vrátit zpět.",
+      "putBack": "Vrátit zpět",
+      "restored": "Vaše dlaždice je zpět taková, jaká byla.",
+      "print": "Vytisknout můj vzor",
+      "sheetTitle": "Můj vzor"
+    },
+    "buildTogether": {
+      "guidance": "Střídejte se a vkládejte dílek na prázdné místo. Každý z vás má svou barvu. Nic, co vytvoříte, se neukládá ani neodesílá.",
+      "sizeLegend": "Velikost mřížky",
+      "size": "{n} × {n}",
+      "people": [
+        "První hráč",
+        "Druhý hráč"
+      ],
+      "colorLegend": "Barva: {person}",
+      "colors": [
+        "Žlutá",
+        "Oranžová",
+        "Zelená",
+        "Fialová"
+      ],
+      "inUse": "Obsazeno",
+      "turn": "Na řadě je {person|lower}.",
+      "yourColor": "Vaše barva je {color|lower}.",
+      "built": "Postaveno společně. Toto je obrázek, který jste vytvořili spolu.",
+      "gridLabel": "Společná mřížka",
+      "region": "Společná mřížka, {n} × {n}. Na úzké obrazovce se posouvá do stran.",
+      "cellEmpty": "Řádek {row}, sloupec {column}, prázdné",
+      "cellFilled": "Řádek {row}, sloupec {column}, {color}, položil {person|lower}",
+      "placed": "Řádek {row}, sloupec {column} je nyní {color}. Na řadě je {next|lower}.",
+      "placedLast": "Řádek {row}, sloupec {column} je nyní {color}. Postaveno společně.",
+      "taken": "Řádek {row}, sloupec {column} už má dílek. Vyberte prázdné místo.",
+      "pass": "Přeskočit",
+      "passed": "Přeskočit je v pořádku. Na řadě je {person|lower}.",
+      "takeBack": "Vzít zpět poslední dílek",
+      "takeBackPass": "Vzít zpět přeskočení",
+      "tookBack": "Dílek je vzat zpět. Na řadě je {person|lower}.",
+      "tookBackPass": "Přeskočení je vzato zpět. Na řadě je {person|lower}.",
+      "colorChanged": "{person} má nyní barvu {color|lower}.",
+      "restarted": "Mřížka je prázdná. Na řadě je {person|lower}.",
+      "print": "Vytisknout mřížku",
+      "sheetTitle": "Postavit společně",
+      "sheetHelp": "Střídejte se. Do každého prázdného čtverečku nakreslí každý svůj tvar svou tužkou.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Klepněte na dílek a potom na místo v obrázku, kam patří. Nic, co vytvoříte, se neukládá ani neodesílá.",
+      "hints": "Zobrazit pomocné čáry",
+      "pictureLine": "Tohle je {picture}.",
+      "pictures": {
+        "house": "dům",
+        "boat": "loďka",
+        "tree": "strom",
+        "fish": "ryba",
+        "cat": "kočka",
+        "rocket": "raketa"
+      },
+      "outlineLabel": "Obrys: {picture}. Klepněte na místo, abyste do něj vložili vybraný dílek.",
+      "trayHeading": "Dílky",
+      "pieces": {
+        "large-triangle": "Velký trojúhelník",
+        "small-triangle": "Malý trojúhelník",
+        "square": "Čtverec",
+        "parallelogram": "Rovnoběžník",
+        "rectangle": "Obdélník"
+      },
+      "shapes": {
+        "large-triangle": "velký trojúhelník",
+        "small-triangle": "malý trojúhelník",
+        "square": "čtverec",
+        "parallelogram": "rovnoběžník",
+        "rectangle": "obdélník"
+      },
+      "chosenLabel": "Vybráno",
+      "spaceEmpty": "Místo {n}, {shape}, prázdné",
+      "spaceFilled": "Místo {n}, {shape}, má svůj dílek. Klepnutím dílek vezmete zpět.",
+      "chosen": "{piece} je vybrán. Nyní klepněte na místo v obrázku.",
+      "unchosen": "Kousek už není vybrán.",
+      "placed": "Kousek je na místě {n}.",
+      "complete": "Obrázek je hotový: {picture}.",
+      "different": "Tento kousek má jiný tvar než toto místo. Zkuste jiné místo.",
+      "needPiece": "Nejdřív vyberte kousek z podnosu.",
+      "filled": "Na tomto místě už kousek je. Klepněte na něj a vezměte si ho zpět.",
+      "tookBack": "Kousek je zpět v podnosu.",
+      "cleared": "Kousky jsou zpět v podnosu. Pokud jste si to rozmysleli, můžete je vrátit zpět.",
+      "restored": "Kousky jsou zpět v obrázku.",
+      "next": "Tohle je {picture}.",
+      "putBack": "Vrátit zpět",
+      "another": "Jiný tvar",
+      "print": "Vytisknout tento tvar",
+      "sheetTitle": "Klidné tvary",
+      "sheetHow": "Kousky vybarvěte, nebo je vystřihněte, aby seděly do obrysu. Se stříháním může pomoct dospělý.",
+      "sheetPieces": "Kousky ve stejné velikosti jako obrys"
+    },
+    "picnicPlanner": {
+      "guidance": "Klepnutím na obrázek ho vložíte do piknikového koše a klepnutím na něj v koši ho z něj vyberete. Koš pojme šest věcí.",
+      "guidancePlay": "Klepněte na dva obrázky, které jsou stejné. Obrázky zůstanou vidět a nic se neměří časem.",
+      "basketHeading": "Náš koš",
+      "basketLabel": "Piknikový koš",
+      "takeOut": "Vyjmout {picture} z koše",
+      "inBasket": "V koši",
+      "foodHeading": "Jídlo",
+      "outingsHeading": "Co můžeme dělat",
+      "added": "{picture} je v koši.",
+      "removed": "{picture} je mimo koš.",
+      "already": "{picture} už je v koši. Klepnutím na něj tam ho vyjmete.",
+      "full": "Koš je plný. Něco vyjměte, abyste udělali místo.",
+      "summary": "Náš piknik: {list}.",
+      "summaryNone": "V koši zatím nic není.",
+      "and": "a",
+      "play": "Pojďme si hrát s naším piknikem",
+      "needTwo": "Nejdřív vyberte alespoň dvě věci.",
+      "playAgain": "Hrát znovu",
+      "back": "Zpět k pikniku",
+      "print": "Vytisknout náš seznam pro piknik",
+      "cleared": "Koš je prázdný.",
+      "notice": "Je to plán k rozhovoru. Nic se neměří, nehodnotí ani neukládá.",
+      "sheetTitle": "Náš seznam pro piknik",
+      "sheetHow": "Každou věc odškrtněte, až ji zabalíte. Na prázdné řádky napište cokoli dalšího, co chcete vzít.",
+      "sheetToPack": "K zabalení"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Vyberte dvě až dvanáct vlastních fotografií, abyste začali knihu.",
+      "guidance": "Listujte spolu tlačítky nebo šipkami doleva a doprava na klávesnici. Pod fotografii můžete přidat pár slov. Nic, co vytvoříte, se neukládá ani neodesílá.",
+      "lookGuidance": "Prohlédněte si každou stránku spolu. Můžete si povídat, nebo se jen dívat.",
+      "intro": "Vyberte dvě až dvanáct fotografií z tohoto zařízení. Každá se stane stránkou knihy, kterou můžete listovat spolu.",
+      "consent": "Používejte vlastní rodinné fotografie. Pokud jde o fotografii člověka, který nemůže říct ano, nejdřív se zeptejte.",
+      "privacy": "Vaše fotografie zůstávají v tomto zařízení. Nic se nenahrává ani neukládá.",
+      "choose": "Vybrat fotografie",
+      "chooseDifferent": "Vybrat jiné fotografie",
+      "backToBook": "Zpět ke knize",
+      "backToChoose": "Zpět k výběru fotografií",
+      "needTwo": "Vyberte prosím alespoň dvě fotografie.",
+      "usingFirst": "Používáme prvních {max} fotografií.",
+      "cleared": "Kniha je vymazána. Vyberte fotografie a začněte znovu.",
+      "moved": "Přesunuto na stránku {n}.",
+      "pageOf": "Stránka {n} z {total}",
+      "lookTogether": "Prohlédněte si to spolu",
+      "leaveLook": "Zpět ke knize",
+      "print": "Vytisknout album",
+      "clear": "Vymazat knihu",
+      "bookLabel": "Rodinné album",
+      "pagesLabel": "Listování stránkami",
+      "previous": "Předchozí stránka",
+      "next": "Další stránka",
+      "moveEarlier": "Posunout dříve",
+      "moveLater": "Posunout později",
+      "captionLabel": "Pár slov k této stránce, pokud chcete",
+      "captionHelp": "Až 80 znaků. Popisky se uchovají jen na této stránce a zmizí, až ji zavřete.",
+      "sheetTitle": "Naše album",
+      "sheetHow": "Jedna fotografie na stránku, pod ní pár slov. Listujte stránkami popořadě a povídejte si o každé.",
+      "sheetEmpty": "Vyberte si fotografie na stránce hry a vytiskněte si vlastní knihu, nebo vytiskněte tuto prázdnou stránku a nalepte do ní vytištěnou fotografii.",
+      "sheetFrame": "Nalepte sem vytištěnou fotografii",
+      "sheetWords": "Pár slov k této stránce",
+      "skipped": {
+        "one": "{n} soubor nebyl fotografií, kterou můžeme použít.",
+        "few": "{n} soubory nebyly fotografie, které můžeme použít.",
+        "many": "{n} souborů nebylo fotografií, které můžeme použít.",
+        "other": "{n} souborů nebylo fotografií, které můžeme použít."
+      }
+    },
+    "quietScene": {
+      "guidance": "Dívejte se na jeden obrázek najednou. Až budete připraveni, stiskněte Další nebo Předchozí. Nic se nehýbe samo od sebe.",
+      "next": "Další obrázek",
+      "previous": "Předchozí obrázek",
+      "bigPicture": "Větší obrázek",
+      "showEverything": "Zobrazit vše",
+      "first": "Toto je první obrázek.",
+      "last": "Toto je poslední obrázek.",
+      "lines": {
+        "sunrise": "Slunce vychází nad krajinou.",
+        "window-with-birds": "Ptáci za oknem.",
+        "vase-of-flowers": "Váza s květinami na stole.",
+        "teacup": "Šálek čaje u okna.",
+        "tree": "Strom stojící na zahradě.",
+        "sailboat": "Plachetnice na vodě.",
+        "lighthouse": "Maják u moře.",
+        "rainbow": "Duha po dešti.",
+        "moon": "Měsíc na noční obloze.",
+        "daisies": "Sedmikrásky v trávě.",
+        "rowing-boat": "Veslice na klidné vodě.",
+        "potted-plant": "Zelená rostlina v květináči."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Střídejte se. Klepněte na výstřižek a potom na prázdné místo, kam ho chcete položit. Nic, co vytvoříte, se neukládá ani neodesílá.",
+      "people": [
+        "První osoba",
+        "Druhá osoba"
+      ],
+      "marks": [
+        "kroužek",
+        "čtverec"
+      ],
+      "turn": "Na tahu je {person|lower}.",
+      "marked": "Vaše kousky mají značku: {mark}.",
+      "boardLabel": "Společná deska",
+      "placeEmpty": "Místo {n}, prázdné",
+      "placeFilled": "Místo {n}, {picture|lower}, položila {person|lower}",
+      "trayHeading": "Výstřižky",
+      "chosenLabel": "Vybráno",
+      "chosen": "{picture} je vybráno. Teď klepněte na prázdné místo.",
+      "unchosen": "Výstřižek už není vybrán.",
+      "needCutout": "Nejdřív vyberte výstřižek a potom klepněte na prázdné místo.",
+      "filled": "Místo {n} už má obrázek. Vyberte prázdné místo.",
+      "placed": "{picture} je na místě {n}. Na tahu je {next|lower}.",
+      "full": "Každé místo má obrázek. Pokud chcete něco změnit, vezměte jeden zpět, nebo začněte znovu.",
+      "pass": "Přeskočit",
+      "passed": "Přeskočit je v pořádku. Na tahu je {person|lower}.",
+      "takeBack": "Vzít zpět poslední kousek",
+      "takeBackPass": "Vzít zpět přeskočení",
+      "tookBack": "Kousek je vzat zpět. Na tahu je {person|lower}.",
+      "tookBackPass": "Přeskočení je vzato zpět. Na tahu je {person|lower}.",
+      "restarted": "Deska je prázdná. Na tahu je {person|lower}.",
+      "putBack": "Vrátit zpět",
+      "putBackDone": "Kousky jsou zpět na desce.",
+      "another": "Další sada obrázků",
+      "anotherSet": "Nová sada výstřižků je v podnosu. Kousky na desce zůstanou, kde jsou.",
+      "print": "Vytisknout desku",
+      "sheetTitle": "Kolážová deska",
+      "sheetHow": "Vystřihněte obrázky a střídejte se v jejich pokládání na desku. Se stříháním může pomoct dospělý.",
+      "sheetTray": "Obrázky k vystřižení"
+    },
+    "gardenPlanner": {
+      "guidance": "Klepněte na obrázek a potom na záhon, kam ho chcete položit. Klepnete-li na záhon s obrázkem, aniž byste něco vybrali, obrázek se odstraní.",
+      "bedsLabel": "Záhony na zahradě",
+      "bedEmpty": "Záhon {n}, prázdný",
+      "bedFilled": "Záhon {n}, {picture|lower}",
+      "plantsHeading": "Rostliny",
+      "extrasHeading": "Doplňky na zahradu",
+      "chosenLabel": "Vybráno",
+      "chosen": "{picture} je vybráno. Teď klepněte na záhon.",
+      "unchosen": "Není vybrán žádný obrázek.",
+      "needPicture": "Nejdřív vyberte obrázek, potom klepněte na záhon.",
+      "planted": "{picture} je na záhonu {n}.",
+      "replaced": "{picture} nahrazuje obrázek na záhonu {n}.",
+      "cleared": "Záhon {n} je prázdný. Pokud chcete obrázek znovu, vraťte ho zpět.",
+      "restarted": "Všechny záhony jsou prázdné.",
+      "putBack": "Vrátit zpět",
+      "putBackDone": "Obrázky jsou zpátky na svých záhonech.",
+      "summaryHeading": "Moje zahrada",
+      "summary": "Ve vašem plánu je: {list}.",
+      "summaryNone": "Zatím žádný obrázek není na záhonu.",
+      "and": "a",
+      "print": "Vytisknout plán",
+      "sheetTitle": "Náš plán zahrady",
+      "sheetHow": "Záhony ukazují obrázky vybrané na obrazovce. Pokud chcete, dokreslete do prázdných záhonů.",
+      "sheetNotes": "Poznámky",
+      "notice": "Toto je obrázkový plán ke společnému povídání, ne rada k pěstování."
+    },
+    "coloringWall": {
+      "guidance": "Vyberte obrázek a počet stránek. Vytiskněte nástěnku, každý z vás vybarví jednu nebo více stránek. Nic se neměří, nehodnotí ani neukládá.",
+      "pictureLegend": "Obrázek",
+      "sizeLegend": "Počet stránek",
+      "sizes": {
+        "2x2": "4 stránky (2 × 2)",
+        "3x2": "6 stránek (3 × 2)",
+        "3x3": "9 stránek (3 × 3)"
+      },
+      "previewLabel": "Na náhledu je {picture|lower}. Stránek celkem: {n}, {across} vedle sebe a {down} pod sebou. Každá stránka má v rohu popisek.",
+      "previewCaption": "Obrázek s čarami stránek a popisky.",
+      "labelsNote": "Písmena jdou po stěně dolů a čísla napříč, takže A1 je levá horní stránka.",
+      "wallHeading": "Jak nástěnku poskládat",
+      "steps": [
+        "Vytiskněte všechny stránky. První stránka obsahuje tyto kroky a mapu nástěnky.",
+        "Každý z vás vezme jednu nebo více stránek a vybarví je.",
+        "Barvy a styly se nemusí shodovat. Každá stránka je součástí stejného obrázku.",
+        "Položte stránky podle popisků a potom je na zadní straně slepte páskou.",
+        "Pověste nástěnku na místo, kde ji všichni uvidí."
+      ],
+      "mapLabel": "Mapa nástěnky: řádky {down}, sloupce {across}, popisky od A1 do {last}.",
+      "edgeNote": "Čárkovaná čára označuje okraj každé stránky. Položte stránky vedle sebe podle této čáry, nebo je mírně přeložte přes sebe.",
+      "pictureLine": "Obrázek: {picture}. Tato nástěnka má {n} stránek: {across} vedle sebe a {down} pod sebou.",
+      "print": "Vytisknout nástěnku"
+    },
+    "findTogether": {
+      "guidance": "Hrajte střídavě. Na svém tahu otočte dvě karty a hledejte pár. Páry hledejte společně.",
+      "sizeLegend": "Počet karet",
+      "size": "{n} karet",
+      "viewLegend": "Jak hrát",
+      "viewShowing": "Hrát s obrázky otočenými nahoru",
+      "viewHidden": "Karty otočené rubem nahoru",
+      "people": [
+        "První osoba",
+        "Druhá osoba"
+      ],
+      "turn": "Na tahu: {person}",
+      "turnDone": "Všechny páry jsou nalezeny.",
+      "tally": "Společně nalezené páry: {n}",
+      "cardNamed": "{name}, karta {n}",
+      "cardFaceDown": "Karta {n}, rubem nahoru",
+      "first": "{name}. Teď otočte druhou kartu.",
+      "found": "{name}: pár, nalezený společně. Teď je na tahu {next|lower}.",
+      "allTogether": "Všechny páry jste našli společně.",
+      "different": "{a} a {b} nejsou stejné. Vezměte si čas, potom stiskněte Otočit zpět.",
+      "waiting": "Až budete připraveni, stiskněte Otočit zpět. Potom tah přejde dál.",
+      "turnedBack": "Otočeno zpět. Teď je na tahu {person|lower}.",
+      "passed": "Přeskočit tah je v pořádku. Teď je na tahu {person|lower}.",
+      "turnBack": "Otočit zpět",
+      "pass": "Přeskočit",
+      "playAgain": "Hrát znovu"
+    },
+    "drawingDuet": {
+      "guidance": "Střídejte se, každý nakreslí jednu čáru, potom předejte pero. Předat může kdokoli. Nic se nikam neodesílá. Obrázek z této stránky odejde jen tehdy, když ho uložíte.",
+      "people": [
+        "První osoba",
+        "Druhá osoba"
+      ],
+      "colorLegend": "Barva: {person}",
+      "colors": [
+        "Žlutá",
+        "Oranžová",
+        "Zelená",
+        "Fialová"
+      ],
+      "turn": "Na tahu: {person}",
+      "penColor": "Barva pera: {color}.",
+      "canvasLabel": "Společná kresba, počet čar: {n}",
+      "canvasLabelOne": "Společná kresba, zatím {n} čára",
+      "keys": "Šipky posouvají tečku pera na kresbě. Mezerník pero položí nebo zvedne.",
+      "penDown": "Pero dolů",
+      "penUp": "Pero nahoru",
+      "pass": "Předat pero",
+      "passed": "Přeskočit je v pořádku. Na tahu je {person|lower}.",
+      "takeBack": "Vzít zpět moji poslední čáru",
+      "tookBack": "Poslední čára, kterou nakreslila {person|lower}, se vrací zpět.",
+      "noLine": "Není co vzít zpět: {person|lower} zatím nenakreslila žádnou čáru.",
+      "restarted": "Papír je čistý. Na tahu je první osoba. Pokud jste to nechtěli, můžete ho vrátit zpět.",
+      "putBack": "Vrátit zpět",
+      "restored": "Čáry jsou zase tam, kde byly.",
+      "save": "Uložit obrázek",
+      "saved": "Váš obrázek je hotový. Pomocí odkazu ke stažení ho uložte do tohoto zařízení.",
+      "download": "Stáhnout drawing-duet.png",
+      "print": "Vytisknout papírovou verzi",
+      "sheetTitle": "Kresba pro dva",
+      "paperRules": "Dva lidé, jeden list, dvě pera. Střídejte se: každý nakreslí jednu čáru nebo tvar, potom předejte pero. Předat může kdokoli. Správný obrázek neexistuje."
+    },
+    "colorWash": {
+      "guidance": "Malujte jemnou barvou přes celou stránku, jeden tah po druhém. Zvedněte štětec, když chcete přestat, a přestaňte, kdykoli budete chtít. Nic se neukládá ani neodesílá.",
+      "colorLegend": "Barva tahu",
+      "sizeLegend": "Velikost štětce",
+      "colors": [
+        "Žlutá",
+        "Oranžová",
+        "Zelená",
+        "Fialová"
+      ],
+      "sizes": {
+        "wide": "Široký",
+        "veryWide": "Velmi široký"
+      },
+      "color": "Barva tahu: {color}.",
+      "brushDown": "Štětec dolů",
+      "brushUp": "Štětec nahoru",
+      "keys": "Šipky posouvají kruh štětce po stránce. Mezerník štětec položí nebo zvedne.",
+      "canvasLabel": "Stránka s jemnými barevnými nánosy",
+      "fresh": "Nová stránka",
+      "freshMessage": "Nová stránka.",
+      "putBack": "Vrátit zpět",
+      "restored": "Stránka je zpět."
+    },
     "sortTogether": {
       "guidance": "Klepněte na obrázek a pak na košík, kam patří.",
       "restart": "Nové obrázky",
@@ -73,6 +723,10 @@
       "hint": "Obrázek „{name|lower}“ by mohl patřit do „{basket}“. Klepnutím na tento košík ho tam dáte.",
       "placed": "Obrázek „{name|lower}“ je v košíku „{basket}“.",
       "sorted": "Všechno je roztříděno. Projděte si společně košíky, nebo zkuste jiné téma.",
+      "largerTargets": "Větší cíle",
+      "largerOn": "Větší cíle jsou zapnuté. Nic se nepřesunulo.",
+      "largerOff": "Větší cíle jsou vypnuté. Nic se nepřesunulo.",
+      "largerOnNewRound": "Větší cíle jsou zapnuté, jsou dva koše. Tady jsou nové obrázky k třídění.",
       "basket": {
         "one": "Košík „{basket}“, uvnitř {count} obrázek",
         "few": "Košík „{basket}“, uvnitř {count} obrázky",
@@ -109,6 +763,18 @@
       },
       "guideAlt": "Celý obrázek: {name}",
       "guideText": "Takto vypadá obrázek, když je celý.",
+      "ownChoose": "Použít vlastní fotografii",
+      "ownChange": "Vybrat jinou fotografii",
+      "ownBack": "Zpět k našim obrázkům",
+      "ownPrivacy": "Vaše fotografie zůstává v tomto zařízení. Nic se nenahrává ani neukládá.",
+      "ownConsent": "Používejte vlastní fotografie. Ptejte se předem, než použijete fotografii někoho, kdo nemůže sám souhlasit.",
+      "ownWorking": "Připravujeme vaši fotografii.",
+      "ownNotUsable": "Tento soubor nešlo použít. Vyberte soubor s fotografií, například JPEG nebo PNG.",
+      "ownAlt": "Vaše fotografie",
+      "ownPiece": "Dílek {n}, {place}",
+      "ownWhole": "Vaše fotografie je zase celá. Kdykoli ji můžete znovu zamíchat.",
+      "ownSheetTitle": "Vaše fotografie na dílcích",
+      "ownSheetHow": "Střihejte podél čar. Dílky zamíchejte a potom prohazujte vždy dva, dokud obrázek nebude celý.",
       "piece": "Dílek: {place}",
       "pieceInPlace": ", na správném místě",
       "piecePickedUp": ", zvednutý",
@@ -200,6 +866,14 @@
       "guidance": "Přečtěte kartu nahlas. Žádné správné odpovědi neexistují.",
       "position": "Karta {n} z {total}",
       "themeLegend": "Téma",
+      "showPrompt": "Zobrazit podnět k rozhovoru",
+      "bigPicture": "Velký obrázek pro skupinu",
+      "passNote": "Předat může kdokoli.",
+      "groupTitle": "Předávání karty ve skupině",
+      "groupSit": "Sedněte si do kruhu, kde všichni vidí obrázek. Člověk, který drží kartu, nebo zařízení s velkým obrázkem, nejdřív nahlas přečte podnět.",
+      "groupPass": "Potom kartu předejte dalšímu. Každý řekne slovo nebo větu k obrázku a předá ji dál.",
+      "groupNoSpeech": "Předání karty je vždy v pořádku. Člověk může předat, aniž by něco řekl, a nikdo nemusí vysvětlovat proč.",
+      "groupEnd": "Kolo končí, když karta obešla kruh nebo když skupina řekne dost. Nikdo nevyhrává. Zastavte se, kdykoli to skupina chce.",
       "next": "Další karta",
       "previous": "Předchozí karta",
       "print": "Vytisknout všechny karty",
@@ -270,6 +944,20 @@
       "started": "Spuštěno. Nadechujte se, když se kruh zvětšuje.",
       "stopped": "Zastaveno.",
       "finished": "To bylo šest pomalých dechů. Začněte znovu, kdykoli budete chtít."
+    },
+    "storyChain": {
+      "guidance": "Střídejte se: každý řekne jednu větu a přidá další obrázek.",
+      "passNote": "Větu řekněte nahlas. Nic se nepíše ani neukládá. Kdokoli může přeskočit.",
+      "chainLabel": "Dosavadní řetěz",
+      "item": "Obrázek {n}: {name}",
+      "add": "Přidat obrázek",
+      "fullAdd": "Řetěz je plný. Začněte nový řetěz",
+      "newChain": "Začít nový řetěz",
+      "takeOff": "Odebrat poslední",
+      "added": "{name|lower} je nyní na konci řetězu.",
+      "removed": "{name|lower} je z řetězu odebrán.",
+      "fresh": "Nový řetěz, který začíná: {name|lower}.",
+      "full": "Řetěz má všech osm obrázků. Vyprávějte celý příběh, nebo začněte nový řetěz."
     }
   },
   "pictures": {
@@ -355,7 +1043,44 @@
     "rain-cloud": "Dešťový mrak",
     "snowflake": "Sněhová vločka",
     "kite": "Drak",
-    "sunrise": "Východ slunce nad kopci"
+    "sunrise": "Východ slunce nad kopci",
+    "decorated-keepsake-box": "Zdobená krabička na vzpomínky",
+    "painted-plant-pot": "Pomalovaný květináč s bylinkami",
+    "repeating-pattern-sheet": "List s opakujícími se vzory",
+    "music-drawn-lines": "Čáry kreslené podle hudby",
+    "paper-boat-afloat": "Papírová loďka na vodě",
+    "folded-towel-stack": "Stoh složených ručníků",
+    "hand-massage-with-lotion": "Ruka položená na ručníku s krémem",
+    "open-photo-album": "Otevřené fotoalbum",
+    "button-flower-card": "Květina z knoflíků na přání",
+    "blue-torn-paper-collage": "Modrý koláž z natrhaného papíru",
+    "family-tree-of-hands": "Rodokmen z otisků rukou",
+    "open-greeting-card": "Otevřené přání se srdcem",
+    "lavender-sachet": "Levandulový váček převázaný stužkou",
+    "memory-collage-of-photos": "Koláž rodinných fotografií",
+    "paper-chain-garland": "Girlanda z papírových řetězů",
+    "open-songbook-with-notes": "Otevřený zpěvník s notami",
+    "photo-postcard-with-stamp": "Fotopohlednice s known známkou",
+    "pine-cone-bird-feeder": "Krmítko z šišky visící na větvi",
+    "playlist-phone-and-card": "Telefon s playlistem a kartička s písničkou",
+    "sealed-rice-shaker": "Zalepená chrastítko s rýží",
+    "texture-board-with-scraps": "Tabulka s textiliemi a kousky materiálů",
+    "painted-garden-stone": "Pomalovaný zahradní kámen",
+    "shared-painted-canvas": "Společně malované plátno",
+    "watercolor-washes-sheet": "Akvarelové skvrny na papíře",
+    "seedling-in-pot": "Semenáčky v květináči",
+    "pressed-leaves-in-book": "Lisované listy v knize",
+    "printed-leaves-sheet": "List otisků listů",
+    "pinch-pot-clay-bowl": "Miska vytvořená vyštipováním z hlíny",
+    "table-sketch-pencil": "Tužková skica hrnku",
+    "buttons-in-muffin-tin": "Knoflíky roztříděné v plechu na muffiny",
+    "family-recipe-book": "Kniha rodinných receptů",
+    "drum-with-beat-marks": "Stolní buben s paličkami",
+    "torn-paper-flower": "Mozaika květiny z natrhaného papíru",
+    "window-with-birds": "Okno s ptáky",
+    "woven-paper-mat": "Tkaná papírová podložka",
+    "yarn-ball-with-thread": "Klubko příze",
+    "letter-and-envelope": "Dopis v obálce"
   },
   "illustrations": {
     "rocking-chair": "Houpací křeslo",
@@ -460,350 +1185,6 @@
     "pocket-watch": "Kapesní hodinky"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Bez práce nejsou",
-        "end": "koláče",
-        "others": [
-          "dorty",
-          "buchty"
-        ],
-        "prompt": "Jaký koláč nebo buchtu máte nejraději?"
-      },
-      {
-        "start": "Co můžeš udělat dnes, neodkládej na",
-        "end": "zítřek",
-        "others": [
-          "pondělí",
-          "večer"
-        ],
-        "prompt": "Co byste rádi udělali dnes odpoledne?"
-      },
-      {
-        "start": "Kdo hledá,",
-        "end": "najde",
-        "others": [
-          "zabloudí",
-          "uvidí"
-        ],
-        "prompt": "Co jste kdy hledali a rádi našli?"
-      },
-      {
-        "start": "Ranní ptáče dál",
-        "end": "doskáče",
-        "others": [
-          "doletí",
-          "dojde"
-        ],
-        "prompt": "Jste spíš ranní ptáče, nebo večerní sova?"
-      },
-      {
-        "start": "Všude dobře, doma",
-        "end": "nejlépe",
-        "others": [
-          "nejtepleji",
-          "nejklidněji"
-        ],
-        "prompt": "Co se vám doma líbí nejvíc?"
-      },
-      {
-        "start": "Dvakrát měř, jednou",
-        "end": "řež",
-        "others": [
-          "stříhej",
-          "zkus"
-        ],
-        "prompt": "Co jste rádi vyráběli nebo opravovali?"
-      },
-      {
-        "start": "Lepší vrabec v hrsti než holub na",
-        "end": "střeše",
-        "others": [
-          "plotě",
-          "větvi"
-        ],
-        "prompt": "Jaké ptáky vidíte u okna?"
-      },
-      {
-        "start": "Jak se do lesa volá, tak se z lesa",
-        "end": "ozývá",
-        "others": [
-          "vrací",
-          "směje"
-        ],
-        "prompt": "Chodili jste rádi do lesa? Co jste tam hledali?"
-      },
-      {
-        "start": "Hlad je nejlepší",
-        "end": "kuchař",
-        "others": [
-          "pomocník",
-          "host"
-        ],
-        "prompt": "Jaké jídlo máte nejraději?"
-      },
-      {
-        "start": "Jablko nepadá daleko od",
-        "end": "stromu",
-        "others": [
-          "domu",
-          "plotu"
-        ],
-        "prompt": "Co máte společného s rodiči nebo dětmi?"
-      },
-      {
-        "start": "Kdo dřív přijde, ten dřív",
-        "end": "mele",
-        "others": [
-          "vaří",
-          "peče"
-        ],
-        "prompt": "Kam jste chodili rádi brzy ráno?"
-      },
-      {
-        "start": "V jednotě je",
-        "end": "síla",
-        "others": [
-          "radost",
-          "pohoda"
-        ],
-        "prompt": "Co jste rádi dělali společně s ostatními?"
-      },
-      {
-        "start": "Dobrá rada nad",
-        "end": "zlato",
-        "others": [
-          "stříbro",
-          "poklad"
-        ],
-        "prompt": "Jakou dobrou radu jste kdysi dostali?"
-      },
-      {
-        "start": "Dobrý začátek je půl",
-        "end": "práce",
-        "others": [
-          "radosti",
-          "cesty"
-        ],
-        "prompt": "Co vás ráno nejlépe nastartuje?"
-      },
-      {
-        "start": "Ráno je moudřejší",
-        "end": "večera",
-        "others": [
-          "poledne",
-          "oběda"
-        ],
-        "prompt": "Co máte rádi na ránu?"
-      },
-      {
-        "start": "Pes, který štěká,",
-        "end": "nekouše",
-        "others": [
-          "neutíká",
-          "nespí"
-        ],
-        "prompt": "Měli jste někdy doma psa? Jak se jmenoval?"
-      },
-      {
-        "start": "Dvakrát dává, kdo",
-        "end": "rychle dává",
-        "others": [
-          "rád dává",
-          "hodně dává"
-        ],
-        "prompt": "Co jste rádi někomu darovali?"
-      },
-      {
-        "start": "Čistota je půl",
-        "end": "zdraví",
-        "others": [
-          "štěstí",
-          "krásy"
-        ],
-        "prompt": "Co voní u vás doma po úklidu nebo praní?"
-      },
-      {
-        "start": "Zvyk je železná",
-        "end": "košile",
-        "others": [
-          "brána",
-          "stěna"
-        ],
-        "prompt": "Jaký denní zvyk máte rádi?"
-      },
-      {
-        "start": "Stará láska",
-        "end": "nerezaví",
-        "others": [
-          "nekončí",
-          "nevadne"
-        ],
-        "prompt": "Který starý kamarád nebo kamarádka vám udělá radost?"
-      },
-      {
-        "start": "Všechno zlé je k něčemu",
-        "end": "dobré",
-        "others": [
-          "užitečné",
-          "hezké"
-        ],
-        "prompt": "Co hezkého vás kdysi nečekaně potkalo?"
-      },
-      {
-        "start": "S poctivostí nejdál",
-        "end": "dojdeš",
-        "others": [
-          "doletíš",
-          "dojedeš"
-        ],
-        "prompt": "Kdo byl podle vás poctivý a spolehlivý člověk?"
-      },
-      {
-        "start": "Cvik dělá",
-        "end": "mistra",
-        "others": [
-          "učitele",
-          "řemeslníka"
-        ],
-        "prompt": "Co jste se kdysi dobře naučili?"
-      },
-      {
-        "start": "Kdo maže, ten",
-        "end": "jede",
-        "others": [
-          "chodí",
-          "stojí"
-        ],
-        "prompt": "Kde jste jezdili autem nebo na kole?"
-      },
-      {
-        "start": "Tichá voda břehy",
-        "end": "mele",
-        "others": [
-          "myje",
-          "nese"
-        ],
-        "prompt": "Kde jste rádi sedávali u vody?"
-      },
-      {
-        "start": "Nehas, co tě",
-        "end": "nepálí",
-        "others": [
-          "netrápí",
-          "zajímá"
-        ],
-        "prompt": "Co vás v poslední době pobavilo?"
-      },
-      {
-        "start": "Lepší pozdě než",
-        "end": "nikdy",
-        "others": [
-          "brzy",
-          "jindy"
-        ],
-        "prompt": "Na co jste se někdy těšili a stálo to za to?"
-      },
-      {
-        "start": "Co se doma uvaří, to se doma",
-        "end": "sní",
-        "others": [
-          "ochutná",
-          "rozdá"
-        ],
-        "prompt": "Co se u vás vařilo v neděli?"
-      },
-      {
-        "start": "Kuj železo, dokud je",
-        "end": "žhavé",
-        "others": [
-          "teplé",
-          "měkké"
-        ],
-        "prompt": "Co jste rádi dělali rukama?"
-      },
-      {
-        "start": "Ve dvou se to lépe",
-        "end": "táhne",
-        "others": [
-          "nese",
-          "jde"
-        ],
-        "prompt": "S kým jste rádi pracovali v zahradě nebo v domě?"
-      },
-      {
-        "start": "Každý začátek je",
-        "end": "těžký",
-        "others": [
-          "krásný",
-          "pomalý"
-        ],
-        "prompt": "Co vás potěšilo, když jste s něčím začínali?"
-      },
-      {
-        "start": "Žádný učený z nebe",
-        "end": "nespadl",
-        "others": [
-          "nepřišel",
-          "nevyrostl"
-        ],
-        "prompt": "Kdo vás něco hezkého naučil?"
-      },
-      {
-        "start": "Jaká matka, taková",
-        "end": "Katka",
-        "others": [
-          "dcera",
-          "sestra"
-        ],
-        "prompt": "Co jste zdědili po mamince nebo po tatínkovi?"
-      },
-      {
-        "start": "Jedna vlaštovka jaro",
-        "end": "nedělá",
-        "others": [
-          "nezpívá",
-          "neohlásí"
-        ],
-        "prompt": "Co je podle vás první znamení jara?"
-      },
-      {
-        "start": "Únor bílý, pole",
-        "end": "sílí",
-        "others": [
-          "dřímá",
-          "spí"
-        ],
-        "prompt": "Jak vypadá zima, která se vám líbí?"
-      },
-      {
-        "start": "Březen, za kamna",
-        "end": "vlezem",
-        "others": [
-          "vyjdem",
-          "sednem"
-        ],
-        "prompt": "Co se vám líbí na teplém domově v chladných dnech?"
-      },
-      {
-        "start": "Duben, ještě tam",
-        "end": "budem",
-        "others": [
-          "půjdem",
-          "zůstanem"
-        ],
-        "prompt": "Jak vypadá aprílové počasí, na které si vzpomínáte?"
-      },
-      {
-        "start": "Svatá Anna, chladna z",
-        "end": "rána",
-        "others": [
-          "večera",
-          "poledne"
-        ],
-        "prompt": "Jak voní letní ráno?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABCDEHIKLMNOPRSTUVZ",
@@ -1229,6 +1610,17 @@
             "Na cestách"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Ovoce",
+        "animals": "Zvířata",
+        "travel": "Způsoby cestování",
+        "flowers": "Květiny",
+        "hot-drinks": "Věci k teplému nápoji",
+        "weather": "Druhy počasí",
+        "baked": "Věci pečené v troubě"
       }
     }
   }

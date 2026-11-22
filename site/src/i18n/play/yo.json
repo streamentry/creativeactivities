@@ -5,6 +5,13 @@
       "stopReading": "Dá kíka dúró",
       "region": "Eré",
       "restart": "Bẹ̀rẹ̀ lẹ́ẹ̀kan sí i",
+      "rest": "Ìsinmi báyìí",
+      "restingTitle": "Ń sinmi",
+      "restingText": "Gba àkókò tó o nílò. A ó pa ibi tí o dé mọ́ sórí ojú ìwé yìí.",
+      "resume": "Tẹ̀ síwájú",
+      "placeText": "Ìgbà tó kọjá o dúró ní àárín. Tẹ̀ síwájú láti ibẹ̀, tàbí bẹ̀rẹ̀ látòkèdélẹ̀.",
+      "placeResume": "Tẹ̀ síwájú",
+      "placeFresh": "Bẹ̀rẹ̀ látòkèdélẹ̀",
       "soundOn": "Àwọn ìró rírọ̀ wà ní títàn",
       "soundOff": "Àwọn ìró rírọ̀ wà ní pípa",
       "done": "Ó tó fún ìsinsìnyí",
@@ -42,7 +49,19 @@
       "viewShowing": "Àwọn àwòrán ń wà lójú",
       "viewHidden": "Àwọn àwòrán tí a fi pamọ́",
       "playAgain": "Tún ṣeré pẹ̀lú àwọn àwòrán tuntun",
-      "talk": "Ẹ jọ sọ̀rọ̀ nípa àwọn àwòrán"
+      "talk": "Ẹ jọ sọ̀rọ̀ nípa àwọn àwòrán",
+      "modeLegend": "Àwọn àwòrán wo",
+      "modePlay": "Àwọn àwòrán èyíkéyìí",
+      "modeDaily": "Káàdì òní",
+      "dayLegend": "Ọjọ́ wo",
+      "dayHelp": "Gbogbo ènìyàn ní àwọn àwòrán kan náà ní ọjọ́ kan náà. Àwọn ọjọ́ tó ti kọjá wà níbí pẹ̀lú, kò sì sí ohun tí o máa padà nù tí o bá fò ọjọ́ kan.",
+      "guidanceDaily": "Káàdì òní ní orísii mẹ́rin. Tẹ àwòrán kan, lẹ́yìn náà tẹ èyí tó bá a mu.",
+      "restartDaily": "Bẹ̀rẹ̀ káàdì yìí láti ibẹ̀rẹ̀",
+      "copy": "Daakọ ìlà yìí",
+      "copied": "A ti daakọ rẹ̀. Kò sí ohun tí a fi ránṣẹ́ sí ibikíbi.",
+      "calendarTitle": "Káàdì òní, {month}",
+      "calendarHelp": "Ọjọ́ kọ̀ọ̀kan ní àwọn àwòrán mẹ́rin kan náà fún gbogbo ènìyàn. A kò díwọ̀n ohunkóhun, a kò sì sàmì sí ọjọ́ kankan gẹ́gẹ́ bí èyí tí a padà.",
+      "calendarVersion": "Ẹ̀dà {date}. Àwọn àwòrán jọra fún gbogbo ènìyàn ní ọjọ́ kan náà."
     },
     "choose": {
       "countLegend": "Iye àwọn àwòrán",
@@ -61,6 +80,634 @@
       "shadowAlt": "Òjìji láti bá mu",
       "foundAlt": "Òjìji ti {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Àmọ̀ràn",
+      "hintOn": "Àmọ̀ràn lẹ́yìn ìdúró díẹ̀",
+      "hintOff": "Kò sí àmọ̀ràn",
+      "guidance": "Wá àwọn àwòrán {n} tó lọ papọ̀, kí o sì tẹ ọ̀kọ̀ọ̀kan.",
+      "countLegend": "Àwọn àwòrán mélòó",
+      "count": "Àwòrán {n}",
+      "found": "Bẹ́ẹ̀ ni, {name|lower} wà nínú ẹgbẹ́ yìí.",
+      "elsewhere": "{name|lower} lọ pẹ̀lú nǹkan mìíràn. Gba àkókò rẹ.",
+      "hint": "Àmọ̀ràn kan: wá {theme|lower}.",
+      "together": "Wọ̀nyí lọ papọ̀: {theme}.",
+      "shown": "Èyí ni ẹgbẹ́ náà: {theme}.",
+      "groupName": "Papọ̀: {theme}",
+      "show": "Fi ẹgbẹ́ náà hàn",
+      "next": "Òmíràn"
+    },
+    "oddOneOut": {
+      "hintLegend": "Àmọ̀ràn",
+      "hintOn": "Àmọ̀ràn lẹ́yìn ìdúró díẹ̀",
+      "hintOff": "Kò sí àmọ̀ràn",
+      "guidance": "Wá àwòrán tí kò bá àwọn yòókù lọ, kí o sì tẹ ẹ.",
+      "countLegend": "Àwọn àwòrán mélòó",
+      "count": "Àwòrán {n}",
+      "belongs": "{name|lower} lọ pẹ̀lú àwọn yòókù. Gba àkókò rẹ.",
+      "found": "Bẹ́ẹ̀ ni, {name|lower} ni ẹni tí kò bá àwọn yòókù mu. Àwọn yòókù jẹ́ {theme|lower}.",
+      "shown": "Eyí nìyí: {name|lower}. Àwọn yòókù jẹ́ {theme|lower}.",
+      "hint": "Àmọ̀ràn kan: {n} nínú èyí jẹ́ {theme|lower}.",
+      "others": "Àwọn yòókù: {theme}",
+      "show": "Fi hàn mí",
+      "next": "Òmíràn"
+    },
+    "seatedToss": {
+      "guidance": "Jókòó ní tábìlì kan, kí ẹ sì máa jú àpò ewa rírọ̀ sínú àfojúsùn ńlá lọ́nà tó yípo. Ẹ máa kọ iye àwọn tó wọlé sórí ìwé, papọ̀.",
+      "stepsHeading": "Bí ó ṣe ń lọ",
+      "steps": [
+        "Tẹ àfojúsùn àti ìwé ìkà, kí o sì tẹ́ ẹ pẹ̀lẹ́pẹ̀lẹ́ sórí tábìlì láàárín yín.",
+        "Jókòó ní ìrọ̀rùn, ọ̀kan ní ẹ̀gbẹ́ kọ̀ọ̀kan. Ẹ máa jú lọ́nà tì, ẹnì kọ̀ọ̀kan ní jíjú kan tó rọ̀, tàbí kí o kọjá tí o bá fẹ́ bẹ́ẹ̀.",
+        "Nígbà tí ìjú kan bá wọ inú òrùka kan, ẹni tó jú yóò sàmì sí àpótí kan nínú ọwọ̀n rẹ̀, ní ìlà òrùka yẹn.",
+        "Ẹ máa wo àwọn àmì náà papọ̀ nígbà tí ẹ bá dúró, tí ẹ bá fẹ́. Kò sí ẹnì kan tó ní láti fi ohunkóhun kún.",
+        "Dúró nígbàkigbà tí ẹnikẹ́ni bá ṣetán."
+      ],
+      "safetyHeading": "Ààbò",
+      "safetyLine": "Lo àpò tí ìbòrí rẹ̀ ti rán mọ́ tàbí ibọ̀sẹ̀ tí a yí padà nìkan, jókòó, má ṣe jú sí ojú ẹnikẹ́ni, kí àgbàlagbà kan sì wà nítòsí. Àwọn ohun kéékèèké lè fa ìfun.",
+      "flags": [
+        "Kò dára fún ọmọ tí kò tíì tó ọdún 3: àwọn ohun kéékèèké",
+        "Pa mọ́ kúrò lẹ́nu"
+      ],
+      "safety": [
+        "Yan àpò ewa pẹ̀lú ìbòrí tí a ti rán mọ́, tàbí yí ibọ̀sẹ̀ mímọ́ padà. Kọ́kọ́ ṣàyẹ̀wò rẹ̀ fún ihò tàbí ìrán tó ti tú, kí kíkún kankan má bàa jáde.",
+        "Ewa, ìrẹsì àti àwọn kíkún kéékèèké mìíràn lè fa ìfun. Pa wọ́n mọ́ kúrò lọ́wọ́ àwọn ọmọ kékeré àti ẹnikẹ́ni tó máa ń fi nǹkan sí ẹnu.",
+        "Ẹ dúró ní ìwọ̀n apá kan síra yín, kí ẹ sì máa wo ọ̀ràn pẹ̀kípẹ̀kí tí ohunkóhun bá lè lọ sí ẹnu.",
+        "Jókòó. Jú lọ́nà rírọ̀, kí o sì fi sí ìsàlẹ̀ sí àfojúsùn orí tábìlì, má ṣe jú sí ojú."
+      ],
+      "previewLabel": "Ìwé tí a tẹ̀: àfojúsùn oníòrùka mẹ́ta tí a pè ní Nítòsí, Àárín àti Jínjìn, láti òde sí inú, àti ìwé ìkà pẹ̀lú ọwọ̀n fún ẹnì kọ̀ọ̀kan àti ìlà àpótí òfo fún òrùka kọ̀ọ̀kan.",
+      "sheetHow": "Tẹ́ ìwé náà pẹ̀lẹ́pẹ̀lẹ́ láàárín yín. Nígbà tí ìjú kan bá wọ inú òrùka kan, sàmì sí àpótí kan nínú ọwọ̀n rẹ, ní ìlà òrùka yẹn.",
+      "rings": [
+        "Nítòsí",
+        "Àárín",
+        "Jínjìn"
+      ],
+      "people": [
+        "Ẹni àkọ́kọ́",
+        "Ẹni kejì"
+      ],
+      "ringHeading": "Òrùka",
+      "print": "Tẹ àfojúsùn àti ìwé ìkà"
+    },
+    "seasonalPack": {
+      "guidance": "Yan oṣù kan, tẹ àwọn ìbéèrè ìwé mẹ́ta rẹ̀, kí o sì ṣe ọ̀kan, méjì tàbí gbogbo mẹ́ta papọ̀.",
+      "monthLegend": "Yan oṣù kan",
+      "months": [
+        "Oṣù Kínní",
+        "Oṣù Kejì",
+        "Oṣù Kẹta",
+        "Oṣù Kẹrin",
+        "Oṣù Karùn-ún",
+        "Oṣù Kẹfà",
+        "Oṣù Keje",
+        "Oṣù Kẹjọ",
+        "Oṣù Kẹsàn-án",
+        "Oṣù Kẹwàá",
+        "Oṣù Kọkànlá",
+        "Oṣù Kejìlá"
+      ],
+      "monthNote": "Oṣù kọ̀ọ̀kan ní àwọn àwòrán tirẹ̀. Ojú ìwé yìí ṣí sí oṣù yìí, o sì lè yan èyíkéyìí mìíràn.",
+      "restDay": "Òní jẹ́ ọjọ́ ìsinmi",
+      "restLine": "Kò sí ìbéèrè ìwé lónìí. Ọjọ́ ìsinmi náà dára pẹ̀lú.",
+      "previewHeading": "Àwọn ìbéèrè mẹ́ta",
+      "puzzles": {
+        "pairs": {
+          "title": "Ṣe àwọn orísii pọ̀",
+          "how": "Fa ìlà láti àwòrán kọ̀ọ̀kan nínú ìlà òkè sí àwòrán kan náà nínú ìlà ìsàlẹ̀.",
+          "describe": "Ìlà méjì ti àwòrán mẹ́rin kan náà, ní ìtò tó yàtọ̀."
+        },
+        "different": {
+          "title": "Èwo ló yàtọ̀?",
+          "how": "Yí àwòrán tó yàtọ̀ sí àwọn mẹ́ta yòókù ká.",
+          "describe": "Ìlà àwòrán mẹ́rin. Mẹ́ta jọra, ọ̀kan sì yàtọ̀."
+        },
+        "color": {
+          "title": "Fi awọ kún un",
+          "how": "Fi awọ kun àwòrán náà bí o ṣe fẹ́, pẹ̀lú crayon tàbí pencil awọ.",
+          "describe": "Àwòrán ńlá kan fún kíkùn."
+        }
+      },
+      "print": "Tẹ ìdìpọ̀ oṣù yìí",
+      "sheetHow": "Tẹ ojú ìwé kan. Ṣe ọ̀kan, méjì tàbí gbogbo mẹ́ta ìbéèrè, ní ìtòlẹ́sẹẹsẹ èyíkéyìí.",
+      "printFooter": "Ṣe ọ̀kan, méjì tàbí gbogbo mẹ́ta. Dúró nígbàkigbà tí o bá fẹ́."
+    },
+    "decorateACard": {
+      "guidance": "Yan ayẹyẹ kan, lẹ́yìn náà ẹ ṣe ọ̀ṣọ́ káàdì papọ̀ pẹ̀lú crayon tàbí pen. Kò sí káàdì tó tọ́ kan.",
+      "occasionLegend": "Yan ayẹyẹ kan",
+      "occasions": {
+        "birthday": {
+          "label": "Ọjọ́ ìbí",
+          "words": "Ku ọjọ́ ìbí"
+        },
+        "thank-you": {
+          "label": "Ẹ ṣé",
+          "words": "Ẹ ṣé"
+        },
+        "thinking-of-you": {
+          "label": "Ìrònú rẹ",
+          "words": "A ń ronú rẹ"
+        },
+        "new-season": {
+          "label": "Àsìkò tuntun",
+          "words": "Àsìkò tuntun"
+        },
+        "just-because": {
+          "label": "Kàn bẹ́ẹ̀ ni",
+          "words": "Kàn bẹ́ẹ̀ ni"
+        }
+      },
+      "stepsHeading": "Bí a ṣe ń ṣe ọ̀ṣọ́ rẹ̀ papọ̀",
+      "steps": {
+        "fold": "Tẹ káàdì náà kí o sì pààrò rẹ̀ ní ìdajì lórí ìlà oníkọ̀ọ̀kan, kí iwájú rẹ̀ wà ní ìta.",
+        "front": "Ẹnì kan ṣe ọ̀ṣọ́ iwájú, yí àwọn ọ̀rọ̀ ká.",
+        "inside": "Ẹnì kejì ṣe ọ̀ṣọ́ ẹ̀yìn, tàbí kí ẹ máa yí padà lórí ẹ̀gbẹ́ kan.",
+        "message": "Kọ ìfiránṣẹ́ papọ̀. Ẹnì kan lè kọ nígbà tí ẹnì kejì ń sọ àwọn ọ̀rọ̀ náà.",
+        "stop": "Dúró nígbàkigbà tí o bá fẹ́. Kò sí káàdì tó tọ́ kan, àti èyí tó rọrùn náà dára bákan náà."
+      },
+      "materials": "Lo crayon, pencil awọ tàbí pen felt-tip. Kò sí ohun tí a nílò láti gé, lẹ̀ tàbí fi sí.",
+      "previewLabel": "Àwòkọ káàdì tí a pààrò ní ìdajì. Iwájú rẹ̀ sọ pé {words}, pẹ̀lú férémù rọrùn ti ewé àti ìràwọ̀. Ẹ̀yìn ní ìlà fún ìfiránṣẹ́ àti ìlà fún From.",
+      "from": "Láti ọwọ́",
+      "sheetHow": "Pẹ kaadi náà ní ìdajì pẹ̀lú ìlà tí a fi ìlà ojú-ọ̀nà sàmì sí, iwájú rẹ̀ sì wà lóde. Kọ ọ̀rọ̀ náà sí ẹ̀yìn.",
+      "rulesHeading": "Fún ènìyàn méjì",
+      "sheetRules": [
+        "Ẹ máa yípo, tàbí ẹ pín iṣẹ́ náà: ẹnìkan ṣe iwájú, ẹnìkejì ṣe ẹ̀yìn.",
+        "Ẹ kọ ọ̀rọ̀ náà pọ̀, tàbí kí ẹnìkan kọ ohun tí ẹnìkejì bá sọ.",
+        "Ẹnikẹ́ni lè dúró nígbàkigbà. Kò sí kaadi tó tọ́ tàbí tí kò tọ́."
+      ],
+      "print": "Tẹ kaadi náà jáde"
+    },
+    "storyDice": {
+      "guidance": "Wo àwọn àwòrán, kí o sì sọ ìtàn kan pẹ̀lú wọn, ní ọ̀nà èyíkéyìí. Kò sí ìtàn kan tó tọ́.",
+      "countLegend": "Iye dáyisì",
+      "count": "Dáyisì {n}",
+      "roll": "Yí padà lẹ́ẹ̀kan sí i",
+      "pass": "Fò",
+      "passed": "Fífò kò burú. Ẹnìkejì lè bẹ̀rẹ̀, tàbí o lè yí padà lẹ́ẹ̀kan sí i.",
+      "rolled": "Àwọn àwòrán tuntun: {names}.",
+      "tapped": "{name}. Bẹ̀rẹ̀ pẹ̀lú èyí, tàbí èyíkéyìí mìíràn."
+    },
+    "wordPicture": {
+      "guidance": "Tẹ àwòrán kan, lẹ́yìn náà tẹ ọ̀rọ̀ tó ń sọ orúkọ rẹ̀. Tàbí tẹ ọ̀rọ̀ kan, lẹ́yìn náà tẹ àwòrán rẹ̀.",
+      "countLegend": "Iye àwòrán",
+      "count": "Àwòrán {n}",
+      "picturesGroup": "Àwọn àwòrán",
+      "wordsGroup": "Àwọn ọ̀rọ̀",
+      "readWord": "Kà á sókè: {name}",
+      "next": "Àwọn àwòrán tuntun",
+      "putBack": "Dá a padà",
+      "pickWord": "Ní báyìí, tẹ ọ̀rọ̀ tó bá a mu.",
+      "pickPicture": "Ní báyìí, tẹ àwòrán tó bá a mu.",
+      "fit": "Bẹ́ẹ̀ ni, ọ̀rọ̀ yẹn bá {name|lower} mu.",
+      "newSet": "Èyí ni àkójọ àwòrán tuntun.",
+      "restarted": "A padà sí ibẹ̀rẹ̀. Gbogbo àwòrán àti ọ̀rọ̀ ti tú sílẹ̀ lẹ́ẹ̀kan sí i.",
+      "restored": "A dá a padà. Àwọn tí a so pọ̀ tó bá ara wọn mu ni a tún fihàn.",
+      "all": "Ọ̀rọ̀ kọ̀ọ̀kan ní àwòrán rẹ̀."
+    },
+    "colorMatch": {
+      "guidance": "Wo àwọ̀ náà àti orúkọ rẹ̀, lẹ́yìn náà tẹ gbogbo àwòrán tó jẹ́ àwọ̀ yẹn.",
+      "target": "Àwọ̀ náà ni {color|lower}. Tẹ gbogbo àwòrán tí ó jẹ́ {color|lower}.",
+      "countLegend": "Iye àwòrán",
+      "count": "Àwòrán {n}",
+      "found": "Bẹ́ẹ̀ ni, {name|lower} jẹ́ {color|lower}.",
+      "named": "{name|lower} jẹ́ {color|lower}.",
+      "all": "Iyẹn ni gbogbo àwòrán {color|lower}.",
+      "shown": "Èyí ni àwọn àwòrán {color|lower}.",
+      "show": "Fi wọ́n hàn",
+      "next": "Àwọ̀ mìíràn",
+      "names": {
+        "red": "Pupa",
+        "orange": "Ọsàn",
+        "yellow": "Ofeefee",
+        "green": "Ewé",
+        "blue": "Búlúù"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tẹ ìdajì kan ní apá òsì, lẹ́yìn náà tẹ ìdajì ní apá ọ̀tún tó bá a mu.",
+      "countLegend": "Iye àwòrán",
+      "count": "Àwòrán {n}",
+      "leftGroup": "Ìdajì apá òsì",
+      "rightGroup": "Ìdajì apá ọ̀tún",
+      "left": "Ìdajì apá òsì {name|lower}",
+      "right": "Ìdajì apá ọ̀tún {name|lower}",
+      "joined": "Ti so pọ̀",
+      "pickRight": "Ní báyìí, tẹ ìdajì ní apá ọ̀tún tó bá a mu.",
+      "pickLeft": "Ní báyìí, tẹ ìdajì ní apá òsì tó bá a mu.",
+      "fit": "Bẹ́ẹ̀ ni, àwọn méjèèjì yìí di {name|lower}.",
+      "apart": "Àwọn méjèèjì yìí kò bá ara wọn mu. Gbìyànjú òmíràn.",
+      "all": "Gbogbo àwòrán ti pé.",
+      "shown": "Èyí ni àwọn àwòrán, tí a ti so pọ̀.",
+      "show": "Fi hàn mí",
+      "next": "Àkójọ mìíràn"
+    },
+    "colorByNumber": {
+      "guidance": "Yan àwọ̀ kan láti inú àtòjọ, lẹ́yìn náà fi í kún onígun mẹ́rin kan. Àwọ̀ èyíkéyìí ló dára.",
+      "sizeLegend": "Ìwọ̀n àkájọ",
+      "size": "{n} nípa {n}",
+      "keyLegend": "Àwọn àwọ̀",
+      "colors": [
+        "Ofeefee",
+        "Ọsàn",
+        "Ewé",
+        "Elése àlùkò"
+      ],
+      "motifs": {
+        "house": "ilé kan",
+        "flower": "ìtànná kan",
+        "heart": "ọkàn kan",
+        "tree": "igi kan",
+        "boat": "ọkọ̀ ojú omi kan",
+        "pot-plant": "ohun ọ̀gbìn nínú ìkòkò"
+      },
+      "region": "Àkájọ àwòrán, {n} nípa {n}. Ó máa ń yí lọ sí ẹ̀gbẹ́ tí ojú-ìwé bá dín.",
+      "cell": "Nọ́mbà {number}, ìlà {row}, ọwọ́n {column}, {color}",
+      "empty": "ṣófo",
+      "chose": "A ti yan {name}. Tẹ onígun mẹ́rin kan láti fi kún un.",
+      "painted": "{name} ní ìlà {row}, ọwọ́n {column}.",
+      "sheet": "Onígun mẹ́rin kọ̀ọ̀kan ní àwọ̀ nọ́mbà rẹ̀. Èyí ni àwòrán lórí ìwé náà: {name}.",
+      "own": "Gbogbo onígun mẹ́rin ti kún. Èyí ni àwòrán tìrẹ.",
+      "fillAll": "Fi kún pẹ̀lú àwọn nọ́mbà",
+      "filledAll": "Gbogbo onígun mẹ́rin tí ó ṣófo ní àwọ̀ nọ́mbà rẹ̀ báyìí.",
+      "clear": "Nu rẹ̀ kúrò",
+      "cleared": "Àkájọ náà ti mọ́.",
+      "next": "Àwòrán mìíràn",
+      "fresh": "Èyí ni àwòrán mìíràn láti kùn."
+    },
+    "patternMaker": {
+      "guidance": "Tẹ onígun mẹ́rin kan láti yí àwọ̀ rẹ̀ padà. Àpẹẹrẹ rẹ máa ń dàgbà ní ẹ̀gbẹ́ rẹ̀. Kò sí ohun tí o bá ṣe tí a fi pamọ́ tàbí fi ránṣẹ́.",
+      "sizeLegend": "Ìwọ̀n tile",
+      "size": "{n} nípa {n}",
+      "keyLegend": "Àwọn àwọ̀, ní ọ̀nà tí títẹ̀ yoo fi yí wọn padà",
+      "colors": [
+        "Ofeefee",
+        "Ọsàn",
+        "Ewé",
+        "Elése àlùkò"
+      ],
+      "tileLabel": "Tile rẹ",
+      "region": "Tile rẹ, {n} nípa {n}. Ó máa ń yí lọ sí ẹ̀gbẹ́ tí ojú-ìwé bá dín.",
+      "patternLabel": "Àpẹẹrẹ rẹ",
+      "pattern": "Àpẹẹrẹ rẹ: tile rẹ tí a tún ṣe {n} ní ìdọ́gba àti {n} ní ìsàlẹ̀.",
+      "square": "Ìlà {row}, ọwọ́n {column}, {color}",
+      "changed": "Ìlà {row}, ọwọ́n {column} ti di {color}.",
+      "cleared": "Tile ti mọ́. O lè dá a padà.",
+      "surprise": "Yà mí lẹ́nu",
+      "surprised": "Èyí ni tile tuntun. O lè dá èyí àtijọ́ padà.",
+      "putBack": "Dá a padà",
+      "restored": "A ti dá tile rẹ padà bí ó ti wà.",
+      "print": "Tẹ àpẹẹrẹ mi jáde",
+      "sheetTitle": "Àpẹẹrẹ mi"
+    },
+    "buildTogether": {
+      "guidance": "Ẹ máa yípo láti fi ege kan sí ibi tó ṣófo. Ẹnìkọ̀ọ̀kan yín ní àwọ̀ tirẹ̀. Kò sí ohun tí ẹ bá ṣe tí a fi pamọ́ tàbí fi ránṣẹ́.",
+      "sizeLegend": "Ìwọ̀n àkájọ",
+      "size": "{n} nípa {n}",
+      "people": [
+        "Ènìyàn àkọ́kọ́",
+        "Ènìyàn kejì"
+      ],
+      "colorLegend": "Àwọ̀ {person}",
+      "colors": [
+        "Ofeefee",
+        "Ọsàn",
+        "Ewé",
+        "Elése àlùkò"
+      ],
+      "inUse": "Ń lò",
+      "turn": "Ìgbà rẹ, {person|lower}",
+      "yourColor": "Àwọ̀ rẹ ni {color|lower}.",
+      "built": "A kọ́ ọ papọ̀. Èyí ni àwòrán tí ẹ̀yin méjèèjì ṣe.",
+      "gridLabel": "Àkájọ tí ẹ jọ ń lò",
+      "region": "Àkájọ tí ẹ jọ ń lò, {n} nípa {n}. Ó máa ń yí lọ sí ẹ̀gbẹ́ tí ojú-ìwé bá dín.",
+      "cellEmpty": "Ìlà {row}, ọwọ́n {column}, ṣófo",
+      "cellFilled": "Ìlà {row}, ọwọ́n {column}, {color}, tí {person|lower} gbé sí i",
+      "placed": "Ìlà {row}, ọwọ́n {column} ti di {color}. Ìgbà rẹ, {next|lower}.",
+      "placedLast": "Ìlà {row}, ọwọ́n {column} ti di {color}. A kọ́ ọ papọ̀.",
+      "taken": "Ìlà {row}, ọwọ́n {column} ti ní ege kan tẹ́lẹ̀. Yan ibi tó ṣófo.",
+      "pass": "Fò",
+      "passed": "Fífò kò burú. Ìgbà rẹ, {person|lower}.",
+      "takeBack": "Mú ege tó kẹ́yìn padà",
+      "takeBackPass": "Mú fífò padà",
+      "tookBack": "A ti mú ege náà padà. Ìgbà rẹ, {person|lower}.",
+      "tookBackPass": "A ti mú fífò náà padà. Ìgbà rẹ, {person|lower}.",
+      "colorChanged": "{person} ní {color|lower} báyìí.",
+      "restarted": "Àkájọ náà ṣófo. Ìgbà rẹ, {person|lower}.",
+      "print": "Tẹ àkájọ náà jáde",
+      "sheetTitle": "Kọ́ ọ papọ̀",
+      "sheetHelp": "Ẹ máa yípo. Nínú onígun mẹ́rin tó ṣófo, ẹnìkọ̀ọ̀kan ń fa àwòrán tirẹ̀ pẹ̀lú ìkọ̀wé tirẹ̀.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tẹ ege kan, lẹ́yìn náà tẹ àyè tó wà nínú àwòrán tí ó ti máa lọ. Kò sí ohun tí o bá ṣe tí a fi pamọ́ tàbí fi ránṣẹ́.",
+      "hints": "Fi àwọn ìlà ìtọ́ni hàn",
+      "pictureLine": "Èyí jẹ́ {picture}.",
+      "pictures": {
+        "house": "ilé",
+        "boat": "ọkọ̀ ojú omi",
+        "tree": "igi",
+        "fish": "ẹja",
+        "cat": "ológbò",
+        "rocket": "rọ́kẹ́ẹ̀tì"
+      },
+      "outlineLabel": "Ìlà òde {picture}. Tẹ àyè kan láti fi ege tí a yàn sí i.",
+      "trayHeading": "Àwọn ege",
+      "pieces": {
+        "large-triangle": "Onígun mẹ́ta ńlá",
+        "small-triangle": "Onígun mẹ́ta kékeré",
+        "square": "Onígun mẹ́rin",
+        "parallelogram": "Pàrálélógíráàmù",
+        "rectangle": "Sítì onígun"
+      },
+      "shapes": {
+        "large-triangle": "onígun mẹ́ta ńlá kan",
+        "small-triangle": "onígun mẹ́ta kékeré kan",
+        "square": "onígun mẹ́rin kan",
+        "parallelogram": "pàrálélógíráàmù kan",
+        "rectangle": "onígun gígùn kan"
+      },
+      "chosenLabel": "Ti yàn",
+      "spaceEmpty": "Àyè {n}, {shape}, ṣófo",
+      "spaceFilled": "Àyè {n}, {shape}, ní ege rẹ̀. Tẹ láti mú ege náà padà.",
+      "chosen": "A ti yan {piece}. Ní báyìí, tẹ àyè kan nínú àwòrán.",
+      "unchosen": "Ìṣẹ̀dá náà kò sí nínú ohun tí a yàn mọ́.",
+      "placed": "Ìṣẹ̀dá náà wà ní ibi {n}.",
+      "complete": "{picture} ti parí.",
+      "different": "Ìṣẹ̀dá yẹn yàtọ̀ sí ìrísí ibi yìí. Gbìyànjú ibòmíràn.",
+      "needPiece": "Kọ́kọ́ yan ègé kan láti inú àpótí.",
+      "filled": "Ibi yẹn ti ní ègé rẹ̀ tẹ́lẹ̀. Tẹ̀ ẹ́ láti gbé ègé náà padà.",
+      "tookBack": "Ègé náà ti padà sínú àpótí.",
+      "cleared": "Àwọn ègé ti padà sínú àpótí. Dá a padà tí o bá ti yí èrò rẹ padà.",
+      "restored": "Àwọn ègé ti padà sínú àwòrán náà.",
+      "next": "Èyí jẹ́ {picture}.",
+      "putBack": "Dá a padà",
+      "another": "Ìrísí mìíràn",
+      "print": "Tẹ ìrísí yìí jáde",
+      "sheetTitle": "Àwọn ìrísí tí ó rọrùn",
+      "sheetHow": "Kun àwọn ègé náà, tàbí gé wọn jáde kí wọ́n baà lè bá ìlà ìta mu. Àgbàlagbà kan lè ṣe gígé náà.",
+      "sheetPieces": "Àwọn ègé, tí iwọn wọn bá ìlà ìta mu"
+    },
+    "picnicPlanner": {
+      "guidance": "Tẹ àwòrán kan láti fi sínú agbọ̀n pikiniki, kí o sì tẹ̀ ẹ́ nínú agbọ̀n láti yọ ọ́ jáde. Agbọ̀n náà gba nǹkan mẹ́fà.",
+      "guidancePlay": "Tẹ àwòrán méjì tí wọ́n jọra. Àwọn àwòrán náà yóò máa hàn, kò sì sí àkókò kankan.",
+      "basketHeading": "Agbọ̀n wa",
+      "basketLabel": "Agbọ̀n pikiniki",
+      "takeOut": "Yọ {picture} kúrò nínú agbọ̀n",
+      "inBasket": "Nínú agbọ̀n",
+      "foodHeading": "Oúnjẹ",
+      "outingsHeading": "Àwọn nǹkan láti ṣe",
+      "added": "{picture} wà nínú agbọ̀n.",
+      "removed": "{picture} ti jáde kúrò nínú agbọ̀n.",
+      "already": "{picture} ti wà nínú agbọ̀n tẹ́lẹ̀. Tẹ̀ ẹ́ níbẹ̀ láti yọ ọ́ jáde.",
+      "full": "Agbọ̀n ti kún. Yọ nǹkan kan jáde kí aaye baà lè wà.",
+      "summary": "Pikiniki wa: {list}.",
+      "summaryNone": "Kò sí nǹkan kankan nínú agbọ̀n síbẹ̀.",
+      "and": "àti",
+      "play": "Ẹ jẹ́ kí a ṣeré pẹ̀lú pikiniki wa",
+      "needTwo": "Kọ́kọ́ yan nǹkan méjì o kere tán.",
+      "playAgain": "Ṣeré lẹ́ẹ̀kan sí i",
+      "back": "Padà sí pikiniki",
+      "print": "Tẹ àkójọ pikiniki wa jáde",
+      "cleared": "Agbọ̀n ti di òfo.",
+      "notice": "Èyí jẹ́ètò láti sọ̀rọ̀ lé lórí. Kò sí àkókò, àmì ìdíyelé tàbí ìfipamọ́ kankan.",
+      "sheetTitle": "Àkójọ pikiniki wa",
+      "sheetHow": "Sàmì sí nǹkan kọ̀ọ̀kan bí o ṣe ń kó o. Lo àwọn ìlà òfo fún ohunkóhun mìíràn tí o fẹ́ mú wá.",
+      "sheetToPack": "Láti kó"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Yan fọ́tò ara rẹ láàárín méjì sí mejila láti bẹ̀rẹ̀ ìwé náà.",
+      "guidance": "Ẹ jọ máa yí ojú ìwé padà, pẹ̀lú bọ́tìnì tàbí kọ́kọ́rọ́ ọfà Osi àti Ọtun. Fi ọ̀rọ̀ díẹ̀ kún abẹ́ fọ́tò bí o bá fẹ́. A kò fi nǹkan tí o ṣe pamọ́ tàbí fi ránṣẹ́.",
+      "lookGuidance": "Ẹ jọ wo ojú ìwé kọ̀ọ̀kan. Ẹ lè sọ̀rọ̀, tàbí kí ẹ kàn wò ó.",
+      "intro": "Yan fọ́tò láàárín méjì sí mejila láti ara ẹ̀rọ yìí. Ọ̀kọ̀ọ̀kan yóò di ojú ìwé nínú ìwé tí ẹ lè jọ yí padà.",
+      "consent": "Lo fọ́tò ẹbí tìrẹ. Béèrè ṣáájú kí o lo fọ́tò ẹnikan tí kò lè sọ bẹ́ẹ̀ bẹ́ẹ̀ni.",
+      "privacy": "Àwọn fọ́tò rẹ wà lórí ẹ̀rọ yìí. A kò gbé wọn sókè tàbí fipamọ́.",
+      "choose": "Yan fọ́tò",
+      "chooseDifferent": "Yan àwọn fọ́tò mìíràn",
+      "backToBook": "Padà sí ìwé náà",
+      "backToChoose": "Padà sí yíyan fọ́tò",
+      "needTwo": "Jọ̀wọ́ yan fọ́tò o kere tán méjì.",
+      "usingFirst": "Ń lo {max} fọ́tò àkọ́kọ́.",
+      "cleared": "A ti pa ìwé náà rẹ́. Yan fọ́tò láti bẹ̀rẹ̀ lẹ́ẹ̀kan sí i.",
+      "moved": "A ti lọ sí ojú ìwé {n}.",
+      "pageOf": "Ojú ìwé {n} nínú {total}",
+      "lookTogether": "Ẹ jọ wò ó",
+      "leaveLook": "Padà sí ìwé náà",
+      "print": "Tẹ ìwé ìrántí jáde",
+      "clear": "Pa ìwé náà rẹ́",
+      "bookLabel": "Ìwé ìrántí ẹbí",
+      "pagesLabel": "Yí àwọn ojú ìwé padà",
+      "previous": "Ojú ìwé tẹ́lẹ̀",
+      "next": "Ojú ìwé tó tẹ̀ lé e",
+      "moveEarlier": "Gbé sí iwájú",
+      "moveLater": "Gbé sí ẹ̀yìn",
+      "captionLabel": "Ọ̀rọ̀ díẹ̀ fún ojú ìwé yìí, bí o bá fẹ́",
+      "captionHelp": "Títí dé ohun kikọ 80. A máa pa àkọlé náà mọ́ sí ojú ìwé yìí nìkan, yóò sì pòórá nígbà tí o bá tì í.",
+      "sheetTitle": "Ìwé ìrántí wa",
+      "sheetHow": "Fọ́tò kan sí ojú ìwé kọ̀ọ̀kan, pẹ̀lú ọ̀rọ̀ rẹ̀ nísàlẹ̀. Yí àwọn ojú ìwé padà ní ìtòsí, kí ẹ sì sọ̀rọ̀ nípa ọ̀kọ̀ọ̀kan.",
+      "sheetEmpty": "Yan fọ́tò rẹ lórí ojú ìwé eré láti tẹ ìwé tìrẹ jáde, tàbí tẹ ojú ìwé òfo yìí jáde kí o sì fi fọ́tò tí a tẹ̀ sí i.",
+      "sheetFrame": "Fi fọ́tò tí a tẹ̀ sí ibí",
+      "sheetWords": "Ọ̀rọ̀ díẹ̀ fún ojú ìwé yìí",
+      "skipped": {
+        "other": "Fáìlì {n} kò jẹ́ fọ́tò tí a lè lò."
+      }
+    },
+    "quietScene": {
+      "guidance": "Wo àwòrán kan ní àkókò kan. Tẹ Next tàbí Previous nígbà tí o bá ti ṣetán. Kò sí nǹkan kan tí yóò yí padà fúnra rẹ̀.",
+      "next": "Àwòrán tó tẹ̀ lé e",
+      "previous": "Àwòrán tẹ́lẹ̀",
+      "bigPicture": "Àwòrán tó tóbi jù",
+      "showEverything": "Fi gbogbo rẹ̀ hàn",
+      "first": "Èyí ni àwòrán àkọ́kọ́.",
+      "last": "Èyí ni àwòrán ìkẹhìn.",
+      "lines": {
+        "sunrise": "Oòrùn ń yọ lórí ilẹ̀.",
+        "window-with-birds": "Àwọn ẹyẹ lóde fèrèsé.",
+        "vase-of-flowers": "Ìkòkò òdòdó lórí tábìlì.",
+        "teacup": "Ife tii lẹ́gbẹ̀ẹ́ fèrèsé.",
+        "tree": "Igi kan dúró nínú ọgbà.",
+        "sailboat": "Ọkọ̀ ojú omi lórí omi.",
+        "lighthouse": "Ilé ìtànnà lẹ́gbẹ̀ẹ́ òkun.",
+        "rainbow": "Òṣùmàrè lẹ́yìn òjò.",
+        "moon": "Òṣùpá nínú ojú ọ̀run alẹ́.",
+        "daisies": "Ìpẹ̀ ìtànná dáísì nínú koríko.",
+        "rowing-boat": "Ọkọ̀ ìwakọ̀ lórí omi tí kò ní ìgbì.",
+        "potted-plant": "Ohun ọ̀gbìn aláwọ̀ ewé nínú ìkòkò."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Ẹ jọ máa yípo. Tẹ ègé tí a gé jáde, lẹ́yìn náà tẹ ibi òfo láti fi sí ibẹ̀. A kò fi nǹkan tí o ṣe pamọ́ tàbí fi ránṣẹ́.",
+      "people": [
+        "Ẹni àkọ́kọ́",
+        "Ẹni kejì"
+      ],
+      "marks": [
+        "ìyíká kan",
+        "onígun mẹ́rin kan"
+      ],
+      "turn": "Ìgbà rẹ nìyí, {person|lower}.",
+      "marked": "A fi {mark} sàmì sí àwọn ègé rẹ.",
+      "boardLabel": "Pátákó àpapọ̀",
+      "placeEmpty": "Ibi {n}, òfo",
+      "placeFilled": "Ibi {n}, {picture|lower}, tí {person|lower} fi sí i",
+      "trayHeading": "Àwọn ègé tí a gé jáde",
+      "chosenLabel": "Tí a yàn",
+      "chosen": "A ti yan {picture}. Ní báyìí, tẹ ibi òfo kan.",
+      "unchosen": "Ègé tí a gé jáde kò sí nínú ohun tí a yàn mọ́.",
+      "needCutout": "Kọ́kọ́ yan ègé tí a gé jáde, lẹ́yìn náà tẹ ibi òfo kan.",
+      "filled": "Ibi {n} ti ní àwòrán tẹ́lẹ̀. Yan ibi òfo kan.",
+      "placed": "{picture} wà ní ibi {n}. Ìgbà rẹ nìyí, {next|lower}.",
+      "full": "Gbogbo ibi ni àwòrán wà. Mú ọ̀kan padà láti yí i pada, tàbí bẹ̀rẹ̀ lẹ́ẹ̀kan sí i.",
+      "pass": "Kọjá",
+      "passed": "Kíkọjá dára. Ìgbà rẹ nìyí, {person|lower}.",
+      "takeBack": "Mú ègé tó kẹ́yìn padà",
+      "takeBackPass": "Mú ìkọjá padà",
+      "tookBack": "A ti mú ègé náà padà. Ìgbà rẹ nìyí, {person|lower}.",
+      "tookBackPass": "A ti mú ìkọjá náà padà. Ìgbà rẹ nìyí, {person|lower}.",
+      "restarted": "Pátákó náà di òfo. Ìgbà rẹ nìyí, {person|lower}.",
+      "putBack": "Dá a padà",
+      "putBackDone": "Àwọn ègé ti padà sórí pátákó náà.",
+      "another": "Àkójọ àwòrán mìíràn",
+      "anotherSet": "Àkójọ ègé tuntun wà nínú àpótí. Àwọn ègé tó wà lórí pátákó yóò wà ní ibi wọn.",
+      "print": "Tẹ pátákó náà jáde",
+      "sheetTitle": "Pátákó àpapọ̀",
+      "sheetHow": "Gé àwọn àwòrán jáde, kí ẹ sì jọ máa yípo láti fi wọn sórí pátákó náà. Àgbàlagbà kan lè ṣe gígé náà.",
+      "sheetTray": "Àwọn àwòrán láti gé jáde"
+    },
+    "gardenPlanner": {
+      "guidance": "Tẹ àwòrán kan, lẹ́yìn náà tẹ ibùsùn ọgbà kan láti fi sí ibẹ̀. Tẹ ibùsùn tí àwòrán wà lórí rẹ̀, nígbà tí kò sí nǹkan tí a yàn, láti ko ó kúrò.",
+      "bedsLabel": "Àwọn ibùsùn ọgbà",
+      "bedEmpty": "Ibùsùn {n}, òfo",
+      "bedFilled": "Ibùsùn {n}, {picture|lower}",
+      "plantsHeading": "Àwọn ohun ọ̀gbìn",
+      "extrasHeading": "Àwọn nǹkan afikún ọgbà",
+      "chosenLabel": "Tí a yàn",
+      "chosen": "A ti yan {picture}. Ní báyìí, tẹ ibùsùn kan.",
+      "unchosen": "Kò sí àwòrán tí a yàn.",
+      "needPicture": "Èyí tí o fẹ́ ni kí o kọ́kọ́ yàn, lẹ́yìn náà fọwọ́ kan ibùsùn kan.",
+      "planted": "{picture} wà ní ibùsùn {n}.",
+      "replaced": "{picture} gba ibi àwòrán tó wà ní ibùsùn {n}.",
+      "cleared": "Ibùsùn {n} ti ṣófo. Dá a padà bí o bá fẹ́ àwòrán náà lẹ́ẹ̀kan sí i.",
+      "restarted": "Gbogbo ibùsùn ti ṣófo.",
+      "putBack": "Dá a padà",
+      "putBackDone": "Àwọn àwòrán ti padà sí àwọn ibùsùn wọn.",
+      "summaryHeading": "Ọgbà mi",
+      "summary": "Ètò rẹ ní {list}.",
+      "summaryNone": "Kò sí àwòrán kankan ní ibùsùn kankan sibẹ.",
+      "and": "àti",
+      "print": "Tẹ ètò náà jáde",
+      "sheetTitle": "Ètò ọgbà wa",
+      "sheetHow": "Àwọn ibùsùn fihàn àwọn àwòrán tí a yàn lórí ìbòjú. Ya àwòrán sí àwọn ibùsùn tó ṣófo bí o bá fẹ́.",
+      "sheetNotes": "Àkọsílẹ̀",
+      "notice": "Ètò àwòrán yìí wà fún ìjíròrò, kì í ṣe ìmọ̀ràn nípa gbingbin."
+    },
+    "coloringWall": {
+      "guidance": "Yan àwòrán àti iye ojú-ìwé. Tẹ ògiri náà jáde, kí olúkúlùkù kun ojú-ìwé kan tàbí ju bẹ́ẹ̀ lọ. Kò sí àkókò, àmì tàbí ìfipamọ́ kankan.",
+      "pictureLegend": "Àwòrán",
+      "sizeLegend": "Iye ojú-ìwé",
+      "sizes": {
+        "2x2": "Ojú-ìwé 4 (2 ní 2)",
+        "3x2": "Ojú-ìwé 6 (3 ní 2)",
+        "3x3": "Ojú-ìwé 9 (3 ní 3)"
+      },
+      "previewLabel": "{picture|lower} tí a pín sí ojú-ìwé {n}, {across} ní ìlà ìbú àti {down} ní ìlà gígùn. Ojú-ìwé kọ̀ọ̀kan ní àmì ní igun rẹ̀.",
+      "previewCaption": "Àwòrán pẹ̀lú àwọn ìlà ojú-ìwé àti àmì tí a fà sórí rẹ̀.",
+      "labelsNote": "Lẹ́tà ń lọ sílẹ̀ lórí ògiri, nọ́mbà sì ń lọ kọjá rẹ̀, nítorí náà A1 ni ojú-ìwé tó wà ní òkè ní apá òsì.",
+      "wallHeading": "Bí a ṣe ń so ògiri náà pọ̀",
+      "steps": [
+        "Tẹ gbogbo ojú-ìwé jáde. Ojú-ìwé àkọ́kọ́ ní àwọn ìgbésẹ̀ wọ̀nyí àti maapu ògiri náà.",
+        "Olúkúlùkù yóò mú ojú-ìwé kan tàbí ju bẹ́ẹ̀ lọ, kí ó sì kun wọ́n.",
+        "Àwọ̀ àti ọ̀nà kíkùn kò nílò láti báramu. Gbogbo ojú-ìwé jẹ́ apá kan àwòrán kan náà.",
+        "Tò àwọn ojú-ìwé sí ibi àmì wọn, lẹ́yìn náà so wọ́n pọ̀ pẹ̀lú teepu ní ẹ̀yìn.",
+        "Gbé ògiri náà sókè sí ibi tí gbogbo ènìyàn lè rí i."
+      ],
+      "mapLabel": "Maapu ògiri: ìlà {down} ti ojú-ìwé {across} kọ̀ọ̀kan, tí a fi àmì sí láti A1 dé {last}.",
+      "edgeNote": "Ìlà tí a fi àmì sí ní ìdánilẹ́kọ̀ọ́ fi etí ojú-ìwé kọ̀ọ̀kan hàn. Tò àwọn ojú-ìwé etí sí etí lẹ́gbẹ̀ẹ́ rẹ̀, tàbí kí o fi díẹ̀ bò ó.",
+      "pictureLine": "Àwòrán: {picture}. Ògiri yìí jẹ́ ojú-ìwé {n}: {across} ní ìlà ìbú àti {down} ní ìlà gígùn.",
+      "print": "Tẹ ògiri náà jáde"
+    },
+    "findTogether": {
+      "guidance": "Ẹ máa yípo. Ní ìgbà tirẹ̀, yí kaadi méjì padà láti wá bata kan. Ẹ jọ wá àwọn bata náà papọ̀.",
+      "sizeLegend": "Iye kaadi",
+      "size": "Kaadi {n}",
+      "viewLegend": "Bí a ṣe ń ṣeré",
+      "viewShowing": "Ẹ ṣeré pẹ̀lú àwòrán tí ó hàn",
+      "viewHidden": "Kaadi tí ojú wọn kọjú sí ilẹ̀",
+      "people": [
+        "Ènìyàn àkọ́kọ́",
+        "Ènìyàn kejì"
+      ],
+      "turn": "Ìgbà: {person}",
+      "turnDone": "Gbogbo bata ni a ti rí.",
+      "tally": "Bata tí a rí papọ̀: {n}",
+      "cardNamed": "{name}, kaadi {n}",
+      "cardFaceDown": "Kaadi {n}, ojú rẹ̀ kọjú sí ilẹ̀",
+      "first": "{name}. Yí kaadi kejì padà báyìí.",
+      "found": "{name}: bata kan, tí a rí papọ̀. Báyìí ni ìgbà {next|lower} tó láti ṣeré.",
+      "allTogether": "Ẹ rí gbogbo bata papọ̀.",
+      "different": "{a} àti {b} yàtọ̀ síra. Gba àkókò rẹ, lẹ́yìn náà tẹ Dá wọn padà.",
+      "waiting": "Tẹ Dá wọn padà nígbà tí o bá ṣetán. Lẹ́yìn náà ìgbà yóò kọjá.",
+      "turnedBack": "A ti dá wọn padà. Báyìí ni ìgbà {person|lower} tó láti ṣeré.",
+      "passed": "Kò burú láti kọjá. Báyìí ni ìgbà {person|lower} tó láti ṣeré.",
+      "turnBack": "Dá wọn padà",
+      "pass": "Kọjá",
+      "playAgain": "Ṣeré lẹ́ẹ̀kan sí i"
+    },
+    "drawingDuet": {
+      "guidance": "Ẹ máa yípo, ìlà kan kọ̀ọ̀kan, lẹ́yìn náà fi peni fún ẹnìkejì. Ẹnikẹ́ni lè kọjá. A kò fi nǹkankan ránṣẹ́ sí ibikíbi. Àwòrán kan kúrò lórí ojú-ìwé yìí nìkan bí o bá fipamọ́ ẹ.",
+      "people": [
+        "Ènìyàn àkọ́kọ́",
+        "Ènìyàn kejì"
+      ],
+      "colorLegend": "Àwọ̀ {person}",
+      "colors": [
+        "Àwọ̀ ofeefee",
+        "Àwọ̀ osan",
+        "Àwọ̀ ewé",
+        "Àwọ̀ eléyìí"
+      ],
+      "turn": "Ìgbà {person}",
+      "penColor": "Àwọ̀ peni: {color}.",
+      "canvasLabel": "Àwòrán tí a jọ ń yà, ìlà {n} títí di báyìí",
+      "canvasLabelOne": "Àwòrán tí a jọ ń yà, ìlà {n} títí di báyìí",
+      "keys": "Àwọn bọ́tìnì ọfà ń sún àmì peni lórí àwòrán. Space ń gbé peni sílẹ̀ tàbí gbé e sókè.",
+      "penDown": "Gbé peni sílẹ̀",
+      "penUp": "Gbé peni sókè",
+      "pass": "Fi peni fún ẹnìkejì",
+      "passed": "Kò burú láti kọjá. Ìgbà rẹ nìyí, {person|lower}.",
+      "takeBack": "Mú ìlà mi tó kẹ́yìn kúrò",
+      "tookBack": "A mú ìlà {person|lower} tó kẹ́yìn kúrò.",
+      "noLine": "Kò sí ìlà kankan láti ọwọ́ {person|lower} tí a lè mú kúrò.",
+      "restarted": "Ìwé náà ti mọ́. Ènìyàn àkọ́kọ́ ní ìgbà. Dá a padà bí o kò bá ní ète láti ṣe bẹ́ẹ̀.",
+      "putBack": "Dá a padà",
+      "restored": "Àwọn ìlà ti padà bí wọ́n ti rí tẹ́lẹ̀.",
+      "save": "Fipamọ́ àwòrán",
+      "saved": "Àwòrán rẹ ti ṣetán. Lo ìjápọ̀ ìgbàsílẹ̀ láti tọ́jú rẹ̀ sórí ẹ̀rọ yìí.",
+      "download": "Gbàsílẹ̀ drawing-duet.png",
+      "print": "Tẹ ẹ̀dà iwe jáde",
+      "sheetTitle": "Duet ìyàwòrán",
+      "paperRules": "Ènìyàn méjì, ìwé kan, peni méjì. Ẹ máa yípo: ìlà tàbí ìrísí kan kọ̀ọ̀kan, lẹ́yìn náà fi peni fún ẹnìkejì. Ẹnikẹ́ni lè kọjá. Kò sí àwòrán kan tó tọ̀nà."
+    },
+    "colorWash": {
+      "guidance": "Fi àwọ̀ rírọ̀ kun gbogbo ojú-ìwé, ìfọ̀ kan ní àkókò kan. Gbé fẹ́lẹ́ sókè láti dúró, kí o sì dúró nígbàkigbà tí o bá fẹ́. A kò fi nǹkankan pamọ́ tàbí ránṣẹ́.",
+      "colorLegend": "Àwọ̀ ìfọ̀",
+      "sizeLegend": "Ìwọ̀n fẹ́lẹ́",
+      "colors": [
+        "Àwọ̀ ofeefee",
+        "Àwọ̀ osan",
+        "Àwọ̀ ewé",
+        "Àwọ̀ eléyìí"
+      ],
+      "sizes": {
+        "wide": "Fífẹ̀",
+        "veryWide": "Fífẹ̀ gan-an"
+      },
+      "color": "Àwọ̀ ìfọ̀: {color}.",
+      "brushDown": "Gbé fẹ́lẹ́ sílẹ̀",
+      "brushUp": "Gbé fẹ́lẹ́ sókè",
+      "keys": "Àwọn bọ́tìnì ọfà ń sún òrùka fẹ́lẹ́ lórí ojú-ìwé. Space ń gbé fẹ́lẹ́ sílẹ̀ tàbí gbé e sókè.",
+      "canvasLabel": "Ojú-ìwé tí ó kún fún ìfọ̀ àwọ̀ rírọ̀",
+      "fresh": "Ojú-ìwé tuntun",
+      "freshMessage": "Ojú-ìwé tuntun.",
+      "putBack": "Dá a padà",
+      "restored": "Ojú-ìwé ti padà."
+    },
     "sortTogether": {
       "guidance": "Ẹ tẹ àwòrán kan, lẹ́yìn náà ẹ tẹ agbọ̀n tí ó wà nínú rẹ̀.",
       "restart": "Àwọn àwòrán tuntun",
@@ -70,6 +717,10 @@
       "hint": "{name|lower} lè lọ sínú \"{basket}\". Ẹ tẹ agbọ̀n yẹn láti fi sibẹ.",
       "placed": "{name|lower} wà nínú \"{basket}\".",
       "sorted": "A ti tòlẹ́sẹẹsẹ ohun gbogbo. Ẹ jọ wo àwọn agbọ̀n náà, tàbí ẹ gbìyànjú kókó ọ̀rọ̀ mìíràn.",
+      "largerTargets": "Àwọn ibi àfojúsùn tó tóbi jù",
+      "largerOn": "Àwọn ibi àfojúsùn tó tóbi jù ti wà ní títàn. Kò sí nǹkankan tí ó ti yí padà.",
+      "largerOff": "Àwọn ibi àfojúsùn tó tóbi jù ti wà ní pípa. Kò sí nǹkankan tí ó ti yí padà.",
+      "largerOnNewRound": "Àwọn ibi àfojúsùn tó tóbi jù ti wà ní títàn, pẹ̀lú apẹ̀rẹ̀ méjì. Àwọn àwòrán tuntun wọ̀nyí ni kí a tò.",
       "basket": {
         "other": "Agbọ̀n {basket}, àwòrán {count} wà nínú rẹ̀"
       }
@@ -97,6 +748,18 @@
       },
       "guideAlt": "Gbogbo àwòrán náà: {name}",
       "guideText": "Bí àwòrán náà ṣe rí nígbà tí ó bá kún nìyí.",
+      "ownChoose": "Lo fọ́tò tirẹ",
+      "ownChange": "Yan fọ́tò mìíràn",
+      "ownBack": "Padà sí àwọn àwòrán wa",
+      "ownPrivacy": "Fọ́tò rẹ wà lórí ẹ̀rọ yìí. A kò gbé e sókè tàbí fipamọ́ rẹ̀.",
+      "ownConsent": "Lo fọ́tò tirẹ. Béèrè ṣáájú kí o lo fọ́tò ẹnìkan tí kò lè sọ bẹ́ẹ̀ bẹ́ẹ̀ ni.",
+      "ownWorking": "A ń mú fọ́tò rẹ ṣetán.",
+      "ownNotUsable": "A kò lè lo fáìlì yẹn. Yan fáìlì fọ́tò, bí JPEG tàbí PNG.",
+      "ownAlt": "Fọ́tò rẹ",
+      "ownPiece": "Apá {n}, {place}",
+      "ownWhole": "Fọ́tò rẹ ti di odindi lẹ́ẹ̀kan sí i. Dá a rú lẹ́ẹ̀kan sí i nígbàkigbà tí o bá fẹ́.",
+      "ownSheetTitle": "Fọ́tò rẹ ní àwọn apá",
+      "ownSheetHow": "Gé tẹ̀lé àwọn ìlà. Dá àwọn apá rú, lẹ́yìn náà pààrọ̀ apá méjì ní àkókò kan títí àwòrán yóò fi di odindi.",
       "piece": "Ègé ní {place}",
       "pieceInPlace": ", ní ipò tí ó tọ́",
       "piecePickedUp": ", a ti gbé e",
@@ -185,6 +848,14 @@
       "guidance": "Ẹ ka káàdì náà sókè. Kò sí ìdáhùn tí ó tọ́.",
       "position": "Káàdì {n} nínú {total}",
       "themeLegend": "Kókó ọ̀rọ̀",
+      "showPrompt": "Fi ìbéèrè ìjíròrò hàn",
+      "bigPicture": "Àwòrán ńlá, fún ẹgbẹ́",
+      "passNote": "Ẹnikẹ́ni lè kọjá.",
+      "groupTitle": "Gbígbé kaadi kiri ẹgbẹ́ kan",
+      "groupSit": "Jókòó ní àyíká níbi tí gbogbo ènìyàn ti lè rí àwòrán náà. Ẹni tó di kaadi mú, tàbí ẹ̀rọ tí àwòrán ńlá wà lórí rẹ̀, ni yóò kọ́kọ́ ka ìbéèrè náà sókè.",
+      "groupPass": "Lẹ́yìn náà, fi kaadi náà fún ẹni tó tẹ̀ lé e. Olúkúlùkù yóò sọ ọ̀rọ̀ kan tàbí gbólóhùn kan nípa àwòrán náà, lẹ́yìn náà yóò fi kaadi náà lọ̀ ẹnìkejì.",
+      "groupNoSpeech": "Fífi kaadi náà lọ ẹnìkejì ni a máa ń gbà láyè nígbà gbogbo. Ènìyàn lè kọjá láìsọ nǹkankan, kò sì sí ẹni tí ó ní láti sọ ìdí rẹ̀.",
+      "groupEnd": "Ìyípo náà parí nígbà tí káàdì náà bá ti yí ká gbogbo ẹgbẹ́ náà, tàbí tí ẹgbẹ́ náà bá ti tó. Kò sí ẹni tó ṣẹ́gun. Dá dúró nígbàkigbà tí ẹgbẹ́ náà bá fẹ́.",
       "next": "Káàdì tí ó kàn",
       "previous": "Káàdì tí ó ṣáájú",
       "print": "Tẹ gbogbo àwọn káàdì",
@@ -243,6 +914,20 @@
       "started": "A ti bẹ̀rẹ̀. Ẹ mí sínú bí àyíká ṣe ń tóbi.",
       "stopped": "A ti dúró.",
       "finished": "Ìyẹn jẹ́ ìmí díẹ̀díẹ̀ mẹ́fà. Ẹ bẹ̀rẹ̀ lẹ́ẹ̀kan sí i nígbàkúùgbà tí ẹ bá fẹ́."
+    },
+    "storyChain": {
+      "guidance": "Ẹ máa yí padà: gbolóhùn kan fún ẹnikọ̀ọ̀kan, fi àwòrán tó tẹ̀lé e kún un.",
+      "passNote": "Sọ gbolóhùn rẹ ní ohùn gààrá. A kò kọ ohunkóhun sílẹ̀, a kò sì pamọ́ ohunkóhun. Ẹnikẹ́ni lè fò.",
+      "chainLabel": "Ẹ̀wọ̀n títí di báyìí",
+      "item": "Àwòrán {n}: {name}",
+      "add": "Fi àwòrán kún un",
+      "fullAdd": "Ẹ̀wọ̀n ti kún. Bẹ̀rẹ̀ ẹ̀wọ̀n tuntun",
+      "newChain": "Bẹ̀rẹ̀ ẹ̀wọ̀n tuntun",
+      "takeOff": "Yọ èyí tó kẹ́yìn kúrò",
+      "added": "{name|lower} wà ní òpin ẹ̀wọ̀n báyìí.",
+      "removed": "{name|lower} ti jáde kúrò nínú ẹ̀wọ̀n.",
+      "fresh": "Ẹ̀wọ̀n tuntun, tí ó bẹ̀rẹ̀ pẹ̀lú {name|lower}.",
+      "full": "Ẹ̀wọ̀n ní gbogbo àwòrán mẹ́jọ. Sọ gbogbo ìtàn náà, tàbí bẹ̀rẹ̀ ẹ̀wọ̀n tuntun."
     }
   },
   "pictures": {
@@ -278,86 +963,96 @@
     "balloon": "Bálúù afẹ́fẹ́ gbígbóná",
     "lighthouse": "Ilé ìmọ́lẹ̀ etíkun",
     "sun": "Òòrùn",
-    "moon": "Òṣùpá àti àwọn ìràwọ̀"
+    "moon": "Òṣùpá àti àwọn ìràwọ̀",
+    "teapot": "Ìkòkò tii",
+    "apple-pie": "Pií apù",
+    "honey-jar": "Ìgò oyin",
+    "boiled-egg": "Ẹyin tí a sè nínú ife ẹyin",
+    "toaster": "Ẹ̀rọ tósítà",
+    "cheese": "Ègé wàràkàṣì",
+    "milk-jug": "Ìkòkò wàrà",
+    "cupcake": "Kéèkì kékeré",
+    "orange": "Ọsàn",
+    "grapes": "Ìdìpọ̀ èso àjàrà",
+    "watermelon": "Ègé ibépé",
+    "pineapple": "Ope oyinbo",
+    "peach": "Pishi",
+    "rose": "Dòdò",
+    "daisies": "Àwọn òdòdó dáísì",
+    "mushroom": "Olú",
+    "wheelbarrow": "Kẹ̀kẹ́ ọwọ́",
+    "birdhouse": "Ilé ẹyẹ",
+    "cactus": "Kátásì nínú ìkòkò",
+    "acorn": "Ẹ̀gúsí igi oaku",
+    "autumn-leaf": "Ewé àkókò ẹ̀ẹ̀rùn",
+    "rabbit": "Ehoro",
+    "duck": "Pẹ́pẹ́yẹ",
+    "hen": "Adìyẹ",
+    "sheep": "Àgùntàn",
+    "owl": "Òwìwí",
+    "ladybird": "Kòkòrò ladybird",
+    "snail": "Ìgbín",
+    "frog": "Ọ̀pọ̀lọ́",
+    "bee": "Oyin",
+    "clock": "Aago orí ògiri",
+    "vase-of-flowers": "Ìkòkò òdòdó",
+    "radio": "Rédíò àtijọ́",
+    "books": "Ìtòpọ̀ ìwé",
+    "candle": "Abẹ́là",
+    "glasses": "Gilaasi kíkà",
+    "telephone": "Tẹlifóònù",
+    "ball-of-wool": "Bọ́ọ̀lù òwú",
+    "straw-hat": "Fìlà oòrùn",
+    "train": "Ọkọ̀ ojú irin ẹ̀rọ ìgbóná",
+    "bus": "Ọkọ̀ akérò",
+    "airplane": "Ọkọ̀ òfuurufú",
+    "suitcase": "Àpò ẹrù",
+    "tractor": "Tírákítà",
+    "rowing-boat": "Ọkọ̀ ojú omi tí a fi ọ̀pá wakọ̀",
+    "rainbow": "Òṣùmàrè",
+    "rain-cloud": "Àwọsánmà òjò",
+    "snowflake": "Yìnyín",
+    "kite": "Léfù",
+    "sunrise": "Oòrùn tó ń yọ lórí òkè",
+    "decorated-keepsake-box": "Àpótí ohun ìrántí tí a ṣe lọ́ṣọ̀ọ́",
+    "painted-plant-pot": "Ìkòkò ewéko tí a kùn pẹ̀lú ewébẹ̀",
+    "repeating-pattern-sheet": "Ìwé àwòrán tí ń tún ara rẹ̀ ṣe",
+    "music-drawn-lines": "Àwọn ìlà tí a fà sí orin",
+    "paper-boat-afloat": "Ọkọ̀ ìwé tó ń léfòó lórí omi",
+    "folded-towel-stack": "Àkójọpọ̀ aṣọ ìnuwẹ̀ tí a ṣe pọ̀",
+    "hand-massage-with-lotion": "Ọwọ́ tí ó sinmi lórí aṣọ ìnuwẹ̀, pẹ̀lú ìpara",
+    "open-photo-album": "Àwo fọ́tò tí a ṣí",
+    "button-flower-card": "Òdòdó bọ́tìnì lórí káàdì",
+    "blue-torn-paper-collage": "Àwòrán collage aláwọ̀ búlúù tí a fi ìwé ya",
+    "family-tree-of-hands": "Igi ìdílé tí a fi ọwọ́ yà",
+    "open-greeting-card": "Káàdì ìkíni tí a ṣí pẹ̀lú ọkàn",
+    "lavender-sachet": "Àpò lafenda tí a dè pẹ̀lú ribọ́n",
+    "memory-collage-of-photos": "Collage ti àwọn fọ́tò ìdílé",
+    "paper-chain-garland": "Ọ̀ṣọ́ ẹ̀wọ̀n ìwé",
+    "open-songbook-with-notes": "Ìwé orin tí a ṣí pẹ̀lú àmì orin",
+    "photo-postcard-with-stamp": "Káàdì ìfìwéránṣẹ́ fọ́tò pẹ̀lú àmì ìfìwéránṣẹ́",
+    "pine-cone-bird-feeder": "Ibi ìjẹun ẹyẹ tí a fi kóònù pàìnì ṣe, tí ó kọ́kọ́ rọ̀ mọ́ ẹ̀ka",
+    "playlist-phone-and-card": "Àkójọ orin orí fóònù àti káàdì orin",
+    "sealed-rice-shaker": "Ìgò ìrẹsì tí a dì",
+    "texture-board-with-scraps": "Pákó ìfọwọ́kàn pẹ̀lú àjẹkù aṣọ",
+    "painted-garden-stone": "Òkúta ọgbà tí a kùn",
+    "shared-painted-canvas": "Kánfàsì tí a kùn pọ̀",
+    "watercolor-washes-sheet": "Àwọ̀ omi tí a fọ́ sórí ìwé",
+    "seedling-in-pot": "Irúgbìn hù nínú ìkòkò",
+    "pressed-leaves-in-book": "Ewé tí a tẹ̀ sínú ìwé",
+    "printed-leaves-sheet": "Ìwé àwòrán ewé",
+    "pinch-pot-clay-bowl": "Ìkòkò amọ̀ tí a fi ọwọ́ ṣe",
+    "table-sketch-pencil": "Àwòrán ife pẹ̀lú ìkọ̀wé",
+    "buttons-in-muffin-tin": "Bọ́tìnì tí a tò sínú àwo àkàrà kékeré",
+    "family-recipe-book": "Ìwé oúnjẹ ìdílé",
+    "drum-with-beat-marks": "Ìlù orí tábìlì pẹ̀lú igi ìlù",
+    "torn-paper-flower": "Mosaiki òdòdó ìwé tí a yà",
+    "window-with-birds": "Fèrèsé pẹ̀lú àwọn ẹyẹ",
+    "woven-paper-mat": "Tíbàtí ìwé tí a hunṣọ",
+    "yarn-ball-with-thread": "Bọ́ọ̀lù owú",
+    "letter-and-envelope": "Lẹ́tà nínú àpòwé"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Ìwà lẹ̀wà",
-        "end": "ọmọ ènìyàn",
-        "others": [
-          "ọmọ ọba",
-          "ọmọ ayé"
-        ],
-        "prompt": "Ẹ sọ fún mi nípa ẹnìkan tí ẹ mọ̀ pé ó ní inú rere."
-      },
-      {
-        "start": "Ọgbọ́n ju agbára",
-        "end": "lọ",
-        "others": [
-          "mọ́",
-          "bá"
-        ],
-        "prompt": "Ẹ sọ fún mi nípa ìgbà kan tí ẹ rí ẹnìkan tí ó lo ọgbọ́n láti yanjú nǹkan."
-      },
-      {
-        "start": "Ìyá ni wúrà, baba ni",
-        "end": "dígí",
-        "others": [
-          "fàdákà",
-          "ọ̀pá"
-        ],
-        "prompt": "Ẹ sọ fún mi nípa ohun tí ẹ fẹ́ràn nípa àwọn òbí yín."
-      },
-      {
-        "start": "Àgbà kì í wà lọ́jà, kí orí ọmọ tuntun",
-        "end": "wọ́",
-        "others": [
-          "ṣubú",
-          "bàjẹ́"
-        ],
-        "prompt": "Ẹ sọ fún mi nípa ọjà tí ẹ fẹ́ràn láti lọ."
-      },
-      {
-        "start": "Bí ọmọdé bá mọ ọwọ́ wẹ̀, á bá àgbà",
-        "end": "jẹun",
-        "others": [
-          "ṣeré",
-          "jókòó"
-        ],
-        "prompt": "Oúnjẹ wo ni ẹ fẹ́ràn láti jẹ pẹ̀lú ẹbí?"
-      },
-      {
-        "start": "Òwe lẹ́ṣin ọ̀rọ̀; bí ọ̀rọ̀ bá sọnù, òwe ni a fi ń",
-        "end": "wá a",
-        "others": [
-          "gbé e",
-          "sọ ọ́"
-        ],
-        "prompt": "Òwe wo ni ẹ fẹ́ràn láti gbọ́?"
-      },
-      {
-        "start": "Ọwọ́ ọmọdé kò tó pẹpẹ, ti àgbà kò wọ",
-        "end": "akèrègbè",
-        "others": [
-          "ilé",
-          "ààrò"
-        ],
-        "prompt": "Ẹ sọ fún mi nípa ohun kan tí ẹ fẹ́ràn nípa àwọn àgbà."
-      },
-      {
-        "start": "Sùúrù ni baba",
-        "end": "ìwà",
-        "others": [
-          "ayọ̀",
-          "ọgbọ́n"
-        ],
-        "prompt": "Kí ni ẹ fẹ́ràn láti ṣe pẹ̀lú sùúrù?"
-      }
-    ],
-    "wordSearch": {
-      "available": false
-    },
     "conversation": {
       "themes": {
         "all": "Gbogbo àwọn káàdì",
@@ -687,6 +1382,17 @@
             "Lóde"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Èso",
+        "animals": "Àwọn ẹranko",
+        "travel": "Ọ̀nà ìrìnàjò",
+        "flowers": "Àwọn òdòdó",
+        "hot-drinks": "Àwọn ohun fún ohun mímu gbígbóná",
+        "weather": "Oríṣiríṣi ojú ọjọ́",
+        "baked": "Àwọn ohun tí a yan nínú ààrò"
       }
     }
   }

@@ -5,6 +5,13 @@
       "stopReading": "Atsaharo ny famakiana",
       "region": "Lalao",
       "restart": "Avereno atombohy",
+      "rest": "Mandry kely aloha",
+      "restingTitle": "Mandry",
+      "restingText": "Alao ny fotoana rehetra ilainao. Voatahiry ao amin’ity pejy ity ny toerana nijanonanao.",
+      "resume": "Tohizo",
+      "placeText": "Tamin’ny farany nijanona ianao teo antenatenan’ny asa. Tohizo avy teo, na manomboka indray.",
+      "placeResume": "Tohizo",
+      "placeFresh": "Manomboka indray",
       "soundOn": "Feo malefaka mandeha",
       "soundOff": "Feo malefaka maty",
       "done": "Vita aloha hatreto",
@@ -43,7 +50,19 @@
       "viewShowing": "Sary miseho",
       "viewHidden": "Sary miafina",
       "playAgain": "Hilalao indray miaraka amin'ny sary vaovao",
-      "talk": "Miaraha miresaka momba ireo sary"
+      "talk": "Miaraha miresaka momba ireo sary",
+      "modeLegend": "Sary inona",
+      "modePlay": "Sary na inona na inona",
+      "modeDaily": "Karatra androany",
+      "dayLegend": "Andro inona",
+      "dayHelp": "Ny olona rehetra dia mahazo sary mitovy amin’ny andro iray. Ny andro teo aloha rehetra dia misy eto koa, ary tsy misy vidiny ny fandalovana andro iray.",
+      "guidanceDaily": "Ny karatra androany dia misy fitambarana sary efatra. Tsindrio sary iray, avy eo tsindrio ny sary mitovy aminy.",
+      "restartDaily": "Manomboka indray amin’ity karatra ity",
+      "copy": "Adikao ity andalana ity",
+      "copied": "Voadika. Tsy misy alefa na aiza na aiza.",
+      "calendarTitle": "Karatra androany, {month}",
+      "calendarHelp": "Ny andro tsirairay dia misy sary efatra mitovy ho an’ny olona rehetra. Tsy misy isa natao, ary tsy misy andro voatanisa ho very.",
+      "calendarVersion": "Dikan-teny {date}. Mitovy ho an’ny olona rehetra amin’ny andro iray ny sary."
     },
     "choose": {
       "countLegend": "Isan'ny sary",
@@ -62,6 +81,635 @@
       "shadowAlt": "Aloka tadiavina ny namany",
       "foundAlt": "Aloky ny {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Torohevitra",
+      "hintOn": "Torohevitra aorian’ny fijanonana kely",
+      "hintOff": "Tsy misy torohevitra",
+      "guidance": "Mitadiava ny sary {n} mifandray, ary tsindrio tsirairay.",
+      "countLegend": "Sary firy",
+      "count": "Sary {n}",
+      "found": "Eny, {name|lower} dia ao amin’ity vondrona ity.",
+      "elsewhere": "{name|lower} dia mifandray amin’ny zavatra hafa. Alao fotoana.",
+      "hint": "Torohevitra: jereo {theme|lower}.",
+      "together": "Mifandray ireto: {theme}.",
+      "shown": "Ity ny vondrona: {theme}.",
+      "groupName": "Mifandray: {theme}",
+      "show": "Asehoy ny vondrona",
+      "next": "Andiana hafa"
+    },
+    "oddOneOut": {
+      "hintLegend": "Torohevitra",
+      "hintOn": "Torohevitra aorian’ny fijanonana kely",
+      "hintOff": "Tsy misy torohevitra",
+      "guidance": "Mitadiava ny sary tsy mifanaraka amin’ny sisa, ary tsindrio izany.",
+      "countLegend": "Sary firy",
+      "count": "Sary {n}",
+      "belongs": "{name|lower} dia mifanaraka amin’ny sisa. Alao fotoana.",
+      "found": "Eny, {name|lower} no tsy mifanaraka. Ny sisa dia {theme|lower}.",
+      "shown": "Ity izy: {name|lower}. Ny sisa dia {theme|lower}.",
+      "hint": "Torohevitra: {n} amin’ireto dia {theme|lower}.",
+      "others": "Ny sisa: {theme}",
+      "show": "Asehoy ahy",
+      "next": "Andiana hafa"
+    },
+    "seatedToss": {
+      "guidance": "Mipetraha eo amin’ny latabatra ary miandry tsirairay mamelona kitapo voamaina malefaka amin’ny kibo lehibe. Tazomy ao amin’ny taratasy ny isa, miaraka.",
+      "stepsHeading": "Ny fomba",
+      "steps": [
+        "Atontaho ny kibo sy ny taratasy famaritana isa, ary apetraho an-tsakany ao amin’ny latabatra eo anelanareo.",
+        "Mipetraha mora, tsirairay eo amin’ny lafiny iray. Miandry tsirairay mamely malefaka indray mandeha, na mandalo raha tsy tianareo.",
+        "Rehefa tonga ao anaty faribolana ny kitapo, ny olona nanipy dia mametraka marika iray ao amin’ny tsanganany, amin’ny andalana an’io faribolana io.",
+        "Jereo miaraka ny marika rehefa mijanona ianareo, raha tiana. Tsy misy tokony hanisa na inona na inona.",
+        "Ajanony rehefa vonona iray amin’ireo."
+      ],
+      "safetyHeading": "Fiarovana",
+      "safetyLine": "Ampiasao kitapo misy lamba voadoka tsara na lamba sokatra voavono, mipetraha foana, aza mamely mankany amin’ny tavany, ary tazomy ny olon-dehibe eo akaiky. Ny singa kely dia mety hanakana ny fofonaina.",
+      "flags": [
+        "Tsy ho an’ny latsaka amin’ny 3 taona: singa kely",
+        "Tazomina lavitra ny vava"
+      ],
+      "safety": [
+        "Safidio kitapo misy lamba voadoka tsara, na mavono sokatra madio. Jereo aloha raha misy lavaka na fitambaran-tady malaina, mba tsy hivoaka ny fameno.",
+        "Ny voa, ny vary ary ny fameno kely hafa dia mety hanakana ny fofonaina. Tazomy lavitra ny zanaka kely sy ny olona rehetra mametraka zavatra amin’ny vavany.",
+        "Mijanona eo akaikin’ny tanana ary jereo tsara raha misy zavatra mety ho ao amin’ny vava.",
+        "Mipetraha foana. Mamelona malefaka sy ambany ho any amin’ny kibo eo amin’ny latabatra, aza mamely mankany amin’ny tava."
+      ],
+      "previewLabel": "Ny taratasy voatonona: kibo misy faribolana telo antsoina hoe Akaiky, Antonony sy Lavitra, avy any ivelany mankany anatiny, ary isa misy tsanganana ho an’ny olona tsirairay sy andalana bitika foana ho an’ny faribolana tsirairay.",
+      "sheetHow": "Apetraho an-tsakany ny taratasy eo anelanareo. Rehefa tonga ao anaty faribolana ny kitapo, mametraka marika ao amin’ny tsanganao, amin’ny andalan’io faribolana io.",
+      "rings": [
+        "Akaiky",
+        "Antonony",
+        "Lavitra"
+      ],
+      "people": [
+        "Olona voalohany",
+        "Olona faharoa"
+      ],
+      "ringHeading": "Faribolana",
+      "print": "Atontaho ny kibo sy ny taratasy famaritana isa"
+    },
+    "seasonalPack": {
+      "guidance": "Safidio volana iray, atontaho ny lalao famahana telo ho an’io volana io, avy eo ataovy iray, roa na telo miaraka.",
+      "monthLegend": "Safidio volana",
+      "months": [
+        "Janoary",
+        "Febroary",
+        "Martsa",
+        "Aprily",
+        "Mey",
+        "Jiona",
+        "Jolay",
+        "Aogositra",
+        "Septambra",
+        "Oktobra",
+        "Novambra",
+        "Desambra"
+      ],
+      "monthNote": "Samy manana sary manokana ny volana tsirairay. Ity pejy ity dia misokatra amin’ity volana ity, ary azonao safidiana ny hafa rehetra.",
+      "restDay": "Androany dia andro fialana",
+      "restLine": "Tsy misy lalao famahana androany. Andro fialana koa dia andro tsara.",
+      "previewHeading": "Ireo lalao famahana telo",
+      "puzzles": {
+        "pairs": {
+          "title": "Mitambatra mpiray",
+          "how": "Mandrisa tsipika avy amin’ny sary tsirairay ao amin’ny andalana ambony mankany amin’ny sary mitovy aminy ao amin’ny andalana ambany.",
+          "describe": "Andalana roa misy sary efatra mitovy, amin’ny filaharana hafa."
+        },
+        "different": {
+          "title": "Iray amin’ireo no tsy mitovy?",
+          "how": "Marihana ny sary tsy mitovy amin’ny telo hafa.",
+          "describe": "Andalana sary efatra. Telo mitovy, ary iray tsy mitovy."
+        },
+        "color": {
+          "title": "Lokoy izany",
+          "how": "Lokoy ny sary araka ny sitrakao, amin’ny crayon na pensilina.",
+          "describe": "Sary lehibe iray holokoina."
+        }
+      },
+      "print": "Atontaho ny lalao an’ity volana ity",
+      "sheetHow": "Atontaho pejy iray. Ataovy iray, roa na telo amin’ny lalao famahana, amin’ny filaharana rehetra.",
+      "printFooter": "Ataovy iray, roa na telo. Ajanony rehefa tiana."
+    },
+    "decorateACard": {
+      "guidance": "Safidio antony, avy eo raisina karatra miaraka amin’ny crayon na penina. Tsy misy karatra marina.",
+      "occasionLegend": "Safidio antony",
+      "occasions": {
+        "birthday": {
+          "label": "Andro fahaterahana",
+          "words": "Andro fahaterahana sambatra"
+        },
+        "thank-you": {
+          "label": "Misaotra",
+          "words": "Misaotra"
+        },
+        "thinking-of-you": {
+          "label": "Mieritreritra anao",
+          "words": "Mieritreritra anao"
+        },
+        "new-season": {
+          "label": "Vanim-potoana vaovao",
+          "words": "Vanim-potoana vaovao"
+        },
+        "just-because": {
+          "label": "Tsy misy antony manokana",
+          "words": "Tsy misy antony manokana"
+        }
+      },
+      "stepsHeading": "Ny fomba hoe handrafetana miaraka",
+      "steps": {
+        "fold": "Atontaho ny karatra ary ovao antsasany along ny tsipika tsipikaina, mba ho any ivelany ny lafiny anoloana.",
+        "front": "Iray amin’ireo no manarafy ny lafiny anoloana, manodidina ny teny.",
+        "inside": "Ny iray hafa manarafy ny lafiny aoriana, na miandry tsirairay amin’ny lafiny iray.",
+        "message": "Soraty hafatra miaraka. Ny iray dia afaka manoratra raha ny iray hafa milaza ny teny.",
+        "stop": "Ajanony rehefa tiana. Tsy misy karatra marina, ary ny tsotra dia tsara mitovy."
+      },
+      "materials": "Ampiasao crayon, pensilina lokona na penina feltra. Tsy misy ilaina ny mamaky, mamatotra na mametaka.",
+      "previewLabel": "Topi-maso ny karatra voaovao antsasany. Ny lafiny anoloana milaza {words}, misy sisin-kopaka tsotra amin’ny ravina sy kintana. Ny lafiny aoriana misy andalana ho an’ny hafatra sy andalana ho an’ny Avy amin’ny.",
+      "from": "Avy amin’ny",
+      "sheetHow": "Apetraho antsaina ny karatra eo amin'ny tsipika mitsoka, ka ny lafiny voalohany no eo ivelany. Soraty ny hafatra eo amin'ny lafiny aoriana.",
+      "rulesHeading": "Ho an'ny olona roa",
+      "sheetRules": [
+        "Mifandimbiasa, na mizara ny asa: ny olona iray manamboara ny lafiny voalohany, ary ny iray hafa ny lafiny aoriana.",
+        "Soraty miaraka ny hafatra, na ny olona iray manoratra izay lazain'ny iray hafa.",
+        "Afaka mijanona rehefa tiany ny olona rehetra. Tsy misy karatra marina."
+      ],
+      "print": "Atonta ny karatra"
+    },
+    "storyDice": {
+      "guidance": "Jereo ny sary, ary lazao tantara amin'izy ireo, amin'ny filaharana rehetra. Tsy misy tantara marina.",
+      "countLegend": "Isan'ny dadabe",
+      "count": "{n} dadabe",
+      "roll": "Ampidino indray",
+      "pass": "Mandalo",
+      "passed": "Tsara ihany ny mandalo. Ny olona manaraka no afaka manomboka, na ampidino indray ianao.",
+      "rolled": "Sary vaovao: {names}.",
+      "tapped": "{name}. Manomboka amin'ity, na amin'ny iray hafa."
+    },
+    "wordPicture": {
+      "guidance": "Tsindrio sary iray, avy eo ny teny manome anarana azy. Na tsindrio teny iray, avy eo ny sary azy.",
+      "countLegend": "Isan'ny sary",
+      "count": "{n} sary",
+      "picturesGroup": "Sary",
+      "wordsGroup": "Teny",
+      "readWord": "Vakio mafy: {name}",
+      "next": "Sary vaovao",
+      "putBack": "Atsangano indray",
+      "pickWord": "Tsindrio izao ny teny mifanaraka amin'izany.",
+      "pickPicture": "Tsindrio izao ny sary mifanaraka amin'izany.",
+      "fit": "Eny, ilay teny dia mifanaraka amin'ny {name|lower}.",
+      "newSet": "Indro sary vaovao.",
+      "restarted": "Niverina tany am-piandohana. Samy tsy mifandray indray ny sary sy ny teny rehetra.",
+      "restored": "Natsangana indray. Aseho indray ny sary sy ny teny mifanaraka.",
+      "all": "Samy manana sary ny teny rehetra."
+    },
+    "colorMatch": {
+      "guidance": "Jereo ny loko sy ny anarany, avy eo tsindrio ny sary rehetra izay misy io loko io.",
+      "target": "Ny loko dia {color|lower}. Tsindrio ny sary rehetra izay {color|lower}.",
+      "countLegend": "Isan'ny sary",
+      "count": "{n} sary",
+      "found": "Eny, ny {name|lower} dia {color|lower}.",
+      "named": "Ny {name|lower} dia {color|lower}.",
+      "all": "Ireo dia ny sary {color|lower} rehetra.",
+      "shown": "Indro ny sary {color|lower}.",
+      "show": "Asehoy ireo",
+      "next": "Loko hafa",
+      "names": {
+        "red": "Mena",
+        "orange": "Volomboasary",
+        "yellow": "Volondavenona",
+        "green": "Maitso",
+        "blue": "Manga"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tsindrio ny antsasany eo ankavia, avy eo tsindrio ny antsasany eo ankavanana izay mifanaraka amin'izany.",
+      "countLegend": "Isan'ny sary",
+      "count": "{n} sary",
+      "leftGroup": "Antsasany eo ankavia",
+      "rightGroup": "Antsasany eo ankavanana",
+      "left": "Antsasany ankavia amin'ny {name|lower}",
+      "right": "Antsasany ankavanana amin'ny {name|lower}",
+      "joined": "Efa mifandray",
+      "pickRight": "Tsindrio izao ny antsasany eo ankavanana izay mifanaraka amin'izany.",
+      "pickLeft": "Tsindrio izao ny antsasany eo ankavia izay mifanaraka amin'izany.",
+      "fit": "Eny, ireo roa ireo dia mamorona ny {name|lower}.",
+      "apart": "Tsy mifanaraka ireo roa ireo. Andramo iray hafa.",
+      "all": "Samy feno ny sary rehetra.",
+      "shown": "Indro ny sary, efa mifandray.",
+      "show": "Asehoy ahy",
+      "next": "Sary hafa"
+    },
+    "colorByNumber": {
+      "guidance": "Safidio loko iray amin'ny lisitra, avy eo tanterao ny kasy iray aminy. Tsara na inona na inona loko.",
+      "sizeLegend": "Habe ny tambazotra",
+      "size": "{n} amin'ny {n}",
+      "keyLegend": "Loko",
+      "colors": [
+        "Volondavenona",
+        "Volomboasary",
+        "Maitso",
+        "Volomparasy"
+      ],
+      "motifs": {
+        "house": "trano iray",
+        "flower": "voninkazo iray",
+        "heart": "fo iray",
+        "tree": "hazo iray",
+        "boat": "sambo mandeha amin'ny rivotra",
+        "pot-plant": "zavamaniry ao anaty vilia"
+      },
+      "region": "Tambazotry ny sary, {n} amin'ny {n}. Mivezivezy eny amin'ny sisiny raha kely ny efijery.",
+      "cell": "Laharana {number}, andalana {row}, tsanganana {column}, {color}",
+      "empty": "foana",
+      "chose": "Voafidy ny {name}. Tsindrio kasy iray hanenenana azy.",
+      "painted": "{name} amin'ny andalana {row}, tsanganana {column}.",
+      "sheet": "Samy manana ny loko an'ny laharany ny kasy rehetra. Ity no sary ao amin'ny taratasy: {name}.",
+      "own": "Feno ny kasy rehetra. Ity ny sarinao manokana.",
+      "fillAll": "Tanterao amin'ny laharana",
+      "filledAll": "Samy manana ny loko an'ny laharany izao ny kasy foana rehetra.",
+      "clear": "Esorina",
+      "cleared": "Foana ny tambazotra.",
+      "next": "Sary hafa",
+      "fresh": "Indro sary hafa hokolorina."
+    },
+    "patternMaker": {
+      "guidance": "Tsindrio kasy iray hanovana ny lokony. Mitombo eo akaikiny ny lamina-nao. Tsy voatahiry na alefa ny zavatra ataonao.",
+      "sizeLegend": "Habe ny tile",
+      "size": "{n} amin'ny {n}",
+      "keyLegend": "Loko, araka ny filaharan'ny fanovana rehefa tsindrina",
+      "colors": [
+        "Volondavenona",
+        "Volomboasary",
+        "Maitso",
+        "Volomparasy"
+      ],
+      "tileLabel": "Ny tile-nao",
+      "region": "Ny tile-nao, {n} amin'ny {n}. Mivezivezy eny amin'ny sisiny raha kely ny efijery.",
+      "patternLabel": "Ny lamina-nao",
+      "pattern": "Ny lamina-nao: ny tile-nao averina {n} eny amin'ny sisiny sy {n} any ambany.",
+      "square": "Andalana {row}, tsanganana {column}, {color}",
+      "changed": "Ny andalana {row}, tsanganana {column} dia {color} izao.",
+      "cleared": "Foana ny tile. Azonao atsangana indray.",
+      "surprise": "Mampahagaga ahy",
+      "surprised": "Indro tile vaovao. Azonao atsangana indray ilay taloha.",
+      "putBack": "Atsangano indray",
+      "restored": "Niverina tahaka ny teo ny tile-nao.",
+      "print": "Atonta ny lamina-nao",
+      "sheetTitle": "Ny lamina-nao"
+    },
+    "buildTogether": {
+      "guidance": "Mifandimbiasa mametraka ampahany amin'ny toerana foana. Samy manana ny lokony manokana ianareo. Tsy voatahiry na alefa ny zavatra ataonareo.",
+      "sizeLegend": "Habe ny tambazotra",
+      "size": "{n} amin'ny {n}",
+      "people": [
+        "Olona voalohany",
+        "Olona faharoa"
+      ],
+      "colorLegend": "Loko an'ny {person}",
+      "colors": [
+        "Volondavenona",
+        "Volomboasary",
+        "Maitso",
+        "Volomparasy"
+      ],
+      "inUse": "Ampiasaina",
+      "turn": "Fotoanao izao, {person|lower}",
+      "yourColor": "Ny lokonao dia {color|lower}.",
+      "built": "Narafitra miaraka. Ity no sary nataonareo roa.",
+      "gridLabel": "Ny tambazotra iraisana",
+      "region": "Ny tambazotra iraisana, {n} amin'ny {n}. Mivezivezy eny amin'ny sisiny raha kely ny efijery.",
+      "cellEmpty": "Andalana {row}, tsanganana {column}, foana",
+      "cellFilled": "Andalana {row}, tsanganana {column}, {color}, napetraky ny {person|lower}",
+      "placed": "Ny andalana {row}, tsanganana {column} dia {color} izao. Fotoanao izao, {next|lower}.",
+      "placedLast": "Ny andalana {row}, tsanganana {column} dia {color} izao. Narafitra miaraka.",
+      "taken": "Misy ampahany efa ao ny andalana {row}, tsanganana {column}. Safidio toerana foana.",
+      "pass": "Mandalo",
+      "passed": "Tsara ihany ny mandalo. Fotoanao izao, {person|lower}.",
+      "takeBack": "Esory ny ampahany farany",
+      "takeBackPass": "Esory ny fandalovana",
+      "tookBack": "Nesorina ny ampahany. Fotoanao izao, {person|lower}.",
+      "tookBackPass": "Nesorina ny fandalovana. Fotoanao izao, {person|lower}.",
+      "colorChanged": "{person} dia manana {color|lower} izao.",
+      "restarted": "Foana ny tambazotra. Fotoanao izao, {person|lower}.",
+      "print": "Atonta ny tambazotra",
+      "sheetTitle": "Mamorona miaraka",
+      "sheetHelp": "Mifandimbiasa. Ao amin'ny kasy foana, samy mandoro ny endriky ny tenany amin'ny penina manokana.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tsindrio ampahany iray, avy eo tsindrio ny toerana ao amin'ny sary izay misy azy. Tsy voatahiry na alefa ny zavatra ataonao.",
+      "hints": "Asehoy ny tsipika fanampiana",
+      "pictureLine": "Ity dia {picture}.",
+      "pictures": {
+        "house": "trano",
+        "boat": "sambo",
+        "tree": "hazo",
+        "fish": "trondro",
+        "cat": "saka",
+        "rocket": "roketra"
+      },
+      "outlineLabel": "Ny hoavy an'ny {picture}. Tsindrio toerana iray hametrahana ampahany voafidy ao aminy.",
+      "trayHeading": "Ny ampahany",
+      "pieces": {
+        "large-triangle": "Telozoro lehibe",
+        "small-triangle": "Telozoro kely",
+        "square": "Kare",
+        "parallelogram": "Parallelogramy",
+        "rectangle": "Rectangle"
+      },
+      "shapes": {
+        "large-triangle": "telozoro lehibe iray",
+        "small-triangle": "telozoro kely iray",
+        "square": "kare iray",
+        "parallelogram": "parallelogramy iray",
+        "rectangle": "rectangle iray"
+      },
+      "chosenLabel": "Voafidy",
+      "spaceEmpty": "Toerana {n}, {shape}, foana",
+      "spaceFilled": "Toerana {n}, {shape}, efa misy ampahany. Tsindrio hesorina ny ampahany.",
+      "chosen": "Voafidy ny {piece}. Tsindrio izao toerana iray ao amin'ny sary.",
+      "unchosen": "Ntsin'ny tsy voafidy intsony ilay singa.",
+      "placed": "Ao amin'ny toerana {n} ilay singa.",
+      "complete": "Vita ny {picture}.",
+      "different": "Hafa endrika amin'ity toerana ity ilay singa. Andramo toerana hafa.",
+      "needPiece": "Misafidiana singa aloha avy amin'ny fitoeran-singa.",
+      "filled": "Efa misy singa ity toerana ity. Tsindrio izy mba haka indray ilay singa.",
+      "tookBack": "Niverina tao amin'ny fitoeran-singa ilay singa.",
+      "cleared": "Niverina tao amin'ny fitoeran-singa ireo singa. Averinao eo amin'ny toerany raha niova hevitra ianao.",
+      "restored": "Niverina tao amin'ny sary ireo singa.",
+      "next": "Ity dia {picture}.",
+      "putBack": "Averina eo",
+      "another": "Endrika hafa",
+      "print": "Atontao ity endrika ity",
+      "sheetTitle": "Endrika mangina",
+      "sheetHow": "Lokoy ireo singa, na atsaraho mba hifanaraka amin'ny fetra. Ny olon-dehibe no afaka manasaraka.",
+      "sheetPieces": "Ireo singa, mitovy habe amin'ny fetra"
+    },
+    "picnicPlanner": {
+      "guidance": "Tsindrio sary iray mba hametrahana azy ao amin'ny harafesin'ny piknika, ary tsindrio ao amin'ny harafesy mba hanesorana azy. Misy singa enina ny harafesy.",
+      "guidancePlay": "Tsindrio sary roa mitovy. Mijanona miseho ny sary, ary tsy misy fotoana voafetra.",
+      "basketHeading": "Ny harafesintsika",
+      "basketLabel": "Ny harafesin'ny piknika",
+      "takeOut": "Alao {picture} avy ao amin'ny harafesy",
+      "inBasket": "Ao amin'ny harafesy",
+      "foodHeading": "Sakafo",
+      "outingsHeading": "Zavatra hatao",
+      "added": "Ao amin'ny harafesy ny {picture}.",
+      "removed": "Nesorina tao amin'ny harafesy ny {picture}.",
+      "already": "Efa ao amin'ny harafesy ny {picture}. Tsindrio ao mba haesorana azy.",
+      "full": "Feno ny harafesy. Esorio zavatra iray mba hisy toerana.",
+      "summary": "Ny pikniko: {list}.",
+      "summaryNone": "Tsy misy zavatra ao amin'ny harafesy mbola.",
+      "and": "sy",
+      "play": "Andrao milalao amin'ny pikniko",
+      "needTwo": "Misafidiana zavatra roa farafahakeliny aloha.",
+      "playAgain": "Milalao indray",
+      "back": "Miverina amin'ny pikniko",
+      "print": "Atontao ny lisitry ny pikniko",
+      "cleared": "Foana ny harafesy.",
+      "notice": "Drafitra hiresahana ity. Tsy misy fotoana voafetra, tombanana na voatahiry.",
+      "sheetTitle": "Ny lisitry ny pikniko",
+      "sheetHow": "Asio marika ny zavatra tsirairay rehefa mampiditra azy. Ampiasao ny andalana fanoratana foana ho an'ny zavatra hafa tianao entina.",
+      "sheetToPack": "Hopitraina"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Misafidiana sary manokana roa ka hatramin'ny roa ambin'ny folo mba hanombohana ny boky.",
+      "guidance": "Mandavaha pejy miaraka, amin'ny bokotra na amin'ny fitsikilo havanana sy havia. Azonao ampidirina teny vitsivitsy ambanin'ny sary raha tianao. Tsy voatahiry na alefa ny zavatra vitanao.",
+      "lookGuidance": "Jereo miaraka ny pejy tsirairay. Azonao atao ny miresaka na ny mijery fotsiny.",
+      "intro": "Misafidiana sary roa ka hatramin'ny roa ambin'ny folo avy amin'ity fitaovana ity. Ny tsirairay dia lasa pejy amin'ny boky azonao alohan'ny hivadihana miaraka.",
+      "consent": "Ampiasao ny sary an-tokantranon'ny fianakaviana. Anontanio aloha raha sary olona tsy afaka manaiky no ampiasaina.",
+      "privacy": "Ao amin'ity fitaovana ity no mitoetra ny sarinao. Tsy alefa amin'ny serveur na voatahiry.",
+      "choose": "Misafidiana sary",
+      "chooseDifferent": "Misafidiana sary hafa",
+      "backToBook": "Miverina any amin'ny boky",
+      "backToChoose": "Miverina any amin'ny fisafidianana sary",
+      "needTwo": "Misafidiana sary roa farafahakeliny, azafady.",
+      "usingFirst": "Ampiasaina ny sary {max} voalohany.",
+      "cleared": "Foana ny boky. Misafidiana sary indray mba hanombohana.",
+      "moved": "Nafindra ho any amin'ny pejy {n}.",
+      "pageOf": "Pejy {n} amin'ny {total}",
+      "lookTogether": "Jereo miaraka",
+      "leaveLook": "Miverina any amin'ny boky",
+      "print": "Atontao ny boky sary",
+      "clear": "Afaho ny boky",
+      "bookLabel": "Ny boky sary an-tokantranon'ny fianakaviana",
+      "pagesLabel": "Mivadika ny pejy",
+      "previous": "Pejy teo aloha",
+      "next": "Pejy manaraka",
+      "moveEarlier": "Alao any aloha",
+      "moveLater": "Alao any aoriana",
+      "captionLabel": "Teny vitsivitsy ho an'ity pejy ity, raha tianao",
+      "captionHelp": "Hatramin'ny litera 80. Ny teny ambany sary dia tazonina eo amin'ity pejy ity ihany ary very rehefa akatony ianao.",
+      "sheetTitle": "Ny boky sary-tsika",
+      "sheetHow": "Sary iray isaky ny pejy, misy ny teniny ambany. Mivadika ny pejy amin'ny filaharana ary miresaha momba ny tsirairay.",
+      "sheetEmpty": "Misafidiana ny sarinao amin'ny pejy lalao mba hatonteranao ny bokinao manokana, na atontao ity pejy foana ity ary apetraho sary atonta iray.",
+      "sheetFrame": "Apetraho eto ny sary atonta",
+      "sheetWords": "Teny vitsivitsy ho an'ity pejy ity",
+      "skipped": {
+        "one": "Tsy sary azo ampiasaina ny rakitra {n}.",
+        "other": "Tsy sary azo ampiasaina ny rakitra {n}."
+      }
+    },
+    "quietScene": {
+      "guidance": "Jereo sary iray isaky ny indray mandeha. Tsindrio ny Manaraka na ny Teo aloha rehefa vonona ianao. Tsy mihetsika ho azy ny zavatra.",
+      "next": "Sary manaraka",
+      "previous": "Sary teo aloha",
+      "bigPicture": "Sary lehibe kokoa",
+      "showEverything": "Asehoy ny rehetra",
+      "first": "Ity no sary voalohany.",
+      "last": "Ity no sary farany.",
+      "lines": {
+        "sunrise": "Miposaka eo amin'ny tany ny masoandro.",
+        "window-with-birds": "Vorona eo ivelan'ny varavarankely.",
+        "vase-of-flowers": "Vilia-banga misy voninkazo eo amin'ny latabatra.",
+        "teacup": "Kapoaka tsaiky eo akaikin'ny varavarankely.",
+        "tree": "Hazo mijoro ao amin'ny jardin'ny trano.",
+        "sailboat": "Sambo fiaramanidina eo amin'ny rano.",
+        "lighthouse": "Tilikambo fampazavana eo akaikin'ny ranomasina.",
+        "rainbow": "Hazavana-metaty aorian'ny orana.",
+        "moon": "Volana eo amin'ny lanitra alina.",
+        "daisies": "Tanimboky voninkazo marina eo amin'ny ahitra.",
+        "rowing-boat": "Sambo avirana eo amin'ny rano mangina.",
+        "potted-plant": "Zavamaniry maitso ao anaty vilia."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Miandrandra. Tsindrio ny sary voakotrika, avy eo tsindrio toerana foana mba hametrahana azy any. Tsy voatahiry na alefa ny zavatra vitanao.",
+      "people": [
+        "Olona voalohany",
+        "Olona faharoa"
+      ],
+      "marks": [
+        "boribory",
+        "tétezana"
+      ],
+      "turn": "Ny filanao, {person|lower}.",
+      "marked": "Ny singanao dia misy marika {mark}.",
+      "boardLabel": "Ny takelaka iraisana",
+      "placeEmpty": "Toerana {n}, foana",
+      "placeFilled": "Toerana {n}, {picture|lower}, napetraky ny {person|lower}",
+      "trayHeading": "Ny sary voakotrika",
+      "chosenLabel": "Voafidy",
+      "chosen": "Voafidy ny {picture}. Tsindrio izao toerana foana iray.",
+      "unchosen": "Ntsin'ny tsy voafidy intsony ilay sary voakotrika.",
+      "needCutout": "Misafidiana sary voakotrika aloha, avy eo tsindrio toerana foana.",
+      "filled": "Efa misy sary ny toerana {n}. Misafidiana toerana foana.",
+      "placed": "Ao amin'ny toerana {n} ny {picture}. Ny filanao, {next|lower}.",
+      "full": "Misy sary ny toerana tsirairay. Alao iray mba hanovana azy, na manomboka indray.",
+      "pass": "Mandroso",
+      "passed": "Tsy misy olana ny mandroso. Ny filanao, {person|lower}.",
+      "takeBack": "Alao indray ny singa farany",
+      "takeBackPass": "Alao indray ny fandrosoana",
+      "tookBack": "Nesorina ny singa. Ny filanao, {person|lower}.",
+      "tookBackPass": "Nesorina ny fandrosoana. Ny filanao, {person|lower}.",
+      "restarted": "Foana ny takelaka. Ny filanao, {person|lower}.",
+      "putBack": "Averina eo",
+      "putBackDone": "Niverina teo amin'ny takelaka ireo singa.",
+      "another": "Sary-tsary hafa",
+      "anotherSet": "Misy andiana sary voakotrika vaovao ao amin'ny fitoeran-singa. Mijanona eo amin'izy ireo ny singa eo amin'ny takelaka.",
+      "print": "Atontao ny takelaka",
+      "sheetTitle": "Takelaka kolazy",
+      "sheetHow": "Akotrao ireo sary, ary miandrandra mametraka azy eo amin'ny takelaka. Ny olon-dehibe no afaka manakotra.",
+      "sheetTray": "Ireo sary hakotrina"
+    },
+    "gardenPlanner": {
+      "guidance": "Tsindrio sary, avy eo tsindrio tanimboky mba hametrahana azy any. Tsindrio tanimboky misy sary, rehefa tsy misy voafidy, mba hafafana izany.",
+      "bedsLabel": "Ny tanimboky ao amin'ny jardin'ny trano",
+      "bedEmpty": "Tanimboky {n}, foana",
+      "bedFilled": "Tanimboky {n}, {picture|lower}",
+      "plantsHeading": "Zavamaniry",
+      "extrasHeading": "Zavatra fanampiny ao amin'ny jardin'ny trano",
+      "chosenLabel": "Voafidy",
+      "chosen": "Voafidy ny {picture}. Tsindrio izao tanimboky izao.",
+      "unchosen": "Tsy misy sary voafidy.",
+      "needPicture": "Safidio aloha ny sary, avy eo tsindrio ny tahiry iray.",
+      "planted": "Ao amin'ny tahiry faha-{n} ny {picture}.",
+      "replaced": "Ny {picture} no misolo toerana ny sary ao amin'ny tahiry faha-{n}.",
+      "cleared": "Foana ny tahiry faha-{n}. Averina azy raha te hampiasa ilay sary indray ianao.",
+      "restarted": "Foana ny tahiry rehetra.",
+      "putBack": "Averina amin'ny toerany",
+      "putBackDone": "Niverina tao amin'ny tahiry ny sary.",
+      "summaryHeading": "Ny zaridainako",
+      "summary": "Ao amin'ny drafitrao ny {list}.",
+      "summaryNone": "Tsy misy sary ao amin'ny tahiry mbola.",
+      "and": "sy",
+      "print": "Atonta ny drafitra",
+      "sheetTitle": "Ny drafitra zaridainantsika",
+      "sheetHow": "Ny tahiry dia mampiseho ny sary voafidy eny amin'ny efijery. Azonao atao ny mandoko eo amin'ny tahiry foana raha tianao.",
+      "sheetNotes": "Fanamarihana",
+      "notice": "Drafitra sary hiresahana io, fa tsy torohevitra momba ny fambolena."
+    },
+    "coloringWall": {
+      "guidance": "Safidio sary sy ny isan'ny pejy. Atonta ny rindrina, ary samy mandoko pejy iray na maro ny olona tsirairay. Tsy misy fe-potoana, tsy misy isa ary tsy voatahiry.",
+      "pictureLegend": "Sary",
+      "sizeLegend": "Isan'ny pejy",
+      "sizes": {
+        "2x2": "Pejy 4 (2 sy 2)",
+        "3x2": "Pejy 6 (3 sy 2)",
+        "3x3": "Pejy 9 (3 sy 3)"
+      },
+      "previewLabel": "Ny {picture|lower} zaraina ho pejy {n}: {across} mitanjaka sy {down} mitsangana. Misy marika ny pejy tsirairay ao amin'ny zoro.",
+      "previewCaption": "Ny sary miaraka amin'ny tsipika pejy sy ny marika voasoratra eo aminy.",
+      "labelsNote": "Ny litera dia midina eo amin'ny rindrina ary ny isa mitanjaka, ka A1 no pejy ambony ankavia.",
+      "wallHeading": "Fomba fanangonana ny rindrina",
+      "steps": [
+        "Atonta ny pejy rehetra. Ny voalohany dia ireto dingana ireto sy sarintany kely momba ny rindrina.",
+        "Samy maka pejy iray na maro ny olona tsirairay ary mandoko azy ireo.",
+        "Tsy voatery mifanaraka ny loko sy ny fomba. Ny pejy tsirairay dia ampahany amin'ny sary iray ihany.",
+        "Apetraho ny pejy araka ny marikany, avy eo ampiarovo amin'ny tapy eo aoriana.",
+        "Apetraho ny rindrina eo amin'ny toerana hitan'ny olona rehetra."
+      ],
+      "mapLabel": "Sarintany momba ny rindrina: andalana {down}, pejy {across} isaky ny andalana, marika manomboka amin'ny A1 ka hatramin'ny {last}.",
+      "edgeNote": "Ny tsipika mitsipaka no manamarika ny sisin'ny pejy tsirairay. Apetraho ny pejy sisi amin'ny sisi araka io tsipika io, na ampifandrafeto kely izy.",
+      "pictureLine": "Sary: {picture}. Ity rindrina ity dia pejy {n}: {across} mitanjaka sy {down} mitsangana.",
+      "print": "Atonta ny rindrina"
+    },
+    "findTogether": {
+      "guidance": "Samy mifandimby. Amin'ny andraikitrao, mihodina karatra roa mba hitady karatra mitovy. Mitady ny karatra mitovy miaraka.",
+      "sizeLegend": "Isan'ny karatra",
+      "size": "Karatra {n}",
+      "viewLegend": "Fomba filalaovana",
+      "viewShowing": "Milalao miaraka amin'ny sary miseho",
+      "viewHidden": "Karatra miafina",
+      "people": [
+        "Olona voalohany",
+        "Olona faharoa"
+      ],
+      "turn": "Vadin'ny {person}",
+      "turnDone": "Hita ny karatra mitovy rehetra.",
+      "tally": "Mitovy hita miaraka: {n}",
+      "cardNamed": "{name}, karatra faha-{n}",
+      "cardFaceDown": "Karatra faha-{n}, miafina",
+      "first": "{name}. Avy eo mihodina karatra faharoa.",
+      "found": "{name}: mitovy, hita miaraka. Ankehitriny vadin'ny {next|lower}.",
+      "allTogether": "Hitanareo miaraka ny karatra mitovy rehetra.",
+      "different": "Tsy mitovy {a} sy {b}. Alaivo ny fotoana, avy eo tsindrio ny Averina ambany.",
+      "waiting": "Tsindrio ny Averina ambany rehefa vonona ianao. Avy eo mifindra ny vadiny.",
+      "turnedBack": "Averina ambany. Ankehitriny vadin'ny {person|lower}.",
+      "passed": "Azo atao ny mandalo. Ankehitriny vadin'ny {person|lower}.",
+      "turnBack": "Averina ambany",
+      "pass": "Mandalo",
+      "playAgain": "Milalao indray"
+    },
+    "drawingDuet": {
+      "guidance": "Samy mifandimby amin'ny tsipika iray isaky ny olona, avy eo omeo ny penina ilay hafa. Azo atao ny mandalo na iza na iza. Tsy misy alefa any amin'ny toerana hafa. Ny sary dia mivoaka amin'ity pejy ity raha tahirizinao ihany.",
+      "people": [
+        "Olona voalohany",
+        "Olona faharoa"
+      ],
+      "colorLegend": "Lokon'ny {person}",
+      "colors": [
+        "Mavo",
+        "Mavokely",
+        "Maitso",
+        "Volomborona"
+      ],
+      "turn": "Vadin'ny {person}",
+      "penColor": "Loko ny penina: {color}.",
+      "canvasLabel": "Sary iraisana, tsipika {n} hatramin'izao",
+      "canvasLabelOne": "Sary iraisana, tsipika {n} hatramin'izao",
+      "keys": "Ny kisary fanoroana dia mampihetsi ny tendrony penina eo amin'ny sary. Ny lakiso (Space) dia mampidina na mampiakatra ny penina.",
+      "penDown": "Mampidina penina",
+      "penUp": "Mampiakatra penina",
+      "pass": "Omeo ny penina ny hafa",
+      "passed": "Azo atao ny mandalo. Vadinao ankehitriny, {person|lower}.",
+      "takeBack": "Esorina ny tsipika farany nataoko",
+      "tookBack": "Esorina ny tsipika farany nataon'ny {person|lower}.",
+      "noLine": "Tsy misy tsipika nataon'ny {person|lower} azo esorina.",
+      "restarted": "Foana ny pejy. Ny olona voalohany no manana ny vadiny. Averina amin'ny toerany raha tsy tianao izany.",
+      "putBack": "Averina amin'ny toerany",
+      "restored": "Niverina tahaka ny teo aloha ny tsipika.",
+      "save": "Tahiry ny sary",
+      "saved": "Vonona ny sarinao. Ampiasao ny rohy fampidinana hitahiriana azy amin'ity fitaovana ity.",
+      "download": "Ampidino drawing-duet.png",
+      "print": "Atonta ny kopian'ny taratasy",
+      "sheetTitle": "Sary iraisan'ny roa",
+      "paperRules": "Olona roa, pejy iray, penina roa. Samy mifandimby: tsipika na endrika iray isaky ny olona, avy eo omeo ny penina ilay hafa. Azo atao ny mandalo na iza na iza. Tsy misy sary marina."
+    },
+    "colorWash": {
+      "guidance": "Manaloka loko malefaka eo amin'ny pejy, indray mandeha isaky ny fanaloana. Esory ny borosy raha hijanona, ary ijanonao amin'ny fotoana rehetra tianao. Tsy voatahiry na alefa na inona na inona.",
+      "colorLegend": "Loko fanaloana",
+      "sizeLegend": "Habe-borosy",
+      "colors": [
+        "Mavo",
+        "Mavokely",
+        "Maitso",
+        "Volomborona"
+      ],
+      "sizes": {
+        "wide": "Malalaka",
+        "veryWide": "Malalaka be"
+      },
+      "color": "Loko fanaloana: {color}.",
+      "brushDown": "Mampidina ny borosy",
+      "brushUp": "Mampiakatra ny borosy",
+      "keys": "Ny kisary fanoroana dia mamindra ny faribolan'ny borosy eo amin'ny pejy. Ny lakiso (Space) dia mampidina na mampiakatra ny borosy.",
+      "canvasLabel": "Pejy misy fanaloana loko malefaka",
+      "fresh": "Pejy vaovao",
+      "freshMessage": "Pejy vaovao.",
+      "putBack": "Averina amin'ny toerany",
+      "restored": "Niverina ny pejy."
+    },
     "sortTogether": {
       "guidance": "Tsindrio ny sary iray, avy eo tsindrio ny harona tokony hisy azy.",
       "restart": "Sary vaovao",
@@ -71,6 +719,10 @@
       "hint": "Mety ao anaty \"{basket}\" ny {name|lower}. Tsindrio io harona io hametrahana azy ao.",
       "placed": "Tafiditra ao anaty \"{basket}\" ny {name|lower}.",
       "sorted": "Voasokajy daholo ny zavatra rehetra. Miaraha mijery ny ao anatin'ireo harona, na manandrama lohahevitra hafa.",
+      "largerTargets": "Tanjona lehibe kokoa",
+      "largerOn": "Efa mandeha ny tanjona lehibe kokoa. Tsy nisy zavatra nihetsika.",
+      "largerOff": "Tsy mandeha intsony ny tanjona lehibe kokoa. Tsy nisy zavatra nihetsika.",
+      "largerOnNewRound": "Efa mandeha ny tanjona lehibe kokoa, miaraka amin'ny sarety roa. Indreto ny sary vaovao hanasokajiana.",
       "basket": {
         "one": "Harona \"{basket}\", sary {count} no ao anatiny",
         "other": "Harona \"{basket}\", sary {count} no ao anatiny"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Tsindrio ny sombiny iray, avy eo tsindrio ny sombiny hafa. Mifanakalo toerana izy ireo.",
-      "restart": "Afangaro indray",
+      "restart": "Mix up again",
       "pictureLegend": "Sary",
       "pictures": {
         "sailboat": "Sambo lay",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Ny sary feno: {name}",
       "guideText": "Toy izao ny endriky ny sary rehefa tafapetraka tanteraka.",
+      "ownChoose": "Ampiasao ny sary an-tsary nao",
+      "ownChange": "Safidio sary an-tsary hafa",
+      "ownBack": "Miverina amin'ny sarinay",
+      "ownPrivacy": "Mijanona eto amin'ity fitaovana ity ny sary an-tsarynao. Tsy ampidirina an-tserasera na tahiry izy.",
+      "ownConsent": "Ampiasao ny sary an-tsarynao manokana. Mangataha alalana alohan'ny hampiasana sary olona tsy afaka manaiky.",
+      "ownWorking": "Mampiomana ny sary an-tsarynao.",
+      "ownNotUsable": "Tsy azo ampiasaina io rakitra io. Safidio rakitra sary, toy ny JPEG na PNG.",
+      "ownAlt": "Ny sary an-tsarynao",
+      "ownPiece": "Ampahany faha-{n}, {place}",
+      "ownWhole": "Feno indray ny sary an-tsarynao. Afangaro indray rehefa tianao.",
+      "ownSheetTitle": "Ny sary an-tsarynao ampahany",
+      "ownSheetHow": "Antsaho araka ny tsipika. Afangaro ny ampahany, avy eo ampifanakalo ampahany roa isaky ny indray mandeha mandra-pahatongan'ny sary feno.",
       "piece": "Sombiny eo amin'ny {place}",
       "pieceInPlace": ", eo amin'ny toerany marina",
       "piecePickedUp": ", voaray",
@@ -122,7 +786,7 @@
         "ambany havanana"
       ],
       "done": "Tafapetraka tanteraka indray ny sary. Afaka manomboka indray na maka aina kely.",
-      "playAgain": "Afangaro indray"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Miaraha mamaky ilay ohabolana, avy eo tsindrio ny teny mamarana azy.",
@@ -190,6 +854,14 @@
       "guidance": "Vakio mafy ilay karatra. Tsy misy valiny diso na marina izany.",
       "position": "Karatra faha-{n} amin'ny {total}",
       "themeLegend": "Lohahevitra",
+      "showPrompt": "Aseho teny fanentanana hiresahana",
+      "bigPicture": "Sary lehibe, ho an'ny vondrona",
+      "passNote": "Azo atao ny mandalo na iza na iza.",
+      "groupTitle": "Mifindra karatra manerana ny vondrona",
+      "groupSit": "Mipetraha amin'ny bozaka izay hahitan'ny olona rehetra ny sary. Ny olona mitana ny karatra, na ny fitaovana misy ny sary lehibe, no mamaky ny teny fanentanana amin'ny feo avo voalohany.",
+      "groupPass": "Avy eo omeo ny karatra ilay manaraka. Samy milaza teny iray na fehezanteny momba ny sary ny olona tsirairay, avy eo mandefa izany.",
+      "groupNoSpeech": "Azo atao foana ny mandefa ny karatra. Azo atao ny mandalo tsy misy teny, ary tsy misy olona tsy maintsy milaza ny antony.",
+      "groupEnd": "Mifarana ny andiany rehefa avy nizungezo nanodidina ny boribory ny karatra, na rehefa efa tsy mila intsony ny vondrona. Tsy misy mandresy. Ajanony rehefa tiany ny vondrona.",
       "next": "Karatra manaraka",
       "previous": "Karatra teo aloha",
       "print": "Atao pirinty ny karatra rehetra",
@@ -252,6 +924,20 @@
       "started": "Efa nanomboka. Mifohaza rivotra rehefa mihalehibe ny boribory.",
       "stopped": "Najanona.",
       "finished": "Fofonaina miadana enina izay. Afaka manomboka indray ianao amin'ny fotoana tianao."
+    },
+    "storyChain": {
+      "guidance": "Mifandimby: fehezanteny iray isaky ny olona, ary ampio ny sary manaraka.",
+      "passNote": "Lazao amin'ny feo ny fehezanteny nao. Tsy soratana na voatahiry na inona na inona. Azon'ny olona rehetra ny mandalo ny fihodinany.",
+      "chainLabel": "Ny filaharana hatramin'izao",
+      "item": "Sary {n}: {name}",
+      "add": "Ampio sary",
+      "fullAdd": "Feno ny filaharana. Manomboka filaharana vaovao",
+      "newChain": "Manomboka filaharana vaovao",
+      "takeOff": "Esorina ny farany",
+      "added": "Ny {name|lower} dia eo amin'ny faran'ny filaharana izao.",
+      "removed": "Ny {name|lower} dia esorina amin'ny filaharana.",
+      "fresh": "Filaharana vaovao, manomboka amin'ny {name|lower}.",
+      "full": "Misy sary valo rehetra ny filaharana. Lazao ny tantara manontolo, na manomboka filaharana vaovao."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Rahona mandatsak'orana",
     "snowflake": "Flokon-dranomandry",
     "kite": "Vorompelana",
-    "sunrise": "Fiposahan'ny masoandro eny an-tendrombohitra"
+    "sunrise": "Fiposahan'ny masoandro eny an-tendrombohitra",
+    "decorated-keepsake-box": "Vata fitahirizana misy fanamboarana",
+    "painted-plant-pot": "Vilia voaloko misy zavamaniry manitra",
+    "repeating-pattern-sheet": "Taratasy misy endrika miverimberina",
+    "music-drawn-lines": "Tsipika voasoratra amin'ny mozika",
+    "paper-boat-afloat": "Sambo taratasy mitsingevana eo amin'ny rano",
+    "folded-towel-stack": "Tanjaka lamba voahodina",
+    "hand-massage-with-lotion": "Tanana eo amin'ny lamba, misy menaka fanosotra",
+    "open-photo-album": "Album sary misokatra",
+    "button-flower-card": "Karatra misy bokotra ho endrika voninkazo",
+    "blue-torn-paper-collage": "Kolazy taratasy manga voadio",
+    "family-tree-of-hands": "Hazo fianakaviana voasoratra amin'ny tanana",
+    "open-greeting-card": "Karatra fiarahabana misokatra misy fo",
+    "lavender-sachet": "Kitapo kely lavanda voafehy amin'ny tady",
+    "memory-collage-of-photos": "Kolazy sary fianakaviana",
+    "paper-chain-garland": "Gorodona rohy taratasy",
+    "open-songbook-with-notes": "Boky hira misokatra misy notam-mozika",
+    "photo-postcard-with-stamp": "Karatra sary misy timbra",
+    "pine-cone-bird-feeder": "Fonja misy sakafo vorona mihantona amin'ny sampana",
+    "playlist-phone-and-card": "Telefaona misy lisitra hira sy karatra",
+    "sealed-rice-shaker": "Fanondrona vary voahidy",
+    "texture-board-with-scraps": "Takelaka misy fako lamba samihafa",
+    "painted-garden-stone": "Vato voaloko eny an-tokotany",
+    "shared-painted-canvas": "Lamba voaloko iraisana",
+    "watercolor-washes-sheet": "Taratasy misy loko rano",
+    "seedling-in-pot": "Hazo kely ao anaty vilia",
+    "pressed-leaves-in-book": "Ravina voatsindry ao anaty boky",
+    "printed-leaves-sheet": "Taratasy misy tadin'ravina",
+    "pinch-pot-clay-bowl": "Vilia tanimanga natao amin'ny tanana",
+    "table-sketch-pencil": "Sary kaopy natao amin'ny pensilina",
+    "buttons-in-muffin-tin": "Bokotra sokajiana ao anaty lovia kely",
+    "family-recipe-book": "Boky fomba fanamboarana sakafo ankohonana",
+    "drum-with-beat-marks": "Tamborina misy tehina",
+    "torn-paper-flower": "Mosaika voninkazo taratasy rapahina",
+    "window-with-birds": "Varavarankely misy vorona",
+    "woven-paper-mat": "Tanjaka taratasy voafehy",
+    "yarn-ball-with-thread": "Bala tady miaraka amin'ny lamba",
+    "letter-and-envelope": "Taratasy ao anaty tapa-taratasy"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Eny ivelany"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Voankazo",
+        "animals": "Biby",
+        "travel": "Fomba fitaterana",
+        "flowers": "Voninkazo",
+        "hot-drinks": "Zavatra ho an'ny zava-pisotro mafana",
+        "weather": "Karazan'ny toetrandro",
+        "baked": "Zavatra atao amin'ny lafaoro"
       }
     }
   }

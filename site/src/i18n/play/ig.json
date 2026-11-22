@@ -5,6 +5,13 @@
       "stopReading": "Kwụsị ịgụ",
       "region": "Egwuregwu",
       "restart": "Malite ọzọ",
+      "rest": "Pumzika kwa sasa",
+      "restingTitle": "Unapumzika",
+      "restingText": "Chukua muda unaohitaji. Mahali pako pamehifadhiwa kwenye ukurasa huu.",
+      "resume": "Endelea",
+      "placeText": "Mara ya mwisho ulisimama katikati. Endelea kutoka hapo, au anza upya.",
+      "placeResume": "Endelea",
+      "placeFresh": "Anza upya",
       "soundOn": "Ụda dị nwayọọ na-arụ ọrụ",
       "soundOff": "Ụda dị nwayọọ adịghị arụ ọrụ",
       "done": "Kwụsị ugbu a",
@@ -42,7 +49,19 @@
       "viewShowing": "Onyonyo na-egosi",
       "viewHidden": "Onyonyo e zoro ezo",
       "playAgain": "Kpọọ ọzọ na onyonyo ọhụrụ",
-      "talk": "Kparịta onyonyo ọnụ"
+      "talk": "Kparịta onyonyo ọnụ",
+      "modeLegend": "Picha zipi",
+      "modePlay": "Picha zozote",
+      "modeDaily": "Kadi ya leo",
+      "dayLegend": "Siku ipi",
+      "dayHelp": "Kila mtu anapata picha zile zile siku hiyo hiyo. Siku zilizopita pia ziko hapa, na kuruka siku hakuna gharama.",
+      "guidanceDaily": "Kadi ya leo ina jozi nne. Gusa picha moja, kisha gusa inayolingana nayo.",
+      "restartDaily": "Anza kadi hii upya",
+      "copy": "Nakili mstari huu",
+      "copied": "Imenakiliwa. Hakuna kinachotumwa popote.",
+      "calendarTitle": "Kadi za leo, {month}",
+      "calendarHelp": "Kila siku ina picha zile zile nne kwa kila mtu. Hakuna alama, na hakuna siku inayoonyeshwa kama iliyokosekana.",
+      "calendarVersion": "Toleo {date}. Picha ni zile zile kwa kila mtu siku hiyo hiyo."
     },
     "choose": {
       "countLegend": "Onyonyo ole",
@@ -61,6 +80,634 @@
       "shadowAlt": "Onyinyo a ga-ahụ ndị dakọrọ",
       "foundAlt": "Onyinyo nke {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Vidokezo",
+      "hintOn": "Kidokezo baada ya kusitisha",
+      "hintOff": "Hakuna vidokezo",
+      "guidance": "Tafuta picha {n} zinazoendana, kisha gusa kila moja.",
+      "countLegend": "Picha ngapi",
+      "count": "Picha {n}",
+      "found": "Ndiyo, {name|lower} ni sehemu ya kundi hili.",
+      "elsewhere": "{name|lower} inaendana na kitu kingine. Chukua muda wako.",
+      "hint": "Kidokezo: tafuta {theme|lower}.",
+      "together": "Hivi vinaendana: {theme}.",
+      "shown": "Hiki ndicho kundi: {theme}.",
+      "groupName": "Pamoja: {theme}",
+      "show": "Onyesha kundi",
+      "next": "Seti nyingine"
+    },
+    "oddOneOut": {
+      "hintLegend": "Vidokezo",
+      "hintOn": "Kidokezo baada ya kusitisha",
+      "hintOff": "Hakuna vidokezo",
+      "guidance": "Tafuta picha isiyoendana na nyingine, kisha uigonge.",
+      "countLegend": "Picha ngapi",
+      "count": "Picha {n}",
+      "belongs": "{name|lower} inaendana na nyingine. Chukua muda wako.",
+      "found": "Ndiyo, {name|lower} ndiyo isiyoendana. Nyingine ni {theme|lower}.",
+      "shown": "Hii hapa: {name|lower}. Nyingine ni {theme|lower}.",
+      "hint": "Kidokezo: {n} kati ya hizi ni {theme|lower}.",
+      "others": "Nyingine: {theme}",
+      "show": "Nionyeshe",
+      "next": "Seti nyingine"
+    },
+    "seatedToss": {
+      "guidance": "Keti mezani na mpeane zamu kurusha mfuko laini wa maharage kwenye lengo kubwa. Weka hesabu kwenye karatasi, pamoja.",
+      "stepsHeading": "Inavyokwenda",
+      "steps": [
+        "Chapisha lengo na karatasi ya hesabu, kisha uiweke bapa mezani kati yenu.",
+        "Keti kwa starehe, mmoja kila upande. Mpeane zamu ya kurusha kwa upole mara moja kila mmoja, au pitisha zamu kama ungependa.",
+        "Rusha likitua kwenye pete, mtu aliyerusha aweke alama kwenye kisanduku kimoja katika safu yake, kwenye mstari wa pete hiyo.",
+        "Angalieni alama pamoja mkisimama, ikiwa mnapenda. Hakuna anayelazimika kujumlisha chochote.",
+        "Simama wakati wowote mtu yeyote yuko tayari."
+      ],
+      "safetyHeading": "Usalama",
+      "safetyLine": "Tumia mfuko wenye kifuniko kilichoshonwa au soksi iliyokunjwa tu, kaa chini, usirushe kuelekea usoni, na weka mtu mzima karibu. Vitu vidogo ni hatari ya kukaba.",
+      "flags": [
+        "Si kwa walio chini ya miaka 3: vitu vidogo",
+        "Weka mbali na midomo"
+      ],
+      "safety": [
+        "Chagua mfuko wa maharage wenye kifuniko kilichoshonwa, au kunja soksi safi. Kwanza ukague kama una matundu au mishono iliyolegea, ili kujaza kusitoke.",
+        "Maharage, mchele na kujaza nyingine ndogo ni hatari ya kukaba. Viweke mbali na watoto wadogo na mtu yeyote anayeweka vitu mdomoni.",
+        "Kaa ndani ya umbali wa mkono, na simamia kwa karibu ikiwa kitu kinaweza kuwekwa mdomoni.",
+        "Kaa chini. Rusha kwa upole na chini kuelekea lengo kwenye meza, kamwe kuelekea usoni."
+      ],
+      "previewLabel": "Karatasi iliyochapishwa: lengo la pete tatu zilizoitwa Karibu, Kati na Mbali, kuanzia nje kuelekea ndani, na hesabu yenye safu kwa kila mtu na mstari wa visanduku tupu kwa kila pete.",
+      "sheetHow": "Weka karatasi bapa kati yenu. Rusha likitua kwenye pete, weka alama kwenye kisanduku kimoja katika safu yako, kwenye mstari wa pete hiyo.",
+      "rings": [
+        "Karibu",
+        "Kati",
+        "Mbali"
+      ],
+      "people": [
+        "Mtu wa kwanza",
+        "Mtu wa pili"
+      ],
+      "ringHeading": "Pete",
+      "print": "Chapisha lengo na karatasi ya hesabu"
+    },
+    "seasonalPack": {
+      "guidance": "Chagua mwezi, chapisha mafumbo yake matatu ya karatasi, kisha fanya moja, mawili au yote matatu pamoja.",
+      "monthLegend": "Chagua mwezi",
+      "months": [
+        "Januari",
+        "Februari",
+        "Machi",
+        "Aprili",
+        "Mei",
+        "Juni",
+        "Julai",
+        "Agosti",
+        "Septemba",
+        "Oktoba",
+        "Novemba",
+        "Desemba"
+      ],
+      "monthNote": "Kila mwezi una picha zake. Ukurasa unafunguka kwenye mwezi huu, na unaweza kuchagua mwezi mwingine wowote.",
+      "restDay": "Leo ni siku ya kupumzika",
+      "restLine": "Hakuna mafumbo leo. Siku ya kupumzika pia ni siku nzuri.",
+      "previewHeading": "Mafumbo matatu",
+      "puzzles": {
+        "pairs": {
+          "title": "Linganisha jozi",
+          "how": "Chora mstari kutoka kila picha ya safu ya juu hadi picha ile ile ya safu ya chini.",
+          "describe": "Safu mbili za picha zile zile nne, kwa mpangilio tofauti."
+        },
+        "different": {
+          "title": "Ipi ni tofauti?",
+          "how": "Zungushia picha ambayo ni tofauti na zile nyingine tatu.",
+          "describe": "Safu ya picha nne. Tatu ni zile zile, na moja ni tofauti."
+        },
+        "color": {
+          "title": "Ipake rangi",
+          "how": "Pake picha rangi unavyopenda, kwa kalamu za rangi au penseli.",
+          "describe": "Picha moja kubwa ya kupaka rangi."
+        }
+      },
+      "print": "Chapisha kifurushi cha mwezi huu",
+      "sheetHow": "Chapisha ukurasa mmoja. Fanya moja, mawili au yote matatu ya mafumbo, kwa mpangilio wowote.",
+      "printFooter": "Fanya moja, mawili au yote matatu. Simama wakati wowote unapotaka."
+    },
+    "decorateACard": {
+      "guidance": "Chagua tukio, kisha pamba kadi pamoja kwa kalamu za rangi au kalamu. Hakuna kadi sahihi.",
+      "occasionLegend": "Chagua tukio",
+      "occasions": {
+        "birthday": {
+          "label": "Siku ya kuzaliwa",
+          "words": "Heri ya siku ya kuzaliwa"
+        },
+        "thank-you": {
+          "label": "Asante",
+          "words": "Asante"
+        },
+        "thinking-of-you": {
+          "label": "Tunakukumbuka",
+          "words": "Tunakukumbuka"
+        },
+        "new-season": {
+          "label": "Msimu mpya",
+          "words": "Msimu mpya"
+        },
+        "just-because": {
+          "label": "Kwa sababu tu",
+          "words": "Kwa sababu tu"
+        }
+      },
+      "stepsHeading": "Jinsi ya kuipamba pamoja",
+      "steps": {
+        "fold": "Chapisha kadi na uikunje katikati kando ya mstari wenye vitone, ili mbele iwe nje.",
+        "front": "Mtu mmoja anapamba mbele, kuzunguka maneno.",
+        "inside": "Mtu mwingine anapamba nyuma, au mpeane zamu upande mmoja.",
+        "message": "Andikeni ujumbe pamoja. Mtu mmoja anaweza kuandika huku mwingine akisema maneno.",
+        "stop": "Simama wakati wowote unapotaka. Hakuna kadi sahihi, na ile rahisi ni nzuri vile vile."
+      },
+      "materials": "Tumia kalamu za rangi, penseli za rangi au kalamu za ncha ya kuhisi. Hakuna haja ya kukata, kubandika wala kugundika.",
+      "previewLabel": "Onyesho la kadi iliyokunjwa katikati. Mbele kuna maneno {words}, na fremu rahisi ya majani na nyota. Nyuma kuna mistari ya ujumbe na mstari wa Kutoka.",
+      "from": "Kutoka",
+      "sheetHow": "Kwaa kaadị ahụ n'ọkara n'akụkụ ahịrị ntụpọ-ntụpọ, ihu ya dị n'èzí. Dee ozi ahụ n'azụ kaadị ahụ.",
+      "rulesHeading": "Maka mmadụ abụọ",
+      "sheetRules": [
+        "Chere ọnụ ọgụgụ n'usoro, ma ọ bụ kewaa ọrụ: otu mmadụ na-eji ihu kaadị ahụ mee ihe, onye ọzọ na-eme azụ.",
+        "Dee ozi ahụ ọnụ, ma ọ bụ otu mmadụ na-ede ihe onye ọzọ kwuru.",
+        "Onye ọ bụla nwere ike ịkwụsị oge ọ bụla. Enweghị kaadị ziri ezi."
+      ],
+      "print": "Bipụta kaadị ahụ"
+    },
+    "storyDice": {
+      "guidance": "Lee foto ndị ahụ anya, kọọ akụkọ site n'ha, n'usoro ọ bụla. Enweghị akụkọ ziri ezi.",
+      "countLegend": "Ole dice",
+      "count": "{n} dice",
+      "roll": "Tụba ọzọ",
+      "pass": "Gafere",
+      "passed": "Igafe bụ ihe dị mma. Onye sochirinụ nwere ike ibido, ma ọ bụ tụba ọzọ.",
+      "rolled": "Foto ọhụrụ: {names}.",
+      "tapped": "{name}. Malite site n'ihe a, ma ọ bụ ihe ọzọ ọ bụla."
+    },
+    "wordPicture": {
+      "guidance": "Pịa foto, mgbe ahụ pịa okwu na-akpọ ya. Ma ọ bụ pịa okwu, mgbe ahụ pịa foto ya.",
+      "countLegend": "Ole foto",
+      "count": "{n} foto",
+      "picturesGroup": "Foto",
+      "wordsGroup": "Okwu",
+      "readWord": "Gụọ n'olu: {name}",
+      "next": "Foto ọhụrụ",
+      "putBack": "Tinye ya azụ",
+      "pickWord": "Ugbu a pịa okwu nke kwekọrọ ya.",
+      "pickPicture": "Ugbu a pịa foto nke kwekọrọ ya.",
+      "fit": "Ee, okwu ahụ kwekọrọ na {name|lower}.",
+      "newSet": "Nke a bụ ìgwè foto ọhụrụ.",
+      "restarted": "Laghachi na mbido. Foto na okwu niile ka a na-ekewa ọzọ.",
+      "restored": "A tinyere ya azụ. Ụzọ kwekọrọ ahụ egosila ọzọ.",
+      "all": "Okwu ọ bụla nwere foto ya."
+    },
+    "colorMatch": {
+      "guidance": "Lee agba na aha ya anya, mgbe ahụ pịa foto ọ bụla nwere agba ahụ.",
+      "target": "Agba ahụ bụ {color|lower}. Pịa foto ọ bụla nwere agba {color|lower}.",
+      "countLegend": "Ole foto",
+      "count": "{n} foto",
+      "found": "Ee, {name|lower} bụ {color|lower}.",
+      "named": "{name|lower} bụ {color|lower}.",
+      "all": "Ndị ahụ bụ foto {color|lower} niile.",
+      "shown": "Ndị a bụ foto {color|lower}.",
+      "show": "Gosi m ha",
+      "next": "Agba ọzọ",
+      "names": {
+        "red": "Uhie",
+        "orange": "Ọrenji",
+        "yellow": "Odo",
+        "green": "Akwụkwọ ndụ",
+        "blue": "Anụnụ"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Pịa otu akụkụ n'aka ekpe, mgbe ahụ pịa akụkụ n'aka nri nke kwekọrọ ya.",
+      "countLegend": "Ole foto",
+      "count": "{n} foto",
+      "leftGroup": "Akụkụ aka ekpe",
+      "rightGroup": "Akụkụ aka nri",
+      "left": "Akụkụ aka ekpe nke {name|lower}",
+      "right": "Akụkụ aka nri nke {name|lower}",
+      "joined": "Ejikọtara",
+      "pickRight": "Ugbu a pịa akụkụ aka nri nke kwekọrọ ya.",
+      "pickLeft": "Ugbu a pịa akụkụ aka ekpe nke kwekọrọ ya.",
+      "fit": "Ee, ndị abụọ ahụ na-eme {name|lower}.",
+      "apart": "Ndị abụọ ahụ akwadoghị ọnụ. Nwalee ọzọ.",
+      "all": "Foto ọ bụla juru eju.",
+      "shown": "Ndị a bụ foto, ejikọtara ha.",
+      "show": "Gosi m",
+      "next": "Ìgwè ọzọ"
+    },
+    "colorByNumber": {
+      "guidance": "Họrọ agba site na ndepụta agba, mgbe ahụ jupụta square ọ bụla na ya. Agba ọ bụla dị mma.",
+      "sizeLegend": "Nha ahịrị",
+      "size": "{n} x {n}",
+      "keyLegend": "Agba",
+      "colors": [
+        "Odo",
+        "Ọrenji",
+        "Akwụkwọ ndụ",
+        "Pọpụl"
+      ],
+      "motifs": {
+        "house": "ụlọ",
+        "flower": "ifuru",
+        "heart": "obi",
+        "tree": "osisi",
+        "boat": "ụgbọ mmiri na ikuku",
+        "pot-plant": "osisi n'ime ite"
+      },
+      "region": "Igwe foto, {n} x {n}. Ọ na-agagharị n'akụkụ ma ọ bụrụ na ihuenyo dị obere.",
+      "cell": "Nọmba {number}, ahịrị {row}, kọlụm {column}, {color}",
+      "empty": "efu",
+      "chose": "{name} ahọpụtara. Pịa square iji jupụta ya.",
+      "painted": "{name} n'ahịrị {row}, kọlụm {column}.",
+      "sheet": "Square ọ bụla nwere agba nke nọmba ya. Nke a bụ foto dị n'akwụkwọ ahụ: {name}.",
+      "own": "Square ọ bụla ejupụtala. Nke a bụ foto gị n'onwe gị.",
+      "fillAll": "Jupụta site na nọmba",
+      "filledAll": "Square efu ọ bụla ugbu a nwere agba nke nọmba ya.",
+      "clear": "Hichapụ",
+      "cleared": "Igwe ahụ achịchaala.",
+      "next": "Foto ọzọ",
+      "fresh": "Nke a bụ foto ọzọ iji kpoo agba."
+    },
+    "patternMaker": {
+      "guidance": "Pịa square iji gbanwee agba ya. Ụkpụrụ gị na-etolite n'akụkụ ya. Ihe ọ bụla ị mere echekwaghị ma ezipụghị ya.",
+      "sizeLegend": "Nha tile",
+      "size": "{n} x {n}",
+      "keyLegend": "Agba, n'usoro a pịa ya gbanwee ha",
+      "colors": [
+        "Odo",
+        "Ọrenji",
+        "Akwụkwọ ndụ",
+        "Pọpụl"
+      ],
+      "tileLabel": "Tile gị",
+      "region": "Tile gị, {n} x {n}. Ọ na-agagharị n'akụkụ ma ọ bụrụ na ihuenyo dị obere.",
+      "patternLabel": "Ụkpụrụ gị",
+      "pattern": "Ụkpụrụ gị: tile gị emegharịrị {n} n'akụkụ ya na {n} n'ala.",
+      "square": "Ahịrị {row}, kọlụm {column}, {color}",
+      "changed": "Ahịrị {row}, kọlụm {column} bụ {color} ugbu a.",
+      "cleared": "Tile ahụ achịchaala. Ị nwere ike ịtinye ya azụ.",
+      "surprise": "Nye m ihe ijuanya",
+      "surprised": "Nke a bụ tile ọhụrụ. Ị nwere ike ịtinye nke ochie azụ.",
+      "putBack": "Tinye ya azụ",
+      "restored": "Tile gị laghachiri dị ka ọ dị.",
+      "print": "Bipụta ụkpụrụ m",
+      "sheetTitle": "Ụkpụrụ m"
+    },
+    "buildTogether": {
+      "guidance": "Chere ọnụ ọgụgụ n'usoro iji tinye otu akụkụ n'ebe efu. Onye ọ bụla n'ime unu nwere agba nke ya. Ihe ọ bụla unu mere echekwaghị ma ezipụghị ya.",
+      "sizeLegend": "Nha ahịrị",
+      "size": "{n} x {n}",
+      "people": [
+        "Onye mbụ",
+        "Onye abụọ"
+      ],
+      "colorLegend": "Agba {person}",
+      "colors": [
+        "Odo",
+        "Ọrenji",
+        "Akwụkwọ ndụ",
+        "Pọpụl"
+      ],
+      "inUse": "Na-eji ya",
+      "turn": "Ọ bụ ọnụ gị, {person|lower}",
+      "yourColor": "Agba gị bụ {color|lower}.",
+      "built": "Ewuru ya ọnụ. Nke a bụ foto unu abụọ mere.",
+      "gridLabel": "Igwe ahịrị a na-ekerịta",
+      "region": "Igwe ahịrị a na-ekerịta, {n} x {n}. Ọ na-agagharị n'akụkụ ma ọ bụrụ na ihuenyo dị obere.",
+      "cellEmpty": "Ahịrị {row}, kọlụm {column}, efu",
+      "cellFilled": "Ahịrị {row}, kọlụm {column}, {color}, {person|lower} tinyere ya",
+      "placed": "Ahịrị {row}, kọlụm {column} bụ {color} ugbu a. Ọ bụ ọnụ gị, {next|lower}.",
+      "placedLast": "Ahịrị {row}, kọlụm {column} bụ {color} ugbu a. Ewuru ya ọnụ.",
+      "taken": "Ahịrị {row}, kọlụm {column} nwere akụkụ ya n'ebe a. Họrọ ebe efu.",
+      "pass": "Gafere",
+      "passed": "Igafe bụ ihe dị mma. Ọ bụ ọnụ gị, {person|lower}.",
+      "takeBack": "Wepụ akụkụ ikpeazụ",
+      "takeBackPass": "Wepụ igafe ahụ",
+      "tookBack": "Akụkụ ahụ ewepụrụ. Ọ bụ ọnụ gị, {person|lower}.",
+      "tookBackPass": "Igafe ahụ ewepụrụ. Ọ bụ ọnụ gị, {person|lower}.",
+      "colorChanged": "{person} nwere {color|lower} ugbu a.",
+      "restarted": "Igwe ahịrị ahụ efu. Ọ bụ ọnụ gị, {person|lower}.",
+      "print": "Bipụta igwe ahịrị",
+      "sheetTitle": "Wuo ọnụ",
+      "sheetHelp": "Chere ọnụ ọgụgụ n'usoro. Na square efu, onye ọ bụla na-eme ụdị nke ya site na pensụl nke ya.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Pịa akụkụ, mgbe ahụ pịa oghere dị n'foto ebe ọ ga-aga. Ihe ọ bụla ị mere echekwaghị ma ezipụghị ya.",
+      "hints": "Gosi ahịrị nkwado",
+      "pictureLine": "Nke a bụ {picture}.",
+      "pictures": {
+        "house": "ụlọ",
+        "boat": "ụgbọ mmiri",
+        "tree": "osisi",
+        "fish": "azụ",
+        "cat": "nwamba",
+        "rocket": "rọketi"
+      },
+      "outlineLabel": "Ọkpụkpọ {picture}. Pịa oghere iji tinye akụkụ ahọpụtara n'ime ya.",
+      "trayHeading": "Akụkụ ndị ahụ",
+      "pieces": {
+        "large-triangle": "Triangle buru ibu",
+        "small-triangle": "Triangle nta",
+        "square": "Square",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Rectangle"
+      },
+      "shapes": {
+        "large-triangle": "triangle buru ibu",
+        "small-triangle": "triangle nta",
+        "square": "square",
+        "parallelogram": "parallelogram",
+        "rectangle": "rectangle"
+      },
+      "chosenLabel": "Ahọpụtara",
+      "spaceEmpty": "Oghere {n}, {shape}, efu",
+      "spaceFilled": "Oghere {n}, {shape}, nwere akụkụ ya. Pịa iji wepụ akụkụ ahụ azụ.",
+      "chosen": "{piece} ahọpụtara. Ugbu a pịa oghere dị n'foto.",
+      "unchosen": "Akụkụ ahụ ahọpụtaghị ọzọ.",
+      "placed": "Akụkụ ahụ dị na oghere {n}.",
+      "complete": "{picture} ahụ zuru ezu.",
+      "different": "Akụkụ ahụ dị iche n'ụdị oghere a. Nwalee oghere ọzọ.",
+      "needPiece": "Họrọ akụkụ site n'ọkpọ ahụ mbụ.",
+      "filled": "Oghere ahụ nwere akụkụ ya n'ezie. Pịa ya iji weghachi akụkụ ahụ.",
+      "tookBack": "Akụkụ ahụ laghachiri n'ọkpọ ahụ.",
+      "cleared": "Akụkụ ndị ahụ laghachiri n'ọkpọ ahụ. Weghachi ya ma ọ bụrụ na ịgbanwela echiche gị.",
+      "restored": "Akụkụ ndị ahụ laghachiri n'ihe oyiyi ahụ.",
+      "next": "Nke a bụ {picture}.",
+      "putBack": "Weghachi ya",
+      "another": "Ụdị ọzọ",
+      "print": "Bipụta ụdị a",
+      "sheetTitle": "Ụdị nke dị jụụ",
+      "sheetHow": "Kpọọ akụkụ ndị ahụ agba, ma ọ bụ gbaa ha ka ha dabara n'ihe a kọwara. Otu onye okenye nwere ike igbaa ha.",
+      "sheetPieces": "Akụkụ ndị ahụ, nha ha dị otu ihe a kọwara"
+    },
+    "picnicPlanner": {
+      "guidance": "Pịa foto ka ị tinye ya n'akpa picnic, ma pịa ya n'akpa ahụ iji wepụ ya. Akpa ahụ nwere ike ịbu ihe isii.",
+      "guidancePlay": "Pịa foto abụọ yiri ibe ya. Foto ndị ahụ ka na-egosi, enweghị oge a kara akara.",
+      "basketHeading": "Akpa anyị",
+      "basketLabel": "Akpa picnic ahụ",
+      "takeOut": "Wepụ {picture} n'akpa ahụ",
+      "inBasket": "N'akpa ahụ",
+      "foodHeading": "Nri",
+      "outingsHeading": "Ihe ị ga-eme",
+      "added": "{picture} dị n'akpa ahụ.",
+      "removed": "{picture} apụla n'akpa ahụ.",
+      "already": "{picture} dị n'akpa ahụ ugbu a. Pịa ya n'ebe ahụ iji wepụ ya.",
+      "full": "Akpa ahụ juputara. Wepụ ihe ụfọdụ iji nweta ohere.",
+      "summary": "Picnic anyị: {list}.",
+      "summaryNone": "Ihe ọ bụla adịghị n'akpa ahụ ugbu a.",
+      "and": "na",
+      "play": "Ka anyị gwuo egwuregwu picnic anyị",
+      "needTwo": "Họrọ ihe abụọ ma ọ dịkarịa ala mbụ.",
+      "playAgain": "Gwuo ọzọ",
+      "back": "Laghachi na picnic",
+      "print": "Bipụta ndepụta picnic anyị",
+      "cleared": "Akpa ahụ agbaala efu.",
+      "notice": "Nke a bụ atụmatụ iji kwurịta. Enweghị oge a na-ekpebi, akara a na-enye ma ọ bụ echekwa ihe ọ bụla.",
+      "sheetTitle": "Ndepụta picnic anyị",
+      "sheetHow": "Tinye akara n'ihe ọ bụla mgbe ị na-akpọkọta ya. Jiri ahịrị efu mee ihe maka ihe ọzọ ị chọrọ iwetara.",
+      "sheetToPack": "Ihe a ga-akpọkọta"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Họrọ foto nke gị abụọ ruo iri na abụọ iji malite akwụkwọ ahụ.",
+      "guidance": "Gbanwee peeji ndị ahụ ọnụ, site na bọtịnụ ma ọ bụ igodo kịtị aka ekpe na aka nri. Tinye okwu ole na ole n'okpuru foto ọ bụla ọ bụrụ na ịchọrọ. Ihe ọ bụla ị na-eme echekwabeghị ma ọ bụ zipu.",
+      "lookGuidance": "Lee peeji ọ bụla ọnụ. Ị nwere ike ikwu okwu ma ọ bụ naanị lee anya.",
+      "intro": "Họrọ foto abụọ ruo iri na abụọ site n'ngwaọrụ a. Otu ọ bụla ga-abụ peeji n'akwụkwọ ị ga-agbanwe ọnụ.",
+      "consent": "Jiri foto ezinụlọ gị. Jụọ tupu ị jiri foto onye enweghị ike ikwu ee.",
+      "privacy": "Foto gị na-anọ n'ngwaọrụ a. A bupụghị ha ma ọ bụ echekwa ha.",
+      "choose": "Họrọ foto",
+      "chooseDifferent": "Họrọ foto dị iche",
+      "backToBook": "Laghachi na akwụkwọ ahụ",
+      "backToChoose": "Laghachi na nhọrọ foto",
+      "needTwo": "Biko, họrọ foto abụọ ma ọ dịkarịa ala.",
+      "usingFirst": "Na-eji foto {max} mbụ.",
+      "cleared": "Akwụkwọ ahụ agbaala efu. Họrọ foto iji malite ọzọ.",
+      "moved": "Agbagoro n'peeji {n}.",
+      "pageOf": "Peeji {n} nke {total}",
+      "lookTogether": "Lee ọnụ",
+      "leaveLook": "Laghachi na akwụkwọ ahụ",
+      "print": "Bipụta akwụkwọ ncheta ahụ",
+      "clear": "Hichapụ akwụkwọ ahụ",
+      "bookLabel": "Akwụkwọ ncheta ezinụlọ ahụ",
+      "pagesLabel": "Gbanwee peeji ndị ahụ",
+      "previous": "Peeji gara aga",
+      "next": "Peeji ọzọ",
+      "moveEarlier": "Bugharịa n'azụ",
+      "moveLater": "Bugharịa n'ihu",
+      "captionLabel": "Okwu ole na ole maka peeji a, ọ bụrụ na ịchọrọ",
+      "captionHelp": "Ruo 80 mkpụrụedemede. Okwu ndị a na-echekwa naanị n'peeji a ma na-apụ mgbe ị mechiri ya.",
+      "sheetTitle": "Akwụkwọ ncheta anyị",
+      "sheetHow": "Otu foto n'otu peeji, na okwu ya n'okpuru. Gbanwee peeji ndị ahụ n'usoro ma kwurịta maka otu ọ bụla.",
+      "sheetEmpty": "Họrọ foto gị n'ibe egwuregwu ahụ iji bipụta akwụkwọ gị, ma ọ bụ bipụta peeji efu a ma tinye foto e bipụtara.",
+      "sheetFrame": "Tinye foto e bipụtara ebe a",
+      "sheetWords": "Okwu ole na ole maka peeji a",
+      "skipped": {
+        "other": "{n} faịlụ abụghị foto anyị nwere ike iji."
+      }
+    },
+    "quietScene": {
+      "guidance": "Lee otu ihe oyiyi n'otu oge. Pịa Ọzọ ma ọ bụ Gara aga mgbe ị dị njikere. Ihe ọ bụla anaghị agagharị n'onwe ya.",
+      "next": "Ihe oyiyi ọzọ",
+      "previous": "Ihe oyiyi gara aga",
+      "bigPicture": "Ihe oyiyi ka ukwu",
+      "showEverything": "Gosi ihe niile",
+      "first": "Nke a bụ ihe oyiyi mbụ.",
+      "last": "Nke a bụ ihe oyiyi ikpeazụ.",
+      "lines": {
+        "sunrise": "Anyanwụ na-apụta n'elu ala.",
+        "window-with-birds": "Nnụnụ n'èzí windo.",
+        "vase-of-flowers": "Otu ite okooko osisi n'elu tebụl.",
+        "teacup": "Otu iko tii n'akụkụ windo.",
+        "tree": "Osisi guzoro n'ogige.",
+        "sailboat": "Ụgbọ mmiri nwere ikuku n'elu mmiri.",
+        "lighthouse": "Ụlọ ọkụ n'akụkụ oké osimiri.",
+        "rainbow": "Ọkụ agba agba mgbe mmiri gasịrị.",
+        "moon": "Ọnwa n'elu mbara igwe abalị.",
+        "daisies": "Otu ebe daisy n'ahịhịa.",
+        "rowing-boat": "Ụgbọ mmiri ejiri oar akwọ n'elu mmiri jụụ.",
+        "potted-plant": "Osisi akwụkwọ ndụ n'ime ite."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Gbanwenụ ọnụ. Pịa akụkụ e gbagburu, mgbe ahụ pịa ebe efu iji tinye ya ebe ahụ. Ihe ọ bụla ị na-eme echekwabeghị ma ọ bụ zipu.",
+      "people": [
+        "Onye mbụ",
+        "Onye abụọ"
+      ],
+      "marks": [
+        "okirikiri",
+        "square"
+      ],
+      "turn": "Ọ bụ oge gị, {person|lower}.",
+      "marked": "Akụkụ gị nwere akara {mark}.",
+      "boardLabel": "Bọọdụ a na-ekekọrịta",
+      "placeEmpty": "Oghere {n}, efu",
+      "placeFilled": "Oghere {n}, {picture|lower}, {person|lower} tinyere ya",
+      "trayHeading": "Akụkụ e gbagburu",
+      "chosenLabel": "Ahọpụtara",
+      "chosen": "{picture} ahọpụtara. Ugbu a pịa ebe efu.",
+      "unchosen": "Akụkụ e gbagburu ahọpụtaghị ọzọ.",
+      "needCutout": "Họrọ akụkụ e gbagburu mbụ, mgbe ahụ pịa ebe efu.",
+      "filled": "Oghere {n} nwere foto ugbu a. Họrọ oghere efu.",
+      "placed": "{picture} dị n'oghere {n}. Ọ bụ oge {next|lower}.",
+      "full": "Oghere niile nwere foto. Wepụ otu iji gbanwee ya, ma ọ bụ malite ọzọ.",
+      "pass": "Gafee",
+      "passed": "Igafe bụ ihe ọma. Ọ bụ oge gị, {person|lower}.",
+      "takeBack": "Weghachi akụkụ ikpeazụ",
+      "takeBackPass": "Weghachi igafe ahụ",
+      "tookBack": "Akụkụ ahụ ewepụtara azụ. Ọ bụ oge gị, {person|lower}.",
+      "tookBackPass": "Igafe ahụ ewepụtara azụ. Ọ bụ oge gị, {person|lower}.",
+      "restarted": "Bọọdụ ahụ agbaala efu. Ọ bụ oge gị, {person|lower}.",
+      "putBack": "Weghachi ya",
+      "putBackDone": "Akụkụ ndị ahụ alaghachiri n'bọọdụ ahụ.",
+      "another": "Otu ụdị foto ọzọ",
+      "anotherSet": "Otu ụdị akụkụ e gbagburu ọhụrụ dị n'ọkpọ ahụ. Akụkụ ndị dị n'bọọdụ ahụ ka ha nọ ebe ha nọ.",
+      "print": "Bipụta bọọdụ ahụ",
+      "sheetTitle": "Bọọdụ collage",
+      "sheetHow": "Gbaa foto ndị ahụ, gbanwenụ ọnụ n'ịtinye ha n'bọọdụ ahụ. Otu onye okenye nwere ike igbaa ha.",
+      "sheetTray": "Foto ndị a ga-agbaa"
+    },
+    "gardenPlanner": {
+      "guidance": "Pịa foto, mgbe ahụ pịa ubi iji tinye ya ebe ahụ. Pịa ubi nwere foto, mgbe ihe ọ bụla ahọpụtaghị, iji hichapụ ya.",
+      "bedsLabel": "Ubi ogige ahụ",
+      "bedEmpty": "Ubi {n}, efu",
+      "bedFilled": "Ubi {n}, {picture|lower}",
+      "plantsHeading": "Osisi",
+      "extrasHeading": "Ihe ndị ọzọ n'ogige",
+      "chosenLabel": "Ahọpụtara",
+      "chosen": "{picture} ahọpụtara. Ugbu a pịa ubi.",
+      "unchosen": "Ahọpụtaghị foto ọ bụla.",
+      "needPicture": "Họrọ foto ka mbụ, mgbe ahụ pịa otu ogbe ubi.",
+      "planted": "{picture} dị n'ogbe {n}.",
+      "replaced": "{picture} na-ewere ebe foto dị n'ogbe {n} nọ.",
+      "cleared": "Ogbe {n} agbaala efu. Weghachi ya ma ọ bụrụ na ị chọrọ foto ahụ ọzọ.",
+      "restarted": "Ogbe niile agbaala efu.",
+      "putBack": "Weghachi ya",
+      "putBackDone": "Foto ndị ahụ alaghachila n'ogbe ha.",
+      "summaryHeading": "Ubi m",
+      "summary": "Atụmatụ gị nwere {list}.",
+      "summaryNone": "Ka ọ dị ugbu a, foto adịghị n'ogbe ọ bụla.",
+      "and": "na",
+      "print": "Bipụta atụmatụ ahụ",
+      "sheetTitle": "Atụmatụ ubi anyị",
+      "sheetHow": "Ogbe ndị ahụ na-egosi foto ndị a họrọ n'ihe nkiri. Dee n'ogbe ndị efu ma ọ bụrụ na ịchọrọ.",
+      "sheetNotes": "Ndetu",
+      "notice": "Nke a bụ atụmatụ foto iji kwurịta, ọ bụghị ndụmọdụ ịkụ ihe."
+    },
+    "coloringWall": {
+      "guidance": "Họrọ foto na ọnụ ọgụgụ peeji. Bipụta mgbidi ahụ, mmadụ ọ bụla na-ese otu peeji ma ọ bụ karịa. Enweghị oge, ihe ọ bụla a na-enyocha ma ọ bụ idebe.",
+      "pictureLegend": "Foto",
+      "sizeLegend": "Ọnụ ọgụgụ peeji",
+      "sizes": {
+        "2x2": "peeji 4 (2 na 2)",
+        "3x2": "peeji 6 (3 na 2)",
+        "3x3": "peeji 9 (3 na 3)"
+      },
+      "previewLabel": "{picture|lower} ahụ ka a kewara ka ọ bụrụ peeji {n}, {across} n'akụkụ na {down} n'ogologo. Peeji ọ bụla nwere akara n'akụkụ ya.",
+      "previewCaption": "Foto ahụ nwere ahịrị peeji na akara ka e sere n'elu ya.",
+      "labelsNote": "A na-eso mkpụrụedemede n'elu mgbidi, ọnụ ọgụgụ na-eso n'akụkụ ya, ya mere A1 bụ peeji dị n'elu aka ekpe.",
+      "wallHeading": "Otu esi ejikọta mgbidi ahụ",
+      "steps": [
+        "Bipụta peeji niile. Peeji mbụ bụ usoro a na maapụ mgbidi ahụ.",
+        "Mmadụ ọ bụla na-were otu peeji ma ọ bụ karịa ma sie ya agwa.",
+        "Agba na ụdị ga-adabara ọnụ anaghị adị mkpa. Peeji ọ bụla bụ akụkụ nke otu foto.",
+        "Tọọ peeji ndị ahụ site na akara ha, mgbe ahụ jikọta ha site na tepu n'azụ.",
+        "Tinye mgbidi ahụ n'ebe onye ọ bụla hụrụ ya."
+      ],
+      "mapLabel": "Maapụ mgbidi: ahịrị {down}, nke ọ bụla nwere peeji {across}, akara site na A1 ruo {last}.",
+      "edgeNote": "Akara ahịrị akpụkpọ ahụ na-egosi ókè nke peeji ọ bụla. Tọọ peeji ndị ahụ akụkụ na akụkụ, ma ọ bụ kpuchie ụfọdụ.",
+      "pictureLine": "Foto: {picture}. Mgbidi a bụ peeji {n}: {across} n'akụkụ na {down} n'ogologo.",
+      "print": "Bipụta mgbidi ahụ"
+    },
+    "findTogether": {
+      "guidance": "Na-agbanwe ọrụ. N'oge gị, tụgharịa kaadị abụọ iji chọọ otu ụdị ọ bụla. Chọpụtanụ ụdị ndị ahụ ọnụ.",
+      "sizeLegend": "Ọnụ ọgụgụ kaadị",
+      "size": "kaadị {n}",
+      "viewLegend": "Otu esi egwu ya",
+      "viewShowing": "Gwuo na foto na-egosi",
+      "viewHidden": "Kaadị ka ọ na-ele ala",
+      "people": [
+        "Mmadụ nke mbụ",
+        "Mmadụ nke abụọ"
+      ],
+      "turn": "Ọrụ: {person}",
+      "turnDone": "Achọtala ụdị niile.",
+      "tally": "Ụdị ndị achọtara ọnụ: {n}",
+      "cardNamed": "{name}, kaadị {n}",
+      "cardFaceDown": "Kaadị {n}, na-ele ala",
+      "first": "{name}. Ugbu a tụgharịa kaadị nke abụọ.",
+      "found": "{name}: ụdị, achọtara ọnụ. Ugbu a bụ oge {next|lower}.",
+      "allTogether": "Ịchọtala ụdị niile ọnụ.",
+      "different": "{a} na {b} dị iche. Were oge gị, mgbe ahụ pịa Weghachi ha azụ.",
+      "waiting": "Pịa Weghachi ha azụ mgbe ị dịrị njikere. Mgbe ahụ, ọrụ ga-agafe.",
+      "turnedBack": "Ewegharịala ha azụ. Ugbu a bụ oge {person|lower}.",
+      "passed": "Ịgafe bụ ihe kwesiri ekwesi. Ugbu a bụ oge {person|lower}.",
+      "turnBack": "Weghachi ha azụ",
+      "pass": "Gafee",
+      "playAgain": "Gwuo ọzọ"
+    },
+    "drawingDuet": {
+      "guidance": "Na-agbanwe ọrụ, otu ahịrị nke ọ bụla, mgbe ahụ nyefee ihe ederede. Onye ọ bụla nwere ike igafe. Enweghị ihe a na-ezipụ ebe ọ bụla. Foto na-apụ ihu duo a naanị ma ọ bụrụ na ị chekwara ya.",
+      "people": [
+        "Mmadụ nke mbụ",
+        "Mmadụ nke abụọ"
+      ],
+      "colorLegend": "Agba {person}",
+      "colors": [
+        "Odo",
+        "Oroma",
+        "Akwụkwọ ndụ",
+        "Anụnụ"
+      ],
+      "turn": "Oge {person}",
+      "penColor": "Agba ihe ederede: {color}.",
+      "canvasLabel": "Foto e kerịtara ọnụ, ahịrị {n} ruo ugbu a",
+      "canvasLabelOne": "Foto e kerịtara ọnụ, naanị ahịrị {n} ruo ugbu a",
+      "keys": "Igodo akụkụ na-akwaga aka ntụ ihe ederede n'elu foto. Space na-etinye ihe ederede ala ma ọ bụ welie ya.",
+      "penDown": "Tinye ihe ederede ala",
+      "penUp": "Welie ihe ederede",
+      "pass": "Nyefee ihe ederede",
+      "passed": "Ịgafe bụ ihe kwesiri ekwesi. Oge gị ugbu a, {person|lower}.",
+      "takeBack": "Wepụ ahịrị m ikpeazụ",
+      "tookBack": "Ewepụla ahịrị ikpeazụ nke {person|lower}.",
+      "noLine": "Enweghị ahịrị nke {person|lower} iwepụ.",
+      "restarted": "Akwụkwọ ahụ agbaala efu. Onye mbụ nwere oge. Weghachi ya ma ọ bụrụ na ọ bụghị ihe ị chọrọ.",
+      "putBack": "Weghachi ya",
+      "restored": "Ahịrị ndị ahụ alaghachila dịka ha dị na mbụ.",
+      "save": "Chekwaa foto",
+      "saved": "Foto gị dị njikere. Jiri njikọ nbudata ahụ idebe ya n'ngwaọrụ a.",
+      "download": "Budata drawing-duet.png",
+      "print": "Bipụta ụdị akwụkwọ",
+      "sheetTitle": "Ihe ederede abụọ",
+      "paperRules": "Mmadụ abụọ, otu akwụkwọ, pen abụọ. Na-agbanwe ọrụ: otu ahịrị ma ọ bụ ụdị ọ bụla, mgbe ahụ nyefee pen. Onye ọ bụla nwere ike igafe. Enweghị foto ziri ezi."
+    },
+    "colorWash": {
+      "guidance": "Tụpụ agba nwayọ n'akwụkwọ ahụ, otu mịlị ọ bụla ka otu. Welie brọọsh iji kwụsị, kwụsị mgbe ọ bụla ịchọrọ. Enweghị ihe a na-echekwa ma ọ bụ zipụ.",
+      "colorLegend": "Agba mịlị",
+      "sizeLegend": "Nha brọọsh",
+      "colors": [
+        "Odo",
+        "Oroma",
+        "Akwụkwọ ndụ",
+        "Anụnụ"
+      ],
+      "sizes": {
+        "wide": "Sara mbara",
+        "veryWide": "Sara mbara nke ukwuu"
+      },
+      "color": "Agba mịlị: {color}.",
+      "brushDown": "Tinye brọọsh ala",
+      "brushUp": "Welie brọọsh",
+      "keys": "Igodo akụkụ na-akwaga mgbanaka brọọsh n'akwụkwọ. Space na-etinye brọọsh ala ma ọ bụ welie ya.",
+      "canvasLabel": "Akwụkwọ nwere mịlị agba nwayọ",
+      "fresh": "Akwụkwọ ọhụrụ",
+      "freshMessage": "Akwụkwọ ọhụrụ.",
+      "putBack": "Weghachi ya",
+      "restored": "Akwụkwọ ahụ alaghachila."
+    },
     "sortTogether": {
       "guidance": "Pịa onyonyo, wee pịa nkata ọ bụ nke ya.",
       "restart": "Onyonyo ọhụrụ",
@@ -70,6 +717,10 @@
       "hint": "{name|lower} nwere ike ịbanye n'\"{basket}\". Pịa nkata ahụ ka ị tinye ya ebe ahụ.",
       "placed": "{name|lower} nọ n'\"{basket}\".",
       "sorted": "Ihe niile ahazila. Lekọọ nkata ndị ahụ ọnụ, ma ọ bụ nwaa isiokwu ọzọ.",
+      "largerTargets": "Ebe ịtụ ihe ka ukwuu",
+      "largerOn": "Ebe ịtụ ihe ka ukwuu na-arụ ọrụ. Ihe adịghị akwaga.",
+      "largerOff": "Ebe ịtụ ihe ka ukwuu akwụsịla. Ihe adịghị akwaga.",
+      "largerOnNewRound": "Ebe ịtụ ihe ka ukwuu na-arụ ọrụ, nwere akpa abụọ. Ebe a bụ foto ọhụrụ iji hazie.",
       "basket": {
         "other": "Nkata {basket}, onyonyo {count} n'ime ya"
       }
@@ -97,6 +748,18 @@
       },
       "guideAlt": "Onyonyo niile: {name}",
       "guideText": "Otu a ka onyonyo na-adị mgbe ọ zuru ezu.",
+      "ownChoose": "Jiri foto gị",
+      "ownChange": "Họrọ foto ọzọ",
+      "ownBack": "Laghachi na foto anyị",
+      "ownPrivacy": "Foto gị na-anọ n'ngwaọrụ a. Enweghị ibudata ya ma ọ bụ idebe ya.",
+      "ownConsent": "Jiri foto gị. Jụọ tupu ị jiri foto nke onye na-enweghị ike ikwu ee.",
+      "ownWorking": "Na-akwadebe foto gị.",
+      "ownNotUsable": "Enweghị ike iji faịlụ ahụ. Họrọ faịlụ foto, dị ka JPEG ma ọ bụ PNG.",
+      "ownAlt": "Foto gị",
+      "ownPiece": "Akụkụ {n}, {place}",
+      "ownWhole": "Foto gị ejupụtala ọzọ. Gbanwee ya ọzọ mgbe ọ bụla ịchọrọ.",
+      "ownSheetTitle": "Foto gị n'akụkụ",
+      "ownSheetHow": "Gbutu n'akara ahịrị ahụ. Gwakọta akụkụ ndị ahụ, mgbe ahụ gbanwee akụkụ abụọ n'otu oge ruo mgbe foto ejupụtara.",
       "piece": "Mpempe: {place}",
       "pieceInPlace": ", n'ebe ziri ezi",
       "piecePickedUp": ", e weere ya",
@@ -185,6 +848,14 @@
       "guidance": "Gụọ kaadị ahụ n'olu dara ụda. Enweghị azịza ziri ezi.",
       "position": "Kaadị {n} n'ime {total}",
       "themeLegend": "Isiokwu",
+      "showPrompt": "Gosi ihe mkpali mkparịta ụka",
+      "bigPicture": "Foto buru ibu, maka otu",
+      "passNote": "Onye ọ bụla nwere ike igafe.",
+      "groupTitle": "Ịgafe kaadị n'otu",
+      "groupSit": "Nọdụ n'okirikiri ebe onye ọ bụla hụrụ foto ahụ. Onye na-ejide kaadị, ma ọ bụ ngwaọrụ nwere foto buru ibu, na-agụ ihe mkpali ahụ n'olu mbụ.",
+      "groupPass": "Mgbe ahụ nyefee kaadị ahụ onye ọzọ. Onye ọ bụla na-ekwu okwu ma ọ bụ abụ gbasara foto ahụ, mgbe ahụ gafee ya.",
+      "groupNoSpeech": "Inyefe kaadị ahụ ka a na-enye ikike mgbe niile. Onye ọ bụla nwere ike igafe na-ekwughị ihe ọ bụla, na onye ọ bụla anaghị achọ ịkọ ihe kpatara ya.",
+      "groupEnd": "Nzọụkwụ a na-agwụ mgbe kaadị ahụ agafeela gburugburu, ma ọ bụ mgbe ndị otu ahụ achọghị ọzọ. Ọ dịghị onye na-emeri. Kwụsị mgbe ọ bụla ndị otu chọrọ.",
       "next": "Kaadị na-esote",
       "previous": "Kaadị gara aga",
       "print": "Bipụta kaadị niile",
@@ -243,6 +914,20 @@
       "started": "Malitere. Kuo ume n'ime ka gburugburu na-eto.",
       "stopped": "Kwụsịrị.",
       "finished": "Nke ahụ bụ iku ume nwayọọ isii. Malite ọzọ mgbe ọ bụla ịchọrọ."
+    },
+    "storyChain": {
+      "guidance": "Na-agbanwe ọnụ: otu ahịrịokwu onye ọ bụla, tinyekwa onyonyo na-esote.",
+      "passNote": "Kwuo ahịrịokwu gị n'olu. Ọ dịghị ihe a na-ede ma ọ bụ echekwa. Onye ọ bụla nwere ike ịgafe.",
+      "chainLabel": "Agbụ ruru ugbu a",
+      "item": "Onyonyo {n}: {name}",
+      "add": "Tinye onyonyo",
+      "fullAdd": "Agbụ ahụ juputara. Malite agbụ ọhụrụ",
+      "newChain": "Malite agbụ ọhụrụ",
+      "takeOff": "Wepụ nke ikpeazụ",
+      "added": "{name|lower} bụ ugbu a na njedebe agbụ ahụ.",
+      "removed": "{name|lower} apụwo na agbụ ahụ.",
+      "fresh": "Agbụ ọhụrụ, malite site na {name|lower}.",
+      "full": "Agbụ ahụ nwere onyonyo 8 niile. Kọọrọ akụkọ ahụ niile, ma ọ bụ malite agbụ ọhụrụ."
     }
   },
   "pictures": {
@@ -278,74 +963,96 @@
     "balloon": "Balụụn",
     "lighthouse": "Lighthouse",
     "sun": "Anyanwụ",
-    "moon": "Onwa na kpakpando"
+    "moon": "Onwa na kpakpando",
+    "teapot": "Ite tii",
+    "apple-pie": "Paị apụl",
+    "honey-jar": "Ite mmanụ ọma",
+    "boiled-egg": "Akwa esi n'ime iko",
+    "toaster": "Toster",
+    "cheese": "Chiiz",
+    "milk-jug": "Ite mmiri ara",
+    "cupcake": "Keeki ntakịrị",
+    "orange": "Oroma",
+    "grapes": "Ọtụtụ grepu",
+    "watermelon": "Watamelọn",
+    "pineapple": "Painapụl",
+    "peach": "Pichi",
+    "rose": "Rosi",
+    "daisies": "Daizi",
+    "mushroom": "Mushụrụm",
+    "wheelbarrow": "Wilbarọ",
+    "birdhouse": "Ụlọ nnụnụ",
+    "cactus": "Kactọs n'ime ite",
+    "acorn": "Akọn",
+    "autumn-leaf": "Akwụkwọ mgbụsị",
+    "rabbit": "Okpa",
+    "duck": "Ẹnụ",
+    "hen": "Ọkụkọ",
+    "sheep": "Atụrụ",
+    "owl": "Ọwụwa",
+    "ladybird": "Ladybọọd",
+    "snail": "Snel",
+    "frog": "Ọkpọkpọ",
+    "bee": "Anwụ",
+    "clock": "Elekere",
+    "vase-of-flowers": "Ite ifuru",
+    "radio": "Redio ochie",
+    "books": "Ọtụtụ akwụkwọ",
+    "candle": "Kandụl",
+    "glasses": "Iko anya ọgụgụ",
+    "telephone": "Ekwentị",
+    "ball-of-wool": "Bọọlụ ajị",
+    "straw-hat": "Okpu anyanwụ",
+    "train": "Ụgbọ oloko",
+    "bus": "Ọtọbọs",
+    "airplane": "Ụgbọ elu",
+    "suitcase": "Akpa njem",
+    "tractor": "Tractọ",
+    "rowing-boat": "Ụgbọ mmiri",
+    "rainbow": "Agbara",
+    "rain-cloud": "Igwe mmiri",
+    "snowflake": "Snowflek",
+    "kite": "Kaịt",
+    "sunrise": "Anyanwụ na-apụta n'elu ugwu",
+    "decorated-keepsake-box": "Igbe ihe ncheta e chọrọ mma",
+    "painted-plant-pot": "Ite osisi agba nwere ahịhịa",
+    "repeating-pattern-sheet": "Akwụkwọ nwere ụdị ihe a na-emegharị",
+    "music-drawn-lines": "Ahịrị e dere n'egwu",
+    "paper-boat-afloat": "Ụgbọ mmiri akwụkwọ na-eru mmiri",
+    "folded-towel-stack": "Akwa ịsa ahụ e kpọchiri",
+    "hand-massage-with-lotion": "Aka a na-ahịa mmanụ ahụ",
+    "open-photo-album": "Album foto emeghere",
+    "button-flower-card": "Ifuru bọtọn n'ime kaadị",
+    "blue-torn-paper-collage": "Ihe akwụkwọ acha anụ e gbajiri",
+    "family-tree-of-hands": "Osisi ezinụlọ site n'aka",
+    "open-greeting-card": "Kaadị ekele mepere nwere obi",
+    "lavender-sachet": "Akpa lavender e ji ribọn kechie",
+    "memory-collage-of-photos": "Ihe ngwakọta foto ezinụlọ",
+    "paper-chain-garland": "Agịga akwụkwọ",
+    "open-songbook-with-notes": "Akwụkwọ abụ emeghere nwere egwu",
+    "photo-postcard-with-stamp": "Kaadị foto nwere stampụ",
+    "pine-cone-bird-feeder": "Ebe nri nnụnụ site n'osisi pine",
+    "playlist-phone-and-card": "Ekwentị na kaadị egwu",
+    "sealed-rice-shaker": "Ihe osikapa e mechiri",
+    "texture-board-with-scraps": "Bọọdụ nwere ụdị ihe dị iche iche",
+    "painted-garden-stone": "Okwute ogige e ji agba",
+    "shared-painted-canvas": "Akwa agba e kekọrịtara",
+    "watercolor-washes-sheet": "Agba mmiri n'akwụkwọ",
+    "seedling-in-pot": "Osisi ọhụrụ n'ime ite",
+    "pressed-leaves-in-book": "Akwụkwọ e pịrị n'ime akwụkwọ",
+    "printed-leaves-sheet": "Akwụkwọ nwere akara akwụkwọ",
+    "pinch-pot-clay-bowl": "Ite e ji aka kpụọ",
+    "table-sketch-pencil": "Ihe pensụl nke iko e dere",
+    "buttons-in-muffin-tin": "Bọtọn e hazịrị n'ite keeki",
+    "family-recipe-book": "Akwụkwọ nri ezinụlọ",
+    "drum-with-beat-marks": "Ọkpọ tebụl na osisi ịkpọ",
+    "torn-paper-flower": "Ifuru akwụkwọ e gbajiri",
+    "window-with-birds": "Windo nwere nnụnụ",
+    "woven-paper-mat": "Mkpuchi akwụkwọ e kpụrụ",
+    "yarn-ball-with-thread": "Bọọlụ ajị na eriri",
+    "letter-and-envelope": "Akwụkwọ ozi n'ime envelọp"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Onye ajụjụ anaghị efu",
-        "end": "ụzọ",
-        "others": [
-          "ụlọ",
-          "ahịa"
-        ],
-        "prompt": "Kọọrọ m oge ị jụrụ onye ụzọ ma ọ bụ rịọ enyemaka."
-      },
-      {
-        "start": "Nwanne di na",
-        "end": "mba",
-        "others": [
-          "ụlọ",
-          "ubi"
-        ],
-        "prompt": "Kọọrọ m banyere ezinụlọ gị ma ọ bụ ndị agbata obi gị."
-      },
-      {
-        "start": "Eziokwu bụ",
-        "end": "ndụ",
-        "others": [
-          "ọkụ",
-          "ụzọ"
-        ],
-        "prompt": "Gịnị bụ ihe ị na-asọpụrụ n'ime mmadụ?"
-      },
-      {
-        "start": "Onye kwe, chi ya",
-        "end": "ekwe",
-        "others": [
-          "eme",
-          "eche"
-        ],
-        "prompt": "Kọọrọ m oge ị kwenyere n'ihe ma ọ gaa nke ọma."
-      },
-      {
-        "start": "Aka aja aja na-ebute ọnụ",
-        "end": "mmanụ mmanụ",
-        "others": [
-          "mmiri mmiri",
-          "nnu nnu"
-        ],
-        "prompt": "Gịnị bụ ọrụ ị hụrụ n'anya ịrụ n'aka gị?"
-      },
-      {
-        "start": "Nwata kwọọ aka, o soro okenye rie",
-        "end": "nri",
-        "others": [
-          "mmiri",
-          "ahịa"
-        ],
-        "prompt": "Kọọrọ m banyere okenye ị na-asọpụrụ."
-      },
-      {
-        "start": "Egbe bere, ugo",
-        "end": "bere",
-        "others": [
-          "fe",
-          "nọ"
-        ],
-        "prompt": "Gịnị bụ ihe ị chere na onye ọ bụla kwesịrị inweta?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABDEHIKLMNORSTU",
@@ -737,6 +1444,17 @@
             "N'èzí"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Mkpụrụ osisi",
+        "animals": "Anụmanụ",
+        "travel": "Ụzọ njem",
+        "flowers": "Ifuru",
+        "hot-drinks": "Ihe a na-aṅụ ọkụ",
+        "weather": "Ụdị ihu igwe",
+        "baked": "Ihe e ji oven esi"
       }
     }
   }

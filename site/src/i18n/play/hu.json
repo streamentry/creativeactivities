@@ -5,6 +5,13 @@
       "stopReading": "Felolvasás leállítása",
       "region": "Játék",
       "restart": "Kezdés elölről",
+      "rest": "Most pihenjen",
+      "restingTitle": "Pihenés",
+      "restingText": "Vegyen annyi időt, amennyire szüksége van. Az oldal megőrzi, hol tartott.",
+      "resume": "Folytassa",
+      "placeText": "Legutóbb félbehagyta. Folytathatja onnan, vagy kezdheti elölről.",
+      "placeResume": "Folytassa onnan",
+      "placeFresh": "Kezdje elölről",
       "soundOn": "Halk hangok bekapcsolva",
       "soundOff": "Halk hangok kikapcsolva",
       "done": "Mára elég",
@@ -43,7 +50,19 @@
       "viewShowing": "Látható képek",
       "viewHidden": "Rejtett képek",
       "playAgain": "Új játék új képekkel",
-      "talk": "Beszélgessenek együtt a képekről"
+      "talk": "Beszélgessenek együtt a képekről",
+      "modeLegend": "Melyik képek",
+      "modePlay": "Bármelyik képek",
+      "modeDaily": "A mai kártya",
+      "dayLegend": "Melyik nap",
+      "dayHelp": "Mindenki ugyanazokat a képeket kapja ugyanazon a napon. A korábbi napok is itt vannak, és ha kihagy egy napot, nincs belőle hátrány.",
+      "guidanceDaily": "A mai kártyán négy pár van. Érintse meg az egyik képet, majd azt, amelyik hozzá illik.",
+      "restartDaily": "Kezdje újra ezt a kártyát",
+      "copy": "Másolja ki ezt a sort",
+      "copied": "Kimásolva. Semmi sincs elküldve sehová.",
+      "calendarTitle": "A mai kártyák, {month}",
+      "calendarHelp": "Minden napon mindenkinek ugyanaz a négy kép jut. Nincs pontozás, és egyetlen napot sem jelölünk kihagyottként.",
+      "calendarVersion": "Verzió: {date}. A képek ugyanazok mindenki számára ugyanazon a napon."
     },
     "choose": {
       "countLegend": "Hány kép",
@@ -62,6 +81,635 @@
       "shadowAlt": "Egy árnyék, amelyhez párt keresünk",
       "foundAlt": "Az árnyék gazdája: {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Tippek",
+      "hintOn": "Tipp egy szünet után",
+      "hintOff": "Nincs tipp",
+      "guidance": "Keresse meg a {n} képet, amelyek összetartoznak, és érintse meg mindegyiket.",
+      "countLegend": "Hány kép",
+      "count": "{n} kép",
+      "found": "Igen, ez ebbe a csoportba tartozik: {name|lower}.",
+      "elsewhere": "Ez más valamihez tartozik: {name|lower}. Nyugodtan gondolkodjon rajta.",
+      "hint": "Tipp: keressen ilyeneket: {theme|lower}.",
+      "together": "Ezek összetartoznak: {theme}.",
+      "shown": "Itt a csoport: {theme}.",
+      "groupName": "Együtt: {theme}",
+      "show": "Mutassa meg a csoportot",
+      "next": "Újabb készlet"
+    },
+    "oddOneOut": {
+      "hintLegend": "Tippek",
+      "hintOn": "Tipp egy szünet után",
+      "hintOff": "Nincs tipp",
+      "guidance": "Keresse meg azt a képet, amely nem illik a többihez, és érintse meg.",
+      "countLegend": "Hány kép",
+      "count": "{n} kép",
+      "belongs": "Ez a többihez illik: {name|lower}. Nyugodtan gondolkodjon rajta.",
+      "found": "Igen, ez a kakukktojás: {name|lower}. A többi: {theme|lower}.",
+      "shown": "Íme: {name|lower}. A többi: {theme|lower}.",
+      "hint": "Tipp: ezek közül {n} ilyen: {theme|lower}.",
+      "others": "A többi: {theme}",
+      "show": "Mutassa meg",
+      "next": "Újabb készlet"
+    },
+    "seatedToss": {
+      "guidance": "Üljenek le egy asztalhoz, és felváltva dobjanak puha babzsákot a nagy célpontba. A pontokat papíron, együtt vezessék.",
+      "stepsHeading": "Hogyan zajlik",
+      "steps": [
+        "Nyomtassák ki a céltáblát és a pontozólapot, és fektessék laposan az asztalra, közéjük.",
+        "Üljenek kényelmesen, az asztal két oldalán. Felváltva dobjanak egyet-egyet óvatosan, vagy ha nem szeretnének, kihagyhatják a sorukat.",
+        "Ha a dobás valamelyik körbe esik, aki dobott, egy négyzetet jelöl be a saját oszlopában, annak a körnek a sorában.",
+        "Ha szeretnék, a végén együtt nézhetik meg a jelöléseket. Senkinek nem kell semmit összeadnia.",
+        "Bármikor abbahagyhatják, ha valamelyikük szeretné."
+      ],
+      "safetyHeading": "Biztonság",
+      "safetyLine": "Csak varrottan zárt huzatú babzsákot vagy begöngyölt zoknit használjanak, maradjanak ülve, soha ne dobjanak arc felé, és legyen közelben felnőtt. A kis alkatrészek fulladást okozhatnak.",
+      "flags": [
+        "Nem ajánlott 3 év alatt: kis alkatrészek",
+        "Szájtól távol tartandó"
+      ],
+      "safety": [
+        "Válasszanak varrottan zárt huzatú babzsákot, vagy tekerjenek össze egy tiszta zoknit. Előtte nézzék meg, nincs-e rajta lyuk vagy laza varrás, hogy semmi ne tudjon kiesni belőle.",
+        "A bab, a rizs és más apró töltelékek fulladást okozhatnak. Tartsák távol kisgyerekektől és mindazoktól, akik szájukba veszik a dolgokat.",
+        "Maradjanak karnyújtásnyi távolságban, és figyeljék szorosan, ha fennáll a veszélye, hogy valami a szájba kerül.",
+        "Maradjanak ülve. Finoman, alacsonyan dobjanak az asztalon lévő célpont felé, soha ne arc felé."
+      ],
+      "previewLabel": "A nyomtatott lap: három körből álló céltábla, a körök kívülről befelé haladva: Közel, Közép és Távol, valamint pontozótábla, amelyen minden résztvevőnek van oszlopa, és minden körhöz egy sor üres négyzet tartozik.",
+      "sheetHow": "Fektessék laposan a lapot közéjük. Ha a dobás valamelyik körbe esik, jelöljenek be egy négyzetet a saját oszlopukban, annak a körnek a sorában.",
+      "rings": [
+        "Közel",
+        "Közép",
+        "Távol"
+      ],
+      "people": [
+        "Első résztvevő",
+        "Második résztvevő"
+      ],
+      "ringHeading": "Kör",
+      "print": "Céltábla és pontozólap nyomtatása"
+    },
+    "seasonalPack": {
+      "guidance": "Válasszanak hónapot, nyomtassák ki hozzá a három papírrejtvényt, majd oldják meg egyet, kettőt vagy mind a hármat együtt.",
+      "monthLegend": "Hónap kiválasztása",
+      "months": [
+        "Január",
+        "Február",
+        "Március",
+        "Április",
+        "Május",
+        "Június",
+        "Július",
+        "Augusztus",
+        "Szeptember",
+        "Október",
+        "November",
+        "December"
+      ],
+      "monthNote": "Minden hónapnak saját képei vannak. Az oldal ezzel a hónappal nyílik meg, de bármelyik másikat is kiválaszthatják.",
+      "restDay": "Ma pihenőnap van",
+      "restLine": "Ma nincs rejtvény. A pihenőnap is jó nap.",
+      "previewHeading": "A három rejtvény",
+      "puzzles": {
+        "pairs": {
+          "title": "Párok összeillesztése",
+          "how": "Húzzanak vonalat a felső sor minden képétől az alsó sor ugyanazon képéig.",
+          "describe": "Két sor, ugyanaz a négy kép, más sorrendben."
+        },
+        "different": {
+          "title": "Melyik különbözik?",
+          "how": "Karikázzák be azt a képet, amely eltér a másik háromtól.",
+          "describe": "Négy kép egy sorban. Három ugyanaz, egy pedig más."
+        },
+        "color": {
+          "title": "Színezés",
+          "how": "Színezzék ki a képet, ahogy tetszik, zsírkrétával vagy színes ceruzával.",
+          "describe": "Egy nagy kép, amelyet ki lehet színezni."
+        }
+      },
+      "print": "Nyomtassák ki ennek a hónapnak a csomagját",
+      "sheetHow": "Egy oldalt nyomtassanak ki. Egyet, kettőt vagy mind a három rejtvényt oldják meg, tetszőleges sorrendben.",
+      "printFooter": "Egyet, kettőt vagy mind a hármat oldják meg. Bármikor abbahagyhatják."
+    },
+    "decorateACard": {
+      "guidance": "Válasszanak alkalmat, majd díszítsenek együtt kártyát zsírkrétával vagy tollal. Nincs helyes kártya.",
+      "occasionLegend": "Alkalom kiválasztása",
+      "occasions": {
+        "birthday": {
+          "label": "Születésnap",
+          "words": "Boldog születésnapot"
+        },
+        "thank-you": {
+          "label": "Köszönet",
+          "words": "Köszönöm"
+        },
+        "thinking-of-you": {
+          "label": "Gondolok rád",
+          "words": "Gondolok rád"
+        },
+        "new-season": {
+          "label": "Új évszak",
+          "words": "Új évszak"
+        },
+        "just-because": {
+          "label": "Csak úgy",
+          "words": "Csak úgy"
+        }
+      },
+      "stepsHeading": "Hogyan díszítsék együtt",
+      "steps": {
+        "fold": "Nyomtassák ki a kártyát, és hajtsák félbe a szaggatott vonal mentén, hogy az előlap kívülre kerüljön.",
+        "front": "Az egyikük díszíti az előlapot a szöveg körül.",
+        "inside": "A másik a hátlapot díszíti, vagy váltogatják egymást egy oldalon.",
+        "message": "Írjanak üzenetet együtt. Az egyikük írhat, miközben a másik mondja a szavakat.",
+        "stop": "Bármikor abbahagyhatják. Nincs helyes kártya, és az egyszerű is éppen olyan jó."
+      },
+      "materials": "Zsírkrétát, színes ceruzát vagy filctollat használjanak. Semmit nem kell vágni, ragasztani vagy rögzíteni.",
+      "previewLabel": "A félbehajtott kártya előnézete. Az előlapon ez áll: {words}, egyszerű keretben levelekkel és csillagokkal. A hátlapon sorok vannak az üzenetnek, és egy sor a feladónak.",
+      "from": "Tőle",
+      "sheetHow": "Hajtsa félbe a kártyát a szaggatott vonal mentén úgy, hogy az elülső oldala kívül legyen. Az üzenetet a hátoldalra írja.",
+      "rulesHeading": "Két személynek",
+      "sheetRules": [
+        "Váltogassák egymást, vagy osszák meg a munkát: az egyikük díszíti az elülső oldalt, a másik a hátoldalt.",
+        "Az üzenetet írják meg közösen, vagy az egyikük írja le, amit a másik mond.",
+        "Bármelyikük bármikor abbahagyhatja. Nincs helyes kártya."
+      ],
+      "print": "Kártya nyomtatása"
+    },
+    "storyDice": {
+      "guidance": "Nézze meg a képeket, és meséljen el egy történetet ezek felhasználásával, bármilyen sorrendben. Nincs helyes történet.",
+      "countLegend": "Hány kocka",
+      "count": "{n} kocka",
+      "roll": "Újra dobás",
+      "pass": "Kihagyás",
+      "passed": "Kihagyni is rendben van. Kezdhet a következő személy, vagy újra dobhatnak.",
+      "rolled": "Új képek: {names}.",
+      "tapped": "{name}. Kezdje ezzel, vagy bármelyik mással."
+    },
+    "wordPicture": {
+      "guidance": "Érintsen meg egy képet, majd a nevét megnevező szót. Vagy érintsen meg egy szót, majd a hozzá tartozó képet.",
+      "countLegend": "Hány kép",
+      "count": "{n} kép",
+      "picturesGroup": "Képek",
+      "wordsGroup": "Szavak",
+      "readWord": "Felolvasás: {name}",
+      "next": "Új képek",
+      "putBack": "Vissza a helyére",
+      "pickWord": "Most érintse meg a hozzá tartozó szót.",
+      "pickPicture": "Most érintse meg a hozzá tartozó képet.",
+      "fit": "Igen, ez a szó a(z) {name|lower} képéhez tartozik.",
+      "newSet": "Itt van egy új képcsoport.",
+      "restarted": "Újrakezdés. Minden kép és szó újra párosítatlan.",
+      "restored": "Visszatéve. A párosított képek és szavak ismét láthatók.",
+      "all": "Minden szóhoz megvan a képe."
+    },
+    "colorMatch": {
+      "guidance": "Nézze meg a színt és a nevét, majd érintsen meg minden olyan képet, amely ilyen színű.",
+      "target": "A szín: {color|lower}. Érintsen meg minden {color|lower} színű képet.",
+      "countLegend": "Hány kép",
+      "count": "{n} kép",
+      "found": "Igen, a(z) {name|lower} {color|lower}.",
+      "named": "A(z) {name|lower} {color|lower}.",
+      "all": "Ezek az összes {color|lower} kép.",
+      "shown": "Itt vannak a {color|lower} színű képek.",
+      "show": "Mutassa meg",
+      "next": "Másik szín",
+      "names": {
+        "red": "Piros",
+        "orange": "Narancssárga",
+        "yellow": "Sárga",
+        "green": "Zöld",
+        "blue": "Kék"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Érintsen meg egy felet a bal oldalon, majd a jobb oldalon azt a felet, amelyik illik hozzá.",
+      "countLegend": "Hány kép",
+      "count": "{n} kép",
+      "leftGroup": "Bal felek",
+      "rightGroup": "Jobb felek",
+      "left": "A(z) {name|lower} bal fele",
+      "right": "A(z) {name|lower} jobb fele",
+      "joined": "Összeillesztve",
+      "pickRight": "Most érintse meg a jobb oldalon azt a felet, amelyik illik hozzá.",
+      "pickLeft": "Most érintse meg a bal oldalon azt a felet, amelyik illik hozzá.",
+      "fit": "Igen, ez a két rész együtt a(z) {name|lower} képet adja.",
+      "apart": "Ez a két fél nem illik össze. Próbáljon másikat.",
+      "all": "Minden kép egész.",
+      "shown": "Itt vannak a képek összeillesztve.",
+      "show": "Mutassa meg",
+      "next": "Másik készlet"
+    },
+    "colorByNumber": {
+      "guidance": "Válasszon egy színt a jelmagyarázatból, majd töltsön ki vele egy négyzetet. Bármelyik szín megfelel.",
+      "sizeLegend": "Rácsméret",
+      "size": "{n} × {n}",
+      "keyLegend": "Színek",
+      "colors": [
+        "Sárga",
+        "Narancssárga",
+        "Zöld",
+        "Lila"
+      ],
+      "motifs": {
+        "house": "egy ház",
+        "flower": "egy virág",
+        "heart": "egy szív",
+        "tree": "egy fa",
+        "boat": "egy vitorlás",
+        "pot-plant": "egy cserépben lévő növény"
+      },
+      "region": "Képrács, {n} × {n}. Keskeny képernyőn vízszintesen görgethető.",
+      "cell": "Szám: {number}, {row}. sor, {column}. oszlop, {color}",
+      "empty": "üres",
+      "chose": "{name} kiválasztva. Érintsen meg egy négyzetet a kitöltéshez.",
+      "painted": "{name} a {row}. sorban, a {column}. oszlopban.",
+      "sheet": "Minden négyzet a számának megfelelő színű. A lapon ez a kép látható: {name}.",
+      "own": "Minden négyzet ki van töltve. Ez az Ön saját képe.",
+      "fillAll": "Kitöltés a számok szerint",
+      "filledAll": "Minden üres négyzet most a számának megfelelő színű.",
+      "clear": "Törlés",
+      "cleared": "A rács üres.",
+      "next": "Másik kép",
+      "fresh": "Itt van egy másik kép a kiszínezéshez."
+    },
+    "patternMaker": {
+      "guidance": "Érintsen meg egy négyzetet a színének megváltoztatásához. A mintája mellette nő. Amit készít, nem mentjük el és nem küldjük el sehová.",
+      "sizeLegend": "Mintaelem mérete",
+      "size": "{n} × {n}",
+      "keyLegend": "Színek abban a sorrendben, ahogy az érintés változtatja őket",
+      "colors": [
+        "Sárga",
+        "Narancssárga",
+        "Zöld",
+        "Lila"
+      ],
+      "tileLabel": "Az Ön mintaeleme",
+      "region": "Az Ön mintaeleme, {n} × {n}. Keskeny képernyőn vízszintesen görgethető.",
+      "patternLabel": "Az Ön mintája",
+      "pattern": "Az Ön mintája: a mintaelem {n}-szer vízszintesen és {n}-szer függőlegesen ismétlődik.",
+      "square": "{row}. sor, {column}. oszlop, {color}",
+      "changed": "A {row}. sor, {column}. oszlop most {color}.",
+      "cleared": "A mintaelem üres. Visszaállíthatja.",
+      "surprise": "Lepjen meg",
+      "surprised": "Itt van egy új mintaelem. A régit visszateheti.",
+      "putBack": "Visszaállítás",
+      "restored": "Az Ön mintaeleme visszakerült az eredeti állapotába.",
+      "print": "Mintám nyomtatása",
+      "sheetTitle": "Saját mintám"
+    },
+    "buildTogether": {
+      "guidance": "Váltogassák egymást: mindig egy darabot tegyenek egy üres helyre. Mindkettejüknek saját színe van. Amit készítenek, nem mentjük el és nem küldjük el sehová.",
+      "sizeLegend": "Rácsméret",
+      "size": "{n} × {n}",
+      "people": [
+        "Első személy",
+        "Második személy"
+      ],
+      "colorLegend": "{person} színe",
+      "colors": [
+        "Sárga",
+        "Narancssárga",
+        "Zöld",
+        "Lila"
+      ],
+      "inUse": "Használatban",
+      "turn": "Most a {person|lower} következik",
+      "yourColor": "Az Ön színe: {color|lower}.",
+      "built": "Közösen készült el. Ez az a kép, amelyet ketten alkottak.",
+      "gridLabel": "A közös rács",
+      "region": "A közös rács, {n} × {n}. Keskeny képernyőn vízszintesen görgethető.",
+      "cellEmpty": "{row}. sor, {column}. oszlop, üres",
+      "cellFilled": "{row}. sor, {column}. oszlop, {color}, a {person|lower} helyezte el",
+      "placed": "A {row}. sor, {column}. oszlop most {color}. Most a {next|lower} következik.",
+      "placedLast": "A {row}. sor, {column}. oszlop most {color}. Közösen elkészült.",
+      "taken": "A {row}. sor, {column}. oszlopban már van egy darab. Válasszon üres helyet.",
+      "pass": "Kihagyás",
+      "passed": "Kihagyni is rendben van. Most a {person|lower} következik.",
+      "takeBack": "Az utolsó darab visszavétele",
+      "takeBackPass": "A kihagyás visszavonása",
+      "tookBack": "A darab visszavéve. Most a {person|lower} következik.",
+      "tookBackPass": "A kihagyás visszavonva. Most a {person|lower} következik.",
+      "colorChanged": "{person} színe most {color|lower}.",
+      "restarted": "A rács üres. Most a {person|lower} következik.",
+      "print": "A rács nyomtatása",
+      "sheetTitle": "Közös építés",
+      "sheetHelp": "Váltogassák egymást. Minden üres négyzetben mindenki a saját ceruzájával rajzolja meg a saját alakzatát.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Érintsen meg egy darabot, majd a kép azt a helyét, ahová tartozik. Amit készít, nem mentjük el és nem küldjük el sehová.",
+      "hints": "Segédvonalak mutatása",
+      "pictureLine": "Ez egy {picture}.",
+      "pictures": {
+        "house": "ház",
+        "boat": "csónak",
+        "tree": "fa",
+        "fish": "hal",
+        "cat": "macska",
+        "rocket": "rakéta"
+      },
+      "outlineLabel": "A {picture} körvonala. Érintsen meg egy helyet, hogy oda tegye a kiválasztott darabot.",
+      "trayHeading": "A darabok",
+      "pieces": {
+        "large-triangle": "Nagy háromszög",
+        "small-triangle": "Kis háromszög",
+        "square": "Négyzet",
+        "parallelogram": "Paralelogramma",
+        "rectangle": "Téglalap"
+      },
+      "shapes": {
+        "large-triangle": "egy nagy háromszög",
+        "small-triangle": "egy kis háromszög",
+        "square": "egy négyzet",
+        "parallelogram": "egy paralelogramma",
+        "rectangle": "egy téglalap"
+      },
+      "chosenLabel": "Kiválasztva",
+      "spaceEmpty": "{n}. hely, {shape}, üres",
+      "spaceFilled": "{n}. hely, {shape}, a darabja a helyén van. Érintse meg a darab visszavételéhez.",
+      "chosen": "{piece} kiválasztva. Most érintsen meg egy helyet a képen.",
+      "unchosen": "A darab már nincs kiválasztva.",
+      "placed": "A darab a(z) {n}. helyen van.",
+      "complete": "A {picture} kész.",
+      "different": "Ez a darab más alakú, mint ez a hely. Válasszon másik helyet.",
+      "needPiece": "Először válasszon egy darabot a tálcáról.",
+      "filled": "Ezen a helyen már van darab. Koppintson rá, és vegye vissza a darabot.",
+      "tookBack": "A darab visszakerült a tálcára.",
+      "cleared": "A darabok visszakerültek a tálcára. Ha meggondolta magát, tegye vissza.",
+      "restored": "A darabok visszakerültek a képre.",
+      "next": "Ez egy {picture}.",
+      "putBack": "Tegye vissza",
+      "another": "Másik alak",
+      "print": "Nyomtassa ki ezt az alakot",
+      "sheetTitle": "Nyugodt alakzatok",
+      "sheetHow": "Színezze ki a darabokat, vagy vágja ki őket, hogy illeszkedjenek a körvonalhoz. A vágást felnőtt is elvégezheti.",
+      "sheetPieces": "A darabok, a körvonallal azonos méretben"
+    },
+    "picnicPlanner": {
+      "guidance": "Koppintson egy képre, hogy a piknikkosárba kerüljön, és koppintson rá a kosárban, hogy kivegye. A kosárba hat dolog fér.",
+      "guidancePlay": "Koppintson két azonos képre. A képek láthatók maradnak, és semmi sincs időhöz kötve.",
+      "basketHeading": "A kosarunk",
+      "basketLabel": "A piknikkosár",
+      "takeOut": "Vegye ki a kosárból: {picture}",
+      "inBasket": "A kosárban",
+      "foodHeading": "Ételek",
+      "outingsHeading": "Programok",
+      "added": "A {picture} a kosárban van.",
+      "removed": "A {picture} kikerült a kosárból.",
+      "already": "A {picture} már a kosárban van. Koppintson rá ott, hogy kivegye.",
+      "full": "A kosár tele van. Vegyen ki valamit, hogy legyen hely.",
+      "summary": "A piknikünk: {list}.",
+      "summaryNone": "A kosárban még nincs semmi.",
+      "and": "és",
+      "play": "Játsszunk a piknikünkkel",
+      "needTwo": "Először válasszon legalább két dolgot.",
+      "playAgain": "Játsson újra",
+      "back": "Vissza a piknikhez",
+      "print": "Nyomtassa ki a piknik listánkat",
+      "cleared": "A kosár üres.",
+      "notice": "Ez egy terv, amiről beszélgetni lehet. Semmi sincs időhöz kötve, értékelve vagy elmentve.",
+      "sheetTitle": "A piknik listánk",
+      "sheetHow": "Pipálja ki minden dolgot, ahogy becsomagolja. Az üres sorokat arra használja, hogy felírja a többi dolgot, amit még hozni szeretne.",
+      "sheetToPack": "Becsomagolandó"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Válasszon kettőtől tizenkettőig saját fényképet, hogy elkezdhesse a könyvet.",
+      "guidance": "Együtt lehet lapozni a gombokkal vagy a bal és a jobb nyílbillentyűkkel. Ha szeretné, írjon néhány szót a fénykép alá. Amit itt készít, nincs elmentve és nincs elküldve.",
+      "lookGuidance": "Minden oldalt együtt lehet nézegetni. Lehet beszélgetni, vagy csak nézni.",
+      "intro": "Válasszon kettőtől tizenkettőig fényképet erről az eszközről. Mindegyikből a könyv egy oldala lesz, amelyet együtt lehet lapozni.",
+      "consent": "Saját családi fényképeket használjon. Ha valaki olyan fényképét szeretné használni, aki nem tud igent mondani, előbb kérdezze meg.",
+      "privacy": "A fényképei ezen az eszközön maradnak. Nem töltődnek fel és nem mentődnek el.",
+      "choose": "Fényképek kiválasztása",
+      "chooseDifferent": "Más fényképek kiválasztása",
+      "backToBook": "Vissza a könyvhöz",
+      "backToChoose": "Vissza a fényképek kiválasztásához",
+      "needTwo": "Kérjük, válasszon legalább két fényképet.",
+      "usingFirst": "Az első {max} fényképet használjuk.",
+      "cleared": "A könyv üres. Új kezdéshez válasszon fényképeket.",
+      "moved": "A(z) {n}. oldalra léptünk.",
+      "pageOf": "{n}. oldal, összesen {total}",
+      "lookTogether": "Együtt nézés",
+      "leaveLook": "Vissza a könyvhöz",
+      "print": "Nyomtassa ki az emlékkönyvet",
+      "clear": "A könyv törlése",
+      "bookLabel": "A családi emlékkönyv",
+      "pagesLabel": "Lapozás",
+      "previous": "Előző oldal",
+      "next": "Következő oldal",
+      "moveEarlier": "Mozgatás korábbra",
+      "moveLater": "Mozgatás későbbre",
+      "captionLabel": "Néhány szó ehhez az oldalhoz, ha szeretné",
+      "captionHelp": "Legfeljebb 80 karakter. A feliratok csak ezen az oldalon maradnak meg, és az oldal bezárásakor törlődnek.",
+      "sheetTitle": "Az emlékkönyvünk",
+      "sheetHow": "Oldalanként egy fénykép, alatta a hozzá írt szavakkal. Lapozzon sorban, és beszéljen mindegyikről.",
+      "sheetEmpty": "A saját könyv kinyomtatásához válassza ki a fényképeket a játék oldalán, vagy nyomtassa ki ezt az üres oldalt, és ragasszon bele egy kinyomtatott fényképet.",
+      "sheetFrame": "Ide ragasszon egy kinyomtatott fényképet",
+      "sheetWords": "Néhány szó ehhez az oldalhoz",
+      "skipped": {
+        "one": "{n} fájl nem olyan fotó, amelyet fel tudunk használni.",
+        "other": "{n} fájl nem olyan fotó, amelyet fel tudunk használni."
+      }
+    },
+    "quietScene": {
+      "guidance": "Egyszerre egy képet nézzen. Ha készen áll, nyomja meg a Következő vagy az Előző gombot. Semmi sem mozdul magától.",
+      "next": "Következő kép",
+      "previous": "Előző kép",
+      "bigPicture": "Nagyobb kép",
+      "showEverything": "Minden megjelenítése",
+      "first": "Ez az első kép.",
+      "last": "Ez az utolsó kép.",
+      "lines": {
+        "sunrise": "A nap felkel a táj felett.",
+        "window-with-birds": "Madarak az ablak előtt.",
+        "vase-of-flowers": "Virágváza az asztalon.",
+        "teacup": "Egy csésze tea az ablak mellett.",
+        "tree": "Egy fa áll a kertben.",
+        "sailboat": "Egy vitorlás a vízen.",
+        "lighthouse": "Egy világítótorony a tengerparton.",
+        "rainbow": "Szivárvány az eső után.",
+        "moon": "A hold az éjszakai égen.",
+        "daisies": "Margaréták a fűben.",
+        "rowing-boat": "Evezős csónak a nyugodt vízen.",
+        "potted-plant": "Zöld növény cserépben."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Váltakozva lehet dolgozni. Koppintson egy kivágott darabra, majd egy üres helyre, hogy oda kerüljön. Amit itt készít, nincs elmentve és nincs elküldve.",
+      "people": [
+        "Első személy",
+        "Második személy"
+      ],
+      "marks": [
+        "egy kör",
+        "egy négyzet"
+      ],
+      "turn": "Most jön: {person|lower}.",
+      "marked": "A darabjait {mark} jelöli.",
+      "boardLabel": "A közös tábla",
+      "placeEmpty": "{n}. hely, üres",
+      "placeFilled": "{n}. hely, {picture|lower}, lerakta: {person|lower}",
+      "trayHeading": "A kivágott darabok",
+      "chosenLabel": "Kiválasztva",
+      "chosen": "A {picture} kiválasztva. Most koppintson egy üres helyre.",
+      "unchosen": "A kivágott darab már nincs kiválasztva.",
+      "needCutout": "Először válasszon egy kivágott darabot, majd koppintson egy üres helyre.",
+      "filled": "A(z) {n}. helyen már van kép. Válasszon üres helyet.",
+      "placed": "A {picture} a(z) {n}. helyen van. Most jön: {next|lower}.",
+      "full": "Minden helyen van kép. Ha változtatni szeretne, vegyen vissza egyet, vagy kezdje újra.",
+      "pass": "Kihagyás",
+      "passed": "Kihagyni is rendben van. Most jön: {person|lower}.",
+      "takeBack": "Az utolsó darab visszavétele",
+      "takeBackPass": "A kihagyás visszavonása",
+      "tookBack": "A darabot visszavették. Most jön: {person|lower}.",
+      "tookBackPass": "A kihagyást visszavonták. Most jön: {person|lower}.",
+      "restarted": "A tábla üres. Most jön: {person|lower}.",
+      "putBack": "Tegye vissza",
+      "putBackDone": "A darabok visszakerültek a táblára.",
+      "another": "Másik képkészlet",
+      "anotherSet": "Új kivágott készlet került a tálcára. A táblán lévő darabok a helyükön maradnak.",
+      "print": "Nyomtassa ki a táblát",
+      "sheetTitle": "Kollázstábla",
+      "sheetHow": "Vágja ki a képeket, és váltakozva tegye őket a táblára. A vágást felnőtt is elvégezheti.",
+      "sheetTray": "A kivágandó képek"
+    },
+    "gardenPlanner": {
+      "guidance": "Koppintson egy képre, majd egy ágyásra, hogy oda kerüljön. Ha nincs kiválasztva semmi, koppintson egy képpel rendelkező ágyásra, hogy kiürítse.",
+      "bedsLabel": "A kerti ágyások",
+      "bedEmpty": "{n}. ágyás, üres",
+      "bedFilled": "{n}. ágyás, {picture|lower}",
+      "plantsHeading": "Növények",
+      "extrasHeading": "Kerti kiegészítők",
+      "chosenLabel": "Kiválasztva",
+      "chosen": "A {picture} kiválasztva. Most koppintson egy ágyásra.",
+      "unchosen": "Nincs kép kiválasztva.",
+      "needPicture": "Először válasszon egy képet, majd koppintson egy ágyásra.",
+      "planted": "A(z) {picture} a(z) {n}. ágyásban van.",
+      "replaced": "A(z) {picture} a(z) {n}. ágyásban lévő kép helyére került.",
+      "cleared": "A(z) {n}. ágyás üres. Ha újra szeretné a képet, tegye vissza.",
+      "restarted": "Minden ágyás üres.",
+      "putBack": "Visszaállítás",
+      "putBackDone": "A képek visszakerültek az ágyásaikba.",
+      "summaryHeading": "A kertem",
+      "summary": "A terve ezeket tartalmazza: {list}.",
+      "summaryNone": "Még egyetlen kép sincs ágyásban.",
+      "and": "és",
+      "print": "A terv nyomtatása",
+      "sheetTitle": "Kertünk terve",
+      "sheetHow": "Az ágyásokban a képernyőn kiválasztott képek látszanak. Ha kedvet érez, rajzoljon bele az üres ágyásokba.",
+      "sheetNotes": "Jegyzetek",
+      "notice": "Ez egy beszélgetéshez készült képes terv, nem ültetési tanács."
+    },
+    "coloringWall": {
+      "guidance": "Válasszon egy képet és az oldalak számát. Nyomtassa ki a falat, és mindenki egy vagy több oldalt színezhet ki. Nincs időmérés, pontozás vagy mentés.",
+      "pictureLegend": "Kép",
+      "sizeLegend": "Az oldalak száma",
+      "sizes": {
+        "2x2": "4 oldal (2 × 2)",
+        "3x2": "6 oldal (3 × 2)",
+        "3x3": "9 oldal (3 × 3)"
+      },
+      "previewLabel": "A(z) {picture|lower} {n} oldalra oszlik: {across} oldal széles és {down} oldal magas. Minden oldal sarkában címke van.",
+      "previewCaption": "A kép, rajta az oldalvonalakkal és a címkékkel.",
+      "labelsNote": "A betűk lefelé haladnak a falon, a számok pedig vízszintesen, így az A1 a bal felső oldal.",
+      "wallHeading": "Így rakja össze a falat",
+      "steps": [
+        "Nyomtassa ki az összes oldalt. Az első oldalon ezek a lépések és a fal térképe található.",
+        "Mindenki vesz egy vagy több oldalt, és kiszínezi azokat.",
+        "A színeknek és a stílusnak nem kell egyeznie. Minden oldal ugyanannak a képnek a része.",
+        "Rendezze el az oldalakat a címkéik szerint, majd ragassza össze őket a hátoldalukon ragasztószalaggal.",
+        "Helyezze ki a falat olyan helyre, ahol mindenki láthatja."
+      ],
+      "mapLabel": "A fal térképe: {down} sor, soronként {across} oldal, címkézve A1-től {last}-ig.",
+      "edgeNote": "A szaggatott vonal jelzi az egyes oldalak szélét. Illessze az oldalakat szélről szélre a vonal mentén, vagy kissé fedje át egymást.",
+      "pictureLine": "Kép: {picture}. Ez a fal {n} oldalból áll: {across} oldal széles és {down} oldal magas.",
+      "print": "A fal nyomtatása"
+    },
+    "findTogether": {
+      "guidance": "Váltogassák egymást. Amikor sorra kerül, fordítson fel két kártyát, és keressen párt. A párokat együtt keressék meg.",
+      "sizeLegend": "Hány kártya",
+      "size": "{n} kártya",
+      "viewLegend": "Hogyan játsszunk",
+      "viewShowing": "Játék látható képekkel",
+      "viewHidden": "A kártyák képpel lefelé",
+      "people": [
+        "Első résztvevő",
+        "Második résztvevő"
+      ],
+      "turn": "Sor: {person}",
+      "turnDone": "Minden pár megvan.",
+      "tally": "Közösen megtalált párok: {n}",
+      "cardNamed": "{name}, {n}. kártya",
+      "cardFaceDown": "{n}. kártya, lefelé fordítva",
+      "first": "{name}. Most fordítson fel egy második kártyát.",
+      "found": "{name}: pár, közösen megtalálva. Most a(z) {next|lower} következik.",
+      "allTogether": "Együtt megtalálták az összes párt.",
+      "different": "A(z) {a} és a(z) {b} nem egyforma. Nyugodtan nézze meg, majd nyomja meg a Visszafordítás gombot.",
+      "waiting": "Ha készen áll, nyomja meg a Visszafordítás gombot. Ezután a sor átkerül.",
+      "turnedBack": "Visszafordítva. Most a(z) {person|lower} következik.",
+      "passed": "Kihagyni is rendben van. Most a(z) {person|lower} következik.",
+      "turnBack": "Visszafordítás",
+      "pass": "Kihagyás",
+      "playAgain": "Játsszunk újra"
+    },
+    "drawingDuet": {
+      "guidance": "Sorban rajzoljanak egy-egy vonalat, majd adják tovább a tollat. Bárki kihagyhatja a sorát. Semmi sincs elküldve sehová. A kép csak akkor hagyja el ezt az oldalt, ha elmenti.",
+      "people": [
+        "Első résztvevő",
+        "Második résztvevő"
+      ],
+      "colorLegend": "{person} színe",
+      "colors": [
+        "Sárga",
+        "Narancs",
+        "Zöld",
+        "Lila"
+      ],
+      "turn": "{person} következik",
+      "penColor": "Tollszín: {color}.",
+      "canvasLabel": "Közös rajz, eddig {n} vonal",
+      "canvasLabelOne": "Közös rajz, eddig {n} vonal",
+      "keys": "A nyílbillentyűkkel mozgatható a tollpont a rajzon. A szóköz lerakja vagy felemeli a tollat.",
+      "penDown": "Toll lent",
+      "penUp": "Toll fent",
+      "pass": "Toll továbbadása",
+      "passed": "Továbbadni is rendben van. Most a(z) {person|lower} következik.",
+      "takeBack": "Az utolsó vonalam visszavonása",
+      "tookBack": "A(z) {person|lower} részéről az utolsó vonal visszavonva.",
+      "noLine": "Nincs visszavonható vonal a(z) {person|lower} részéről.",
+      "restarted": "A lap üres. Az első résztvevő következik. Ha nem így akarta, tegye vissza.",
+      "putBack": "Visszaállítás",
+      "restored": "A vonalak visszaálltak az eredeti állapotukba.",
+      "save": "Kép mentése",
+      "saved": "A képe elkészült. A letöltési hivatkozással mentheti el az eszközére.",
+      "download": "Letöltés: drawing-duet.png",
+      "print": "A papír változat nyomtatása",
+      "sheetTitle": "Rajzduett",
+      "paperRules": "Két személy, egy lap, két toll. Váltogassák egymást: mindenki egy vonalat vagy formát rajzoljon, majd adja tovább a tollat. Bárki kihagyhatja a sorát. Nincs helyes kép."
+    },
+    "colorWash": {
+      "guidance": "Lágy színeket fessen végig az oldalon, egyszerre egy színfolttal. A megálláshoz emelje fel az ecsetet, és akkor hagyja abba, amikor csak szeretné. Semmi sincs elmentve vagy elküldve.",
+      "colorLegend": "Festékszín",
+      "sizeLegend": "Ecset mérete",
+      "colors": [
+        "Sárga",
+        "Narancs",
+        "Zöld",
+        "Lila"
+      ],
+      "sizes": {
+        "wide": "Széles",
+        "veryWide": "Nagyon széles"
+      },
+      "color": "Festékszín: {color}.",
+      "brushDown": "Ecset a lapon",
+      "brushUp": "Ecset felemelve",
+      "keys": "A nyílbillentyűkkel mozgatható az ecsetkör az oldalon. A szóköz lerakja vagy felemeli az ecsetet.",
+      "canvasLabel": "Egy oldal lágy színfoltokkal",
+      "fresh": "Új oldal",
+      "freshMessage": "Új oldal.",
+      "putBack": "Visszaállítás",
+      "restored": "Az oldal visszaállt."
+    },
     "sortTogether": {
       "guidance": "Érintsen meg egy képet, majd a kosarat, amelybe tartozik.",
       "restart": "Új képek",
@@ -71,6 +719,10 @@
       "hint": "Kép: {name|lower}. Ide tehető: „{basket}”. Érintse meg azt a kosarat.",
       "placed": "{name|lower}: ide került: „{basket}”.",
       "sorted": "Minden a helyére került. Nézzék át együtt a kosarakat, vagy próbáljanak másik témát.",
+      "largerTargets": "Nagyobb célterületek",
+      "largerOn": "A nagyobb célterületek be vannak kapcsolva. Semmi sem mozdult el.",
+      "largerOff": "A nagyobb célterületek ki vannak kapcsolva. Semmi sem mozdult el.",
+      "largerOnNewRound": "A nagyobb célterületek be vannak kapcsolva, két kosárral. Itt vannak az új képek a rendezéshez.",
       "basket": {
         "one": "{basket} kosár, benne {count} kép",
         "other": "{basket} kosár, benne {count} kép"
@@ -101,6 +753,18 @@
       },
       "guideAlt": "A teljes kép: {name}",
       "guideText": "Így néz ki a kép, ha egész.",
+      "ownChoose": "Saját fénykép használata",
+      "ownChange": "Másik fénykép kiválasztása",
+      "ownBack": "Vissza a mi képeinkhez",
+      "ownPrivacy": "A fényképe az eszközén marad. Nem töltjük fel, és nem is mentjük el.",
+      "ownConsent": "Használhat saját fényképeket. Olyan személy fényképének használata előtt, aki nem tud igent mondani, kérjen hozzájárulást.",
+      "ownWorking": "A fényképe előkészítése folyamatban.",
+      "ownNotUsable": "Ezt a fájlt nem lehetett használni. Válasszon fényképfájlt, például JPEG- vagy PNG-fájlt.",
+      "ownAlt": "Az Ön fényképe",
+      "ownPiece": "{n}. darab, {place}",
+      "ownWhole": "A fényképe ismét egész. Bármikor újra összekeverheti.",
+      "ownSheetTitle": "A fényképe darabokban",
+      "ownSheetHow": "Vágja szét a vonalak mentén. Keverje össze a darabokat, majd cseréljen két darabot egyszerre, amíg a kép ismét egész nem lesz.",
       "piece": "Darab: {place}",
       "pieceInPlace": ", a helyén van",
       "piecePickedUp": ", felvéve",
@@ -190,6 +854,14 @@
       "guidance": "Olvassa fel hangosan a kártyát. Nincs helyes válasz.",
       "position": "{n}. kártya, összesen {total}",
       "themeLegend": "Téma",
+      "showPrompt": "Beszélgetésindító mutatása",
+      "bigPicture": "Nagy kép, csoportnak",
+      "passNote": "Bárki kihagyhatja.",
+      "groupTitle": "Kártya továbbadása a csoportban",
+      "groupSit": "Üljenek körbe úgy, hogy mindenki lássa a képet. A kártyát tartó személy, vagy a nagy képet mutató eszköz, előbb hangosan felolvassa a beszélgetésindítót.",
+      "groupPass": "Ezután adja tovább a kártyát a következő személynek. Mindenki mond egy szót vagy egy mondatot a képről, majd továbbadja.",
+      "groupNoSpeech": "A kártya továbbadása mindig megengedett. Valaki szó nélkül is továbbadhatja a kártyát, és senkinek sem kell megmagyaráznia, miért.",
+      "groupEnd": "A kör akkor ér véget, ha a kártya körbeért a csoporton, vagy ha a csoport elege lett. Senki sem nyer. Bármikor abbahagyhatják, amikor a csoport úgy dönt.",
       "next": "Következő kártya",
       "previous": "Előző kártya",
       "print": "Összes kártya nyomtatása",
@@ -252,6 +924,20 @@
       "started": "Elindult. Lélegezzen be, amíg a kör nő.",
       "stopped": "Megállt.",
       "finished": "Hat lassú lélegzetvétel volt. Indítsa újra, amikor kedve tartja."
+    },
+    "storyChain": {
+      "guidance": "Felváltva: egy-egy mondat mindenkitől, majd jöhet a következő kép.",
+      "passNote": "Mondja ki a mondatát hangosan. Semmi sem kerül írásba, és semmit sem mentünk. Bárki passzolhat.",
+      "chainLabel": "Eddigi lánc",
+      "item": "{n}. kép: {name}",
+      "add": "Kép hozzáadása",
+      "fullAdd": "A lánc megtelt. Új lánc indítása",
+      "newChain": "Új lánc indítása",
+      "takeOff": "Az utolsó elem eltávolítása",
+      "added": "{name|lower} most a lánc végén van.",
+      "removed": "{name|lower} lekerült a láncról.",
+      "fresh": "Új lánc, amely ezzel kezdődik: {name|lower}.",
+      "full": "A láncban már mind a 8 kép megvan. Mondja el az egész történetet, vagy indítson új láncot."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Esőfelhő",
     "snowflake": "Hópehely",
     "kite": "Sárkány",
-    "sunrise": "Napfelkelte a dombok felett"
+    "sunrise": "Napfelkelte a dombok felett",
+    "decorated-keepsake-box": "Díszített emlékdoboz",
+    "painted-plant-pot": "Festett cserép fűszernövényekkel",
+    "repeating-pattern-sheet": "Mintalap ismétlődő mintákkal",
+    "music-drawn-lines": "Vonalak zenére rajzolva",
+    "paper-boat-afloat": "Papírcsónak a vízen",
+    "folded-towel-stack": "Törölközőkupac",
+    "hand-massage-with-lotion": "Kéz törölközőn, krémmel",
+    "open-photo-album": "Nyitott fotóalbum",
+    "button-flower-card": "Gombvirág egy kártyán",
+    "blue-torn-paper-collage": "Kék tépett papírkollázs",
+    "family-tree-of-hands": "Családfa kézlenyomatokkal",
+    "open-greeting-card": "Nyitott üdvözlőkártya szívvel",
+    "lavender-sachet": "Levendulazsák szalaggal",
+    "memory-collage-of-photos": "Családi fotókollázs",
+    "paper-chain-garland": "Papírláncfüzér",
+    "open-songbook-with-notes": "Nyitott dalaskönyv kottával",
+    "photo-postcard-with-stamp": "Fényképes képeslap bélyeggel",
+    "pine-cone-bird-feeder": "Madáretető fenyőtobozból, ágon függve",
+    "playlist-phone-and-card": "Telefonos lejátszási lista, dalkártyával",
+    "sealed-rice-shaker": "Lezárt rizses zörgő",
+    "texture-board-with-scraps": "Textúrtábla anyagmaradékokkal",
+    "painted-garden-stone": "Festett kerti kő",
+    "shared-painted-canvas": "Közösen festett vászon",
+    "watercolor-washes-sheet": "Vízfestékfoltok papíron",
+    "seedling-in-pot": "Palánták cserépben",
+    "pressed-leaves-in-book": "Préselt levelek könyvben",
+    "printed-leaves-sheet": "Levélnyomatos lap",
+    "pinch-pot-clay-bowl": "Csípett agyagtál",
+    "table-sketch-pencil": "Ceruzarajz egy bögréről",
+    "buttons-in-muffin-tin": "Gombok muffinsütőben",
+    "family-recipe-book": "Családi receptkönyv",
+    "drum-with-beat-marks": "Asztali dob botokkal",
+    "torn-paper-flower": "Tépett papírvirág-mozaik",
+    "window-with-birds": "Ablak madarakkal",
+    "woven-paper-mat": "Fonott papírszőnyeg",
+    "yarn-ball-with-thread": "Fonalgombolyag",
+    "letter-and-envelope": "Levél borítékban"
   },
   "illustrations": {
     "rocking-chair": "Hintaszék",
@@ -442,305 +1165,6 @@
     "pocket-watch": "Zsebóra"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Addig nyújtózkodj, amíg a takaród",
-        "end": "ér",
-        "others": [
-          "tart",
-          "elég"
-        ],
-        "prompt": "Milyen takaró vagy paplan volt a kedvence?"
-      },
-      {
-        "start": "Aki korán kel, aranyat",
-        "end": "lel",
-        "others": [
-          "ás",
-          "vesz"
-        ],
-        "prompt": "Reggeli vagy esti embernek tartja magát?"
-      },
-      {
-        "start": "Ki mint vet, úgy",
-        "end": "arat",
-        "others": [
-          "él",
-          "lát"
-        ],
-        "prompt": "Termesztett valaha valamit a kertben?"
-      },
-      {
-        "start": "Jobb ma egy veréb, mint holnap egy",
-        "end": "túzok",
-        "others": [
-          "gólya",
-          "fürj"
-        ],
-        "prompt": "Melyik madarakat szereti nézni?"
-      },
-      {
-        "start": "Nem esik messze az alma a",
-        "end": "fájától",
-        "others": [
-          "kertjétől",
-          "házától"
-        ],
-        "prompt": "Ki hasonlít Önre a családban?"
-      },
-      {
-        "start": "Lassan járj, tovább",
-        "end": "érsz",
-        "others": [
-          "jössz",
-          "látsz"
-        ],
-        "prompt": "Mit csinál szívesen lassan, nyugodtan?"
-      },
-      {
-        "start": "Ahány ház, annyi",
-        "end": "szokás",
-        "others": [
-          "kert",
-          "ajtó"
-        ],
-        "prompt": "Melyik családi szokást szerette a legjobban?"
-      },
-      {
-        "start": "Jó munkához",
-        "end": "idő kell",
-        "others": [
-          "kéz kell",
-          "kedv kell"
-        ],
-        "prompt": "Mit csinált nagy türelemmel, amire szívesen gondol?"
-      },
-      {
-        "start": "Aki mer, az",
-        "end": "nyer",
-        "others": [
-          "kér",
-          "vár"
-        ],
-        "prompt": "Mi a legkalandosabb dolog, amit csinált?"
-      },
-      {
-        "start": "Nincsen rózsa",
-        "end": "tövis nélkül",
-        "others": [
-          "illat nélkül",
-          "levél nélkül"
-        ],
-        "prompt": "Milyen rózsákat szeret?"
-      },
-      {
-        "start": "A beszéd ezüst, a hallgatás",
-        "end": "arany",
-        "others": [
-          "réz",
-          "vas"
-        ],
-        "prompt": "Szereti a csendes perceket? Mit csinál olyankor?"
-      },
-      {
-        "start": "Minden jó, ha jó a",
-        "end": "vége",
-        "others": [
-          "kedve",
-          "napja"
-        ],
-        "prompt": "Mesélne egy napról, amely nagyon jól végződött?"
-      },
-      {
-        "start": "Egy fecske nem csinál",
-        "end": "nyarat",
-        "others": [
-          "tavaszt",
-          "esőt"
-        ],
-        "prompt": "Szereti nézni a madarakat az égen?"
-      },
-      {
-        "start": "Aki keres, az",
-        "end": "talál",
-        "others": [
-          "kér",
-          "vár"
-        ],
-        "prompt": "Mit szeret keresgélni, például gombát vagy virágot?"
-      },
-      {
-        "start": "Minden kezdet",
-        "end": "nehéz",
-        "others": [
-          "szép",
-          "hosszú"
-        ],
-        "prompt": "Mit kezdett el később, és szerette meg?"
-      },
-      {
-        "start": "A gyakorlat teszi a",
-        "end": "mestert",
-        "others": [
-          "szakácsot",
-          "tanítót"
-        ],
-        "prompt": "Van olyan, amit sokat gyakorolt, például hangszert vagy sportot?"
-      },
-      {
-        "start": "Nem mind arany, ami",
-        "end": "fénylik",
-        "others": [
-          "szép",
-          "kerek"
-        ],
-        "prompt": "Mi az a csillogó dolog, amelyet szeret nézni?"
-      },
-      {
-        "start": "Rend a lelke",
-        "end": "mindennek",
-        "others": [
-          "a háznak",
-          "a konyhának"
-        ],
-        "prompt": "Mit szeret rendben tartani otthon?"
-      },
-      {
-        "start": "Mindenki a maga szerencséjének",
-        "end": "kovácsa",
-        "others": [
-          "gazdája",
-          "őre"
-        ],
-        "prompt": "Ismert valakit, aki ügyesen bánt a szerszámokkal?"
-      },
-      {
-        "start": "Mindennek megvan a maga",
-        "end": "ideje",
-        "others": [
-          "helye",
-          "színe"
-        ],
-        "prompt": "Melyik évszakot szereti a legjobban?"
-      },
-      {
-        "start": "Kicsi a bors, de",
-        "end": "erős",
-        "others": [
-          "drága",
-          "finom"
-        ],
-        "prompt": "Melyik fűszert szereti a legjobban?"
-      },
-      {
-        "start": "Mindenütt jó, de legjobb",
-        "end": "otthon",
-        "others": [
-          "nyáron",
-          "együtt"
-        ],
-        "prompt": "Melyik a kedvenc szobája egy házban, és miért?"
-      },
-      {
-        "start": "Hétszer mérj,",
-        "end": "egyszer vágj",
-        "others": [
-          "kétszer vágj",
-          "egyszer mérj"
-        ],
-        "prompt": "Varrt vagy barkácsolt valaha?"
-      },
-      {
-        "start": "Ki mint ágyaz, úgy",
-        "end": "alszik",
-        "others": [
-          "ébred",
-          "pihen"
-        ],
-        "prompt": "Milyen a legkényelmesebb ágy, amelyben aludt?"
-      },
-      {
-        "start": "Jó tett helyébe jót",
-        "end": "várj",
-        "others": [
-          "kérj",
-          "adj"
-        ],
-        "prompt": "Mi az a kedves dolog, amit valaki tett Önért?"
-      },
-      {
-        "start": "Madarat tolláról, embert",
-        "end": "barátjáról",
-        "others": [
-          "házáról",
-          "kertjéről"
-        ],
-        "prompt": "Mitől jó barát valaki?"
-      },
-      {
-        "start": "Nincs új a nap",
-        "end": "alatt",
-        "others": [
-          "felett",
-          "mögött"
-        ],
-        "prompt": "Mit szeret csinálni napsütéses napon?"
-      },
-      {
-        "start": "Eső után",
-        "end": "köpönyeg",
-        "others": [
-          "esernyő",
-          "kalap"
-        ],
-        "prompt": "Szereti az eső hangját?"
-      },
-      {
-        "start": "Kéz kezet",
-        "end": "mos",
-        "others": [
-          "fog",
-          "simogat"
-        ],
-        "prompt": "Kinek segít szívesen?"
-      },
-      {
-        "start": "Ami késik, nem",
-        "end": "múlik",
-        "others": [
-          "kopik",
-          "fárad"
-        ],
-        "prompt": "Minek örül most, ami hamarosan jön?"
-      },
-      {
-        "start": "Jobb adni, mint",
-        "end": "kapni",
-        "others": [
-          "venni",
-          "kérni"
-        ],
-        "prompt": "Mi volt a legkedvesebb ajándék, amelyet adott?"
-      },
-      {
-        "start": "Nincs füst",
-        "end": "tűz nélkül",
-        "others": [
-          "szél nélkül",
-          "kémény nélkül"
-        ],
-        "prompt": "Szereti a kandalló vagy a kályha melegét?"
-      },
-      {
-        "start": "Addig üsd a vasat, amíg",
-        "end": "meleg",
-        "others": [
-          "forró",
-          "kész"
-        ],
-        "prompt": "Tanult valaha szakmát, vagy dolgozott szerszámokkal?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABCDEGHIKLMNOPRSTUVZ",
@@ -1158,6 +1582,17 @@
             "Úton"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Gyümölcsök",
+        "animals": "Állatok",
+        "travel": "Közlekedési módok",
+        "flowers": "Virágok",
+        "hot-drinks": "Forró italok kellékei",
+        "weather": "Időjárási jelenségek",
+        "baked": "Sütőben sült ételek"
       }
     }
   }

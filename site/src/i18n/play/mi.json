@@ -5,6 +5,13 @@
       "stopReading": "Whakamutua te pānui",
       "region": "Kēmu",
       "restart": "Tīmata anō",
+      "rest": "Okioki i tēnei wā",
+      "restingTitle": "Kei te okioki",
+      "restingText": "Whakamahia te wā e hiahiatia ana e koe. Ka tiakina tō wāhi ki tēnei whārangi.",
+      "resume": "Haere tonu",
+      "placeText": "I te wā whakamutunga i tū ai koe i waenga. Haere tonu mai i reira, īkā rānei tīmata anō.",
+      "placeResume": "Haere tonu",
+      "placeFresh": "Tīmata anō",
       "soundOn": "Kā ngā oro ngāwari",
       "soundOff": "Weto ngā oro ngāwari",
       "done": "Kua oti mō tēnei wā",
@@ -43,7 +50,19 @@
       "viewShowing": "E kitea ana ngā whakaahua",
       "viewHidden": "Kua hunaia ngā whakaahua",
       "playAgain": "Tākaro anō me ētahi whakaahua hōu",
-      "talk": "Kōrerorero tahi mō ngā whakaahua"
+      "talk": "Kōrerorero tahi mō ngā whakaahua",
+      "modeLegend": "Ngā whakaahua e whiria ana",
+      "modePlay": "Ngā whakaahua katoa",
+      "modeDaily": "Te kāri o te rā",
+      "dayLegend": "Ko tēhea rā",
+      "dayHelp": "Ka rite ngā whakaahua mō te katoa i te rā kotahi. Kei konei hoki ngā rā o mua, ā, kāore he utu mō te peke i tētahi rā.",
+      "guidanceDaily": "E whā ngā takirua o te kāri o te rā. Pāwhiria tētahi whakaahua, katahi ka pāwhiria te whakaahua e rite ana ki a ia.",
+      "restartDaily": "Tīmata anō tēnei kāri",
+      "copy": "Tārua tēnei rārangi",
+      "copied": "Kua tāruatia. Kāore he mea i tukuna ki hea.",
+      "calendarTitle": "Ngā kāri o te rā, {month}",
+      "calendarHelp": "He rite ngā whakaahua e whā mō ia rā mō te katoa. Kāore he kaute, ā, kāore he rā i tapaina hei rā i ngaro.",
+      "calendarVersion": "Putanga {date}. He rite ngā whakaahua mō te katoa i te rā kotahi."
     },
     "choose": {
       "countLegend": "Te maha o ngā whakaahua",
@@ -62,6 +81,635 @@
       "shadowAlt": "He ata hei hono atu",
       "foundAlt": "Te ata o te {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Ngā tohu",
+      "hintOn": "Tohu i muri i te wā mārama",
+      "hintOff": "Kāore he tohu",
+      "guidance": "Kimihia ngā whakaahua e {n} e rite ana ki a rātou, ā, pāwhiria ia tētahi.",
+      "countLegend": "He whakaahua hia",
+      "count": "{n} ngā whakaahua",
+      "found": "Ae, ko te {name|lower} kei roto i tēnei rōpū.",
+      "elsewhere": "Ko te {name|lower} e rite ana ki tētahi atu mea. Whakamahia te wā e hiahiatia ana e koe.",
+      "hint": "He tohu: titiro ki {theme|lower}.",
+      "together": "Ko ēnei e rite ana: {theme}.",
+      "shown": "Anei te rōpū: {theme}.",
+      "groupName": "Rite: {theme}",
+      "show": "Whakaatua te rōpū",
+      "next": "Tētahi atu huinga"
+    },
+    "oddOneOut": {
+      "hintLegend": "Ngā tohu",
+      "hintOn": "Tohu i muri i te wā mārama",
+      "hintOff": "Kāore he tohu",
+      "guidance": "Kimihia te whakaahua e kore e rite ana ki ngā mea kē, ā, pāwhiria.",
+      "countLegend": "He whakaahua hia",
+      "count": "{n} ngā whakaahua",
+      "belongs": "Ko te {name|lower} e rite ana ki ngā mea kē. Whakamahia te wā e hiahiatia ana e koe.",
+      "found": "Ae, ko te {name|lower} te mea rerekē. Ko ngā mea kē he {theme|lower}.",
+      "shown": "Anei: ko te {name|lower}. Ko ngā mea kē he {theme|lower}.",
+      "hint": "He tohu: {n} o ēnei he {theme|lower}.",
+      "others": "Ngā mea kē: {theme}",
+      "show": "Whakaaturia mai",
+      "next": "Tētahi atu huinga"
+    },
+    "seatedToss": {
+      "guidance": "Noho ki te tēpu, ka whakahoki tahi kōrua i te peke pūngāwari ki te whāinga nui. Kia tuhia te kaute ki te pepa, tahi.",
+      "stepsHeading": "Me pēhea",
+      "steps": [
+        "Tāutuhia te whāinga me te pepa kaute, ka whakatakotoria papatahi ki runga tēpu i waenga i a kōrua.",
+        "Noho pai, kotahi ki ia taha. Whakahokia whakarere, kotahi pūngāwari ia tangata, īkā rānei me pass mena kāore koe e pīrangi.",
+        "Ina tau te peke ki tētahi mōwhiti, ka tohua e te tangata nāna i whakahoki tētahi pouaka i tana tīwae, i te rārangi mō taua mōwhiti.",
+        "Titiro ki ngā tohu tahi, ina pīrangi koe, i te wā ka mutu. Kāore he tangata e herea kia tāpiri i ētahi mea.",
+        "Mutu whenever ka rite tētahi tangata."
+      ],
+      "safetyHeading": "Haumarutanga",
+      "safetyLine": "Whakamahia anake he peke kua rātaihia te uhi, īkā rānei he tōkena kua takaia, noho tonu, kaua e whakahoki ki te kanohi, ā, kia tata mai tētahi pakeke. He raru ngā wāhanga iti ki te kakī.",
+      "flags": [
+        "Ehara mō te iti i raro i te 3: ngā wāhanga iti",
+        "Kia mawhiti i te waha"
+      ],
+      "safety": [
+        "Kōwhiria he peke pūngāwari kua rātaihia te uhi, īkā rānei takaia he tōkena ma. Tirohia tuatahi mō ngā rua, mō ngā mahi kāpehu kōhete, kia kore ai e puta mai he whakakī.",
+        "Ko ngā pine, ngā raihi me ētahi atu whakakī iti he raru ki te kakī. Kia mawhiti i ngā tamariki iti me te tangata e whakauru ana i ngā mea ki roto i te waha.",
+        "Kia tata tonu ki te ringa, ā, kia tirohia tata mēnā ka whakauruhia tētahi mea ki te waha.",
+        "Noho tonu. Whakahokia pūmāhana, iho hoki ki te whāinga kei runga tēpu, kaua ki te kanohi."
+      ],
+      "previewLabel": "Te pepa kua tāia: he whāinga e toru ngā mōwhiti, ko Tata, Waenga me Tawhiti te ingoa, mai i waho ki roto, me tētahi kaute he pou mō ia tangata, he rārangi pouaka waahi mō ia mōwhiti.",
+      "sheetHow": "Whakatakotoria te pepa ki runga i waenga i a kōrua. Ina tau te peke ki tētahi mōwhiti, tohua he pouaka i tō pou, i te rārangi o taua mōwhiti.",
+      "rings": [
+        "Tata",
+        "Waenga",
+        "Tawhiti"
+      ],
+      "people": [
+        "Tangata tuatahi",
+        "Tangata tuarua"
+      ],
+      "ringHeading": "Mōwhiti",
+      "print": "Tāia te whāinga me te pepa kaute"
+    },
+    "seasonalPack": {
+      "guidance": "Kōwhiria he marama, tāia ngā puzzles pepa e toru, ka mahia kotahi, rua, ētahi atu rānei tahi.",
+      "monthLegend": "Kōwhiria he marama",
+      "months": [
+        "Hānuere",
+        "Pepuere",
+        "Maehe",
+        " Āpereira",
+        "Mei",
+        "Pipiri",
+        "Hōngongoi",
+        "Hereturikōkā",
+        "Hepetema",
+        "Oketopa",
+        "Noema",
+        "Tihema"
+      ],
+      "monthNote": "He whakaahua ōna anō mō ia marama. Ka tuwhera tēnei whārangi i tēnei marama, ā, ka taea e koe te kōwhiri i tētahi atu.",
+      "restDay": "He rā okioki te rā nei",
+      "restLine": "Kāore he puzzles i tēnei rā. He rā pai hoki te rā okioki.",
+      "previewHeading": "Ngā puzzles e toru",
+      "puzzles": {
+        "pairs": {
+          "title": "Tauritea ngā takirua",
+          "how": "Tīpakohia he rārangi mai i ia whakaahua i te rārangi runga ki te whakaahua ōrite i te rārangi raro.",
+          "describe": "E rua rārangi o ngā whakaahua e whā ōrite, engari he rerekē te raupapa."
+        },
+        "different": {
+          "title": "Ko tēhea he rerekē?",
+          "how": "Porohitatia te whakaahua he rerekē ki ngā mea e toru kē.",
+          "describe": "He rārangi whakaahua e whā. E toru he ōrite, ā, kotahi he rerekē."
+        },
+        "color": {
+          "title": "Tāea mai",
+          "how": "Tāea te whakaahua ahakoa te aha te āhua e pai ai koe, me ngā pene tae, ngā pene pēpi rānei.",
+          "describe": "He whakaahua nui kotahi hei tae."
+        }
+      },
+      "print": "Tāia te pakete o tēnei marama",
+      "sheetHow": "Tāia kotahi wharangi. Mahia kotahi, rua, ētahi atu rānei o ngā puzzles e toru, i tētahi raupapa rānei.",
+      "printFooter": "Mahia kotahi, rua, ētahi atu rānei. Mutu whenever ka pīrangi koe."
+    },
+    "decorateACard": {
+      "guidance": "Kōwhiria he take, ka whakapaipai tahi i tētahi kāri me ngā pene tae, ngā pene rānei. Kāore he kāri tika.",
+      "occasionLegend": "Kōwhiria he take",
+      "occasions": {
+        "birthday": {
+          "label": "Rā whānau",
+          "words": "Mihi whānau"
+        },
+        "thank-you": {
+          "label": "Whakawhetai",
+          "words": "Whakawhetai"
+        },
+        "thinking-of-you": {
+          "label": "E whakaaro ana ki a koe",
+          "words": "E whakaaro ana ki a koe"
+        },
+        "new-season": {
+          "label": "He tau hou",
+          "words": "He tau hou"
+        },
+        "just-because": {
+          "label": "Kāore he take",
+          "words": "Kāore he take"
+        }
+      },
+      "stepsHeading": "Me pēhea te whakapaipai tahi",
+      "steps": {
+        "fold": "Tāia te kāri, ka pōtāhia ki te haurua i te rārangi tōpūtanga, kia noho te mata ki waho.",
+        "front": "Ko tētahi te whakapaipai i te mata, huri noa i ngā kupu.",
+        "inside": "Ko tētahi atu te whakapaipai i te muri, īkā rānei whakarere kōrua i tētahi taha.",
+        "message": "Tuhia tētahi karere tahi. Ka tuhi tētahi, ā, ka kōrero te tētahi atu i ngā kupu.",
+        "stop": "Mutu whenever ka pīrangi koe. Kāore he kāri tika, ā, he pai tonu tētahi pūngāwari."
+      },
+      "materials": "Whakamahia ngā pene tae, ngā pene pēpi rānei, ngā pene rahi rānei. Kāore he mea hei tapahi, hei hono, hei piri.",
+      "previewLabel": "He tirohanga o te kāri kua pōtāhia ki te haurua. Ko te mata e kī ana {words}, me te anga pūngāwari o ngā rau me ngā whetū. Kei te muri he rārangi mō tētahi karere, me tētahi rārangi mō From.",
+      "from": "Nō",
+      "sheetHow": "Kōpakia te kāri i te rārangi tōpapa, me te mata whakamua ki waho. Tuhia te karere ki tua.",
+      "rulesHeading": "Mō ngā tāngata e rua",
+      "sheetRules": [
+        "Whakawhitia ngā tūranga, whakawehea rānei te mahi: kotahi te tangata ka whakapaipai i te mata whakamua, kotahi te tangata ka whakapaipai i te muri.",
+        "Tuhia te karere tahi, kotahi te tangata ka tuhi i ā te tangata e kōrero ana.",
+        "Ka taea e tētahi te whakamutu i ā tōna wā. Kāore he kāri tika kotahi."
+      ],
+      "print": "Tāia te kāri"
+    },
+    "storyDice": {
+      "guidance": "Titiro ki ngā pikitia, ka korero i tētahi kōrero mā ēnei, ahakoa te raupapa. Kāore he kōrero tika kotahi.",
+      "countLegend": "Hia ngā kiupi",
+      "count": "{n} kiupi",
+      "roll": "Hūri anō",
+      "pass": "Tuku",
+      "passed": "He pai te tuku. Ka taea e te tangata e whai ake te tīmata, ka taea hoki e koe te hūri anō.",
+      "rolled": "Ngā pikitia hou: {names}.",
+      "tapped": "{name}. Tīmata ki tēnei, ki tētahi atu rānei."
+    },
+    "wordPicture": {
+      "guidance": "Pāwhiri i tētahi pikitia, ka pāwhiri i te kupu e tohu ana i a ia. Me pāwhiri rānei i tētahi kupu, ka pāwhiri i tōna pikitia.",
+      "countLegend": "Hia ngā pikitia",
+      "count": "{n} pikitia",
+      "picturesGroup": "Pikitia",
+      "wordsGroup": "Kupu",
+      "readWord": "Pānuitia ā-waha: {name}",
+      "next": "Pikitia hou",
+      "putBack": "Whakahokia",
+      "pickWord": "Inaianei pāwhiria te kupu e hāngai ana ki tēnei.",
+      "pickPicture": "Inaianei pāwhiria te pikitia e hāngai ana ki tēnei.",
+      "fit": "Ae, e hāngai ana taua kupu ki te {name|lower}.",
+      "newSet": "Anei tētahi huinga pikitia hou.",
+      "restarted": "Kua hoki ki te tīmatanga. Kua wetewete anō ngā pikitia katoa me ngā kupu.",
+      "restored": "Kua whakahokia. Kua whakaatuhia anō ngā takirua kua hāngai.",
+      "all": "Kei ia kupu tana pikitia."
+    },
+    "colorMatch": {
+      "guidance": "Titiro ki te tae me tōna ingoa, ka pāwhiri i ngā pikitia katoa o taua tae.",
+      "target": "Ko te tae ko {color|lower}. Pāwhiria ngā pikitia katoa he {color|lower}.",
+      "countLegend": "Hia ngā pikitia",
+      "count": "{n} pikitia",
+      "found": "Ae, ko te {name|lower} he {color|lower}.",
+      "named": "Ko te {name|lower} he {color|lower}.",
+      "all": "Ko ērā ngā pikitia katoa he {color|lower}.",
+      "shown": "Anei ngā pikitia he {color|lower}.",
+      "show": "Whakaatua",
+      "next": "Tae anō",
+      "names": {
+        "red": "Whero",
+        "orange": "Karaka",
+        "yellow": "Kōwhai",
+        "green": "Kākāriki",
+        "blue": "Kikorangi"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Pāwhiri i tētahi haurua i te taha mauī, ka pāwhiri i te haurua i te taha matau e hāngai ana ki a ia.",
+      "countLegend": "Hia ngā pikitia",
+      "count": "{n} pikitia",
+      "leftGroup": "Haurua mauī",
+      "rightGroup": "Haurua matau",
+      "left": "Te haurua mauī o te {name|lower}",
+      "right": "Te haurua matau o te {name|lower}",
+      "joined": "Kua honoa",
+      "pickRight": "Inaianei pāwhiria te haurua i te taha matau e hāngai ana ki a ia.",
+      "pickLeft": "Inaianei pāwhiria te haurua i te taha mauī e hāngai ana ki a ia.",
+      "fit": "Ae, ko ērā e rua ka hanga i te {name|lower}.",
+      "apart": "Kāore aua mea e rua e honoa. Whakamātau tētahi atu.",
+      "all": "Kotahi katoa ngā pikitia.",
+      "shown": "Anei ngā pikitia, kua honoa.",
+      "show": "Whakaatua mai",
+      "next": "Huinga anō"
+    },
+    "colorByNumber": {
+      "guidance": "Kōwhiria tētahi tae i te kī, ka tā i tētahi tapawhā ki taua tae. Ka pai ngā tae katoa.",
+      "sizeLegend": "Rahi o te reti",
+      "size": "{n} × {n}",
+      "keyLegend": "Tae",
+      "colors": [
+        "Kōwhai",
+        "Karaka",
+        "Kākāriki",
+        "Pāpura"
+      ],
+      "motifs": {
+        "house": "he whare",
+        "flower": "he pua",
+        "heart": "he ngākau",
+        "tree": "he rākau",
+        "boat": "he poti hiri",
+        "pot-plant": "he tipu i roto i te ipu"
+      },
+      "region": "Reti pikitia, {n} × {n}. Ka neke ki te taha mēnā he whānui iti te mata.",
+      "cell": "Tau {number}, rārangi {row}, pou {column}, {color}",
+      "empty": "kore kau",
+      "chose": "Kua kōwhiria te {name}. Pāwhiria tētahi tapawhā hei tā.",
+      "painted": "{name} i te rārangi {row}, pou {column}.",
+      "sheet": "Kei ia tapawhā te tae o tōna tau. Koinei te pikitia i te pepa: {name}.",
+      "own": "Kua tāia katoa ngā tapawhā. Koinei tō ake pikitia.",
+      "fillAll": "Tāia ki ngā tau",
+      "filledAll": "Kei ia tapawhā kore kau te tae o tōna tau inaianei.",
+      "clear": "Mukua",
+      "cleared": "Kua mukua te reti.",
+      "next": "Pikitia anō",
+      "fresh": "Anei tētahi atu pikitia hei tā tae."
+    },
+    "patternMaker": {
+      "guidance": "Pāwhiri i tētahi tapawhā hei whakarerekē i tōna tae. Ka tipu tō tauira i tōna taha. Kāore e puritia, e tukuna rānei tētahi mea e hangaia ana e koe.",
+      "sizeLegend": "Rahi o te tāera",
+      "size": "{n} × {n}",
+      "keyLegend": "Tae, i te raupapa e whakarerekē ai tētahi pāwhiri",
+      "colors": [
+        "Kōwhai",
+        "Karaka",
+        "Kākāriki",
+        "Pāpura"
+      ],
+      "tileLabel": "Tō tāera",
+      "region": "Tō tāera, {n} × {n}. Ka neke ki te taha mēnā he whānui iti te mata.",
+      "patternLabel": "Tō tauira",
+      "pattern": "Tō tauira: tō tāera e tāruarua ana {n} i te taha, {n} i raro.",
+      "square": "Rārangi {row}, pou {column}, {color}",
+      "changed": "Kua {color} te rārangi {row}, pou {column}.",
+      "cleared": "Kua mukua te tāera. Ka taea e koe te whakahoki.",
+      "surprise": "Whakaohooho mai",
+      "surprised": "Anei tētahi tāera hou. Ka taea e koe te whakahoki te tawhito.",
+      "putBack": "Whakahokia",
+      "restored": "Kua whakahokia tō tāera ki tōna āhua o mua.",
+      "print": "Tāia taku tauira",
+      "sheetTitle": "Taku tauira"
+    },
+    "buildTogether": {
+      "guidance": "Whakawhitia ngā tūranga ki te whakatakoto i tētahi wāhanga ki tētahi wāhi wātea. Kei ia tangata tōna ake tae. Kāore e puritia, e tukuna rānei tētahi mea e hangaia ana e koe.",
+      "sizeLegend": "Rahi o te reti",
+      "size": "{n} × {n}",
+      "people": [
+        "Te tangata tuatahi",
+        "Te tangata tuarua"
+      ],
+      "colorLegend": "Te tae o {person}",
+      "colors": [
+        "Kōwhai",
+        "Karaka",
+        "Kākāriki",
+        "Pāpura"
+      ],
+      "inUse": "Kei te whakamahia",
+      "turn": "Ko tō tūranga, {person|lower}",
+      "yourColor": "Ko tō tae he {color|lower}.",
+      "built": "Kua hangaia tahitia. Koinei te pikitia i hangaia e tātou e rua.",
+      "gridLabel": "Te reti tahitanga",
+      "region": "Te reti tahitanga, {n} × {n}. Ka neke ki te taha mēnā he whānui iti te mata.",
+      "cellEmpty": "Rārangi {row}, pou {column}, kore kau",
+      "cellFilled": "Rārangi {row}, pou {column}, {color}, i whakatakotoria e {person|lower}",
+      "placed": "Kua {color} te rārangi {row}, pou {column}. Ko tō tūranga, {next|lower}.",
+      "placedLast": "Kua {color} te rārangi {row}, pou {column}. Kua hangaia tahitia.",
+      "taken": "Kei te rārangi {row}, pou {column} kē tētahi wāhanga. Kōwhiria tētahi wāhi kore kau.",
+      "pass": "Tuku",
+      "passed": "He pai te tuku. Ko tō tūranga, {person|lower}.",
+      "takeBack": "Tangohia mai te wāhanga whakamutunga",
+      "takeBackPass": "Tangohia mai te tukunga",
+      "tookBack": "Kua tangohia mai te wāhanga. Ko tō tūranga, {person|lower}.",
+      "tookBackPass": "Kua tangohia mai te tukunga. Ko tō tūranga, {person|lower}.",
+      "colorChanged": "Ko te tae o {person} inaianei he {color|lower}.",
+      "restarted": "Kore kau te reti. Ko tō tūranga, {person|lower}.",
+      "print": "Tāia te reti",
+      "sheetTitle": "Hangaia tahitia",
+      "sheetHelp": "Whakawhitia ngā tūranga. Ki tētahi tapawhā wātea, ka tā ia tangata i tāna ake hanga ki tāna ake pene.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Pāwhiri i tētahi wāhanga, ka pāwhiri i te wāhi i te pikitia e tika ai. Kāore e puritia, e tukuna rānei tētahi mea e hangaia ana e koe.",
+      "hints": "Whakaatua ngā rārangi āwhina",
+      "pictureLine": "Ko tēnei he {picture}.",
+      "pictures": {
+        "house": "whare",
+        "boat": "poti",
+        "tree": "rākau",
+        "fish": "ika",
+        "cat": "ngeru",
+        "rocket": "rakete"
+      },
+      "outlineLabel": "Te hautanga o te {picture}. Pāwhiria tētahi wāhi kia whakatakotoria ki reira he wāhanga kua kōwhiria.",
+      "trayHeading": "Ngā wāhanga",
+      "pieces": {
+        "large-triangle": "Tapatoru nui",
+        "small-triangle": "Tapatoru iti",
+        "square": "Tapawhā",
+        "parallelogram": "Tapawhā rite",
+        "rectangle": "Tapawhā hauroa"
+      },
+      "shapes": {
+        "large-triangle": "he tapatoru nui",
+        "small-triangle": "he tapatoru iti",
+        "square": "he tapawhā",
+        "parallelogram": "he tapawhā rite",
+        "rectangle": "he tapawhā hauroa"
+      },
+      "chosenLabel": "Kua kōwhiria",
+      "spaceEmpty": "Wāhi {n}, {shape}, kore kau",
+      "spaceFilled": "Wāhi {n}, {shape}, kei a ia tōna wāhanga. Pāwhia kia tangohia mai te wāhanga.",
+      "chosen": "Kua kōwhiria te {piece}. Inaianei pāwhiria tētahi wāhi i te pikitia.",
+      "unchosen": "Kāore te wāhanga i te kōwhiria tonu.",
+      "placed": "Kei te wāhi {n} te wāhanga.",
+      "complete": "Kua oti te {picture}.",
+      "different": "He rāhua rerekē tērā wāhanga i tēnei wāhi. Whakamātauria tētahi atu wāhi.",
+      "needPiece": "Kōwhiria tētahi wāhanga i te tīere i te tuatahi.",
+      "filled": "Kua whai wāhanga kē taua wāhi. Pāwhiria kia whakahokia mai te wāhanga.",
+      "tookBack": "Kua hoki te wāhanga ki te tīere.",
+      "cleared": "Kua hoki ngā wāhanga ki te tīere. Whakahokia mai mēnā kua huri tō whakaaro.",
+      "restored": "Kua hoki ngā wāhanga ki te whakaahua.",
+      "next": "Ko tēnei he {picture}.",
+      "putBack": "Whakahokia mai",
+      "another": "Tētahi atu rāhua",
+      "print": "Tāngia tēnei rāhua",
+      "sheetTitle": "Ngā rāhua mārie",
+      "sheetHow": "Tāhuahia ngā wāhanga, tapahia rānei kia rite ki te tauāhua. Ka taea e tētahi pakeke te tapahi.",
+      "sheetPieces": "Ngā wāhanga, he rite te nui ki te tauāhua"
+    },
+    "picnicPlanner": {
+      "guidance": "Pāwhiria tētahi whakaahua kia uru ki te kete pikiniki, ā, pāwhiria ki roto i te kete kia tangohia atu. E ono ngā mea ka taea te mau ki te kete.",
+      "guidancePlay": "Pāwhiria ngā whakaahua e rua he rite. Ka noho tonu ngā whakaahua, kāore he wā.",
+      "basketHeading": "Tō mātou kete",
+      "basketLabel": "Te kete pikiniki",
+      "takeOut": "Tangohia {picture} i te kete",
+      "inBasket": "Kei roto i te kete",
+      "foodHeading": "Kai",
+      "outingsHeading": "Ngā mahi ki waho",
+      "added": "Kua uru {picture} ki te kete.",
+      "removed": "Kua puta {picture} i te kete.",
+      "already": "Kei te kete kē a {picture}. Pāwhiria ki reira kia tangohia atu.",
+      "full": "Kua ki te kete. Tangohia tētahi mea kia wātea he wāhi.",
+      "summary": "Tā mātou pikiniki: {list}.",
+      "summaryNone": "Kāore anō he mea kei te kete.",
+      "and": "me",
+      "play": "Me tākaro tātou ki tā mātou pikiniki",
+      "needTwo": "Kōwhiria ngā mea e rua neke atu i te tuatahi.",
+      "playAgain": "Tākaro anō",
+      "back": "Hoki ki te pikiniki",
+      "print": "Tāngia tā mātou rārangi pikiniki",
+      "cleared": "Kua wātea te kete.",
+      "notice": "This is a plan to talk about. Nothing is timed, rated or saved.",
+      "sheetTitle": "Tā mātou rārangi pikiniki",
+      "sheetHow": "Tohua ia mea i a koe e kohi ana. Whakamahia ngā rārangi kore kau mō ētahi atu mea e hiahia ana koe ki te kawe.",
+      "sheetToPack": "Me kohi"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Kōwhiria e rua ki te tekau ma rua o ō ake whakaahua hei tīmata i te pukapuka.",
+      "guidance": "Huri ngā whārangi tahi, mā ngā pātene, mā ngā mata ki te mauī me te matau rānei. Tāpirihia he kupu ki raro i tētahi whakaahua mēnā e pai ana koe. Kāore he mea i hangaia e koe e penapenatia, e tukuna rānei.",
+      "lookGuidance": "Titiro ki ia whārangi tahi. Ka taea e koe te kōrero, te titiro noa rānei.",
+      "intro": "Kōwhiria e rua ki te tekau ma rua whakaahua i tēnei taputapu. Ka noho ia whakaahua hei whārangi o te pukapuka ka taea e koutou te huri tahi.",
+      "consent": "Whakamahia ō ake whakaahua whānau. Me tono whakaaetanga i mua i te whakamahi i te whakaahua o tētahi kāore e taea te whakaae.",
+      "privacy": "Ka noho ō whakaahua ki tēnei taputapu. Kāore e tukuna, e penapenatia rānei.",
+      "choose": "Kōwhiria whakaahua",
+      "chooseDifferent": "Kōwhiria whakaahua rerekē",
+      "backToBook": "Hoki ki te pukapuka",
+      "backToChoose": "Hoki ki te kōwhiri whakaahua",
+      "needTwo": "Tēnā koa, kōwhiria ngā whakaahua e rua neke atu.",
+      "usingFirst": "Ka whakamahia ngā whakaahua tuatahi {max}.",
+      "cleared": "Kua mukua te pukapuka. Kōwhiria whakaahua kia tīmata anō.",
+      "moved": "Kua nuku ki te whārangi {n}.",
+      "pageOf": "Whārangi {n} o {total}",
+      "lookTogether": "Titiro tahi",
+      "leaveLook": "Hoki ki te pukapuka",
+      "print": "Tāngia te pukapuka whakaahua",
+      "clear": "Mukua te pukapuka",
+      "bookLabel": "Te pukapuka whānau",
+      "pagesLabel": "Huri ngā whārangi",
+      "previous": "Whārangi o mua",
+      "next": "Whārangi e whai ake nei",
+      "moveEarlier": "Nuku ki mua",
+      "moveLater": "Nuku ki muri",
+      "captionLabel": "He kupu mō tēnei whārangi, mēnā e pai ana koe",
+      "captionHelp": "Tae atu ki te 80 tohu. Ka noho ngā kupu ki tēnei whārangi anake, ka ngaro i te kati i a koe.",
+      "sheetTitle": "Tā mātou pukapuka whakaahua",
+      "sheetHow": "Tētahi whakaahua mō ia whārangi, me ngā kupu i raro. Huri ngā whārangi i te raupapa, kōrerotia ia tētahi.",
+      "sheetEmpty": "Kōwhiria ō whakaahua i te whārangi tākaro hei tā i tō ake pukapuka, tāngia rānei tēnei whārangi kore kau, ā, tāpiria he whakaahua kua tāngia.",
+      "sheetFrame": "Tāpiria he whakaahua kua tāngia ki konei",
+      "sheetWords": "He kupu mō tēnei whārangi",
+      "skipped": {
+        "one": "Ehara te kōnae {n} i te whakaahua ka taea e mātou te whakamahi.",
+        "other": "Ehara ngā kōnae {n} i ngā whakaahua ka taea e mātou te whakamahi."
+      }
+    },
+    "quietScene": {
+      "guidance": "Titiro ki tētahi whakaahua i te wā. Pāwhiria Whakamua, Whakamuri rānei i tō wā e rite ai koe. Kāore tētahi mea e nekeneke i a ia anō.",
+      "next": "Whakaahua e whai ake nei",
+      "previous": "Whakaahua o mua",
+      "bigPicture": "Whakaahua nui ake",
+      "showEverything": "Whakaatu katoa",
+      "first": "Koia te whakaahua tuatahi.",
+      "last": "Koia te whakaahua whakamutunga.",
+      "lines": {
+        "sunrise": "Kei te ara mai te rā i runga i te whenua.",
+        "window-with-birds": "Ngā manu i waho o te matapihi.",
+        "vase-of-flowers": "He ipu pua kei runga i te tēpu.",
+        "teacup": "He kapu tī kei te taha o te matapihi.",
+        "tree": "He rākau e tū ana i te māra.",
+        "sailboat": "He poti hiritau kei runga i te wai.",
+        "lighthouse": "He whare rama kei te taha o te moana.",
+        "rainbow": "He ātākura i muri i te ua.",
+        "moon": "Te marama i te rangi pō.",
+        "daisies": "He kohinga pāhikahika i roto i te tarutaru.",
+        "rowing-boat": "He poti hoe i runga i te wai mārie.",
+        "potted-plant": "He tipu kākāriki kei roto i te ipu."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Huri tahi. Pāwhiria tētahi tapahi, ka pāwhiria tētahi wāhi kore kau kia whakanohoia ki reira. Kāore tētahi mea i hangaia e koe e penapenatia, e tukuna rānei.",
+      "people": [
+        "Te tangata tuatahi",
+        "Te tangata tuarua"
+      ],
+      "marks": [
+        "te porowhita",
+        "te tapawha"
+      ],
+      "turn": "Ko tō wā, {person|lower}.",
+      "marked": "Ka tohua ō wāhanga ki {mark}.",
+      "boardLabel": "Te papa tahi",
+      "placeEmpty": "Wāhi {n}, kore kau",
+      "placeFilled": "Wāhi {n}, {picture|lower}, i whakanohoia e {person|lower}",
+      "trayHeading": "Ngā tapahi",
+      "chosenLabel": "Kua kōwhiria",
+      "chosen": "Kua kōwhiria {picture}. Tēnei, pāwhiria tētahi wāhi kore kau.",
+      "unchosen": "Kāore i te kōwhiriwhiria te tapahi i tēnei wā.",
+      "needCutout": "Kōwhiria tētahi tapahi i te tuatahi, ā, pāwhiria tētahi wāhi kore kau.",
+      "filled": "Kei te wāhi {n} kē he whakaahua. Kōwhiria tētahi wāhi kore kau.",
+      "placed": "Kua whakanohoia {picture} ki te wāhi {n}. Ko tō wā, {next|lower}.",
+      "full": "He whakaahua kei ia wāhi. Tangohia tētahi kia whakarerekē, kia tīmata anō rānei.",
+      "pass": "Tuku",
+      "passed": "He pai te tuku. Ko tō wā, {person|lower}.",
+      "takeBack": "Tangohia atu te wāhanga whakamutunga",
+      "takeBackPass": "Tangohia atu te tukunga",
+      "tookBack": "Kua tangohia atu te wāhanga. Ko tō wā, {person|lower}.",
+      "tookBackPass": "Kua tangohia atu te tukunga. Ko tō wā, {person|lower}.",
+      "restarted": "Kua wātea te papa. Ko tō wā, {person|lower}.",
+      "putBack": "Whakahokia mai",
+      "putBackDone": "Kua hoki ngā wāhanga ki runga i te papa.",
+      "another": "Tētahi atu huinga whakaahua",
+      "anotherSet": "Kei te tīere he huinga tapahi hou. Ka noho ngā wāhanga kei runga i te papa ki ō rātou wāhi.",
+      "print": "Tāngia te papa",
+      "sheetTitle": "Papa kohikohi",
+      "sheetHow": "Tapahia ngā whakaahua, ā, huri tahi ki te whakanoho i a rātou ki runga i te papa. Ka taea e tētahi pakeke te tapahi.",
+      "sheetTray": "Ngā whakaahua hei tapahi"
+    },
+    "gardenPlanner": {
+      "guidance": "Pāwhiria tētahi whakaahua, ka pāwhiria tētahi pōkai kia whakanohoia ki reira. Pāwhiria tētahi pōkai kei a ia tētahi whakaahua, kāore tētahi i kōwhiria, kia wātea.",
+      "bedsLabel": "Ngā pōkai māra",
+      "bedEmpty": "Pōkai {n}, kore kau",
+      "bedFilled": "Pōkai {n}, {picture|lower}",
+      "plantsHeading": "Ngā tipu",
+      "extrasHeading": "Ngā mea atu o te māra",
+      "chosenLabel": "Kua kōwhiria",
+      "chosen": "Kua kōwhiria {picture}. Tēnei, pāwhiria tētahi pōkai.",
+      "unchosen": "Kāore he whakaahua kua kōwhiria.",
+      "needPicture": "Kōwhiria he pikitia i mua, kātahi ka pāwhiri i tētahi rango.",
+      "planted": "Kei te rango {n} te {picture}.",
+      "replaced": "Ka noho te {picture} hei whakakapi i te pikitia kei te rango {n}.",
+      "cleared": "He kau te rango {n}. Whakahokia mai mēnā e hiahia ana koe ki taua pikitia anō.",
+      "restarted": "He kau ngā rango katoa.",
+      "putBack": "Whakahokia",
+      "putBackDone": "Kua hoki ngā pikitia ki ō rātou rango.",
+      "summaryHeading": "Taku māra",
+      "summary": "Kei tāu mahere {list}.",
+      "summaryNone": "Kāore anō he pikitia kei roto i tētahi rango.",
+      "and": "me",
+      "print": "Tāruatia te mahere",
+      "sheetTitle": "Tā mātou mahere māra",
+      "sheetHow": "Ko ngā rango e whakaatu ana i ngā pikitia kua kōwhiria i runga i te mata. Tuhia ki ngā rango kau mēnā e pai ana ki a koe.",
+      "sheetNotes": "Ngā tuhipoka",
+      "notice": "He mahere pikitia hei kōrerorero, ehara i te tohutohu tipu."
+    },
+    "coloringWall": {
+      "guidance": "Kōwhiria he pikitia me te maha o ngā whārangi. Tāruatia te pakitara, ā, ka tae ia tangata i tētahi, i ētahi atu whārangi rānei. Kāore he wā, he tohu, he penapena rānei.",
+      "pictureLegend": "Pikitia",
+      "sizeLegend": "Tokohia ngā whārangi",
+      "sizes": {
+        "2x2": "4 whārangi (2 x 2)",
+        "3x2": "6 whārangi (3 x 2)",
+        "3x3": "9 whārangi (3 x 3)"
+      },
+      "previewLabel": "Kua wāwāhia te {picture|lower} ki ngā whārangi {n}: {across} ki te taha, {down} ki raro. He tapanga kei te kokonga o ia whārangi.",
+      "previewCaption": "Te pikitia me ngā rārangi whārangi me ngā tapanga kua tuhia ki runga.",
+      "labelsNote": "Ko ngā reta e heke ana i te pakitara, ā, ko ngā tau e whānui ana, nō reira ko A1 te whārangi i runga i te taha mauī.",
+      "wallHeading": "Me pēhea te hanga i te pakitara",
+      "steps": [
+        "Tāruatia ngā whārangi katoa. Ko te whārangi tuatahi ko ēnei tikanga me tētahi mahere o te pakitara.",
+        "Ka tango ia tangata i tētahi, i ētahi atu whārangi rānei, ka tae i aua whārangi.",
+        "Kāore e tika kia rite ngā tae me ngā momo. Ko ia whārangi he wāhanga o taua pikitia anō.",
+        "Whakatakotoria ngā whārangi e ai ki ō rātou tapanga, kātahi ka hono ki te teepu ki muri.",
+        "Whakaarahia te pakitara ki te wāhi e kitea ai e te katoa."
+      ],
+      "mapLabel": "He mahere o te pakitara: {down} rārangi, ia rārangi he {across} whārangi, kua tapanga mai i A1 ki {last}.",
+      "edgeNote": "Ko te rārangi tārua e tohu ana i te tapa o ia whārangi. Whakatakotoria ngā whārangi tapa ki tapa ki taua rārangi, ahakoa ka whakarangirangi iti rānei.",
+      "pictureLine": "Pikitia: {picture}. Ko tēnei pakitara he {n} whārangi: {across} ki te taha, {down} ki raro.",
+      "print": "Tāruatia te pakitara"
+    },
+    "findTogether": {
+      "guidance": "Whakawhiti wā. I tō wā, huri ai i ngā kāri e rua kia kimihia he takirua. Kimihia ngā takirua ngātahi.",
+      "sizeLegend": "Tokohia ngā kāri",
+      "size": "{n} kāri",
+      "viewLegend": "Me pēhea te tākaro",
+      "viewShowing": "Tākaro me ngā pikitia e kitea ana",
+      "viewHidden": "Ngā kāri e takoto huri ana",
+      "people": [
+        "Tangata tuatahi",
+        "Tangata tuarua"
+      ],
+      "turn": "Wā: {person}",
+      "turnDone": "Kua kitea ngā takirua katoa.",
+      "tally": "Takirua kua kitea ngātahi: {n}",
+      "cardNamed": "{name}, kāri {n}",
+      "cardFaceDown": "Kāri {n}, e takoto huri ana",
+      "first": "{name}. Nāianei huri he kāri tuarua.",
+      "found": "{name}: he takirua, kua kitea ngātahi. Nāianei ko te wā o te {next|lower}.",
+      "allTogether": "Kua kitea e koutou ngātahi ngā takirua katoa.",
+      "different": "He rerekē te {a} me te {b}. Kia māhaki, kātahi ka pāwhiri Huri ki muri.",
+      "waiting": "Pāwhiri Huri ki muri i te wā e rite ana koe. Kātahi ka whiti te wā.",
+      "turnedBack": "Kua huri ki muri. Nāianei ko te wā o te {person|lower}.",
+      "passed": "He pai te tuku atu i tō wā. Nāianei ko te wā o te {person|lower}.",
+      "turnBack": "Huri ki muri",
+      "pass": "Tuku atu",
+      "playAgain": "Tākaro anō"
+    },
+    "drawingDuet": {
+      "guidance": "Whakawhiti wā, tētahi rārangi ia tangata, kātahi ka tuku atu te pene. Ka taea e te tangata katoa te tuku atu. Kāore he mea e tukuna ki tētahi wāhi. Ka wehe atu tētahi pikitia i tēnei whārangi mēnā ka penapenahia e koe anake.",
+      "people": [
+        "Tangata tuatahi",
+        "Tangata tuarua"
+      ],
+      "colorLegend": "Te tae a {person}",
+      "colors": [
+        "Kōwhai",
+        "Karaka",
+        "Kākāriki",
+        "Waiporo"
+      ],
+      "turn": "Te wā o {person}",
+      "penColor": "Te tae o te pene: {color}.",
+      "canvasLabel": "Te tuhinga ngātahi, {n} rārangi anō",
+      "canvasLabelOne": "Te tuhinga ngātahi, {n} rārangi anō",
+      "keys": "Ka nekehia e ngā pere te tohu pene i runga i te tuhinga. Ko te pātene wāhi hei whakaheke, hei whakaara rānei i te pene.",
+      "penDown": "Pene ki raro",
+      "penUp": "Pene ki runga",
+      "pass": "Tukua atu te pene",
+      "passed": "He pai te tuku atu. Nāianei ko tō wā, {person|lower}.",
+      "takeBack": "Tangohia taku rārangi whakamutunga",
+      "tookBack": "Kua tangohia te rārangi whakamutunga a te {person|lower}.",
+      "noLine": "Kāore he rārangi a te {person|lower} hei tango.",
+      "restarted": "Kua mā te pepa. Ko te tangata tuatahi te wā. Whakahokia mēnā kāore koe i whakaaro ki tērā.",
+      "putBack": "Whakahokia",
+      "restored": "Kua hoki ngā rārangi ki pēnei i mua.",
+      "save": "Penapena te pikitia",
+      "saved": "Kua rite tō pikitia. Whakamahia te hononga tango kia penapenahia ki tēnei pūrere.",
+      "download": "Tango drawing-duet.png",
+      "print": "Tāruatia te pepa",
+      "sheetTitle": "Te tuhinga takirua",
+      "paperRules": "E rua te tangata, kotahi te pepa, e rua ngā pene. Whakawhitia ngā wā: tētahi rārangi, tētahi hanga ia tangata, kātahi ka tuku atu te pene. Ka taea e te tangata katoa te tuku atu. Kāore he pikitia tika."
+    },
+    "colorWash": {
+      "guidance": "Peitahia he tae ngohengohe puta noa i te whārangi, tētahi horoinga i te wā. Hikina te paraihe kia mutu, ā, mutu ai i te wā e pai ai koe. Kāore he mea e penapenahia, e tukuna rānei.",
+      "colorLegend": "Te tae horoi",
+      "sizeLegend": "Te rahi o te paraihe",
+      "colors": [
+        "Kōwhai",
+        "Karaka",
+        "Kākāriki",
+        "Waiporo"
+      ],
+      "sizes": {
+        "wide": "Whānui",
+        "veryWide": "Whānui rawa"
+      },
+      "color": "Te tae horoi: {color}.",
+      "brushDown": "Paraihe ki raro",
+      "brushUp": "Paraihe ki runga",
+      "keys": "Ka nekehia e ngā pere te porowhita o te paraihe i runga i te whārangi. Ko te pātene wāhi hei whakaheke, hei whakaara rānei i te paraihe.",
+      "canvasLabel": "He whārangi o ngā horoinga tae ngohengohe",
+      "fresh": "He whārangi hou",
+      "freshMessage": "He whārangi hou.",
+      "putBack": "Whakahokia",
+      "restored": "Kua hoki mai te whārangi."
+    },
     "sortTogether": {
       "guidance": "Pāwhiritia tētahi whakaahua, kā tahi ka pāwhiri i te kete e tika ana mōna.",
       "restart": "He whakaahua hōu",
@@ -71,6 +719,10 @@
       "hint": "Ka taea te tuku te {name|lower} ki roto i \"{basket}\". Pāwhiritia taua kete hei tuku ki reira.",
       "placed": "Kua tau te {name|lower} ki roto i \"{basket}\".",
       "sorted": "Kua whakarōpūtia ngā mea katoa. Tirohia ngātahi ngā kete, whakamātauhia rānei tētahi kaupapa kē.",
+      "largerTargets": "Ngā whāinga nui ake",
+      "largerOn": "Kua whakahohe ngā whāinga nui ake. Kāore tētahi mea i nekehia.",
+      "largerOff": "Kua whakakorea ngā whāinga nui ake. Kāore tētahi mea i nekehia.",
+      "largerOnNewRound": "Kua whakahohe ngā whāinga nui ake, me ngā kete e rua. Anei ngā pikitia hou hei whakarōpū.",
       "basket": {
         "one": "Kete \"{basket}\", {count} te whakaahua kei roto",
         "other": "Kete \"{basket}\", {count} ngā whakaahua kei roto"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Pāwhiritia tētahi wāhanga, kā tahi ka pāwhiri i tētahi atu. Ka whakawhiti tūranga rāua.",
-      "restart": "Whakaranua anō",
+      "restart": "Mix up again",
       "pictureLegend": "Whakaahua",
       "pictures": {
         "sailboat": "Waka rā",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Te whakaahua katoa: {name}",
       "guideText": "Koia tēnei te āhua o te whakaahua ina tūhonohono katoa.",
+      "ownChoose": "Whakamahia tō ake whakaahua",
+      "ownChange": "Kōwhiria he whakaahua kē",
+      "ownBack": "Hoki ki ā mātou pikitia",
+      "ownPrivacy": "Ka noho tō whakaahua ki tēnei pūrere. Kāore e tukuna ki runga, kāore hoki e penapenahia.",
+      "ownConsent": "Whakamahia ō whakaahua ake. Whakapātai i mua i te whakamahi i te whakaahua o tētahi kāore e taea te whakaae.",
+      "ownWorking": "E whakarite ana i tō whakaahua.",
+      "ownNotUsable": "Kāore i taea te whakamahi i taua kōnae. Kōwhiria he kōnae whakaahua, pēnei i te JPEG, i te PNG rānei.",
+      "ownAlt": "Tō whakaahua",
+      "ownPiece": "Wāhanga {n}, {place}",
+      "ownWhole": "Kua oti anō tō whakaahua. Whakarangirangihia anō ina pai ai koe.",
+      "ownSheetTitle": "Tō whakaahua i ngā wāhanga",
+      "ownSheetHow": "Tapahia i ngā rārangi. Whakarangirangihia ngā wāhanga, kātahi ka whakawhiti e rua wāhanga i te wā, kia oti ai te pikitia.",
       "piece": "Wāhanga kei te {place}",
       "pieceInPlace": ", kei te tūranga tika",
       "piecePickedUp": ", kua mau",
@@ -122,7 +786,7 @@
         "raro matau"
       ],
       "done": "Kua tūhono anō te whakaahua. Tākaro anō, whakatā rānei.",
-      "playAgain": "Whakaranua anō"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Pānuitia ngātahi te whakataukī, kā tahi ka pāwhiri i te kupu hei whakaoti.",
@@ -190,6 +854,14 @@
       "guidance": "Pānuitia ā-waha te kāri. Kāore he whakautu tika, hē rānei.",
       "position": "Kāri {n} o te {total}",
       "themeLegend": "Kaupapa",
+      "showPrompt": "Whakaatua he tohu kōrero",
+      "bigPicture": "He pikitia nui, mō te rōpū",
+      "passNote": "Ka taea e te tangata katoa te tuku atu.",
+      "groupTitle": "Te tuku i te kāri huri i te rōpū",
+      "groupSit": "Noho ki te porowhita, kia kitea e te katoa te pikitia. Ko te tangata e pupuri ana i te kāri, ko te pūrere rānei e whakaatu ana i te pikitia nui, ka pānui tuatahi i te tohu ki te reo teitei.",
+      "groupPass": "Kātahi ka tuku te kāri ki te tangata e whai ake nei. Ka kōrero ia tangata i tētahi kupu, i tētahi rerenga kōrero rānei mō te pikitia, kātahi ka tuku atu.",
+      "groupNoSpeech": "Ka whakaaetia tonu te tuku atu i te kāri. Ka taea e tētahi tangata te tuku atu me te kore e kōrero i tētahi mea, ā, kāore he tangata e tika kia kī he aha.",
+      "groupEnd": "Ka mutu te takahanga ina huri katoa te kāri i te porowhita, ina ngata rawa rānei te rōpū. Kāore he toa. Whakamutua i te wā e hiahia ana te rōpū.",
       "next": "Kāri e whai ake nei",
       "previous": "Kāri o mua",
       "print": "Tāngia ngā kāri katoa",
@@ -252,6 +924,20 @@
       "started": "Kua tīmata. Hā mai ina nui haere te porohita.",
       "stopped": "Kua mutu.",
       "finished": "Kua ono ngā hā pōturi. Tīmata anō ina hiahia koe."
+    },
+    "storyChain": {
+      "guidance": "Whakarerekē kōrero: kotahi rerenga kupu ia tangata, tāpiri te whakaahua e whai ake ana.",
+      "passNote": "Kōrerohia tō rerenga kupu ki te reo teitei. Kāore he mea tuhia, kāore hoki he mea penapena. Ka āhei te tangata ki te kore kōrero.",
+      "chainLabel": "Te mekameka i tēnei wā",
+      "item": "Whakaahua {n}: {name}",
+      "add": "Tāpiri whakaahua",
+      "fullAdd": "Kua ki te mekameka. Tīmata he mekameka hou",
+      "newChain": "Tīmata he mekameka hou",
+      "takeOff": "Tangohia te whakaahua whakamutunga",
+      "added": "Kua tae te {name|lower} ki te pito o te mekameka.",
+      "removed": "Kua tangohia te {name|lower} i te mekameka.",
+      "fresh": "He mekameka hou, ka tīmata ki te {name|lower}.",
+      "full": "Kei te mekameka e 8 ngā whakaahua katoa. Korerohia te pakiwaitara katoa, tīmata rānei he mekameka hou."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Kapua ua",
     "snowflake": "Whetū huka",
     "kite": "Manu tukutuku",
-    "sunrise": "Whitinga rā i ngā puke"
+    "sunrise": "Whitinga rā i ngā puke",
+    "decorated-keepsake-box": "Pouaka mahara whakapaipai",
+    "painted-plant-pot": "Kōmaru rēhia me ngā otaota",
+    "repeating-pattern-sheet": "Pepa tauira tārua",
+    "music-drawn-lines": "Rārangi tuhi ki te waiata",
+    "paper-boat-afloat": "Waka pepa e rere ana",
+    "folded-towel-stack": "Puranga tauera kōpaki",
+    "hand-massage-with-lotion": "Ringa me te rotihana",
+    "open-photo-album": "Pukaemi whakaahua tuwhera",
+    "button-flower-card": "Pua pātene i runga kāri",
+    "blue-torn-paper-collage": "Kōtaetae pepa kikorangi",
+    "family-tree-of-hands": "Rākau whānau ā-ringa",
+    "open-greeting-card": "Kāri mihi tuwhera me te ngākau",
+    "lavender-sachet": "Pēke rapene me te rīpene",
+    "memory-collage-of-photos": "Kōtaetae whakaahua whānau",
+    "paper-chain-garland": "Taura pepa mekameka",
+    "open-songbook-with-notes": "Pukapuka waiata tuwhera",
+    "photo-postcard-with-stamp": "Kāri whakaahua me te tapanga",
+    "pine-cone-bird-feeder": "Pine hei kai manu",
+    "playlist-phone-and-card": "Waea me te kāri waiata",
+    "sealed-rice-shaker": "Pūkoro raihi kua kati",
+    "texture-board-with-scraps": "Papa rerekē me ngā parapara",
+    "painted-garden-stone": "Kōhatu māra kua tāruatia",
+    "shared-painted-canvas": "Kanwhas peita tahi",
+    "watercolor-washes-sheet": "Tae wai ki runga pepa",
+    "seedling-in-pot": "Tupu i roto i te ipu",
+    "pressed-leaves-in-book": "Rau pēhitia i roto i te pukapuka",
+    "printed-leaves-sheet": "Pepa tāruatanga rau",
+    "pinch-pot-clay-bowl": "Ipu pātoto",
+    "table-sketch-pencil": "Tātā pene o te kapu",
+    "buttons-in-muffin-tin": "Pātene i roto i te kēmu",
+    "family-recipe-book": "Pukapuka tohutao whānau",
+    "drum-with-beat-marks": "Pahu me ngā tokotoko",
+    "torn-paper-flower": "Pua pepa ritenga",
+    "window-with-birds": "Matapihi me ngā manu",
+    "woven-paper-mat": "Whāriki pepa raranga",
+    "yarn-ball-with-thread": "Pōro miro",
+    "letter-and-envelope": "Reta i roto i te kāia"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Kei te haereere"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Hua rākau",
+        "animals": "Kararehe",
+        "travel": "Ngā momo haerenga",
+        "flowers": "Puāwai",
+        "hot-drinks": "Ngā mea mō te inu wera",
+        "weather": "Ngā momo huarere",
+        "baked": "Ngā kai tunuhia i te ōwene"
       }
     }
   }

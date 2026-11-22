@@ -5,6 +5,13 @@
       "stopReading": "Steðga at lesa",
       "region": "Spæl",
       "restart": "Byrja av nýggjum",
+      "rest": "Hvíla í bili",
+      "restingTitle": "Í hvíld",
+      "restingText": "Tak so nógv tíð, sum tú hevur tørv á. Staðið títt verður goymt á hesi síðu.",
+      "resume": "Halt fram",
+      "placeText": "Seinast stoppaði tú hálvvegis. Halt fram frá tí, ella byrja á nýggjum.",
+      "placeResume": "Halt fram",
+      "placeFresh": "Byrja á nýggjum",
       "soundOn": "Mild ljóð tendrað",
       "soundOff": "Mild ljóð sløkt",
       "done": "Liðugt á hesum sinni",
@@ -43,7 +50,19 @@
       "viewShowing": "Sjónligar myndir",
       "viewHidden": "Fjaldar myndir",
       "playAgain": "Spæl aftur við nýggjum myndum",
-      "talk": "Prátið um myndirnar saman"
+      "talk": "Prátið um myndirnar saman",
+      "modeLegend": "Hvørji myndir",
+      "modePlay": "Hvørjar myndir sum helst",
+      "modeDaily": "Dagsins kort",
+      "dayLegend": "Hvørji dagur",
+      "dayHelp": "Øll fáa somu myndirnar somu dagina. Fyrrverandi dagar eru eisini her, og at sleppa ein dag kostar ikki nakað.",
+      "guidanceDaily": "Dagsins kort hevur fýra pør. Trýst á eina mynd, og trýst síðani á tá, ið passar til hana.",
+      "restartDaily": "Byrja hetta kortið aftur",
+      "copy": "Kopiera hesa línu",
+      "copied": "Kopierað. Ongin ting verður send nakrastaðni.",
+      "calendarTitle": "Dagsins kort, {month}",
+      "calendarHelp": "Hvønn dag eru tað somu fýra myndirnar hjá øllum. Ongin úrslit verða skrásett, og ongin dagur verður markaður sum misstur.",
+      "calendarVersion": "Útgáva {date}. Myndirnar eru tær somu hjá øllum somu dagina."
     },
     "choose": {
       "countLegend": "Hvussu nógvar myndir",
@@ -62,6 +81,635 @@
       "shadowAlt": "Ein skuggi at para saman við",
       "foundAlt": "Skuggin av {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Hjálpir",
+      "hintOn": "Hjálp eftir eina løtu",
+      "hintOff": "Ongar hjálpir",
+      "guidance": "Finn tær {n} myndirnar, ið hoyra saman, og trýst á hvørja eina.",
+      "countLegend": "Hvør mong myndir",
+      "count": "{n} myndir",
+      "found": "Ja, {name|lower} hoyrir til í hesum bólki.",
+      "elsewhere": "{name|lower} hoyrir saman við onkran annan. Tak tær tíð.",
+      "hint": "Ein hjálp: leita eftir {theme|lower}.",
+      "together": "Hesar hoyra saman: {theme}.",
+      "shown": "Her er bólkurin: {theme}.",
+      "groupName": "Saman: {theme}",
+      "show": "Vís bólkin",
+      "next": "Eitt annað sett"
+    },
+    "oddOneOut": {
+      "hintLegend": "Hjálpir",
+      "hintOn": "Hjálp eftir eina løtu",
+      "hintOff": "Ongar hjálpir",
+      "guidance": "Finn myndina, ið ikki hoyrir til hinar, og trýst á hana.",
+      "countLegend": "Hvør mong myndir",
+      "count": "{n} myndir",
+      "belongs": "{name|lower} hoyrir saman við hinar. Tak tær tíð.",
+      "found": "Ja, {name|lower} er tann, ið ikki hoyrir til. Hinar eru {theme|lower}.",
+      "shown": "Her er svarið: {name|lower}. Hinar eru {theme|lower}.",
+      "hint": "Ein hjálp: {n} av hesum eru {theme|lower}.",
+      "others": "Hinar: {theme}",
+      "show": "Vís mær",
+      "next": "Eitt annað sett"
+    },
+    "seatedToss": {
+      "guidance": "Sit við eitt borð og skift at kasta ein blíðan baunapoka inn í stóra málið. Hav skoringina á blaði, saman.",
+      "stepsHeading": "Hvussu tað fer fram",
+      "steps": [
+        "Prent málið og skoringsarkið, og legg tað flatt á borðið millum tykkum.",
+        "Sit væl, ein á hvørjum síðu. Skift við einum blíðum kasti hvør, ella sleppa, um tú heldur.",
+        "Når eitt kast lendir í einum hring, set tann, ið kastaði, eitt kryss í einum kassa í sínum dálki, á røðini hjá hesum hring.",
+        "Hyggið saman at krossunum, tá tit steðga, um tit vilja. Ongin skal leggja nakað saman.",
+        "Steðga, hvørja ferð ein av tykkum er klár til tað."
+      ],
+      "safetyHeading": "Trygd",
+      "safetyLine": "Brúka bara ein baunapoka við sømdum loki ella eina rullaða sokk, sit kyrr, kast ikki móti einum andliti, og hav ein vaksnan í nærheytið. Smálutir eru ein kvøvingarvandi.",
+      "flags": [
+        "Ikki til børn undir 3: smálutir",
+        "Hald burtur frá munnum"
+      ],
+      "safety": [
+        "Vel ein baunapoka við sømdum loki, ella rulla eina reina sokk saman. Kanna hann fyrst fyri hølum ella loysum sømum, so ongin fylling kann koma út.",
+        "Baunir, ris og aðrar smáar fyllingar eru ein kvøvingarvandi. Hald tær burtur frá smáum børnum og frá øllum, ið seta ting í munnin.",
+        "Vera innan armsbreidd og fylg væl við, um nakað kann verða sett í munnin.",
+        "Sit kyrr. Kast blíðliga og lágt móti málinum á borðinum, aldrin móti einum andliti."
+      ],
+      "previewLabel": "Prentaða arkið: eitt mál við trimum ringum, nevnd Nær, Miðal og Fjart, útfrá og inn, og eitt skoringsark við einum dálki hjá hvørjum og einari røð við tómum kassum fyri hvønn ring.",
+      "sheetHow": "Legg arkið flatt millum tykkum. Når eitt kast lendir í einum hring, set eitt kryss í kassa í tínum dálki, á røðini hjá hesum hring.",
+      "rings": [
+        "Nær",
+        "Miðal",
+        "Fjart"
+      ],
+      "people": [
+        "Fyrsta persón",
+        "Onnur persón"
+      ],
+      "ringHeading": "Hringur",
+      "print": "Prent málið og skoringsarkið"
+    },
+    "seasonalPack": {
+      "guidance": "Vel ein mánaða, prenta teir trý pappírsspælini, og gjør eitt, tvey ella øll triggjar saman.",
+      "monthLegend": "Vel ein mánaða",
+      "months": [
+        "januar",
+        "februar",
+        "mars",
+        "apríl",
+        "mai",
+        "juni",
+        "juli",
+        "august",
+        "september",
+        "oktober",
+        "november",
+        "desember"
+      ],
+      "monthNote": "Hvør mánaði hevur sínar egnu myndir. Síðan opnar við hesum mánaða, og tú kanst velja hvønn annan, sum helst.",
+      "restDay": "Í dag er hvíludagur",
+      "restLine": "Ongi spæl í dag. Ein hvíludagur er eisini ein góður dagur.",
+      "previewHeading": "Trý spælini",
+      "puzzles": {
+        "pairs": {
+          "title": "Finn parini",
+          "how": "Dreg eina línu frá hvørji mynd í øvstu røðini til sama mynd í neðstu røðini.",
+          "describe": "Tvær røðir við somu fýra myndum, í annarlagaðari røð."
+        },
+        "different": {
+          "title": "Hvør er øðrvísi?",
+          "how": "Ring inn myndina, sum er øðrvísi enn hinar trý.",
+          "describe": "Ein røð við fýra myndum. Trý eru tey somu, og ein er øðrvísi."
+        },
+        "color": {
+          "title": "Lit hana",
+          "how": "Lit myndina, sum tú vilt, við litstiftum ella blýantum.",
+          "describe": "Ein stór mynd at lita."
+        }
+      },
+      "print": "Prent hesa mánaðar pakka",
+      "sheetHow": "Prent eina síðu. Gjør eitt, tvey ella øll triggjar spælini, í hvørjum røð sum helst.",
+      "printFooter": "Gjør eitt, tvey ella øll triggjar. Steðga, hvørja ferð tú vilt."
+    },
+    "decorateACard": {
+      "guidance": "Vel eina lið, og pynt eitt kort saman við litstiftum ella pennum. Tað er ongant rætt kort.",
+      "occasionLegend": "Vel eina lið",
+      "occasions": {
+        "birthday": {
+          "label": "Føðingardagur",
+          "words": "Tillukku við føðingardegnum"
+        },
+        "thank-you": {
+          "label": "Takk",
+          "words": "Takk fyri"
+        },
+        "thinking-of-you": {
+          "label": "Tænki á teg",
+          "words": "Tænki á teg"
+        },
+        "new-season": {
+          "label": "Ein nýggj árstíð",
+          "words": "Ein nýggj árstíð"
+        },
+        "just-because": {
+          "label": "Bara so",
+          "words": "Bara so"
+        }
+      },
+      "stepsHeading": "Hvussu pynta tit tað saman",
+      "steps": {
+        "fold": "Prent kortið og brett tað í tvey eftir tí skiftu linju, so framsíðan er uttanfyri.",
+        "front": "Ein persónur pyntar framsíðuna, runt um orðini.",
+        "inside": "Hin persónurin pyntar aftursíðuna, ella tit skifta um á einari síðu.",
+        "message": "Skriva eina boð saman. Ein persónur kann skriva, meðan hin sigur orðini.",
+        "stop": "Steðga, hvørja ferð tú vilt. Ongin rætt kort finst, og eitt einfalt er líka gott."
+      },
+      "materials": "Brúka litstiftir, litblýantar ella pennar. Ongin ting skal klippast, límast ella festast.",
+      "previewLabel": "Ein forskoðan av kortinum brettum í tvey. Framsíðan sigur {words}, við einari einfaldari ramma av blaðum og stjørnum. Aftursíðan hevur linjur til eitt boð og eina linju fyri Frá.",
+      "from": "Frá",
+      "sheetHow": "Brot kortið í helvt eftir tí strikaðu linjuni, so at framsíðan er uttanfyri. Skrivið boðskapin á aftursíðuna.",
+      "rulesHeading": "Fyri tvey",
+      "sheetRules": [
+        "Takið tur ella býtið arbeiðið: ein skreytir framsíðuna, hin aftursíðuna.",
+        "Skrivið boðskapin saman, ella ein skrivar tað, sum hin sigur.",
+        "Hvør og ein kann steðga, nær sum helst. Tað er ikki eitt rætt kort."
+      ],
+      "print": "Prenta kortið"
+    },
+    "storyDice": {
+      "guidance": "Hyggið at myndunum og fortellið eina søgu við tær, í hvørji røð sum helst. Tað er ongin rætt søga.",
+      "countLegend": "Hvussu nógvir tenningar",
+      "count": "{n} tenningar",
+      "roll": "Kast aftur",
+      "pass": "Sleppa",
+      "passed": "Tað er í lagi at sleppa. Næsta persónin kann byrja, ella tit kunnu kasta aftur.",
+      "rolled": "Nýggjar myndir: {names}.",
+      "tapped": "{name}. Byrjið við hesari ella einari aðrari."
+    },
+    "wordPicture": {
+      "guidance": "Trýstið á eina mynd, síðani á orðið, sum nevnir hana. Ella trýstið á eitt orð, síðani á myndina, ið hoyrir til tað.",
+      "countLegend": "Hvussu nógvar myndir",
+      "count": "{n} myndir",
+      "picturesGroup": "Myndir",
+      "wordsGroup": "Orð",
+      "readWord": "Lesa upp: {name}",
+      "next": "Nýggjar myndir",
+      "putBack": "Set tað aftur",
+      "pickWord": "Trýstið nú á orðið, sum hoyrir til tað.",
+      "pickPicture": "Trýstið nú á myndina, sum hoyrir til tað.",
+      "fit": "Ja, hetta orðið hoyrir til {name|lower}.",
+      "newSet": "Her er eitt nýtt sett av myndum.",
+      "restarted": "Aftur til byrjan. Allar myndir og øll orð eru loysar aftur.",
+      "restored": "Sett aftur. Pørini, ið hoyra saman, verða vístar aftur.",
+      "all": "Hvørt orð hevur sína mynd."
+    },
+    "colorMatch": {
+      "guidance": "Hyggið at litinum og navninum, síðani trýstið á allar myndir, ið hava hendan litin.",
+      "target": "Liturin er {color|lower}. Trýstið á allar myndirnar, ið hava litin {color|lower}.",
+      "countLegend": "Hvussu nógvar myndir",
+      "count": "{n} myndir",
+      "found": "Ja, {name|lower} er {color|lower}.",
+      "named": "{name|lower} er {color|lower}.",
+      "all": "Hetta eru allar myndirnar, ið hava litin {color|lower}.",
+      "shown": "Her eru myndirnar, ið hava litin {color|lower}.",
+      "show": "Vís myndirnar",
+      "next": "Ein annar litur",
+      "names": {
+        "red": "Reyður",
+        "orange": "Oransur",
+        "yellow": "Gulur",
+        "green": "Grønur",
+        "blue": "Blár"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Trýstið á eina helvt til vinstru, síðani á helvtina til høgru, ið passar til hana.",
+      "countLegend": "Hvussu nógvar myndir",
+      "count": "{n} myndir",
+      "leftGroup": "Vinstru helvtir",
+      "rightGroup": "Høgru helvtir",
+      "left": "Vinstru helvt av {name|lower}",
+      "right": "Høgra helvt av {name|lower}",
+      "joined": "Settar saman",
+      "pickRight": "Trýstið nú á helvtina til høgru, ið passar til hana.",
+      "pickLeft": "Trýstið nú á helvtina til vinstru, ið passar til hana.",
+      "fit": "Ja, hesar tvær gera {name|lower}.",
+      "apart": "Hesar tvær passa ikki saman. Roynið eina aðra.",
+      "all": "Hvør mynd er heil.",
+      "shown": "Her eru myndirnar, settar saman.",
+      "show": "Vís mær",
+      "next": "Eitt annað sett"
+    },
+    "colorByNumber": {
+      "guidance": "Veljið ein lit úr lyklinum, síðani fyllið eitt ferkant við honum. Ein hvør litur er í lagi.",
+      "sizeLegend": "Størdin á netinum",
+      "size": "{n} við {n}",
+      "keyLegend": "Litir",
+      "colors": [
+        "Gulur",
+        "Oransur",
+        "Grønur",
+        "Fjólublár"
+      ],
+      "motifs": {
+        "house": "eitt hús",
+        "flower": "ein blomst",
+        "heart": "eitt hjarta",
+        "tree": "eitt træ",
+        "boat": "ein seglbátur",
+        "pot-plant": "ein plantur í potti"
+      },
+      "region": "Myndanet, {n} við {n}. Tað rullar til síðuna, um skermurin er trongur.",
+      "cell": "Tal {number}, rað {row}, kolonna {column}, {color}",
+      "empty": "tóm",
+      "chose": "{name} er valt. Trýstið á eitt ferkant at fylla tað.",
+      "painted": "{name} í rað {row}, kolonna {column}.",
+      "sheet": "Hvørt ferkant hevur litin hjá tali síni. Hetta er myndin á arkinum: {name}.",
+      "own": "Hvørt ferkant er fylt. Hetta er Tykkara egna mynd.",
+      "fillAll": "Fyll við tølunum",
+      "filledAll": "Hvørt tómt ferkant hevur nú litin hjá tali síni.",
+      "clear": "Tøm",
+      "cleared": "Netið er tómt.",
+      "next": "Ein onnur mynd",
+      "fresh": "Her er ein onnur mynd at lita."
+    },
+    "patternMaker": {
+      "guidance": "Trýstið á eitt ferkant at broyta litin. Mynstrið vaksur við síðuna. Eingin ting, sum verður gjørt, verður goymd ella send.",
+      "sizeLegend": "Flísastødd",
+      "size": "{n} við {n}",
+      "keyLegend": "Litir, í røðini sum eitt trýst broytir tey",
+      "colors": [
+        "Gulur",
+        "Oransur",
+        "Grønur",
+        "Fjólublár"
+      ],
+      "tileLabel": "Tykkara flís",
+      "region": "Tykkara flís, {n} við {n}. Tað rullar til síðuna, um skermurin er trongur.",
+      "patternLabel": "Tykkara mynstur",
+      "pattern": "Tykkara mynstur: tykkara flís endurtikin {n} tvørtur og {n} niður.",
+      "square": "Rað {row}, kolonna {column}, {color}",
+      "changed": "Rað {row}, kolonna {column} er nú {color}.",
+      "cleared": "Flísin er tóm. Tit kunnu seta hana aftur.",
+      "surprise": "Kom mær óvart",
+      "surprised": "Her er ein nýggj flís. Tit kunnu seta tað gamla aftur.",
+      "putBack": "Set tað aftur",
+      "restored": "Tykkara flís er aftur, sum hon var.",
+      "print": "Prenta mítt mynstur",
+      "sheetTitle": "Mítt mynstur"
+    },
+    "buildTogether": {
+      "guidance": "Takið tur at seta eitt stykki í eitt tómt pláss. Hvør og ein hevur sín egna lit. Eingin ting, sum verður gjørt, verður goymd ella send.",
+      "sizeLegend": "Størdin á netinum",
+      "size": "{n} við {n}",
+      "people": [
+        "Fyrsta persónin",
+        "Onnur persónin"
+      ],
+      "colorLegend": "Litur hjá {person}",
+      "colors": [
+        "Gulur",
+        "Oransur",
+        "Grønur",
+        "Fjólublár"
+      ],
+      "inUse": "Í brúk",
+      "turn": "Tykkara tur, {person|lower}",
+      "yourColor": "Tykkara litur er {color|lower}.",
+      "built": "Bygt saman. Hetta er myndin, tit tvey hava gjørt.",
+      "gridLabel": "Felags netið",
+      "region": "Felags netið, {n} við {n}. Tað rullar til síðuna, um skermurin er trongur.",
+      "cellEmpty": "Rað {row}, kolonna {column}, tóm",
+      "cellFilled": "Rað {row}, kolonna {column}, {color}, sett av {person|lower}",
+      "placed": "Rað {row}, kolonna {column} er nú {color}. Tykkara tur, {next|lower}.",
+      "placedLast": "Rað {row}, kolonna {column} er nú {color}. Bygt saman.",
+      "taken": "Rað {row}, kolonna {column} hevur longu eitt stykki. Veljið eitt tómt pláss.",
+      "pass": "Sleppa",
+      "passed": "Tað er í lagi at sleppa. Tykkara tur, {person|lower}.",
+      "takeBack": "Tak seinasta stykkið aftur",
+      "takeBackPass": "Tak sleppingina aftur",
+      "tookBack": "Stykkið er tikið aftur. Tykkara tur, {person|lower}.",
+      "tookBackPass": "Sleppingin er tikin aftur. Tykkara tur, {person|lower}.",
+      "colorChanged": "{person} hevur nú {color|lower}.",
+      "restarted": "Netið er tómt. Tykkara tur, {person|lower}.",
+      "print": "Prenta netið",
+      "sheetTitle": "Bygt saman",
+      "sheetHelp": "Takið tur. Í einum tómum ferkanti teknar hvør sína egnu form við sín egna blýant.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Trýstið á eitt stykki, síðani á plássið í myndini, har tað skal vera. Eingin ting, sum verður gjørt, verður goymd ella send.",
+      "hints": "Vís hjálpilinjurnar",
+      "pictureLine": "Myndin: {picture}.",
+      "pictures": {
+        "house": "hús",
+        "boat": "bátur",
+        "tree": "træ",
+        "fish": "fiskur",
+        "cat": "kattur",
+        "rocket": "raketta"
+      },
+      "outlineLabel": "Útlínan: {picture}. Trýstið á eitt pláss at seta í tað eitt valt stykki.",
+      "trayHeading": "Stykkini",
+      "pieces": {
+        "large-triangle": "Stórur tríhyrningur",
+        "small-triangle": "Lítil tríhyrningur",
+        "square": "Ferkant",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Rektangul"
+      },
+      "shapes": {
+        "large-triangle": "ein stórur tríhyrningur",
+        "small-triangle": "ein lítil tríhyrningur",
+        "square": "ein ferkant",
+        "parallelogram": "eitt parallelogram",
+        "rectangle": "eitt rektangul"
+      },
+      "chosenLabel": "Valt",
+      "spaceEmpty": "Pláss {n}, {shape}, tómt",
+      "spaceFilled": "Pláss {n}, {shape}, hevur sítt stykki. Trýst at taka stykkið aftur.",
+      "chosen": "{piece} er valt. Trýstið nú á eitt pláss í myndini.",
+      "unchosen": "Stykkið er ikki valt longur.",
+      "placed": "Stykkið er á plássi {n}.",
+      "complete": "Myndin av {picture} er liðug.",
+      "different": "Hetta stykkið hevur ein annan form enn hetta plássið. Royn eitt annað pláss.",
+      "needPiece": "Vel fyrst eitt stykki úr bakkanum.",
+      "filled": "Hetta plássið hevur longu sítt stykki. Trýst á tað fyri at taka stykkið aftur.",
+      "tookBack": "Stykkið er aftur í bakkanum.",
+      "cleared": "Stykkini eru aftur í bakkanum. Set tey aftur á, um tygum hava broytt hugsan.",
+      "restored": "Stykkini eru aftur á myndina.",
+      "next": "Hetta er {picture}.",
+      "putBack": "Legg tað aftur",
+      "another": "Ein onnur form",
+      "print": "Prenta hesa formina",
+      "sheetTitle": "Kyrrar formar",
+      "sheetHow": "Lita stykkini ella skera tey út, so tey passa í útlínurnar. Ein vaksin kann skera tey út.",
+      "sheetPieces": "Stykkini, í somu stødd sum útlínurnar"
+    },
+    "picnicPlanner": {
+      "guidance": "Trýst á eina mynd fyri at seta hana í piknikkurvina, og trýst á hana í kurvini fyri at taka hana úr. Kurvin rúmar seks ting.",
+      "guidancePlay": "Trýst á tvær myndir, sum eru eins. Myndirnar verða vístar, og ongi tíð verður mátað.",
+      "basketHeading": "Okkara kurv",
+      "basketLabel": "Piknikkurvin",
+      "takeOut": "Tak {picture} úr kurvini",
+      "inBasket": "Í kurvini",
+      "foodHeading": "Matur",
+      "outingsHeading": "Ting at gera",
+      "added": "{picture} er í kurvini.",
+      "removed": "{picture} er úr kurvini.",
+      "already": "{picture} er longu í kurvini. Trýst á hana har fyri at taka hana úr.",
+      "full": "Kurvin er full. Tak eitt ting úr fyri at gera pláss.",
+      "summary": "Okkara piknik: {list}.",
+      "summaryNone": "Ongin ting er enn í kurvini.",
+      "and": "og",
+      "play": "Lat okkum leika við piknikið okkara",
+      "needTwo": "Vel minst tvey ting fyrst.",
+      "playAgain": "Leika aftur",
+      "back": "Aftur til piknikið",
+      "print": "Prenta okkara piknikslistan",
+      "cleared": "Kurvin er tóm.",
+      "notice": "Hetta er ein ætlan at tala um. Ongin ting verður mátað, metin ella goymd.",
+      "sheetTitle": "Okkara piknikslistin",
+      "sheetHow": "Merk hvørt ting av, tá tú pakkar tað. Brúk tær tómu linjurnar til annað, tygum vilja hava við.",
+      "sheetToPack": "At pakka"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Vel tvey til tólv av tykkara egnu myndum fyri at byrja bókina.",
+      "guidance": "Blaðið síðunum saman við knøttunum ella pílatakkunum vinstra og høgra. Skriva fá orð undir eina mynd, um tygum vilja. Ongin ting, ið tygum gera, verður goymt ella sent.",
+      "lookGuidance": "Hyggið at hvørja síðu saman. Tygum kunnu prata, ella bara hyggja.",
+      "intro": "Vel tvey til tólv myndir frá hesum tóli. Hvør ein verður ein síða í bókini, sum tygum kunnu blaða saman.",
+      "consent": "Brúk tykkara egnu fjølskyldumyndir. Spyr fyrst, áðrenn tygum brúka mynd av einum, ið ikki kann siga ja.",
+      "privacy": "Tykkara myndir verða verandi á hesum tóli. Tær verða ikki leiddar upp ella goymdar.",
+      "choose": "Vel myndir",
+      "chooseDifferent": "Vel aðrar myndir",
+      "backToBook": "Aftur til bókina",
+      "backToChoose": "Aftur til val av myndum",
+      "needTwo": "Vel minst tvær myndir, vinaliga.",
+      "usingFirst": "Brúkar fyrstu {max} myndirnar.",
+      "cleared": "Bókin er tóm. Vel myndir fyri at byrja aftur.",
+      "moved": "Flutt til síðu {n}.",
+      "pageOf": "Síða {n} av {total}",
+      "lookTogether": "Hyggið saman",
+      "leaveLook": "Aftur til bókina",
+      "print": "Prenta bókina",
+      "clear": "Tøm bókina",
+      "bookLabel": "Fjølskyldubókin",
+      "pagesLabel": "Blaða síðunum",
+      "previous": "Fyrra síðan",
+      "next": "Næsta síða",
+      "moveEarlier": "Flyt fyrri",
+      "moveLater": "Flyt seinni",
+      "captionLabel": "Nøkur orð til hesa síðu, um tygum vilja",
+      "captionHelp": "Upp til 80 tekin. Tekstirnir verða bert goymdir á hesi síðu og verða burtur, tá tygum lúkka hana.",
+      "sheetTitle": "Okkara bók",
+      "sheetHow": "Ein mynd á hvørja síðu, við orðum undir. Blaðið síðunum í røð og tala um hvørja eina.",
+      "sheetEmpty": "Vel tykkara myndir á leikasíðuni fyri at prenta eina egna bók, ella prenta hesa tóma síðu og límið eina prentaða mynd í.",
+      "sheetFrame": "Lím eina prentaða mynd higar",
+      "sheetWords": "Nøkur orð til hesa síðu",
+      "skipped": {
+        "one": "{n} fíla var ikki ein mynd, ið vit kunnu brúka.",
+        "other": "{n} fílur vóru ikki myndir, ið vit kunnu brúka."
+      }
+    },
+    "quietScene": {
+      "guidance": "Hyggið at eini mynd í senn. Trýst á Næsta ella Fyrra, tá tygum eru reiðubúin. Ongin ting rørist sjálvt.",
+      "next": "Næsta mynd",
+      "previous": "Fyrra mynd",
+      "bigPicture": "Størri mynd",
+      "showEverything": "Vís alt",
+      "first": "Hetta er fyrsta myndin.",
+      "last": "Hetta er seinasta myndin.",
+      "lines": {
+        "sunrise": "Sólin kemur upp yvir landið.",
+        "window-with-birds": "Fuglar uttanfyri glugguna.",
+        "vase-of-flowers": "Ein vasi við blómum á borðinum.",
+        "teacup": "Ein tebolli við gluggan.",
+        "tree": "Eitt tré standandi í garðinum.",
+        "sailboat": "Ein seglbátur á vatninum.",
+        "lighthouse": "Ein viti við sjógvin.",
+        "rainbow": "Ein regnbogi eftir regnið.",
+        "moon": "Mánin á náttarhimmalinum.",
+        "daisies": "Ein flokkur av tusundfagrum í grasinum.",
+        "rowing-boat": "Ein róðrabátur á kyrrum vatni.",
+        "potted-plant": "Ein grønur plantur í einum potti."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Skiftist um. Trýst á eitt útskorið, og so trýst á eitt tómt pláss fyri at seta tað har. Ongin ting, ið tygum gera, verður goymt ella sent.",
+      "people": [
+        "Fyrsta persónin",
+        "Onnur persónin"
+      ],
+      "marks": [
+        "einum ringi",
+        "einum ferningi"
+      ],
+      "turn": "Tykkara tørn, {person|lower}.",
+      "marked": "Tykkara stykki eru merkt við {mark}.",
+      "boardLabel": "Felags tavlan",
+      "placeEmpty": "Pláss {n}, tómt",
+      "placeFilled": "Pláss {n}, {picture|lower}; {person|lower} setti tað.",
+      "trayHeading": "Útskurðirnir",
+      "chosenLabel": "Valt",
+      "chosen": "Tú hevur valt {picture}. Trýst nú á eitt tómt pláss.",
+      "unchosen": "Útskurðurin er ikki valdur longur.",
+      "needCutout": "Vel fyrst eitt útskorið, og trýst so á eitt tómt pláss.",
+      "filled": "Pláss {n} hevur longu eina mynd. Vel eitt tómt pláss.",
+      "placed": "{picture} er á plássi {n}. Næsta tørn: {next|lower}.",
+      "full": "Hvørt pláss hevur eina mynd. Tak eina aftur fyri at broyta hana, ella byrja aftur.",
+      "pass": "Sleppa tørn",
+      "passed": "Tað er í lagi at sleppa. Næsta tørn: {person|lower}.",
+      "takeBack": "Tak seinasta stykkið aftur",
+      "takeBackPass": "Tak sleppið aftur",
+      "tookBack": "Stykkið er tikið aftur. Næsta tørn: {person|lower}.",
+      "tookBackPass": "Sleppið er tikið aftur. Næsta tørn: {person|lower}.",
+      "restarted": "Tavlan er tóm. Næsta tørn: {person|lower}.",
+      "putBack": "Legg tað aftur",
+      "putBackDone": "Stykkini eru aftur á tavluna.",
+      "another": "Eitt annað sett av myndum",
+      "anotherSet": "Eitt nýtt sett av útskurðum er í bakkanum. Stykkini á tavluni verða, har tey eru.",
+      "print": "Prenta tavluna",
+      "sheetTitle": "Felags tavla",
+      "sheetHow": "Skær myndirnar út og skiftist um at seta tær á tavluna. Ein vaksin kann skera út.",
+      "sheetTray": "Myndirnar at skera út"
+    },
+    "gardenPlanner": {
+      "guidance": "Trýst á eina mynd, og so trýst á eitt bed fyri at seta hana har. Trýst á eitt bed, sum hevur eina mynd, uttan at nakað er valt, fyri at tóma tað.",
+      "bedsLabel": "Bedini í garðinum",
+      "bedEmpty": "Bed {n}, tómt",
+      "bedFilled": "Bed {n}, {picture|lower}",
+      "plantsHeading": "Plantur",
+      "extrasHeading": "Annað í garðinum",
+      "chosenLabel": "Valt",
+      "chosen": "Tú hevur valt {picture}. Trýst nú á eitt bed.",
+      "unchosen": "Eingin mynd er vald.",
+      "needPicture": "Vel fyrst eina mynd, og trýst síðan á eitt beð.",
+      "planted": "{picture} er í beði {n}.",
+      "replaced": "{picture} tekur plássið hjá myndini í beði {n}.",
+      "cleared": "Beð {n} er tómt. Set myndina aftur, um tygum vilja hava hana aftur.",
+      "restarted": "Øll beðini eru tóm.",
+      "putBack": "Set tær aftur",
+      "putBackDone": "Myndirnar eru aftur í beðunum sínum.",
+      "summaryHeading": "Garðurin mín",
+      "summary": "Ætlanin tykkara hevur {list}.",
+      "summaryNone": "Ongin mynd er í beði enn.",
+      "and": "og",
+      "print": "Prenta ætlanina",
+      "sheetTitle": "Ætlanin okkara fyri garðin",
+      "sheetHow": "Beðini vísa myndirnar, ið valdar eru á skerminum. Tygum kunnu teikna í tóm beð, um tygum vilja.",
+      "sheetNotes": "Viðmerkingar",
+      "notice": "Hetta er ein myndaætlan at tosa um, ikki ráð um gróðursetan."
+    },
+    "coloringWall": {
+      "guidance": "Vel eina mynd og talið síður. Prenta veggin, og hvør litar eina ella fleiri síður. Tíðin verður ikki mett, stig verða ikki givin og ikki goymt nakað.",
+      "pictureLegend": "Mynd",
+      "sizeLegend": "Hvussu nógvar síður",
+      "sizes": {
+        "2x2": "4 síður (2 við 2)",
+        "3x2": "6 síður (3 við 2)",
+        "3x3": "9 síður (3 við 3)"
+      },
+      "previewLabel": "{picture|lower} er býtt í {n} síður, {across} yvir og {down} niður. Hvør síða hevur eitt merki í einum horni.",
+      "previewCaption": "Myndin við síðulinjum og merkjum tekin á.",
+      "labelsNote": "Bókstavir ganga niðureftir veggin, og tøl ganga yvir hann, so A1 er vinstra øvst.",
+      "wallHeading": "Hvussu veggurin verður settur saman",
+      "steps": [
+        "Prenta allar síðurnar. Fyrsta síðan er hesi steg og eitt kort yvir veggin.",
+        "Hvør tekur eina ella fleiri síður og litar tær.",
+        "Litirnir og stílarnir behøva ikki at passa saman. Allar síðurnar eru partur av somu mynd.",
+        "Legg síðurnar út eftir merkjunum, og lím tær saman við teip aftan á.",
+        "Set veggin upp har øll kunnu síggja hann."
+      ],
+      "mapLabel": "Kort av veggnum: {down} røðir við {across} síðum, merktar frá A1 til {last}.",
+      "edgeNote": "Strikaða linjan merkir kantin á hvørji síðu. Legg síðurnar kant í kant eftir henni, ella lat tær lítið eitt yvirlappa.",
+      "pictureLine": "Mynd: {picture}. Hesin veggurin er {n} síður: {across} yvir og {down} niðureftir.",
+      "print": "Prenta veggin"
+    },
+    "findTogether": {
+      "guidance": "Skiftist um. Tá turin er hjá tygum, snúgvið tvey spjøld fyri at leita eftir einum pari. Finnið pørini saman.",
+      "sizeLegend": "Hvussu nógv spjøld",
+      "size": "{n} spjøld",
+      "viewLegend": "Hvussu tað verður leikt",
+      "viewShowing": "Leika við myndum vístum",
+      "viewHidden": "Spjøld liggja niðurvend",
+      "people": [
+        "Fyrsta persónin",
+        "Onnur persónin"
+      ],
+      "turn": "Turin: {person}",
+      "turnDone": "Øll pørini eru funnin.",
+      "tally": "Pør funnin saman: {n}",
+      "cardNamed": "{name}, spjald {n}",
+      "cardFaceDown": "Spjald {n}, niðurvent",
+      "first": "{name}. Vend nú eitt annað spjald.",
+      "found": "{name}: eitt par, funnið saman. Næsti turin: {next|lower}.",
+      "allTogether": "Tygum hava funnið øll pørini saman.",
+      "different": "{a} og {b} eru ymiskt. Tak tær tíð, og trýst síðan á Snúgva tey aftur.",
+      "waiting": "Trýst á Snúgva tey aftur, tá tygum eru reiðug. Síðan gongur turin víðari.",
+      "turnedBack": "Vent aftur. Næsti turin: {person|lower}.",
+      "passed": "Tað er í lagi at hoppa yvir. Næsti turin: {person|lower}.",
+      "turnBack": "Snúgva tey aftur",
+      "pass": "Hoppa yvir",
+      "playAgain": "Spæl aftur"
+    },
+    "drawingDuet": {
+      "guidance": "Skiftist um við eina linju hvør, síðan geva pennan víðari. Ein og hvør kann hoppa yvir. Einki verður sent nakrastaðni. Ein mynd fer úr hesi síðu bert, um tygum goyma hana.",
+      "people": [
+        "Fyrsta persónin",
+        "Onnur persónin"
+      ],
+      "colorLegend": "{person}: litur",
+      "colors": [
+        "Gulur",
+        "Appelsinugulur",
+        "Grønur",
+        "Fjólubláur"
+      ],
+      "turn": "Turin: {person}",
+      "penColor": "Pennalitur: {color}.",
+      "canvasLabel": "Felags teikning, {n} linjur til nú",
+      "canvasLabelOne": "Felags teikning, {n} linja til nú",
+      "keys": "Pílknappir flyta pennaprikkin á teikningini. Mellomrúm setur pennan niður ella upp.",
+      "penDown": "Pennin niður",
+      "penUp": "Pennin upp",
+      "pass": "Geva pennan víðari",
+      "passed": "Tað er í lagi at hoppa yvir. Næsti turin: {person|lower}.",
+      "takeBack": "Tak aftur mína seinastu linju",
+      "tookBack": "{person|lower}: seinasta linjan er tikin aftur.",
+      "noLine": "{person|lower}: ongin linja er at taka aftur.",
+      "restarted": "Arkið er tómt. Fyrsta persónin hevur turin. Set tað aftur, um tygum ikki ætlaðu tað.",
+      "putBack": "Set tað aftur",
+      "restored": "Linjurnar eru aftur, sum tær vóru.",
+      "save": "Goym mynd",
+      "saved": "Myndin er klár. Brúk niðurhalsleinkjuna at goyma hana á hesum tóli.",
+      "download": "Tak niður drawing-duet.png",
+      "print": "Prenta pappírsútgávuna",
+      "sheetTitle": "Teikning hjá tveimum",
+      "paperRules": "Tvey persónur, eitt ark, tveir pennar. Skiftist um: ein linja ella ein form hvør, síðan geva pennan víðari. Ein og hvør kann hoppa yvir. Ongin rætt mynd er til."
+    },
+    "colorWash": {
+      "guidance": "Mál mjúkan lit yvir síðuna, eina áferð í senn. Lyft pensilin fyri at stansa, og stansa tá tygum vilja. Einki verður goymt ella sent.",
+      "colorLegend": "Málingarlitur",
+      "sizeLegend": "Pensilstødd",
+      "colors": [
+        "Gulur",
+        "Appelsinugulur",
+        "Grønur",
+        "Fjólubláur"
+      ],
+      "sizes": {
+        "wide": "Breiður",
+        "veryWide": "Serliga breiður"
+      },
+      "color": "Málingarlitur: {color}.",
+      "brushDown": "Pensil niður",
+      "brushUp": "Pensil upp",
+      "keys": "Pílknappir flyta pensilringin á síðuni. Mellomrúm setur pensilin niður ella upp.",
+      "canvasLabel": "Ein síða við mjúkum litamálingum",
+      "fresh": "Ný síða",
+      "freshMessage": "Ný síða.",
+      "putBack": "Set tað aftur",
+      "restored": "Síðan er komin aftur."
+    },
     "sortTogether": {
       "guidance": "Trýst á eina mynd, og trýst síðani á kurvina, hon hoyrir heima í.",
       "restart": "Nýggjar myndir",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} kundi verið í „{basket}“. Trýst á ta kurvina fyri at leggja hana hagar.",
       "placed": "{name|lower} er í „{basket}“.",
       "sorted": "Alt er skipað. Hyggið í kurvarnar saman, ella veljið eitt annað evni.",
+      "largerTargets": "Størri mál",
+      "largerOn": "Størri mál eru á. Ongin ting er flutt.",
+      "largerOff": "Størri mál eru av. Ongin ting er flutt.",
+      "largerOnNewRound": "Størri mál eru á, við tveimum kurvum. Her eru nýggjar myndir at raða.",
       "basket": {
         "one": "Kurvin „{basket}“, {count} mynd í",
         "other": "Kurvin „{basket}“, {count} myndir í"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Trýst á ein brikk, og trýst síðani á ein annan. Teir býta pláss.",
-      "restart": "Blanda aftur",
+      "restart": "Mix up again",
       "pictureLegend": "Mynd",
       "pictures": {
         "sailboat": "Seglbátur",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Øll myndin: {name}",
       "guideText": "Soleiðis sær myndin út, tá ið hon er samlað.",
+      "ownChoose": "Brúka egna mynd",
+      "ownChange": "Vel aðra mynd",
+      "ownBack": "Aftur til myndirnar okkara",
+      "ownPrivacy": "Myndin er á hesum tóli. Hon verður ikki send upp ella goymd.",
+      "ownConsent": "Brúk tykkara egnu myndir. Spyrjið, áðrenn tygum brúkið mynd av einum, sum ikki kann siga ja.",
+      "ownWorking": "Mynd tykkara verður gjørd klár.",
+      "ownNotUsable": "Hetta fílan kundi ikki brúkast. Vel eina myndarfílu, sum JPEG ella PNG.",
+      "ownAlt": "Mynd tykkara",
+      "ownPiece": "Stykki {n}, {place}",
+      "ownWhole": "Mynd tykkara er aftur heil. Bland hana aftur, tá tygum vilja.",
+      "ownSheetTitle": "Mynd tykkara í stykkjum",
+      "ownSheetHow": "Skera eftir linjunum. Bland stykkjunum, síðan bytt tvey stykki í senn, til myndin er heil.",
       "piece": "Brikkur {place}",
       "pieceInPlace": ", á rættum plássi",
       "piecePickedUp": ", valdur",
@@ -122,7 +786,7 @@
         "niðast til høgru"
       ],
       "done": "Myndin er samlað aftur. Spæl aftur ella gev tær eina løtu.",
-      "playAgain": "Blanda aftur"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Lesið orðatakið saman, og trýst síðani á orðið, sum ger tað liðugt.",
@@ -190,6 +854,14 @@
       "guidance": "Les kortið hart. Her eru eingi røtt ella skeiv svør.",
       "position": "Kort {n} av {total}",
       "themeLegend": "Evni",
+      "showPrompt": "Vís ein samrøðuspurning",
+      "bigPicture": "Stór mynd fyri ein bólk",
+      "passNote": "Ein og hvør kann hoppa yvir.",
+      "groupTitle": "At geva eitt spjald runt í einum bólki",
+      "groupSit": "Sit í ring, har øll kunnu síggja myndina. Persónin, sum heldur spjaldið, ella tækið við stóru myndini, lesur spurningina upp fyrst.",
+      "groupPass": "Síðan verður spjaldið givið víðari til næstu persón. Hvør sigur eitt orð ella eina setning um myndina og gevur spjaldið víðari.",
+      "groupNoSpeech": "Tað er altíð loyvt at geva spjaldið víðari. Ein persónur kann hoppa yvir uttan at siga nakað, og eingin skal siga hvørji.",
+      "groupEnd": "Umgangurin endar, tá kortið er komið rundan um ringin, ella tá hópurin hevur fingið nóg. Eingin vinnur. Steðgið, hvønn tíma hópurin vil.",
       "next": "Næsta kort",
       "previous": "Fyrra kort",
       "print": "Prenta øll kortini",
@@ -252,6 +924,20 @@
       "started": "Byrjað. Anda inn, tá ið sirkulin veksur.",
       "stopped": "Steðgað.",
       "finished": "Tað vóru seks rólig andadrøg. Tú kanst byrja aftur, nær tú vilt."
+    },
+    "storyChain": {
+      "guidance": "Skiftist at: ein setningur hvør, og leggið næstu mynd afturat.",
+      "passNote": "Sigið setningina hátt. Einki verður skrivað ella goymt. Hvør sum helst kann sleppa.",
+      "chainLabel": "Keðjan hittil",
+      "item": "Mynd {n}: {name}",
+      "add": "Leggja eina mynd afturat",
+      "fullAdd": "Keðjan er full. Byrja eina nýggja keðju",
+      "newChain": "Byrja eina nýggja keðju",
+      "takeOff": "Taka seinastu myndina burtur",
+      "added": "Nú er {name|lower} aftast í keðjuni.",
+      "removed": "Nú er {name|lower} burtur úr keðjuni.",
+      "fresh": "Ein nýggj keðja, ið byrjar við {name|lower}.",
+      "full": "Keðjan hevur allar átta myndirnar. Siga alla søguna, ella byrja eina nýggja keðju."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Regnskýggj",
     "snowflake": "Kavaflóki",
     "kite": "Flogdreki",
-    "sunrise": "Sólarris yvir fjøllunum"
+    "sunrise": "Sólarris yvir fjøllunum",
+    "decorated-keepsake-box": "Minnisaska, skreytt",
+    "painted-plant-pot": "Blomupottur við urtum",
+    "repeating-pattern-sheet": "Blað við endurtiknum mynstrum",
+    "music-drawn-lines": "Linjur teiknaðar til tónlist",
+    "paper-boat-afloat": "Pappírsbátur, ið flýtur á vatni",
+    "folded-towel-stack": "Stabbi av brettum handklæðum",
+    "hand-massage-with-lotion": "Hond á handklæði, við krem",
+    "open-photo-album": "Myndaalbum, opið",
+    "button-flower-card": "Knappablóm á korti",
+    "blue-torn-paper-collage": "Kollasja av rivnum pappíri, blá",
+    "family-tree-of-hands": "Ættartræ teiknað við hondum",
+    "open-greeting-card": "Hilsingarkort við hjarta, opið",
+    "lavender-sachet": "Lavendilpoki, bundin við band",
+    "memory-collage-of-photos": "Kollasja av fjølskyldumyndum",
+    "paper-chain-garland": "Pappírskeðjubogi",
+    "open-songbook-with-notes": "Sangbók, opin, við nótum",
+    "photo-postcard-with-stamp": "Myndapostkort við frímerki",
+    "pine-cone-bird-feeder": "Fuglafóðrari úr barrkeglum",
+    "playlist-phone-and-card": "Spælilistin á telefoni og sangkort",
+    "sealed-rice-shaker": "Rísrattur, lokaður",
+    "texture-board-with-scraps": "Tavla við ymiskum tilfari",
+    "painted-garden-stone": "Steinur í garði, málaður",
+    "shared-painted-canvas": "Lerreft, málað saman",
+    "watercolor-washes-sheet": "Vatnlitir á pappíri",
+    "seedling-in-pot": "Smáplantur í potti",
+    "pressed-leaves-in-book": "Pressað bløð í bók",
+    "printed-leaves-sheet": "Blað við prentum av bløðum",
+    "pinch-pot-clay-bowl": "Klemmapottur úr leiri",
+    "table-sketch-pencil": "Blýantsteikning av eini krús",
+    "buttons-in-muffin-tin": "Knøppir raðaðir í muffinsform",
+    "family-recipe-book": "Ættaruppskriftabók",
+    "drum-with-beat-marks": "Borðtrumba við trummustikkum",
+    "torn-paper-flower": "Blómamosaik av rivnum pappíri",
+    "window-with-birds": "Gluggi við fuglum",
+    "woven-paper-mat": "Pappírsmatta í vovi",
+    "yarn-ball-with-thread": "Hnøttur av garni",
+    "letter-and-envelope": "Breiv í einum konvolutt"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Úti á ferð"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Ávøkstur",
+        "animals": "Dýr",
+        "travel": "Ferðamátar",
+        "flowers": "Blóm",
+        "hot-drinks": "Ting til ein heitan drykk",
+        "weather": "Veðurslag",
+        "baked": "Ting bakað í ovni"
       }
     }
   }

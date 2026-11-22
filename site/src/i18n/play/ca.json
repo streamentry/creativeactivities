@@ -5,6 +5,13 @@
       "stopReading": "Atura la lectura",
       "region": "Joc",
       "restart": "Començar de nou",
+      "rest": "Descansi de moment",
+      "restingTitle": "Descansant",
+      "restingText": "Prengui el temps que necessiti. El seu lloc es guarda en aquesta pàgina.",
+      "resume": "Continuï",
+      "placeText": "La darrera vegada es va aturar a mig camí. Continuï des d’allà o comenci de nou.",
+      "placeResume": "Continuï",
+      "placeFresh": "Comenci de nou",
       "soundOn": "Sons suaus activats",
       "soundOff": "Sons suaus desactivats",
       "done": "Per ara ja n’hi ha prou",
@@ -44,7 +51,19 @@
       "viewShowing": "Imatges a la vista",
       "viewHidden": "Imatges amagades",
       "playAgain": "Tornar a jugar amb imatges noves",
-      "talk": "Parlar plegats de les imatges"
+      "talk": "Parlar plegats de les imatges",
+      "modeLegend": "Quines imatges",
+      "modePlay": "Qualsevol imatge",
+      "modeDaily": "La targeta d’avui",
+      "dayLegend": "Quin dia",
+      "dayHelp": "Tothom rep les mateixes imatges el mateix dia. També hi són els dies anteriors, i saltar-se un dia no té cap cost.",
+      "guidanceDaily": "La targeta d’avui té quatre parelles. Toqui una imatge i després toqui la que hi correspon.",
+      "restartDaily": "Torni a començar aquesta targeta",
+      "copy": "Copiï aquesta línia",
+      "copied": "Copiat. No s’envia res enlloc.",
+      "calendarTitle": "Les targetes d’avui, {month}",
+      "calendarHelp": "Cada dia té les mateixes quatre imatges per a tothom. No es puntua res i cap dia no es marca com a no fet.",
+      "calendarVersion": "Versió {date}. Les imatges són les mateixes per a tothom el mateix dia."
     },
     "choose": {
       "countLegend": "Quantes imatges",
@@ -63,6 +82,636 @@
       "shadowAlt": "Una ombra per fer parella",
       "foundAlt": "Ombra: {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Pistes",
+      "hintOn": "Pista després d’una pausa",
+      "hintOff": "Sense pistes",
+      "guidance": "Trobi les {n} imatges que van juntes i toqui cadascuna.",
+      "countLegend": "Quantes imatges",
+      "count": "{n} imatges",
+      "found": "Sí. La imatge «{name|lower}» pertany a aquest grup.",
+      "elsewhere": "La imatge «{name|lower}» va amb una altra cosa. Prengui el temps que necessiti.",
+      "hint": "Una pista: busqui {theme|lower}.",
+      "together": "Van juntes: {theme}.",
+      "shown": "Aquest és el grup: {theme}.",
+      "groupName": "Junts: {theme}",
+      "show": "Mostri el grup",
+      "next": "Un altre conjunt"
+    },
+    "oddOneOut": {
+      "hintLegend": "Pistes",
+      "hintOn": "Pista després d’una pausa",
+      "hintOff": "Sense pistes",
+      "guidance": "Trobi la imatge que no encaixa amb les altres i toqui-la.",
+      "countLegend": "Quantes imatges",
+      "count": "{n} imatges",
+      "belongs": "La imatge «{name|lower}» va amb les altres. Prengui el temps que necessiti.",
+      "found": "Sí, la imatge «{name|lower}» és la que no hi encaixa. Les altres són {theme|lower}.",
+      "shown": "Aquí la té: la imatge «{name|lower}». Les altres són {theme|lower}.",
+      "hint": "Una pista: {n} d’aquestes són {theme|lower}.",
+      "others": "Les altres: {theme}",
+      "show": "Mostri-m’ho",
+      "next": "Un altre conjunt"
+    },
+    "seatedToss": {
+      "guidance": "Assegui’s a una taula i tiri per torns un sac de llavors tou cap a la diana gran. Porti el recompte al paper, junts.",
+      "stepsHeading": "Com funciona",
+      "steps": [
+        "Imprimeixi la diana i la fulla de recompte, i deixi-les planes sobre la taula, entre les dues persones.",
+        "Assegui’s còmodament, una persona a cada costat. Per torns, cadascú fa una tirada suau o pot passar si ho prefereix.",
+        "Quan una tirada cau dins d’un cercle, qui ha tirat marca una casella de la seva columna, a la fila d’aquell cercle.",
+        "Quan vulguin parar, poden mirar junts les marques si ho desitgen. Ningú no ha de sumar res.",
+        "Aturin quan qualsevol dels dos ho vulgui."
+      ],
+      "safetyHeading": "Seguretat",
+      "safetyLine": "Faci servir només un sac amb la coberta cosida o un mitjó enrotllat. Cal estar assegut, mai no s’ha de tirar cap a la cara i convé tenir un adult a prop. Les peces petites suposen un risc d’ofegament.",
+      "flags": [
+        "No per a menors de 3: peces petites",
+        "Mantenir lluny de la boca"
+      ],
+      "safety": [
+        "Triï un sac de llavors amb la coberta cosida, o enrotlli un mitjó net. Revisi’l primer per veure si té forats o punts solts, perquè no pugui sortir cap farcit.",
+        "Les llavors, l’arròs i altres farcits petits suposen un risc d’ofegament. Mantingui’ls lluny de nens petits i de qualsevol persona que es posi coses a la boca.",
+        "Mantingui’s a l’abast del braç i vigili de prop si hi ha risc que alguna cosa acabi a la boca.",
+        "Quedi’s assegut. Tiri suaument i baix cap a la diana de la taula, mai cap a la cara."
+      ],
+      "previewLabel": "La fulla impresa: una diana de tres cercles anomenats Aprop, Al mig i Lluny, de fora cap a dins, i un recompte amb una columna per a cada persona i una fila de caselles buides per a cada cercle.",
+      "sheetHow": "Deixi la fulla plana entre les dues persones. Quan una tirada caigui en un cercle, marqui una casella de la seva columna, a la fila d’aquell cercle.",
+      "rings": [
+        "Aprop",
+        "Al mig",
+        "Lluny"
+      ],
+      "people": [
+        "Primera persona",
+        "Segona persona"
+      ],
+      "ringHeading": "Cercle",
+      "print": "Imprimeixi la diana i la fulla de recompte"
+    },
+    "seasonalPack": {
+      "guidance": "Triï un mes, imprimeixi els seus tres trencaclosques de paper i faci’n un, dos o tots tres junts.",
+      "monthLegend": "Triï un mes",
+      "months": [
+        "Gener",
+        "Febrer",
+        "Març",
+        "Abril",
+        "Maig",
+        "Juny",
+        "Juliol",
+        "Agost",
+        "Setembre",
+        "Octubre",
+        "Novembre",
+        "Desembre"
+      ],
+      "monthNote": "Cada mes té les seves pròpies imatges. La pàgina s’obre en aquest mes, i pot triar qualsevol altre.",
+      "restDay": "Avui és dia de descans",
+      "restLine": "Avui no hi ha trencaclosques. Un dia de descans també és un bon dia.",
+      "previewHeading": "Els tres trencaclosques",
+      "puzzles": {
+        "pairs": {
+          "title": "Uneixi les parelles",
+          "how": "Dibuixi una línia des de cada imatge de la fila de dalt fins a la mateixa imatge de la fila de baix.",
+          "describe": "Dues files amb les mateixes quatre imatges, en un ordre diferent."
+        },
+        "different": {
+          "title": "Quina imatge és diferent?",
+          "how": "Encercli la imatge que és diferent de les altres tres.",
+          "describe": "Una fila de quatre imatges. Tres són iguals i una és diferent."
+        },
+        "color": {
+          "title": "Pinti el dibuix",
+          "how": "Pinti el dibuix com vulgui, amb ceres o llapis de colors.",
+          "describe": "Un dibuix gran per pintar."
+        }
+      },
+      "print": "Imprimeixi el material d’aquest mes",
+      "sheetHow": "Imprimeixi una pàgina. Faci un, dos o tots tres trencaclosques, en l’ordre que vulgui.",
+      "printFooter": "Faci’n un, dos o tots tres. Aturi’s quan vulgui."
+    },
+    "decorateACard": {
+      "guidance": "Triï una ocasió i decori una targeta junts amb ceres o bolígrafs. No hi ha cap targeta correcta.",
+      "occasionLegend": "Triï una ocasió",
+      "occasions": {
+        "birthday": {
+          "label": "Aniversari",
+          "words": "Feliç aniversari"
+        },
+        "thank-you": {
+          "label": "Gràcies",
+          "words": "Gràcies"
+        },
+        "thinking-of-you": {
+          "label": "Pensant en vostè",
+          "words": "Pensant en vostè"
+        },
+        "new-season": {
+          "label": "Una estació nova",
+          "words": "Una estació nova"
+        },
+        "just-because": {
+          "label": "Només perquè sí",
+          "words": "Només perquè sí"
+        }
+      },
+      "stepsHeading": "Com decorar-la junts",
+      "steps": {
+        "fold": "Imprimeixi la targeta i plegui-la per la meitat, per la línia de punts, de manera que la part davantera quedi a fora.",
+        "front": "Una persona decora la part davantera, al voltant del text.",
+        "inside": "L’altra persona decora el darrere, o bé es van alternant en una de les cares.",
+        "message": "Escriure un missatge junts. Una persona pot escriure mentre l’altra diu les paraules.",
+        "stop": "Aturi’s quan vulgui. No hi ha cap targeta correcta, i una de senzilla és igual de bona."
+      },
+      "materials": "Faci servir ceres, llapis de colors o retoladors. No cal tallar ni enganxar res.",
+      "previewLabel": "Una vista prèvia de la targeta plegada per la meitat. La part davantera diu {words}, amb un marc senzill de fulles i estrelles. El darrere té línies per a un missatge i una línia per a De.",
+      "from": "De",
+      "sheetHow": "Plegui la targeta per la meitat, seguint la línia de punts, amb la part de davant cap a fora. Escrigui el missatge al revers.",
+      "rulesHeading": "Per a dues persones",
+      "sheetRules": [
+        "Per torns, o repartint la feina: una persona decora la part de davant i l’altra la de darrere.",
+        "Escriure el missatge junts, o que una persona escrigui el que diu l’altra.",
+        "Qualsevol pot parar en qualsevol moment. No hi ha una targeta correcta."
+      ],
+      "print": "Imprimir la targeta"
+    },
+    "storyDice": {
+      "guidance": "Miri els dibuixos i expliqui una història amb ells, en l’ordre que vulgui. No hi ha cap història correcta.",
+      "countLegend": "Quants daus",
+      "count": "{n} daus",
+      "roll": "Tornar a tirar",
+      "pass": "Passar",
+      "passed": "Passar també està bé. La persona següent pot començar, o pot tornar a tirar.",
+      "rolled": "Dibuixos nous: {names}.",
+      "tapped": "{name}. Pot començar per aquest o per qualsevol altre."
+    },
+    "wordPicture": {
+      "guidance": "Toqui un dibuix i després la paraula que el nomena. O toqui una paraula i després el seu dibuix.",
+      "countLegend": "Quants dibuixos",
+      "count": "{n} dibuixos",
+      "picturesGroup": "Dibuixos",
+      "wordsGroup": "Paraules",
+      "readWord": "Llegir en veu alta: {name}",
+      "next": "Dibuixos nous",
+      "putBack": "Tornar-ho a posar",
+      "pickWord": "Ara toqui la paraula que li correspon.",
+      "pickPicture": "Ara toqui el dibuix que li correspon.",
+      "fit": "Sí, aquesta paraula correspon a {name|lower}.",
+      "newSet": "Aquí té un conjunt nou de dibuixos.",
+      "restarted": "Tornem a començar. Tots els dibuixos i totes les paraules tornen a estar soltes.",
+      "restored": "Tornat a posar. Tornen a mostrar-se les parelles encertades.",
+      "all": "Cada paraula té el seu dibuix."
+    },
+    "colorMatch": {
+      "guidance": "Miri el color i el seu nom, i després toqui tots els dibuixos d’aquest color.",
+      "target": "El color és {color|lower}. Toqui tots els dibuixos de color {color|lower}.",
+      "countLegend": "Quants dibuixos",
+      "count": "{n} dibuixos",
+      "found": "Sí, {name|lower} és de color {color|lower}.",
+      "named": "{name|lower} és de color {color|lower}.",
+      "all": "Aquests són tots els dibuixos de color {color|lower}.",
+      "shown": "Aquests són els dibuixos de color {color|lower}.",
+      "show": "Mostrar-los",
+      "next": "Un altre color",
+      "names": {
+        "red": "Vermell",
+        "orange": "Taronja",
+        "yellow": "Groc",
+        "green": "Verd",
+        "blue": "Blau"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Toqui una meitat de l’esquerra i després la meitat de la dreta que hi encaixi.",
+      "countLegend": "Quants dibuixos",
+      "count": "{n} dibuixos",
+      "leftGroup": "Meitats de l’esquerra",
+      "rightGroup": "Meitats de la dreta",
+      "left": "Meitat esquerra: {name|lower}",
+      "right": "Meitat dreta: {name|lower}",
+      "joined": "Units",
+      "pickRight": "Ara toqui la meitat de la dreta que hi encaixi.",
+      "pickLeft": "Ara toqui la meitat de l’esquerra que hi encaixi.",
+      "fit": "Sí, aquestes dues meitats formen {name|lower}.",
+      "apart": "Aquestes dues no encaixen. Provi-ne una altra.",
+      "all": "Tots els dibuixos estan sencers.",
+      "shown": "Aquests són els dibuixos, units.",
+      "show": "Mostri-m’ho",
+      "next": "Un altre conjunt"
+    },
+    "colorByNumber": {
+      "guidance": "Triï un color de la llegenda i després ompli un quadrat amb ell. Qualsevol color està bé.",
+      "sizeLegend": "Mida de la quadrícula",
+      "size": "{n} per {n}",
+      "keyLegend": "Colors",
+      "colors": [
+        "Groc",
+        "Taronja",
+        "Verd",
+        "Morat"
+      ],
+      "motifs": {
+        "house": "una casa",
+        "flower": "una flor",
+        "heart": "un cor",
+        "tree": "un arbre",
+        "boat": "un vaixell de vela",
+        "pot-plant": "una planta en test"
+      },
+      "region": "Quadrícula del dibuix, {n} per {n}. Es desplaça de costat si la pantalla és estreta.",
+      "cell": "Número {number}, fila {row}, columna {column}, {color}",
+      "empty": "buida",
+      "chose": "{name} triat. Toqui un quadrat per omplir-lo.",
+      "painted": "{name} a la fila {row}, columna {column}.",
+      "sheet": "Cada quadrat té el color del seu número. Aquest és el dibuix del full: {name}.",
+      "own": "Tots els quadrats estan omplerts. Aquest és el seu propi dibuix.",
+      "fillAll": "Omplir segons els números",
+      "filledAll": "Cada quadrat buit ara té el color del seu número.",
+      "clear": "Esborrar",
+      "cleared": "La quadrícula està buida.",
+      "next": "Un altre dibuix",
+      "fresh": "Aquí té un altre dibuix per acolorir."
+    },
+    "patternMaker": {
+      "guidance": "Toqui un quadrat per canviar-ne el color. El seu patró creix al costat. Res del que faci es desa ni s’envia.",
+      "sizeLegend": "Mida de la rajola",
+      "size": "{n} per {n}",
+      "keyLegend": "Colors, en l’ordre en què canvia cada toc",
+      "colors": [
+        "Groc",
+        "Taronja",
+        "Verd",
+        "Morat"
+      ],
+      "tileLabel": "La seva rajola",
+      "region": "La seva rajola, {n} per {n}. Es desplaça de costat si la pantalla és estreta.",
+      "patternLabel": "El seu patró",
+      "pattern": "El seu patró: la seva rajola repetida {n} cops en horitzontal i {n} en vertical.",
+      "square": "Fila {row}, columna {column}, {color}",
+      "changed": "La fila {row}, columna {column} ara és {color}.",
+      "cleared": "La rajola és buida. Pot tornar-la a posar.",
+      "surprise": "Sorprengui’m",
+      "surprised": "Aquí té una rajola nova. Pot tornar a posar la vella.",
+      "putBack": "Tornar-la a posar",
+      "restored": "La seva rajola ha tornat a ser com abans.",
+      "print": "Imprimir el meu patró",
+      "sheetTitle": "El meu patró"
+    },
+    "buildTogether": {
+      "guidance": "Per torns, posin una peça en un lloc buit. Cada persona té el seu propi color. Res del que creïn es desa ni s’envia.",
+      "sizeLegend": "Mida de la quadrícula",
+      "size": "{n} per {n}",
+      "people": [
+        "Primera persona",
+        "Segona persona"
+      ],
+      "colorLegend": "Color: {person}",
+      "colors": [
+        "Groc",
+        "Taronja",
+        "Verd",
+        "Morat"
+      ],
+      "inUse": "En ús",
+      "turn": "Torn de {person|lower}",
+      "yourColor": "El seu color és {color|lower}.",
+      "built": "Construït junts. Aquest és el dibuix que han fet els dos.",
+      "gridLabel": "La quadrícula compartida",
+      "region": "La quadrícula compartida, {n} per {n}. Es desplaça de costat si la pantalla és estreta.",
+      "cellEmpty": "Fila {row}, columna {column}, buida",
+      "cellFilled": "Fila {row}, columna {column}, {color}, col·locat per {person|lower}",
+      "placed": "La fila {row}, columna {column} ara és {color}. Torn de {next|lower}.",
+      "placedLast": "La fila {row}, columna {column} ara és {color}. Construït junts.",
+      "taken": "La fila {row}, columna {column} ja té una peça. Triï un lloc buit.",
+      "pass": "Passar",
+      "passed": "Passar també està bé. Torn de {person|lower}.",
+      "takeBack": "Retirar l’última peça",
+      "takeBackPass": "Desfer el pas",
+      "tookBack": "La peça s’ha retirat. Torn de {person|lower}.",
+      "tookBackPass": "El pas s’ha desfet. Torn de {person|lower}.",
+      "colorChanged": "{person} ara té {color|lower}.",
+      "restarted": "La quadrícula és buida. Torn de {person|lower}.",
+      "print": "Imprimir la quadrícula",
+      "sheetTitle": "Construir junts",
+      "sheetHelp": "Per torns. En un quadrat buit, cada persona dibuixa la seva pròpia forma amb el seu propi llapis.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Toqui una peça i després l’espai del dibuix on va. Res del que faci es desa ni s’envia.",
+      "hints": "Mostrar les línies d’ajuda",
+      "pictureLine": "Aquest dibuix és: {picture}.",
+      "pictures": {
+        "house": "casa",
+        "boat": "vaixell",
+        "tree": "arbre",
+        "fish": "peix",
+        "cat": "gat",
+        "rocket": "coet"
+      },
+      "outlineLabel": "Contorn de: {picture}. Toqui un espai per posar-hi la peça triada.",
+      "trayHeading": "Les peces",
+      "pieces": {
+        "large-triangle": "Triangle gran",
+        "small-triangle": "Triangle petit",
+        "square": "Quadrat",
+        "parallelogram": "Paral·lelogram",
+        "rectangle": "Rectangle"
+      },
+      "shapes": {
+        "large-triangle": "un triangle gran",
+        "small-triangle": "un triangle petit",
+        "square": "un quadrat",
+        "parallelogram": "un paral·lelogram",
+        "rectangle": "un rectangle"
+      },
+      "chosenLabel": "Triada",
+      "spaceEmpty": "Espai {n}, {shape}, buit",
+      "spaceFilled": "Espai {n}, {shape}, amb la seva peça. Toqui per retirar la peça.",
+      "chosen": "Peça triada: {piece}. Ara toqui un espai del dibuix.",
+      "unchosen": "La peça ja no està triada.",
+      "placed": "La peça és a l’espai {n}.",
+      "complete": "La imatge «{picture}» ja és completa.",
+      "different": "Aquesta peça té una forma diferent d’aquest espai. Proveu un altre espai.",
+      "needPiece": "Primer trieu una peça de la safata.",
+      "filled": "Aquest espai ja té la seva peça. Toqueu-lo per recuperar la peça.",
+      "tookBack": "La peça ha tornat a la safata.",
+      "cleared": "Les peces han tornat a la safata. Si heu canviat d’idea, podeu tornar-les a posar.",
+      "restored": "Les peces han tornat a la imatge.",
+      "next": "Aquesta forma és: {picture}.",
+      "putBack": "Tornar-la a posar",
+      "another": "Una altra forma",
+      "print": "Imprimeix aquesta forma",
+      "sheetTitle": "Formes tranquil·les",
+      "sheetHow": "Pinteu les peces, o talleu-les perquè encaixin amb el contorn. Una persona adulta pot fer la feina de tallar.",
+      "sheetPieces": "Les peces, de la mateixa mida que el contorn"
+    },
+    "picnicPlanner": {
+      "guidance": "Toqueu una imatge per posar-la a la cistella de pícnic, i toqueu-la a la cistella per treure-la. La cistella té capacitat per a sis coses.",
+      "guidancePlay": "Toqueu dues imatges iguals. Les imatges es queden a la vista i no hi ha temps límit.",
+      "basketHeading": "La nostra cistella",
+      "basketLabel": "La cistella de pícnic",
+      "takeOut": "Traieu {picture} de la cistella",
+      "inBasket": "A la cistella",
+      "foodHeading": "Menjar",
+      "outingsHeading": "Coses per fer",
+      "added": "{picture} ja és a la cistella.",
+      "removed": "{picture} ja no és a la cistella.",
+      "already": "{picture} ja és a la cistella. Toqueu-ho allà per treure-ho.",
+      "full": "La cistella és plena. Traieu-ne alguna cosa per fer lloc.",
+      "summary": "El nostre pícnic: {list}.",
+      "summaryNone": "Encara no hi ha res a la cistella.",
+      "and": "i",
+      "play": "Juguem amb el nostre pícnic",
+      "needTwo": "Primer, trieu almenys dues coses.",
+      "playAgain": "Tornar a jugar",
+      "back": "Tornar al pícnic",
+      "print": "Imprimeix la nostra llista de pícnic",
+      "cleared": "La cistella és buida.",
+      "notice": "Això és un pla per parlar-ne. No es mesura el temps, no es puntua i no es desa res.",
+      "sheetTitle": "La nostra llista de pícnic",
+      "sheetHow": "Marqueu cada cosa quan la poseu a la cistella. Useu les línies en blanc per a qualsevol altra cosa que vulgueu portar.",
+      "sheetToPack": "Per portar"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Trieu entre dues i dotze de les vostres fotos per començar el llibre.",
+      "guidance": "Passeu les pàgines juntes, amb els botons o amb les tecles de fletxa esquerra i dreta. Si voleu, afegiu unes poques paraules sota una foto. No es desa ni s’envia res del que feu.",
+      "lookGuidance": "Mireu cada pàgina junts. Podeu parlar o simplement mirar.",
+      "intro": "Trieu entre dues i dotze fotos d’aquest dispositiu. Cada una es converteix en una pàgina d’un llibre que podeu passar junts.",
+      "consent": "Useu fotos de la vostra família. Demaneu permís abans d’usar una foto d’algú que no pot dir que sí.",
+      "privacy": "Les vostres fotos es queden en aquest dispositiu. No es pugen ni es desen.",
+      "choose": "Trieu fotos",
+      "chooseDifferent": "Trieu unes altres fotos",
+      "backToBook": "Tornar al llibre",
+      "backToChoose": "Tornar a triar fotos",
+      "needTwo": "Trieu almenys dues fotos.",
+      "usingFirst": "S’usaran les primeres {max} fotos.",
+      "cleared": "El llibre s’ha buidat. Trieu fotos per començar de nou.",
+      "moved": "Passat a la pàgina {n}.",
+      "pageOf": "Pàgina {n} de {total}",
+      "lookTogether": "Mireu-ho junts",
+      "leaveLook": "Tornar al llibre",
+      "print": "Imprimeix l’àlbum de records",
+      "clear": "Buida el llibre",
+      "bookLabel": "L’àlbum de família",
+      "pagesLabel": "Passeu les pàgines",
+      "previous": "Pàgina anterior",
+      "next": "Pàgina següent",
+      "moveEarlier": "Mogueu abans",
+      "moveLater": "Mogueu després",
+      "captionLabel": "Unes poques paraules per a aquesta pàgina, si voleu",
+      "captionHelp": "Fins a 80 caràcters. Els textos només es guarden en aquesta pàgina i desapareixen quan la tanqueu.",
+      "sheetTitle": "El nostre àlbum",
+      "sheetHow": "Una foto per pàgina, amb les seves paraules a sota. Passeu les pàgines en ordre i parleu de cadascuna.",
+      "sheetEmpty": "Trieu les vostres fotos a la pàgina del joc per imprimir el vostre propi llibre, o imprimiu aquesta pàgina en blanc i enganxeu-hi una foto impresa.",
+      "sheetFrame": "Enganxeu aquí una foto impresa",
+      "sheetWords": "Unes poques paraules per a aquesta pàgina",
+      "skipped": {
+        "one": "{n} fitxer no és una foto que puguem usar.",
+        "many": "{n} de fitxers no són fotos que puguem usar.",
+        "other": "{n} fitxers no són fotos que puguem usar."
+      }
+    },
+    "quietScene": {
+      "guidance": "Mireu una imatge cada vegada. Premeu Següent o Anterior quan estigueu a punt. Res no es mou sol.",
+      "next": "Imatge següent",
+      "previous": "Imatge anterior",
+      "bigPicture": "Imatge més gran",
+      "showEverything": "Mostra-ho tot",
+      "first": "Aquesta és la primera imatge.",
+      "last": "Aquesta és l’última imatge.",
+      "lines": {
+        "sunrise": "El sol surt sobre la terra.",
+        "window-with-birds": "Ocells fora de la finestra.",
+        "vase-of-flowers": "Un gerro de flors sobre la taula.",
+        "teacup": "Una tassa de te vora la finestra.",
+        "tree": "Un arbre dret al jardí.",
+        "sailboat": "Un veler sobre l’aigua.",
+        "lighthouse": "Un far vora el mar.",
+        "rainbow": "Un arc de Sant Martí després de la pluja.",
+        "moon": "La lluna al cel de la nit.",
+        "daisies": "Un tros de margarides a l’herba.",
+        "rowing-boat": "Una barca de rems sobre l’aigua tranquil·la.",
+        "potted-plant": "Una planta verda en una test."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Feu-ho per torns. Toqueu una peça retallada i després un lloc buit per posar-la-hi. No es desa ni s’envia res del que feu.",
+      "people": [
+        "La primera persona",
+        "La segona persona"
+      ],
+      "marks": [
+        "un cercle",
+        "un quadrat"
+      ],
+      "turn": "És el torn de {person|lower}.",
+      "marked": "Les vostres peces estan marcades amb {mark}.",
+      "boardLabel": "El tauler compartit",
+      "placeEmpty": "Lloc {n}, buit",
+      "placeFilled": "Lloc {n}, {picture|lower}, col·locat per {person|lower}",
+      "trayHeading": "Les peces retallades",
+      "chosenLabel": "Triada",
+      "chosen": "S’ha triat {picture}. Ara toqueu un lloc buit.",
+      "unchosen": "La peça retallada ja no està triada.",
+      "needCutout": "Primer trieu una peça retallada i després toqueu un lloc buit.",
+      "filled": "El lloc {n} ja té una imatge. Trieu un lloc buit.",
+      "placed": "{picture} ja és al lloc {n}. És el torn de {next|lower}.",
+      "full": "Tots els llocs tenen una imatge. Traieu-ne una per canviar-la, o comenceu de nou.",
+      "pass": "Passar",
+      "passed": "Passar també està bé. És el torn de {person|lower}.",
+      "takeBack": "Treu l’última peça",
+      "takeBackPass": "Anul·la el pas",
+      "tookBack": "La peça s’ha tret. És el torn de {person|lower}.",
+      "tookBackPass": "El pas s’ha anul·lat. És el torn de {person|lower}.",
+      "restarted": "El tauler és buit. És el torn de {person|lower}.",
+      "putBack": "Tornar-la a posar",
+      "putBackDone": "Les peces han tornat al tauler.",
+      "another": "Un altre conjunt d’imatges",
+      "anotherSet": "Hi ha un conjunt nou de peces retallades a la safata. Les peces del tauler es queden on són.",
+      "print": "Imprimeix el tauler",
+      "sheetTitle": "Tauler de collage",
+      "sheetHow": "Retalleu les imatges i feu torns per col·locar-les al tauler. Una persona adulta pot fer la feina de tallar.",
+      "sheetTray": "Les imatges per retallar"
+    },
+    "gardenPlanner": {
+      "guidance": "Toqueu una imatge i després un bancal per posar-la-hi. Toqueu un bancal que tingui una imatge, sense cap cosa triada, per buidar-lo.",
+      "bedsLabel": "Els bancals del jardí",
+      "bedEmpty": "Bancal {n}, buit",
+      "bedFilled": "Bancal {n}, {picture|lower}",
+      "plantsHeading": "Plantes",
+      "extrasHeading": "Extres del jardí",
+      "chosenLabel": "Triada",
+      "chosen": "S’ha triat {picture}. Ara toqueu un bancal.",
+      "unchosen": "No hi ha cap imatge triada.",
+      "needPicture": "Trieu primer una imatge i després toqueu un parterre.",
+      "planted": "{picture} és al parterre {n}.",
+      "replaced": "{picture} ocupa el lloc de la imatge del parterre {n}.",
+      "cleared": "El parterre {n} és buit. Torneu-hi la imatge si la voleu tornar a usar.",
+      "restarted": "Tots els parterres són buits.",
+      "putBack": "Torna-la al seu lloc",
+      "putBackDone": "Les imatges han tornat als seus parterres.",
+      "summaryHeading": "El meu jardí",
+      "summary": "El vostre pla té {list}.",
+      "summaryNone": "Encara no hi ha cap imatge en cap parterre.",
+      "and": "i",
+      "print": "Imprimeix el pla",
+      "sheetTitle": "El nostre pla de jardí",
+      "sheetHow": "Els parterres mostren les imatges triades a la pantalla. Dibuixeu-hi si voleu als parterres buits.",
+      "sheetNotes": "Notes",
+      "notice": "Això és un pla amb imatges per parlar-ne, no un consell per plantar."
+    },
+    "coloringWall": {
+      "guidance": "Trieu una imatge i quantes pàgines voleu. Imprimiu el mural, i cada persona pinta una o més pàgines. No es cronometra, no es puntua i no es guarda res.",
+      "pictureLegend": "Imatge",
+      "sizeLegend": "Quantes pàgines",
+      "sizes": {
+        "2x2": "4 pàgines (2 per 2)",
+        "3x2": "6 pàgines (3 per 2)",
+        "3x3": "9 pàgines (3 per 3)"
+      },
+      "previewLabel": "La imatge {picture|lower} dividida en {n} pàgines, {across} en horitzontal i {down} en vertical. Cada pàgina té una etiqueta a la cantonada.",
+      "previewCaption": "La imatge amb les línies de les pàgines i les etiquetes dibuixades a sobre.",
+      "labelsNote": "Les lletres van de dalt a baix i els números d'esquerra a dreta, així que A1 és la pàgina de dalt a l'esquerra.",
+      "wallHeading": "Com muntar el mural",
+      "steps": [
+        "Imprimiu totes les pàgines. La primera pàgina són aquests passos i un mapa del mural.",
+        "Cada persona agafa una o més pàgines i les pinta.",
+        "Els colors i els estils no cal que coincideixin. Totes les pàgines formen part de la mateixa imatge.",
+        "Poseu les pàgines en ordre segons les etiquetes i després uniu-les amb cinta adhesiva per l'altra cara.",
+        "Pengeu el mural en un lloc on tothom el pugui veure."
+      ],
+      "mapLabel": "Un mapa del mural: {down} files de {across} pàgines, etiquetades de A1 a {last}.",
+      "edgeNote": "La línia de punts marca la vora de cada pàgina. Poseu les pàgines vora amb vora seguint-la, o encavalqueu-les una mica.",
+      "pictureLine": "Imatge: {picture}. Aquest mural té {n} pàgines: {across} en horitzontal i {down} en vertical.",
+      "print": "Imprimeix el mural"
+    },
+    "findTogether": {
+      "guidance": "Pren-vos els torns. Quan us toqui, gireu dues cartes per buscar una parella. Busqueu les parelles junts.",
+      "sizeLegend": "Quantes cartes",
+      "size": "{n} cartes",
+      "viewLegend": "Com es juga",
+      "viewShowing": "Jugueu amb les imatges visibles",
+      "viewHidden": "Cartes boca per avall",
+      "people": [
+        "Primera persona",
+        "Segona persona"
+      ],
+      "turn": "Torn: {person}",
+      "turnDone": "S'han trobat totes les parelles.",
+      "tally": "Parelles trobades junts: {n}",
+      "cardNamed": "{name}, carta {n}",
+      "cardFaceDown": "Carta {n}, boca per avall",
+      "first": "{name}. Ara gireu una segona carta.",
+      "found": "{name}: una parella, trobada junts. Ara és el torn de {next|lower}.",
+      "allTogether": "Heu trobat totes les parelles junts.",
+      "different": "{a} i {b} són diferents. Preneu-vos el temps que calgui i després premeu Torna-les.",
+      "waiting": "Premeu Torna-les quan estigueu preparats. Després passa el torn.",
+      "turnedBack": "Tornades. Ara és el torn de {person|lower}.",
+      "passed": "Passar està bé. Ara és el torn de {person|lower}.",
+      "turnBack": "Torna-les",
+      "pass": "Passa",
+      "playAgain": "Torna a jugar"
+    },
+    "drawingDuet": {
+      "guidance": "Pren-vos els torns amb una línia cadascú i després passeu el llapis. Qualsevol pot passar. No s'envia res a cap lloc. Una imatge només surt d'aquesta pàgina si la deseu.",
+      "people": [
+        "Primera persona",
+        "Segona persona"
+      ],
+      "colorLegend": "Color de {person}",
+      "colors": [
+        "Groc",
+        "Taronja",
+        "Verd",
+        "Morat"
+      ],
+      "turn": "Torn de {person}",
+      "penColor": "Color del llapis: {color}.",
+      "canvasLabel": "Dibuix compartit, {n} línies fins ara",
+      "canvasLabelOne": "Dibuix compartit, {n} línia fins ara",
+      "keys": "Les tecles de fletxa mouen el punt del llapis sobre el dibuix. L'espai aixeca o baixa el llapis.",
+      "penDown": "Llapis baixat",
+      "penUp": "Llapis aixecat",
+      "pass": "Passa el llapis",
+      "passed": "Passar està bé. Ara et toca a tu, {person|lower}.",
+      "takeBack": "Treu-me l'última línia",
+      "tookBack": "S'ha tret l'última línia de {person|lower}.",
+      "noLine": "No hi ha cap línia de {person|lower} per treure.",
+      "restarted": "El full és buit. La primera persona té el torn. Torneu-lo a posar si no volíeu fer-ho.",
+      "putBack": "Torna-ho",
+      "restored": "Les línies han tornat tal com eren.",
+      "save": "Desa la imatge",
+      "saved": "La vostra imatge és a punt. Useu l'enllaç de descàrrega per guardar-la en aquest dispositiu.",
+      "download": "Descarrega drawing-duet.png",
+      "print": "Imprimeix la versió en paper",
+      "sheetTitle": "Duet de dibuix",
+      "paperRules": "Dues persones, un full, dos llapis. Pren-vos els torns: una línia o una forma cadascú, i després passeu el llapis. Qualsevol pot passar. No hi ha un dibuix correcte."
+    },
+    "colorWash": {
+      "guidance": "Pinteu color suau per tota la pàgina, una capa cada vegada. Aixequeu el pinzell per parar, i pareu quan vulgueu. No es desa ni s'envia res.",
+      "colorLegend": "Color de la capa",
+      "sizeLegend": "Mida del pinzell",
+      "colors": [
+        "Groc",
+        "Taronja",
+        "Verd",
+        "Morat"
+      ],
+      "sizes": {
+        "wide": "Ample",
+        "veryWide": "Molt ample"
+      },
+      "color": "Color de la capa: {color}.",
+      "brushDown": "Pinzell baixat",
+      "brushUp": "Pinzell aixecat",
+      "keys": "Les tecles de fletxa mouen el cercle del pinzell sobre la pàgina. L'espai aixeca o baixa el pinzell.",
+      "canvasLabel": "Una pàgina de capes de color suau",
+      "fresh": "Una pàgina nova",
+      "freshMessage": "Una pàgina nova.",
+      "putBack": "Torna-la",
+      "restored": "La pàgina ha tornat."
+    },
     "sortTogether": {
       "guidance": "Toqui una imatge i després la cistella on va.",
       "restart": "Imatges noves",
@@ -72,6 +721,10 @@
       "hint": "Aquesta imatge ({name|lower}) podria anar a «{basket}». Toqui aquesta cistella per posar-la-hi.",
       "placed": "Imatge: {name|lower}, a «{basket}».",
       "sorted": "Tot està classificat. Repassin les cistelles plegats o provin un altre tema.",
+      "largerTargets": "Objectius més grans",
+      "largerOn": "Els objectius més grans estan activats. No s'ha mogut res.",
+      "largerOff": "Els objectius més grans estan desactivats. No s'ha mogut res.",
+      "largerOnNewRound": "Els objectius més grans estan activats, amb dues cistelles. Aquí teniu imatges noves per classificar.",
       "basket": {
         "one": "Cistella {basket}, {count} imatge a dins",
         "many": "Cistella {basket}, {count} imatges a dins",
@@ -105,6 +758,18 @@
       },
       "guideAlt": "La imatge sencera: {name}",
       "guideText": "Així es veu la imatge quan està sencera.",
+      "ownChoose": "Useu la vostra pròpia foto",
+      "ownChange": "Trieu una altra foto",
+      "ownBack": "Torna a les nostres imatges",
+      "ownPrivacy": "La vostra foto es queda en aquest dispositiu. No es puja ni es guarda.",
+      "ownConsent": "Useu les vostres pròpies fotos. Demaneu permís abans d'usar una foto d'algú que no pot dir que sí.",
+      "ownWorking": "S'està preparant la vostra foto.",
+      "ownNotUsable": "No s'ha pogut usar aquest fitxer. Trieu un fitxer d'imatge, com un JPEG o un PNG.",
+      "ownAlt": "La vostra foto",
+      "ownPiece": "Peça {n}, {place}",
+      "ownWhole": "La vostra foto ja és sencera de nou. Barregeu-la de nou quan vulgueu.",
+      "ownSheetTitle": "La vostra foto en peces",
+      "ownSheetHow": "Talleu per les línies. Barregeu les peces i després canvieu-ne dues cada vegada fins que la imatge sigui sencera.",
       "piece": "Peça: {place}",
       "pieceInPlace": ", al lloc correcte",
       "piecePickedUp": ", agafada",
@@ -195,6 +860,14 @@
       "guidance": "Llegeixi la targeta en veu alta. No hi ha respostes correctes.",
       "position": "Targeta {n} de {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Mostra una pregunta per conversar",
+      "bigPicture": "Imatge gran, per a un grup",
+      "passNote": "Qualsevol pot passar.",
+      "groupTitle": "Passar una carta per un grup",
+      "groupSit": "Seieu en cercle, on tothom pugui veure la imatge. La persona que té la carta, o el dispositiu amb la imatge gran, llegeix primer la pregunta en veu alta.",
+      "groupPass": "Després passeu la carta a la següent persona. Cada persona diu una paraula o una frase sobre la imatge i després la passa.",
+      "groupNoSpeech": "Passar la carta sempre està permès. Una persona pot passar sense dir res, i ningú no ha de dir per què.",
+      "groupEnd": "La ronda acaba quan la carta ha donat la volta al cercle, o quan el grup ja n'ha tingut prou. Ningú guanya. Es pot parar en qualsevol moment, quan el grup vulgui.",
       "next": "Targeta següent",
       "previous": "Targeta anterior",
       "print": "Imprimir totes les targetes",
@@ -261,6 +934,20 @@
       "started": "Començat. Inspiri mentre el cercle creix.",
       "stopped": "Parat.",
       "finished": "Han estat sis respiracions lentes. Pot tornar a començar quan vulgui."
+    },
+    "storyChain": {
+      "guidance": "Per torns: una frase cadascú, i afegir la imatge següent.",
+      "passNote": "Es diu la frase en veu alta. No s'escriu ni es guarda res. Qualsevol pot passar el torn.",
+      "chainLabel": "La cadena fins ara",
+      "item": "Imatge {n}: {name}",
+      "add": "Afegir una imatge",
+      "fullAdd": "La cadena està plena. Començar una cadena nova",
+      "newChain": "Començar una cadena nova",
+      "takeOff": "Treure l'última",
+      "added": "Ara la cadena acaba amb {name|lower}.",
+      "removed": "S'ha tret {name|lower} de la cadena.",
+      "fresh": "Una cadena nova, que comença amb {name|lower}.",
+      "full": "La cadena ja té les vuit imatges. Es pot explicar tota la història, o començar una cadena nova."
     }
   },
   "pictures": {
@@ -346,7 +1033,44 @@
     "rain-cloud": "Núvol de pluja",
     "snowflake": "Floc de neu",
     "kite": "Estel",
-    "sunrise": "Sortida del sol sobre els turons"
+    "sunrise": "Sortida del sol sobre els turons",
+    "decorated-keepsake-box": "Caixa de record decorada",
+    "painted-plant-pot": "Test de planta pintat amb herbes",
+    "repeating-pattern-sheet": "Full de patrons repetits",
+    "music-drawn-lines": "Línies dibuixades al ritme de la música",
+    "paper-boat-afloat": "Barca de paper surant a l'aigua",
+    "folded-towel-stack": "Pila de tovalloles plegades",
+    "hand-massage-with-lotion": "Mà sobre una tovallola, amb crema",
+    "open-photo-album": "Àlbum de fotos obert",
+    "button-flower-card": "Flor de botons sobre una targeta",
+    "blue-torn-paper-collage": "Collage de paper blau esquinçat",
+    "family-tree-of-hands": "Arbre genealògic dibuixat amb les mans",
+    "open-greeting-card": "Targeta de felicitació oberta amb un cor",
+    "lavender-sachet": "Bossa de lavanda lligada amb cinta",
+    "memory-collage-of-photos": "Collage de fotos de família",
+    "paper-chain-garland": "Garlanda de cadena de paper",
+    "open-songbook-with-notes": "Cançoner obert amb notes musicals",
+    "photo-postcard-with-stamp": "Postal amb foto i segell",
+    "pine-cone-bird-feeder": "Menjador d'ocells de pinya penjat d'una branca",
+    "playlist-phone-and-card": "Llista de reproducció al telèfon i targeta de cançó",
+    "sealed-rice-shaker": "Sonall d'arròs tancat",
+    "texture-board-with-scraps": "Tauler de textures amb retalls",
+    "painted-garden-stone": "Pedra de jardí pintada",
+    "shared-painted-canvas": "Llenç pintat entre tots",
+    "watercolor-washes-sheet": "Aiguades d'aquarel·la sobre paper",
+    "seedling-in-pot": "Plàntules en test",
+    "pressed-leaves-in-book": "Fulles premsades en un llibre",
+    "printed-leaves-sheet": "Full d'estampats de fulles",
+    "pinch-pot-clay-bowl": "Pot de fang pessigat",
+    "table-sketch-pencil": "Esbós a llapis d'una tassa",
+    "buttons-in-muffin-tin": "Botons classificats en un motlle de magdalenes",
+    "family-recipe-book": "Llibre de receptes de família",
+    "drum-with-beat-marks": "Tambor de taula amb baquetes",
+    "torn-paper-flower": "Mosaic de flor de paper esquinçat",
+    "window-with-birds": "Finestra amb ocells",
+    "woven-paper-mat": "Estora de paper teixida",
+    "yarn-ball-with-thread": "Cabdell de llana",
+    "letter-and-envelope": "Carta dins d'un sobre"
   },
   "illustrations": {
     "rocking-chair": "Mecedora",
@@ -451,350 +1175,6 @@
     "pocket-watch": "Rellotge de butxaca"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "De mica en mica s’omple la",
-        "end": "pica",
-        "others": [
-          "bassa",
-          "olla"
-        ],
-        "prompt": "Quina és una feina que vostè feia a poc a poc?"
-      },
-      {
-        "start": "Qui bé fa, bé",
-        "end": "troba",
-        "others": [
-          "veu",
-          "dorm"
-        ],
-        "prompt": "Què és una cosa bona que algú va fer per vostè?"
-      },
-      {
-        "start": "A bon entenedor, poques",
-        "end": "paraules",
-        "others": [
-          "coses",
-          "preguntes"
-        ],
-        "prompt": "Qui és una persona amb qui s’entenia amb una mirada?"
-      },
-      {
-        "start": "Qui dia passa, any",
-        "end": "empeny",
-        "others": [
-          "guanya",
-          "comença"
-        ],
-        "prompt": "Quin dia de l’any li agrada més?"
-      },
-      {
-        "start": "Més val tard",
-        "end": "que mai",
-        "others": [
-          "que res",
-          "que cap"
-        ],
-        "prompt": "Què és una cosa que va fer tard però que va valer la pena?"
-      },
-      {
-        "start": "Qui no s’arrisca, no",
-        "end": "pisca",
-        "others": [
-          "menja",
-          "viu"
-        ],
-        "prompt": "Quina és una cosa que va provar per primera vegada?"
-      },
-      {
-        "start": "Cada ovella amb la seva",
-        "end": "parella",
-        "others": [
-          "manta",
-          "pastora"
-        ],
-        "prompt": "Com recorda una bona parella de ball o de festa?"
-      },
-      {
-        "start": "Les paraules se les emporta el",
-        "end": "vent",
-        "others": [
-          "temps",
-          "riu"
-        ],
-        "prompt": "Quin vent li agrada: el de la mar o el de la muntanya?"
-      },
-      {
-        "start": "Una oreneta no fa",
-        "end": "estiu",
-        "others": [
-          "niu",
-          "vol"
-        ],
-        "prompt": "Què és el que més li agrada de l’estiu?"
-      },
-      {
-        "start": "Pel maig, cada dia un",
-        "end": "raig",
-        "others": [
-          "núvol",
-          "sol"
-        ],
-        "prompt": "Què li agrada fer quan plou una mica?"
-      },
-      {
-        "start": "Abril,",
-        "end": "aigües mil",
-        "others": [
-          "flors mil",
-          "dies mil"
-        ],
-        "prompt": "Quines flors li agraden de la primavera?"
-      },
-      {
-        "start": "Qui matina fa",
-        "end": "farina",
-        "others": [
-          "camí",
-          "feina"
-        ],
-        "prompt": "A quina hora del dia li agrada més llevar-se?"
-      },
-      {
-        "start": "Tal faràs, tal",
-        "end": "trobaràs",
-        "others": [
-          "voldràs",
-          "veuràs"
-        ],
-        "prompt": "Quina és una cosa que vostè feia amb molta cura?"
-      },
-      {
-        "start": "Qui canta, els seus mals",
-        "end": "espanta",
-        "others": [
-          "calma",
-          "oblida"
-        ],
-        "prompt": "Quina cançó li agrada cantar?"
-      },
-      {
-        "start": "Del dit al fet hi ha molt de",
-        "end": "tros",
-        "others": [
-          "temps",
-          "camí"
-        ],
-        "prompt": "Què és una cosa que va dir que faria i després va fer?"
-      },
-      {
-        "start": "Cria fama i gita’t a",
-        "end": "dormir",
-        "others": [
-          "jugar",
-          "riure"
-        ],
-        "prompt": "Què li agrada fer abans d’anar a dormir?"
-      },
-      {
-        "start": "A la nit, tots els gats són",
-        "end": "pardos",
-        "others": [
-          "negres",
-          "grisos"
-        ],
-        "prompt": "Ha tingut mai un gat a casa?"
-      },
-      {
-        "start": "Fets són amors, que no bones",
-        "end": "raons",
-        "others": [
-          "paraules",
-          "coses"
-        ],
-        "prompt": "Quin és un detall que algú va tenir amb vostè?"
-      },
-      {
-        "start": "Qui no vol pols, que no vagi a",
-        "end": "l’era",
-        "others": [
-          "la fira",
-          "el camp"
-        ],
-        "prompt": "Ha viscut o ha passat temps en un poble?"
-      },
-      {
-        "start": "L’experiència és la mare de la",
-        "end": "ciència",
-        "others": [
-          "feina",
-          "vida"
-        ],
-        "prompt": "Què és una cosa que va aprendre fent-la?"
-      },
-      {
-        "start": "L’hàbit no fa el",
-        "end": "monjo",
-        "others": [
-          "savi",
-          "mestre"
-        ],
-        "prompt": "Quina és la roba que li agradava més posar-se?"
-      },
-      {
-        "start": "Cap mal que per bé no",
-        "end": "vingui",
-        "others": [
-          "passi",
-          "duri"
-        ],
-        "prompt": "Què és una cosa que al principi no semblava bona i després sí?"
-      },
-      {
-        "start": "Després de la tempesta ve la",
-        "end": "calma",
-        "others": [
-          "pluja",
-          "llum"
-        ],
-        "prompt": "Què li agrada fer en un dia tranquil?"
-      },
-      {
-        "start": "El sol surt per a",
-        "end": "tothom",
-        "others": [
-          "nosaltres",
-          "la mar"
-        ],
-        "prompt": "Quin és el seu lloc preferit per prendre el sol?"
-      },
-      {
-        "start": "Amb pa i vi es fa el",
-        "end": "camí",
-        "others": [
-          "dinar",
-          "viatge"
-        ],
-        "prompt": "Què li agradava portar quan feia una excursió?"
-      },
-      {
-        "start": "Poc a poc i bona",
-        "end": "lletra",
-        "others": [
-          "feina",
-          "sort"
-        ],
-        "prompt": "Quina és una cosa que va fer amb molta paciència?"
-      },
-      {
-        "start": "Boca closa no hi entren",
-        "end": "mosques",
-        "others": [
-          "paraules",
-          "cucs"
-        ],
-        "prompt": "Quina és una cosa que va guardar com un secret bonic?"
-      },
-      {
-        "start": "Aigua que no has de beure, deixa-la",
-        "end": "córrer",
-        "others": [
-          "anar",
-          "passar"
-        ],
-        "prompt": "Quina és l’aigua que més li agrada: el riu, la font o la mar?"
-      },
-      {
-        "start": "Qui fa un cove, fa un",
-        "end": "cistell",
-        "others": [
-          "cabàs",
-          "paner"
-        ],
-        "prompt": "Què és una cosa que sabia fer amb les mans?"
-      },
-      {
-        "start": "No hi ha dues sense",
-        "end": "tres",
-        "others": [
-          "quatre",
-          "cinc"
-        ],
-        "prompt": "Té algun número de la sort?"
-      },
-      {
-        "start": "Qui molt abraça, poc",
-        "end": "estreny",
-        "others": [
-          "guanya",
-          "porta"
-        ],
-        "prompt": "Quina és una abraçada que recorda amb alegria?"
-      },
-      {
-        "start": "Amb el temps i una palla maduren les",
-        "end": "nespres",
-        "others": [
-          "pomes",
-          "peres"
-        ],
-        "prompt": "Quina fruita li agradava collir?"
-      },
-      {
-        "start": "Una mà renta l’",
-        "end": "altra",
-        "others": [
-          "cara",
-          "roba"
-        ],
-        "prompt": "Qui l’ajudava a casa quan hi havia feina?"
-      },
-      {
-        "start": "Tal pare, tal",
-        "end": "fill",
-        "others": [
-          "amic",
-          "fruit"
-        ],
-        "prompt": "A qui de la família s’assembla més?"
-      },
-      {
-        "start": "No tot el que lluu és",
-        "end": "or",
-        "others": [
-          "plata",
-          "vidre"
-        ],
-        "prompt": "Quina és una joia o un objecte brillant que recorda?"
-      },
-      {
-        "start": "Per Nadal, cada ovella al seu",
-        "end": "corral",
-        "others": [
-          "lloc",
-          "estable"
-        ],
-        "prompt": "Com celebraven el Nadal a casa seva?"
-      },
-      {
-        "start": "Aigua passada no mou",
-        "end": "molí",
-        "others": [
-          "riu",
-          "pont"
-        ],
-        "prompt": "Hi havia algun molí o riu a prop d’on vivia?"
-      },
-      {
-        "start": "Qui té un amic, té un",
-        "end": "tresor",
-        "others": [
-          "regal",
-          "somriure"
-        ],
-        "prompt": "Quin és un bon amic o una bona amiga que recorda?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABCDEFGHILMNOPRSTUV",
@@ -1220,6 +1600,17 @@
             "Fora de casa"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fruita",
+        "animals": "Animals",
+        "travel": "Maneres de viatjar",
+        "flowers": "Flors",
+        "hot-drinks": "Coses per a una beguda calenta",
+        "weather": "Tipus de temps",
+        "baked": "Coses cuites al forn"
       }
     }
   }

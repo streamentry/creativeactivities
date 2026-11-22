@@ -5,6 +5,13 @@
       "stopReading": "Oprește citirea",
       "region": "Joc",
       "restart": "Începeți din nou",
+      "rest": "Pauză deocamdată",
+      "restingTitle": "Pauză",
+      "restingText": "Luați timpul necesar. Locul dumneavoastră este păstrat pe această pagină.",
+      "resume": "Continuați",
+      "placeText": "Data trecută v-ați oprit la jumătate. Continuați de unde ați rămas sau începeți de la capăt.",
+      "placeResume": "Continuați",
+      "placeFresh": "Începeți de la capăt",
       "soundOn": "Sunete line activate",
       "soundOff": "Sunete line dezactivate",
       "done": "Gata pentru acum",
@@ -44,7 +51,19 @@
       "viewShowing": "Imagini la vedere",
       "viewHidden": "Imagini ascunse",
       "playAgain": "Jucați din nou cu imagini noi",
-      "talk": "Vorbiți împreună despre imagini"
+      "talk": "Vorbiți împreună despre imagini",
+      "modeLegend": "Ce imagini",
+      "modePlay": "Orice imagini",
+      "modeDaily": "Cartonașul de azi",
+      "dayLegend": "Ce zi",
+      "dayHelp": "Toți primesc aceleași imagini în aceeași zi. Zilele trecute sunt și ele aici, iar dacă săriți peste o zi, nu pierdeți nimic.",
+      "guidanceDaily": "Cartonașul de azi are patru perechi. Atingeți o imagine, apoi atingeți pe cea care se potrivește cu ea.",
+      "restartDaily": "Începeți din nou cartonașul acesta",
+      "copy": "Copiați acest rând",
+      "copied": "Copiat. Nu se trimite nimic nicăieri.",
+      "calendarTitle": "Cartonașele zilei, {month}",
+      "calendarHelp": "Fiecare zi are aceleași patru imagini pentru toată lumea. Nu se acordă punctaj, iar nicio zi nu este marcată ca ratată.",
+      "calendarVersion": "Versiunea {date}. Imaginile sunt aceleași pentru toți în aceeași zi."
     },
     "choose": {
       "countLegend": "Câte imagini",
@@ -63,6 +82,636 @@
       "shadowAlt": "O umbră de potrivit",
       "foundAlt": "Umbra: {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Indicii",
+      "hintOn": "Indiciu după o pauză",
+      "hintOff": "Fără indicii",
+      "guidance": "Găsiți cele {n} imagini care merg împreună și atingeți fiecare dintre ele.",
+      "countLegend": "Câte imagini",
+      "count": "{n} imagini",
+      "found": "Da, {name|lower} face parte din acest grup.",
+      "elsewhere": "{name|lower} se potrivește cu altceva. Luați-vă timp.",
+      "hint": "Un indiciu: gândiți-vă la {theme|lower}.",
+      "together": "Acestea merg împreună: {theme}.",
+      "shown": "Iată grupul: {theme}.",
+      "groupName": "Împreună: {theme}",
+      "show": "Arătați grupul",
+      "next": "Un alt set"
+    },
+    "oddOneOut": {
+      "hintLegend": "Indicii",
+      "hintOn": "Indiciu după o pauză",
+      "hintOff": "Fără indicii",
+      "guidance": "Găsiți imaginea care nu se potrivește cu celelalte și atingeți-o.",
+      "countLegend": "Câte imagini",
+      "count": "{n} imagini",
+      "belongs": "{name|lower} se potrivește cu celelalte. Luați-vă timp.",
+      "found": "Da, {name|lower} nu se potrivește. Celelalte sunt {theme|lower}.",
+      "shown": "Iată: {name|lower}. Celelalte sunt {theme|lower}.",
+      "hint": "Un indiciu: {n} dintre acestea sunt {theme|lower}.",
+      "others": "Celelalte: {theme}",
+      "show": "Arătați-mi",
+      "next": "Un alt set"
+    },
+    "seatedToss": {
+      "guidance": "Stați la o masă și aruncați pe rând o pernuță moale cu boabe în ținta mare. Țineți evidența pe hârtie, împreună.",
+      "stepsHeading": "Cum se joacă",
+      "steps": [
+        "Tipăriți ținta și foaia de evidență și puneți-le plat pe masă, între dumneavoastră.",
+        "Stați confortabil, câte unul pe fiecare parte. Aruncați pe rând, câte o aruncare ușoară, sau treceți dacă preferați.",
+        "Când aruncarea cade într-un cerc, cel care a aruncat bifează o căsuță din coloana sa, pe rândul cercului respectiv.",
+        "Priviți bifele împreună când terminați, dacă doriți. Nimeni nu trebuie să facă niciun calcul.",
+        "Opriți-vă oricând vreunul dintre dumneavoastră este gata."
+      ],
+      "safetyHeading": "Siguranță",
+      "safetyLine": "Folosiți doar o pernuță cu husa cusută sau o șosetă înrolată, rămâneți așezat, nu aruncați niciodată spre față și țineți un adult în apropiere. Piesele mici pot provoca sufocare.",
+      "flags": [
+        "Nu este pentru copii sub 3 ani: piese mici",
+        "Țineți departe de gură"
+      ],
+      "safety": [
+        "Alegeți o pernuță cu husa cusută sau înrolați o șosetă curată. Verificați-o mai întâi să nu aibă găuri sau cusături slăbite, ca umplutura să nu iasă.",
+        "Boabele, orezul și alte umpluturi mici pot provoca sufocare. Țineți-le departe de copiii mici și de cei care își pun lucruri în gură.",
+        "Rămâneți la o distanță de braț și supravegheați atent dacă ar putea ajunge ceva în gură.",
+        "Rămâneți așezat. Aruncați ușor și jos spre ținta de pe masă, niciodată spre față."
+      ],
+      "previewLabel": "Foaia tipărită: o țintă cu trei cercuri, numite Aproape, Mijloc și Departe, de la exterior spre interior, și o evidență cu câte o coloană pentru fiecare persoană și un rând de căsuțe goale pentru fiecare cerc.",
+      "sheetHow": "Puneți foaia plat între dumneavoastră. Când aruncarea cade într-un cerc, bifați o căsuță din coloana dumneavoastră, pe rândul cercului respectiv.",
+      "rings": [
+        "Aproape",
+        "Mijloc",
+        "Departe"
+      ],
+      "people": [
+        "Prima persoană",
+        "A doua persoană"
+      ],
+      "ringHeading": "Cerc",
+      "print": "Tipăriți ținta și foaia de evidență"
+    },
+    "seasonalPack": {
+      "guidance": "Alegeți o lună, tipăriți cele trei jocuri de hârtie, apoi faceți unul, două sau toate trei împreună.",
+      "monthLegend": "Alegeți o lună",
+      "months": [
+        "Ianuarie",
+        "Februarie",
+        "Martie",
+        "Aprilie",
+        "Mai",
+        "Iunie",
+        "Iulie",
+        "August",
+        "Septembrie",
+        "Octombrie",
+        "Noiembrie",
+        "Decembrie"
+      ],
+      "monthNote": "Fiecare lună are propriile imagini. Pagina se deschide pe luna curentă, dar puteți alege oricare altă lună.",
+      "restDay": "Azi este zi de odihnă",
+      "restLine": "Azi nu există jocuri. O zi de odihnă este și ea o zi bună.",
+      "previewHeading": "Cele trei jocuri",
+      "puzzles": {
+        "pairs": {
+          "title": "Potriviți perechile",
+          "how": "Trageți o linie de la fiecare imagine din rândul de sus până la aceeași imagine din rândul de jos.",
+          "describe": "Două rânduri cu aceleași patru imagini, în altă ordine."
+        },
+        "different": {
+          "title": "Care imagine este diferită?",
+          "how": "Încercuiți imaginea care este diferită de celelalte trei.",
+          "describe": "Un rând cu patru imagini. Trei sunt la fel, iar una este diferită."
+        },
+        "color": {
+          "title": "Colorați desenul",
+          "how": "Colorați desenul cum doriți, cu creioane colorate sau cerate.",
+          "describe": "Un desen mare de colorat."
+        }
+      },
+      "print": "Tipăriți jocurile lunii acesteia",
+      "sheetHow": "Tipăriți o pagină. Faceți unul, două sau toate cele trei jocuri, în orice ordine.",
+      "printFooter": "Faceți unul, două sau toate trei. Opriți-vă oricând doriți."
+    },
+    "decorateACard": {
+      "guidance": "Alegeți o ocazie, apoi decorați o felicitare împreună cu creioane colorate sau pixuri. Nu există o felicitare potrivită.",
+      "occasionLegend": "Alegeți o ocazie",
+      "occasions": {
+        "birthday": {
+          "label": "Zi de naștere",
+          "words": "La mulți ani"
+        },
+        "thank-you": {
+          "label": "Mulțumiri",
+          "words": "Mulțumesc"
+        },
+        "thinking-of-you": {
+          "label": "Gânduri bune",
+          "words": "Vă am în gânduri"
+        },
+        "new-season": {
+          "label": "Un anotimp nou",
+          "words": "Un anotimp nou"
+        },
+        "just-because": {
+          "label": "Fără motiv anume",
+          "words": "Fără motiv anume"
+        }
+      },
+      "stepsHeading": "Cum decorați felicitarea împreună",
+      "steps": {
+        "fold": "Tipăriți felicitarea și îndoiți-o la mijloc pe linia punctată, astfel încât fața să fie în exterior.",
+        "front": "Unul dintre dumneavoastră decorează fața, în jurul cuvintelor.",
+        "inside": "Cealaltă persoană decorează spatele, sau alternați pe o parte.",
+        "message": "Scrieți un mesaj împreună. Unul poate scrie, în timp ce celălalt spune cuvintele.",
+        "stop": "Opriți-vă oricând doriți. Nu există o felicitare potrivită, iar una simplă este la fel de bună."
+      },
+      "materials": "Folosiți creioane cerate, creioane colorate sau carioci. Nu trebuie să tăiați, să lipiți sau să fixați nimic.",
+      "previewLabel": "O previzualizare a felicitării îndoite la mijloc. Fața spune {words}, cu un cadru simplu de frunze și stele. Spatele are linii pentru un mesaj și o linie pentru De la.",
+      "from": "De la",
+      "sheetHow": "Îndoiți cartonașul la mijloc, de-a lungul liniei punctate, cu fața pe dinafară. Scrieți mesajul pe spate.",
+      "rulesHeading": "Pentru două persoane",
+      "sheetRules": [
+        "Luați-vă pe rând sau împărțiți munca: o persoană decorează fața, cealaltă spatele.",
+        "Scrieți mesajul împreună sau o persoană notează ce spune cealaltă.",
+        "Oricine poate să se oprească oricând. Nu există un cartonaș corect."
+      ],
+      "print": "Tipăriți cartonașul"
+    },
+    "storyDice": {
+      "guidance": "Priviți imaginile și spuneți o poveste cu ajutorul lor, în orice ordine. Nu există o poveste corectă.",
+      "countLegend": "Câte zaruri",
+      "count": "{n} zaruri",
+      "roll": "Aruncați din nou",
+      "pass": "Treceți",
+      "passed": "Puteți și trece. Următoarea persoană poate începe, sau puteți arunca din nou.",
+      "rolled": "Imagini noi: {names}.",
+      "tapped": "{name}. Începeți cu aceasta sau cu oricare alta."
+    },
+    "wordPicture": {
+      "guidance": "Atingeți o imagine, apoi cuvântul care o denumește. Sau atingeți un cuvânt, apoi imaginea lui.",
+      "countLegend": "Câte imagini",
+      "count": "{n} imagini",
+      "picturesGroup": "Imagini",
+      "wordsGroup": "Cuvinte",
+      "readWord": "Citiți cu voce tare: {name}",
+      "next": "Imagini noi",
+      "putBack": "Puneți-l la loc",
+      "pickWord": "Acum atingeți cuvântul care se potrivește.",
+      "pickPicture": "Acum atingeți imaginea care se potrivește.",
+      "fit": "Da, acesta este cuvântul pentru {name|lower}.",
+      "newSet": "Iată un set nou de imagini.",
+      "restarted": "Ați revenit la început. Fiecare imagine și fiecare cuvânt sunt din nou libere.",
+      "restored": "Pus la loc. Perechile potrivite sunt afișate din nou.",
+      "all": "Fiecare cuvânt are imaginea lui."
+    },
+    "colorMatch": {
+      "guidance": "Priviți culoarea și numele ei, apoi atingeți fiecare imagine care are aceeași culoare.",
+      "target": "Culoarea căutată: {color|lower}. Atingeți fiecare imagine care este în {color|lower}.",
+      "countLegend": "Câte imagini",
+      "count": "{n} imagini",
+      "found": "Da, {name|lower} este în {color|lower}.",
+      "named": "{name|lower} este în {color|lower}.",
+      "all": "Acestea sunt toate imaginile în {color|lower}.",
+      "shown": "Iată imaginile în {color|lower}.",
+      "show": "Arătați-le",
+      "next": "Altă culoare",
+      "names": {
+        "red": "Roșu",
+        "orange": "Portocaliu",
+        "yellow": "Galben",
+        "green": "Verde",
+        "blue": "Albastru"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Atingeți o jumătate din stânga, apoi jumătatea din dreapta care i se potrivește.",
+      "countLegend": "Câte imagini",
+      "count": "{n} imagini",
+      "leftGroup": "Jumătăți din stânga",
+      "rightGroup": "Jumătăți din dreapta",
+      "left": "Jumătatea din stânga: {name|lower}",
+      "right": "Jumătatea din dreapta: {name|lower}",
+      "joined": "Lipite",
+      "pickRight": "Acum atingeți jumătatea din dreapta care se potrivește.",
+      "pickLeft": "Acum atingeți jumătatea din stânga care se potrivește.",
+      "fit": "Da, cele două jumătăți formează {name|lower}.",
+      "apart": "Acestea nu se potrivesc. Încercați altă pereche.",
+      "all": "Fiecare imagine este întreagă.",
+      "shown": "Iată imaginile, lipite.",
+      "show": "Arătați-mi",
+      "next": "Un alt set"
+    },
+    "colorByNumber": {
+      "guidance": "Alegeți o culoare din legendă, apoi umpleți un pătrat cu ea. Orice culoare este bună.",
+      "sizeLegend": "Dimensiunea grilei",
+      "size": "{n} pe {n}",
+      "keyLegend": "Culori",
+      "colors": [
+        "Galben",
+        "Portocaliu",
+        "Verde",
+        "Mov"
+      ],
+      "motifs": {
+        "house": "O casă",
+        "flower": "O floare",
+        "heart": "O inimă",
+        "tree": "Un copac",
+        "boat": "O barcă cu pânze",
+        "pot-plant": "O plantă în ghiveci"
+      },
+      "region": "Grila imaginii, {n} pe {n}. Se derulează lateral dacă ecranul este îngust.",
+      "cell": "Numărul {number}, rândul {row}, coloana {column}, {color}",
+      "empty": "goală",
+      "chose": "Ales: {name}. Atingeți un pătrat ca să-l umpleți.",
+      "painted": "{name}, rândul {row}, coloana {column}.",
+      "sheet": "Fiecare pătrat are culoarea numărului său. Aceasta este imaginea de pe foaie: {name}.",
+      "own": "Toate pătratele sunt umplute. Aceasta este propria dumneavoastră imagine.",
+      "fillAll": "Umpleți după numere",
+      "filledAll": "Fiecare pătrat gol are acum culoarea numărului său.",
+      "clear": "Șterge",
+      "cleared": "Grila este goală.",
+      "next": "Altă imagine",
+      "fresh": "Iată o altă imagine de colorat."
+    },
+    "patternMaker": {
+      "guidance": "Atingeți un pătrat ca să-i schimbați culoarea. Modelul dumneavoastră crește alături. Nimic din ce creați nu este salvat sau trimis.",
+      "sizeLegend": "Dimensiunea plăcuței",
+      "size": "{n} pe {n}",
+      "keyLegend": "Culori, în ordinea în care se schimbă la fiecare atingere",
+      "colors": [
+        "Galben",
+        "Portocaliu",
+        "Verde",
+        "Mov"
+      ],
+      "tileLabel": "Plăcuța dumneavoastră",
+      "region": "Plăcuța dumneavoastră, {n} pe {n}. Se derulează lateral dacă ecranul este îngust.",
+      "patternLabel": "Modelul dumneavoastră",
+      "pattern": "Modelul dumneavoastră: plăcuța repetată de {n} ori pe orizontală și de {n} ori pe verticală.",
+      "square": "Rândul {row}, coloana {column}, {color}",
+      "changed": "Rândul {row}, coloana {column}: {color}.",
+      "cleared": "Plăcuța este goală. Puteți s-o puneți înapoi.",
+      "surprise": "Surprindeți-mă",
+      "surprised": "Iată o plăcuță nouă. Puteți readuce plăcuța veche.",
+      "putBack": "Puneți-o la loc",
+      "restored": "Plăcuța dumneavoastră a revenit cum era.",
+      "print": "Tipăriți modelul",
+      "sheetTitle": "Modelul meu"
+    },
+    "buildTogether": {
+      "guidance": "Luați-vă pe rând și puneți o piesă într-un loc gol. Fiecare are propria culoare. Nimic din ce creați nu este salvat sau trimis.",
+      "sizeLegend": "Dimensiunea grilei",
+      "size": "{n} pe {n}",
+      "people": [
+        "Prima persoană",
+        "A doua persoană"
+      ],
+      "colorLegend": "Culoarea pentru {person}",
+      "colors": [
+        "Galben",
+        "Portocaliu",
+        "Verde",
+        "Mov"
+      ],
+      "inUse": "Folosită",
+      "turn": "Rândul dumneavoastră, {person|lower}",
+      "yourColor": "Culoarea dumneavoastră: {color|lower}.",
+      "built": "Construit împreună. Aceasta este imaginea pe care ați făcut-o împreună.",
+      "gridLabel": "Grila comună",
+      "region": "Grila comună, {n} pe {n}. Se derulează lateral dacă ecranul este îngust.",
+      "cellEmpty": "Rândul {row}, coloana {column}, gol",
+      "cellFilled": "Rândul {row}, coloana {column}, {color}, pusă de {person|lower}",
+      "placed": "Rândul {row}, coloana {column}: {color}. Rândul dumneavoastră, {next|lower}.",
+      "placedLast": "Rândul {row}, coloana {column}: {color}. Construit împreună.",
+      "taken": "Rândul {row}, coloana {column} are deja o piesă. Alegeți un loc gol.",
+      "pass": "Treceți",
+      "passed": "Puteți trece. Rândul dumneavoastră, {person|lower}.",
+      "takeBack": "Luați înapoi ultima piesă",
+      "takeBackPass": "Anulați trecerea",
+      "tookBack": "Piesa a fost luată înapoi. Rândul dumneavoastră, {person|lower}.",
+      "tookBackPass": "Trecerea a fost anulată. Rândul dumneavoastră, {person|lower}.",
+      "colorChanged": "Culoarea pentru {person} este acum: {color|lower}.",
+      "restarted": "Grila este goală. Rândul dumneavoastră, {person|lower}.",
+      "print": "Tipăriți grila",
+      "sheetTitle": "Construiți împreună",
+      "sheetHelp": "Luați-vă pe rând. Într-un pătrat gol, fiecare desenează propria formă cu propriul creion.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Atingeți o piesă, apoi atingeți spațiul din imagine unde trebuie să ajungă. Nimic din ce creați nu este salvat sau trimis.",
+      "hints": "Arătați liniile de ajutor",
+      "pictureLine": "Aceasta este: {picture}.",
+      "pictures": {
+        "house": "casă",
+        "boat": "barcă",
+        "tree": "copac",
+        "fish": "pește",
+        "cat": "pisică",
+        "rocket": "rachetă"
+      },
+      "outlineLabel": "Contur: {picture}. Atingeți un spațiu ca să puneți acolo piesa aleasă.",
+      "trayHeading": "Piesele",
+      "pieces": {
+        "large-triangle": "Triunghi mare",
+        "small-triangle": "Triunghi mic",
+        "square": "Pătrat",
+        "parallelogram": "Paralelogram",
+        "rectangle": "Dreptunghi"
+      },
+      "shapes": {
+        "large-triangle": "un triunghi mare",
+        "small-triangle": "un triunghi mic",
+        "square": "un pătrat",
+        "parallelogram": "un paralelogram",
+        "rectangle": "un dreptunghi"
+      },
+      "chosenLabel": "Ales",
+      "spaceEmpty": "Spațiul {n}, {shape}, gol",
+      "spaceFilled": "Spațiul {n}, {shape}, are piesa sa. Atingeți ca să luați piesa înapoi.",
+      "chosen": "{piece} este ales. Acum atingeți un spațiu din imagine.",
+      "unchosen": "Piesa nu mai este aleasă.",
+      "placed": "Piesa este în spațiul {n}.",
+      "complete": "{picture} este terminată.",
+      "different": "Piesa aceasta are altă formă decât spațiul acesta. Încercați alt spațiu.",
+      "needPiece": "Alegeți mai întâi o piesă din tavă.",
+      "filled": "Spațiul acesta are deja piesa lui. Atingeți-l ca să luați piesa înapoi.",
+      "tookBack": "Piesa este din nou în tavă.",
+      "cleared": "Piesele sunt din nou în tavă. Puneți-le la loc dacă v-ați răzgândit.",
+      "restored": "Piesele sunt din nou în imagine.",
+      "next": "Aceasta este {picture}.",
+      "putBack": "Puneți-o la loc",
+      "another": "Altă formă",
+      "print": "Tipăriți forma aceasta",
+      "sheetTitle": "Forme liniștite",
+      "sheetHow": "Colorați piesele sau decupați-le ca să se potrivească cu conturul. Decuparea poate fi făcută de un adult.",
+      "sheetPieces": "Piesele, de aceeași mărime cu conturul"
+    },
+    "picnicPlanner": {
+      "guidance": "Atingeți o imagine ca să o puneți în coșul de picnic și atingeți-o în coș ca s-o scoateți. Coșul încape șase lucruri.",
+      "guidancePlay": "Atingeți două imagini identice. Imaginile rămân vizibile, iar jocul nu are cronometru.",
+      "basketHeading": "Coșul nostru",
+      "basketLabel": "Coșul de picnic",
+      "takeOut": "Scoateți {picture} din coș",
+      "inBasket": "În coș",
+      "foodHeading": "Mâncare",
+      "outingsHeading": "Lucruri de făcut",
+      "added": "{picture} este în coș.",
+      "removed": "{picture} a fost scos din coș.",
+      "already": "{picture} este deja în coș. Atingeți-l acolo ca să-l scoateți.",
+      "full": "Coșul este plin. Scoateți ceva ca să faceți loc.",
+      "summary": "Picnicul nostru: {list}.",
+      "summaryNone": "Încă nu este nimic în coș.",
+      "and": "și",
+      "play": "Hai să jucăm cu picnicul nostru",
+      "needTwo": "Alegeți mai întâi cel puțin două lucruri.",
+      "playAgain": "Jucați din nou",
+      "back": "Înapoi la picnic",
+      "print": "Tipăriți lista picnicului nostru",
+      "cleared": "Coșul este gol.",
+      "notice": "Acesta este un plan despre care să vorbiți. Nimic nu este cronometrat, notat sau salvat.",
+      "sheetTitle": "Lista picnicului nostru",
+      "sheetHow": "Bifați fiecare lucru pe măsură ce îl pregătiți. Folosiți liniile goale pentru tot ce mai vreți să aduceți.",
+      "sheetToPack": "De pregătit"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Alegeți între două și doisprezece dintre propriile fotografii ca să începeți cartea.",
+      "guidance": "Întoarceți paginile împreună, cu butoanele sau cu săgețile stânga și dreapta de la tastatură. Adăugați câteva cuvinte sub o fotografie, dacă doriți. Nimic din ce creați nu este salvat sau trimis.",
+      "lookGuidance": "Priviți fiecare pagină împreună. Puteți vorbi sau doar privi.",
+      "intro": "Alegeți între două și doisprezece fotografii de pe acest dispozitiv. Fiecare devine o pagină a unei cărți pe care o puteți întoarce împreună.",
+      "consent": "Folosiți propriile fotografii de familie. Întrebați înainte de a folosi o fotografie cu cineva care nu poate spune da.",
+      "privacy": "Fotografiile dumneavoastră rămân pe acest dispozitiv. Nu sunt încărcate și nu sunt salvate.",
+      "choose": "Alegeți fotografii",
+      "chooseDifferent": "Alegeți alte fotografii",
+      "backToBook": "Înapoi la carte",
+      "backToChoose": "Înapoi la alegerea fotografiilor",
+      "needTwo": "Alegeți cel puțin două fotografii, vă rog.",
+      "usingFirst": "Se folosesc primele {max} fotografii.",
+      "cleared": "Cartea a fost golită. Alegeți fotografii ca să începeți din nou.",
+      "moved": "Mutat la pagina {n}.",
+      "pageOf": "Pagina {n} din {total}",
+      "lookTogether": "Priviți împreună",
+      "leaveLook": "Înapoi la carte",
+      "print": "Tipăriți albumul",
+      "clear": "Goliți cartea",
+      "bookLabel": "Albumul de familie",
+      "pagesLabel": "Întoarceți paginile",
+      "previous": "Pagina anterioară",
+      "next": "Pagina următoare",
+      "moveEarlier": "Mutați mai devreme",
+      "moveLater": "Mutați mai târziu",
+      "captionLabel": "Câteva cuvinte pentru pagina aceasta, dacă doriți",
+      "captionHelp": "Cel mult 80 de caractere. Subtitrările se păstrează doar pe această pagină și dispar când închideți pagina.",
+      "sheetTitle": "Albumul nostru",
+      "sheetHow": "O fotografie pe pagină, cu cuvintele sale dedesubt. Întoarceți paginile în ordine și discutați despre fiecare.",
+      "sheetEmpty": "Alegeți fotografiile pe pagina jocului ca să tipăriți propria carte sau tipăriți această pagină goală și lipiți o fotografie tipărită.",
+      "sheetFrame": "Lipiți aici o fotografie tipărită",
+      "sheetWords": "Câteva cuvinte pentru pagina aceasta",
+      "skipped": {
+        "one": "{n} fișier nu era o fotografie pe care o putem folosi.",
+        "few": "{n} fișiere nu erau fotografii pe care le putem folosi.",
+        "other": "{n} de fișiere nu erau fotografii pe care le putem folosi."
+      }
+    },
+    "quietScene": {
+      "guidance": "Priviți câte o imagine pe rând. Apăsați Următoarea sau Anterioara când sunteți pregătiți. Nimic nu se mișcă de la sine.",
+      "next": "Imaginea următoare",
+      "previous": "Imaginea anterioară",
+      "bigPicture": "Imagine mai mare",
+      "showEverything": "Arătați tot",
+      "first": "Aceasta este prima imagine.",
+      "last": "Aceasta este ultima imagine.",
+      "lines": {
+        "sunrise": "Soarele răsare peste câmp.",
+        "window-with-birds": "Păsări în fața ferestrei.",
+        "vase-of-flowers": "Un vas cu flori pe masă.",
+        "teacup": "O ceașcă de ceai lângă fereastră.",
+        "tree": "Un copac în grădină.",
+        "sailboat": "O barcă cu pânze pe apă.",
+        "lighthouse": "Un far lângă mare.",
+        "rainbow": "Un curcubeu după ploaie.",
+        "moon": "Luna pe cerul nopții.",
+        "daisies": "Un petic de margarete în iarbă.",
+        "rowing-boat": "O barcă cu vâsle pe apa liniștită.",
+        "potted-plant": "O plantă verde într-un ghiveci."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Luați-vă rândul. Atingeți o decupaj, apoi atingeți un loc gol ca să-l puneți acolo. Nimic din ce creați nu este salvat sau trimis.",
+      "people": [
+        "Prima persoană",
+        "A doua persoană"
+      ],
+      "marks": [
+        "un cerc",
+        "un pătrat"
+      ],
+      "turn": "Rândul dumneavoastră, {person|lower}.",
+      "marked": "Piesele dumneavoastră sunt marcate cu {mark}.",
+      "boardLabel": "Panoul comun",
+      "placeEmpty": "Locul {n}, gol",
+      "placeFilled": "Locul {n}, {picture|lower}, pus de {person|lower}",
+      "trayHeading": "Decupajele",
+      "chosenLabel": "Ales",
+      "chosen": "{picture} este aleasă. Acum atingeți un loc gol.",
+      "unchosen": "Decupajul nu mai este ales.",
+      "needCutout": "Alegeți mai întâi un decupaj, apoi atingeți un loc gol.",
+      "filled": "Locul {n} are deja o imagine. Alegeți un loc gol.",
+      "placed": "{picture} este în locul {n}. Rândul dumneavoastră, {next|lower}.",
+      "full": "Fiecare loc are o imagine. Luați una înapoi ca s-o schimbați sau începeți din nou.",
+      "pass": "Treceți",
+      "passed": "Puteți trece fără probleme. Rândul dumneavoastră, {person|lower}.",
+      "takeBack": "Luați înapoi ultima piesă",
+      "takeBackPass": "Luați înapoi trecerea",
+      "tookBack": "Piesa a fost luată înapoi. Rândul dumneavoastră, {person|lower}.",
+      "tookBackPass": "Trecerea a fost anulată. Rândul dumneavoastră, {person|lower}.",
+      "restarted": "Panoul este gol. Rândul dumneavoastră, {person|lower}.",
+      "putBack": "Puneți-le la loc",
+      "putBackDone": "Piesele sunt din nou pe panou.",
+      "another": "Alt set de imagini",
+      "anotherSet": "Un set nou de decupaje este în tavă. Piesele de pe panou rămân unde sunt.",
+      "print": "Tipăriți panoul",
+      "sheetTitle": "Panou de colaj",
+      "sheetHow": "Decupați imaginile și luați-vă rândul să le puneți pe panou. Decuparea poate fi făcută de un adult.",
+      "sheetTray": "Imaginile de decupat"
+    },
+    "gardenPlanner": {
+      "guidance": "Atingeți o imagine, apoi atingeți o strană ca s-o puneți acolo. Atingeți o strană care are o imagine, fără nimic ales, ca s-o goliți.",
+      "bedsLabel": "Straturile din grădină",
+      "bedEmpty": "Stratul {n}, gol",
+      "bedFilled": "Stratul {n}, {picture|lower}",
+      "plantsHeading": "Plante",
+      "extrasHeading": "Lucruri pentru grădină",
+      "chosenLabel": "Ales",
+      "chosen": "{picture} este aleasă. Acum atingeți un strat.",
+      "unchosen": "Nicio imagine nu este aleasă.",
+      "needPicture": "Alegeți mai întâi o imagine, apoi atingeți un strat.",
+      "planted": "{picture} este în stratul {n}.",
+      "replaced": "{picture} ia locul imaginii din stratul {n}.",
+      "cleared": "Stratul {n} este gol. Puneți-o la loc dacă doriți din nou imaginea.",
+      "restarted": "Toate straturile sunt goale.",
+      "putBack": "Puneți-le la loc",
+      "putBackDone": "Imaginile sunt din nou în straturile lor.",
+      "summaryHeading": "Grădina mea",
+      "summary": "Planul dumneavoastră cuprinde {list}.",
+      "summaryNone": "Nicio imagine nu se află încă într-un strat.",
+      "and": "și",
+      "print": "Tipăriți planul",
+      "sheetTitle": "Planul nostru pentru grădină",
+      "sheetHow": "Straturile arată imaginile alese pe ecran. Desenați în straturile goale dacă doriți.",
+      "sheetNotes": "Notițe",
+      "notice": "Acesta este un plan cu imagini pentru discuții, nu un sfat despre plantat."
+    },
+    "coloringWall": {
+      "guidance": "Alegeți o imagine și câte pagini doriți. Tipăriți peretele, iar fiecare persoană colorează una sau mai multe pagini. Nimic nu este cronometrat, punctat sau salvat.",
+      "pictureLegend": "Imagine",
+      "sizeLegend": "Câte pagini",
+      "sizes": {
+        "2x2": "4 pagini (2 pe 2)",
+        "3x2": "6 pagini (3 pe 2)",
+        "3x3": "9 pagini (3 pe 3)"
+      },
+      "previewLabel": "Imaginea: {picture|lower}, împărțită în {n} pagini: {across} pe orizontală și {down} pe verticală. Fiecare pagină are o etichetă în colț.",
+      "previewCaption": "Imaginea cu liniile paginilor și etichetele desenate pe ea.",
+      "labelsNote": "Literele merg pe verticală pe perete, iar cifrele pe orizontală, deci A1 este pagina din colțul de sus, din stânga.",
+      "wallHeading": "Cum asamblați peretele",
+      "steps": [
+        "Tipăriți toate paginile. Prima pagină conține acești pași și o hartă a peretelui.",
+        "Fiecare persoană ia una sau mai multe pagini și le colorează.",
+        "Culorile și stilurile nu trebuie să se potrivească. Fiecare pagină face parte din aceeași imagine.",
+        "Așezați paginile după etichete, apoi lipiți-le cu bandă adezivă pe spate.",
+        "Agățați peretele acolo unde îl poate vedea toată lumea."
+      ],
+      "mapLabel": "O hartă a peretelui: {down} rânduri de câte {across} pagini, etichetate de la A1 până la {last}.",
+      "edgeNote": "Linia punctată marchează marginea fiecărei pagini. Așezați paginile margine lângă margine de-a lungul ei sau suprapuneți-le puțin.",
+      "pictureLine": "Imagine: {picture}. Acest perete are {n} pagini: {across} pe orizontală și {down} pe verticală.",
+      "print": "Tipăriți peretele"
+    },
+    "findTogether": {
+      "guidance": "Luați-o pe rând. Când vine rândul dumneavoastră, întoarceți două cartonașe ca să căutați o pereche. Căutați perechile împreună.",
+      "sizeLegend": "Câte cartonașe",
+      "size": "{n} cartonașe",
+      "viewLegend": "Cum se joacă",
+      "viewShowing": "Jucați cu imaginile vizibile",
+      "viewHidden": "Cartonașele cu fața în jos",
+      "people": [
+        "Prima persoană",
+        "A doua persoană"
+      ],
+      "turn": "Rândul: {person}",
+      "turnDone": "Toate perechile au fost găsite.",
+      "tally": "Perechi găsite împreună: {n}",
+      "cardNamed": "{name}, cartonașul {n}",
+      "cardFaceDown": "Cartonașul {n}, cu fața în jos",
+      "first": "{name}. Acum întoarceți un al doilea cartonaș.",
+      "found": "{name}: o pereche, găsită împreună. Acum urmează {next|lower}.",
+      "allTogether": "Ați găsit împreună toate perechile.",
+      "different": "{a} și {b} sunt diferite. Luați-vă timp, apoi apăsați „Întoarceți-le înapoi”.",
+      "waiting": "Apăsați „Întoarceți-le înapoi” când sunteți gata. Apoi rândul trece mai departe.",
+      "turnedBack": "Cartonașele au fost întoarse. Acum urmează {person|lower}.",
+      "passed": "Este în regulă să treceți. Acum urmează {person|lower}.",
+      "turnBack": "Întoarceți-le înapoi",
+      "pass": "Treceți",
+      "playAgain": "Jucați din nou"
+    },
+    "drawingDuet": {
+      "guidance": "Luați-o pe rând, cu o linie fiecare, apoi treceți creionul. Oricine poate trece. Nimic nu este trimis nicăieri. O imagine părăsește această pagină doar dacă o salvați.",
+      "people": [
+        "Prima persoană",
+        "A doua persoană"
+      ],
+      "colorLegend": "Culoarea pentru {person}",
+      "colors": [
+        "Galben",
+        "Portocaliu",
+        "Verde",
+        "Mov"
+      ],
+      "turn": "Rândul: {person}",
+      "penColor": "Culoarea creionului: {color}.",
+      "canvasLabel": "Desen comun, {n} linii până acum",
+      "canvasLabelOne": "Desen comun, {n} linie până acum",
+      "keys": "Tastele cu săgeți mută punctul creionului pe desen. Bara de spațiu coboară creionul pe foaie sau îl ridică.",
+      "penDown": "Coboară creionul",
+      "penUp": "Ridică creionul",
+      "pass": "Treceți creionul",
+      "passed": "Este în regulă să treceți. Rândul dumneavoastră, {person|lower}.",
+      "takeBack": "Retrageți ultima mea linie",
+      "tookBack": "Ultima linie trasă de {person|lower} a fost retrasă.",
+      "noLine": "Nu există nicio linie trasă de {person|lower} care să poată fi retrasă.",
+      "restarted": "Foaia este goală. Prima persoană are rândul. Puneți-o la loc dacă nu ați vrut asta.",
+      "putBack": "Puneți-o la loc",
+      "restored": "Liniile sunt din nou ca înainte.",
+      "save": "Salvați imaginea",
+      "saved": "Imaginea dumneavoastră este gata. Folosiți linkul de descărcare pentru a o păstra pe acest dispozitiv.",
+      "download": "Descărcați drawing-duet.png",
+      "print": "Tipăriți versiunea pe hârtie",
+      "sheetTitle": "Duet de desen",
+      "paperRules": "Două persoane, o foaie, două creioane. Luați-o pe rând: o linie sau o formă fiecare, apoi treceți creionul. Oricine poate trece. Nu există un desen corect."
+    },
+    "colorWash": {
+      "guidance": "Pictați culoare moale pe toată pagina, un strat pe rând. Ridicați pensula ca să opriți, și opriți-vă oricând doriți. Nimic nu este salvat sau trimis.",
+      "colorLegend": "Culoarea stratului",
+      "sizeLegend": "Mărimea pensulei",
+      "colors": [
+        "Galben",
+        "Portocaliu",
+        "Verde",
+        "Mov"
+      ],
+      "sizes": {
+        "wide": "Largă",
+        "veryWide": "Foarte largă"
+      },
+      "color": "Culoarea stratului: {color}.",
+      "brushDown": "Coboară pensula",
+      "brushUp": "Ridică pensula",
+      "keys": "Tastele cu săgeți mută cercul pensulei pe pagină. Bara de spațiu coboară pensula sau o ridică.",
+      "canvasLabel": "O pagină cu straturi de culoare moale",
+      "fresh": "O pagină nouă",
+      "freshMessage": "O pagină nouă.",
+      "putBack": "Puneți-o la loc",
+      "restored": "Pagina a fost readusă."
+    },
     "sortTogether": {
       "guidance": "Atingeți o imagine, apoi coșul în care se potrivește.",
       "restart": "Imagini noi",
@@ -72,6 +721,10 @@
       "hint": "Imaginea „{name|lower}” ar putea merge în „{basket}”. Atingeți acel coș pentru a o pune acolo.",
       "placed": "Imaginea „{name|lower}” este în „{basket}”.",
       "sorted": "Totul este sortat. Priviți împreună coșurile sau încercați altă temă.",
+      "largerTargets": "Ținte mai mari",
+      "largerOn": "Țintele mai mari sunt activate. Nimic nu s-a mutat.",
+      "largerOff": "Țintele mai mari sunt dezactivate. Nimic nu s-a mutat.",
+      "largerOnNewRound": "Țintele mai mari sunt activate, cu două coșuri. Iată imagini noi de sortat.",
       "basket": {
         "one": "Coșul „{basket}”, {count} imagine înăuntru",
         "few": "Coșul „{basket}”, {count} imagini înăuntru",
@@ -105,6 +758,18 @@
       },
       "guideAlt": "Imaginea întreagă: {name}",
       "guideText": "Așa arată imaginea când este întreagă.",
+      "ownChoose": "Folosiți propria fotografie",
+      "ownChange": "Alegeți o altă fotografie",
+      "ownBack": "Înapoi la imaginile noastre",
+      "ownPrivacy": "Fotografia dumneavoastră rămâne pe acest dispozitiv. Nu este încărcată și nu este salvată.",
+      "ownConsent": "Folosiți propriile fotografii. Cereți permisiunea înainte de a folosi o fotografie cu o persoană care nu poate spune da.",
+      "ownWorking": "Pregătim fotografia dumneavoastră.",
+      "ownNotUsable": "Fișierul nu a putut fi folosit. Alegeți un fișier cu fotografie, de exemplu JPEG sau PNG.",
+      "ownAlt": "Fotografia dumneavoastră",
+      "ownPiece": "Piesa {n}, {place}",
+      "ownWhole": "Imaginea dumneavoastră este din nou întreagă. Amestecați-o din nou oricând doriți.",
+      "ownSheetTitle": "Fotografia dumneavoastră în bucăți",
+      "ownSheetHow": "Tăiați de-a lungul liniilor. Amestecați bucățile, apoi schimbați două bucăți pe rând până când imaginea este întreagă.",
       "piece": "Piesă în {place}",
       "pieceInPlace": ", la locul potrivit",
       "piecePickedUp": ", ridicată",
@@ -195,6 +860,14 @@
       "guidance": "Citiți cartonașul cu voce tare. Nu există răspunsuri corecte.",
       "position": "Cartonașul {n} din {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Afișați un îndemn pentru conversație",
+      "bigPicture": "Imagine mare, pentru un grup",
+      "passNote": "Oricine poate trece.",
+      "groupTitle": "Trecerea unui cartonaș prin grup",
+      "groupSit": "Stați în cerc, unde toată lumea poate vedea imaginea. Persoana care ține cartonașul, sau dispozitivul cu imaginea mare, citește mai întâi îndemnul cu voce tare.",
+      "groupPass": "Apoi treceți cartonașul următoarei persoane. Fiecare spune un cuvânt sau o propoziție despre imagine, apoi trece cartonașul mai departe.",
+      "groupNoSpeech": "Trecerea cartonașului este întotdeauna permisă. O persoană poate trece fără să spună nimic, iar nimeni nu trebuie să spună de ce.",
+      "groupEnd": "Runda se încheie când cartea a trecut prin tot cercul sau când grupul nu mai dorește să continue. Nimeni nu câștigă. Opriți oricând dorește grupul.",
       "next": "Cartonașul următor",
       "previous": "Cartonașul anterior",
       "print": "Tipăriți toate cartonașele",
@@ -261,6 +934,20 @@
       "started": "Pornit. Inspirați cât timp cercul crește.",
       "stopped": "Oprit.",
       "finished": "Au fost șase respirații lente. Porniți din nou oricând doriți."
+    },
+    "storyChain": {
+      "guidance": "Vorbiți pe rând: o propoziție fiecare și adăugați imaginea următoare.",
+      "passNote": "Spuneți propoziția cu voce tare. Nimic nu este scris sau păstrat. Oricine poate trece.",
+      "chainLabel": "Lanțul până acum",
+      "item": "Imaginea {n}: {name}",
+      "add": "Adăugați o imagine",
+      "fullAdd": "Lanțul este plin. Începeți un lanț nou",
+      "newChain": "Începeți un lanț nou",
+      "takeOff": "Scoateți ultima imagine",
+      "added": "Imaginea „{name|lower}” este acum la finalul lanțului.",
+      "removed": "Imaginea „{name|lower}” a fost scoasă din lanț.",
+      "fresh": "Un lanț nou, care începe cu imaginea „{name|lower}”.",
+      "full": "Lanțul are toate cele opt imagini. Spuneți întreaga poveste sau începeți un lanț nou."
     }
   },
   "pictures": {
@@ -346,7 +1033,44 @@
     "rain-cloud": "Nor de ploaie",
     "snowflake": "Fulg de nea",
     "kite": "Zmeu",
-    "sunrise": "Răsărit de soare peste dealuri"
+    "sunrise": "Răsărit de soare peste dealuri",
+    "decorated-keepsake-box": "Cutie decorată pentru amintiri",
+    "painted-plant-pot": "Ghiveci pictat cu ierburi",
+    "repeating-pattern-sheet": "Foaie cu modele repetate",
+    "music-drawn-lines": "Linii trasate pe ritmul muzicii",
+    "paper-boat-afloat": "Barcă de hârtie pe apă",
+    "folded-towel-stack": "Teanc de prosoape împăturite",
+    "hand-massage-with-lotion": "Mână pe prosop, cu loțiune",
+    "open-photo-album": "Album foto deschis",
+    "button-flower-card": "Felicitare cu floare din nasturi",
+    "blue-torn-paper-collage": "Colaj albastru din hârtie ruptă",
+    "family-tree-of-hands": "Arbore genealogic desenat cu mâinile",
+    "open-greeting-card": "Felicitare deschisă cu inimă",
+    "lavender-sachet": "Pungă cu lavandă, legată cu fundiță",
+    "memory-collage-of-photos": "Colaj cu fotografii de familie",
+    "paper-chain-garland": "Ghirlandă din lanțuri de hârtie",
+    "open-songbook-with-notes": "Carte de cântece deschisă, cu note",
+    "photo-postcard-with-stamp": "Carte poștală cu fotografie și timbru",
+    "pine-cone-bird-feeder": "Hrănitoare pentru păsări din con de brad, atârnată de o ramură",
+    "playlist-phone-and-card": "Listă de melodii pe telefon și fișă cu cântece",
+    "sealed-rice-shaker": "Shaker cu orez, sigilat",
+    "texture-board-with-scraps": "Panou cu texturi din resturi de material",
+    "painted-garden-stone": "Piatră pictată pentru grădină",
+    "shared-painted-canvas": "Pânză pictată în comun",
+    "watercolor-washes-sheet": "Foaie cu pete de acuarelă",
+    "seedling-in-pot": "Răsaduri într-un ghiveci",
+    "pressed-leaves-in-book": "Frunze presate într-o carte",
+    "printed-leaves-sheet": "Foaie cu amprente de frunze",
+    "pinch-pot-clay-bowl": "Vas din lut, modelat cu degetele",
+    "table-sketch-pencil": "Schiță în creion a unei căni",
+    "buttons-in-muffin-tin": "Nasturi sortați într-o tavă de brioșe",
+    "family-recipe-book": "Carte de rețete de familie",
+    "drum-with-beat-marks": "Tobă de masă și baghete",
+    "torn-paper-flower": "Mozaic de floare din hârtie ruptă",
+    "window-with-birds": "Fereastră cu păsări",
+    "woven-paper-mat": "Covoraș împletit din hârtie",
+    "yarn-ball-with-thread": "Ghem de ață",
+    "letter-and-envelope": "Scrisoare într-un plic"
   },
   "illustrations": {
     "rocking-chair": "Balansoar",
@@ -451,359 +1175,6 @@
     "pocket-watch": "Ceas de buzunar"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Cine se scoală de dimineață, departe",
-        "end": "ajunge",
-        "others": [
-          "merge",
-          "vede"
-        ],
-        "prompt": "Sunteți om de dimineață sau de seară?"
-      },
-      {
-        "start": "Mai bine mai târziu decât",
-        "end": "niciodată",
-        "others": [
-          "acum",
-          "mâine"
-        ],
-        "prompt": "Ce vă place să faceți fără grabă?"
-      },
-      {
-        "start": "Fierul se bate cât e",
-        "end": "cald",
-        "others": [
-          "moale",
-          "roșu"
-        ],
-        "prompt": "Ce vă place să faceți cu mâinile?"
-      },
-      {
-        "start": "Cine are carte, are",
-        "end": "parte",
-        "others": [
-          "noroc",
-          "timp"
-        ],
-        "prompt": "Ce fel de cărți vă plac?"
-      },
-      {
-        "start": "Graba strică",
-        "end": "treaba",
-        "others": [
-          "drumul",
-          "masa"
-        ],
-        "prompt": "Ce vă place să faceți încet, cu răbdare?"
-      },
-      {
-        "start": "Ce ție nu-ți place, altuia nu-i",
-        "end": "face",
-        "others": [
-          "spune",
-          "dă"
-        ],
-        "prompt": "Cum arată pentru dumneavoastră un vecin bun?"
-      },
-      {
-        "start": "Cine se aseamănă se",
-        "end": "adună",
-        "others": [
-          "iubește",
-          "vede"
-        ],
-        "prompt": "Ce fel de prieteni vă place să aveți aproape?"
-      },
-      {
-        "start": "Dar din dar se face",
-        "end": "rai",
-        "others": [
-          "pâine",
-          "casă"
-        ],
-        "prompt": "Care este un cadou frumos, primit sau făcut?"
-      },
-      {
-        "start": "Unde-s doi, puterea",
-        "end": "crește",
-        "others": [
-          "se vede",
-          "se simte"
-        ],
-        "prompt": "Ce vă place să faceți împreună cu cineva?"
-      },
-      {
-        "start": "Omul sfințește",
-        "end": "locul",
-        "others": [
-          "casa",
-          "masa"
-        ],
-        "prompt": "Ce loc vă place, datorită oamenilor de acolo?"
-      },
-      {
-        "start": "Nu lăsa pe mâine ce poți face",
-        "end": "azi",
-        "others": [
-          "ieri",
-          "seara"
-        ],
-        "prompt": "Ce treabă vă place să o terminați dimineața?"
-      },
-      {
-        "start": "Dragostea trece prin",
-        "end": "stomac",
-        "others": [
-          "inimă",
-          "bucătărie"
-        ],
-        "prompt": "Ce mâncare gătită în casă vă place cel mai mult?"
-      },
-      {
-        "start": "Foamea este cel mai bun",
-        "end": "bucătar",
-        "others": [
-          "sfetnic",
-          "prieten"
-        ],
-        "prompt": "Care este mâncarea dumneavoastră preferată?"
-      },
-      {
-        "start": "Nu tot ce strălucește este",
-        "end": "aur",
-        "others": [
-          "argint",
-          "soare"
-        ],
-        "prompt": "Ce obiect frumos vă place să priviți?"
-      },
-      {
-        "start": "Prietenul la nevoie se",
-        "end": "cunoaște",
-        "others": [
-          "vede",
-          "alege"
-        ],
-        "prompt": "Ce vă place la un prieten bun?"
-      },
-      {
-        "start": "Mărul nu cade departe de",
-        "end": "pom",
-        "others": [
-          "casă",
-          "gard"
-        ],
-        "prompt": "Cu cine din familie vă asemănați la ceva?"
-      },
-      {
-        "start": "Haina nu face pe",
-        "end": "om",
-        "others": [
-          "domn",
-          "vecin"
-        ],
-        "prompt": "Care este haina sau pălăria dumneavoastră preferată?"
-      },
-      {
-        "start": "Orice început este",
-        "end": "greu",
-        "others": [
-          "frumos",
-          "scurt"
-        ],
-        "prompt": "Povestiți-mi despre ceva ce v-a plăcut să începeți."
-      },
-      {
-        "start": "Vorba dulce mult",
-        "end": "aduce",
-        "others": [
-          "spune",
-          "poartă"
-        ],
-        "prompt": "Care este un cuvânt frumos care vă place?"
-      },
-      {
-        "start": "Cum îți așterni, așa",
-        "end": "dormi",
-        "others": [
-          "visezi",
-          "stai"
-        ],
-        "prompt": "Ce vă place la un pat bine făcut?"
-      },
-      {
-        "start": "Vorba e de argint, tăcerea e de",
-        "end": "aur",
-        "others": [
-          "lemn",
-          "mătase"
-        ],
-        "prompt": "Vă place liniștea sau o casă plină de glasuri?"
-      },
-      {
-        "start": "Ce semeni, aia",
-        "end": "culegi",
-        "others": [
-          "vezi",
-          "ai"
-        ],
-        "prompt": "Ce v-a plăcut să cultivați într-o grădină?"
-      },
-      {
-        "start": "Mai bine un ou azi decât un bou",
-        "end": "mâine",
-        "others": [
-          "ieri",
-          "seara"
-        ],
-        "prompt": "Cum vă plac ouăle dimineața?"
-      },
-      {
-        "start": "Pomul se cunoaște după",
-        "end": "roade",
-        "others": [
-          "frunze",
-          "umbră"
-        ],
-        "prompt": "Ce pom fructifer vă place cel mai mult?"
-      },
-      {
-        "start": "Ziua bună se cunoaște de",
-        "end": "dimineață",
-        "others": [
-          "seară",
-          "vreme"
-        ],
-        "prompt": "Cum arată pentru dumneavoastră o dimineață frumoasă?"
-      },
-      {
-        "start": "Cine fuge după doi iepuri nu prinde",
-        "end": "niciunul",
-        "others": [
-          "multe",
-          "unul"
-        ],
-        "prompt": "Ați văzut vreodată un iepure în câmp?"
-      },
-      {
-        "start": "Patru ochi văd mai bine decât",
-        "end": "doi",
-        "others": [
-          "unul",
-          "trei"
-        ],
-        "prompt": "Ce vă place să faceți în doi, cu cineva alături?"
-      },
-      {
-        "start": "O rândunică nu face",
-        "end": "primăvară",
-        "others": [
-          "vară",
-          "vreme"
-        ],
-        "prompt": "Care sunt primele semne de primăvară pe care le observați?"
-      },
-      {
-        "start": "Câinele care latră nu",
-        "end": "mușcă",
-        "others": [
-          "fuge",
-          "doarme"
-        ],
-        "prompt": "Ce părere aveți despre câini?"
-      },
-      {
-        "start": "Cu răbdarea se trece",
-        "end": "marea",
-        "others": [
-          "râul",
-          "muntele"
-        ],
-        "prompt": "Ce vă place să faceți cu răbdare?"
-      },
-      {
-        "start": "Despre gusturi nu se",
-        "end": "discută",
-        "others": [
-          "ceartă",
-          "spune"
-        ],
-        "prompt": "Ce gust vă place cel mai mult: dulce, sărat sau acru?"
-      },
-      {
-        "start": "Pofta vine",
-        "end": "mâncând",
-        "others": [
-          "dimineața",
-          "încet"
-        ],
-        "prompt": "Ce vă face poftă de mâncare?"
-      },
-      {
-        "start": "Ochii sunt oglinda",
-        "end": "sufletului",
-        "others": [
-          "inimii",
-          "casei"
-        ],
-        "prompt": "Ce vă place să priviți?"
-      },
-      {
-        "start": "Cine întreabă nu",
-        "end": "rătăcește",
-        "others": [
-          "pleacă",
-          "oboșește"
-        ],
-        "prompt": "Ce loc nou v-ar plăcea să vedeți?"
-      },
-      {
-        "start": "Prea mulți bucătari strică",
-        "end": "ciorba",
-        "others": [
-          "supa",
-          "pâinea"
-        ],
-        "prompt": "Cine gătește bine în familia dumneavoastră?"
-      },
-      {
-        "start": "Nu tot ce zboară se",
-        "end": "mănâncă",
-        "others": [
-          "vede",
-          "prinde"
-        ],
-        "prompt": "Ce păsări vă plac cel mai mult?"
-      },
-      {
-        "start": "Ce-i în mână nu-i",
-        "end": "minciună",
-        "others": [
-          "mic",
-          "greu"
-        ],
-        "prompt": "Ce vă place să țineți în mână: o ceașcă, o carte, o floare?"
-      },
-      {
-        "start": "Măsoară de șapte ori și taie o",
-        "end": "dată",
-        "others": [
-          "clipă",
-          "zi"
-        ],
-        "prompt": "Ce lucru făcut cu grijă vă place cel mai mult?"
-      },
-      {
-        "start": "Nu cumpăra pisica în",
-        "end": "sac",
-        "others": [
-          "coș",
-          "casă"
-        ],
-        "prompt": "Ce animale de casă vă plac?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABCDEFGHILMNOPRSTUV",
@@ -1229,6 +1600,17 @@
             "Pe drum"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fructe",
+        "animals": "Animale",
+        "travel": "Mijloace de transport",
+        "flowers": "Flori",
+        "hot-drinks": "Lucruri pentru o băutură caldă",
+        "weather": "Tipuri de vreme",
+        "baked": "Lucruri coapte în cuptor"
       }
     }
   }

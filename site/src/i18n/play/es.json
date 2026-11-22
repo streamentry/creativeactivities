@@ -5,6 +5,13 @@
       "stopReading": "Dejar de leer",
       "region": "Juego",
       "restart": "Volver a empezar",
+      "rest": "Descanse por ahora",
+      "restingTitle": "Descansando",
+      "restingText": "Tómese el tiempo que necesite. Su lugar queda guardado en esta página.",
+      "resume": "Continuar",
+      "placeText": "La última vez se detuvo a medias. Continúe desde allí o empiece de nuevo.",
+      "placeResume": "Continuar",
+      "placeFresh": "Empezar de nuevo",
       "soundOn": "Sonidos suaves activados",
       "soundOff": "Sonidos suaves desactivados",
       "done": "Terminar por ahora",
@@ -35,12 +42,28 @@
       "guidanceHidden": "Toque dos casillas para darles la vuelta. Busque dos iguales.",
       "restart": "Imágenes nuevas",
       "sizeLegend": "Cuántas casillas",
-      "size": {"one": "{n} casilla", "many": "{n} casillas", "other": "{n} casillas"},
+      "size": {
+        "one": "{n} casilla",
+        "many": "{n} casillas",
+        "other": "{n} casillas"
+      },
       "viewLegend": "Cómo jugar",
       "viewShowing": "Imágenes a la vista",
       "viewHidden": "Imágenes ocultas",
       "playAgain": "Jugar otra vez con imágenes nuevas",
-      "talk": "Conversar sobre las imágenes"
+      "talk": "Conversar sobre las imágenes",
+      "modeLegend": "Qué imágenes",
+      "modePlay": "Cualquier imagen",
+      "modeDaily": "La tarjeta de hoy",
+      "dayLegend": "Qué día",
+      "dayHelp": "Todos ven las mismas imágenes el mismo día. Los días anteriores también están aquí, y si se salta un día, no pasa nada.",
+      "guidanceDaily": "La tarjeta de hoy tiene cuatro pares. Toque una imagen y, después, toque la que le corresponda.",
+      "restartDaily": "Empezar esta tarjeta de nuevo",
+      "copy": "Copiar esta línea",
+      "copied": "Copiado. No se envía nada a ninguna parte.",
+      "calendarTitle": "Tarjetas de hoy, {month}",
+      "calendarHelp": "Cada día tiene las mismas cuatro imágenes para todos. No se puntúa nada y ningún día se marca como fallido.",
+      "calendarVersion": "Versión {date}. Las imágenes son las mismas para todos el mismo día."
     },
     "choose": {
       "countLegend": "Cuántas imágenes",
@@ -59,6 +82,636 @@
       "shadowAlt": "Una sombra para emparejar",
       "foundAlt": "La sombra de {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Pistas",
+      "hintOn": "Pista tras una pausa",
+      "hintOff": "Sin pistas",
+      "guidance": "Busque las {n} imágenes que van juntas y toque cada una.",
+      "countLegend": "Cuántas imágenes",
+      "count": "{n} imágenes",
+      "found": "Sí, esta imagen ({name|lower}) pertenece a este grupo.",
+      "elsewhere": "Esta imagen ({name|lower}) va con otra cosa. Tómese su tiempo.",
+      "hint": "Una pista: busque {theme|lower}.",
+      "together": "Estas imágenes van juntas: {theme}.",
+      "shown": "Este es el grupo: {theme}.",
+      "groupName": "En grupo: {theme}",
+      "show": "Mostrar el grupo",
+      "next": "Otro conjunto"
+    },
+    "oddOneOut": {
+      "hintLegend": "Pistas",
+      "hintOn": "Pista tras una pausa",
+      "hintOff": "Sin pistas",
+      "guidance": "Busque la imagen que no va con las demás y tóquela.",
+      "countLegend": "Cuántas imágenes",
+      "count": "{n} imágenes",
+      "belongs": "Esta imagen ({name|lower}) va con las demás. Tómese su tiempo.",
+      "found": "Sí, esta imagen ({name|lower}) es la que sobra. Las demás son {theme|lower}.",
+      "shown": "Aquí está: esta imagen ({name|lower}). Las demás son {theme|lower}.",
+      "hint": "Una pista: {n} de estas son {theme|lower}.",
+      "others": "Las demás: {theme}",
+      "show": "Muéstreme",
+      "next": "Otro conjunto"
+    },
+    "seatedToss": {
+      "guidance": "Siéntense a una mesa y túrnense para lanzar un saquito de semillas blando sobre la diana grande. Lleven la cuenta juntos, en papel.",
+      "stepsHeading": "Cómo se juega",
+      "steps": [
+        "Imprima la diana y la hoja de conteo, y colóquelas planas sobre la mesa, entre ustedes.",
+        "Siéntense cómodamente, uno a cada lado. Túrnense para lanzar cada uno con suavidad, o pasen el turno si prefieren no hacerlo.",
+        "Cuando un lanzamiento caiga en un anillo, quien lanzó marca una casilla de su columna, en la fila de ese anillo.",
+        "Miren juntos las marcas al terminar, si lo desean. Nadie tiene que sumar nada.",
+        "Terminen cuando uno de los dos lo desee."
+      ],
+      "safetyHeading": "Seguridad",
+      "safetyLine": "Usar solo un saquito con funda cosida o un calcetín enrollado, permanecer sentado, no lanzar nunca hacia la cara y tener a un adulto cerca. Las piezas pequeñas son un riesgo de atragantamiento.",
+      "flags": [
+        "No apto para menores de 3 años: piezas pequeñas",
+        "Mantener lejos de la boca"
+      ],
+      "safety": [
+        "Elija un saquito con funda cosida o enrolle un calcetín limpio. Revise antes si tiene agujeros o puntadas sueltas, para que no pueda salir relleno alguno.",
+        "Las legumbres, el arroz y otros rellenos pequeños son un riesgo de atragantamiento. Manténgalos lejos de los niños pequeños y de cualquier persona que se lleve cosas a la boca.",
+        "Permanezca al alcance del brazo y vigile de cerca si algo podría llevarse a la boca.",
+        "Permanezca sentado. Lance con suavidad y bajo hacia la diana de la mesa, nunca hacia una cara."
+      ],
+      "previewLabel": "La hoja impresa: una diana de tres anillos llamados Cerca, Medio y Lejos, de fuera hacia dentro, y una tabla de conteo con una columna para cada persona y una fila de casillas vacías para cada anillo.",
+      "sheetHow": "Coloque la hoja plana entre ustedes. Cuando un lanzamiento caiga en un anillo, marque una casilla de su columna, en la fila de ese anillo.",
+      "rings": [
+        "Cerca",
+        "Medio",
+        "Lejos"
+      ],
+      "people": [
+        "Primera persona",
+        "Segunda persona"
+      ],
+      "ringHeading": "Anillo",
+      "print": "Imprima la diana y la hoja de conteo"
+    },
+    "seasonalPack": {
+      "guidance": "Elija un mes, imprima sus tres pasatiempos en papel y luego haga uno, dos o los tres juntos.",
+      "monthLegend": "Elija un mes",
+      "months": [
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "monthNote": "Cada mes tiene sus propias imágenes. La página se abre en este mes, y puede elegir cualquier otro.",
+      "restDay": "Hoy es día de descanso",
+      "restLine": "Hoy no hay pasatiempos. Un día de descanso también es un buen día.",
+      "previewHeading": "Los tres pasatiempos",
+      "puzzles": {
+        "pairs": {
+          "title": "Unir las parejas",
+          "how": "Trace una línea desde cada imagen de la fila de arriba hasta la misma imagen de la fila de abajo.",
+          "describe": "Dos filas de las mismas cuatro imágenes, en distinto orden."
+        },
+        "different": {
+          "title": "¿Cuál es diferente?",
+          "how": "Encierre en un círculo la imagen que es diferente de las otras tres.",
+          "describe": "Una fila de cuatro imágenes. Tres son iguales y una es diferente."
+        },
+        "color": {
+          "title": "Colorear el dibujo",
+          "how": "Coloree el dibujo como quiera, con crayones o lápices de colores.",
+          "describe": "Un dibujo grande para colorear."
+        }
+      },
+      "print": "Imprima los pasatiempos de este mes",
+      "sheetHow": "Imprima una página. Haga uno, dos o los tres pasatiempos, en el orden que prefiera.",
+      "printFooter": "Haga uno, dos o los tres. Deje de hacerlo cuando quiera."
+    },
+    "decorateACard": {
+      "guidance": "Elija una ocasión y luego decore una tarjeta juntos con crayones o bolígrafos. No hay una tarjeta correcta.",
+      "occasionLegend": "Elija una ocasión",
+      "occasions": {
+        "birthday": {
+          "label": "Cumpleaños",
+          "words": "Feliz cumpleaños"
+        },
+        "thank-you": {
+          "label": "Gracias",
+          "words": "Gracias"
+        },
+        "thinking-of-you": {
+          "label": "Pensando en usted",
+          "words": "Pensando en usted"
+        },
+        "new-season": {
+          "label": "Una nueva estación",
+          "words": "Una nueva estación"
+        },
+        "just-because": {
+          "label": "Solo porque sí",
+          "words": "Solo porque sí"
+        }
+      },
+      "stepsHeading": "Cómo decorarla juntos",
+      "steps": {
+        "fold": "Imprima la tarjeta y dóblela por la mitad siguiendo la línea de puntos, de modo que la cara de delante quede por fuera.",
+        "front": "Una persona decora la cara de delante, alrededor de las palabras.",
+        "inside": "La otra persona decora la parte de atrás, o pueden turnarse en una sola cara.",
+        "message": "Escriban un mensaje juntos. Una persona puede escribir mientras la otra dice las palabras.",
+        "stop": "Deje de hacerlo cuando quiera. No hay una tarjeta correcta, y una sencilla es igual de buena."
+      },
+      "materials": "Use crayones, lápices de colores o rotuladores. No hace falta cortar, pegar ni encolar nada.",
+      "previewLabel": "Vista previa de la tarjeta doblada por la mitad. La cara de delante dice {words}, con un marco sencillo de hojas y estrellas. La parte de atrás tiene líneas para un mensaje y una línea para De.",
+      "from": "De",
+      "sheetHow": "Doble la tarjeta por la mitad, siguiendo la línea de puntos, con la parte delantera por fuera. Escriba el mensaje en el reverso.",
+      "rulesHeading": "Para dos personas",
+      "sheetRules": [
+        "Tomen turnos o repartan el trabajo: una persona decora la parte delantera y la otra, el reverso.",
+        "Escriban el mensaje juntos, o una persona escribe lo que dice la otra.",
+        "Cualquiera puede parar en cualquier momento. No hay una tarjeta correcta."
+      ],
+      "print": "Imprimir la tarjeta"
+    },
+    "storyDice": {
+      "guidance": "Mire los dibujos y cuente una historia con ellos, en el orden que quiera. No hay una historia correcta.",
+      "countLegend": "Cuántos dados",
+      "count": "{n} dados",
+      "roll": "Tirar de nuevo",
+      "pass": "Pasar",
+      "passed": "Pasar está bien. La siguiente persona puede empezar, o puede tirar de nuevo.",
+      "rolled": "Dibujos nuevos: {names}.",
+      "tapped": "{name}. Empiece por este o por cualquier otro."
+    },
+    "wordPicture": {
+      "guidance": "Toque un dibujo y, después, la palabra que lo nombra. O toque una palabra y, después, su dibujo.",
+      "countLegend": "Cuántos dibujos",
+      "count": "{n} dibujos",
+      "picturesGroup": "Dibujos",
+      "wordsGroup": "Palabras",
+      "readWord": "Leer en voz alta: {name}",
+      "next": "Dibujos nuevos",
+      "putBack": "Devolver",
+      "pickWord": "Ahora toque la palabra que corresponde.",
+      "pickPicture": "Ahora toque el dibujo que corresponde.",
+      "fit": "Sí, esa palabra corresponde a {name|lower}.",
+      "newSet": "Aquí tiene un conjunto nuevo de dibujos.",
+      "restarted": "Volvemos al principio. Todos los dibujos y palabras están sueltos otra vez.",
+      "restored": "Devuelto. Vuelven a verse las parejas formadas.",
+      "all": "Cada palabra tiene su dibujo."
+    },
+    "colorMatch": {
+      "guidance": "Mire el color y su nombre, y después toque cada dibujo que tenga ese color.",
+      "target": "El color es {color|lower}. Toque cada dibujo que sea {color|lower}.",
+      "countLegend": "Cuántos dibujos",
+      "count": "{n} dibujos",
+      "found": "Sí, {name|lower} es de color {color|lower}.",
+      "named": "Dibujo: {name|lower}. Es de color {color|lower}.",
+      "all": "Esos son todos los dibujos de color {color|lower}.",
+      "shown": "Estos son los dibujos de color {color|lower}.",
+      "show": "Mostrar los dibujos",
+      "next": "Otro color",
+      "names": {
+        "red": "Rojo",
+        "orange": "Naranja",
+        "yellow": "Amarillo",
+        "green": "Verde",
+        "blue": "Azul"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Toque una mitad de la izquierda y, después, la mitad de la derecha que encaje con ella.",
+      "countLegend": "Cuántos dibujos",
+      "count": "{n} dibujos",
+      "leftGroup": "Mitades de la izquierda",
+      "rightGroup": "Mitades de la derecha",
+      "left": "Mitad izquierda: {name|lower}",
+      "right": "Mitad derecha: {name|lower}",
+      "joined": "Unidos",
+      "pickRight": "Ahora toque la mitad de la derecha que encaje.",
+      "pickLeft": "Ahora toque la mitad de la izquierda que encaje.",
+      "fit": "Sí, esas dos mitades forman {name|lower}.",
+      "apart": "Esas dos no encajan. Pruebe con otras.",
+      "all": "Todos los dibujos están completos.",
+      "shown": "Estos son los dibujos, unidos.",
+      "show": "Muéstreme",
+      "next": "Otro conjunto"
+    },
+    "colorByNumber": {
+      "guidance": "Elija un color de la lista y rellene un cuadro con él. Cualquier color está bien.",
+      "sizeLegend": "Tamaño de la cuadrícula",
+      "size": "{n} por {n}",
+      "keyLegend": "Colores",
+      "colors": [
+        "Amarillo",
+        "Naranja",
+        "Verde",
+        "Morado"
+      ],
+      "motifs": {
+        "house": "una casa",
+        "flower": "una flor",
+        "heart": "un corazón",
+        "tree": "un árbol",
+        "boat": "un velero",
+        "pot-plant": "una planta en maceta"
+      },
+      "region": "Cuadrícula de dibujo, {n} por {n}. Se desplaza hacia los lados si la pantalla es estrecha.",
+      "cell": "Número {number}, fila {row}, columna {column}, {color}",
+      "empty": "vacía",
+      "chose": "{name} elegido. Toque un cuadro para rellenarlo.",
+      "painted": "{name} en la fila {row}, columna {column}.",
+      "sheet": "Cada cuadro tiene el color de su número. Este es el dibujo de la hoja: {name}.",
+      "own": "Todos los cuadros están rellenos. Este es su propio dibujo.",
+      "fillAll": "Rellenar según los números",
+      "filledAll": "Cada cuadro vacío tiene ahora el color de su número.",
+      "clear": "Borrar",
+      "cleared": "La cuadrícula está vacía.",
+      "next": "Otro dibujo",
+      "fresh": "Aquí tiene otro dibujo para colorear."
+    },
+    "patternMaker": {
+      "guidance": "Toque un cuadro para cambiar su color. Su patrón crece a su lado. Nada de lo que haga se guarda ni se envía.",
+      "sizeLegend": "Tamaño de la baldosa",
+      "size": "{n} por {n}",
+      "keyLegend": "Colores, en el orden en que cambia cada toque",
+      "colors": [
+        "Amarillo",
+        "Naranja",
+        "Verde",
+        "Morado"
+      ],
+      "tileLabel": "Su baldosa",
+      "region": "Su baldosa, {n} por {n}. Se desplaza hacia los lados si la pantalla es estrecha.",
+      "patternLabel": "Su patrón",
+      "pattern": "Su patrón: su baldosa repetida {n} veces a lo ancho y {n} a lo alto.",
+      "square": "Fila {row}, columna {column}, {color}",
+      "changed": "La fila {row}, columna {column} ahora es {color}.",
+      "cleared": "La baldosa está vacía. Puede devolverla.",
+      "surprise": "Sorpréndame",
+      "surprised": "Aquí tiene una baldosa nueva. Puede devolver la anterior.",
+      "putBack": "Devolver",
+      "restored": "Su baldosa volvió a como estaba.",
+      "print": "Imprimir mi patrón",
+      "sheetTitle": "Mi patrón"
+    },
+    "buildTogether": {
+      "guidance": "Tomen turnos para poner una pieza en un lugar vacío. Cada uno tiene su propio color. Nada de lo que hagan se guarda ni se envía.",
+      "sizeLegend": "Tamaño de la cuadrícula",
+      "size": "{n} por {n}",
+      "people": [
+        "Primera persona",
+        "Segunda persona"
+      ],
+      "colorLegend": "Color de {person}",
+      "colors": [
+        "Amarillo",
+        "Naranja",
+        "Verde",
+        "Morado"
+      ],
+      "inUse": "En uso",
+      "turn": "Turno de {person|lower}",
+      "yourColor": "Su color es {color|lower}.",
+      "built": "Hecho entre los dos. Este es el dibujo que hicieron juntos.",
+      "gridLabel": "La cuadrícula compartida",
+      "region": "La cuadrícula compartida, {n} por {n}. Se desplaza hacia los lados si la pantalla es estrecha.",
+      "cellEmpty": "Fila {row}, columna {column}, vacía",
+      "cellFilled": "Fila {row}, columna {column}, {color}, puesto por {person|lower}",
+      "placed": "La fila {row}, columna {column} ahora es {color}. Turno de {next|lower}.",
+      "placedLast": "La fila {row}, columna {column} ahora es {color}. Hecho entre los dos.",
+      "taken": "La fila {row}, columna {column} ya tiene una pieza. Elija un lugar vacío.",
+      "pass": "Pasar",
+      "passed": "Pasar está bien. Turno de {person|lower}.",
+      "takeBack": "Retirar la última pieza",
+      "takeBackPass": "Anular el pase",
+      "tookBack": "La pieza se ha retirado. Turno de {person|lower}.",
+      "tookBackPass": "El pase se ha anulado. Turno de {person|lower}.",
+      "colorChanged": "{person} ahora tiene {color|lower}.",
+      "restarted": "La cuadrícula está vacía. Turno de {person|lower}.",
+      "print": "Imprimir la cuadrícula",
+      "sheetTitle": "Construir juntos",
+      "sheetHelp": "Tomen turnos. En un cuadro vacío, cada persona dibuja su propia forma con su propio lápiz.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Toque una pieza y, después, el espacio del dibujo donde va. Nada de lo que haga se guarda ni se envía.",
+      "hints": "Mostrar las líneas de ayuda",
+      "pictureLine": "Este dibujo muestra: {picture}.",
+      "pictures": {
+        "house": "casa",
+        "boat": "barco",
+        "tree": "árbol",
+        "fish": "pez",
+        "cat": "gato",
+        "rocket": "cohete"
+      },
+      "outlineLabel": "Contorno de {picture}. Toque un espacio para poner en él la pieza elegida.",
+      "trayHeading": "Las piezas",
+      "pieces": {
+        "large-triangle": "Triángulo grande",
+        "small-triangle": "Triángulo pequeño",
+        "square": "Cuadrado",
+        "parallelogram": "Paralelogramo",
+        "rectangle": "Rectángulo"
+      },
+      "shapes": {
+        "large-triangle": "un triángulo grande",
+        "small-triangle": "un triángulo pequeño",
+        "square": "un cuadrado",
+        "parallelogram": "un paralelogramo",
+        "rectangle": "un rectángulo"
+      },
+      "chosenLabel": "Elegida",
+      "spaceEmpty": "Espacio {n}, {shape}, vacío",
+      "spaceFilled": "Espacio {n}, {shape}, tiene su pieza. Toque para devolver la pieza.",
+      "chosen": "Pieza elegida: {piece}. Ahora toque un espacio del dibujo.",
+      "unchosen": "La pieza ya no está elegida.",
+      "placed": "La pieza está en el espacio {n}.",
+      "complete": "Ya está completa la imagen de {picture}.",
+      "different": "Esa pieza tiene una forma distinta de este espacio. Pruebe con otro espacio.",
+      "needPiece": "Primero elija una pieza de la bandeja.",
+      "filled": "Ese espacio ya tiene su pieza. Toque el espacio para devolver la pieza.",
+      "tookBack": "La pieza volvió a la bandeja.",
+      "cleared": "Las piezas volvieron a la bandeja. Si cambió de idea, puede volver a colocarlas.",
+      "restored": "Las piezas volvieron a la imagen.",
+      "next": "Esta pieza es: {picture}.",
+      "putBack": "Volver a colocar",
+      "another": "Otra forma",
+      "print": "Imprimir esta forma",
+      "sheetTitle": "Formas tranquilas",
+      "sheetHow": "Pinte las piezas o recórtelas para que encajen en el contorno. Un adulto puede hacer los recortes.",
+      "sheetPieces": "Las piezas, del mismo tamaño que el contorno"
+    },
+    "picnicPlanner": {
+      "guidance": "Toque una imagen para ponerla en la cesta de picnic, y toque una imagen de la cesta para sacarla. La cesta tiene espacio para seis cosas.",
+      "guidancePlay": "Toque dos imágenes iguales. Las imágenes se quedan a la vista y no hay tiempo límite.",
+      "basketHeading": "Nuestra cesta",
+      "basketLabel": "La cesta de picnic",
+      "takeOut": "Sacar {picture} de la cesta",
+      "inBasket": "En la cesta",
+      "foodHeading": "Comida",
+      "outingsHeading": "Cosas para hacer",
+      "added": "{picture} está en la cesta.",
+      "removed": "{picture} ya no está en la cesta.",
+      "already": "{picture} ya está en la cesta. Toque la imagen allí para sacarla.",
+      "full": "La cesta está llena. Saque algo para hacer espacio.",
+      "summary": "Nuestro picnic: {list}.",
+      "summaryNone": "Todavía no hay nada en la cesta.",
+      "and": "y",
+      "play": "Juguemos con nuestro picnic",
+      "needTwo": "Primero elija al menos dos cosas.",
+      "playAgain": "Jugar otra vez",
+      "back": "Volver al picnic",
+      "print": "Imprimir nuestra lista del picnic",
+      "cleared": "La cesta está vacía.",
+      "notice": "Esto es un plan para conversar. No se mide el tiempo, no se puntúa ni se guarda nada.",
+      "sheetTitle": "Nuestra lista del picnic",
+      "sheetHow": "Marque cada cosa al meterla en la cesta. Use las líneas en blanco para cualquier otra cosa que quiera llevar.",
+      "sheetToPack": "Para llevar"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Elija de dos a doce de sus propias fotos para empezar el álbum.",
+      "guidance": "Pasen las páginas juntos, con los botones o con las flechas izquierda y derecha del teclado. Si quiere, añada unas palabras debajo de una foto. Nada de lo que haga se guarda ni se envía.",
+      "lookGuidance": "Miren cada página juntos. Pueden hablar o simplemente mirar.",
+      "intro": "Elija de dos a doce fotos de este dispositivo. Cada una se convierte en una página de un álbum que pueden pasar juntos.",
+      "consent": "Use sus propias fotos familiares. Pregunte antes de usar una foto de alguien que no pueda decir que sí.",
+      "privacy": "Sus fotos se quedan en este dispositivo. No se suben ni se guardan.",
+      "choose": "Elegir fotos",
+      "chooseDifferent": "Elegir otras fotos",
+      "backToBook": "Volver al álbum",
+      "backToChoose": "Volver a elegir fotos",
+      "needTwo": "Elija al menos dos fotos, por favor.",
+      "usingFirst": "Usamos las primeras {max} fotos.",
+      "cleared": "El álbum se ha vaciado. Elija fotos para empezar de nuevo.",
+      "moved": "Pasó a la página {n}.",
+      "pageOf": "Página {n} de {total}",
+      "lookTogether": "Mirar juntos",
+      "leaveLook": "Volver al álbum",
+      "print": "Imprimir el álbum de fotos",
+      "clear": "Vaciar el álbum",
+      "bookLabel": "El álbum familiar",
+      "pagesLabel": "Pasar las páginas",
+      "previous": "Página anterior",
+      "next": "Página siguiente",
+      "moveEarlier": "Mover antes",
+      "moveLater": "Mover después",
+      "captionLabel": "Unas palabras para esta página, si quiere",
+      "captionHelp": "Hasta 80 caracteres. Los textos solo se guardan en esta página y desaparecen al cerrarla.",
+      "sheetTitle": "Nuestro álbum",
+      "sheetHow": "Una foto por página, con sus palabras debajo. Pasen las páginas en orden y hablen de cada una.",
+      "sheetEmpty": "Elija sus fotos en la página del juego para imprimir su propio álbum, o imprima esta página en blanco y pegue una foto impresa.",
+      "sheetFrame": "Pegue aquí una foto impresa",
+      "sheetWords": "Unas palabras para esta página",
+      "skipped": {
+        "one": "{n} archivo no es una foto que podamos usar.",
+        "many": "{n} archivos no son fotos que podamos usar.",
+        "other": "{n} archivos no son fotos que podamos usar."
+      }
+    },
+    "quietScene": {
+      "guidance": "Mire una imagen a la vez. Pulse «Siguiente» o «Anterior» cuando esté listo. Nada se mueve solo.",
+      "next": "Imagen siguiente",
+      "previous": "Imagen anterior",
+      "bigPicture": "Imagen más grande",
+      "showEverything": "Mostrar todo",
+      "first": "Esta es la primera imagen.",
+      "last": "Esta es la última imagen.",
+      "lines": {
+        "sunrise": "El sol sale sobre la tierra.",
+        "window-with-birds": "Pájaros fuera de la ventana.",
+        "vase-of-flowers": "Un jarrón de flores sobre la mesa.",
+        "teacup": "Una taza de té junto a la ventana.",
+        "tree": "Un árbol en el jardín.",
+        "sailboat": "Un velero en el agua.",
+        "lighthouse": "Un faro junto al mar.",
+        "rainbow": "Un arcoíris después de la lluvia.",
+        "moon": "La luna en el cielo de noche.",
+        "daisies": "Un grupo de margaritas en la hierba.",
+        "rowing-boat": "Un bote de remos en agua tranquila.",
+        "potted-plant": "Una planta verde en una maceta."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Tomen turnos. Toquen un recorte y luego un lugar vacío para colocarlo allí. Nada de lo que hagan se guarda ni se envía.",
+      "people": [
+        "Primera persona",
+        "Segunda persona"
+      ],
+      "marks": [
+        "un círculo",
+        "un cuadrado"
+      ],
+      "turn": "Su turno, {person|lower}.",
+      "marked": "Sus piezas están marcadas con {mark}.",
+      "boardLabel": "El tablero compartido",
+      "placeEmpty": "Lugar {n}, vacío",
+      "placeFilled": "Lugar {n}, {picture|lower}, colocado por la {person|lower}",
+      "trayHeading": "Los recortes",
+      "chosenLabel": "Elegido",
+      "chosen": "Elegido: {picture}. Ahora toque un lugar vacío.",
+      "unchosen": "El recorte ya no está elegido.",
+      "needCutout": "Primero elija un recorte y luego toque un lugar vacío.",
+      "filled": "El lugar {n} ya tiene una imagen. Elija un lugar vacío.",
+      "placed": "{picture} está en el lugar {n}. Su turno, {next|lower}.",
+      "full": "Todos los lugares tienen una imagen. Quite una para cambiarla, o empiece de nuevo.",
+      "pass": "Pasar",
+      "passed": "Pasar está bien. Su turno, {person|lower}.",
+      "takeBack": "Quitar la última pieza",
+      "takeBackPass": "Anular el paso",
+      "tookBack": "La pieza se ha quitado. Su turno, {person|lower}.",
+      "tookBackPass": "El paso se ha anulado. Su turno, {person|lower}.",
+      "restarted": "El tablero está vacío. Su turno, {person|lower}.",
+      "putBack": "Volver a colocar",
+      "putBackDone": "Las piezas han vuelto al tablero.",
+      "another": "Otro juego de imágenes",
+      "anotherSet": "Hay un nuevo juego de recortes en la bandeja. Las piezas del tablero se quedan donde están.",
+      "print": "Imprimir el tablero",
+      "sheetTitle": "Tablero de collage",
+      "sheetHow": "Recorten las imágenes y tomen turnos para colocarlas en el tablero. Un adulto puede hacer los recortes.",
+      "sheetTray": "Las imágenes para recortar"
+    },
+    "gardenPlanner": {
+      "guidance": "Toque una imagen y luego un parterre para colocarla allí. Toque un parterre que tenga una imagen, sin nada elegido, para vaciarlo.",
+      "bedsLabel": "Los parterres del jardín",
+      "bedEmpty": "Parterre {n}, vacío",
+      "bedFilled": "Parterre {n}, {picture|lower}",
+      "plantsHeading": "Plantas",
+      "extrasHeading": "Extras del jardín",
+      "chosenLabel": "Elegido",
+      "chosen": "Elegido: {picture}. Ahora toque un parterre.",
+      "unchosen": "No hay ninguna imagen elegida.",
+      "needPicture": "Elija primero una imagen y luego toque un bancal.",
+      "planted": "{picture} está en el bancal {n}.",
+      "replaced": "{picture} ocupa el lugar de la imagen que estaba en el bancal {n}.",
+      "cleared": "El bancal {n} está vacío. Vuelva a ponerla si quiere la imagen otra vez.",
+      "restarted": "Todos los bancales están vacíos.",
+      "putBack": "Volver a ponerlas",
+      "putBackDone": "Las imágenes están de vuelta en sus bancales.",
+      "summaryHeading": "Mi jardín",
+      "summary": "Su plan tiene {list}.",
+      "summaryNone": "Todavía no hay ninguna imagen en un bancal.",
+      "and": "y",
+      "print": "Imprimir el plan",
+      "sheetTitle": "Nuestro plan de jardín",
+      "sheetHow": "Los bancales muestran las imágenes elegidas en pantalla. Dibuje en los bancales vacíos si quiere.",
+      "sheetNotes": "Notas",
+      "notice": "Es un plan con imágenes para conversar, no un consejo sobre cómo plantar."
+    },
+    "coloringWall": {
+      "guidance": "Elija una imagen y cuántas páginas quiere. Imprima el mural, y cada persona colorea una o más páginas. Nada se cronometra, se puntúa ni se guarda.",
+      "pictureLegend": "Imagen",
+      "sizeLegend": "Cuántas páginas",
+      "sizes": {
+        "2x2": "4 páginas (2 por 2)",
+        "3x2": "6 páginas (3 por 2)",
+        "3x3": "9 páginas (3 por 3)"
+      },
+      "previewLabel": "Vista previa de {picture|lower}, dividida en {n} páginas: {across} a lo ancho y {down} a lo alto. Cada página tiene una etiqueta en una esquina.",
+      "previewCaption": "La imagen con las líneas de las páginas y las etiquetas dibujadas encima.",
+      "labelsNote": "Las letras van de arriba abajo en el mural y los números de izquierda a derecha, así que A1 es la página de arriba a la izquierda.",
+      "wallHeading": "Cómo armar el mural",
+      "steps": [
+        "Imprima todas las páginas. La primera página son estas instrucciones y un mapa del mural.",
+        "Cada persona toma una o más páginas y las colorea.",
+        "Los colores y los estilos no tienen que coincidir. Todas las páginas son parte del mismo dibujo.",
+        "Coloque las páginas según sus etiquetas y luego únalas con cinta adhesiva por detrás.",
+        "Cuelgue el mural donde todos puedan verlo."
+      ],
+      "mapLabel": "Mapa del mural: {down} filas de {across} páginas, etiquetadas de A1 a {last}.",
+      "edgeNote": "La línea discontinua marca el borde de cada página. Coloque las páginas borde con borde a lo largo de ella, o superpóngalas un poco.",
+      "pictureLine": "Imagen: {picture}. Este mural tiene {n} páginas: {across} de ancho y {down} de alto.",
+      "print": "Imprimir el mural"
+    },
+    "findTogether": {
+      "guidance": "Por turnos. En su turno, dé la vuelta a dos cartas para buscar una pareja. Busquen juntos las parejas.",
+      "sizeLegend": "Cuántas cartas",
+      "size": "{n} cartas",
+      "viewLegend": "Cómo jugar",
+      "viewShowing": "Jugar con las imágenes visibles",
+      "viewHidden": "Cartas boca abajo",
+      "people": [
+        "Primera persona",
+        "Segunda persona"
+      ],
+      "turn": "Turno: {person}",
+      "turnDone": "Se han encontrado todas las parejas.",
+      "tally": "Parejas encontradas juntos: {n}",
+      "cardNamed": "{name}, carta {n}",
+      "cardFaceDown": "Carta {n}, boca abajo",
+      "first": "{name}. Ahora dé la vuelta a una segunda carta.",
+      "found": "{name}: una pareja, encontrada juntos. Ahora es el turno de la {next|lower}.",
+      "allTogether": "Encontraron todas las parejas juntos.",
+      "different": "{a} y {b} no son iguales. Tómese su tiempo y luego pulse «Volver a girarlas».",
+      "waiting": "Pulse «Volver a girarlas» cuando esté listo. Entonces pasará el turno.",
+      "turnedBack": "Cartas boca abajo otra vez. Ahora es el turno de la {person|lower}.",
+      "passed": "Pasar está bien. Ahora es el turno de la {person|lower}.",
+      "turnBack": "Volver a girarlas",
+      "pass": "Pasar",
+      "playAgain": "Jugar otra vez"
+    },
+    "drawingDuet": {
+      "guidance": "Por turnos, cada uno traza una línea y luego pasa el lápiz. Cualquiera puede pasar. No se envía nada a ningún sitio. Una imagen sale de esta página solo si la guarda.",
+      "people": [
+        "Primera persona",
+        "Segunda persona"
+      ],
+      "colorLegend": "Color de {person}",
+      "colors": [
+        "Amarillo",
+        "Naranja",
+        "Verde",
+        "Morado"
+      ],
+      "turn": "Turno de {person}",
+      "penColor": "Color del lápiz: {color}.",
+      "canvasLabel": "Dibujo compartido, {n} líneas hasta ahora",
+      "canvasLabelOne": "Dibujo compartido, {n} línea hasta ahora",
+      "keys": "Las teclas de flecha mueven el punto del lápiz sobre el dibujo. La barra espaciadora baja o sube el lápiz.",
+      "penDown": "Bajar lápiz",
+      "penUp": "Subir lápiz",
+      "pass": "Pasar el lápiz",
+      "passed": "Pasar está bien. Le toca a la {person|lower}.",
+      "takeBack": "Quitar mi última línea",
+      "tookBack": "Se quita la última línea de la {person|lower}.",
+      "noLine": "No hay ninguna línea de la {person|lower} para quitar.",
+      "restarted": "La hoja está en blanco. Le toca a la primera persona. Recupérela si no lo quería.",
+      "putBack": "Recuperar las líneas",
+      "restored": "Las líneas están como estaban.",
+      "save": "Guardar imagen",
+      "saved": "Su imagen está lista. Use el enlace de descarga para guardarla en este dispositivo.",
+      "download": "Descargar drawing-duet.png",
+      "print": "Imprimir la versión en papel",
+      "sheetTitle": "Dúo de dibujo",
+      "paperRules": "Dos personas, una hoja, dos lápices. Por turnos: cada uno dibuja una línea o una forma y luego pasa el lápiz. Cualquiera puede pasar. No hay un dibujo correcto."
+    },
+    "colorWash": {
+      "guidance": "Pinte con color suave toda la página, una capa cada vez. Levante el pincel para parar, y pare cuando quiera. No se guarda ni se envía nada.",
+      "colorLegend": "Color de la capa",
+      "sizeLegend": "Tamaño del pincel",
+      "colors": [
+        "Amarillo",
+        "Naranja",
+        "Verde",
+        "Morado"
+      ],
+      "sizes": {
+        "wide": "Ancho",
+        "veryWide": "Muy ancho"
+      },
+      "color": "Color de la capa: {color}.",
+      "brushDown": "Bajar pincel",
+      "brushUp": "Subir pincel",
+      "keys": "Las teclas de flecha mueven el aro del pincel sobre la página. La barra espaciadora baja o sube el pincel.",
+      "canvasLabel": "Una página de capas de color suave",
+      "fresh": "Una página nueva",
+      "freshMessage": "Una página nueva.",
+      "putBack": "Recuperar la página",
+      "restored": "La página ha vuelto."
+    },
     "sortTogether": {
       "guidance": "Toque una imagen y luego toque la cesta donde va.",
       "restart": "Imágenes nuevas",
@@ -68,6 +721,10 @@
       "hint": "La imagen de {name|lower} puede ir en «{basket}». Toque esa cesta para ponerla ahí.",
       "placed": "La imagen de {name|lower} está en «{basket}».",
       "sorted": "Todo está clasificado. Miren juntos las cestas o prueben otro tema.",
+      "largerTargets": "Destinos más grandes",
+      "largerOn": "Los destinos más grandes están activados. Nada se ha movido.",
+      "largerOff": "Los destinos más grandes están desactivados. Nada se ha movido.",
+      "largerOnNewRound": "Los destinos más grandes están activados, con dos cestas. Aquí hay nuevas imágenes para ordenar.",
       "basket": {
         "one": "Cesta «{basket}», con {count} imagen",
         "many": "Cesta «{basket}», con {count} imágenes",
@@ -87,7 +744,11 @@
         "cat": "Gato"
       },
       "sizeLegend": "Piezas",
-      "size": {"one": "{n} pieza", "many": "{n} piezas", "other": "{n} piezas"},
+      "size": {
+        "one": "{n} pieza",
+        "many": "{n} piezas",
+        "other": "{n} piezas"
+      },
       "pickedUp": "Pieza levantada. Ahora toque el lugar donde debería ir.",
       "whole": "La imagen de {name|lower} está completa otra vez. Elija otra imagen cuando quiera.",
       "swapped": {
@@ -97,10 +758,27 @@
       },
       "guideAlt": "La imagen completa: {name}",
       "guideText": "Así se ve la imagen cuando está completa.",
+      "ownChoose": "Use su propia foto",
+      "ownChange": "Elija otra foto",
+      "ownBack": "Volver a nuestras imágenes",
+      "ownPrivacy": "Su foto se queda en este dispositivo. No se sube ni se guarda.",
+      "ownConsent": "Use sus propias fotos. Pregunte antes de usar una foto de alguien que no puede dar su permiso.",
+      "ownWorking": "Preparando su foto.",
+      "ownNotUsable": "No se pudo usar ese archivo. Elija un archivo de foto, como un JPEG o un PNG.",
+      "ownAlt": "Su foto",
+      "ownPiece": "Pieza {n}, {place}",
+      "ownWhole": "Su foto está completa otra vez. Revuélvala de nuevo cuando quiera.",
+      "ownSheetTitle": "Su foto en piezas",
+      "ownSheetHow": "Corte por las líneas. Revuelva las piezas y luego cambie dos piezas cada vez hasta que la imagen esté completa.",
       "piece": "Pieza {place}",
       "pieceInPlace": ", en su sitio",
       "piecePickedUp": ", levantada",
-      "places4": ["arriba a la izquierda", "arriba a la derecha", "abajo a la izquierda", "abajo a la derecha"],
+      "places4": [
+        "arriba a la izquierda",
+        "arriba a la derecha",
+        "abajo a la izquierda",
+        "abajo a la derecha"
+      ],
       "places9": [
         "arriba a la izquierda",
         "arriba en el centro",
@@ -182,6 +860,14 @@
       "guidance": "Lea la tarjeta en voz alta. Aquí no hay respuestas buenas ni malas.",
       "position": "Tarjeta {n} de {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Mostrar una idea para conversar",
+      "bigPicture": "Imagen grande, para un grupo",
+      "passNote": "Cualquiera puede pasar.",
+      "groupTitle": "Pasar una tarjeta por el grupo",
+      "groupSit": "Siéntense en círculo, donde todos puedan ver la imagen. La persona que tiene la tarjeta, o el dispositivo con la imagen grande, lee primero la idea en voz alta.",
+      "groupPass": "Luego pase la tarjeta a la siguiente persona. Cada persona dice una palabra o una frase sobre la imagen y luego la pasa.",
+      "groupNoSpeech": "Pasar la tarjeta siempre está permitido. Una persona puede pasar sin decir nada, y nadie tiene que explicar por qué.",
+      "groupEnd": "La ronda termina cuando la tarjeta ha dado la vuelta al círculo o cuando el grupo ya ha tenido suficiente. Nadie gana. Deténganse cuando el grupo quiera.",
       "next": "Siguiente tarjeta",
       "previous": "Tarjeta anterior",
       "print": "Imprimir todas las tarjetas",
@@ -218,8 +904,16 @@
       "squaresLegend": "Casillas por cartón",
       "squares": "{n} casillas ({side} por {side})",
       "cardsLegend": "Cuántos cartones imprimir",
-      "cards": {"one": "{n} cartón", "many": "{n} cartones", "other": "{n} cartones"},
-      "print": {"one": "Imprimir cartón ({n})", "many": "Imprimir cartones ({n})", "other": "Imprimir cartones ({n})"},
+      "cards": {
+        "one": "{n} cartón",
+        "many": "{n} cartones",
+        "other": "{n} cartones"
+      },
+      "print": {
+        "one": "Imprimir cartón ({n})",
+        "many": "Imprimir cartones ({n})",
+        "other": "Imprimir cartones ({n})"
+      },
       "ready": "Cuando usted quiera",
       "next": "Siguiente imagen",
       "allCalled": "Ya se anunciaron todas las imágenes",
@@ -240,6 +934,20 @@
       "started": "Empezamos. Tome aire mientras el círculo crece.",
       "stopped": "Detenido.",
       "finished": "Fueron seis respiraciones lentas. Vuelva a empezar cuando quiera."
+    },
+    "storyChain": {
+      "guidance": "Por turnos: una frase cada uno, y añada la siguiente imagen.",
+      "passNote": "Diga su frase en voz alta. No se escribe ni se guarda nada. Cualquiera puede pasar su turno.",
+      "chainLabel": "La cadena hasta ahora",
+      "item": "Imagen {n}: {name}",
+      "add": "Añada una imagen",
+      "fullAdd": "La cadena está llena. Empiece una nueva cadena",
+      "newChain": "Empiece una nueva cadena",
+      "takeOff": "Quite la última",
+      "added": "El {name|lower} ya está al final de la cadena.",
+      "removed": "El {name|lower} ya no está en la cadena.",
+      "fresh": "Una cadena nueva, que empieza con el {name|lower}.",
+      "full": "La cadena tiene las ocho imágenes. Cuenten toda la historia o empiecen una nueva cadena."
     }
   },
   "pictures": {
@@ -325,7 +1033,44 @@
     "rain-cloud": "Nube de lluvia",
     "snowflake": "Copo de nieve",
     "kite": "Cometa",
-    "sunrise": "Amanecer sobre las colinas"
+    "sunrise": "Amanecer sobre las colinas",
+    "decorated-keepsake-box": "Caja de recuerdos decorada",
+    "painted-plant-pot": "Maceta pintada con hierbas",
+    "repeating-pattern-sheet": "Hoja de estampados repetidos",
+    "music-drawn-lines": "Líneas dibujadas al son de la música",
+    "paper-boat-afloat": "Barco de papel flotando en el agua",
+    "folded-towel-stack": "Pila de toallas dobladas",
+    "hand-massage-with-lotion": "Mano apoyada en una toalla, con crema",
+    "open-photo-album": "Álbum de fotos abierto",
+    "button-flower-card": "Flor de botones en una tarjeta",
+    "blue-torn-paper-collage": "Collage azul de papel rasgado",
+    "family-tree-of-hands": "Árbol familiar dibujado con las manos",
+    "open-greeting-card": "Tarjeta de felicitación abierta con un corazón",
+    "lavender-sachet": "Saquito de lavanda atado con una cinta",
+    "memory-collage-of-photos": "Collage de fotos familiares",
+    "paper-chain-garland": "Guirnalda de cadenas de papel",
+    "open-songbook-with-notes": "Cancionero abierto con notas musicales",
+    "photo-postcard-with-stamp": "Postal con foto y sello",
+    "pine-cone-bird-feeder": "Comedero de piñas colgado de una rama",
+    "playlist-phone-and-card": "Teléfono con lista de canciones y tarjeta",
+    "sealed-rice-shaker": "Sonajero de arroz sellado",
+    "texture-board-with-scraps": "Tablero de texturas con retazos",
+    "painted-garden-stone": "Piedra pintada para el jardín",
+    "shared-painted-canvas": "Lienzo pintado entre varias personas",
+    "watercolor-washes-sheet": "Aguadas de acuarela sobre papel",
+    "seedling-in-pot": "Plántulas en una maceta",
+    "pressed-leaves-in-book": "Hojas prensadas en un libro",
+    "printed-leaves-sheet": "Hoja con estampados de hojas",
+    "pinch-pot-clay-bowl": "Cuenco de barro hecho a pellizco",
+    "table-sketch-pencil": "Boceto a lápiz de una taza",
+    "buttons-in-muffin-tin": "Botones ordenados en un molde para magdalenas",
+    "family-recipe-book": "Libro de recetas familiares",
+    "drum-with-beat-marks": "Tambor de mesa con baquetas",
+    "torn-paper-flower": "Mosaico de flor de papel rasgado",
+    "window-with-birds": "Ventana con pájaros",
+    "woven-paper-mat": "Mantel individual de papel tejido",
+    "yarn-ball-with-thread": "Ovillo de lana",
+    "letter-and-envelope": "Carta dentro de un sobre"
   },
   "illustrations": {
     "rocking-chair": "Mecedora",
@@ -430,74 +1175,100 @@
     "pocket-watch": "reloj de bolsillo"
   },
   "content": {
-    "sayings": [
-      {"start": "Más vale pájaro en mano que ciento", "end": "volando", "others": ["cantando", "en el árbol"], "prompt": "¿Qué pájaros le gusta ver u oír cerca de su casa?"},
-      {"start": "Al mal tiempo, buena", "end": "cara", "others": ["sopa", "música"], "prompt": "¿Qué le levanta el ánimo en un día gris?"},
-      {"start": "Al que madruga, Dios lo", "end": "ayuda", "others": ["saluda", "espera"], "prompt": "¿Usted es más de mañanas o de noches?"},
-      {"start": "Más vale tarde que", "end": "nunca", "others": ["temprano", "mañana"], "prompt": "¿Qué es algo que empezó a hacer ya de grande y le gustó?"},
-      {"start": "No hay mal que por bien no", "end": "venga", "others": ["pase", "llegue"], "prompt": "¿Qué cosa pequeña le alegra el día?"},
-      {"start": "El que busca,", "end": "encuentra", "others": ["descansa", "aprende"], "prompt": "¿Le gusta recorrer mercados o tiendas buscando cosas bonitas?"},
-      {"start": "Camarón que se duerme se lo lleva la", "end": "corriente", "others": ["marea", "ola"], "prompt": "¿Le gusta estar cerca del mar, de un lago o de un río?"},
-      {"start": "Ojos que no ven, corazón que no", "end": "siente", "others": ["sabe", "piensa"], "prompt": "¿Qué le gusta mirar por la ventana?"},
-      {"start": "En casa de herrero, cuchillo de", "end": "palo", "others": ["plata", "pan"], "prompt": "¿Alguien en su familia trabajaba con herramientas o con las manos?"},
-      {"start": "Agua que no has de beber, déjala", "end": "correr", "others": ["pasar", "quieta"], "prompt": "¿Qué le gusta tomar para refrescarse: agua fresca, limonada, otra cosa?"},
-      {"start": "Perro que ladra no", "end": "muerde", "others": ["duerme", "corre"], "prompt": "Cuénteme de algún perro que haya conocido."},
-      {"start": "Hablando del rey de Roma, por la puerta", "end": "asoma", "others": ["entra", "llega"], "prompt": "¿A quién le alegra siempre ver llegar a su casa?"},
-      {"start": "Poco a poco se va", "end": "lejos", "others": ["contento", "a casa"], "prompt": "¿Qué le gusta hacer con calma, sin prisa?"},
-      {"start": "Del dicho al hecho hay mucho", "end": "trecho", "others": ["camino", "tiempo"], "prompt": "¿Qué es algo que le gustaría aprender o probar?"},
-      {"start": "A falta de pan, buenas son", "end": "tortas", "others": ["galletas", "arepas"], "prompt": "¿Qué le gusta comer en el desayuno?"},
-      {"start": "Barriga llena, corazón", "end": "contento", "others": ["tranquilo", "feliz"], "prompt": "¿Cuál es su comida favorita para un domingo?"},
-      {"start": "En boca cerrada no entran", "end": "moscas", "others": ["abejas", "palabras"], "prompt": "¿Qué disfruta más: conversar o escuchar?"},
-      {"start": "Dios los cría y ellos se", "end": "juntan", "others": ["casan", "ríen"], "prompt": "¿Qué le gusta hacer con sus amigos más cercanos?"},
-      {"start": "No por mucho madrugar amanece más", "end": "temprano", "others": ["claro", "bonito"], "prompt": "¿Qué le gusta hacer por la mañana?"},
-      {"start": "Zapatero, a tus", "end": "zapatos", "others": ["botas", "asuntos"], "prompt": "¿Qué oficio le parece especialmente bonito?"},
-      {"start": "A buen hambre no hay pan", "end": "duro", "others": ["blanco", "frío"], "prompt": "¿Qué pan le gusta más recién salido del horno?"},
-      {"start": "El tiempo es", "end": "oro", "others": ["plata", "todo"], "prompt": "¿En qué le gusta pasar un rato libre?"},
-      {"start": "Querer es", "end": "poder", "others": ["saber", "hacer"], "prompt": "¿Qué es algo que hizo con mucho empeño y le salió bien?"},
-      {"start": "La práctica hace al", "end": "maestro", "others": ["músico", "artista"], "prompt": "¿Hay algo que practicó mucho, como un instrumento, la costura o un deporte?"},
-      {"start": "Más vale maña que", "end": "fuerza", "others": ["prisa", "suerte"], "prompt": "¿Alguna vez arregló algo con sus propias manos?"},
-      {"start": "Hoy por ti, mañana por", "end": "mí", "others": ["todos", "ellos"], "prompt": "¿Qué es un gesto amable que alguien tuvo con usted?"},
-      {"start": "Cada oveja con su", "end": "pareja", "others": ["rebaño", "pastor"], "prompt": "¿Le gusta bailar en pareja? ¿Qué música prefiere para bailar?"},
-      {"start": "Al pan, pan, y al vino,", "end": "vino", "others": ["agua", "queso"], "prompt": "¿Cuál es un buen consejo que le dieron?"},
-      {"start": "Quien mucho abarca, poco", "end": "aprieta", "others": ["guarda", "agarra"], "prompt": "¿Le gusta hacer una cosa a la vez, con calma?"},
-      {"start": "De tal palo, tal", "end": "astilla", "others": ["rama", "hoja"], "prompt": "¿A quién de su familia se parece usted?"},
-      {"start": "Haz el bien sin mirar a", "end": "quién", "others": ["dónde", "cuándo"], "prompt": "¿Qué gesto amable le gusta tener con los demás?"},
-      {"start": "Mucho ruido y pocas", "end": "nueces", "others": ["uvas", "flores"], "prompt": "¿Le gustan las nueces, el maní u otros frutos secos?"},
-      {"start": "No hay rosa sin", "end": "espinas", "others": ["perfume", "hojas"], "prompt": "¿Qué flores le gustaría tener en un jardín?"},
-      {"start": "Agua pasada no mueve", "end": "molino", "others": ["rueda", "barco"], "prompt": "¿Ha visto alguna vez un molino de agua o de viento?"},
-      {"start": "En martes, ni te cases ni te", "end": "embarques", "others": ["mudes", "peines"], "prompt": "¿Qué día de la semana le gusta más, y por qué?"},
-      {"start": "Las cuentas claras y el chocolate", "end": "espeso", "others": ["caliente", "dulce"], "prompt": "¿Cómo le gusta el chocolate caliente o el café?"},
-      {"start": "El hábito no hace al", "end": "monje", "others": ["sastre", "cura"], "prompt": "¿Qué ropa le gusta ponerse para una ocasión especial?"},
-      {"start": "A buen entendedor, pocas", "end": "palabras", "others": ["páginas", "señas"], "prompt": "¿Con quién se entiende usted casi sin hablar?"},
-      {"start": "Cría fama y échate a", "end": "dormir", "others": ["cantar", "bailar"], "prompt": "¿Qué plato o qué cosa le sale especialmente bien?"},
-      {"start": "Entre col y col,", "end": "lechuga", "others": ["tomate", "cebolla"], "prompt": "¿Qué verduras le gusta cocinar o sembrar?"},
-      {"start": "Gato con guantes no caza", "end": "ratones", "others": ["pájaros", "nada"], "prompt": "¿Le gustan los gatos? ¿Qué le gusta de ellos?"},
-      {"start": "Lo bueno, si breve, dos veces", "end": "bueno", "others": ["mejor", "dulce"], "prompt": "¿Cuál es un rato corto del día que disfruta mucho?"},
-      {"start": "No dejes para mañana lo que puedes hacer", "end": "hoy", "others": ["con calma", "cantando"], "prompt": "¿Qué le gusta dejar listo antes de acostarse?"},
-      {"start": "Amor con amor se", "end": "paga", "others": ["cuida", "gana"], "prompt": "¿Qué gesto de cariño le gusta recibir?"},
-      {"start": "Quien canta, sus males", "end": "espanta", "others": ["alegra", "calma"], "prompt": "¿Qué canción le gusta cantar?"},
-      {"start": "La música amansa a las", "end": "fieras", "others": ["almas", "aves"], "prompt": "¿Qué música le gusta escuchar para relajarse?"},
-      {"start": "Cuando una puerta se cierra, otra se", "end": "abre", "others": ["ve", "mueve"], "prompt": "¿Qué es algo nuevo que le gustaría probar?"},
-      {"start": "Una imagen vale más que mil", "end": "palabras", "others": ["sonrisas", "colores"], "prompt": "¿Qué foto o cuadro le gusta mirar?"},
-      {"start": "Ver para", "end": "creer", "others": ["contar", "soñar"], "prompt": "¿Qué lugar le gustaría ver con sus propios ojos?"},
-      {"start": "Vísteme despacio, que tengo", "end": "prisa", "others": ["frío", "sueño"], "prompt": "¿Qué cosas le gusta hacer sin apuro?"},
-      {"start": "Mañana será otro", "end": "día", "others": ["domingo", "año"], "prompt": "¿Qué le gustaría hacer mañana?"},
-      {"start": "No hay que buscarle tres pies al", "end": "gato", "others": ["perro", "banco"], "prompt": "¿Han tenido un gato o un perro en su casa?"},
-      {"start": "El que tiene boca se", "end": "equivoca", "others": ["ríe", "alimenta"], "prompt": "¿Qué le hace reír de buena gana?"},
-      {"start": "De noche, todos los gatos son", "end": "pardos", "others": ["negros", "grises"], "prompt": "¿Le gusta mirar el cielo de noche?"},
-      {"start": "Las palabras se las lleva el", "end": "viento", "others": ["río", "mar"], "prompt": "¿Le gustan los días de viento o prefiere la calma?"},
-      {"start": "Para muestra, basta un", "end": "botón", "others": ["hilo", "dedal"], "prompt": "¿Le gusta coser, tejer o arreglar ropa?"}
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABCDEFGILMNOPRSTUV",
       "themes": [
-        {"value": "fruit", "label": "Frutas", "words": ["PERA", "UVA", "MANGO", "COCO", "FRESA", "CEREZA", "PAPAYA", "MORA", "HIGO"]},
-        {"value": "garden", "label": "Jardín", "words": ["ROSA", "FLOR", "HOJA", "TIERRA", "PASTO", "RAMA", "ABEJA", "LIRIO", "MACETA"]},
-        {"value": "kitchen", "label": "Cocina", "words": ["TAZA", "PLATO", "OLLA", "PAN", "VASO", "HORNO", "JARRA", "SAL", "MANTEL"]},
-        {"value": "weather", "label": "Clima", "words": ["SOL", "LLUVIA", "NIEVE", "VIENTO", "NUBE", "NIEBLA", "CALOR", "BRISA", "RAYO"]},
-        {"value": "animals", "label": "Animales", "words": ["PERRO", "GATO", "PATO", "VACA", "OVEJA", "BURRO", "GALLO", "LORO", "PEZ"]},
-        {"value": "home", "label": "Casa", "words": ["PUERTA", "SILLA", "CAMA", "MESA", "RELOJ", "LLAVE", "TECHO", "ESPEJO", "PISO"]}
+        {
+          "value": "fruit",
+          "label": "Frutas",
+          "words": [
+            "PERA",
+            "UVA",
+            "MANGO",
+            "COCO",
+            "FRESA",
+            "CEREZA",
+            "PAPAYA",
+            "MORA",
+            "HIGO"
+          ]
+        },
+        {
+          "value": "garden",
+          "label": "Jardín",
+          "words": [
+            "ROSA",
+            "FLOR",
+            "HOJA",
+            "TIERRA",
+            "PASTO",
+            "RAMA",
+            "ABEJA",
+            "LIRIO",
+            "MACETA"
+          ]
+        },
+        {
+          "value": "kitchen",
+          "label": "Cocina",
+          "words": [
+            "TAZA",
+            "PLATO",
+            "OLLA",
+            "PAN",
+            "VASO",
+            "HORNO",
+            "JARRA",
+            "SAL",
+            "MANTEL"
+          ]
+        },
+        {
+          "value": "weather",
+          "label": "Clima",
+          "words": [
+            "SOL",
+            "LLUVIA",
+            "NIEVE",
+            "VIENTO",
+            "NUBE",
+            "NIEBLA",
+            "CALOR",
+            "BRISA",
+            "RAYO"
+          ]
+        },
+        {
+          "value": "animals",
+          "label": "Animales",
+          "words": [
+            "PERRO",
+            "GATO",
+            "PATO",
+            "VACA",
+            "OVEJA",
+            "BURRO",
+            "GALLO",
+            "LORO",
+            "PEZ"
+          ]
+        },
+        {
+          "value": "home",
+          "label": "Casa",
+          "words": [
+            "PUERTA",
+            "SILLA",
+            "CAMA",
+            "MESA",
+            "RELOJ",
+            "LLAVE",
+            "TECHO",
+            "ESPEJO",
+            "PISO"
+          ]
+        }
       ]
     },
     "conversation": {
@@ -513,50 +1284,221 @@
         "seasons": "Estaciones y fiestas"
       },
       "cards": [
-        {"theme": "food", "picture": "bread", "prompt": "¿Qué olor de la cocina le gusta más?"},
-        {"theme": "food", "picture": "cake", "prompt": "¿Qué pastel o torta elegiría para una celebración?"},
-        {"theme": "food", "picture": "apple", "prompt": "Cuénteme de algún postre que le guste mucho, como el flan o el arroz con leche."},
-        {"theme": "food", "picture": "teacup", "prompt": "¿Cómo le gusta el café? ¿O prefiere un té?"},
-        {"theme": "food", "picture": "frying-pan", "prompt": "¿Qué no puede faltar en un buen desayuno?"},
-        {"theme": "food", "picture": "strawberry", "prompt": "¿Qué fruta le gusta comprar en el mercado?"},
-        {"theme": "food", "picture": "lemon", "prompt": "¿Qué le gusta más: lo dulce o lo ácido?"},
-        {"theme": "food", "picture": "cherries", "prompt": "¿Qué comida le sabe a fiesta o a domingo en familia?"},
-        {"theme": "home", "picture": "house", "prompt": "Cuénteme de una casa donde le gustó vivir."},
-        {"theme": "home", "picture": "armchair", "prompt": "¿Cuál es su lugar favorito para sentarse a descansar?"},
-        {"theme": "home", "picture": "lamp", "prompt": "¿Qué le gusta hacer en una noche tranquila?"},
-        {"theme": "home", "picture": "key", "prompt": "¿Qué tesoro guardaría en una caja especial?"},
-        {"theme": "home", "picture": "kettle", "prompt": "¿A quién invitaría a tomar un cafecito o un té?"},
-        {"theme": "home", "picture": "umbrella", "prompt": "¿Qué le gusta hacer en un día de lluvia?"},
-        {"theme": "outdoors", "picture": "sunflower", "prompt": "¿Qué flores sembraría en un jardín?"},
-        {"theme": "outdoors", "picture": "tree", "prompt": "Cuénteme de un árbol, una plaza o un parque que le guste."},
-        {"theme": "outdoors", "picture": "watering-can", "prompt": "¿Qué es lo más bonito de estar en un jardín?"},
-        {"theme": "outdoors", "picture": "tulip", "prompt": "¿De qué color le gustan más las flores?"},
-        {"theme": "outdoors", "picture": "potted-plant", "prompt": "¿Le gusta tener plantas en la casa? ¿Cuáles?"},
-        {"theme": "outdoors", "picture": "sun", "prompt": "¿Cómo sería para usted un día de sol perfecto?"},
-        {"theme": "animals", "picture": "dog", "prompt": "Cuénteme de algún perro que haya conocido."},
-        {"theme": "animals", "picture": "cat", "prompt": "¿Gatos o perros, o ninguno de los dos? ¿Qué le gusta de ellos?"},
-        {"theme": "animals", "picture": "bird", "prompt": "¿Qué pájaros le gusta ver u oír por la mañana?"},
-        {"theme": "animals", "picture": "fish", "prompt": "¿Alguna vez fue a pescar o tuvo una pecera?"},
-        {"theme": "animals", "picture": "butterfly", "prompt": "¿Cuál es el animal más bonito que ha visto?"},
-        {"theme": "travel", "picture": "car", "prompt": "Cuénteme de algún auto que le gustó."},
-        {"theme": "travel", "picture": "sailboat", "prompt": "¿Qué prefiere: un día en la playa o en las montañas?"},
-        {"theme": "travel", "picture": "bicycle", "prompt": "¿Adónde le gustaría ir de paseo?"},
-        {"theme": "travel", "picture": "balloon", "prompt": "Si pudiera volar sobre cualquier lugar, ¿cuál elegiría?"},
-        {"theme": "travel", "picture": "lighthouse", "prompt": "Cuénteme de un viaje o un paseo que disfrutó."},
-        {"theme": "work", "picture": "key", "prompt": "¿Qué trabajos le gustó hacer?"},
-        {"theme": "work", "picture": "watering-can", "prompt": "¿Qué pasatiempo le gusta tanto que se le pasan las horas?"},
-        {"theme": "work", "picture": "bread", "prompt": "¿Qué le gusta hacer con las manos: cocinar, coser, arreglar cosas?"},
-        {"theme": "work", "picture": "house", "prompt": "¿Qué consejo le daría a una persona joven que empieza a trabajar?"},
-        {"theme": "music", "picture": "balloon", "prompt": "¿Con qué música le dan ganas de bailar?"},
-        {"theme": "music", "picture": "cake", "prompt": "¿Qué hace que una fiesta sea buena de verdad?"},
-        {"theme": "music", "picture": "lamp", "prompt": "¿Qué cantantes le gusta escuchar? ¿Boleros, rancheras, tangos, cumbias?"},
-        {"theme": "music", "picture": "armchair", "prompt": "¿Qué película o telenovela le gusta volver a ver?"},
-        {"theme": "seasons", "picture": "sun", "prompt": "¿Qué es lo que más le gusta de los días de calor?"},
-        {"theme": "seasons", "picture": "tree", "prompt": "¿Qué le gusta de los días frescos, cuando cambia el tiempo?"},
-        {"theme": "seasons", "picture": "moon", "prompt": "¿Qué le gusta hacer en una noche fría, con un chocolate caliente?"},
-        {"theme": "seasons", "picture": "tulip", "prompt": "¿Qué le gusta de la primavera?"},
-        {"theme": "seasons", "picture": "umbrella", "prompt": "¿Qué prefiere: la lluvia, el sol o el fresco?"},
-        {"theme": "seasons", "picture": "cake", "prompt": "¿Qué comida no puede faltar en las fiestas de fin de año?"}
+        {
+          "theme": "food",
+          "picture": "bread",
+          "prompt": "¿Qué olor de la cocina le gusta más?"
+        },
+        {
+          "theme": "food",
+          "picture": "cake",
+          "prompt": "¿Qué pastel o torta elegiría para una celebración?"
+        },
+        {
+          "theme": "food",
+          "picture": "apple",
+          "prompt": "Cuénteme de algún postre que le guste mucho, como el flan o el arroz con leche."
+        },
+        {
+          "theme": "food",
+          "picture": "teacup",
+          "prompt": "¿Cómo le gusta el café? ¿O prefiere un té?"
+        },
+        {
+          "theme": "food",
+          "picture": "frying-pan",
+          "prompt": "¿Qué no puede faltar en un buen desayuno?"
+        },
+        {
+          "theme": "food",
+          "picture": "strawberry",
+          "prompt": "¿Qué fruta le gusta comprar en el mercado?"
+        },
+        {
+          "theme": "food",
+          "picture": "lemon",
+          "prompt": "¿Qué le gusta más: lo dulce o lo ácido?"
+        },
+        {
+          "theme": "food",
+          "picture": "cherries",
+          "prompt": "¿Qué comida le sabe a fiesta o a domingo en familia?"
+        },
+        {
+          "theme": "home",
+          "picture": "house",
+          "prompt": "Cuénteme de una casa donde le gustó vivir."
+        },
+        {
+          "theme": "home",
+          "picture": "armchair",
+          "prompt": "¿Cuál es su lugar favorito para sentarse a descansar?"
+        },
+        {
+          "theme": "home",
+          "picture": "lamp",
+          "prompt": "¿Qué le gusta hacer en una noche tranquila?"
+        },
+        {
+          "theme": "home",
+          "picture": "key",
+          "prompt": "¿Qué tesoro guardaría en una caja especial?"
+        },
+        {
+          "theme": "home",
+          "picture": "kettle",
+          "prompt": "¿A quién invitaría a tomar un cafecito o un té?"
+        },
+        {
+          "theme": "home",
+          "picture": "umbrella",
+          "prompt": "¿Qué le gusta hacer en un día de lluvia?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sunflower",
+          "prompt": "¿Qué flores sembraría en un jardín?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tree",
+          "prompt": "Cuénteme de un árbol, una plaza o un parque que le guste."
+        },
+        {
+          "theme": "outdoors",
+          "picture": "watering-can",
+          "prompt": "¿Qué es lo más bonito de estar en un jardín?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tulip",
+          "prompt": "¿De qué color le gustan más las flores?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "potted-plant",
+          "prompt": "¿Le gusta tener plantas en la casa? ¿Cuáles?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sun",
+          "prompt": "¿Cómo sería para usted un día de sol perfecto?"
+        },
+        {
+          "theme": "animals",
+          "picture": "dog",
+          "prompt": "Cuénteme de algún perro que haya conocido."
+        },
+        {
+          "theme": "animals",
+          "picture": "cat",
+          "prompt": "¿Gatos o perros, o ninguno de los dos? ¿Qué le gusta de ellos?"
+        },
+        {
+          "theme": "animals",
+          "picture": "bird",
+          "prompt": "¿Qué pájaros le gusta ver u oír por la mañana?"
+        },
+        {
+          "theme": "animals",
+          "picture": "fish",
+          "prompt": "¿Alguna vez fue a pescar o tuvo una pecera?"
+        },
+        {
+          "theme": "animals",
+          "picture": "butterfly",
+          "prompt": "¿Cuál es el animal más bonito que ha visto?"
+        },
+        {
+          "theme": "travel",
+          "picture": "car",
+          "prompt": "Cuénteme de algún auto que le gustó."
+        },
+        {
+          "theme": "travel",
+          "picture": "sailboat",
+          "prompt": "¿Qué prefiere: un día en la playa o en las montañas?"
+        },
+        {
+          "theme": "travel",
+          "picture": "bicycle",
+          "prompt": "¿Adónde le gustaría ir de paseo?"
+        },
+        {
+          "theme": "travel",
+          "picture": "balloon",
+          "prompt": "Si pudiera volar sobre cualquier lugar, ¿cuál elegiría?"
+        },
+        {
+          "theme": "travel",
+          "picture": "lighthouse",
+          "prompt": "Cuénteme de un viaje o un paseo que disfrutó."
+        },
+        {
+          "theme": "work",
+          "picture": "key",
+          "prompt": "¿Qué trabajos le gustó hacer?"
+        },
+        {
+          "theme": "work",
+          "picture": "watering-can",
+          "prompt": "¿Qué pasatiempo le gusta tanto que se le pasan las horas?"
+        },
+        {
+          "theme": "work",
+          "picture": "bread",
+          "prompt": "¿Qué le gusta hacer con las manos: cocinar, coser, arreglar cosas?"
+        },
+        {
+          "theme": "work",
+          "picture": "house",
+          "prompt": "¿Qué consejo le daría a una persona joven que empieza a trabajar?"
+        },
+        {
+          "theme": "music",
+          "picture": "balloon",
+          "prompt": "¿Con qué música le dan ganas de bailar?"
+        },
+        {
+          "theme": "music",
+          "picture": "cake",
+          "prompt": "¿Qué hace que una fiesta sea buena de verdad?"
+        },
+        {
+          "theme": "music",
+          "picture": "lamp",
+          "prompt": "¿Qué cantantes le gusta escuchar? ¿Boleros, rancheras, tangos, cumbias?"
+        },
+        {
+          "theme": "music",
+          "picture": "armchair",
+          "prompt": "¿Qué película o telenovela le gusta volver a ver?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "sun",
+          "prompt": "¿Qué es lo que más le gusta de los días de calor?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tree",
+          "prompt": "¿Qué le gusta de los días frescos, cuando cambia el tiempo?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "moon",
+          "prompt": "¿Qué le gusta hacer en una noche fría, con un chocolate caliente?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tulip",
+          "prompt": "¿Qué le gusta de la primavera?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "umbrella",
+          "prompt": "¿Qué prefiere: la lluvia, el sol o el fresco?"
+        }
       ]
     },
     "coloring": {
@@ -639,16 +1581,36 @@
       "themes": {
         "kitchen-garden": {
           "label": "Cocina y jardín",
-          "baskets": ["En la cocina", "En el jardín"]
+          "baskets": [
+            "En la cocina",
+            "En el jardín"
+          ]
         },
         "fruit-animals": {
           "label": "Frutas y animales",
-          "baskets": ["Frutas", "Animales"]
+          "baskets": [
+            "Frutas",
+            "Animales"
+          ]
         },
         "home-travel": {
           "label": "Casa y viajes",
-          "baskets": ["En casa", "De paseo"]
+          "baskets": [
+            "En casa",
+            "De paseo"
+          ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Frutas",
+        "animals": "Animales",
+        "travel": "Formas de viajar",
+        "flowers": "Flores",
+        "hot-drinks": "Cosas para una bebida caliente",
+        "weather": "Tipos de clima",
+        "baked": "Cosas horneadas en el horno"
       }
     }
   }

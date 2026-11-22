@@ -5,6 +5,13 @@
       "stopReading": "Dingh doeg",
       "region": "Youxyi",
       "restart": "Haijsi laux baez ndeu",
+      "rest": "Yiengh gizlaeng",
+      "restingTitle": "Gij yiengh",
+      "restingText": "Yiengh daengh mwngz yaw gaenjmaj ndaej. Rox mwngz cungh miz youq ni.",
+      "resume": "Gaiq yienz",
+      "placeText": "Gizlaeng bi mwngz yiengh ndaw gij. Gaiq yienz daengh ngaiq ni, roxcaem mbaeu ngaiq mwngz ndaej.",
+      "placeResume": "Gaiq yienz",
+      "placeFresh": "Cij mbaeu aeu",
       "soundOn": "Hai sieng nyoengh",
       "soundOff": "Bit sieng nyoengh",
       "done": "Baezneix daengz neix",
@@ -36,14 +43,26 @@
       "restart": "Hingz moq",
       "sizeLegend": "Gij bengx geijlai",
       "size": {
-        "one": "{n} bengx",
-        "other": "{n} bengx"
+        "one": "{n} tile",
+        "other": "{n} tiles"
       },
       "viewLegend": "Hong youx",
       "viewShowing": "Hingz biuq ok",
       "viewHidden": "Hingz daepyouq",
       "playAgain": "Aeu hingz moq youx laux baez ndeu",
-      "talk": "Caemhcungz gangj hingz"
+      "talk": "Caemhcungz gangj hingz",
+      "modeLegend": "Gij bouxgij ndaej gij",
+      "modePlay": "Gij bouxgij dauq",
+      "modeDaily": "Gij ngoenz nyaeuh",
+      "dayLegend": "Ngoenz ndaej",
+      "dayHelp": "Ciengz ngoenz gij bouxgij cungh youq ni daengz gij. Ngoenz gij ndaej cungh miz youq ni, roxcaem mbouj miz rox dauq aen.",
+      "guidanceDaily": "Gij ngoenz nyaeuh miz seiz doeng. Gip ndaw bouxgij, bae gip bouxgij doengh cungh gij.",
+      "restartDaily": "Cij aen gij ngoenz nyaeuh ni",
+      "copy": "Gwn ndaw ni",
+      "copied": "Gwn lai. Mbouj miz bae dauq daengh guh.",
+      "calendarTitle": "Gij ngoenz nyaeuh, {month}",
+      "calendarHelp": "Ngoenz gij miz seiz bouxgij doengh cungh ngoenz ndaej. Mbouj ciengz dwk ngoenz, mbouj miz ngoenz daih.",
+      "calendarVersion": "Ban {date}. Gij bouxgij doengh cungh ngoenz gij."
     },
     "choose": {
       "countLegend": "Hingz geijlai bengx",
@@ -62,6 +81,635 @@
       "shadowAlt": "Yemq aeu duih",
       "foundAlt": "Yemq {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Gij ndaw gij",
+      "hintOn": "Ndaw gij hwngj gij lwed rox",
+      "hintOff": "Mbouj miz ndaw",
+      "guidance": "Find the {n} pictures that go together, and tap each one.",
+      "countLegend": "Bouxgij ndaej gij",
+      "count": "{n} bouxgij",
+      "found": "Ya, {name|lower} ndaej youq gij doengh ni.",
+      "elsewhere": "{name|lower} doengh cungh gij aen. Yiengh cix.",
+      "hint": "Gij ndaw: ciengz {theme|lower}.",
+      "together": "Gij ndaej doengh: {theme}.",
+      "shown": "Ni gij doengh: {theme}.",
+      "groupName": "Doengh: {theme}",
+      "show": "Bae gij doengh",
+      "next": "Gij aen ndaej"
+    },
+    "oddOneOut": {
+      "hintLegend": "Gij ndaw gij",
+      "hintOn": "Ndaw gij hwngj gij lwed rox",
+      "hintOff": "Mbouj miz ndaw",
+      "guidance": "Ciengz bouxgij mbouj doengh cungh gij aen, bae gip bouxgij ni.",
+      "countLegend": "Bouxgij ndaej gij",
+      "count": "{n} bouxgij",
+      "belongs": "{name|lower} doengh cungh gij aen. Yiengh cix.",
+      "found": "Ya, {name|lower} ndaej mbouj doengh cungh gij aen. Gij aen ndaej {theme|lower}.",
+      "shown": "Ni dwk: {name|lower}. Gij aen ndaej {theme|lower}.",
+      "hint": "Gij ndaw: {n} bouxgij ni ndaej {theme|lower}.",
+      "others": "Gij aen: {theme}",
+      "show": "Bae hawj guh",
+      "next": "Gij aen ndaej"
+    },
+    "seatedToss": {
+      "guidance": "Yw youq dinh, bi gwnz gij ndaej rengh gij ciemh gyaeuq gij naeuz daeuj, ndaej gij daengh. Gij gwnz ndaej youq ciengz caeux, cungh doengh cungh gij.",
+      "stepsHeading": "Gij guh",
+      "steps": [
+        "Dap gij gwnz hoi cungh gij caengh, dau bae youq dinh ndaw ciengz.",
+        "Yw youq ndaej yiengh, ciengz ciengz gwn gwnz. Gip caemh gij ndaej, roxcaem mbouj yaw ndaej bae.",
+        "When a toss lands in a ring, the person who tossed ticks one box in their column, on the row for that ring.",
+        "Ciengz gij ticks ndaw ciengz, mwngz ndaej bae gij cungh gij. Mbouj miz ndaej hawj doengh gij.",
+        "Ciengz ndaej bae yw, ciengz gij cix miz ndaej."
+      ],
+      "safetyHeading": "Gij ndaej",
+      "safetyLine": "Bi gwnz gij miz gwnz ndaej rengh, roxcaem gwn bi rumz mbouj miz gij. Yw youq, mbouj bae gij daengh naengh, cungh miz bouxnyinh youq ngaiz. Gij sai ndaej sai.",
+      "flags": [
+        "Mbouj hix 3 bi lwed: gij sai",
+        "Yiengh bae daengh cauh"
+      ],
+      "safety": [
+        "Bi gwnz gij miz gwnz ndaej rengh, roxcaem gwn sock ndaej rumz. Ciengz cwngz ndaw, bae gij mbouj miz gij ndaej lawj.",
+        "Gij sai, sadaeuj cungh gij aen ndaej sai, ndaej sai daengh bouxgij ndaej guh. Yiengh bae daengh bouxgij mbouj hix, roxcaem bouxgij ngaenz gij ndaej cauh.",
+        "Yiengh youq ngaiz gij ndaej rox, roxcaem bi miz gij ndaej bae daengh cauh, ciengz gij ndaej cungh.",
+        "Yw youq. Gij ndaej gwnz ciengz daengh dinh, mbouj bae daengh naengh."
+      ],
+      "previewLabel": "Ndaw gij ndaej: bouxgij ciengz 3 gaenj, ngoengh Gaenj, Cung, Gwnj, daengh ndaw. Ruz miz bouxgij gij ciemh, cungh gaenj gij ciemh miz rang.",
+      "sheetHow": "Dap gij ndaej youq dinh, ndaw gij. Gij ciemh daengh bouxgij, bae ticks ndaw gij ni ndaw ruz bouxgij.",
+      "rings": [
+        "Gaenj",
+        "Cung",
+        "Gwnj"
+      ],
+      "people": [
+        "Bouxndaw dwk",
+        "Bouxngeih"
+      ],
+      "ringHeading": "Gaenj",
+      "print": "Dap bouxgij cungh ruz ticks"
+    },
+    "seasonalPack": {
+      "guidance": "Ndaej ndaw, dap gij 3 bi gij gaenj ni, bae gij 1, 2 roxcaem gij 3 bi doengh cungh gij.",
+      "monthLegend": "Ndaej ndaw",
+      "months": [
+        "Ndaw it",
+        "Ndaw ngeih",
+        "Ndaw sam",
+        "Ndaw seiz",
+        "Ndaw ha",
+        "Ndaw hoh",
+        "Ndaw caet",
+        "Ndaw bet",
+        "Ndaw gyauq",
+        "Ndaw cib",
+        "Ndaw cibit",
+        "Ndaw cibngeih"
+      ],
+      "monthNote": "Ndaw miz gij bouxgij ngoenz. Gij ni bae ndaw ni, roxcaem mwngz ndaej ndaw aen.",
+      "restDay": "Ngoenz ni yiengh",
+      "restLine": "Mbouj miz gij ngoenz ni. Ngoenz yiengh cungh ndaej.",
+      "previewHeading": "Gij sam gaenj",
+      "puzzles": {
+        "pairs": {
+          "title": "Doengh gij",
+          "how": "Bae gij ciengz rawz bouxgij ndaw rawz daih daengh bouxgij doengh cungh ndaw rawz aen.",
+          "describe": "Seiz rawz gij bouxgij doengh, ciengz gij ngwz ndaej aen."
+        },
+        "different": {
+          "title": "Gij ndaej mbouj doengh?",
+          "how": "Gij bouxgij ndaej mbouj doengh cungh sam bouxgij aen, bae gwnz daengh.",
+          "describe": "Seiz rawz gij bouxgij. Sam bouxgij doengh, seiz gij ndaej mbouj doengh."
+        },
+        "color": {
+          "title": "Caem ndaej gij",
+          "how": "Caem bouxgij ndaej mwngz ndaej ciz, cungh bi caem roxcaem bi ciz.",
+          "describe": "Seiz bouxgij daih ndaej caem."
+        }
+      },
+      "print": "Dap ndaej gij ndaw ni",
+      "sheetHow": "Dap ndaw dan. Gij 1, 2 roxcaem 3 bi, ndaej gij ndaej gij.",
+      "printFooter": "Gij 1, 2 roxcaem 3 bi. Ciengz ndaej bae yw."
+    },
+    "decorateACard": {
+      "guidance": "Ndaej gij ngoenz, bae caem bi ciz cungh gij ciemh, cungh caem gij gwnz. Mbouj miz bi ciz doengh.",
+      "occasionLegend": "Ndaej gij ngoenz",
+      "occasions": {
+        "birthday": {
+          "label": "Ngoenz gwn bi",
+          "words": "Gwn bi ndaej"
+        },
+        "thank-you": {
+          "label": "Gonjcaeh",
+          "words": "Gonjcaeh"
+        },
+        "thinking-of-you": {
+          "label": "Sim ciengz mwngz",
+          "words": "Sim ciengz mwngz"
+        },
+        "new-season": {
+          "label": "Gij ngoenz mbaeu",
+          "words": "Gij ngoenz mbaeu"
+        },
+        "just-because": {
+          "label": "Mbouj miz gij",
+          "words": "Mbouj miz gij"
+        }
+      },
+      "stepsHeading": "Bae caem ndaw cungh gij",
+      "steps": {
+        "fold": "Dap bi ciz ni, cungh gwn ndaw cungh gij ndaw, ciengz gwnz ngoengh ndaw.",
+        "front": "Bouxndaw dwk caem ciengz gwnz, ciengz gij ciemh.",
+        "inside": "Bouxngeih caem gij ndaw, roxcaem gij ciengz ndaw ciengz gij ndaej.",
+        "message": "Doengh ndaw bi ciz. Bouxndaw ndaej ciz, bouxngeih ndaej gij ciemh.",
+        "stop": "Ciengz ndaej bae yw. Mbouj miz bi ciz doengh, bi ciz ngaenz cungh ndaej."
+      },
+      "materials": "Use crayons, colored pencils or felt-tip pens. Nothing needs cutting, gluing or sticking.",
+      "previewLabel": "Gij ngoenz bi ciz ndaej dap ngoengh ndaw. Gwnz ciz miz {words}, cungh rang gij bi roxcaem gij daeuj. Ndaw ciz miz hang ndaw bi ciz cungh gij Daengh.",
+      "from": "Daengh",
+      "sheetHow": "Bien ciz ndaw ngoenz ndaw hwnj ... (Fold the card along the dashed line, front outside. Write the message on the back.)",
+      "rulesHeading": "Cungh ndeu bouxcae",
+      "sheetRules": [
+        "Hung ndaw ndaw, ndaw cungh ndeu: cung ndeu daeuj bien ciz ndaw, ngoz ndeu daeuj bien ciz ndaw.",
+        "Ndaw cungh ndeu bae ciz, ndaw ndeu daeuj baenj gij ... (Write the message together, or one person writes what the other says.)",
+        "Ndeu ndaw bae ndaw ndaw gaen ... (Anyone may stop at any time. There is no right card.)"
+      ],
+      "print": "Ndaw ciz"
+    },
+    "storyDice": {
+      "guidance": "Caeu hwnj ndaw baenj gij, ndaw hwnj ndaw ... (Look at the pictures and tell a story using them, in any order. There is no right story.)",
+      "countLegend": "Ndaw gwnj",
+      "count": "{n} gwnj",
+      "roll": "Ndaw gwnj dwk",
+      "pass": "Ndaw bae",
+      "passed": "Bae ndaw ndaw gaen. Ndeu ndaw ndaw ... (Passing is fine. The next person can start, or you can roll again.)",
+      "rolled": "Hwnj ndaw mbouj: {names}.",
+      "tapped": "{name}. Ndaw bae ndaw ni, ndaw ndeu ... (Begin with this one, or any other.)"
+    },
+    "wordPicture": {
+      "guidance": "Ndaw hwnj, ndaw ndaw cih ndaw ... (Tap a picture, then the word that names it. Or tap a word, then its picture.)",
+      "countLegend": "Ndaw hwnj",
+      "count": "{n} hwnj",
+      "picturesGroup": "Hwnj",
+      "wordsGroup": "Cih",
+      "readWord": "Ndaw song: {name}",
+      "next": "Hwnj mbouj",
+      "putBack": "Ndaw ciengz ... (Put it back)",
+      "pickWord": "Mwngz ndaw cih ndeu ndaw hwnj ni.",
+      "pickPicture": "Mwngz ndaw hwnj ndeu ndaw cih ni.",
+      "fit": "Ya, cih ni ndaw {name|lower}.",
+      "newSet": "Ni ndaw hwnj mbouj.",
+      "restarted": "Back to the start. Every picture and word is loose again.",
+      "restored": "Ndaw ciengz. Ndaw ndeu ndaw ... (Put back. The matched pairs are shown again.)",
+      "all": "Cih ndeu ndaw hwnj."
+    },
+    "colorMatch": {
+      "guidance": "Caeu yenzsaek cungh cih, ndaw hwnj ndeu ndaw yenzsaek ni.",
+      "target": "Yenzsaek {color|lower}. Mwngz ndaw hwnj ndeu ndaw {color|lower}.",
+      "countLegend": "Ndaw hwnj",
+      "count": "{n} hwnj",
+      "found": "Ya, {name|lower} ni {color|lower}.",
+      "named": "{name|lower} ni {color|lower}.",
+      "all": "Ni cungh ndeu ndaw hwnj {color|lower}.",
+      "shown": "Ni ndaw hwnj {color|lower}.",
+      "show": "Ndaw ndeu",
+      "next": "Yenzsaek ndaw",
+      "names": {
+        "red": "Hung",
+        "orange": "Cung",
+        "yellow": "Ywnz",
+        "green": "Lwg",
+        "blue": "Lam"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Ndaw bien ciengz ndaw, ndaw ndeu bien ciengz ndaw ndaw ... (Tap a half on the left, then tap the half on the right that fits it.)",
+      "countLegend": "Ndaw hwnj",
+      "count": "{n} hwnj",
+      "leftGroup": "Ciengz ndaw",
+      "rightGroup": "Ciengz ndaw",
+      "left": "Ciengz ndaw {name|lower}",
+      "right": "Yiengh ndaw {name|lower}",
+      "joined": "Joined",
+      "pickRight": "Ni mwngz ndeu ciengz ndaw yiengh ni.",
+      "pickLeft": "Ni mwngz ndeu ciengz ndaw ciengz ni.",
+      "fit": "Ya, ndaw song ni ndaw {name|lower}.",
+      "apart": "Ndaw song ni mbouj ciengz cungh. Ndaw ndaw.",
+      "all": "Hwnj ndeu ciengz ndaw.",
+      "shown": "Ni ndaw hwnj, ndaw ciengz cungh.",
+      "show": "Ndaw ndeu",
+      "next": "Another set"
+    },
+    "colorByNumber": {
+      "guidance": "Choose a color from the key, then fill a square with it. Any color is fine.",
+      "sizeLegend": "Ndaw daih",
+      "size": "{n} cungh {n}",
+      "keyLegend": "Yenzsaek",
+      "colors": [
+        "Ywnz",
+        "Cung",
+        "Lwg",
+        "Ndaw"
+      ],
+      "motifs": {
+        "house": "ndaw ranz",
+        "flower": "ndaw fa",
+        "heart": "ndaw sim",
+        "tree": "ndaw ndoem",
+        "boat": "ndaw ndaw",
+        "pot-plant": "ndaw ndoem dingh bwnj"
+      },
+      "region": "Picture grid, {n} by {n}. It scrolls sideways if the screen is narrow.",
+      "cell": "Haw {number}, hang {row}, lied {column}, {color}",
+      "empty": "mbouj",
+      "chose": "Ndaw {name} ndaw. Bien ndaw ciengz ndaw ndeu.",
+      "painted": "{name} hang {row}, lied {column}.",
+      "sheet": "Ndaw ciengz ndeu yenzsaek cungh haw. Ni ndaw hwnj ndaw ciz: {name}.",
+      "own": "Ndaw ciengz ndeu ndaw. Ni ndaw hwnj ndaw roengz.",
+      "fillAll": "Ndeu cungh haw",
+      "filledAll": "Ndaw mbouj ndeu ndaw yenzsaek cungh haw.",
+      "clear": "Ciengz",
+      "cleared": "Ndaw rang ciengz.",
+      "next": "Hwnj ndaw",
+      "fresh": "Ni hwnj ndaw ndaw ndaw."
+    },
+    "patternMaker": {
+      "guidance": "Tap a square to change its color. Your pattern grows beside it. Nothing you make is saved or sent.",
+      "sizeLegend": "Tile size",
+      "size": "{n} cungh {n}",
+      "keyLegend": "Yenzsaek, ndaw bien ndaw ndaw",
+      "colors": [
+        "Ywnz",
+        "Cung",
+        "Lwg",
+        "Ndaw"
+      ],
+      "tileLabel": "Ndaw ciengz roengz",
+      "region": "Your tile, {n} by {n}. It scrolls sideways if the screen is narrow.",
+      "patternLabel": "Ndaw roengz",
+      "pattern": "Your pattern: your tile repeated {n} across and {n} down.",
+      "square": "Hang {row}, lied {column}, {color}",
+      "changed": "Hang {row}, lied {column} ndaw {color}.",
+      "cleared": "Ndaw ciengz ciengz. Ni ndaw ndaw ndaw ciengz.",
+      "surprise": "Ndaw ndaw hwnj",
+      "surprised": "Here is a new tile. You can put the old one back.",
+      "putBack": "Put it back",
+      "restored": "Ndaw ciengz roengz ndaw ciengz ndaw.",
+      "print": "Ndaw ciz ndaw roengz",
+      "sheetTitle": "Ndaw roengz"
+    },
+    "buildTogether": {
+      "guidance": "Take turns to put a piece in an empty place. Each of you has your own color. Nothing you make is saved or sent.",
+      "sizeLegend": "Ndaw daih",
+      "size": "{n} cungh {n}",
+      "people": [
+        "Ndaw ndaw nyi",
+        "Ndaw ndaw song"
+      ],
+      "colorLegend": "Yenzsaek {person}",
+      "colors": [
+        "Ywnz",
+        "Cung",
+        "Lwg",
+        "Ndaw"
+      ],
+      "inUse": "Ndaw ciz",
+      "turn": "Ndaw ni ndaw, {person|lower}",
+      "yourColor": "Ni yenzsaek ni {color|lower}.",
+      "built": "Ndaw cungh roengz. Ni ndaw hwnj ndaw song ndeu roengz.",
+      "gridLabel": "Ndaw ciengz cungh",
+      "region": "The shared grid, {n} by {n}. It scrolls sideways if the screen is narrow.",
+      "cellEmpty": "Hang {row}, lied {column}, mbouj",
+      "cellFilled": "Hang {row}, lied {column}, {color}, {person|lower} ciengz",
+      "placed": "Row {row}, column {column} is now {color}. Your turn, {next|lower}.",
+      "placedLast": "Hang {row}, lied {column} ndaw {color}. Roengz cungh.",
+      "taken": "Row {row}, column {column} already has a piece. Choose an empty place.",
+      "pass": "Ndaw bae",
+      "passed": "Bae ndaw ndaw gaen. Ni ndaw ndaw, {person|lower}.",
+      "takeBack": "Ndaw ndaw ciengz ndaw",
+      "takeBackPass": "Ndaw ndaw bae",
+      "tookBack": "Ndaw ciengz ndaw ndaw. Ni ndaw ndaw, {person|lower}.",
+      "tookBackPass": "Ndaw bae ndaw ndaw. Ni ndaw ndaw, {person|lower}.",
+      "colorChanged": "{person} ndaw {color|lower}.",
+      "restarted": "Ndaw ciengz mbouj. Ni ndaw ndaw, {person|lower}.",
+      "print": "Ndaw ciz ndaw ciengz",
+      "sheetTitle": "Roengz cungh",
+      "sheetHelp": "Take turns. In an empty square, each person draws their own shape with their own pencil.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tap a piece, then tap the space in the picture where it goes. Nothing you make is saved or sent.",
+      "hints": "Ndaw sawj ndaw ndaw",
+      "pictureLine": "Ndaw ni ndaw {picture}.",
+      "pictures": {
+        "house": "ranz",
+        "boat": "ndaw",
+        "tree": "ndoem",
+        "fish": "bya",
+        "cat": "maeuz",
+        "rocket": "ndaw fei"
+      },
+      "outlineLabel": "The outline of the {picture}. Tap a space to put a chosen piece in it.",
+      "trayHeading": "The pieces",
+      "pieces": {
+        "large-triangle": "Sanj gak ndaw",
+        "small-triangle": "Sanj gak ndaw ndaw",
+        "square": "Fanq",
+        "parallelogram": "Sanj ndaw ndaw",
+        "rectangle": "Fanq cangj"
+      },
+      "shapes": {
+        "large-triangle": "sanj gak ndaw",
+        "small-triangle": "sanj gak ndaw ndaw",
+        "square": "fanq",
+        "parallelogram": "sanj ndaw ndaw",
+        "rectangle": "fanq cangj"
+      },
+      "chosenLabel": "Chosen",
+      "spaceEmpty": "Ndaw {n}, {shape}, mbouj",
+      "spaceFilled": "Space {n}, {shape}, has its piece. Tap to take the piece back.",
+      "chosen": "{piece} ndaw ndaw. Ni bien ndaw ndaw ndaw hwnj.",
+      "unchosen": "Miếng này không còn được chọn nữa.",
+      "placed": "Miếng này đang ở chỗ {n}.",
+      "complete": "Bức {picture} đã hoàn thành.",
+      "different": "Miếng này khác hình với chỗ này. Hãy thử chỗ khác.",
+      "needPiece": "Hãy chọn một miếng từ khay trước.",
+      "filled": "Chỗ này đã có miếng rồi. Chạm vào để lấy miếng ra.",
+      "tookBack": "Miếng đã trở lại khay.",
+      "cleared": "Các miếng đã trở lại khay. Nếu đổi ý, hãy đặt lại.",
+      "restored": "Các miếng đã trở lại bức tranh.",
+      "next": "Cái này là {picture}.",
+      "putBack": "Đặt lại",
+      "another": "Hình khác",
+      "print": "In hình này",
+      "sheetTitle": "Hình yên tĩnh",
+      "sheetHow": "Tô màu các miếng, hoặc cắt ra để ghép vừa với đường viền. Người lớn có thể giúp cắt.",
+      "sheetPieces": "Các miếng, cùng kích cỡ với đường viền"
+    },
+    "picnicPlanner": {
+      "guidance": "Chạm vào một hình để đặt vào giỏ dã ngoại, và chạm vào hình trong giỏ để lấy ra. Giỏ chứa được sáu thứ.",
+      "guidancePlay": "Chạm vào hai hình giống nhau. Các hình vẫn hiện trên màn hình, và không có thời gian đếm.",
+      "basketHeading": "Giỏ của chúng ta",
+      "basketLabel": "Giỏ dã ngoại",
+      "takeOut": "Lấy {picture} ra khỏi giỏ",
+      "inBasket": "Trong giỏ",
+      "foodHeading": "Đồ ăn",
+      "outingsHeading": "Hoạt động",
+      "added": "{picture} đã vào giỏ.",
+      "removed": "{picture} đã được lấy ra khỏi giỏ.",
+      "already": "{picture} đã có trong giỏ. Chạm vào đó để lấy ra.",
+      "full": "Giỏ đã đầy. Hãy lấy bớt một thứ ra để có chỗ.",
+      "summary": "Buổi dã ngoại của chúng ta: {list}.",
+      "summaryNone": "Giỏ vẫn chưa có gì.",
+      "and": "và",
+      "play": "Cùng chơi với buổi dã ngoại của chúng ta nào",
+      "needTwo": "Trước hết hãy chọn ít nhất hai thứ.",
+      "playAgain": "Chơi lại",
+      "back": "Quay lại buổi dã ngoại",
+      "print": "In danh sách dã ngoại của chúng ta",
+      "cleared": "Giỏ đã trống.",
+      "notice": "Đây là một kế hoạch để trò chuyện. Không có thời gian đếm, không chấm điểm, cũng không lưu lại.",
+      "sheetTitle": "Danh sách dã ngoại của chúng ta",
+      "sheetHow": "Đánh dấu từng thứ khi bạn xếp vào. Dùng các dòng trống cho những thứ khác bạn muốn mang theo.",
+      "sheetToPack": "Cần mang theo"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Hãy chọn từ hai đến mười hai ảnh của riêng bạn để bắt đầu cuốn sách.",
+      "guidance": "Cùng lật các trang bằng nút hoặc phím mũi tên Trái và Phải. Nếu muốn, hãy thêm vài lời dưới mỗi ảnh. Không có gì bạn làm được lưu hay gửi đi.",
+      "lookGuidance": "Cùng xem từng trang. Bạn có thể trò chuyện hoặc chỉ cần ngắm nhìn.",
+      "intro": "Chọn từ hai đến mười hai ảnh từ thiết bị này. Mỗi ảnh sẽ trở thành một trang của cuốn sách để cùng lật.",
+      "consent": "Hãy dùng ảnh gia đình của chính bạn. Nếu dùng ảnh của người không thể tự đồng ý, hãy hỏi trước.",
+      "privacy": "Ảnh của bạn chỉ ở trên thiết bị này. Chúng không được tải lên hay lưu lại.",
+      "choose": "Chọn ảnh",
+      "chooseDifferent": "Chọn ảnh khác",
+      "backToBook": "Quay lại cuốn sách",
+      "backToChoose": "Quay lại chọn ảnh",
+      "needTwo": "Vui lòng chọn ít nhất hai ảnh.",
+      "usingFirst": "Đang dùng {max} ảnh đầu tiên.",
+      "cleared": "Cuốn sách đã được xóa. Hãy chọn ảnh để bắt đầu lại.",
+      "moved": "Đã chuyển đến trang {n}.",
+      "pageOf": "Trang {n} trong tổng số {total}",
+      "lookTogether": "Cùng xem",
+      "leaveLook": "Quay lại cuốn sách",
+      "print": "In cuốn album",
+      "clear": "Xóa cuốn sách",
+      "bookLabel": "Cuốn album gia đình",
+      "pagesLabel": "Lật các trang",
+      "previous": "Trang trước",
+      "next": "Trang sau",
+      "moveEarlier": "Chuyển lên trước",
+      "moveLater": "Chuyển xuống sau",
+      "captionLabel": "Vài lời cho trang này, nếu bạn muốn",
+      "captionHelp": "Tối đa 80 ký tự. Lời chú thích chỉ được giữ trên trang này và sẽ mất khi bạn đóng lại.",
+      "sheetTitle": "Album của chúng ta",
+      "sheetHow": "Mỗi trang một ảnh, có lời viết bên dưới. Lật theo thứ tự và cùng trò chuyện về từng ảnh.",
+      "sheetEmpty": "Chọn ảnh trên trang trò chơi để in cuốn sách của riêng bạn, hoặc in trang trống này rồi dán ảnh đã in vào.",
+      "sheetFrame": "Dán ảnh đã in vào đây",
+      "sheetWords": "Vài lời cho trang này",
+      "skipped": {
+        "one": "{n} tệp không phải là ảnh chúng tôi có thể dùng.",
+        "other": "{n} tệp không phải là ảnh chúng tôi có thể dùng."
+      }
+    },
+    "quietScene": {
+      "guidance": "Xem từng bức tranh một. Khi sẵn sàng, bấm Tiếp hoặc Trước. Không có gì tự chuyển động.",
+      "next": "Bức tranh tiếp theo",
+      "previous": "Bức tranh trước",
+      "bigPicture": "Phóng to tranh",
+      "showEverything": "Hiện tất cả",
+      "first": "Đây là bức tranh đầu tiên.",
+      "last": "Đây là bức tranh cuối cùng.",
+      "lines": {
+        "sunrise": "Mặt trời đang mọc trên cánh đồng.",
+        "window-with-birds": "Chim ngoài cửa sổ.",
+        "vase-of-flowers": "Một bình hoa trên bàn.",
+        "teacup": "Một tách trà bên cửa sổ.",
+        "tree": "Một cái cây đứng trong vườn.",
+        "sailboat": "Một chiếc thuyền buồm trên mặt nước.",
+        "lighthouse": "Một ngọn hải đăng bên biển.",
+        "rainbow": "Cầu vồng sau cơn mưa.",
+        "moon": "Mặt trăng trên bầu trời đêm.",
+        "daisies": "Một bụi cúc dại trên cỏ.",
+        "rowing-boat": "Một chiếc thuyền chèo trên mặt nước lặng.",
+        "potted-plant": "Một cây xanh trong chậu."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Lần lượt từng người. Chạm vào một miếng cắt sẵn, rồi chạm vào chỗ trống để đặt. Không có gì bạn làm được lưu hay gửi đi.",
+      "people": [
+        "Người thứ nhất",
+        "Người thứ hai"
+      ],
+      "marks": [
+        "một vòng tròn",
+        "một hình vuông"
+      ],
+      "turn": "Đến lượt bạn, {person|lower}.",
+      "marked": "Các miếng của bạn được đánh dấu bằng {mark}.",
+      "boardLabel": "Bảng chung",
+      "placeEmpty": "Chỗ {n}, còn trống",
+      "placeFilled": "Chỗ {n}, {picture|lower}, do {person|lower} đặt",
+      "trayHeading": "Các miếng cắt sẵn",
+      "chosenLabel": "Đã chọn",
+      "chosen": "Đã chọn {picture}. Giờ hãy chạm vào một chỗ trống.",
+      "unchosen": "Miếng cắt sẵn này không còn được chọn nữa.",
+      "needCutout": "Hãy chọn một miếng cắt sẵn trước, rồi chạm vào chỗ trống.",
+      "filled": "Chỗ {n} đã có hình. Hãy chọn một chỗ trống.",
+      "placed": "{picture} đã ở chỗ {n}. Đến lượt bạn, {next|lower}.",
+      "full": "Mọi chỗ đều đã có hình. Hãy lấy một miếng ra để đổi, hoặc bắt đầu lại.",
+      "pass": "Bỏ qua",
+      "passed": "Bỏ qua cũng không sao. Đến lượt bạn, {person|lower}.",
+      "takeBack": "Lấy lại miếng vừa đặt",
+      "takeBackPass": "Hủy lượt bỏ qua",
+      "tookBack": "Đã lấy lại miếng. Đến lượt bạn, {person|lower}.",
+      "tookBackPass": "Đã hủy lượt bỏ qua. Đến lượt bạn, {person|lower}.",
+      "restarted": "Bảng đã trống. Đến lượt bạn, {person|lower}.",
+      "putBack": "Đặt lại",
+      "putBackDone": "Các miếng đã được đặt lại lên bảng.",
+      "another": "Bộ hình khác",
+      "anotherSet": "Một bộ miếng cắt sẵn mới đã có trong khay. Các miếng trên bảng vẫn giữ nguyên chỗ.",
+      "print": "In bảng",
+      "sheetTitle": "Bảng ghép hình",
+      "sheetHow": "Cắt các hình ra và lần lượt đặt lên bảng. Người lớn có thể giúp cắt.",
+      "sheetTray": "Các hình cần cắt"
+    },
+    "gardenPlanner": {
+      "guidance": "Chạm vào một hình, rồi chạm vào một luống để đặt vào đó. Chạm vào luống đã có hình, khi chưa chọn gì, để xóa hình ở đó.",
+      "bedsLabel": "Các luống vườn",
+      "bedEmpty": "Luống {n}, còn trống",
+      "bedFilled": "Luống {n}, {picture|lower}",
+      "plantsHeading": "Cây trồng",
+      "extrasHeading": "Đồ thêm cho vườn",
+      "chosenLabel": "Đã chọn",
+      "chosen": "Đã chọn {picture}. Giờ hãy chạm vào một luống.",
+      "unchosen": "Chưa chọn hình nào.",
+      "needPicture": "Caeuj hwnj ciengh, lij couh gaiq gaeng.",
+      "planted": "{picture} yw gaeng {n}.",
+      "replaced": "{picture} cij baenz hwnj gaeng {n}.",
+      "cleared": "Gaeng {n} mbouj miz. Haemq hwnj gij ndang, lij mwngz yungh cawj ndaw ciengh gij.",
+      "restarted": "Gaeng ndang mbouj miz.",
+      "putBack": "Haemq cwngz",
+      "putBackDone": "Hwnj ndang haemq cwngz gaeng ngoz.",
+      "summaryHeading": "Gaeng ngoz",
+      "summary": "Gaeco mwngz miz {list}.",
+      "summaryNone": "Mbouj miz hwnj ndaw gaeng ndang.",
+      "and": "lij",
+      "print": "Dinh gaeco",
+      "sheetTitle": "Gaeco gaeng rox ngoz",
+      "sheetHow": "Gaeng yienz hwnj ciengh cawj ndaw gaiq. Gaeng mbouj miz, mwngz lij haeux ndaw gaeng.",
+      "sheetNotes": "Dingzgaeq",
+      "notice": "Ni gaeco hwnj bawj gij gangj, mbouj hwnj gaeq ciengh gaeng."
+    },
+    "coloringWall": {
+      "guidance": "Caeuj hwnj lij cawj gaiq ndaw. Dinh gangz gaeng, gij boux ndang caeuj ndaw gaiq mbouj. Mbouj miz gaeq ndaw ciengh, mbouj miz cawj sae.",
+      "pictureLegend": "Hwnj",
+      "sizeLegend": "Ndaw gaiq miz gaeq",
+      "sizes": {
+        "2x2": "4 gaiq (2 x 2)",
+        "3x2": "6 gaiq (3 x 2)",
+        "3x3": "9 gaiq (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} gij dwk faenz oq {n} gaiq, {across} gaeq ndaw ndang lij {down} gaeq ndaw ndaw. Gaiq ndang miz ciengh ndaw gaeng.",
+      "previewCaption": "Hwnj gij miz ciengh gaiq lij ciengh ndaw.",
+      "labelsNote": "Ndaw mbawj ndang ciengh ndaw ndaw, lij ciengh gaiq ndang ciengh haeux, dwk A1 gij ndang gaiq boux ndang ndaw dwk.",
+      "wallHeading": "Vunz dinh gaiq gij gaeq ndaw",
+      "steps": [
+        "Dinh ndang gaiq ndang. Gaiq ndaw it gij ndaw yienz ciengh haeux lij gaeng gij.",
+        "Boux ndang caeuj it ndaw gaiq lij gaiq ciengh ndang.",
+        "Sae lij gaeq mbouj dingz gaeq. Gaiq ndang ciengh gij ndaw hwnj ndang it.",
+        "Cwngz gaiq ndang dwk ciengh ndaw ciengh, lij cwng ndaw cik gaeq mbouj.",
+        "Ciengz gaiq ndaw gaeng boux ndang hwnj ciengh gij."
+      ],
+      "mapLabel": "Gaeng gij gaiq: {down} haeng, haeng it miz {across} gaiq, ciengh ndaw A1 dwk {last}.",
+      "edgeNote": "Sen gaiq ndang gij dwk ciengh gaeq ndaw ndang. Cwngz gaiq ndang bae ndaw sen, lij ndaw ndang gij lix ndaw.",
+      "pictureLine": "Hwnj: {picture}. Gaeng gij miz {n} gaiq: {across} gaeq ndaw ndang lij {down} gaeq ndaw ndaw.",
+      "print": "Dinh gaeng"
+    },
+    "findTogether": {
+      "guidance": "Gwn gaeuj it. Lwgbae it, caeuj ndaw song ciengh mbouj cawj gaiq. Lij cawj ndaw ndang ciengh gij.",
+      "sizeLegend": "Ndaw ciengh miz gaeq",
+      "size": "{n} ciengh",
+      "viewLegend": "Vihci lwgbae",
+      "viewShowing": "Lwgbae gaiq hwnj miz rengh",
+      "viewHidden": "Ciengh gij gwn gaeuj",
+      "people": [
+        "Boux it",
+        "Boux song"
+      ],
+      "turn": "Gij: {person}",
+      "turnDone": "Ndang gaiq ndaw ciengh cawj gwnj.",
+      "tally": "Ndaw ciengh cawj gwnj lij: {n}",
+      "cardNamed": "{name}, ciengh {n}",
+      "cardFaceDown": "Ciengh {n}, gwn gaeuj",
+      "first": "{name}. Lij cawj ciengh song.",
+      "found": "{name}: it ndaw ciengh cawj gwnj lij. Gij {next|lower} lij bae.",
+      "allTogether": "Ndang ndaw ciengh cawj gwnj lij.",
+      "different": "{a} lij {b} mbouj it gij. Gaenj gaeq lij, couh haemq gij gwn.",
+      "waiting": "Haemq gwn ndaw gij couh gaiq. Gij couh bae lij.",
+      "turnedBack": "Haemq gwn lij. Gij {person|lower} lij bae.",
+      "passed": "Ngwz mbouj miz gaeq. Gij {person|lower} lij bae.",
+      "turnBack": "Haemq gwn",
+      "pass": "Ngwz",
+      "playAgain": "Lwgbae ndang"
+    },
+    "drawingDuet": {
+      "guidance": "Gwn gaeuj it sen ciengh, lij ndaw bi gwn daeuj. Boux ndang miz ngwz. Mbouj bae hwnj ndaw cij. Hwnj ndaw ngoz gij ndang haeux dwk gwn.",
+      "people": [
+        "Boux it",
+        "Boux song"
+      ],
+      "colorLegend": "Ndaw {person}",
+      "colors": [
+        "Hwngz",
+        "Cuengz",
+        "Ngoenz",
+        "Lwed"
+      ],
+      "turn": "Gij {person}",
+      "penColor": "Ndaw bi: {color}.",
+      "canvasLabel": "Hwnj gwn ndang gij, {n} sen gij ciengh",
+      "canvasLabelOne": "Hwnj gwn ndang gij, {n} sen gij ciengh",
+      "keys": "Ciengh lix gwnj couh dingzgaeq ndaw hwnj. Ndaw bi gij dwk haemq lij ceiq.",
+      "penDown": "Bi cik",
+      "penUp": "Bi ceiq",
+      "pass": "Ngwz bi",
+      "passed": "Ngwz mbouj miz gaeq. Gij mwngz, {person|lower}.",
+      "takeBack": "Haemq sen gij ciengh ngoz",
+      "tookBack": "Sen gij ciengh {person|lower} gij dwk haemq.",
+      "noLine": "Mbouj miz sen gij {person|lower} lij haemq.",
+      "restarted": "Hwnj mbouj miz gij. Boux it miz gij. Haemq cwngz gij mbouj dingz gaeq.",
+      "putBack": "Haemq cwngz",
+      "restored": "Sen gij gwnj ciengh cwngz haemq ndang.",
+      "save": "Cwngz hwnj",
+      "saved": "Hwnj ngoz lij ndaw. Caeuj gij download dwk bawj gij ndaw ni.",
+      "download": "Download drawing-duet.png",
+      "print": "Dinh hwnj ndaw ciengh",
+      "sheetTitle": "Hwnj song boux",
+      "paperRules": "Song boux, it ciengh, song bi. Gwn gaeuj: it sen lij it gaeq, lij ngwz bi. Boux ndang miz ngwz. Mbouj miz hwnj gij ndang gaeq."
+    },
+    "colorWash": {
+      "guidance": "Caeuj ndaw ciengh cij sae ciengh gij ndaw ciengh. Ceiq bi couh ngwz, lij ngwz gij ndaw. Mbouj miz gaeq ndaw gij cwngz lij daeuj.",
+      "colorLegend": "Ndaw sae",
+      "sizeLegend": "Ndaw bi",
+      "colors": [
+        "Hwngz",
+        "Cuengz",
+        "Ngoenz",
+        "Lwed"
+      ],
+      "sizes": {
+        "wide": "Gwnj",
+        "veryWide": "Gwnj ndang"
+      },
+      "color": "Ndaw sae: {color}.",
+      "brushDown": "Bi cik",
+      "brushUp": "Bi ceiq",
+      "keys": "Ciengh lix gwnj couh dingzgaeq ndaw bi ndaw hwnj. Ndaw bi gij dwk haemq lij ceiq.",
+      "canvasLabel": "Hwnj ndaw ciengh sae gij",
+      "fresh": "Hwnj mbouj miz gij",
+      "freshMessage": "Hwnj mbouj miz gij.",
+      "putBack": "Haemq cwngz",
+      "restored": "Hwnj couh haemq daeuj lij."
+    },
     "sortTogether": {
       "guidance": "Diengz hingz ndeu, lauxnamh diengz hamq de roek bae.",
       "restart": "Hingz moq",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} ndaej roek bae \"{basket}\". Diengz hamq haenx aeu bae ceh.",
       "placed": "{name|lower} roek bae \"{basket}\" le.",
       "sorted": "Fwnh liux le. Caemhcungz yawj ndaw hamq, roxnaeuz gaeuq cujtiz moq laux.",
+      "largerTargets": "Gaeq ndaw gwnj",
+      "largerOn": "Gaeq ndaw gwnj miz cik lij. Mbouj miz gij dwk bae.",
+      "largerOff": "Gaeq ndaw gwnj mbouj miz cik. Mbouj miz gij dwk bae.",
+      "largerOnNewRound": "Gaeq ndaw gwnj miz cik lij, miz song gij. Ni miz hwnj mai cawj.",
       "basket": {
         "one": "Hamq {basket}, ndaw de miz {count} bengx hingz",
         "other": "Hamq {basket}, ndaw de miz {count} bengx hingz"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Diengz bengx ndeu, lauxnamh diengz bengx ndeu laux. Song bengx cix vuenh dieggiz.",
-      "restart": "Luanh laux baez ndeu",
+      "restart": "Mix up again",
       "pictureLegend": "Hingz",
       "pictures": {
         "sailboat": "Ruz buemh",
@@ -90,8 +742,8 @@
       },
       "sizeLegend": "Gij bengx",
       "size": {
-        "one": "{n} bengx",
-        "other": "{n} bengx"
+        "one": "{n} piece",
+        "other": "{n} pieces"
       },
       "pickedUp": "Aeu bengx neix hwnjdaeuj le. Seizneix diengz dieggiz aeu bae ceh.",
       "whole": "{name|lower} ciemq caep liux le. Geijsiz mwngz siengz gaeuq hingz moq cix ndaej.",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Hingz cenzbuonh: {name}",
       "guideText": "Hingz ciemq caep liux cix dwg ienghneix yawj.",
+      "ownChoose": "Caeuj hwnj ngoz",
+      "ownChange": "Cawj hwnj ndaw",
+      "ownBack": "Bae daeuj hwnj ngoz",
+      "ownPrivacy": "Hwnj ngoz lij ndaw gij ni. Mbouj dingz dai ndaw, mbouj cwngz.",
+      "ownConsent": "Caeuj hwnj ngoz. Cawj gaeuj boux ndang mbouj ngoj hwnj gij, gwn ndaw mbouj dingz gaeq.",
+      "ownWorking": "Gij cwngz hwnj ngoz.",
+      "ownNotUsable": "Gij ndaw mbouj dingz yungh. Caeuj ndaw hwnj, lij JPEG ndaw PNG.",
+      "ownAlt": "Hwnj ngoz",
+      "ownPiece": "Ciengh {n}, {place}",
+      "ownWhole": "Hwnj ngoz couh miz lij. Mwngz ndang cij haemq cwng gij.",
+      "ownSheetTitle": "Hwnj ngoz ndaw ciengh",
+      "ownSheetHow": "Dwk sen gij cij. Ciengh ndaw ndang ngwz, lij cawj song ciengh it bi, dwk hwnj miz lij.",
       "piece": "Bengx youq {place}",
       "pieceInPlace": ", youq deng dieggiz",
       "piecePickedUp": ", aeu hwnjdaeuj le",
@@ -122,7 +786,7 @@
         "laj gvax"
       ],
       "done": "Hingz ciemq caep liux le. Youx laux baez ndeu roxnaeuz iengh di.",
-      "playAgain": "Luanh laux baez ndeu"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Caemhcungz doeg vahgonq neix, lauxnamh diengz vah baezlaeng aeu ciemq caep de.",
@@ -190,6 +854,14 @@
       "guidance": "Doeg ok sieng kat neix. Mbouj miz daeb deng daeb loek.",
       "position": "Kat {n} ndaw {total}",
       "themeLegend": "Cujtiz",
+      "showPrompt": "Hwnj ngoz ndaw ciengh",
+      "bigPicture": "Hwnj gwnj, lij bouxndang",
+      "passNote": "Boux ndang miz ngwz.",
+      "groupTitle": "Gwn ciengh ndaw bouxndang",
+      "groupSit": "Ngoz dwk ndaw ndang, ciengh miz gaeq hwnj. Boux miz ciengh, lij hwnj gwnj, gij couh coek ndaw gij ndaw lwgbae.",
+      "groupPass": "Lij bae gij ciengh ndaw boux gaeq. It boux couh gij ndaw ndang lij hwnj, lij ngwz bae.",
+      "groupNoSpeech": "Dwk ciengh bae couh miz gaeq ndang. Boux miz ngwz mbouj gij ndaw, mbouj miz boux dingz gij gij.",
+      "groupEnd": "Ciengh gaiq roengz rox ndaw ciengh bae bienq gwn, ndaw bouxgwn cungz baenz hwnj ndaej roengz. Ndaw mboujgwn ndaej ngwz. Dingh bae ndaw bouxgwn yungh doeg.",
       "next": "Kat lauxnamh",
       "previous": "Kat gonqhaenx",
       "print": "Dahyinj daengxbuonh kat",
@@ -252,6 +924,20 @@
       "started": "Haih liux. Iencien hung hwnjdaeuj couh hoek heiq.",
       "stopped": "Dingz liux.",
       "finished": "Gvaq liux roeg baez hoekcuet manh. Gijmaz cibxaux couh ndaej hai baezmouq."
+    },
+    "storyChain": {
+      "guidance": "Take turns: one sentence each, add the next picture.",
+      "passNote": "Gangz ndaw gij sang ngoenz. Mboujgwn bi ndaw, mboujgwn ciengh. Ndaw bouxgwn ndaej bae mboujgwn.",
+      "chainLabel": "Ndaw ciengh gij daengh",
+      "item": "Ciengh {n}: {name}",
+      "add": "Dang ciengh ndaw",
+      "fullAdd": "Ndaw gij doeg lai. Ciengh gij ndaw bae",
+      "newChain": "Ciengh gij ndaw bae",
+      "takeOff": "Ciuq ciengh gij ndaw",
+      "added": "{name|lower} hwnj ndaw ciengh gij ndaw.",
+      "removed": "{name|lower} bae ciuq ndaw gij.",
+      "fresh": "Ndaw gij ciengh bae, ciengh {name|lower}.",
+      "full": "Ndaw gij miz 8 ciengh. Gangz doengz ndaw gij, roxnding ciengh gij ndaw bae."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Fuen fven",
     "snowflake": "Mbai naeux",
     "kite": "Vauh",
-    "sunrise": "Tavan hwnj bya"
+    "sunrise": "Tavan hwnj bya",
+    "decorated-keepsake-box": "Hop bi ndaw",
+    "painted-plant-pot": "Bwnz cae miz yaq",
+    "repeating-pattern-sheet": "Ciengz bi ndaw laeng",
+    "music-drawn-lines": "Senz raemx ndaw dwk",
+    "paper-boat-afloat": "Ndaw ciengz bat ndaw nam",
+    "folded-towel-stack": "Dui ndaw bit gaeuq",
+    "hand-massage-with-lotion": "Ndaw miz ndaw bit gaeuq",
+    "open-photo-album": "Sawj ciengh hai",
+    "button-flower-card": "Hoenz ndaw bit ciengz",
+    "blue-torn-paper-collage": "Ciengz ndaw lamh ndaw gangq",
+    "family-tree-of-hands": "Mbouj ndaw ndaw ndaw",
+    "open-greeting-card": "Ciengz ndaw hai hwnj ndaw",
+    "lavender-sachet": "Ndaw hop gaeuq ndaw",
+    "memory-collage-of-photos": "Ciengh bouxgwn ndaw gij",
+    "paper-chain-garland": "Dai ciengz ndaw gij",
+    "open-songbook-with-notes": "Sawj ndaw raemx hai",
+    "photo-postcard-with-stamp": "Ciengz ciengh ndaw ndaw",
+    "pine-cone-bird-feeder": "Ndaw hangz miz ndaw ndaw",
+    "playlist-phone-and-card": "Ndaw raemx ndaw ciengz",
+    "sealed-rice-shaker": "Bwnz ndaw ndaw gaeuq",
+    "texture-board-with-scraps": "Ban ndaw ndaw miz",
+    "painted-garden-stone": "Hin miz ndaw bi",
+    "shared-painted-canvas": "Ndaw bi cungz ndaw",
+    "watercolor-washes-sheet": "Ciengz ndaw nam bi",
+    "seedling-in-pot": "Ndaw cae ndaw bwnz",
+    "pressed-leaves-in-book": "Bai bai ndaw sawj",
+    "printed-leaves-sheet": "Ciengz ndaw bai bai",
+    "pinch-pot-clay-bowl": "Bwnz ndaw din",
+    "table-sketch-pencil": "Ciengh bi ndaw bwnz",
+    "buttons-in-muffin-tin": "Hoenz ndaw ndaw bwnz",
+    "family-recipe-book": "Sawj ndaw ndaw gwnz",
+    "drum-with-beat-marks": "Gaeuq ndaw ndaw raemx",
+    "torn-paper-flower": "Ndaw ciengz hoenz ndaw",
+    "window-with-birds": "Cuengh miz nok",
+    "woven-paper-mat": "Dwk ciengz ndaw",
+    "yarn-ball-with-thread": "Ndaw fwngz",
+    "letter-and-envelope": "Ndaw ciengz ndaw hop"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Rog ranz"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fruit",
+        "animals": "Animals",
+        "travel": "Ways to travel",
+        "flowers": "Flowers",
+        "hot-drinks": "Things for a hot drink",
+        "weather": "Kinds of weather",
+        "baked": "Ndaw ndaw bwnz"
       }
     }
   }
