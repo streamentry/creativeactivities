@@ -5,6 +5,13 @@
       "stopReading": "Muduka na wiliwili",
       "region": "Qito",
       "restart": "Tekivu tale",
+      "rest": "Vakaraitaka mada",
+      "restingTitle": "Sa vakaraitaka",
+      "restingText": "Vakaraitaka sara ga ena vuqa ni o gadreva. Na tikina ni o sa tiko e na pegi oqo e tiko vakadidike.",
+      "resume": "Tauyavutaka",
+      "placeText": "Ena gauna sa oti o sa tu mai lomadei. Tauyavutaka mai kina, se tekivutaka vou.",
+      "placeResume": "Tauyavutaka",
+      "placeFresh": "Tekivutaka vou",
       "soundOn": "Rorogo malumu e waqa",
       "soundOff": "Bokoca na rorogo malumu",
       "done": "Oti mada ena gauna qo",
@@ -36,14 +43,26 @@
       "restart": "Iyaloyalo vovou",
       "sizeLegend": "E vica na tikina",
       "size": {
-        "one": "{n} na tikina",
-        "other": "{n} na tikina"
+        "one": "{n} tile",
+        "other": "{n} tiles"
       },
       "viewLegend": "iValavala ni qito",
       "viewShowing": "Rai tu na iyaloyalo",
       "viewHidden": "Vunitaki tu na iyaloyalo",
       "playAgain": "Qito tale ena iyaloyalo vovou",
-      "talk": "Veitalanoataka vata na iyaloyalo"
+      "talk": "Veitalanoataka vata na iyaloyalo",
+      "modeLegend": "Veiyaya cava",
+      "modePlay": "Veiyaya kece",
+      "modeDaily": "Kadi ni siga oqo",
+      "dayLegend": "Siga cava",
+      "dayHelp": "Era kece era veiyaya sama e na siga sama. Na siga kece e liu era tiko vakaoqo, ka ke o sa tukuna e dua na siga, sega ni dua na kena totoka.",
+      "guidanceDaily": "Kadi ni siga oqo e va na veiyaya era rua-rua. Tokai dua na veiyaya, ka muri oqo tokai na veiyaya e vaka tiko vata kina.",
+      "restartDaily": "Tekivutaka vou na kadi oqo",
+      "copy": "Kopitaka na ila oqo",
+      "copied": "Sa kopitaka. Sega ni dua na ka e tukuna yani.",
+      "calendarTitle": "Kadi ni siga oqo, {month}",
+      "calendarHelp": "Siga kece e tiko kina na veiyaya va sama ena kece. Sega ni dua na kena totoka, ka sega ni dua na siga e vakatokai ni sa sega ni cakava.",
+      "calendarVersion": "Version {date}. Na veiyaya era sama ena kece ena siga sama."
     },
     "choose": {
       "countLegend": "E vica na iyaloyalo",
@@ -62,6 +81,635 @@
       "shadowAlt": "E dua na yaloyalo butobuto me vakatautauvatataki",
       "foundAlt": "Na yaloyalo butobuto ni {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Vakadinadina",
+      "hintOn": "Vakadinadina ena muri ni vakaraitaka",
+      "hintOff": "Sega ni vakadinadina",
+      "guidance": "Kumuna na veiyaya {n} era vaka tiko vata, ka tokai kece dua.",
+      "countLegend": "Veiyaya e vica",
+      "count": "{n} na veiyaya",
+      "found": "Io, na {name|lower} e dodonu ena yasa oqo.",
+      "elsewhere": "Na {name|lower} e tiko vata ki na dua tale. Vakaraitaka mada.",
+      "hint": "Dua na vakadinadina: raica na {theme|lower}.",
+      "together": "Era veiyaya tiko vata: {theme}.",
+      "shown": "Oqo na yasa: {theme}.",
+      "groupName": "Vata: {theme}",
+      "show": "Cavuta na yasa",
+      "next": "Dua tale na yasa"
+    },
+    "oddOneOut": {
+      "hintLegend": "Vakadinadina",
+      "hintOn": "Vakadinadina ena muri ni vakaraitaka",
+      "hintOff": "Sega ni vakadinadina",
+      "guidance": "Kumuna na veiyaya e sega ni vaka tiko vata kei na veiyaya tale, ka tokai.",
+      "countLegend": "Veiyaya e vica",
+      "count": "{n} na veiyaya",
+      "belongs": "Na {name|lower} e tiko vata kei na veiyaya tale. Vakaraitaka mada.",
+      "found": "Io, na {name|lower} e sega ni vaka. Na veiyaya tale era {theme|lower}.",
+      "shown": "Oqo: na {name|lower}. Na veiyaya tale era {theme|lower}.",
+      "hint": "Dua na vakadinadina: {n} ena veiyaya oqo era {theme|lower}.",
+      "others": "Na veiyaya tale: {theme}",
+      "show": "Cavutaka mai",
+      "next": "Dua tale"
+    },
+    "seatedToss": {
+      "guidance": "Nodrai e dua na teveli ka vakasavasava me tosi e dua na bata malumalu ena veiyaya lalai ena dua na tikina. Tausia na kaunisi ena pepa, vata.",
+      "stepsHeading": "Na kena lako",
+      "steps": [
+        "Vakaprinta na veiyaya lalai kei na pepa ni kaunisi, ka tuvakitaka ena teveli e na lomaloma mudou.",
+        "Nodrai vakamalumalu, dua ena dua na tikina. Vakasavasava me dua na tosi malumalu ena dua, se ke o via tiko ke sega ni loloma.",
+        "Ke e tiko e dua na tosi ena dua na vuli, na tamata ena tosi e vakatakilakila dua na boolo ena kena kolomu, ena ila ni vuli oqo.",
+        "Ke o gadreva, raica vata na boolo ke o sa oti. Sega ni dua e dodonu me kaunisi.",
+        "Vakaraitaka ena gauna e dua e sa gadreva."
+      ],
+      "safetyHeading": "Yalomalumalu",
+      "safetyLine": "Vakayagataka ga na bata e kavuki ena kuli se sokisi e kuli, nodrai vakavinaka, sega ni tosi ki na matana, ka tausia dua na tamata e tiko vata. Na ka lalai e ka bokoi ena gaga.",
+      "flags": [
+        "Sega ni dodonu ki na gone sa bera ni 3: na ka lalai",
+        "Tausia tiko mai na gaga"
+      ],
+      "safety": [
+        "Kumuna na bata malumalu e kavuki ena kuli, se sokisi vakasaqa e kuli. Raica muria na rarama se na tosi sese, me sega ni dua na ka e lako tale mai.",
+        "Na vuaka, mo kanace, kei na ka lalai vaka oqo e bokoi ena gaga. Tausia tiko mai ki na gone lalai kei na tamata e dau tiko ena gaga na ka.",
+        "Tiko ena ulu ni lima, ka raica vakatotolo ke dua na ka e rawa ni cuvaki ena gaga.",
+        "Nodrai. Tosi malumalu ka vakaloloma ki na veiyaya ena teveli, sega ni tosi ki na matana."
+      ],
+      "previewLabel": "Na pepa e vakaprinta: dua na veiyaya e tolu na vuli era cavuti Eliva, Lomaloma kei Mamaca, mai liu ki loma, kei dua na kaunisi me dua na kolomu ena tamata kece kei dua na ila ena boolo wagi ena vuli kece.",
+      "sheetHow": "Tuvakitaka na pepa e na lomaloma mudou. Ke e tiko e dua na tosi ena vuli, takilakilataka dua na boolo ena kolomu ni o, ena ila ni vuli oqo.",
+      "rings": [
+        "Eliva",
+        "Lomaloma",
+        "Mamaca"
+      ],
+      "people": [
+        "Tamata e dua",
+        "Tamata e rua"
+      ],
+      "ringHeading": "Vuli",
+      "print": "Vakaprinta na veiyaya lalai kei na pepa ni kaunisi"
+    },
+    "seasonalPack": {
+      "guidance": "Kumuna dua na vula, vakaprinta veisolesoli tolu ena pepa, ka cakava dua, rua se tolu vata.",
+      "monthLegend": "Kumuna dua na vula",
+      "months": [
+        "Janueri",
+        "Feperueri",
+        "Mara",
+        "Epereli",
+        "Mei",
+        "Jiune",
+        "Julai",
+        "Akosita",
+        "Setema",
+        "Okotopa",
+        "Novema",
+        "Tiseba"
+      ],
+      "monthNote": "Vula kece e tiko kina na veiyaya ena kena. Na pegi e vulaki ena vula oqo, ka o rawa ni kumuna dua tale.",
+      "restDay": "Ena siga oqo e siga vakaraitaka",
+      "restLine": "Sega ni veisolesoli ena siga oqo. Na siga vakaraitaka e dua tale na siga vinaka.",
+      "previewHeading": "Veisolesoli tolu",
+      "puzzles": {
+        "pairs": {
+          "title": "Vakatautauvata na rua-rua",
+          "how": "Tara dua ila mai na veiyaya kece ena ila i liuliu ki na veiyaya sama ena ila i lalo.",
+          "describe": "Ila rua e tiko kina na veiyaya va sama, ena raraba tale."
+        },
+        "different": {
+          "title": "Cei e sega ni vaka?",
+          "how": "Vakavuli na veiyaya e sega ni vaka ena tolu tale.",
+          "describe": "Ila e va na veiyaya. Tolu era vaka, dua e sega ni vaka."
+        },
+        "color": {
+          "title": "Vakalolo",
+          "how": "Vakalolo na veiyaya ena sala o gadreva, ena kalayoni se peniselo.",
+          "describe": "Dua na veiyaya levu me vakalolo."
+        }
+      },
+      "print": "Vakaprinta na veisolesoli ena vula oqo",
+      "sheetHow": "Vakaprinta dua na pepa. Cakava dua, rua se tolu veisolesoli, ena sala e dodonu.",
+      "printFooter": "Cakava dua, rua se tolu. Vakaraitaka ena gauna o gadreva."
+    },
+    "decorateACard": {
+      "guidance": "Kumuna dua na yaga ni gauna, ka vakaliti kadi vata kei na kalayoni se peni. Sega ni dua na kadi dodonu.",
+      "occasionLegend": "Kumuna dua na gauna",
+      "occasions": {
+        "birthday": {
+          "label": "Siga ni yaca",
+          "words": "Sa vinaka na siga ni yaca"
+        },
+        "thank-you": {
+          "label": "Vinaka vakalevu",
+          "words": "Vinaka vakalevu"
+        },
+        "thinking-of-you": {
+          "label": "Sa nanuma kemuni",
+          "words": "Sa nanuma kemuni"
+        },
+        "new-season": {
+          "label": "Vakatagane vou",
+          "words": "Vakatagane vou"
+        },
+        "just-because": {
+          "label": "Sega ni dua na kena vuna",
+          "words": "Sega ni dua na kena vuna"
+        }
+      },
+      "stepsHeading": "Na kena vakaliti vata",
+      "steps": {
+        "fold": "Vakaprinta na kadi ka vakaliuca ena lomaloma ena ila e vakaraitaki, me tiko ena vuravura na i liu.",
+        "front": "Dua na tamata e vakaliti na i liu, vakavolivoli ena vosa.",
+        "inside": "Na dua tale e vakaliti na i muri, se mo vakasavasava ena dua na tikina.",
+        "message": "Vola vata dua na vosa. Dua na tamata e rawa ni vola ena gauna e vosa kina na dua tale.",
+        "stop": "Vakaraitaka ena gauna o gadreva. Sega ni dua na kadi dodonu, ka dua e sarasara e vinaka tale."
+      },
+      "materials": "Vakayagataka kalayoni, peniselo lolo se peni. Sega ni dua na ka e gadreva me tara, gilu se taka.",
+      "previewLabel": "Na kena raica mai ena kadi e vakaliuca ena lomaloma. Na i liu e kaya {words}, e vakaliti ena vakasarasara ena drau ni vuaniu kei na mataqali bituki. Na i muri e tiko kina ila ni vosa ena vakaleqa, kei dua na ila ena Mai.",
+      "from": "Mai",
+      "sheetHow": "Qaqa na kadi ena yaca e dabedabe, ka tiko na yaco ena vuravura. Vola na vosa ena yaco muri.",
+      "rulesHeading": "Me rua na tamata",
+      "sheetRules": [
+        "Vakavuvuli, se vakavakevaki na cakacaka: dua na tamata e vakarau na yaco, ka dua tale e vakarau na muri.",
+        "Vola na vosa ena veiyasana, se dua e vola na vosa e kaya na tamata tale.",
+        "E rawa ni dua me tu ena gauna kece. Sega ni dua na kadi e dodonu."
+      ],
+      "print": "Pirinitaka na kadi"
+    },
+    "storyDice": {
+      "guidance": "Raica na itabagi ka vakamacala e dua na tukutuku ena kena vakayagataki, ena veiyaragi. Sega ni dua na tukutuku e dodonu.",
+      "countLegend": "Vica na dice",
+      "count": "{n} dice",
+      "roll": "Dolo tale",
+      "pass": "Tuku",
+      "passed": "E sega ni leqa ni tuku. Tamata tale e rawa ni tekivu, se o rawa ni dolo tale.",
+      "rolled": "Itabagi vou: {names}.",
+      "tapped": "{name}. Tekivu ena oqo, se dua tale."
+    },
+    "wordPicture": {
+      "guidance": "Tapa dua na itabagi, ka vosa ena vosa e vakaisulu kina. Se tapa dua na vosa, ka vosa na itabagi e vakatautauvata kina.",
+      "countLegend": "Vica na itabagi",
+      "count": "{n} itabagi",
+      "picturesGroup": "Itabagi",
+      "wordsGroup": "Vosa",
+      "readWord": "Wilia: {name}",
+      "next": "Itabagi vou",
+      "putBack": "Vakasubu tale",
+      "pickWord": "Mai tapa na vosa e vakatautauvata kina.",
+      "pickPicture": "Mai tapa na itabagi e vakatautauvata kina.",
+      "fit": "Io, na vosa oqo e vakatautauvata vei {name|lower}.",
+      "newSet": "Oqo e dua na set vou ni itabagi.",
+      "restarted": "Sa lesu ki na tekivu. Itabagi kece kei na vosa sa sasaqa tale.",
+      "restored": "Sa subu tale. Na veiwekani sa vakaraitaki tale.",
+      "all": "Vosa kece e tiko kina na kena itabagi."
+    },
+    "colorMatch": {
+      "guidance": "Raica na lanu kei na yaca ena vosa, ka tapa na itabagi kece e vakatautauvata ena lanu oqo.",
+      "target": "Lanu e {color|lower}. Tapa itabagi kece e {color|lower}.",
+      "countLegend": "Vica na itabagi",
+      "count": "{n} itabagi",
+      "found": "Io, {name|lower} e {color|lower}.",
+      "named": "{name|lower} e {color|lower}.",
+      "all": "Oqo kece na itabagi {color|lower}.",
+      "shown": "Oqo na itabagi {color|lower}.",
+      "show": "Vakaraitaka",
+      "next": "Lanu dua tale",
+      "names": {
+        "red": "Damudamu",
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "blue": "Blue"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tapa dua na vaka-rua ena ceva, ka tapa na vaka-rua ena dau e tautauvata kina.",
+      "countLegend": "Vica na itabagi",
+      "count": "{n} itabagi",
+      "leftGroup": "Vaka-rua ceva",
+      "rightGroup": "Vaka-rua dau",
+      "left": "Vaka-rua ceva vei {name|lower}",
+      "right": "Vaka-rua dau vei {name|lower}",
+      "joined": "Sa tautauvata",
+      "pickRight": "Mai tapa na vaka-rua dau e tautauvata kina.",
+      "pickLeft": "Mai tapa na vaka-rua ceva e tautauvata kina.",
+      "fit": "Io, ira rua e vakatautauvata me {name|lower}.",
+      "apart": "Ira rua sega ni tautauvata. Dau vakadidi dua tale.",
+      "all": "Itabagi kece sa dua sara.",
+      "shown": "Oqo na itabagi, sa tautauvata.",
+      "show": "Vakaraitaka vei au",
+      "next": "Set dua tale"
+    },
+    "colorByNumber": {
+      "guidance": "Digitaka dua na lanu mai na kitaki, ka vakarau dua na yaca ena lanu oqo. Lanu kece e dodonu.",
+      "sizeLegend": "Kena levu ni yaca",
+      "size": "{n} x {n}",
+      "keyLegend": "Lanu",
+      "colors": [
+        "Yellow",
+        "Orange",
+        "Green",
+        "Purple"
+      ],
+      "motifs": {
+        "house": "e dua na vale",
+        "flower": "e dua na vulai",
+        "heart": "e dua na loto",
+        "tree": "e dua na kau",
+        "boat": "e dua na waqa lalaga",
+        "pot-plant": "e dua na dau e tiko ena bakuna"
+      },
+      "region": "Yaca ni itabagi, {n} x {n}. E lakovi ki na sara ni screen e vakalevu sara.",
+      "cell": "Numero {number}, laini {row}, kolomu {column}, {color}",
+      "empty": "wagawaga",
+      "chose": "{name} e digitaki. Tapa dua na yaca me vakarau kina.",
+      "painted": "{name} ena laini {row}, kolomu {column}.",
+      "sheet": "Yaca kece e tiko ena lanu ni numero ena kena. Oqo na itabagi ena vola: {name}.",
+      "own": "Yaca kece sa vakarau. Oqo na nomu itabagi.",
+      "fillAll": "Vakarau ena numero",
+      "filledAll": "Yaca wagawaga kece sa tiko ena lanu ni numero ena kena.",
+      "clear": "Vakawaciria",
+      "cleared": "Sa wagawaga na yaca.",
+      "next": "Itabagi dua tale",
+      "fresh": "Oqo e dua tale na itabagi me vakarau."
+    },
+    "patternMaker": {
+      "guidance": "Tapa dua na yaca me vakaliuca na lanu. Na nomu vakaraitaka e tubu ena sara. E sega ni vakatotoka se vakadidi na kena oqo.",
+      "sizeLegend": "Kena levu ni yaca",
+      "size": "{n} x {n}",
+      "keyLegend": "Lanu, ena raraba ni vakaliuca",
+      "colors": [
+        "Yellow",
+        "Orange",
+        "Green",
+        "Purple"
+      ],
+      "tileLabel": "Na nomu yaca",
+      "region": "Na nomu yaca, {n} x {n}. E lakovi ki na sara ni screen e vakalevu sara.",
+      "patternLabel": "Na nomu vakaraitaka",
+      "pattern": "Na nomu vakaraitaka: na nomu yaca e vakaulutaki {n} ena vakatokalau kei {n} ena vakayasana.",
+      "square": "Laini {row}, kolomu {column}, {color}",
+      "changed": "Laini {row}, kolomu {column} sa {color} sasa.",
+      "cleared": "Yaca sa wagawaga. E rawa ni vakasubu tale.",
+      "surprise": "Vakaloloma au",
+      "surprised": "Oqo e dua tale na yaca. E rawa ni vakasubu tale na yaca ca.",
+      "putBack": "Vakasubu tale",
+      "restored": "Sa subu tale na nomu yaca, me vakai ira sa tiko.",
+      "print": "Pirinitaka na nomu vakaraitaka",
+      "sheetTitle": "Na nomu vakaraitaka"
+    },
+    "buildTogether": {
+      "guidance": "Vakavuvuli tu e dua na vuli wagawaga. Dua kece e vakayagataka na kena lanu. E sega ni vakatotoka se vakadidi na kena oqo.",
+      "sizeLegend": "Kena levu ni yaca",
+      "size": "{n} x {n}",
+      "people": [
+        "Tamata e dua",
+        "Tamata e rua"
+      ],
+      "colorLegend": "Lanu ni {person}",
+      "colors": [
+        "Yellow",
+        "Orange",
+        "Green",
+        "Purple"
+      ],
+      "inUse": "Sa vakayagataki",
+      "turn": "Sa nomu vuro, {person|lower}",
+      "yourColor": "Na nomu lanu e {color|lower}.",
+      "built": "Sa vakatautauvata. Oqo na itabagi e vakarau kina ira rua.",
+      "gridLabel": "Na yaca vakaveisoroi",
+      "region": "Na yaca vakaveisoroi, {n} x {n}. E lakovi ki na sara ni screen e vakalevu sara.",
+      "cellEmpty": "Laini {row}, kolomu {column}, wagawaga",
+      "cellFilled": "Laini {row}, kolomu {column}, {color}, e vakaliuca ena {person|lower}",
+      "placed": "Laini {row}, kolomu {column} sa {color} sasa. Sa nomu vuro, {next|lower}.",
+      "placedLast": "Laini {row}, kolomu {column} sa {color} sasa. Sa vakatautauvata.",
+      "taken": "Laini {row}, kolomu {column} sa tiko dua na yaca. Digitaka dua na yaca wagawaga.",
+      "pass": "Tuku",
+      "passed": "E sega ni leqa ni tuku. Sa nomu vuro, {person|lower}.",
+      "takeBack": "Qaqataka mai na yaca muri",
+      "takeBackPass": "Qaqataka mai na tuku",
+      "tookBack": "Sa qaqataka mai na yaca. Sa nomu vuro, {person|lower}.",
+      "tookBackPass": "Sa qaqataka mai na tuku. Sa nomu vuro, {person|lower}.",
+      "colorChanged": "{person} sa tiko kina {color|lower}.",
+      "restarted": "Na yaca sa wagawaga. Sa nomu vuro, {person|lower}.",
+      "print": "Pirinitaka na yaca",
+      "sheetTitle": "Vakayaca vakavuvuli",
+      "sheetHelp": "Vakavuvuli. Ena yaca wagawaga, dua kece e vakarau na kena veiyaca ena kena pensili.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tapa dua na yaca, ka tapa na vuli ena itabagi e tiko kina. E sega ni vakatotoka se vakadidi na kena oqo.",
+      "hints": "Vakaraitaka na laini ni veivakaraitaki",
+      "pictureLine": "Oqo e {picture}.",
+      "pictures": {
+        "house": "vale",
+        "boat": "waqa",
+        "tree": "kau",
+        "fish": "ika",
+        "cat": "pusi",
+        "rocket": "roketi"
+      },
+      "outlineLabel": "Na veitikitiki ni {picture}. Tapa dua na vuli me vakatuvuli kina dua na yaca digitaki.",
+      "trayHeading": "Na yaca",
+      "pieces": {
+        "large-triangle": "Vakatolu levu",
+        "small-triangle": "Vakatolu lailai",
+        "square": "Square",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Rectangle"
+      },
+      "shapes": {
+        "large-triangle": "e dua na vakatolu levu",
+        "small-triangle": "e dua na vakatolu lailai",
+        "square": "e dua na square",
+        "parallelogram": "e dua na parallelogram",
+        "rectangle": "e dua na rectangle"
+      },
+      "chosenLabel": "Digitaki",
+      "spaceEmpty": "Vuli {n}, {shape}, wagawaga",
+      "spaceFilled": "Vuli {n}, {shape}, sa tiko na yaca. Tapa me qaqataka mai na yaca.",
+      "chosen": "{piece} sa digitaki. Mai tapa dua na vuli ena itabagi.",
+      "unchosen": "Piece hiyaki sa sega ni vakaraitaki.",
+      "placed": "Piece e tu ena ivava {n}.",
+      "complete": "{picture} e oti.",
+      "different": "Piece oqo e vakaduidui mai na ivava oqo. Dua na ivava tale eso.",
+      "needPiece": "Dua muduna na piece mai na tray.",
+      "filled": "Ivava oqo e tiko kina ga na piece. Cakava mada me kauta sobu na piece.",
+      "tookBack": "Piece e lesu tale ki na tray.",
+      "cleared": "Na pieces era lesu tale ki na tray. Vakasutuka kina ke ko sa vakabauta tale.",
+      "restored": "Na pieces era lesu tale ki na vakatagedegede.",
+      "next": "Oqo e {picture}.",
+      "putBack": "Vakasutuka kina",
+      "another": "Dua tale na shape",
+      "print": "Parinta na shape oqo",
+      "sheetTitle": "Quiet shapes",
+      "sheetHow": "Vakaloaloataka na pieces, se tavaya mai me vakatautauvata ki na outline. Dua na matua e rawa ni tavaya.",
+      "sheetPieces": "Na pieces, e vakatautauvata na kena levu ki na outline"
+    },
+    "picnicPlanner": {
+      "guidance": "Cakava mada dua na vakatagedegede me tauri kina ki na kato ni picnic, ka cakava mada kina ki na kato me sosoka mai. Na kato e rawa ni kauta yasa e vica.",
+      "guidancePlay": "Cakava mada vakarua na vakatagedegede e tautauvata. Na vakatagedegede era tiko vakaraitaki, ka sega ni vakatekivutaki na gaunisala.",
+      "basketHeading": "Na noda kato",
+      "basketLabel": "Na kato ni picnic",
+      "takeOut": "Sosoka {picture} mai na kato",
+      "inBasket": "E na kato",
+      "foodHeading": "Kakana",
+      "outingsHeading": "Na veiqaravi",
+      "added": "{picture} e na kato.",
+      "removed": "{picture} sa sosoka mai na kato.",
+      "already": "{picture} e na kato sara. Cakava mada oti kina me sosoka mai.",
+      "full": "Na kato sa yacova. Sosoka dua me vakawaleti kina.",
+      "summary": "Na noda picnic: {list}.",
+      "summaryNone": "Sega ni dua sara e na kato.",
+      "and": "kei",
+      "play": "Da veivakacegui ena noda picnic",
+      "needTwo": "Vakayagataka muria ga na yasa e rua.",
+      "playAgain": "Veivakacegui tale",
+      "back": "Lesu tale ki na picnic",
+      "print": "Parinta na noda lisi ni picnic",
+      "cleared": "Na kato sa wa.",
+      "notice": "Oqo e vakatakilakila ni veivosaki. Sega ni vakatekivutaki, vakavuna se vakavolekataki.",
+      "sheetTitle": "Na noda lisi ni picnic",
+      "sheetHow": "Vakamakariti dua dua na yasa ka sa vakaraitaki ena kena vakatoka. Vakayagataka na yalo vakawaletaki me vakarautaki kina na yaga e so tale na dau kauta mai.",
+      "sheetToPack": "Me vakatoka"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Digitaka e rua ki na 12 na nomu veitaraicake ena nomu iyaya me tekivu kina na buka.",
+      "guidance": "Vakalevutaka na pevu ena veiwekani, ena veisiko ni bula, se ena veiyaya ni yaca ni Left kei na Right. Vakayagataka dua vata ni vosa ena nodra veitaraicake ke ko via. Sega ni vakavolekataki se vakayagataki na kena vakarautaki.",
+      "lookGuidance": "Raica tiko kina ena vuravura kece ena peji kece. Ke via vosa se ke via raica tiko ga.",
+      "intro": "Digitaka e rua ki na 12 na veitaraicake mai na masini oqo. Veitaraicake kece e dua na peji ni buka ka rawa ni levutaka tiko.",
+      "consent": "Vakayagataka na nomu veitaraicake ni vuvale. Kerea na vakadinadinataki ke veitaraicake e vakaraitaki dua era sega ni rawa ni vakadinadina.",
+      "privacy": "Na nomu veitaraicake era tiko ena masini oqo ga. Era sega ni vakatokai se vakavolekataki.",
+      "choose": "Digitaka na veitaraicake",
+      "chooseDifferent": "Digitaka na veitaraicake e so tale",
+      "backToBook": "Lesu tale ki na buka",
+      "backToChoose": "Lesu tale ki na digitaka na veitaraicake",
+      "needTwo": "Digitaka e levu vakavuvale e rua na veitaraicake.",
+      "usingFirst": "Sa vakayagataka na {max} veitaraicake voleka.",
+      "cleared": "Na buka sa wa. Digitaka na veitaraicake me sa tekivu tale.",
+      "moved": "Sa levu ki na peji {n}.",
+      "pageOf": "Peji {n} mai na {total}",
+      "lookTogether": "Raica vata",
+      "leaveLook": "Lesu tale ki na buka",
+      "print": "Parinta na buka ni veitaraicake",
+      "clear": "Wa na buka",
+      "bookLabel": "Na buka ni veitaraicake ni vuvale",
+      "pagesLabel": "Levuta na peji",
+      "previous": "Peji e liu",
+      "next": "Peji e sa muri",
+      "moveEarlier": "Lesu liu",
+      "moveLater": "Lesu muri",
+      "captionLabel": "Dua vosa ni vakatokai me vakadua na peji oqo, ke o via",
+      "captionHelp": "Vakaukauwa ki na tabana 80. Na vosa vakatokai era tiko ena peji oqo ga, ka sa lako ni o cabe ena peji.",
+      "sheetTitle": "Na noda buka ni veitaraicake",
+      "sheetHow": "Dua na veitaraicake ena dua na peji, ka vosa ena yaca ena yalo. Levuta na peji ena raraba ka vosa vata ena dua vata dua.",
+      "sheetEmpty": "Digitaka na nomu veitaraicake ena peji ni veiqaravi me parinta kina na nomu buka, se parinta oqo na peji wa ka tuvaka kina dua na veitaraicake parinta.",
+      "sheetFrame": "Tuvaka kina dua na veitaraicake parinta oqo",
+      "sheetWords": "Dua na vosa ena peji oqo",
+      "skipped": {
+        "one": "{n} file was not a photo we can use.",
+        "other": "{n} na faile era sega ni veitaraicake eda rawa ni vakayagataka."
+      }
+    },
+    "quietScene": {
+      "guidance": "Raica dua na veitaraicake dua ena veigauna. Cakava mada Next se Previous ke o sa rawa. Sega ni dua e cabe ena nona gauna.",
+      "next": "Veitaraicake e sa muri",
+      "previous": "Veitaraicake e liu",
+      "bigPicture": "Veitaraicake levu sara",
+      "showEverything": "Vakaraitaki na kece",
+      "first": "Oqo na veitaraicake voleka.",
+      "last": "Oqo na veitaraicake e muri sara.",
+      "lines": {
+        "sunrise": "Na siga sa sucu mai ena vanua.",
+        "window-with-birds": "Manumanu ena veitikitiki.",
+        "vase-of-flowers": "Dua na dabe ni bulumakau ena teveli.",
+        "teacup": "Dua na kapu ni tii ena veitikitiki.",
+        "tree": "Dua na kau e tu ena gari.",
+        "sailboat": "Dua na vakasakiti ena wai.",
+        "lighthouse": "Dua na vale ni vuravura ena tai.",
+        "rainbow": "Dua na uvi lolo ni ua sa oti.",
+        "moon": "Na marama ena vuku ni butobuto.",
+        "daisies": "Dua na tiko ni daisy ena draki.",
+        "rowing-boat": "Dua na waqa ni rama ena wai e rarama.",
+        "potted-plant": "Dua na mea vuqa e dua na ibiti."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Veiliutaki. Cakava mada dua na cut-out, ka cakava mada dua na vuna wa me tauri kina. Sega ni vakavolekataki se vakayagataki na kena vakarautaki.",
+      "people": [
+        "Yaca voleka",
+        "Yaca ikarua"
+      ],
+      "marks": [
+        "dua na bilobilo",
+        "dua na vuvu tolu"
+      ],
+      "turn": "Nomu vuro, {person|lower}.",
+      "marked": "Na nomu piece e vakatakilakila ena {mark}.",
+      "boardLabel": "Na cabo vakavevuki",
+      "placeEmpty": "Vuna {n}, wa",
+      "placeFilled": "Vuna {n}, {picture|lower}, e tauri ena {person|lower}",
+      "trayHeading": "Na cut-outs",
+      "chosenLabel": "E digitaki",
+      "chosen": "Sa digitaka {picture}. Mai oqo cakava mada dua na vuna wa.",
+      "unchosen": "Na cut-out sa sega ni digitaki tale.",
+      "needCutout": "Digitaka muria dua na cut-out, ka cakava mada dua na vuna wa.",
+      "filled": "Vuna {n} e tiko kina dua na veitaraicake. Digitaka dua na vuna wa.",
+      "placed": "{picture} e tu ena vuna {n}. Nomu vuro, {next|lower}.",
+      "full": "Vuna kece e tiko kina na veitaraicake. Sosoka dua me vakawaleti kina, se tekivu tale.",
+      "pass": "Qaravi",
+      "passed": "Qaravi e sega ni dredre. Nomu vuro, {person|lower}.",
+      "takeBack": "Kauta sobu na piece e muri",
+      "takeBackPass": "Kauta sobu na qaravi",
+      "tookBack": "Sa kauta sobu na piece. Nomu vuro, {person|lower}.",
+      "tookBackPass": "Sa kauta sobu na qaravi. Nomu vuro, {person|lower}.",
+      "restarted": "Na cabo sa wa. Nomu vuro, {person|lower}.",
+      "putBack": "Vakasutuka kina",
+      "putBackDone": "Na pieces era lesu tale ki na cabo.",
+      "another": "Dua tale na set ni veitaraicake",
+      "anotherSet": "Dua na set vou ni cut-outs sa tiko ena tray. Na pieces ena cabo era tiko tiko ga ena nodra vuna.",
+      "print": "Parinta na cabo",
+      "sheetTitle": "Collage board",
+      "sheetHow": "Tavaya na veitaraicake ka veiliutaki me tauri ena cabo. Dua na matua e rawa ni tavaya.",
+      "sheetTray": "Na veitaraicake me tavaya"
+    },
+    "gardenPlanner": {
+      "guidance": "Cakava mada dua na veitaraicake, ka cakava mada dua na tabana me tauri kina. Cakava mada dua na tabana e tiko kina dua na veitaraicake, ena veisa ga ni digitaki, me vakawaleti kina.",
+      "bedsLabel": "Na tabana ni gari",
+      "bedEmpty": "Tabana {n}, wa",
+      "bedFilled": "Tabana {n}, {picture|lower}",
+      "plantsHeading": "Mea tubu",
+      "extrasHeading": "Na veiqaravi ni gari",
+      "chosenLabel": "E digitaki",
+      "chosen": "Sa digitaka {picture}. Mai oqo cakava mada dua na tabana.",
+      "unchosen": "Sega ni digitaka dua na veitaraicake.",
+      "needPicture": "Digitaka muasavenei na vakatakarakara, qai tapa ena dua na vanua ni vuaka.",
+      "planted": "{picture} e tiko ena vanua ni vuaka {n}.",
+      "replaced": "{picture} e sosomitaka na vakatakarakara ena vanua ni vuaka {n}.",
+      "cleared": "Vanua ni vuaka {n} e wavoki. Vakasubu tiko ina vakatakarakara ke o gadreva me kunea tale.",
+      "restarted": "Na vanua ni vuaka kecega e wavoki.",
+      "putBack": "Vakasubu tiko",
+      "putBackDone": "Na vakatakarakara era subu tiko ena nodra vanua ni vuaka.",
+      "summaryHeading": "Na vuaka yau",
+      "summary": "Na nomu ivakarau e tiko kina {list}.",
+      "summaryNone": "Ena sega ni dua na vakatakarakara e tiko ena vanua ni vuaka.",
+      "and": "kei",
+      "print": "Vakatakarakara na ivakarau",
+      "sheetTitle": "Na keda ivakarau ni vuaka",
+      "sheetHow": "Na vanua ni vuaka e vakaraitaka na vakatakarakara era digitaka ena ivakatakilakila. Vakatakarakara ena vanua era wavoki kevaka o gadreva.",
+      "sheetNotes": "Ivakamacala",
+      "notice": "Oqo e ivakarau ni vakatakarakara me vosa tiko kina, ena sega ni ivakarau ni vuaka."
+    },
+    "coloringWall": {
+      "guidance": "Digitaka dua na vakatakarakara kei na levu ni peji. Vakatakarakara na ivakarau ni peji, qai dua vakadua e vakauqeti dua se levu na peji. Sega ni tiki na gauna, sega na maka, sega na vakasaveti.",
+      "pictureLegend": "Vakatakarakara",
+      "sizeLegend": "Na levu ni peji",
+      "sizes": {
+        "2x2": "4 na peji (2 x 2)",
+        "3x2": "6 na peji (3 x 2)",
+        "3x3": "9 na peji (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} e vakavuaki ena {n} na peji, {across} ena yasana kei {down} ena vakaraba. Dua na peji e tiko kina dua na tabana ena nona cokocoko.",
+      "previewCaption": "Na vakatakarakara e tiki kina na yaca ni peji kei na tabana.",
+      "labelsNote": "Na tiki e lewe ena ivakarau, na numera e yasana, ena vakatauvatani ko A1 e na peji ena cokocoko ena ulu.",
+      "wallHeading": "Na vakatokai ena ivakarau ni peji",
+      "steps": [
+        "Vakatakarakara na peji kecega. Na peji dodonu e na ivakavuvuli oqo kei na mapa ni ivakarau.",
+        "Dua vakadua e vakauqeti dua se levu na peji.",
+        "Na loaloa kei na ivakaraitaka sega na gadreva me vaka tu. Dua na peji e vakavuaki ena vakatakarakara dina.",
+        "Vakatutu na peji ena nodra tabana, qai vakasolo ena tebe ena kena muri.",
+        "Vakatu na ivakarau ena vanua e rawa ni kila kina kecega."
+      ],
+      "mapLabel": "Mapa ni ivakarau: {down} na rarama ni {across} na peji, era tabana mai A1 kina {last}.",
+      "edgeNote": "Na laini ni dashes e vakaraitaka na yasana ni peji kecega. Vakatutu na peji vata ena yasana, se vakaubuta sara ga.",
+      "pictureLine": "Vakatakarakara: {picture}. Na ivakarau oqo e {n} na peji: {across} ena yasana kei {down} ena vakaraba.",
+      "print": "Vakatakarakara na ivakarau"
+    },
+    "findTogether": {
+      "guidance": "Vakasuka na kena vuli. Ena nomu vuli, vakalevutaka na kadi e rua me kunea dua na ilavo tu. Kunea na ilavo tu vata.",
+      "sizeLegend": "Na kadi e levu",
+      "size": "{n} na kadi",
+      "viewLegend": "Me vaka na taqaqa",
+      "viewShowing": "Taqaqa ena vakatakarakara era vakaraitaki",
+      "viewHidden": "Na kadi era tiko yasana ki raro",
+      "people": [
+        "Na tamata e voleka",
+        "Na tamata ikarua"
+      ],
+      "turn": "Na vuli: {person}",
+      "turnDone": "Era kunea kecega na ilavo tu.",
+      "tally": "Ilavo tu era kunea vata: {n}",
+      "cardNamed": "{name}, kadi {n}",
+      "cardFaceDown": "Kadi {n}, era tiko yasana ki raro",
+      "first": "{name}. Vakalevu kina dua tale na kadi.",
+      "found": "{name}: dua na ilavo tu, era kunea vata. Sa vuli o {next|lower} ena oqo.",
+      "allTogether": "Era kunea kecega vata na ilavo tu.",
+      "different": "{a} kei {b} era sega ni tauvata. Vakatekivu ga, qai tapa Vakasubu ena kena muri.",
+      "waiting": "Tapa Vakasubu ena kena muri ni o sa rawa. Qai sa mai vuli koya tale.",
+      "turnedBack": "Era vakasubu ena kena muri. Sa mai vuli {person|lower}.",
+      "passed": "E rawa ni vakayaco ga. Sa mai vuli {person|lower}.",
+      "turnBack": "Vakasubu ena kena muri",
+      "pass": "Vakayaco ga",
+      "playAgain": "Taraga tale"
+    },
+    "drawingDuet": {
+      "guidance": "Vakavuli ena dua na laini ena dua, qai solia na peni. Dua vakadua e rawa ni vakayaco. Sega ni dua e cukuna na ka oqo. Na vakatakarakara e sega ni lako tu mai ena peji oqo ke o sega ni vakasaveti.",
+      "people": [
+        "Na tamata e voleka",
+        "Na tamata ikarua"
+      ],
+      "colorLegend": "Na loaloa ni {person}",
+      "colors": [
+        "Lenalena",
+        "Damudamu",
+        "Dravudravua",
+        "Vuamasi"
+      ],
+      "turn": "Na vuli ni {person}",
+      "penColor": "Loaloa ni peni: {color}.",
+      "canvasLabel": "Vakatakarakara vata, {n} na laini sa oti",
+      "canvasLabelOne": "Vakatakarakara vata, {n} na laini e oti",
+      "keys": "Na yabaki ni kiko e vakalevutaka na tiki ni peni ena vakatakarakara. Space e vakatekivutaka se vakasubu ena peni.",
+      "penDown": "Vakatekivu ena peni",
+      "penUp": "Vakasubu ena peni",
+      "pass": "Solia na peni",
+      "passed": "E rawa ni vakayaco ga. Sa vuli o {person|lower}.",
+      "takeBack": "Vakalailai na laini yau ka mai muri",
+      "tookBack": "Era vakalailai na laini ka mai muri ni {person|lower}.",
+      "noLine": "Sega ni laini ni {person|lower} me vakalailai.",
+      "restarted": "Na peji e wavoki. Na tamata e voleka e vuli. Vakasubu tiko kevaka o sega ni vakadeitaka.",
+      "putBack": "Vakasubu tiko",
+      "restored": "Na laini era subu tiko vakatautauvata.",
+      "save": "Vakasaveti na vakatakarakara",
+      "saved": "Na nomu vakatakarakara e vakavuna. Vakayagataka na yaco ni lawa me vakasaveti kina ena oqo ivakatakilakila.",
+      "download": "Lawa na drawing-duet.png",
+      "print": "Vakatakarakara na vakatakarakara ena pepa",
+      "sheetTitle": "Vakatakarakara vata",
+      "paperRules": "Ika rua, dua na pepa, peni rua. Vakavuli: dua na laini se dua na iyaya ena dua, qai solia na peni. Dua vakadua e rawa ni vakayaco. Sega na vakatakarakara dodonu."
+    },
+    "colorWash": {
+      "guidance": "Vakavuaka na loaloa malumalu ena icula, dua na lewe ena dua na vuli. Vakasucu na kuku me vakamuataka, qai muataka kevaka o gadreva. Sega ni vakasaveti se solia.",
+      "colorLegend": "Loaloa ni vakavuaka",
+      "sizeLegend": "Levu ni kuku",
+      "colors": [
+        "Lenalena",
+        "Damudamu",
+        "Dravudravua",
+        "Vuamasi"
+      ],
+      "sizes": {
+        "wide": "Levu",
+        "veryWide": "Levu sara"
+      },
+      "color": "Loaloa ni vakavuaka: {color}.",
+      "brushDown": "Vakatekivu ena kuku",
+      "brushUp": "Vakasubu ena kuku",
+      "keys": "Na yabaki ni kiko e vakalevutaka na ilavo ni kuku ena icula. Space e vakatekivutaka se vakasubu ena kuku.",
+      "canvasLabel": "Dua na icula ni vakavuaka malumalu",
+      "fresh": "Dua na icula vou",
+      "freshMessage": "Dua na icula vou.",
+      "putBack": "Vakasubu tiko",
+      "restored": "Na icula e subu tiko."
+    },
     "sortTogether": {
       "guidance": "Tabaka e dua na iyaloyalo, qai tabaka na basikete e dodonu me biu kina.",
       "restart": "Iyaloyalo vovou",
@@ -71,6 +719,10 @@
       "hint": "E rawa ni biu na {name|lower} ena \"{basket}\". Tabaka na basikete qori me biu kina.",
       "placed": "Sa biu na {name|lower} ena \"{basket}\".",
       "sorted": "Sa wasei vakaoti kece. Raica vata na loma ni veibasikete, se tovolea e dua tale na ulutaga.",
+      "largerTargets": "Ilavo levu",
+      "largerOn": "Ilavo levu e vakatekivu. Sega ni dua e veiliutaka.",
+      "largerOff": "Ilavo levu e vakavuna. Sega ni dua e veiliutaka.",
+      "largerOnNewRound": "Ilavo levu e vakatekivu, kei na ibaskete e rua. Oqo na vakatakarakara vou me vakavulici.",
       "basket": {
         "one": "Basikete {basket}, {count} na iyaloyalo e loma",
         "other": "Basikete {basket}, {count} na iyaloyalo e loma"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Tabaka e dua na tikina, qai tabaka e dua tale. Erau na veisau itutu.",
-      "restart": "Veicurumaki tale",
+      "restart": "Mix up again",
       "pictureLegend": "Iyaloyalo",
       "pictures": {
         "sailboat": "Waqa vakalaca",
@@ -90,8 +742,8 @@
       },
       "sizeLegend": "Tikina",
       "size": {
-        "one": "{n} na tikina",
-        "other": "{n} na tikina"
+        "one": "{n} piece",
+        "other": "{n} pieces"
       },
       "pickedUp": "Sa laveti na tikina. Tabaka sara na vanua me na biu kina.",
       "whole": "Sa taucoko tale na {name|lower}. Digitaka e dua tale na iyaloyalo ena gauna ga drau vinakata kina.",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Na iyaloyalo taucoko: {name}",
       "guideText": "Qo na kena irairai ni sa taucoko tu na iyaloyalo.",
+      "ownChoose": "Vakayagataka na nomu itoto",
+      "ownChange": "Digitaka dua na itoto tale",
+      "ownBack": "Subu tiko ki na noda vakatakarakara",
+      "ownPrivacy": "Na nomu itoto e tiko ena ivakatakilakila oqo. Sega ni cabeti se vakasaveti.",
+      "ownConsent": "Vakayagataka na nomu itoto. Vakatara kina kevaka e dau ... na tamata e sega ni rawa ni vosa io.",
+      "ownWorking": "Sa vakarautaka na nomu itoto.",
+      "ownNotUsable": "Na ivakaro oqo sa sega ni rawa ni vakayagataka. Digitaka ivakaro ni itoto, me vaka na JPEG se PNG.",
+      "ownAlt": "Na nomu itoto",
+      "ownPiece": "Ivakatoka {n}, {place}",
+      "ownWhole": "Na nomu itoto e sa tu tiko. Vakavuvuli tale ina gauna kece o gadreva.",
+      "ownSheetTitle": "Na nomu itoto ena ivakatoka",
+      "ownSheetHow": "Tatanu ena laini. Vakavuvuli na ivakatoka, qai veivakaliuci ruarua ena dua na gauna, me yaco ena sa tu tiko na itoto.",
       "piece": "Tiki ni iyaloyalo ena {place}",
       "pieceInPlace": ", sa tu donu ena kena itutu",
       "piecePickedUp": ", sa laveti cake",
@@ -122,7 +786,7 @@
         "imatau e ra"
       ],
       "done": "Sa taucoko tale na iyaloyalo. Qito tale se vakacegu mada.",
-      "playAgain": "Veicurumaki tale"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Wilika vata na ivosavosa, qai tabaka na vosa me vakacavara.",
@@ -190,6 +854,14 @@
       "guidance": "Wilika vakadomoilevu na kadi. E sega ni dua na kena isau dodonu se cala.",
       "position": "Kadi {n} mai na {total}",
       "themeLegend": "Ulutaga",
+      "showPrompt": "Vakaraitaka na ivosavosa me vosa kina",
+      "bigPicture": "Vakatakarakara levu, me vakayagataka ena vuku",
+      "passNote": "Dua vakadua e rawa ni vakayaco.",
+      "groupTitle": "Solia na kadi ena vuku",
+      "groupSit": "Tu ena dua na yavu tiko, me kila kecega na vakatakarakara. Na tamata e cabora na kadi, se na ivakatakilakila e tiko kina na vakatakarakara levu, e vosa vakaraitaki na ivosavosa ena imatai.",
+      "groupPass": "Qai solia na kadi ki na tamata e muri. Dua vakadua e vosa dua na vosa se dua na vakatakarakara ena vakatakarakara, qai solia me yaco ki na e muri.",
+      "groupNoSpeech": "Solia na kadi e rawa ni vakadeitaka ena gauna kece. Dua vakadua e rawa ni vakayaco ena sega ni vosa, ena sega ni dua e gadreva me kaya na nona vuku.",
+      "groupEnd": "Na veivakamuduni e mudu ina gauna e lako cavuta na karata e lewe ni bunu, se ina gauna e sa vakaloloma kina na vuvale. Sega ni dua e wini. Mudu ina gauna era via kina.",
       "next": "Kadi tarava",
       "previous": "Kadi sa oti",
       "print": "Tabaka na kadi kece",
@@ -252,6 +924,20 @@
       "started": "Sa tekivu. Cegu i loma ni tubu cake na mokimokiti.",
       "stopped": "Sa mudu.",
       "finished": "Sa oti oya e ono na cegu vakamalua. Tekivu tale ena gauna cava ga oni gadreva kina."
+    },
+    "storyChain": {
+      "guidance": "Take turns: one sentence each, add the next picture.",
+      "passNote": "Vosa ena lewe ni bula. Sega ni vakatotoki se vakavolekati. E rawa ni dua e sokota.",
+      "chainLabel": "Na vakasama e tu kina",
+      "item": "Yaloyalo {n}: {name}",
+      "add": "Vakayagataka dua na yaloyalo",
+      "fullAdd": "Sa yacova na veiwaki. Tekivu dua na veiwaki vou",
+      "newChain": "Tekivu dua na veiwaki vou",
+      "takeOff": "Qaqa na muri",
+      "added": "Na {name|lower} sa tu ena muri ni veiwaki.",
+      "removed": "Sa qaqa mai na {name|lower} mai na veiwaki.",
+      "fresh": "Dua na veiwaki vou, sa tekivu mai na {name|lower}.",
+      "full": "Na veiwaki sa tu kina na yaloyalo walu. Vakamuria na tukutuku kece, se tekivu dua na veiwaki vou."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "O ni uca",
     "snowflake": "Ucacevata",
     "kite": "Kaiti",
-    "sunrise": "Cadra ni siga ena ulunivanua"
+    "sunrise": "Cadra ni siga ena ulunivanua",
+    "decorated-keepsake-box": "Bokisi vakaraivi",
+    "painted-plant-pot": "Kuro ni kau vakaraivi kei na lau",
+    "repeating-pattern-sheet": "Pepa ni vakatautauri",
+    "music-drawn-lines": "Tutu vakatoka ena meke",
+    "paper-boat-afloat": "Waqa ni pepa ena wai",
+    "folded-towel-stack": "Lolo ni tauera",
+    "hand-massage-with-lotion": "Liga e tu ena tauera kei na lotion",
+    "open-photo-album": "Album ni yaloyalo e vulia",
+    "button-flower-card": "Karata ni kedra ni butini",
+    "blue-torn-paper-collage": "Kolasi ni pepa lanilani",
+    "family-tree-of-hands": "Kau ni vuvale e vakatoka ena liga",
+    "open-greeting-card": "Karata ni vakavinaka kei na loma",
+    "lavender-sachet": "Peseti ni lavenda e kaulotaki ena ribon",
+    "memory-collage-of-photos": "Kolasi ni yaloyalo ni vuvale",
+    "paper-chain-garland": "Veiyasana ni pepa",
+    "open-songbook-with-notes": "Buka ni meke e vulia kei na nota",
+    "photo-postcard-with-stamp": "Karata ni yaloyalo kei na sitamu",
+    "pine-cone-bird-feeder": "Tuqe ni pine e vakatokai ena kai ni manu",
+    "playlist-phone-and-card": "Fon kei na karata ni meke",
+    "sealed-rice-shaker": "Bokisi ni rise e vakalagatai",
+    "texture-board-with-scraps": "Papa ni lalaki kei na lapalapa",
+    "painted-garden-stone": "Vatu ni vanua vakaraivi",
+    "shared-painted-canvas": "Kanavasi e vakaraivi vata",
+    "watercolor-washes-sheet": "Pepa ni vakaraivi ena wai ni kula",
+    "seedling-in-pot": "Kuro ni kau cece",
+    "pressed-leaves-in-book": "Buka kei na lau e vakavuqa",
+    "printed-leaves-sheet": "Pepa ni lau e vakaraitaki",
+    "pinch-pot-clay-bowl": "Kuro ni qele vakaliga",
+    "table-sketch-pencil": "Kapu e vakaraitaki ena pensi",
+    "buttons-in-muffin-tin": "Butini e vakasolosolo ena kuro ni mafini",
+    "family-recipe-book": "Buka ni kakana ni vuvale",
+    "drum-with-beat-marks": "Lali ni tebale kei na tauloa",
+    "torn-paper-flower": "Mosaiki ni pepa e tu kina na bulabula",
+    "window-with-birds": "Matavaqe kei na manumanu",
+    "woven-paper-mat": "Ibe ni pepa e vakalalaki",
+    "yarn-ball-with-thread": "Bola ni wulu",
+    "letter-and-envelope": "Tusi kei na envelope"
   },
   "content": {
     "wordSearch": {
@@ -482,7 +1205,7 @@
         {
           "theme": "food",
           "picture": "lemon",
-          "prompt": "Na kamikamica se na wiwi: na cava oni taleitaka cake?"
+          "prompt": "Sweet or sour: which do you like better?"
         },
         {
           "theme": "food",
@@ -547,7 +1270,7 @@
         {
           "theme": "outdoors",
           "picture": "sun",
-          "prompt": "Na cava oni na cakava ena dua na siga cila vinaka?"
+          "prompt": "What is your idea of a perfect sunny day?"
         },
         {
           "theme": "animals",
@@ -662,7 +1385,7 @@
         {
           "theme": "seasons",
           "picture": "umbrella",
-          "prompt": "Na ucacevata, na uca, se na cila ni siga: na cava oni taleitaka cake?"
+          "prompt": "Snow, rain or sunshine: which do you prefer?"
         }
       ]
     },
@@ -765,6 +1488,17 @@
             "Ena veilakoyaki"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Vua",
+        "animals": "Manumanu",
+        "travel": "Ituvatu ni veiyaya",
+        "flowers": "Bulabula",
+        "hot-drinks": "Kena ni wai vuaka",
+        "weather": "Ituvatu ni draki",
+        "baked": "Kakana e tuna ena oveni"
       }
     }
   }

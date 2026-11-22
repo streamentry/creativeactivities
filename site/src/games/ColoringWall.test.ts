@@ -102,6 +102,6 @@ describe('ColoringWall (GAME-052)', () => {
   });
 
   it('uses the English words in another language until one is reviewed', () => {
-    expect(playProps('es', 'coloring-wall').ui.coloringWall.print).toBe('Print the wall');
+    expect(playProps('xx', 'coloring-wall').ui.coloringWall.print).toBe('Print the wall');
   });
 });

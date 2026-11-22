@@ -5,6 +5,13 @@
       "stopReading": "Zaustavi čitanje",
       "region": "Igra",
       "restart": "Počni iznova",
+      "rest": "Odmorite se za sada",
+      "restingTitle": "Odmor",
+      "restingText": "Uzmite koliko god vremena trebate. Vaše mjesto ostaje sačuvano na ovoj stranici.",
+      "resume": "Nastavite",
+      "placeText": "Zadnput ste stali na pola puta. Nastavite odatle ili počnite ispočetka.",
+      "placeResume": "Nastavite",
+      "placeFresh": "Počnite ispočetka",
       "soundOn": "Tihi zvukovi uključeni",
       "soundOff": "Tihi zvukovi isključeni",
       "done": "Dosta za sada",
@@ -44,7 +51,19 @@
       "viewShowing": "Slike vidljive",
       "viewHidden": "Skrivene slike",
       "playAgain": "Igrajte ponovno s novim slikama",
-      "talk": "Razgovarajmo zajedno o slikama"
+      "talk": "Razgovarajmo zajedno o slikama",
+      "modeLegend": "Koje slike",
+      "modePlay": "Bilo koje slike",
+      "modeDaily": "Kartica za danas",
+      "dayLegend": "Koji dan",
+      "dayHelp": "Svi dobivaju iste slike istog dana. Dostupan je i svaki raniji dan, a preskakanje dana ne košta ništa.",
+      "guidanceDaily": "Kartica za danas ima četiri para. Dodirnite jednu sliku, pa dodirnite onu koja joj odgovara.",
+      "restartDaily": "Počnite ovu karticu ponovno",
+      "copy": "Kopirajte ovaj redak",
+      "copied": "Kopirano. Ništa se ne šalje nigdje.",
+      "calendarTitle": "Kartice za danas, {month}",
+      "calendarHelp": "Svaki dan ima iste četiri slike za sve. Ništa se ne boduje, a nijedan dan nije označen kao propušten.",
+      "calendarVersion": "Verzija {date}. Slike su iste za sve istog dana."
     },
     "choose": {
       "countLegend": "Koliko slika",
@@ -63,6 +82,636 @@
       "shadowAlt": "Sjena koju treba pronaći",
       "foundAlt": "Sjena: {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Savjeti",
+      "hintOn": "Savjet nakon stanke",
+      "hintOff": "Bez savjeta",
+      "guidance": "Pronađite {n} slike koje idu zajedno i dodirnite svaku.",
+      "countLegend": "Koliko slika",
+      "count": "{n} slika",
+      "found": "Da, {name|lower} pripada ovoj skupini.",
+      "elsewhere": "{name|lower} ide uz nešto drugo. Uzmite si vremena.",
+      "hint": "Savjet: potražite {theme|lower}.",
+      "together": "Ovo ide zajedno: {theme}.",
+      "shown": "Evo skupine: {theme}.",
+      "groupName": "Zajedno: {theme}",
+      "show": "Pokažite skupinu",
+      "next": "Još jedan skup"
+    },
+    "oddOneOut": {
+      "hintLegend": "Savjeti",
+      "hintOn": "Savjet nakon stanke",
+      "hintOff": "Bez savjeta",
+      "guidance": "Pronađite sliku koja ne pripada ostalima i dodirnite je.",
+      "countLegend": "Koliko slika",
+      "count": "{n} slika",
+      "belongs": "{name|lower} ide uz ostale. Uzmite si vremena.",
+      "found": "Da, {name|lower} je ono što ne pripada. Ostali su {theme|lower}.",
+      "shown": "Evo ga: {name|lower}. Ostali su {theme|lower}.",
+      "hint": "Savjet: {n} od ovih su {theme|lower}.",
+      "others": "Ostali: {theme}",
+      "show": "Pokažite mi",
+      "next": "Još jedan skup"
+    },
+    "seatedToss": {
+      "guidance": "Sjednite za stol i naizmjence bacajte mekanu vrećicu s grahom u veliku metu. Bilježite rezultat zajedno, na papiru.",
+      "stepsHeading": "Kako ide",
+      "steps": [
+        "Ispišite metu i list za bilježenje rezultata i položite ga ravno na stol između vas.",
+        "Sjednite udobno, po jedan s každe strane. Naizmjence bacite po jedan nježan bacaj ili preskočite, ako tako želite.",
+        "Kad bacaj padne u neki krug, osoba koja je bacila označi jedno polje u svom stupcu, u retku za taj krug.",
+        "Po završetku pogledajte oznake zajedno, ako želite. Nitko ne mora ništa zbrajati.",
+        "Stanite kad god je bilo tko spreman."
+      ],
+      "safetyHeading": "Sigurnost",
+      "safetyLine": "Koristite samo vrećicu sa zašivenim poklopcem ili smotanu čarapu, ostanite sjediti, nikad ne bacajte prema licu i držite odraslu osobu u blizini. Mali dijelovi predstavljaju opasnost od gušenja.",
+      "flags": [
+        "Nije za djecu mlađu od 3 godine: mali dijelovi",
+        "Držati podalje od usta"
+      ],
+      "safety": [
+        "Odaberite vrećicu s grahom sa zašivenim poklopcem ili smotajte čistu čarapu. Prije upotrebe provjerite ima li rupa ili labavih šavova, kako ništa ne bi moglo ispasti.",
+        "Grah, riža i drugi sitni punjenje predstavljaju opasnost od gušenja. Držite ih podalje od male djece i od svakoga tko stavlja stvari u usta.",
+        "Ostanite unutar dohvata ruke i pažljivo nadzirite ako bi se nešto moglo staviti u usta.",
+        "Ostanite sjediti. Bacajte nježno i nisko prema meti na stolu, nikad prema licu."
+      ],
+      "previewLabel": "Ispisani list: meta s tri kruga nazvana Blizu, Sredina i Daleko, od vanjskog prema unutarnjem, te tablica s jednim stupcem za svaku osobu i redom praznih polja za svaki krug.",
+      "sheetHow": "Položite list ravno između vas. Kad bacaj padne u neki krug, označite polje u svom stupcu, u retku tog kruga.",
+      "rings": [
+        "Blizu",
+        "Sredina",
+        "Daleko"
+      ],
+      "people": [
+        "Prva osoba",
+        "Druga osoba"
+      ],
+      "ringHeading": "Krug",
+      "print": "Ispišite metu i list za bilježenje rezultata"
+    },
+    "seasonalPack": {
+      "guidance": "Odaberite mjesec, ispišite njegove tri papirnate zagonetke, pa radite jednu, dvije ili sve tri zajedno.",
+      "monthLegend": "Odaberite mjesec",
+      "months": [
+        "Siječanj",
+        "Veljača",
+        "Ožujak",
+        "Travanj",
+        "Svibanj",
+        "Lipanj",
+        "Srpanj",
+        "Kolovoz",
+        "Rujan",
+        "Listopad",
+        "Studeni",
+        "Prosinac"
+      ],
+      "monthNote": "Svaki mjesec ima svoje slike. Stranica se otvara na ovom mjesecu, a možete odabrati bilo koji drugi.",
+      "restDay": "Danas je dan odmora",
+      "restLine": "Danas nema zagonetki. Dan odmora također je dobar dan.",
+      "previewHeading": "Tri zagonetke",
+      "puzzles": {
+        "pairs": {
+          "title": "Spojite parove",
+          "how": "Nacrtajte crtu od svake slike u gornjem retku do iste slike u donjem retku.",
+          "describe": "Dva retka istih četiriju slika, u drugačijem redoslijedu."
+        },
+        "different": {
+          "title": "Koja je drugačija?",
+          "how": "Zaokružite sliku koja se razlikuje od ostale tri.",
+          "describe": "Redak od četiriju slika. Tri su iste, a jedna je drugačija."
+        },
+        "color": {
+          "title": "Obojite ga",
+          "how": "Obojite sliku kako god želite, bojicama ili olovkama.",
+          "describe": "Jedna velika slika za bojanje."
+        }
+      },
+      "print": "Ispišite paket za ovaj mjesec",
+      "sheetHow": "Ispišite jednu stranicu. Radite jednu, dvije ili sve tri zagonetke, bilo kojim redom.",
+      "printFooter": "Radite jednu, dvije ili sve tri. Stanite kad god želite."
+    },
+    "decorateACard": {
+      "guidance": "Odaberite prigodu, pa zajedno ukrasite čestitku bojicama ili flomasterima. Nema pravilne čestitke.",
+      "occasionLegend": "Odaberite prigodu",
+      "occasions": {
+        "birthday": {
+          "label": "Rođendan",
+          "words": "Sretan rođendan"
+        },
+        "thank-you": {
+          "label": "Hvala",
+          "words": "Hvala"
+        },
+        "thinking-of-you": {
+          "label": "Mislim na vas",
+          "words": "Mislim na vas"
+        },
+        "new-season": {
+          "label": "Novo godišnje doba",
+          "words": "Novo godišnje doba"
+        },
+        "just-because": {
+          "label": "Samo tako",
+          "words": "Samo tako"
+        }
+      },
+      "stepsHeading": "Kako ukrasiti zajedno",
+      "steps": {
+        "fold": "Ispišite čestitku i presaviješte je na pola po crtkanoj liniji, tako da prednja strana bude vani.",
+        "front": "Jedna osoba ukrašava prednju stranu, oko riječi.",
+        "inside": "Druga osoba ukrašava poleđinu, ili se izmjenjujete na jednoj strani.",
+        "message": "Napišite poruku zajedno. Jedna osoba može pisati, dok druga izgovara riječi.",
+        "stop": "Stanite kad god želite. Nema pravilne čestitke, a jednostavna je jednako dobra."
+      },
+      "materials": "Koristite bojice, drvene bojice ili flomastere. Ništa ne treba rezati, lijepiti ni zalijepiti.",
+      "previewLabel": "Pregled čestitke presavijene na pola. Prednja strana kaže {words}, uz jednostavan okvir od listova i zvijezda. Na poleđini su crte za poruku i redak za Od.",
+      "from": "Od",
+      "sheetHow": "Prepognite karticu na pola duž isprekidane linije, tako da prednja strana bude vani. Poruku napišite na stražnjoj strani.",
+      "rulesHeading": "Za dvije osobe",
+      "sheetRules": [
+        "Izmjenjujte se ili podijelite posao: jedna osoba ukrašava prednju stranu, druga stražnju.",
+        "Poruku napišite zajedno ili jedna osoba zapisuje ono što druga kaže.",
+        "Svatko može stati kad god želi. Nema ispravne kartice."
+      ],
+      "print": "Ispišite karticu"
+    },
+    "storyDice": {
+      "guidance": "Pogledajte slike i ispričajte priču pomoću njih, bilo kojim redom. Nema ispravne priče.",
+      "countLegend": "Broj kockica",
+      "count": "Kockica: {n}",
+      "roll": "Baci ponovo",
+      "pass": "Preskoči",
+      "passed": "Preskakanje je u redu. Sljedeća osoba može početi ili možete ponovo baciti.",
+      "rolled": "Nove slike: {names}.",
+      "tapped": "{name}. Počnite s ovom ili nekom drugom."
+    },
+    "wordPicture": {
+      "guidance": "Dodirnite sliku, pa riječ koja je naziva. Ili dodirnite riječ, pa njezinu sliku.",
+      "countLegend": "Broj slika",
+      "count": "Slika: {n}",
+      "picturesGroup": "Slike",
+      "wordsGroup": "Riječi",
+      "readWord": "Pročitaj naglas: {name}",
+      "next": "Nove slike",
+      "putBack": "Vrati natrag",
+      "pickWord": "Sada dodirnite riječ koja pripada ovoj slici.",
+      "pickPicture": "Sada dodirnite sliku koja pripada ovoj riječi.",
+      "fit": "Da, ta riječ pripada slici: {name|lower}.",
+      "newSet": "Evo novog niza slika.",
+      "restarted": "Vraćeno na početak. Sve slike i riječi opet su razdvojene.",
+      "restored": "Vraćeno. Spojeni parovi ponovno su prikazani.",
+      "all": "Svaka riječ ima svoju sliku."
+    },
+    "colorMatch": {
+      "guidance": "Pogledajte boju i njezin naziv, pa dodirnite svaku sliku te boje.",
+      "target": "Boja je {color|lower}. Dodirnite svaku sliku koja je {color|lower}.",
+      "countLegend": "Broj slika",
+      "count": "Slika: {n}",
+      "found": "Da, {name|lower} je u boji: {color|lower}.",
+      "named": "{name|lower}: boja je {color|lower}.",
+      "all": "To su sve slike u boji: {color|lower}.",
+      "shown": "Evo slika u boji: {color|lower}.",
+      "show": "Pokaži ih",
+      "next": "Druga boja",
+      "names": {
+        "red": "Crvena",
+        "orange": "Narančasta",
+        "yellow": "Žuta",
+        "green": "Zelena",
+        "blue": "Plava"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Dodirnite polovicu s lijeve strane, pa dodirnite polovicu s desne strane koja joj odgovara.",
+      "countLegend": "Broj slika",
+      "count": "Slika: {n}",
+      "leftGroup": "Lijeve polovice",
+      "rightGroup": "Desne polovice",
+      "left": "Lijeva polovica: {name|lower}",
+      "right": "Desna polovica: {name|lower}",
+      "joined": "Spojeno",
+      "pickRight": "Sada dodirnite polovicu s desne strane koja joj odgovara.",
+      "pickLeft": "Sada dodirnite polovicu s lijeve strane koja joj odgovara.",
+      "fit": "Da, te dvije polovice su: {name|lower}.",
+      "apart": "Te dvije polovice ne pristaju jedna uz drugu. Probajte drugu.",
+      "all": "Svaka slika je cijela.",
+      "shown": "Evo slika, spojenih.",
+      "show": "Pokaži mi",
+      "next": "Drugi niz"
+    },
+    "colorByNumber": {
+      "guidance": "Odaberite boju iz legende, pa njome ispunite polje. Svaka boja je u redu.",
+      "sizeLegend": "Veličina mreže",
+      "size": "{n} x {n}",
+      "keyLegend": "Boje",
+      "colors": [
+        "Žuta",
+        "Narančasta",
+        "Zelena",
+        "Ljubičasta"
+      ],
+      "motifs": {
+        "house": "kuća",
+        "flower": "cvijet",
+        "heart": "srce",
+        "tree": "drvo",
+        "boat": "jedrilica",
+        "pot-plant": "biljka u saksiji"
+      },
+      "region": "Mreža slike, {n} x {n}. Ako je ekran uzak, pomiče se vodoravno.",
+      "cell": "Broj {number}, red {row}, stupac {column}, {color}",
+      "empty": "prazno",
+      "chose": "Odabrano: {name}. Dodirnite polje da ga ispunite.",
+      "painted": "{name} u retku {row}, stupcu {column}.",
+      "sheet": "Svako polje ima boju svog broja. Ovo je slika na listu: {name}.",
+      "own": "Svako polje je ispunjeno. Ovo je vaša vlastita slika.",
+      "fillAll": "Ispuni prema brojevima",
+      "filledAll": "Svako prazno polje sada ima boju svog broja.",
+      "clear": "Obriši",
+      "cleared": "Mreža je prazna.",
+      "next": "Druga slika",
+      "fresh": "Evo druge slike za bojanje."
+    },
+    "patternMaker": {
+      "guidance": "Dodirnite polje da promijenite njegovu boju. Vaš uzorak raste pored njega. Ništa što napravite ne sprema se niti šalje.",
+      "sizeLegend": "Veličina pločice",
+      "size": "{n} x {n}",
+      "keyLegend": "Boje, redom kojim ih dodir mijenja",
+      "colors": [
+        "Žuta",
+        "Narančasta",
+        "Zelena",
+        "Ljubičasta"
+      ],
+      "tileLabel": "Vaša pločica",
+      "region": "Vaša pločica, {n} x {n}. Ako je ekran uzak, pomiče se vodoravno.",
+      "patternLabel": "Vaš uzorak",
+      "pattern": "Vaš uzorak: vaša pločica ponovljena {n} puta vodoravno i {n} puta okomito.",
+      "square": "Red {row}, stupac {column}, {color}",
+      "changed": "Red {row}, stupac {column} sada je {color}.",
+      "cleared": "Pločica je prazna. Možete je vratiti.",
+      "surprise": "Iznenadi me",
+      "surprised": "Evo nove pločice. Staru možete vratiti.",
+      "putBack": "Vrati natrag",
+      "restored": "Vaša pločica je vraćena kakva je bila.",
+      "print": "Ispišite moj uzorak",
+      "sheetTitle": "Moj uzorak"
+    },
+    "buildTogether": {
+      "guidance": "Izmjenjujte se stavljajući dio na prazno mjesto. Svaka osoba ima svoju boju. Ništa što napravite ne sprema se niti šalje.",
+      "sizeLegend": "Veličina mreže",
+      "size": "{n} x {n}",
+      "people": [
+        "Prva osoba",
+        "Druga osoba"
+      ],
+      "colorLegend": "Boja: {person}",
+      "colors": [
+        "Žuta",
+        "Narančasta",
+        "Zelena",
+        "Ljubičasta"
+      ],
+      "inUse": "U upotrebi",
+      "turn": "Na potezu je {person|lower}",
+      "yourColor": "Vaša boja je {color|lower}.",
+      "built": "Zajedno izrađeno. Ovo je slika koju ste napravili zajedno.",
+      "gridLabel": "Zajednička mreža",
+      "region": "Zajednička mreža, {n} x {n}. Ako je ekran uzak, pomiče se vodoravno.",
+      "cellEmpty": "Red {row}, stupac {column}, prazno",
+      "cellFilled": "Red {row}, stupac {column}, {color}, dio stavljen: {person|lower}",
+      "placed": "Red {row}, stupac {column} sada je {color}. Na potezu je {next|lower}.",
+      "placedLast": "Red {row}, stupac {column} sada je {color}. Zajedno izrađeno.",
+      "taken": "Red {row}, stupac {column} već ima dio. Odaberite prazno mjesto.",
+      "pass": "Preskoči",
+      "passed": "Preskakanje je u redu. Na potezu je {person|lower}.",
+      "takeBack": "Vrati zadnji dio",
+      "takeBackPass": "Poništi preskakanje",
+      "tookBack": "Dio je vraćen. Na potezu je {person|lower}.",
+      "tookBackPass": "Preskakanje je poništeno. Na potezu je {person|lower}.",
+      "colorChanged": "{person} sada ima boju: {color|lower}.",
+      "restarted": "Mreža je prazna. Na potezu je {person|lower}.",
+      "print": "Ispišite mrežu",
+      "sheetTitle": "Izradite zajedno",
+      "sheetHelp": "Izmjenjujte se. Na praznom polju svaka osoba crta svoj oblik svojom olovkom.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Dodirnite dio, pa dodirnite mjesto na slici gdje on ide. Ništa što napravite ne sprema se niti šalje.",
+      "hints": "Prikaži pomoćne linije",
+      "pictureLine": "Ovo je {picture}.",
+      "pictures": {
+        "house": "kuća",
+        "boat": "brod",
+        "tree": "drvo",
+        "fish": "riba",
+        "cat": "mačka",
+        "rocket": "raketa"
+      },
+      "outlineLabel": "Obris: {picture}. Dodirnite prazno mjesto da u njega stavite odabrani dio.",
+      "trayHeading": "Dijelovi",
+      "pieces": {
+        "large-triangle": "Veliki trokut",
+        "small-triangle": "Mali trokut",
+        "square": "Kvadrat",
+        "parallelogram": "Paralelogram",
+        "rectangle": "Pravokutnik"
+      },
+      "shapes": {
+        "large-triangle": "veliki trokut",
+        "small-triangle": "mali trokut",
+        "square": "kvadrat",
+        "parallelogram": "paralelogram",
+        "rectangle": "pravokutnik"
+      },
+      "chosenLabel": "Odabrano",
+      "spaceEmpty": "Mjesto {n}, {shape}, prazno",
+      "spaceFilled": "Mjesto {n}, {shape}, ima svoj dio. Dodirnite da uzmete dio natrag.",
+      "chosen": "{piece} je odabran. Sada dodirnite mjesto na slici.",
+      "unchosen": "Komad više nije odabran.",
+      "placed": "Komad je na mjestu {n}.",
+      "complete": "Slika {picture} je gotova.",
+      "different": "Taj komad ima drugačiji oblik od ovog mjesta. Probajte neko drugo mjesto.",
+      "needPiece": "Najprije odaberite komad iz ladice.",
+      "filled": "Na tom je mjestu već komad. Dodirnite ga da biste uzeli komad natrag.",
+      "tookBack": "Komad je vraćen u ladicu.",
+      "cleared": "Komadi su vraćeni u ladicu. Vratite ih ako ste se predomislili.",
+      "restored": "Komadi su vraćeni na sliku.",
+      "next": "Ovo je {picture}.",
+      "putBack": "Vratite ga",
+      "another": "Drugi oblik",
+      "print": "Ispišite ovaj oblik",
+      "sheetTitle": "Mirni oblici",
+      "sheetHow": "Obojite komade ili ih izrežite tako da stanu u obrub. Izrezivanje može napraviti odrasla osoba.",
+      "sheetPieces": "Komadi, iste veličine kao obrub"
+    },
+    "picnicPlanner": {
+      "guidance": "Dodirnite sliku da je stavite u košaru za piknik, a dodirnite je u košari da je izvadite. U košaru stane šest stvari.",
+      "guidancePlay": "Dodirnite dvije slike koje su iste. Slike ostaju vidljive, a ništa nije na vrijeme.",
+      "basketHeading": "Naša košara",
+      "basketLabel": "Košara za piknik",
+      "takeOut": "Izvadi {picture} iz košare",
+      "inBasket": "U košari",
+      "foodHeading": "Hrana",
+      "outingsHeading": "Aktivnosti",
+      "added": "{picture} je u košari.",
+      "removed": "{picture} je izvađen iz košare.",
+      "already": "{picture} je već u košari. Dodirnite ga tamo da ga izvadite.",
+      "full": "Košara je puna. Izvadite nešto da napravite mjesta.",
+      "summary": "Naš piknik: {list}.",
+      "summaryNone": "U košari još ništa nema.",
+      "and": "i",
+      "play": "Igrajmo se s našim piknikom",
+      "needTwo": "Najprije odaberite najmanje dvije stvari.",
+      "playAgain": "Igrajte ponovno",
+      "back": "Natrag na piknik",
+      "print": "Ispišite naš popis za piknik",
+      "cleared": "Košara je prazna.",
+      "notice": "Ovo je plan o kojem možete razgovarati. Ništa se ne mjeri vremenom, ne ocjenjuje i ne sprema.",
+      "sheetTitle": "Naš popis za piknik",
+      "sheetHow": "Označite svaku stvar kad je spakirate. Za sve drugo što želite ponijeti koristite prazne crte.",
+      "sheetToPack": "Za pakiranje"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Odaberite od dvije do dvanaest vlastitih fotografija da započnete album.",
+      "guidance": "Listajte stranice zajedno, gumbima ili tipkama sa strelicama lijevo i desno. Ako želite, ispod fotografije dodajte nekoliko riječi. Ništa što napravite ne sprema se niti šalje.",
+      "lookGuidance": "Pogledajte svaku stranicu zajedno. Možete razgovarati ili jednostavno gledati.",
+      "intro": "Odaberite od dvije do dvanaest fotografija s ovog uređaja. Svaka postaje stranica albuma koji možete listati zajedno.",
+      "consent": "Koristite vlastite obiteljske fotografije. Pitajte prije nego što upotrijebite fotografiju osobe koja ne može reći da.",
+      "privacy": "Vaše fotografije ostaju na ovom uređaju. Ne učitavaju se niti spremaju.",
+      "choose": "Odaberite fotografije",
+      "chooseDifferent": "Odaberite druge fotografije",
+      "backToBook": "Natrag na album",
+      "backToChoose": "Natrag na odabir fotografija",
+      "needTwo": "Odaberite najmanje dvije fotografije.",
+      "usingFirst": "Koristi se prvih {max} fotografija.",
+      "cleared": "Album je obrisan. Odaberite fotografije da počnete ponovno.",
+      "moved": "Premješteno na stranicu {n}.",
+      "pageOf": "Stranica {n} od {total}",
+      "lookTogether": "Pogledajte zajedno",
+      "leaveLook": "Natrag na album",
+      "print": "Ispišite album",
+      "clear": "Obrišite album",
+      "bookLabel": "Obiteljski album",
+      "pagesLabel": "Listajte stranice",
+      "previous": "Prethodna stranica",
+      "next": "Sljedeća stranica",
+      "moveEarlier": "Pomaknite ranije",
+      "moveLater": "Pomaknite kasnije",
+      "captionLabel": "Nekoliko riječi za ovu stranicu, ako želite",
+      "captionHelp": "Najviše 80 znakova. Natpisi se čuvaju samo na ovoj stranici i nestaju kad je zatvorite.",
+      "sheetTitle": "Naš album",
+      "sheetHow": "Jedna fotografija po stranici, s riječima ispod nje. Listajte stranice redom i razgovarajte o svakoj.",
+      "sheetEmpty": "Odaberite svoje fotografije na stranici igre da ispišete vlastiti album, ili ispišite ovu praznu stranicu i zalijepite ispisanu fotografiju.",
+      "sheetFrame": "Ovdje zalijepite ispisanu fotografiju",
+      "sheetWords": "Nekoliko riječi za ovu stranicu",
+      "skipped": {
+        "one": "{n} datoteka nije fotografija koju možemo koristiti.",
+        "few": "{n} datoteke nisu fotografije koje možemo koristiti.",
+        "other": "{n} datoteka nije fotografija koju možemo koristiti."
+      }
+    },
+    "quietScene": {
+      "guidance": "Gledajte jednu sliku po jednu. Pritisnite Sljedeća ili Prethodna kad budete spremni. Ništa se ne miče samo od sebe.",
+      "next": "Sljedeća slika",
+      "previous": "Prethodna slika",
+      "bigPicture": "Veća slika",
+      "showEverything": "Prikaži sve",
+      "first": "Ovo je prva slika.",
+      "last": "Ovo je posljednja slika.",
+      "lines": {
+        "sunrise": "Sunce izlazi nad krajolikom.",
+        "window-with-birds": "Ptice ispred prozora.",
+        "vase-of-flowers": "Vaza s cvijećem na stolu.",
+        "teacup": "Šalica čaja kraj prozora.",
+        "tree": "Drvo koje stoji u vrtu.",
+        "sailboat": "Jedrilica na vodi.",
+        "lighthouse": "Svjetionik uz more.",
+        "rainbow": "Duga nakon kiše.",
+        "moon": "Mjesec na noćnom nebu.",
+        "daisies": "Skupina tratinčica u travi.",
+        "rowing-boat": "Veslački čamac na mirnoj vodi.",
+        "potted-plant": "Zelena biljka u saksiji."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Igrajte naizmjenično. Dodirnite izrezak, pa dodirnite prazno mjesto da ga stavite tamo. Ništa što napravite ne sprema se niti šalje.",
+      "people": [
+        "Prva osoba",
+        "Druga osoba"
+      ],
+      "marks": [
+        "krug",
+        "kvadrat"
+      ],
+      "turn": "Na redu ste, {person|lower}.",
+      "marked": "Vaši su komadi označeni s {mark}.",
+      "boardLabel": "Zajednička ploča",
+      "placeEmpty": "Mjesto {n}, prazno",
+      "placeFilled": "Mjesto {n}, {picture|lower}, postavila je {person|lower}",
+      "trayHeading": "Izrešci",
+      "chosenLabel": "Odabrano",
+      "chosen": "{picture} je odabran. Sada dodirnite prazno mjesto.",
+      "unchosen": "Izrezak više nije odabran.",
+      "needCutout": "Najprije odaberite izrezak, pa dodirnite prazno mjesto.",
+      "filled": "Mjesto {n} već ima sliku. Odaberite prazno mjesto.",
+      "placed": "{picture} je na mjestu {n}. Na redu ste, {next|lower}.",
+      "full": "Svako mjesto ima sliku. Uklonite jednu da je promijenite ili počnite ponovno.",
+      "pass": "Preskoči",
+      "passed": "Preskakanje je u redu. Na redu ste, {person|lower}.",
+      "takeBack": "Uzmite natrag posljednji komad",
+      "takeBackPass": "Poništite preskakanje",
+      "tookBack": "Komad je uzet natrag. Na redu ste, {person|lower}.",
+      "tookBackPass": "Preskakanje je poništeno. Na redu ste, {person|lower}.",
+      "restarted": "Ploča je prazna. Na redu ste, {person|lower}.",
+      "putBack": "Vratite ga",
+      "putBackDone": "Komadi su vraćeni na ploču.",
+      "another": "Drugi skup slika",
+      "anotherSet": "Novi skup izrezaka je u ladici. Komadi na ploči ostaju gdje su.",
+      "print": "Ispišite ploču",
+      "sheetTitle": "Ploča za kolaž",
+      "sheetHow": "Izrežite slike i naizmjenično ih postavljajte na ploču. Izrezivanje može napraviti odrasla osoba.",
+      "sheetTray": "Slike za izrezivanje"
+    },
+    "gardenPlanner": {
+      "guidance": "Dodirnite sliku, pa dodirnite gredicu da je stavite tamo. Dodirnite gredicu na kojoj je slika, dok ništa nije odabrano, da je očistite.",
+      "bedsLabel": "Gredice u vrtu",
+      "bedEmpty": "Gredica {n}, prazna",
+      "bedFilled": "Gredica {n}, {picture|lower}",
+      "plantsHeading": "Biljke",
+      "extrasHeading": "Dodaci za vrt",
+      "chosenLabel": "Odabrano",
+      "chosen": "{picture} je odabran. Sada dodirnite gredicu.",
+      "unchosen": "Nijedna slika nije odabrana.",
+      "needPicture": "Najprije odaberite sliku, pa dodirnite gredicu.",
+      "planted": "{picture} je u gredici {n}.",
+      "replaced": "{picture} zauzima mjesto slike u gredici {n}.",
+      "cleared": "Gredica {n} je prazna. Vratite je ako želite ponovno sliku.",
+      "restarted": "Sve gredice su prazne.",
+      "putBack": "Vrati sliku",
+      "putBackDone": "Slike su vraćene u gredice.",
+      "summaryHeading": "Moj vrt",
+      "summary": "Vaš plan sadrži: {list}.",
+      "summaryNone": "Još nijedna slika nije u gredici.",
+      "and": "i",
+      "print": "Ispiši plan",
+      "sheetTitle": "Naš plan vrta",
+      "sheetHow": "Gredice prikazuju slike odabrane na ekranu. Ako želite, nacrtajte po praznim gredicama.",
+      "sheetNotes": "Bilješke",
+      "notice": "Ovo je plan sa slikama za razgovor, a ne savjet o sadnji."
+    },
+    "coloringWall": {
+      "guidance": "Odaberite sliku i broj stranica. Ispišite zid, a svaka osoba oboji jednu ili više stranica. Ništa se ne mjeri vremenom, ne boduje i ne sprema.",
+      "pictureLegend": "Slika",
+      "sizeLegend": "Broj stranica",
+      "sizes": {
+        "2x2": "4 stranice (2 x 2)",
+        "3x2": "6 stranica (3 x 2)",
+        "3x3": "9 stranica (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} podijeljena je na {n} stranica, {across} u širinu i {down} u visinu. Svaka stranica ima oznaku u kutu.",
+      "previewCaption": "Slika s linijama stranica i oznakama nacrtanim na njoj.",
+      "labelsNote": "Slova idu niz zid, a brojevi preko zida, pa je A1 stranica u gornjem lijevom kutu.",
+      "wallHeading": "Kako sastaviti zid",
+      "steps": [
+        "Ispišite sve stranice. Prva stranica sadrži ove upute i kartu zida.",
+        "Svaka osoba uzme jednu ili više stranica i oboji ih.",
+        "Boje i stil ne moraju se podudarati. Svaka stranica dio je iste slike.",
+        "Složite stranice prema oznakama, pa ih zalijepite ljepljivom trakom sa stražnje strane.",
+        "Postavite zid na mjesto gdje ga svi mogu vidjeti."
+      ],
+      "mapLabel": "Karta zida: {down} redova po {across} stranica, označenih od A1 do {last}.",
+      "edgeNote": "Isprekidana linija označava rub svake stranice. Složite stranice rub uz rub duž te linije ili ih malo preklopite.",
+      "pictureLine": "Slika: {picture}. Ovaj zid ima {n} stranica: {across} u širinu i {down} u visinu.",
+      "print": "Ispiši zid"
+    },
+    "findTogether": {
+      "guidance": "Izmjenjujte se. Na svom potezu otvorite dvije kartice i tražite par. Parove pronalazite zajedno.",
+      "sizeLegend": "Broj kartica",
+      "size": "{n} kartica",
+      "viewLegend": "Kako igrati",
+      "viewShowing": "Igrajte sa slikama na vidiku",
+      "viewHidden": "Kartice okrenute licem prema dolje",
+      "people": [
+        "Prva osoba",
+        "Druga osoba"
+      ],
+      "turn": "Red je na: {person}",
+      "turnDone": "Svi parovi su pronađeni.",
+      "tally": "Zajedno pronađenih parova: {n}",
+      "cardNamed": "{name}, kartica {n}",
+      "cardFaceDown": "Kartica {n}, okrenuta licem prema dolje",
+      "first": "{name}. Sada okrenite drugu karticu.",
+      "found": "{name}: par, pronađen zajedno. Sada je red na osobi {next|lower}.",
+      "allTogether": "Zajedno ste pronašli sve parove.",
+      "different": "{a} i {b} nisu isti. Uzmite si vremena, pa pritisnite Okreni natrag.",
+      "waiting": "Pritisnite Okreni natrag kad budete spremni. Tada red prelazi na drugu osobu.",
+      "turnedBack": "Okrenuto natrag. Sada je red na osobi {person|lower}.",
+      "passed": "Preskakanje je u redu. Sada je red na osobi {person|lower}.",
+      "turnBack": "Okreni natrag",
+      "pass": "Preskoči",
+      "playAgain": "Igraj ponovno"
+    },
+    "drawingDuet": {
+      "guidance": "Izmjenjujte se tako da svaka osoba nacrta po jednu liniju, pa predajte olovku. Svatko može preskočiti. Ništa se ne šalje nigdje. Slika napušta ovu stranicu samo ako je spremite.",
+      "people": [
+        "Prva osoba",
+        "Druga osoba"
+      ],
+      "colorLegend": "Boja: {person}",
+      "colors": [
+        "Žuta",
+        "Narančasta",
+        "Zelena",
+        "Ljubičasta"
+      ],
+      "turn": "Red je na osobi {person}",
+      "penColor": "Boja olovke: {color}.",
+      "canvasLabel": "Zajednički crtež, do sada {n} linija",
+      "canvasLabelOne": "Zajednički crtež, do sada {n} linija",
+      "keys": "Strelice pomiču točku olovke na crtežu. Razmak spušta ili podiže olovku.",
+      "penDown": "Spusti olovku",
+      "penUp": "Podigni olovku",
+      "pass": "Predaj olovku",
+      "passed": "Preskakanje je u redu. Na redu ste vi, {person|lower}.",
+      "takeBack": "Ukloni moju zadnju liniju",
+      "tookBack": "Zadnja linija osobe {person|lower} je uklonjena.",
+      "noLine": "Osoba {person|lower} nema liniju koju bismo mogli ukloniti.",
+      "restarted": "List je prazan. Prva osoba ima red. Vratite ga ako to niste namjeravali.",
+      "putBack": "Vrati",
+      "restored": "Linije su vraćene kakve su bile.",
+      "save": "Spremi sliku",
+      "saved": "Vaša slika je spremna. Koristite poveznicu za preuzimanje kako biste je zadržali na ovom uređaju.",
+      "download": "Preuzmi drawing-duet.png",
+      "print": "Ispiši papirnu verziju",
+      "sheetTitle": "Crtanje u dvoje",
+      "paperRules": "Dvije osobe, jedan list, dvije olovke. Izmjenjujte se: svaka osoba nacrta jednu liniju ili oblik, pa predaje olovku. Svatko može preskočiti. Nema točne slike."
+    },
+    "colorWash": {
+      "guidance": "Nanosite nježnu boju po stranici, jedan po jedan potez. Podignite kist da stanete, a zaustavite se kad god želite. Ništa se ne sprema niti šalje.",
+      "colorLegend": "Boja premaza",
+      "sizeLegend": "Veličina kista",
+      "colors": [
+        "Žuta",
+        "Narančasta",
+        "Zelena",
+        "Ljubičasta"
+      ],
+      "sizes": {
+        "wide": "Široko",
+        "veryWide": "Vrlo široko"
+      },
+      "color": "Boja premaza: {color}.",
+      "brushDown": "Spusti kist",
+      "brushUp": "Podigni kist",
+      "keys": "Strelice pomiču prsten kista po stranici. Razmak spušta ili podiže kist.",
+      "canvasLabel": "Stranica s mekim premazima boje",
+      "fresh": "Nova stranica",
+      "freshMessage": "Nova stranica.",
+      "putBack": "Vrati",
+      "restored": "Stranica je vraćena."
+    },
     "sortTogether": {
       "guidance": "Dodirnite sliku, zatim dodirnite košaru u koju pripada.",
       "restart": "Nove slike",
@@ -72,6 +721,10 @@
       "hint": "{name|lower}: moglo bi ići u „{basket}“. Dodirnite tu košaru da tamo stavite sliku.",
       "placed": "{name|lower}: nalazi se u „{basket}“.",
       "sorted": "Sve je razvrstano. Zajedno pregledajte košare ili isprobajte drugu temu.",
+      "largerTargets": "Veća ciljna polja",
+      "largerOn": "Veća ciljna polja su uključena. Ništa se nije pomaknulo.",
+      "largerOff": "Veća ciljna polja su isključena. Ništa se nije pomaknulo.",
+      "largerOnNewRound": "Veća ciljna polja su uključena, s dvije košare. Evo novih slika za razvrstavanje.",
       "basket": {
         "one": "{basket}: košara, slika unutra: {count}",
         "few": "{basket}: košara, slika unutra: {count}",
@@ -105,6 +758,18 @@
       },
       "guideAlt": "Cijela slika: {name}",
       "guideText": "Ovako slika izgleda kad je cjelovita.",
+      "ownChoose": "Koristi vlastitu fotografiju",
+      "ownChange": "Odaberi drugu fotografiju",
+      "ownBack": "Natrag na naše slike",
+      "ownPrivacy": "Vaša fotografija ostaje na ovom uređaju. Ne šalje se i ne sprema.",
+      "ownConsent": "Koristite vlastite fotografije. Pitajte prije korištenja fotografije osobe koja ne može reći da.",
+      "ownWorking": "Pripremamo vašu fotografiju.",
+      "ownNotUsable": "Ta datoteka se ne može koristiti. Odaberite datoteku s fotografijom, na primjer JPEG ili PNG.",
+      "ownAlt": "Vaša fotografija",
+      "ownPiece": "Dio {n}, {place}",
+      "ownWhole": "Vaša fotografija je ponovno cijela. Ponovno je pomiješajte kad god želite.",
+      "ownSheetTitle": "Vaša fotografija u dijelovima",
+      "ownSheetHow": "Režite po linijama. Pomiješajte dijelove, pa zamijenite po dva dijela dok slika ne bude cijela.",
       "piece": "Dio: {place}",
       "pieceInPlace": ", na pravom mjestu",
       "piecePickedUp": ", podignut",
@@ -195,6 +860,14 @@
       "guidance": "Pročitajte karticu naglas. Nema točnih odgovora.",
       "position": "Kartica {n} od {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Prikaži poticaj za razgovor",
+      "bigPicture": "Velika slika, za skupinu",
+      "passNote": "Svatko može preskočiti.",
+      "groupTitle": "Dodavanje kartice po skupini",
+      "groupSit": "Sjednite u krug tako da svi vide sliku. Osoba koja drži karticu, ili uređaj s velikom slikom, prvo naglas pročita poticaj.",
+      "groupPass": "Zatim kartice dodajte sljedećoj osobi. Svaka osoba kaže riječ ili rečenicu o slici, pa je dodaje dalje.",
+      "groupNoSpeech": "Dodavanje kartice dalje uvijek je dopušteno. Osoba može preskočiti bez govora, a nitko ne mora objašnjavati zašto.",
+      "groupEnd": "Krug završava kada karta obiđe cijeli krug ili kada grupi bude dovoljno. Nitko ne pobjeđuje. Prekinite kad god grupa želi.",
       "next": "Sljedeća kartica",
       "previous": "Prethodna kartica",
       "print": "Ispiši sve kartice",
@@ -261,6 +934,20 @@
       "started": "Pokrenuto. Udahnite dok krug raste.",
       "stopped": "Zaustavljeno.",
       "finished": "To je bilo šest sporih udaha. Pokrenite ponovno kad god želite."
+    },
+    "storyChain": {
+      "guidance": "Izmjenjujte se: svatko po jednu rečenicu i dodajte sljedeću sliku.",
+      "passNote": "Izgovorite svoju rečenicu naglas. Ništa se ne piše niti sprema. Svatko može preskočiti.",
+      "chainLabel": "Lanac do sada",
+      "item": "Slika {n}: {name}",
+      "add": "Dodajte sliku",
+      "fullAdd": "Lanac je pun. Započnite novi lanac",
+      "newChain": "Započnite novi lanac",
+      "takeOff": "Uklonite posljednju",
+      "added": "{name|lower} sada je na kraju lanca.",
+      "removed": "{name|lower} više nije u lancu.",
+      "fresh": "Novi lanac počinje: {name|lower}.",
+      "full": "Lanac ima svih 8 slika. Ispričajte cijelu priču ili započnite novi lanac."
     }
   },
   "pictures": {
@@ -346,7 +1033,44 @@
     "rain-cloud": "Kišni oblak",
     "snowflake": "Pahuljica",
     "kite": "Zmaj",
-    "sunrise": "Izlazak sunca nad brdima"
+    "sunrise": "Izlazak sunca nad brdima",
+    "decorated-keepsake-box": "Kutija za uspomene s ukrasima",
+    "painted-plant-pot": "Lončić s aromatičnim biljem",
+    "repeating-pattern-sheet": "List s ponavljajućim uzorcima",
+    "music-drawn-lines": "Crte nacrtane uz glazbu",
+    "paper-boat-afloat": "Papirnati brodić na vodi",
+    "folded-towel-stack": "Stog složenih ručnika",
+    "hand-massage-with-lotion": "Ruka na ručniku s losionom",
+    "open-photo-album": "Otvoreni album s fotografijama",
+    "button-flower-card": "Cvijet od gumba na kartici",
+    "blue-torn-paper-collage": "Kolaž od poderanog plavog papira",
+    "family-tree-of-hands": "Obiteljsko stablo nacrtano rukama",
+    "open-greeting-card": "Otvorena čestitka sa srcem",
+    "lavender-sachet": "Vrećica s lavandom, vezana vrpcom",
+    "memory-collage-of-photos": "Kolaž obiteljskih fotografija",
+    "paper-chain-garland": "Girlanda od papirnatih karika",
+    "open-songbook-with-notes": "Otvorena pjesmarica s notama",
+    "photo-postcard-with-stamp": "Razglednica s fotografijom i markom",
+    "pine-cone-bird-feeder": "Hranilica za ptice od šišarke",
+    "playlist-phone-and-card": "Popis pjesama na mobitelu i kartica s pjesmom",
+    "sealed-rice-shaker": "Maraka od riže",
+    "texture-board-with-scraps": "Ploča s raznim materijalima",
+    "painted-garden-stone": "Kamen za vrt, oslikan",
+    "shared-painted-canvas": "Platno za zajedničko slikanje",
+    "watercolor-washes-sheet": "Akvarel na papiru",
+    "seedling-in-pot": "Mladice u lončiću",
+    "pressed-leaves-in-book": "Lišće prešano u knjizi",
+    "printed-leaves-sheet": "List s otiscima lišća",
+    "pinch-pot-clay-bowl": "Zdjelica od gline",
+    "table-sketch-pencil": "Skica šalice olovkom",
+    "buttons-in-muffin-tin": "Gumbi složeni u kalupu za mafine",
+    "family-recipe-book": "Knjiga obiteljskih recepata",
+    "drum-with-beat-marks": "Bubanj na stolu s palicama",
+    "torn-paper-flower": "Mozaik cvijeta od poderanog papira",
+    "window-with-birds": "Prozor s pticama",
+    "woven-paper-mat": "Podmetač od pletenog papira",
+    "yarn-ball-with-thread": "Klupko vune",
+    "letter-and-envelope": "Pismo u kuverti"
   },
   "illustrations": {
     "rocking-chair": "Stolica za ljuljanje",
@@ -451,323 +1175,6 @@
     "pocket-watch": "Džepni sat"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Tko rano rani, dvije sreće",
-        "end": "grabi",
-        "others": [
-          "traži",
-          "čeka"
-        ],
-        "prompt": "Jeste li Vi više ranoranilac ili volite spavati do kasno?"
-      },
-      {
-        "start": "Bolje ikad nego",
-        "end": "nikad",
-        "others": [
-          "jučer",
-          "sutra"
-        ],
-        "prompt": "Što ste počeli raditi kasnije u životu i u tome uživali?"
-      },
-      {
-        "start": "Kap po kap kamen",
-        "end": "dubi",
-        "others": [
-          "lomi",
-          "glača"
-        ],
-        "prompt": "Što ste voljeli raditi polako i strpljivo?"
-      },
-      {
-        "start": "Tko pita, ne",
-        "end": "skita",
-        "others": [
-          "luta",
-          "žuri"
-        ],
-        "prompt": "Kamo biste rado otputovali?"
-      },
-      {
-        "start": "Sve je dobro što se dobro",
-        "end": "svrši",
-        "others": [
-          "počne",
-          "pripremi"
-        ],
-        "prompt": "Koji Vam je dan lijepo završio?"
-      },
-      {
-        "start": "Jedna lasta ne čini",
-        "end": "proljeće",
-        "others": [
-          "ljeto",
-          "jesen"
-        ],
-        "prompt": "Po čemu prepoznajete da dolazi proljeće?"
-      },
-      {
-        "start": "Svaka ptica svome jatu",
-        "end": "leti",
-        "others": [
-          "pjeva",
-          "hrli"
-        ],
-        "prompt": "S kim ste najradije provodili vrijeme?"
-      },
-      {
-        "start": "Jabuka ne pada daleko od",
-        "end": "stabla",
-        "others": [
-          "kuće",
-          "vrta"
-        ],
-        "prompt": "Koje voće najviše volite?"
-      },
-      {
-        "start": "Kad mačke nema, miševi",
-        "end": "kolo vode",
-        "others": [
-          "se kriju",
-          "plešu"
-        ],
-        "prompt": "Imate li ili ste li imali mačku?"
-      },
-      {
-        "start": "Ni Rim se nije sagradio u jednom",
-        "end": "danu",
-        "others": [
-          "tjednu",
-          "dahu"
-        ],
-        "prompt": "Koje biste mjesto rado posjetili?"
-      },
-      {
-        "start": "Svugdje je lijepo, ali doma je",
-        "end": "najljepše",
-        "others": [
-          "najtiše",
-          "najtoplije"
-        ],
-        "prompt": "Što jedno mjesto čini Vašim domom?"
-      },
-      {
-        "start": "Bolji je vrabac u ruci nego golub na",
-        "end": "grani",
-        "others": [
-          "krovu",
-          "nebu"
-        ],
-        "prompt": "Koje ptice vidite ili čujete vani?"
-      },
-      {
-        "start": "Ruka ruku",
-        "end": "mije",
-        "others": [
-          "grije",
-          "drži"
-        ],
-        "prompt": "Tko Vam je rado pomagao ili kome ste Vi rado pomagali?"
-      },
-      {
-        "start": "Nema ruže bez",
-        "end": "trna",
-        "others": [
-          "mirisa",
-          "cvijeta"
-        ],
-        "prompt": "Koje cvijeće najviše volite?"
-      },
-      {
-        "start": "Nije sve zlato što",
-        "end": "sja",
-        "others": [
-          "svijetli",
-          "blista"
-        ],
-        "prompt": "Imate li neki sjajan predmet koji volite gledati?"
-      },
-      {
-        "start": "Dobar glas daleko se",
-        "end": "čuje",
-        "others": [
-          "nosi",
-          "vidi"
-        ],
-        "prompt": "Čiji Vam je glas ugodan slušati?"
-      },
-      {
-        "start": "Tko polako ide, daleko",
-        "end": "ode",
-        "others": [
-          "stiže",
-          "hoda"
-        ],
-        "prompt": "Što volite raditi polako, bez žurbe?"
-      },
-      {
-        "start": "Ne ostavljaj za sutra što možeš učiniti",
-        "end": "danas",
-        "others": [
-          "jutros",
-          "odmah"
-        ],
-        "prompt": "Što rado radite ujutro?"
-      },
-      {
-        "start": "Svaki početak je",
-        "end": "težak",
-        "others": [
-          "lijep",
-          "dug"
-        ],
-        "prompt": "Što ste nedavno započeli i što Vam se svidjelo?"
-      },
-      {
-        "start": "Tko drugome jamu kopa, sam u nju",
-        "end": "pada",
-        "others": [
-          "gleda",
-          "ulazi"
-        ],
-        "prompt": "Jeste li ikad imali vrt ili okućnicu?"
-      },
-      {
-        "start": "Gdje ima dima, ima i",
-        "end": "vatre",
-        "others": [
-          "kiše",
-          "sunca"
-        ],
-        "prompt": "Volite li sjediti uz toplu peć ili vatru?"
-      },
-      {
-        "start": "Bez muke nema",
-        "end": "nauke",
-        "others": [
-          "sreće",
-          "odmora"
-        ],
-        "prompt": "Što ste voljeli raditi vlastitim rukama?"
-      },
-      {
-        "start": "U svakoj šali ima pola",
-        "end": "istine",
-        "others": [
-          "smijeha",
-          "pjesme"
-        ],
-        "prompt": "Tko Vas uvijek nasmije?"
-      },
-      {
-        "start": "Tko se zadnji smije, najslađe se",
-        "end": "smije",
-        "others": [
-          "raduje",
-          "šali"
-        ],
-        "prompt": "Što Vas zaista razveseli?"
-      },
-      {
-        "start": "Pas koji laje, ne",
-        "end": "grize",
-        "others": [
-          "bježi",
-          "spava"
-        ],
-        "prompt": "Ispričajte mi o psu kojeg ste poznavali."
-      },
-      {
-        "start": "Kako posiješ, tako ćeš",
-        "end": "žeti",
-        "others": [
-          "brati",
-          "sijati"
-        ],
-        "prompt": "Što ste sadili u vrtu ili na polju?"
-      },
-      {
-        "start": "Što se mora, nije",
-        "end": "teško",
-        "others": [
-          "lijepo",
-          "dugo"
-        ],
-        "prompt": "Što Vam je zajedno s drugima bilo lakše raditi?"
-      },
-      {
-        "start": "Ne reci hop dok ne",
-        "end": "preskočiš",
-        "others": [
-          "pogledaš",
-          "dođeš"
-        ],
-        "prompt": "Koje ste igre igrali na otvorenom?"
-      },
-      {
-        "start": "Daleko od očiju, daleko od",
-        "end": "srca",
-        "others": [
-          "kuće",
-          "glave"
-        ],
-        "prompt": "Od koga Vam je drago čuti vijesti?"
-      },
-      {
-        "start": "Što je na srcu, to je na",
-        "end": "jeziku",
-        "others": [
-          "papiru",
-          "licu"
-        ],
-        "prompt": "S kim volite razgovarati o svemu i svačemu?"
-      },
-      {
-        "start": "Jutro je pametnije od",
-        "end": "večeri",
-        "others": [
-          "noći",
-          "podneva"
-        ],
-        "prompt": "Volite li više jutro ili večer?"
-      },
-      {
-        "start": "Poslije kiše dolazi",
-        "end": "sunce",
-        "others": [
-          "duga",
-          "vjetar"
-        ],
-        "prompt": "Volite li zvuk kiše?"
-      },
-      {
-        "start": "Koliko ljudi, toliko",
-        "end": "ćudi",
-        "others": [
-          "običaja",
-          "priča"
-        ],
-        "prompt": "Što Vam se sviđa kod ljudi koje volite?"
-      },
-      {
-        "start": "Dvije glave su pametnije od",
-        "end": "jedne",
-        "others": [
-          "tri",
-          "nijedne"
-        ],
-        "prompt": "S kim ste rado rješavali neki problem?"
-      },
-      {
-        "start": "Što prije, to",
-        "end": "bolje",
-        "others": [
-          "ljepše",
-          "mirnije"
-        ],
-        "prompt": "Što volite obaviti na početku dana?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABDEGIKLMNOPRSTUVZ",
@@ -1193,6 +1600,17 @@
             "Vani"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Voće",
+        "animals": "Životinje",
+        "travel": "Načini putovanja",
+        "flowers": "Cvijeće",
+        "hot-drinks": "Stvari za toplo piće",
+        "weather": "Vrste vremena",
+        "baked": "Stvari pečene u pećnici"
       }
     }
   }

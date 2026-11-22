@@ -5,6 +5,13 @@
       "stopReading": "Isa okulesa",
       "region": "Otjinyando",
       "restart": "Uturura",
+      "rest": "Humburukeni ozombinga",
+      "restingTitle": "Ohumburuka",
+      "restingText": "Tarakai nawa ozondjiro zi mu hepa. Ondjiro yenu ohi kwatwa ohoko eyi.",
+      "resume": "Yendeni komeho",
+      "placeText": "Mu hindo yahita mwa imbi hanga. Yendeni komeho komwe, nari tangeni hafu.",
+      "placeResume": "Yendeni komeho",
+      "placeFresh": "Tangeni hafu",
       "soundOn": "Pana omiwi omihure",
       "soundOff": "Zimisa omiwi",
       "done": "Pa pu nai",
@@ -43,7 +50,19 @@
       "viewShowing": "Ovisano vi munika",
       "viewHidden": "Ovisano vya horekwa",
       "playAgain": "Nyanda rukwao novisano ovipe",
-      "talk": "Kuhameye ovisano pamwe"
+      "talk": "Kuhameye ovisano pamwe",
+      "modeLegend": "Ozonguwa ozipi",
+      "modePlay": "Ozonguwa zimwe",
+      "modeDaily": "Ekadi lyEparu",
+      "dayLegend": "Ozuva ipi",
+      "dayHelp": "Ovanhu vose mana ozonguwa zimwe ozuva rimwe. Ozuva rimbuka mo rina, nokuseka ozuva kapi ouhoro.",
+      "guidanceDaily": "Ekadi lyEparu rina ozongwiro ine. Yakurira ongwa, nokuhuna eyo rimwe ririkwiyaka nayo.",
+      "restartDaily": "Tangeni ekadi eli hafu",
+      "copy": "Kopeni omurongo ogu",
+      "copied": "Kopiwa. Hakuna kuyaka kokwa.",
+      "calendarTitle": "Ekadi lyEparu, {month}",
+      "calendarHelp": "Ozuva rimwe rina ozonguwa ine zimwe ovanhu vose. Hakuna okuhamba ozonyanga, nomuzuva kapi ouhoro.",
+      "calendarVersion": "Ombuna {date}. Ozonguwa zi zimwe ovanhu vose mo ozuva rimwe."
     },
     "choose": {
       "countLegend": "Otuingi twovisano",
@@ -62,6 +81,635 @@
       "shadowAlt": "Omuzire wokupatisa pamwe",
       "foundAlt": "Omuzire wo {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Ozopaliro",
+      "hintOn": "Opaliro kambe ya tuka",
+      "hintOff": "Hakuna ozopaliro",
+      "guidance": "Hunga ozonguwa {n} zi zi tja kuvamwe, u kondamene rimwe rimwe.",
+      "countLegend": "Ozonguwa ozingapi",
+      "count": "Ozonguwa {n}",
+      "found": "Ehe, {name|lower} ri mo oruwano runo.",
+      "elsewhere": "{name|lower} ri tja nezi zimwe. Yendeni nawa.",
+      "hint": "Opaliro: hunga {theme|lower}.",
+      "together": "Zi tja kuvamwe: {theme}.",
+      "shown": "Ozo ozo oruwano: {theme}.",
+      "groupName": "Ovamwe: {theme}",
+      "show": "Monena oruwano",
+      "next": "Ozonguwa zimwe"
+    },
+    "oddOneOut": {
+      "hintLegend": "Ozopaliro",
+      "hintOn": "Opaliro kambe ya tuka",
+      "hintOff": "Hakuna ozopaliro",
+      "guidance": "Hunga ongwawa ne i kali mo ozimwe, nokuikondamena.",
+      "countLegend": "Ozonguwa ozingapi",
+      "count": "Ozonguwa {n}",
+      "belongs": "{name|lower} ri tja nezimwe. Yendeni nawa.",
+      "found": "Ehe, {name|lower} ri ngoti mo zimwe. Ozimwe zi {theme|lower}.",
+      "shown": "Ozo ozo: {name|lower}. Ozimwe zi {theme|lower}.",
+      "hint": "Opaliro: {n} mo zi ri {theme|lower}.",
+      "others": "Ozimwe: {theme}",
+      "show": "Monena",
+      "next": "Ozonguwa zimwe"
+    },
+    "seatedToss": {
+      "guidance": "Tarakai mo etafula, mu yanuke okuningwa ombinda yoyoro mo ekuhu lonene. Komeho kakeho mo ekuhu, nomukanda nawo.",
+      "stepsHeading": "Ozo zi ya",
+      "steps": [
+        "Tanga ekuhu lokuningwa nomukanda wokuvara, u rarare etafula pokati penu.",
+        "Tarakai nawa, mumwe ko mumwe. Yanukeni rimwe rimwe, nari mu hindire mu tambe.",
+        "Ombinda rikaningwa mo ekuhu, omuntu wa ningwa ota tayi ondango imwe mo mukanda wowe, mo mutanda womuhuhu mo tete.",
+        "Mu tarakai ozi tiri pamwe mu hepa, mu kamwe. Hakuna omuntu ana ta tahana okuverenga.",
+        "Yendeni po nomuzuvakwe mu tambe ngao."
+      ],
+      "safetyHeading": "Ondirukiro",
+      "safetyLine": "Tjiva ombinda ine ekuhu rokanona nari ekaraza rokuveta, tarakai, kapi ningwa kohi yomutwe, nomukuru apo ri kure nawo. Ozondjiro ondikitu zi ri ngozo yokutingirwa.",
+      "flags": [
+        "Kapi nga 3: ozondjiro ondikitu",
+        "Hakuna kanwa"
+      ],
+      "safety": [
+        "Tjiva ombinda ine ekuhu rokanona, nari u tjivereke okasoki ketoke. Mu tarise nawa kuvesa kokuzi ngeno ouhoro, ndi kapi ko mahungu.",
+        "Ombinda, ondjiro nomaya ozo zi kanda okutingirwa. Ziherereni kure ko vana ovana nomuntu wa ngo wa ka tora kanwa.",
+        "Mu hepe pokuzari ko moko, u mu tarise nawa kuvilira ozondjiro zi kanwe.",
+        "Tarakai nawa. Ningwa ombinda ko ngeno pokaravo ko etafula, kapi kohi yomutwe."
+      ],
+      "previewLabel": "Ekuhu lokuvara: ekuhu rina omutumba ote wa ekaraza, ri na ehi lyokuzuva Pehi, Pakati na Kure, kohi yokuhaka; nokuninga pokutanda ozondango ovanene.",
+      "sheetHow": "Rarare ekuhu pokati penu. Ombinda rikaningwa mo ekuhu, tayi ondango mo mukanda wawe, mo murongo wekuhu rimwe.",
+      "rings": [
+        "Pehi",
+        "Pakati",
+        "Kure"
+      ],
+      "people": [
+        "Omuntu wotete",
+        "Omuntu wokavari"
+      ],
+      "ringHeading": "Ekuhu",
+      "print": "Tanga ekuhu nomukanda wokuvara"
+    },
+    "seasonalPack": {
+      "guidance": "Hunga ombuna, u tanga ozitandu ozi tatu zomupapero, nokutambura imwe, mbari nari ozosome zosome.",
+      "monthLegend": "Hunga ombuna",
+      "months": [
+        "Ojanuari",
+        "Ofebruari",
+        "Omaci",
+        "Epurilis",
+        "Omeyi",
+        "Ojuni",
+        "Ojuli",
+        "Ogusta",
+        "Osepitemba",
+        "Oktoba",
+        "Novemba",
+        "Desemba"
+      ],
+      "monthNote": "Ombuna imwe nayo ina ozonguwa zayo. Ekuhu rokutanga rina ombuna yoyiwa, mu hunge ombuna imwe.",
+      "restDay": "Eparu ye ruhumburuko",
+      "restLine": "Hakuna ozitambo eparu. Ozuva rokuhumburuka rina wina ngao.",
+      "previewHeading": "Ozitambo ozi tatu",
+      "puzzles": {
+        "pairs": {
+          "title": "Hunga ozongwiro",
+          "how": "Tara ongwa imwe ya murongo wokutotoka kongwa imwe ya murongo wokuvarika.",
+          "describe": "Imirongo ivari yezonguwa ine zimwe, mo mbango ezi ngwa."
+        },
+        "different": {
+          "title": "Ngwa ipi i tja kuvamwe?",
+          "how": "Kandeka ongwa i tja kuvamwe nezi zitatu zimwe.",
+          "describe": "Murongo wozonguwa ine. Ezitatu zina zimwe, nerimwe ri tja kuvamwe."
+        },
+        "color": {
+          "title": "Pakanenisa",
+          "how": "Pakanenisa ongwa mo ndjira yoye yoyiwa, ko mapenseru nari nomakarayo.",
+          "describe": "Ongwa imwe inene yo pakanenisa."
+        }
+      },
+      "print": "Tanga oruhaka rombuna eyi",
+      "sheetHow": "Tanga ekuhu rimwe. Yenda ozitambo zimwe, mbari nari zitatu, mo ngwa yoyiwa.",
+      "printFooter": "Yenda imwe, mbari nari zitatu. Yemeneni ngao mo mwakaruvara."
+    },
+    "decorateACard": {
+      "guidance": "Hunga ondjuwo, u pakanenise ekadi komwe nomapenseru nari mapene. Hakuna ekadi rina nawa.",
+      "occasionLegend": "Hunga ondjuwo",
+      "occasions": {
+        "birthday": {
+          "label": "Ozuva ryorizari",
+          "words": "Ozuva rorizari rihehe"
+        },
+        "thank-you": {
+          "label": "Ondumbu",
+          "words": "Ndumbu"
+        },
+        "thinking-of-you": {
+          "label": "Ndi ku kuranda",
+          "words": "Ndi ku kuranda"
+        },
+        "new-season": {
+          "label": "Ombuna yoyiwa",
+          "words": "Ombuna yoyiwa"
+        },
+        "just-because": {
+          "label": "Ondjira",
+          "words": "Ondjira"
+        }
+      },
+      "stepsHeading": "Ozo zi ya kupakanenisa komwe",
+      "steps": {
+        "fold": "Tanga ekadi u rifume pokati pomurongo wokuhasa, opo ekuhu rirye riri kunze.",
+        "front": "Omuntu umwe ta pakanenisa ekuhu rokuhepa, kohi yomazambo.",
+        "inside": "Omuntu wokavari ta pakanenisa ekuhu rokuvinda, nari mu yanuke mo ekuhu rimwe.",
+        "message": "Tara ondjiro pamwe. Omumwe ota tara, omumwe ota yanukire.",
+        "stop": "Yemeneni ngao mo mwakaruvara. Hakuna ekadi rina nawa, nekadi rihehe rina rikarinde."
+      },
+      "materials": "Tarakai nomakarayo, mapenseru ondjiro nari mapene. Hakuna okuhasa, okuruvara nari okuparika.",
+      "previewLabel": "Okaposa kekadi rifumwa pokati. Ekuhu rina {words}, nomurongo wowiri nomakuti ozonyanga. Ekuhu rokuvinda rina ozongwiro zondjiro, na ekuhu lokuti Ovanene.",
+      "from": "Ovanene",
+      "sheetHow": "Pinda ekaarte kombinga yomutjira ngwa kuromba, ekumbo lyarikara ungaho. Handja omushango kombinga yomuvayo.",
+      "rulesHeading": "Ovanthu vavali",
+      "sheetRules": [
+        "Yandja ondjira, nale mwa tjandja omulimo: omuntu omwe ahoroka ekumbo lyekaarte, omuvi ahoroka omuvayo.",
+        "Handja omushango pamwe, nale omuntu omwe ahandja ozo ta popia omuvi.",
+        "Omuntu ngoye ta vaka okuyimba. Kakuna ekaarte ya tjiwa."
+      ],
+      "print": "Prinda ekaarte"
+    },
+    "storyDice": {
+      "guidance": "Tara ozombua noku hunga ondaneno kuzo, ondjira yoyoyose. Kakuna ondaneno ya tjiwa.",
+      "countLegend": "Ozombaha zongapi",
+      "count": "{n} ozombaha",
+      "roll": "Yandja zumuka",
+      "pass": "Ndjahuka",
+      "passed": "Okundjahuka kwa vi. Omuntu wotjiveri a nga okutanga, nale mu nga okuyandja zumuka.",
+      "rolled": "Ozombua ozopya: {names}.",
+      "tapped": "{name}. Tanga nayo, nale nondjira ilwe."
+    },
+    "wordPicture": {
+      "guidance": "Pandja ozombua, nokupita ondjovi ye ri nayo. Nale pandja ondjovi, nokupita ozombua zayo.",
+      "countLegend": "Ozombua zongapi",
+      "count": "{n} ozombua",
+      "picturesGroup": "Ozombua",
+      "wordsGroup": "Ondjovi",
+      "readWord": "Ri nokuyuva: {name}",
+      "next": "Ozombua ozopya",
+      "putBack": "Yandja mo pevi",
+      "pickWord": "Tuu pandja ondjovi ye ri nayo.",
+      "pickPicture": "Tuu pandja ozombua ze ri nazo.",
+      "fit": "Eee, ondjovi oyo ye ri nomukara wa {name|lower}.",
+      "newSet": "Ozombua ozopya ozo ozoyi.",
+      "restarted": "Tuu kOtanga. Ozombua zoge nondjovi zoge zi hambeka.",
+      "restored": "Yandjwa mo pevi. Ozombua nondjovi zi ya ahihi okulongwa.",
+      "all": "Ondjovi yoge ina ozombua zayo."
+    },
+    "colorMatch": {
+      "guidance": "Tara ekara nelina lyaro, nokupita ozombua zoge zi ekara ryo.",
+      "target": "Ekara ndyo {color|lower}. Pandja ozombua zoge zi {color|lower}.",
+      "countLegend": "Ozombua zongapi",
+      "count": "{n} ozombua",
+      "found": "Eee, {name|lower} ya {color|lower}.",
+      "named": "{name|lower} ya {color|lower}.",
+      "all": "Ozo ozo zoge ozombua ze {color|lower}.",
+      "shown": "Ozo ozombua ze {color|lower}.",
+      "show": "Ndiza",
+      "next": "Ekara lipya",
+      "names": {
+        "red": "Rooi",
+        "orange": "Oranje",
+        "yellow": "Geel",
+        "green": "Groen",
+        "blue": "Blou"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Pandja ehanda lo ku mbo, nokupita ehanda lo ku ritja ilo li kara nalo.",
+      "countLegend": "Ozombua zongapi",
+      "count": "{n} ozombua",
+      "leftGroup": "Omahanda omo ku mbo",
+      "rightGroup": "Omahanda omo ku ritja",
+      "left": "Ehanda lo ku mbo lya {name|lower}",
+      "right": "Ehanda lo ku ritja lya {name|lower}",
+      "joined": "Ya kumana",
+      "pickRight": "Tuu pandja ehanda lo ku ritja ilo li kara nalo.",
+      "pickLeft": "Tuu pandja ehanda lo ku mbo ilo li kara nalo.",
+      "fit": "Eee, mahanda ayo womambili ya kara {name|lower}.",
+      "apart": "Mahanda ayo kae ya kara pamwe. Pandja lingwe.",
+      "all": "Ozombua zoge zi kara zi yipala.",
+      "shown": "Ozombua ozi, zi kumanenwa.",
+      "show": "Ndiza",
+      "next": "Ozombua ozopya"
+    },
+    "colorByNumber": {
+      "guidance": "Pandja ekara mo kiyanda kyekara, nokuvaka etanda nalyo. Ekara ndyoyose ya vaka.",
+      "sizeLegend": "Osayizi yegriti",
+      "size": "{n} na {n}",
+      "keyLegend": "Amakara",
+      "colors": [
+        "Geel",
+        "Oranje",
+        "Groen",
+        "Pers"
+      ],
+      "motifs": {
+        "house": "ondjuwo",
+        "flower": "ehoro",
+        "heart": "omutima",
+        "tree": "omuti",
+        "boat": "ongalawa",
+        "pot-plant": "ehoro mu kiyanda"
+      },
+      "region": "Ongolo yozombuna, {n} na {n}. Ihi ya kwatwa kombinga ngeyi ondjara yi ni yembo.",
+      "cell": "Nomba {number}, omushiwe {row}, omukwao {column}, {color}",
+      "empty": "kakuna kanu",
+      "chose": "{name} yapandwa. Pandja etanda mo ri vake.",
+      "painted": "{name} mu mushiwe {row}, omukwao {column}.",
+      "sheet": "Etanda ndyoyose ri na ekara lya nomba yaro. Ii ongu yomuzumbuluko: {name}.",
+      "own": "Etanda ndyoyose ri vakwa. Ii ozombuna zoye.",
+      "fillAll": "Vaka nenomba",
+      "filledAll": "Etanda ndyoyose rakara nekara lya nomba yaro.",
+      "clear": "Yamakanya",
+      "cleared": "Ongolo ya yamakanyiwa.",
+      "next": "Ozombuna ozopya",
+      "fresh": "Ii ozombuna ozopya zo kuvaka ekara."
+    },
+    "patternMaker": {
+      "guidance": "Pandja etanda ri vake ekara lyaro. Omuvaka woye ouhora kombinga yaro. Kakuna ko ya tjivisa ya kapiwa nangu ya tindirwa.",
+      "sizeLegend": "Osayizi yekaka",
+      "size": "{n} na {n}",
+      "keyLegend": "Amakara, mokuyandwa okupandja kwayo",
+      "colors": [
+        "Geel",
+        "Oranje",
+        "Groen",
+        "Pers"
+      ],
+      "tileLabel": "Ekaka lyove",
+      "region": "Ekaka lyove, {n} na {n}. Ihi ya kwatwa kombinga ngeyi ondjara yi ni yembo.",
+      "patternLabel": "Omuvaka wove",
+      "pattern": "Omuvaka wove: ekaka lyove li hindwa {n} kombinga yomukwao na {n} kombinga yokoto.",
+      "square": "Omushiwe {row}, omukwao {column}, {color}",
+      "changed": "Omushiwe {row}, omukwao {column} ya kara {color}.",
+      "cleared": "Ekaka ya yamakanyiwa. Ngu no nokuyandja.",
+      "surprise": "Ndiza ngoye",
+      "surprised": "Ii ekaka lipya. Ngu no yandja ekaka lyekongo mo pevi.",
+      "putBack": "Yandja mo pevi",
+      "restored": "Ekaka lyove lya yandwa mo pevi nomukara wa kale.",
+      "print": "Prinda omuvaka wange",
+      "sheetTitle": "Omuvaka wange"
+    },
+    "buildTogether": {
+      "guidance": "Tuu yandja ekipande mo ndaho yo kapiwa. Omuntu omwe nomuntu omwe ana ekara lye. Nangu ko vakwa nangu ko tindirwa.",
+      "sizeLegend": "Osayizi yegriti",
+      "size": "{n} na {n}",
+      "people": [
+        "Omuntu wokutanga",
+        "Omuntu wowavali"
+      ],
+      "colorLegend": "Ekara lya {person}",
+      "colors": [
+        "Geel",
+        "Oranje",
+        "Groen",
+        "Pers"
+      ],
+      "inUse": "Oyo ilongwa",
+      "turn": "Ooye oyo ondjira, {person|lower}",
+      "yourColor": "Ekara lyoye ndyo {color|lower}.",
+      "built": "Yavakwa pamwe. Ii ondjo ya vaka vavali.",
+      "gridLabel": "Ongolo yokukarwa pamwe",
+      "region": "Ongolo yokukarwa pamwe, {n} na {n}. Ihi ya kwatwa kombinga ngeyi ondjara yi ni yembo.",
+      "cellEmpty": "Omushiwe {row}, omukwao {column}, kakuna kanu",
+      "cellFilled": "Omushiwe {row}, omukwao {column}, {color}, a yandwa nomuntu {person|lower}",
+      "placed": "Omushiwe {row}, omukwao {column} ya kara {color}. Ooye oyo ondjira, {next|lower}.",
+      "placedLast": "Omushiwe {row}, omukwao {column} ya kara {color}. Yavakwa pamwe.",
+      "taken": "Omushiwe {row}, omukwao {column} ku na ekipande. Pandja ndaho kakuna kanu.",
+      "pass": "Ndjahuka",
+      "passed": "Okundjahuka kwa vi. Ooye oyo ondjira, {person|lower}.",
+      "takeBack": "Tura mo ekipande kokumanyuka",
+      "takeBackPass": "Tura mo okundjahuka kokumanyuka",
+      "tookBack": "Ekipande kya turwa mo. Ooye oyo ondjira, {person|lower}.",
+      "tookBackPass": "Okundjahuka kwa turwa mo. Ooye oyo ondjira, {person|lower}.",
+      "colorChanged": "{person} ota ekara {color|lower} ngoye.",
+      "restarted": "Ongolo kapwa ina kanu. Ooye oyo ondjira, {person|lower}.",
+      "print": "Prinda ongolo",
+      "sheetTitle": "Yavaka pamwe",
+      "sheetHelp": "Tuu yandja. Mo ndaho kakuna kanu, omuntu omwe ahoro omuvaro wae nekaraso lye.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Pandja ekipande, nokupita ndaho mozombuna mo kuyandwa. Kakuna ko vakwa nangu ko tindirwa.",
+      "hints": "Ndisa omitjiro yomukwatakanyo",
+      "pictureLine": "Ei ii {picture}.",
+      "pictures": {
+        "house": "ondjuwo",
+        "boat": "ongalawa",
+        "tree": "omuti",
+        "fish": "ontjuwa",
+        "cat": "ongaka",
+        "rocket": "roketi"
+      },
+      "outlineLabel": "Omukwatakanyo gwa {picture}. Pandja ndaho nokuyandja ekipande ekapandwa mu yo.",
+      "trayHeading": "Ovipande",
+      "pieces": {
+        "large-triangle": "Ondjatu nene",
+        "small-triangle": "Ondjatu nini",
+        "square": "Ekwadrado",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Rektangeli"
+      },
+      "shapes": {
+        "large-triangle": "ondjatu nene",
+        "small-triangle": "ondjatu nini",
+        "square": "ekwadrado",
+        "parallelogram": "parallelogram",
+        "rectangle": "rektangeli"
+      },
+      "chosenLabel": "Yapandwa",
+      "spaceEmpty": "Ndaho {n}, {shape}, kakuna kanu",
+      "spaceFilled": "Ndaho {n}, {shape}, ine ekipande lyayo. Pandja ukuturas ekipande mo.",
+      "chosen": "{piece} yapandwa. Ooye pandja ndaho mozombuna.",
+      "unchosen": "Ekuta kali kuhorwa nawa.",
+      "placed": "Ekuta kali mupeja {n}.",
+      "complete": "{picture} yapwa nawa.",
+      "different": "Ekuta eri ri ngaromwa nawa neupeja eri. Yendela komupeja emwe.",
+      "needPiece": "Hora ekuta kotoreya kutanga.",
+      "filled": "Mupeja eri ri na ekuta lyaro kale. Pingura ko huna ekuta.",
+      "tookBack": "Ekuta ri kotoreya kape.",
+      "cleared": "Ovikuta vyapwa kotoreya. Vi kandeke ngeyi wa ndu zemba.",
+      "restored": "Ovikuta vyapwa kepikitšure.",
+      "next": "Eyi ri {picture}.",
+      "putBack": "Kahuna nawa",
+      "another": "Ekuta ringwe",
+      "print": "Tanga ekuta eri",
+      "sheetTitle": "Ovikuta vi tjiri",
+      "sheetHow": "Tjitja ovikuta, kapa koseka vi kwate omukonde gwepikitšure. Omukuru kakwa nga okuseka.",
+      "sheetPieces": "Ovikuta, vi ri nomutiro umwe nomukonde"
+    },
+    "picnicPlanner": {
+      "guidance": "Pingura epikitšure ko isa mekarata lyapikiniki, nokupingura mekarata ko huna. Ekarata ri na motjimba.",
+      "guidancePlay": "Pingura epikitšure vali vi ri tjitjo. Ovikuta vi tara pa tjiwo, kapa hatu tara ozongeso.",
+      "basketHeading": "Ekarata retu",
+      "basketLabel": "Ekarata lyapikiniki",
+      "takeOut": "Huna {picture} mekarata",
+      "inBasket": "Mekarata",
+      "foodHeading": "Ovikurya",
+      "outingsHeading": "Ovitjiwo vokuenda",
+      "added": "{picture} ri mekarata.",
+      "removed": "{picture} ri kehe mekarata.",
+      "already": "{picture} ri mekarata kale. Pingura mekarata ko huna.",
+      "full": "Ekarata ri yuta. Huna chimwe ko yandja pe.",
+      "summary": "Pikiniki yetu: {list}.",
+      "summaryNone": "Kapa tjimwe ri mekarata nombili.",
+      "and": "ne",
+      "play": "Tu zeze nopikiniki yetu",
+      "needTwo": "Hora ovikwa vali mbanga.",
+      "playAgain": "Zeza kape",
+      "back": "Kuza kopikiniki",
+      "print": "Tanga olukonzo lwopikiniki yetu",
+      "cleared": "Ekarata rapwa rihu.",
+      "notice": "Eyi ri lipango lokurirongorera. Kapa tjimwe kandi ritjitjwa, kapa karitoroderwa.",
+      "sheetTitle": "Olukonzo lwopikiniki yetu",
+      "sheetHow": "Tjitja pokuhepa chimwe nechimwe. Nakuhuna mapyo ovyuma vimwe ngwa kuhepo, pa mapeya ari pe kantu.",
+      "sheetToPack": "Okuhepa"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Hora ofoto 2 kuza 12 yoye kutanga ongurwa.",
+      "guidance": "Pandisa epeji pamwe, nomakuhona kapa nomakwa vikangamwa kepi lyokuyambeka kombanda nokombuka. Mu nokupamwe ongambo mokuti ofoto. Kapa tjimwe kandi ritjitjwa kapa ritumwa.",
+      "lookGuidance": "Tuka epeji nepeji pamwe. Mu nokuyandja kapa kuyerera fuma.",
+      "intro": "Hora ofoto 2 kuza 12 kombelewa eyi. Ofoto imwe ri ri epeji rimwe ro ongurwa yokupandisa pamwe.",
+      "consent": "Tji ofoto yovakuruwa ayi. Yehe ngu kunyatengo ofoto yomuntu ka nga okuyandja.",
+      "privacy": "Ofoto yoye ri kombelewa eyi. Kaku tumwa kapa kakukoha.",
+      "choose": "Hora ofoto",
+      "chooseDifferent": "Hora ofoto ombwa",
+      "backToBook": "Kuza komutji",
+      "backToChoose": "Kuza kokuhora ofoto",
+      "needTwo": "Hora ofoto ombili nawa.",
+      "usingFirst": "Ku zurisa ofoto {max} zokutanga.",
+      "cleared": "Ongurwa ripwa. Hora ofoto kutanga kape.",
+      "moved": "Yendwa kepeji {n}.",
+      "pageOf": "Epeji {n} muli {total}",
+      "lookTogether": "Tuka pamwe",
+      "leaveLook": "Kuza komutji",
+      "print": "Tanga ongurwa yofoto",
+      "clear": "Huna ongurwa",
+      "bookLabel": "Ongurwa yofoto yomakuruwa",
+      "pagesLabel": "Pandisa epeji",
+      "previous": "Epeji yokombanda",
+      "next": "Epeji yokombuka",
+      "moveEarlier": "Yenda kombanda",
+      "moveLater": "Yenda kombuka",
+      "captionLabel": "Ovikwa mbwa vepeji eri, ngeyi kwa hepa",
+      "captionHelp": "Kutja kuli 80 ovitendo. Ovikwa mbwa kuli epeji eri fimbi, kapa tjimbi kopo ongurwa yapeta.",
+      "sheetTitle": "Ongurwa yetu yofoto",
+      "sheetHow": "Ofoto imwe ku epeji imwe, nomakwa mbwa pazuva. Pandisa epeji mozondondo, nokutjanga kaindi nakaindi.",
+      "sheetEmpty": "Hora ofoto yoye kepeji lyomuhoro ko hepa ongurwa yoye, kapa hepa epeji eri ikwa nokuhepa ofoto ya tangwa.",
+      "sheetFrame": "Hepa ofoto ya tangwa kuno",
+      "sheetWords": "Ovikwa mbwa vepeji eri",
+      "skipped": {
+        "one": "Ofaili {n} ka yi ofoto ya tji kukwatisa.",
+        "other": "Ovafaili {n} ka vi ofoto ya tji kukwatisa."
+      }
+    },
+    "quietScene": {
+      "guidance": "Tuka epikitšure rimwe kakwe. Pingura Ekaindi kapa Ekombanda nipo wa kwara. Kapa tjimwe kandi kakuyenda pakeho.",
+      "next": "Epikitšure rekaindi",
+      "previous": "Epikitšure rokombanda",
+      "bigPicture": "Epikitšure rinene",
+      "showEverything": "Tanga ovyoye",
+      "first": "Eyi ri epikitšure rokutanga.",
+      "last": "Eyi ri epikitšure rokuhinkona.",
+      "lines": {
+        "sunrise": "Ezuva ri pumuka kovimo.",
+        "window-with-birds": "Ovinyonyo kombanda yeenguwa.",
+        "vase-of-flowers": "Ekanda lyomaua pomesa.",
+        "teacup": "Ekopo lyotii pombanda yeenguwa.",
+        "tree": "Omurumo gu imbi mo ondjuwo.",
+        "sailboat": "Ongalawa yomuuwo pomeya.",
+        "lighthouse": "Ondjendjo yomeya.",
+        "rainbow": "Omuvero pambuka rupu.",
+        "moon": "Ekwezi mo sengepo.",
+        "daisies": "Ovipomo vyeambo mo ozonyanga.",
+        "rowing-boat": "Ongalawa yokuhahasa pomeya yakupupu.",
+        "potted-plant": "Omunda gwetunda mo ekarata."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Pingura nokuyandja. Pingura epikitšure ro kuhepa, nopingura epeya pe kantu ko isa ko. Kapa tjimwe kandi ritjitjwa kapa ritumwa.",
+      "people": [
+        "Omuntu wokutanga",
+        "Omuntu wokuvali"
+      ],
+      "marks": [
+        "ekoro",
+        "ekwadrado"
+      ],
+      "turn": "Ohuno yoye, {person|lower}.",
+      "marked": "Ovipayi vyoye vi pitwa ne {mark}.",
+      "boardLabel": "Epeya lyapamwe",
+      "placeEmpty": "Tjiwo {n}, pe kantu",
+      "placeFilled": "Tjiwo {n}, {picture|lower}, ri pwa ku {person|lower}",
+      "trayHeading": "Ovikepaki vyokuhepa",
+      "chosenLabel": "Ri horwa",
+      "chosen": "{picture} ri horwa. Pingura tjiwo ri pe kantu.",
+      "unchosen": "Ekepaki kali kuhorwa kape.",
+      "needCutout": "Hora ekepaki kutanga, nopingura tjiwo ri pe kantu.",
+      "filled": "Tjiwo {n} ri na epikitšure kale. Hora tjiwo ri pe kantu.",
+      "placed": "{picture} ri mutjiwo {n}. Ohuno yoye, {next|lower}.",
+      "full": "Tjiwo rimwe nerimwe ri na epikitšure. Huna chimwe ko yandja, kapa tanga kape.",
+      "pass": "Yenda ko",
+      "passed": "Ko yenda kuli nawa. Ohuno yoye, {person|lower}.",
+      "takeBack": "Huna ekepaki rokupeta",
+      "takeBackPass": "Huna ohuno yo kuyenda",
+      "tookBack": "Ekepaki ri hunwa. Ohuno yoye, {person|lower}.",
+      "tookBackPass": "Ohuno yo kuyenda yahunwa. Ohuno yoye, {person|lower}.",
+      "restarted": "Epeya ri pe kantu. Ohuno yoye, {person|lower}.",
+      "putBack": "Kahuna nawa",
+      "putBackDone": "Ovipayi vya zeuka pa epeya.",
+      "another": "Ongwe yovikepaki",
+      "anotherSet": "Ongwe yovikepaki ri pwa mo ekepaki. Ovipayi pa epeya vi ri po nawa.",
+      "print": "Tanga epeya",
+      "sheetTitle": "Epeya lyokuhepa",
+      "sheetHow": "Hepa epikitšure, nokuzepurisa ko tjiwa pa epeya. Omukuru kakwa nga okuhepa.",
+      "sheetTray": "Epikitšure ko hepa"
+    },
+    "gardenPlanner": {
+      "guidance": "Pingura epikitšure, kutanga pingura epeya ko isa ko. Pingura epeya ri na epikitšure, pe kantu hakuhorwa, ko huna.",
+      "bedsLabel": "Mapeya omo ondjuwo",
+      "bedEmpty": "Epeya {n}, pe kantu",
+      "bedFilled": "Epeya {n}, {picture|lower}",
+      "plantsHeading": "Omimati",
+      "extrasHeading": "Ovikwa vomondjuwo",
+      "chosenLabel": "Ri horwa",
+      "chosen": "{picture} ri horwa. Pingura epeya.",
+      "unchosen": "Kakuna epikitšure ri horwa.",
+      "needPicture": "Tjiua efano rimwe kotangi, ngunda ukonga ondanda.",
+      "planted": "{picture} ri mo ondanda {n}.",
+      "replaced": "{picture} ri ketereka efano ri li mo ondanda {n}.",
+      "cleared": "Ondanda {n} i pe nayo. Ove nga ove hende efano ndjo, mu ye ko kuyo.",
+      "restarted": "Ondanda otjiwa otja pe nayo.",
+      "putBack": "Yandjiza ko",
+      "putBackDone": "Ovifano ovi yandjizwa mondanda.",
+      "summaryHeading": "Ondanda yange",
+      "summary": "Omupango wove une {list}.",
+      "summaryNone": "Kahena efano nariyo mondanda.",
+      "and": "na",
+      "print": "Piga omupango",
+      "sheetTitle": "Omupango wetu wondanda",
+      "sheetHow": "Ondanda otja tjitwa ovifano ovi tjiuwa momutjina. Ove nga ove hende, ndjiza mondanda ontji ya pe nayo.",
+      "sheetNotes": "Omaandiko",
+      "notice": "Omupango ngwa efano wokuyandja ehoro, kahi ondjemo yokuhanda ondanda."
+    },
+    "coloringWall": {
+      "guidance": "Tjiua efano novikaate vingapi. Piga oruwa, ngunda omuntu gumwe gumwe awa ketaka epeke limwe nomakuru. Kahena nomutjingo, kahena okupeta, kahena okukarekwa.",
+      "pictureLegend": "Efano",
+      "sizeLegend": "Ovipeke vingapi",
+      "sizes": {
+        "2x2": "Ovipeke 4 (2 x 2)",
+        "3x2": "Ovipeke 6 (3 x 2)",
+        "3x3": "Ovipeke 9 (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} ri ehatwa mo ovipeke {n}, {across} kombinga nomo {down} pasi. Epeke rimwe nerimwe ri na ekaraterwa mokona yalyo.",
+      "previewCaption": "Efano nomitjiwa yovipeke nomakaraterwa ga tjitwa pari.",
+      "labelsNote": "Iitja ya enda pasi koruwa, nomanamba aenda kombinga, ngapo A1 ri ri kombinga kokukona.",
+      "wallHeading": "Ngeno ovyo okurunga oruwa",
+      "steps": [
+        "Piga ovipeke vyosi. Epeke lokutanga ri na ondjovisiso eyi nomupango woruwa.",
+        "Omuntu gumwe gumwe a tora epeke limwe nari ngunda mavi ovipeke vyokuhenda.",
+        "Ovipala navipe kahavi ngunda tjigana. Epeke rimwe nerimwe ri mokati kefano limwe.",
+        "Yandjiza ovipeke pakaraterwa kako, ngunda tjandjamina nosipara kombinga yoyo.",
+        "Yimike oruwa paha omuntu wosi a ka ta monake."
+      ],
+      "mapLabel": "Omupango woruwa: mikango {down} yovipeke {across} gumwe gumwe, kakaraterwa kuA1 kutja {last}.",
+      "edgeNote": "Omutjima gwa tjitwa ko ondunda yepeke rimwe nerimwe. Yandjiza ovipeke ndundu komutjima, nohi tjiapanga kanini.",
+      "pictureLine": "Efano: {picture}. Oruwa ndu ri ovipeke {n}: {across} kombinga nomo {down} pasi.",
+      "print": "Piga oruwa"
+    },
+    "findTogether": {
+      "guidance": "Tjitana okuvareka. Omutjingo gwove, pindura ovikaate vivali ngu wane epando. Wanenai ovipando pamwe.",
+      "sizeLegend": "Ovikaate vingapi",
+      "size": "Ovikaate {n}",
+      "viewLegend": "Okuzeza",
+      "viewShowing": "Zeza nefano rili kombinga",
+      "viewHidden": "Ovikaate ovi tjiri pasi",
+      "people": [
+        "Omuntu wokutanga",
+        "Omuntu wepili"
+      ],
+      "turn": "Omutjingo: {person}",
+      "turnDone": "Ovipando vyosi ovi wanenwa.",
+      "tally": "Ovipando ovi wanenwa pamwe: {n}",
+      "cardNamed": "{name}, ikaate {n}",
+      "cardFaceDown": "Ikaate {n}, ri pasi",
+      "first": "{name}. Ngunda pindura ikaate yepili.",
+      "found": "{name}: epando, ri wanenwa pamwe. Ngunda omutjingo gwa {next|lower}.",
+      "allTogether": "Mu wana ovipando vyosi pamwe.",
+      "different": "{a} na {b} kava tjiri ekaro limwe. Tjiuka nawa, ngunda pindura ovikaate ko.",
+      "waiting": "Pindura ovikaate ko kutja ove tjiuwa. Ngunda omutjingo gupitika.",
+      "turnedBack": "Opindurwa ko. Ngunda omutjingo gwa {person|lower}.",
+      "passed": "Okupita kwa kaonda. Ngunda omutjingo gwa {person|lower}.",
+      "turnBack": "Pindura ovikaate ko",
+      "pass": "Pita",
+      "playAgain": "Zeza vali"
+    },
+    "drawingDuet": {
+      "guidance": "Tjitana, omulongo gumwe gumwe, ngunda pitisa ondendje. Omuntu nga a ka hepa. Kahena kantu kakuyandjwa kohi. Efano rihinda ko patjiwa ngwa ukuhunga.",
+      "people": [
+        "Omuntu wokutanga",
+        "Omuntu wepili"
+      ],
+      "colorLegend": "Oruvala rwa {person}",
+      "colors": [
+        "Ongolo",
+        "Orenji",
+        "Ongoro",
+        "Ondjuru"
+      ],
+      "turn": "Omutjingo gwa {person}",
+      "penColor": "Oruvala rwondendje: {color}.",
+      "canvasLabel": "Efano lokuhenda pamwe, mirongo {n} tjiri ko",
+      "canvasLabelOne": "Efano lokuhenda pamwe, longo {n} tjiri ko",
+      "keys": "Iitja lyokuvandjandja zumba kaampunga yondendje pefano. Space oyi tjandama ondendje pasi nokuhinda.",
+      "penDown": "Ondendje pasi",
+      "penUp": "Ondendje kombinga",
+      "pass": "Pitisa ondendje",
+      "passed": "Okupita kwa kaonda. Omutjingo wove, {person|lower}.",
+      "takeBack": "Kanda longo lyange lyokumanana",
+      "tookBack": "Longo lyokumanana lya {person|lower} lyakandwa.",
+      "noLine": "Kahena longo lya {person|lower} lyokukanda.",
+      "restarted": "Epepa lyopaha. Omuntu wokutanga ena omutjingo. Ndjiza ko, nga ove mbu ga ka hepa.",
+      "putBack": "Yandjiza ko",
+      "restored": "Ovilongo vyo ndjiza ko monga vyari.",
+      "save": "Hinda efano",
+      "saved": "Efano lyove lyo tjiuwa. Tjandama elinki lyokuhandisa kutja ri kare kombinga yeyi.",
+      "download": "Handisa drawing-duet.png",
+      "print": "Piga efano lopepa",
+      "sheetTitle": "Efano lokuhenda pamwe",
+      "paperRules": "Ovantu vavali, epepa limwe, ondendje mbiri. Tjitana: longo limwe nolimwe, ngunda pitisa ondendje. Omuntu nga a ka hepa. Kahena efano lirikutja ririmwe."
+    },
+    "colorWash": {
+      "guidance": "Mu piga oruvala rutjuu mepepa, rimwe nerimwe. Kanda oburasi kutja ku kome, ngunda kuhepa ndi ove tjiapanga. Kahena kantu kakapikwa kohi.",
+      "colorLegend": "Oruvala rwokupiga",
+      "sizeLegend": "Obuto bwoburasi",
+      "colors": [
+        "Ongolo",
+        "Orenji",
+        "Ongoro",
+        "Ondjuru"
+      ],
+      "sizes": {
+        "wide": "Ombuto",
+        "veryWide": "Ombuto wokuhandjira"
+      },
+      "color": "Oruvala rwokupiga: {color}.",
+      "brushDown": "Oburasi pasi",
+      "brushUp": "Oburasi kombinga",
+      "keys": "Iitja lyokuvandjandja zumba oburasi pepepa. Space oyi tjandama oburasi pasi nokuhinda.",
+      "canvasLabel": "Epepa lyokupiga oruvala rutjuu",
+      "fresh": "Epepa lipya",
+      "freshMessage": "Epepa lipya.",
+      "putBack": "Yandjiza ko",
+      "restored": "Epepa ro ndjiza ko."
+    },
     "sortTogether": {
       "guidance": "Toroma otjisano, nu o toroma otjimbale tji tji ku roole.",
       "restart": "Ovisano ovipe",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} matji i motjimbale tjo \"{basket}\". Toroma otjimbale ho oku tji twa mo.",
       "placed": "{name|lower} tji ri motjimbale tjo \"{basket}\".",
       "sorted": "Avihe vya pangwa pamwe. Tarere momazimbale amwe nu, poo mu toore epango epe.",
+      "largerTargets": "Ovipeke ovinene",
+      "largerOn": "Ovipeke ovinene oku ri mokuzeza. Kahena kantu kakandjama.",
+      "largerOff": "Ovipeke ovinene kayi ri mokuzeza. Kahena kantu kakandjama.",
+      "largerOnNewRound": "Ovipeke ovinene oku ri mokuzeza, naovikapa vivali. Nena ovifano ovipya okuyandjanisa.",
       "basket": {
         "one": "Otjimbale tjo {basket}, mu na otjisano {count}",
         "other": "Otjimbale tjo {basket}, mu novisano {count}"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Toroma oruhanda rumwe, o toroma arwe. Mave pingene po.",
-      "restart": "Pikisa rukwao",
+      "restart": "Mix up again",
       "pictureLegend": "Otjisano",
       "pictures": {
         "sailboat": "Owatjimbwembwe",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Otjisano atjihe tja pongoka: {name}",
       "guideText": "Ihi otjo muano otjisano tji tji munika tji tja pwa.",
+      "ownChoose": "Shuna efano lyange",
+      "ownChange": "Tora efano lipe",
+      "ownBack": "Ndjiza kovifano vetu",
+      "ownPrivacy": "Efano lyove ri mo sigo ndjo, kahiri tjandjwa kombinga kahi kare.",
+      "ownConsent": "Shuna ovifano vyove. Uza omuntu ngu a ka hepa, nga hi ka zi hi nene efano lye.",
+      "ownWorking": "Otjo tjiuwa efano lyove.",
+      "ownNotUsable": "Efaela kahi ri tjiuwa. Tora efaela lyefano, ngaka JPEG nopNG.",
+      "ownAlt": "Efano lyove",
+      "ownPiece": "Ekandu {n}, {place}",
+      "ownWhole": "Efano lyove ri pa wa. Ngunda ri tjandjamina ovi tjiapanga.",
+      "ownSheetTitle": "Efano lyove mo makandu",
+      "ownSheetHow": "Tjeka pomutjima. Tjandjamina makandu, ngunda shendja makandu mavali komutwe, kutja efano ri wa.",
       "piece": "Oruhanda rwo {place}",
       "pieceInPlace": ", ru ri pomahina maro omusemba",
       "piecePickedUp": ", rwa toorwa",
@@ -122,7 +786,7 @@
         "kehi komurungu wonene"
       ],
       "done": "Otjisano tja pwa nawa. Nyanda rukwao poo suva kakatiti.",
-      "playAgain": "Pikisa rukwao"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Leseye ohorangi pamwe, o toroma embo ndi mari mane ohorangi ndjo.",
@@ -190,6 +854,14 @@
       "guidance": "Lesa okaara mokule. Kakuna ombatero ya posoka.",
       "position": "Okaara {n} mo {total}",
       "themeLegend": "Epango",
+      "showPrompt": "Zeza ekambo lokutjitana",
+      "bigPicture": "Efano linene, lokuzeza kovantu vanene",
+      "passNote": "Omuntu nga a ka hepa.",
+      "groupTitle": "Okuyandjisa ikaate kovantu vanene",
+      "groupSit": "Tjitana muruwa, paha omuntu wosi a mona efano. Omuntu ena ikaate, nari echi ena efano linene, ngwa koka ekambo kotjingwe.",
+      "groupPass": "Ngunda yandjisa ikaate komuntu ngu a tjitwa. Omuntu gumwe gumwe a lapa ekambo limwe nari eyambo limwe kombinga yefano, ngunda a yandja.",
+      "groupNoSpeech": "Okuyandja ikaate kahena ohetwa. Omuntu nga a ka hepa kakunu ekambo, kahena ngu a ka hetekwa ondjovisiso.",
+      "groupEnd": "Okuhinga kwa kwatha kongambo, ngaambo kendjuka omuhuna wa ngoro ohwe. Kapa omuntu wa wina. Kuimana ngwa nondjiwa ngwe pe nondjiwa mbu ove wa yandja.",
       "next": "Okaara tji tja landako",
       "previous": "Okaara tji tja ziko",
       "print": "Tjanga otuara atuhe kombapira",
@@ -252,6 +924,20 @@
       "started": "Twa utu. Huura mo indu otjiyingo tji matji kuru.",
       "stopped": "Kwe zikama.",
       "finished": "Oyo ya ri omihuuro ihamboumwe omiporote. Utisa rukwao indu tji mo vanga."
+    },
+    "storyChain": {
+      "guidance": "Mu tambulana: 1 onyaniko yomuhuna, mu yandjise ofoto yomaiko.",
+      "passNote": "Tja onyaniko yoye nondjiwa. Kakuna kunyorwa nari kukarwa. Omuntu wa wina ngwe a yandja kusha.",
+      "chainLabel": "Ongambo yopo",
+      "item": "Ofoto {n}: {name}",
+      "add": "Yandjisa ofoto",
+      "fullAdd": "Ongambo ye yuzu. Tangisa ongambo yomupya",
+      "newChain": "Tangisa ongambo yomupya",
+      "takeOff": "Zuvisa oyo yomakuru",
+      "added": "{name|lower} ya kura mokuhepeka kongambo.",
+      "removed": "{name|lower} kaya tjitwa kongambo.",
+      "fresh": "Ongambo yomupya, ya tangisa nou {name|lower}.",
+      "full": "Ongambo ine ofoto 8 nawa. Hindura onyaniko yonuwo, nari tangisa ongambo yomupya."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Ekumbakumba",
     "snowflake": "Okakoko",
     "kite": "Okabapira",
-    "sunrise": "Okupiti keyuva kozondundu"
+    "sunrise": "Okupiti keyuva kozondundu",
+    "decorated-keepsake-box": "Ombokisi yokupamba yokuyandja",
+    "painted-plant-pot": "Ombunga yokupakwa ine omakaraha",
+    "repeating-pattern-sheet": "Epepa lomadakaro omapiti",
+    "music-drawn-lines": "Omitunda yokudjuhwa komuziki",
+    "paper-boat-afloat": "Ondato yepapa ilipo kombe",
+    "folded-towel-stack": "Ozondambo zomatawuro ozotjipwa",
+    "hand-massage-with-lotion": "Oruhoko rupumbwa nomafuta",
+    "open-photo-album": "Ombuku yofoto eyeyiwa",
+    "button-flower-card": "Ekuwa lomahoko pokadi",
+    "blue-torn-paper-collage": "Ekapo lepapa ondjuva eyeyapwa",
+    "family-tree-of-hands": "Omuti wovakwetu wamahoko",
+    "open-greeting-card": "Kaadi yokupengura ine ombo",
+    "lavender-sachet": "Ontjiputu yolavenda ine ombwa",
+    "memory-collage-of-photos": "Ekapo lofoto yovakwetu",
+    "paper-chain-garland": "Oruhapa rwepapa",
+    "open-songbook-with-notes": "Ombuku yoyimbo ine omanota",
+    "photo-postcard-with-stamp": "Kaadi yofoto ine sitempa",
+    "pine-cone-bird-feeder": "Ondongo yepine ilo tuma kuomuti",
+    "playlist-phone-and-card": "Efoni nokaadi yoyimbo",
+    "sealed-rice-shaker": "Ondjondo yomaputu yokuhuruka",
+    "texture-board-with-scraps": "Epoti lomadapo nemahuwa",
+    "painted-garden-stone": "Ejiwe ryokupakwa mo ongaro",
+    "shared-painted-canvas": "Ekapo lokupakwa lyakuhepa",
+    "watercolor-washes-sheet": "Epepa lokupakwa nomeva",
+    "seedling-in-pot": "Omasinza mombunga",
+    "pressed-leaves-in-book": "Omahiri omapindjwa mombuku",
+    "printed-leaves-sheet": "Epepa lomahiri yokuhurwa",
+    "pinch-pot-clay-bowl": "Ombunga yekongo yokukanda",
+    "table-sketch-pencil": "Ekanda lokuhinga kokakese",
+    "buttons-in-muffin-tin": "Omahoko mombunga yokuvika",
+    "family-recipe-book": "Buku yokudya yovakwetu",
+    "drum-with-beat-marks": "Ngoma nomasiki",
+    "torn-paper-flower": "Ekuwa lepapa lyokudjupwa",
+    "window-with-birds": "Ondirisa nozonyuni",
+    "woven-paper-mat": "Ekuru lepepa lyokulukwa",
+    "yarn-ball-with-thread": "Ombunda youzi ine onduvo",
+    "letter-and-envelope": "Ebaruwa mokavindo"
   },
   "content": {
     "wordSearch": {
@@ -647,7 +1370,7 @@
         {
           "theme": "seasons",
           "picture": "tree",
-          "prompt": "Otjikeṋa tji mu tji tjata indu omawi tji maye yuruka?"
+          "prompt": "What do you enjoy about the fall?"
         },
         {
           "theme": "seasons",
@@ -765,6 +1488,17 @@
             "Mouyenda"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Omahumbu",
+        "animals": "Ozombwa",
+        "travel": "Ozo yokuyenda",
+        "flowers": "Omaruwa",
+        "hot-drinks": "Ovinyo vokupisa",
+        "weather": "Ozomarikiro womeya",
+        "baked": "Ozoko yomuriro"
       }
     }
   }

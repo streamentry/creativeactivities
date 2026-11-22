@@ -21,6 +21,6 @@ describe('WordAndPicturePairs', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'word-and-picture-pairs').ui.wordPicture.next).toBe('New pictures');
+    expect(playProps('xx', 'word-and-picture-pairs').ui.wordPicture.next).toBe('New pictures');
   });
 });

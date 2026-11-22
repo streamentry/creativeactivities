@@ -5,6 +5,13 @@
       "stopReading": "Itigil ang pagbasa",
       "region": "Laro",
       "restart": "Magsimulang muli",
+      "rest": "Magpahinga muna",
+      "restingTitle": "Nagpapahinga",
+      "restingText": "Magpahinga hangga't kailangan ninyo. Nakalaan ang inyong puwesto sa pahinang ito.",
+      "resume": "Ituloy",
+      "placeText": "Huminto kayo sa kalagitnaan noong huli. Ituloy mula roon, o magsimulang muli.",
+      "placeResume": "Ituloy",
+      "placeFresh": "Magsimulang muli",
       "soundOn": "Naka-on ang mahihinang tunog",
       "soundOff": "Naka-off ang mahihinang tunog",
       "done": "Tapos na muna",
@@ -43,7 +50,19 @@
       "viewShowing": "Nakikita ang mga larawan",
       "viewHidden": "Nakatagong larawan",
       "playAgain": "Maglaro muli gamit ang mga bagong larawan",
-      "talk": "Pag-usapan nang magkasama ang mga larawan"
+      "talk": "Pag-usapan nang magkasama ang mga larawan",
+      "modeLegend": "Aling mga larawan",
+      "modePlay": "Anumang larawan",
+      "modeDaily": "Kard ngayong araw",
+      "dayLegend": "Aling araw",
+      "dayHelp": "Pareho ang mga larawan para sa lahat sa parehong araw. Nandito rin ang alinmang nakaraang araw, at walang kapalit kung lalaktawan ang isang araw.",
+      "guidanceDaily": "May apat na pares ang kard ngayong araw. I-tap ang isang larawan, pagkatapos i-tap ang katugmang larawan.",
+      "restartDaily": "Simulan muli ang kard na ito",
+      "copy": "Kopyahin ang linyang ito",
+      "copied": "Nakopya na. Walang ipinapadala kahit saan.",
+      "calendarTitle": "Mga kard ngayong araw, {month}",
+      "calendarHelp": "Bawat araw ay may parehong apat na larawan para sa lahat. Walang iniskor, at walang araw na minamarkahang nalampasan.",
+      "calendarVersion": "Bersyon {date}. Pareho ang mga larawan para sa lahat sa parehong araw."
     },
     "choose": {
       "countLegend": "Ilang larawan",
@@ -62,6 +81,635 @@
       "shadowAlt": "Anino na itutugma",
       "foundAlt": "Anino ng {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Mga pahiwatig",
+      "hintOn": "Pahiwatig pagkatapos ng sandaling pahinga",
+      "hintOff": "Walang pahiwatig",
+      "guidance": "Hanapin ang {n} larawang magkakasama, at i-tap ang bawat isa.",
+      "countLegend": "Ilang larawan",
+      "count": "{n} na larawan",
+      "found": "Oo, ang {name|lower} ay kabilang sa grupong ito.",
+      "elsewhere": "Ang {name|lower} ay kasama ng iba. Dahan-dahan lang.",
+      "hint": "Isang pahiwatig: hanapin ang {theme|lower}.",
+      "together": "Magkakasama ang mga ito: {theme}.",
+      "shown": "Ito ang grupo: {theme}.",
+      "groupName": "Magkakasama: {theme}",
+      "show": "Ipakita ang grupo",
+      "next": "Ibang set"
+    },
+    "oddOneOut": {
+      "hintLegend": "Mga pahiwatig",
+      "hintOn": "Pahiwatig pagkatapos ng sandaling pahinga",
+      "hintOff": "Walang pahiwatig",
+      "guidance": "Hanapin ang larawang hindi bagay sa iba, at i-tap ito.",
+      "countLegend": "Ilang larawan",
+      "count": "{n} na larawan",
+      "belongs": "Ang {name|lower} ay kasama ng iba. Dahan-dahan lang.",
+      "found": "Oo, ang {name|lower} ang hindi bagay. Ang iba ay {theme|lower}.",
+      "shown": "Heto: ang {name|lower}. Ang iba ay {theme|lower}.",
+      "hint": "Isang pahiwatig: {n} dito ay {theme|lower}.",
+      "others": "Ang iba: {theme}",
+      "show": "Ipakita sa akin",
+      "next": "Ibang set"
+    },
+    "seatedToss": {
+      "guidance": "Umupo sa mesa at magpalitan sa paghagis ng malambot na bean bag sa malaking target. Itala ang puntos sa papel, nang magkasama.",
+      "stepsHeading": "Paano ito gagawin",
+      "steps": [
+        "I-print ang target at ang tally sheet, at ilatag ito nang patag sa mesa sa pagitan ninyo.",
+        "Umupo nang komportable, isa sa bawat gilid. Magpalitan sa isang mahinahong hagis bawat isa, o lumaktaw kung mas gusto ninyo.",
+        "Kapag tumama ang hagis sa isang singsing, lagyan ng tsek ng taong naghagis ang isang kahon sa kanyang hanay, sa hilera ng singsing na iyon.",
+        "Tingnan nang magkasama ang mga tsek kapag tumigil kayo, kung gusto ninyo. Walang kailangang magdagdag ng anuman.",
+        "Huminto kahit kailan handa na ang sinuman."
+      ],
+      "safetyHeading": "Kaligtasan",
+      "safetyLine": "Gumamit lamang ng bag na tahi ang takip o gulong medyas, manatiling nakaupo, huwag kailanman ihagis patungo sa mukha, at panatilihin ang isang nasa hustong gulang sa malapit. Mapanganib na mabulunan sa maliliit na bahagi.",
+      "flags": [
+        "Hindi para sa wala pang 3 taong gulang: maliliit na bahagi",
+        "Ilayo sa bibig"
+      ],
+      "safety": [
+        "Pumili ng bean bag na may takip na tahi, o gulungin ang isang malinis na medyas. Suriin muna kung may butas o maluwag na tahi, para walang punong lumabas.",
+        "Ang mga bean, bigas at iba pang maliliit na pamuno ay mapanganib na mabulunan. Ilayo ang mga ito sa maliliit na bata at sa sinumang naglalagay ng bagay sa bibig.",
+        "Manatili sa abot ng braso at bantayan nang mabuti kung may posibilidad na mailagay sa bibig ang anuman.",
+        "Manatiling nakaupo. Ihagis nang marahan at mababa patungo sa target sa mesa, huwag kailanman patungo sa mukha."
+      ],
+      "previewLabel": "Ang naka-print na papel: isang target na may tatlong singsing na pinangalanang Malapit, Gitna at Malayo, mula sa labas papasok, at isang tally na may hanay para sa bawat tao at hilera ng walang lamang kahon para sa bawat singsing.",
+      "sheetHow": "Ilatag nang patag ang papel sa pagitan ninyo. Kapag tumama ang hagis sa isang singsing, lagyan ng tsek ang isang kahon sa inyong hanay, sa hilera ng singsing na iyon.",
+      "rings": [
+        "Malapit",
+        "Gitna",
+        "Malayo"
+      ],
+      "people": [
+        "Unang tao",
+        "Ikalawang tao"
+      ],
+      "ringHeading": "Singsing",
+      "print": "I-print ang target at ang tally sheet"
+    },
+    "seasonalPack": {
+      "guidance": "Pumili ng buwan, i-print ang tatlong papel na puzzle nito, at gawin ang isa, dalawa o lahat ng tatlo nang magkasama.",
+      "monthLegend": "Pumili ng buwan",
+      "months": [
+        "Enero",
+        "Pebrero",
+        "Marso",
+        "Abril",
+        "Mayo",
+        "Hunyo",
+        "Hulyo",
+        "Agosto",
+        "Setyembre",
+        "Oktubre",
+        "Nobyembre",
+        "Disyembre"
+      ],
+      "monthNote": "May sariling mga larawan ang bawat buwan. Ang pahina ay magbubukas sa buwang ito, at maaari kayong pumili ng alinmang iba.",
+      "restDay": "Araw ng pahinga ngayon",
+      "restLine": "Walang puzzle ngayon. Magandang araw din ang araw ng pahinga.",
+      "previewHeading": "Ang tatlong puzzle",
+      "puzzles": {
+        "pairs": {
+          "title": "Pagtugmain ang mga pares",
+          "how": "Gumuhit ng linya mula sa bawat larawan sa itaas na hilera patungo sa parehong larawan sa ibabang hilera.",
+          "describe": "Dalawang hilera ng parehong apat na larawan, sa magkaibang ayos."
+        },
+        "different": {
+          "title": "Alin ang iba?",
+          "how": "Bilugan ang larawang iba sa tatlong iba pa.",
+          "describe": "Isang hilera ng apat na larawan. Tatlo ang magkakapareho, at isa ang iba."
+        },
+        "color": {
+          "title": "Kulayan ito",
+          "how": "Kulayan ang larawan ayon sa gusto ninyo, gamit ang krayola o lapis.",
+          "describe": "Isang malaking larawang kukulayan."
+        }
+      },
+      "print": "I-print ang pack ng buwang ito",
+      "sheetHow": "I-print ang isang pahina. Gawin ang isa, dalawa o lahat ng tatlong puzzle, sa anumang pagkakasunod-sunod.",
+      "printFooter": "Gawin ang isa, dalawa o lahat ng tatlo. Huminto kahit kailan ninyo gusto."
+    },
+    "decorateACard": {
+      "guidance": "Pumili ng okasyon, pagkatapos ay palamutian nang magkasama ang isang kard gamit ang krayola o panulat. Walang tamang kard.",
+      "occasionLegend": "Pumili ng okasyon",
+      "occasions": {
+        "birthday": {
+          "label": "Kaarawan",
+          "words": "Maligayang kaarawan"
+        },
+        "thank-you": {
+          "label": "Salamat",
+          "words": "Salamat"
+        },
+        "thinking-of-you": {
+          "label": "Iniisip kayo",
+          "words": "Iniisip kayo"
+        },
+        "new-season": {
+          "label": "Bagong panahon",
+          "words": "Bagong panahon"
+        },
+        "just-because": {
+          "label": "Basta lang",
+          "words": "Basta lang"
+        }
+      },
+      "stepsHeading": "Paano palamutian nang magkasama",
+      "steps": {
+        "fold": "I-print ang kard at tupiin ito sa kalahati sa kahabaan ng may tuldok na linya, para nasa labas ang harapan.",
+        "front": "Isang tao ang nagpapalamuti sa harapan, sa paligid ng mga salita.",
+        "inside": "Ang kabilang tao ang nagpapalamuti sa likod, o magpalitan kayo sa isang gilid.",
+        "message": "Sumulat ng mensahe nang magkasama. Maaaring sumulat ang isa habang sinasabi ng isa ang mga salita.",
+        "stop": "Huminto kahit kailan ninyo gusto. Walang tamang kard, at ang simpleng kard ay kasing ganda rin."
+      },
+      "materials": "Gumamit ng krayola, kulay na lapis o felt-tip na panulat. Walang kailangang gupitin, idikit o itapal.",
+      "previewLabel": "Preview ng kard na tinupi sa kalahati. Ang harapan ay may nakasulat na {words}, na may simpleng balangkas ng dahon at bituin. Ang likod ay may mga linya para sa mensahe at isang linya para sa Mula kay.",
+      "from": "Mula kay",
+      "sheetHow": "Tupiin ang card sa kalahati sa kahabaan ng putol-putol na linya, nasa labas ang harap. Isulat ang mensahe sa likod.",
+      "rulesHeading": "Para sa dalawang tao",
+      "sheetRules": [
+        "Magpalitan kayo, o hatiin ang gawain: ang isa ang magdedekorasyon sa harap, ang isa naman sa likod.",
+        "Sabay ninyong isulat ang mensahe, o ang isa ang magsusulat ng sinasabi ng isa.",
+        "Puwedeng huminto ang sinuman anumang oras. Walang tamang card."
+      ],
+      "print": "I-print ang card"
+    },
+    "storyDice": {
+      "guidance": "Tingnan ang mga larawan at magkuwento gamit ang mga ito, sa anumang pagkakasunod-sunod. Walang tamang kuwento.",
+      "countLegend": "Ilang dice",
+      "count": "{n} dice",
+      "roll": "Ihagis muli",
+      "pass": "Lumaktaw",
+      "passed": "Ayos lang ang lumaktaw. Puwedeng magsimula ang susunod na tao, o puwede ninyong ihagis muli.",
+      "rolled": "Mga bagong larawan: {names}.",
+      "tapped": "{name}. Simulan ninyo sa isang ito, o sa iba pa."
+    },
+    "wordPicture": {
+      "guidance": "Pindutin ang isang larawan, tapos ang salitang tumutukoy dito. O pindutin ang isang salita, tapos ang larawan nito.",
+      "countLegend": "Ilang larawan",
+      "count": "{n} larawan",
+      "picturesGroup": "Mga larawan",
+      "wordsGroup": "Mga salita",
+      "readWord": "Basahin nang malakas: {name}",
+      "next": "Mga bagong larawan",
+      "putBack": "Ibalik",
+      "pickWord": "Ngayon, pindutin ang salitang bagay dito.",
+      "pickPicture": "Ngayon, pindutin ang larawang bagay dito.",
+      "fit": "Oo, bagay sa {name|lower} ang salitang iyon.",
+      "newSet": "Narito ang bagong set ng mga larawan.",
+      "restarted": "Bumalik sa simula. Maluwag na ulit ang bawat larawan at salita.",
+      "restored": "Naibalik. Ipinakita ulit ang mga magkatugmang pares.",
+      "all": "May larawan na ang bawat salita."
+    },
+    "colorMatch": {
+      "guidance": "Tingnan ang kulay at ang pangalan nito, tapos pindutin ang lahat ng larawang may ganoong kulay.",
+      "target": "Ang kulay ay {color|lower}. Pindutin ang lahat ng larawan ng kulay {color|lower}.",
+      "countLegend": "Ilang larawan",
+      "count": "{n} larawan",
+      "found": "Oo, ang {name|lower} ay {color|lower}.",
+      "named": "Ang {name|lower} ay {color|lower}.",
+      "all": "Iyan na ang lahat ng larawan ng kulay {color|lower}.",
+      "shown": "Narito ang mga larawan ng kulay {color|lower}.",
+      "show": "Ipakita ang mga ito",
+      "next": "Ibang kulay",
+      "names": {
+        "red": "Pula",
+        "orange": "Kahel",
+        "yellow": "Dilaw",
+        "green": "Berde",
+        "blue": "Asul"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Pindutin ang isang kalahati sa kaliwa, tapos pindutin ang kalahati sa kanan na babagay dito.",
+      "countLegend": "Ilang larawan",
+      "count": "{n} larawan",
+      "leftGroup": "Mga kaliwang kalahati",
+      "rightGroup": "Mga kanang kalahati",
+      "left": "Kaliwang kalahati ng {name|lower}",
+      "right": "Kanang kalahati ng {name|lower}",
+      "joined": "Pinagdugtong",
+      "pickRight": "Ngayon, pindutin ang kalahati sa kanan na babagay dito.",
+      "pickLeft": "Ngayon, pindutin ang kalahati sa kaliwa na babagay dito.",
+      "fit": "Oo, ang dalawang iyan ay bumubuo ng {name|lower}.",
+      "apart": "Hindi nagkakasya ang dalawang iyan. Subukan ang iba.",
+      "all": "Buo na ang bawat larawan.",
+      "shown": "Narito ang mga larawan, pinagdugtong.",
+      "show": "Ipakita sa akin",
+      "next": "Ibang set"
+    },
+    "colorByNumber": {
+      "guidance": "Pumili ng kulay sa susi, tapos punan ng kulay ang isang parisukat. Kahit anong kulay ay ayos.",
+      "sizeLegend": "Laki ng grid",
+      "size": "{n} x {n}",
+      "keyLegend": "Mga kulay",
+      "colors": [
+        "Dilaw",
+        "Kahel",
+        "Berde",
+        "Lila"
+      ],
+      "motifs": {
+        "house": "isang bahay",
+        "flower": "isang bulaklak",
+        "heart": "isang puso",
+        "tree": "isang puno",
+        "boat": "isang bangkang may layag",
+        "pot-plant": "isang halamang nasa paso"
+      },
+      "region": "Grid ng larawan, {n} x {n}. Gumagalaw ito pahalang kung makitid ang screen.",
+      "cell": "Numero {number}, hilera {row}, kolum {column}, {color}",
+      "empty": "walang kulay",
+      "chose": "Napili ang {name}. Pindutin ang isang parisukat para punan ito.",
+      "painted": "{name} sa hilera {row}, kolum {column}.",
+      "sheet": "Bawat parisukat ay may kulay ng numero nito. Ito ang larawan sa papel: {name}.",
+      "own": "Napunan na ang bawat parisukat. Ito ang sarili ninyong larawan.",
+      "fillAll": "Punan ayon sa mga numero",
+      "filledAll": "Bawat walang laman na parisukat ay may kulay na ng numero nito.",
+      "clear": "Burahin",
+      "cleared": "Walang laman na ang grid.",
+      "next": "Ibang larawan",
+      "fresh": "Narito ang isa pang larawang kukulayan."
+    },
+    "patternMaker": {
+      "guidance": "Pindutin ang isang parisukat para baguhin ang kulay nito. Lumalaki sa tabi nito ang inyong disenyo. Walang sine-save o naipapadala sa anumang ginagawa rito.",
+      "sizeLegend": "Laki ng tile",
+      "size": "{n} x {n}",
+      "keyLegend": "Mga kulay, ayon sa pagkakasunod kapag pinindot",
+      "colors": [
+        "Dilaw",
+        "Kahel",
+        "Berde",
+        "Lila"
+      ],
+      "tileLabel": "Ang inyong tile",
+      "region": "Ang inyong tile, {n} x {n}. Gumagalaw ito pahalang kung makitid ang screen.",
+      "patternLabel": "Ang inyong disenyo",
+      "pattern": "Ang inyong disenyo: inuulit ang inyong tile nang {n} pahalang at {n} pababa.",
+      "square": "Hilera {row}, kolum {column}, {color}",
+      "changed": "Ang hilera {row}, kolum {column} ay {color} na ngayon.",
+      "cleared": "Walang laman na ang tile. Puwede ninyo itong ibalik.",
+      "surprise": "Bigyan ako ng sorpresa",
+      "surprised": "Narito ang bagong tile. Puwede ninyong ibalik ang luma.",
+      "putBack": "Ibalik",
+      "restored": "Bumalik na ang inyong tile gaya ng dati.",
+      "print": "I-print ang aking disenyo",
+      "sheetTitle": "Ang aking disenyo"
+    },
+    "buildTogether": {
+      "guidance": "Magpalitan sa paglalagay ng piyesa sa bakanteng lugar. May sariling kulay ang bawat isa. Walang sine-save o naipapadala sa anumang ginagawa rito.",
+      "sizeLegend": "Laki ng grid",
+      "size": "{n} x {n}",
+      "people": [
+        "Unang tao",
+        "Pangalawang tao"
+      ],
+      "colorLegend": "Kulay ni {person}",
+      "colors": [
+        "Dilaw",
+        "Kahel",
+        "Berde",
+        "Lila"
+      ],
+      "inUse": "Ginagamit",
+      "turn": "Turno ninyo, {person|lower}",
+      "yourColor": "Ang kulay ninyo ay {color|lower}.",
+      "built": "Binuo ninyong dalawa. Ito ang larawang nabuo ninyo.",
+      "gridLabel": "Ang pinagsaluhang grid",
+      "region": "Ang pinagsaluhang grid, {n} x {n}. Gumagalaw ito pahalang kung makitid ang screen.",
+      "cellEmpty": "Hilera {row}, kolum {column}, walang laman",
+      "cellFilled": "Hilera {row}, kolum {column}, {color}, inilagay ng {person|lower}",
+      "placed": "Ang hilera {row}, kolum {column} ay {color} na ngayon. Turno ninyo, {next|lower}.",
+      "placedLast": "Ang hilera {row}, kolum {column} ay {color} na ngayon. Binuo ninyong dalawa.",
+      "taken": "May piyesa na ang hilera {row}, kolum {column}. Pumili ng bakanteng lugar.",
+      "pass": "Lumaktaw",
+      "passed": "Ayos lang ang lumaktaw. Turno ninyo, {person|lower}.",
+      "takeBack": "Bawiin ang huling piyesa",
+      "takeBackPass": "Bawiin ang paglaktaw",
+      "tookBack": "Naibalik ang piyesa. Turno ninyo, {person|lower}.",
+      "tookBackPass": "Naibalik ang paglaktaw. Turno ninyo, {person|lower}.",
+      "colorChanged": "Ang kulay ni {person} ay {color|lower} na ngayon.",
+      "restarted": "Walang laman ang grid. Turno ninyo, {person|lower}.",
+      "print": "I-print ang grid",
+      "sheetTitle": "Magkasama tayong bumuo",
+      "sheetHelp": "Magpalitan. Sa bawat bakanteng parisukat, iguhit ng bawat tao ang kanyang hugis gamit ang sariling lapis.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Pindutin ang isang piyesa, tapos pindutin ang puwang sa larawan kung saan ito bagay. Walang sine-save o naipapadala sa anumang ginagawa rito.",
+      "hints": "Ipakita ang mga gabay na linya",
+      "pictureLine": "Ang isang ito ay {picture}.",
+      "pictures": {
+        "house": "bahay",
+        "boat": "bangka",
+        "tree": "puno",
+        "fish": "isda",
+        "cat": "pusa",
+        "rocket": "roket"
+      },
+      "outlineLabel": "Ang balangkas ng {picture}. Pindutin ang isang puwang para ilagay doon ang napiling piyesa.",
+      "trayHeading": "Ang mga piyesa",
+      "pieces": {
+        "large-triangle": "Malaking tatsulok",
+        "small-triangle": "Maliit na tatsulok",
+        "square": "Parisukat",
+        "parallelogram": "Paralelogramo",
+        "rectangle": "Parihaba"
+      },
+      "shapes": {
+        "large-triangle": "isang malaking tatsulok",
+        "small-triangle": "isang maliit na tatsulok",
+        "square": "isang parisukat",
+        "parallelogram": "isang paralelogramo",
+        "rectangle": "isang parihaba"
+      },
+      "chosenLabel": "Napili",
+      "spaceEmpty": "Puwang {n}, {shape}, walang laman",
+      "spaceFilled": "Puwang {n}, {shape}, may piyesa na. Pindutin para bawiin ang piyesa.",
+      "chosen": "Napili ang {piece}. Ngayon, pindutin ang isang puwang sa larawan.",
+      "unchosen": "Ang piyesa ay hindi na napili.",
+      "placed": "Ang piyesa ay nasa espasyong {n}.",
+      "complete": "Kumpleto na ang {picture}.",
+      "different": "Iba ang hugis ng piyesang iyon sa espasyong ito. Subukan ang ibang espasyo.",
+      "needPiece": "Pumili muna ng piyesa mula sa tray.",
+      "filled": "May piyesa na ang espasyong iyon. Pindutin ito para bawiin ang piyesa.",
+      "tookBack": "Nasa tray na ulit ang piyesa.",
+      "cleared": "Nasa tray na ulit ang mga piyesa. Ilagay muli kung nagbago ang isip ninyo.",
+      "restored": "Nasa larawan na ulit ang mga piyesa.",
+      "next": "Ito ay isang {picture}.",
+      "putBack": "Ibalik",
+      "another": "Ibang hugis",
+      "print": "I-print ang hugis na ito",
+      "sheetTitle": "Mga tahimik na hugis",
+      "sheetHow": "Kulayan ang mga piyesa, o gupitin ang mga ito para magkasya sa balangkas. Maaaring gupitin ng isang nakatatanda.",
+      "sheetPieces": "Ang mga piyesa, kasing laki ng balangkas"
+    },
+    "picnicPlanner": {
+      "guidance": "Pindutin ang isang larawan para ilagay ito sa basket ng piknik, at pindutin ito sa basket para alisin. Anim na bagay ang kasya sa basket.",
+      "guidancePlay": "Pindutin ang dalawang larawang magkapareho. Mananatiling nakikita ang mga larawan, at walang oras na itinatakda.",
+      "basketHeading": "Ang aming basket",
+      "basketLabel": "Ang basket ng piknik",
+      "takeOut": "Alisin ang {picture} sa basket",
+      "inBasket": "Nasa basket",
+      "foodHeading": "Pagkain",
+      "outingsHeading": "Mga gagawin sa labas",
+      "added": "Nasa basket na ang {picture}.",
+      "removed": "Wala na sa basket ang {picture}.",
+      "already": "Nasa basket na ang {picture}. Pindutin ito doon para alisin.",
+      "full": "Puno na ang basket. Mag-alis ng isang bagay para magkaroon ng puwang.",
+      "summary": "Ang aming piknik: {list}.",
+      "summaryNone": "Wala pang laman ang basket.",
+      "and": "at",
+      "play": "Maglaro tayo gamit ang ating piknik",
+      "needTwo": "Pumili muna ng hindi bababa sa dalawang bagay.",
+      "playAgain": "Maglaro muli",
+      "back": "Bumalik sa piknik",
+      "print": "I-print ang listahan ng aming piknik",
+      "cleared": "Walang laman ang basket.",
+      "notice": "Ito ay isang plano na pag-uusapan. Walang oras na itinatakda, walang marka, at walang naka-save.",
+      "sheetTitle": "Listahan ng aming piknik",
+      "sheetHow": "Lagyan ng tsek ang bawat bagay habang inilalagay sa basket. Gamitin ang mga blankong linya para sa iba pang gusto ninyong dalhin.",
+      "sheetToPack": "Ilalagay sa basket"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Pumili ng dalawa hanggang labindalawa sa sarili ninyong mga larawan para simulan ang album.",
+      "guidance": "Magpalipat-lipat ng pahina nang magkasama, gamit ang mga pindutan o ang mga arrow key na Kaliwa at Kanan. Magdagdag ng ilang salita sa ilalim ng larawan kung gusto ninyo. Walang naka-save o naipadala sa anumang ginawa ninyo.",
+      "lookGuidance": "Tingnan nang magkasama ang bawat pahina. Puwede kayong mag-usap o tumingin lang.",
+      "intro": "Pumili ng dalawa hanggang labindalawang larawan mula sa device na ito. Ang bawat isa ay magiging pahina ng album na maaari ninyong buklatin nang magkasama.",
+      "consent": "Gamitin ang sarili ninyong larawan ng pamilya. Magtanong muna bago gumamit ng larawan ng taong hindi makasagot ng oo.",
+      "privacy": "Nananatili sa device na ito ang inyong mga larawan. Hindi ito ina-upload o sine-save.",
+      "choose": "Pumili ng mga larawan",
+      "chooseDifferent": "Pumili ng ibang mga larawan",
+      "backToBook": "Bumalik sa album",
+      "backToChoose": "Bumalik sa pagpili ng mga larawan",
+      "needTwo": "Pumili ng hindi bababa sa dalawang larawan.",
+      "usingFirst": "Ginagamit ang unang {max} larawan.",
+      "cleared": "Nabura na ang album. Pumili ng mga larawan para magsimulang muli.",
+      "moved": "Inilipat sa pahina {n}.",
+      "pageOf": "Pahina {n} ng {total}",
+      "lookTogether": "Tingnan nang magkasama",
+      "leaveLook": "Bumalik sa album",
+      "print": "I-print ang scrapbook",
+      "clear": "Burahin ang album",
+      "bookLabel": "Ang scrapbook ng pamilya",
+      "pagesLabel": "Buklatin ang mga pahina",
+      "previous": "Nakaraang pahina",
+      "next": "Susunod na pahina",
+      "moveEarlier": "Ilipat pabalik",
+      "moveLater": "Ilipat pasulong",
+      "captionLabel": "Ilang salita para sa pahinang ito, kung gusto ninyo",
+      "captionHelp": "Hanggang 80 karakter. Nananatili lang sa pahinang ito ang mga caption at mawawala kapag isinara ninyo ito.",
+      "sheetTitle": "Ang aming scrapbook",
+      "sheetHow": "Isang larawan bawat pahina, na may mga salita sa ilalim. Buklatin ang mga pahina ayon sa pagkakasunod-sunod at pag-usapan ang bawat isa.",
+      "sheetEmpty": "Pumili ng inyong mga larawan sa pahina ng laro para i-print ang sarili ninyong album, o i-print ang blankong pahinang ito at idikit ang naka-print na larawan.",
+      "sheetFrame": "Idikit dito ang naka-print na larawan",
+      "sheetWords": "Ilang salita para sa pahinang ito",
+      "skipped": {
+        "one": "Hindi larawang magagamit namin ang {n} file.",
+        "other": "Hindi larawang magagamit namin ang {n} na file."
+      }
+    },
+    "quietScene": {
+      "guidance": "Tingnan ang isang larawan sa isang pagkakataon. Pindutin ang Susunod o Nakaraan kapag handa na kayo. Walang gumagalaw nang kusa.",
+      "next": "Susunod na larawan",
+      "previous": "Nakaraang larawan",
+      "bigPicture": "Mas malaking larawan",
+      "showEverything": "Ipakita lahat",
+      "first": "Ito ang unang larawan.",
+      "last": "Ito ang huling larawan.",
+      "lines": {
+        "sunrise": "Sumisikat ang araw sa ibabaw ng lupa.",
+        "window-with-birds": "Mga ibon sa labas ng bintana.",
+        "vase-of-flowers": "Isang plorera ng bulaklak sa mesa.",
+        "teacup": "Isang tasa ng tsaa sa tabi ng bintana.",
+        "tree": "Isang punong nakatayo sa hardin.",
+        "sailboat": "Isang bangkang may layag sa tubig.",
+        "lighthouse": "Isang parola sa tabi ng dagat.",
+        "rainbow": "Isang bahaghari pagkatapos ng ulan.",
+        "moon": "Ang buwan sa kalangitan sa gabi.",
+        "daisies": "Isang grupo ng daisy sa damuhan.",
+        "rowing-boat": "Isang bangkang sagwan sa tahimik na tubig.",
+        "potted-plant": "Isang berdeng halaman sa paso."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Magpalitan. Pindutin ang isang gupit na larawan, saka pindutin ang bakanteng lugar para ilagay ito doon. Walang naka-save o naipadala sa anumang ginawa ninyo.",
+      "people": [
+        "Unang tao",
+        "Ikalawang tao"
+      ],
+      "marks": [
+        "bilog",
+        "parisukat"
+      ],
+      "turn": "Ang inyong turn, {person|lower}.",
+      "marked": "Ang inyong mga piyesa ay may markang {mark}.",
+      "boardLabel": "Ang pinagsasaluhang board",
+      "placeEmpty": "Lugar {n}, bakante",
+      "placeFilled": "Lugar {n}, {picture|lower}, inilagay ng {person|lower}",
+      "trayHeading": "Ang mga gupit na larawan",
+      "chosenLabel": "Napili",
+      "chosen": "Napili ang {picture}. Ngayon, pindutin ang isang bakanteng lugar.",
+      "unchosen": "Hindi na napili ang gupit na larawan.",
+      "needCutout": "Pumili muna ng gupit na larawan, saka pindutin ang isang bakanteng lugar.",
+      "filled": "May larawan na ang lugar {n}. Pumili ng bakanteng lugar.",
+      "placed": "Nasa lugar {n} na ang {picture}. Ang inyong turn, {next|lower}.",
+      "full": "May larawan na ang bawat lugar. Bawiin ang isa para baguhin ito, o magsimulang muli.",
+      "pass": "Laktaw",
+      "passed": "Ayos lang ang laktaw. Ang inyong turn, {person|lower}.",
+      "takeBack": "Bawiin ang huling piyesa",
+      "takeBackPass": "Bawiin ang laktaw",
+      "tookBack": "Binawi ang piyesa. Ang inyong turn, {person|lower}.",
+      "tookBackPass": "Binawi ang laktaw. Ang inyong turn, {person|lower}.",
+      "restarted": "Walang laman ang board. Ang inyong turn, {person|lower}.",
+      "putBack": "Ibalik",
+      "putBackDone": "Nasa board na ulit ang mga piyesa.",
+      "another": "Ibang set ng mga larawan",
+      "anotherSet": "May bagong set ng mga gupit na larawan sa tray. Mananatili sa kanilang lugar ang mga piyesa sa board.",
+      "print": "I-print ang board",
+      "sheetTitle": "Collage board",
+      "sheetHow": "Gupitin ang mga larawan at magpalitan sa paglalagay nito sa board. Maaaring gupitin ng isang nakatatanda.",
+      "sheetTray": "Ang mga larawang gugupitin"
+    },
+    "gardenPlanner": {
+      "guidance": "Pindutin ang isang larawan, saka pindutin ang isang kama para ilagay ito doon. Pindutin ang kamang may larawan, habang walang napiling larawan, para burahin ito.",
+      "bedsLabel": "Ang mga kama sa hardin",
+      "bedEmpty": "Kama {n}, bakante",
+      "bedFilled": "Kama {n}, {picture|lower}",
+      "plantsHeading": "Mga halaman",
+      "extrasHeading": "Mga dagdag sa hardin",
+      "chosenLabel": "Napili",
+      "chosen": "Napili ang {picture}. Ngayon, pindutin ang isang kama.",
+      "unchosen": "Walang napiling larawan.",
+      "needPicture": "Pumili muna ng larawan, saka pindutin ang isang kama.",
+      "planted": "Nasa kama {n} na ang {picture}.",
+      "replaced": "Ang {picture} ang pumalit sa larawan sa kama {n}.",
+      "cleared": "Walang laman ang kama {n}. Ibalik ito kung gusto ninyong muling ilagay ang larawan.",
+      "restarted": "Walang laman ang bawat kama.",
+      "putBack": "Ibalik",
+      "putBackDone": "Nasa mga kama na ulit ang mga larawan.",
+      "summaryHeading": "Ang hardin ko",
+      "summary": "May {list} ang plano ninyo.",
+      "summaryNone": "Wala pang larawan sa alinmang kama.",
+      "and": "at",
+      "print": "I-print ang plano",
+      "sheetTitle": "Ang aming plano sa hardin",
+      "sheetHow": "Ipinapakita ng mga kama ang mga larawang pinili sa screen. Puwede kayong gumuhit sa mga bakanteng kama kung gusto ninyo.",
+      "sheetNotes": "Mga tala",
+      "notice": "Ito ay plano ng larawan na pag-uusapan, hindi payo sa pagtatanim."
+    },
+    "coloringWall": {
+      "guidance": "Pumili ng larawan at kung ilang pahina. I-print ang pader, at ang bawat tao ay kulayan ang isa o higit pang pahina. Walang oras, puntos, o pag-iimbak.",
+      "pictureLegend": "Larawan",
+      "sizeLegend": "Ilang pahina",
+      "sizes": {
+        "2x2": "4 na pahina (2 x 2)",
+        "3x2": "6 na pahina (3 x 2)",
+        "3x3": "9 na pahina (3 x 3)"
+      },
+      "previewLabel": "Ang {picture|lower} ay hinati sa {n} na pahina: {across} ang lapad at {down} ang haba. May label ang bawat pahina sa sulok nito.",
+      "previewCaption": "Ang larawan na may mga guhit ng pahina at mga label.",
+      "labelsNote": "Ang mga titik ay pababa sa pader at ang mga numero ay pahalang, kaya ang A1 ang pahinang nasa kaliwang itaas.",
+      "wallHeading": "Paano buuin ang pader",
+      "steps": [
+        "I-print ang lahat ng pahina. Ang unang pahina ay ang mga hakbang na ito at mapa ng pader.",
+        "Ang bawat tao ay kumuha ng isa o higit pang pahina at kulayan ang mga ito.",
+        "Hindi kailangang magkatugma ang mga kulay at istilo. Bahagi ng iisang larawan ang bawat pahina.",
+        "Ayusin ang mga pahina ayon sa kanilang label, saka pagdugtungin gamit ang tape sa likod.",
+        "Ilagay ang pader kung saan kitang-kita ng lahat."
+      ],
+      "mapLabel": "Mapa ng pader: {down} na hanay ng tig-{across} na pahina, may label mula A1 hanggang {last}.",
+      "edgeNote": "Ipinapakita ng putol-putol na linya ang gilid ng bawat pahina. Ilatag ang mga pahina nang magkadikit sa gilid, o bahagyang magpatong ang mga ito.",
+      "pictureLine": "Larawan: {picture}. Ang pader na ito ay {n} na pahina: {across} ang lapad at {down} ang haba.",
+      "print": "I-print ang pader"
+    },
+    "findTogether": {
+      "guidance": "Magpalitan kayo ng turno. Sa inyong turno, baligtarin ang dalawang card para hanapin ang magkapares. Hanapin ninyo nang sama-sama ang mga magkapares.",
+      "sizeLegend": "Ilang card",
+      "size": "{n} na card",
+      "viewLegend": "Paano maglaro",
+      "viewShowing": "Maglaro na nakalitaw ang mga larawan",
+      "viewHidden": "Mga card na nakaharap pababa",
+      "people": [
+        "Unang tao",
+        "Ikalawang tao"
+      ],
+      "turn": "Turno: {person}",
+      "turnDone": "Nahanap na ang lahat ng magkapares.",
+      "tally": "Magkapares na nahanap nang sama-sama: {n}",
+      "cardNamed": "{name}, card {n}",
+      "cardFaceDown": "Card {n}, nakaharap pababa",
+      "first": "{name}. Ngayon, baligtarin ang pangalawang card.",
+      "found": "{name}: may magkapares na nahanap nang sama-sama. Ngayon ay turno na ng {next|lower}.",
+      "allTogether": "Sama-sama ninyong nahanap ang lahat ng magkapares.",
+      "different": "Magkaiba ang {a} at {b}. Dahan-dahan lang, saka pindutin ang Ibalik ang mga ito.",
+      "waiting": "Pindutin ang Ibalik ang mga ito kapag handa na kayo. Saka lilipat ang turno.",
+      "turnedBack": "Naibalik na. Ngayon ay turno na ng {person|lower}.",
+      "passed": "Ayos lang ang lumaktaw. Ngayon ay turno na ng {person|lower}.",
+      "turnBack": "Ibalik ang mga ito",
+      "pass": "Lumaktaw",
+      "playAgain": "Maglaro muli"
+    },
+    "drawingDuet": {
+      "guidance": "Maghalinhinan kayo, isang linya bawat isa, saka ipasa ang panulat. Puwedeng lumaktaw ang sinuman. Walang ipinapadala kahit saan. Lalabas lang sa pahinang ito ang larawan kung ise-save ninyo ito.",
+      "people": [
+        "Unang tao",
+        "Ikalawang tao"
+      ],
+      "colorLegend": "Kulay ni {person}",
+      "colors": [
+        "Dilaw",
+        "Kahel",
+        "Berde",
+        "Lila"
+      ],
+      "turn": "Turno ni {person}",
+      "penColor": "Kulay ng panulat: {color}.",
+      "canvasLabel": "Pinagsamang guhit, {n} na linya pa lang",
+      "canvasLabelOne": "Pinagsamang guhit, {n} linya pa lang",
+      "keys": "Pinapagalaw ng mga arrow key ang tuldok ng panulat sa guhit. Ibinababa o itinataas ng Space ang panulat.",
+      "penDown": "Ibaba ang panulat",
+      "penUp": "Itaas ang panulat",
+      "pass": "Ipasa ang panulat",
+      "passed": "Ayos lang ang lumaktaw. Ikaw naman, {person|lower}.",
+      "takeBack": "Bawiin ang huli kong linya",
+      "tookBack": "Binawi ang huling linya ng {person|lower}.",
+      "noLine": "Walang linya ng {person|lower} na mababawi.",
+      "restarted": "Malinis na ang papel. Ang unang tao ang may turno. Ibalik ito kung hindi ninyo sinadya.",
+      "putBack": "Ibalik",
+      "restored": "Bumalik sa dati ang mga linya.",
+      "save": "I-save ang larawan",
+      "saved": "Handa na ang larawan ninyo. Gamitin ang download link para itago ito sa device na ito.",
+      "download": "I-download ang drawing-duet.png",
+      "print": "I-print ang bersyong papel",
+      "sheetTitle": "Dalawahang guhit",
+      "paperRules": "Dalawang tao, isang papel, dalawang panulat. Maghalinhinan: isang linya o hugis bawat isa, saka ipasa ang panulat. Puwedeng lumaktaw ang sinuman. Walang tamang larawan."
+    },
+    "colorWash": {
+      "guidance": "Magpinta ng malambot na kulay sa buong pahina, isang pahid sa bawat pagkakataon. Iangat ang brotse para tumigil, at tumigil kailan mo man gusto. Walang sine-save o ipinapadala.",
+      "colorLegend": "Kulay ng pahid",
+      "sizeLegend": "Laki ng brotse",
+      "colors": [
+        "Dilaw",
+        "Kahel",
+        "Berde",
+        "Lila"
+      ],
+      "sizes": {
+        "wide": "Malapad",
+        "veryWide": "Napakalapad"
+      },
+      "color": "Kulay ng pahid: {color}.",
+      "brushDown": "Ibaba ang brotse",
+      "brushUp": "Itaas ang brotse",
+      "keys": "Pinapagalaw ng mga arrow key ang singsing ng brotse sa pahina. Ibinababa o itinataas ng Space ang brotse.",
+      "canvasLabel": "Isang pahina ng malambot na pahid ng kulay",
+      "fresh": "Bagong pahina",
+      "freshMessage": "Bagong pahina.",
+      "putBack": "Ibalik",
+      "restored": "Bumalik ang pahina."
+    },
     "sortTogether": {
       "guidance": "I-tap ang isang larawan, pagkatapos ang basket na pinagbibilangan nito.",
       "restart": "Mga bagong larawan",
@@ -71,6 +719,10 @@
       "hint": "Maaaring ilagay ang {name|lower} sa “{basket}”. I-tap ang basket na iyon para ilagay ito roon.",
       "placed": "Nasa “{basket}” ang {name|lower}.",
       "sorted": "Naiayos na ang lahat. Sabay na tingnan ang mga basket, o subukan ang ibang tema.",
+      "largerTargets": "Mas malalaking target",
+      "largerOn": "Nakabukas ang mas malalaking target. Walang gumalaw.",
+      "largerOff": "Nakasara ang mas malalaking target. Walang gumalaw.",
+      "largerOnNewRound": "Nakabukas ang mas malalaking target, na may dalawang basket. Narito ang mga bagong larawang pagbubukud-bukurin.",
       "basket": {
         "one": "Basket: {basket}, {count} larawan sa loob",
         "other": "Basket: {basket}, {count} larawan sa loob"
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Ang buong larawan: {name}",
       "guideText": "Ganito ang itsura ng larawan kapag buo na.",
+      "ownChoose": "Gumamit ng sarili ninyong larawan",
+      "ownChange": "Pumili ng ibang larawan",
+      "ownBack": "Balik sa aming mga larawan",
+      "ownPrivacy": "Nananatili sa device na ito ang inyong larawan. Hindi ito ina-upload o sine-save.",
+      "ownConsent": "Gumamit ng sarili ninyong mga larawan. Magtanong muna bago gumamit ng larawan ng taong hindi makasagot ng oo.",
+      "ownWorking": "Inihahanda ang inyong larawan.",
+      "ownNotUsable": "Hindi magamit ang file na iyon. Pumili ng file ng larawan, gaya ng JPEG o PNG.",
+      "ownAlt": "Inyong larawan",
+      "ownPiece": "Piraso {n}, {place}",
+      "ownWhole": "Buo na ulit ang inyong larawan. Haluin ulit kailan man ninyo gusto.",
+      "ownSheetTitle": "Inyong larawan sa mga piraso",
+      "ownSheetHow": "Gupitin ayon sa mga linya. Haluin ang mga piraso, saka magpalit ng dalawang piraso sa isang pagkakataon hanggang mabuo ang larawan.",
       "piece": "Piraso sa {place}",
       "pieceInPlace": ", nasa tamang puwesto",
       "piecePickedUp": ", napili",
@@ -190,6 +854,14 @@
       "guidance": "Basahin nang malakas ang kard. Walang tamang sagot.",
       "position": "Kard {n} sa {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Ipakita ang isang paksa para sa usapan",
+      "bigPicture": "Malaking larawan, para sa grupo",
+      "passNote": "Puwedeng lumaktaw ang sinuman.",
+      "groupTitle": "Pagpasa ng card sa grupo",
+      "groupSit": "Umupo nang pabilog kung saan kitang-kita ng lahat ang larawan. Ang taong may hawak ng card, o ang device na may malaking larawan, ang unang magbabasa ng paksa nang malakas.",
+      "groupPass": "Pagkatapos, ipasa ang card sa susunod na tao. Ang bawat isa ay magsasabi ng isang salita o pangungusap tungkol sa larawan, saka ito ipapasa.",
+      "groupNoSpeech": "Laging puwedeng ipasa ang card. Puwedeng lumaktaw ang isang tao nang hindi nagsasalita, at walang kailangang magpaliwanag kung bakit.",
+      "groupEnd": "Natatapos ang ikot kapag naikot na ng kard ang buong bilog, o kapag sawa na ang grupo. Walang nananalo. Tumigil kahit kailan gustong tumigil ng grupo.",
       "next": "Susunod na kard",
       "previous": "Nakaraang kard",
       "print": "I-print ang lahat ng kard",
@@ -252,6 +924,20 @@
       "started": "Nagsimula na. Huminga papasok habang lumalaki ang bilog.",
       "stopped": "Tumigil na.",
       "finished": "Anim na mabagal na hinga iyon. Magsimula muli kailanman ninyo gusto."
+    },
+    "storyChain": {
+      "guidance": "Salit-salitan: isang pangungusap bawat isa, at idagdag ang susunod na larawan.",
+      "passNote": "Sabihin nang malakas ang inyong pangungusap. Walang tina-type o sine-save. Maaaring lumaktaw ang sinuman.",
+      "chainLabel": "Ang kadena hanggang ngayon",
+      "item": "Larawan {n}: {name}",
+      "add": "Magdagdag ng larawan",
+      "fullAdd": "Puno na ang kadena. Magsimula ng bagong kadena",
+      "newChain": "Magsimula ng bagong kadena",
+      "takeOff": "Alisin ang huling larawan",
+      "added": "Ang {name|lower} ay nasa dulo na ng kadena.",
+      "removed": "Ang {name|lower} ay wala na sa kadena.",
+      "fresh": "Bagong kadena, na nagsisimula sa {name|lower}.",
+      "full": "Walong larawan na ang kadena. Ikuwento ninyo ang buong kuwento, o magsimula ng bagong kadena."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Ulap na may ulan",
     "snowflake": "Snowflake",
     "kite": "Saranggola",
-    "sunrise": "Pagsikat ng araw sa mga burol"
+    "sunrise": "Pagsikat ng araw sa mga burol",
+    "decorated-keepsake-box": "Pinalamutiang kahon ng alaala",
+    "painted-plant-pot": "Pinturahang paso na may mga halamang gamot",
+    "repeating-pattern-sheet": "Papel na may paulit-ulit na disenyo",
+    "music-drawn-lines": "Mga linyang iginuhit sa saliw ng musika",
+    "paper-boat-afloat": "Bangkang papel na lumulutang sa tubig",
+    "folded-towel-stack": "Tumpok ng nakatuping tuwalya",
+    "hand-massage-with-lotion": "Kamay sa ibabaw ng tuwalya, may lotion",
+    "open-photo-album": "Bukas na album ng larawan",
+    "button-flower-card": "Bulaklak na gawa sa butones sa kard",
+    "blue-torn-paper-collage": "Kolahe ng punit na asul na papel",
+    "family-tree-of-hands": "Puno ng pamilya na iginuhit gamit ang kamay",
+    "open-greeting-card": "Bukas na kard ng bati na may puso",
+    "lavender-sachet": "Supot ng lavender na nakatali sa laso",
+    "memory-collage-of-photos": "Kolahe ng mga larawan ng pamilya",
+    "paper-chain-garland": "Garland ng kadena ng papel",
+    "open-songbook-with-notes": "Bukas na aklat ng awit na may mga nota",
+    "photo-postcard-with-stamp": "Postkard na may larawan at selyo",
+    "pine-cone-bird-feeder": "Pampakain ng ibon na gawa sa bunga ng pino, nakasabit sa sanga",
+    "playlist-phone-and-card": "Listahan ng kanta sa telepono at kard",
+    "sealed-rice-shaker": "Lalagyan ng bigas na nakasara",
+    "texture-board-with-scraps": "Tablang may iba't ibang tekstura",
+    "painted-garden-stone": "Batong pang-hardin na pininturahan",
+    "shared-painted-canvas": "Canvas na pinintahan nang magkasama",
+    "watercolor-washes-sheet": "Papel na may watercolor na kulay",
+    "seedling-in-pot": "Mga punla sa paso",
+    "pressed-leaves-in-book": "Mga dahong pinindot sa aklat",
+    "printed-leaves-sheet": "Papel na may bakas ng dahon",
+    "pinch-pot-clay-bowl": "Palayok na luwad na hinubog sa kamay",
+    "table-sketch-pencil": "Sketch ng tasa sa lapis",
+    "buttons-in-muffin-tin": "Mga butones na nakaayos sa lalagyan ng muffin",
+    "family-recipe-book": "Aklat ng resipe ng pamilya",
+    "drum-with-beat-marks": "Tambol sa mesa na may pamalo",
+    "torn-paper-flower": "Mosaic na bulaklak mula sa punit na papel",
+    "window-with-birds": "Bintana na may mga ibon",
+    "woven-paper-mat": "Banig na gawa sa hinabing papel",
+    "yarn-ball-with-thread": "Bola ng sinulid",
+    "letter-and-envelope": "Sulat sa loob ng sobre"
   },
   "illustrations": {
     "rocking-chair": "tumba-tumba",
@@ -442,188 +1165,6 @@
     "pocket-watch": "Pocket watch"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Kung may tiyaga, may",
-        "end": "nilaga",
-        "others": [
-          "kape",
-          "tinapay"
-        ],
-        "prompt": "Ano ang paborito ninyong ulam na may sabaw?"
-      },
-      {
-        "start": "Ang hindi marunong lumingon sa pinanggalingan ay hindi makararating sa",
-        "end": "paroroonan",
-        "others": [
-          "tahanan",
-          "palengke"
-        ],
-        "prompt": "Ano ang gusto ninyong ikuwento tungkol sa lugar na kinalakhan ninyo?"
-      },
-      {
-        "start": "Pag may isinuksok, may",
-        "end": "madudukot",
-        "others": [
-          "makikita",
-          "maiuuwi"
-        ],
-        "prompt": "Mayroon ba kayong paboritong kahon o lalagyan na pinag-iipunan ng mga bagay?"
-      },
-      {
-        "start": "Kung ano ang itinanim, siya ang",
-        "end": "aanihin",
-        "others": [
-          "lulutuin",
-          "ibebenta"
-        ],
-        "prompt": "Ano ang itinanim ninyo sa hardin o bakuran?"
-      },
-      {
-        "start": "Habang may buhay, may",
-        "end": "pag-asa",
-        "others": [
-          "tawanan",
-          "kuwento"
-        ],
-        "prompt": "Ano ang maliit na bagay na nagpapasaya sa inyo tuwing umaga?"
-      },
-      {
-        "start": "Daig ng maagap ang",
-        "end": "masipag",
-        "others": [
-          "malakas",
-          "matangkad"
-        ],
-        "prompt": "Mas gusto ba ninyo ang umaga o ang gabi?"
-      },
-      {
-        "start": "Madaling maging tao, mahirap",
-        "end": "magpakatao",
-        "others": [
-          "magluto",
-          "magpahinga"
-        ],
-        "prompt": "Sino ang taong hinahangaan ninyo dahil sa kabaitan niya?"
-      },
-      {
-        "start": "Nasa Diyos ang awa, nasa tao ang",
-        "end": "gawa",
-        "others": [
-          "tawa",
-          "kuwento"
-        ],
-        "prompt": "Ano ang gusto ninyong gawin kasama ang pamilya tuwing Linggo?"
-      },
-      {
-        "start": "Hindi lahat ng kumikinang ay",
-        "end": "ginto",
-        "others": [
-          "bituin",
-          "salamin"
-        ],
-        "prompt": "Mayroon ba kayong paboritong alahas o palamuti?"
-      },
-      {
-        "start": "Kung ano ang puno, siya ang",
-        "end": "bunga",
-        "others": [
-          "dahon",
-          "ugat"
-        ],
-        "prompt": "Ano ang paborito ninyong prutas na tumutubo sa puno?"
-      },
-      {
-        "start": "Kapag may usok, may",
-        "end": "apoy",
-        "others": [
-          "hangin",
-          "ulan"
-        ],
-        "prompt": "Naranasan na ba ninyong magluto gamit ang kahoy o uling?"
-      },
-      {
-        "start": "Pagkahaba-haba man ng prusisyon, sa simbahan din ang",
-        "end": "tuloy",
-        "others": [
-          "uwi",
-          "punta"
-        ],
-        "prompt": "Mayroon ba kayong paboritong pista o pagdiriwang sa inyong lugar?"
-      },
-      {
-        "start": "Matibay ang walis, palibhasa'y",
-        "end": "magkabigkis",
-        "others": [
-          "magkatabi",
-          "maganda"
-        ],
-        "prompt": "Ano ang gusto ninyong gawin sa umaga sa bakuran o sa bahay?"
-      },
-      {
-        "start": "Walang mahirap na gawa pag dinaan sa",
-        "end": "tiyaga",
-        "others": [
-          "tawanan",
-          "kuwentuhan"
-        ],
-        "prompt": "Ano ang gawaing bahay na nasisiyahan kayong gawin?"
-      },
-      {
-        "start": "Ang buhay ay parang",
-        "end": "gulong",
-        "others": [
-          "ilog",
-          "laruan"
-        ],
-        "prompt": "Alin ang mas gusto ninyong sakyan: bisikleta, dyip o bangka?"
-      },
-      {
-        "start": "Ang lumalakad nang matulin, kung matinik ay",
-        "end": "malalim",
-        "others": [
-          "maliit",
-          "mahaba"
-        ],
-        "prompt": "Mahilig ba kayong maglakad? Saan ninyo gustong maglakad?"
-      },
-      {
-        "start": "Ang pagkakaisa ay",
-        "end": "lakas",
-        "others": [
-          "awit",
-          "kulay"
-        ],
-        "prompt": "Anong gawain ang masaya kapag marami kayong magkakasama?"
-      },
-      {
-        "start": "Ang oras ay",
-        "end": "ginto",
-        "others": [
-          "tubig",
-          "hangin"
-        ],
-        "prompt": "Ano ang gusto ninyong gawin kapag may bakanteng oras?"
-      },
-      {
-        "start": "Matalino man ang matsing, napaglalangan",
-        "end": "din",
-        "others": [
-          "pa",
-          "na"
-        ],
-        "prompt": "Mahilig ba kayo sa mga kuwento ng hayop, tulad ng pagong at matsing?"
-      },
-      {
-        "start": "Ang maniwala sa sabi-sabi, walang bait sa",
-        "end": "sarili",
-        "others": [
-          "bahay",
-          "bayan"
-        ],
-        "prompt": "Sino sa pamilya ninyo ang mahilig magkuwento?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABDEGHIKLMNOPRSTUWY",
@@ -1049,6 +1590,17 @@
             "Sa paglalakbay"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Prutas",
+        "animals": "Mga hayop",
+        "travel": "Mga paraan ng paglalakbay",
+        "flowers": "Mga bulaklak",
+        "hot-drinks": "Mga bagay para sa mainit na inumin",
+        "weather": "Mga uri ng panahon",
+        "baked": "Mga bagay na iniluto sa oven"
       }
     }
   }

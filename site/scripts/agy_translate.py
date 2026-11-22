@@ -423,20 +423,35 @@ def translate_chunk(lang: dict, chunk: dict, cats: list[str], extra: str, depth=
     raise RuntimeError(f'{lang["code"]}: {keys[0]} failed: {last}')
 
 
+def is_play_identifier(path: tuple) -> bool:
+    """Play strings that name a picture, a theme or a word group for the code. They are never translated:
+    the model rewrote some, which put a card's prompt on the wrong picture."""
+    return path[:2] in (('content', 'conversation'), ('content', 'wordSearch')) and path[-1] in ('theme', 'picture', 'value')
+
+
+def is_play_held(path: tuple) -> bool:
+    """Play strings the machine does not write: the picture labels the Flutter app exports (the app's own
+    reviewed set, checked against picture_library.g.dart) and the photo-pairs setup and consent copy, which
+    stays English until a reviewer signs a translation (PhotoPairs.test.ts)."""
+    return path[:1] == ('illustrations',) or path[:2] == ('ui', 'photoPairs')
+
+
 def translate_json(kind: str, lang: dict, cats: list[str], only: set | None = None) -> Path:
     code = lang['code']
     en = json.loads((I18N / kind / 'en.json').read_text())
     work = json.loads(json.dumps(en))
     existing = I18N / kind / f'{code}.json'
     if only is not None and existing.exists():
-        # Keep the current translation and refresh only the changed English strings.
+        # Keep the current translation and refresh only the changed English strings. A string the
+        # language does not have yet is translated too; leaving it out kept it in English for good.
         old = json.loads(existing.read_text())
+        only = set(only)
         for path, _ in list(units(en)):
             if path not in only:
                 try:
                     set_path(work, path, get_path(old, path))
                 except (KeyError, IndexError, TypeError):
-                    pass
+                    only.add(path)
     extra = ''
     if kind == 'play':
         content = work.get('content', {})
@@ -450,7 +465,7 @@ def translate_json(kind: str, lang: dict, cats: list[str], only: set | None = No
         if code in NO_LETTER_GRID:
             extra = 'Picture names: short concrete nouns, the noun first. Conversation prompts are open invitations, never quiz questions.'
         work['content'] = content
-    items = [(p, v) for p, v in units(work) if only is None or p in only]
+    items = [(p, v) for p, v in units(work) if (only is None or p in only) and not (kind == 'play' and (is_play_identifier(p) or is_play_held(p)))]
     chunk, size, chunks = {}, 0, []
     for path, v in items:
         k = '/'.join(map(str, path))

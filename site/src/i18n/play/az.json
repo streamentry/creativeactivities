@@ -5,6 +5,13 @@
       "stopReading": "Oxumağı dayandır",
       "region": "Oyun",
       "restart": "Yenidən başlayın",
+      "rest": "Hələlik dincəlin",
+      "restingTitle": "Dincəlirsiniz",
+      "restingText": "Lazım olduğu qədər vaxt ayırın. Yeriniz bu səhifədə qorunur.",
+      "resume": "Davam edin",
+      "placeText": "Son dəfə yarımçıq dayandınız. Oradan davam edin, ya da yenidən başlayın.",
+      "placeResume": "Davam edin",
+      "placeFresh": "Yenidən başlayın",
       "soundOn": "Yumşaq səslər açıqdır",
       "soundOff": "Yumşaq səslər bağlıdır",
       "done": "Hələlik bu qədər",
@@ -43,7 +50,19 @@
       "viewShowing": "Şəkillər görünür",
       "viewHidden": "Gizli şəkillər",
       "playAgain": "Yeni şəkillərlə yenidən oynayın",
-      "talk": "Şəkillər barədə birlikdə danışın"
+      "talk": "Şəkillər barədə birlikdə danışın",
+      "modeLegend": "Hansı şəkillər",
+      "modePlay": "İstənilən şəkillər",
+      "modeDaily": "Bu günün kartı",
+      "dayLegend": "Hansı gün",
+      "dayHelp": "Hamı eyni gün eyni şəkilləri görür. Əvvəlki günlər də burададır, bir günü ötürmək heç nəyə başa gəlmir.",
+      "guidanceDaily": "Bu günün kartında dörd cüt var. Bir şəklə toxunun, sonra ona uyğun gələn şəklə toxunun.",
+      "restartDaily": "Bu kartı yenidən başlayın",
+      "copy": "Bu sətri kopyalayın",
+      "copied": "Kopyalandı. Heç yerə göndərilmir.",
+      "calendarTitle": "Bu günün kartları, {month}",
+      "calendarHelp": "Hər gün hamı üçün eyni dörd şəkil var. Heç nə hesablanmır və heç bir gün buraxılmış kimi qeyd olunmur.",
+      "calendarVersion": "Versiya {date}. Eyni gündə hamı üçün şəkillər eynidir."
     },
     "choose": {
       "countLegend": "Neçə şəkil",
@@ -62,6 +81,635 @@
       "shadowAlt": "Uyğunlaşdırılacaq kölgə",
       "foundAlt": "{name|lower} şəklinin kölgəsi"
     },
+    "fourTogether": {
+      "hintLegend": "İpucları",
+      "hintOn": "Fasilədən sonra ipucu",
+      "hintOff": "İpucu yoxdur",
+      "guidance": "Bir-birinə uyğun gələn {n} şəkli tapın və hər birinə toxunun.",
+      "countLegend": "Neçə şəkil",
+      "count": "{n} şəkil",
+      "found": "Bəli, {name|lower} bu qrupa aiddir.",
+      "elsewhere": "{name|lower} başqa bir şeyə uyğundur. Yavaş-yavaş düşünün.",
+      "hint": "İpucu: {theme|lower} axtarın.",
+      "together": "Bunlar bir yerdədir: {theme}.",
+      "shown": "Budur qrup: {theme}.",
+      "groupName": "Birlikdə: {theme}",
+      "show": "Qrupu göstərin",
+      "next": "Başqa dəst"
+    },
+    "oddOneOut": {
+      "hintLegend": "İpucları",
+      "hintOn": "Fasilədən sonra ipucu",
+      "hintOff": "İpucu yoxdur",
+      "guidance": "Digərlərinə uyğun gəlməyən şəkli tapın və ona toxunun.",
+      "countLegend": "Neçə şəkil",
+      "count": "{n} şəkil",
+      "belongs": "{name|lower} digərləri ilə uyğundur. Yavaş-yavaş düşünün.",
+      "found": "Bəli, {name|lower} fərqli şəkildir. Digərləri isə {theme|lower}.",
+      "shown": "Budur: {name|lower}. Digərləri isə {theme|lower}.",
+      "hint": "İpucu: bunlardan {n} tanesi {theme|lower}.",
+      "others": "Digərləri: {theme}",
+      "show": "Göstərin",
+      "next": "Başqa dəst"
+    },
+    "seatedToss": {
+      "guidance": "Masa arxasında oturun və növbə ilə yumşaq paxıl torbanı böyük hədəfə atın. Hesabı kağızda birlikdə aparın.",
+      "stepsHeading": "Necə gedir",
+      "steps": [
+        "Hədəfi və hesab vərəqini çap edin, sonra masanın üstünə, aranızda düz qoyun.",
+        "Rahat oturun, hər biriniz bir tərəfdə. Hər biriniz bir dəfə yumşaq atış edin, ya da istəməsəniz ötürün.",
+        "Atış hər hansı halqaya düşəndə, atan şəxs öz sütununda, həmin halqanın sırasında bir xananı işarələyir.",
+        "İstəsəniz, dayananda işarələrə birlikdə baxın. Heç kəs heç nə toplamağa məcbur deyil.",
+        "İstədiyiniz vaxt dayana bilərsiniz."
+      ],
+      "safetyHeading": "Təhlükəsizlik",
+      "safetyLine": "Yalnız tikilmiş örtüklü torba və ya bükülmüş corabdan istifadə edin, oturun, heç vaxt üzə doğru atmayın və yaxınlıqda böyük adam olsun. Kiçik hissələr uda bilmə təhlükəsi yaradır.",
+      "flags": [
+        "3 yaşdan kiçik üçün deyil: kiçik hissələr",
+        "Ağıza yaxın saxlamayın"
+      ],
+      "safety": [
+        "Tikilmiş örtüklü torba seçin və ya təmiz corabı bükün. Əvvəlcə deşik və ya boş tikişlər olub-olmadığını yoxlayın ki, heç bir doldurucu çıxmasın.",
+        "Paxıl, düyü və digər kiçik doldurucular uda bilmə təhlükəsi yaradır. Onları kiçik uşaqlardan və hər şeyi ağzına qoyanlardan uzaq tutun.",
+        "Hər hansı şey ağıza qoyula bilərsə, qolunuzun uzanacağı məsafədə olun və diqqətlə nəzarət edin.",
+        "Oturun. Masadakı hədəfə yumşaq və aşağıdan atın, heç vaxt üzə doğru yox."
+      ],
+      "previewLabel": "Çap olunmuş vərəq: içəridən xaricə Yaxın, Orta və Uzaq adlanan üç halqalı hədəf, hər nəfər üçün sütun və hər halqa üçün boş xanaların sırası olan hesab cədvəli.",
+      "sheetHow": "Vərəqi aranızda düz qoyun. Atış hər hansı halqaya düşəndə, öz sütununuzda, həmin halqanın sırasında bir xananı işarələyin.",
+      "rings": [
+        "Yaxın",
+        "Orta",
+        "Uzaq"
+      ],
+      "people": [
+        "Birinci şəxs",
+        "İkinci şəxs"
+      ],
+      "ringHeading": "Halqa",
+      "print": "Hədəfi və hesab vərəqini çap edin"
+    },
+    "seasonalPack": {
+      "guidance": "Bir ay seçin, onun üç kağız tapmacasını çap edin və birini, ikisini və ya üçünü birlikdə edin.",
+      "monthLegend": "Ay seçin",
+      "months": [
+        "Yanvar",
+        "Fevral",
+        "Mart",
+        "Aprel",
+        "May",
+        "İyun",
+        "İyul",
+        "Avqust",
+        "Sentyabr",
+        "Oktyabr",
+        "Noyabr",
+        "Dekabr"
+      ],
+      "monthNote": "Hər ayın öz şəkilləri var. Səhifə bu ayla açılır, istədiyiniz başqa ayı seçə bilərsiniz.",
+      "restDay": "Bu gün istirahət günüdür",
+      "restLine": "Bu gün tapmaca yoxdur. İstirahət günü də yaxşı gündür.",
+      "previewHeading": "Üç tapmaca",
+      "puzzles": {
+        "pairs": {
+          "title": "Cütləri tapın",
+          "how": "Yuxarı sətirdəki hər şəkildən aşağı sətirdə eyni şəklə xətt çəkin.",
+          "describe": "Eyni dörd şəklin iki sətri, fərqli sıra ilə."
+        },
+        "different": {
+          "title": "Hansı fərqlidir?",
+          "how": "Digər üçündən fərqli olan şəkli dairəyə alın.",
+          "describe": "Dörd şəkildən ibarət bir sətir. Üçü eynidir, biri fərqlidir."
+        },
+        "color": {
+          "title": "Rəngləyin",
+          "how": "Şəkli istədiyiniz kimi, rəngli karandaş və ya qələmlərlə rəngləyin.",
+          "describe": "Rənglənmək üçün bir böyük şəkil."
+        }
+      },
+      "print": "Bu ayın dəstini çap edin",
+      "sheetHow": "Bir səhifə çap edin. Tapmacaların birini, ikisini və ya üçünü istənilən sırada edin.",
+      "printFooter": "Birini, ikisini və ya üçünü edin. İstədiyiniz vaxt dayana bilərsiniz."
+    },
+    "decorateACard": {
+      "guidance": "Bir münasibət seçin, sonra birlikdə rəngli karandaş və ya qələmlərlə kart bəzəyin. Düzgün kart yoxdur.",
+      "occasionLegend": "Münasibət seçin",
+      "occasions": {
+        "birthday": {
+          "label": "Ad günü",
+          "words": "Ad gününüz mübarək"
+        },
+        "thank-you": {
+          "label": "Təşəkkür",
+          "words": "Sağ olun"
+        },
+        "thinking-of-you": {
+          "label": "Sizi düşünürəm",
+          "words": "Sizi düşünürəm"
+        },
+        "new-season": {
+          "label": "Yeni fəsil",
+          "words": "Yeni fəsil"
+        },
+        "just-because": {
+          "label": "Sadəcə belə",
+          "words": "Sadəcə belə"
+        }
+      },
+      "stepsHeading": "Birlikdə necə bəzəmək olar",
+      "steps": {
+        "fold": "Kartı çap edin və kəsikli xətt boyunca ikiyə qatlayın ki, ön tərəf xaricdə olsun.",
+        "front": "Bir nəfər sözlərin ətrafında kartın ön tərəfini bəzəyir.",
+        "inside": "Digər nəfər arxa tərəfi bəzəyir, ya da bir tərəfdə növbə ilə işləyirsiniz.",
+        "message": "Birlikdə mesaj yazın. Biri yazarkən, digəri sözləri deyə bilər.",
+        "stop": "İstədiyiniz vaxt dayana bilərsiniz. Düzgün kart yoxdur, sadə kart da eyni dərəcədə yaxşıdır."
+      },
+      "materials": "Rəngli karandaş, rəngli qələm və ya keçə qələmlərdən istifadə edin. Heç nəyi kəsmək, yapışdırmaq və ya bərkitmək lazım deyil.",
+      "previewLabel": "İkiyə qatlanmış kartın önizləməsi. Ön tərəfdə {words} yazılıb, ətrafında yarpaqlardan və ulduzlardan sadə çərçivə var. Arxa tərəfdə mesaj üçün xətlər və Kimdən üçün xətt var.",
+      "from": "Kimdən",
+      "sheetHow": "Kartı kesik çizgiden ikiye katlayın; ön yüz dışarıda olsun. Mesajı arkasına yazın.",
+      "rulesHeading": "İki kişi için",
+      "sheetRules": [
+        "Sırayla yapın ya da işi bölün: biriniz önünü, diğeriniz arkasını süsləsin.",
+        "Mesajı birlikdə yazın, ya da biriniz diğerinin dediklərini yazsın.",
+        "İstədiyiniz vaxt dayana bilərsiniz. Doğru kart yoxdur."
+      ],
+      "print": "Kartı çap edin"
+    },
+    "storyDice": {
+      "guidance": "Şəkillərə baxın və onlardan istifadə edərək bir hekayə danışın, istənilən sıra ilə. Doğru hekayə yoxdur.",
+      "countLegend": "Neçə zər",
+      "count": "{n} zər",
+      "roll": "Yenidən atın",
+      "pass": "Keçin",
+      "passed": "Keçmək olar. Növbəti şəxs başlaya bilər, ya da siz yenidən ata bilərsiniz.",
+      "rolled": "Yeni şəkillər: {names}.",
+      "tapped": "{name}. Bu ilə və ya başqa biri ilə başlayın."
+    },
+    "wordPicture": {
+      "guidance": "Bir şəklə, sonra onun adını bildirən sözə toxunun. Ya da əvvəlcə bir sözə, sonra onun şəklinə toxunun.",
+      "countLegend": "Neçə şəkil",
+      "count": "{n} şəkil",
+      "picturesGroup": "Şəkillər",
+      "wordsGroup": "Sözlər",
+      "readWord": "Səslə oxuyun: {name}",
+      "next": "Yeni şəkillər",
+      "putBack": "Geri qoyun",
+      "pickWord": "İndi ona uyğun sözə toxunun.",
+      "pickPicture": "İndi ona uyğun şəkilə toxunun.",
+      "fit": "Bəli, o söz {name|lower} şəklinə uyğundur.",
+      "newSet": "Budur yeni şəkil dəsti.",
+      "restarted": "Yenidən başlanğıca qayıdılır. Hər şəkil və söz yenidən sərbəstdir.",
+      "restored": "Geri qoyuldu. Uyğun cütlər yenidən göstərilir.",
+      "all": "Hər sözün öz şəkli var."
+    },
+    "colorMatch": {
+      "guidance": "Rəngə və onun adına baxın, sonra həmin rəngdə olan hər şəklə toxunun.",
+      "target": "Rəng {color|lower} rəngidir. {color|lower} olan hər şəklə toxunun.",
+      "countLegend": "Neçə şəkil",
+      "count": "{n} şəkil",
+      "found": "Bəli, {name|lower} {color|lower} rənglidir.",
+      "named": "{name|lower} {color|lower} rənglidir.",
+      "all": "Bunlar bütün {color|lower} şəkillərdir.",
+      "shown": "Budur {color|lower} şəkillər.",
+      "show": "Göstərin",
+      "next": "Başqa rəng",
+      "names": {
+        "red": "Qırmızı",
+        "orange": "Narıncı",
+        "yellow": "Sarı",
+        "green": "Yaşıl",
+        "blue": "Mavi"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Soldakı yarılardan birinə toxunun, sonra ona uyğun sağdakı yarıya toxunun.",
+      "countLegend": "Neçə şəkil",
+      "count": "{n} şəkil",
+      "leftGroup": "Sol yarılar",
+      "rightGroup": "Sağ yarılar",
+      "left": "{name|lower} şəklinin sol yarısı",
+      "right": "{name|lower} şəklinin sağ yarısı",
+      "joined": "Birləşdirildi",
+      "pickRight": "İndi ona uyğun sağdakı yarıya toxunun.",
+      "pickLeft": "İndi ona uyğun soldakı yarıya toxunun.",
+      "fit": "Bəli, bu iki yarı {name|lower} şəklini yaradır.",
+      "apart": "Bu ikisi bir-birinə uyğun deyil. Başqasını sınayın.",
+      "all": "Hər şəkil bütövdür.",
+      "shown": "Budur birləşdirilmiş şəkillər.",
+      "show": "Mənə göstərin",
+      "next": "Başqa dəst"
+    },
+    "colorByNumber": {
+      "guidance": "Açardan bir rəng seçin, sonra kvadratı həmin rənglə doldurun. İstənilən rəng olar.",
+      "sizeLegend": "Şəbəkənin ölçüsü",
+      "size": "{n} x {n}",
+      "keyLegend": "Rənglər",
+      "colors": [
+        "Sarı",
+        "Narıncı",
+        "Yaşıl",
+        "Bənövşəyi"
+      ],
+      "motifs": {
+        "house": "bir ev",
+        "flower": "bir çiçək",
+        "heart": "bir ürək",
+        "tree": "bir ağac",
+        "boat": "bir yelkənli qayıq",
+        "pot-plant": "qabda bir bitki"
+      },
+      "region": "Şəkil şəbəkəsi, {n} x {n}. Ekran dar olarsa, yanlara doğru sürüşür.",
+      "cell": "Nömrə {number}, sətir {row}, sütun {column}, {color}",
+      "empty": "boş",
+      "chose": "{name} seçildi. Doldurmaq üçün kvadrata toxunun.",
+      "painted": "{name}, sətir {row}, sütun {column}.",
+      "sheet": "Hər kvadratın rəngi öz nömrəsinin rənginə uyğundur. Vərəqdəki şəkil budur: {name}.",
+      "own": "Hər kvadrat doldurulub. Bu sizin öz şəkliniz.",
+      "fillAll": "Nömrələrə görə doldurun",
+      "filledAll": "Hər boş kvadrat indi öz nömrəsinin rənginə boyandı.",
+      "clear": "Təmizlə",
+      "cleared": "Şəbəkə təmizdir.",
+      "next": "Başqa şəkil",
+      "fresh": "Budur boyamaq üçün başqa bir şəkil."
+    },
+    "patternMaker": {
+      "guidance": "Kvadrata toxunaraq onun rəngini dəyişin. Naxışınız yanında böyüyəcək. Yaratdığınız heç nə saxlanılmır və göndərilmir.",
+      "sizeLegend": "Kafel ölçüsü",
+      "size": "{n} x {n}",
+      "keyLegend": "Rənglər, toxunuşun dəyişdirdiyi sıra ilə",
+      "colors": [
+        "Sarı",
+        "Narıncı",
+        "Yaşıl",
+        "Bənövşəyi"
+      ],
+      "tileLabel": "Sizin kafeliniz",
+      "region": "Sizin kafeliniz, {n} x {n}. Ekran dar olarsa, yanlara doğru sürüşür.",
+      "patternLabel": "Sizin naxışınız",
+      "pattern": "Sizin naxışınız: kafeliniz sağa {n}, aşağıya {n} dəfə təkrarlanır.",
+      "square": "Sətir {row}, sütun {column}, {color}",
+      "changed": "Sətir {row}, sütun {column} indi {color} rənglidir.",
+      "cleared": "Kafel təmizdir. Istəsəniz onu yenidən qoya bilərsiniz.",
+      "surprise": "Məni təəccübləndirin",
+      "surprised": "Budur yeni kafel. Köhnəsini geri qoya bilərsiniz.",
+      "putBack": "Geri qoyun",
+      "restored": "Kafeliniz əvvəlki kimi geri qayıtdı.",
+      "print": "Naxışımı çap edin",
+      "sheetTitle": "Mənim naxışım"
+    },
+    "buildTogether": {
+      "guidance": "Növbə ilə boş yerə bir hissə qoyun. Hər birinizin öz rəngi var. Yaratdığınız heç nə saxlanılmır və göndərilmir.",
+      "sizeLegend": "Şəbəkənin ölçüsü",
+      "size": "{n} x {n}",
+      "people": [
+        "Birinci şəxs",
+        "İkinci şəxs"
+      ],
+      "colorLegend": "{person}-in rəngi",
+      "colors": [
+        "Sarı",
+        "Narıncı",
+        "Yaşıl",
+        "Bənövşəyi"
+      ],
+      "inUse": "İstifadədədir",
+      "turn": "Sizin növbəniz, {person|lower}",
+      "yourColor": "Sizin rənginiz {color|lower} rənglidir.",
+      "built": "Birlikdə yaradıldı. Bu, ikinizin yaratdığı şəkildir.",
+      "gridLabel": "Ortaq şəbəkə",
+      "region": "Ortaq şəbəkə, {n} x {n}. Ekran dar olarsa, yanlara doğru sürüşür.",
+      "cellEmpty": "Sətir {row}, sütun {column}, boş",
+      "cellFilled": "Sətir {row}, sütun {column}, {color}, {person|lower} tərəfindən qoyulub",
+      "placed": "Sətir {row}, sütun {column} indi {color} rənglidir. Sizin növbəniz, {next|lower}.",
+      "placedLast": "Sətir {row}, sütun {column} indi {color} rənglidir. Birlikdə yaradıldı.",
+      "taken": "Sətir {row}, sütun {column}-də artıq hissə var. Boş yer seçin.",
+      "pass": "Keçin",
+      "passed": "Keçmək olar. Sizin növbəniz, {person|lower}.",
+      "takeBack": "Son hissəni geri götürün",
+      "takeBackPass": "Keçidi geri götürün",
+      "tookBack": "Hissə geri götürüldü. Sizin növbəniz, {person|lower}.",
+      "tookBackPass": "Keçid geri götürüldü. Sizin növbəniz, {person|lower}.",
+      "colorChanged": "{person} indi {color|lower} rəngdədir.",
+      "restarted": "Şəbəkə boşdur. Sizin növbəniz, {person|lower}.",
+      "print": "Şəbəkəni çap edin",
+      "sheetTitle": "Birlikdə yaradın",
+      "sheetHelp": "Növbə ilə edin. Boş kvadratda hər nəfər öz qələmi ilə öz formasını çəkir.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Bir hissəyə toxunun, sonra onun şəkildə yerləşəcəyi boşluğa toxunun. Yaratdığınız heç nə saxlanılmır və göndərilmir.",
+      "hints": "İpucu xətlərini göstərin",
+      "pictureLine": "Bu bir {picture}-dir.",
+      "pictures": {
+        "house": "ev",
+        "boat": "qayıq",
+        "tree": "ağac",
+        "fish": "balıq",
+        "cat": "pişik",
+        "rocket": "raket"
+      },
+      "outlineLabel": "{picture}-in konturu. Seçdiyiniz hissəni qoymaq üçün boşluğa toxunun.",
+      "trayHeading": "Hissələr",
+      "pieces": {
+        "large-triangle": "Böyük üçbucaq",
+        "small-triangle": "Kiçik üçbucaq",
+        "square": "Kvadrat",
+        "parallelogram": "Paraleloqram",
+        "rectangle": "Düzbucaqlı"
+      },
+      "shapes": {
+        "large-triangle": "böyük üçbucaq",
+        "small-triangle": "kiçik üçbucaq",
+        "square": "kvadrat",
+        "parallelogram": "paraleloqram",
+        "rectangle": "düzbucaqlı"
+      },
+      "chosenLabel": "Seçilib",
+      "spaceEmpty": "Boşluq {n}, {shape}, boşdur",
+      "spaceFilled": "Boşluq {n}, {shape}, öz hissəsi ilə doludur. Hissəni geri götürmək üçün toxunun.",
+      "chosen": "{piece} seçildi. İndi şəkildə bir boşluğa toxunun.",
+      "unchosen": "Parça artıq seçilməyib.",
+      "placed": "Parça {n} nömrəli yerdədir.",
+      "complete": "{picture} tamamlanıb.",
+      "different": "Bu parça həmin yerin forması ilə uyğun gəlmir. Başqa yer seçin.",
+      "needPiece": "Əvvəlcə tepsidən parça seçin.",
+      "filled": "Bu yerdə artıq parça var. Parçanı geri götürmək üçün üzərinə toxunun.",
+      "tookBack": "Parça yenidən tepsidədir.",
+      "cleared": "Bütün parçalar yenidən tepsidədir. Fikrinizi dəyişsəniz, onları geri qoyun.",
+      "restored": "Parçalar yenidən şəkildədir.",
+      "next": "Bu {picture} şəklidir.",
+      "putBack": "Geri qoyun",
+      "another": "Başqa forma",
+      "print": "Bu formanı çap edin",
+      "sheetTitle": "Sakit formalar",
+      "sheetHow": "Parçaları rənglənin, ya da kontura uyğun kəsib çıxarın. Kəsmək üçün böyük biri kömək edə bilər.",
+      "sheetPieces": "Parçalar konturla eyni ölçüdədir"
+    },
+    "picnicPlanner": {
+      "guidance": "Səbətə əlavə etmək üçün şəklə toxunun, səbətdən çıxarmaq üçün isə onun üzərinə toxunun. Səbətə altı şey sığır.",
+      "guidancePlay": "Eyni olan iki şəkilə toxunun. Şəkillər açıq qalır və vaxt məhdudiyyəti yoxdur.",
+      "basketHeading": "Bizim səbət",
+      "basketLabel": "Piknik səbəti",
+      "takeOut": "{picture} səbətdən çıxarın",
+      "inBasket": "Səbətdədir",
+      "foodHeading": "Yemək",
+      "outingsHeading": "Görüləcək işlər",
+      "added": "{picture} səbətə əlavə olundu.",
+      "removed": "{picture} səbətdən çıxarıldı.",
+      "already": "{picture} artıq səbətdədir. Çıxarmaq üçün onun üzərinə toxunun.",
+      "full": "Səbət doludur. Yer açmaq üçün bir şeyi çıxarın.",
+      "summary": "Bizim piknik: {list}.",
+      "summaryNone": "Səbətdə hələ heç nə yoxdur.",
+      "and": "və",
+      "play": "Gəlin piknikimizlə oynayaq",
+      "needTwo": "Əvvəlcə ən azı iki şey seçin.",
+      "playAgain": "Yenidən oynayın",
+      "back": "Piknikə qayıt",
+      "print": "Piknik siyahımızı çap edin",
+      "cleared": "Səbət boşdur.",
+      "notice": "Bu, danışmaq üçün bir plandır. Heç nə vaxtla ölçülmür, qiymətləndirilmir və ya saxlanılmır.",
+      "sheetTitle": "Bizim piknik siyahımız",
+      "sheetHow": "Hər şeyi yığarkən işarələyin. Başqa gətirmək istədiyiniz şeylər üçün boş sətirlərdən istifadə edin.",
+      "sheetToPack": "Yığılacaqlar"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Albomu başlatmaq üçün öz fotoşəkillərinizdən ikidən on ikiyə qədər seçin.",
+      "guidance": "Səhifələri birlikdə çevirin, düymələrlə və ya klaviaturada sol və sağ oxlarla. İstəsəniz, fotoşəklin altına bir neçə söz əlavə edə bilərsiniz. Yaratdığınız heç nə saxlanılmır və göndərilmir.",
+      "lookGuidance": "Hər səhifəyə birlikdə baxın. İstəsəniz danışa bilərsiniz, ya da sadəcə baxa bilərsiniz.",
+      "intro": "Bu cihazdan ikidən on ikiyə qədər fotoşəkil seçin. Hər biri birlikdə çevirə biləcəyiniz kitabın bir səhifəsinə çevriləcək.",
+      "consent": "Öz ailə fotoşəkillərinizdən istifadə edin. Razılıq verə bilməyən birinin fotoşəklini istifadə etməzdən əvvəl onun icazəsini alın.",
+      "privacy": "Fotoşəkilləriniz bu cihazda qalır. Onlar yüklənmir və saxlanılmır.",
+      "choose": "Fotoşəkil seçin",
+      "chooseDifferent": "Başqa fotoşəkillər seçin",
+      "backToBook": "Albomа qayıt",
+      "backToChoose": "Fotoşəkil seçməyə qayıt",
+      "needTwo": "Zəhmət olmasa ən azı iki fotoşəkil seçin.",
+      "usingFirst": "İlk {max} fotoşəkildən istifadə olunur.",
+      "cleared": "Albom təmizləndi. Yenidən başlamaq üçün fotoşəkil seçin.",
+      "moved": "{n} nömrəli səhifəyə keçildi.",
+      "pageOf": "{total} səhifənin {n}-ci səhifəsi",
+      "lookTogether": "Birlikdə baxın",
+      "leaveLook": "Albomа qayıt",
+      "print": "Albomu çap edin",
+      "clear": "Albomu təmizləyin",
+      "bookLabel": "Ailə albomu",
+      "pagesLabel": "Səhifələri çevirin",
+      "previous": "Əvvəlki səhifə",
+      "next": "Növbəti səhifə",
+      "moveEarlier": "Əvvələ köçürün",
+      "moveLater": "Sonraya köçürün",
+      "captionLabel": "Bu səhifə üçün bir neçə söz, istəsəniz",
+      "captionHelp": "80 simvola qədər. Yazılar yalnız bu səhifədə qalır və səhifəni bağladığınızda silinir.",
+      "sheetTitle": "Bizim albom",
+      "sheetHow": "Hər səhifədə bir fotoşəkil və onun altında sözlər. Səhifələri ardıcıllıqla çevirin və hər biri haqqında danışın.",
+      "sheetEmpty": "Öz albomunuzu çap etmək üçün oyun səhifəsində fotoşəkillərinizi seçin, ya da bu boş səhifəni çap edib üzərinə çap olunmuş fotoşəkil yapışdırın.",
+      "sheetFrame": "Çap olunmuş fotoşəkli buraya yapışdırın",
+      "sheetWords": "Bu səhifə üçün bir neçə söz",
+      "skipped": {
+        "one": "{n} fayl istifadə edə biləcəyimiz fotoşəkil deyildi.",
+        "other": "{n} fayl istifadə edə biləcəyimiz fotoşəkil deyildi."
+      }
+    },
+    "quietScene": {
+      "guidance": "Hər dəfə bir şəkilə baxın. Hazır olduqda Növbəti və ya Əvvəlki düyməsinə basın. Heç nə özü-özünə hərəkət etmir.",
+      "next": "Növbəti şəkil",
+      "previous": "Əvvəlki şəkil",
+      "bigPicture": "Böyük şəkil",
+      "showEverything": "Hamısını göstərin",
+      "first": "Bu ilk şəkildir.",
+      "last": "Bu son şəkildir.",
+      "lines": {
+        "sunrise": "Günəş torpağın üzərindən yüksəlir.",
+        "window-with-birds": "Pəncərənin xaricində quşlar.",
+        "vase-of-flowers": "Masanın üzərində bir vaza gül.",
+        "teacup": "Pəncərənin yanında bir fincan çay.",
+        "tree": "Bağda dayanan bir ağac.",
+        "sailboat": "Suyun üzərində bir yelkənli qayıq.",
+        "lighthouse": "Dənizin kənarında bir mayak.",
+        "rainbow": "Yağışdan sonra göy qurşağı.",
+        "moon": "Gecə səmasında ay.",
+        "daisies": "Otların arasında bir dəstə papatya.",
+        "rowing-boat": "Durğun suyun üzərində avarlı qayıq.",
+        "potted-plant": "Qabda yaşıl bitki."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Növbə ilə edin. Kəsilmiş parçaya toxunun, sonra boş yerə toxunub onu orada qoyun. Yaratdığınız heç nə saxlanılmır və göndərilmir.",
+      "people": [
+        "Birinci şəxs",
+        "İkinci şəxs"
+      ],
+      "marks": [
+        "dairə",
+        "kvadrat"
+      ],
+      "turn": "Növbə sizdədir, {person|lower}.",
+      "marked": "Parçalarınız {mark} ilə işarələnib.",
+      "boardLabel": "Ortaq lövhə",
+      "placeEmpty": "{n} nömrəli yer, boşdur",
+      "placeFilled": "{n} nömrəli yer, {picture|lower}, {person|lower} tərəfindən qoyulub",
+      "trayHeading": "Kəsilmiş parçalar",
+      "chosenLabel": "Seçilib",
+      "chosen": "{picture} seçildi. İndi boş yerə toxunun.",
+      "unchosen": "Kəsilmiş parça artıq seçilməyib.",
+      "needCutout": "Əvvəlcə kəsilmiş parça seçin, sonra boş yerə toxunun.",
+      "filled": "{n} nömrəli yerdə artıq şəkil var. Boş yer seçin.",
+      "placed": "{picture} {n} nömrəli yerdədir. Növbə sizdədir, {next|lower}.",
+      "full": "Hər yerdə şəkil var. Dəyişmək üçün birini geri götürün, ya da yenidən başlayın.",
+      "pass": "Ötürün",
+      "passed": "Ötürmək də olar. Növbə sizdədir, {person|lower}.",
+      "takeBack": "Son parçanı geri götürün",
+      "takeBackPass": "Ötürməni geri götürün",
+      "tookBack": "Parça geri götürüldü. Növbə sizdədir, {person|lower}.",
+      "tookBackPass": "Ötürmə geri götürüldü. Növbə sizdədir, {person|lower}.",
+      "restarted": "Lövhə boşdur. Növbə sizdədir, {person|lower}.",
+      "putBack": "Geri qoyun",
+      "putBackDone": "Parçalar yenidən lövhədədir.",
+      "another": "Başqa şəkil dəsti",
+      "anotherSet": "Tepsidə yeni kəsilmiş parçalar dəsti var. Lövhədəki parçalar yerində qalır.",
+      "print": "Lövhəni çap edin",
+      "sheetTitle": "Kollaj lövhəsi",
+      "sheetHow": "Şəkilləri kəsin və növbə ilə lövhəyə qoyun. Kəsmək üçün böyük biri kömək edə bilər.",
+      "sheetTray": "Kəsiləcək şəkillər"
+    },
+    "gardenPlanner": {
+      "guidance": "Şəkilə toxunun, sonra onu qoymaq üçün bir gön (yataq) üzərinə toxunun. Heç nə seçilmədən, şəkli olan gönə toxunsanız, o təmizlənir.",
+      "bedsLabel": "Bağ gönləri",
+      "bedEmpty": "{n} nömrəli gön, boşdur",
+      "bedFilled": "{n} nömrəli gön, {picture|lower}",
+      "plantsHeading": "Bitkilər",
+      "extrasHeading": "Bağ əlavələri",
+      "chosenLabel": "Seçilib",
+      "chosen": "{picture} seçildi. İndi bir gönə toxunun.",
+      "unchosen": "Heç bir şəkil seçilməyib.",
+      "needPicture": "Əvvəlcə bir şəkil seçin, sonra bağ yatağına toxunun.",
+      "planted": "{picture} {n} nömrəli yataqdadır.",
+      "replaced": "{picture} {n} nömrəli yataqdakı şəklin yerini tutur.",
+      "cleared": "{n} nömrəli yataq boşdur. Şəkli yenidən istəsəniz, onu geri qoyun.",
+      "restarted": "Bütün yataqlar boşdur.",
+      "putBack": "Geri qoyun",
+      "putBackDone": "Şəkillər yenidən öz yataqlarındadır.",
+      "summaryHeading": "Mənim bağçam",
+      "summary": "Planınızda {list} var.",
+      "summaryNone": "Hələ heç bir şəkil yataqda deyil.",
+      "and": "və",
+      "print": "Planı çap edin",
+      "sheetTitle": "Bizim bağça planımız",
+      "sheetHow": "Yataqlar ekranda seçilmiş şəkilləri göstərir. İstəsəniz, boş yataqların üzərinə çəkin.",
+      "sheetNotes": "Qeydlər",
+      "notice": "Bu, danışmaq üçün şəkil planıdır, əkin üzrə məsləhət deyil."
+    },
+    "coloringWall": {
+      "guidance": "Şəkli və səhifə sayını seçin. Divarı çap edin, hər nəfər bir və ya bir neçə səhifəni rəngləyir. Heç nə vaxtla ölçülmür, qiymətləndirilmir və saxlanılmır.",
+      "pictureLegend": "Şəkil",
+      "sizeLegend": "Səhifə sayı",
+      "sizes": {
+        "2x2": "4 səhifə (2 x 2)",
+        "3x2": "6 səhifə (3 x 2)",
+        "3x3": "9 səhifə (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} {n} səhifəyə bölünüb: {across} sütun və {down} sətir. Hər səhifənin küncündə etiket var.",
+      "previewCaption": "Şəklin üzərində səhifə xətləri və etiketlər çəkilib.",
+      "labelsNote": "Hərflər şaquli, rəqəmlər üfüqi istiqamətdə gedir, buna görə A1 yuxarı soldakı səhifədir.",
+      "wallHeading": "Divarı necə yığmaq olar",
+      "steps": [
+        "Bütün səhifələri çap edin. Birinci səhifə bu təlimat və divarın xəritəsidir.",
+        "Hər nəfər bir və ya bir neçə səhifə götürüb onları rəngləyir.",
+        "Rənglər və üslublar eyni olmalı deyil. Hər səhifə eyni şəklin bir hissəsidir.",
+        "Səhifələri etiketlərinə görə düzün, sonra arxa tərəfdən yapışqan lentlə birləşdirin.",
+        "Divarı hamının görə biləcəyi yerdə asın."
+      ],
+      "mapLabel": "Divarın xəritəsi: {down} sətir, hər sətirdə {across} səhifə, A1 ilə {last} arasında etiketlənib.",
+      "edgeNote": "Qırıq xətt hər səhifənin kənarını göstərir. Səhifələri bu xətt boyunca kənar-kənara düzün və ya bir az üst-üstə qoyun.",
+      "pictureLine": "Şəkil: {picture}. Bu divar {n} səhifədən ibarətdir: {across} sütun, {down} sətir.",
+      "print": "Divarı çap edin"
+    },
+    "findTogether": {
+      "guidance": "Növbə ilə oynayın. Öz növbənizdə cütlük tapmaq üçün iki kart çevirin. Cütləri birlikdə tapın.",
+      "sizeLegend": "Kartların sayı",
+      "size": "{n} kart",
+      "viewLegend": "Oynama üsulu",
+      "viewShowing": "Şəkillər görünən halda oynayın",
+      "viewHidden": "Kartlar üzü aşağı",
+      "people": [
+        "Birinci şəxs",
+        "İkinci şəxs"
+      ],
+      "turn": "Növbə: {person}",
+      "turnDone": "Bütün cütlüklər tapıldı.",
+      "tally": "Birlikdə tapılan cütlüklər: {n}",
+      "cardNamed": "{name}, kart {n}",
+      "cardFaceDown": "Kart {n}, üzü aşağı",
+      "first": "{name}. İndi ikinci kartı çevirin.",
+      "found": "{name}: cütlük, birlikdə tapıldı. İndi {next|lower} növbəsidir.",
+      "allTogether": "Bütün cütlükləri birlikdə tapdınız.",
+      "different": "{a} və {b} fərqlidir. Vaxt ayırın, sonra Geri çevirin düyməsinə basın.",
+      "waiting": "Hazır olanda Geri çevirin düyməsinə basın. Sonra növbə keçir.",
+      "turnedBack": "Geri çevrildi. İndi {person|lower} növbəsidir.",
+      "passed": "Ötürmək olar. İndi {person|lower} növbəsidir.",
+      "turnBack": "Geri çevirin",
+      "pass": "Ötür",
+      "playAgain": "Yenidən oynayın"
+    },
+    "drawingDuet": {
+      "guidance": "Hər biriniz bir xətt çəkərək növbə ilə oynayın, sonra qələmi ötürün. İstənilən kəs ötürə bilər. Heç yerə göndərilmir. Şəkil bu səhifəni yalnız siz saxladığınız halda tərk edir.",
+      "people": [
+        "Birinci şəxs",
+        "İkinci şəxs"
+      ],
+      "colorLegend": "{person} rəngi",
+      "colors": [
+        "Sarı",
+        "Narıncı",
+        "Yaşıl",
+        "Bənövşəyi"
+      ],
+      "turn": "{person} növbəsi",
+      "penColor": "Qələm rəngi: {color}.",
+      "canvasLabel": "Ortaq rəsm, indiyədək {n} xətt",
+      "canvasLabelOne": "Ortaq rəsm, indiyədək {n} xətt",
+      "keys": "Ox düymələri rəsmdəki qələm nöqtəsini hərəkət etdirir. Boşluq qələmi endirir və ya qaldırır.",
+      "penDown": "Qələmi endir",
+      "penUp": "Qələmi qaldır",
+      "pass": "Qələmi ötür",
+      "passed": "Ötürmək olar. İndi {person|lower} növbəsidir.",
+      "takeBack": "Son xəttimi geri götür",
+      "tookBack": "{person|lower} tərəfindən çəkilən son xətt geri alındı.",
+      "noLine": "{person|lower} tərəfindən geri alınacaq xətt yoxdur.",
+      "restarted": "Vərəq təmizdir. Növbə birinci şəxsdədir. İstəmədən etdisinizsə, geri qoyun.",
+      "putBack": "Geri qoyun",
+      "restored": "Xətlər əvvəlki kimi geri qayıtdı.",
+      "save": "Şəkli saxla",
+      "saved": "Şəkliniz hazırdır. Onu bu cihazda saxlamaq üçün yükləmə keçidindən istifadə edin.",
+      "download": "Yüklə: drawing-duet.png",
+      "print": "Kağız versiyanı çap edin",
+      "sheetTitle": "Rəsm duet",
+      "paperRules": "İki nəfər, bir vərəq, iki qələm. Növbə ilə oynayın: hər biriniz bir xətt və ya forma çəkin, sonra qələmi ötürün. İstənilən kəs ötürə bilər. Düzgün rəsm yoxdur."
+    },
+    "colorWash": {
+      "guidance": "Səhifəyə bir-bir yumşaq rəng çəkin. Dayanmaq üçün fırçanı qaldırın və istədiyiniz zaman dayanın. Heç nə saxlanılmır və göndərilmir.",
+      "colorLegend": "Rəng",
+      "sizeLegend": "Fırçanın ölçüsü",
+      "colors": [
+        "Sarı",
+        "Narıncı",
+        "Yaşıl",
+        "Bənövşəyi"
+      ],
+      "sizes": {
+        "wide": "Geniş",
+        "veryWide": "Çox geniş"
+      },
+      "color": "Rəng: {color}.",
+      "brushDown": "Fırçanı endir",
+      "brushUp": "Fırçanı qaldır",
+      "keys": "Ox düymələri səhifədəki fırça halqasını hərəkət etdirir. Boşluq fırçanı endirir və ya qaldırır.",
+      "canvasLabel": "Yumşaq rəng çalarları olan səhifə",
+      "fresh": "Təmiz səhifə",
+      "freshMessage": "Təmiz səhifə.",
+      "putBack": "Geri qoyun",
+      "restored": "Səhifə geri qayıtdı."
+    },
     "sortTogether": {
       "guidance": "Bir şəklə toxunun, sonra aid olduğu səbətə toxunun.",
       "restart": "Yeni şəkillər",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} “{basket}” səbətinə qoyula bilər. Ora qoymaq üçün həmin səbətə toxunun.",
       "placed": "{name|lower} “{basket}” səbətindədir.",
       "sorted": "Hər şey çeşidləndi. Səbətlərə birlikdə baxın və ya başqa mövzu sınayın.",
+      "largerTargets": "Böyük hədəflər",
+      "largerOn": "Böyük hədəflər açıqdır. Heç nə yerindən tərpənməyib.",
+      "largerOff": "Böyük hədəflər bağlıdır. Heç nə yerindən tərpənməyib.",
+      "largerOnNewRound": "Böyük hədəflər açıqdır, iki səbət var. Düzmək üçün yeni şəkillər budur.",
       "basket": {
         "one": "{basket} səbəti, içində {count} şəkil",
         "other": "{basket} səbəti, içində {count} şəkil"
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Bütöv şəkil: {name}",
       "guideText": "Şəkil bütöv olanda belə görünür.",
+      "ownChoose": "Öz şəklinizi istifadə edin",
+      "ownChange": "Başqa şəkil seçin",
+      "ownBack": "Bizim şəkillərə qayıdın",
+      "ownPrivacy": "Şəkliniz bu cihazda qalır. Yüklənmir və saxlanılmır.",
+      "ownConsent": "Öz şəkillərinizi istifadə edin. Razılıq verə bilməyən birinin şəklindən istifadə etməzdən əvvəl onun razılığını soruşun.",
+      "ownWorking": "Şəkliniz hazırlanır.",
+      "ownNotUsable": "Bu fayldan istifadə etmək olmadı. JPEG və ya PNG kimi şəkil faylı seçin.",
+      "ownAlt": "Sizin şəkliniz",
+      "ownPiece": "Parça {n}, {place}",
+      "ownWhole": "Şəkliniz yenidən bütövdür. İstədiyiniz zaman yenidən qarışdırın.",
+      "ownSheetTitle": "Şəkliniz parçalarda",
+      "ownSheetHow": "Xətlər boyunca kəsin. Parçaları qarışdırın, sonra şəkil bütöv olana qədər hər dəfə iki parçanı yerdəyişdirin.",
       "piece": "Hissə: {place}",
       "pieceInPlace": ", düzgün yerdədir",
       "piecePickedUp": ", götürülüb",
@@ -190,6 +854,14 @@
       "guidance": "Kartı ucadan oxuyun. Düzgün cavab yoxdur.",
       "position": "Kart {n} / {total}",
       "themeLegend": "Mövzu",
+      "showPrompt": "Söhbət üçün bir təklif göstərin",
+      "bigPicture": "Qrup üçün böyük şəkil",
+      "passNote": "İstənilən kəs ötürə bilər.",
+      "groupTitle": "Kartı qrupda ötürmək",
+      "groupSit": "Hamının şəkli görə biləcəyi dairədə oturun. Kartı tutan şəxs və ya böyük şəkli olan cihaz təklifi əvvəlcə ucadan oxuyur.",
+      "groupPass": "Sonra kartı növbəti şəxsə ötürün. Hər kəs şəkil haqqında bir söz və ya bir cümlə deyir, sonra kartı ötürür.",
+      "groupNoSpeech": "Kartı ötürmək həmişə mümkündür. Bir nəfər heç nə demədən ötürə bilər və heç kəs səbəbini izah etməli deyil.",
+      "groupEnd": "Tur kart dairəni bir dəfə dolandıqda və ya qrup kifayət qədər etdikdə bitir. Heç kim qalib gəlmir. Qrup istədiyi an dayana bilər.",
       "next": "Növbəti kart",
       "previous": "Əvvəlki kart",
       "print": "Bütün kartları çap edin",
@@ -252,6 +924,20 @@
       "started": "Başladı. Dairə böyüdükcə nəfəs alın.",
       "stopped": "Dayandı.",
       "finished": "Bu, altı yavaş nəfəs idi. İstədiyiniz vaxt yenidən başlayın."
+    },
+    "storyChain": {
+      "guidance": "Növbə ilə danışın: hər biriniz bir cümlə deyin və növbəti şəkli əlavə edin.",
+      "passNote": "Cümləni səsli deyin. Heç nə yazılmır və saxlanılmır. Hər kəs növbəsini ötürə bilər.",
+      "chainLabel": "Hələlik zəncir",
+      "item": "Şəkil {n}: {name}",
+      "add": "Şəkil əlavə edin",
+      "fullAdd": "Zəncir doludur. Yeni zəncir başlayın",
+      "newChain": "Yeni zəncir başlayın",
+      "takeOff": "Sonuncunu çıxarın",
+      "added": "{name|lower} indi zəncirin sonundadır.",
+      "removed": "{name|lower} zəncirdən çıxarıldı.",
+      "fresh": "Yeni zəncir, {name|lower} ilə başlayır.",
+      "full": "Zəncirdə 8 şəklin hamısı var. Bütün hekayəni danışın və ya yeni zəncir başlayın."
     }
   },
   "pictures": {
@@ -287,110 +973,96 @@
     "balloon": "Hava şarı",
     "lighthouse": "Mayak",
     "sun": "Günəş",
-    "moon": "Ay və ulduzlar"
+    "moon": "Ay və ulduzlar",
+    "teapot": "Çaydan",
+    "apple-pie": "Alma piroqu",
+    "honey-jar": "Bal qabı",
+    "boiled-egg": "Yumurta stəkanda",
+    "toaster": "Toster",
+    "cheese": "Pendir parçası",
+    "milk-jug": "Süd sürahisi",
+    "cupcake": "Kiçik tort",
+    "orange": "Portağal",
+    "grapes": "Üzüm salxımı",
+    "watermelon": "Qarpız dilimi",
+    "pineapple": "Ananas",
+    "peach": "Şaftalı",
+    "rose": "Gül",
+    "daisies": "Papatyalar",
+    "mushroom": "Göbələk",
+    "wheelbarrow": "Təkərli araba",
+    "birdhouse": "Quş evi",
+    "cactus": "Kaktus qabda",
+    "acorn": "Palıd qozası",
+    "autumn-leaf": "Payız yarpağı",
+    "rabbit": "Dovşan",
+    "duck": "Ördək",
+    "hen": "Toyuq",
+    "sheep": "Qoyun",
+    "owl": "Bayquş",
+    "ladybird": "Uğur böcəyi",
+    "snail": "İlbiz",
+    "frog": "Qurbağa",
+    "bee": "Arı",
+    "clock": "Kamin saatı",
+    "vase-of-flowers": "Vaza gülləri",
+    "radio": "Radio",
+    "books": "Kitab yığını",
+    "candle": "Şam",
+    "glasses": "Eynək",
+    "telephone": "Telefon",
+    "ball-of-wool": "Yun topu",
+    "straw-hat": "Günəş papağı",
+    "train": "Buxar qatarı",
+    "bus": "Avtobus",
+    "airplane": "Təyyarə",
+    "suitcase": "Çamadan",
+    "tractor": "Traktor",
+    "rowing-boat": "Qayıq",
+    "rainbow": "Göy qurşağı",
+    "rain-cloud": "Yağış buludu",
+    "snowflake": "Qar dənəsi",
+    "kite": "Uçurtma",
+    "sunrise": "Günəş doğuşu təpələrin üstündə",
+    "decorated-keepsake-box": "Bəzəkli xatirə qutusu",
+    "painted-plant-pot": "Gül qabı, boyalı və otlu",
+    "repeating-pattern-sheet": "Naxış vərəqi",
+    "music-drawn-lines": "Xətlər, musiqiyə uyğun",
+    "paper-boat-afloat": "Kağız qayıq suda",
+    "folded-towel-stack": "Dəsmal yığını",
+    "hand-massage-with-lotion": "Əl masajı, losyonla",
+    "open-photo-album": "Fotoalbom",
+    "button-flower-card": "Düymə gülü",
+    "blue-torn-paper-collage": "Kollaj",
+    "family-tree-of-hands": "Ailə ağacı əllərlə",
+    "open-greeting-card": "Təbrik kartı, ürəkli",
+    "lavender-sachet": "Lavanda torbası",
+    "memory-collage-of-photos": "Ailə fotoşəkilləri kollajı",
+    "paper-chain-garland": "Kağız zəncir",
+    "open-songbook-with-notes": "Mahnı kitabı",
+    "photo-postcard-with-stamp": "Açıqca, fotoşəkilli",
+    "pine-cone-bird-feeder": "Quş yemliyi",
+    "playlist-phone-and-card": "Telefon, mahnı kartı",
+    "sealed-rice-shaker": "Şırıldaq, düyülü",
+    "texture-board-with-scraps": "Lövhə, parçalarla",
+    "painted-garden-stone": "Bağ daşı",
+    "shared-painted-canvas": "Kətan",
+    "watercolor-washes-sheet": "Akvarel rəngləri",
+    "seedling-in-pot": "Cücərtilər qabda",
+    "pressed-leaves-in-book": "Yarpaqlar kitabda",
+    "printed-leaves-sheet": "Yarpaq izləri",
+    "pinch-pot-clay-bowl": "Gil qabı",
+    "table-sketch-pencil": "Qələm eskizi",
+    "buttons-in-muffin-tin": "Düymələr",
+    "family-recipe-book": "Resept kitabı",
+    "drum-with-beat-marks": "Nağara",
+    "torn-paper-flower": "Gül mozaikası",
+    "window-with-birds": "Pəncərə, quşlarla",
+    "woven-paper-mat": "Palaz, kağızdan",
+    "yarn-ball-with-thread": "İplik topu",
+    "letter-and-envelope": "Məktub"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Tək əldən səs",
-        "end": "çıxmaz",
-        "others": [
-          "gəlməz",
-          "qalmaz"
-        ],
-        "prompt": "Ailənizdə hansı işləri hamı birlikdə görürdü?"
-      },
-      {
-        "start": "Bir əlin nəyi var, iki əlin",
-        "end": "səsi var",
-        "others": [
-          "gücü var",
-          "dadı var"
-        ],
-        "prompt": "Birgə işləməyi kimlərlə sevirdiniz?"
-      },
-      {
-        "start": "Nə əkərsən,",
-        "end": "biçərsən",
-        "others": [
-          "yığarsan",
-          "görərsən"
-        ],
-        "prompt": "Bağda və ya həyətdə nə əkməyi sevirdiniz?"
-      },
-      {
-        "start": "Yeddi dəfə ölç, bir dəfə",
-        "end": "biç",
-        "others": [
-          "kəs",
-          "tik"
-        ],
-        "prompt": "Əlinizlə nəsə düzəltmisiniz? Nə idi?"
-      },
-      {
-        "start": "Bu günün işini sabaha",
-        "end": "qoyma",
-        "others": [
-          "saxlama",
-          "atma"
-        ],
-        "prompt": "Gününüzü necə keçirməyi xoşlayırsınız?"
-      },
-      {
-        "start": "Dostunu mənə göstər, sənin kim olduğunu",
-        "end": "deyim",
-        "others": [
-          "bilim",
-          "soruşum"
-        ],
-        "prompt": "Yaxın dostlarınızla birlikdə nə etməyi sevirdiniz?"
-      },
-      {
-        "start": "Qonşu haqqı, Tanrı",
-        "end": "haqqı",
-        "others": [
-          "yolu",
-          "sözü"
-        ],
-        "prompt": "Qonşuluq etdiyiniz mehriban insanlar barədə danışın."
-      },
-      {
-        "start": "Ürəkdən ürəyə",
-        "end": "yol var",
-        "others": [
-          "körpü var",
-          "qapı var"
-        ],
-        "prompt": "Kimdən xəbər almaq sizə xoşdur?"
-      },
-      {
-        "start": "Dağ dağa qovuşmaz, adam adama",
-        "end": "qovuşar",
-        "others": [
-          "bənzər",
-          "baxar"
-        ],
-        "prompt": "Kimləri görəndə sevinirsiniz?"
-      },
-      {
-        "start": "Səbr edən dərviş",
-        "end": "muradına yetər",
-        "others": [
-          "yolunu tapar",
-          "evinə çatar"
-        ],
-        "prompt": "Sakitlik və səbr sizə nə vaxt kömək edir?"
-      },
-      {
-        "start": "Verən əl alan əldən",
-        "end": "üstündür",
-        "others": [
-          "gözəldir",
-          "ağırdır"
-        ],
-        "prompt": "Birinə verdiyiniz xoş hədiyyə barədə danışın."
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABDEFGHKLMNOPRSTUVYZ",
@@ -714,11 +1386,6 @@
           "theme": "seasons",
           "picture": "umbrella",
           "prompt": "Qar, yağış, yoxsa günəş: hansını üstün tutursunuz?"
-        },
-        {
-          "theme": "seasons",
-          "picture": "tulip",
-          "prompt": "Novruz bayramı yaxınlaşanda evdə nələr hazırlanırdı?"
         }
       ]
     },
@@ -821,6 +1488,17 @@
             "Çöldə"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Meyvə",
+        "animals": "Heyvanlar",
+        "travel": "Səyahət üsulları",
+        "flowers": "Çiçəklər",
+        "hot-drinks": "İsti içki üçün şeylər",
+        "weather": "Hava növləri",
+        "baked": "Sobada bişirilənlər"
       }
     }
   }

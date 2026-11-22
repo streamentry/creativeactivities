@@ -5,6 +5,13 @@
       "stopReading": "Hentikan membaca",
       "region": "Permainan",
       "restart": "Mulai lagi",
+      "rest": "Istirahat dulu",
+      "restingTitle": "Sedang beristirahat",
+      "restingText": "Ambil waktu sebanyak yang Anda perlukan. Posisi Anda disimpan di halaman ini.",
+      "resume": "Lanjutkan",
+      "placeText": "Terakhir kali Anda berhenti di tengah jalan. Lanjutkan dari situ, atau mulai dari awal.",
+      "placeResume": "Lanjutkan",
+      "placeFresh": "Mulai dari awal",
       "soundOn": "Suara lembut menyala",
       "soundOff": "Suara lembut mati",
       "done": "Cukup dulu",
@@ -35,12 +42,26 @@
       "guidanceHidden": "Ketuk dua kotak untuk membaliknya. Cari dua yang sama.",
       "restart": "Gambar baru",
       "sizeLegend": "Berapa banyak kotak",
-      "size": {"other": "{n} kotak"},
+      "size": {
+        "other": "{n} kotak"
+      },
       "viewLegend": "Cara bermain",
       "viewShowing": "Gambar terlihat",
       "viewHidden": "Gambar tersembunyi",
       "playAgain": "Main lagi dengan gambar baru",
-      "talk": "Mengobrol tentang gambar bersama-sama"
+      "talk": "Mengobrol tentang gambar bersama-sama",
+      "modeLegend": "Gambar yang mana",
+      "modePlay": "Gambar apa saja",
+      "modeDaily": "Kartu hari ini",
+      "dayLegend": "Hari yang mana",
+      "dayHelp": "Semua orang mendapat gambar yang sama pada hari yang sama. Hari-hari sebelumnya juga tersedia di sini, dan melewatkan satu hari tidak ada ruginya.",
+      "guidanceDaily": "Kartu hari ini memiliki empat pasang. Ketuk satu gambar, lalu ketuk gambar yang cocok dengannya.",
+      "restartDaily": "Mulai kartu ini lagi",
+      "copy": "Salin baris ini",
+      "copied": "Tersalin. Tidak ada yang dikirim ke mana pun.",
+      "calendarTitle": "Kartu hari ini, {month}",
+      "calendarHelp": "Setiap hari memiliki empat gambar yang sama untuk semua orang. Tidak ada penilaian, dan tidak ada hari yang ditandai terlewat.",
+      "calendarVersion": "Versi {date}. Gambarnya sama untuk semua orang pada hari yang sama."
     },
     "choose": {
       "countLegend": "Berapa banyak gambar",
@@ -59,6 +80,634 @@
       "shadowAlt": "Bayangan untuk dicocokkan",
       "foundAlt": "Bayangan {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Petunjuk",
+      "hintOn": "Petunjuk setelah jeda",
+      "hintOff": "Tanpa petunjuk",
+      "guidance": "Temukan {n} gambar yang termasuk dalam satu kelompok, lalu ketuk masing-masing.",
+      "countLegend": "Berapa banyak gambar",
+      "count": "{n} gambar",
+      "found": "Ya, {name|lower} termasuk dalam kelompok ini.",
+      "elsewhere": "{name|lower} termasuk kelompok lain. Silakan pelan-pelan.",
+      "hint": "Petunjuk: perhatikan {theme|lower}.",
+      "together": "Gambar-gambar ini berkaitan: {theme}.",
+      "shown": "Inilah kelompoknya: {theme}.",
+      "groupName": "Bersama: {theme}",
+      "show": "Tampilkan kelompoknya",
+      "next": "Set lain"
+    },
+    "oddOneOut": {
+      "hintLegend": "Petunjuk",
+      "hintOn": "Petunjuk setelah jeda",
+      "hintOff": "Tanpa petunjuk",
+      "guidance": "Temukan gambar yang tidak cocok dengan yang lain, lalu ketuk gambar itu.",
+      "countLegend": "Berapa banyak gambar",
+      "count": "{n} gambar",
+      "belongs": "{name|lower} cocok dengan yang lain. Silakan pelan-pelan.",
+      "found": "Ya, {name|lower} adalah yang tidak cocok. Yang lain adalah {theme|lower}.",
+      "shown": "Ini dia: {name|lower}. Yang lain adalah {theme|lower}.",
+      "hint": "Petunjuk: {n} dari gambar ini adalah {theme|lower}.",
+      "others": "Yang lain: {theme}",
+      "show": "Tunjukkan",
+      "next": "Set lain"
+    },
+    "seatedToss": {
+      "guidance": "Duduklah di meja dan bergantian melempar kantong kacang yang lembut ke sasaran besar. Catat skornya di atas kertas, bersama-sama.",
+      "stepsHeading": "Caranya",
+      "steps": [
+        "Cetak sasaran dan lembar penghitungan, lalu letakkan rata di atas meja di antara Anda berdua.",
+        "Duduklah dengan nyaman, masing-masing di satu sisi. Bergantian melempar dengan lemparan pelan satu kali, atau lewati jika Anda lebih memilih begitu.",
+        "Jika lemparan jatuh di salah satu cincin, orang yang melempar memberi tanda pada satu kotak di kolomnya, di baris untuk cincin tersebut.",
+        "Jika Anda mau, lihat tanda-tanda itu bersama-sama saat berhenti. Tidak ada yang perlu menjumlahkan apa pun.",
+        "Berhenti kapan saja salah satu dari Anda ingin berhenti."
+      ],
+      "safetyHeading": "Keselamatan",
+      "safetyLine": "Gunakan hanya kantong dengan sarung yang dijahit rapat atau kaus kaki yang digulung, tetap duduk, jangan pernah melempar ke arah wajah, dan pastikan ada orang dewasa di dekat Anda. Bagian kecil berisiko tersedak.",
+      "flags": [
+        "Tidak untuk anak di bawah 3 tahun: bagian kecil",
+        "Jauhkan dari mulut"
+      ],
+      "safety": [
+        "Pilih kantong kacang dengan sarung yang dijahit rapat, atau gulung kaus kaki yang bersih. Periksa dulu apakah ada lubang atau jahitan yang longgar, agar isinya tidak keluar.",
+        "Kacang, beras, dan isian kecil lainnya berisiko tersedak. Jauhkan dari anak kecil dan dari siapa pun yang memasukkan benda ke mulut.",
+        "Tetaplah dalam jangkauan tangan dan awasi dengan saksama jika ada kemungkinan benda dimasukkan ke mulut.",
+        "Tetap duduk. Lempar dengan pelan dan rendah ke arah sasaran di atas meja, jangan pernah ke arah wajah."
+      ],
+      "previewLabel": "Lembar cetak: sasaran dengan tiga cincin bernama Dekat, Tengah dan Jauh, dari luar ke dalam, serta lembar penghitungan dengan satu kolom untuk setiap orang dan deretan kotak kosong untuk setiap cincin.",
+      "sheetHow": "Letakkan lembar rata di antara Anda berdua. Ketika lemparan jatuh di salah satu cincin, beri tanda pada kotak di kolom Anda, di baris cincin tersebut.",
+      "rings": [
+        "Dekat",
+        "Tengah",
+        "Jauh"
+      ],
+      "people": [
+        "Orang pertama",
+        "Orang kedua"
+      ],
+      "ringHeading": "Cincin",
+      "print": "Cetak sasaran dan lembar penghitungan"
+    },
+    "seasonalPack": {
+      "guidance": "Pilih satu bulan, cetak tiga teka-teki kertasnya, lalu kerjakan satu, dua, atau ketiganya bersama-sama.",
+      "monthLegend": "Pilih bulan",
+      "months": [
+        "Januari",
+        "Februari",
+        "Maret",
+        "April",
+        "Mei",
+        "Juni",
+        "Juli",
+        "Agustus",
+        "September",
+        "Oktober",
+        "November",
+        "Desember"
+      ],
+      "monthNote": "Setiap bulan memiliki gambarnya sendiri. Halaman ini terbuka pada bulan ini, dan Anda bisa memilih bulan lain.",
+      "restDay": "Hari ini hari istirahat",
+      "restLine": "Tidak ada teka-teki hari ini. Hari istirahat juga hari yang baik.",
+      "previewHeading": "Tiga teka-teki",
+      "puzzles": {
+        "pairs": {
+          "title": "Cocokkan pasangannya",
+          "how": "Tarik garis dari setiap gambar di baris atas ke gambar yang sama di baris bawah.",
+          "describe": "Dua baris dengan empat gambar yang sama, tetapi urutannya berbeda."
+        },
+        "different": {
+          "title": "Yang mana yang berbeda?",
+          "how": "Lingkari gambar yang berbeda dari tiga gambar lainnya.",
+          "describe": "Satu baris berisi empat gambar. Tiga gambar sama, dan satu berbeda."
+        },
+        "color": {
+          "title": "Warnai",
+          "how": "Warnai gambar sesuka Anda, dengan krayon atau pensil warna.",
+          "describe": "Satu gambar besar untuk diwarnai."
+        }
+      },
+      "print": "Cetak paket bulan ini",
+      "sheetHow": "Cetak satu halaman. Kerjakan satu, dua, atau ketiga teka-teki, dalam urutan apa pun.",
+      "printFooter": "Kerjakan satu, dua, atau ketiganya. Berhenti kapan saja Anda mau."
+    },
+    "decorateACard": {
+      "guidance": "Pilih acara, lalu hias kartu bersama-sama dengan krayon atau pulpen. Tidak ada kartu yang salah.",
+      "occasionLegend": "Pilih acara",
+      "occasions": {
+        "birthday": {
+          "label": "Ulang tahun",
+          "words": "Selamat ulang tahun"
+        },
+        "thank-you": {
+          "label": "Terima kasih",
+          "words": "Terima kasih"
+        },
+        "thinking-of-you": {
+          "label": "Memikirkan Anda",
+          "words": "Memikirkan Anda"
+        },
+        "new-season": {
+          "label": "Musim baru",
+          "words": "Musim yang baru"
+        },
+        "just-because": {
+          "label": "Sekadar menyapa",
+          "words": "Sekadar menyapa"
+        }
+      },
+      "stepsHeading": "Cara menghiasnya bersama-sama",
+      "steps": {
+        "fold": "Cetak kartunya dan lipat dua di sepanjang garis putus-putus, agar bagian depan berada di luar.",
+        "front": "Satu orang menghias bagian depan, di sekeliling kata-katanya.",
+        "inside": "Orang lainnya menghias bagian belakang, atau Anda bergantian di satu sisi.",
+        "message": "Tulis pesan bersama-sama. Satu orang bisa menulis sementara yang lain mengucapkan kata-katanya.",
+        "stop": "Berhenti kapan saja Anda mau. Tidak ada kartu yang salah, dan kartu yang sederhana sama baiknya."
+      },
+      "materials": "Gunakan krayon, pensil warna, atau spidol. Tidak perlu memotong, menempel, atau merekatkan apa pun.",
+      "previewLabel": "Pratinjau kartu yang dilipat dua. Bagian depannya bertuliskan {words}, dengan bingkai sederhana berupa daun dan bintang. Bagian belakangnya memiliki garis untuk pesan dan satu garis untuk Dari.",
+      "from": "Dari",
+      "sheetHow": "Lipat kartu menjadi dua di sepanjang garis putus-putus, dengan bagian depan di luar. Tulis pesan di bagian belakang.",
+      "rulesHeading": "Untuk dua orang",
+      "sheetRules": [
+        "Bergantian, atau bagi tugas: satu orang menghias bagian depan, yang lain bagian belakang.",
+        "Tulis pesannya bersama, atau satu orang menulis apa yang dikatakan yang lain.",
+        "Siapa pun boleh berhenti kapan saja. Tidak ada kartu yang benar."
+      ],
+      "print": "Cetak kartu"
+    },
+    "storyDice": {
+      "guidance": "Lihat gambar-gambarnya dan ceritakan sebuah cerita dengan menggunakannya, dalam urutan apa pun. Tidak ada cerita yang benar.",
+      "countLegend": "Jumlah dadu",
+      "count": "{n} dadu",
+      "roll": "Lempar lagi",
+      "pass": "Lewati",
+      "passed": "Melewati tidak apa-apa. Orang berikutnya bisa mulai, atau Anda bisa melempar lagi.",
+      "rolled": "Gambar baru: {names}.",
+      "tapped": "{name}. Mulai dengan yang ini, atau yang lain."
+    },
+    "wordPicture": {
+      "guidance": "Ketuk sebuah gambar, lalu kata yang menamainya. Atau ketuk sebuah kata, lalu gambarnya.",
+      "countLegend": "Jumlah gambar",
+      "count": "{n} gambar",
+      "picturesGroup": "Gambar",
+      "wordsGroup": "Kata",
+      "readWord": "Bacakan keras: {name}",
+      "next": "Gambar baru",
+      "putBack": "Kembalikan",
+      "pickWord": "Sekarang ketuk kata yang cocok dengannya.",
+      "pickPicture": "Sekarang ketuk gambar yang cocok dengannya.",
+      "fit": "Ya, kata itu cocok dengan {name|lower}.",
+      "newSet": "Ini kumpulan gambar baru.",
+      "restarted": "Kembali ke awal. Setiap gambar dan kata sudah lepas lagi.",
+      "restored": "Dikembalikan. Pasangan yang cocok ditampilkan lagi.",
+      "all": "Setiap kata sudah punya gambarnya."
+    },
+    "colorMatch": {
+      "guidance": "Lihat warna dan namanya, lalu ketuk setiap gambar yang berwarna itu.",
+      "target": "Warnanya {color|lower}. Ketuk setiap gambar yang berwarna {color|lower}.",
+      "countLegend": "Jumlah gambar",
+      "count": "{n} gambar",
+      "found": "Ya, {name|lower} berwarna {color|lower}.",
+      "named": "Gambar {name|lower} itu berwarna {color|lower}.",
+      "all": "Itu semua gambar berwarna {color|lower}.",
+      "shown": "Ini gambar-gambar berwarna {color|lower}.",
+      "show": "Tampilkan",
+      "next": "Warna lain",
+      "names": {
+        "red": "Merah",
+        "orange": "Oranye",
+        "yellow": "Kuning",
+        "green": "Hijau",
+        "blue": "Biru"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Ketuk satu bagian di kiri, lalu ketuk bagian di kanan yang pas dengannya.",
+      "countLegend": "Jumlah gambar",
+      "count": "{n} gambar",
+      "leftGroup": "Bagian kiri",
+      "rightGroup": "Bagian kanan",
+      "left": "Bagian kiri dari {name|lower}",
+      "right": "Bagian kanan dari {name|lower}",
+      "joined": "Tersambung",
+      "pickRight": "Sekarang ketuk bagian kanan yang pas dengannya.",
+      "pickLeft": "Sekarang ketuk bagian kiri yang pas dengannya.",
+      "fit": "Ya, kedua bagian itu membentuk {name|lower}.",
+      "apart": "Kedua bagian itu tidak cocok. Coba yang lain.",
+      "all": "Setiap gambar sudah utuh.",
+      "shown": "Ini gambar-gambarnya, sudah tersambung.",
+      "show": "Tunjukkan",
+      "next": "Kumpulan lain"
+    },
+    "colorByNumber": {
+      "guidance": "Pilih warna dari daftar, lalu isi sebuah kotak dengannya. Warna apa pun boleh.",
+      "sizeLegend": "Ukuran kisi",
+      "size": "{n} x {n}",
+      "keyLegend": "Warna",
+      "colors": [
+        "Kuning",
+        "Oranye",
+        "Hijau",
+        "Ungu"
+      ],
+      "motifs": {
+        "house": "sebuah rumah",
+        "flower": "sebuah bunga",
+        "heart": "sebuah hati",
+        "tree": "sebuah pohon",
+        "boat": "sebuah perahu layar",
+        "pot-plant": "tanaman dalam pot"
+      },
+      "region": "Kisi gambar, {n} x {n}. Kisi bergeser ke samping jika layar sempit.",
+      "cell": "Nomor {number}, baris {row}, kolom {column}, {color}",
+      "empty": "kosong",
+      "chose": "{name} dipilih. Ketuk sebuah kotak untuk mengisinya.",
+      "painted": "{name} di baris {row}, kolom {column}.",
+      "sheet": "Setiap kotak berwarna sesuai nomornya. Ini gambar di lembar: {name}.",
+      "own": "Setiap kotak sudah terisi. Ini gambar Anda sendiri.",
+      "fillAll": "Isi sesuai nomor",
+      "filledAll": "Setiap kotak kosong sekarang berwarna sesuai nomornya.",
+      "clear": "Kosongkan",
+      "cleared": "Kisi sudah kosong.",
+      "next": "Gambar lain",
+      "fresh": "Ini gambar lain untuk diwarnai."
+    },
+    "patternMaker": {
+      "guidance": "Ketuk sebuah kotak untuk mengubah warnanya. Pola Anda tumbuh di sebelahnya. Tidak ada yang Anda buat yang disimpan atau dikirim.",
+      "sizeLegend": "Ukuran ubin",
+      "size": "{n} x {n}",
+      "keyLegend": "Warna, sesuai urutan setiap ketukan mengubahnya",
+      "colors": [
+        "Kuning",
+        "Oranye",
+        "Hijau",
+        "Ungu"
+      ],
+      "tileLabel": "Ubin Anda",
+      "region": "Ubin Anda, {n} x {n}. Ubin bergeser ke samping jika layar sempit.",
+      "patternLabel": "Pola Anda",
+      "pattern": "Pola Anda: ubin Anda diulang {n} ke samping dan {n} ke bawah.",
+      "square": "Baris {row}, kolom {column}, {color}",
+      "changed": "Baris {row}, kolom {column} sekarang {color}.",
+      "cleared": "Ubin sudah kosong. Anda bisa mengembalikannya.",
+      "surprise": "Beri saya kejutan",
+      "surprised": "Ini ubin baru. Anda bisa mengembalikan yang lama.",
+      "putBack": "Kembalikan",
+      "restored": "Ubin Anda sudah kembali seperti semula.",
+      "print": "Cetak pola saya",
+      "sheetTitle": "Pola saya"
+    },
+    "buildTogether": {
+      "guidance": "Bergantian meletakkan satu potongan di tempat yang kosong. Masing-masing punya warnanya sendiri. Tidak ada yang Anda buat yang disimpan atau dikirim.",
+      "sizeLegend": "Ukuran kisi",
+      "size": "{n} x {n}",
+      "people": [
+        "Orang pertama",
+        "Orang kedua"
+      ],
+      "colorLegend": "Warna {person}",
+      "colors": [
+        "Kuning",
+        "Oranye",
+        "Hijau",
+        "Ungu"
+      ],
+      "inUse": "Sedang dipakai",
+      "turn": "Giliran Anda, {person|lower}",
+      "yourColor": "Warna Anda adalah {color|lower}.",
+      "built": "Dibuat bersama. Ini gambar yang dibuat oleh kalian berdua.",
+      "gridLabel": "Kisi bersama",
+      "region": "Kisi bersama, {n} x {n}. Kisi bergeser ke samping jika layar sempit.",
+      "cellEmpty": "Baris {row}, kolom {column}, kosong",
+      "cellFilled": "Baris {row}, kolom {column}, {color}, diletakkan oleh {person|lower}",
+      "placed": "Baris {row}, kolom {column} sekarang {color}. Giliran Anda, {next|lower}.",
+      "placedLast": "Baris {row}, kolom {column} sekarang {color}. Dibuat bersama.",
+      "taken": "Baris {row}, kolom {column} sudah ada potongannya. Pilih tempat yang kosong.",
+      "pass": "Lewati",
+      "passed": "Melewati tidak apa-apa. Giliran Anda, {person|lower}.",
+      "takeBack": "Ambil kembali potongan terakhir",
+      "takeBackPass": "Batalkan lewati",
+      "tookBack": "Potongan diambil kembali. Giliran Anda, {person|lower}.",
+      "tookBackPass": "Lewati dibatalkan. Giliran Anda, {person|lower}.",
+      "colorChanged": "{person} sekarang memakai {color|lower}.",
+      "restarted": "Kisi kosong. Giliran Anda, {person|lower}.",
+      "print": "Cetak kisi",
+      "sheetTitle": "Buat bersama",
+      "sheetHelp": "Bergantian. Di setiap kotak kosong, setiap orang menggambar bentuknya sendiri dengan pensilnya sendiri.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Ketuk sebuah potongan, lalu ketuk tempat di gambar tempat potongan itu diletakkan. Tidak ada yang Anda buat yang disimpan atau dikirim.",
+      "hints": "Tampilkan garis petunjuk",
+      "pictureLine": "Yang ini adalah {picture}.",
+      "pictures": {
+        "house": "rumah",
+        "boat": "perahu",
+        "tree": "pohon",
+        "fish": "ikan",
+        "cat": "kucing",
+        "rocket": "roket"
+      },
+      "outlineLabel": "Garis besar {picture}. Ketuk sebuah tempat untuk meletakkan potongan yang dipilih di sana.",
+      "trayHeading": "Potongan-potongan",
+      "pieces": {
+        "large-triangle": "Segitiga besar",
+        "small-triangle": "Segitiga kecil",
+        "square": "Persegi",
+        "parallelogram": "Jajar genjang",
+        "rectangle": "Persegi panjang"
+      },
+      "shapes": {
+        "large-triangle": "sebuah segitiga besar",
+        "small-triangle": "sebuah segitiga kecil",
+        "square": "sebuah persegi",
+        "parallelogram": "sebuah jajar genjang",
+        "rectangle": "sebuah persegi panjang"
+      },
+      "chosenLabel": "Dipilih",
+      "spaceEmpty": "Tempat {n}, {shape}, kosong",
+      "spaceFilled": "Tempat {n}, {shape}, sudah ada potongannya. Ketuk untuk mengambil potongan kembali.",
+      "chosen": "{piece} dipilih. Sekarang ketuk sebuah tempat di gambar.",
+      "unchosen": "Potongan ini tidak lagi dipilih.",
+      "placed": "Potongan ini ada di tempat {n}.",
+      "complete": "Gambar {picture} sudah lengkap.",
+      "different": "Potongan itu berbeda bentuk dengan tempat ini. Coba tempat lain.",
+      "needPiece": "Pilih dulu satu potongan dari nampan.",
+      "filled": "Tempat itu sudah terisi potongannya. Ketuk untuk mengambil kembali potongannya.",
+      "tookBack": "Potongan sudah kembali ke nampan.",
+      "cleared": "Semua potongan sudah kembali ke nampan. Letakkan lagi jika Anda berubah pikiran.",
+      "restored": "Potongan-potongan sudah kembali ke gambar.",
+      "next": "Yang ini adalah {picture}.",
+      "putBack": "Letakkan kembali",
+      "another": "Bentuk lain",
+      "print": "Cetak bentuk ini",
+      "sheetTitle": "Bentuk-bentuk tenang",
+      "sheetHow": "Warnai potongannya, atau gunting sesuai garis tepinya. Orang dewasa dapat membantu menggunting.",
+      "sheetPieces": "Potongan-potongan, ukurannya sama dengan garis tepi"
+    },
+    "picnicPlanner": {
+      "guidance": "Ketuk gambar untuk memasukkannya ke keranjang piknik, dan ketuk lagi di keranjang untuk mengeluarkannya. Keranjang memuat enam benda.",
+      "guidancePlay": "Ketuk dua gambar yang sama. Gambar tetap terlihat, dan tidak ada waktu yang dihitung.",
+      "basketHeading": "Keranjang kita",
+      "basketLabel": "Keranjang piknik",
+      "takeOut": "Keluarkan {picture} dari keranjang",
+      "inBasket": "Di dalam keranjang",
+      "foodHeading": "Makanan",
+      "outingsHeading": "Kegiatan",
+      "added": "{picture} sudah masuk ke keranjang.",
+      "removed": "{picture} sudah dikeluarkan dari keranjang.",
+      "already": "{picture} sudah ada di keranjang. Ketuk di sana untuk mengeluarkannya.",
+      "full": "Keranjang sudah penuh. Keluarkan sesuatu untuk memberi tempat.",
+      "summary": "Piknik kita: {list}.",
+      "summaryNone": "Belum ada yang ada di keranjang.",
+      "and": "dan",
+      "play": "Ayo bermain dengan piknik kita",
+      "needTwo": "Pilih dulu minimal dua benda.",
+      "playAgain": "Main lagi",
+      "back": "Kembali ke piknik",
+      "print": "Cetak daftar piknik kita",
+      "cleared": "Keranjang sudah kosong.",
+      "notice": "Ini adalah rencana untuk dibicarakan. Tidak ada waktu yang dihitung, dinilai, atau disimpan.",
+      "sheetTitle": "Daftar piknik kita",
+      "sheetHow": "Beri tanda centang pada setiap benda saat Anda mengemasnya. Gunakan baris kosong untuk benda lain yang ingin dibawa.",
+      "sheetToPack": "Yang akan dikemas"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Pilih dua sampai dua belas foto Anda sendiri untuk memulai buku ini.",
+      "guidance": "Bolak-balik halaman bersama-sama, dengan tombol atau tombol panah Kiri dan Kanan. Tambahkan beberapa kata di bawah foto jika Anda mau. Tidak ada yang Anda buat yang disimpan atau dikirim.",
+      "lookGuidance": "Lihat setiap halaman bersama-sama. Anda boleh bercerita, atau cukup melihat saja.",
+      "intro": "Pilih dua sampai dua belas foto dari perangkat ini. Setiap foto menjadi satu halaman buku yang dapat dibuka bersama-sama.",
+      "consent": "Gunakan foto keluarga Anda sendiri. Mintalah izin terlebih dahulu jika memakai foto seseorang yang tidak dapat memberi persetujuan.",
+      "privacy": "Foto Anda tetap berada di perangkat ini. Foto tidak diunggah atau disimpan.",
+      "choose": "Pilih foto",
+      "chooseDifferent": "Pilih foto lain",
+      "backToBook": "Kembali ke buku",
+      "backToChoose": "Kembali ke pemilihan foto",
+      "needTwo": "Silakan pilih minimal dua foto.",
+      "usingFirst": "Menggunakan {max} foto pertama.",
+      "cleared": "Buku sudah dikosongkan. Pilih foto untuk memulai lagi.",
+      "moved": "Dipindahkan ke halaman {n}.",
+      "pageOf": "Halaman {n} dari {total}",
+      "lookTogether": "Lihat bersama-sama",
+      "leaveLook": "Kembali ke buku",
+      "print": "Cetak buku kenangan",
+      "clear": "Kosongkan buku",
+      "bookLabel": "Buku kenangan keluarga",
+      "pagesLabel": "Bolak-balik halaman",
+      "previous": "Halaman sebelumnya",
+      "next": "Halaman berikutnya",
+      "moveEarlier": "Pindahkan lebih awal",
+      "moveLater": "Pindahkan lebih akhir",
+      "captionLabel": "Beberapa kata untuk halaman ini, jika Anda mau",
+      "captionHelp": "Maksimal 80 karakter. Keterangan hanya disimpan di halaman ini dan hilang saat Anda menutupnya.",
+      "sheetTitle": "Buku kenangan kita",
+      "sheetHow": "Satu foto per halaman, dengan kata-katanya di bawahnya. Bolak-balik halaman sesuai urutan dan bicarakan setiap foto.",
+      "sheetEmpty": "Pilih foto Anda di halaman permainan untuk mencetak buku sendiri, atau cetak halaman kosong ini dan tempelkan foto yang sudah dicetak.",
+      "sheetFrame": "Tempelkan foto yang sudah dicetak di sini",
+      "sheetWords": "Beberapa kata untuk halaman ini",
+      "skipped": {
+        "other": "{n} berkas bukan foto yang dapat kami gunakan."
+      }
+    },
+    "quietScene": {
+      "guidance": "Lihat satu gambar dalam satu waktu. Tekan Berikutnya atau Sebelumnya saat Anda siap. Tidak ada yang bergerak sendiri.",
+      "next": "Gambar berikutnya",
+      "previous": "Gambar sebelumnya",
+      "bigPicture": "Gambar lebih besar",
+      "showEverything": "Tampilkan semua",
+      "first": "Ini adalah gambar pertama.",
+      "last": "Ini adalah gambar terakhir.",
+      "lines": {
+        "sunrise": "Matahari terbit di atas daratan.",
+        "window-with-birds": "Burung-burung di luar jendela.",
+        "vase-of-flowers": "Sebuah vas bunga di atas meja.",
+        "teacup": "Secangkir teh di dekat jendela.",
+        "tree": "Sebatang pohon berdiri di kebun.",
+        "sailboat": "Sebuah perahu layar di atas air.",
+        "lighthouse": "Sebuah mercusuar di tepi laut.",
+        "rainbow": "Pelangi setelah hujan.",
+        "moon": "Bulan di langit malam.",
+        "daisies": "Sekumpulan bunga aster di rumput.",
+        "rowing-boat": "Sebuah perahu dayung di atas air yang tenang.",
+        "potted-plant": "Tanaman hijau dalam pot."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Bergantian. Ketuk satu potongan, lalu ketuk tempat kosong untuk meletakkannya di sana. Tidak ada yang Anda buat yang disimpan atau dikirim.",
+      "people": [
+        "Orang pertama",
+        "Orang kedua"
+      ],
+      "marks": [
+        "lingkaran",
+        "kotak"
+      ],
+      "turn": "Giliran Anda, {person|lower}.",
+      "marked": "Potongan Anda ditandai dengan {mark}.",
+      "boardLabel": "Papan bersama",
+      "placeEmpty": "Tempat {n}, kosong",
+      "placeFilled": "Tempat {n}, {picture|lower}, diletakkan oleh {person|lower}",
+      "trayHeading": "Potongan-potongan",
+      "chosenLabel": "Dipilih",
+      "chosen": "{picture} sudah dipilih. Sekarang ketuk tempat kosong.",
+      "unchosen": "Potongan ini tidak lagi dipilih.",
+      "needCutout": "Pilih potongan dulu, lalu ketuk tempat kosong.",
+      "filled": "Tempat {n} sudah ada gambarnya. Pilih tempat yang kosong.",
+      "placed": "{picture} ada di tempat {n}. Giliran Anda, {next|lower}.",
+      "full": "Setiap tempat sudah ada gambarnya. Ambil satu kembali untuk mengubahnya, atau mulai lagi.",
+      "pass": "Lewati",
+      "passed": "Melewati giliran tidak apa-apa. Giliran Anda, {person|lower}.",
+      "takeBack": "Ambil kembali potongan terakhir",
+      "takeBackPass": "Batalkan lewati giliran",
+      "tookBack": "Potongan sudah diambil kembali. Giliran Anda, {person|lower}.",
+      "tookBackPass": "Lewati giliran sudah dibatalkan. Giliran Anda, {person|lower}.",
+      "restarted": "Papan sudah kosong. Giliran Anda, {person|lower}.",
+      "putBack": "Letakkan kembali",
+      "putBackDone": "Potongan-potongan sudah kembali ke papan.",
+      "another": "Kumpulan gambar lain",
+      "anotherSet": "Kumpulan potongan baru ada di nampan. Potongan yang ada di papan tetap di tempatnya.",
+      "print": "Cetak papan",
+      "sheetTitle": "Papan kolase",
+      "sheetHow": "Guntinglah gambarnya dan bergantian meletakkannya di papan. Orang dewasa dapat membantu menggunting.",
+      "sheetTray": "Gambar untuk digunting"
+    },
+    "gardenPlanner": {
+      "guidance": "Ketuk satu gambar, lalu ketuk satu bedengan untuk meletakkannya di sana. Ketuk bedengan yang sudah ada gambarnya, saat tidak ada yang dipilih, untuk mengosongkannya.",
+      "bedsLabel": "Bedengan kebun",
+      "bedEmpty": "Bedengan {n}, kosong",
+      "bedFilled": "Bedengan {n}, {picture|lower}",
+      "plantsHeading": "Tanaman",
+      "extrasHeading": "Tambahan kebun",
+      "chosenLabel": "Dipilih",
+      "chosen": "{picture} sudah dipilih. Sekarang ketuk satu bedengan.",
+      "unchosen": "Tidak ada gambar yang dipilih.",
+      "needPicture": "Pilih gambar dulu, lalu ketuk salah satu bedeng.",
+      "planted": "{picture} ada di bedeng {n}.",
+      "replaced": "{picture} menggantikan gambar di bedeng {n}.",
+      "cleared": "Bedeng {n} kosong. Kembalikan jika Anda ingin gambarnya lagi.",
+      "restarted": "Semua bedeng kosong.",
+      "putBack": "Kembalikan",
+      "putBackDone": "Gambar-gambar sudah kembali ke bedengnya.",
+      "summaryHeading": "Kebun saya",
+      "summary": "Rencana Anda berisi {list}.",
+      "summaryNone": "Belum ada gambar di bedeng.",
+      "and": "dan",
+      "print": "Cetak rencananya",
+      "sheetTitle": "Rencana kebun kami",
+      "sheetHow": "Bedeng menunjukkan gambar yang dipilih di layar. Gambar bebas di bedeng yang kosong jika Anda mau.",
+      "sheetNotes": "Catatan",
+      "notice": "Ini rencana gambar untuk dibicarakan, bukan saran menanam."
+    },
+    "coloringWall": {
+      "guidance": "Pilih gambar dan jumlah halamannya. Cetak dindingnya, lalu setiap orang mewarnai satu halaman atau lebih. Tidak ada yang dihitung waktunya, dinilai, atau disimpan.",
+      "pictureLegend": "Gambar",
+      "sizeLegend": "Berapa banyak halaman",
+      "sizes": {
+        "2x2": "4 halaman (2 x 2)",
+        "3x2": "6 halaman (3 x 2)",
+        "3x3": "9 halaman (3 x 3)"
+      },
+      "previewLabel": "Gambar {picture|lower} dibagi menjadi {n} halaman, {across} ke samping dan {down} ke bawah. Setiap halaman punya label di sudutnya.",
+      "previewCaption": "Gambar dengan garis halaman dan label yang digambarkan di atasnya.",
+      "labelsNote": "Huruf turun ke bawah dinding dan angka mendatar ke samping, jadi A1 adalah halaman kiri atas.",
+      "wallHeading": "Cara menyusun dinding",
+      "steps": [
+        "Cetak semua halaman. Halaman pertama berisi langkah-langkah ini dan peta dinding.",
+        "Setiap orang mengambil satu halaman atau lebih, lalu mewarnainya.",
+        "Warna dan gaya tidak harus sama. Setiap halaman tetap bagian dari gambar yang sama.",
+        "Susun halaman sesuai labelnya, lalu sambungkan dengan selotip di bagian belakang.",
+        "Pasang dinding di tempat yang bisa dilihat semua orang."
+      ],
+      "mapLabel": "Peta dinding: {down} baris dengan {across} halaman di setiap baris, diberi label dari A1 sampai {last}.",
+      "edgeNote": "Garis putus-putus menandai tepi setiap halaman. Susun halaman tepi ke tepi mengikuti garis itu, atau tumpang tindih sedikit.",
+      "pictureLine": "Gambar: {picture}. Dinding ini terdiri dari {n} halaman: {across} ke samping dan {down} ke bawah.",
+      "print": "Cetak dinding"
+    },
+    "findTogether": {
+      "guidance": "Bergantian. Pada giliran Anda, buka dua kartu untuk mencari pasangan. Cari pasangannya bersama-sama.",
+      "sizeLegend": "Berapa banyak kartu",
+      "size": "{n} kartu",
+      "viewLegend": "Cara bermain",
+      "viewShowing": "Main dengan gambar terlihat",
+      "viewHidden": "Kartu menghadap ke bawah",
+      "people": [
+        "Orang pertama",
+        "Orang kedua"
+      ],
+      "turn": "Giliran: {person}",
+      "turnDone": "Semua pasangan sudah ditemukan.",
+      "tally": "Pasangan yang ditemukan bersama: {n}",
+      "cardNamed": "{name}, kartu {n}",
+      "cardFaceDown": "Kartu {n}, menghadap ke bawah",
+      "first": "{name}. Sekarang balik kartu kedua.",
+      "found": "{name}: sepasang, ditemukan bersama. Sekarang giliran {next|lower}.",
+      "allTogether": "Anda menemukan semua pasangan bersama-sama.",
+      "different": "{a} dan {b} berbeda. Ambil waktu Anda, lalu tekan Balikkan lagi.",
+      "waiting": "Tekan Balikkan lagi saat Anda siap. Setelah itu giliran berpindah.",
+      "turnedBack": "Sudah dibalikkan lagi. Sekarang giliran {person|lower}.",
+      "passed": "Melewati giliran tidak apa-apa. Sekarang giliran {person|lower}.",
+      "turnBack": "Balikkan lagi",
+      "pass": "Lewati",
+      "playAgain": "Main lagi"
+    },
+    "drawingDuet": {
+      "guidance": "Bergantian menggambar satu garis, lalu oper pulpennya. Siapa pun boleh melewati giliran. Tidak ada yang dikirim ke mana pun. Gambar hanya keluar dari halaman ini jika Anda menyimpannya.",
+      "people": [
+        "Orang pertama",
+        "Orang kedua"
+      ],
+      "colorLegend": "Warna {person}",
+      "colors": [
+        "Kuning",
+        "Oranye",
+        "Hijau",
+        "Ungu"
+      ],
+      "turn": "Giliran {person}",
+      "penColor": "Warna pena: {color}.",
+      "canvasLabel": "Gambar bersama, {n} garis sejauh ini",
+      "canvasLabelOne": "Gambar bersama, {n} garis sejauh ini",
+      "keys": "Tombol panah menggerakkan titik pena pada gambar. Spasi untuk menurunkan atau mengangkat pena.",
+      "penDown": "Pena turun",
+      "penUp": "Pena naik",
+      "pass": "Oper pulpen",
+      "passed": "Melewati giliran tidak apa-apa. Giliran Anda, {person|lower}.",
+      "takeBack": "Hapus garis saya yang terakhir",
+      "tookBack": "Garis terakhir dari {person|lower} dihapus.",
+      "noLine": "Tidak ada garis dari {person|lower} untuk dihapus.",
+      "restarted": "Kertas sudah kosong. Orang pertama mendapat giliran pertama. Kembalikan jika Anda tidak bermaksud menghapusnya.",
+      "putBack": "Kembalikan",
+      "restored": "Garisnya sudah kembali seperti semula.",
+      "save": "Simpan gambar",
+      "saved": "Gambar Anda sudah siap. Gunakan tautan unduh untuk menyimpannya di perangkat ini.",
+      "download": "Unduh drawing-duet.png",
+      "print": "Cetak versi kertasnya",
+      "sheetTitle": "Duet menggambar",
+      "paperRules": "Dua orang, satu lembar, dua pulpen. Bergantian: masing-masing satu garis atau bentuk, lalu oper pulpennya. Siapa pun boleh melewati giliran. Tidak ada gambar yang benar."
+    },
+    "colorWash": {
+      "guidance": "Sapukan warna lembut ke seluruh halaman, satu sapuan dalam satu waktu. Angkat kuas untuk berhenti, dan berhenti kapan saja Anda mau. Tidak ada yang disimpan atau dikirim.",
+      "colorLegend": "Warna sapuan",
+      "sizeLegend": "Ukuran kuas",
+      "colors": [
+        "Kuning",
+        "Oranye",
+        "Hijau",
+        "Ungu"
+      ],
+      "sizes": {
+        "wide": "Lebar",
+        "veryWide": "Sangat lebar"
+      },
+      "color": "Warna sapuan: {color}.",
+      "brushDown": "Kuas turun",
+      "brushUp": "Kuas naik",
+      "keys": "Tombol panah menggerakkan lingkaran kuas di halaman. Spasi untuk menurunkan atau mengangkat kuas.",
+      "canvasLabel": "Halaman berisi sapuan warna lembut",
+      "fresh": "Halaman baru",
+      "freshMessage": "Halaman baru.",
+      "putBack": "Kembalikan",
+      "restored": "Halamannya sudah kembali."
+    },
     "sortTogether": {
       "guidance": "Ketuk sebuah gambar, lalu ketuk keranjang tempatnya.",
       "restart": "Gambar baru",
@@ -68,7 +717,13 @@
       "hint": "Gambar {name|lower} bisa masuk ke “{basket}”. Ketuk keranjang itu untuk menaruhnya di sana.",
       "placed": "Gambar {name|lower} ada di “{basket}”.",
       "sorted": "Semua sudah terpilah. Lihat isi keranjang bersama-sama, atau coba tema lain.",
-      "basket": {"other": "Keranjang “{basket}”, berisi {count} gambar"}
+      "largerTargets": "Target lebih besar",
+      "largerOn": "Target lebih besar aktif. Tidak ada yang berpindah.",
+      "largerOff": "Target lebih besar nonaktif. Tidak ada yang berpindah.",
+      "largerOnNewRound": "Target lebih besar aktif, dengan dua keranjang. Ini gambar baru untuk diurutkan.",
+      "basket": {
+        "other": "Keranjang “{basket}”, berisi {count} gambar"
+      }
     },
     "picturePuzzle": {
       "guidance": "Ketuk satu keping, lalu ketuk keping lain. Keduanya bertukar tempat.",
@@ -83,7 +738,9 @@
         "cat": "Kucing"
       },
       "sizeLegend": "Keping",
-      "size": {"other": "{n} keping"},
+      "size": {
+        "other": "{n} keping"
+      },
       "pickedUp": "Keping sudah diambil. Sekarang ketuk tempat yang seharusnya.",
       "whole": "Gambar {name|lower} sudah utuh lagi. Pilih gambar lain kapan pun Anda mau.",
       "swapped": {
@@ -91,10 +748,27 @@
       },
       "guideAlt": "Gambar utuhnya: {name}",
       "guideText": "Beginilah gambarnya saat utuh.",
+      "ownChoose": "Gunakan foto Anda sendiri",
+      "ownChange": "Pilih foto lain",
+      "ownBack": "Kembali ke gambar kami",
+      "ownPrivacy": "Foto Anda tetap di perangkat ini. Foto tidak diunggah atau disimpan.",
+      "ownConsent": "Gunakan foto Anda sendiri. Mintalah izin sebelum memakai foto seseorang yang tidak bisa memberi persetujuan.",
+      "ownWorking": "Sedang menyiapkan foto Anda.",
+      "ownNotUsable": "File itu tidak bisa dipakai. Pilih file foto, misalnya JPEG atau PNG.",
+      "ownAlt": "Foto Anda",
+      "ownPiece": "Potongan {n}, {place}",
+      "ownWhole": "Foto Anda utuh kembali. Acak lagi kapan saja Anda mau.",
+      "ownSheetTitle": "Foto Anda dalam potongan",
+      "ownSheetHow": "Potong mengikuti garisnya. Acak potongannya, lalu tukar dua potongan sekali waktu sampai gambarnya utuh kembali.",
       "piece": "Keping di {place}",
       "pieceInPlace": ", sudah di tempatnya",
       "piecePickedUp": ", sedang diambil",
-      "places4": ["kiri atas", "kanan atas", "kiri bawah", "kanan bawah"],
+      "places4": [
+        "kiri atas",
+        "kanan atas",
+        "kiri bawah",
+        "kanan bawah"
+      ],
       "places9": [
         "kiri atas",
         "tengah atas",
@@ -126,7 +800,9 @@
       "restart": "Teka-teki baru",
       "themeLegend": "Tema",
       "sizeLegend": "Ukuran kotak huruf",
-      "size": {"other": "{n} × {n} ({words} kata)"},
+      "size": {
+        "other": "{n} × {n} ({words} kata)"
+      },
       "print": "Cetak teka-teki ini",
       "letterChosen": "Huruf {letter} dipilih. Sekarang ketuk huruf terakhir kata itu.",
       "found": "{word} ditemukan.",
@@ -172,6 +848,14 @@
       "guidance": "Bacakan kartunya dengan suara keras. Tidak ada jawaban yang benar atau salah.",
       "position": "Kartu {n} dari {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Tampilkan pertanyaan percakapan",
+      "bigPicture": "Gambar besar, untuk kelompok",
+      "passNote": "Siapa pun boleh melewati giliran.",
+      "groupTitle": "Mengoper kartu dalam kelompok",
+      "groupSit": "Duduklah melingkar agar semua orang bisa melihat gambarnya. Orang yang memegang kartu, atau perangkat dengan gambar besar, membacakan pertanyaannya terlebih dahulu dengan suara keras.",
+      "groupPass": "Lalu oper kartunya ke orang berikutnya. Setiap orang mengucapkan sepatah kata atau sebuah kalimat tentang gambar itu, lalu mengopernya.",
+      "groupNoSpeech": "Mengoper kartu selalu boleh. Seseorang boleh melewatinya tanpa berkata apa-apa, dan tidak seorang pun harus menjelaskan alasannya.",
+      "groupEnd": "Putaran berakhir saat kartu sudah berkeliling lingkaran, atau saat kelompok merasa cukup. Tidak ada yang menang. Berhentilah kapan pun kelompok menginginkannya.",
       "next": "Kartu berikutnya",
       "previous": "Kartu sebelumnya",
       "print": "Cetak semua kartu",
@@ -204,8 +888,12 @@
       "squaresLegend": "Kotak di setiap kartu",
       "squares": "{n} kotak ({side} × {side})",
       "cardsLegend": "Berapa kartu yang dicetak",
-      "cards": {"other": "{n} kartu"},
-      "print": {"other": "Cetak kartu ({n})"},
+      "cards": {
+        "other": "{n} kartu"
+      },
+      "print": {
+        "other": "Cetak kartu ({n})"
+      },
       "ready": "Silakan mulai kapan pun Anda siap",
       "next": "Gambar berikutnya",
       "allCalled": "Semua gambar sudah dipanggil",
@@ -226,6 +914,20 @@
       "started": "Sudah mulai. Tarik napas saat lingkaran membesar.",
       "stopped": "Sudah berhenti.",
       "finished": "Itu tadi enam napas yang pelan. Mulai lagi kapan pun Anda mau."
+    },
+    "storyChain": {
+      "guidance": "Bergiliran: satu kalimat tiap orang, lalu tambahkan gambar berikutnya.",
+      "passNote": "Ucapkan kalimat Anda dengan suara. Tidak ada yang diketik atau disimpan. Siapa pun boleh melewati giliran.",
+      "chainLabel": "Rangkaian sejauh ini",
+      "item": "Gambar {n}: {name}",
+      "add": "Tambahkan gambar",
+      "fullAdd": "Rangkaian sudah penuh. Mulai rangkaian baru",
+      "newChain": "Mulai rangkaian baru",
+      "takeOff": "Lepaskan yang terakhir",
+      "added": "{name|lower} sekarang ada di akhir rangkaian.",
+      "removed": "{name|lower} sudah dilepas dari rangkaian.",
+      "fresh": "Rangkaian baru, dimulai dengan {name|lower}.",
+      "full": "Rangkaian sudah berisi delapan gambar. Ceritakan seluruh kisahnya, atau mulai rangkaian baru."
     }
   },
   "pictures": {
@@ -311,7 +1013,44 @@
     "rain-cloud": "Awan hujan",
     "snowflake": "Kepingan salju",
     "kite": "Layang-layang",
-    "sunrise": "Matahari terbit di atas perbukitan"
+    "sunrise": "Matahari terbit di atas perbukitan",
+    "decorated-keepsake-box": "Kotak kenangan yang dihias",
+    "painted-plant-pot": "Pot tanaman bercat dengan herba",
+    "repeating-pattern-sheet": "Lembar pola berulang",
+    "music-drawn-lines": "Garis yang digambar mengikuti musik",
+    "paper-boat-afloat": "Perahu kertas mengapung di air",
+    "folded-towel-stack": "Tumpukan handuk terlipat",
+    "hand-massage-with-lotion": "Tangan di atas handuk dengan losion",
+    "open-photo-album": "Album foto terbuka",
+    "button-flower-card": "Kartu dengan bunga dari kancing",
+    "blue-torn-paper-collage": "Kolase kertas sobek biru",
+    "family-tree-of-hands": "Pohon keluarga digambar dengan tangan",
+    "open-greeting-card": "Kartu ucapan terbuka dengan hati",
+    "lavender-sachet": "Kantong lavender yang diikat pita",
+    "memory-collage-of-photos": "Kolase foto keluarga",
+    "paper-chain-garland": "Untaian rantai kertas",
+    "open-songbook-with-notes": "Buku lagu terbuka dengan not balok",
+    "photo-postcard-with-stamp": "Kartu pos foto dengan prangko",
+    "pine-cone-bird-feeder": "Tempat makan burung dari kerucut pinus yang digantung di dahan",
+    "playlist-phone-and-card": "Ponsel dengan daftar putar dan kartu lagu",
+    "sealed-rice-shaker": "Kocokan beras yang tertutup rapat",
+    "texture-board-with-scraps": "Papan tekstur dengan potongan bahan",
+    "painted-garden-stone": "Batu taman yang dilukis",
+    "shared-painted-canvas": "Kanvas lukisan bersama",
+    "watercolor-washes-sheet": "Lembar sapuan cat air",
+    "seedling-in-pot": "Bibit tanaman dalam pot",
+    "pressed-leaves-in-book": "Daun kering yang dipres dalam buku",
+    "printed-leaves-sheet": "Lembar cetakan daun",
+    "pinch-pot-clay-bowl": "Mangkuk tanah liat cubit",
+    "table-sketch-pencil": "Sketsa pensil cangkir",
+    "buttons-in-muffin-tin": "Kancing yang disusun di loyang muffin",
+    "family-recipe-book": "Buku resep keluarga",
+    "drum-with-beat-marks": "Drum meja dengan pemukul",
+    "torn-paper-flower": "Mozaik bunga dari kertas sobek",
+    "window-with-birds": "Jendela dengan burung",
+    "woven-paper-mat": "Alas anyaman kertas",
+    "yarn-ball-with-thread": "Gulungan benang",
+    "letter-and-envelope": "Surat dalam amplop"
   },
   "illustrations": {
     "rocking-chair": "Kursi goyang",
@@ -416,67 +1155,100 @@
     "pocket-watch": "Jam saku"
   },
   "content": {
-    "sayings": [
-      {"start": "Sedikit demi sedikit, lama-lama menjadi", "end": "bukit", "others": ["kebun", "taman"], "prompt": "Apa yang senang Anda kumpulkan atau simpan sedikit demi sedikit?"},
-      {"start": "Berat sama dipikul, ringan sama", "end": "dijinjing", "others": ["dibawa", "diangkat"], "prompt": "Pekerjaan apa yang paling senang Anda kerjakan bersama orang lain?"},
-      {"start": "Bersatu kita teguh, bercerai kita", "end": "runtuh", "others": ["rapuh", "lemah"], "prompt": "Apa yang Anda sukai dari gotong royong bersama tetangga?"},
-      {"start": "Bagai air di daun", "end": "talas", "others": ["pisang", "kelor"], "prompt": "Tanaman apa yang Anda sukai di sekitar rumah?"},
-      {"start": "Air beriak tanda tak", "end": "dalam", "others": ["jernih", "tenang"], "prompt": "Anda lebih suka sungai, danau, atau laut?"},
-      {"start": "Ada gula, ada", "end": "semut", "others": ["lebah", "teh"], "prompt": "Kue atau jajanan manis apa yang paling Anda sukai?"},
-      {"start": "Bagai pinang dibelah", "end": "dua", "others": ["tiga", "rata"], "prompt": "Siapa di keluarga Anda yang mirip satu sama lain?"},
-      {"start": "Di mana bumi dipijak, di situ langit", "end": "dijunjung", "others": ["dipandang", "ditatap"], "prompt": "Tempat mana saja yang pernah Anda tinggali atau kunjungi?"},
-      {"start": "Tak kenal maka tak", "end": "sayang", "others": ["rindu", "akrab"], "prompt": "Menurut Anda, apa yang membuat seseorang menjadi sahabat yang baik?"},
-      {"start": "Berakit-rakit ke hulu, berenang-renang ke tepian. Bersakit-sakit dahulu, bersenang-senang", "end": "kemudian", "others": ["bersama", "selalu"], "prompt": "Apa sesuatu yang Anda kerjakan dengan tekun sampai berhasil?"},
-      {"start": "Bagai aur dengan", "end": "tebing", "others": ["sungai", "batu"], "prompt": "Siapa tetangga yang senang saling membantu dengan keluarga Anda?"},
-      {"start": "Tong kosong nyaring", "end": "bunyinya", "others": ["suaranya", "dentingnya"], "prompt": "Bunyi apa yang menyenangkan bagi Anda, misalnya suara hujan atau kicau burung?"},
-      {"start": "Malu bertanya sesat di", "end": "jalan", "others": ["pasar", "kota"], "prompt": "Ke mana Anda paling suka berjalan-jalan?"},
-      {"start": "Sambil menyelam minum", "end": "air", "others": ["teh", "kopi"], "prompt": "Anda lebih suka berenang di sungai, di kolam, atau di laut?"},
-      {"start": "Sekali mendayung, dua tiga pulau", "end": "terlampaui", "others": ["terlewati", "terlihat"], "prompt": "Pernahkah Anda naik perahu atau kapal? Seperti apa rasanya?"},
-      {"start": "Seperti padi, makin berisi makin", "end": "merunduk", "others": ["menguning", "tinggi"], "prompt": "Apa yang Anda sukai dari pemandangan sawah?"},
-      {"start": "Bagai menegakkan benang", "end": "basah", "others": ["kusut", "panjang"], "prompt": "Apakah Anda suka menjahit, merajut, atau membuat kerajinan tangan?"},
-      {"start": "Air tenang", "end": "menghanyutkan", "others": ["menyejukkan", "mengalir"], "prompt": "Anda lebih suka suasana yang tenang atau yang ramai?"},
-      {"start": "Bagai pungguk merindukan", "end": "bulan", "others": ["bintang", "matahari"], "prompt": "Apakah Anda suka memandang langit di malam hari?"},
-      {"start": "Nasi sudah menjadi", "end": "bubur", "others": ["ketupat", "lontong"], "prompt": "Sarapan apa yang paling Anda sukai, bubur ayam atau nasi uduk?"},
-      {"start": "Buah jatuh tak jauh dari", "end": "pohonnya", "others": ["kebunnya", "rumahnya"], "prompt": "Kebiasaan keluarga apa yang paling Anda sukai?"},
-      {"start": "Ada udang di balik", "end": "batu", "others": ["daun", "pasir"], "prompt": "Masakan udang atau ikan apa yang paling Anda sukai?"},
-      {"start": "Lain ladang lain", "end": "belalang", "others": ["rumput", "burung"], "prompt": "Kebiasaan dari daerah mana yang menurut Anda menarik?"},
-      {"start": "Bagai minyak dengan", "end": "air", "others": ["api", "garam"], "prompt": "Gorengan apa yang paling enak untuk teman minum teh?"},
-      {"start": "Tak ada rotan, akar pun", "end": "jadi", "others": ["boleh", "cukup"], "prompt": "Pernahkah Anda membuat sesuatu yang berguna dari bahan seadanya?"},
-      {"start": "Hujan emas di negeri orang, hujan batu di negeri sendiri, lebih baik di negeri", "end": "sendiri", "others": ["kita", "asal"], "prompt": "Apa yang paling Anda sukai dari kampung halaman?"},
-      {"start": "Bagai bulan dipagar", "end": "bintang", "others": ["awan", "pelangi"], "prompt": "Pakaian apa yang Anda sukai untuk acara istimewa?"},
-      {"start": "Kecil-kecil cabai", "end": "rawit", "others": ["merah", "hijau"], "prompt": "Anda suka masakan yang pedas, atau yang tidak terlalu pedas?"},
-      {"start": "Tak ada asap kalau tak ada", "end": "api", "others": ["kayu", "dapur"], "prompt": "Bau masakan apa yang paling menggugah selera bagi Anda?"},
-      {"start": "Seperti menggarami", "end": "laut", "others": ["sayur", "ikan"], "prompt": "Apa yang Anda sukai dari suasana pantai?"},
-      {"start": "Seperti kucing dengan", "end": "anjing", "others": ["tikus", "ayam"], "prompt": "Hewan peliharaan apa yang Anda sukai?"},
-      {"start": "Seperti makan buah", "end": "simalakama", "others": ["mangga", "durian"], "prompt": "Buah apa yang paling Anda sukai?"},
-      {"start": "Pucuk dicinta, ulam pun", "end": "tiba", "others": ["datang", "ada"], "prompt": "Kejutan menyenangkan apa yang pernah Anda terima?"},
-      {"start": "Duduk sama rendah, berdiri sama", "end": "tinggi", "others": ["tegak", "kuat"], "prompt": "Apa yang membuat sebuah persahabatan terasa hangat?"},
-      {"start": "Diam-diam ubi", "end": "berisi", "others": ["manis", "matang"], "prompt": "Anda lebih suka ubi rebus, ubi goreng, atau kolak ubi?"},
-      {"start": "Tak ada gading yang tak", "end": "retak", "others": ["putih", "indah"], "prompt": "Barang lama apa di rumah yang paling Anda sayangi?"},
-      {"start": "Asam di gunung, garam di laut, bertemu dalam", "end": "belanga", "others": ["periuk", "kuali"], "prompt": "Masakan apa yang paling sedap dimasak di belanga atau kuali?"},
-      {"start": "Bagai kuku dengan", "end": "daging", "others": ["kulit", "jari"], "prompt": "Siapa teman yang paling senang Anda ajak bepergian?"},
-      {"start": "Air dicincang tiada", "end": "putus", "others": ["terbelah", "terpisah"], "prompt": "Apa yang paling Anda sukai saat keluarga berkumpul?"},
-      {"start": "Sedia payung sebelum", "end": "hujan", "others": ["berangkat", "pergi"], "prompt": "Apa yang selalu Anda bawa saat bepergian?"},
-      {"start": "Biar lambat asal", "end": "selamat", "others": ["kenyang", "tenang"], "prompt": "Apa yang paling Anda nikmati bila dikerjakan pelan-pelan?"},
-      {"start": "Alah bisa karena", "end": "biasa", "others": ["belajar", "berlatih"], "prompt": "Keterampilan apa yang sering Anda lakukan, seperti memasak atau menjahit?"},
-      {"start": "Bagai langit dan", "end": "bumi", "others": ["laut", "gunung"], "prompt": "Anda lebih suka pemandangan gunung atau pantai?"},
-      {"start": "Rajin pangkal", "end": "pandai", "others": ["senang", "berhasil"], "prompt": "Pelajaran sekolah apa yang dulu Anda sukai?"},
-      {"start": "Bagai sayur tanpa", "end": "garam", "others": ["cabai", "kuah"], "prompt": "Sayur apa yang paling enak menurut Anda, sayur asem atau sayur lodeh?"},
-      {"start": "Bulat air karena pembuluh, bulat kata karena", "end": "mufakat", "others": ["bersama", "sepakat"], "prompt": "Bagaimana keluarga Anda biasanya memutuskan sesuatu bersama?"},
-      {"start": "Habis gelap terbitlah", "end": "terang", "others": ["fajar", "pagi"], "prompt": "Apa yang Anda sukai dari pagi hari?"},
-      {"start": "Jauh di mata, dekat di", "end": "hati", "others": ["rumah", "sini"], "prompt": "Kabar dari siapa yang selalu membuat Anda senang?"},
-      {"start": "Tumbuh bagai jamur di musim", "end": "hujan", "others": ["kemarau", "panen"], "prompt": "Apa yang Anda sukai dari musim hujan?"}
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABCDEGHIKLMNOPRSTUWY",
       "themes": [
-        {"value": "fruit", "label": "Buah", "words": ["PISANG", "MANGGA", "JERUK", "SALAK", "NANAS", "JAMBU", "DUKU", "DURIAN", "PEPAYA"]},
-        {"value": "garden", "label": "Kebun", "words": ["BUNGA", "MAWAR", "MELATI", "POHON", "DAUN", "TANAH", "BIBIT", "RUMPUT", "KOLAM"]},
-        {"value": "kitchen", "label": "Dapur", "words": ["PIRING", "GELAS", "SENDOK", "GARPU", "WAJAN", "PANCI", "TEKO", "NASI", "GULA"]},
-        {"value": "weather", "label": "Cuaca", "words": ["HUJAN", "PANAS", "ANGIN", "AWAN", "KABUT", "CERAH", "SEJUK", "TERIK", "EMBUN"]},
-        {"value": "animals", "label": "Hewan", "words": ["KUCING", "AYAM", "BEBEK", "SAPI", "KUDA", "IKAN", "BURUNG", "KERBAU", "GAJAH"]},
-        {"value": "home", "label": "Rumah", "words": ["PINTU", "KURSI", "MEJA", "LAMPU", "BANTAL", "LEMARI", "TIKAR", "KUNCI", "TERAS"]}
+        {
+          "value": "fruit",
+          "label": "Buah",
+          "words": [
+            "PISANG",
+            "MANGGA",
+            "JERUK",
+            "SALAK",
+            "NANAS",
+            "JAMBU",
+            "DUKU",
+            "DURIAN",
+            "PEPAYA"
+          ]
+        },
+        {
+          "value": "garden",
+          "label": "Kebun",
+          "words": [
+            "BUNGA",
+            "MAWAR",
+            "MELATI",
+            "POHON",
+            "DAUN",
+            "TANAH",
+            "BIBIT",
+            "RUMPUT",
+            "KOLAM"
+          ]
+        },
+        {
+          "value": "kitchen",
+          "label": "Dapur",
+          "words": [
+            "PIRING",
+            "GELAS",
+            "SENDOK",
+            "GARPU",
+            "WAJAN",
+            "PANCI",
+            "TEKO",
+            "NASI",
+            "GULA"
+          ]
+        },
+        {
+          "value": "weather",
+          "label": "Cuaca",
+          "words": [
+            "HUJAN",
+            "PANAS",
+            "ANGIN",
+            "AWAN",
+            "KABUT",
+            "CERAH",
+            "SEJUK",
+            "TERIK",
+            "EMBUN"
+          ]
+        },
+        {
+          "value": "animals",
+          "label": "Hewan",
+          "words": [
+            "KUCING",
+            "AYAM",
+            "BEBEK",
+            "SAPI",
+            "KUDA",
+            "IKAN",
+            "BURUNG",
+            "KERBAU",
+            "GAJAH"
+          ]
+        },
+        {
+          "value": "home",
+          "label": "Rumah",
+          "words": [
+            "PINTU",
+            "KURSI",
+            "MEJA",
+            "LAMPU",
+            "BANTAL",
+            "LEMARI",
+            "TIKAR",
+            "KUNCI",
+            "TERAS"
+          ]
+        }
       ]
     },
     "conversation": {
@@ -492,53 +1264,221 @@
         "seasons": "Musim dan hari raya"
       },
       "cards": [
-        {"theme": "food", "picture": "bread", "prompt": "Bau masakan apa dari dapur yang paling Anda sukai?"},
-        {"theme": "food", "picture": "cake", "prompt": "Kue apa yang biasanya ada saat hari raya atau syukuran di keluarga Anda?"},
-        {"theme": "food", "picture": "banana", "prompt": "Pisang goreng, kolak pisang, atau pisang rebus: mana yang paling Anda sukai?"},
-        {"theme": "food", "picture": "teacup", "prompt": "Anda lebih suka teh manis, teh tawar, atau kopi tubruk?"},
-        {"theme": "food", "picture": "frying-pan", "prompt": "Sarapan seperti apa yang paling enak menurut Anda?"},
-        {"theme": "food", "picture": "strawberry", "prompt": "Pernahkah Anda memetik buah langsung dari pohonnya?"},
-        {"theme": "food", "picture": "lemon", "prompt": "Asam, manis, atau pedas: rasa mana yang paling Anda sukai?"},
-        {"theme": "food", "picture": "cherries", "prompt": "Buah musiman apa yang paling Anda nantikan, misalnya mangga atau rambutan?"},
-        {"theme": "food", "picture": "apple", "prompt": "Apa yang paling menyenangkan dari pergi ke pasar pagi-pagi?"},
-        {"theme": "home", "picture": "house", "prompt": "Ceritakan tentang rumah yang pernah senang Anda tinggali."},
-        {"theme": "home", "picture": "armchair", "prompt": "Di mana tempat favorit Anda untuk duduk santai?"},
-        {"theme": "home", "picture": "lamp", "prompt": "Apa yang Anda sukai untuk dilakukan di malam yang tenang?"},
-        {"theme": "home", "picture": "key", "prompt": "Barang berharga apa yang akan Anda simpan di kotak istimewa?"},
-        {"theme": "home", "picture": "kettle", "prompt": "Siapa yang ingin Anda ajak minum teh manis bersama di teras?"},
-        {"theme": "home", "picture": "umbrella", "prompt": "Apa yang paling enak dilakukan di rumah saat hujan turun?"},
-        {"theme": "outdoors", "picture": "sunflower", "prompt": "Bunga apa yang ingin Anda tanam di halaman?"},
-        {"theme": "outdoors", "picture": "tree", "prompt": "Ceritakan tentang pohon atau taman yang Anda sukai."},
-        {"theme": "outdoors", "picture": "watering-can", "prompt": "Apa yang paling menyenangkan dari berkebun?"},
-        {"theme": "outdoors", "picture": "tulip", "prompt": "Bunga warna apa yang paling Anda sukai?"},
-        {"theme": "outdoors", "picture": "potted-plant", "prompt": "Apakah Anda suka ada tanaman di dalam rumah?"},
-        {"theme": "outdoors", "picture": "sun", "prompt": "Seperti apa pagi yang cerah yang paling Anda sukai?"},
-        {"theme": "animals", "picture": "dog", "prompt": "Ceritakan tentang hewan peliharaan yang pernah Anda kenal."},
-        {"theme": "animals", "picture": "cat", "prompt": "Kucing, burung, atau ikan: hewan apa yang paling Anda sukai?"},
-        {"theme": "animals", "picture": "bird", "prompt": "Kicau burung apa yang senang Anda dengar di pagi hari?"},
-        {"theme": "animals", "picture": "fish", "prompt": "Pernahkah Anda memancing, atau memelihara ikan di kolam?"},
-        {"theme": "animals", "picture": "butterfly", "prompt": "Menurut Anda, hewan apa yang paling indah?"},
-        {"theme": "travel", "picture": "car", "prompt": "Ceritakan tentang mobil atau motor yang Anda sukai."},
-        {"theme": "travel", "picture": "sailboat", "prompt": "Anda lebih suka menghabiskan hari di pantai atau di pegunungan?"},
-        {"theme": "travel", "picture": "bicycle", "prompt": "Ke mana Anda ingin pergi bersepeda atau jalan-jalan?"},
-        {"theme": "travel", "picture": "balloon", "prompt": "Jika bisa terbang di atas suatu tempat, tempat mana yang Anda pilih?"},
-        {"theme": "travel", "picture": "lighthouse", "prompt": "Ceritakan tentang perjalanan yang Anda nikmati, misalnya mudik atau liburan."},
-        {"theme": "work", "picture": "key", "prompt": "Pekerjaan apa yang pernah Anda nikmati?"},
-        {"theme": "work", "picture": "watering-can", "prompt": "Hobi apa yang bisa Anda kerjakan berjam-jam?"},
-        {"theme": "work", "picture": "bread", "prompt": "Apa yang paling senang Anda buat atau perbaiki dengan tangan sendiri?"},
-        {"theme": "work", "picture": "house", "prompt": "Nasihat apa yang ingin Anda berikan kepada anak muda yang baru mulai bekerja?"},
-        {"theme": "work", "picture": "tree", "prompt": "Apa yang Anda sukai dari kerja bakti atau gotong royong bersama tetangga?"},
-        {"theme": "music", "picture": "balloon", "prompt": "Musik apa yang membuat Anda ingin ikut bergoyang atau bertepuk tangan?"},
-        {"theme": "music", "picture": "cake", "prompt": "Apa yang membuat sebuah pesta atau hajatan terasa meriah?"},
-        {"theme": "music", "picture": "lamp", "prompt": "Siapa penyanyi yang senang Anda dengarkan?"},
-        {"theme": "music", "picture": "armchair", "prompt": "Film atau acara TV apa yang senang Anda tonton lagi?"},
-        {"theme": "music", "picture": "bird", "prompt": "Keroncong, dangdut, atau lagu pop: mana yang paling Anda nikmati?"},
-        {"theme": "music", "picture": "bicycle", "prompt": "Apa yang paling Anda nikmati dari perayaan tujuh belasan di kampung?"},
-        {"theme": "seasons", "picture": "sun", "prompt": "Apa yang Anda sukai dari musim kemarau?"},
-        {"theme": "seasons", "picture": "tree", "prompt": "Apa yang Anda sukai dari musim hujan, saat semuanya kembali hijau?"},
-        {"theme": "seasons", "picture": "moon", "prompt": "Apa yang paling Anda sukai dari suasana Lebaran?"},
-        {"theme": "seasons", "picture": "cake", "prompt": "Hari raya apa yang paling meriah di keluarga Anda?"},
-        {"theme": "seasons", "picture": "umbrella", "prompt": "Cuaca seperti apa yang paling Anda sukai?"}
+        {
+          "theme": "food",
+          "picture": "bread",
+          "prompt": "Apa aroma dapur yang paling Anda sukai?"
+        },
+        {
+          "theme": "food",
+          "picture": "cake",
+          "prompt": "Kue jenis apa yang akan Anda pilih untuk sebuah perayaan?"
+        },
+        {
+          "theme": "food",
+          "picture": "apple",
+          "prompt": "Ceritakan tentang pai buah atau pencuci mulut favorit Anda."
+        },
+        {
+          "theme": "food",
+          "picture": "teacup",
+          "prompt": "Bagaimana cara Anda menikmati teh atau kopi?"
+        },
+        {
+          "theme": "food",
+          "picture": "frying-pan",
+          "prompt": "Apa yang membuat sarapan benar-benar enak?"
+        },
+        {
+          "theme": "food",
+          "picture": "strawberry",
+          "prompt": "Pernahkah Anda memetik buah langsung dari pohonnya?"
+        },
+        {
+          "theme": "food",
+          "picture": "lemon",
+          "prompt": "Manis atau asam: mana yang lebih Anda sukai?"
+        },
+        {
+          "theme": "food",
+          "picture": "cherries",
+          "prompt": "Makanan apa yang terasa seperti musim panas bagi Anda?"
+        },
+        {
+          "theme": "home",
+          "picture": "house",
+          "prompt": "Ceritakan tentang rumah yang dulu Anda sukai untuk tinggal."
+        },
+        {
+          "theme": "home",
+          "picture": "armchair",
+          "prompt": "Di mana tempat favorit Anda untuk duduk dan bersantai?"
+        },
+        {
+          "theme": "home",
+          "picture": "lamp",
+          "prompt": "Apa yang Anda suka lakukan di malam yang tenang?"
+        },
+        {
+          "theme": "home",
+          "picture": "key",
+          "prompt": "Benda kesayangan apa yang akan Anda simpan di dalam kotak istimewa?"
+        },
+        {
+          "theme": "home",
+          "picture": "kettle",
+          "prompt": "Siapa yang akan Anda undang untuk minum teh?"
+        },
+        {
+          "theme": "home",
+          "picture": "umbrella",
+          "prompt": "Apa yang Anda suka lakukan di hari hujan?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sunflower",
+          "prompt": "Bunga apa yang akan Anda tanam di kebun?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tree",
+          "prompt": "Ceritakan tentang pohon atau taman yang Anda sukai."
+        },
+        {
+          "theme": "outdoors",
+          "picture": "watering-can",
+          "prompt": "Apa bagian terbaik dari berada di kebun?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tulip",
+          "prompt": "Bunga dengan warna apa yang paling Anda sukai?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "potted-plant",
+          "prompt": "Apakah Anda suka memiliki tanaman di dalam rumah?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sun",
+          "prompt": "Seperti apa hari cerah yang sempurna menurut Anda?"
+        },
+        {
+          "theme": "animals",
+          "picture": "dog",
+          "prompt": "Ceritakan tentang seekor anjing yang pernah Anda kenal."
+        },
+        {
+          "theme": "animals",
+          "picture": "cat",
+          "prompt": "Kucing atau anjing, atau tidak keduanya? Apa yang Anda suka dari mereka?"
+        },
+        {
+          "theme": "animals",
+          "picture": "bird",
+          "prompt": "Burung apa yang Anda lihat atau dengar di luar?"
+        },
+        {
+          "theme": "animals",
+          "picture": "fish",
+          "prompt": "Pernahkah Anda memancing, atau memelihara akuarium ikan?"
+        },
+        {
+          "theme": "animals",
+          "picture": "butterfly",
+          "prompt": "Hewan paling indah apa yang pernah Anda lihat?"
+        },
+        {
+          "theme": "travel",
+          "picture": "car",
+          "prompt": "Ceritakan tentang mobil yang Anda sukai."
+        },
+        {
+          "theme": "travel",
+          "picture": "sailboat",
+          "prompt": "Mana yang lebih Anda suka: menghabiskan sehari di pantai atau di pegunungan?"
+        },
+        {
+          "theme": "travel",
+          "picture": "bicycle",
+          "prompt": "Ke mana Anda ingin pergi berkendara?"
+        },
+        {
+          "theme": "travel",
+          "picture": "balloon",
+          "prompt": "Jika Anda bisa terbang di atas tempat mana pun, ke mana Anda akan pergi?"
+        },
+        {
+          "theme": "travel",
+          "picture": "lighthouse",
+          "prompt": "Apa perjalanan yang paling Anda nikmati?"
+        },
+        {
+          "theme": "work",
+          "picture": "key",
+          "prompt": "Jenis pekerjaan apa yang pernah Anda nikmati?"
+        },
+        {
+          "theme": "work",
+          "picture": "watering-can",
+          "prompt": "Apa hobi yang bisa Anda tekuni berjam-jam?"
+        },
+        {
+          "theme": "work",
+          "picture": "bread",
+          "prompt": "Apa yang Anda dikenal karena membuat atau memperbaikinya?"
+        },
+        {
+          "theme": "work",
+          "picture": "house",
+          "prompt": "Nasihat apa yang akan Anda berikan kepada anak muda yang baru mulai bekerja?"
+        },
+        {
+          "theme": "music",
+          "picture": "balloon",
+          "prompt": "Jenis musik apa yang membuat Anda ingin mengetukkan kaki?"
+        },
+        {
+          "theme": "music",
+          "picture": "cake",
+          "prompt": "Apa yang membuat sebuah pesta benar-benar seru?"
+        },
+        {
+          "theme": "music",
+          "picture": "lamp",
+          "prompt": "Penyanyi siapa yang Anda suka dengarkan?"
+        },
+        {
+          "theme": "music",
+          "picture": "armchair",
+          "prompt": "Film atau acara TV favorit apa yang ingin Anda tonton lagi?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "sun",
+          "prompt": "Apa yang paling Anda sukai dari musim panas?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tree",
+          "prompt": "Apa yang Anda nikmati dari musim gugur?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "moon",
+          "prompt": "Apa yang nyaman dilakukan pada malam musim dingin?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tulip",
+          "prompt": "Apa tanda-tanda pertama musim semi bagi Anda?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "umbrella",
+          "prompt": "Salju, hujan, atau cerah: mana yang Anda pilih?"
+        }
       ]
     },
     "coloring": {
@@ -621,16 +1561,36 @@
       "themes": {
         "kitchen-garden": {
           "label": "Dapur dan kebun",
-          "baskets": ["Di dapur", "Di kebun"]
+          "baskets": [
+            "Di dapur",
+            "Di kebun"
+          ]
         },
         "fruit-animals": {
           "label": "Buah dan hewan",
-          "baskets": ["Buah", "Hewan"]
+          "baskets": [
+            "Buah",
+            "Hewan"
+          ]
         },
         "home-travel": {
           "label": "Rumah dan bepergian",
-          "baskets": ["Di rumah", "Di perjalanan"]
+          "baskets": [
+            "Di rumah",
+            "Di perjalanan"
+          ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Buah",
+        "animals": "Hewan",
+        "travel": "Cara bepergian",
+        "flowers": "Bunga",
+        "hot-drinks": "Hal-hal untuk minuman hangat",
+        "weather": "Jenis cuaca",
+        "baked": "Makanan yang dipanggang di oven"
       }
     }
   }

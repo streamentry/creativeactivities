@@ -5,6 +5,13 @@
       "stopReading": "Voorlezen stoppen",
       "region": "Spel",
       "restart": "Opnieuw beginnen",
+      "rest": "Rust nu even",
+      "restingTitle": "Even rust",
+      "restingText": "Neem de tijd die u nodig hebt. Uw plek wordt op deze pagina bewaard.",
+      "resume": "Ga verder",
+      "placeText": "U stopte de vorige keer halverwege. Ga verder waar u was, of begin opnieuw.",
+      "placeResume": "Ga verder",
+      "placeFresh": "Begin opnieuw",
       "soundOn": "Zachte geluiden aan",
       "soundOff": "Zachte geluiden uit",
       "done": "Genoeg voor nu",
@@ -35,12 +42,27 @@
       "guidanceHidden": "Tik op twee kaartjes om ze om te draaien. Zoek twee dezelfde.",
       "restart": "Nieuwe plaatjes",
       "sizeLegend": "Hoeveel kaartjes",
-      "size": {"one": "{n} kaartje", "other": "{n} kaartjes"},
+      "size": {
+        "one": "{n} kaartje",
+        "other": "{n} kaartjes"
+      },
       "viewLegend": "Manier van spelen",
       "viewShowing": "Plaatjes zichtbaar",
       "viewHidden": "Plaatjes verborgen",
       "playAgain": "Nog een keer met nieuwe plaatjes",
-      "talk": "Samen over de plaatjes praten"
+      "talk": "Samen over de plaatjes praten",
+      "modeLegend": "Welke plaatjes",
+      "modePlay": "Willekeurige plaatjes",
+      "modeDaily": "Kaart van vandaag",
+      "dayLegend": "Welke dag",
+      "dayHelp": "Iedereen krijgt op dezelfde dag dezelfde plaatjes. Eerdere dagen staan er ook bij, en een dag overslaan kost niets.",
+      "guidanceDaily": "De kaart van vandaag heeft vier paren. Tik op een plaatje en tik daarna op het plaatje dat erbij hoort.",
+      "restartDaily": "Begin deze kaart opnieuw",
+      "copy": "Kopieer deze regel",
+      "copied": "Gekopieerd. Er wordt niets ergens naartoe gestuurd.",
+      "calendarTitle": "Kaarten van vandaag, {month}",
+      "calendarHelp": "Elke dag heeft voor iedereen dezelfde vier plaatjes. Er wordt niets gescoord en geen dag wordt als gemist aangemerkt.",
+      "calendarVersion": "Versie {date}. De plaatjes zijn op dezelfde dag voor iedereen hetzelfde."
     },
     "choose": {
       "countLegend": "Hoeveel plaatjes",
@@ -59,6 +81,635 @@
       "shadowAlt": "Een schaduw om bij te zoeken",
       "foundAlt": "Schaduw van dit plaatje: {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Hints",
+      "hintOn": "Hint na even wachten",
+      "hintOff": "Geen hints",
+      "guidance": "Zoek de {n} plaatjes die bij elkaar horen, en tik op elk plaatje.",
+      "countLegend": "Hoeveel plaatjes",
+      "count": "{n} plaatjes",
+      "found": "Ja, {name|lower} hoort in deze groep.",
+      "elsewhere": "{name|lower} hoort bij iets anders. Neem de tijd.",
+      "hint": "Een hint: let op {theme|lower}.",
+      "together": "Deze horen bij elkaar: {theme}.",
+      "shown": "Hier is de groep: {theme}.",
+      "groupName": "Bij elkaar: {theme}",
+      "show": "Toon de groep",
+      "next": "Nog een reeks"
+    },
+    "oddOneOut": {
+      "hintLegend": "Hints",
+      "hintOn": "Hint na even wachten",
+      "hintOff": "Geen hints",
+      "guidance": "Zoek het plaatje dat niet bij de andere past, en tik erop.",
+      "countLegend": "Hoeveel plaatjes",
+      "count": "{n} plaatjes",
+      "belongs": "{name|lower} past bij de andere. Neem de tijd.",
+      "found": "Ja, {name|lower} is de uitzondering. De andere zijn {theme|lower}.",
+      "shown": "Hier is het: {name|lower}. De andere zijn {theme|lower}.",
+      "hint": "Een hint: {n} hiervan zijn {theme|lower}.",
+      "others": "De andere: {theme}",
+      "show": "Laat het zien",
+      "next": "Nog een reeks"
+    },
+    "seatedToss": {
+      "guidance": "Zit aan een tafel en gooi om de beurt een zacht zakje met bonen naar het grote doel. Houd de score samen bij op papier.",
+      "stepsHeading": "Zo werkt het",
+      "steps": [
+        "Druk het doel en het scoreblad af en leg ze plat op de tafel tussen u in.",
+        "Zit prettig, elk aan een kant. Gooi om de beurt één keer rustig, of sla over als u dat liever wilt.",
+        "Als een worp in een ring terechtkomt, zet degene die gooide één streepje in het eigen vakje, op de rij van die ring.",
+        "Bekijk de streepjes samen als u stopt, als u dat wilt. Niemand hoeft iets op te tellen.",
+        "Stop wanneer iemand daar klaar voor is."
+      ],
+      "safetyHeading": "Veiligheid",
+      "safetyLine": "Gebruik alleen een zakje met een dichtgenaaide hoes of een opgerolde sok, blijf zitten, gooi nooit naar een gezicht, en zorg dat er een volwassene in de buurt is. Kleine onderdelen kunnen verstikking veroorzaken.",
+      "flags": [
+        "Niet voor kinderen onder 3: kleine onderdelen",
+        "Uit de buurt van monden houden"
+      ],
+      "safety": [
+        "Kies een zakje met een dichtgenaaide hoes, of rol een schone sok op. Controleer het eerst op gaten of losse naden, zodat er geen vulling uit kan komen.",
+        "Bonen, rijst en andere kleine vulling kunnen verstikking veroorzaken. Houd ze weg bij jonge kinderen en bij iedereen die dingen in de mond stopt.",
+        "Blijf binnen handbereik en houd goed toezicht als iets in de mond gestopt kan worden.",
+        "Blijf zitten. Gooi zacht en laag naar het doel op de tafel, nooit naar een gezicht."
+      ],
+      "previewLabel": "De afgedrukte bladzijde: een doel met drie ringen, genoemd Dichtbij, Midden en Ver, van buiten naar binnen, en een scoreblad met een kolom voor elke persoon en een rij lege vakjes voor elke ring.",
+      "sheetHow": "Leg het blad plat tussen u in. Als een worp in een ring terechtkomt, zet u een streepje in uw kolom, op de rij van die ring.",
+      "rings": [
+        "Dichtbij",
+        "Midden",
+        "Ver"
+      ],
+      "people": [
+        "Eerste persoon",
+        "Tweede persoon"
+      ],
+      "ringHeading": "Ring",
+      "print": "Druk het doel en het scoreblad af"
+    },
+    "seasonalPack": {
+      "guidance": "Kies een maand, print de drie papieren puzzels uit, en doe er één, twee of alle drie samen.",
+      "monthLegend": "Kies een maand",
+      "months": [
+        "januari",
+        "februari",
+        "maart",
+        "april",
+        "mei",
+        "juni",
+        "juli",
+        "augustus",
+        "september",
+        "oktober",
+        "november",
+        "december"
+      ],
+      "monthNote": "Elke maand heeft eigen plaatjes. De pagina opent bij deze maand, en u kunt elke andere maand kiezen.",
+      "restDay": "Vandaag is een rustdag",
+      "restLine": "Vandaag geen puzzels. Een rustdag is ook een goede dag.",
+      "previewHeading": "De drie puzzels",
+      "puzzles": {
+        "pairs": {
+          "title": "Zoek de paren",
+          "how": "Trek een lijn van elk plaatje in de bovenste rij naar hetzelfde plaatje in de onderste rij.",
+          "describe": "Twee rijen met dezelfde vier plaatjes, in een andere volgorde."
+        },
+        "different": {
+          "title": "Welke is anders?",
+          "how": "Omcirkel het plaatje dat anders is dan de andere drie.",
+          "describe": "Een rij met vier plaatjes. Drie zijn hetzelfde en één is anders."
+        },
+        "color": {
+          "title": "Kleur het in",
+          "how": "Kleur het plaatje zoals u wilt, met kleurpotloden of kleurkrijtjes.",
+          "describe": "Eén groot plaatje om in te kleuren."
+        }
+      },
+      "print": "Print het pakket van deze maand",
+      "sheetHow": "Print één pagina. Doe één, twee of alle drie de puzzels, in elke volgorde.",
+      "printFooter": "Doe er één, twee of alle drie. Stop wanneer u wilt."
+    },
+    "decorateACard": {
+      "guidance": "Kies een gelegenheid en versier samen een kaart met kleurpotloden of stiften. Er is geen goede of foute kaart.",
+      "occasionLegend": "Kies een gelegenheid",
+      "occasions": {
+        "birthday": {
+          "label": "Verjaardag",
+          "words": "Gefeliciteerd met de verjaardag"
+        },
+        "thank-you": {
+          "label": "Bedankt",
+          "words": "Bedankt"
+        },
+        "thinking-of-you": {
+          "label": "Ik denk aan je",
+          "words": "Ik denk aan je"
+        },
+        "new-season": {
+          "label": "Een nieuw seizoen",
+          "words": "Een nieuw seizoen"
+        },
+        "just-because": {
+          "label": "Zomaar",
+          "words": "Zomaar"
+        }
+      },
+      "stepsHeading": "Zo versiert u de kaart samen",
+      "steps": {
+        "fold": "Print de kaart uit en vouw hem dubbel langs de stippellijn, zodat de voorkant aan de buitenkant zit.",
+        "front": "De ene persoon versiert de voorkant, rond de woorden.",
+        "inside": "De andere persoon versiert de achterkant, of u wisselt elkaar af aan één kant.",
+        "message": "Schrijf samen een boodschap. De ene persoon kan schrijven terwijl de andere de woorden zegt.",
+        "stop": "Stop wanneer u wilt. Er is geen goede kaart, en een eenvoudige is net zo goed."
+      },
+      "materials": "Gebruik kleurpotloden, kleurkrijtjes of viltstiften. Er hoeft niets geknipt, gelijmd of geplakt te worden.",
+      "previewLabel": "Een voorbeeld van de kaart, dubbelgevouwen. Op de voorkant staat {words}, met een eenvoudige lijst van blaadjes en sterren. De achterkant heeft lijnen voor een boodschap en een regel voor Van.",
+      "from": "Van",
+      "sheetHow": "Vouwt u de kaart dubbel langs de stippellijn, met de voorkant naar buiten. Schrijft u het bericht op de achterkant.",
+      "rulesHeading": "Voor twee personen",
+      "sheetRules": [
+        "Om en om, of verdeel het werk: de ene persoon versiert de voorkant, de andere de achterkant.",
+        "Het bericht wordt samen geschreven, of de ene persoon schrijft op wat de ander zegt.",
+        "Iedereen mag op elk moment stoppen. Er is geen juiste kaart."
+      ],
+      "print": "Kaart afdrukken"
+    },
+    "storyDice": {
+      "guidance": "Bekijkt u de plaatjes en vertelt u er in welke volgorde dan ook een verhaal mee. Er is geen juist verhaal.",
+      "countLegend": "Hoeveel dobbelstenen",
+      "count": "{n} dobbelstenen",
+      "roll": "Opnieuw gooien",
+      "pass": "Overslaan",
+      "passed": "Overslaan mag. De volgende persoon kan beginnen, of u gooit opnieuw.",
+      "rolled": "Nieuwe plaatjes: {names}.",
+      "tapped": "{name}. U kunt hiermee beginnen, of met een andere."
+    },
+    "wordPicture": {
+      "guidance": "Tikt u op een plaatje en daarna op het woord dat erbij hoort. Of tikt u eerst op een woord en daarna op het plaatje.",
+      "countLegend": "Hoeveel plaatjes",
+      "count": "{n} plaatjes",
+      "picturesGroup": "Plaatjes",
+      "wordsGroup": "Woorden",
+      "readWord": "Hardop lezen: {name}",
+      "next": "Nieuwe plaatjes",
+      "putBack": "Terugzetten",
+      "pickWord": "Tikt u nu op het woord dat erbij hoort.",
+      "pickPicture": "Tikt u nu op het plaatje dat erbij hoort.",
+      "fit": "Ja, dat klopt: {name|lower}.",
+      "newSet": "Hier is een nieuwe reeks plaatjes.",
+      "restarted": "Terug naar het begin. Alle plaatjes en woorden liggen weer los.",
+      "restored": "Teruggezet. De gevonden paren zijn weer zichtbaar.",
+      "all": "Elk woord heeft zijn plaatje."
+    },
+    "colorMatch": {
+      "guidance": "Kijkt u naar de kleur en de naam ervan, en tikt u daarna op elk plaatje dat die kleur heeft.",
+      "target": "De kleur is {color|lower}. Tikt u op elk plaatje dat {color|lower} is.",
+      "countLegend": "Hoeveel plaatjes",
+      "count": "{n} plaatjes",
+      "found": "Ja, {name|lower} is {color|lower}.",
+      "named": "{name|lower} is {color|lower}.",
+      "all": "Dat zijn alle plaatjes in {color|lower}.",
+      "shown": "Hier zijn de plaatjes in {color|lower}.",
+      "show": "Laat ze zien",
+      "next": "Een andere kleur",
+      "names": {
+        "red": "Rood",
+        "orange": "Oranje",
+        "yellow": "Geel",
+        "green": "Groen",
+        "blue": "Blauw"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tikt u op een helft aan de linkerkant en daarna op de helft aan de rechterkant die erbij past.",
+      "countLegend": "Hoeveel plaatjes",
+      "count": "{n} plaatjes",
+      "leftGroup": "Linkerhelften",
+      "rightGroup": "Rechterhelften",
+      "left": "Linkerhelft: {name|lower}",
+      "right": "Rechterhelft: {name|lower}",
+      "joined": "Samengevoegd",
+      "pickRight": "Tikt u nu op de helft aan de rechterkant die erbij past.",
+      "pickLeft": "Tikt u nu op de helft aan de linkerkant die erbij past.",
+      "fit": "Ja, die twee passen samen: {name|lower}.",
+      "apart": "Die twee passen niet bij elkaar. Probeert u een andere.",
+      "all": "Elk plaatje is compleet.",
+      "shown": "Hier zijn de plaatjes, samengevoegd.",
+      "show": "Laat het mij zien",
+      "next": "Nog een set"
+    },
+    "colorByNumber": {
+      "guidance": "Kiest u een kleur uit de legenda en vult u er een vakje mee. Elke kleur is goed.",
+      "sizeLegend": "Rasterformaat",
+      "size": "{n} bij {n}",
+      "keyLegend": "Kleuren",
+      "colors": [
+        "Geel",
+        "Oranje",
+        "Groen",
+        "Paars"
+      ],
+      "motifs": {
+        "house": "een huis",
+        "flower": "een bloem",
+        "heart": "een hart",
+        "tree": "een boom",
+        "boat": "een zeilboot",
+        "pot-plant": "een plant in een pot"
+      },
+      "region": "Plaatjesraster, {n} bij {n}. Het schuift opzij als het scherm smal is.",
+      "cell": "Nummer {number}, rij {row}, kolom {column}, {color}",
+      "empty": "leeg",
+      "chose": "{name} gekozen. Tikt u op een vakje om het te vullen.",
+      "painted": "{name} in rij {row}, kolom {column}.",
+      "sheet": "Elk vakje heeft de kleur van zijn nummer. Dit is het plaatje op het blad: {name}.",
+      "own": "Elk vakje is gevuld. Dit is uw eigen plaatje.",
+      "fillAll": "Vul met de nummers",
+      "filledAll": "Elk leeg vakje heeft nu de kleur van zijn nummer.",
+      "clear": "Wissen",
+      "cleared": "Het raster is leeg.",
+      "next": "Een ander plaatje",
+      "fresh": "Hier is een ander plaatje om in te kleuren."
+    },
+    "patternMaker": {
+      "guidance": "Tikt u op een vakje om de kleur te veranderen. Uw patroon groeit ernaast. Niets wat u maakt wordt opgeslagen of verstuurd.",
+      "sizeLegend": "Formaat van het tegeltje",
+      "size": "{n} bij {n}",
+      "keyLegend": "Kleuren, in de volgorde waarin een tik ze verandert",
+      "colors": [
+        "Geel",
+        "Oranje",
+        "Groen",
+        "Paars"
+      ],
+      "tileLabel": "Uw tegeltje",
+      "region": "Uw tegeltje, {n} bij {n}. Het schuift opzij als het scherm smal is.",
+      "patternLabel": "Uw patroon",
+      "pattern": "Uw patroon: uw tegeltje herhaald {n} keer naast elkaar en {n} keer onder elkaar.",
+      "square": "Rij {row}, kolom {column}, {color}",
+      "changed": "Rij {row}, kolom {column} is nu {color}.",
+      "cleared": "Het tegeltje is leeg. U kunt het terugzetten.",
+      "surprise": "Verras mij",
+      "surprised": "Hier is een nieuw tegeltje. U kunt het oude terugzetten.",
+      "putBack": "Terugzetten",
+      "restored": "Uw tegeltje is weer zoals het was.",
+      "print": "Mijn patroon afdrukken",
+      "sheetTitle": "Mijn patroon"
+    },
+    "buildTogether": {
+      "guidance": "Om en om zet u een stuk op een lege plek. Ieder heeft een eigen kleur. Niets wat u maakt wordt opgeslagen of verstuurd.",
+      "sizeLegend": "Rasterformaat",
+      "size": "{n} bij {n}",
+      "people": [
+        "Eerste persoon",
+        "Tweede persoon"
+      ],
+      "colorLegend": "Kleur van {person}",
+      "colors": [
+        "Geel",
+        "Oranje",
+        "Groen",
+        "Paars"
+      ],
+      "inUse": "In gebruik",
+      "turn": "Aan de beurt: {person|lower}.",
+      "yourColor": "Uw kleur is {color|lower}.",
+      "built": "Samen gebouwd. Dit is het plaatje dat beide personen samen hebben gemaakt.",
+      "gridLabel": "Het gezamenlijke raster",
+      "region": "Het gezamenlijke raster, {n} bij {n}. Het schuift opzij als het scherm smal is.",
+      "cellEmpty": "Rij {row}, kolom {column}, leeg",
+      "cellFilled": "Rij {row}, kolom {column}, {color}, geplaatst door de {person|lower}",
+      "placed": "Rij {row}, kolom {column} is nu {color}. Aan de beurt: {next|lower}.",
+      "placedLast": "Rij {row}, kolom {column} is nu {color}. Samen gebouwd.",
+      "taken": "Rij {row}, kolom {column} heeft al een stuk. Kies een lege plek.",
+      "pass": "Overslaan",
+      "passed": "Overslaan mag. Aan de beurt: {person|lower}.",
+      "takeBack": "Laatste stuk terugnemen",
+      "takeBackPass": "Overslaan ongedaan maken",
+      "tookBack": "Het stuk is teruggenomen. Aan de beurt: {person|lower}.",
+      "tookBackPass": "Het overslaan is ongedaan gemaakt. Aan de beurt: {person|lower}.",
+      "colorChanged": "{person} heeft nu {color|lower}.",
+      "restarted": "Het raster is leeg. Aan de beurt: {person|lower}.",
+      "print": "Raster afdrukken",
+      "sheetTitle": "Samen bouwen",
+      "sheetHelp": "Om en om. Elke persoon tekent in een leeg vakje een eigen vorm met een eigen potlood.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tikt u op een stuk en daarna op de plek in het plaatje waar het hoort. Niets wat u maakt wordt opgeslagen of verstuurd.",
+      "hints": "Hulplijnen tonen",
+      "pictureLine": "Dit is een {picture}.",
+      "pictures": {
+        "house": "huis",
+        "boat": "boot",
+        "tree": "boom",
+        "fish": "vis",
+        "cat": "kat",
+        "rocket": "raket"
+      },
+      "outlineLabel": "Omtrek van {picture}. Tikt u op een vakje om het gekozen stuk erin te leggen.",
+      "trayHeading": "De stukken",
+      "pieces": {
+        "large-triangle": "Grote driehoek",
+        "small-triangle": "Kleine driehoek",
+        "square": "Vierkant",
+        "parallelogram": "Parallellogram",
+        "rectangle": "Rechthoek"
+      },
+      "shapes": {
+        "large-triangle": "een grote driehoek",
+        "small-triangle": "een kleine driehoek",
+        "square": "een vierkant",
+        "parallelogram": "een parallellogram",
+        "rectangle": "een rechthoek"
+      },
+      "chosenLabel": "Gekozen",
+      "spaceEmpty": "Vak {n}, {shape}, leeg",
+      "spaceFilled": "Vak {n}, {shape}, heeft zijn stuk. Tik om het stuk terug te nemen.",
+      "chosen": "{piece} is gekozen. Tikt u nu op een vak in het plaatje.",
+      "unchosen": "Het stuk is niet meer gekozen.",
+      "placed": "Het stuk ligt op plek {n}.",
+      "complete": "De {picture} is klaar.",
+      "different": "Dat stuk heeft een andere vorm dan deze plek. Probeer een andere plek.",
+      "needPiece": "Kies eerst een stuk uit de bak.",
+      "filled": "Op die plek ligt al een stuk. Tik erop om het stuk terug te nemen.",
+      "tookBack": "Het stuk is weer in de bak.",
+      "cleared": "De stukken zijn weer in de bak. Leg ze terug als u van gedachte verandert.",
+      "restored": "De stukken liggen weer in de afbeelding.",
+      "next": "Dit is een {picture}.",
+      "putBack": "Leg terug",
+      "another": "Een andere vorm",
+      "print": "Print deze vorm",
+      "sheetTitle": "Rustige vormen",
+      "sheetHow": "Kleur de stukken in, of knip ze uit zodat ze in de omtrek passen. Een volwassene kan het knippen doen.",
+      "sheetPieces": "De stukken, even groot als de omtrek"
+    },
+    "picnicPlanner": {
+      "guidance": "Tik op een plaatje om het in de picknickmand te leggen, en tik erop in de mand om het eruit te halen. De mand past zes dingen.",
+      "guidancePlay": "Tik op twee plaatjes die gelijk zijn. De plaatjes blijven zichtbaar en er wordt niet op tijd gespeeld.",
+      "basketHeading": "Onze mand",
+      "basketLabel": "De picknickmand",
+      "takeOut": "Haal {picture} uit de mand",
+      "inBasket": "In de mand",
+      "foodHeading": "Eten",
+      "outingsHeading": "Dingen om te doen",
+      "added": "{picture} zit in de mand.",
+      "removed": "{picture} is uit de mand.",
+      "already": "{picture} zit al in de mand. Tik er daar op om het eruit te halen.",
+      "full": "De mand is vol. Haal iets eruit om ruimte te maken.",
+      "summary": "Ons picknick: {list}.",
+      "summaryNone": "Er zit nog niets in de mand.",
+      "and": "en",
+      "play": "Laten we spelen met ons picknick",
+      "needTwo": "Kies eerst minstens twee dingen.",
+      "playAgain": "Opnieuw spelen",
+      "back": "Terug naar de picknick",
+      "print": "Print onze picknicklijst",
+      "cleared": "De mand is leeg.",
+      "notice": "Dit is een plan om over te praten. Niets wordt op tijd gemeten, beoordeeld of opgeslagen.",
+      "sheetTitle": "Onze picknicklijst",
+      "sheetHow": "Vink elk ding af als u het inpakt. Gebruik de lege regels voor alles wat u verder wilt meenemen.",
+      "sheetToPack": "In te pakken"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Kies twee tot twaalf eigen foto's om het boek te beginnen.",
+      "guidance": "Blader samen door de pagina's, met de knoppen of de pijltjestoetsen links en rechts. Voeg onder een foto gerust een paar woorden toe. Wat u maakt, wordt niet opgeslagen of verstuurd.",
+      "lookGuidance": "Bekijk elke pagina samen. U kunt praten of gewoon kijken.",
+      "intro": "Kies twee tot twaalf foto's van dit apparaat. Elke foto wordt een pagina van een boek dat u samen kunt doorbladeren.",
+      "consent": "Gebruik uw eigen familiefoto's. Vraag toestemming voordat u een foto gebruikt van iemand die geen ja kan zeggen.",
+      "privacy": "Uw foto's blijven op dit apparaat. Ze worden niet geüpload of opgeslagen.",
+      "choose": "Kies foto's",
+      "chooseDifferent": "Kies andere foto's",
+      "backToBook": "Terug naar het boek",
+      "backToChoose": "Terug naar het kiezen van foto's",
+      "needTwo": "Kies alstublieft minstens twee foto's.",
+      "usingFirst": "De eerste {max} foto's worden gebruikt.",
+      "cleared": "Het boek is leeg. Kies foto's om opnieuw te beginnen.",
+      "moved": "Naar pagina {n} verplaatst.",
+      "pageOf": "Pagina {n} van {total}",
+      "lookTogether": "Samen kijken",
+      "leaveLook": "Terug naar het boek",
+      "print": "Print het fotoboek",
+      "clear": "Maak het boek leeg",
+      "bookLabel": "Het familiefotoboek",
+      "pagesLabel": "Blader door de pagina's",
+      "previous": "Vorige pagina",
+      "next": "Volgende pagina",
+      "moveEarlier": "Eerder zetten",
+      "moveLater": "Later zetten",
+      "captionLabel": "Een paar woorden voor deze pagina, als u wilt",
+      "captionHelp": "Maximaal 80 tekens. Bijschriften worden alleen op deze pagina bewaard en zijn weg zodra u sluit.",
+      "sheetTitle": "Ons fotoboek",
+      "sheetHow": "Één foto per pagina, met de woorden eronder. Blader de pagina's in volgorde door en praat over elke foto.",
+      "sheetEmpty": "Kies uw foto's op de spelpagina om uw eigen boek te printen, of print deze lege pagina en plak er een geprinte foto in.",
+      "sheetFrame": "Plak hier een geprinte foto",
+      "sheetWords": "Een paar woorden voor deze pagina",
+      "skipped": {
+        "one": "{n} bestand was geen foto die we kunnen gebruiken.",
+        "other": "{n} bestanden waren geen foto's die we kunnen gebruiken."
+      }
+    },
+    "quietScene": {
+      "guidance": "Bekijk één plaatje tegelijk. Druk op Volgende of Vorige wanneer u er klaar voor bent. Niets beweegt vanzelf.",
+      "next": "Volgend plaatje",
+      "previous": "Vorig plaatje",
+      "bigPicture": "Groter plaatje",
+      "showEverything": "Toon alles",
+      "first": "Dit is het eerste plaatje.",
+      "last": "Dit is het laatste plaatje.",
+      "lines": {
+        "sunrise": "De zon komt op boven het land.",
+        "window-with-birds": "Vogels buiten het raam.",
+        "vase-of-flowers": "Een vaas met bloemen op de tafel.",
+        "teacup": "Een kopje thee bij het raam.",
+        "tree": "Een boom in de tuin.",
+        "sailboat": "Een zeilboot op het water.",
+        "lighthouse": "Een vuurtoren bij de zee.",
+        "rainbow": "Een regenboog na de regen.",
+        "moon": "De maan aan de nachtelijke hemel.",
+        "daisies": "Een stukje madeliefjes in het gras.",
+        "rowing-boat": "Een roeiboot op stil water.",
+        "potted-plant": "Een groene plant in een pot."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Wissel elkaar af. Tik op een knipsel en daarna op een lege plek om het daar neer te leggen. Wat u maakt, wordt niet opgeslagen of verstuurd.",
+      "people": [
+        "Eerste persoon",
+        "Tweede persoon"
+      ],
+      "marks": [
+        "een cirkel",
+        "een vierkant"
+      ],
+      "turn": "Uw beurt, {person|lower}.",
+      "marked": "Uw stukken zijn gemarkeerd met {mark}.",
+      "boardLabel": "Het gedeelde bord",
+      "placeEmpty": "Plek {n}, leeg",
+      "placeFilled": "Plek {n}, {picture|lower}, neergelegd door de {person|lower}",
+      "trayHeading": "De knipsels",
+      "chosenLabel": "Gekozen",
+      "chosen": "{picture} is gekozen. Tik nu op een lege plek.",
+      "unchosen": "Het knipsel is niet meer gekozen.",
+      "needCutout": "Kies eerst een knipsel en tik daarna op een lege plek.",
+      "filled": "Plek {n} heeft al een plaatje. Kies een lege plek.",
+      "placed": "{picture} staat op plek {n}. Uw beurt, {next|lower}.",
+      "full": "Elke plek heeft een plaatje. Haal er een weg om hem te veranderen, of begin opnieuw.",
+      "pass": "Overslaan",
+      "passed": "Overslaan mag. Uw beurt, {person|lower}.",
+      "takeBack": "Neem het laatste stuk terug",
+      "takeBackPass": "Neem het overslaan terug",
+      "tookBack": "Het stuk is teruggenomen. Uw beurt, {person|lower}.",
+      "tookBackPass": "Het overslaan is teruggenomen. Uw beurt, {person|lower}.",
+      "restarted": "Het bord is leeg. Uw beurt, {person|lower}.",
+      "putBack": "Leg terug",
+      "putBackDone": "De stukken liggen weer op het bord.",
+      "another": "Een andere set plaatjes",
+      "anotherSet": "Er ligt een nieuwe set knipsels in de bak. De stukken op het bord blijven waar ze liggen.",
+      "print": "Print het bord",
+      "sheetTitle": "Collagebord",
+      "sheetHow": "Knip de plaatjes uit en wissel elkaar af bij het neerleggen op het bord. Een volwassene kan het knippen doen.",
+      "sheetTray": "De plaatjes om uit te knippen"
+    },
+    "gardenPlanner": {
+      "guidance": "Tik op een plaatje en daarna op een perk om het daar neer te leggen. Tik op een perk met een plaatje, terwijl niets is gekozen, om het leeg te maken.",
+      "bedsLabel": "De tuinperken",
+      "bedEmpty": "Perk {n}, leeg",
+      "bedFilled": "Perk {n}, {picture|lower}",
+      "plantsHeading": "Planten",
+      "extrasHeading": "Extra's voor in de tuin",
+      "chosenLabel": "Gekozen",
+      "chosen": "{picture} is gekozen. Tik nu op een perk.",
+      "unchosen": "Er is geen plaatje gekozen.",
+      "needPicture": "Kies eerst een plaatje en tik daarna op een perk.",
+      "planted": "{picture} staat in perk {n}.",
+      "replaced": "{picture} neemt de plaats in van het plaatje in perk {n}.",
+      "cleared": "Perk {n} is leeg. Zet het terug als u het plaatje opnieuw wilt.",
+      "restarted": "Alle perken zijn leeg.",
+      "putBack": "Zet terug",
+      "putBackDone": "De plaatjes staan weer in hun perken.",
+      "summaryHeading": "Mijn tuin",
+      "summary": "Uw plan bevat {list}.",
+      "summaryNone": "Er staat nog geen plaatje in een perk.",
+      "and": "en",
+      "print": "Print het plan",
+      "sheetTitle": "Ons tuinplan",
+      "sheetHow": "De perken tonen de plaatjes die op het scherm zijn gekozen. Teken gerust in de lege perken.",
+      "sheetNotes": "Notities",
+      "notice": "Dit is een plaatjesplan om over te praten, geen tuinadvies."
+    },
+    "coloringWall": {
+      "guidance": "Kies een plaatje en het aantal pagina's. Print de muur uit, en elke persoon kleurt een of meer pagina's. Niets wordt op tijd gemeten, beoordeeld of opgeslagen.",
+      "pictureLegend": "Plaatje",
+      "sizeLegend": "Aantal pagina's",
+      "sizes": {
+        "2x2": "4 pagina's (2 bij 2)",
+        "3x2": "6 pagina's (3 bij 2)",
+        "3x3": "9 pagina's (3 bij 3)"
+      },
+      "previewLabel": "Het {picture|lower} verdeeld over {n} pagina's, {across} breed en {down} hoog. Elke pagina heeft een label in de hoek.",
+      "previewCaption": "Het plaatje met de paginalijnen en labels erop getekend.",
+      "labelsNote": "Letters lopen langs de muur en cijfers lopen er overheen, dus A1 is de linkerbovenpagina.",
+      "wallHeading": "Zo zet u de muur in elkaar",
+      "steps": [
+        "Print alle pagina's uit. De eerste pagina bevat deze stappen en een kaart van de muur.",
+        "Elke persoon neemt een of meer pagina's en kleurt ze.",
+        "Kleuren en stijlen hoeven niet overeen te komen. Elke pagina hoort bij hetzelfde plaatje.",
+        "Leg de pagina's op hun labels en plak ze aan de achterkant met plakband aan elkaar.",
+        "Hang de muur op waar iedereen hem kan zien."
+      ],
+      "mapLabel": "Een kaart van de muur: {down} rijen van {across} pagina's, met labels van A1 tot {last}.",
+      "edgeNote": "De stippellijn markeert de rand van elke pagina. Leg de pagina's rand aan rand langs elkaar, of laat ze elkaar een beetje overlappen.",
+      "pictureLine": "Plaatje: {picture}. Deze muur bestaat uit {n} pagina's: {across} breed en {down} hoog.",
+      "print": "Print de muur uit"
+    },
+    "findTogether": {
+      "guidance": "Wissel om de beurt af. Draai op uw beurt twee kaarten om, op zoek naar een paar. Zoek de paren samen.",
+      "sizeLegend": "Aantal kaarten",
+      "size": "{n} kaarten",
+      "viewLegend": "Hoe speelt u",
+      "viewShowing": "Speel met zichtbare plaatjes",
+      "viewHidden": "Kaarten met de voorkant naar beneden",
+      "people": [
+        "Eerste persoon",
+        "Tweede persoon"
+      ],
+      "turn": "Beurt: {person}",
+      "turnDone": "Alle paren zijn gevonden.",
+      "tally": "Samen gevonden paren: {n}",
+      "cardNamed": "{name}, kaart {n}",
+      "cardFaceDown": "Kaart {n}, met de voorkant naar beneden",
+      "first": "{name}. Draai nu een tweede kaart om.",
+      "found": "{name}: een paar, samen gevonden. Nu is het de beurt van de {next|lower}.",
+      "allTogether": "U hebt samen alle paren gevonden.",
+      "different": "{a} en {b} zijn verschillend. Neem de tijd en druk daarna op Draai ze terug.",
+      "waiting": "Druk op Draai ze terug wanneer u er klaar voor bent. Dan gaat de beurt over.",
+      "turnedBack": "Teruggedraaid. Nu is het de beurt van de {person|lower}.",
+      "passed": "Overslaan mag. Nu is het de beurt van de {person|lower}.",
+      "turnBack": "Draai ze terug",
+      "pass": "Overslaan",
+      "playAgain": "Opnieuw spelen"
+    },
+    "drawingDuet": {
+      "guidance": "Wissel om de beurt af met één lijn per keer en geef daarna de pen door. Iedereen mag overslaan. Er wordt niets ergens naartoe gestuurd. Een tekening verlaat deze pagina alleen als u hem opslaat.",
+      "people": [
+        "Eerste persoon",
+        "Tweede persoon"
+      ],
+      "colorLegend": "Kleur van {person}",
+      "colors": [
+        "Geel",
+        "Oranje",
+        "Groen",
+        "Paars"
+      ],
+      "turn": "Beurt van {person}",
+      "penColor": "Kleur van de pen: {color}.",
+      "canvasLabel": "Gedeelde tekening, tot nu toe {n} lijnen",
+      "canvasLabelOne": "Gedeelde tekening, tot nu toe {n} lijn",
+      "keys": "Met de pijltjestoetsen beweegt u het puntje van de pen over de tekening. Spatie zet de pen neer of tilt hem op.",
+      "penDown": "Pen neerzetten",
+      "penUp": "Pen optillen",
+      "pass": "Geef de pen door",
+      "passed": "Overslaan mag. Het is aan u, {person|lower}.",
+      "takeBack": "Haal mijn laatste lijn weg",
+      "tookBack": "De laatste lijn van de {person|lower} is weggehaald.",
+      "noLine": "Er is geen lijn van de {person|lower} om weg te halen.",
+      "restarted": "Het vel is leeg. De eerste persoon is aan de beurt. Zet het terug als u dit niet bedoelde.",
+      "putBack": "Zet terug",
+      "restored": "De lijnen staan weer zoals ze waren.",
+      "save": "Plaatje opslaan",
+      "saved": "Uw plaatje is klaar. Gebruik de downloadlink om het op dit apparaat te bewaren.",
+      "download": "Download drawing-duet.png",
+      "print": "Print de papieren versie",
+      "sheetTitle": "Tekenduet",
+      "paperRules": "Twee personen, één vel, twee pennen. Wissel om de beurt af: elk één lijn of vorm, en geef daarna de pen door. Iedereen mag overslaan. Er is geen juist plaatje."
+    },
+    "colorWash": {
+      "guidance": "Verf zachte kleur over de pagina, één laag per keer. Til het penseel op om te stoppen, en stop wanneer u wilt. Niets wordt opgeslagen of verstuurd.",
+      "colorLegend": "Kleur van de laag",
+      "sizeLegend": "Penseelgrootte",
+      "colors": [
+        "Geel",
+        "Oranje",
+        "Groen",
+        "Paars"
+      ],
+      "sizes": {
+        "wide": "Breed",
+        "veryWide": "Heel breed"
+      },
+      "color": "Kleur van de laag: {color}.",
+      "brushDown": "Penseel neerzetten",
+      "brushUp": "Penseel optillen",
+      "keys": "Met de pijltjestoetsen beweegt u de penseelring over de pagina. Spatie zet het penseel neer of tilt het op.",
+      "canvasLabel": "Een pagina met zachte kleurlagen",
+      "fresh": "Een nieuwe pagina",
+      "freshMessage": "Een nieuwe pagina.",
+      "putBack": "Zet terug",
+      "restored": "De pagina is terug."
+    },
     "sortTogether": {
       "guidance": "Tik op een plaatje en dan op het mandje waar het in hoort.",
       "restart": "Nieuwe plaatjes",
@@ -68,7 +719,14 @@
       "hint": "{name}: dat past in het mandje “{basket}”. Tik op dat mandje om het erin te leggen.",
       "placed": "{name}: dat ligt nu in het mandje “{basket}”.",
       "sorted": "Alles is gesorteerd. Bekijk samen wat er in de mandjes zit, of kies een ander thema.",
-      "basket": {"one": "Mandje “{basket}”, met {count} plaatje erin", "other": "Mandje “{basket}”, met {count} plaatjes erin"}
+      "largerTargets": "Grotere doelen",
+      "largerOn": "Grotere doelen staan aan. Er is niets verplaatst.",
+      "largerOff": "Grotere doelen staan uit. Er is niets verplaatst.",
+      "largerOnNewRound": "Grotere doelen staan aan, met twee manden. Hier zijn nieuwe plaatjes om te sorteren.",
+      "basket": {
+        "one": "Mandje “{basket}”, met {count} plaatje erin",
+        "other": "Mandje “{basket}”, met {count} plaatjes erin"
+      }
     },
     "picturePuzzle": {
       "guidance": "Tik op een stukje en dan op een ander. Ze wisselen van plek.",
@@ -83,7 +741,10 @@
         "cat": "Kat"
       },
       "sizeLegend": "Stukjes",
-      "size": {"one": "{n} stukje", "other": "{n} stukjes"},
+      "size": {
+        "one": "{n} stukje",
+        "other": "{n} stukjes"
+      },
       "pickedUp": "Stukje opgepakt. Tik nu op de plek waar het hoort.",
       "whole": "Het plaatje is weer heel: {name|lower}. Kies een ander plaatje wanneer je wilt.",
       "swapped": {
@@ -92,10 +753,27 @@
       },
       "guideAlt": "Het hele plaatje: {name}",
       "guideText": "Zo ziet het plaatje eruit als het heel is.",
+      "ownChoose": "Gebruik uw eigen foto",
+      "ownChange": "Kies een andere foto",
+      "ownBack": "Terug naar onze plaatjes",
+      "ownPrivacy": "Uw foto blijft op dit apparaat. Hij wordt niet geüpload of opgeslagen.",
+      "ownConsent": "Gebruik uw eigen foto's. Vraag eerst toestemming voordat u een foto gebruikt van iemand die geen ja kan zeggen.",
+      "ownWorking": "Uw foto wordt klaargemaakt.",
+      "ownNotUsable": "Dat bestand kon niet worden gebruikt. Kies een fotobestand, zoals een JPEG of PNG.",
+      "ownAlt": "Uw foto",
+      "ownPiece": "Stukje {n}, {place}",
+      "ownWhole": "Uw foto is weer heel. Schud hem opnieuw wanneer u wilt.",
+      "ownSheetTitle": "Uw foto in stukjes",
+      "ownSheetHow": "Knip langs de lijnen. Schud de stukjes door elkaar en wissel daarna twee stukjes per keer om tot de foto weer heel is.",
       "piece": "Stukje {place}",
       "pieceInPlace": ", op de goede plek",
       "piecePickedUp": ", opgepakt",
-      "places4": ["linksboven", "rechtsboven", "linksonder", "rechtsonder"],
+      "places4": [
+        "linksboven",
+        "rechtsboven",
+        "linksonder",
+        "rechtsonder"
+      ],
       "places9": [
         "linksboven",
         "middenboven",
@@ -127,7 +805,10 @@
       "restart": "Nieuwe puzzel",
       "themeLegend": "Thema",
       "sizeLegend": "Roostergrootte",
-      "size": {"one": "{n} bij {n} ({words} woord)", "other": "{n} bij {n} ({words} woorden)"},
+      "size": {
+        "one": "{n} bij {n} ({words} woord)",
+        "other": "{n} bij {n} ({words} woorden)"
+      },
       "print": "Deze puzzel afdrukken",
       "letterChosen": "Letter {letter} gekozen. Tik nu op de laatste letter van het woord.",
       "found": "{word} gevonden.",
@@ -173,6 +854,14 @@
       "guidance": "Lees de kaart hardop voor. Er zijn geen goede antwoorden.",
       "position": "Kaart {n} van {total}",
       "themeLegend": "Thema",
+      "showPrompt": "Toon een gespreksvraag",
+      "bigPicture": "Groot plaatje, voor een groep",
+      "passNote": "Overslaan mag altijd.",
+      "groupTitle": "Een kaart rondgeven in een groep",
+      "groupSit": "Ga in een kring zitten, zodat iedereen het plaatje kan zien. De persoon met de kaart, of het apparaat met het grote plaatje, leest de vraag als eerste hardop voor.",
+      "groupPass": "Geef de kaart daarna door aan de volgende persoon. Elke persoon zegt een woord of een zin over het plaatje en geeft de kaart dan door.",
+      "groupNoSpeech": "De kaart doorgeven mag altijd. Iemand mag overslaan zonder iets te zeggen, en niemand hoeft te zeggen waarom.",
+      "groupEnd": "De ronde eindigt wanneer de kaart de kring rond is geweest, of wanneer de groep er genoeg van heeft. Niemand wint. Stop wanneer de groep dat wil.",
       "next": "Volgende kaart",
       "previous": "Vorige kaart",
       "print": "Alle kaarten afdrukken",
@@ -207,8 +896,14 @@
       "squaresLegend": "Vakjes per kaart",
       "squares": "{n} vakjes ({side} bij {side})",
       "cardsLegend": "Hoeveel kaarten afdrukken",
-      "cards": {"one": "{n} kaart", "other": "{n} kaarten"},
-      "print": {"one": "Kaart afdrukken ({n})", "other": "Kaarten afdrukken ({n})"},
+      "cards": {
+        "one": "{n} kaart",
+        "other": "{n} kaarten"
+      },
+      "print": {
+        "one": "Kaart afdrukken ({n})",
+        "other": "Kaarten afdrukken ({n})"
+      },
       "ready": "Begin maar wanneer je wilt",
       "next": "Volgend plaatje",
       "allCalled": "Alle plaatjes zijn omgeroepen",
@@ -229,6 +924,20 @@
       "started": "Gestart. Adem in terwijl de cirkel groter wordt.",
       "stopped": "Gestopt.",
       "finished": "Dat waren zes rustige ademhalingen. Begin opnieuw wanneer je wilt."
+    },
+    "storyChain": {
+      "guidance": "Wissel elkaar af: één zin per persoon, en voeg dan het volgende plaatje toe.",
+      "passNote": "Zeg uw zin hardop. Er wordt niets getypt of bewaard. Iedereen mag overslaan.",
+      "chainLabel": "De keten tot nu toe",
+      "item": "Plaatje {n}: {name}",
+      "add": "Voeg een plaatje toe",
+      "fullAdd": "De keten is vol. Begin een nieuwe keten",
+      "newChain": "Begin een nieuwe keten",
+      "takeOff": "Haal de laatste eraf",
+      "added": "{name|lower} staat nu aan het eind van de keten.",
+      "removed": "{name|lower} is van de keten gehaald.",
+      "fresh": "Een nieuwe keten, begonnen met {name|lower}.",
+      "full": "De keten heeft alle 8 plaatjes. Vertel het hele verhaal, of begin een nieuwe keten."
     }
   },
   "pictures": {
@@ -314,7 +1023,44 @@
     "rain-cloud": "Regenwolk",
     "snowflake": "Sneeuwvlok",
     "kite": "Vlieger",
-    "sunrise": "Zonsopgang boven de heuvels"
+    "sunrise": "Zonsopgang boven de heuvels",
+    "decorated-keepsake-box": "Doosje voor herinneringen, versierd",
+    "painted-plant-pot": "Plantenpot met kruiden, beschilderd",
+    "repeating-pattern-sheet": "Vel met herhalende patronen",
+    "music-drawn-lines": "Lijnen, getekend op muziek",
+    "paper-boat-afloat": "Papieren bootje op het water",
+    "folded-towel-stack": "Stapel opgevouwen handdoeken",
+    "hand-massage-with-lotion": "Hand op een handdoek, met lotion",
+    "open-photo-album": "Open fotoalbum",
+    "button-flower-card": "Kaart met een bloem van knopen",
+    "blue-torn-paper-collage": "Collage van blauw gescheurd papier",
+    "family-tree-of-hands": "Stamboom getekend met handen",
+    "open-greeting-card": "Open wenskaart met een hartje",
+    "lavender-sachet": "Lavendelzakje met lint",
+    "memory-collage-of-photos": "Collage van familiefoto's",
+    "paper-chain-garland": "Slinger van papieren schakels",
+    "open-songbook-with-notes": "Open zangboek met noten",
+    "photo-postcard-with-stamp": "Fotoansichtkaart met postzegel",
+    "pine-cone-bird-feeder": "Vogelvoeder van dennenappel, aan een tak",
+    "playlist-phone-and-card": "Telefoon met afspeellijst en liedkaart",
+    "sealed-rice-shaker": "Rammelaar met rijst, dichtgeplakt",
+    "texture-board-with-scraps": "Textielbord met lapjes",
+    "painted-garden-stone": "Beschilderde tuinsteen",
+    "shared-painted-canvas": "Gedeeld beschilderd doek",
+    "watercolor-washes-sheet": "Vel papier met waterverf",
+    "seedling-in-pot": "Zaailingen in een pot",
+    "pressed-leaves-in-book": "Geperste bladeren in een boek",
+    "printed-leaves-sheet": "Vel met bladafdrukken",
+    "pinch-pot-clay-bowl": "Kommetje van klei",
+    "table-sketch-pencil": "Potloodschets van een mok",
+    "buttons-in-muffin-tin": "Knopen gesorteerd in een muffinvorm",
+    "family-recipe-book": "Familiekookboek",
+    "drum-with-beat-marks": "Tafeltrommel met stokken",
+    "torn-paper-flower": "Bloem van gescheurd papier",
+    "window-with-birds": "Raam met vogels",
+    "woven-paper-mat": "Mat van geweven papier",
+    "yarn-ball-with-thread": "Bol garen",
+    "letter-and-envelope": "Brief in een envelop"
   },
   "illustrations": {
     "rocking-chair": "Schommelstoel",
@@ -419,67 +1165,100 @@
     "pocket-watch": "Zakhorloge"
   },
   "content": {
-    "sayings": [
-      {"start": "Oost west, thuis", "end": "best", "others": ["fijn", "warm"], "prompt": "Wat maakt een plek voor jou een thuis?"},
-      {"start": "Morgenstond heeft goud in de", "end": "mond", "others": ["hand", "tuin"], "prompt": "Ben jij meer een ochtendmens of een avondmens?"},
-      {"start": "Na regen komt", "end": "zonneschijn", "others": ["een regenboog", "de lente"], "prompt": "Wat doe je het liefst als de zon weer gaat schijnen?"},
-      {"start": "Wie niet waagt, wie niet", "end": "wint", "others": ["wacht", "weet"], "prompt": "Wat is iets spannends dat je eens hebt gedaan?"},
-      {"start": "Beter een goede buur dan een verre", "end": "vriend", "others": ["neef", "tante"], "prompt": "Vertel eens over fijne buren die je hebt gehad."},
-      {"start": "Oefening baart", "end": "kunst", "others": ["plezier", "rust"], "prompt": "Is er iets wat je vaak hebt geoefend, zoals een instrument of handwerk?"},
-      {"start": "Wie wat bewaart, die heeft", "end": "wat", "others": ["veel", "alles"], "prompt": "Wat bewaar jij graag in een la of een doosje?"},
-      {"start": "Wie de schoen past, trekke hem", "end": "aan", "others": ["uit", "mee"], "prompt": "Wat waren de fijnste schoenen die je ooit had?"},
-      {"start": "Haastige spoed is zelden", "end": "goed", "others": ["fijn", "nodig"], "prompt": "Wat doe jij het liefst rustig aan?"},
-      {"start": "Zo vader, zo", "end": "zoon", "others": ["moeder", "broer"], "prompt": "Op wie in je familie lijk jij, denk je?"},
-      {"start": "De appel valt niet ver van de", "end": "boom", "others": ["tafel", "mand"], "prompt": "Wat voor appels vind jij het lekkerst?"},
-      {"start": "Eind goed, al", "end": "goed", "others": ["fijn", "klaar"], "prompt": "Wat hoort voor jou bij een fijne afsluiting van de dag?"},
-      {"start": "Wie zaait, zal", "end": "oogsten", "others": ["wachten", "bloeien"], "prompt": "Wat zou jij graag in een moestuin zetten?"},
-      {"start": "Wat de boer niet kent, dat eet hij", "end": "niet", "others": ["graag", "op"], "prompt": "Welk gerecht ben je pas later lekker gaan vinden?"},
-      {"start": "Beter laat dan", "end": "nooit", "others": ["vroeg", "morgen"], "prompt": "Wat is iets wat je later bent gaan doen en leuk vond?"},
-      {"start": "Hoge bomen vangen veel", "end": "wind", "others": ["zon", "regen"], "prompt": "Welke boom vind jij het mooist?"},
-      {"start": "Zoals het klokje thuis tikt, tikt het", "end": "nergens", "others": ["altijd", "overal"], "prompt": "Wat is een gewoonte van thuis die je fijn vindt?"},
-      {"start": "Stille wateren hebben diepe", "end": "gronden", "others": ["oevers", "bodems"], "prompt": "Ben je graag bij het water, zoals een meer, een rivier of de zee?"},
-      {"start": "Een appeltje voor de", "end": "dorst", "others": ["lunch", "middag"], "prompt": "Wat neem jij graag mee als je een dagje weggaat?"},
-      {"start": "Vele handen maken licht", "end": "werk", "others": ["spel", "plezier"], "prompt": "Welke klusjes deden jullie thuis samen?"},
-      {"start": "Twee weten meer dan", "end": "één", "others": ["drie", "niemand"], "prompt": "Met wie los jij graag samen iets op?"},
-      {"start": "Gedeelde vreugde is dubbele", "end": "vreugde", "others": ["pret", "taart"], "prompt": "Met wie deel je graag goed nieuws?"},
-      {"start": "Wie goed doet, goed", "end": "ontmoet", "others": ["vindt", "krijgt"], "prompt": "Wat is iets aardigs wat iemand voor jou heeft gedaan?"},
-      {"start": "Van uitstel komt", "end": "afstel", "others": ["rust", "plezier"], "prompt": "Wat doe jij graag meteen, en wat mag best even wachten?"},
-      {"start": "Komt tijd, komt", "end": "raad", "others": ["rust", "koffie"], "prompt": "Waar denk jij graag rustig over na bij een kopje koffie?"},
-      {"start": "Wie het eerst komt, het eerst", "end": "maalt", "others": ["eet", "kiest"], "prompt": "Ben jij graag vroeg op een afspraak, of liever precies op tijd?"},
-      {"start": "De kat uit de boom", "end": "kijken", "others": ["halen", "roepen"], "prompt": "Hou jij meer van katten, van honden of van allebei?"},
-      {"start": "Als de kat van huis is, dansen de muizen op", "end": "tafel", "others": ["straat", "zolder"], "prompt": "Wat doe je graag als je het huis even voor jezelf hebt?"},
-      {"start": "Een goed begin is het halve", "end": "werk", "others": ["feest", "plezier"], "prompt": "Hoe begin jij de dag het liefst?"},
-      {"start": "Geen rook zonder", "end": "vuur", "others": ["wind", "kachel"], "prompt": "Zit jij graag bij de kachel of een open haard?"},
-      {"start": "Over smaak valt niet te", "end": "twisten", "others": ["praten", "zingen"], "prompt": "Wat is jouw lievelingseten?"},
-      {"start": "Op elk potje past een", "end": "dekseltje", "others": ["lepeltje", "schoteltje"], "prompt": "Wat maakt twee mensen een goed stel, denk jij?"},
-      {"start": "Ieder vogeltje zingt zoals het gebekt", "end": "is", "others": ["wil", "kan"], "prompt": "Zing jij weleens mee met de radio?"},
-      {"start": "Spreken is zilver, zwijgen is", "end": "goud", "others": ["brons", "koper"], "prompt": "Wanneer vind jij het fijn om samen even stil te zijn?"},
-      {"start": "Eén zwaluw maakt nog geen", "end": "zomer", "others": ["lente", "nest"], "prompt": "Waaraan merk jij dat de zomer eraan komt?"},
-      {"start": "Maart roert zijn", "end": "staart", "others": ["pot", "soep"], "prompt": "Van wat voor weer houd jij in het voorjaar?"},
-      {"start": "April doet wat hij", "end": "wil", "others": ["kan", "zegt"], "prompt": "Wat vind jij leuk aan de lente?"},
-      {"start": "Na zuur komt", "end": "zoet", "others": ["thee", "fruit"], "prompt": "Hou jij meer van zoet of van zuur?"},
-      {"start": "Kleine potjes hebben grote", "end": "oren", "others": ["deksels", "handen"], "prompt": "Wat vind jij leuk aan kleine kinderen in de buurt?"},
-      {"start": "Beter een half ei dan een lege", "end": "dop", "others": ["pan", "schaal"], "prompt": "Hoe eet jij je ei het liefst: zacht, hard of gebakken?"},
-      {"start": "Doe maar gewoon, dan doe je al gek", "end": "genoeg", "others": ["zat", "veel"], "prompt": "Wat is voor jou een gezellige, gewone dag?"},
-      {"start": "Beter één vogel in de hand dan tien in de", "end": "lucht", "others": ["boom", "tuin"], "prompt": "Welke vogels zie je graag in de tuin of op het balkon?"},
-      {"start": "Gezelligheid kent geen", "end": "tijd", "others": ["haast", "grenzen"], "prompt": "Wat maakt een avond voor jou gezellig?"},
-      {"start": "Het regent", "end": "pijpenstelen", "others": ["zachtjes", "flink"], "prompt": "Wat doe je graag op een regenachtige dag?"},
-      {"start": "Rome is niet in één dag", "end": "gebouwd", "others": ["geschilderd", "gevonden"], "prompt": "Welke stad zou jij graag eens bezoeken?"},
-      {"start": "De liefde gaat door de", "end": "maag", "others": ["keuken", "tuin"], "prompt": "Wie kookte er bij jou thuis het lekkerst?"},
-      {"start": "Wat niet weet, wat niet", "end": "deert", "others": ["stoort", "geeft"], "prompt": "Waar maak jij je liever niet druk om?"},
-      {"start": "Hoe meer zielen, hoe meer", "end": "vreugd", "others": ["pret", "feest"], "prompt": "Hou jij van een vol huis, of liever van een klein gezelschap?"},
-      {"start": "Ieder zijn", "end": "meug", "others": ["deel", "beurt"], "prompt": "Wat vind jij lekker dat een ander misschien niet lust?"}
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABDEGHIKLMNOPRSTUVWZ",
       "themes": [
-        {"value": "fruit", "label": "Fruit", "words": ["APPEL", "PEER", "PRUIM", "KERS", "DRUIF", "BANAAN", "MELOEN", "PERZIK", "KIWI"]},
-        {"value": "garden", "label": "Tuin", "words": ["ROOS", "TULP", "ZAAD", "AARDE", "BLAD", "BOOM", "GRAS", "HARK", "SCHEP"]},
-        {"value": "kitchen", "label": "Keuken", "words": ["KOP", "LEPEL", "BROOD", "PAN", "KOM", "BORD", "THEE", "OVEN", "VORK"]},
-        {"value": "weather", "label": "Weer", "words": ["ZON", "REGEN", "SNEEUW", "WIND", "WOLK", "STORM", "MIST", "HAGEL", "BUI"]},
-        {"value": "animals", "label": "Dieren", "words": ["HOND", "KAT", "VOGEL", "VIS", "PAARD", "KOE", "EEND", "GEIT", "KIP"]},
-        {"value": "home", "label": "Thuis", "words": ["DEUR", "STOEL", "LAMP", "BED", "KLEED", "BANK", "KLOK", "TAFEL", "RAAM"]}
+        {
+          "value": "fruit",
+          "label": "Fruit",
+          "words": [
+            "APPEL",
+            "PEER",
+            "PRUIM",
+            "KERS",
+            "DRUIF",
+            "BANAAN",
+            "MELOEN",
+            "PERZIK",
+            "KIWI"
+          ]
+        },
+        {
+          "value": "garden",
+          "label": "Tuin",
+          "words": [
+            "ROOS",
+            "TULP",
+            "ZAAD",
+            "AARDE",
+            "BLAD",
+            "BOOM",
+            "GRAS",
+            "HARK",
+            "SCHEP"
+          ]
+        },
+        {
+          "value": "kitchen",
+          "label": "Keuken",
+          "words": [
+            "KOP",
+            "LEPEL",
+            "BROOD",
+            "PAN",
+            "KOM",
+            "BORD",
+            "THEE",
+            "OVEN",
+            "VORK"
+          ]
+        },
+        {
+          "value": "weather",
+          "label": "Weer",
+          "words": [
+            "ZON",
+            "REGEN",
+            "SNEEUW",
+            "WIND",
+            "WOLK",
+            "STORM",
+            "MIST",
+            "HAGEL",
+            "BUI"
+          ]
+        },
+        {
+          "value": "animals",
+          "label": "Dieren",
+          "words": [
+            "HOND",
+            "KAT",
+            "VOGEL",
+            "VIS",
+            "PAARD",
+            "KOE",
+            "EEND",
+            "GEIT",
+            "KIP"
+          ]
+        },
+        {
+          "value": "home",
+          "label": "Thuis",
+          "words": [
+            "DEUR",
+            "STOEL",
+            "LAMP",
+            "BED",
+            "KLEED",
+            "BANK",
+            "KLOK",
+            "TAFEL",
+            "RAAM"
+          ]
+        }
       ]
     },
     "conversation": {
@@ -495,52 +1274,221 @@
         "seasons": "Seizoenen"
       },
       "cards": [
-        {"theme": "food", "picture": "bread", "prompt": "Wat doe jij het liefst op je boterham?"},
-        {"theme": "food", "picture": "cake", "prompt": "Wat hoort er voor jou bij een gezellige verjaardag?"},
-        {"theme": "food", "picture": "apple", "prompt": "Hoe eet jij appeltaart het liefst: met of zonder slagroom?"},
-        {"theme": "food", "picture": "teacup", "prompt": "Hoe drink jij je koffie het liefst, en welk koekje hoort erbij?"},
-        {"theme": "food", "picture": "frying-pan", "prompt": "Wat maakt een ontbijt voor jou echt lekker?"},
-        {"theme": "food", "picture": "strawberry", "prompt": "Hou jij van aardbeien met slagroom, of liever op een beschuitje?"},
-        {"theme": "food", "picture": "lemon", "prompt": "Zoet of zuur: waar hou jij meer van?"},
-        {"theme": "food", "picture": "cherries", "prompt": "Welk eten smaakt voor jou naar de zomer?"},
-        {"theme": "home", "picture": "house", "prompt": "Vertel eens over een huis waar je graag woonde."},
-        {"theme": "home", "picture": "armchair", "prompt": "Waar zit jij het liefst om lekker uit te rusten?"},
-        {"theme": "home", "picture": "lamp", "prompt": "Wat doe je graag op een rustige avond?"},
-        {"theme": "home", "picture": "key", "prompt": "Wat zou jij bewaren in een mooi kistje?"},
-        {"theme": "home", "picture": "kettle", "prompt": "Wie zou je graag uitnodigen voor een kopje koffie of thee?"},
-        {"theme": "home", "picture": "umbrella", "prompt": "Wat doe je graag op een regenachtige dag binnen?"},
-        {"theme": "outdoors", "picture": "sunflower", "prompt": "Welke bloemen zou jij in de tuin zetten?"},
-        {"theme": "outdoors", "picture": "tree", "prompt": "Vertel eens over een boom of een park waar je van houdt."},
-        {"theme": "outdoors", "picture": "watering-can", "prompt": "Wat vind jij het fijnste aan bezig zijn in de tuin?"},
-        {"theme": "outdoors", "picture": "tulip", "prompt": "Van welke kleur tulpen hou jij het meest?"},
-        {"theme": "outdoors", "picture": "potted-plant", "prompt": "Hou jij van planten in huis, bijvoorbeeld op de vensterbank?"},
-        {"theme": "outdoors", "picture": "sun", "prompt": "Hoe ziet voor jou een heerlijke zonnige dag eruit?"},
-        {"theme": "animals", "picture": "dog", "prompt": "Vertel eens over een hond die je hebt gekend."},
-        {"theme": "animals", "picture": "cat", "prompt": "Katten, honden of geen van beide? Wat vind je leuk aan ze?"},
-        {"theme": "animals", "picture": "bird", "prompt": "Welke vogels zie of hoor je graag buiten?"},
-        {"theme": "animals", "picture": "fish", "prompt": "Wat vind jij fijn aan kijken naar vissen in het water?"},
-        {"theme": "animals", "picture": "butterfly", "prompt": "Wat is het mooiste dier dat je ooit hebt gezien?"},
-        {"theme": "travel", "picture": "car", "prompt": "Vertel eens over een auto waar je van hield."},
-        {"theme": "travel", "picture": "sailboat", "prompt": "Ga je liever een dagje naar het strand of naar het bos?"},
-        {"theme": "travel", "picture": "bicycle", "prompt": "Waar fiets jij graag naartoe?"},
-        {"theme": "travel", "picture": "balloon", "prompt": "Als je over een plek kon vliegen, welke plek zou dat zijn?"},
-        {"theme": "travel", "picture": "lighthouse", "prompt": "Vertel eens over een uitstapje of een vakantie die je fijn vond."},
-        {"theme": "work", "picture": "key", "prompt": "Wat voor werk deed je graag?"},
-        {"theme": "work", "picture": "watering-can", "prompt": "Met welke hobby kun jij uren bezig zijn?"},
-        {"theme": "work", "picture": "bread", "prompt": "Wat maakte of repareerde jij graag?"},
-        {"theme": "work", "picture": "house", "prompt": "Welk advies zou jij een jong iemand geven die net gaat werken?"},
-        {"theme": "music", "picture": "balloon", "prompt": "Bij wat voor muziek ga jij met je voet meetikken?"},
-        {"theme": "music", "picture": "cake", "prompt": "Wat maakt een feestje echt gezellig?"},
-        {"theme": "music", "picture": "lamp", "prompt": "Naar welke zanger of zangeres luister jij graag?"},
-        {"theme": "music", "picture": "armchair", "prompt": "Welk tv-programma of welke film kijk je graag nog eens?"},
-        {"theme": "music", "picture": "moon", "prompt": "Welk liedje zing jij graag mee?"},
-        {"theme": "seasons", "picture": "sun", "prompt": "Wat vind jij het fijnste aan de zomer?"},
-        {"theme": "seasons", "picture": "tree", "prompt": "Wat vind je mooi aan de herfst?"},
-        {"theme": "seasons", "picture": "moon", "prompt": "Wat is iets gezelligs om te doen op een winteravond?"},
-        {"theme": "seasons", "picture": "tulip", "prompt": "Waaraan merk jij dat de lente begint?"},
-        {"theme": "seasons", "picture": "umbrella", "prompt": "Sneeuw, regen of zon: waar hou jij het meest van?"},
-        {"theme": "seasons", "picture": "lamp", "prompt": "Wat hoort er voor jou bij een gezellige sinterklaasavond?"},
-        {"theme": "seasons", "picture": "teacup", "prompt": "Wat drink jij graag als het buiten koud is, zoals warme chocolademelk?"}
+        {
+          "theme": "food",
+          "picture": "bread",
+          "prompt": "Wat is uw favoriete keukengeur?"
+        },
+        {
+          "theme": "food",
+          "picture": "cake",
+          "prompt": "Welk soort taart zou u kiezen voor een feestje?"
+        },
+        {
+          "theme": "food",
+          "picture": "apple",
+          "prompt": "Vertel eens over een favoriete fruittaart of ander nagerecht."
+        },
+        {
+          "theme": "food",
+          "picture": "teacup",
+          "prompt": "Hoe drinkt u uw thee of koffie het liefst?"
+        },
+        {
+          "theme": "food",
+          "picture": "frying-pan",
+          "prompt": "Wat maakt een echt goed ontbijt?"
+        },
+        {
+          "theme": "food",
+          "picture": "strawberry",
+          "prompt": "Hebt u ooit fruit rechtstreeks van de plant geplukt?"
+        },
+        {
+          "theme": "food",
+          "picture": "lemon",
+          "prompt": "Zoet of zuur: wat vindt u het lekkerst?"
+        },
+        {
+          "theme": "food",
+          "picture": "cherries",
+          "prompt": "Welk eten smaakt voor u naar de zomer?"
+        },
+        {
+          "theme": "home",
+          "picture": "house",
+          "prompt": "Vertel eens over een huis waar u graag woonde."
+        },
+        {
+          "theme": "home",
+          "picture": "armchair",
+          "prompt": "Waar zit u het liefst om te ontspannen?"
+        },
+        {
+          "theme": "home",
+          "picture": "lamp",
+          "prompt": "Wat doet u graag op een rustige avond?"
+        },
+        {
+          "theme": "home",
+          "picture": "key",
+          "prompt": "Welke schat zou u bewaren in een speciaal doosje?"
+        },
+        {
+          "theme": "home",
+          "picture": "kettle",
+          "prompt": "Wie zou u uitnodigen voor een kopje thee?"
+        },
+        {
+          "theme": "home",
+          "picture": "umbrella",
+          "prompt": "Wat doet u graag op een regenachtige dag?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sunflower",
+          "prompt": "Welke bloemen zou u in een tuin planten?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tree",
+          "prompt": "Vertel eens over een boom of park waar u graag van houdt."
+        },
+        {
+          "theme": "outdoors",
+          "picture": "watering-can",
+          "prompt": "Wat vindt u het mooist aan een tuin?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tulip",
+          "prompt": "Welke kleur bloemen vindt u het mooist?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "potted-plant",
+          "prompt": "Vindt u het fijn om planten in huis te hebben?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sun",
+          "prompt": "Hoe ziet voor u een perfecte zonnige dag eruit?"
+        },
+        {
+          "theme": "animals",
+          "picture": "dog",
+          "prompt": "Vertel eens over een hond die u heeft gekend."
+        },
+        {
+          "theme": "animals",
+          "picture": "cat",
+          "prompt": "Katten of honden, of geen van beide? Wat vindt u leuk aan ze?"
+        },
+        {
+          "theme": "animals",
+          "picture": "bird",
+          "prompt": "Welke vogels ziet of hoort u buiten?"
+        },
+        {
+          "theme": "animals",
+          "picture": "fish",
+          "prompt": "Bent u ooit gaan vissen, of hebt u ooit een aquarium gehad?"
+        },
+        {
+          "theme": "animals",
+          "picture": "butterfly",
+          "prompt": "Welk dier vindt u het mooist dat u ooit hebt gezien?"
+        },
+        {
+          "theme": "travel",
+          "picture": "car",
+          "prompt": "Vertel eens over een auto die u leuk vond."
+        },
+        {
+          "theme": "travel",
+          "picture": "sailboat",
+          "prompt": "Zou u liever een dag aan het strand of in de bergen doorbrengen?"
+        },
+        {
+          "theme": "travel",
+          "picture": "bicycle",
+          "prompt": "Waar zou u graag heen willen gaan voor een ritje?"
+        },
+        {
+          "theme": "travel",
+          "picture": "balloon",
+          "prompt": "Als u over elke plek kon vliegen, welke zou u dan kiezen?"
+        },
+        {
+          "theme": "travel",
+          "picture": "lighthouse",
+          "prompt": "Welke reis vond u fijn?"
+        },
+        {
+          "theme": "work",
+          "picture": "key",
+          "prompt": "Welk werk heeft u met plezier gedaan?"
+        },
+        {
+          "theme": "work",
+          "picture": "watering-can",
+          "prompt": "Welke hobby kon u uren boeien?"
+        },
+        {
+          "theme": "work",
+          "picture": "bread",
+          "prompt": "Waar stond u bekend om, het maken of repareren van iets?"
+        },
+        {
+          "theme": "work",
+          "picture": "house",
+          "prompt": "Welke raad zou u een jonge werknemer geven die net begint?"
+        },
+        {
+          "theme": "music",
+          "picture": "balloon",
+          "prompt": "Welke muziek maakt dat u met uw voet wilt meetikken?"
+        },
+        {
+          "theme": "music",
+          "picture": "cake",
+          "prompt": "Wat maakt een echt geslaagd feest?"
+        },
+        {
+          "theme": "music",
+          "picture": "lamp",
+          "prompt": "Welke zanger luistert u graag naar?"
+        },
+        {
+          "theme": "music",
+          "picture": "armchair",
+          "prompt": "Welke film of tv-serie kijkt u graag nog eens?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "sun",
+          "prompt": "Wat vindt u het mooist aan de zomer?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tree",
+          "prompt": "Wat vindt u leuk aan de herfst?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "moon",
+          "prompt": "Wat is een gezellige bezigheid voor een winteravond?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tulip",
+          "prompt": "Wat zijn voor u de eerste tekenen van de lente?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "umbrella",
+          "prompt": "Sneeuw, regen of zon: wat hebt u het liefst?"
+        }
       ]
     },
     "coloring": {
@@ -623,16 +1571,36 @@
       "themes": {
         "kitchen-garden": {
           "label": "Keuken en tuin",
-          "baskets": ["In de keuken", "In de tuin"]
+          "baskets": [
+            "In de keuken",
+            "In de tuin"
+          ]
         },
         "fruit-animals": {
           "label": "Fruit en dieren",
-          "baskets": ["Fruit", "Dieren"]
+          "baskets": [
+            "Fruit",
+            "Dieren"
+          ]
         },
         "home-travel": {
           "label": "Thuis en op reis",
-          "baskets": ["Thuis", "Op reis"]
+          "baskets": [
+            "Thuis",
+            "Op reis"
+          ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fruit",
+        "animals": "Dieren",
+        "travel": "Manieren van reizen",
+        "flowers": "Bloemen",
+        "hot-drinks": "Dingen voor een warme drank",
+        "weather": "Soorten weer",
+        "baked": "Dingen die in de oven gebakken worden"
       }
     }
   }

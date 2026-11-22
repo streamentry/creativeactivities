@@ -5,6 +5,13 @@
       "stopReading": "Hōro i te faaroo",
       "region": "Tāʻaʻa",
       "restart": "Haamata faahou",
+      "rest": "Faaruru i teie nei",
+      "restingTitle": "Te faaruru nei",
+      "restingText": "Faaruru a roa ai, mai te hinaaro. Te vahi i reira oe e vai maitai ra i teie api.",
+      "resume": "Tamau",
+      "placeText": "I te taime hopea, ua faaea oe i vaho. Tamau mai i reira, aore ra, tamata apî.",
+      "placeResume": "Tamau",
+      "placeFresh": "Tamata apî",
       "soundOn": "Oro mārū: ē",
       "soundOff": "Oro mārū: ʻaʻore",
       "done": "Hōro ā i teie nei",
@@ -43,7 +50,19 @@
       "viewShowing": "Pīpi e hōʻi",
       "viewHidden": "Pīpi hūnā",
       "playAgain": "Tāʻaʻa faahou me te mau pīpi apî",
-      "talk": "Parau e pae i te mau pīpi"
+      "talk": "Parau e pae i te mau pīpi",
+      "modeLegend": "Mau hoho'a e hia",
+      "modePlay": "Mau hoho'a atoa",
+      "modeDaily": "Te pepa o teie mahana",
+      "dayLegend": "Mahana e hia",
+      "dayHelp": "Te taata atoa e ite i te mau hoho'a hoê i te mahana hoê. E vai atoa ra te mau mahana atea i ônei, e aita e faahaehaa i te hoê mahana i ore ai.",
+      "guidanceDaily": "E maha te mau piti i roto i te pepa o teie mahana. Pi'i i te hoho'a hoê, e pi'i atu i te hoho'a e tutaa ai.",
+      "restartDaily": "Tamata faahou i teie pepa",
+      "copy": "Tâpî i teie raraa",
+      "copied": "Ua tâpîhia. Aita e mea i tono atu i te hoê vahi.",
+      "calendarTitle": "Te mau pepa o teie mahana, {month}",
+      "calendarHelp": "Te mahana atoa e maha mau hoho'a e mea hoê no te taata atoa. Aita e mea i tapihia, e aita hoi e mahana i faaitehia ei mea ore.",
+      "calendarVersion": "Huru {date}. Te mau hoho'a e mea hoê no te taata atoa i te mahana hoê."
     },
     "choose": {
       "countLegend": "E aha mau pīpi",
@@ -62,6 +81,635 @@
       "shadowAlt": "Hoʻi ʻata e tano ai",
       "foundAlt": "Te ʻata o te {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Faaiteraa",
+      "hintOn": "Faaiteraa i muri i te tiai",
+      "hintOff": "Aita e faaiteraa",
+      "guidance": "E imi i te {n} hoho'a e tutaa ai, e pi'i i te tahi e te tahi.",
+      "countLegend": "E hia mau hoho'a",
+      "count": "{n} mau hoho'a",
+      "found": "Oia, te {name|lower} e tia i roto i teie pae.",
+      "elsewhere": "Te {name|lower} e tutaa ê ïa i te tahi atu mea. Faaruru a roa.",
+      "hint": "Hoê faaiteraa: imi i te {theme|lower}.",
+      "together": "Teie te mau mea e tutaa ai: {theme}.",
+      "shown": "Teie te pae: {theme}.",
+      "groupName": "Tutaa: {theme}",
+      "show": "Faaite i te pae",
+      "next": "Tahi atu pae"
+    },
+    "oddOneOut": {
+      "hintLegend": "Faaiteraa",
+      "hintOn": "Faaiteraa i muri i te tiai",
+      "hintOff": "Aita e faaiteraa",
+      "guidance": "E imi i te hoho'a e ere i te tahi atu, e pi'i i reira.",
+      "countLegend": "E hia mau hoho'a",
+      "count": "{n} mau hoho'a",
+      "belongs": "Te {name|lower} e tutaa ïa e te tahi atu. Faaruru a roa.",
+      "found": "Oia, te {name|lower} te mea e ere ai. Te tahi atu e {theme|lower}.",
+      "shown": "Teie: te {name|lower}. Te tahi atu e {theme|lower}.",
+      "hint": "Hoê faaiteraa: {n} o teie mau mea e {theme|lower}.",
+      "others": "Te tahi atu: {theme}",
+      "show": "Faaite mai ia'u",
+      "next": "Tahi atu pae"
+    },
+    "seatedToss": {
+      "guidance": "Sit at a table and take turns tossing a soft bean bag into the big target. Keep the tally on paper, together.",
+      "stepsHeading": "Te haerea",
+      "steps": [
+        "Tâpî i te pūpū e te pepa tapiri, e faahoro i te pae papa i nia i te papa i waenganui ia outou.",
+        "E parau ma te ahuru, hoê i tahi pae, hoê i tahi atu pae. E peue mâmâ hoê no tataitahi, aore ra e faaore mai ia hinaaro ore oe.",
+        "Ia tae te peue i roto i te ta'a, te taata i peue e tapiri i hoê pahu i roto i tona pahu, i nia i te raraa no taua ta'a ra.",
+        "Ia oti, e hi'o huru ia outou i te mau tapiri, ia hinaaro outou. Aita hoê taata e ti'a ia tapi'i i te mau mea.",
+        "E oti i te taime e hinaaro ai hoê taata."
+      ],
+      "safetyHeading": "Te pûpûhi'a",
+      "safetyLine": "E faaohipa noa i te peue e puta ore i ta'a, aore ra i te rimu i tapuaraa pe'e. E parau i nia, aita roa e peue i nia i te mata, e e faaoti i te taata rahi i tei pihai. Te mau mea iti e nehenehe e ha'uti i te taata.",
+      "flags": [
+        "Aita e tia i raro a 3 matahiti: mau mea iti",
+        "E tiai i tapi'ihia i roto i te vaha"
+      ],
+      "safety": [
+        "E fifi i te peue niho'a e puta ore i te ta'a, aore ra e tapuaraa i te rimu mâmâ. E tirora i mua i te mau puta aore ra te mau tanu ta'a, ia ore te mea faaiti e tahe.",
+        "Te mau niho'a, te vaiô e te tahi atu mau mea faaiti e nehenehe e ha'uti ai. E faaitoito i te mau tamarii iti e te taata e tuu ai i te mau mea i roto i to ratou vaha.",
+        "E tia ia tatarahapa i te rima, e hi'o maitai ia tuu te taata i te mea i roto i te vaha.",
+        "Stay seated. Toss gently and low toward the target on the table, never toward a face."
+      ],
+      "previewLabel": "Te pepa tâpîhia: hoê pūpū e toru ta'a, parauhia Pihai, Waenganui e Mamao, mai te pae o waho i roto, e hoê pepa tapiri e hoê pae pahu no tataitahi taata, e te mau raraa pahu ore no tataitahi ta'a.",
+      "sheetHow": "E faahoro i te pepa i waenganui ia outou. Ia tae te peue i roto i te ta'a, e tapiri i hoê pahu i roto i to outou pae, i nia i te raraa o taua ta'a ra.",
+      "rings": [
+        "Pihai",
+        "Waenganui",
+        "Mamao"
+      ],
+      "people": [
+        "Taata matamua",
+        "Taata piti"
+      ],
+      "ringHeading": "Ta'a",
+      "print": "Tâpî i te pūpū e te pepa tapiri"
+    },
+    "seasonalPack": {
+      "guidance": "Fifi i hoê avae, tâpî i ta'na mau paheraa pepa e toru, e rave i hoê, e piti, aore ra e toru atoa ia tutaa.",
+      "monthLegend": "Fifi i hoê avae",
+      "months": [
+        "Tenuare",
+        "Fepuare",
+        "Maehe",
+        "Eperera",
+        "Me",
+        "Tiunu",
+        "Tiurai",
+        "Atete",
+        "Setepa",
+        "Okatopa",
+        "Novema",
+        "Tiseme"
+      ],
+      "monthNote": "E mau hoho'a to tataitahi avae. Te api e tuatapapa i teie avae, e e nehenehe oe e fifi i tahi atu.",
+      "restDay": "Te mahana nei he mahana faaruru",
+      "restLine": "Aita e paheraa i teie mahana. E mahana maitai atoa te mahana faaruru.",
+      "previewHeading": "Te mau paheraa e toru",
+      "puzzles": {
+        "pairs": {
+          "title": "Tutaa i te mau piti",
+          "how": "Tapiri i te raina mai te hoho'a i nia i te raraa matamua i te hoho'a hoê i raro i te raraa hopea.",
+          "describe": "Piti raraa o te mau hoho'a maha hoê, i te tua ê."
+        },
+        "different": {
+          "title": "Ê hia te ere?",
+          "how": "E pe'ape i te hoho'a e ere i te toru atu.",
+          "describe": "Hoê raraa e maha hoho'a. E toru te mau mea hoê, e hoê te ere."
+        },
+        "color": {
+          "title": "Tuu i te tae",
+          "how": "Tuu i te tae i te hoho'a e hinaaro ai oe, e te mau crayon aore ra te mau pensôra.",
+          "describe": "Hoê hoho'a rahi no te tuu i te tae."
+        }
+      },
+      "print": "Tâpî i te paheraa o teie avae",
+      "sheetHow": "Tâpî hoê api. E rave i hoê, e piti, aore ra e toru paheraa, i te huru e hinaaro ai.",
+      "printFooter": "Do one, two or all three. Stop whenever you like."
+    },
+    "decorateACard": {
+      "guidance": "Fifi i hoê tupuraa, e ha'a'uri i te hoê pepa e tutaa ia outou, e te mau crayon aore ra te mau pene. Aita e pepa e ti'a ore.",
+      "occasionLegend": "Fifi i te tupuraa",
+      "occasions": {
+        "birthday": {
+          "label": "Mahana tupu",
+          "words": "Mahana tupu maitai"
+        },
+        "thank-you": {
+          "label": "Maururu",
+          "words": "Maururu"
+        },
+        "thinking-of-you": {
+          "label": "Ua manao au ia oe",
+          "words": "Ua manao au ia oe"
+        },
+        "new-season": {
+          "label": "Hoê tau apî",
+          "words": "Hoê tau apî"
+        },
+        "just-because": {
+          "label": "Aita e tumu taa ê",
+          "words": "Aita e tumu taa ê"
+        }
+      },
+      "stepsHeading": "E nafea e ha'a'uri ai ia tutaa",
+      "steps": {
+        "fold": "Tâpî i te pepa e ha'apotihia i roto i te hanere i nia i te raina tapahia, ia tia te mata matamua i waho.",
+        "front": "Hoê taata e ha'a'uri i te mata matamua, i ni'a i te mau parau.",
+        "inside": "Te tahi atu taata e ha'a'uri i te mata hope, aore ra e tutaa outou i hoê pae.",
+        "message": "E papai i te hoê parau ia outou. Hoê taata e nehenehe e papai, e te tahi atu e parau i te mau parau.",
+        "stop": "E oti i te taime e hinaaro ai oe. Aita e pepa ti'a ore, e te hoê pepa mâmâ e maitai atoa."
+      },
+      "materials": "E faaohipa i te mau crayon, te mau pensôra tae aore ra te mau pene. Aita e mea e ti'a ia tapahia, ia hiri aore ra ia pihai.",
+      "previewLabel": "Te hi'opo'a o te pepa i ha'apotihia i roto i te hanere. Te mata matamua e parau {words}, e hoê ti'a mâmâ o te mau raau e te mau fetu. Te mata hope e mau raraa no te parau, e hoê raraa no Na.",
+      "from": "Na",
+      "sheetHow": "Fa‘ahāmāhia te kāreti i te haumāra‘a i ni‘a i te raina ‘ōhi‘ahia, ma te pae mua i waho. Tā‘i i te parau i te pae ‘ōpe‘a.",
+      "rulesHeading": "No te mau taata e piti",
+      "sheetRules": [
+        "Tāmā‘ā i te tahi‘a, aore ra fa‘a‘oti i te ‘ohipa: hō‘ē taata e ‘ōro‘a i te pae mua, e tahi atu i te pae ‘ōpe‘a.",
+        "Tā‘i i te parau tāua, aore ra hō‘ē taata e tā‘i i tā te tahi atu e parau.",
+        "E nehenehe i te taata ia pau i te taime atoa. Aita he kāreti tia‘ore."
+      ],
+      "print": "Tā‘i i te kāreti"
+    },
+    "storyDice": {
+      "guidance": "Hi‘o i te mau ata, e parau i te fa‘atiamaraa ma te fa‘aohipa ia rātou, i te ‘ōrite ‘ore. Aita he fa‘atiamaraa tia‘ore.",
+      "countLegend": "E hia te mau dé",
+      "count": "{n} dé",
+      "roll": "Tirō hou",
+      "pass": "Tu‘u atu",
+      "passed": "E ‘ā‘au te tu‘u atu. E nehenehe te taata i muri iho e haamata, aore ra e tirō hou ‘ōe.",
+      "rolled": "Mau ata api: {names}.",
+      "tapped": "{name}. Ha‘amata i tenei, aore ra tahi atu."
+    },
+    "wordPicture": {
+      "guidance": "Tāpi‘i i te ata, i muri iho i te parau e ‘ītā ia ‘ōna. Aore ra tāpi‘i i te parau, i muri iho i tōna ata.",
+      "countLegend": "E hia te mau ata",
+      "count": "{n} ata",
+      "picturesGroup": "Mau ata",
+      "wordsGroup": "Mau parau",
+      "readWord": "Heheu ‘ā‘ai: {name}",
+      "next": "Mau ata api",
+      "putBack": "Tu‘u i muri",
+      "pickWord": "Inā, tāpi‘i i te parau e tau i reira.",
+      "pickPicture": "Inā, tāpi‘i i te ata e tau i reira.",
+      "fit": "Ē, ‘o terā te parau e tau i te {name|lower}.",
+      "newSet": "Teie te hō‘ē tahi‘a ata api.",
+      "restarted": "Hoʻi i te haamataraa. Ua tuu‘ā hou atu te mau ata e te mau parau atoa.",
+      "restored": "Ua tu‘u mai. Ua fa‘aite hou te mau tauiraa tei tau.",
+      "all": "Ua tau atoa te mau parau i tō rātou ata."
+    },
+    "colorMatch": {
+      "guidance": "Hi‘o i te tona e tōna i‘oa, i muri iho tāpi‘i i te mau ata atoa o terā tona.",
+      "target": "Te tona ra o {color|lower}. Tāpi‘i i te mau ata atoa o {color|lower}.",
+      "countLegend": "E hia te mau ata",
+      "count": "{n} ata",
+      "found": "Ē, {color|lower} te tona o te {name|lower}.",
+      "named": "Te {name|lower} ra, {color|lower} tōna tona.",
+      "all": "Ia ‘ē ra, ‘o terā ā mau ata {color|lower} atoa.",
+      "shown": "Teie te mau ata {color|lower}.",
+      "show": "Fa‘aite mai",
+      "next": "Hō‘ē tona atu",
+      "names": {
+        "red": "‘Ūra",
+        "orange": "Orange",
+        "yellow": "Jaune",
+        "green": "Vert",
+        "blue": "Bleu"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tāpi‘i i te hāmāra‘a o te pae hema, i muri iho tāpi‘i i te hāmāra‘a o te pae ‘ātau e tau ai.",
+      "countLegend": "E hia te mau ata",
+      "count": "{n} ata",
+      "leftGroup": "Pae hema",
+      "rightGroup": "Pae ‘ātau",
+      "left": "Pae hema o te {name|lower}",
+      "right": "Pae ‘ātau o te {name|lower}",
+      "joined": "Ua tāmau",
+      "pickRight": "Inā, tāpi‘i i te pae ‘ātau e tau ai.",
+      "pickLeft": "Inā, tāpi‘i i te pae hema e tau ai.",
+      "fit": "Ē, ‘o terā piti e fa‘atia i te {name|lower}.",
+      "apart": "Aita terā piti e tau i te tahi i te tahi. Ha‘apa‘o i tētahi atu.",
+      "all": "Ua tau atoa te mau ata.",
+      "shown": "Teie te mau ata, ua tāmau.",
+      "show": "Fa‘aite mai ia‘u",
+      "next": "Tahi atu hō‘ē tahi‘a"
+    },
+    "colorByNumber": {
+      "guidance": "Fifi i te hō‘ē tona i te tāpira‘a, i muri iho fa‘ahiti i te hō‘ē pāpa‘ā ma terā tona. E nehenehe atoa te tona atoa.",
+      "sizeLegend": "Rahi o te ‘ūpe‘a",
+      "size": "{n} i te {n}",
+      "keyLegend": "Mau tona",
+      "colors": [
+        "Jaune",
+        "Orange",
+        "Vert",
+        "Violet"
+      ],
+      "motifs": {
+        "house": "te hō‘ē fare",
+        "flower": "te hō‘ē tiare",
+        "heart": "te hō‘ē manava",
+        "tree": "te hō‘ē rā‘au",
+        "boat": "te hō‘ē vaka tāpe‘ā",
+        "pot-plant": "te hō‘ē tupu i roto i te ipu"
+      },
+      "region": "Te pae o te mau pāpa‘ā, {n} i te {n}. E ‘ā‘ā‘ahi i te pae, ‘ina‘ i ‘iti te mata‘i.",
+      "cell": "Numero {number}, rārā {row}, tāpe‘a {column}, {color}",
+      "empty": "‘ore tona",
+      "chose": "Ua fifi {name}. Tāpi‘i i te pāpa‘ā e fa‘ahiti ai.",
+      "painted": "{name} i te rārā {row}, tāpe‘a {column}.",
+      "sheet": "Te tona tāpi‘ira‘a tōna numero. Teie te ata i te pepa: {name}.",
+      "own": "Ua fa‘ahitihia te pāpa‘ā atoa. Teie tō ‘ōe iho ata.",
+      "fillAll": "Fa‘ahiti i te mau numero",
+      "filledAll": "Te mau pāpa‘ā ‘ore atoa, ua tona i tōna tona tā tōna numero.",
+      "clear": "Fa‘aore",
+      "cleared": "Ua mā te pae.",
+      "next": "Hō‘ē ata atu",
+      "fresh": "Teie hō‘ē ata api no te tāpi‘i."
+    },
+    "patternMaker": {
+      "guidance": "Tāpi‘i i te pāpa‘ā e fa‘aʻā‘ā i tōna tona. Tō ‘ōe tauira e ‘ōhi‘a i te pae. Aita tō ‘ōe ‘ohipa e fa‘aputu, aita e tono.",
+      "sizeLegend": "Rahi o te tuhi",
+      "size": "{n} i te {n}",
+      "keyLegend": "Mau tona, i te ‘ōrite o te tāpi‘i",
+      "colors": [
+        "Jaune",
+        "Orange",
+        "Vert",
+        "Violet"
+      ],
+      "tileLabel": "Tō ‘ōe tuhi",
+      "region": "Tō ‘ōe tuhi, {n} i te {n}. E ‘ā‘ā‘ahi i te pae, ‘ina‘ i ‘iti te mata‘i.",
+      "patternLabel": "Tō ‘ōe tauira",
+      "pattern": "Tō ‘ōe tauira: tō ‘ōe tuhi tā‘ā‘ihia {n} i te pae ‘ātau, e {n} i raro.",
+      "square": "Rārā {row}, tāpe‘a {column}, {color}",
+      "changed": "Rārā {row}, tāpe‘a {column}, ua tona ‘ā‘ā i {color}.",
+      "cleared": "Ua mā te tuhi. E nehenehe ‘ōe e tu‘u i muri.",
+      "surprise": "Fa‘aoro‘a i tētahi mea ‘ē",
+      "surprised": "Teie hō‘ē tuhi api. E nehenehe ‘ōe e tu‘u i muri i te tuhi tahito.",
+      "putBack": "Tu‘u i muri",
+      "restored": "Ua ho‘i tō ‘ōe tuhi, mai tei ‘ōe i te tahi‘a.",
+      "print": "Tā‘i i tō ‘ōe tauira",
+      "sheetTitle": "Tō ‘ōe tauira"
+    },
+    "buildTogether": {
+      "guidance": "Tu‘u tahi‘a ‘ōtou i te pāpa‘ā ‘ore, hō‘ē i muri i tō hō‘ē. Ia taata e hō‘ē tona tōna. Aita tō tāua ‘ohipa e fa‘aputu, aita e tono.",
+      "sizeLegend": "Rahi o te ‘ūpe‘a",
+      "size": "{n} i te {n}",
+      "people": [
+        "Taata mua",
+        "Taata piti"
+      ],
+      "colorLegend": "Tona o {person}",
+      "colors": [
+        "Jaune",
+        "Orange",
+        "Vert",
+        "Violet"
+      ],
+      "inUse": "Ua fa‘aohipahia",
+      "turn": "Tō ‘ōe tāmā‘ā, {person|lower}",
+      "yourColor": "Tō ‘ōe tona, {color|lower}.",
+      "built": "Ua hanahana tāua. Teie te ata a tāua piti i hanahana.",
+      "gridLabel": "Te pāpa‘ā tāua",
+      "region": "Te pāpa‘ā tāua, {n} i te {n}. E ‘ā‘ā‘ahi i te pae, ‘ina‘ i ‘iti te mata‘i.",
+      "cellEmpty": "Rārā {row}, tāpe‘a {column}, ‘ore",
+      "cellFilled": "Rārā {row}, tāpe‘a {column}, {color}, tu‘u e te {person|lower}",
+      "placed": "Rārā {row}, tāpe‘a {column}, ua tona i {color}. Tō ‘ōe tāmā‘ā, {next|lower}.",
+      "placedLast": "Rārā {row}, tāpe‘a {column}, ua tona i {color}. Ua hanahana tāua.",
+      "taken": "Rārā {row}, tāpe‘a {column}, ua ‘ī‘ā hō‘ē tahi‘a. Tāpi‘i i te pāpa‘ā ‘ore.",
+      "pass": "Tu‘u atu",
+      "passed": "E ‘ā‘au te tu‘u atu. Tō ‘ōe tāmā‘ā, {person|lower}.",
+      "takeBack": "Amo i te tahi‘a hopea",
+      "takeBackPass": "Amo i te tu‘u atu hopea",
+      "tookBack": "Ua amo i te tahi‘a. Tō ‘ōe tāmā‘ā, {person|lower}.",
+      "tookBackPass": "Ua amo i te tu‘u atu. Tō ‘ōe tāmā‘ā, {person|lower}.",
+      "colorChanged": "{person} e tona ‘āpī {color|lower}.",
+      "restarted": "Te pāpa‘ā ‘ore. Tō ‘ōe tāmā‘ā, {person|lower}.",
+      "print": "Tā‘i i te pāpa‘ā",
+      "sheetTitle": "Hanahana tāua",
+      "sheetHelp": "Tāmā‘ā. I roto i te pāpa‘ā ‘ore, hō‘ē taata e tā‘i i tōna iho tauira ma tōna iho pene.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tāpi‘i i te tahi‘a, i muri iho tāpi‘i i te vahi i te ata e tau ai. Aita tō ‘ōe ‘ohipa e fa‘aputu, aita e tono.",
+      "hints": "Fa‘aite i te raina tōhu",
+      "pictureLine": "Teie te hō‘ē {picture}.",
+      "pictures": {
+        "house": "fare",
+        "boat": "vaka",
+        "tree": "rā‘au",
+        "fish": "i‘a",
+        "cat": "pōpoi",
+        "rocket": "rōkete"
+      },
+      "outlineLabel": "Te tōhu o te {picture}. Tāpi‘i i te vahi e tu‘u ai te tahi‘a i fifihia.",
+      "trayHeading": "Te mau tahi‘a",
+      "pieces": {
+        "large-triangle": "Tōrona tāmau‘a rahi",
+        "small-triangle": "Tōrona tāmau‘a iti",
+        "square": "Pāpa‘ā",
+        "parallelogram": "Parallélogramme",
+        "rectangle": "Pāpa‘ā-roa"
+      },
+      "shapes": {
+        "large-triangle": "hō‘ē tōrona tāmau‘a rahi",
+        "small-triangle": "hō‘ē tōrona tāmau‘a iti",
+        "square": "hō‘ē pāpa‘ā",
+        "parallelogram": "hō‘ē parallélogramme",
+        "rectangle": "hō‘ē pāpa‘ā-roa"
+      },
+      "chosenLabel": "Ua fifi",
+      "spaceEmpty": "Vahi {n}, {shape}, ‘ore",
+      "spaceFilled": "Vahi {n}, {shape}, ua tu‘u tōna tahi‘a. Tāpi‘i ‘ōe ia amo i te tahi‘a.",
+      "chosen": "Ua fifi {piece}. Inā, tāpi‘i i te vahi i te ata.",
+      "unchosen": "Ce pīpī ra e ua ore a‘e i te hoho‘a.",
+      "placed": "Te pīpī ra o tei roto i te vahi {n}.",
+      "complete": "Ua oti te {picture}.",
+      "different": "Te pīpī ra e ta‘a ‘ê‘e i te vahi nei. Ma‘iti i te tahi atu vahi.",
+      "needPiece": "A fa‘ahoro mai i te pīpī i roto i te tīpārē.",
+      "filled": "Ua ī ‘ore te vahi nei i tōna pīpī. Ma‘iti ia, ia ho‘i mai te pīpī.",
+      "tookBack": "Ua ho‘i mai te pīpī i roto i te tīpārē.",
+      "cleared": "Ua ho‘i mai te mau pīpī i roto i te tīpārē. Ma‘iti ia rātou i te hō‘ē, ia ri‘ari‘a ‘oe.",
+      "restored": "Ua ho‘i mai te mau pīpī i roto i te hoho‘a.",
+      "next": "Ko te {picture} tērā.",
+      "putBack": "Faaho‘i mai",
+      "another": "Tahi atu ta‘a",
+      "print": "Tāpūhia te ta‘a nei",
+      "sheetTitle": "Mau ta‘a ri‘ari‘a",
+      "sheetHow": "Ruhia te mau pīpī, ia ‘ari‘i ranei i te ta‘a e tuhia ai i te mau fa‘aīte‘a. E tāne‘e ‘ōpa‘a te tahi pātūtū e ‘ari‘i ai.",
+      "sheetPieces": "Te mau pīpī, e rahi tā rātou e tae atu i te fa‘aīte‘a"
+    },
+    "picnicPlanner": {
+      "guidance": "Ma‘iti i te hoho‘a ia tuu i roto i te pahu fa‘aū‘a. Ma‘iti i roto i te pahu ia ‘ana‘ana. E ono ā mea e ‘ō‘ī te pahu.",
+      "guidancePlay": "Ma‘iti i te piti hoho‘a e tūtava ai. E ‘ōrāhi‘a hoi te mau hoho‘a, e ‘ore e fa‘atā‘ahia te taime.",
+      "basketHeading": "Tā tātou pahu",
+      "basketLabel": "Te pahu fa‘aū‘a",
+      "takeOut": "Faaho‘i {picture} i roto i te pahu",
+      "inBasket": "I roto i te pahu",
+      "foodHeading": "Mā‘a",
+      "outingsHeading": "Mau mea e rave ai",
+      "added": "Ua tuu {picture} i roto i te pahu.",
+      "removed": "Ua faaho‘i {picture} i roto i te pahu.",
+      "already": "Ua tuu {picture} i roto i te pahu. Ma‘iti i reira ia faaho‘i mai.",
+      "full": "Ua ‘ī te pahu. Faaho‘i hō‘ē mea ia ‘ōpani i te vahi.",
+      "summary": "Tā tātou fa‘aū‘a: {list}.",
+      "summaryNone": "Aita ā mea i roto i te pahu.",
+      "and": "e",
+      "play": "Tātou tā‘aroa i tā tātou fa‘aū‘a",
+      "needTwo": "A fa‘ahoro mai i te piti mea ātoa.",
+      "playAgain": "Tā‘aroa i te tahi atu taime",
+      "back": "Hoi i te fa‘aū‘a",
+      "print": "Tāpūhia tā tātou papa‘ī fa‘aū‘a",
+      "cleared": "Ua ‘ore te pahu.",
+      "notice": "Te nei he fa‘aaraara no te parau. Aita e fa‘atā‘ahia, e fa‘ata‘a‘ahia, e fa‘aō‘ta‘ahia ‘ore.",
+      "sheetTitle": "Tā tātou papa‘ī fa‘aū‘a",
+      "sheetHow": "Tā‘i‘i i te mea e nehenehe ‘oe e pa‘ari ai. Hō‘ē mea ‘ē atu ia ‘ō‘ī i te mau ‘ōpani tōmuhia.",
+      "sheetToPack": "Ia pa‘ari"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Ma‘iti i te piti e tae atu i te 12 ā pūrā‘ī tōu ia haamata i te puta.",
+      "guidance": "Tahuri ‘atu te mau mātāmua‘a, ma te mau pātene, ‘aore ra te mau nu‘u Māta‘i e Matau. Haapiti i ‘ō‘ī parau i raro i te hoho‘a mai te hinaaro. Aita e pūnāhia, e tuatuahia ‘aore ra e tuatu‘ahia tā ‘oe i rave.",
+      "lookGuidance": "Hi‘o i te mau mātāmua‘a hō‘ē‘ē, tātou ātoa. E nehenehe ‘oe e parau, ‘aore ra e hi‘o noa ‘ore.",
+      "intro": "Ma‘iti i te piti e tae atu i te 12 hoho‘a i tōu fenua. Ia hoho‘a e ‘ōpani i te mātāmua‘a o te puta e nehenehe e tahuri ai tātou ātoa.",
+      "consent": "Ha‘apiti i tō ‘oe mau hoho‘a utuafare. A ui i mua i te fa‘aaroa i te hoho‘a o te hō‘ē e ‘ore e nehenehe e pāhono ai.",
+      "privacy": "E tuuhia tō ‘oe mau hoho‘a i roto i teie fenua. ‘Aore e tuu‘ahia, e pū‘ahia ‘ore.",
+      "choose": "Ma‘iti i te mau hoho‘a",
+      "chooseDifferent": "Ma‘iti i te mau hoho‘a ‘ē atu",
+      "backToBook": "Hoi i te puta",
+      "backToChoose": "Hoi i te ma‘iti i te mau hoho‘a",
+      "needTwo": "A ma‘iti mai i te piti hoho‘a ātoa.",
+      "usingFirst": "Te fa‘aaohia ra te {max} hoho‘a matamua.",
+      "cleared": "Ua ‘ore te puta. Ma‘iti i te mau hoho‘a ia haamata fātu.",
+      "moved": "Ua hoi i te mātāmua‘a {n}.",
+      "pageOf": "Mātāmua‘a {n} i roto i te {total}",
+      "lookTogether": "Hi‘o tātou ātoa",
+      "leaveLook": "Hoi i te puta",
+      "print": "Tāpūhia te puta mana‘o",
+      "clear": "Faaore i te puta",
+      "bookLabel": "Te puta mana‘o utuafare",
+      "pagesLabel": "Tahuri i te mau mātāmua‘a",
+      "previous": "Mātāmua‘a i mua",
+      "next": "Mātāmua‘a i muri",
+      "moveEarlier": "Faaī i mua",
+      "moveLater": "Faaī i muri",
+      "captionLabel": "Hō‘ē mau parau no teie mātāmua‘a, mai te hinaaro",
+      "captionHelp": "E tae atu i te 80 tāpuai. E vai ana‘e te mau parau i teie mātāmua‘a, e ‘ore i muri a tāpi‘i ai ‘oe.",
+      "sheetTitle": "Tā tātou puta mana‘o",
+      "sheetHow": "Hō‘ē hoho‘a i tō tātou mātāmua‘a, e tā‘ahi parau i raro. Tahuri i te mau mātāmua‘a i te au‘a e parau ai i ia mea‘ta‘ahi.",
+      "sheetEmpty": "Ma‘iti i tō ‘oe mau hoho‘a i te mātāmua‘a tāmā‘a ia tāpūhia tō ‘oe iho puta, ‘aore ra tāpūhia teie mātāmua‘a ‘ore ia ‘āpi‘i i te hoho‘a tāpūhia.",
+      "sheetFrame": "Ha‘apiti i te hoho‘a tāpūhia i reira",
+      "sheetWords": "Hō‘ē mau parau no teie mātāmua‘a",
+      "skipped": {
+        "one": "Ua ‘ore te {n} pūrā‘ī i te hoho‘a e nehenehe e fa‘aaohia.",
+        "other": "Ua ‘ore te {n} pūrā‘ī i te mau hoho‘a e nehenehe e fa‘aaohia."
+      }
+    },
+    "quietScene": {
+      "guidance": "Hi‘o i hō‘ē hoho‘a i te taime. Tāpi‘i i te Tapa‘o i muri ‘aore ra i mua ia ‘ōpani ‘oe. Aita hō‘ē mea e ‘ōrāhi‘a iho.",
+      "next": "Hoho‘a i muri",
+      "previous": "Hoho‘a i mua",
+      "bigPicture": "Hoho‘a rahi a‘e",
+      "showEverything": "Faaite i te mau mea ātoa",
+      "first": "Teie te hoho‘a matamua.",
+      "last": "Teie te hoho‘a hopea.",
+      "lines": {
+        "sunrise": "Te ti‘a mai ra te mahana i ni‘a i te fenua.",
+        "window-with-birds": "Te mau manu i waho i te faaniu.",
+        "vase-of-flowers": "Hō‘ē pārī tiare i ni‘a i te pātie.",
+        "teacup": "Hō‘ē ipu tī i te pae o te faaniu.",
+        "tree": "Hō‘ē rā‘au tū i roto i te tu‘aro‘a.",
+        "sailboat": "Hō‘ē pahī ‘ōrā i ni‘a i te vai.",
+        "lighthouse": "Hō‘ē fare puhipuhi i te tahatai.",
+        "rainbow": "Hō‘ē ‘āpōpō‘a i muri i te ua.",
+        "moon": "Te māra‘ama‘a i ni‘a i te ra‘i pō.",
+        "daisies": "Hō‘ē pū o te tiare‘ōhi‘a i roto i te ‘otaha.",
+        "rowing-boat": "Hō‘ē pahī rama i ni‘a i te vai ‘ore e ‘ōrāhi‘a.",
+        "potted-plant": "Hō‘ē mea‘ā mata‘i i roto i te ipu."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Ha‘amata tātou ātoa i te tahi i muri i te tahi. Ma‘iti i te hō‘ē pīpī ruhia, e ma‘iti i te vahi ‘ore ia tuu. Aita hō‘ē mea tā ‘oe i rave e fa‘aitehia ‘aore ra e fa‘atītauhia.",
+      "people": [
+        "Taata matamua",
+        "Taata piti"
+      ],
+      "marks": [
+        "hō‘ē ‘ōfa‘i",
+        "hō‘ē faito"
+      ],
+      "turn": "Tōu āu‘a, {person|lower}.",
+      "marked": "Ua tāmā‘ahia tāu mau pīpī ia {mark}.",
+      "boardLabel": "Te papa tāpiri",
+      "placeEmpty": "Vahi {n}, ‘ore",
+      "placeFilled": "Vahi {n}, {picture|lower}, i tuuhia e te {person|lower}",
+      "trayHeading": "Te mau pīpī ruhia",
+      "chosenLabel": "Ua ma‘itihia",
+      "chosen": "Ua ma‘iti i te {picture}. E ma‘iti i te vahi ‘ore.",
+      "unchosen": "Aita e ma‘iti ‘ia ‘āpī te pīpī ruhia.",
+      "needCutout": "A ma‘iti i te pīpī ruhia matamua, e ma‘iti i te vahi ‘ore.",
+      "filled": "Te vai ra te hoho‘a i te vahi {n}. A ma‘iti i te vahi ‘ore.",
+      "placed": "Ua tuuhia te {picture} i te vahi {n}. Tōu āu‘a, {next|lower}.",
+      "full": "Te vai ra te hoho‘a i te vahi ātoa. Faaho‘i hō‘ē ia fa‘ahou, ‘aore ra ha‘amata fātu.",
+      "pass": "Tāpe‘a",
+      "passed": "E ‘ua‘i‘a te tāpe‘a. Tōu āu‘a, {person|lower}.",
+      "takeBack": "Faaho‘i mai te pīpī hopea",
+      "takeBackPass": "Faaho‘i mai te tāpe‘a",
+      "tookBack": "Ua faaho‘i mai te pīpī. Tōu āu‘a, {person|lower}.",
+      "tookBackPass": "Ua faaho‘i mai te tāpe‘a. Tōu āu‘a, {person|lower}.",
+      "restarted": "Te ‘ore nei te papa. Tōu āu‘a, {person|lower}.",
+      "putBack": "Faaho‘i mai",
+      "putBackDone": "Ua ho‘i mai te mau pīpī i ni‘a i te papa.",
+      "another": "Tahi atu mau hoho‘a",
+      "anotherSet": "Te vai ra te tahi pūtau pīpī ruhia i roto i te tīpārē. E tū tonu te mau pīpī i ni‘a i te papa.",
+      "print": "Tāpūhia te papa",
+      "sheetTitle": "Papa tāpiri",
+      "sheetHow": "Ruhia te mau hoho‘a, e ma‘iti i te mau āu‘a no te tuu i ni‘a i te papa. E tāne‘e ‘ōpa‘a te tahi pātūtū e ‘ari‘i ai.",
+      "sheetTray": "Te mau hoho‘a e ruhia"
+    },
+    "gardenPlanner": {
+      "guidance": "Ma‘iti i te hoho‘a, e ma‘iti i te ‘ōpu‘u e tuu ai. Ma‘iti i te ‘ōpu‘u e vai ra te hoho‘a, e aita hō‘ē mea i ma‘itihia, ia faaore ia.",
+      "bedsLabel": "Te mau ‘ōpu‘u mā‘ara",
+      "bedEmpty": "‘Ōpu‘u {n}, ‘ore",
+      "bedFilled": "‘Ōpu‘u {n}, {picture|lower}",
+      "plantsHeading": "Mā‘ara",
+      "extrasHeading": "Mea fa‘aapi i te mā‘ara",
+      "chosenLabel": "Ua ma‘itihia",
+      "chosen": "Ua ma‘iti i te {picture}. E ma‘iti i te ‘ōpu‘u.",
+      "unchosen": "Aita hō‘ē hoho‘a i ma‘itihia.",
+      "needPicture": "Choisissez d'abord une image, puis touchez un carré.",
+      "planted": "{picture} est dans le carré {n}.",
+      "replaced": "{picture} prend la place de l'image du carré {n}.",
+      "cleared": "Le carré {n} est vide. Remettez-la si vous voulez à nouveau cette image.",
+      "restarted": "Tous les carrés sont vides.",
+      "putBack": "Remettre",
+      "putBackDone": "Les images sont revenues dans leurs carrés.",
+      "summaryHeading": "Mon jardin",
+      "summary": "Votre plan comprend {list}.",
+      "summaryNone": "Aucune image n'est encore dans un carré.",
+      "and": "et",
+      "print": "Imprimer le plan",
+      "sheetTitle": "Notre plan de jardin",
+      "sheetHow": "Les carrés montrent les images choisies à l'écran. Dessinez dans les carrés vides si vous le souhaitez.",
+      "sheetNotes": "Notes",
+      "notice": "Ceci est un plan en images pour en parler, pas des conseils de plantation."
+    },
+    "coloringWall": {
+      "guidance": "Choisissez une image et le nombre de pages. Imprimez le mur, et chaque personne colorie une ou plusieurs pages. Rien n'est chronométré, noté ni enregistré.",
+      "pictureLegend": "Image",
+      "sizeLegend": "Nombre de pages",
+      "sizes": {
+        "2x2": "4 pages (2 sur 2)",
+        "3x2": "6 pages (3 sur 2)",
+        "3x3": "9 pages (3 sur 3)"
+      },
+      "previewLabel": "Le {picture|lower} découpé en {n} pages, {across} en largeur et {down} en hauteur. Chaque page porte une étiquette dans son coin.",
+      "previewCaption": "L'image avec les lignes de découpe et les étiquettes dessinées dessus.",
+      "labelsNote": "Les lettres descendent le long du mur et les chiffres vont en travers, donc A1 est la page en haut à gauche.",
+      "wallHeading": "Comment assembler le mur",
+      "steps": [
+        "Imprimez toutes les pages. La première page contient ces étapes et un plan du mur.",
+        "Chaque personne prend une ou plusieurs pages et les colorie.",
+        "Les couleurs et les styles n'ont pas besoin de correspondre. Chaque page fait partie de la même image.",
+        "Disposez les pages selon leurs étiquettes, puis collez-les au scotch au dos.",
+        "Put the wall up where everyone can see it."
+      ],
+      "mapLabel": "Un plan du mur : {down} rangées de {across} pages, numérotées de A1 à {last}.",
+      "edgeNote": "La ligne en pointillés marque le bord de chaque page. Posez les pages bord à bord le long de cette ligne, ou chevauchez-les un peu.",
+      "pictureLine": "Image : {picture}. Ce mur compte {n} pages : {across} en largeur et {down} en hauteur.",
+      "print": "Imprimer le mur"
+    },
+    "findTogether": {
+      "guidance": "Chacun son tour. À votre tour, retournez deux cartes pour chercher une paire. Cherchez les paires ensemble.",
+      "sizeLegend": "Nombre de cartes",
+      "size": "{n} cartes",
+      "viewLegend": "Comment jouer",
+      "viewShowing": "Jouer avec les images visibles",
+      "viewHidden": "Cartes face cachée",
+      "people": [
+        "Première personne",
+        "Deuxième personne"
+      ],
+      "turn": "Tour : {person}",
+      "turnDone": "Toutes les paires sont trouvées.",
+      "tally": "Paires trouvées ensemble : {n}",
+      "cardNamed": "{name}, carte {n}",
+      "cardFaceDown": "Carte {n}, face cachée",
+      "first": "{name}. Retournez maintenant une deuxième carte.",
+      "found": "{name} : une paire, trouvée ensemble. C'est maintenant au tour de la {next|lower}.",
+      "allTogether": "Vous avez trouvé toutes les paires ensemble.",
+      "different": "{a} et {b} sont différentes. Prenez votre temps, puis appuyez sur Les retourner.",
+      "waiting": "Appuyez sur Les retourner quand vous êtes prêt. Puis le tour passe.",
+      "turnedBack": "Retournées. C'est maintenant au tour de la {person|lower}.",
+      "passed": "Passer, c'est très bien. C'est maintenant au tour de la {person|lower}.",
+      "turnBack": "Les retourner",
+      "pass": "Passer",
+      "playAgain": "Rejouer"
+    },
+    "drawingDuet": {
+      "guidance": "Chacun son tour avec un trait, puis passez le crayon. Chacun peut passer. Rien n'est envoyé nulle part. Une image ne quitte cette page que si vous l'enregistrez.",
+      "people": [
+        "Première personne",
+        "Deuxième personne"
+      ],
+      "colorLegend": "Couleur de {person}",
+      "colors": [
+        "Jaune",
+        "Orange",
+        "Vert",
+        "Violet"
+      ],
+      "turn": "Tour de {person}",
+      "penColor": "Couleur du crayon : {color}.",
+      "canvasLabel": "Dessin partagé, {n} traits pour l'instant",
+      "canvasLabelOne": "Dessin partagé, {n} trait pour l'instant",
+      "keys": "Les flèches déplacent le point du crayon sur le dessin. La barre d'espace lève ou pose le crayon.",
+      "penDown": "Crayon posé",
+      "penUp": "Crayon levé",
+      "pass": "Passer le crayon",
+      "passed": "Passer, c'est très bien. À votre tour, {person|lower}.",
+      "takeBack": "Retirer mon dernier trait",
+      "tookBack": "Le dernier trait de la {person|lower} est retiré.",
+      "noLine": "Il n'y a pas de trait de la {person|lower} à retirer.",
+      "restarted": "La feuille est vide. La première personne a le tour. Remettez les traits si ce n'était pas voulu.",
+      "putBack": "Remettre",
+      "restored": "Les traits sont revenus comme avant.",
+      "save": "Enregistrer l'image",
+      "saved": "Votre image est prête. Utilisez le lien de téléchargement pour la garder sur cet appareil.",
+      "download": "Télécharger drawing-duet.png",
+      "print": "Imprimer la version papier",
+      "sheetTitle": "Duo de dessin",
+      "paperRules": "Deux personnes, une feuille, deux crayons. Chacun son tour : un trait ou une forme chacun, puis passez le crayon. Chacun peut passer. Il n'existe pas de bon dessin."
+    },
+    "colorWash": {
+      "guidance": "Étalez une couleur douce sur la page, un lavis à la fois. Relevez le pinceau pour vous arrêter, et arrêtez-vous quand vous voulez. Rien n'est enregistré ni envoyé.",
+      "colorLegend": "Couleur du lavis",
+      "sizeLegend": "Taille du pinceau",
+      "colors": [
+        "Jaune",
+        "Orange",
+        "Vert",
+        "Violet"
+      ],
+      "sizes": {
+        "wide": "Large",
+        "veryWide": "Très large"
+      },
+      "color": "Couleur du lavis : {color}.",
+      "brushDown": "Pinceau posé",
+      "brushUp": "Pinceau levé",
+      "keys": "Les flèches déplacent le cercle du pinceau sur la page. La barre d'espace pose ou lève le pinceau.",
+      "canvasLabel": "Une page de lavis de couleurs douces",
+      "fresh": "Une page vierge",
+      "freshMessage": "Une page vierge.",
+      "putBack": "Remettre",
+      "restored": "La page est revenue."
+    },
     "sortTogether": {
       "guidance": "Pāpā i te pīpi, i muri iho pāpā i te kōrī e tīʻaʻi ai.",
       "restart": "Pīpi apî",
@@ -71,6 +719,10 @@
       "hint": "Te {name|lower} e nehenehe e tīʻaʻi i roto i te kōrī “{basket}”. Pāpā i taua kōrī no te tuu ai i reira.",
       "placed": "Te {name|lower} o te kōrī “{basket}”.",
       "sorted": "Ua tīʻaʻi atoa. Hi'o i te mau kōrī e tahi, aore ra e tāʻaʻa i te tumu parau ʻē.",
+      "largerTargets": "Cibles plus grandes",
+      "largerOn": "Les cibles plus grandes sont activées. Rien n'a bougé.",
+      "largerOff": "Les cibles plus grandes sont désactivées. Rien n'a bougé.",
+      "largerOnNewRound": "Les cibles plus grandes sont activées, avec deux paniers. Voici de nouvelles images à trier.",
       "basket": {
         "one": "Kōrī {basket}, {count} pīpi i roto",
         "other": "Kōrī {basket}, {count} pīpi i roto"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Pāpā i hoʻi ʻāʻau, i muri iho pāpā i tētahi ʻē. E faʻaiʻo ratou.",
-      "restart": "Faarūrū faahou",
+      "restart": "Mix up again",
       "pictureLegend": "Pīpi",
       "pictures": {
         "sailboat": "Va'a hoe",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Te pīpi atoa: {name}",
       "guideText": "Teie te huru o te pīpi i to ʻna taʻi atoa.",
+      "ownChoose": "Utiliser votre propre photo",
+      "ownChange": "Choisir une autre photo",
+      "ownBack": "Retour à nos images",
+      "ownPrivacy": "Votre photo reste sur cet appareil. Elle n'est ni envoyée ni enregistrée.",
+      "ownConsent": "Utilisez vos propres photos. Demandez d'abord l'accord avant d'utiliser la photo d'une personne qui ne peut pas dire oui.",
+      "ownWorking": "Préparation de votre photo.",
+      "ownNotUsable": "Ce fichier n'a pas pu être utilisé. Choisissez un fichier photo, comme un JPEG ou un PNG.",
+      "ownAlt": "Votre photo",
+      "ownPiece": "Morceau {n}, {place}",
+      "ownWhole": "Votre photo est de nouveau entière. Mélangez-la à nouveau quand vous voulez.",
+      "ownSheetTitle": "Votre photo en morceaux",
+      "ownSheetHow": "Découpez le long des lignes. Mélangez les morceaux, puis échangez deux morceaux à la fois jusqu'à ce que l'image soit entière.",
       "piece": "ʻĀʻau i te vahi {place}",
       "pieceInPlace": ", i tō ratou vahi",
       "piecePickedUp": ", ua maiti",
@@ -122,7 +786,7 @@
         "ʻāʻau ʻĀʻarā ʻātau"
       ],
       "done": "Ua taʻi faahou te pīpi. Tāʻaʻa faahou, aore ra e hōro i te ʻāʻau.",
-      "playAgain": "Faarūrū faahou"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Taio i te parau tahi, i muri iho pāpā i te parau e faaʻoti ai.",
@@ -190,6 +854,14 @@
       "guidance": "Taio i te ʻāpī ʻi te reo teitei. Aita e pahonoraa tia ʻore.",
       "position": "ʻĀpī {n} o {total}",
       "themeLegend": "Tumu parau",
+      "showPrompt": "Afficher une question de discussion",
+      "bigPicture": "Grande image, pour un groupe",
+      "passNote": "Chacun peut passer.",
+      "groupTitle": "Faire circuler une carte dans un groupe",
+      "groupSit": "Asseyez-vous en cercle, où tout le monde peut voir l'image. La personne qui tient la carte, ou l'appareil avec la grande image, lit d'abord la question à voix haute.",
+      "groupPass": "Passez ensuite la carte à la personne suivante. Chacun dit un mot ou une phrase sur l'image, puis la passe.",
+      "groupNoSpeech": "Passer la carte est toujours permis. Une personne peut passer sans rien dire, et personne n'a à dire pourquoi.",
+      "groupEnd": "E hopea te haʻuraa i te mea ua tae te kāreti i te aroraa tahi, aore ra ua pūhā te pǔpǔ. Aita hoê e toʻa. Haapau i te taime atoʻa e hinaaro ai te pǔpǔ.",
       "next": "ʻĀpī ʻaʻe",
       "previous": "ʻĀpī i mua",
       "print": "Tāpano i te mau ʻāpī atoa",
@@ -252,6 +924,20 @@
       "started": "Ua haamata. Hā mai i te taime e tupu ana te porotu.",
       "stopped": "Ua hopoi.",
       "finished": "Ua ono hā tōroa. E haamata i tō outou taime, a hinaaro ai."
+    },
+    "storyChain": {
+      "guidance": "Tauiraa: hoʻi‑tahi parau no tāʻu‑tahi, e haapiʻi i te hōho'a i muri.",
+      "passNote": "Parau i tāʻu parau i roto i te reo. Aita e tuhi aore ra e vai‑tia. E nehenehe i te taata atoʻa ia tuu ia ʻna.",
+      "chainLabel": "Te aravihi tae noa ʻtu nei",
+      "item": "Hōho'a {n}: {name}",
+      "add": "Haapiʻi i tahi hōho'a",
+      "fullAdd": "Ua ī te aravihi. Haamata i tahi aravihi apī",
+      "newChain": "Haamata i tahi aravihi apī",
+      "takeOff": "Faaore i te mea hopea",
+      "added": "Ua tuu te {name|lower} i te hopea o te aravihi.",
+      "removed": "Ua faaore‑hia te {name|lower} i te aravihi.",
+      "fresh": "Te aravihi apī, e haamata ïa i te {name|lower}.",
+      "full": "Ua ī te aravihi i te va'u hōho'a. Parau i te fa'auraa atoʻa, aore ra haamata i tahi aravihi apī."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Ao ua",
     "snowflake": "Hua hinu",
     "kite": "Ē'ā",
-    "sunrise": "Te ara'a mahana i nī'a i te mau mou'a"
+    "sunrise": "Te ara'a mahana i nī'a i te mau mou'a",
+    "decorated-keepsake-box": "Pahu haapiʻi‑maitai",
+    "painted-plant-pot": "Ōpuʻu rāʻau tāʻa",
+    "repeating-pattern-sheet": "Pepa hōho'a tāʻuʻu",
+    "music-drawn-lines": "Rārā i te himene",
+    "paper-boat-afloat": "Vaʻa pepa e tere",
+    "folded-towel-stack": "Pāniʻi tuʻu‑hia",
+    "hand-massage-with-lotion": "Rima e te hinu i runga i te pāniʻi",
+    "open-photo-album": "Pukapuka hōho'a hāmani",
+    "button-flower-card": "Tiare pātone i runga i te kāreti",
+    "blue-torn-paper-collage": "Pepa haehae uli",
+    "family-tree-of-hands": "Rakau ʻohana i te rima",
+    "open-greeting-card": "Kāreti hāmani e te aroha",
+    "lavender-sachet": "Pōʻōʻa lavender",
+    "memory-collage-of-photos": "Mātaʻi hōho'a ʻohana",
+    "paper-chain-garland": "Pōʻō pepa",
+    "open-songbook-with-notes": "Pukapuka himene",
+    "photo-postcard-with-stamp": "Kāreti hōho'a",
+    "pine-cone-bird-feeder": "Pāʻī manu pini",
+    "playlist-phone-and-card": "Telefona himene",
+    "sealed-rice-shaker": "Pūʻō vāʻī",
+    "texture-board-with-scraps": "Papa tiʻaʻi e te mau tāpaʻa",
+    "painted-garden-stone": "Pōhatu māra tuhi",
+    "shared-painted-canvas": "Kanava tāʻu‑tahi",
+    "watercolor-washes-sheet": "Pepa vai‑tāʻī",
+    "seedling-in-pot": "Rāʻau tupu i te ōpuʻu",
+    "pressed-leaves-in-book": "Rau tāmau i te pukapuka",
+    "printed-leaves-sheet": "Pepa rau tāʻi",
+    "pinch-pot-clay-bowl": "Ōpuʻu pūʻai",
+    "table-sketch-pencil": "Hōho'a pene i te ōpuʻu tī",
+    "buttons-in-muffin-tin": "Pātone i te pōtī",
+    "family-recipe-book": "Pukapuka faʻaʻai ʻohana",
+    "drum-with-beat-marks": "Pahu e te mau tōʻo",
+    "torn-paper-flower": "Tiare pepa haehae",
+    "window-with-birds": "Mataʻi e te manu",
+    "woven-paper-mat": "Ahu pepa tāʻi",
+    "yarn-ball-with-thread": "Pōʻai miro",
+    "letter-and-envelope": "Tuhi i roto i te pūʻu pepa"
   },
   "content": {
     "wordSearch": {
@@ -477,7 +1200,7 @@
         {
           "theme": "food",
           "picture": "strawberry",
-          "prompt": "Ua 'oti anei outou i te tīpi'i i te hua'ai i ni'a i te rā'au?"
+          "prompt": "Have you ever picked fruit straight from the plant?"
         },
         {
           "theme": "food",
@@ -765,6 +1488,17 @@
             "I waho"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "ʻUʻī",
+        "animals": "Mau animara",
+        "travel": "Mau huru haereraa",
+        "flowers": "Mau tiare",
+        "hot-drinks": "Mau mea no te inu vera",
+        "weather": "Mau huru tau",
+        "baked": "Mau mea tunu i te umu"
       }
     }
   }

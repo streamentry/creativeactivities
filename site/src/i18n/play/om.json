@@ -5,6 +5,13 @@
       "stopReading": "Dubbisuu dhaabi",
       "region": "Taphaa",
       "restart": "Irra deebi’aa jalqabaa",
+      "rest": "Amma boqadhaa",
+      "restingTitle": "Boqachaa jira",
+      "restingText": "Yeroo barbaadan hunda fudhadhaa. Iddoon keessan fuula kana irratti eegama.",
+      "resume": "Itti fufaa",
+      "placeText": "Yeroo dhumaa gidduudhaa dhaabbattan. Achi irraa itti fufi, ykn haaraan jalqabi.",
+      "placeResume": "Itti fufi",
+      "placeFresh": "Haaraan jalqabi",
       "soundOn": "Sagaleen laafaan banameera",
       "soundOff": "Sagaleen laafaan cufameera",
       "done": "Ammaaf ga’eera",
@@ -36,14 +43,26 @@
       "restart": "Suuraawwan haaraa",
       "sizeLegend": "Kaartii meeqa",
       "size": {
-        "one": "kaartii {n}",
-        "other": "kaartii {n}"
+        "one": "{n} tile",
+        "other": "{n} tiles"
       },
       "viewLegend": "Akkamitti taphatan",
       "viewShowing": "Suuraawwan ifatti",
       "viewHidden": "Suuraawwan dhokfaman",
       "playAgain": "Suuraawwan haaraa wajjin irra deebi’aa taphadhaa",
-      "talk": "Waa’ee suuraawwanii waliin haasa’aa"
+      "talk": "Waa’ee suuraawwanii waliin haasa’aa",
+      "modeLegend": "Suuraawwan kam?",
+      "modePlay": "Suuraawwan kamiyyuu",
+      "modeDaily": "Kaardii har'aa",
+      "dayLegend": "Guyyaa kam?",
+      "dayHelp": "Namni hundaa guyyaa tokkotti suuraa wal fakkaatu argata. Guyyoonni darbanis as jiru, guyyaa tokko dabruunis wanni hin badu.",
+      "guidanceDaily": "Kaardiin har'aa suuraa lamaa lamaa afur qaba. Suuraa tokko tuqi, booda kan isa wal fakkaatu tuqi.",
+      "restartDaily": "Kaardii har'aa deebi'ii jalqabi",
+      "copy": "Sararri kana garagalchi",
+      "copied": "Garagalameera. Waan tokkollee gara iddoo tokkotti hin ergamu.",
+      "calendarTitle": "Kaardota guyyaa, {month}",
+      "calendarHelp": "Guyyaa tokkoon namni hundaa suuraa afur wal fakkaatan argata. Wanni tokko hin lakkaa'amu, guyyaan tokkos “dhabame” jedhamee hin galmeeffamu.",
+      "calendarVersion": "Gosa {date}. Suuraawwan guyyaa tokkotti namni hundaa wal fakkaatu."
     },
     "choose": {
       "countLegend": "Suuraa meeqa",
@@ -62,6 +81,635 @@
       "shadowAlt": "Gaaddidduu wal-fakkeessuuf",
       "foundAlt": "Gaaddidduu {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Gorsa",
+      "hintOn": "Yeroo dhaabbachuu booda gorsa",
+      "hintOff": "Gorsa hin jiru",
+      "guidance": "Suuraa {n} wal fakkaatan barbaadi, tokkoon tokkoon tuqi.",
+      "countLegend": "Suuraa meeqa?",
+      "count": "Suuraa {n}",
+      "found": "Eeyyee, {name|lower} garee kana keessa jira.",
+      "elsewhere": "{name|lower} waan biraa wajjin wal qabata. Yeroo fudhadhu.",
+      "hint": "Gorsa tokko: {theme|lower} barbaadi.",
+      "together": "Kunneen wal qabatu: {theme}.",
+      "shown": "Garee kana kanaa: {theme}.",
+      "groupName": "Wal qabatan: {theme}",
+      "show": "Garee agarsiisi",
+      "next": "Garee biraa"
+    },
+    "oddOneOut": {
+      "hintLegend": "Gorsa",
+      "hintOn": "Yeroo dhaabbachuu booda gorsa",
+      "hintOff": "Gorsa hin jiru",
+      "guidance": "Suuraa warra kaan wajjin hin wal qabanne barbaadii tuqi.",
+      "countLegend": "Suuraa meeqa?",
+      "count": "Suuraa {n}",
+      "belongs": "{name|lower} warra kaan wajjin wal qabata. Yeroo fudhadhu.",
+      "found": "Eeyyee, {name|lower} warra kaan irraa adda. Warri kaan {theme|lower} dha.",
+      "shown": "Kana kanaa: {name|lower}. Warri kaan {theme|lower} dha.",
+      "hint": "Gorsa: isaan {n} keessaa {theme|lower} dha.",
+      "others": "Warri kaan: {theme}",
+      "show": "Na agarsiisi",
+      "next": "Garee biraa"
+    },
+    "seatedToss": {
+      "guidance": "Teessoo irratti taa'ii, sakkataa laafaa tokko ibsaa guddaa irratti tokkoon tokkoon tuqaa. Lakkoofsa waraqaa irratti walumaan galmeeffadhaa.",
+      "stepsHeading": "Akkaataa itti taʼa",
+      "steps": [
+        "Ibsaa fi waraqaa lakkoofsaa maxxansiisi, teessoo irratti gidduu keessan bal'inaan kaa'i.",
+        "Gaarii ta'ee teessi, tokko tokkoon bakka lamaan. Tokkoon tokkoon laafinaan tuqi, ykn yoo barbaadde darbi.",
+        "Yeroo tuqaan ibsaa keessatti kufu, namni tuqe kolumnii isaa keessatti, sarara ibsaa sanaa irratti mallattoo tokko kaa'a.",
+        "Yoo barbaadde, yeroo dhaabbattan mallattoo walumaan ilaalaa. Namni tokkollee waan hunda ida'uu hin qabu.",
+        "Yeroo namni tokko dhaabbachuuf qophaa'e dhaabbadhaa."
+      ],
+      "safetyHeading": "Nageenya",
+      "safetyLine": "Sakkataa qubaa daraa'ame yookaan mojjaa sokkii gunfame qofa fayyadami. Teessi, gara fuula namaatti hin tuqin, namichi guddaan tokko dhiyaatu taʼu. Wanti xiqqaan garaa cufuu danda'a.",
+      "flags": [
+        "Umurii 3 gadi hin taane: wantoota xiqqaa",
+        "Afaa irraa fagaadhaa"
+      ],
+      "safety": [
+        "Sakkataa cufaa daraa'ame filadhu, yookaan sokkii qulqulluu mojjaa gochi. Dursitee daldala, ykn tarkaanfii hin cabne ilaali, akka wanni keessa jiru hin baane.",
+        "Bunaa, muduraa fi wantoota xiqqaa kan biroo garaa cufuu danda'u. Ijoollee xiqqaa fi namoota wanta afaan keessaa galchan irraa fagaadhaa.",
+        "Yoo wanti afaa keessa galuu danda'u jiraate, harka dheeraa dhiyaatti taa'i, cimaatti hordofi.",
+        "Teessi. Laafinaan gad-aanaan gara ibsaa teessoo irra jiru tuqi, gara fuula namaatti tuquu hin qabdu."
+      ],
+      "previewLabel": "Waraqaa maxxanfame: ibsaa sadii, maqaan isaanii gara keessaatti Dhiyoo, Giddu fi Fagoo jedhamu, kolumnii namaa tokkoo tokkoon, sararri boxii hin guutamne ibsaa tokkoo tokkoon qaba.",
+      "sheetHow": "Waraqaa teessoo irratti bal'inaan kaa'i. Yeroo sakkataan ibsaa tokko keessa kufu, kolumnii keessan keessatti, sarara ibsaa sanaa irratti boxii tokko mallattoo kaa'i.",
+      "rings": [
+        "Dhiyoo",
+        "Giddu",
+        "Fagoo"
+      ],
+      "people": [
+        "Namni jalqabaa",
+        "Namni lammaffaa"
+      ],
+      "ringHeading": "Ibsaa",
+      "print": "Ibsaa fi waraqaa lakkoofsaa maxxansiisi"
+    },
+    "seasonalPack": {
+      "guidance": "Ji'a filadhu, gaaffii sadan waraqaa irratti maxxansiisi, tokko, lama ykn hundaa walumaan hojjedhaa.",
+      "monthLegend": "Ji'a filadhu",
+      "months": [
+        "Amajjii",
+        "Guraandhala",
+        "Bitootessa",
+        "Elba",
+        "Caamsa",
+        "Waxabajjii",
+        "Adooleessa",
+        "Hagayya",
+        "Fuulbana",
+        "Onkololeessa",
+        "Sadaasa",
+        "Muddee"
+      ],
+      "monthNote": "Ji'a tokkoon tokkoon suuraa of eeggatu qaba. Fuulli kun ji'a kana irratti banama, ji'a biraa kamiyyuu filachuu dandeessa.",
+      "restDay": "Har'aan guyyaa boqonnaa",
+      "restLine": "Har'aan gaaffii hin jiru. Guyyaan boqonnaa guyyaa gaarii dha ta'us.",
+      "previewHeading": "Gaaffii sadan",
+      "puzzles": {
+        "pairs": {
+          "title": "Lamaan wal simi",
+          "how": "Suuraa sarara olaa tokkoon tokkoon irraa, suuraa isa wal fakkaatu sarara gadaa irratti jiru, sarara tokkoon hidhi.",
+          "describe": "Sararri lama suuraa afur wal fakkaatan, tartiiba adda ta'een."
+        },
+        "different": {
+          "title": "Kan tokko adda kamtu?",
+          "how": "Suuraa warra sadan irraa adda ta'e marsi.",
+          "describe": "Sarara suuraa afur. Sadan isaanii wal fakkaatu, tokko adda."
+        },
+        "color": {
+          "title": "Bilchaadhu",
+          "how": "Suuraa akkuma barbaaddan bilchaadhaa, qalama bilchaa ykn qalama halluu fayyadamuun.",
+          "describe": "Suuraa guddaa tokko bilchaachuuf."
+        }
+      },
+      "print": "Paakiijii ji'a kanaa maxxansiisi",
+      "sheetHow": "Fuula tokko maxxansiisi. Gaaffii tokko, lama ykn sadan, tartiiba kamiyyuu irratti hojjedhaa.",
+      "printFooter": "Tokko, lama ykn sadan hojjedhaa. Yeroo barbaaddan dhaabbadhaa."
+    },
+    "decorateACard": {
+      "guidance": "Ayyaana filadhu, booda kaardii qalama bilchaa ykn qalama walii galaa fayyadamuun walumaan miidhaagsi. Kaardii sirrii tokko hin jiru.",
+      "occasionLegend": "Ayyaana filadhu",
+      "occasions": {
+        "birthday": {
+          "label": "Ayyaana dhalootaa",
+          "words": "Ayyaana dhalootaa gaarii"
+        },
+        "thank-you": {
+          "label": "Galatoomaa",
+          "words": "Galatoomaa"
+        },
+        "thinking-of-you": {
+          "label": "Si yaadaa jira",
+          "words": "Si yaadaa jira"
+        },
+        "new-season": {
+          "label": "Yeroo haaraa",
+          "words": "Yeroo haaraa"
+        },
+        "just-because": {
+          "label": "Sababa tokkoof qofaa",
+          "words": "Sababa tokkoof qofaa"
+        }
+      },
+      "stepsHeading": "Akkaataa itti wal gargaaraan miidhaagsuu",
+      "steps": {
+        "fold": "Kaardii maxxansiisi, sarara dhaadhaa irratti jiru tokkoon walitti kukkuli, akka fuula duraan alaa ta'u.",
+        "front": "Namni tokko fuula duraa, jechoota kana naannoo isaa miidhaagsa.",
+        "inside": "Namni kaan fuula booddee miidhaagsa, ykn fuula tokko irratti tokkoon tokkoon waliin jijjiiraa.",
+        "message": "Ergaa walumaan barreessaa. Namni tokko barreessuu danda'a, kan kaan jechoota ni jedha.",
+        "stop": "Yeroo barbaaddan dhaabbadhaa. Kaardii sirrii tokko hin jiru, kan salphaan illee gaarii dha."
+      },
+      "materials": "Qalama bilchaa, qalama bilchaa qaraa ykn qalama walii galaa fayyadami. Wanti tokkollee kutuu, maaddaan itti hidhuu ykn maxxansuu hin barbaachisu.",
+      "previewLabel": "Mul'ata kaardii walitti kukkuluun: fuula duraa jechoota {words} qaba, gabatee baala fi urjii salphaa qaba. Fuula booddeen sararri ergaa barreessuu fi sarara “Irraa” jedhu qaba.",
+      "from": "Irraa",
+      "sheetHow": "Kaardicha sararaa dhaadhaa irratti walakkaa irraa qabi, fuulli duraa alatti ta'a. Ergaa fuula duubaa irratti barreessi.",
+      "rulesHeading": "Namoota lamaaf",
+      "sheetRules": [
+        "Walitti dorgommiidhaan yookaan hojii qooddadhaa: namni tokko fuula duraa, namni kaan fuula duubaa miidhagsa.",
+        "Ergaa wal-gargaarsaan barreessaa, yookaan namni tokko wanta namni kaan jedhu barreessa.",
+        "Namni kamiyyuu yeroo kamiyyuu dhaabbachuu danda'a. Kaardii sirrii tokko hin jiru."
+      ],
+      "print": "Kaardicha maxxansi"
+    },
+    "storyDice": {
+      "guidance": "Suuraalee ilaalaa, isaan fayyadamuun seenaa ta'i, tartiiba kamiyyuu keessatti. Seenaa sirrii tokko hin jiru.",
+      "countLegend": "Dibbaa meeqa",
+      "count": "{n} dibbaa",
+      "roll": "Deebi'ii gadi darbi",
+      "pass": "Darbi",
+      "passed": "Darbuun ni danda'ama. Nama itti aanu jalqabuu danda'a, yookaan deebi'ii gadi darbuu dandeessa.",
+      "rolled": "Suuraalee haaraa: {names}.",
+      "tapped": "{name}. Kana irraa jalqabi, yookaan kan biraa kamiyyuu."
+    },
+    "wordPicture": {
+      "guidance": "Tap a picture, then the word that names it. Or tap a word, then its picture.",
+      "countLegend": "Suuraalee meeqa",
+      "count": "{n} suuraalee",
+      "picturesGroup": "Suuraalee",
+      "wordsGroup": "Jechoota",
+      "readWord": "Sagalee olii dubbisi: {name}",
+      "next": "Suuraalee haaraa",
+      "putBack": "Deebisi kaa'i",
+      "pickWord": "Amma jecha isa wal-qabatu tuqi.",
+      "pickPicture": "Amma suura isa wal-qabatu tuqi.",
+      "fit": "Eeyyee, jechi sun {name|lower} dha.",
+      "newSet": "Kun suuraalee haaraa dha.",
+      "restarted": "Jalqabatti deebi'ii. Suuraaleen fi jechoonni hundi amma bilisa.",
+      "restored": "Deebi'ee kaa'ame. Walitti qabamanii turan deebi'anii agarsiifamu.",
+      "all": "Jecha hundaa suura isaa qaba."
+    },
+    "colorMatch": {
+      "guidance": "Halluu fi maqaa isaa ilaali, booda suura halluu sana ta'e hunda tuqi.",
+      "target": "Halluun {color|lower} dha. {color|lower} ta'e suuraalee hunda tuqi.",
+      "countLegend": "Suuraalee meeqa",
+      "count": "{n} suuraalee",
+      "found": "Eeyyee, {name|lower} {color|lower} dha.",
+      "named": "{name|lower} {color|lower} dha.",
+      "all": "Kunniin suuraalee {color|lower} hundaa dha.",
+      "shown": "Kunniin suuraalee {color|lower} dha.",
+      "show": "Agarsiisi",
+      "next": "Halluu biraa",
+      "names": {
+        "red": "Diimaa",
+        "orange": "Burtukaana",
+        "yellow": "Keelloo",
+        "green": "Magariisa",
+        "blue": "Cuqaasa"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Walakkaa bitaa irraa tokko tuqi, booda walakkaa mirga irraa kan isa wal-qabatu tuqi.",
+      "countLegend": "Suuraalee meeqa",
+      "count": "{n} suuraalee",
+      "leftGroup": "Walakkaa bitaa",
+      "rightGroup": "Walakkaa mirga",
+      "left": "Walakkaa bitaa {name|lower}",
+      "right": "Walakkaa mirga {name|lower}",
+      "joined": "Walitti makame",
+      "pickRight": "Amma walakkaa mirga kan isa wal-qabatu tuqi.",
+      "pickLeft": "Amma walakkaa bitaa kan isa wal-qabatu tuqi.",
+      "fit": "Eeyyee, lameen isaanii {name|lower} godhu.",
+      "apart": "Lamaan kun wal-hin-qabatan. Kan biraa yaali.",
+      "all": "Suuraalee hunda guutuu dha.",
+      "shown": "Kunniin suuraalee walitti makamanii agarsiifaman.",
+      "show": "Na agarsiisi",
+      "next": "Qabiyyee haaraa"
+    },
+    "colorByNumber": {
+      "guidance": "Halluu kitaaba irraa filadhu, booda kutaa tokko halluu sanaan guuti. Halluun kamiyyuu tole.",
+      "sizeLegend": "Guddina gridii",
+      "size": "{n} x {n}",
+      "keyLegend": "Halluu",
+      "colors": [
+        "Keelloo",
+        "Burtukaana",
+        "Magariisa",
+        "Cuquliisa"
+      ],
+      "motifs": {
+        "house": "mana",
+        "flower": "ababaa",
+        "heart": "onnee",
+        "tree": "muka",
+        "boat": "doonii dafaa",
+        "pot-plant": "biqiltuu poottii keessa jiru"
+      },
+      "region": "Gridii suuraa, {n} x {n}. Dheebina dhiphaa yoo ta'e gara bitaa fi mirgaatti ni sochoota.",
+      "cell": "Lakkoofsa {number}, sarara {row}, kolunnaa {column}, {color}",
+      "empty": "duwwaa",
+      "chose": "{name} filatameera. Kutaa tokko tuqii guuti.",
+      "painted": "{name} sarara {row}, kolunnaa {column} keessa.",
+      "sheet": "Kutaa hundi halluu lakkoofsa isaa qabu. Kun suuraa fuula irratti jirtu: {name}.",
+      "own": "Kutaa hundi guutameera. Kun suuraa kee dha.",
+      "fillAll": "Lakkoofsaan guuti",
+      "filledAll": "Kutaa duwwaa hundi amma halluu lakkoofsa isaa qabu.",
+      "clear": "Qulqulleessi",
+      "cleared": "Gridiin qulqullaa'eera.",
+      "next": "Suuraa biraa",
+      "fresh": "Kun suuraa haaraa halluu guutuuf dha."
+    },
+    "patternMaker": {
+      "guidance": "Kutaa tuqi halluu isaa jijjiiruuf. Fakkiin kee kana cinatti guddata. Waan ati uumtu hin kuufamu yookaan hin ergamu.",
+      "sizeLegend": "Guddina tiilii",
+      "size": "{n} x {n}",
+      "keyLegend": "Halluu, tartiiba tuqiin isaan jijjiiramu",
+      "colors": [
+        "Keelloo",
+        "Burtukaana",
+        "Magariisa",
+        "Cuquliisa"
+      ],
+      "tileLabel": "Tiilii kee",
+      "region": "Tiilii kee, {n} x {n}. Dheebina dhiphaa yoo ta'e gara bitaa fi mirgaatti ni sochoota.",
+      "patternLabel": "Fakkii kee",
+      "pattern": "Fakkii kee: tiilii kee {n} gara bitaatti, {n} gara gadiitti deebifame.",
+      "square": "Sarara {row}, kolunnaa {column}, {color}",
+      "changed": "Sarara {row}, kolunnaa {column} amma {color} dha.",
+      "cleared": "Tiiliin qulqullaa'eera. Deebisee kaa'uu dandeessa.",
+      "surprise": "Na dinqisiisi",
+      "surprised": "Kun tiilii haaraa dha. Kan duraa deebisee kaa'uu dandeessa.",
+      "putBack": "Deebisi kaa'i",
+      "restored": "Tiiliin kee akkuma turte deebi'eera.",
+      "print": "Fakkii koo maxxansi",
+      "sheetTitle": "Fakkii koo"
+    },
+    "buildTogether": {
+      "guidance": "Bakka duwwaa tokkotti waan tokko kaa'uuf walii galuun. Tokkoon tokkoon keessan halluu kee qabdu. Waan uumtu hin kuufamu yookaan hin ergamu.",
+      "sizeLegend": "Guddina gridii",
+      "size": "{n} x {n}",
+      "people": [
+        "Nama jalqabaa",
+        "Nama lammaffaa"
+      ],
+      "colorLegend": "Halluu {person}",
+      "colors": [
+        "Keelloo",
+        "Burtukaana",
+        "Magariisa",
+        "Cuquliisa"
+      ],
+      "inUse": "Fayyadamaa jira",
+      "turn": "Yeroo kee, {person|lower}",
+      "yourColor": "Halluun kee {color|lower} dha.",
+      "built": "Wal-ijaan ijaarame. Kun fakkii isin lamaan uumtan dha.",
+      "gridLabel": "Gridii waliinii",
+      "region": "Gridii waliinii, {n} x {n}. Dheebina dhiphaa yoo ta'e gara bitaa fi mirgaatti ni sochoota.",
+      "cellEmpty": "Sarara {row}, kolunnaa {column}, duwwaa",
+      "cellFilled": "Sarara {row}, kolunnaa {column}, {color}, kan {person|lower} kaa'e",
+      "placed": "Sarara {row}, kolunnaa {column} amma {color} dha. Yeroo kee, {next|lower}.",
+      "placedLast": "Sarara {row}, kolunnaa {column} amma {color} dha. Wal-ijaan ijaarame.",
+      "taken": "Sarara {row}, kolunnaa {column} dura tuqaa qaba. Bakka duwwaa filadhu.",
+      "pass": "Darbi",
+      "passed": "Darbuun ni danda'ama. Yeroo kee, {person|lower}.",
+      "takeBack": "Tuqaa dhumaa deebisi",
+      "takeBackPass": "Darbii deebisi",
+      "tookBack": "Tuqaan deebi'ee fudhatameera. Yeroo kee, {person|lower}.",
+      "tookBackPass": "Darbiin deebi'ee fudhatameera. Yeroo kee, {person|lower}.",
+      "colorChanged": "{person} amma {color|lower} qaba.",
+      "restarted": "Gridiin duwwaa dha. Yeroo kee, {person|lower}.",
+      "print": "Gridii maxxansi",
+      "sheetTitle": "Wal-ijaaruu",
+      "sheetHelp": "Walii galuun. Bakka duwwaa keessatti nama hundi qalama isaa fayyadamuun fakkii isaa kaa'a.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tuqaa tokko tuqi, booda bakka suura keessatti iddoo isaa tuqi. Waan uumtu hin kuufamu yookaan hin ergamu.",
+      "hints": "Sararaa gargaarsaa agarsiisi",
+      "pictureLine": "Kun {picture} dha.",
+      "pictures": {
+        "house": "mana",
+        "boat": "doonii",
+        "tree": "muka",
+        "fish": "qilxuu",
+        "cat": "adurree",
+        "rocket": "rookeetii"
+      },
+      "outlineLabel": "Haala {picture}. Bakka tokko tuqi, tuqaa filatame keessa kaa'uuf.",
+      "trayHeading": "Tuqaalee",
+      "pieces": {
+        "large-triangle": "Sadaasa guddaa",
+        "small-triangle": "Sadaasa xiqqaa",
+        "square": "Afurkaana",
+        "parallelogram": "Afurkaana garagaltuu",
+        "rectangle": "Afurkaana dheeraa"
+      },
+      "shapes": {
+        "large-triangle": "sadaasa guddaa",
+        "small-triangle": "sadaasa xiqqaa",
+        "square": "afurkaana",
+        "parallelogram": "afurkaana garagaltuu",
+        "rectangle": "afurkaana dheeraa"
+      },
+      "chosenLabel": "Filatame",
+      "spaceEmpty": "Bakka {n}, {shape}, duwwaa",
+      "spaceFilled": "Bakka {n}, {shape}, tuqaa isaa qaba. Tuqaa deebisuuf tuqi.",
+      "chosen": "{piece} filatameera. Amma bakka suura keessaa tuqi.",
+      "unchosen": "Kipiin kun hin filamne.",
+      "placed": "Kipiin bakka {n} keessa jira.",
+      "complete": "{picture} guutameera.",
+      "different": "Kipiin sun bakka kanaa irraa bifa adda ta'e. Bakka biraa yaalaa.",
+      "needPiece": "Dursa kutaa tarree keessaa tokko filadhu.",
+      "filled": "Bakkan kun kutaa isaa qabaachaa jira. Kutaa sana fudhachuuf tuqi.",
+      "tookBack": "Kipiin gara tarree keessatti deebi'eera.",
+      "cleared": "Kipiin gara tarree keessatti deebi'eera. Yoo yaada jijjiirte deebisi gochuu dandeessa.",
+      "restored": "Kipiin gara suuraa keessatti deebi'eera.",
+      "next": "Kun {picture} dha.",
+      "putBack": "Deebisi kaa'i",
+      "another": "Bifa biraa",
+      "print": "Bifa kana maxxansi",
+      "sheetTitle": "Bifoota callisaa",
+      "sheetHow": "Kutaalee kana halluu, yookaan marsaa irratti akka ta'an gowwoomsaatii baasi. Gargaarsa ol-aanaan kan baasu ta'uu danda'a.",
+      "sheetPieces": "Kutaalee, bal'inaan marsaa wajjin wal qixa"
+    },
+    "picnicPlanner": {
+      "guidance": "Suuraa tokko tuqaa kaappii nyaataatti galchuuf, kaappii keessatti immoo tuqaa kaappii keessaa baasuuf. Kaappiin meeshaa jaatama qaba.",
+      "guidancePlay": "Suuraa lama wal fakkaatan tuqi. Suuraan ni mul'ata, yeroos hin qabamu.",
+      "basketHeading": "Kaappii keenya",
+      "basketLabel": "Kaappii nyaataa barbaachisaa",
+      "takeOut": "{picture} kaappii keessaa baasi",
+      "inBasket": "Kaappii keessa",
+      "foodHeading": "Nyaata",
+      "outingsHeading": "Wantoota hojjetamuu danda'an",
+      "added": "{picture} kaappii keessa jira.",
+      "removed": "{picture} kaappii keessaa baafameera.",
+      "already": "{picture} dursees kaappii keessa jira. Achitti tuqiitii baasi.",
+      "full": "Kaappiin guutameera. Bakka ol-kaasuuf wanta tokko baasi.",
+      "summary": "Ceekkii keenya: {list}.",
+      "summaryNone": "Kaappii keessa wanti hin jiru as.",
+      "and": "fi",
+      "play": "Ceekkii keenyaan tapha haa taphannu",
+      "needTwo": "Dursa wantoota lama yookaan isaa ol filadhu.",
+      "playAgain": "Irra deebi'ii taphadhu",
+      "back": "Gara ceekkii deebi'i",
+      "print": "Tarree ceekkii keenya maxxansi",
+      "cleared": "Kaappiin duwwaa dha.",
+      "notice": "Kun akka wal-haasa'uuf karoora. Waan hundi yeroodhaan hin madaalamu, sadarkaa hin kennamu, hin kuufamu illee.",
+      "sheetTitle": "Tarree ceekkii keenya",
+      "sheetHow": "Wanta tokkoo tokkoo kaappii keessa yommuu galchu mallattoo itti kaa'i. Wanta biraa fudhachuu barbaadtu carraa duwwaa fayyadami.",
+      "sheetToPack": "Kaappii keessa galchuuf"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Kitaaba jalqabuuf fakkii kee dhuunfaa lamaa hanga kudhan lamaatti filadhu.",
+      "guidance": "Fuulota wal-gargaarsaan jijjiiri, cuqaalee yookaan fuula Bitaa fi Mirga arrowii keyboardii fayyadamuun. Yoo barbaaddee jecha muraasa fakkii jala barreessi. Wanta uumte hin kuufamu yookaan hin ergamu.",
+      "lookGuidance": "Fuula tokkoo tokkoo wal-gargaarsaan ilaali. Dubbachuu yookaan ilaaluu qofa ni dandeessu.",
+      "intro": "Meeshaa kana irraa fakkii lamaa hanga kudhan lamaa filadhu. Tokkoon tokkoon isaanii fuula kitaaba wal-gargaarsaan jijjiiruu dandeessu ta'a.",
+      "consent": "Fakkii maatii kee dhuunfaa fayyadami. Namni eeyyuu hin dandeenye tokkoo fakkii isaa fayyadamuuf dura gaafadhu.",
+      "privacy": "Fakkiiwwan kee meeshaa kana irratti turu. Hin olkaasamu yookaan hin kuufamu.",
+      "choose": "Fakkii filadhu",
+      "chooseDifferent": "Fakkii adda ta'e filadhu",
+      "backToBook": "Gara kitaabaatti deebi'i",
+      "backToChoose": "Gara fakkii filachuutti deebi'i",
+      "needTwo": "Maaloo fakkii lama yookaan isa ol filadhu.",
+      "usingFirst": "Fakkii jalqabaa {max} fayyadamaa jira.",
+      "cleared": "Kitaabni duwwaa'eera. Irra deebi'ee jalqabuuf fakkii filadhu.",
+      "moved": "Fuula {n} irratti ceeftee.",
+      "pageOf": "Fuula {n} keessaa {total}",
+      "lookTogether": "Wal-ilaali",
+      "leaveLook": "Gara kitaabaatti deebi'i",
+      "print": "Kitaaba fakkiiwwanii maxxansi",
+      "clear": "Kitaaba duwwaa'i",
+      "bookLabel": "Kitaaba fakkiiwwan maatii",
+      "pagesLabel": "Fuulota jijjiiri",
+      "previous": "Fuula duraa",
+      "next": "Fuula itti aanu",
+      "moveEarlier": "Dura ceeffi",
+      "moveLater": "Booda ceeffi",
+      "captionLabel": "Fuula kanaaf jechoota muraasa, yoo barbaadde",
+      "captionHelp": "Hanga arfan saddeet. Barreeffamni fuula kanaan qofa turu; yeroo cufu ni badu.",
+      "sheetTitle": "Kitaaba keenya fakkiiwwanii",
+      "sheetHow": "Fakkii tokko fuula tokkoo irratti, jechoonni isaa jala jiru. Fuulota tartiibaan jijjiiri, tokkoo tokkoo irratti walitti hiriiri.",
+      "sheetEmpty": "Kitaaba kee dhuunfaa maxxansuuf fakkii kee fuula taphataa irratti filadhu, yookaan fuula duwwaa kana maxxansiifii fakkii maxxanfame keessa ulfaadhu.",
+      "sheetFrame": "Fakkii maxxanfame as kaa'i",
+      "sheetWords": "Fuula kanaaf jechoota muraasa",
+      "skipped": {
+        "one": "Faayilii {n} fakkii fayyadamuu hin dandeenyu ture.",
+        "other": "Faayiloota {n} fakkii fayyadamuu hin dandeenyu turan."
+      }
+    },
+    "quietScene": {
+      "guidance": "Suuraa tokko yeroo tokkoo ilaali. Yeroo qophaa'uu dhufte Itti aanu yookaan Duraa tuqi. Wanti ofumaan hin sochoonu.",
+      "next": "Suuraa itti aanu",
+      "previous": "Suuraa duraa",
+      "bigPicture": "Suuraa guddaa",
+      "showEverything": "Hunda agarsiisi",
+      "first": "Kun suuraa jalqabaa dha.",
+      "last": "Kun suuraa dhumaa dha.",
+      "lines": {
+        "sunrise": "Aduun lafa irra ol ba'aa jirti.",
+        "window-with-birds": "Iyyuu foonii keessaa alatti.",
+        "vase-of-flowers": "Xoxxee ejersaa tajaajilaa irra jiru.",
+        "teacup": "Kaappii shaayii foonii irra.",
+        "tree": "Muka lafa qonnaa keessa dhaabatu.",
+        "sailboat": "Doonii malee bishaan irra jiru.",
+        "lighthouse": "Mana ifaa galaanaa bira jiru.",
+        "rainbow": "Bokkaa roobaa booda ba'e.",
+        "moon": "Ji'a halkan samii keessa jiru.",
+        "daisies": "Gubbaa daisii marga keessa jiru.",
+        "rowing-boat": "Doonii qaanqeessaa bishaan jabaa irra jiru.",
+        "potted-plant": "Biqiltuu magaalaa keessa jiru."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Garee gara garee jijjiiraa. Xiqqaa tuqi, booda bakka duwwaa tuqi ergaa keessa kaa'uuf. Wanta uumte hin kuufamu yookaan hin ergamu.",
+      "people": [
+        "Nama jalqabaa",
+        "Nama lammaffaa"
+      ],
+      "marks": [
+        "marsaa",
+        "gurgurtaa"
+      ],
+      "turn": "Garee kee, {person|lower}.",
+      "marked": "Kutaalee kee {mark} wajjin mallattaa'aniiru.",
+      "boardLabel": "Marsaa wal-qooddatu",
+      "placeEmpty": "Bakka {n}, duwwaa",
+      "placeFilled": "Bakka {n}, {picture|lower}, {person|lower} kaa'e",
+      "trayHeading": "Xiqqaa",
+      "chosenLabel": "Filame",
+      "chosen": "{picture} filatameera. Amma bakka duwwaa tuqi.",
+      "unchosen": "Xiqqaan sun hin filamne.",
+      "needCutout": "Dursa xiqqaa filadhu, booda bakka duwwaa tuqi.",
+      "filled": "Bakka {n} dursees suuraa qaba. Bakka duwwaa filadhu.",
+      "placed": "{picture} bakka {n} keessa jira. Garee kee, {next|lower}.",
+      "full": "Bakka hundaa suuraa qaba. Jijjiiruuf tokko deebisi, yookaan irra deebi'ii jalqabi.",
+      "pass": "Darbi",
+      "passed": "Darbuun ni danda'ama. Garee kee, {person|lower}.",
+      "takeBack": "Kutaa dhumaa deebisi",
+      "takeBackPass": "Darbii deebisi",
+      "tookBack": "Kutaan deebi'eera. Garee kee, {person|lower}.",
+      "tookBackPass": "Darbiin deebi'eera. Garee kee, {person|lower}.",
+      "restarted": "Marsaan duwwaa dha. Garee kee, {person|lower}.",
+      "putBack": "Deebisi kaa'i",
+      "putBackDone": "Kutaaleen gara marsaa keessatti deebi'aniiru.",
+      "another": "Walitti qabama suuraa biraa",
+      "anotherSet": "Tarree keessa walitti qabama xiqqaa haaraa jira. Kutaaleen marsaa irra jiran bakka isaaniitti turu.",
+      "print": "Marsaa maxxansi",
+      "sheetTitle": "Marsaa walitti qabamaa",
+      "sheetHow": "Suuraalee xiqqeessi, garee gara garee marsaa irratti kaa'i. Gargaarsa ol-aanaan kan xiqqeessu ta'uu danda'a.",
+      "sheetTray": "Suuraalee xiqqeessuuf"
+    },
+    "gardenPlanner": {
+      "guidance": "Suuraa tuqi, booda gaaddisa tuqi bakka sana keessa kaa'uuf. Suuraa qabu gaaddisa, wanta filatame hin jirrutti tuqi qulqulleessuuf.",
+      "bedsLabel": "Gaaddisa dhadhaa",
+      "bedEmpty": "Gaaddisa {n}, duwwaa",
+      "bedFilled": "Gaaddisa {n}, {picture|lower}",
+      "plantsHeading": "Biqiltoota",
+      "extrasHeading": "Waan dabalataa dhadhaa",
+      "chosenLabel": "Filame",
+      "chosen": "{picture} filatameera. Amma gaaddisa tuqi.",
+      "unchosen": "Suuraan tokko iyyuu hin filamne.",
+      "needPicture": "Dura suuraa filadhaa, ergasii qotee tokko tuqaa.",
+      "planted": "{picture} qotee {n} keessa jira.",
+      "replaced": "{picture} bakka suuraa qotee {n} keessa turee bu'a.",
+      "cleared": "Qotee {n} duwwaa dha. Yoo suuraa sana deebisuu barbaadde, deebisaa.",
+      "restarted": "Qoteen hundinuu duwwaa dha.",
+      "putBack": "Deebisaa",
+      "putBackDone": "Suuraawwan gara qoteewwan isaaniitti deebi'aniiru.",
+      "summaryHeading": "Qotee koo",
+      "summary": "Karoorri kee {list} qaba.",
+      "summaryNone": "Hanga ammaatti suuraan tokko iyyuu qotee keessa hin jiru.",
+      "and": "fi",
+      "print": "Karoora maxxansaa",
+      "sheetTitle": "Karoora qotee keenya",
+      "sheetHow": "Qoteewwan suuraawwan fuula irratti filatame agarsiisu. Yoo barbaadde qoteewwan duwwaa keessatti kaa'aa.",
+      "sheetNotes": "Yaadannoo",
+      "notice": "Kun karoora suuraa waliin dubbachuuf dha, gorsa dhaabbachuu miti."
+    },
+    "coloringWall": {
+      "guidance": "Suuraa fi baay'ee fuula filadhaa. Dhoksaa maxxansaa, nama tokkoon tokkoon fuula tokko ykn caalaa halluu kennaa. Waqtiidhaan hin lakkaa'amu, qabxii hin kennamu, kuufamus hin jiru.",
+      "pictureLegend": "Suuraa",
+      "sizeLegend": "Fuula meeqa",
+      "sizes": {
+        "2x2": "fuula 4 (2 x 2)",
+        "3x2": "fuula 6 (3 x 2)",
+        "3x3": "fuula 9 (3 x 3)"
+      },
+      "previewLabel": "Suuraan {picture|lower} fuula {n} ta'een qoodame, {across} bal'inaan fi {down} dheerinaan. Fuula tokko tokkoo kuma keessatti mallattoo qaba.",
+      "previewCaption": "Suuraa, laatii fuulaa fi mallattoowwan irratti kaafaman.",
+      "labelsNote": "Qubeewwan dhoksaa gad-aanaa deeman, lakkoofsotni immoo bal'inaan deeman. Kanaafuu A1 fuula gubbaa bitaa dha.",
+      "wallHeading": "Akkaataa dhoksaa itti walitti ijaaruu",
+      "steps": [
+        "Fuula hundumaa maxxansaa. Fuulli jalqabaa tarkaanfiiwwan kana fi maapii dhoksaa dha.",
+        "Nama tokkoon tokkoon fuula tokko ykn caalaa fudhatee halluu kennaa.",
+        "Halluu fi akkaataan wal fakkaachuu hin qabu. Fuula hundinuu suuraa tokkicha keessa argama.",
+        "Mallattoowwan isaanii fayyadamuun fuulawwan iddoo isaaniitti kaa'aa, ergasii duuba isaanii irratti tapiin walitti hidhaa.",
+        "Dhoksaa kan namni hundinuu arguu danda'u irratti ol kaasaa."
+      ],
+      "mapLabel": "Maapii dhoksaa: {down} garee, garee tokkoon fuula {across}, A1 irraa hanga {last} ta'anii mallattoo qaban.",
+      "edgeNote": "Sarara cita-cita daangaa fuula tokkoo ibsa. Fuulawwan daangaa isaanii irratti walitti dhaabaa, yookaan xiqqoo tu'aa.",
+      "pictureLine": "Suuraa: {picture}. Dhoksaan kun fuula {n} dha: {across} bal'inaan fi {down} dheerinaan.",
+      "print": "Dhoksaa maxxansaa"
+    },
+    "findTogether": {
+      "guidance": "Mee jijjiiramaa taphaa. Yeroo kee irratti kaardii lama garagalchi, jaarmaa wal fakkaatu barbaadi. Jaarmaawwan wal fakkaatan walitti barbaadaa.",
+      "sizeLegend": "Kaardii meeqa",
+      "size": "kaardii {n}",
+      "viewLegend": "Akkaataa taphaa",
+      "viewShowing": "Suuraawwan ol agarsiifamanii taphaa",
+      "viewHidden": "Kaardiiwwan fuula gadi",
+      "people": [
+        "Nama jalqabaa",
+        "Nama lammaffaa"
+      ],
+      "turn": "Yeroo: {person}",
+      "turnDone": "Jaarmaawwan hunduu argamaniiru.",
+      "tally": "Jaarmaawwan walitti argaman: {n}",
+      "cardNamed": "{name}, kaardii {n}",
+      "cardFaceDown": "Kaardii {n}, fuula gadi",
+      "first": "{name}. Amma kaardii lammaffaa garagalchi.",
+      "found": "{name}: jaarmaa, walitti argame. Amma yeroon {next|lower} dha.",
+      "allTogether": "Jaarmaawwan hunduu walitti argattan.",
+      "different": "{a} fi {b} wal fakkaatan miti. Yeroo kee fudhadhu, ergasii Deebisaa tuqaa.",
+      "waiting": "Yeroo kee qophaa'uu ta'u Deebisaa tuqaa. Ergasii yeroon nama itti aanuutti ce'a.",
+      "turnedBack": "Deebifameera. Amma yeroon {person|lower} dha.",
+      "passed": "Darbuun ni danda'ama. Amma yeroon {person|lower} dha.",
+      "turnBack": "Deebisaa",
+      "pass": "Darbaa",
+      "playAgain": "Irra deebi'ii taphaa"
+    },
+    "drawingDuet": {
+      "guidance": "Yeroo jijjiiramaa sararaa tokko tokko kaa'aa, ergasii qalama kennaa. Namni kamiyyuu darbuu danda'a. Waan tokko gara iddoo biraatti hin ergamu. Suuraan fuula kana irraa ba'uu danda'a yoo kuufte qofa.",
+      "people": [
+        "Nama jalqabaa",
+        "Nama lammaffaa"
+      ],
+      "colorLegend": "Halluu {person}",
+      "colors": [
+        "Keelloo",
+        "Burtukaana",
+        "Magariisa",
+        "Bidiruu"
+      ],
+      "turn": "Yeroo {person}",
+      "penColor": "Halluu qalamaa: {color}.",
+      "canvasLabel": "Sararaa walitti qabame, sararri {n} hanga ammaatti.",
+      "canvasLabelOne": "Sararaa walitti qabame, sararri {n} hanga ammaatti.",
+      "keys": "Ogeeyyii kallattii qalama irratti xoo'a sochiisu. Spaasii qalama gad-buusu ykn ol-kaasu.",
+      "penDown": "Qalama gad-buusaa",
+      "penUp": "Qalama ol-kaasaa",
+      "pass": "Qalama darbaa",
+      "passed": "Darbuun ni danda'ama. Yeroon kee, {person|lower}.",
+      "takeBack": "Sararri koo dhumaa haqaa",
+      "tookBack": "Sararri dhumaa {person|lower} irraa haqame.",
+      "noLine": "Sararri {person|lower} haquuf hin jiru.",
+      "restarted": "Fuulli duwwaa dha. Namni jalqabaa yeroo qaba. Yoo barbaachisaa hin turre, deebisaa.",
+      "putBack": "Deebisaa",
+      "restored": "Sararri akkuma turan deebi'aniiru.",
+      "save": "Suuraa kuusi",
+      "saved": "Suuraan kee qophaa'eera. Kompiyuutara kana irratti kuufachuuf linkii buufataa fayyadami.",
+      "download": "Drawing-duet.png buufadhu",
+      "print": "Waraqaa irratti kan maxxansaa",
+      "sheetTitle": "Sararaa lamaan",
+      "paperRules": "Namoota lama, waraqaa tokko, qalamoota lama. Yeroo jijjiiramaa: sararaa ykn bifa tokko tokkoon kaa'aa, ergasii qalama darbi. Namni kamiyyuu darbuu danda'a. Suuraan sirrii tokko hin jiru."
+    },
+    "colorWash": {
+      "guidance": "Fuula irratti halluu laafaa, mir'ina tokkoon tokkoon, facaasi. Qalama ol-kaasuun dhaabi, yeroo barbaadde ni dhaabbatta. Waan tokko kuufamu ykn gara iddoo biraatti hin ergamu.",
+      "colorLegend": "Halluu facaasaa",
+      "sizeLegend": "Guddina brushii",
+      "colors": [
+        "Keelloo",
+        "Burtukaana",
+        "Magariisa",
+        "Bidiruu"
+      ],
+      "sizes": {
+        "wide": "Bal'aa",
+        "veryWide": "Bal'aa baay'ee"
+      },
+      "color": "Halluu facaasaa: {color}.",
+      "brushDown": "Burushii gad-buusaa",
+      "brushUp": "Burushii ol-kaasaa",
+      "keys": "Ogeeyyii kallattii burushii irratti xoo'a sochiisu. Spaasii burushii gad-buusu ykn ol-kaasu.",
+      "canvasLabel": "Fuula facaasa halluu laafaa",
+      "fresh": "Fuula haaraa",
+      "freshMessage": "Fuula haaraa.",
+      "putBack": "Deebisaa",
+      "restored": "Fuulli deebi'eera."
+    },
     "sortTogether": {
       "guidance": "Suuraa tokko tuqaa, ergasii daceen itti galu tuqaa.",
       "restart": "Suuraawwan haaraa",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} “{basket}” keessa galuu danda’a. Dacee sana tuqaa, achi kaa’uuf.",
       "placed": "{name|lower} “{basket}” keessa jira.",
       "sorted": "Wanti hundi addaan baafameera. Dacee hunda waliin ilaalaa, ykn mata-duree biraa yaalaa.",
+      "largerTargets": "Iddoowwan guddaa",
+      "largerOn": "Iddoowwan guddaan ni banamu. Waan tokko hin sochoone.",
+      "largerOff": "Iddoowwan guddaan hin banamu. Waan tokko hin sochoone.",
+      "largerOnNewRound": "Iddoowwan guddaan banaman, kaartaa lama qabatanii. Suuraawwan haaraa qooduuf as jiru.",
       "basket": {
         "one": "Dacee {basket}, suuraa {count} keessa jira",
         "other": "Dacee {basket}, suuraawwan {count} keessa jiru"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Kutaa tokko tuqaa, ergasii kan biraa tuqaa. Bakka wal jijjiiru.",
-      "restart": "Irra deebi’aa walitti makaa",
+      "restart": "Mix up again",
       "pictureLegend": "Suuraa",
       "pictures": {
         "sailboat": "Doonii",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Suuraa guutuu: {name}",
       "guideText": "Suuraan guutuu yeroo ta’u akkana fakkaata.",
+      "ownChoose": "Suuraa kee fayyadamaa",
+      "ownChange": "Suuraa biraa filadhu",
+      "ownBack": "Gara suuraawwan keenyaatti deebi'i",
+      "ownPrivacy": "Suuraan kee kompiyuutara kana irratti turee. Hin ol-ergamu, hin kuufamu.",
+      "ownConsent": "Suuraawwan kee fayyadamaa. Namni eeyyama kennuu hin danda'u suuraa isaa fudhachuuf dura gaafadhu.",
+      "ownWorking": "Suuraa kee qopheessaa jira.",
+      "ownNotUsable": "Faayilli sun fayyadamuu hin dandeenye. Faayilii suuraa filadhu, akka JPEG ykn PNG.",
+      "ownAlt": "Suuraa kee",
+      "ownPiece": "Qooda {n}, {place}",
+      "ownWhole": "Suuraan kee deebi'ee guutameera. Yeroo barbaadde irra deebi'ii walitti makaa.",
+      "ownSheetTitle": "Suuraa kee qoodaan",
+      "ownSheetHow": "Sararawwan irratti qoodaa. Qoodawwan walitti makaa, ergasii qoodaa lama tokkoon tokkoon jijjiiraa suuraan guutamutti.",
       "piece": "Kutaa {place}",
       "pieceInPlace": ", bakka sirrii jira",
       "piecePickedUp": ", ol-kaafameera",
@@ -122,7 +786,7 @@
         "gadii mirgaa"
       ],
       "done": "Suuraan deebi’ee guutuu ta’eera. Irra deebi’aa taphadhaa ykn boqonnaa fudhadhaa.",
-      "playAgain": "Irra deebi’aa walitti makaa"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Jecha beekamaa waliin dubbisaa, ergasii jecha isa xumuru tuqaa.",
@@ -190,6 +854,14 @@
       "guidance": "Kaartii sagalee ol-kaasuun dubbisaa. Deebiin sirrii hin jiru.",
       "position": "Kaartii {n} kan {total}",
       "themeLegend": "Mata-duree",
+      "showPrompt": "Yaada haasa'aa agarsiisi",
+      "bigPicture": "Suuraa guddaa, garee tokkoof",
+      "passNote": "Namni kamiyyuu darbuu danda'a.",
+      "groupTitle": "Kaartii garee keessatti darbuu",
+      "groupSit": "Iddoo tokkoo irratti taphaa, suuraa kan hundinuu arguu danda'an. Namni kaartii qabate, ykn meeshaan suuraa guddaa qabu, gaaffii sana dura sagalee ol-aanaan dubbisa.",
+      "groupPass": "Ergasii kaartii nama itti aanuuf darbi. Nama tokkoon tokkoon suuraa irratti jecha tokko ykn jechoota muraasa jedhee, ergasii darbi.",
+      "groupNoSpeech": "Kaartii darbuun waan mudaa hin qabne. Namni tokko waan tokko hin jechuu darbuu danda'a, akkasumas namni tokko iyyuu sababa isaa ibsuu hin qabu.",
+      "groupEnd": "Rauntichi xumurama kaardiin marfata irra deebi'ee geessu yeroo dhumu, ykn garee sun guutuutti gammachuu yoo qabaatee. Namni tokko illee hin injifatu. Garee yoo barbaadu yeroo kamiyyuu dhaabbachuu ni dandeessu.",
       "next": "Kaartii itti aanu",
       "previous": "Kaartii duraa",
       "print": "Kaartiiwwan hunda maxxansaa",
@@ -225,7 +897,7 @@
       "squares": "iddoo {n} ({side} irra {side})",
       "cardsLegend": "Kaartii meeqa maxxansitu",
       "cards": {
-        "one": "kaartii {n}",
+        "one": "{n} card",
         "other": "kaartiiwwan {n}"
       },
       "print": {
@@ -252,6 +924,20 @@
       "started": "Jalqabameera. Yeroo geengoon guddatu afuura fudhadhaa.",
       "stopped": "Dhaabameera.",
       "finished": "Afuura suuta jaha ture. Yeroo barbaaddan irra deebi’aa jalqabaa."
+    },
+    "storyChain": {
+      "guidance": "Marfata jijjiiraa: tokkoon tokkoon jechaa tokko, fakkii itti aanu dabalaa.",
+      "passNote": "Jechaa keessan ol aantee dubbadhaa. Waan barreeffamu yookaan kuufamu hin jiru. Namni kamiyyuu darbuu ni danda'a.",
+      "chainLabel": "Marfata hanga ammaatti",
+      "item": "Fakkii {n}: {name}",
+      "add": "Fakkii dabaluu",
+      "fullAdd": "Marfanni guutameera. Marfata haaraa jalqabi",
+      "newChain": "Marfata haaraa jalqabi",
+      "takeOff": "Kan dhumaa baasi",
+      "added": "{name|lower} amma marfata keessa dhuma irratti jira.",
+      "removed": "{name|lower} marfata keessaa ba'eera.",
+      "fresh": "Marfata haaraa, {name|lower} irraa jalqabee.",
+      "full": "Marfanni fakkii saddeet afur hunda qaba. Seenaa guutuu ibsi, yookaan marfata haaraa jalqabi."
     }
   },
   "pictures": {
@@ -287,7 +973,94 @@
     "balloon": "Hot air balloon",
     "lighthouse": "Lighthouse",
     "sun": "Aduu",
-    "moon": "Ji’a fi urjiiwwan"
+    "moon": "Ji’a fi urjiiwwan",
+    "teapot": "Ibiddaa shaayii",
+    "apple-pie": "Keekii tapaalii",
+    "honey-jar": "Gogaa damma",
+    "boiled-egg": "Hanqaaqaa ibiddaa keessa",
+    "toaster": "Tostaarii",
+    "cheese": "Chiizii",
+    "milk-jug": "Ibiddaa aannanii",
+    "cupcake": "Keekii xiqqaa",
+    "orange": "Burtukaana",
+    "grapes": "Muduraa",
+    "watermelon": "Xiyyaa ejersaa",
+    "pineapple": "Ananaasii",
+    "peach": "Piichii",
+    "rose": "Rooza",
+    "daisies": "Margaarita",
+    "mushroom": "Fungii",
+    "wheelbarrow": "Gaarii",
+    "birdhouse": "Mana simbirroo",
+    "cactus": "Kaaktusii ibiddaa keessa",
+    "acorn": "Hanqaa",
+    "autumn-leaf": "Baala ganna",
+    "rabbit": "Sardaa",
+    "duck": "Hanqaaqa",
+    "hen": "Ogaa",
+    "sheep": "Re'ee",
+    "owl": "Ulfaa",
+    "ladybird": "Boosaa",
+    "snail": "Sariitii",
+    "frog": "Qaraa",
+    "bee": "Dhibbaa",
+    "clock": "Sa'aatii kaabaa",
+    "vase-of-flowers": "Ibiddaa ababoo",
+    "radio": "Redioo durii",
+    "books": "Kitaabota walitti qabaman",
+    "candle": "Mo'aa",
+    "glasses": "Ilaaltuu dubbisaa",
+    "telephone": "Bilbila",
+    "ball-of-wool": "Gurraa suufii",
+    "straw-hat": "Koofaa ifaa",
+    "train": "Trenii oolaa",
+    "bus": "Basii",
+    "airplane": "Ayiroplaanii",
+    "suitcase": "Kaanjii",
+    "tractor": "Tarakteera",
+    "rowing-boat": "Doonii harkaan",
+    "rainbow": "Bokkuu",
+    "rain-cloud": "Duumessa roobaa",
+    "snowflake": "Dhuga bokkaa",
+    "kite": "Kiitii",
+    "sunrise": "Ifni ka'aa gaarota irratti",
+    "decorated-keepsake-box": "Boqqolloo miidhagame",
+    "painted-plant-pot": "Ibiddaa biqiltuu ukkaamfame",
+    "repeating-pattern-sheet": "Fuula fakkii deebi'u",
+    "music-drawn-lines": "Sararoota sirbaan barreeffame",
+    "paper-boat-afloat": "Doonii waraqaa bishaan irra jiru",
+    "folded-towel-stack": "Faasaa boolatame",
+    "hand-massage-with-lotion": "Harka faasaa irra, kirriimii qabatee",
+    "open-photo-album": "Albumii suuraa banaa",
+    "button-flower-card": "Ababoo tufaa kaardii irratti",
+    "blue-torn-paper-collage": "Kolaajii waraqaa cubbamee cuqaasame",
+    "family-tree-of-hands": "Mukkeen maatii harkaan tarreeffame",
+    "open-greeting-card": "Kaardii gammachiisaa onneen banaa",
+    "lavender-sachet": "Kiisii laafaandaa kan qooqaan hidhame",
+    "memory-collage-of-photos": "Kolaajii suuraalee maatii",
+    "paper-chain-garland": "Xawaa waraqaa walitti hidhame",
+    "open-songbook-with-notes": "Kitaaba sirbaa banaa",
+    "photo-postcard-with-stamp": "Kaardii suuraa tamgaa qabu",
+    "pine-cone-bird-feeder": "Mancaa simbirroo koonii qilxuu",
+    "playlist-phone-and-card": "Bilbila sirbaa fi kaardii sirba",
+    "sealed-rice-shaker": "Ruzii cufame qarqaraa",
+    "texture-board-with-scraps": "Gurra tokko ukkaamfame",
+    "painted-garden-stone": "Dhagaa lafaa ukkaamfame",
+    "shared-painted-canvas": "Kanvaasii wal'ukkaamfame",
+    "watercolor-washes-sheet": "Fuula ukkaamfame bishaan qabaa",
+    "seedling-in-pot": "Biqiltuu ibiddaa keessa",
+    "pressed-leaves-in-book": "Baalee kitaaba keessa cuqqaaman",
+    "printed-leaves-sheet": "Fuula baalee garagalchaa",
+    "pinch-pot-clay-bowl": "Ibiddaa harkaan tolfame",
+    "table-sketch-pencil": "Fakkii ibiddaa qalamaan",
+    "buttons-in-muffin-tin": "Gugguddoo muffin keessa",
+    "family-recipe-book": "Kitaaba nyaataa maatii",
+    "drum-with-beat-marks": "Dolkaa tulluu",
+    "torn-paper-flower": "Mosaayikii ababoo waraqaa",
+    "window-with-birds": "Foon simbirroo",
+    "woven-paper-mat": "Gaaddisa waraqaa tolfame",
+    "yarn-ball-with-thread": "Gurraa dooqaa",
+    "letter-and-envelope": "Xalayaa koonii keessa"
   },
   "content": {
     "wordSearch": {
@@ -364,132 +1137,217 @@
         {
           "theme": "food",
           "picture": "bread",
-          "prompt": "Urgaan mana nyaataa keessaa isin jaallattan kami?"
+          "prompt": "Gurba mana nyaataa keessaa kan si jaallatu maali?"
         },
         {
           "theme": "food",
           "picture": "cake",
-          "prompt": "Ayyaana tokkoof keekii akkamii filattu?"
+          "prompt": "Ayyaana tokkof keeki akkamii filattu?"
+        },
+        {
+          "theme": "food",
+          "picture": "apple",
+          "prompt": "Keeki ji'aa yookaan miindii ji'aa kan si jaallatu waa'ee isaa natti himi."
         },
         {
           "theme": "food",
           "picture": "teacup",
-          "prompt": "Shaayii ykn buna akkamitti jaallattu?"
+          "prompt": "Shaayii yookaan bunaa akkamitti jaallatta?"
         },
         {
           "theme": "food",
-          "picture": "banana",
-          "prompt": "Muduraa isin jaallattan kami?"
+          "picture": "frying-pan",
+          "prompt": "Kaasaa gaarii taʼe maal of keessaa qaba?"
+        },
+        {
+          "theme": "food",
+          "picture": "strawberry",
+          "prompt": "Dhugumaan akka biqiltuu irraa ija fuutee beektuu?"
+        },
+        {
+          "theme": "food",
+          "picture": "lemon",
+          "prompt": "Miilaa yookaan hamaa: kan kamtu si jaallata?"
+        },
+        {
+          "theme": "food",
+          "picture": "cherries",
+          "prompt": "Nyaanni ganna akka sirraatti sitti dhaga'amu maali?"
         },
         {
           "theme": "home",
           "picture": "house",
-          "prompt": "Mana keessan duraan jiraattan tokko waa’ee isaa natti himaa."
+          "prompt": "Mana jaallatte tokko waa'ee isaa natti himi."
         },
         {
           "theme": "home",
           "picture": "armchair",
-          "prompt": "Bakka taa’anii boqotan isin jaallattan eessa?"
+          "prompt": "Iddoon ati itti taa'uun boqotu kam irratti?"
         },
         {
           "theme": "home",
           "picture": "lamp",
-          "prompt": "Galgala callisaa irratti maal gochuu jaallattu?"
+          "prompt": "Galgala callisaa keessatti maal gochuu jaallatta?"
         },
         {
           "theme": "home",
           "picture": "key",
-          "prompt": "Wanta gatii qabu, bakka addaa tokkotti kuuftan maali?"
+          "prompt": "Sanduuqa addaa keessatti kuufachuu barbaadduu gaarii tokko maali?"
+        },
+        {
+          "theme": "home",
+          "picture": "kettle",
+          "prompt": "Shaayii dhugaatiif eenyu mana kee oofuu barbaadda?"
+        },
+        {
+          "theme": "home",
+          "picture": "umbrella",
+          "prompt": "Guyyaa roobaa keessatti maal gochuu jaallatta?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sunflower",
+          "prompt": "Lanqaa keessatti annam akkamii facaasuu barbaadda?"
         },
         {
           "theme": "outdoors",
           "picture": "tree",
-          "prompt": "Mukaa ykn iddoo bakka isin jaallattan waa’ee isaa natti himaa."
+          "prompt": "Mukaa yookaan parkii jaallattu waa'ee isaa natti himi."
         },
         {
           "theme": "outdoors",
-          "picture": "sun",
-          "prompt": "Guyyaan aduu mijaa’aan isin biratti akkam ta’a?"
+          "picture": "watering-can",
+          "prompt": "Lanqaa keessa taʼuun keessatti kan ol ta'e maali?"
         },
         {
           "theme": "outdoors",
           "picture": "tulip",
-          "prompt": "Daraaraan halluu kamii caalaa isin jaallatan?"
+          "prompt": "Annam halluu akkamii sitti hedduu jaallata?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "potted-plant",
+          "prompt": "Mana keessatti biqiltuu qabaachuu ni jaallattaa?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sun",
+          "prompt": "Guyyaa ifa gaarii taʼe sitti yaadatti maali?"
         },
         {
           "theme": "animals",
           "picture": "dog",
-          "prompt": "Saree beektan tokko waa’ee isaa natti himaa."
+          "prompt": "Saree kan beekte tokko waa'ee isaa natti himi."
         },
         {
           "theme": "animals",
           "picture": "cat",
-          "prompt": "Adurree moo saree? Maal isin gammachiisa?"
+          "prompt": "Saree yookaan harbuu, yookaan utuu isaan hin taane? Maaliif jaallatta?"
         },
         {
           "theme": "animals",
           "picture": "bird",
-          "prompt": "Simbirroowwan alatti argitan ykn dhageessan kami?"
+          "prompt": "Alaa ilaaltuu yookaan dhagaʼuu hoolota akkamii?"
         },
         {
-          "theme": "travel",
-          "picture": "sailboat",
-          "prompt": "Doonii irra deemtanii beektuu? Maal itti dhagaa’e?"
+          "theme": "animals",
+          "picture": "fish",
+          "prompt": "Dhagaa qabachuu yookaan hooyyii dhagaa qabdu ni beektaa?"
+        },
+        {
+          "theme": "animals",
+          "picture": "butterfly",
+          "prompt": "Bineensa hedduu argitee keessaa kan sitti bareedaa ta'e maali?"
         },
         {
           "theme": "travel",
           "picture": "car",
-          "prompt": "Imala konkolaataan deemtan tokko waa’ee isaa natti himaa."
+          "prompt": "Konkolaataa kan jaallatte tokko waa'ee isaa natti himi."
+        },
+        {
+          "theme": "travel",
+          "picture": "sailboat",
+          "prompt": "Guyyaa bahaa irratti yookaan gaara irratti turuu barbaaddaa?"
         },
         {
           "theme": "travel",
           "picture": "bicycle",
-          "prompt": "Imala gaarii isin gammachiise tokko natti himaa."
+          "prompt": "Imala tokkoof iddoo kam deemuu barbaadda?"
         },
         {
-          "theme": "work",
-          "picture": "watering-can",
-          "prompt": "Hojii isin jaallattan tokko waa’ee isaa natti himaa."
+          "theme": "travel",
+          "picture": "balloon",
+          "prompt": "Iddoo kamiyyuu irratti balaaleffachuu danda'uu, eessa ta'a?"
         },
         {
-          "theme": "work",
-          "picture": "potted-plant",
-          "prompt": "Hojii harkaan hojjetamu isin gammachiisu kami?"
+          "theme": "travel",
+          "picture": "lighthouse",
+          "prompt": "Imala tokko kan ati gammadde maali?"
         },
         {
           "theme": "work",
           "picture": "key",
-          "prompt": "Hawwiin isin jaallattan maali?"
+          "prompt": "Hojii akkamii hojjechuu keessatti gammadde?"
         },
         {
-          "theme": "music",
-          "picture": "bird",
-          "prompt": "Weedduu isin jaallattan tokko natti himaa."
+          "theme": "work",
+          "picture": "watering-can",
+          "prompt": "Sa'aatii hedduu keessatti turuu dandeessu hobbii maali?"
+        },
+        {
+          "theme": "work",
+          "picture": "bread",
+          "prompt": "Waan uumuu yookaan suphuu keessatti beekamtee turte maali?"
+        },
+        {
+          "theme": "work",
+          "picture": "house",
+          "prompt": "Hojii jalqabu ta'aa dhiigaa ta'e tokkoof gorsa maal kennita?"
         },
         {
           "theme": "music",
           "picture": "balloon",
-          "prompt": "Ayyaana tokko irratti wanti isin gammachiise maali?"
+          "prompt": "Sirba akkamii miilla kee tapha keessatti sochoosuu sitti dhaga'ama?"
         },
         {
           "theme": "music",
           "picture": "cake",
-          "prompt": "Weedduu waliin dhaadannu jaallattuu?"
+          "prompt": "Ayyaana gaarii taʼe maal of keessaa qaba?"
         },
         {
-          "theme": "seasons",
-          "picture": "umbrella",
-          "prompt": "Yeroo bokkaa irratti maal gochuu jaallattu?"
+          "theme": "music",
+          "picture": "lamp",
+          "prompt": "Faarfataa dhagaʼuu jaallattu eenyu?"
+        },
+        {
+          "theme": "music",
+          "picture": "armchair",
+          "prompt": "Deebiin ilaaluu jaallattu fiilmii yookaan TV agarsiisu maali?"
         },
         {
           "theme": "seasons",
           "picture": "sun",
-          "prompt": "Yeroo aduun ho’aa ta’e maal gochuu jaallattu?"
+          "prompt": "Waan bona keessatti sitti jaallatte keessaa kan ol ta'e maali?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tree",
+          "prompt": "Ganna keessatti waan sitti gammachiisu maali?"
         },
         {
           "theme": "seasons",
           "picture": "moon",
-          "prompt": "Galgala ji’i ibsu waliin maal gochuu jaallattu?"
+          "prompt": "Galgala guraachaa keessatti gochuu jaallattu waan boqonnaa qabu maali?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tulip",
+          "prompt": "Sitti ta'ee bitootessa dursa mallattoowwan maali?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "umbrella",
+          "prompt": "Haphii, roobaa yookaan ifa: kan kamtu sitti fooyya'a?"
         }
       ]
     },
@@ -500,6 +1358,7 @@
           "regions": {
             "sky": "Duubaa",
             "table": "Minjaala",
+            "stem": "Kuusaa",
             "leaf-left": "Baala bitaa",
             "leaf-right": "Baala mirgaa",
             "petal-1": "Baala daraaraa 1",
@@ -521,7 +1380,9 @@
             "sky": "Samii",
             "sun": "Aduu",
             "grass": "Marga",
+            "chimney": "Boolla",
             "walls": "Dallaa",
+            "roof": "Mataa mana",
             "door": "Balbala",
             "window-left": "Foddaa bitaa",
             "window-right": "Foddaa mirgaa",
@@ -532,12 +1393,15 @@
           "name": "Kubbaayyaa",
           "regions": {
             "background": "Duubaa",
+            "saucer": "Kubbaa xiyyaa",
             "handle": "Qabduu",
             "cup": "Kubbaayyaa",
+            "band": "Tuutaa xiyyaa irratti",
             "tea": "Shaayii"
           }
         },
         "butterfly": {
+          "name": "Harreechaa",
           "regions": {
             "background": "Duubaa",
             "wing-top-left": "Baallee gubbaa bitaa",
@@ -554,6 +1418,9 @@
           "regions": {
             "sky": "Samii",
             "sea": "Galaana",
+            "sail-big": "Qooqaa guddaa",
+            "sail-small": "Qooqaa xiqqaa",
+            "mast": "Dhaabbii",
             "hull": "Doonii",
             "flag": "Faffaca"
           }
@@ -583,6 +1450,17 @@
             "Imala irra"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Mi'a",
+        "animals": "Bineensota",
+        "travel": "Karaalee imalaa",
+        "flowers": "Ababoo",
+        "hot-drinks": "Waan dhugaa ho'aa tokkoof oolu",
+        "weather": "Gosoota qilleensaa",
+        "baked": "Waan ovenii keessatti ol-aanaa"
       }
     }
   }

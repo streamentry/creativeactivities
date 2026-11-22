@@ -5,6 +5,13 @@
       "stopReading": "Arrestar la lectura",
       "region": "Jòc",
       "restart": "Tornar començar",
+      "rest": "Repos per ara",
+      "restingTitle": "Repausant",
+      "restingText": "Preniètz lo temps que vos cal. Vòstra plaça es gardada sus aquesta pagina.",
+      "resume": "Contunhar",
+      "placeText": "La darrièra còp vos sèt arrestats a mièg camin. Contunhatz d'aquí, o començatz tornamai.",
+      "placeResume": "Contunhar",
+      "placeFresh": "Tornar començar",
       "soundOn": "Sons doces activats",
       "soundOff": "Sons doces desactivats",
       "done": "Fini per ara",
@@ -43,7 +50,19 @@
       "viewShowing": "Imatges visiblas",
       "viewHidden": "Imatges amagadas",
       "playAgain": "Tornar jogar amb d'imatges novèlas",
-      "talk": "Parlar d'imatges amassa"
+      "talk": "Parlar d'imatges amassa",
+      "modeLegend": "Quinas imatges",
+      "modePlay": "Qualsevol imatge",
+      "modeDaily": "La carta d'uèi",
+      "dayLegend": "Quin jorn",
+      "dayHelp": "Totes an las mêmas imatges lo mèsme jorn. Los jorns passats tanben son aquí, e sautar un jorn a pas cap de cost.",
+      "guidanceDaily": "La carta d'uèi a quatre parelhas. Tocatz una imatge, puis tocatz aquella que correspond.",
+      "restartDaily": "Tornar començar aquesta carta",
+      "copy": "Copiar aquesta linha",
+      "copied": "Copiat. Res es pas mandat enlòc.",
+      "calendarTitle": "Las cartas d'uèi, {month}",
+      "calendarHelp": "Cada jorn a las mêmas quatre imatges per a tot lo monde. Res es pas comptat, e cap de jorn es pas marcat coma manquat.",
+      "calendarVersion": "Version {date}. Las imatges son las mêmas per a tot lo monde lo mèsme jorn."
     },
     "choose": {
       "countLegend": "Nombre d'imatges",
@@ -62,6 +81,635 @@
       "shadowAlt": "Una ombra per assortir",
       "foundAlt": "L'ombra de {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Indicis",
+      "hintOn": "Un indici après una pausa",
+      "hintOff": "Pas d'indicis",
+      "guidance": "Trobatz las {n} imatges que van ensemble, e tocatz cadun.",
+      "countLegend": "Quantas imatges",
+      "count": "{n} imatges",
+      "found": "Òc, lo {name|lower} es dins aqueste grop.",
+      "elsewhere": "Lo {name|lower} va amb quicòm mai. Prenètz lo temps.",
+      "hint": "Un indici: cercatz {theme|lower}.",
+      "together": "Aquestas van ensemble: {theme}.",
+      "shown": "Vaqui lo grop: {theme}.",
+      "groupName": "Ensemble: {theme}",
+      "show": "Mostrar lo grop",
+      "next": "Un autre jo"
+    },
+    "oddOneOut": {
+      "hintLegend": "Indicis",
+      "hintOn": "Un indici après una pausa",
+      "hintOff": "Pas d'indicis",
+      "guidance": "Trobatz l'imatge que pertanh pas a las autras, e tocatz-la.",
+      "countLegend": "Quantas imatges",
+      "count": "{n} imatges",
+      "belongs": "Lo {name|lower} va amb las autras. Prenètz lo temps.",
+      "found": "Òc, lo {name|lower} es lo fòra-jòc. Las autras son {theme|lower}.",
+      "shown": "Vaquí-la: lo {name|lower}. Las autras son {theme|lower}.",
+      "hint": "Un indici: {n} d'aquestas son {theme|lower}.",
+      "others": "Las autras: {theme}",
+      "show": "Mostrar-me",
+      "next": "Un autre jo"
+    },
+    "seatedToss": {
+      "guidance": "Asseguratz-vos a una taula e prenètz a tors per lançar un sac de fava moll dins la cibla grand. Gardatz lo comptatge sul papièr, ensemble.",
+      "stepsHeading": "Coma se debana",
+      "steps": [
+        "Imprimissètz la cibla e la fuèlha de comptatge, e pausatz-la plana sus la taula entre vosautres.",
+        "Asseguratz-vos a l'ais, un de cada costat. Prenètz a tors de lançar un cop doç cadun, o passatz se o preferissètz pas.",
+        "Quand un lançar cai dins un anèl, la persona que l'a lançat marca una casa de sa colomna, sus la linha d'aqueste anèl.",
+        "Agachatz las marcas ensemble quand vos arrestatz, se o volètz. Degun a pas besonh de far cap de calcul.",
+        "Arrestatz quand qualqu'un es prèst a o far."
+      ],
+      "safetyHeading": "Seguretat",
+      "safetyLine": "Utilizatz pas que un sac amb una coberta cosida o una chausseta enrotlada, demorar asseguts, lançar pas jamai vèrs un visatge, e gardar un adulte a prèp. Las pèças pichonas son un perilh d'estofament.",
+      "flags": [
+        "Pas per als mens de 3 ans: pèças pichonas",
+        "Tenir luènh de la boca"
+      ],
+      "safety": [
+        "Chausissètz un sac de fava amb una coberta cosida, o enrotlatz una chausseta netejada. Verificatz-lo abans per veire s'a de traucs o de pontas descosidas, perque cap de garnitura pòsca sortir.",
+        "Las favas, lo ris e las autras garniturs pichonas son un perilh d'estofament. Tenètz-las luènh dels pichons dinosses e de tota persona que met las causas a la boca.",
+        "Demorar a la portada del braç e susvelhar de prèp se quicòm pòt èstre metut a la boca.",
+        "Demorar asseguts. Lançar doçament e bas vèrs la cibla sus la taula, jamai vèrs un visatge."
+      ],
+      "previewLabel": "La fuèlha imprimida: una cibla de tres anèls nomenats Pròche, Mejan e Luènh, de defòra a dedins, e un comptatge amb una colomna per persona e una linha de casas vuèjas per anèl.",
+      "sheetHow": "Pausatz la fuèlha plana entre vosautres. Quand un lançar cai dins un anèl, marcatz una casa de vòstra colomna, sus la linha d'aqueste anèl.",
+      "rings": [
+        "Pròche",
+        "Mejan",
+        "Luènh"
+      ],
+      "people": [
+        "Primièra persona",
+        "Segonda persona"
+      ],
+      "ringHeading": "Anèl",
+      "print": "Imprimir la cibla e la fuèlha de comptatge"
+    },
+    "seasonalPack": {
+      "guidance": "Triatz un mes, imprimissètz sos tres jòcs de papièr, puis faites-ne un, dos o los tres ensemble.",
+      "monthLegend": "Triatz un mes",
+      "months": [
+        "Genièr",
+        "Febrièr",
+        "Març",
+        "Abril",
+        "Mai",
+        "Junh",
+        "Julhet",
+        "Agost",
+        "Setembre",
+        "Octòbre",
+        "Novembre",
+        "Decembre"
+      ],
+      "monthNote": "Cada mes a sas proprias imatges. La pagina s'obrís sus aqueste mes, e podètz triar un autre.",
+      "restDay": "Uèi es un jorn de repaus",
+      "restLine": "Pas de jòcs uèi. Un jorn de repaus es tanben un bon jorn.",
+      "previewHeading": "Los tres jòcs",
+      "puzzles": {
+        "pairs": {
+          "title": "Assortir las parelhas",
+          "how": "Traçatz una linha de cada imatge de la linha de dessús fins a la mesma imatge de la linha de jos.",
+          "describe": "Dos linhas de las mêmas quatre imatges, dins un ordre diferent."
+        },
+        "different": {
+          "title": "Quina es diferenta?",
+          "how": "Entorn-tz l'imatge que es diferenta de las tres autras.",
+          "describe": "Una linha de quatre imatges. Tres son las mêmas, e una es diferenta."
+        },
+        "color": {
+          "title": "Acolorir-la",
+          "how": "Acolorissètz l'imatge coma vos agrada, amb de crayons o de crayons de color.",
+          "describe": "Una grand imatge a acolorir."
+        }
+      },
+      "print": "Imprimir lo paquet d'aqueste mes",
+      "sheetHow": "Imprimissètz una pagina. Faites un, dos o los tres jòcs, dins l'ordre que vos agrada.",
+      "printFooter": "Faites un, dos o los tres. Arrestatz quand vos agrada."
+    },
+    "decorateACard": {
+      "guidance": "Triatz una acasion, puis decorar una carta ensemble amb de crayons o de plumas. I a pas de bona carta.",
+      "occasionLegend": "Triatz una acasion",
+      "occasions": {
+        "birthday": {
+          "label": "Anniversari",
+          "words": "Bon anniversari"
+        },
+        "thank-you": {
+          "label": "Mercé",
+          "words": "Mercé"
+        },
+        "thinking-of-you": {
+          "label": "Pensi a vos",
+          "words": "Pensi a vos"
+        },
+        "new-season": {
+          "label": "Una novèla sason",
+          "words": "Una novèla sason"
+        },
+        "just-because": {
+          "label": "Per lo plaser",
+          "words": "Per lo plaser"
+        }
+      },
+      "stepsHeading": "Coma la decorar ensemble",
+      "steps": {
+        "fold": "Imprimissètz la carta e plegatz-la en dos al long de la linha tirejada, en fasent que lo recte siá a defòra.",
+        "front": "Una persona decora lo recte, al entorn de las paraulas.",
+        "inside": "L'autra persona decora lo vèrs, o vos alternatz sus un costat.",
+        "message": "Escrivètz un messatge ensemble. Una persona pòt escriure mentre l'autra ditz las paraulas.",
+        "stop": "Arrestatz quand vos agrada. I a pas de bona carta, e una simpla es tant bona."
+      },
+      "materials": "Utilizatz de crayons, de crayons de color o de plumas feutre. Res a pas besonh d'èstre talhat, cola o agropat.",
+      "previewLabel": "Un aperçut de la carta plegada en dos. Lo recte di {words}, amb un quadre simple de fuèlhas e d'estelas. Lo vèrs a de linhas per un messatge e una linha per De.",
+      "from": "De",
+      "sheetHow": "Plegatz la carta per la mitat, al long de la linha tirada, amb lo davant a l'extèrn. Escrivètz lo messatge al darrèr.",
+      "rulesHeading": "Per a dos personas",
+      "sheetRules": [
+        "Alternatz, o partissètz lo trabalh : una persona decòra lo davant, l'autra lo darrèr.",
+        "Escrivètz lo messatge ensems, o una persona escriu çò que l'autra dis.",
+        "Cada persona pòt s'arrestar quand vòl. I a pas de bona carta."
+      ],
+      "print": "Imprimir la carta"
+    },
+    "storyDice": {
+      "guidance": "Agachatz las imatges e contatz una istòria en las utilizant, dins l'òrdre que volètz. I a pas de bona istòria.",
+      "countLegend": "Nombre de dats",
+      "count": "{n} dats",
+      "roll": "Tornar lançar",
+      "pass": "Passar",
+      "passed": "Passar es correcte. La persona seguenta pòt començar, o podètz tornar lançar.",
+      "rolled": "Imatges novèlas : {names}.",
+      "tapped": "{name}. Començatz amb aquesta, o amb una autra."
+    },
+    "wordPicture": {
+      "guidance": "Tocatz una imatge, puèi lo mot que la nomena. O tocatz un mot, puèi sa imatge.",
+      "countLegend": "Nombre d'imatges",
+      "count": "{n} imatges",
+      "picturesGroup": "Imatges",
+      "wordsGroup": "Mots",
+      "readWord": "Legir a votz naut : {name}",
+      "next": "Imatges novèlas",
+      "putBack": "Tornar metre",
+      "pickWord": "Ara tocatz lo mot que correspond.",
+      "pickPicture": "Ara tocatz la imatge que correspond.",
+      "fit": "Òc, aqueste mot correspond a {name|lower}.",
+      "newSet": "Vaquí un nòu jòc d'imatges.",
+      "restarted": "Tornam al començament. Cada imatge e cada mot son tornats desliats.",
+      "restored": "Tornat metre. Las parelhas acordadas son tornadas mostrar.",
+      "all": "Cada mot a sa imatge."
+    },
+    "colorMatch": {
+      "guidance": "Agachatz la color e son nom, puèi tocatz cada imatge que n'es de color.",
+      "target": "Color : {color|lower}. Tocatz cada imatge de color {color|lower}.",
+      "countLegend": "Nombre d'imatges",
+      "count": "{n} imatges",
+      "found": "Òc, lo {name|lower} es de color {color|lower}.",
+      "named": "Lo {name|lower} es de color {color|lower}.",
+      "all": "Aquelas son totas las imatges de color {color|lower}.",
+      "shown": "Vaquí las imatges de color {color|lower}.",
+      "show": "Mostrar-las",
+      "next": "Un autre color",
+      "names": {
+        "red": "Roge",
+        "orange": "Taronja",
+        "yellow": "Jaune",
+        "green": "Verd",
+        "blue": "Blau"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tocatz una mitat a esquèrra, puèi la mitat a drecha que i correspond.",
+      "countLegend": "Nombre d'imatges",
+      "count": "{n} imatges",
+      "leftGroup": "Mitats esquèrras",
+      "rightGroup": "Mitats drechas",
+      "left": "Mitat esquèrra del {name|lower}",
+      "right": "Mitat drecha del {name|lower}",
+      "joined": "Ajustadas",
+      "pickRight": "Ara tocatz la mitat a drecha que i correspond.",
+      "pickLeft": "Ara tocatz la mitat a esquèrra que i correspond.",
+      "fit": "Òc, aquelas doas fan lo {name|lower}.",
+      "apart": "Aquelas doas se ajustan pas. Ensajatz-ne una autra.",
+      "all": "Cada imatge es entièra.",
+      "shown": "Vaquí las imatges, ajustadas.",
+      "show": "Mostrar-me",
+      "next": "Un autre jòc"
+    },
+    "colorByNumber": {
+      "guidance": "Causissètz una color dins la lista, puèi emplenatz un carrat amb. Qualsavol color es bona.",
+      "sizeLegend": "Talha de la quadrícula",
+      "size": "{n} per {n}",
+      "keyLegend": "Colors",
+      "colors": [
+        "Jaune",
+        "Taronja",
+        "Verd",
+        "Violet"
+      ],
+      "motifs": {
+        "house": "un ostal",
+        "flower": "una flor",
+        "heart": "un còr",
+        "tree": "un arbre",
+        "boat": "un velièr",
+        "pot-plant": "una planta dins un pòt"
+      },
+      "region": "Quadrícula d'imatge, {n} per {n}. Se desplaça de costat se l'ecran es estret.",
+      "cell": "Numèro {number}, linha {row}, colomna {column}, {color}",
+      "empty": "vuèit",
+      "chose": "{name} causit. Tocatz un carrat per l'emplenar.",
+      "painted": "{name} en linha {row}, colomna {column}.",
+      "sheet": "Cada carrat a la color de son numèro. Vaquí l'imatge de la fulha : {name}.",
+      "own": "Cada carrat es emplenat. Aquesta es vòstra pròpria imatge.",
+      "fillAll": "Emplenar amb los numèros",
+      "filledAll": "Cada carrat vuèit a ara la color de son numèro.",
+      "clear": "Efacèr",
+      "cleared": "La quadrícula es netejada.",
+      "next": "Una autra imatge",
+      "fresh": "Vaquí una autra imatge de colorejar."
+    },
+    "patternMaker": {
+      "guidance": "Tocatz un carrat per cambiar sa color. Vòstre motiu se mena al costat. Res de çò que faites es salvat ni mandat.",
+      "sizeLegend": "Talha del carrèu",
+      "size": "{n} per {n}",
+      "keyLegend": "Colors, dins l'ordre que cambia un tocar",
+      "colors": [
+        "Jaune",
+        "Taronja",
+        "Verd",
+        "Violet"
+      ],
+      "tileLabel": "Vòstre carrèu",
+      "region": "Vòstre carrèu, {n} per {n}. Se desplaça de costat se l'ecran es estret.",
+      "patternLabel": "Vòstre motiu",
+      "pattern": "Vòstre motiu : vòstre carrèu repetit {n} de travèrs e {n} en bas.",
+      "square": "Linha {row}, colomna {column}, {color}",
+      "changed": "La linha {row}, colomna {column} es ara {color}.",
+      "cleared": "Lo carrèu es net. Podètz lo tornar metre.",
+      "surprise": "Sorprenètz-me",
+      "surprised": "Vaquí un carrèu nòu. Podètz tornar metre l'ancian.",
+      "putBack": "Tornar metre",
+      "restored": "Vòstre carrèu es tornat com èra.",
+      "print": "Imprimir mon motiu",
+      "sheetTitle": "Mon motiu"
+    },
+    "buildTogether": {
+      "guidance": "Alternatz per metre una pèça dins un endreit vuèit. Cadun a sa pròpria color. Res de çò que faites es salvat ni mandat.",
+      "sizeLegend": "Talha de la quadrícula",
+      "size": "{n} per {n}",
+      "people": [
+        "Primièra persona",
+        "Segonda persona"
+      ],
+      "colorLegend": "La color de {person}",
+      "colors": [
+        "Jaune",
+        "Taronja",
+        "Verd",
+        "Violet"
+      ],
+      "inUse": "Utilizada",
+      "turn": "Vòstre torn, {person|lower}",
+      "yourColor": "Vòstra color es {color|lower}.",
+      "built": "Bastit ensems. Vaquí la figura que vosautres dos avètz fabricada.",
+      "gridLabel": "La quadrícula comuna",
+      "region": "La quadrícula comuna, {n} per {n}. Se desplaça de costat se l'ecran es estret.",
+      "cellEmpty": "Linha {row}, colomna {column}, vuèita",
+      "cellFilled": "Linha {row}, colomna {column}, {color}, metuda per la {person|lower}",
+      "placed": "La linha {row}, colomna {column} es ara {color}. Vòstre torn, {next|lower}.",
+      "placedLast": "La linha {row}, colomna {column} es ara {color}. Bastit ensems.",
+      "taken": "La linha {row}, colomna {column} a ja una pèça. Causissètz un endreit vuèit.",
+      "pass": "Passar",
+      "passed": "Passar es correcte. Vòstre torn, {person|lower}.",
+      "takeBack": "Retirar la darrièra pèça",
+      "takeBackPass": "Anular lo passar",
+      "tookBack": "La pèça es retirada. Vòstre torn, {person|lower}.",
+      "tookBackPass": "Lo passar es anulat. Vòstre torn, {person|lower}.",
+      "colorChanged": "{person} a ara {color|lower}.",
+      "restarted": "La quadrícula es vuèita. Vòstre torn, {person|lower}.",
+      "print": "Imprimir la quadrícula",
+      "sheetTitle": "Bastir ensems",
+      "sheetHelp": "Alternatz. Dins un carrat vuèit, cada persona traça sa pròpria forma amb son pròpri crayon.",
+      "sheetKey": "{person} : {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tocatz una pèça, puèi tocatz l'endreit de l'imatge ont va. Res de çò que faites es salvat ni mandat.",
+      "hints": "Mostrar las linhas d'ajuda",
+      "pictureLine": "Imatge : {picture}.",
+      "pictures": {
+        "house": "ostal",
+        "boat": "barca",
+        "tree": "arbre",
+        "fish": "peis",
+        "cat": "gat",
+        "rocket": "fusada"
+      },
+      "outlineLabel": "Contorn : {picture}. Tocatz un espaci per i metre la pèça causida.",
+      "trayHeading": "Las pèças",
+      "pieces": {
+        "large-triangle": "Triangle long",
+        "small-triangle": "Triangle petit",
+        "square": "Quadrat",
+        "parallelogram": "Paralelograma",
+        "rectangle": "Rectangle"
+      },
+      "shapes": {
+        "large-triangle": "un triangle long",
+        "small-triangle": "un triangle petit",
+        "square": "un quadrat",
+        "parallelogram": "un paralelograma",
+        "rectangle": "un rectangle"
+      },
+      "chosenLabel": "Causida",
+      "spaceEmpty": "Espaci {n}, {shape}, vuèit",
+      "spaceFilled": "Espaci {n}, {shape}, a sa pèça. Tocatz per tornar prendre la pèça.",
+      "chosen": "{piece} es causida. Ara tocatz un espaci de l'imatge.",
+      "unchosen": "Lo tròç es pas mai causit.",
+      "placed": "Lo tròç es en l’espaci {n}.",
+      "complete": "La {picture} es acabada.",
+      "different": "Aquel tròç es pas la meteissa fòrma qu’aquel espaci. Ensajatz un autre espaci.",
+      "needPiece": "Causissètz d’abord un tròç de la plateta.",
+      "filled": "Aquel espaci a ja son tròç. Tocatz-lo per tornar prendre lo tròç.",
+      "tookBack": "Lo tròç es tornat dins la plateta.",
+      "cleared": "Los tròces son tornats dins la plateta. Metètz-los tornarmai se avètz cambiat d’avís.",
+      "restored": "Los tròces son tornats dins l’imatge.",
+      "next": "Aquò es una {picture}.",
+      "putBack": "Tornar metre",
+      "another": "Una autra fòrma",
+      "print": "Imprimir aquesta fòrma",
+      "sheetTitle": "Formas tranquilas",
+      "sheetHow": "Colorissètz los tròces, o decopatz-los per los far entrar dins lo contorn. Un adulte pòt far lo decopatge.",
+      "sheetPieces": "Los tròces, de la meteissa talha que lo contorn"
+    },
+    "picnicPlanner": {
+      "guidance": "Tocatz una imatge per la metre dins lo panièr de pic-nic, e tocatz-la dins lo panièr per la tirar fòra. Lo panièr ne pòt contenir sièis.",
+      "guidancePlay": "Tocatz doas imatges que son parièras. Las imatges demoran visiblas, e i a pas de temps.",
+      "basketHeading": "Nòstre panièr",
+      "basketLabel": "Lo panièr de pic-nic",
+      "takeOut": "Tirar {picture} del panièr",
+      "inBasket": "Dins lo panièr",
+      "foodHeading": "Manjar",
+      "outingsHeading": "Causas a far",
+      "added": "{picture} es dins lo panièr.",
+      "removed": "{picture} es pas mai dins lo panièr.",
+      "already": "{picture} es ja dins lo panièr. Tocatz-la aquí per la tirar fòra.",
+      "full": "Lo panièr es plen. Tiratz quicòm per far lo luec.",
+      "summary": "Nòstre pic-nic: {list}.",
+      "summaryNone": "I a pas res dins lo panièr encara.",
+      "and": "e",
+      "play": "Juguem amb nòstre pic-nic",
+      "needTwo": "Causissètz d’abord almens doas causas.",
+      "playAgain": "Tornar jugar",
+      "back": "Tornar al pic-nic",
+      "print": "Imprimir nòstra lista de pic-nic",
+      "cleared": "Lo panièr es voide.",
+      "notice": "Es un plan per parlar. Res es cronometrat, notat ni salvat.",
+      "sheetTitle": "Nòstra lista de pic-nic",
+      "sheetHow": "Marcatz cada causa quand la metètz dins lo panièr. Utilizatz las linhas vuègas per tot autre que volètz pòrtar.",
+      "sheetToPack": "A metre dins lo panièr"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Causissètz de dos a dotze de vòstras fotos per començar lo libre.",
+      "guidance": "Virar las pagas ensemble, amb los botons o las tòcas de flècha Gauche e Dreita. Ajustatz unas paraulas jos una foto se volètz. Res de lo que fasètz es salvat ni mandat.",
+      "lookGuidance": "Agachatz cada pagina ensemble. Podètz parlar o simplament agachar.",
+      "intro": "Causissètz de dos a dotze fotos d’aqueste aparelh. Cada una devenguèt una pagina d’un libre que podètz virar ensemble.",
+      "consent": "Utilizatz vòstras pròprias fotos de familha. Demandatz abans d’utilizar una foto de qualqu’un que pot pas dire òc.",
+      "privacy": "Vòstras fotos demoran sus aqueste aparelh. Son pas mandadas ni salvadas.",
+      "choose": "Causir las fotos",
+      "chooseDifferent": "Causir d’autras fotos",
+      "backToBook": "Tornar al libre",
+      "backToChoose": "Tornar a la causida de fotos",
+      "needTwo": "Causissètz almens doas fotos, se vos plai.",
+      "usingFirst": "Utilizacion de las {max} primièras fotos.",
+      "cleared": "Lo libre es vuèjat. Causissètz de fotos per tornar començar.",
+      "moved": "Mes a la pagina {n}.",
+      "pageOf": "Pagina {n} de {total}",
+      "lookTogether": "Agachatz ensemble",
+      "leaveLook": "Tornar al libre",
+      "print": "Imprimir lo libre de fotos",
+      "clear": "Vuèjar lo libre",
+      "bookLabel": "Lo libre de fotos de familha",
+      "pagesLabel": "Virar las pagas",
+      "previous": "Pagina precedenta",
+      "next": "Pagina seguenta",
+      "moveEarlier": "Mudar mai aviat",
+      "moveLater": "Mudar mai tard",
+      "captionLabel": "Quauques paraulas per aquesta pagina, se volètz",
+      "captionHelp": "Fins a 80 caractèrs. Las legendas son gardadas sonque sus aquesta pagina e disparisson quand la tampatz.",
+      "sheetTitle": "Nòstre libre de fotos",
+      "sheetHow": "Una foto per pagina, amb sos mots jos ela. Virar las pagas en òrdre e parlatz de cadun.",
+      "sheetEmpty": "Causissètz vòstras fotos sus la pagina dels jòcs per imprimir vòstre pròpri libre, o imprimissètz aquesta pagina vuèja e collatz-hi una foto imprimida.",
+      "sheetFrame": "Collatz aquí una foto imprimida",
+      "sheetWords": "Quauques paraulas per aquesta pagina",
+      "skipped": {
+        "one": "{n} fichièr era pas una foto que podèm utilizar.",
+        "other": "{n} fichièrs eran pas de fotos que podèm utilizar."
+      }
+    },
+    "quietScene": {
+      "guidance": "Agachatz una imatge alcòp. Sonatz Seguent o Precedent quand siatz prèst. Res se bola sol.",
+      "next": "Imatge seguenta",
+      "previous": "Imatge precedenta",
+      "bigPicture": "Imatge mai granda",
+      "showEverything": "Afichar tot",
+      "first": "Aquesta es la primièra imatge.",
+      "last": "Aquesta es la darrièra imatge.",
+      "lines": {
+        "sunrise": "Lo soleu se lèva sus la campanha.",
+        "window-with-birds": "Ocells defòra la fenèstra.",
+        "vase-of-flowers": "Un vasièr de flors sus la taula.",
+        "teacup": "Una tassa de tè pròche la fenèstra.",
+        "tree": "Un arbre que se dreiça dins lo jardin.",
+        "sailboat": "Un veler sus l’aiga.",
+        "lighthouse": "Un far pròche de la mar.",
+        "rainbow": "Un arc de Sant Martin après la plúvia.",
+        "moon": "La luna dins lo cèl de nuèch.",
+        "daisies": "Un bocin de margaridas dins l’èrba.",
+        "rowing-boat": "Un bat a rems sus una aiga calma.",
+        "potted-plant": "Una planta verda dins un pòt."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Virats-vos. Tocatz un decopat, puis tocatz un luec vuèjs per lo metre aquí. Res de lo que fasètz es salvat ni mandat.",
+      "people": [
+        "Primièra persona",
+        "Segonda persona"
+      ],
+      "marks": [
+        "un cercle",
+        "un quadrat"
+      ],
+      "turn": "Lo torn vòstre, {person|lower}.",
+      "marked": "Vòstres tròces son marcats amb {mark}.",
+      "boardLabel": "Lo tablèu comun",
+      "placeEmpty": "Luec {n}, vuèjs",
+      "placeFilled": "Luec {n}, {picture|lower}, metut per {person|lower}",
+      "trayHeading": "Los decopats",
+      "chosenLabel": "Causit",
+      "chosen": "{picture} es causit. Ara tocatz un luec vuèjs.",
+      "unchosen": "Lo decopat es pas mai causit.",
+      "needCutout": "Causissètz d’abord un decopat, puis tocatz un luec vuèjs.",
+      "filled": "Lo luec {n} a ja una imatge. Causissètz un luec vuèjs.",
+      "placed": "{picture} es al luec {n}. Lo torn vòstre, {next|lower}.",
+      "full": "Cada luec a una imatge. Tiratz-ne una per la cambiar, o recomençatz.",
+      "pass": "Passar",
+      "passed": "Passar es pas un problèma. Lo torn vòstre, {person|lower}.",
+      "takeBack": "Tornar prendre l’darrièr tròç",
+      "takeBackPass": "Tornar prendre lo passatge",
+      "tookBack": "Lo tròç es tornat prendre. Lo torn vòstre, {person|lower}.",
+      "tookBackPass": "Lo passatge es tornat prendre. Lo torn vòstre, {person|lower}.",
+      "restarted": "Lo tablèu es vuèjs. Lo torn vòstre, {person|lower}.",
+      "putBack": "Tornar metre",
+      "putBackDone": "Los tròces son tornats sul tablèu.",
+      "another": "Un autre jòc d’imatges",
+      "anotherSet": "Un nòu jòc de decopats es dins la plateta. Los tròces del tablèu demoran a lor plaça.",
+      "print": "Imprimir lo tablèu",
+      "sheetTitle": "Tablèu de collatge",
+      "sheetHow": "Decopatz las imatges e virats-vos per las pausar sul tablèu. Un adulte pòt far lo decopatge.",
+      "sheetTray": "Las imatges a decopar"
+    },
+    "gardenPlanner": {
+      "guidance": "Tocatz una imatge, puis tocatz un bancal per la i metre. Tocatz un bancal que a una imatge, sens rien causir, per la vuidar.",
+      "bedsLabel": "Los bancals del jardin",
+      "bedEmpty": "Bancal {n}, vuèjs",
+      "bedFilled": "Bancal {n}, {picture|lower}",
+      "plantsHeading": "Plantas",
+      "extrasHeading": "Mas del jardin",
+      "chosenLabel": "Causit",
+      "chosen": "{picture} es causit. Ara tocatz un bancal.",
+      "unchosen": "Cap d’imatge es causida.",
+      "needPicture": "Causissètz primièr una imatge, puei tocatz una parcela.",
+      "planted": "{picture} es dins la parcela {n}.",
+      "replaced": "{picture} pren la plaça de la imatge de la parcela {n}.",
+      "cleared": "La parcela {n} es vueja. La poscatz tornar garnir se volètz tornar la imatge.",
+      "restarted": "Totas las parcelas son vuejas.",
+      "putBack": "Tornar metre",
+      "putBackDone": "Las imatges son tornadas dins lor parcelas.",
+      "summaryHeading": "Mon jardin",
+      "summary": "Vòstre plan a {list}.",
+      "summaryNone": "Cap d'imatge es pas encara dins una parcela.",
+      "and": "e",
+      "print": "Imprimir lo plan",
+      "sheetTitle": "Nòstre plan de jardin",
+      "sheetHow": "Las parcelas mostran las imatges causidas sus l'ecran. Dessenhatz dins las parcelas vuejas se volètz.",
+      "sheetNotes": "Notas",
+      "notice": "Es un plan d'imatges per parlar, pas de conselhs de plantacion."
+    },
+    "coloringWall": {
+      "guidance": "Causissètz una imatge e lo nombre de paginas. Imprimissètz lo mur, e cada persona colora una o mai de paginas. Res es cronometrat, notat ni salvat.",
+      "pictureLegend": "Imatge",
+      "sizeLegend": "Nombre de paginas",
+      "sizes": {
+        "2x2": "4 paginas (2 per 2)",
+        "3x2": "6 paginas (3 per 2)",
+        "3x3": "9 paginas (3 per 3)"
+      },
+      "previewLabel": "La {picture|lower} partida en {n} paginas, {across} de larg e {down} d'aut. Cada pagina a una etiqueta dins son canton.",
+      "previewCaption": "La imatge amb las linhas de las paginas e las etiquetas dessenhadas dessús.",
+      "labelsNote": "Las lletras van de long del mur e los nombres van a travèrs, donc A1 es la pagina de dalt a esquèrra.",
+      "wallHeading": "Coma assemblar lo mur",
+      "steps": [
+        "Imprimissètz totas las paginas. La primièra pagina es aquestas instruccions e un plan del mur.",
+        "Cada persona prend una o mai de paginas e las colora.",
+        "Las colors e los estils an pas besonh d'èsser pariers. Cada pagina fa partida de la mema imatge.",
+        "Disposatz las paginas segon lors etiquetas, puei unissetz-las amb de scòtch al darrièr.",
+        "Put the wall up where everyone can see it."
+      ],
+      "mapLabel": "Un plan del mur: {down} rengs de {across} paginas, etiquetadas de A1 fins a {last}.",
+      "edgeNote": "La linha tirejada marca la bordura de cada pagina. Disposatz las paginas bordura contra bordura al long d'ela, o recobriu-la un pauc.",
+      "pictureLine": "Imatge: {picture}. Aqueste mur fa {n} paginas: {across} de larg e {down} d'aut.",
+      "print": "Imprimir lo mur"
+    },
+    "findTogether": {
+      "guidance": "Parlatz a torn. Quand vos tocatz, tornatz dos cartas per cercar una parelha. Cercatz las parelhas ensems.",
+      "sizeLegend": "Nombre de cartas",
+      "size": "{n} cartas",
+      "viewLegend": "Coma jogar",
+      "viewShowing": "Jogar amb las imatges visiblas",
+      "viewHidden": "Cartas cara en pas",
+      "people": [
+        "Primièra persona",
+        "Segonda persona"
+      ],
+      "turn": "Torn: {person}",
+      "turnDone": "Totas las parelhas son trobadas.",
+      "tally": "Parelhas trobadas ensems: {n}",
+      "cardNamed": "{name}, carta {n}",
+      "cardFaceDown": "Carta {n}, cara en pas",
+      "first": "{name}. Ara tornatz una segonda carta.",
+      "found": "{name}: una parelha, trobada ensems. Ara es lo torn de la {next|lower}.",
+      "allTogether": "Ensems avètz trobat totas las parelhas.",
+      "different": "{a} e {b} son pas parièrs. Prenètz vòstre temps, puei quichatz « Tornar-las ».",
+      "waiting": "Quichatz « Tornar-las » quand sètz prèst. Puei lo torn passa.",
+      "turnedBack": "Tornadas. Ara es lo torn de la {person|lower}.",
+      "passed": "Passar es plan. Ara es lo torn de la {person|lower}.",
+      "turnBack": "Tornar-las",
+      "pass": "Passar",
+      "playAgain": "Tornar jogar"
+    },
+    "drawingDuet": {
+      "guidance": "Parlatz a torn amb una linha cadun, puei passatz l'estilon. Qualqu'un pòt passar. Res es mandat enlòc. Una imatge quita aquesta pagina solament se la salvatz.",
+      "people": [
+        "Primièra persona",
+        "Segonda persona"
+      ],
+      "colorLegend": "Color: {person}",
+      "colors": [
+        "Groc",
+        "Taronja",
+        "Verd",
+        "Violet"
+      ],
+      "turn": "Torn: {person}",
+      "penColor": "Color de l'estilon: {color}.",
+      "canvasLabel": "Dessenh partejat, {n} linhas fins ara",
+      "canvasLabelOne": "Dessenh partejat, {n} linha fins ara",
+      "keys": "Las tòcas de fletxa mòvon lo punt de l'estilon sul dessenh. L'espaci pausa l'estilon o lo levèt.",
+      "penDown": "Estilon pausat",
+      "penUp": "Estilon levat",
+      "pass": "Passar l'estilon",
+      "passed": "Passar es plan. Ara es lo torn de la {person|lower}.",
+      "takeBack": "Retirar ma darrièra linha",
+      "tookBack": "La darrièra linha de la {person|lower} es retirada.",
+      "noLine": "I a pas de linha de la {person|lower} a retirar.",
+      "restarted": "La fulha es vueja. La primièra persona a lo torn. Tornatz-la metre se o avètz pas volgut.",
+      "putBack": "Tornar metre",
+      "restored": "Las linhas son tornadas coma èran.",
+      "save": "Salvar la imatge",
+      "saved": "Vòstra imatge es preparada. Utilizatz lo ligam de telecargament per la gardar sus aqueste aparelh.",
+      "download": "Telecargar drawing-duet.png",
+      "print": "Imprimir la version en papièr",
+      "sheetTitle": "Dueto de dessenh",
+      "paperRules": "Dos persones, una fulha, dos estilons. Parlatz a torn: una linha o una forma cadun, puei passatz l'estilon. Qualqu'un pòt passar. I a pas de bon dessenh."
+    },
+    "colorWash": {
+      "guidance": "Pintatz de color doç sus la pagina, un lavatge a la fes. Levatz lo pinçèl per arrestar, e arrestatz quand volètz. Res es salvat ni mandat.",
+      "colorLegend": "Color del lavatge",
+      "sizeLegend": "Talha del pinçèl",
+      "colors": [
+        "Groc",
+        "Taronja",
+        "Verd",
+        "Violet"
+      ],
+      "sizes": {
+        "wide": "Larg",
+        "veryWide": "Fòrça larg"
+      },
+      "color": "Color del lavatge: {color}.",
+      "brushDown": "Pinçèl pausat",
+      "brushUp": "Pinçèl levat",
+      "keys": "Las tòcas de fletxa mòvon l'anèl del pinçèl sus la pagina. L'espaci pausa o levat lo pinçèl.",
+      "canvasLabel": "Una pagina de lavatges de color doç",
+      "fresh": "Una pagina novèla",
+      "freshMessage": "Una pagina novèla.",
+      "putBack": "Tornar metre",
+      "restored": "La pagina es tornada."
+    },
     "sortTogether": {
       "guidance": "Tocatz una imatge, puei tocatz lo panièr ont va.",
       "restart": "Imatges novèlas",
@@ -71,6 +719,10 @@
       "hint": "Podèm metre {name|lower} dins lo panièr \"{basket}\". Tocatz aqueste panièr per i metre.",
       "placed": "{name|lower} es dins lo panièr \"{basket}\".",
       "sorted": "Tot es triat. Agachatz los paniers amassa, o provatz un autre tèma.",
+      "largerTargets": "Cibles mai grandas",
+      "largerOn": "Las cibles mai grandas son activadas. Res a pas bougat.",
+      "largerOff": "Las cibles mai grandas son desactivadas. Res a pas bougat.",
+      "largerOnNewRound": "Las cibles mai grandas son activadas, amb dos panièrs. Vaquí de novèlas imatges de triar.",
       "basket": {
         "one": "Panièr {basket}, {count} imatge a dins",
         "other": "Panièr {basket}, {count} imatges a dins"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Tocatz un tròç, puei un autre. Càmbian de plaça.",
-      "restart": "Tornar mesclar",
+      "restart": "Mix up again",
       "pictureLegend": "Imatge",
       "pictures": {
         "sailboat": "Velièr",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "L'imatge sencera : {name}",
       "guideText": "Aquí es coma es l'imatge quand es sencera.",
+      "ownChoose": "Utilizar la mia pròpria foto",
+      "ownChange": "Causir una autra foto",
+      "ownBack": "Tornar a nòstras imatges",
+      "ownPrivacy": "La vòstra foto demora sus aqueste aparelh. Es pas mandada ni salvada.",
+      "ownConsent": "Utilizatz vòstras proprias fotos. Demandatz abans d'utilizar la foto de qualqu'un que pòt pas dire òc.",
+      "ownWorking": "La vòstra foto es en preparacion.",
+      "ownNotUsable": "Aqueste fichièr se pòt pas utilizar. Causissètz un fichièr de foto, coma un JPEG o un PNG.",
+      "ownAlt": "La vòstra foto",
+      "ownPiece": "Pèça {n}, {place}",
+      "ownWhole": "La vòstra foto es tornada entièra. Tornatz la melhar quand volètz.",
+      "ownSheetTitle": "La vòstra foto en pèças",
+      "ownSheetHow": "Talhatz de long de las linhas. Melhatz las pèças, puei metètz-ne dos a la fes fins que la imatge siá entièra.",
       "piece": "Tròç en {place}",
       "pieceInPlace": ", a la bona plaça",
       "piecePickedUp": ", ramassat",
@@ -122,7 +786,7 @@
         "bas a drecha"
       ],
       "done": "L'imatge es tornada entièra. Tornatz jogar o prenètz un repaus.",
-      "playAgain": "Tornar mesclar"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Legissètz lo provèrbi amassa, puei tocatz lo mot que l'acabe.",
@@ -190,6 +854,14 @@
       "guidance": "Legissètz la carta a votz auta. I a pas de bona responsa.",
       "position": "Carta {n} de {total}",
       "themeLegend": "Tèma",
+      "showPrompt": "Mostrar una pròpausta de conversa",
+      "bigPicture": "Gran imatge, per un grop",
+      "passNote": "Qualqu'un pòt passar.",
+      "groupTitle": "Passar una carta dins un grop",
+      "groupSit": "Asseguèt-vos en rond, aont tot lo monde pòt veire la imatge. La persona que ten la carta, o l'aparelh amb la gran imatge, legís primièr la pròpausta a votz auta.",
+      "groupPass": "Puei passatz la carta a la persona seguenta. Cadun dis un mot o una frasa sus la imatge, puei la passa.",
+      "groupNoSpeech": "Passar la carta es totjorn permés. Una persona pòt passar sens dire res, e degun a pas a dire perque.",
+      "groupEnd": "La ronda se tèrmina quand la carta a fargat lo cercle, o quand lo grop n'a pro. Degun guanha. Arrèsta quand lo grop lo vòl.",
       "next": "Carta seguenta",
       "previous": "Carta precedenta",
       "print": "Imprimir totas las cartas",
@@ -252,6 +924,20 @@
       "started": "Començat. Inspiratz quand lo cercle grossís.",
       "stopped": "Arrestat.",
       "finished": "Aquò fa sièis respiracions lentas. Tornatz començar quand vos agrada."
+    },
+    "storyChain": {
+      "guidance": "Parlatz a tor de ròtle: una frasa cadun, ajustatz l'imatge seguenta.",
+      "passNote": "Dits vòstra frasa a votz auta. Res es tapat ni gardat. Cadun pòt passar.",
+      "chainLabel": "La cadena fins ara",
+      "item": "Imatge {n} : {name}",
+      "add": "Ajustar una imatge",
+      "fullAdd": "La cadena es plena. Començar una cadena nova",
+      "newChain": "Començar una cadena nova",
+      "takeOff": "Tirar la darrièra",
+      "added": "La {name|lower} es ara a la fin de la cadena.",
+      "removed": "La {name|lower} es fòra de la cadena.",
+      "fresh": "Una cadena nova, que comença amb la {name|lower}.",
+      "full": "La cadena a las vuechs imatges. Contatz tota l'istòria, o començatz una cadena nova."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Nívol de plueja",
     "snowflake": "Flocon de nèu",
     "kite": "Papagai",
-    "sunrise": "Lever de solelh sus los costièrs"
+    "sunrise": "Lever de solelh sus los costièrs",
+    "decorated-keepsake-box": "Bóstia de souvenir decorada",
+    "painted-plant-pot": "Pòt de planta pintat amb d'èrbas",
+    "repeating-pattern-sheet": "Fuèlha de motius repetits",
+    "music-drawn-lines": "Linhas traçadas sus la musica",
+    "paper-boat-afloat": "Barquet de papièr sus l'aiga",
+    "folded-towel-stack": "Pila de tovalhons plegats",
+    "hand-massage-with-lotion": "Man pausada sus una tovalha, amb de crèma",
+    "open-photo-album": "Album de fotos dubèrt",
+    "button-flower-card": "Flor de bodons sus una carta",
+    "blue-torn-paper-collage": "Collatge de papièr blau esquinçat",
+    "family-tree-of-hands": "Arbre genealogic fach amb las mans",
+    "open-greeting-card": "Carta de felicitacions dubèrta amb un còr",
+    "lavender-sachet": "Sachet de lavanda ligat amb un rubban",
+    "memory-collage-of-photos": "Collatge de fotos de familha",
+    "paper-chain-garland": "Guirlanda de cadena de papièr",
+    "open-songbook-with-notes": "Cançonièr dubèrt amb de notas",
+    "photo-postcard-with-stamp": "Carta postala amb una foto e un timbre",
+    "pine-cone-bird-feeder": "Mangeoire d'aucèls de pinha penjada a una branca",
+    "playlist-phone-and-card": "Telefòn amb lista de lectura e carta de cançon",
+    "sealed-rice-shaker": "Agitaire de ris tampat",
+    "texture-board-with-scraps": "Tablèu de tèxturas amb de restes",
+    "painted-garden-stone": "Pèira de jardin pintada",
+    "shared-painted-canvas": "Tela pintada en comun",
+    "watercolor-washes-sheet": "Lavatge d'aquarèla sus papièr",
+    "seedling-in-pot": "Plantons dins un pòt",
+    "pressed-leaves-in-book": "Fuèlhas secas dins un libre",
+    "printed-leaves-sheet": "Fuèlha d'impressions de fuèlhas",
+    "pinch-pot-clay-bowl": "Pòt pinçat",
+    "table-sketch-pencil": "Esquiça al crayon d'una tassa",
+    "buttons-in-muffin-tin": "Bodons triats dins una mola a muffins",
+    "family-recipe-book": "Libre de recèptas de familha",
+    "drum-with-beat-marks": "Tambor de taula amb baquetas",
+    "torn-paper-flower": "Mosaïc de flor de papièr esquinçat",
+    "window-with-birds": "Fenèstra amb aucèls",
+    "woven-paper-mat": "Tapís de papièr tissat",
+    "yarn-ball-with-thread": "Pelòta de lana",
+    "letter-and-envelope": "Letra dins una enveloppa"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Defòra"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fruchas",
+        "animals": "Animals",
+        "travel": "Maniòcas de viatjar",
+        "flowers": "Flors",
+        "hot-drinks": "Causas per una beguda caulda",
+        "weather": "Sòrtas de temps",
+        "baked": "Causas cuèchas al forn"
       }
     }
   }

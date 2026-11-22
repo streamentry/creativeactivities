@@ -5,6 +5,13 @@
       "stopReading": "読み上げを止める",
       "region": "ゲーム",
       "restart": "最初から",
+      "rest": "今は休みましょう",
+      "restingTitle": "休憩中",
+      "restingText": "ゆっくりで大丈夫です。このページでお続きの位置を保存しておきます。",
+      "resume": "続ける",
+      "placeText": "前回は途中で止まっていました。そこから続けるか、最初からやり直せます。",
+      "placeResume": "続ける",
+      "placeFresh": "最初から",
       "soundOn": "やさしい音：オン",
       "soundOff": "やさしい音：オフ",
       "done": "今日はここまで",
@@ -35,12 +42,26 @@
       "guidanceHidden": "カードを2枚タップして表に返します。同じ絵を2枚さがしましょう。",
       "restart": "新しい絵",
       "sizeLegend": "カードの枚数",
-      "size": {"other": "{n}枚"},
+      "size": {
+        "other": "{n}枚"
+      },
       "viewLegend": "遊び方",
       "viewShowing": "絵を見せる",
       "viewHidden": "絵を伏せる",
       "playAgain": "新しい絵でもう一度遊ぶ",
-      "talk": "絵についていっしょに話す"
+      "talk": "絵についていっしょに話す",
+      "modeLegend": "絵の選び方",
+      "modePlay": "好きな絵",
+      "modeDaily": "今日のカード",
+      "dayLegend": "日付の選択",
+      "dayHelp": "同じ日には、みなさん同じ絵が出ます。前の日のカードもここから選べます。日を飛ばしても、損にはなりません。",
+      "guidanceDaily": "今日のカードには四組の絵があります。絵を一つ押してから、それと同じ絵をもう一つ押してください。",
+      "restartDaily": "このカードを最初からやり直す",
+      "copy": "この行をコピー",
+      "copied": "コピーしました。どこにも送信されません。",
+      "calendarTitle": "{month}の今日のカード",
+      "calendarHelp": "どの日も、みなさん同じ四つの絵です。採点はなく、できなかった日が記録されることもありません。",
+      "calendarVersion": "バージョン {date}。同じ日には、みなさん同じ絵になります。"
     },
     "choose": {
       "countLegend": "絵の数",
@@ -59,6 +80,634 @@
       "shadowAlt": "合わせる影",
       "foundAlt": "{name}の影"
     },
+    "fourTogether": {
+      "hintLegend": "ヒント",
+      "hintOn": "少し止まったらヒント",
+      "hintOff": "ヒントなし",
+      "guidance": "一緒になるものを{n}つ見つけて、それぞれ押してください。",
+      "countLegend": "絵の数",
+      "count": "{n}つ",
+      "found": "はい、{name|lower}はこのグループに入ります。",
+      "elsewhere": "{name|lower}は別のものと一緒になります。ゆっくり考えてください。",
+      "hint": "ヒント：{theme|lower}を探してみてください。",
+      "together": "これらは一緒になります：{theme}。",
+      "shown": "こちらがグループです：{theme}。",
+      "groupName": "一緒に：{theme}",
+      "show": "グループを見る",
+      "next": "別の組み合わせ"
+    },
+    "oddOneOut": {
+      "hintLegend": "ヒント",
+      "hintOn": "少し止まったらヒント",
+      "hintOff": "ヒントなし",
+      "guidance": "ほかの絵と仲間ではないものを一つ見つけて、押してください。",
+      "countLegend": "絵の数",
+      "count": "{n}つ",
+      "belongs": "{name|lower}はほかの絵と仲間です。ゆっくり考えてください。",
+      "found": "はい、{name|lower}が仲間外れです。ほかの絵は{theme|lower}です。",
+      "shown": "こちらです：{name|lower}。ほかの絵は{theme|lower}です。",
+      "hint": "ヒント：このうち{n}つは{theme|lower}です。",
+      "others": "ほかの絵：{theme}",
+      "show": "見せてください",
+      "next": "別の組み合わせ"
+    },
+    "seatedToss": {
+      "guidance": "テーブルにつき、交互に柔らかい豆袋を大きな的に投げてください。得点は紙に、一緒に書き込みましょう。",
+      "stepsHeading": "進め方",
+      "steps": [
+        "的と得点表を印刷して、テーブルの上に向かい合わせて平らに置きます。",
+        "楽な姿勢で、片側ずつ座ります。交互に、やさしく一度ずつ投げてください。投げたくない場合は、パスしても構いません。",
+        "投げた豆袋がどこかの輪に入ったら、投げた人は、その輪の行にある自分の欄の四角を一つ塗ります。",
+        "やめるときに、よければ一緒に印を見てください。誰も合計を出す必要はありません。",
+        "いつでも、どちらかが準備できたところでやめてください。"
+      ],
+      "safetyHeading": "安全について",
+      "safetyLine": "縫って閉じた袋か、丸めた靴下だけを使い、座ったままにしてください。顔に向けて投げないこと。近くに大人がいてください。小さな部品は、のどに詰まる危険があります。",
+      "flags": [
+        "3歳未満には不向き：小さな部品があります",
+        "口の近くに置かないでください"
+      ],
+      "safety": [
+        "縫い目を閉じた豆袋を選ぶか、きれいな靴下を丸めて使ってください。使う前に、穴や糸のほつれがないか確認し、中身が出ないようにしてください。",
+        "豆、米などの小さな中身は、のどに詰まる危険があります。小さな子どもや、何でも口に入れてしまう人の手の届かないところに置いてください。",
+        "口に入れてしまうおそれがあるときは、手の届く距離にいて、よく見守ってください。",
+        "座ったままでいてください。テーブルの上の的に向けて、やさしく低く投げ、顔には決して向けないでください。"
+      ],
+      "previewLabel": "印刷されるシートの見本です。外側から内側へ「近い」「中くらい」「遠い」と名前のついた三つの輪の的と、一人ひとりの欄がある得点表が描かれ、各輪の行には空の四角が並んでいます。",
+      "sheetHow": "シートをテーブルに平らに置いてください。豆袋がどれかの輪に入ったら、その輪の行にある自分の欄の四角を一つ塗ります。",
+      "rings": [
+        "近い",
+        "中くらい",
+        "遠い"
+      ],
+      "people": [
+        "一人目",
+        "二人目"
+      ],
+      "ringHeading": "輪",
+      "print": "的と得点表を印刷する"
+    },
+    "seasonalPack": {
+      "guidance": "月を選んで、その月の紙のパズルを三つ印刷してください。一つでも、二つでも、三つすべてでも、一緒に取り組めます。",
+      "monthLegend": "月を選ぶ",
+      "months": [
+        "1月",
+        "2月",
+        "3月",
+        "4月",
+        "5月",
+        "6月",
+        "7月",
+        "8月",
+        "9月",
+        "10月",
+        "11月",
+        "12月"
+      ],
+      "monthNote": "月ごとに、それぞれ違う絵があります。このページは今月から始まりますが、ほかの月も選べます。",
+      "restDay": "今日はお休みの日です",
+      "restLine": "今日はパズルはありません。休む日も、よい日です。",
+      "previewHeading": "三つのパズル",
+      "puzzles": {
+        "pairs": {
+          "title": "組み合わせを探す",
+          "how": "上の段の絵から、下の段の同じ絵まで線を引いてください。",
+          "describe": "同じ四つの絵が、順番を変えて二段に並んでいます。"
+        },
+        "different": {
+          "title": "どれが違う？",
+          "how": "ほかの三つと違う絵を丸で囲んでください。",
+          "describe": "四つの絵が一列に並んでいます。三つは同じで、一つだけ違います。"
+        },
+        "color": {
+          "title": "色をぬる",
+          "how": "クレヨンか色鉛筆で、好きな色をぬってください。",
+          "describe": "ぬり絵になった大きな絵が一つあります。"
+        }
+      },
+      "print": "今月のパックを印刷する",
+      "sheetHow": "一枚印刷してください。パズルは一つでも、二つでも、三つすべてでも、好きな順番で取り組めます。",
+      "printFooter": "一つでも、二つでも、三つすべてでも。いつでもやめて構いません。"
+    },
+    "decorateACard": {
+      "guidance": "用途を選んで、クレヨンかペンで一緒にカードを飾ってください。正解のカードはありません。",
+      "occasionLegend": "用途を選ぶ",
+      "occasions": {
+        "birthday": {
+          "label": "お誕生日",
+          "words": "お誕生日おめでとう"
+        },
+        "thank-you": {
+          "label": "ありがとう",
+          "words": "ありがとう"
+        },
+        "thinking-of-you": {
+          "label": "お気持ちを込めて",
+          "words": "あなたのことを想っています"
+        },
+        "new-season": {
+          "label": "新しい季節",
+          "words": "新しい季節"
+        },
+        "just-because": {
+          "label": "特に理由はなくても",
+          "words": "特に理由はなくても"
+        }
+      },
+      "stepsHeading": "一緒に飾る方法",
+      "steps": {
+        "fold": "カードを印刷して、点線に沿って半分に折ってください。表が外側になるようにします。",
+        "front": "一人が、言葉の周りを飾ります。",
+        "inside": "もう一人が裏面を飾るか、片面を交互に飾ってください。",
+        "message": "一緒にメッセージを書いてください。一人が書き、もう一人が言葉を伝えても構いません。",
+        "stop": "いつでもやめて構いません。正解のカードはなく、シンプルなカードでも十分です。"
+      },
+      "materials": "クレヨン、色鉛筆、フェルトペンを使ってください。切ったり、のりで貼ったりする必要はありません。",
+      "previewLabel": "カードを半分に折った見本です。表には{words}と書かれ、葉と星の簡単な枠があります。裏面には、メッセージを書く線と、差出人の「From」の欄があります。",
+      "from": "差出人",
+      "sheetHow": "カードを点線で半分に折ってください。表を外側にします。裏面にメッセージを書いてください。",
+      "rulesHeading": "二人で楽しむ場合",
+      "sheetRules": [
+        "順番に作業するか、分担しましょう。一人が表を、もう一人が裏を飾ります。",
+        "メッセージは一緒に書くか、一人が書き、もう一人が話す内容を書き取ってもかまいません。",
+        "いつでも途中でやめて大丈夫です。正しいカードはありません。"
+      ],
+      "print": "カードを印刷する"
+    },
+    "storyDice": {
+      "guidance": "絵を見て、その絵を使って話を作ってみてください。順番はどうでもかまいません。正しい話はありません。",
+      "countLegend": "サイコロの数",
+      "count": "{n}個",
+      "roll": "もう一度振る",
+      "pass": "パス",
+      "passed": "パスしても大丈夫です。次の人から始めても、もう一度振ってもかまいません。",
+      "rolled": "新しい絵: {names}。",
+      "tapped": "{name}です。この絵から始めても、ほかの絵から始めても構いません。"
+    },
+    "wordPicture": {
+      "guidance": "絵をタップし、その名前の言葉をタップしてください。または、言葉をタップしてから、その絵をタップしてください。",
+      "countLegend": "絵の数",
+      "count": "{n}枚",
+      "picturesGroup": "絵",
+      "wordsGroup": "言葉",
+      "readWord": "声に出して読む: {name}",
+      "next": "新しい絵",
+      "putBack": "元に戻す",
+      "pickWord": "次に、それに合う言葉をタップしてください。",
+      "pickPicture": "次に、それに合う絵をタップしてください。",
+      "fit": "はい、その言葉は{name|lower}の絵に合います。",
+      "newSet": "新しい絵のセットです。",
+      "restarted": "最初に戻りました。すべての絵と言葉が、また自由に動かせる状態です。",
+      "restored": "元に戻しました。組み合わせ済みのペアをもう一度表示しています。",
+      "all": "すべての言葉に絵が合いました。"
+    },
+    "colorMatch": {
+      "guidance": "色とその名前を見てから、その色の絵をすべてタップしてください。",
+      "target": "色は{color|lower}です。{color|lower}の絵をすべてタップしてください。",
+      "countLegend": "絵の数",
+      "count": "{n}枚",
+      "found": "はい、{name|lower}は{color|lower}です。",
+      "named": "{name|lower}は{color|lower}です。",
+      "all": "これで{color|lower}の絵はすべてです。",
+      "shown": "{color|lower}の絵をお見せします。",
+      "show": "見せる",
+      "next": "別の色",
+      "names": {
+        "red": "赤",
+        "orange": "オレンジ",
+        "yellow": "黄色",
+        "green": "緑",
+        "blue": "青"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "左側の半分をタップし、それに合う右側の半分をタップしてください。",
+      "countLegend": "絵の数",
+      "count": "{n}枚",
+      "leftGroup": "左半分",
+      "rightGroup": "右半分",
+      "left": "{name|lower}の左半分",
+      "right": "{name|lower}の右半分",
+      "joined": "つながりました",
+      "pickRight": "次に、それに合う右側の半分をタップしてください。",
+      "pickLeft": "次に、それに合う左側の半分をタップしてください。",
+      "fit": "はい、その2つで{name|lower}になります。",
+      "apart": "その2つは合いません。別のものを試してください。",
+      "all": "すべての絵が一つにそろいました。",
+      "shown": "絵をつなげたものをお見せします。",
+      "show": "見せる",
+      "next": "別のセット"
+    },
+    "colorByNumber": {
+      "guidance": "キーから色を選び、マス目をその色で塗ってください。どの色でもかまいません。",
+      "sizeLegend": "マス目の大きさ",
+      "size": "{n}×{n}",
+      "keyLegend": "色",
+      "colors": [
+        "黄色",
+        "オレンジ",
+        "緑",
+        "紫"
+      ],
+      "motifs": {
+        "house": "家",
+        "flower": "花",
+        "heart": "ハート",
+        "tree": "木",
+        "boat": "帆船",
+        "pot-plant": "鉢植え"
+      },
+      "region": "絵のマス目、{n}×{n}。画面が狭い場合は横にスクロールします。",
+      "cell": "番号{number}、{row}行目、{column}列目、{color}",
+      "empty": "空",
+      "chose": "{name}を選びました。マス目をタップして塗ってください。",
+      "painted": "{name}、{row}行目、{column}列目。",
+      "sheet": "すべてのマス目は、その番号の色で塗られています。シートの絵はこちらです: {name}。",
+      "own": "すべてのマス目が塗られました。これがあなただけの絵です。",
+      "fillAll": "番号どおりに塗る",
+      "filledAll": "空のマス目がすべて、その番号の色で塗られました。",
+      "clear": "消す",
+      "cleared": "マス目を空にしました。",
+      "next": "別の絵",
+      "fresh": "塗り絵の別の絵です。"
+    },
+    "patternMaker": {
+      "guidance": "マス目をタップすると、その色が変わります。隣に模様が広がっていきます。作ったものは保存も送信もされません。",
+      "sizeLegend": "タイルの大きさ",
+      "size": "{n}×{n}",
+      "keyLegend": "色（タップするごとに変わる順番）",
+      "colors": [
+        "黄色",
+        "オレンジ",
+        "緑",
+        "紫"
+      ],
+      "tileLabel": "タイル",
+      "region": "タイル、{n}×{n}。画面が狭い場合は横にスクロールします。",
+      "patternLabel": "模様",
+      "pattern": "模様: タイルを横に{n}回、縦に{n}回並べたものです。",
+      "square": "{row}行目、{column}列目、{color}",
+      "changed": "{row}行目、{column}列目が{color}になりました。",
+      "cleared": "タイルを空にしました。元に戻すこともできます。",
+      "surprise": "おまかせ",
+      "surprised": "新しいタイルができました。前のタイルは元に戻せます。",
+      "putBack": "元に戻す",
+      "restored": "タイルが元どおりに戻りました。",
+      "print": "模様を印刷する",
+      "sheetTitle": "私の模様"
+    },
+    "buildTogether": {
+      "guidance": "交互に、空いているマス目に駒を置いてください。それぞれに自分の色があります。作ったものは保存も送信もされません。",
+      "sizeLegend": "マス目の大きさ",
+      "size": "{n}×{n}",
+      "people": [
+        "一人目",
+        "二人目"
+      ],
+      "colorLegend": "{person}の色",
+      "colors": [
+        "黄色",
+        "オレンジ",
+        "緑",
+        "紫"
+      ],
+      "inUse": "使用中",
+      "turn": "{person|lower}の番です",
+      "yourColor": "あなたの色は{color|lower}です。",
+      "built": "二人で作りました。二人が作った絵はこちらです。",
+      "gridLabel": "共有のマス目",
+      "region": "共有のマス目、{n}×{n}。画面が狭い場合は横にスクロールします。",
+      "cellEmpty": "{row}行目、{column}列目、空",
+      "cellFilled": "{row}行目、{column}列目、{color}、{person|lower}が置いた",
+      "placed": "{row}行目、{column}列目が{color}になりました。{next|lower}の番です。",
+      "placedLast": "{row}行目、{column}列目が{color}になりました。二人で作りました。",
+      "taken": "{row}行目、{column}列目にはすでに駒があります。空いているマス目を選んでください。",
+      "pass": "パス",
+      "passed": "パスしても大丈夫です。{person|lower}の番です。",
+      "takeBack": "最後の駒を取り消す",
+      "takeBackPass": "パスを取り消す",
+      "tookBack": "駒を取り消しました。{person|lower}の番です。",
+      "tookBackPass": "パスを取り消しました。{person|lower}の番です。",
+      "colorChanged": "{person}の色が{color|lower}になりました。",
+      "restarted": "マス目を空にしました。{person|lower}の番です。",
+      "print": "マス目を印刷する",
+      "sheetTitle": "二人で作る",
+      "sheetHelp": "順番に行ってください。空いたマス目には、それぞれが自分のペンで自分の形を描きます。",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "駒をタップし、絵の中で置く場所をタップしてください。作ったものは保存も送信もされません。",
+      "hints": "ヒントの線を表示する",
+      "pictureLine": "これは{picture}です。",
+      "pictures": {
+        "house": "家",
+        "boat": "帆船",
+        "tree": "木",
+        "fish": "魚",
+        "cat": "猫",
+        "rocket": "ロケット"
+      },
+      "outlineLabel": "{picture}の輪郭です。選んだ駒を入れるには、スペースをタップしてください。",
+      "trayHeading": "駒",
+      "pieces": {
+        "large-triangle": "大きい三角形",
+        "small-triangle": "小さい三角形",
+        "square": "正方形",
+        "parallelogram": "平行四辺形",
+        "rectangle": "長方形"
+      },
+      "shapes": {
+        "large-triangle": "大きな三角形",
+        "small-triangle": "小さな三角形",
+        "square": "正方形",
+        "parallelogram": "平行四辺形",
+        "rectangle": "長方形"
+      },
+      "chosenLabel": "選択中",
+      "spaceEmpty": "スペース{n}、{shape}、空",
+      "spaceFilled": "スペース{n}、{shape}、駒が置かれています。タップすると駒を戻します。",
+      "chosen": "{piece}を選びました。絵の中のスペースをタップしてください。",
+      "unchosen": "そのピースはもう選ばれていません。",
+      "placed": "ピースは{n}番のスペースに置かれています。",
+      "complete": "{picture}が完成しました。",
+      "different": "そのピースは、このスペースとは形が違います。別のスペースを試してみてください。",
+      "needPiece": "まず、トレイからピースを選んでください。",
+      "filled": "そのスペースにはもうピースがあります。タップすると、ピースを取り戻せます。",
+      "tookBack": "ピースはトレイに戻りました。",
+      "cleared": "ピースはすべてトレイに戻りました。気が変わったら、もう一度置いてください。",
+      "restored": "ピースは絵の中に戻りました。",
+      "next": "これは{picture}です。",
+      "putBack": "元に戻す",
+      "another": "別の形",
+      "print": "この形を印刷する",
+      "sheetTitle": "やさしい形",
+      "sheetHow": "ピースに色を塗るか、切り抜いて輪郭に合わせてください。切る作業は大人の方がお手伝いできます。",
+      "sheetPieces": "ピース（輪郭と同じ大きさ）"
+    },
+    "picnicPlanner": {
+      "guidance": "絵をタップするとピクニックのバスケットに入ります。バスケットの中の絵をタップすると取り出せます。バスケットには6つまで入ります。",
+      "guidancePlay": "同じ絵を2つタップしてください。絵は表示されたままで、時間は計られません。",
+      "basketHeading": "わたしたちのバスケット",
+      "basketLabel": "ピクニックのバスケット",
+      "takeOut": "{picture}をバスケットから取り出す",
+      "inBasket": "バスケットの中",
+      "foodHeading": "食べ物",
+      "outingsHeading": "してみたいこと",
+      "added": "{picture}がバスケットに入りました。",
+      "removed": "{picture}がバスケットから出ました。",
+      "already": "{picture}はもうバスケットに入っています。バスケットの中の絵をタップすると取り出せます。",
+      "full": "バスケットがいっぱいです。何かを取り出して、場所をあけてください。",
+      "summary": "わたしたちのピクニック：{list}。",
+      "summaryNone": "バスケットにはまだ何も入っていません。",
+      "and": "と",
+      "play": "ピクニックのバスケットで遊びましょう",
+      "needTwo": "まず、2つ以上選んでください。",
+      "playAgain": "もう一度遊ぶ",
+      "back": "ピクニックに戻る",
+      "print": "ピクニックのリストを印刷する",
+      "cleared": "バスケットは空になりました。",
+      "notice": "これは話し合うための計画です。時間は計られず、評価されず、保存もされません。",
+      "sheetTitle": "わたしたちのピクニックのリスト",
+      "sheetHow": "詰めたものにチェックを入れてください。ほかに持っていきたいものは、空欄に書き込んでください。",
+      "sheetToPack": "持っていくもの"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "写真を2枚から12枚選んで、本を作り始めましょう。",
+      "guidance": "ボタンか、左右の矢印キーで、一緒にページをめくりましょう。写真の下に、必要なら短い言葉を添えてもかまいません。作ったものは保存も送信もされません。",
+      "lookGuidance": "ページを一緒に見ましょう。話しても、ただ見ているだけでもかまいません。",
+      "intro": "この端末から写真を2枚から12枚選んでください。写真1枚が、めくれる本の1ページになります。",
+      "consent": "ご家族ご自身の写真をお使いください。ご自分でお返事できない方が写っている写真は、使う前に家族などに確認してください。",
+      "privacy": "写真はこの端末に残ります。アップロードや保存はされません。",
+      "choose": "写真を選ぶ",
+      "chooseDifferent": "別の写真を選ぶ",
+      "backToBook": "本に戻る",
+      "backToChoose": "写真選びに戻る",
+      "needTwo": "写真を2枚以上選んでください。",
+      "usingFirst": "最初の{max}枚の写真を使っています。",
+      "cleared": "本を消去しました。もう一度始めるには、写真を選んでください。",
+      "moved": "{n}ページに移動しました。",
+      "pageOf": "{total}ページ中の{n}ページ",
+      "lookTogether": "一緒に見る",
+      "leaveLook": "本に戻る",
+      "print": "スクラップブックを印刷する",
+      "clear": "本を消去する",
+      "bookLabel": "家族のスクラップブック",
+      "pagesLabel": "ページをめくる",
+      "previous": "前のページ",
+      "next": "次のページ",
+      "moveEarlier": "前に移動",
+      "moveLater": "後ろに移動",
+      "captionLabel": "このページについて、よければ短い言葉を",
+      "captionHelp": "80文字まで。キャプションはこのページだけに残り、閉じると消えます。",
+      "sheetTitle": "わたしたちのスクラップブック",
+      "sheetHow": "1ページに写真1枚と、その下に言葉を入れます。ページを順番にめくって、それぞれについて話してみてください。",
+      "sheetEmpty": "ゲームのページで写真を選ぶと、自分の本を印刷できます。または、この空白のページを印刷して、印刷した写真を貼ることもできます。",
+      "sheetFrame": "印刷した写真をここに貼ってください",
+      "sheetWords": "このページの短い言葉",
+      "skipped": {
+        "other": "{n}個のファイルは、使える写真ではありませんでした。"
+      }
+    },
+    "quietScene": {
+      "guidance": "一度に1枚の絵を見ます。準備ができたら「次へ」か「前へ」を押してください。何も自動では動きません。",
+      "next": "次の絵",
+      "previous": "前の絵",
+      "bigPicture": "大きく見る",
+      "showEverything": "すべて表示",
+      "first": "これが最初の絵です。",
+      "last": "これが最後の絵です。",
+      "lines": {
+        "sunrise": "陸の上に太陽が昇っています。",
+        "window-with-birds": "窓の外に鳥がいます。",
+        "vase-of-flowers": "テーブルの上に花瓶の花があります。",
+        "teacup": "窓辺に一杯のお茶があります。",
+        "tree": "庭に木が立っています。",
+        "sailboat": "水の上に帆船があります。",
+        "lighthouse": "海辺に灯台があります。",
+        "rainbow": "雨のあとに虹が出ています。",
+        "moon": "夜空に月があります。",
+        "daisies": "草むらにヒナギクが咲いています。",
+        "rowing-boat": "静かな水の上にボートがあります。",
+        "potted-plant": "鉢に入った緑の植物があります。"
+      }
+    },
+    "collageBoard": {
+      "guidance": "順番に、切り抜きを1つタップしてから、空いている場所をタップして置いてください。作ったものは保存も送信もされません。",
+      "people": [
+        "最初の人",
+        "2番目の人"
+      ],
+      "marks": [
+        "丸",
+        "四角"
+      ],
+      "turn": "次は{person|lower}の番です。",
+      "marked": "あなたのピースには{mark}の印がついています。",
+      "boardLabel": "共有のボード",
+      "placeEmpty": "場所{n}、空いています",
+      "placeFilled": "場所{n}、{picture|lower}、{person|lower}が置いたもの",
+      "trayHeading": "切り抜き",
+      "chosenLabel": "選択中",
+      "chosen": "{picture}を選びました。次に空いている場所をタップしてください。",
+      "unchosen": "切り抜きはもう選ばれていません。",
+      "needCutout": "まず切り抜きを1つ選んでから、空いている場所をタップしてください。",
+      "filled": "場所{n}にはすでに絵があります。空いている場所を選んでください。",
+      "placed": "{picture}は場所{n}に置かれました。次は{next|lower}の番です。",
+      "full": "すべての場所に絵があります。変えるには1つ取り戻すか、最初からやり直してください。",
+      "pass": "パス",
+      "passed": "パスしても大丈夫です。次は{person|lower}の番です。",
+      "takeBack": "最後のピースを取り戻す",
+      "takeBackPass": "パスを取り消す",
+      "tookBack": "ピースを取り戻しました。次は{person|lower}の番です。",
+      "tookBackPass": "パスを取り消しました。次は{person|lower}の番です。",
+      "restarted": "ボードは空になりました。次は{person|lower}の番です。",
+      "putBack": "元に戻す",
+      "putBackDone": "ピースをボードに戻しました。",
+      "another": "別の絵のセット",
+      "anotherSet": "トレイに新しい切り抜きのセットが入りました。ボードのピースはそのままの場所にあります。",
+      "print": "ボードを印刷する",
+      "sheetTitle": "コラージュボード",
+      "sheetHow": "絵を切り抜き、順番にボードに置いてください。切る作業は大人の方がお手伝いできます。",
+      "sheetTray": "切り抜く絵"
+    },
+    "gardenPlanner": {
+      "guidance": "絵をタップしてから、花壇をタップするとそこに置けます。絵がある花壇を、何も選ばずにタップすると、その絵を外せます。",
+      "bedsLabel": "庭の花壇",
+      "bedEmpty": "花壇{n}、空いています",
+      "bedFilled": "花壇{n}、{picture|lower}",
+      "plantsHeading": "植物",
+      "extrasHeading": "庭の飾り",
+      "chosenLabel": "選択中",
+      "chosen": "{picture}を選びました。次に花壇をタップしてください。",
+      "unchosen": "絵は選ばれていません。",
+      "needPicture": "まず絵を選んでから、花壇をタップしてください。",
+      "planted": "{picture}は花壇{n}にあります。",
+      "replaced": "{picture}が、花壇{n}にあった絵の代わりになります。",
+      "cleared": "花壇{n}は空になりました。同じ絵をもう一度使いたいときは、戻してください。",
+      "restarted": "すべての花壇が空になりました。",
+      "putBack": "元に戻す",
+      "putBackDone": "絵は元の花壇に戻りました。",
+      "summaryHeading": "私の庭",
+      "summary": "あなたのプランには{list}があります。",
+      "summaryNone": "まだ花壇に入っている絵はありません。",
+      "and": "と",
+      "print": "プランを印刷する",
+      "sheetTitle": "私たちの庭のプラン",
+      "sheetHow": "花壇には、画面で選んだ絵が示されています。空いている花壇には、好きに描き込んでください。",
+      "sheetNotes": "メモ",
+      "notice": "これは話し合うための絵のプランであり、植え付けのアドバイスではありません。"
+    },
+    "coloringWall": {
+      "guidance": "絵と、ページの枚数を選んでください。壁一面分を印刷し、一人ひとりが1枚以上のページに色を塗ります。時間は計らず、採点もせず、保存もしません。",
+      "pictureLegend": "絵",
+      "sizeLegend": "ページの枚数",
+      "sizes": {
+        "2x2": "4ページ（縦2×横2）",
+        "3x2": "6ページ（縦3×横2）",
+        "3x3": "9ページ（縦3×横3）"
+      },
+      "previewLabel": "{picture|lower}を{n}ページに分けたものです。横に{across}、縦に{down}並びます。各ページの角にラベルがあります。",
+      "previewCaption": "絵に、ページの線とラベルを重ねて表示したものです。",
+      "labelsNote": "ラベルの文字は縦に、数字は横に並びます。そのため、A1は左上のページです。",
+      "wallHeading": "壁の組み立て方",
+      "steps": [
+        "すべてのページを印刷してください。1ページ目は、この手順と壁の地図です。",
+        "一人ひとりが1枚以上のページを選んで、色を塗ります。",
+        "色や塗り方をそろえる必要はありません。どのページも同じ絵の一部です。",
+        "ラベルを目印にページを並べ、裏からテープでつなぎます。",
+        "みんなが見えるところに壁を飾ってください。"
+      ],
+      "mapLabel": "壁の地図です。{down}段、各段{across}ページで、A1から{last}までのラベルが付いています。",
+      "edgeNote": "点線は、各ページの端を示しています。点線に沿って端と端をそろえて並べるか、少しだけ重ねてください。",
+      "pictureLine": "絵：{picture}。この壁は{n}ページで、横に{across}、縦に{down}並びます。",
+      "print": "壁を印刷する"
+    },
+    "findTogether": {
+      "guidance": "順番に交代してください。自分の番には、カードを2枚めくって同じ絵を探します。一緒に組み合わせを見つけましょう。",
+      "sizeLegend": "カードの枚数",
+      "size": "{n}枚のカード",
+      "viewLegend": "遊び方",
+      "viewShowing": "絵を表向きにして遊ぶ",
+      "viewHidden": "カードを裏向きにする",
+      "people": [
+        "最初の人",
+        "2番目の人"
+      ],
+      "turn": "順番：{person}",
+      "turnDone": "すべての組み合わせが見つかりました。",
+      "tally": "一緒に見つけた組み合わせ：{n}",
+      "cardNamed": "{name}、カード{n}",
+      "cardFaceDown": "カード{n}、裏向き",
+      "first": "{name}。次に、2枚目のカードをめくってください。",
+      "found": "{name}：組み合わせが見つかりました。一緒に見つけられました。次は{next|lower}の番です。",
+      "allTogether": "すべての組み合わせを一緒に見つけました。",
+      "different": "{a}と{b}は違います。ゆっくり確かめてから、「戻す」を押してください。",
+      "waiting": "準備ができたら「戻す」を押してください。そうすると順番が移ります。",
+      "turnedBack": "カードを戻しました。次は{person|lower}の番です。",
+      "passed": "パスしても大丈夫です。次は{person|lower}の番です。",
+      "turnBack": "カードを戻す",
+      "pass": "パス",
+      "playAgain": "もう一度遊ぶ"
+    },
+    "drawingDuet": {
+      "guidance": "一人ずつ交代で1本ずつ線を引き、ペンを渡します。パスしても構いません。どこにも送信されません。絵がこのページの外に出るのは、保存したときだけです。",
+      "people": [
+        "最初の人",
+        "2番目の人"
+      ],
+      "colorLegend": "{person}の色",
+      "colors": [
+        "黄色",
+        "オレンジ",
+        "緑",
+        "紫"
+      ],
+      "turn": "{person}の番",
+      "penColor": "ペンの色：{color}。",
+      "canvasLabel": "共同の絵、これまでの線は{n}本",
+      "canvasLabelOne": "共同の絵、これまでの線は{n}本",
+      "keys": "矢印キーで絵の上のペンの点を動かします。スペースキーで、ペンを下ろすか上げます。",
+      "penDown": "ペンを下ろす",
+      "penUp": "ペンを上げる",
+      "pass": "ペンを渡す",
+      "passed": "パスしても大丈夫です。次は{person|lower}の番です。",
+      "takeBack": "自分の最後の線を取り消す",
+      "tookBack": "{person|lower}の最後の線を取り消しました。",
+      "noLine": "取り消せる{person|lower}の線はありません。",
+      "restarted": "用紙は空になりました。最初の人の番です。間違えて消した場合は、戻してください。",
+      "putBack": "元に戻す",
+      "restored": "線は元どおりに戻りました。",
+      "save": "絵を保存する",
+      "saved": "絵の準備ができました。このデバイスに保存するには、ダウンロードのリンクを使ってください。",
+      "download": "drawing-duet.pngをダウンロード",
+      "print": "紙版を印刷する",
+      "sheetTitle": "共同で描く絵",
+      "paperRules": "二人、一枚の紙、二本のペン。順番に、一人ずつ線か形を1つ描いたら、ペンを渡します。パスしても構いません。正しい絵というものはありません。"
+    },
+    "colorWash": {
+      "guidance": "ページに、やわらかい色を一度に一面ずつ塗っていきます。筆を上げれば止まり、いつでも好きなときにやめられます。何も保存せず、送信もしません。",
+      "colorLegend": "塗る色",
+      "sizeLegend": "筆の大きさ",
+      "colors": [
+        "黄色",
+        "オレンジ",
+        "緑",
+        "紫"
+      ],
+      "sizes": {
+        "wide": "太め",
+        "veryWide": "とても太め"
+      },
+      "color": "塗る色：{color}。",
+      "brushDown": "筆を下ろす",
+      "brushUp": "筆を上げる",
+      "keys": "矢印キーでページ上の筆の輪を動かします。スペースキーで、筆を下ろすか上げます。",
+      "canvasLabel": "やわらかい色を塗ったページ",
+      "fresh": "新しいページ",
+      "freshMessage": "新しいページです。",
+      "putBack": "元に戻す",
+      "restored": "ページは元に戻りました。"
+    },
     "sortTogether": {
       "guidance": "絵をタップし、次にその絵が入るかごをタップします。",
       "restart": "新しい絵",
@@ -68,7 +717,13 @@
       "hint": "{name}は「{basket}」に入りそうです。そのかごをタップすると入ります。",
       "placed": "{name}を「{basket}」に入れました。",
       "sorted": "全部分け終わりました。いっしょにかごの中を見てみるか、別のテーマを選びましょう。",
-      "basket": {"other": "「{basket}」のかご、絵が{count}枚入っています"}
+      "largerTargets": "大きい的",
+      "largerOn": "大きい的をオンにしました。まだ何も動いていません。",
+      "largerOff": "大きい的をオフにしました。まだ何も動いていません。",
+      "largerOnNewRound": "大きい的をオンにし、かごは2つになりました。仕分けする新しい絵を用意しました。",
+      "basket": {
+        "other": "「{basket}」のかご、絵が{count}枚入っています"
+      }
     },
     "picturePuzzle": {
       "guidance": "ピースをひとつタップし、次に別のピースをタップします。2つの場所が入れ替わります。",
@@ -83,7 +738,9 @@
         "cat": "猫"
       },
       "sizeLegend": "ピースの数",
-      "size": {"other": "{n}ピース"},
+      "size": {
+        "other": "{n}ピース"
+      },
       "pickedUp": "ピースを持ち上げました。入れたい場所をタップしましょう。",
       "whole": "{name}の絵ができあがりました。好きなときに別の絵を選べます。",
       "swapped": {
@@ -91,10 +748,27 @@
       },
       "guideAlt": "完成した絵：{name}",
       "guideText": "できあがると、こんな絵になります。",
+      "ownChoose": "自分の写真を使う",
+      "ownChange": "別の写真を選ぶ",
+      "ownBack": "用意された絵に戻る",
+      "ownPrivacy": "あなたの写真はこのデバイスに残ります。アップロードや保存はされません。",
+      "ownConsent": "自分の写真を使ってください。同意を伝えられない人の写真を使う前には、必ず確認してください。",
+      "ownWorking": "写真を準備しています。",
+      "ownNotUsable": "そのファイルは使えませんでした。JPEGやPNGなど、写真のファイルを選んでください。",
+      "ownAlt": "あなたの写真",
+      "ownPiece": "ピース{n}、{place}",
+      "ownWhole": "写真は元どおり一枚に戻りました。好きなときにまた混ぜてください。",
+      "ownSheetTitle": "あなたの写真のピース",
+      "ownSheetHow": "線に沿って切ってください。ピースを混ぜたら、2枚ずつ入れ替えて、写真が一枚になるまで続けます。",
       "piece": "{place}のピース",
       "pieceInPlace": "、正しい場所",
       "piecePickedUp": "、持ち上げています",
-      "places4": ["左上", "右上", "左下", "右下"],
+      "places4": [
+        "左上",
+        "右上",
+        "左下",
+        "右下"
+      ],
       "places9": [
         "左上",
         "上の真ん中",
@@ -111,7 +785,7 @@
     },
     "finishTheSaying": {
       "guidance": "ことわざをいっしょに読み、続きの言葉をタップします。",
-      "gap": "",
+      "gap": " ",
       "ending": "{end}。",
       "yes": "はい、「{start}{end}」です。",
       "otherEnding": "「{word}」もすてきですね。ふつうは「{end}」で終わります。",
@@ -126,7 +800,9 @@
       "restart": "新しいパズル",
       "themeLegend": "テーマ",
       "sizeLegend": "マスの大きさ",
-      "size": {"other": "{n}×{n}（言葉{words}個）"},
+      "size": {
+        "other": "{n}×{n}（言葉{words}個）"
+      },
       "print": "このパズルを印刷",
       "letterChosen": "「{letter}」を選びました。次に、その言葉の最後の文字をタップします。",
       "found": "「{word}」が見つかりました。",
@@ -172,6 +848,14 @@
       "guidance": "カードを声に出して読みましょう。正解はありません。",
       "position": "{total}枚中{n}枚目",
       "themeLegend": "テーマ",
+      "showPrompt": "話題のカードを見る",
+      "bigPicture": "グループ用の大きな絵",
+      "passNote": "パスしても大丈夫です。",
+      "groupTitle": "グループでカードを回す",
+      "groupSit": "絵がみんなから見えるように、輪になって座ってください。カードを持つ人、または大きな絵を映しているデバイスの人が、最初に問いかけを声に出して読みます。",
+      "groupPass": "そのあと、カードを次の人に渡します。一人ずつ絵について一言か一文を話してから、次の人に渡してください。",
+      "groupNoSpeech": "カードを次の人に渡すことは、いつでも大丈夫です。話さずにパスしてもよく、理由を言う必要もありません。",
+      "groupEnd": "この回は、カードが輪を一周したとき、またはグループが十分と感じたときに終わります。勝ち負けはありません。グループが望むときにいつでも止めてかまいません。",
       "next": "次のカード",
       "previous": "前のカード",
       "print": "すべてのカードを印刷",
@@ -215,8 +899,12 @@
       "squaresLegend": "カード1枚のマスの数",
       "squares": "{n}マス（{side}×{side}）",
       "cardsLegend": "印刷するカードの枚数",
-      "cards": {"other": "{n}枚"},
-      "print": {"other": "カードを印刷（{n}枚）"},
+      "cards": {
+        "other": "{n}枚"
+      },
+      "print": {
+        "other": "カードを印刷（{n}枚）"
+      },
       "ready": "準備ができたらどうぞ",
       "next": "次の絵",
       "allCalled": "すべての絵を読み上げました",
@@ -237,6 +925,20 @@
       "started": "はじめました。円が大きくなるときに息を吸いましょう。",
       "stopped": "止めました。",
       "finished": "ゆっくり6回呼吸しました。またいつでもはじめられます。"
+    },
+    "storyChain": {
+      "guidance": "順番に一文ずつ話し、次の絵を加えてください。",
+      "passNote": "一文を声に出して話してください。何も入力されず、保存もされません。パスしてもかまいません。",
+      "chainLabel": "これまでの流れ",
+      "item": "絵{n}：{name}",
+      "add": "絵を加える",
+      "fullAdd": "流れがいっぱいになりました。新しい流れを始める",
+      "newChain": "新しい流れを始める",
+      "takeOff": "最後の絵を外す",
+      "added": "{name|lower}が流れの最後に加わりました。",
+      "removed": "{name|lower}が流れから外れました。",
+      "fresh": "新しい流れを、{name|lower}から始めます。",
+      "full": "流れに8枚の絵がすべて入りました。お話全体を語るか、新しい流れを始めてください。"
     }
   },
   "pictures": {
@@ -322,7 +1024,44 @@
     "rain-cloud": "雨雲",
     "snowflake": "雪の結晶",
     "kite": "凧",
-    "sunrise": "丘の上の日の出"
+    "sunrise": "丘の上の日の出",
+    "decorated-keepsake-box": "飾りつけした思い出の箱",
+    "painted-plant-pot": "ハーブを植えた彩色の植木鉢",
+    "repeating-pattern-sheet": "くり返し模様のシート",
+    "music-drawn-lines": "音楽に合わせて引いた線",
+    "paper-boat-afloat": "水に浮かぶ紙の舟",
+    "folded-towel-stack": "たたんだタオルの山",
+    "hand-massage-with-lotion": "タオルの上に置かれた手とローション",
+    "open-photo-album": "開いた写真アルバム",
+    "button-flower-card": "カードの上のボタンの花",
+    "blue-torn-paper-collage": "青い千切り紙のコラージュ",
+    "family-tree-of-hands": "手形で描いた家系図",
+    "open-greeting-card": "ハート付きの開いたグリーティングカード",
+    "lavender-sachet": "リボンで結んだラベンダーのサシェ",
+    "memory-collage-of-photos": "家族写真のコラージュ",
+    "paper-chain-garland": "紙の輪つなぎの飾り",
+    "open-songbook-with-notes": "音符の入った開いた歌集",
+    "photo-postcard-with-stamp": "切手を貼った写真のポストカード",
+    "pine-cone-bird-feeder": "枝から下がる松ぼっくりの鳥のえさ台",
+    "playlist-phone-and-card": "スマホの再生リストと曲のカード",
+    "sealed-rice-shaker": "密封したお米のマラカス",
+    "texture-board-with-scraps": "端切れを貼った質感ボード",
+    "painted-garden-stone": "彩色した庭の石",
+    "shared-painted-canvas": "みんなで描いたキャンバス",
+    "watercolor-washes-sheet": "紙の上の水彩のにじみ",
+    "seedling-in-pot": "鉢に植えた苗",
+    "pressed-leaves-in-book": "本に挟んだ押し葉",
+    "printed-leaves-sheet": "葉の型押しのシート",
+    "pinch-pot-clay-bowl": "つまみ成形の粘土の器",
+    "table-sketch-pencil": "マグカップの鉛筆スケッチ",
+    "buttons-in-muffin-tin": "マフィン型に仕分けたボタン",
+    "family-recipe-book": "家族のレシピ本",
+    "drum-with-beat-marks": "バチを添えたテーブルドラム",
+    "torn-paper-flower": "千切り紙の花のモザイク",
+    "window-with-birds": "鳥のいる窓",
+    "woven-paper-mat": "編んだ紙のマット",
+    "yarn-ball-with-thread": "毛糸玉",
+    "letter-and-envelope": "封筒に入った手紙"
   },
   "illustrations": {
     "rocking-chair": "ロッキングチェア",
@@ -427,59 +1166,6 @@
     "pocket-watch": "懐中時計"
   },
   "content": {
-    "sayings": [
-      {"start": "石の上にも三", "end": "年", "others": ["日", "月"], "prompt": "長く続けていることや、続けていて楽しいことは何ですか？"},
-      {"start": "塵も積もれば", "end": "山となる", "others": ["川となる", "海となる"], "prompt": "少しずつ集めるのが楽しいものはありますか？"},
-      {"start": "急がば", "end": "回れ", "others": ["歩け", "休め"], "prompt": "のんびり歩くなら、どんな道が好きですか？"},
-      {"start": "雨降って", "end": "地固まる", "others": ["虹が出る", "花が咲く"], "prompt": "雨上がりの景色で、好きなものは何ですか？"},
-      {"start": "七転び", "end": "八起き", "others": ["九起き", "十起き"], "prompt": "元気が出る言葉や、好きな言葉は何ですか？"},
-      {"start": "千里の道も", "end": "一歩から", "others": ["一日から", "朝から"], "prompt": "歩いて出かけるなら、どこへ行きたいですか？"},
-      {"start": "笑う門には", "end": "福来る", "others": ["春来る", "花が咲く"], "prompt": "いっしょにいると笑顔になれるのは、どなたですか？"},
-      {"start": "花より", "end": "団子", "others": ["お茶", "おにぎり"], "prompt": "お花見のお弁当やおやつには、何が好きですか？"},
-      {"start": "犬も歩けば", "end": "棒に当たる", "others": ["花に会う", "友に会う"], "prompt": "散歩の途中で見かけると、うれしくなるものは何ですか？"},
-      {"start": "猫の手も", "end": "借りたい", "others": ["かわいい", "あたたかい"], "prompt": "忙しい日に、手伝ってもらえるとうれしいのはどんなことですか？"},
-      {"start": "早起きは", "end": "三文の徳", "others": ["気持ちいい", "鳥の声"], "prompt": "朝のうちにするのが好きなことは何ですか？"},
-      {"start": "桃栗三年柿", "end": "八年", "others": ["五年", "十年"], "prompt": "秋の果物で、好きなものは何ですか？"},
-      {"start": "寝る子は", "end": "育つ", "others": ["笑う", "かわいい"], "prompt": "ぐっすり眠れるのは、どんな夜ですか？"},
-      {"start": "案ずるより", "end": "産むが易し", "others": ["歩くが易し", "笑うが易し"], "prompt": "思い切ってやってみたら楽しかったことを、聞かせてください。"},
-      {"start": "隣の芝生は", "end": "青い", "others": ["広い", "きれい"], "prompt": "庭があるなら、どんな庭にしたいですか？"},
-      {"start": "郷に入っては", "end": "郷に従え", "others": ["郷を楽しめ", "人に聞け"], "prompt": "旅先で食べてみたい、その土地の料理は何ですか？"},
-      {"start": "鉄は熱いうちに", "end": "打て", "others": ["磨け", "運べ"], "prompt": "道具を使ってものを作るのは好きですか？"},
-      {"start": "備えあれば", "end": "憂いなし", "others": ["安心", "心強い"], "prompt": "出かけるときに、いつも持っていくものは何ですか？"},
-      {"start": "旅は道連れ世は", "end": "情け", "others": ["楽し", "広い"], "prompt": "いっしょに旅をするなら、どなたと行きたいですか？"},
-      {"start": "かわいい子には", "end": "旅をさせよ", "others": ["花を持たせよ", "歌を教えよ"], "prompt": "子どもや若い人に、ぜひ味わってほしいことは何ですか？"},
-      {"start": "立つ鳥跡を", "end": "濁さず", "others": ["残さず", "飾らず"], "prompt": "部屋を片づけるとき、どこから始めるのが好きですか？"},
-      {"start": "棚から", "end": "ぼたもち", "others": ["おにぎり", "お団子"], "prompt": "好きな和菓子は何ですか？"},
-      {"start": "船頭多くして船", "end": "山に上る", "others": ["海に出る", "川を下る"], "prompt": "船に乗るなら、どんな景色を眺めたいですか？"},
-      {"start": "待てば海路の", "end": "日和あり", "others": ["風が吹く", "船が来る"], "prompt": "楽しみに待っていることは何ですか？"},
-      {"start": "渡る世間に", "end": "鬼はなし", "others": ["花が咲く", "人がいる"], "prompt": "人からしてもらってうれしい親切は、どんなことですか？"},
-      {"start": "秋の日は", "end": "つるべ落とし", "others": ["ゆっくり", "長い"], "prompt": "秋の夕暮れは、どんなふうに過ごすのが好きですか？"},
-      {"start": "暑さ寒さも", "end": "彼岸まで", "others": ["春まで", "月末まで"], "prompt": "季節の変わり目に、楽しみなことは何ですか？"},
-      {"start": "天高く馬肥ゆる", "end": "秋", "others": ["春", "夏"], "prompt": "食欲の秋といえば、何を食べたいですか？"},
-      {"start": "噂をすれば", "end": "影", "others": ["風", "春"], "prompt": "会っておしゃべりしたいのは、どなたですか？"},
-      {"start": "類は", "end": "友を呼ぶ", "others": ["花を呼ぶ", "春を呼ぶ"], "prompt": "仲のよい友だちと、いっしょにするのが楽しいことは何ですか？"},
-      {"start": "猫に", "end": "小判", "others": ["鈴", "ごはん"], "prompt": "猫や犬を飼うなら、どんな名前をつけたいですか？"},
-      {"start": "餅は", "end": "餅屋", "others": ["お正月", "きなこ"], "prompt": "お餅は、どんな食べ方が好きですか？"},
-      {"start": "言わぬが", "end": "花", "others": ["吉", "よし"], "prompt": "好きな花は何ですか？"},
-      {"start": "鬼に", "end": "金棒", "others": ["豆", "太鼓"], "prompt": "節分の豆まきは、どんなふうにするのが好きですか？"},
-      {"start": "思い立ったが", "end": "吉日", "others": ["日曜日", "晴れの日"], "prompt": "今日、これからしてみたいことは何ですか？"},
-      {"start": "善は", "end": "急げ", "others": ["楽しめ", "ゆっくり"], "prompt": "人の役に立ててうれしいのは、どんなときですか？"},
-      {"start": "一富士二鷹三", "end": "なすび", "others": ["だんご", "たから"], "prompt": "お正月の楽しみは何ですか？"},
-      {"start": "来年のことを言えば", "end": "鬼が笑う", "others": ["福が来る", "春が来る"], "prompt": "これから楽しみにしていることは何ですか？"},
-      {"start": "残り物には", "end": "福がある", "others": ["味がある", "花がある"], "prompt": "次の日に食べてもおいしい料理は何ですか？"},
-      {"start": "好きこそものの", "end": "上手なれ", "others": ["楽しけれ", "宝なれ"], "prompt": "好きなことや、得意なことは何ですか？"},
-      {"start": "習うより", "end": "慣れよ", "others": ["楽しめ", "見てみよ"], "prompt": "やってみたら、思ったより楽しかったことは何ですか？"},
-      {"start": "能ある鷹は", "end": "爪を隠す", "others": ["空を飛ぶ", "羽を休める"], "prompt": "さりげなく頼りになる人には、どんな人がいますか？"},
-      {"start": "三人寄れば", "end": "文殊の知恵", "others": ["にぎやか", "話がはずむ"], "prompt": "みんなで集まるなら、何をしたいですか？"},
-      {"start": "情けは人の", "end": "ためならず", "others": ["ためになる", "心に残る"], "prompt": "人にしてあげるとうれしくなる、小さな親切は何ですか？"},
-      {"start": "灯台下", "end": "暗し", "others": ["明るし", "涼し"], "prompt": "海辺や港の景色は好きですか？"},
-      {"start": "縁の下の", "end": "力持ち", "others": ["働き者", "物知り"], "prompt": "陰で支えてくれる人に、どんな言葉をかけたいですか？"},
-      {"start": "果報は", "end": "寝て待て", "others": ["笑って待て", "歩いて待て"], "prompt": "のんびりしたい日は、何をして過ごしたいですか？"},
-      {"start": "住めば", "end": "都", "others": ["我が家", "ふるさと"], "prompt": "好きな町や、住んでみたい町はどこですか？"},
-      {"start": "二度あることは", "end": "三度ある", "others": ["四度ある", "五度ある"], "prompt": "何度でも行きたくなる場所はどこですか？"},
-      {"start": "蛙の子は", "end": "蛙", "others": ["おたまじゃくし", "かわいい"], "prompt": "家族の中で、あなたと似ているのはどなたですか？"},
-      {"start": "論より", "end": "証拠", "others": ["実行", "笑顔"], "prompt": "言葉より態度で気持ちを伝えるなら、どんなことをしますか？"}
-    ],
     "conversation": {
       "themes": {
         "all": "すべてのカード",
@@ -493,51 +1179,221 @@
         "seasons": "季節"
       },
       "cards": [
-        {"theme": "food", "picture": "bread", "prompt": "台所から漂ってくるにおいで、好きなのはどんなにおいですか？"},
-        {"theme": "food", "picture": "cake", "prompt": "お祝いの日には、どんなお菓子を食べたいですか？"},
-        {"theme": "food", "picture": "apple", "prompt": "好きな果物や、果物を使ったおやつについて聞かせてください。"},
-        {"theme": "food", "picture": "teacup", "prompt": "緑茶、ほうじ茶、紅茶、コーヒー。どんなふうに飲むのが好きですか？"},
-        {"theme": "food", "picture": "frying-pan", "prompt": "おいしい朝ごはんといえば、どんな献立ですか？"},
-        {"theme": "food", "picture": "strawberry", "prompt": "いちご狩りや、畑で野菜をとったことはありますか？"},
-        {"theme": "food", "picture": "lemon", "prompt": "甘いものとすっぱいもの、どちらが好きですか？"},
-        {"theme": "food", "picture": "kettle", "prompt": "寒い日に食べたくなる、温かい料理は何ですか？"},
-        {"theme": "home", "picture": "house", "prompt": "心地よく暮らせた家について聞かせてください。"},
-        {"theme": "home", "picture": "armchair", "prompt": "家の中で、くつろぐのに好きな場所はどこですか？"},
-        {"theme": "home", "picture": "lamp", "prompt": "静かな夜は、どんなふうに過ごすのが好きですか？"},
-        {"theme": "home", "picture": "key", "prompt": "大切な箱にしまっておくなら、どんな宝物を入れたいですか？"},
-        {"theme": "home", "picture": "teacup", "prompt": "お茶に誘いたいのは、どなたですか？"},
-        {"theme": "home", "picture": "umbrella", "prompt": "雨の日は、家で何をするのが好きですか？"},
-        {"theme": "outdoors", "picture": "sunflower", "prompt": "庭に植えるなら、どんな花がいいですか？"},
-        {"theme": "outdoors", "picture": "tree", "prompt": "好きな木や公園について聞かせてください。"},
-        {"theme": "outdoors", "picture": "watering-can", "prompt": "庭仕事や畑仕事で、楽しいのはどんなときですか？"},
-        {"theme": "outdoors", "picture": "tulip", "prompt": "好きな花の色は何色ですか？"},
-        {"theme": "outdoors", "picture": "potted-plant", "prompt": "盆栽や鉢植えなど、家の中に植物があるのは好きですか？"},
-        {"theme": "outdoors", "picture": "sun", "prompt": "よく晴れた日には、どこへ出かけたいですか？"},
-        {"theme": "animals", "picture": "dog", "prompt": "これまでに出会った犬について聞かせてください。"},
-        {"theme": "animals", "picture": "cat", "prompt": "猫と犬なら、どちらが好きですか？ どんなところが好きですか？"},
-        {"theme": "animals", "picture": "bird", "prompt": "すずめやうぐいすなど、外で見かけたり声を聞いたりする鳥はいますか？"},
-        {"theme": "animals", "picture": "fish", "prompt": "釣りや金魚すくいは好きですか？"},
-        {"theme": "animals", "picture": "butterfly", "prompt": "見ていてきれいだと思う生きものは何ですか？"},
-        {"theme": "travel", "picture": "car", "prompt": "車で出かけるなら、どこへ行きたいですか？"},
-        {"theme": "travel", "picture": "sailboat", "prompt": "一日過ごすなら、海と山のどちらがいいですか？"},
-        {"theme": "travel", "picture": "bicycle", "prompt": "自転車でのんびり走るなら、どんな道がいいですか？"},
-        {"theme": "travel", "picture": "balloon", "prompt": "空から眺めてみたい場所はどこですか？"},
-        {"theme": "travel", "picture": "lighthouse", "prompt": "楽しかった旅行や、好きな温泉について聞かせてください。"},
-        {"theme": "work", "picture": "key", "prompt": "どんな仕事に、やりがいを感じますか？"},
-        {"theme": "work", "picture": "watering-can", "prompt": "時間を忘れて夢中になれる趣味は何ですか？"},
-        {"theme": "work", "picture": "bread", "prompt": "得意な料理や、手作りするのが好きなものについて聞かせてください。"},
-        {"theme": "work", "picture": "house", "prompt": "これから働き始める若い人に、どんなことを伝えたいですか？"},
-        {"theme": "music", "picture": "balloon", "prompt": "思わず口ずさみたくなるのは、どんな歌ですか？"},
-        {"theme": "music", "picture": "cake", "prompt": "楽しい集まりに欠かせないものは何ですか？"},
-        {"theme": "music", "picture": "lamp", "prompt": "好きな歌手や、よく聴く歌について聞かせてください。"},
-        {"theme": "music", "picture": "armchair", "prompt": "何度でも見たい映画やテレビ番組は何ですか？"},
-        {"theme": "music", "picture": "sun", "prompt": "夏祭りや盆踊りで、楽しいのはどんなところですか？"},
-        {"theme": "seasons", "picture": "sun", "prompt": "夏のいちばん好きなところは何ですか？"},
-        {"theme": "seasons", "picture": "tree", "prompt": "お花見をするなら、どこでどんなふうに楽しみたいですか？"},
-        {"theme": "seasons", "picture": "moon", "prompt": "お月見には、どんなものを用意したいですか？"},
-        {"theme": "seasons", "picture": "tulip", "prompt": "春が来たなと感じるのは、どんなときですか？"},
-        {"theme": "seasons", "picture": "kettle", "prompt": "寒い冬の日は、どんなふうに温まるのが好きですか？"},
-        {"theme": "seasons", "picture": "umbrella", "prompt": "どんなお天気がいちばん好きですか？"}
+        {
+          "theme": "food",
+          "picture": "bread",
+          "prompt": "台所で好きな匂いは何ですか？"
+        },
+        {
+          "theme": "food",
+          "picture": "cake",
+          "prompt": "お祝いの席なら、どんなケーキを選びますか？"
+        },
+        {
+          "theme": "food",
+          "picture": "apple",
+          "prompt": "お気に入りのフルーツパイやデザートについて教えてください。"
+        },
+        {
+          "theme": "food",
+          "picture": "teacup",
+          "prompt": "お茶やコーヒーは、どんなふうに飲むのが好きですか？"
+        },
+        {
+          "theme": "food",
+          "picture": "frying-pan",
+          "prompt": "本当においしい朝ごはんには、何がそろっていると思いますか？"
+        },
+        {
+          "theme": "food",
+          "picture": "strawberry",
+          "prompt": "果物を、木や株からそのままもぎ取ったことはありますか？"
+        },
+        {
+          "theme": "food",
+          "picture": "lemon",
+          "prompt": "甘いのと酸っぱいのでは、どちらが好きですか？"
+        },
+        {
+          "theme": "food",
+          "picture": "cherries",
+          "prompt": "あなたにとって、夏の味がする食べ物は何ですか？"
+        },
+        {
+          "theme": "home",
+          "picture": "house",
+          "prompt": "住んでいて好きだった家について教えてください。"
+        },
+        {
+          "theme": "home",
+          "picture": "armchair",
+          "prompt": "お気に入りの、ゆっくりくつろげる場所はどこですか？"
+        },
+        {
+          "theme": "home",
+          "picture": "lamp",
+          "prompt": "静かな夜には、どんなことをして過ごすのが好きですか？"
+        },
+        {
+          "theme": "home",
+          "picture": "key",
+          "prompt": "大切な箱にしまっておきたい宝物は何ですか？"
+        },
+        {
+          "theme": "home",
+          "picture": "kettle",
+          "prompt": "お茶に招きたい人は、どなたですか？"
+        },
+        {
+          "theme": "home",
+          "picture": "umbrella",
+          "prompt": "雨の日は、どんなことをして過ごしますか？"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sunflower",
+          "prompt": "庭に植えるなら、どんな花がいいですか？"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tree",
+          "prompt": "好きな木や公園について教えてください。"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "watering-can",
+          "prompt": "庭にいて、いちばん良いと思うのはどんなところですか？"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tulip",
+          "prompt": "いちばん好きな花の色は何ですか？"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "potted-plant",
+          "prompt": "家に植物を置くのは好きですか？"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sun",
+          "prompt": "あなたが思い描く、理想の晴れた一日はどんな日ですか？"
+        },
+        {
+          "theme": "animals",
+          "picture": "dog",
+          "prompt": "今までに知っていた犬について教えてください。"
+        },
+        {
+          "theme": "animals",
+          "picture": "cat",
+          "prompt": "猫と犬、どちらが好きですか。それとも、どちらでもありませんか。どこが好きですか？"
+        },
+        {
+          "theme": "animals",
+          "picture": "bird",
+          "prompt": "外でどんな鳥を見たり、声を聞いたりしますか？"
+        },
+        {
+          "theme": "animals",
+          "picture": "fish",
+          "prompt": "釣りに行ったことや、水槽で魚を飼ったことはありますか？"
+        },
+        {
+          "theme": "animals",
+          "picture": "butterfly",
+          "prompt": "これまで見た中で、いちばん美しいと思った動物は何ですか？"
+        },
+        {
+          "theme": "travel",
+          "picture": "car",
+          "prompt": "好きだった車について教えてください。"
+        },
+        {
+          "theme": "travel",
+          "picture": "sailboat",
+          "prompt": "一日過ごすなら、海と山のどちらがいいですか？"
+        },
+        {
+          "theme": "travel",
+          "picture": "bicycle",
+          "prompt": "ドライブするなら、どこへ行きたいですか？"
+        },
+        {
+          "theme": "travel",
+          "picture": "balloon",
+          "prompt": "どこか一つの場所の上を飛べるとしたら、どこがいいですか？"
+        },
+        {
+          "theme": "travel",
+          "picture": "lighthouse",
+          "prompt": "楽しかった旅行について教えてください。"
+        },
+        {
+          "theme": "work",
+          "picture": "key",
+          "prompt": "これまで楽しんでやってきた仕事は、どんなものでしたか？"
+        },
+        {
+          "theme": "work",
+          "picture": "watering-can",
+          "prompt": "何時間でも没頭できた趣味は何ですか？"
+        },
+        {
+          "theme": "work",
+          "picture": "bread",
+          "prompt": "あなたが作ったり直したりするのが得意だったものは何ですか？"
+        },
+        {
+          "theme": "work",
+          "picture": "house",
+          "prompt": "仕事を始めたばかりの若い人に、どんなアドバイスをしますか？"
+        },
+        {
+          "theme": "music",
+          "picture": "balloon",
+          "prompt": "聞いていると、つい足でリズムを取りたくなる音楽は何ですか？"
+        },
+        {
+          "theme": "music",
+          "picture": "cake",
+          "prompt": "本当に楽しいパーティーには、何があると思いますか？"
+        },
+        {
+          "theme": "music",
+          "picture": "lamp",
+          "prompt": "よく聴く歌手は、どなたですか？"
+        },
+        {
+          "theme": "music",
+          "picture": "armchair",
+          "prompt": "何度見ても楽しい映画やテレビ番組は何ですか？"
+        },
+        {
+          "theme": "seasons",
+          "picture": "sun",
+          "prompt": "夏のどんなところがいちばん好きですか？"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tree",
+          "prompt": "秋のどんなところが好きですか？"
+        },
+        {
+          "theme": "seasons",
+          "picture": "moon",
+          "prompt": "冬の夜に、心地よく過ごせることは何ですか？"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tulip",
+          "prompt": "あなたにとって、春が来たことを感じる最初のしるしは何ですか？"
+        },
+        {
+          "theme": "seasons",
+          "picture": "umbrella",
+          "prompt": "雪、雨、晴れ。どれがいちばん好きですか？"
+        }
       ]
     },
     "coloring": {
@@ -620,16 +1476,36 @@
       "themes": {
         "kitchen-garden": {
           "label": "台所と庭",
-          "baskets": ["台所", "庭"]
+          "baskets": [
+            "台所",
+            "庭"
+          ]
         },
         "fruit-animals": {
           "label": "果物と動物",
-          "baskets": ["果物", "動物"]
+          "baskets": [
+            "果物",
+            "動物"
+          ]
         },
         "home-travel": {
           "label": "家と旅行",
-          "baskets": ["家の中", "おでかけ"]
+          "baskets": [
+            "家の中",
+            "おでかけ"
+          ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "果物",
+        "animals": "動物",
+        "travel": "乗り物での移動",
+        "flowers": "花",
+        "hot-drinks": "温かい飲み物に関するもの",
+        "weather": "天気の種類",
+        "baked": "オーブンで焼くもの"
       }
     }
   }

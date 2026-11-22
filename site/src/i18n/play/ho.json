@@ -5,6 +5,13 @@
       "stopReading": "Duahia hadokoa",
       "region": "Gadara",
       "restart": "Hamatamaia lou",
+      "rest": "Tanobada hamaoa",
+      "restingTitle": "Hamaoa",
+      "restingText": "Oi idauna hamaoa lou. Ena ila ai ruma lalo ia gwauri, ia lalo oi ia lao gwauri.",
+      "resume": "Lao ia lalo",
+      "placeText": "Oi ia guna lalo ai ruma. Oi lao ia lalo, o oi ia lao hamaoa, ia dekenai.",
+      "placeResume": "Lao ia lalo",
+      "placeFresh": "Lao hamaoa taudia",
       "soundOn": "Regana maragi haboa",
       "soundOff": "Regana maragi habodoa",
       "done": "Harihari dokona",
@@ -43,7 +50,19 @@
       "viewShowing": "Laulau idia hedinarai",
       "viewHidden": "Laulau hehunidia",
       "playAgain": "Gadaia lou laulau matamatadia ida",
-      "talk": "Laulau herevalaia hebou"
+      "talk": "Laulau herevalaia hebou",
+      "modeLegend": "Ia gauna",
+      "modePlay": "Gauna ania",
+      "modeDaily": "Tanobada ena kad",
+      "dayLegend": "Ia dina",
+      "dayHelp": "Taudia ena gauna ta dina ena lalo. Ia dina ai hanua, ia dekenai, oi dekenai gauna ta.",
+      "guidanceDaily": "Tanobada ena kad ia lalo gauna ha. Oi ia gini gauna, ia lalo oi ia gini gauna dekenai.",
+      "restartDaily": "Kad ta hamaoa lao",
+      "copy": "Hereva ta kopi",
+      "copied": "Kopi lao. Ia dekenai sipatia.",
+      "calendarTitle": "Tanobada ena kad, {month}",
+      "calendarHelp": "Dina ta lalo taudia ena gauna ha ta. Ia dekenai hitu, ia dina dekenai ia gwauri.",
+      "calendarVersion": "Version {date}. Ia dina ena gauna taudia ena lalo ta."
     },
     "choose": {
       "countLegend": "Laulau hida",
@@ -62,6 +81,635 @@
       "shadowAlt": "Kerukeru do oi haboua totona",
       "foundAlt": "{name|lower} ena kerukeru"
     },
+    "fourTogether": {
+      "hintLegend": "Hanamo",
+      "hintOn": "Hanamo hamaoa lalo",
+      "hintOff": "Hanamo dekenai",
+      "guidance": "Find the {n} pictures that go together, and tap each one.",
+      "countLegend": "Gauna ha",
+      "count": "Gauna {n}",
+      "found": "Ena, {name|lower} ia lalo ia kuru ta.",
+      "elsewhere": "{name|lower} ia lalo gaukara ta. Oi idauna hamaoa.",
+      "hint": "Hanamo: oi ia dibaka {theme|lower}.",
+      "together": "Ia lalo ta: {theme}.",
+      "shown": "Ia kuru ena: {theme}.",
+      "groupName": "Lalo: {theme}",
+      "show": "Kuru ia lalo",
+      "next": "Gauna ta dekenai"
+    },
+    "oddOneOut": {
+      "hintLegend": "Hanamo",
+      "hintOn": "Hanamo hamaoa lalo",
+      "hintOff": "Hanamo dekenai",
+      "guidance": "Find the picture that does not belong with the others, and tap it.",
+      "countLegend": "Gauna ha",
+      "count": "Gauna {n}",
+      "belongs": "{name|lower} ia lalo taudia ena gauna. Oi idauna hamaoa.",
+      "found": "Ena, {name|lower} ia gauna dekenai. Taudia ia {theme|lower}.",
+      "shown": "Ia ena: {name|lower}. Taudia ia {theme|lower}.",
+      "hint": "Hanamo: {n} ta ia {theme|lower}.",
+      "others": "Taudia: {theme}",
+      "show": "Kuru ai",
+      "next": "Gauna ta dekenai"
+    },
+    "seatedToss": {
+      "guidance": "Sit at a table and take turns tossing a soft bean bag into the big target. Keep the tally on paper, together.",
+      "stepsHeading": "Ia lao ena",
+      "steps": [
+        "Print the target and tally sheet, and lay it flat on the table between you.",
+        "Sit comfortably, one on each side. Take turns with one gentle toss each, or pass if you would rather not.",
+        "When a toss lands in a ring, the person who tossed ticks one box in their column, on the row for that ring.",
+        "Look at the ticks together when you stop, if you like. Nobody has to add anything up.",
+        "Stop whenever anyone is ready to."
+      ],
+      "safetyHeading": "Hadibadi",
+      "safetyLine": "Bag ia lalo ia sewn-shut o sock ia roll, ia hamaoa, face ia tosi dekenai, ia adult ia lalo. Small parts ia choking hazard.",
+      "flags": [
+        "3 ia lalo dekenai: small parts",
+        "Mouth ia lalo dekenai"
+      ],
+      "safety": [
+        "Choose a bean bag with a sewn-shut cover, or roll up a clean sock. Check it first for holes or loose stitches, so no filling can come out.",
+        "Beans, rice and other small fillings are a choking hazard. Keep them away from young children and from anyone who puts things in their mouth.",
+        "Stay within arm's reach and supervise closely if anything might be put in the mouth.",
+        "Stay seated. Toss gently and low toward the target on the table, never toward a face."
+      ],
+      "previewLabel": "The printed sheet: a target of three rings named Near, Middle and Far, from the outside in, and a tally with a column for each person and a row of empty boxes for each ring.",
+      "sheetHow": "Lay the sheet flat between you. When a toss lands in a ring, tick a box in your column, on that ring's row.",
+      "rings": [
+        "Near",
+        "Middle",
+        "Far"
+      ],
+      "people": [
+        "Taunimanima ta",
+        "Taunimanima ruanai"
+      ],
+      "ringHeading": "Ring",
+      "print": "Target ia tally sheet ia paper"
+    },
+    "seasonalPack": {
+      "guidance": "Choose a month, print its three paper puzzles, then do one, two or all three together.",
+      "monthLegend": "Mwaelu ta lalo",
+      "months": [
+        "Janueri",
+        "Pepuari",
+        "Mati",
+        "Eperele",
+        "Me",
+        "Iuni",
+        "Iulai",
+        "Aokaxi",
+        "Septemba",
+        "Oktoba",
+        "Nopemba",
+        "Tesemba"
+      ],
+      "monthNote": "Each month has its own pictures. The page opens on this month, and you can choose any other.",
+      "restDay": "Tanobada hamaoa dina",
+      "restLine": "Tanobada puzzle dekenai. Hamaoa dina ia lalo gaukara.",
+      "previewHeading": "Puzzle 3",
+      "puzzles": {
+        "pairs": {
+          "title": "Pair ia kuru",
+          "how": "Line ia gauna ia top row ia lalo, bottom row ia gauna ta lalo.",
+          "describe": "Two rows of the same four pictures, in a different order."
+        },
+        "different": {
+          "title": "Ai ia dekenai?",
+          "how": "Gauna ia dekenai ia lalo 3 ia circle.",
+          "describe": "A row of four pictures. Three are the same, and one is different."
+        },
+        "color": {
+          "title": "Kala ia lalo",
+          "how": "Color the picture however you like, with crayons or pencils.",
+          "describe": "Gauna boroma 1 ia kala ia lalo."
+        }
+      },
+      "print": "Mwaelu pack ia paper",
+      "sheetHow": "Page 1 ia paper. Puzzle 1, 2 o 3 ia lalo, order ia dekenai.",
+      "printFooter": "1, 2 o 3 ia lalo. Oi ia lao hamaoa tanobada."
+    },
+    "decorateACard": {
+      "guidance": "Choose an occasion, then decorate a card together with crayons or pens. There is no right card.",
+      "occasionLegend": "Occasion ia lalo",
+      "occasions": {
+        "birthday": {
+          "label": "Birthday",
+          "words": "Happy birthday"
+        },
+        "thank-you": {
+          "label": "Namo",
+          "words": "Namo"
+        },
+        "thinking-of-you": {
+          "label": "Oi ai idauna",
+          "words": "Oi ai idauna"
+        },
+        "new-season": {
+          "label": "Mwaelu vaovao",
+          "words": "Mwaelu vaovao"
+        },
+        "just-because": {
+          "label": "Ia lalo dekenai",
+          "words": "Ia lalo dekenai"
+        }
+      },
+      "stepsHeading": "Ia kala ia lalo taudia ia",
+      "steps": {
+        "fold": "Card ia paper ia kuru ia dashed line ia lalo ia fold, front ia outside.",
+        "front": "Taunimanima 1 ia front ia kala, words ia lalo.",
+        "inside": "Taunimanima ruanai ia back ia kala, o side 1 ia lalo gwauri.",
+        "message": "Write a message together. One person can write while the other says the words.",
+        "stop": "Oi ia lao hamaoa tanobada. Card ia right dekenai, simple ia good."
+      },
+      "materials": "Crayon, colored pencil o felt-tip pen ia lalo. Cut, glue o stick dekenai.",
+      "previewLabel": "A preview of the card folded in half. The front says {words}, with a simple frame of leaves and stars. The back has lines for a message and a line for From.",
+      "from": "Ia lalo",
+      "sheetHow": "Kadi ena laina gohe ai lalo, ena idauna ia lalo ai. Hereva ena muri ai dai.",
+      "rulesHeading": "Tau rua ai",
+      "sheetRules": [
+        "Gwauri ai, o ia hahaine: tau dahuna ena idauna ai ia gaukara, tau rua ena muri ai.",
+        "Hereva bada ia dai ai ia hahaine, o tau dahuna ia hereva ai, tau rua ia dai.",
+        "Tau dahuna be ia lou ai ta, dae ai. Kadi ena dekenai moale."
+      ],
+      "print": "Kadi ia hanaia"
+    },
+    "storyDice": {
+      "guidance": "Pikisa ia lalohadia ai, ia hereva dai ai, ena lalo ai ta. Hereva ena dekenai moale.",
+      "countLegend": "Dice dahua",
+      "count": "{n} dice",
+      "roll": "Ia gwauri lagani",
+      "pass": "Ia lou",
+      "passed": "Ia lou ai ena dekenai. Muri tau ia dahuna ai, o oi gwauri lagani.",
+      "rolled": "Pikisa vaovao: {names}.",
+      "tapped": "{name}. Ia dahuna ai dekenai ai, o ta lalo."
+    },
+    "wordPicture": {
+      "guidance": "Pikisa ta gwauri, muri ai hereva ena izi ia gwauri. O hereva ta gwauri, muri ai pikisa ena izi ia gwauri.",
+      "countLegend": "Pikisa dahua",
+      "count": "{n} pikisa",
+      "picturesGroup": "Pikisa",
+      "wordsGroup": "Hereva",
+      "readWord": "Hereva ia dai ai: {name}",
+      "next": "New pictures",
+      "putBack": "Ia lalo lagani",
+      "pickWord": "Oi dahuna, hereva ta izi ena pikisa ai ia gwauri.",
+      "pickPicture": "Oi dahuna, pikisa ta izi ena hereva ai ia gwauri.",
+      "fit": "Io, hereva ena {name|lower} ta izi.",
+      "newSet": "Ai pikisa vaovao ta ia hahaine.",
+      "restarted": "Dahuna ai lagani. Pikisa bada hereva ia ta dae lagani.",
+      "restored": "Ia lalo lagani. Ai izi ia ia hahaine lagani.",
+      "all": "Hereva bada ena pikisa ai ia izi."
+    },
+    "colorMatch": {
+      "guidance": "Kala ta ia gwauri, ena hereva ta ia dai ai. Muri ai, pikisa bada ta kala ena ia gwauri.",
+      "target": "Kala ena {color|lower}. Pikisa bada ta {color|lower} ia gwauri.",
+      "countLegend": "Pikisa dahua",
+      "count": "{n} pikisa",
+      "found": "Io, {name|lower} ena kala {color|lower}.",
+      "named": "{name|lower} ena kala {color|lower}.",
+      "all": "Ai, pikisa {color|lower} bada ia.",
+      "shown": "Ai pikisa {color|lower} ia hahaine.",
+      "show": "Ia hahaine",
+      "next": "Kala lagani",
+      "names": {
+        "red": "Mea",
+        "orange": "Orange",
+        "yellow": "Dilo",
+        "green": "Dau",
+        "blue": "Bulu"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Pikisa ena lalo ena gwauri, muri ai pikisa ena muri ai ia gwauri, ia izi ai ia dekenai.",
+      "countLegend": "Pikisa dahua",
+      "count": "{n} pikisa",
+      "leftGroup": "Lalo ena pikisa",
+      "rightGroup": "Muri ena pikisa",
+      "left": "Lalo ena pikisa ena {name|lower}",
+      "right": "Muri ena pikisa ena {name|lower}",
+      "joined": "Ia kwaukwau",
+      "pickRight": "Oi dahuna, pikisa muri ai ia gwauri, ia izi ai ia dekenai.",
+      "pickLeft": "Oi dahuna, pikisa lalo ai ia gwauri, ia izi ai ia dekenai.",
+      "fit": "Io, ai ruadia ia {name|lower} ia dekenai.",
+      "apart": "Ai ruadia ia izi dekenai moale. Ia gwauri ai lagani.",
+      "all": "Pikisa bada ia kwaukwau ai.",
+      "shown": "Pikisa ia kwaukwau ai hahaine.",
+      "show": "Ia hahaine",
+      "next": "Another set"
+    },
+    "colorByNumber": {
+      "guidance": "Kala ta ena gilo ai ia gwauri, ia kwadodia ai ia dae. Kala bada ia dekenai.",
+      "sizeLegend": "Kwadodia daha",
+      "size": "{n} by {n}",
+      "keyLegend": "Kala",
+      "colors": [
+        "Dilo",
+        "Orange",
+        "Dau",
+        "Purple"
+      ],
+      "motifs": {
+        "house": "ruma",
+        "flower": "bogi",
+        "heart": "ada",
+        "tree": "kau",
+        "boat": "lakatoi",
+        "pot-plant": "tutu ena pota"
+      },
+      "region": "Pikisa kwadodia, {n} by {n}. Ia kukuna ai muri, ena gini ai dekenai.",
+      "cell": "Namba {number}, lalo {row}, kwadodia {column}, {color}",
+      "empty": "moale",
+      "chose": "{name} ia dahuna. Kwadodia ta gwauri ai ia kala.",
+      "painted": "{name} lalo {row}, kwadodia {column}.",
+      "sheet": "Kwadodia bada ena kala ena namba ai. Ena pikisa ena pepa ai: {name}.",
+      "own": "Kwadodia bada ia kala. Oi ena pikisa ia hanaia.",
+      "fillAll": "Namba ai ia kala",
+      "filledAll": "Kwadodia moale bada ia kala ena namba ai.",
+      "clear": "Ia dae",
+      "cleared": "Kwadodia ia dae.",
+      "next": "Another picture",
+      "fresh": "Ai pikisa vaovao ta kala ai ia hahaine."
+    },
+    "patternMaker": {
+      "guidance": "Kwadodia ta gwauri ai, kala ia lalo. Oi ena pattern ia tutu ai ena izi. Ia hanaia ai moale, ia dai ai moale.",
+      "sizeLegend": "Tile daha",
+      "size": "{n} by {n}",
+      "keyLegend": "Kala, ena gwauri ai ia lalo ai",
+      "colors": [
+        "Dilo",
+        "Orange",
+        "Dau",
+        "Purple"
+      ],
+      "tileLabel": "Oi ena tile",
+      "region": "Oi ena tile, {n} by {n}. Ia kukuna ai muri, ena gini ai dekenai.",
+      "patternLabel": "Oi ena pattern",
+      "pattern": "Oi ena pattern: oi ena tile {n} ena lalo ai, {n} ena lalo ai.",
+      "square": "Lalo {row}, kwadodia {column}, {color}",
+      "changed": "Lalo {row}, kwadodia {column} ia {color} ai.",
+      "cleared": "Tile ia dae. Oi ia lalo lagani ai.",
+      "surprise": "Ai hahaine dahuna",
+      "surprised": "Ena tile vaovao ia hahaine. Oi ena tile dahuna ia lalo lagani ai.",
+      "putBack": "Ia lalo lagani",
+      "restored": "Oi ena tile ia lalo lagani, ia dekenai ai.",
+      "print": "Oi ena pattern ia hanaia",
+      "sheetTitle": "Oi ena pattern"
+    },
+    "buildTogether": {
+      "guidance": "Tau dahuna ia lalo ai kwadodia moale ai ia izi. Tau bada ena kala ia dekenai. Ia dae ai bada ia hanaia ai dai.",
+      "sizeLegend": "Kwadodia daha",
+      "size": "{n} by {n}",
+      "people": [
+        "Tau dahuna",
+        "Tau rua"
+      ],
+      "colorLegend": "Kala ena {person}",
+      "colors": [
+        "Dilo",
+        "Orange",
+        "Dau",
+        "Purple"
+      ],
+      "inUse": "Ia gwauri",
+      "turn": "Oi dahuna, {person|lower}",
+      "yourColor": "Oi kala ena {color|lower}.",
+      "built": "Rua ia hanaia ai. Ena pikisa oi rua ia hanaia.",
+      "gridLabel": "Kwadodia bada ta rua ia gwauri",
+      "region": "Kwadodia bada ta rua ia gwauri, {n} by {n}. Ia kukuna ai muri, ena gini ai dekenai.",
+      "cellEmpty": "Lalo {row}, kwadodia {column}, moale",
+      "cellFilled": "Lalo {row}, kwadodia {column}, {color}, {person|lower} ia lalo ai",
+      "placed": "Lalo {row}, kwadodia {column} ia {color} ai. Oi dahuna, {next|lower}.",
+      "placedLast": "Lalo {row}, kwadodia {column} ia {color} ai. Rua ia hanaia ai.",
+      "taken": "Lalo {row}, kwadodia {column} ia izi ai. Kwadodia moale ia gwauri ai.",
+      "pass": "Ia lou",
+      "passed": "Ia lou ai ena dekenai. Oi dahuna, {person|lower}.",
+      "takeBack": "Ia dae ai izi dahuna",
+      "takeBackPass": "Ia dae ai ia lou",
+      "tookBack": "Izi ia dae ai. Oi dahuna, {person|lower}.",
+      "tookBackPass": "Ia lou ia dae ai. Oi dahuna, {person|lower}.",
+      "colorChanged": "{person} ena kala ia {color|lower}.",
+      "restarted": "Kwadodia ia moale. Oi dahuna, {person|lower}.",
+      "print": "Kwadodia ia hanaia",
+      "sheetTitle": "Rua ia hanaia",
+      "sheetHelp": "Tau dahuna ia lalo ai. Kwadodia moale ai, tau bada ia pensol dahuna ai ia pikisa ia dai.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Izi ia gwauri, muri ai kwadodia ena pikisa ai ia izi ai ia lalo. Ia dae ai bada ia hanaia ai dai.",
+      "hints": "Laina ia hahaine",
+      "pictureLine": "Ena ia {picture}.",
+      "pictures": {
+        "house": "ruma",
+        "boat": "lakatoi",
+        "tree": "kau",
+        "fish": "ika",
+        "cat": "pusi",
+        "rocket": "roketi"
+      },
+      "outlineLabel": "Ena pikisa ena {picture}. Kwadodia ia gwauri ai, izi dahuna ia lalo ai.",
+      "trayHeading": "Ena izi",
+      "pieces": {
+        "large-triangle": "Triangel bada",
+        "small-triangle": "Triangel dahuna",
+        "square": "Kwadodia",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Oblong"
+      },
+      "shapes": {
+        "large-triangle": "triangel bada",
+        "small-triangle": "triangel dahuna",
+        "square": "kwadodia",
+        "parallelogram": "parallelogram",
+        "rectangle": "oblong"
+      },
+      "chosenLabel": "Dahuna ia gwauri",
+      "spaceEmpty": "Kwadodia {n}, {shape}, moale",
+      "spaceFilled": "Kwadodia {n}, {shape}, ena izi ia lalo ai. Ia dae ai izi ia gwauri.",
+      "chosen": "{piece} ia dahuna ai. Oi dahuna, ia lalo ai kwadodia ena pikisa ai.",
+      "unchosen": "Bagi ena ia dainai lou.",
+      "placed": "Bagi ena lalo {n} ia tao.",
+      "complete": "{picture} ena ia hadia.",
+      "different": "Bagi ena toto lasi ta lalo ena toto. Lalo daru ia dainai.",
+      "needPiece": "Ia dainai tray ena bagi ta gaukara.",
+      "filled": "Lalo ena bagi henia. Ia kamonai ia, bagi ena lou.",
+      "tookBack": "Bagi ena tray lalo lou.",
+      "cleared": "Bagi ese ena tray lalo lou. Oi ia lalo dainai ia be, ia tao lou.",
+      "restored": "Bagi ese ena pikisa lalo lou.",
+      "next": "Ena ia {picture}.",
+      "putBack": "Lou ia tao",
+      "another": "Toto daru",
+      "print": "Toto ena print ia",
+      "sheetTitle": "Quiet toto",
+      "sheetHow": "Bagi ese ia kara, o ia gwauwa ia outline ena lalo. Adult ta ia gwauwa.",
+      "sheetPieces": "Bagi ese, outline ena gwauwa ia hadia"
+    },
+    "picnicPlanner": {
+      "guidance": "Tap a picture to put it in the picnic basket, and tap it in the basket to take it out. The basket holds six things.",
+      "guidancePlay": "Pikisa ese ruma ia kamonai, ena neganega dekenai. Pikisa ese ena lalo ia gini, eda ena taimi lasi.",
+      "basketHeading": "Dala basket",
+      "basketLabel": "Piknik basket",
+      "takeOut": "Basket lalo {picture} ia kamonai lou",
+      "inBasket": "Basket lalo",
+      "foodHeading": "Kaikai",
+      "outingsHeading": "Gaukara ese",
+      "added": "{picture} ena basket lalo henia.",
+      "removed": "{picture} ena basket lalo lou henia.",
+      "already": "{picture} ena basket lalo henia. Ia kamonai ia, ia lou.",
+      "full": "Basket ena hadia. Gaukara ta ia kamonai lou, lalo ta ia tao.",
+      "summary": "Dala piknik: {list}.",
+      "summaryNone": "Basket lalo ena gaukara lasi bema.",
+      "and": "bada",
+      "play": "Dala piknik ia gaukara ta",
+      "needTwo": "Gaukara ese ia dainai ia neganega ... rua.",
+      "playAgain": "Daru gaukara",
+      "back": "Piknik lalo lou",
+      "print": "Dala piknik list ena print ia",
+      "cleared": "Basket ena lasi gaukara.",
+      "notice": "Ena hanua ia hebou ia gaukara. Taimi, rating o saves lasi.",
+      "sheetTitle": "Dala piknik list",
+      "sheetHow": "Tick each thing as you pack it. Use the blank lines for anything else you want to bring.",
+      "sheetToPack": "Basket lalo ta tao"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Dala pikisa ... rua bada neganega hanua ... ia dainai, book ia gaukara.",
+      "guidance": "Dala ia pages ia kamonai, button o Left bada Right arrow key ia. Pikisa lalo ia hanua ... dekenai ia tao, oi ia dainai. Gaukara ia lasi saves o sent.",
+      "lookGuidance": "Look at each page together. You can talk or simply look.",
+      "intro": "Device ena pikisa ... rua bada neganega ia dainai. Pikisa lalo ia page ia book ena, dala ia kamonai.",
+      "consent": "Use your own family photos. Ask before using a photo of someone who cannot say yes.",
+      "privacy": "Dala pikisa ena device ia lalo. Ia lasi upload, lasi save.",
+      "choose": "Pikisa ese ia dainai",
+      "chooseDifferent": "Pikisa daru ia dainai",
+      "backToBook": "Book lalo lou",
+      "backToChoose": "Pikisa dainai lalo lou",
+      "needTwo": "Oi ia dainai pikisa rua o ta neganega.",
+      "usingFirst": "Ia gaukara pikisa {max} ... lalo ia.",
+      "cleared": "Book ena hadia lou. Pikisa ese ia dainai ia daru gaukara.",
+      "moved": "Page {n} lalo ia tao henia.",
+      "pageOf": "Page {n} ... {total}",
+      "lookTogether": "Dala ia hanua ia kara",
+      "leaveLook": "Book lalo lou",
+      "print": "Scrapbook ena print ia",
+      "clear": "Book ena lou ia gaukara",
+      "bookLabel": "Family scrapbook",
+      "pagesLabel": "Pages ia kamonai",
+      "previous": "Page ena mua",
+      "next": "Page ena muri",
+      "moveEarlier": "Mua lalo ia tao",
+      "moveLater": "Muri lalo ia tao",
+      "captionLabel": "Page ena neganega ... hanua, oi ia dainai ta",
+      "captionHelp": "Up to 80 characters. Captions ena page ena lalo ia gini, book ia lou ia dala ena gaukara.",
+      "sheetTitle": "Dala scrapbook",
+      "sheetHow": "One photo to a page, with its words under it. Turn the pages in order and talk about each one.",
+      "sheetEmpty": "Choose your photos on the game page to print your own book, or print this blank page and stick in a printed photo.",
+      "sheetFrame": "Pikisa print ena lalo ia tao",
+      "sheetWords": "Page ena neganega hanua",
+      "skipped": {
+        "one": "File {n} ena lasi photo ita gaukara.",
+        "other": "File {n} ese ena lasi photo ita gaukara."
+      }
+    },
+    "quietScene": {
+      "guidance": "Look at one picture at a time. Press Next or Previous when you are ready. Nothing moves on its own.",
+      "next": "Pikisa muri",
+      "previous": "Pikisa mua",
+      "bigPicture": "Pikisa boroma",
+      "showEverything": "Gaukara hadia ia hanua",
+      "first": "Ena pikisa mua.",
+      "last": "Ena pikisa muri.",
+      "lines": {
+        "sunrise": "Lara ena ... gau lalo ia hanua.",
+        "window-with-birds": "Manu ese window lalo ia.",
+        "vase-of-flowers": "Flower ese vase lalo, table ena lalo.",
+        "teacup": "Tea kapu ena window ia.",
+        "tree": "Ai ena garden lalo ia tu.",
+        "sailboat": "Sailboat ena ... bada ia.",
+        "lighthouse": "Lighthouse ena tahi ... ia.",
+        "rainbow": "Rainbow ena ua muri.",
+        "moon": "Moon ena rarai ia lalo.",
+        "daisies": "Daisy ese ena grass lalo.",
+        "rowing-boat": "Rowing boat ena tahi ... ia lalo.",
+        "potted-plant": "Gini plant ena pot lalo."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Take turns. Tap a cut-out, then tap an empty place to put it there. Nothing you make is saved or sent.",
+      "people": [
+        "Tamona ena",
+        "Rua ena tamona"
+      ],
+      "marks": [
+        "circle",
+        "square"
+      ],
+      "turn": "Oi ena gaukara, {person|lower}.",
+      "marked": "Dala pikisa ese ia {mark} ena lalo.",
+      "boardLabel": "Dala board",
+      "placeEmpty": "Lalo {n}, lasi ena",
+      "placeFilled": "Lalo {n}, {picture|lower}, {person|lower} ena tao",
+      "trayHeading": "Cut-out ese",
+      "chosenLabel": "Dainai henia",
+      "chosen": "{picture} ena dainai henia. Dala lasi lalo ta ia kamonai.",
+      "unchosen": "Cut-out ena dainai lasi bema.",
+      "needCutout": "Cut-out ia dainai mua, muri lasi lalo ta ia kamonai.",
+      "filled": "Lalo {n} ena pikisa henia. Lasi lalo ta ia dainai.",
+      "placed": "{picture} ena lalo {n} lalo ia. Oi ena gaukara, {next|lower}.",
+      "full": "Lalo hadia ena pikisa lalo. Ia kamonai lou, o ia daru gaukara.",
+      "pass": "Pass",
+      "passed": "Pass ena lasi bada. Oi ena gaukara, {person|lower}.",
+      "takeBack": "Muri ena bagi lou",
+      "takeBackPass": "Pass lou",
+      "tookBack": "Bagi ena lou. Oi ena gaukara, {person|lower}.",
+      "tookBackPass": "Pass ena lou. Oi ena gaukara, {person|lower}.",
+      "restarted": "Board ena lasi bema. Oi ena gaukara, {person|lower}.",
+      "putBack": "Lou ia tao",
+      "putBackDone": "Bagi ese ena board lalo lou.",
+      "another": "Pikisa set daru",
+      "anotherSet": "Cut-out set daru ena tray lalo. Board lalo bagi ese ena lalo ia lasi.",
+      "print": "Board ena print ia",
+      "sheetTitle": "Collage board",
+      "sheetHow": "Cut out the pictures and take turns placing them on the board. An adult can do the cutting.",
+      "sheetTray": "Pikisa ese ia gwauwa"
+    },
+    "gardenPlanner": {
+      "guidance": "Pikisa ia kamonai, eda bed ia kamonai ia tao. Pikisa ena bed, dainai lasi, ia kamonai ia lasi lalo.",
+      "bedsLabel": "Garden bed ese",
+      "bedEmpty": "Bed {n}, lasi ena",
+      "bedFilled": "Bed {n}, {picture|lower}",
+      "plantsHeading": "Plant ese",
+      "extrasHeading": "Garden daru ese",
+      "chosenLabel": "Dainai henia",
+      "chosen": "{picture} ena dainai henia. Muri bed ia kamonai.",
+      "unchosen": "Pikisa lasi dainai.",
+      "needPicture": "Gado ia hadia, bona kebu ia tapa.",
+      "planted": "{picture} ia lalo kebu {n}.",
+      "replaced": "{picture} ia lou gado ia lalo kebu {n}.",
+      "cleared": "Kebu {n} ia tagi. Gado ia mai lalo lou, oi ia hadia lao.",
+      "restarted": "Kebu sibona ia tagi.",
+      "putBack": "Lou mai",
+      "putBackDone": "Gado idia lalo kebu lalo mai.",
+      "summaryHeading": "Au kebu",
+      "summary": "Oi plan ia lalo {list}.",
+      "summaryNone": "Gado ta lalo kebu ia dekenai.",
+      "and": "bada",
+      "print": "Plan ia print",
+      "sheetTitle": "Ita kebu plan",
+      "sheetHow": "Kebu idia ia show gado ia hadia lalo screen. Kebu tagi ia lalo, oi ia draw be gaukara ta lou.",
+      "sheetNotes": "Notes",
+      "notice": "Hebou gado plan ia, badina ai ia planting advice dekenai."
+    },
+    "coloringWall": {
+      "guidance": "Gado be pepa dahai ia hadia. Wall ia print, bona natu tamona hahine ia kala ta be pepa dahai lalo pepa ta bada. Timer, score be save dekenai.",
+      "pictureLegend": "Gado",
+      "sizeLegend": "Pepa ta dahai",
+      "sizes": {
+        "2x2": "4 pepa (2 x 2)",
+        "3x2": "6 pepa (3 x 2)",
+        "3x3": "9 pepa (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} ia lalo {n} pepa, {across} tanobada be {down} gogo. Pepa lalo ia label ta kwalu lalo ia lalo.",
+      "previewCaption": "Gado ia lalo, pepa line be label idia ia lalo.",
+      "labelsNote": "Letter ia wall gogo lalo, number ia wall tanobada lalo, bona A1 ia pepa lalo kwalu ia lalo.",
+      "wallHeading": "Wall ia kara dahai",
+      "steps": [
+        "Pepa sibona ia print. Pepa ta hadia ia steps be wall map ia lalo.",
+        "Taudia ta be pepa dahai ia hadia bona kala.",
+        "Kala be style ia dekenai ia tabe. Pepa sibona ia gado sibona lalo.",
+        "Pepa ia label lalo ia hadia bona tape lalo back ia join lou.",
+        "Wall ia tapa lalo, taudia sibona ia see ai."
+      ],
+      "mapLabel": "Wall map: {down} rows lalo {across} pepa, label ia A1 be {last} lalo.",
+      "edgeNote": "Dashed line ia pepa edge ia. Pepa edge ta edge lalo tabe, be overlap ai.",
+      "pictureLine": "Gado: {picture}. Wall ia {n} pepa: {across} tanobada, {down} gogo.",
+      "print": "Wall ia print"
+    },
+    "findTogether": {
+      "guidance": "Turn ta lalo. Oi turn ia, card rua ia turn bona pair ta hadia. Pair idia ia hadia tapa lalo.",
+      "sizeLegend": "Card dahai",
+      "size": "{n} card",
+      "viewLegend": "Play ai lou",
+      "viewShowing": "Gado ia visible lalo play",
+      "viewHidden": "Card ia face down",
+      "people": [
+        "Ta hadi",
+        "Ta rua"
+      ],
+      "turn": "Turn: {person}",
+      "turnDone": "Pair sibona ia hadia.",
+      "tally": "Pair ita ia hadia: {n}",
+      "cardNamed": "{name}, card {n}",
+      "cardFaceDown": "Card {n}, face down",
+      "first": "{name}. Ai card rua ia turn lou.",
+      "found": "{name}: pair, ita hadia. Ai {next|lower} ia turn.",
+      "allTogether": "Ita hadia pair sibona.",
+      "different": "{a} be {b} ia dekenai. Gaukara ta lou, bona Turn them back ia press.",
+      "waiting": "Turn them back ia press, oi ready ia. Bona turn ia lao.",
+      "turnedBack": "Turn back. Ai {person|lower} ia turn.",
+      "passed": "Pass ia lou. Ai {person|lower} ia turn.",
+      "turnBack": "Turn them back",
+      "pass": "Pass",
+      "playAgain": "Play ai mai"
+    },
+    "drawingDuet": {
+      "guidance": "Turn ta lalo, line ta ta bada, bona pen ia lao. Pass ia lou. Nothing ia send lao. Gado ia page ai lao only if save.",
+      "people": [
+        "Ta hadi",
+        "Ta rua"
+      ],
+      "colorLegend": "{person} ena kala",
+      "colors": [
+        "Yelo",
+        "Orens",
+        "Grin",
+        "Pepol"
+      ],
+      "turn": "{person} ena turn",
+      "penColor": "Pen kala: {color}.",
+      "canvasLabel": "Ita drawing, {n} line ia lalo",
+      "canvasLabelOne": "Ita drawing, {n} line ia lalo",
+      "keys": "Arrow key ia dot ia drawing lalo gado. Space ia pen lalo be tapa.",
+      "penDown": "Pen lalo",
+      "penUp": "Pen tapa",
+      "pass": "Pen ia lao",
+      "passed": "Pass ia lou. {person|lower}, turn oi ia.",
+      "takeBack": "Ai last line ia takeback",
+      "tookBack": "{person|lower} ena last line ia takeback.",
+      "noLine": "{person|lower} ena line ta ia dekenai, takeback ia lou.",
+      "restarted": "Sheet ia clear. Ta hadi ia turn. Put back ia lou, oi ai ia dekenai.",
+      "putBack": "Lou mai",
+      "restored": "Line idia ia lalo gado ia lou.",
+      "save": "Save gado",
+      "saved": "Oi gado ia ready. Download link ia lalo, device lalo ia keep lou.",
+      "download": "Download drawing-duet.png",
+      "print": "Print paper version",
+      "sheetTitle": "Drawing duet",
+      "paperRules": "Taudia rua, sheet ta, pen rua. Turn lalo: line ta be shape ta ta bada, bona pen ia lao. Pass ia lou. Gado right ta dekenai."
+    },
+    "colorWash": {
+      "guidance": "Kala soft ia page lalo, wash ta ta bada. Brush ia tapa lou lalo stop, oi ai stop ia lou. Nothing save be send dekenai.",
+      "colorLegend": "Wash kala",
+      "sizeLegend": "Brush size",
+      "colors": [
+        "Yelo",
+        "Orens",
+        "Grin",
+        "Pepol"
+      ],
+      "sizes": {
+        "wide": "Lahi",
+        "veryWide": "Lahi tumu"
+      },
+      "color": "Wash kala: {color}.",
+      "brushDown": "Brush lalo",
+      "brushUp": "Brush tapa",
+      "keys": "Arrow key ia brush ring ia page lalo gado. Space ia brush lalo be tapa.",
+      "canvasLabel": "Page ta soft kala wash lalo",
+      "fresh": "Page ta hou",
+      "freshMessage": "Page ta hou.",
+      "putBack": "Lou mai",
+      "restored": "Page ia lou mai."
+    },
     "sortTogether": {
       "guidance": "Laulau ta taraia, bena ena bosea maorona taraia.",
       "restart": "Laulau matamata",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} be bosea \"{basket}\" lalonai do ia vareai diba. Unai bosea taraia ia atoa totona.",
       "placed": "{name|lower} be bosea \"{basket}\" lalonai ia noho.",
       "sorted": "Gau ibounai idia hegeregere vadaeni. Bosea lalonai idia noho gaudia itaia hebou, eiava tema ma ta tohoa.",
+      "largerTargets": "Target lahi",
+      "largerOn": "Target lahi ia on. Gau ta ia move dekenai.",
+      "largerOff": "Target lahi ia off. Gau ta ia move dekenai.",
+      "largerOnNewRound": "Target lahi ia on, basket rua ia lalo. Gado hou ia sort ta.",
       "basket": {
         "one": "Bosea \"{basket}\", laulau {count} lalonai ia noho",
         "other": "Bosea \"{basket}\", laulau {count} lalonai idia noho"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Kaha ta taraia, bena kaha ma ta taraia. Idia hegeregere lou.",
-      "restart": "Bulua lou",
+      "restart": "Mix up again",
       "pictureLegend": "Laulau",
       "pictures": {
         "sailboat": "Vanagi",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Laulau korikori: {name}",
       "guideText": "Laulau be inai bamona do ia hedinarai ia goeva neganai.",
+      "ownChoose": "Oi photo ia lalo",
+      "ownChange": "Photo tanobada ia hadia",
+      "ownBack": "Ita gado ia tapa",
+      "ownPrivacy": "Oi photo ia device lalo dahai. Upload dekenai, save dekenai.",
+      "ownConsent": "Oi photo ia lalo. Ask ia lou taudia ia cannot say yes ena photo ia lao.",
+      "ownWorking": "Oi photo ia ready ia lou.",
+      "ownNotUsable": "File ia use dekenai. Photo file ta hadia, JPEG be PNG.",
+      "ownAlt": "Oi photo",
+      "ownPiece": "Piece {n}, {place}",
+      "ownWhole": "Oi photo ia whole lou. Mix ia lou ai lalo, oi ai gaukara.",
+      "ownSheetTitle": "Oi photo ia piece lalo",
+      "ownSheetHow": "Line lalo cut. Piece ia mix, bona piece rua ia swap lou picture ia whole ai.",
       "piece": "Kaha {place} dekenai",
       "pieceInPlace": ", gabu maorona dekenai",
       "piecePickedUp": ", abia vadaeni",
@@ -122,7 +786,7 @@
         "henunai idiba"
       ],
       "done": "Laulau be ia goeva lou vadaeni. Gadaia lou eiava lahi maragi abia.",
-      "playAgain": "Bulua lou"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Hereva duahia hebou, bena ia hadokoa herevana taraia.",
@@ -190,6 +854,14 @@
       "guidance": "Kada gado bada amo duahia. Haere maorona eiava kererena ta lasi.",
       "position": "Kada {n} lalonai, ibounai be {total}",
       "themeLegend": "Urohehere tema",
+      "showPrompt": "Conversation prompt ia show",
+      "bigPicture": "Gado lahi, group ai",
+      "passNote": "Taudia ia pass ai.",
+      "groupTitle": "Card ia pass group lalo",
+      "groupSit": "Circle lalo ia sit, gado ia dahai ia see ai. Card ena hahine, be device ena gado lahi, ia prompt ia read out loud hadi.",
+      "groupPass": "Bona card ia pass next hahine. Taudia ia word be sentence ta gado lalo ia say, bona pass ia lou.",
+      "groupNoSpeech": "Card ia pass ai always ia lou. Hahine ia pass ai dekenai say lou, bona taudia ia why dekenai ask.",
+      "groupEnd": "Hebou ia lalo ena sivarai badina taudia idia gwauraga namo. Ia lalo ai idia lao idau. Namo ena gaukara, badina taudia idia namo ia dekenai.",
       "next": "Kada ma ta",
       "previous": "Guna kadana",
       "print": "Kada ibounai prentia",
@@ -252,6 +924,20 @@
       "started": "Ia hamatamaia vadaeni. Gegea ia bada neganai laga abia.",
       "stopped": "Ia doko vadaeni.",
       "finished": "Unai be laga metau tauratoi vadaeni. Oi ura neganai oi hamatamaia lou."
+    },
+    "storyChain": {
+      "guidance": "Take turns: one sentence each, add the next picture.",
+      "passNote": "Say your sentence aloud. Nothing is typed or kept. Anyone may pass.",
+      "chainLabel": "Ia lao ena chain",
+      "item": "Picture {n}: {name}",
+      "add": "Picture tahi ia lao",
+      "fullAdd": "Chain ia lalo namo. Chain vaovao tahi ia lao",
+      "newChain": "Chain vaovao tahi ia lao",
+      "takeOff": "Picture ena lao ia dekenai",
+      "added": "{name|lower} ia chain ena lalo ena hanua.",
+      "removed": "{name|lower} ia chain ena lao namo.",
+      "fresh": "Chain vaovao, ia lao ena {name|lower}.",
+      "full": "Chain ia lalo picture walu. Gwauraga ia dekenai, o chain vaovao tahi ia lao."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Ori medu totona",
     "snowflake": "Sinou maragina",
     "kite": "Manu pepa",
-    "sunrise": "Dina daekau ororo latanai"
+    "sunrise": "Dina daekau ororo latanai",
+    "decorated-keepsake-box": "Box, ia dekenai ena",
+    "painted-plant-pot": "Pot, ia gau ena herbs",
+    "repeating-pattern-sheet": "Pepa, ia pattern ena",
+    "music-drawn-lines": "Lines, ia music ena",
+    "paper-boat-afloat": "Boat, ia pepa ena, ia lalo ena vai",
+    "folded-towel-stack": "Towel, ia folded ena",
+    "hand-massage-with-lotion": "Hand, ia lotion ena",
+    "open-photo-album": "Album, ia foto ena",
+    "button-flower-card": "Flower, ia button ena, ia card lalo",
+    "blue-torn-paper-collage": "Collage, ia blue ena pepa",
+    "family-tree-of-hands": "Tree, ia hands ena",
+    "open-greeting-card": "Card, ia heart ena",
+    "lavender-sachet": "Sachet, ia lavender ena",
+    "memory-collage-of-photos": "Collage, ia foto ena taudia",
+    "paper-chain-garland": "Garland, ia pepa chain ena",
+    "open-songbook-with-notes": "Songbook, ia music ena",
+    "photo-postcard-with-stamp": "Postcard, ia foto ena",
+    "pine-cone-bird-feeder": "Feeder, ia pine cone ena, ia branch lalo",
+    "playlist-phone-and-card": "Phone, ia playlist ena",
+    "sealed-rice-shaker": "Shaker, ia rice ena",
+    "texture-board-with-scraps": "Board, ia texture ena",
+    "painted-garden-stone": "Stone, ia garden ena",
+    "shared-painted-canvas": "Canvas, ia painted ena",
+    "watercolor-washes-sheet": "Pepa, ia watercolor ena",
+    "seedling-in-pot": "Seedling, ia pot lalo",
+    "pressed-leaves-in-book": "Leaves, ia book lalo",
+    "printed-leaves-sheet": "Pepa, ia leaf ena",
+    "pinch-pot-clay-bowl": "Bowl, ia clay ena",
+    "table-sketch-pencil": "Sketch, ia mug ena",
+    "buttons-in-muffin-tin": "Buttons, ia tin lalo",
+    "family-recipe-book": "Book, ia recipe ena",
+    "drum-with-beat-marks": "Drum, ia sticks ena",
+    "torn-paper-flower": "Flower, ia pepa ena",
+    "window-with-birds": "Window, ia manubada ena",
+    "woven-paper-mat": "Mat, ia pepa ena",
+    "yarn-ball-with-thread": "Yarn, ia ball ena",
+    "letter-and-envelope": "Letter, ia envelope ena"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Murimuri ai"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Hanai ena",
+        "animals": "Gau ena",
+        "travel": "Lao ena dala",
+        "flowers": "Flower ena",
+        "hot-drinks": "Gau ena vai ia hot",
+        "weather": "Gau ena tauna",
+        "baked": "Gau ia oven lalo ena"
       }
     }
   }

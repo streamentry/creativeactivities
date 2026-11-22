@@ -39,7 +39,7 @@ describe('ConversationCards', () => {
 
   it('uses the English source label until a locale has a reviewed translation', () => {
     const english = playProps('en', 'conversation-cards');
-    const spanish = playProps('es', 'conversation-cards');
+    const spanish = playProps('xx', 'conversation-cards');
 
     expect(spanish.ui.conversationCards.showPrompt).toBe(english.ui.conversationCards.showPrompt);
   });

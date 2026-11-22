@@ -5,6 +5,13 @@
       "stopReading": "Taiguaiġiñ",
       "region": "Ulapqin",
       "restart": "Aullaġniiqqigiñ",
+      "rest": "Ilaaqtuq taimaa",
+      "restingTitle": "Ilaaqtuq",
+      "restingText": "Ilaaqtuŋ kiŋaġa tamaani. Tiŋmik kipuaġik ilaaqtuq taapkua tamaani.",
+      "resume": "Aŋutiqsiŋ",
+      "placeText": "Malruk ilaaqtuq uqaġaqtuŋ. Aŋutiqsiŋ taapkua tamaani, malruŋ nutaan tuqiŋŋa.",
+      "placeResume": "Aŋutiqsiŋ",
+      "placeFresh": "Nutaan tuqiŋŋa",
       "soundOn": "Nipikillaurat ikillugit",
       "soundOff": "Nipikillaurat qamiłługit",
       "done": "Taimaa pakma",
@@ -43,7 +50,19 @@
       "viewShowing": "Piksat qinnaqtut",
       "viewHidden": "Piksat ijiqsimasuat",
       "playAgain": "Ulapqiqigiñ nutlaaniñ piksanik",
-      "talk": "Uqautigillagik piksat atautchikun"
+      "talk": "Uqautigillagik piksat atautchikun",
+      "modeLegend": "Kinguvaat tuttuaġaat",
+      "modePlay": "Tamaat tuttuaġaat",
+      "modeDaily": "Tamaani ilaaġaq",
+      "dayLegend": "Qanuq uvaŋa",
+      "dayHelp": "Tamaa inuit tuttuaġaat tamaat uvaŋa taimaa. Malruk uvaŋa tamaani, ilaaqtuŋ kiŋaġa ilaaġaqtuq ukiuq.",
+      "guidanceDaily": "Tamaani ilaaġaq tallimat ilaaġaat. Ilisaġaa tuttuaq, taimaa tauvaa ilaaġaq tuttuaq.",
+      "restartDaily": "Ilaaġaq nutaaq tamaani",
+      "copy": "Taimaa tuqutiqsiŋ",
+      "copied": "Tuqutiqtuq. Tamaat taima nagiŋŋaq tiŋmiqsaaq.",
+      "calendarTitle": "Tamaani ilaaġaat, {month}",
+      "calendarHelp": "Uvaŋa tamaani tallimat tuttuaġaat inuit tamaat. Tamaat pinġaqtuq naagaqtuŋa, tamaat uvaŋa taimaa ilaaqtuŋ.",
+      "calendarVersion": "Tuqutiq {date}. Tuttuaġaat inuit tamaat uvaŋa taimaa."
     },
     "choose": {
       "countLegend": "Qapsiich piksat",
@@ -62,6 +81,635 @@
       "shadowAlt": "Tarraq naipikkaqsraq",
       "foundAlt": "Tarraŋa taavruma {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Ilitchiqtuat",
+      "hintOn": "Ilitchiq ilaaqtuŋa tamaani",
+      "hintOff": "Ilitchiqtuat aġraqtuq",
+      "guidance": "Tuqumaŋ {n} tuttuaġaat ilaaqtuŋ, tuqumaŋ tamaat tuttuaġaq.",
+      "countLegend": "Qaniŋ tuttuaġaat",
+      "count": "{n} tuttuaġaat",
+      "found": "Ii, {name|lower} ilaaqtuq taapkua nagiŋŋaq.",
+      "elsewhere": "{name|lower} ilaaqtuq allaŋa. Ilaaqtuŋ kiŋaġa.",
+      "hint": "Ilitchiq: tuqumaŋ {theme|lower}.",
+      "together": "Ilaaqtuq taapkua: {theme}.",
+      "shown": "Taapkua ilaaqtuq: {theme}.",
+      "groupName": "Ilaaqtuq: {theme}",
+      "show": "Tuqumaŋ ilaaqtuq",
+      "next": "Allaq ilaaqtuq"
+    },
+    "oddOneOut": {
+      "hintLegend": "Ilitchiqtuat",
+      "hintOn": "Ilitchiq ilaaqtuŋa tamaani",
+      "hintOff": "Ilitchiqtuat aġraqtuq",
+      "guidance": "Tuqumaŋ tuttuaq ilaaqtuq aġraqtuŋ allat, taimaa tauvaa.",
+      "countLegend": "Qaniŋ tuttuaġaat",
+      "count": "{n} tuttuaġaat",
+      "belongs": "{name|lower} ilaaqtuq allat. Ilaaqtuŋ kiŋaġa.",
+      "found": "Ii, {name|lower} aġraqtuq. Allat ilaaqtuq {theme|lower}.",
+      "shown": "Taapkua: {name|lower}. Allat ilaaqtuq {theme|lower}.",
+      "hint": "Ilitchiq: {n} taapkua ilaaqtuq {theme|lower}.",
+      "others": "Allat: {theme}",
+      "show": "Tuqumaŋ",
+      "next": "Allaq ilaaqtuq"
+    },
+    "seatedToss": {
+      "guidance": "Ilisaġaa tablemi, ataŋŋuŋ tuqutiqsiŋ kuŋmiŋ paunaq tuqumiŋa. Ilaaqtuŋ tamaani pitchiqtuŋa paperim.",
+      "stepsHeading": "Qanuq ilaaqtuq",
+      "steps": [
+        "Tuqutiqsiŋ kuŋmiŋ taapkua tuqutiqsiŋ, tamaat paper, tablemi ataaŋŋuŋ.",
+        "Ilisaġaa ilaaġaq, ataŋŋuŋ tamaa aġraq. Tuqutiqsiŋ ataŋŋuŋ ataaq paunaq, malrugu aġraqtuq ilaaqtuq.",
+        "Tuqumaŋ paunaq kiŋaġaq ilaaqtuq, tuqumaŋ tuqutiqsiŋ kuŋmiŋ tamaaqtuq paper tamaani.",
+        "Tuqumaŋ tamaat ilaaġaat, tuqumaŋ kiŋaġa taimaa. Tamaat ilaaqtuŋ taima kiŋaġa.",
+        "Ilaaqtuq taimaa, tuqumaŋ kiŋaġa ilaaqtuŋ."
+      ],
+      "safetyHeading": "Tamaŋnaġa",
+      "safetyLine": "Tuqutiqsiŋ taimaa kuŋmiŋ tuqumaŋ paunaq kiŋaġaq, ilisaġaa ilaaqtuŋ, ataŋŋuŋ tamaa aġraq, tuqumaŋ inuk ikiaŋa. Kiŋgiqtuq ilaaqtuq tuqutiqsiŋ.",
+      "flags": [
+        "Ilaaqtuq aġraqtuq ukiuq 3 ilaaŋŋa: kiŋgiqtuq ilaaqtuq",
+        "Tuqumaŋ aġraqtuq naŋŋuŋa"
+      ],
+      "safety": [
+        "Tuqumaŋ paunaq kuŋmiŋ tuqutiqsiŋ kiŋaġaq, malruk paper tuqutiqsiŋ. Ilaaqtuŋ kiŋaġa ilaaqtuq, tuqumaŋ tamaat kiŋgiqtuq.",
+        "Kiŋgiqtuq ilaaqtuq tuqutiqsiŋ tuqumaŋ kiŋaġa aġraq. Tuqumaŋ ilaaġaat ikiaq inuit taapkua nunaqtuq.",
+        "Ilisaġaa qiŋŋa ilaaqtuq, ikiaŋŋiŋ nagiŋŋaq tuqumaŋ naŋŋuŋa kiŋgiqtuq.",
+        "Ilisaġaa ilaaqtuŋ. Tuqutiqsiŋ kiŋaġaq taimaa tablemi, aġraqtuq naŋŋuŋa."
+      ],
+      "previewLabel": "Tamaat paper: tuqutiqsiŋ kuŋmiŋ kiŋaġaq ataaq 3 kiŋaġat, Kiŋaq, Iluaq, Uvviaq, tamaat aġraqtuq. Tamaat ilaaġaq tamaani tamaa inuk, ilaaqtuq tamaat kiŋaġa.",
+      "sheetHow": "Tuqutiqsiŋ paper tablemi. Tuqumaŋ paunaq kiŋaġaq, tuqumaŋ tamaat ilaaġaq ilaaqtuq kiŋaġa.",
+      "rings": [
+        "Kiŋaq",
+        "Iluaq",
+        "Uvviaq"
+      ],
+      "people": [
+        "Ataaq inuk",
+        "Malruk inuk"
+      ],
+      "ringHeading": "Kiŋaġaq",
+      "print": "Pitchiqsiŋ kuŋmiŋ tuqutiqsiŋ paper"
+    },
+    "seasonalPack": {
+      "guidance": "Tuqumaŋ ukiuq, pitchiqsiŋ tallimat paper ilaaġaq, tuqumaŋ ataaq, malruk, tallimat ilaaqtuŋ.",
+      "monthLegend": "Tuqumaŋ ukiuq",
+      "months": [
+        "Ianuari",
+        "Pivruari",
+        "Marsi",
+        "Eprili",
+        "Mei",
+        "Jun",
+        "Julai",
+        "Aukusti",
+        "Sepitempa",
+        "Uktupa",
+        "Novempa",
+        "Titempa"
+      ],
+      "monthNote": "Ukiuq tamaani tuttuaġaat aġraq. Tamaat tuqumaŋ ukiuq taimaa, tuqumaŋ tamaat aġraq.",
+      "restDay": "Tamaani ilaaqtuq ilaaqtuŋ",
+      "restLine": "Tamaani paper ilaaqtuq aġraqtuq. Ilaaqtuq ilaaqtuŋ taimaa.",
+      "previewHeading": "Tallimat paper",
+      "puzzles": {
+        "pairs": {
+          "title": "Tuqumaŋ ilaaqtuq",
+          "how": "Tuqumaŋ kiŋaġaq ilaaqtuq tamaat tuttuaġaq tamaani, tamaat tuttuaġaq tamaani allaq.",
+          "describe": "Malruk ilaaqtuq tamaat tuttuaġaat, aġraqtuq allaq."
+        },
+        "different": {
+          "title": "Qaiqpaa aġraqtuq?",
+          "how": "Tuqumaŋ tuttuaq aġraqtuq allat kiŋaġat.",
+          "describe": "Tallimat tuttuaġaat ilaaqtuq. Ataaq aġraqtuq ilaaqtuq."
+        },
+        "color": {
+          "title": "Tuqumaŋ tuqutiqsiŋ",
+          "how": "Tuqutiqsiŋ tuttuaq taimaa, kraiyun ukpiq pensiŋ.",
+          "describe": "Ataaq tuttuaq ilaaqtuq tuqutiqsiŋ."
+        }
+      },
+      "print": "Pitchiqsiŋ ukiuq tamaani paper",
+      "sheetHow": "Pitchiqsiŋ ataaq paper. Tuqumaŋ ataaq, malruk, tallimat, aġraqtuq taimaa.",
+      "printFooter": "Tuqumaŋ ataaq, malruk, tallimat. Ilaaqtuŋ kiŋaġa taimaa."
+    },
+    "decorateACard": {
+      "guidance": "Tuqumaŋ ilaaġaq, tuqutiqsiŋ kraiyun ukpiq pen. Aġraqtuq kiŋaġa ilaaqtuq.",
+      "occasionLegend": "Tuqumaŋ ilaaġaq",
+      "occasions": {
+        "birthday": {
+          "label": "Ukiuqtaq",
+          "words": "Ukiuqtaq quyanaqpak"
+        },
+        "thank-you": {
+          "label": "Quyanaqpak",
+          "words": "Quyanaqpak"
+        },
+        "thinking-of-you": {
+          "label": "Tiŋmiŋaa tamaani",
+          "words": "Tiŋmiŋaa tamaani"
+        },
+        "new-season": {
+          "label": "Ukiuq nutaaq",
+          "words": "Ukiuq nutaaq"
+        },
+        "just-because": {
+          "label": "Taimaa ilaaqtuq",
+          "words": "Taimaa ilaaqtuq"
+        }
+      },
+      "stepsHeading": "Qanuq tuqutiqsiŋ ilaaqtuŋ",
+      "steps": {
+        "fold": "Pitchiqsiŋ kuŋmiŋ tuqutiqsiŋ, tuqumaŋ kiŋaġaq ilaaqtuq, tamaat tuttuaq kiŋaġaq tamaani.",
+        "front": "Ataaŋŋuq tuqutiqsiŋ tamaani kiŋaġa, tamaani uqaaqtuq.",
+        "inside": "Malruŋŋuq tuqutiqsiŋ kiŋaġa aġraqtuq, tuqumaŋ ilaaqtuŋ taima.",
+        "message": "Tuqumaŋ uqaaqtuq ilaaqtuŋ. Ataaŋŋuq ilisaġaa, malruŋŋuq uqaaqtuq.",
+        "stop": "Ilaaqtuŋ kiŋaġa taimaa. Kiŋaġaq ilaaqtuq aġraqtuq, tuqutiqsiŋ taimaa."
+      },
+      "materials": "Tuqumaŋ kraiyun, kuluŋ pensiŋ, pen. Kiŋaġaq ilaaqtuq aġraqtuq, tuqumaŋ taimaa.",
+      "previewLabel": "Tuqutiqsiŋ kiŋaġaq ataaq tamaat. Tamaani uqaaqtuq {words}, tuqutiqsiŋ ilaaqtuq, ilaaqtuq. Kiŋaġa tamaani uqaaqtuq ilaaqtuq, tuqumaŋ tamaani Kaŋa.",
+      "from": "Tuqumaŋ",
+      "sheetHow": "Kiŋuqtuaq kaarta ilaliaqtuq aŋutiŋaq tuŋaŋi, qiŋiqtuq ilaŋuq. Qiŋiqtuq kaarta uŋaqtuaq.",
+      "rulesHeading": "Ilaŋŋiŋ malruġaaq",
+      "sheetRules": [
+        "Ikayuqtaqtuŋit malruŋ, ukiuŋ ilaŋi: ilaŋi ikayuq kaarta ilaliaqtuq, malrugu qiŋiqtuq ilaqtuq.",
+        "Qiŋiqtuŋit kaarta ilaŋi, ukiuŋ ilaŋi ukuaq ilaŋuq.",
+        "Kiŋuqtuaq kaarta ilaliaqtuq kiŋuŋ. Iñuqtuq ilaqtuq uŋaqtuaq."
+      ],
+      "print": "Piŋuaqtuaq kaarta"
+    },
+    "storyDice": {
+      "guidance": "Qiŋiqtuŋit ilaŋi ilaŋi, ilaŋŋiŋ uqaqtuaŋit. Ilaŋi uqaqtuq kaaŋ ilaŋuq.",
+      "countLegend": "Ilaŋŋiŋ ilaŋi",
+      "count": "{n} ilaŋŋiŋ",
+      "roll": "Piŋuaqtuaq ukiuq",
+      "pass": "Ilaqtuq",
+      "passed": "Ilaqtuq ilaŋuq. Ukuaq aglaqtuq, ilaŋi piŋuaqtuaq.",
+      "rolled": "Nutaan ilaŋi: {names}.",
+      "tapped": "{name}. Aglaqtuq ilaŋi, ilaŋi ukiuŋ ilaŋi."
+    },
+    "wordPicture": {
+      "guidance": "Tap a picture, then the word that names it. Or tap a word, then its picture.",
+      "countLegend": "Ilaŋi ilaŋŋiŋ",
+      "count": "{n} ilaŋi",
+      "picturesGroup": "Ilaŋi",
+      "wordsGroup": "Uqaqtuŋit",
+      "readWord": "Uqaqtuaq ilaŋŋiŋ: {name}",
+      "next": "New pictures",
+      "putBack": "Ilaŋuq ukiuŋ",
+      "pickWord": "Nauqtuaq tiggiaq uqaq ilaŋuq ilaŋi.",
+      "pickPicture": "Nauqtuaq tiggiaq ilaŋi ilaŋuq uqaq.",
+      "fit": "Ii, uqaq ilaŋuq {name|lower} ilaŋi.",
+      "newSet": "Uvanna nutaan ilaŋi malruq.",
+      "restarted": "Aglaŋit ilaŋi. Ilaŋi uqaqtuŋit tamaat ilaŋi qiŋiqtuq.",
+      "restored": "Ilaŋuq ukiuŋ. Ilaŋi ukiuŋ tiggiqtuq ilaŋi.",
+      "all": "Uqaq tamaat ilaŋiŋ ilaŋi."
+    },
+    "colorMatch": {
+      "guidance": "Look at the color and its name, then tap every picture that is that color.",
+      "target": "Ilaŋi {color|lower}. Tiggiaq tamaat ilaŋi ilaŋuq {color|lower}.",
+      "countLegend": "Ilaŋi ilaŋŋiŋ",
+      "count": "{n} ilaŋi",
+      "found": "Ii, {name|lower} ilaŋi {color|lower}.",
+      "named": "{name|lower} ilaŋi {color|lower}.",
+      "all": "Tamakku ilaŋi {color|lower} ilaŋi.",
+      "shown": "Malruŋit ilaŋi {color|lower}.",
+      "show": "Takuqtuaq",
+      "next": "Another color",
+      "names": {
+        "red": "Qiviaq",
+        "orange": "Oranġi",
+        "yellow": "Yellu",
+        "green": "Kaniaq",
+        "blue": "Ŋuviaq"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tiggiaq ilaŋi tuŋaq, tiggiaq ilaŋi ilaŋuq tuŋaq ilaŋi.",
+      "countLegend": "Ilaŋi ilaŋŋiŋ",
+      "count": "{n} ilaŋi",
+      "leftGroup": "Tuŋaq ilaŋi",
+      "rightGroup": "Ilaŋi tuŋaq",
+      "left": "Tuŋaq ilaŋi {name|lower}",
+      "right": "Ilaŋi tuŋaq {name|lower}",
+      "joined": "Ilaŋuq",
+      "pickRight": "Nauqtuaq tuŋaq ilaŋi ilaŋuq ilaŋi.",
+      "pickLeft": "Nauqtuaq tuŋaq ilaŋi ilaŋuq ilaŋi.",
+      "fit": "Ii, tuŋaŋit ilaŋi ilaŋuq {name|lower}.",
+      "apart": "Tuŋaŋit ilaŋi ilaŋuq. Piŋuaqtuaq ukuaq.",
+      "all": "Ilaŋi tamaat ilaŋuq.",
+      "shown": "Malruŋit ilaŋi, ilaŋuq.",
+      "show": "Takuqtuaq",
+      "next": "Nutaan malruq"
+    },
+    "colorByNumber": {
+      "guidance": "Qiŋiqtuŋit ilaŋi tiggiaqtuaq, tuŋaq ilaŋi tiggiaqtuq. Ilaŋi ilaŋuq ilaŋi.",
+      "sizeLegend": "Ilaŋi nutaan",
+      "size": "{n} x {n}",
+      "keyLegend": "Ilaŋi",
+      "colors": [
+        "Yellu",
+        "Oranġi",
+        "Kaniaq",
+        "Pappuru"
+      ],
+      "motifs": {
+        "house": "iglu",
+        "flower": "aqpik",
+        "heart": "puqtuq",
+        "tree": "tuvaq",
+        "boat": "umiaq",
+        "pot-plant": "niġiq ilaŋi taġaq"
+      },
+      "region": "Ilaŋi tuŋaq, {n} x {n}. Ilaŋuq kiŋuq tuŋaq ilaŋi.",
+      "cell": "Ilaŋi {number}, ilaŋi {row}, ilaŋi {column}, {color}",
+      "empty": "ilaŋuq",
+      "chose": "{name} tiggiaq. Tiggiaq ilaŋi ilaŋuq.",
+      "painted": "{name} ilaŋi {row}, ilaŋi {column}.",
+      "sheet": "Ilaŋi tamaat ilaŋuq ilaŋi ilaŋi. Taamna ilaŋi malruq: {name}.",
+      "own": "Ilaŋi tamaat ilaŋuq. Taamna ilaŋiŋ malruq.",
+      "fillAll": "Ilaŋuq ilaŋi ilaŋŋiŋ",
+      "filledAll": "Ilaŋi ilaŋuq tamaat ilaŋi ilaŋi ilaŋuq.",
+      "clear": "Ilaŋuq ukiuŋ",
+      "cleared": "Tuŋaq ilaŋuq.",
+      "next": "Another picture",
+      "fresh": "Taamna nutaan ilaŋi ilaŋuq."
+    },
+    "patternMaker": {
+      "guidance": "Tap a square to change its color. Your pattern grows beside it. Nothing you make is saved or sent.",
+      "sizeLegend": "Tuŋaq nutaan",
+      "size": "{n} x {n}",
+      "keyLegend": "Ilaŋi, tiggiaq ilaŋuq",
+      "colors": [
+        "Yellu",
+        "Oranġi",
+        "Kaniaq",
+        "Pappuru"
+      ],
+      "tileLabel": "Ilaŋi tuŋaq",
+      "region": "Ilaŋi tuŋaq, {n} x {n}. Ilaŋuq kiŋuq tuŋaq ilaŋi.",
+      "patternLabel": "Ilaŋi malruq",
+      "pattern": "Ilaŋi malruq: ilaŋi tuŋaq {n} ilaŋi, {n} ukiuq.",
+      "square": "Ilaŋi {row}, ilaŋi {column}, {color}",
+      "changed": "Ilaŋi {row}, ilaŋi {column} ilaŋuq {color}.",
+      "cleared": "Tuŋaq ilaŋuq. Ilaŋi ukiuŋ ilaŋuq.",
+      "surprise": "Ilaŋi nutaan",
+      "surprised": "Taamna nutaan tuŋaq. Ukiuŋ ilaŋi ilaŋuq ukiuŋ.",
+      "putBack": "Ilaŋuq ukiuŋ",
+      "restored": "Tuŋaq ilaŋuq ukiuŋ, ilaŋi aglaqtuq.",
+      "print": "Piŋuaqtuaq malruq",
+      "sheetTitle": "Malruq"
+    },
+    "buildTogether": {
+      "guidance": "Take turns to put a piece in an empty place. Each of you has your own color. Nothing you make is saved or sent.",
+      "sizeLegend": "Ilaŋi nutaan",
+      "size": "{n} x {n}",
+      "people": [
+        "Ataataq ilaŋi",
+        "Malruq ilaŋi"
+      ],
+      "colorLegend": "{person} ilaŋi",
+      "colors": [
+        "Yellu",
+        "Oranġi",
+        "Kaniaq",
+        "Pappuru"
+      ],
+      "inUse": "Ilaŋuq",
+      "turn": "Ukiuŋ, {person|lower}",
+      "yourColor": "Ilaŋi ilaŋuq {color|lower}.",
+      "built": "Ilaŋi ilaŋuq. Taamna malruq ilaŋi ukiuq ilaŋi ilaŋuq.",
+      "gridLabel": "Ilaŋi tuŋaq ilaŋi",
+      "region": "The shared grid, {n} by {n}. It scrolls sideways if the screen is narrow.",
+      "cellEmpty": "Ilaŋi {row}, ilaŋi {column}, ilaŋuq",
+      "cellFilled": "Ilaŋi {row}, ilaŋi {column}, {color}, ilaŋuq {person|lower}",
+      "placed": "Ilaŋi {row}, ilaŋi {column} ilaŋuq {color}. Ukiuŋ, {next|lower}.",
+      "placedLast": "Ilaŋi {row}, ilaŋi {column} ilaŋuq {color}. Ilaŋi ilaŋuq.",
+      "taken": "Ilaŋi {row}, ilaŋi {column} ilaŋuq. Tiggiaq ilaŋuq ilaŋi.",
+      "pass": "Ilaqtuq",
+      "passed": "Ilaqtuq ilaŋuq. Ukiuŋ, {person|lower}.",
+      "takeBack": "Ukiuŋ ilaŋi ukiuq",
+      "takeBackPass": "Ukiuŋ ilaqtuq",
+      "tookBack": "Ilaŋi ukiuŋ. Ukiuŋ, {person|lower}.",
+      "tookBackPass": "Ilaqtuq ukiuŋ. Ukiuŋ, {person|lower}.",
+      "colorChanged": "{person} ilaŋuq {color|lower}.",
+      "restarted": "Ilaŋi ilaŋuq. Ukiuŋ, {person|lower}.",
+      "print": "Piŋuaqtuaq ilaŋi tuŋaq",
+      "sheetTitle": "Ilaŋi ilaŋuq",
+      "sheetHelp": "Ukuaq ilaŋi. Ilaŋi ilaŋuq tiggiaq ilaŋi, ilaŋi ukiuŋ.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tap a piece, then tap the space in the picture where it goes. Nothing you make is saved or sent.",
+      "hints": "Takuqtuaq ilaŋi uqaq",
+      "pictureLine": "Taamna ilaŋi {picture}.",
+      "pictures": {
+        "house": "iglu",
+        "boat": "umiaq",
+        "tree": "tuvaq",
+        "fish": "iqaluk",
+        "cat": "pisiksaq",
+        "rocket": "rakitaq"
+      },
+      "outlineLabel": "Ilaŋi {picture}. Tiggiaq ilaŋi ilaŋuq ilaŋi ilaŋi.",
+      "trayHeading": "Ilaŋi",
+      "pieces": {
+        "large-triangle": "Tuŋaŋi tuŋaq",
+        "small-triangle": "Ukuaq tuŋaŋi",
+        "square": "Tuŋaq nuvuq",
+        "parallelogram": "Tuŋaq ilaŋuq",
+        "rectangle": "Tuŋaq ilaŋi"
+      },
+      "shapes": {
+        "large-triangle": "tuŋaŋi tuŋaq",
+        "small-triangle": "ukuaq tuŋaŋi",
+        "square": "tuŋaq nuvuq",
+        "parallelogram": "tuŋaq ilaŋuq",
+        "rectangle": "tuŋaq ilaŋi"
+      },
+      "chosenLabel": "Tiggiaq",
+      "spaceEmpty": "Ilaŋi {n}, {shape}, ilaŋuq",
+      "spaceFilled": "Ilaŋi {n}, {shape}, ilaŋuq ilaŋi. Tiggiaq ukiuŋ ilaŋi.",
+      "chosen": "{piece} tiggiaq. Tiggiaq ilaŋi ilaŋi ilaŋi.",
+      "unchosen": "Taamna iliŋŋiq tiguqtaqtuq.",
+      "placed": "Iliŋŋiq sapiŋmi {n}.",
+      "complete": "{picture} tamaaqtuq.",
+      "different": "Taamna iliŋŋiq sapiŋmut atuqtuqtuq. Sivulliq allamik sapiq tiguk.",
+      "needPiece": "Sivulliq, tiguk iliŋŋiq ilaqtaŋmiŋ.",
+      "filled": "Taamna sapiq iliŋŋiŋnik ilaqtuq. Tiguk iliŋŋiq tikiŋanmun tiguqtuq.",
+      "tookBack": "Iliŋŋiq ilaqtamun tikiqtuq.",
+      "cleared": "Iliŋŋit ilaqtamun tikiqtut. Tiguqtuaŋŋaŋŋuq taavrum uqaqtuaŋŋaqtuq.",
+      "restored": "Iliŋŋit ataqtuamun tikiqtut.",
+      "next": "Taamna {picture}.",
+      "putBack": "Tikiqtuŋŋuq",
+      "another": "Allaq atuqtuq",
+      "print": "Tuŋaqtuaq taamna atuqtuq",
+      "sheetTitle": "Ilitchiŋŋuaŋat atuqtuŋit",
+      "sheetHow": "Iliŋŋit ilanŋaqtuŋ, imaaŋŋa ataqtuamun aŋutaqtuŋit. Ilisaġvik ataŋŋuq taamna ilanŋaqpaŋ.",
+      "sheetPieces": "Iliŋŋit, ataqtuaq tamaŋŋaq tauvani"
+    },
+    "picnicPlanner": {
+      "guidance": "Ataqtuaq tiguqtuŋ, nigiqtaq tiguŋŋaqtuŋ kiviqtaq tiguqpaŋ. Nigiqtaq sisamaruat ilaqtut.",
+      "guidancePlay": "Tiguqtuŋ ataqtuat marruq tamaaq. Ataqtuat qaŋiŋniqtuq, uqpitchiqtuq.",
+      "basketHeading": "Uvagut nigiqtaq",
+      "basketLabel": "Nigiqtaq",
+      "takeOut": "{picture} nigiqtamun tikiqtuŋ",
+      "inBasket": "Nigiqtaqmi",
+      "foodHeading": "Niqi",
+      "outingsHeading": "Ilaŋŋuat aullaŋŋuaqtuŋit",
+      "added": "{picture} nigiqtaqmi ilaqtuq.",
+      "removed": "{picture} nigiqtamun tikiqtuq.",
+      "already": "{picture} nigiqtaqmi ilaqtuq. Taamna tiguqtuŋ tikiqtuŋŋuq.",
+      "full": "Nigiqtaq tamaaq. Sivulliq ikiaqtuŋ, tiguqtuŋ.",
+      "summary": "Uvagut aullaŋŋuaq: {list}.",
+      "summaryNone": "Nigiqtaqmi ilaŋŋuq ilaŋŋuaqtuq.",
+      "and": "aglaaq",
+      "play": "Uvagut aullaŋŋuamik nipaaŋtuŋ",
+      "needTwo": "Sivulliq ilaŋŋuat marruq tiguqtuŋ.",
+      "playAgain": "Allaq nipaaŋtuŋ",
+      "back": "Aullaŋŋuamun tikiqtuŋ",
+      "print": "Tuŋaqtuaq uvagut aullaŋŋuaq",
+      "cleared": "Nigiqtaq tiŋŋuq.",
+      "notice": "Taamna uqaqtuaŋŋaq ilaqtuq. Tamaaq tamaŋŋaq, ilaŋŋuq ilitchiŋŋiq tamaŋŋaq.",
+      "sheetTitle": "Uvagut aullaŋŋuaq atuqtuŋit",
+      "sheetHow": "Ilaŋŋuat ilanŋaqtuŋ nigiqtamun tikiqtuŋ. Ilaŋŋuat allat taavrum aŋutaqpaŋ, kiŋuqpaŋ kiiŋaqtuŋ.",
+      "sheetToPack": "Nigiqtamun tikiqtut"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Atuqtuŋit ilitchiŋŋiq aŋniŋŋi marruq tuvaŋniq tuŋaqtuaŋat ataqtuaq ilaqtuŋ.",
+      "guidance": "Ataqtuaq ataqtuŋit tiguqtut, tigaŋŋaqtuŋ kiviqtaq taamna ataqtuaq tiguqtuŋ. Ilaŋŋuq tiguqtuŋ sivuniŋŋiq uqaqtuaq aŋniŋŋi. Tuŋaqtuaq atuqtuŋit tikiqtuq uqaqtuŋ.",
+      "lookGuidance": "Ataqtuaq ataqtuaŋŋi ataqtuŋit. Uqaqtuŋ, imaaŋŋa tiŋŋuq ataqtuŋ.",
+      "intro": "Atuqtuŋit marruq tuvaŋniq ataqtuaq taamna tuŋaqtuaq ilaqtuq. Ilaŋŋuq ataqtuaq ataqtuaŋŋi ataqtuŋit.",
+      "consent": "Ilaŋŋuq ataqtuaq atuqtuŋit. Sivulliq aŋutaqpaŋ kiŋuŋ, kiŋuq iŋniqtuq tiguqtuaŋŋaqtuq.",
+      "privacy": "Ataqtuaq taamna ilaqtuq. Tikiqtuŋŋuq, ilaqtuŋŋuq tiguqtuŋ.",
+      "choose": "Ataqtuaq tiguqtuŋ",
+      "chooseDifferent": "Allaq ataqtuaq tiguqtuŋ",
+      "backToBook": "Tuŋaqtuamun tikiqtuŋ",
+      "backToChoose": "Ataqtuaq tiguqtuamun tikiqtuŋ",
+      "needTwo": "Sivulliq marruq ataqtuaq tiguqtuŋ.",
+      "usingFirst": "Sivulliq {max} ataqtuaq atuqtuŋit.",
+      "cleared": "Tuŋaqtuaq tiŋŋuq. Ataqtuaq tiguqtuŋ allaq aullaqtuq.",
+      "moved": "Ataqtuaŋŋi {n} aullaqtuq.",
+      "pageOf": "Ataqtuaq {n} / {total}",
+      "lookTogether": "Uvagut ataqtuŋit",
+      "leaveLook": "Tuŋaqtuamun tikiqtuŋ",
+      "print": "Tuŋaqtuaq tuŋaqtuaq",
+      "clear": "Tuŋaqtuaq tiŋŋuqtuŋ",
+      "bookLabel": "Ilaqtuŋit tuŋaqtuaq",
+      "pagesLabel": "Ataqtuaŋŋi aŋutaqtuŋ",
+      "previous": "Sivuniŋŋuq ataqtuaq",
+      "next": "Ilaŋŋuq ataqtuaq",
+      "moveEarlier": "Sivuniŋŋaq aullaqtuŋ",
+      "moveLater": "Kiŋuqtuŋ aullaqtuŋ",
+      "captionLabel": "Taamna ataqtuamun marruq uqaqtuaq, sivulliq",
+      "captionHelp": "80 tuvaŋniq tamaŋŋaq. Uqaqtuat taamna ataqtuamun ilaqtut, tuŋaqtuaq tikiqtuŋ tiŋŋuq.",
+      "sheetTitle": "Uvagut tuŋaqtuaq",
+      "sheetHow": "Ataqtuaq ataqtuŋ ataqtuamun, uqaqtuaŋŋi tauvani. Ataqtuaq aŋutaqtuŋ, ataqtuŋit uqaqtuŋ.",
+      "sheetEmpty": "Choose your photos on the game page to print your own book, or print this blank page and stick in a printed photo.",
+      "sheetFrame": "Taamna ataqtuaq tuŋaqtuaq ilaqtuŋ",
+      "sheetWords": "Taamna ataqtuamun marruq uqaqtuaq",
+      "skipped": {
+        "one": "{n} tuŋaqtuaq ataqtuaq ilaŋŋuq atuqtuŋŋaqtuq.",
+        "other": "{n} tuŋaqtuat ataqtuat ilaŋŋuq atuqtuŋŋaqtuq."
+      }
+    },
+    "quietScene": {
+      "guidance": "Ataqtuaq ataqtuŋ tamaŋŋaq. Ilaŋŋuq aullaqtuŋ ilanŋaqtuŋ. Tamaaq ilaŋŋuq aullaqtuŋŋaqtuq.",
+      "next": "Ilaŋŋuq ataqtuaq",
+      "previous": "Sivuniŋŋuq ataqtuaq",
+      "bigPicture": "Ataqtuaq tamaŋŋaq",
+      "showEverything": "Tamaaŋŋit tuŋaqtuaq",
+      "first": "Taamna sivuniŋŋuq ataqtuaq.",
+      "last": "Taamna kiŋuq ataqtuaq.",
+      "lines": {
+        "sunrise": "Siḷaq nunamun tikiqtuq.",
+        "window-with-birds": "Qaŋiqtuŋ aviŋŋat.",
+        "vase-of-flowers": "Ilaŋŋuq nuniaqtuq tuvaŋniq aŋutaq.",
+        "teacup": "Tii tiŋŋuq qaŋiqtuŋ.",
+        "tree": "Qiḷuqtuq igluŋmi ilaqtuq.",
+        "sailboat": "Umiaq immiŋmi.",
+        "lighthouse": "Qaŋiqtuŋ ilisaġvik immiŋmi.",
+        "rainbow": "Qilaŋŋuq siḷaq tiŋŋuq.",
+        "moon": "Aŋutaq qilaŋmi.",
+        "daisies": "Ilaŋŋuq ilaqtuq ataqtuŋ.",
+        "rowing-boat": "Umiaq imma tiŋŋuq.",
+        "potted-plant": "Tuvaq ilaqtuq nigiqtaq."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Aŋutaqtuŋit. Ataqtuaq tiguqtuŋ, kiŋuq tiŋŋuŋ kiŋuqpaŋ. Tuŋaqtuaq ataqtuŋit tikiqtuq uqaqtuŋ.",
+      "people": [
+        "Sivuniŋŋaq",
+        "Ilaŋŋuq"
+      ],
+      "marks": [
+        "tutiqaq",
+        "qaŋaŋaq"
+      ],
+      "turn": "Ilinniŋŋaq aŋutaq, {person|lower}.",
+      "marked": "Ilaŋŋuat {mark} tuŋaqtuaq.",
+      "boardLabel": "Uvagut tuŋaqtuaq",
+      "placeEmpty": "Sapiq {n}, tiŋŋuq",
+      "placeFilled": "Sapiq {n}, {picture|lower}, {person|lower} ilaqtuq",
+      "trayHeading": "Ataqtuaq tuŋaqtuat",
+      "chosenLabel": "Tiguqtuaq",
+      "chosen": "{picture} tiguqtuaq. Taamna tiŋŋuq sapiq tiguqtuŋ.",
+      "unchosen": "Ataqtuaq tiguqtuaq tikiqtuq.",
+      "needCutout": "Sivulliq ataqtuaq tiguqtuŋ, tiŋŋuq sapiq tiguqtuŋ.",
+      "filled": "Sapiq {n} ataqtuaq ilaqtuq. Tiŋŋuq sapiq tiguqtuŋ.",
+      "placed": "{picture} sapiŋmi {n}. Ilinniŋŋaq aŋutaq, {next|lower}.",
+      "full": "Sapiq tamaaq ataqtuaq ilaqtuq. Tikiqtuŋŋuq tiguqtuŋ, imaaŋŋa allaq aullaqtuŋ.",
+      "pass": "Aullaqtuŋ",
+      "passed": "Aullaqtuŋ pitchuq. Ilinniŋŋaq aŋutaq, {person|lower}.",
+      "takeBack": "Kiŋuqtuŋ iliŋŋiq tikiqtuŋ",
+      "takeBackPass": "Aullaqtuŋ tikiqtuŋ",
+      "tookBack": "Iliŋŋiq tikiqtuq. Ilinniŋŋaq aŋutaq, {person|lower}.",
+      "tookBackPass": "Aullaqtuŋ tikiqtuq. Ilinniŋŋaq aŋutaq, {person|lower}.",
+      "restarted": "Tuŋaqtuaq tiŋŋuq. Ilinniŋŋaq aŋutaq, {person|lower}.",
+      "putBack": "Tikiqtuŋŋuq",
+      "putBackDone": "Iliŋŋit tuŋaqtuamun tikiqtut.",
+      "another": "Allaq ataqtuaq tuŋaqtuaq",
+      "anotherSet": "Allaq ataqtuaq tuŋaqtuaq nigiqtaŋmi ilaqtuq. Tuŋaqtuamun ilaŋŋuq iliŋŋit tiŋŋuq.",
+      "print": "Tuŋaqtuaq tuŋaqtuŋ",
+      "sheetTitle": "Tuŋaqtuaq tuŋaqtuaq",
+      "sheetHow": "Ataqtuat tuŋaqtuŋ, aŋutaqtuŋit tuŋaqtuamun ilaqtuŋ. Ilaŋŋuq tuŋaqtuŋ taavrum sivuniŋŋuq.",
+      "sheetTray": "Tuŋaqtuaq ataqtuat"
+    },
+    "gardenPlanner": {
+      "guidance": "Ataqtuaq tiguqtuŋ, tiŋŋuq nuna tiguqtuŋ taamna ilaqtuq. Ataqtuaq ilaqtuq, tiguqtuaq tamaŋŋaq, tikiqtuŋ.",
+      "bedsLabel": "Nuna tiŋŋuq",
+      "bedEmpty": "Nuna {n}, tiŋŋuq",
+      "bedFilled": "Nuna {n}, {picture|lower}",
+      "plantsHeading": "Tuvaq",
+      "extrasHeading": "Nuna allat",
+      "chosenLabel": "Tiguqtuaq",
+      "chosen": "{picture} tiguqtuaq. Taamna nuna tiguqtuŋ.",
+      "unchosen": "Ataqtuaq tiguqtuaq tamaŋŋaq.",
+      "needPicture": "Sivuniġaaq titiġaq tiksiŋaqtuŋ, tavruŋ aŋiqlu tuqiŋ.",
+      "planted": "{picture} ili aġġaaġun {n}-mi.",
+      "replaced": "{picture} ili titiġaŋ tauna aġġaaġun {n}-mi.",
+      "cleared": "Aġġaq {n} ilaqtuq. Tiksiŋaŋ titiġaq, tuqiŋ tupiŋaġaqtuŋ.",
+      "restarted": "Aġġaat tamaat ilaqtuq.",
+      "putBack": "Tuqiŋ ilittaaq",
+      "putBackDone": "Titiġaat aġġaanisaŋ tuqiŋniaŋ.",
+      "summaryHeading": "Iŋaluŋ aġġaq",
+      "summary": "Aġġaqtuŋ ilaŋniaŋ {list}.",
+      "summaryNone": "Titiġaq aġġaŋmi ilaŋnaq uqaqtuq.",
+      "and": "aŋŋaŋ",
+      "print": "Ilittaaq aġġaqtuŋ takukiŋ",
+      "sheetTitle": "Iġaaqŋaŋ aġġaqtuŋ ilaŋniġaq",
+      "sheetHow": "Aġġaat tiksiŋaŋ titiġaat tupiġaqtuŋ ekraanimi. Tuvaqtuŋ aġġaat tamaat sumiŋ kaliqtuq, tuvaŋ tuqiŋ.",
+      "sheetNotes": "Uqaqtuŋ",
+      "notice": "Tauna titiġaq ilaŋniaq uqaqtuŋ, aġġaq tuqiŋniaq aŋiqtuq."
+    },
+    "coloringWall": {
+      "guidance": "Tiksiŋaŋ titiġaq aŋun titiġaat. Ilittaaq tauna aġġaq, tamaat tuqiŋaq titiġaat tuvaq. Tamaat aġġaŋ, tupiŋaŋ, tiksiŋaŋ aġġaqtuq.",
+      "pictureLegend": "Titiġaq",
+      "sizeLegend": "Titiġaat aŋun",
+      "sizes": {
+        "2x2": "4 titiġaat (2 × 2)",
+        "3x2": "6 titiġaat (3 × 2)",
+        "3x3": "9 titiġaat (3 × 3)"
+      },
+      "previewLabel": "{picture|lower} ilaqtuq {n} titiġaŋnun, {across} tuvaqtuŋ aŋun, {down} taavruŋ aŋun. Tamaat titiġaq tiksiŋaq ilaqtuq.",
+      "previewCaption": "Titiġaq, titiġaat aŋunŋa aġġaŋ tiksiŋaŋa.",
+      "labelsNote": "Sivuniġaaŋ tuvaŋnun aŋun, malruk tuqiŋnun aŋun, tuvaqtuq A1 kiŋuŋ tuviŋ tiksiŋaq.",
+      "wallHeading": "Qanuq tiksiŋaq aġġaq ilaŋniaq",
+      "steps": [
+        "Ilittaaŋ tamaat titiġaat. Sivuniŋ titiġaq uqaqtuq tauna tuqiŋ aŋiqaqtuŋ.",
+        "Tamaat aŋun titiġaq tuqiŋaq, tupiŋaŋ.",
+        "Tupiŋat tamaat tiksiŋnaqtuq, tamaat titiġaq tauna aġġaq ilaŋniaq.",
+        "Tiksiŋaŋ titiġaat tuqiŋaŋnun, tuqiŋ tuvaŋ pakuaqtuŋ.",
+        "Tuqiŋ aġġaq kiŋuŋ, tamaat ilautaaŋ."
+      ],
+      "mapLabel": "Aġġaq aŋun: {down} tuvaq taavrumi, {across} titiġaat tuvaqtuŋ, A1-mi {last}-mut.",
+      "edgeNote": "Kaliaqtuq tuŋaaq kiŋuŋ aġġaq titiġaat. Tiksiŋaŋ titiġaat tuvaŋ ilaŋniaq, malruk kiŋuŋ tuqiŋ.",
+      "pictureLine": "Titiġaq: {picture}. Tauna aġġaq ilaqtuq {n} titiġaat: {across} tuvaqtuŋ, {down} taavruŋ.",
+      "print": "Ilittaaq aġġaq"
+    },
+    "findTogether": {
+      "guidance": "Tuqiŋaŋ tupiŋaŋ. Tuqiŋaŋnun, pakuat malruk tuvaŋ ilaŋniaq, tuqiŋ malruk tupiŋaŋ. Tupiŋaŋ ilaŋniaq.",
+      "sizeLegend": "Pakuat aŋun",
+      "size": "{n} pakuat",
+      "viewLegend": "Qanuq tupiŋaq",
+      "viewShowing": "Tupiŋaq titiġaŋnik takukiŋ",
+      "viewHidden": "Pakuat tupiŋaq tuqiŋaŋ",
+      "people": [
+        "Sivuniġaq iŋuk",
+        "Malruk iŋuk"
+      ],
+      "turn": "Tuqiŋaq: {person}",
+      "turnDone": "Tamaat ilaŋniaq tupiŋaqtuŋ.",
+      "tally": "Ilaŋniaq tupiŋaqtuŋ: {n}",
+      "cardNamed": "{name}, pakuaq {n}",
+      "cardFaceDown": "Pakuaq {n}, tuqiŋaq",
+      "first": "{name}. Tamaaŋaŋ malrukmik pakuaŋ tupiŋaŋ.",
+      "found": "{name}: ilaŋniaq, tupiŋaqtuq tuqiŋnun. Tamaaŋ {next|lower} tuqiŋaq.",
+      "allTogether": "Tamaat ilaŋniat tupiŋaqtuŋ tuqiŋnun.",
+      "different": "{a} aŋŋaŋ {b} allanaq. Ilisaqtuŋ, tamaaŋ tuqiŋaŋ ilittaaq.",
+      "waiting": "Ilittaaq tuqiŋaŋ tuqiŋ. Tamaaŋ tuqiŋaq tuqiŋniaq.",
+      "turnedBack": "Tuqiŋaq. Tamaaŋ {person|lower} tuqiŋaq.",
+      "passed": "Tuqiŋaŋ ilaŋniaq. Tamaaŋ {person|lower} tuqiŋaq.",
+      "turnBack": "Tuqiŋaŋ",
+      "pass": "Tuqiŋaŋ ilaŋniaq",
+      "playAgain": "Tupiŋaŋ malruk"
+    },
+    "drawingDuet": {
+      "guidance": "Tuqiŋaŋ tupiŋaŋ, tamaaŋ malruk aŋun, tamaaŋ tuqiŋaq. Kiŋaŋ tuqiŋaŋ. Tamaaq aġġaq ilaqtuq. Titiġaq tauna aġġaq ilaqtuq, tuqiŋaq savaŋ.",
+      "people": [
+        "Sivuniġaq iŋuk",
+        "Malruk iŋuk"
+      ],
+      "colorLegend": "{person} tupiŋaŋ",
+      "colors": [
+        "Qaŋiŋaaq",
+        "Ataġuq",
+        "Qaġaaq",
+        "Tuŋaŋaq"
+      ],
+      "turn": "{person} tuqiŋaq",
+      "penColor": "Pen tupiŋaq: {color}.",
+      "canvasLabel": "Malruk aŋun titiġaq, {n} tuqiŋat tuqiŋaq",
+      "canvasLabelOne": "Malruk aŋun titiġaq, {n} tuqiŋaq tuqiŋaq",
+      "keys": "Tuqiŋaŋ tuqiŋaqtuŋ titiġaŋnun. Tuqiŋaq ilaŋniaq tuqiŋaŋ.",
+      "penDown": "Pen tuqiŋaq",
+      "penUp": "Pen aŋun",
+      "pass": "Tuqiŋaŋ pen",
+      "passed": "Tuqiŋaŋ ilaŋniaq. Tuqiŋaq, {person|lower}.",
+      "takeBack": "Tuqiŋaŋ tuqiŋat aġġaq",
+      "tookBack": "Tuqiŋaq aġġaq {person|lower} tuqiŋaq tuqiŋniaq.",
+      "noLine": "Tuqiŋaq aġġaq {person|lower} tuqiŋaq ilaŋniaq.",
+      "restarted": "Titiġaq ilaqtuq. Sivuniġaq iŋuk tuqiŋaq. Tuqiŋaŋ, tauna ilaŋniaŋ.",
+      "putBack": "Tuqiŋaŋ",
+      "restored": "Tuqiŋat tuqiŋaq tauna aġġaq.",
+      "save": "Titiġaq tuqiŋaŋ",
+      "saved": "Titiġaŋ ilaqtuq. Tuqiŋaŋ takukiŋ tuqiŋaq tiksiŋaq.",
+      "download": "Tuqiŋaŋ drawing-duet.png",
+      "print": "Ilittaaq paper titiġaq",
+      "sheetTitle": "Malruk titiġaq",
+      "paperRules": "Malruk iŋuk, ataaŋ titiġaq, malruk pen. Tuqiŋaŋ: malruk tuqiŋaq aŋun, tamaaŋ pen tuqiŋaŋ. Tamaaŋ ilaŋniaq. Titiġaq tauna aġġaq ilaqtuq."
+    },
+    "colorWash": {
+      "guidance": "Tupiŋaŋ aġġaq titiġaq, tuqiŋaq tuqiŋaŋ. Tuqiŋaŋ brush aŋun tupiŋaŋ, ilisaqtuŋ. Titiġaq tuqiŋaŋ, savaŋ ilaqtuq.",
+      "colorLegend": "Tupiŋaq tupiŋaŋ",
+      "sizeLegend": "Brush aŋun",
+      "colors": [
+        "Qaŋiŋaaq",
+        "Ataġuq",
+        "Qaġaaq",
+        "Tuŋaŋaq"
+      ],
+      "sizes": {
+        "wide": "Tuvaq",
+        "veryWide": "Tuvaq aŋun"
+      },
+      "color": "Tupiŋaq tupiŋaŋ: {color}.",
+      "brushDown": "Brush tuqiŋaq",
+      "brushUp": "Brush aŋun",
+      "keys": "Tuqiŋaŋ tuqiŋat brush ring titiġaŋnun. Tuqiŋaq brush tuqiŋaq aŋun.",
+      "canvasLabel": "Titiġaq aġġaq tupiŋaq",
+      "fresh": "Titiġaq tauna",
+      "freshMessage": "Titiġaq tauna.",
+      "putBack": "Tuqiŋaŋ",
+      "restored": "Titiġaq tuqiŋniaq."
+    },
     "sortTogether": {
       "guidance": "Aktullagu piksa, tavra suli aktullagu agluuraq ilitilaaŋa.",
       "restart": "Nutlaat piksat",
@@ -71,6 +719,10 @@
       "hint": "Una {name|lower} ilitillaruq \"{basket}\"-mun. Aktullagu taamna agluuraq iliniarugu.",
       "placed": "Una {name|lower} iliruq \"{basket}\"-mun.",
       "sorted": "Iluqatik iliraullasut. Qiniġlagik agluurak atautchikun, naagga allamik aullaġniiġisigiñ.",
+      "largerTargets": "Aŋun tuqiŋat",
+      "largerOn": "Aŋun tuqiŋat tuqiŋaq. Ilaŋniaq tuqiŋnaq.",
+      "largerOff": "Aŋun tuqiŋat aŋun. Ilaŋniaq tuqiŋnaq.",
+      "largerOnNewRound": "Aŋun tuqiŋat tuqiŋaq, malruk kanaŋ. Tauna titiġaq tiksiŋaŋ aŋiqtuq.",
       "basket": {
         "one": "{basket} agluuraq, {count} piksa iluani ittuq",
         "other": "{basket} agluuraq, {count} piksat iluani ittut"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Aktullagu atauxiq avguun, tavra aktullagu alla. Inimiŋnun simmiñiartuk.",
-      "restart": "Akulliqigiñ suli",
+      "restart": "Mix up again",
       "pictureLegend": "Piksa",
       "pictures": {
         "sailboat": "Umiaq anorautilik",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Iluqaan piksa: {name}",
       "guideText": "Uvaŋa ittuq piksa katitigauraullaniami.",
+      "ownChoose": "Tiksiŋaŋ titiġaq",
+      "ownChange": "Tiksiŋaŋ allanaq titiġaq",
+      "ownBack": "Kiŋuŋ titiġaat",
+      "ownPrivacy": "Titiġaq tauna tuqiŋniaq. Ilittaaq tuqiŋaq.",
+      "ownConsent": "Tiksiŋaŋ titiġaat. Ilisaqtuŋ iŋuk titiġaq, tuqiŋaŋ uqaqtuŋ ilaŋniaq.",
+      "ownWorking": "Titiġaq aŋiqtuq.",
+      "ownNotUsable": "Tauna pakuaq tiksiŋaq ilaqtuq. Tiksiŋaŋ titiġaq pakuaq, JPEG aŋun PNG.",
+      "ownAlt": "Titiġaq",
+      "ownPiece": "Tuvaq {n}, {place}",
+      "ownWhole": "Titiġaq tamaq ilaqtuq. Mixiŋaŋ savaŋ tuqiŋaŋ.",
+      "ownSheetTitle": "Titiġaq tuvaŋ tuvaqtuŋ",
+      "ownSheetHow": "Tuqiŋaŋ tuŋaaq kiŋuŋ. Mixiŋaŋ tuvaŋ, tuqiŋaŋ malruk tuvaŋ, titiġaq tamaq ilaqtuq.",
       "piece": "Avguun {place}-mi",
       "pieceInPlace": ", nalliqsuami inimi",
       "piecePickedUp": ", tiguŋaruaq",
@@ -122,7 +786,7 @@
         "alaani taliqpik"
       ],
       "done": "Piksa katitigaullasuuq suli. Ulapqiqigiñ naagga miñŋuiqsrilutin.",
-      "playAgain": "Akulliqigiñ suli"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Taigualagik uqautchiq atautchikun, tavra aktullagu uqałiq iniqtirutaa.",
@@ -190,6 +854,14 @@
       "guidance": "Taigualagu makkalauraq nipitun. Nalliqsuaq kiutiksraq piiñngitchuq.",
       "position": "Makkalauraq {n} {total}-niñ",
       "themeLegend": "Uqautiksraq",
+      "showPrompt": "Takukiŋ uqaqtuq",
+      "bigPicture": "Aŋun titiġaq, iŋuŋnun",
+      "passNote": "Tamaaŋ tuqiŋaq ilaŋniaq.",
+      "groupTitle": "Pakuaq tuqiŋaŋ iŋuŋnun",
+      "groupSit": "Tuqiŋaq aŋiqaŋ, tamaaŋ titiġaq takuaq. Pakuaq tuqiŋaq, uqaqtuq ataaŋ uqaqtuŋ.",
+      "groupPass": "Tamaaŋ pakuaq tuqiŋaŋ sivuniġaq iŋuk. Tamaaŋ uqaŋ aŋun uqaqtuq titiġaq, tamaaŋ tuqiŋaŋ.",
+      "groupNoSpeech": "Pakuaq tuqiŋaŋ savaŋ ilaqtuq. Iŋuk ilaŋniaq uqaqtuŋ, tamaaŋ uqaqtuq qanuq.",
+      "groupEnd": "Ataqtuaq nuŋaqtuq taamna kiŋuŋaŋ tuqutiŋ ilaŋŋat tamaani, aglaŋŋa ilaŋŋat aŋutiŋ tamaaŋ. Kiŋuŋat nalunaiqtuq. Taamna nuŋaŋŋata tuqutiŋa ataqtuaq tamaġa kiŋuŋat qanuq tuqutiŋ.",
       "next": "Tugliq makkalauraq",
       "previous": "Sivullia makkalauraq",
       "print": "Titiqullugit iluqatik makkalaurat",
@@ -252,6 +924,20 @@
       "started": "Aullaqtuq. Anertilaarit ammaluktuam aglitilaaŋani.",
       "stopped": "Nutqaktuq.",
       "finished": "Itchaksrat sukailluta anertiqsimaaqtugut. Aullaġniqsigik suli pisukkuvich."
+    },
+    "storyChain": {
+      "guidance": "Tuqutiŋ kiŋuŋat: ataaniŋ uqaqtuaq ataaniŋ, aŋutiŋ kiŋuŋaq ilaqtuŋ.",
+      "passNote": "Uqaqtuaŋ uqaqtuaq ataqtuaq. Nalunaiqtuq uqaqtuaq tuqutiŋ. Kiŋuŋaq tuqutiŋŋa aglaŋŋa.",
+      "chainLabel": "Kiŋuŋat taamna tuqutiŋ",
+      "item": "Kiŋuŋaq {n}: {name}",
+      "add": "Ataqtuaq kiŋuŋaq",
+      "fullAdd": "Kiŋuŋat taamna tuqutiŋ. Ataqtuaq ilaŋŋat tuqutiŋ",
+      "newChain": "Ataqtuaq ilaŋŋat tuqutiŋ",
+      "takeOff": "Aglaŋŋa kiŋuŋaq tuqutiqtuŋ",
+      "added": "{name|lower} taamna aŋutiŋ kiŋuŋat tuqutiŋ.",
+      "removed": "{name|lower} kiŋuŋat tuqutiŋ aglaŋŋa.",
+      "fresh": "Ilaŋŋat kiŋuŋat tuqutiŋ, {name|lower} ataqtuaq.",
+      "full": "Kiŋuŋat tuqutiŋ 8 kiŋuŋaq tamaġa. Uqaqtuaq tamaġa tuqutiŋ, ataqtuaq ilaŋŋat tuqutiŋ ataqtuaq."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Nuvuya sialulik",
     "snowflake": "Qanitauraq",
     "kite": "Tinmiuraq",
-    "sunrise": "Siqiñiq nuituaq ikpiani"
+    "sunrise": "Siqiñiq nuituaq ikpiani",
+    "decorated-keepsake-box": "Ivruq ilaŋŋat kiŋuŋaq",
+    "painted-plant-pot": "Tuqumi kiŋuŋaq niqiruq",
+    "repeating-pattern-sheet": "Kiŋuŋaq ilaŋŋat aŋutiŋ",
+    "music-drawn-lines": "Ivruq ilaŋŋat aŋutiŋ",
+    "paper-boat-afloat": "Qayaq kiŋuŋaq nagliq",
+    "folded-towel-stack": "Tuqumi kiŋuŋat ivruq",
+    "hand-massage-with-lotion": "Qiŋuqtuŋa kiŋuŋaq ivruq",
+    "open-photo-album": "Open photo album",
+    "button-flower-card": "Kiŋuŋaq tuqumi ivruq",
+    "blue-torn-paper-collage": "Blue torn-paper collage",
+    "family-tree-of-hands": "Ivruq ilaŋŋat qiŋuqtuŋa",
+    "open-greeting-card": "Kiŋuŋaq uqaqtuaq ivruq",
+    "lavender-sachet": "Kiŋuŋaq niqiruq tuqumi",
+    "memory-collage-of-photos": "Kiŋuŋat ilaŋŋat tamaġa",
+    "paper-chain-garland": "Ivruq kiŋuŋaq tuqumi",
+    "open-songbook-with-notes": "Ivruq ilaŋŋat aŋutiŋ",
+    "photo-postcard-with-stamp": "Kiŋuŋaq ilaŋŋat aglaŋŋa",
+    "pine-cone-bird-feeder": "Qiŋuqtuŋa kiŋuŋaq ivruq",
+    "playlist-phone-and-card": "Phone playlist and song card",
+    "sealed-rice-shaker": "Kiŋuŋaq nigiq tuqumi",
+    "texture-board-with-scraps": "Ivruq kiŋuŋat aŋutiŋ",
+    "painted-garden-stone": "Kiŋuŋaq tuqumi nunaŋ",
+    "shared-painted-canvas": "Kiŋuŋaq ilaŋŋat ivruq",
+    "watercolor-washes-sheet": "Watercolor washes on paper",
+    "seedling-in-pot": "Niqiruq kiŋuŋaq tuqumi",
+    "pressed-leaves-in-book": "Ivruq aŋutiŋ kiŋuŋaq",
+    "printed-leaves-sheet": "Kiŋuŋaq aŋutiŋ ivruq",
+    "pinch-pot-clay-bowl": "Pinch pot",
+    "table-sketch-pencil": "Pencil sketch of a mug",
+    "buttons-in-muffin-tin": "Kiŋuŋat ivruq aŋutiŋ",
+    "family-recipe-book": "Ivruq ilaŋŋat niqi",
+    "drum-with-beat-marks": "Qilaun kiŋuŋaq",
+    "torn-paper-flower": "Niqiruq ivruq tuqumi",
+    "window-with-birds": "Iġaluaq kiŋuŋaq tuqumi",
+    "woven-paper-mat": "Ivruq kiŋuŋaq tuqumi",
+    "yarn-ball-with-thread": "Ball of yarn",
+    "letter-and-envelope": "Letter in an envelope"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Aullaġniġmi"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Aaniq",
+        "animals": "Kiŋuŋat qimmiq",
+        "travel": "Ivruq aŋutiŋ",
+        "flowers": "Kiŋuŋat tuqumi",
+        "hot-drinks": "Kiŋuŋat imiq",
+        "weather": "Kiŋuŋat sila",
+        "baked": "Kiŋuŋat niqi"
       }
     }
   }

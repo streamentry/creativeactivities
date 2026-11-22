@@ -33,6 +33,6 @@ describe('SortTogether', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'sort-together').ui.sortTogether.largerTargets).toBe('Larger targets');
+    expect(playProps('xx', 'sort-together').ui.sortTogether.largerTargets).toBe('Larger targets');
   });
 });

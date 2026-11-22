@@ -5,6 +5,13 @@
       "stopReading": "Ophâlde mei lêzen",
       "region": "Spultsje",
       "restart": "Op 'e nij begjinne",
+      "rest": "Rest foar no",
+      "restingTitle": "Ruste",
+      "restingText": "Nim sa lang as nedich is. Jo plak wurdt op dizze side bewarre.",
+      "resume": "Trochgean",
+      "placeText": "De lêste kear stopten jo healwei. Gean fierder fan dêr ôf, of begjin opnij.",
+      "placeResume": "Trochgean",
+      "placeFresh": "Opnij begjinne",
       "soundOn": "Sêfte lûden oan",
       "soundOff": "Sêfte lûden út",
       "done": "Klear foar no",
@@ -43,7 +50,19 @@
       "viewShowing": "Sichtbere plaatsjes",
       "viewHidden": "Ferburgen plaatsjes",
       "playAgain": "Boartsje nochris mei nije plaatsjes",
-      "talk": "Praat tegearre oer de plaatsjes"
+      "talk": "Praat tegearre oer de plaatsjes",
+      "modeLegend": "Hokker plaatsjes",
+      "modePlay": "Alle plaatsjes",
+      "modeDaily": "Kaartsje fan hjoed",
+      "dayLegend": "Hokker dei",
+      "dayHelp": "Eenfalk krijt elkenien deselde plaatsjes op deselde dei. Eardere dagen steane hjir ek, en in dei oerslaan kostet neat.",
+      "guidanceDaily": "It kaartsje fan hjoed hat fjouwer pearen. Tik op in plaatsje, en tik dan op it plaatsje dat der by past.",
+      "restartDaily": "Dit kaartsje opnij begjinne",
+      "copy": "Kopiearje dizze rigel",
+      "copied": "Kopiearre. Neat wurdt nei earne stjoerd.",
+      "calendarTitle": "Kaartsjes fan hjoed, {month}",
+      "calendarHelp": "Elke dei hat foar elkenien deselde fjouwer plaatsjes. Der wurdt neat punten, en gjin dei wurdt as misledige markearre.",
+      "calendarVersion": "Ferzje {date}. De plaatsjes binne foar elkenien op deselde dei gelyk."
     },
     "choose": {
       "countLegend": "Hoefolle plaatsjes",
@@ -62,6 +81,635 @@
       "shadowAlt": "In skaad om by te sykjen",
       "foundAlt": "It skaad fan de {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Tips",
+      "hintOn": "Tip nei in skoft",
+      "hintOff": "Gjin tips",
+      "guidance": "Fyn de {n} plaatsjes dy't by inoar hearre, en tik op elk fan harren.",
+      "countLegend": "Hoefolle plaatsjes",
+      "count": "{n} plaatsjes",
+      "found": "Ja, de {name|lower} heart by dizze groep.",
+      "elsewhere": "De {name|lower} heart by wat oars. Nim jo tiid.",
+      "hint": "In tip: sjoch nei {theme|lower}.",
+      "together": "Dizze hearre by inoar: {theme}.",
+      "shown": "Hjir is de groep: {theme}.",
+      "groupName": "By inoar: {theme}",
+      "show": "Lit de groep sjen",
+      "next": "Noch in set"
+    },
+    "oddOneOut": {
+      "hintLegend": "Tips",
+      "hintOn": "Tip nei in skoft",
+      "hintOff": "Gjin tips",
+      "guidance": "Fyn it plaatsje dat net by de oaren past, en tik der op.",
+      "countLegend": "Hoefolle plaatsjes",
+      "count": "{n} plaatsjes",
+      "belongs": "De {name|lower} past by de oaren. Nim jo tiid.",
+      "found": "Ja, de {name|lower} is de útsitter. De oaren binne {theme|lower}.",
+      "shown": "Hjir is it: de {name|lower}. De oaren binne {theme|lower}.",
+      "hint": "In tip: {n} hjirfan binne {theme|lower}.",
+      "others": "De oaren: {theme}",
+      "show": "Lit it my sjen",
+      "next": "Noch in set"
+    },
+    "seatedToss": {
+      "guidance": "Sit oan in tafel en wikselje om-beurt in sêft bonkje út nei it grutte doel. Hâld de telling tegearre op papier by.",
+      "stepsHeading": "Sa giet it",
+      "steps": [
+        "Print it doel en it telblêd ôf, en lis it plat op de tafel tusken jo.",
+        "Sit rêstich, ien oan elke kant. Wikselje om-beurt mei ien sêft gooi elk, of slaan in beurt oer as jo leaver net wolle.",
+        "As in gooi yn in ring lânt, set de persoan dy't gooide ien fakje yn syn of har kolom, op de rige fan dy ring.",
+        "Sjoch tegearre nei de flaggen as jo stopje, as jo wolle. Nimmen hoecht wat op te tellen.",
+        "Stopje wannear't ien klear is."
+      ],
+      "safetyHeading": "Feiligens",
+      "safetyLine": "Brûk allinich in bonkje mei in dichtnaaid oerlûk of in opdraaide sok, bliuw sitten, gooi nea nei in gesicht, en hâld in folwoeksene yn 'e buert. Lytse dielen binne in ferstikkingsgefaar.",
+      "flags": [
+        "Net foar under 3: lytse dielen",
+        "Hâld fuort fan monden"
+      ],
+      "safety": [
+        "Kies in bonkje mei in dichtnaaid oerlûk, of rol in skjin sok op. Kontrolearje it earst op gatten of losse neien, sadat der gjin foulling útkomme kin.",
+        "Bonken, rys en oare lytse foullingen binne in ferstikkingsgefaar. Hâld se fuort fan jonge bern en fan elkenien dy't dingen yn 'e mûle stekt.",
+        "Bliuw binnen earmlingte en hâld goed tafersjoch as wat yn 'e mûle wurde kin.",
+        "Bliuw sitten. Gooi sêft en leech nei it doel op de tafel, nea nei in gesicht."
+      ],
+      "previewLabel": "It printe blêd: in doel mei trije ringen, neamd Tichtby, Midden en Fier, fan bûten nei binnen, en in telling mei in kolom foar elk persoan en in rige lege fakjes foar elke ring.",
+      "sheetHow": "Lis it blêd plat tusken jo. As in gooi yn in ring lânt, set in fakje yn jo kolom, op de rige fan dy ring.",
+      "rings": [
+        "Tichtby",
+        "Midden",
+        "Fier"
+      ],
+      "people": [
+        "Earste persoan",
+        "Twadde persoan"
+      ],
+      "ringHeading": "Ring",
+      "print": "Print it doel en it telblêd ôf"
+    },
+    "seasonalPack": {
+      "guidance": "Kies in moanne, print syn trije papieren puzzels ôf, en doch der ien, twa of alle trije tegearre.",
+      "monthLegend": "Kies in moanne",
+      "months": [
+        "Jannewaris",
+        "Febrewaris",
+        "Maart",
+        "April",
+        "Maaie",
+        "Juny",
+        "July",
+        "Augustus",
+        "Septimber",
+        "Oktober",
+        "Novimber",
+        "Desimber"
+      ],
+      "monthNote": "Elke moanne hat eigen plaatsjes. De side iepenet op dizze moanne, en jo kinne elke oare kieze.",
+      "restDay": "Hjoed is in rêstdei",
+      "restLine": "Hjoed gjin puzzels. In rêstdei is ek in goeie dei.",
+      "previewHeading": "De trije puzzels",
+      "puzzles": {
+        "pairs": {
+          "title": "Pearen fine",
+          "how": "Tekenje in line fan elk plaatsje yn 'e boppeste rige nei itselde plaatsje yn 'e ûnderste rige.",
+          "describe": "Twa rigen mei deselde fjouwer plaatsjes, yn in oare folchoarder."
+        },
+        "different": {
+          "title": "Hokker is oars?",
+          "how": "Omsirkel it plaatsje dat oars is as de oare trije.",
+          "describe": "In rige fan fjouwer plaatsjes. Trije binne deselde, en ien is oars."
+        },
+        "color": {
+          "title": "Kleur it yn",
+          "how": "Kleur it plaatsje hoe't jo it wolle, mei kraytsjes of potloden.",
+          "describe": "Ien grut plaatsje om yn te kleurjen."
+        }
+      },
+      "print": "Print it pakket fan dizze moanne ôf",
+      "sheetHow": "Print ien side. Doch ien, twa of alle trije puzzels, yn elke folchoarder.",
+      "printFooter": "Doch ien, twa of alle trije. Stopje wannear't jo wolle."
+    },
+    "decorateACard": {
+      "guidance": "Kies in gelegenheid, en fersier dan tegearre in kaart mei kraytsjes of pinnen. Der is gjin goede kaart.",
+      "occasionLegend": "Kies in gelegenheid",
+      "occasions": {
+        "birthday": {
+          "label": "Jierdei",
+          "words": "Lokkige jierdei"
+        },
+        "thank-you": {
+          "label": "Tank",
+          "words": "Tank"
+        },
+        "thinking-of-you": {
+          "label": "Tinke oan dy",
+          "words": "Tinke oan dy"
+        },
+        "new-season": {
+          "label": "In nij seizoen",
+          "words": "In nij seizoen"
+        },
+        "just-because": {
+          "label": "Gewoan sa",
+          "words": "Gewoan sa"
+        }
+      },
+      "stepsHeading": "Sa fersierje jo it tegearre",
+      "steps": {
+        "fold": "Print de kaart ôf en fou him healwei lâns de stippelline, sadat de foarkant bûten is.",
+        "front": "Ien persoan fersiert de foarkant, om de wurden hinne.",
+        "inside": "De oare persoan fersiert de achterkant, of jo wikselje om-beurt op ien kant.",
+        "message": "Skriuw tegearre in berjocht. Ien kin skriuwe, wylst de oare de wurden sizze.",
+        "stop": "Stopje wannear't jo wolle. Der is gjin goede kaart, en in ienfâldige is like goed."
+      },
+      "materials": "Brûk kraytsjes, kleurpotloden of fjouwerkant pinnen. Neat hoecht knipt, lijmd of plakt te wurden.",
+      "previewLabel": "In foarbyld fan de kaart, healwei folden. De foarkant seit {words}, mei in ienfâldige râne fan blêden en stjerren. De achterkant hat rigels foar in berjocht en in rigel foar Fan.",
+      "from": "Fan",
+      "sheetHow": "Foldzje de kaart middels de stippelline, mei de foarkant nei bûten. Skriuwe it berjocht op de achterkant.",
+      "rulesHeading": "Foar twa persoanen",
+      "sheetRules": [
+        "Wikselje elkoar ôf, of ferdielje it wurk: de iene persoan fersiert de foarkant, de oare de achterkant.",
+        "Skriuwe it berjocht tegearre, of ien skriuwt op wat de oare seit.",
+        "Elkenien mei op elk momint stopje. Der is gjin goede kaart."
+      ],
+      "print": "Printsje de kaart"
+    },
+    "storyDice": {
+      "guidance": "Sjoch nei de plaatsjes en fertel der in ferhaal mei, yn elke folchoarder. Der is gjin goed ferhaal.",
+      "countLegend": "Hoefolle dobbelstiennen",
+      "count": "{n} dobbelstiennen",
+      "roll": "Opnij smite",
+      "pass": "Oerslaan",
+      "passed": "Oerslaan is prima. De folgjende kin begjinne, of jo kinne opnij smite.",
+      "rolled": "Nije plaatsjes: {names}.",
+      "tapped": "{name}. Begjin mei dizze, of mei in oare."
+    },
+    "wordPicture": {
+      "guidance": "Tik op in plaatsje en dan op it wurd dat it neamt. Of tik op in wurd en dan op it plaatsje.",
+      "countLegend": "Hoefolle plaatsjes",
+      "count": "{n} plaatsjes",
+      "picturesGroup": "Plaatsjes",
+      "wordsGroup": "Wurden",
+      "readWord": "Lês foar: {name}",
+      "next": "Nije plaatsjes",
+      "putBack": "Lizze it wer del",
+      "pickWord": "Tik no op it wurd dat der by heart.",
+      "pickPicture": "Tik no op it plaatsje dat der by heart.",
+      "fit": "Ja, dat wurd heart by de {name|lower}.",
+      "newSet": "Hjir is in nije set plaatsjes.",
+      "restarted": "Wer oan it begjin. Alle plaatsjes en wurden lizze wer los.",
+      "restored": "Werom set. De goed passende pearen binne wer te sjen.",
+      "all": "Elk wurd hat syn plaatsje."
+    },
+    "colorMatch": {
+      "guidance": "Sjoch nei de kleur en de namme dêrfan, en tik dan op elk plaatsje dat dy kleur hat.",
+      "target": "De kleur is {color|lower}. Tik op elk plaatsje dat {color|lower} is.",
+      "countLegend": "Hoefolle plaatsjes",
+      "count": "{n} plaatsjes",
+      "found": "Ja, de {name|lower} is {color|lower}.",
+      "named": "De {name|lower} is {color|lower}.",
+      "all": "Dat binne alle {color|lower} plaatsjes.",
+      "shown": "Hjir binne de {color|lower} plaatsjes.",
+      "show": "Lit se sjen",
+      "next": "In oare kleur",
+      "names": {
+        "red": "Read",
+        "orange": "Oranje",
+        "yellow": "Giel",
+        "green": "Grien",
+        "blue": "Blau"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tik op in helte oan de linkerkant, en tik dan op de helte oan de rjochterkant dy't dêrby past.",
+      "countLegend": "Hoefolle plaatsjes",
+      "count": "{n} plaatsjes",
+      "leftGroup": "Linker heltes",
+      "rightGroup": "Rjochter heltes",
+      "left": "Linker helte fan de {name|lower}",
+      "right": "Rjochter helte fan de {name|lower}",
+      "joined": "Byinoar setten",
+      "pickRight": "Tik no op de helte rjochts dy't dêrby past.",
+      "pickLeft": "Tik no op de helte links dy't dêrby past.",
+      "fit": "Ja, dy twa meitsje de {name|lower}.",
+      "apart": "Dy twa passe net byinoar. Probearje in oare.",
+      "all": "Elk plaatsje is hiel.",
+      "shown": "Hjir binne de plaatsjes, byinoar setten.",
+      "show": "Lit my sjen",
+      "next": "In oare set"
+    },
+    "colorByNumber": {
+      "guidance": "Kies in kleur út de kaai, en kleur dan in fjildsje dermei yn. Elke kleur is goed.",
+      "sizeLegend": "Rastergrutte",
+      "size": "{n} by {n}",
+      "keyLegend": "Kleuren",
+      "colors": [
+        "Giel",
+        "Oranje",
+        "Grien",
+        "Pears"
+      ],
+      "motifs": {
+        "house": "in hûs",
+        "flower": "in blom",
+        "heart": "in hert",
+        "tree": "in beam",
+        "boat": "in seilboat",
+        "pot-plant": "in plant yn in pot"
+      },
+      "region": "Plaatsjesraster, {n} by {n}. It skúvet sydlings as it skerm smel is.",
+      "cell": "Nûmer {number}, rige {row}, kolom {column}, {color}",
+      "empty": "leech",
+      "chose": "{name} keazen. Tik op in fjildsje om it yn te kleurjen.",
+      "painted": "{name} yn rige {row}, kolom {column}.",
+      "sheet": "Elk fjildsje hat de kleur fan syn nûmer. Dit is it plaatsje op it blêd: {name}.",
+      "own": "Elk fjildsje is ynfolle. Dit is jo eigen plaatsje.",
+      "fillAll": "Ynfolje mei de nûmers",
+      "filledAll": "Elk leech fjildsje hat no de kleur fan syn nûmer.",
+      "clear": "Wiskje",
+      "cleared": "It raster is leech.",
+      "next": "In oar plaatsje",
+      "fresh": "Hjir is in oar plaatsje om yn te kleurjen."
+    },
+    "patternMaker": {
+      "guidance": "Tik op in fjildsje om de kleur te feroarjen. Jo patroan groeit der njonken. Neat wat jo meitsje wurdt bewarre of ferstjoerd.",
+      "sizeLegend": "Tegelgrutte",
+      "size": "{n} by {n}",
+      "keyLegend": "Kleuren, yn de folchoarder dêr't in tik se feroaret",
+      "colors": [
+        "Giel",
+        "Oranje",
+        "Grien",
+        "Pears"
+      ],
+      "tileLabel": "Jo tegel",
+      "region": "Jo tegel, {n} by {n}. It skúvet sydlings as it skerm smel is.",
+      "patternLabel": "Jo patroan",
+      "pattern": "Jo patroan: jo tegel werhelle {n} dwers en {n} del.",
+      "square": "Rige {row}, kolom {column}, {color}",
+      "changed": "Rige {row}, kolom {column} is no {color}.",
+      "cleared": "De tegel is leech. Jo kinne dy wer werom sette.",
+      "surprise": "Ferrassje my",
+      "surprised": "Hjir is in nije tegel. Jo kinne de âlde wer werom sette.",
+      "putBack": "Werom sette",
+      "restored": "Jo tegel is wer sa't it wie.",
+      "print": "Myn patroan printsje",
+      "sheetTitle": "Myn patroan"
+    },
+    "buildTogether": {
+      "guidance": "Wikselje elkoar ôf om in stik yn in leech plak te setten. Elk fan jo hat syn eigen kleur. Neat wat jo meitsje wurdt bewarre of ferstjoerd.",
+      "sizeLegend": "Rastergrutte",
+      "size": "{n} by {n}",
+      "people": [
+        "Earste persoan",
+        "Twadde persoan"
+      ],
+      "colorLegend": "Kleur fan {person}",
+      "colors": [
+        "Giel",
+        "Oranje",
+        "Grien",
+        "Pears"
+      ],
+      "inUse": "Yn gebrûk",
+      "turn": "Jo beurt, {person|lower}",
+      "yourColor": "Jo kleur is {color|lower}.",
+      "built": "Tegearre makke. Dit is it plaatsje dat jim beiden makke hawwe.",
+      "gridLabel": "It dielde raster",
+      "region": "It dielde raster, {n} by {n}. It skúvet sydlings as it skerm smel is.",
+      "cellEmpty": "Rige {row}, kolom {column}, leech",
+      "cellFilled": "Rige {row}, kolom {column}, {color}, pleatst troch de {person|lower}",
+      "placed": "Rige {row}, kolom {column} is no {color}. Jo beurt, {next|lower}.",
+      "placedLast": "Rige {row}, kolom {column} is no {color}. Tegearre makke.",
+      "taken": "Rige {row}, kolom {column} hat al in stik. Kies in leech plak.",
+      "pass": "Oerslaan",
+      "passed": "Oerslaan is goed. Jo beurt, {person|lower}.",
+      "takeBack": "Nim it lêste stik werom",
+      "takeBackPass": "Nim de oerslach werom",
+      "tookBack": "It stik is werom nommen. Jo beurt, {person|lower}.",
+      "tookBackPass": "De oerslach is werom nommen. Jo beurt, {person|lower}.",
+      "colorChanged": "{person} hat no {color|lower}.",
+      "restarted": "It raster is leech. Jo beurt, {person|lower}.",
+      "print": "Printsje it raster",
+      "sheetTitle": "Tegearre bouwe",
+      "sheetHelp": "Wikselje elkoar ôf. Yn in leech fjildsje tekenet elk persoan syn eigen foarm mei syn eigen potlead.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tik op in stik, en tik dan op de romte yn it plaatsje dêr't it heart. Neat wat jo meitsje wurdt bewarre of ferstjoerd.",
+      "hints": "Lit de hintlinen sjen",
+      "pictureLine": "Dit is in {picture}.",
+      "pictures": {
+        "house": "hûs",
+        "boat": "boat",
+        "tree": "beam",
+        "fish": "fisk",
+        "cat": "katte",
+        "rocket": "raket"
+      },
+      "outlineLabel": "De kontoer fan de {picture}. Tik op in romte om in keazen stik dêryn te setten.",
+      "trayHeading": "De stikken",
+      "pieces": {
+        "large-triangle": "Grutte trijehoek",
+        "small-triangle": "Lytse trijehoek",
+        "square": "Fjouwerkant",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Rjochthoek"
+      },
+      "shapes": {
+        "large-triangle": "in grutte trijehoek",
+        "small-triangle": "in lytse trijehoek",
+        "square": "in fjouwerkant",
+        "parallelogram": "in parallelogram",
+        "rectangle": "in rjochthoek"
+      },
+      "chosenLabel": "Keazen",
+      "spaceEmpty": "Romte {n}, {shape}, leech",
+      "spaceFilled": "Romte {n}, {shape}, hat syn stik. Tik om it stik werom te nimmen.",
+      "chosen": "{piece} is keazen. Tik no op in romte yn it plaatsje.",
+      "unchosen": "Dit stik is net mear keazen.",
+      "placed": "Dit stik leit op plak {n}.",
+      "complete": "De {picture} is klear.",
+      "different": "Dat stik hat in oare foarm as dizze plak. Probearje in oare plak.",
+      "needPiece": "Kies earst in stik út de bak.",
+      "filled": "Dy plak hat al syn stik. Tik der op om it stik werom te nimmen.",
+      "tookBack": "It stik is werom yn de bak.",
+      "cleared": "De stikken binne werom yn de bak. Set se werom as jo fan gedachten feroare binne.",
+      "restored": "De stikken binne werom yn it plaatsje.",
+      "next": "Dit is in {picture}.",
+      "putBack": "Set it werom",
+      "another": "Noch in foarm",
+      "print": "Printsje dizze foarm ôf",
+      "sheetTitle": "Rêstige foarmen",
+      "sheetHow": "Kleur de stikken, of knip se út om yn de omtrek te passen. In folwoeksene kin it knippen dwaan.",
+      "sheetPieces": "De stikken, even grut as de omtrek"
+    },
+    "picnicPlanner": {
+      "guidance": "Tik op in plaatsje om it yn de piknikmannen te setten, en tik der yn de mannen op om it der wer út te heljen. De mannen hâldt seis dingen.",
+      "guidancePlay": "Tik op twa plaatsjes dy't itselde binne. De plaatsjes bliuwe sichtber, en der is gjin tiid mjitten.",
+      "basketHeading": "Us mannen",
+      "basketLabel": "De piknikmannen",
+      "takeOut": "Heal {picture} út de mannen",
+      "inBasket": "Yn de mannen",
+      "foodHeading": "Iten",
+      "outingsHeading": "Dingen om te dwaan",
+      "added": "{picture} is yn de mannen.",
+      "removed": "{picture} is út de mannen.",
+      "already": "{picture} is al yn de mannen. Tik der yn de mannen op om it der út te heljen.",
+      "full": "De mannen is fol. Heal wat út om romte te meitsjen.",
+      "summary": "Us piknik: {list}.",
+      "summaryNone": "Der is noch neat yn de mannen.",
+      "and": "en",
+      "play": "Litte wy boartsje mei ús piknik",
+      "needTwo": "Kies earst op syn minst twa dingen.",
+      "playAgain": "Opnij boartsje",
+      "back": "Werom nei de piknik",
+      "print": "Printsje ús pikniklist ôf",
+      "cleared": "De mannen is leech.",
+      "notice": "Dit is in plan om oer te praten. Neat wurdt tiid mjitten, beoardiele of bewarre.",
+      "sheetTitle": "Us pikniklist",
+      "sheetHow": "Set in finkje by elk ding as jo it ynpakke. Brûk de lege rigels foar alles oars dat jo meinimme wolle.",
+      "sheetToPack": "Om yn te pakken"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Kies twa oant tolve fan jo eigen foto's om it boek te begjinnen.",
+      "guidance": "Slagje de siden tegearre om, mei de knoppen of de pylktoetsen Lofts en Rjochts. Foegje as jo wolle in pear wurden ûnder in foto ta. Neat wat jo meitsje wurdt bewarre of ferstjoerd.",
+      "lookGuidance": "Besjoch elke side tegearre. Jo kinne prate of gewoan sjen.",
+      "intro": "Kies twa oant tolve foto's fan dit apparaat. Elk wurdt in side fan in boek dat jo tegearre omslaan kinne.",
+      "consent": "Brûk jo eigen famyljefoto's. Freegje earst foardat jo in foto brûke fan immen dy't net ja sizze kin.",
+      "privacy": "Jo foto's bliuwe op dit apparaat. Se wurde net opladen of bewarre.",
+      "choose": "Foto's kieze",
+      "chooseDifferent": "Kies oare foto's",
+      "backToBook": "Werom nei it boek",
+      "backToChoose": "Werom nei it kiezen fan foto's",
+      "needTwo": "Kies asjebleaft op syn minst twa foto's.",
+      "usingFirst": "De earste {max} foto's wurde brûkt.",
+      "cleared": "It boek is leech. Kies foto's om wer te begjinnen.",
+      "moved": "Ferpleatst nei side {n}.",
+      "pageOf": "Side {n} fan {total}",
+      "lookTogether": "Tegearre besjen",
+      "leaveLook": "Werom nei it boek",
+      "print": "Printsje it fotoboek ôf",
+      "clear": "It boek leegje",
+      "bookLabel": "It famyljefotoboek",
+      "pagesLabel": "Slagje de siden om",
+      "previous": "Foarige side",
+      "next": "Folgjende side",
+      "moveEarlier": "Earder ferpleatse",
+      "moveLater": "Letter ferpleatse",
+      "captionLabel": "In pear wurden foar dizze side, as jo wolle",
+      "captionHelp": "Oant 80 tekens. Byskriften bliuwe allinich op dizze side en binne fuort as jo it slute.",
+      "sheetTitle": "Us fotoboek",
+      "sheetHow": "Ien foto per side, mei de wurden derûnder. Slagje de siden yn folchoarder om en praat oer elk.",
+      "sheetEmpty": "Kies jo foto's op de spielside om jo eigen boek te printsjen, of printsje dizze lege side ôf en plak der in printe foto yn.",
+      "sheetFrame": "Plak hjir in printe foto",
+      "sheetWords": "In pear wurden foar dizze side",
+      "skipped": {
+        "one": "{n} bestân wie gjin foto dy't wy brûke kinne.",
+        "other": "{n} bestannen wienen gjin foto's dy't wy brûke kinne."
+      }
+    },
+    "quietScene": {
+      "guidance": "Besjoch ien plaatsje tagelyk. Druk op Folgjende of Foarige as jo klear binne. Neat beweecht harsels.",
+      "next": "Folgjend plaatsje",
+      "previous": "Foarich plaatsje",
+      "bigPicture": "Grutter plaatsje",
+      "showEverything": "Lit alles sjen",
+      "first": "Dit is it earste plaatsje.",
+      "last": "Dit is it lêste plaatsje.",
+      "lines": {
+        "sunrise": "De sinne komt oer it lân op.",
+        "window-with-birds": "Fûgels bûten it finster.",
+        "vase-of-flowers": "In vaas mei blommen op tafel.",
+        "teacup": "In kopke tee by it finster.",
+        "tree": "In beam dy't yn de tún stiet.",
+        "sailboat": "In seilboat op it wetter.",
+        "lighthouse": "In yndustrial by de see.",
+        "rainbow": "In rigenboog nei de rein.",
+        "moon": "De moanne oan de nachtlike himel.",
+        "daisies": "In stik madeliefkes yn it gers.",
+        "rowing-boat": "In roeibeat op stil wetter.",
+        "potted-plant": "In griene plant yn in pot."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Wikselje om. Tik op in utsnede, en tik dan op in lege plak om it dêr te setten. Neat wat jo meitsje wurdt bewarre of ferstjoerd.",
+      "people": [
+        "Earste persoan",
+        "Twadde persoan"
+      ],
+      "marks": [
+        "in sirkel",
+        "in fjouwerkant"
+      ],
+      "turn": "Jo beurt, {person|lower}.",
+      "marked": "Jo stikken binne markearre mei {mark}.",
+      "boardLabel": "It dieldeboerd",
+      "placeEmpty": "Plak {n}, leech",
+      "placeFilled": "Plak {n}, {picture|lower}, pleatst troch de {person|lower}",
+      "trayHeading": "De utsneden",
+      "chosenLabel": "Keazen",
+      "chosen": "{picture} is keazen. Tik no op in lege plak.",
+      "unchosen": "De utsnede is net mear keazen.",
+      "needCutout": "Kies earst in utsnede, en tik dan op in lege plak.",
+      "filled": "Plak {n} hat al in plaatsje. Kies in lege plak.",
+      "placed": "{picture} is op plak {n}. Jo beurt, {next|lower}.",
+      "full": "Elke plak hat in plaatsje. Heal der ien werom om it te feroarjen, of begjin opnij.",
+      "pass": "Oerslaan",
+      "passed": "Oerslaan is goed. Jo beurt, {person|lower}.",
+      "takeBack": "Nim it lêste stik werom",
+      "takeBackPass": "Nim it oerslaan werom",
+      "tookBack": "It stik is werom nommen. Jo beurt, {person|lower}.",
+      "tookBackPass": "It oerslaan is werom nommen. Jo beurt, {person|lower}.",
+      "restarted": "It boerd is leech. Jo beurt, {person|lower}.",
+      "putBack": "Set it werom",
+      "putBackDone": "De stikken lizze wer op it boerd.",
+      "another": "Noch in set plaatsjes",
+      "anotherSet": "In nije set utsneden leit yn de bak. De stikken op it boerd bliuwe wêr't se binne.",
+      "print": "Printsje it boerd ôf",
+      "sheetTitle": "Kollaazjeboerd",
+      "sheetHow": "Knip de plaatsjes út en wikselje om se op it boerd te setten. In folwoeksene kin it knippen dwaan.",
+      "sheetTray": "De plaatsjes om út te knippen"
+    },
+    "gardenPlanner": {
+      "guidance": "Tik op in plaatsje, en tik dan op in bed om it dêr te setten. Tik op in bed mei in plaatsje, sûnder dat der wat keazen is, om it leech te meitsjen.",
+      "bedsLabel": "De tunbedden",
+      "bedEmpty": "Bed {n}, leech",
+      "bedFilled": "Bed {n}, {picture|lower}",
+      "plantsHeading": "Planten",
+      "extrasHeading": "Ekstra's foar de tún",
+      "chosenLabel": "Keazen",
+      "chosen": "{picture} is keazen. Tik no op in bed.",
+      "unchosen": "Gjin plaatsje is keazen.",
+      "needPicture": "Kies earst in plaatsje, tik dan op in perk.",
+      "planted": "{picture} stiet yn perk {n}.",
+      "replaced": "{picture} nimt de plak yn fan it plaatsje yn perk {n}.",
+      "cleared": "Perk {n} is leech. Wolle jo it plaatsje wer, dan kinne jo it werom sette.",
+      "restarted": "Alle perken binne leech.",
+      "putBack": "Werom sette",
+      "putBackDone": "De plaatsjes binne werom yn har perken.",
+      "summaryHeading": "Myn tún",
+      "summary": "Jo plan hat {list}.",
+      "summaryNone": "Noch gjin plaatsje stiet yn in perk.",
+      "and": "en",
+      "print": "Printe it plan",
+      "sheetTitle": "Us túnplan",
+      "sheetHow": "De perken lade sjen de plaatsjes dy't op it skerm keazen binne. Teken yn de lege perken as jo wolle.",
+      "sheetNotes": "Notysjes",
+      "notice": "Dit is in plaatsjesplan om oer te praten, gjin advys oer it planten."
+    },
+    "coloringWall": {
+      "guidance": "Kies in plaatsje en hoefolle siden. Printe de muorre, en elkenien kleurt ien of mear siden. Neat wurdt op tiid mjitten, skoare of bewarre.",
+      "pictureLegend": "Plaatsje",
+      "sizeLegend": "Hoefolle siden",
+      "sizes": {
+        "2x2": "4 siden (2 by 2)",
+        "3x2": "6 siden (3 by 2)",
+        "3x3": "9 siden (3 by 3)"
+      },
+      "previewLabel": "Ferdield yn {n} siden, {across} breed en {down} hoog: {picture|lower}. Elke side hat in label yn 'e hoeke.",
+      "previewCaption": "De ôfbylding mei de sideliinen en labels der op tekene.",
+      "labelsNote": "Letters rinne del de muorre en sifers rinne dwers oer de muorre, dus A1 is de side linksboppe.",
+      "wallHeading": "Hoe jo de muorre byinoar setten",
+      "steps": [
+        "Printe alle siden. De earste side is dizze stappen en in kaart fan de muorre.",
+        "Elkenien nimt ien of mear siden en kleurt se.",
+        "Kleuren en styl hoege net oerien te kommen. Elke side is diel fan itselde plaatsje.",
+        "Lis de siden op folchoarder fan har labels en plak se dan oan 'e efterkant mei plakband byinoar.",
+        "Hingje de muorre op wêr elkenien it goed sjen kin."
+      ],
+      "mapLabel": "In kaart fan de muorre: {down} rigen fan {across} siden, labele fan A1 oant {last}.",
+      "edgeNote": "De stippele line markearret de râne fan elke side. Lis de siden râne oan râne lâns dizze line, of lis se in bytsje oer elkoar.",
+      "pictureLine": "Plaatsje: {picture}. Dizze muorre is {n} siden: {across} breed en {down} hoog.",
+      "print": "Printe de muorre"
+    },
+    "findTogether": {
+      "guidance": "Wikselje om de beurt ôf. Draai op jo beurt twa kaarten om om in pear te sykjen. Fyn de pearen tegearre.",
+      "sizeLegend": "Hoefolle kaarten",
+      "size": "{n} kaarten",
+      "viewLegend": "Hoe te spyljen",
+      "viewShowing": "Spylje mei plaatsjes sichtber",
+      "viewHidden": "Kaarten mei de foarkant nei ûnderen",
+      "people": [
+        "Earste persoan",
+        "Twadde persoan"
+      ],
+      "turn": "Beurt: {person}",
+      "turnDone": "Alle pearen binne fûn.",
+      "tally": "Pearen tegearre fûn: {n}",
+      "cardNamed": "{name}, kaart {n}",
+      "cardFaceDown": "Kaart {n}, mei de foarkant nei ûnderen",
+      "first": "{name}. Draai no in twadde kaart om.",
+      "found": "{name}: in pear, tegearre fûn. Nü is de {next|lower} oan 'e beurt.",
+      "allTogether": "Jo hawwe alle pearen tegearre fûn.",
+      "different": "{a} en {b} binne ferskillich. Nim jo tiid en druk dan op „Draai se werom“.",
+      "waiting": "Druk op „Draai se werom“ as jo klear binne. Dan giet de beurt oer.",
+      "turnedBack": "Werom draaid. Nü is de {person|lower} oan 'e beurt.",
+      "passed": "Oerslaan is goed. Nü is de {person|lower} oan 'e beurt.",
+      "turnBack": "Draai se werom",
+      "pass": "Oerslaan",
+      "playAgain": "Nochris spylje"
+    },
+    "drawingDuet": {
+      "guidance": "Wikselje om de beurt ôf mei elk ien line, en jou dan de pen troch. Elkenien kin oerslaan. Neat wurdt nei earne stjoerd. In tekening ferlit dizze side allinnich as jo it bewarje.",
+      "people": [
+        "Earste persoan",
+        "Twadde persoan"
+      ],
+      "colorLegend": "Kleur fan {person}",
+      "colors": [
+        "Giel",
+        "Oranje",
+        "Grien",
+        "Purper"
+      ],
+      "turn": "Beurt fan {person}",
+      "penColor": "Pennekleur: {color}.",
+      "canvasLabel": "Dielde tekening, {n} linen oant no ta",
+      "canvasLabelOne": "Dielde tekening, {n} line oant no ta",
+      "keys": "Pylktoetsen bewege de pendot op de tekening. Spaasjebalke set de pen del of omheech.",
+      "penDown": "Pen del",
+      "penUp": "Pen omheech",
+      "pass": "Jou de pen troch",
+      "passed": "Oerslaan is goed. Nü is de {person|lower} oan 'e beurt.",
+      "takeBack": "Nim myn lêste line werom",
+      "tookBack": "De lêste line fan de {person|lower} is weromhelle.",
+      "noLine": "Der is gjin line fan de {person|lower} om werom te heljen.",
+      "restarted": "It blêd is leech. De earste persoan hat de beurt. Set it werom as jo dat net bedoeld hawwe.",
+      "putBack": "Set it werom",
+      "restored": "De linen binne werom sa't se wienen.",
+      "save": "Tekening bewarje",
+      "saved": "Jo tekening is klear. Brûk de downloadlink om it op dit apparaat te bewarjen.",
+      "download": "Download drawing-duet.png",
+      "print": "Printe de papieren ferzje",
+      "sheetTitle": "Tekenduet",
+      "paperRules": "Twa persoanen, ien blêd, twa pennen. Wikselje om de beurt: elk ien line of foarm, en jou dan de pen troch. Elkenien kin oerslaan. Der is gjin goede tekening."
+    },
+    "colorWash": {
+      "guidance": "Ferf sêft kleur oer de side, ien laach tagelyk. Til de kwast omheech om te stopjen, en stop wannear't jo wolle. Neat wurdt bewarre of ferstjoerd.",
+      "colorLegend": "Kleur fan de laach",
+      "sizeLegend": "Kwastgrutte",
+      "colors": [
+        "Giel",
+        "Oranje",
+        "Grien",
+        "Purper"
+      ],
+      "sizes": {
+        "wide": "Breed",
+        "veryWide": "Hiel breed"
+      },
+      "color": "Kleur fan de laach: {color}.",
+      "brushDown": "Kwast del",
+      "brushUp": "Kwast omheech",
+      "keys": "Pylktoetsen bewege de kwastring oer de side. Spaasjebalke set de kwast del of omheech.",
+      "canvasLabel": "In side mei sêfte kleurlaagjes",
+      "fresh": "In nij blêd",
+      "freshMessage": "In nij blêd.",
+      "putBack": "Set it werom",
+      "restored": "De side is werom."
+    },
     "sortTogether": {
       "guidance": "Tik op in plaatsje en dan op de koer dêr't it yn heart.",
       "restart": "Nije plaatsjes",
@@ -71,6 +719,10 @@
       "hint": "De {name|lower} kin yn „{basket}”. Tik op dy koer om it dêryn te dwaan.",
       "placed": "De {name|lower} sit yn „{basket}”.",
       "sorted": "Alles is sortearre. Sjoch tegearre troch de kuorkes, of besykje in oar tema.",
+      "largerTargets": "Gruttere doelen",
+      "largerOn": "Gruttere doelen binne oan. Neat is ferpleatst.",
+      "largerOff": "Gruttere doelen binne út. Neat is ferpleatst.",
+      "largerOnNewRound": "Gruttere doelen binne oan, mei twa mantsjes. Hjir binne nije plaatsjes om te sortearjen.",
       "basket": {
         "one": "Koer {basket}, {count} plaatsje deryn",
         "other": "Koer {basket}, {count} plaatsjes deryn"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Tik op ien stikje en dan op in oar. Se wikselje fan plak.",
-      "restart": "Wer trochinoar helje",
+      "restart": "Mix up again",
       "pictureLegend": "Plaatsje",
       "pictures": {
         "sailboat": "Sylboat",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "It hiele plaatsje: {name}",
       "guideText": "Sa sjocht it plaatsje derút as it hiel is.",
+      "ownChoose": "Brûk jo eigen foto",
+      "ownChange": "Kies in oare foto",
+      "ownBack": "Werom nei ús plaatsjes",
+      "ownPrivacy": "Jo foto bliuwt op dit apparaat. Hy wurdt net opladen of bewarre.",
+      "ownConsent": "Brûk jo eigen fotos. Freegje earst as jo in foto brûke fan immen dy't net ja sizze kin.",
+      "ownWorking": "Jo foto wurdt klearmakke.",
+      "ownNotUsable": "Dat bestân koe net brûkt wurde. Kies in fotobestân, lykas in JPEG of PNG.",
+      "ownAlt": "Jo foto",
+      "ownPiece": "Stik {n}, {place}",
+      "ownWhole": "Jo foto is wer hiel. Meng it wer wannear't jo wolle.",
+      "ownSheetTitle": "Jo foto yn stikken",
+      "ownSheetHow": "Snij lâns de linen. Meng de stikken, en wiksel dan twa stikken tagelyk om oant it plaatsje hiel is.",
       "piece": "Stikje {place}",
       "pieceInPlace": ", op it goede plak",
       "piecePickedUp": ", oppakt",
@@ -122,7 +786,7 @@
         "rjochts ûnder"
       ],
       "done": "It plaatsje is wer hiel. Boartsje nochris of nim in skoftke.",
-      "playAgain": "Wer trochinoar helje"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Lês it sprekwurd tegearre en tik dan op it wurd dat it ôfmakket.",
@@ -190,6 +854,14 @@
       "guidance": "Lês it kaartsje lûdop foar. Der binne gjin ferkearde antwurden.",
       "position": "Kaartsje {n} fan {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Lit in gesprekspunt sjen",
+      "bigPicture": "Grut plaatsje, foar in groep",
+      "passNote": "Elkenien kin oerslaan.",
+      "groupTitle": "In kaart troch in groep jaan",
+      "groupSit": "Sit yn in sirkel wêr elkenien it plaatsje goed sjen kin. De persoan dy't de kaart fasthâldt, of it apparaat mei it grutte plaatsje, lêst it gespreksprompt earst hardop foar.",
+      "groupPass": "Jou de kaart dan troch oan de folgjende persoan. Elkenien seit in wurd of in sin oer it plaatsje en jout it dan troch.",
+      "groupNoSpeech": "It is altyd goed om de kaart troch te jaan. In persoan kin oerslaan sûnder wat te sizzen, en nimmen hoecht te sizzen wêrom.",
+      "groupEnd": "De ronde einiget as de kaart de sirkel rûn is, of as de groep genôch hat. Nimmen wint. Stopje wannear't de groep wol.",
       "next": "Folgjend kaartsje",
       "previous": "Foarich kaartsje",
       "print": "Alle kaartsjes printsje",
@@ -252,6 +924,20 @@
       "started": "Begûn. Sykje yn as de sirkel grutter wurdt.",
       "stopped": "Stoppe.",
       "finished": "Dat wienen seis rêstige teugen. Begjin gerêst wer as jo wolle."
+    },
+    "storyChain": {
+      "guidance": "Wikselje om de beurt: elk ien sin, en foegje it folgjende plaatsje ta.",
+      "passNote": "Sis jo sin hardop. Neat wurdt typt of bewarre. Elkenien mei oerslaan.",
+      "chainLabel": "De keatling oant no ta",
+      "item": "Plaatsje {n}: {name}",
+      "add": "Foegje in plaatsje ta",
+      "fullAdd": "De keatling is fol. Start in nije keatling",
+      "newChain": "Start in nije keatling",
+      "takeOff": "Nim de lêste ôf",
+      "added": "De {name|lower} stiet no oan 'e ein fan de keatling.",
+      "removed": "De {name|lower} is fan de keatling ôfhelle.",
+      "fresh": "In nije keatling, begjinnend mei de {name|lower}.",
+      "full": "De keatling hat alle acht plaatsjes. Fertel it hiele ferhaal, of start in nije keatling."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Reinwolk",
     "snowflake": "Snieflok",
     "kite": "Flieger",
-    "sunrise": "Sinne-opgong boppe de heuvels"
+    "sunrise": "Sinne-opgong boppe de heuvels",
+    "decorated-keepsake-box": "Ûnthâldkistje, fersierd",
+    "painted-plant-pot": "Bloempot mei krûden",
+    "repeating-pattern-sheet": "Blêd mei patroanen",
+    "music-drawn-lines": "Rigels nei muzyk",
+    "paper-boat-afloat": "Papierboat op it wetter",
+    "folded-towel-stack": "Stapel hantdoeken",
+    "hand-massage-with-lotion": "Hân mei lotion",
+    "open-photo-album": "Iepen fotoalbum",
+    "button-flower-card": "Kaart mei knopblom",
+    "blue-torn-paper-collage": "Blauwe skuorre papierkollaasje",
+    "family-tree-of-hands": "Famyljeboom fan hannen",
+    "open-greeting-card": "Iepen winskaart mei hert",
+    "lavender-sachet": "Lavindelsakje mei lint",
+    "memory-collage-of-photos": "Kollaasje fan famyljefoto's",
+    "paper-chain-garland": "Papierketting",
+    "open-songbook-with-notes": "Iepen liedboek mei noaten",
+    "photo-postcard-with-stamp": "Fotopostkaart mei postsegel",
+    "pine-cone-bird-feeder": "Fûgelfoer fan dennappel",
+    "playlist-phone-and-card": "Tillefoan mei muzykljist",
+    "sealed-rice-shaker": "Ticht rystbusje mei rys",
+    "texture-board-with-scraps": "Struktuerboerd mei reststikken",
+    "painted-garden-stone": "Tunstien, beskildere",
+    "shared-painted-canvas": "Gearwurke skildersdoek",
+    "watercolor-washes-sheet": "Blêd mei aquarelferf",
+    "seedling-in-pot": "Plantsjes yn in pot",
+    "pressed-leaves-in-book": "Pleatte blêden yn in boek",
+    "printed-leaves-sheet": "Blêd mei blêdôfdrukken",
+    "pinch-pot-clay-bowl": "Klaaipotsje",
+    "table-sketch-pencil": "Potloodskets fan in beker",
+    "buttons-in-muffin-tin": "Knopen yn in muffinblik",
+    "family-recipe-book": "Famyljerecepteboek",
+    "drum-with-beat-marks": "Tafeltrom mei stokken",
+    "torn-paper-flower": "Skuorre papierblom",
+    "window-with-birds": "Finster mei fûgels",
+    "woven-paper-mat": "Flechte papiermat",
+    "yarn-ball-with-thread": "Kluwen wol",
+    "letter-and-envelope": "Brief yn in koevert"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Op paad"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fruit",
+        "animals": "Bisten",
+        "travel": "Manieren om te reizen",
+        "flowers": "Blommen",
+        "hot-drinks": "Dingen foar in waarme drank",
+        "weather": "Soarten waar",
+        "baked": "Dingen dy't yn 'e oven bakt wurde"
       }
     }
   }

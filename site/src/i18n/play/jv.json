@@ -5,6 +5,13 @@
       "stopReading": "Mandheg maca",
       "region": "Dolanan",
       "restart": "Wiwiti malih",
+      "rest": "Ngaso rumiyin",
+      "restingTitle": "Lagi ngaso",
+      "restingText": "Ngasoa sak dangu-dangune panjenengan butuhake. Papan panjenengan tetep disimpen ing kaca iki.",
+      "resume": "Lajengaken",
+      "placeText": "Wingi panjenengan mandeg ing tengah-tengah. Lajengaken saka kono, utawa miwiti saka awal.",
+      "placeResume": "Lajengaken",
+      "placeFresh": "Miwiti saka awal",
       "soundOn": "Swanten alus dipunuripaken",
       "soundOff": "Swanten alus dipunpateni",
       "done": "Cekap rumiyin",
@@ -42,7 +49,19 @@
       "viewShowing": "Gambar katingal",
       "viewHidden": "Gambar dipunndhelikaken",
       "playAgain": "Dolanan malih kaliyan gambar énggal",
-      "talk": "Rembagan bab gambar sesarengan"
+      "talk": "Rembagan bab gambar sesarengan",
+      "modeLegend": "Gambar punapa",
+      "modePlay": "Gambar punapa wae",
+      "modeDaily": "Kartu dina iki",
+      "dayLegend": "Dina punapa",
+      "dayHelp": "Sedaya tiyang angsal gambar ingkang sami ing dinten ingkang sami. Dinten-dinten ingkang sampun kepengker ugi wonten ing mriki, lan ora ana ingkang dados kalugen menawi dinten tartamtu dilewati.",
+      "guidanceDaily": "Kartu dina iki ngandhut patang pasangan. Pencet gambar, banjur pencet gambar ingkang cocog karo iku.",
+      "restartDaily": "Miwiti kartu iki saka awal",
+      "copy": "Salin baris iki",
+      "copied": "Sampun disalin. Boten wonten ingkang dikirim dhateng pundi-pundi.",
+      "calendarTitle": "Kartu dina iki, {month}",
+      "calendarHelp": "Saben dina nduweni patang gambar ingkang sami kangge sedaya tiyang. Boten wonten nilai, lan boten wonten dina ingkang dicathet kelangan.",
+      "calendarVersion": "Versi {date}. Gambar-gambaripun sami kangge sedaya tiyang ing dina ingkang sami."
     },
     "choose": {
       "countLegend": "Pinten gambar",
@@ -61,6 +80,634 @@
       "shadowAlt": "Kalangan kangge dipuncocogaken",
       "foundAlt": "Kalangan saking {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Pitunjuk",
+      "hintOn": "Pitunjuk sawise jeda",
+      "hintOff": "Tanpa pitunjuk",
+      "guidance": "Golekna {n} gambar ingkang cocog dados setunggal klompok, banjur pencet saben gambar.",
+      "countLegend": "Pinten gambar",
+      "count": "{n} gambar",
+      "found": "Inggih, {name|lower} kalebet klompok punika.",
+      "elsewhere": "{name|lower} cocoge karo barang liyane. Mangga dipun pikir kanthi tenang.",
+      "hint": "Pitunjuk: priksa {theme|lower}.",
+      "together": "Ingkang cocog dados setunggal klompok: {theme}.",
+      "shown": "Punika klompokipun: {theme}.",
+      "groupName": "Dados setunggal klompok: {theme}",
+      "show": "Tuduhna klompokipun",
+      "next": "Set liyane"
+    },
+    "oddOneOut": {
+      "hintLegend": "Pitunjuk",
+      "hintOn": "Pitunjuk sawise jeda",
+      "hintOff": "Tanpa pitunjuk",
+      "guidance": "Golekna gambar ingkang boten cocog karo sanesipun, banjur pencet.",
+      "countLegend": "Pinten gambar",
+      "count": "{n} gambar",
+      "belongs": "{name|lower} cocog karo sanesipun. Mangga dipun pikir kanthi tenang.",
+      "found": "Inggih, {name|lower} ingkang boten cocog. Sanesipun punika {theme|lower}.",
+      "shown": "Punika: {name|lower}. Sanesipun punika {theme|lower}.",
+      "hint": "Pitunjuk: {n} saking gambar punika inggih punika {theme|lower}.",
+      "others": "Sanesipun: {theme}",
+      "show": "Tuduhna kula",
+      "next": "Set liyane"
+    },
+    "seatedToss": {
+      "guidance": "Lenggah wonten meja lan gantos-gantos nglempar kanthong kacang ingkang empuk dhateng target ageng. Catetan skor ing kertas, bebarengan.",
+      "stepsHeading": "Kados pundi lampahipun",
+      "steps": [
+        "Cetak target lan lembar catetan, lajeng lebetaken rata ing meja ing antawis panjenengan kalih.",
+        "Lenggah ingkang mapan, setunggal wonten sisih mriki lan setunggal wonten sisih sanes. Gantos-gantos nglempar kanthi alon sepisan-sepisan, utawi nglangkungi menawi panjenengan boten kepengin.",
+        "Menawi lemparan kenek ring, tiyang ingkang nglempar nyentang setunggal kotak ing kolomipun, ing baris kangge ring punika.",
+        "Menawi panjenengan rampung, tingali catetan wau bebarengan, menawi kersa. Boten wonten ingkang kedah ngitung.",
+        "Mandeg kapan kemawon nalika sintena sampun siap."
+      ],
+      "safetyHeading": "Keselametan",
+      "safetyLine": "Namung ginakaken kanthong ingkang tutupanipun dijahit, utawi kaos ingkang digulung, lenggah mawon, aja nglempar dhateng raine, lan tetep wonten tiyang diwasa ingkang celak. Barang cilik punika mbebayani kangge keselak.",
+      "flags": [
+        "Boten kagem tiyang ingkang langkung alit tinimbang 3 taun: barang cilik",
+        "Tebihna saking cangkem"
+      ],
+      "safety": [
+        "Pilih kanthong kacang ingkang tutupanipun dijahit, utawi gulung kaos ingkang resik. Priksa rumiyin supados boten wonten bolong utawi jahitan ingkang longgar, supaya isinipun boten medal.",
+        "Kacang, beras, lan isi cilik sanesipun mbebayani kangge keselak. Tebihna saking bocah alit lan sintena ingkang remen mlebetaken barang ing cangkem.",
+        "Tetep ing jangkauan tangan lan waspadakna kanthi tliti menawi wonten barang ingkang saged dicangkemaken.",
+        "Tetep lenggah. Nglempar kanthi alon lan andhap dhateng target ing meja, aja dhateng raine."
+      ],
+      "previewLabel": "Lembar cetakan: target tiga ring, asmanipun Cedhak, Tengah lan Adoh, saka njaba mlebet. Ana catetan kanthi kolom kangge saben tiyang lan baris kotak kosong kangge saben ring.",
+      "sheetHow": "Lebetaken lembar rata ing antawis panjenengan kalih. Menawi lemparan kenek ring, centang kotak ing kolom panjenengan, ing baris ring punika.",
+      "rings": [
+        "Cedhak",
+        "Tengah",
+        "Adoh"
+      ],
+      "people": [
+        "Tiyang kaping setunggal",
+        "Tiyang kaping kalih"
+      ],
+      "ringHeading": "Ring",
+      "print": "Cetak target lan lembar catetan"
+    },
+    "seasonalPack": {
+      "guidance": "Pilih sasi, cetak telu teka-teki kertasipun, banjur tindakaken siji, loro utawi kabeh bebarengan.",
+      "monthLegend": "Pilih sasi",
+      "months": [
+        "Januari",
+        "Februari",
+        "Maret",
+        "April",
+        "Mei",
+        "Juni",
+        "Juli",
+        "Agustus",
+        "September",
+        "Oktober",
+        "November",
+        "Desember"
+      ],
+      "monthNote": "Saben sasi nduweni gambar piyambak. Kaca punika mbukak ing sasi punika, lan panjenengan saged milih sasi sanesipun.",
+      "restDay": "Dinten iki dina ngaso",
+      "restLine": "Dinten iki boten wonten teka-teki. Dina ngaso ugi dina ingkang sae.",
+      "previewHeading": "Telu teka-teki",
+      "puzzles": {
+        "pairs": {
+          "title": "Cocokaken pasangan",
+          "how": "Gambaraken garis saka saben gambar ing baris ndhuwur dhateng gambar ingkang sami ing baris ngisor.",
+          "describe": "Kalih baris saka patang gambar ingkang sami, nanging urutanipun beda."
+        },
+        "different": {
+          "title": "Pundi ingkang beda?",
+          "how": "Bunderi gambar ingkang beda kaliyan telu sanesipun.",
+          "describe": "Setunggal baris patang gambar. Telu sami, lan setunggal beda."
+        },
+        "color": {
+          "title": "Wenehana warna",
+          "how": "Wenehana warna gambar punika kados ingkang panjenengan karsakaken, nganggo krayon utawi pensil.",
+          "describe": "Setunggal gambar ageng kangge diwenehi warna."
+        }
+      },
+      "print": "Cetak paket sasi punika",
+      "sheetHow": "Cetak setunggal kaca. Tindakaken siji, loro utawi kabeh telu teka-teki, ing urutan pindho kemawon.",
+      "printFooter": "Tindakaken siji, loro utawi kabeh telu. Mandeg kapan kemawon panjenengan kersa."
+    },
+    "decorateACard": {
+      "guidance": "Pilih acara, banjur hiasi kartu bebarengan nganggo krayon utawi pulpen. Boten wonten kartu ingkang leres.",
+      "occasionLegend": "Pilih acara",
+      "occasions": {
+        "birthday": {
+          "label": "Ulang taun",
+          "words": "Sugeng ulang taun"
+        },
+        "thank-you": {
+          "label": "Matur nuwun",
+          "words": "Matur nuwun"
+        },
+        "thinking-of-you": {
+          "label": "Ngelingi panjenengan",
+          "words": "Ngelingi panjenengan"
+        },
+        "new-season": {
+          "label": "Musim anyar",
+          "words": "Musim anyar"
+        },
+        "just-because": {
+          "label": "Mung kepengin wae",
+          "words": "Mung kepengin wae"
+        }
+      },
+      "stepsHeading": "Kados pundi ngiasi bebarengan",
+      "steps": {
+        "fold": "Cetak kartu lan lempitaken dadi kalih ing garis putus-putus, supados ngarepipun wonten sisih njaba.",
+        "front": "Setunggal tiyang ngiasi ngarepipun, ing sakiwa tengenipun tembung.",
+        "inside": "Tiyang sanesipun ngiasi mburinipun, utawi gantos-gantos ing setunggal sisih.",
+        "message": "Nulis pesen bebarengan. Setunggal tiyang saged nulis nalika sanesipun ngucapaken tembungipun.",
+        "stop": "Mandeg kapan kemawon panjenengan kersa. Boten wonten kartu ingkang leres, lan ingkang sederhana ugi sae."
+      },
+      "materials": "Nganggo krayon, pensil warna utawi pulpen felt-tip. Boten wonten ingkang kedah dipotong, dilem utawi ditempel.",
+      "previewLabel": "Pratinjau kartu ingkang dilempit dadi kalih. Ing ngarep wonten tulisan {words}, kaliyan pigura sederhana saka godhong lan lintang. Ing mburi wonten garis kangge pesen lan garis kangge Saking.",
+      "from": "Saking",
+      "sheetHow": "Lipatna kertu dadi loro ing garis putus-putus, karo ngarepe ana ing njaba. Tulisna pesen ing mburi.",
+      "rulesHeading": "Kanggo wong loro",
+      "sheetRules": [
+        "Gantian, utawa dibagi: siji wong ngias ngarep, sijine ngias mburi.",
+        "Pesen ditulis bareng, utawa siji wong nulis apa sing dikandhakake wong liyane.",
+        "Sapa wae oleh mandheg kapan wae. Ora ana kertu sing paling bener."
+      ],
+      "print": "Cetak kertu"
+    },
+    "storyDice": {
+      "guidance": "Deleng gambar-gambar lan critakna crita nganggo gambar kasebut, ora kudu urut. Ora ana crita sing bener.",
+      "countLegend": "Pira dadu",
+      "count": "{n} dadu",
+      "roll": "Kocok maneh",
+      "pass": "Lewati",
+      "passed": "Lewati ora dadi masalah. Wong sabanjure bisa miwiti, utawa sampeyan bisa kocok maneh.",
+      "rolled": "Gambar anyar: {names}.",
+      "tapped": "{name}. Wiwitna saka iki, utawa liyane."
+    },
+    "wordPicture": {
+      "guidance": "Pencet gambar, banjur tembung sing menehi jeneng. Utawa pencet tembung, banjur gambare.",
+      "countLegend": "Pira gambar",
+      "count": "{n} gambar",
+      "picturesGroup": "Gambar",
+      "wordsGroup": "Tembung",
+      "readWord": "Maosaken kanthi swara: {name}",
+      "next": "Gambar anyar",
+      "putBack": "Balekna",
+      "pickWord": "Saiki pencet tembung sing cocok karo iku.",
+      "pickPicture": "Saiki pencet gambar sing cocok karo iku.",
+      "fit": "Ya, tembung iki cocok karo {name|lower}.",
+      "newSet": "Iki gambar-gambar anyar.",
+      "restarted": "Bali menyang wiwitan. Saben gambar lan tembung wis bebas maneh.",
+      "restored": "Wis dibalekake. Pasangan sing cocok ditampilake maneh.",
+      "all": "Saben tembung wis ana gambare."
+    },
+    "colorMatch": {
+      "guidance": "Deleng warna lan jenenge, banjur pencet saben gambar sing warnane kaya kuwi.",
+      "target": "Warnane {color|lower}. Pencet saben gambar sing warnane {color|lower}.",
+      "countLegend": "Pira gambar",
+      "count": "{n} gambar",
+      "found": "Ya, {name|lower} warnane {color|lower}.",
+      "named": "{name|lower} warnane {color|lower}.",
+      "all": "Kuwi kabeh gambar sing warnane {color|lower}.",
+      "shown": "Iki gambar-gambar sing warnane {color|lower}.",
+      "show": "Tuduhna",
+      "next": "Warna liyane",
+      "names": {
+        "red": "Abang",
+        "orange": "Jingga",
+        "yellow": "Kuning",
+        "green": "Ijo",
+        "blue": "Biru"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Pencet separo ing sisih kiwa, banjur pencet separo ing sisih tengen sing cocok karo iku.",
+      "countLegend": "Pira gambar",
+      "count": "{n} gambar",
+      "leftGroup": "Separo kiwa",
+      "rightGroup": "Separo tengen",
+      "left": "Separo kiwa saka {name|lower}",
+      "right": "Separo tengen saka {name|lower}",
+      "joined": "Wis disambung",
+      "pickRight": "Saiki pencet separo tengen sing cocok karo iku.",
+      "pickLeft": "Saiki pencet separo kiwa sing cocok karo iku.",
+      "fit": "Ya, loro iku dadi {name|lower}.",
+      "apart": "Loro iku ora cocok digabung. Coba liyane.",
+      "all": "Saben gambar wis utuh.",
+      "shown": "Iki gambar-gambar, wis disambung.",
+      "show": "Tuduhna aku",
+      "next": "Sekumpulan liyane"
+    },
+    "colorByNumber": {
+      "guidance": "Pilih warna saka dhaftar, banjur isi kothak nganggo warna iku. Warna apa wae ya apik.",
+      "sizeLegend": "Ukuran kothak",
+      "size": "{n} x {n}",
+      "keyLegend": "Warna",
+      "colors": [
+        "Kuning",
+        "Jingga",
+        "Ijo",
+        "Ungu"
+      ],
+      "motifs": {
+        "house": "omah",
+        "flower": "kembang",
+        "heart": "ati",
+        "tree": "wit",
+        "boat": "prau layar",
+        "pot-plant": "tanduran ing pot"
+      },
+      "region": "Kothak gambar, {n} x {n}. Bisa digeser nyamping yen layare sempit.",
+      "cell": "Nomer {number}, baris {row}, kolom {column}, {color}",
+      "empty": "kosong",
+      "chose": "{name} wis dipilih. Pencet kothak kanggo ngisi.",
+      "painted": "{name} ing baris {row}, kolom {column}.",
+      "sheet": "Saben kothak nduweni warna saka nomere. Iki gambar ing lembar: {name}.",
+      "own": "Saben kothak wis keisi. Iki gambar dhewe sampeyan.",
+      "fillAll": "Isi nganggo nomer",
+      "filledAll": "Saben kothak kosong saiki wis nduweni warna saka nomere.",
+      "clear": "Resiki",
+      "cleared": "Kothak wis resik.",
+      "next": "Gambar liyane",
+      "fresh": "Iki gambar liyane kanggo diwarnai."
+    },
+    "patternMaker": {
+      "guidance": "Pencet kothak kanggo ngganti warnane. Polamu bakal tuwuh ing sandhinge. Ora ana sing digawe sing disimpen utawa dikirim.",
+      "sizeLegend": "Ukuran ubin",
+      "size": "{n} x {n}",
+      "keyLegend": "Warna, miturut urutan pencet ngganti",
+      "colors": [
+        "Kuning",
+        "Jingga",
+        "Ijo",
+        "Ungu"
+      ],
+      "tileLabel": "Ubinmu",
+      "region": "Ubinmu, {n} x {n}. Bisa digeser nyamping yen layare sempit.",
+      "patternLabel": "Polamu",
+      "pattern": "Polamu: ubinmu dibaleni {n} ing sisih nyamping lan {n} ing sisih mudhun.",
+      "square": "Baris {row}, kolom {column}, {color}",
+      "changed": "Baris {row}, kolom {column} saiki {color}.",
+      "cleared": "Ubine wis resik. Sampeyan bisa mbalekake.",
+      "surprise": "Kejutake aku",
+      "surprised": "Iki ubin anyar. Sampeyan bisa mbalekake sing lawas.",
+      "putBack": "Balekna",
+      "restored": "Ubinmu wis bali kaya sadurunge.",
+      "print": "Cetak polaku",
+      "sheetTitle": "Polaku"
+    },
+    "buildTogether": {
+      "guidance": "Gantian nyelehake potongan ing papan kosong. Saben wong nduweni warna dhewe-dhewe. Ora ana sing digawe sing disimpen utawa dikirim.",
+      "sizeLegend": "Ukuran kothak",
+      "size": "{n} x {n}",
+      "people": [
+        "Wong pisanan",
+        "Wong kapindho"
+      ],
+      "colorLegend": "Warnane {person}",
+      "colors": [
+        "Kuning",
+        "Jingga",
+        "Ijo",
+        "Ungu"
+      ],
+      "inUse": "Lagi dienggo",
+      "turn": "Giliran sampeyan, {person|lower}",
+      "yourColor": "Warna sampeyan {color|lower}.",
+      "built": "Wis digawe bareng. Iki gambar sing digawe ing sakloron.",
+      "gridLabel": "Kothak bareng",
+      "region": "Kothak bareng, {n} x {n}. Bisa digeser nyamping yen layare sempit.",
+      "cellEmpty": "Baris {row}, kolom {column}, kosong",
+      "cellFilled": "Baris {row}, kolom {column}, {color}, diselehake dening {person|lower}",
+      "placed": "Baris {row}, kolom {column} saiki {color}. Giliran sampeyan, {next|lower}.",
+      "placedLast": "Baris {row}, kolom {column} saiki {color}. Wis digawe bareng.",
+      "taken": "Baris {row}, kolom {column} wis ana potongan. Pilih papan kosong.",
+      "pass": "Lewati",
+      "passed": "Lewati ora dadi masalah. Giliran sampeyan, {person|lower}.",
+      "takeBack": "Tarik maneh potongan pungkasan",
+      "takeBackPass": "Batalake lewati",
+      "tookBack": "Potongan wis ditarik maneh. Giliran sampeyan, {person|lower}.",
+      "tookBackPass": "Lewati wis dibatalake. Giliran sampeyan, {person|lower}.",
+      "colorChanged": "{person} saiki nduweni {color|lower}.",
+      "restarted": "Kothak wis kosong. Giliran sampeyan, {person|lower}.",
+      "print": "Cetak kothak",
+      "sheetTitle": "Digawe bareng",
+      "sheetHelp": "Gantian. Ing kothak kosong, saben wong nggambar bentuke dhewe nganggo pensile dhewe.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Pencet potongan, banjur pencet papan ing gambar sing dadi panggonane. Ora ana sing digawe sing disimpen utawa dikirim.",
+      "hints": "Tuduhna garis pitunjuk",
+      "pictureLine": "Iki {picture}.",
+      "pictures": {
+        "house": "omah",
+        "boat": "prau",
+        "tree": "wit",
+        "fish": "iwak",
+        "cat": "kucing",
+        "rocket": "roket"
+      },
+      "outlineLabel": "Garis tepi {picture}. Pencet papan kanggo nyelehake potongan sing dipilih ing kono.",
+      "trayHeading": "Potongan-potongan",
+      "pieces": {
+        "large-triangle": "Segi telu gedhe",
+        "small-triangle": "Segi telu cilik",
+        "square": "Persegi",
+        "parallelogram": "Jajar genjang",
+        "rectangle": "Persegi dawa"
+      },
+      "shapes": {
+        "large-triangle": "segi telu gedhe",
+        "small-triangle": "segi telu cilik",
+        "square": "persegi",
+        "parallelogram": "jajar genjang",
+        "rectangle": "persegi dawa"
+      },
+      "chosenLabel": "Dipilih",
+      "spaceEmpty": "Papan {n}, {shape}, kosong",
+      "spaceFilled": "Papan {n}, {shape}, wis ana potongane. Pencet kanggo narik potongan maneh.",
+      "chosen": "{piece} wis dipilih. Saiki pencet papan ing gambar.",
+      "unchosen": "Potongan iki wis ora dipilih maneh.",
+      "placed": "Potongan wis ana ing papan {n}.",
+      "complete": "{picture} wis rampung.",
+      "different": "Potongan kuwi bentuke beda karo papan iki. Coba papan liyane.",
+      "needPiece": "Pilih potongan saka baki dhisik.",
+      "filled": "Papan kuwi wis ana potongane. Pencet papan kuwi kanggo njupuk potongane maneh.",
+      "tookBack": "Potongan wis bali menyang baki.",
+      "cleared": "Kabeh potongan wis bali menyang baki. Yen sampeyan ganti pikiran, bisa dibalekake maneh.",
+      "restored": "Potongan-potongan wis bali menyang gambar.",
+      "next": "Iki {picture}.",
+      "putBack": "Balekake",
+      "another": "Bentuk liyane",
+      "print": "Cetak bentuk iki",
+      "sheetTitle": "Bentuk tenang",
+      "sheetHow": "Wenehi warna potongan-potongan iki, utawa gunting supaya pas karo garis pinggire. Wong diwasa bisa sing nggunting.",
+      "sheetPieces": "Potongan-potongan, ukurane padha karo garis pinggir"
+    },
+    "picnicPlanner": {
+      "guidance": "Pencet gambar kanggo dilebokake ing keranjang piknik, lan pencet maneh ing keranjang kanggo dicopot. Keranjang iku isa nampung enem barang.",
+      "guidancePlay": "Pencet rong gambar sing padha. Gambar-gambar tetep katon, lan ora ana wektu sing diitung.",
+      "basketHeading": "Keranjang kita",
+      "basketLabel": "Keranjang piknik",
+      "takeOut": "Copot {picture} saka keranjang",
+      "inBasket": "Ing keranjang",
+      "foodHeading": "Panganan",
+      "outingsHeading": "Kegiatan",
+      "added": "{picture} wis mlebu ing keranjang.",
+      "removed": "{picture} wis metu saka keranjang.",
+      "already": "{picture} wis ana ing keranjang. Pencet ing kono kanggo dicopot.",
+      "full": "Keranjang wis kebak. Copot salah sawijining barang supaya ana papan.",
+      "summary": "Piknik kita: {list}.",
+      "summaryNone": "Durung ana apa-apa ing keranjang.",
+      "and": "lan",
+      "play": "Ayo dolanan karo piknik kita",
+      "needTwo": "Pilih paling ora rong barang dhisik.",
+      "playAgain": "Dolanan maneh",
+      "back": "Bali menyang piknik",
+      "print": "Cetak dhaftar piknik kita",
+      "cleared": "Keranjang wis kosong.",
+      "notice": "Iki rencana kanggo dirembug. Ora ana wektu, penilaian, utawa sing disimpen.",
+      "sheetTitle": "Dhaftar piknik kita",
+      "sheetHow": "Centangi saben barang nalika dimasukake. Gunakake garis kosong kanggo barang liyane sing arep dibawa.",
+      "sheetToPack": "Sing arep dimasukake"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Pilih rong nganti rolas foto duwekmu dhewe kanggo miwiti buku iki.",
+      "guidance": "Bukak kaca bareng-bareng, nganggo tombol utawa panah Kiwa lan Tengen. Yen sampeyan kepengin, tambahna sawetara tembung ing ngisor foto. Apa wae sing digawe ora disimpen utawa dikirim.",
+      "lookGuidance": "Deleng saben kaca bareng-bareng. Sampeyan bisa ngobrol utawa mung deleng.",
+      "intro": "Pilih rong nganti rolas foto saka piranti iki. Saben foto dadi siji kaca buku sing bisa dibukak bareng-bareng.",
+      "consent": "Gunakake foto kulawargamu dhewe. Takon dhisik yen arep nggunakake foto wong sing ora bisa menehi persetujuan.",
+      "privacy": "Foto-fotomu tetep ana ing piranti iki. Ora diunggah utawa disimpen.",
+      "choose": "Pilih foto",
+      "chooseDifferent": "Pilih foto liyane",
+      "backToBook": "Bali menyang buku",
+      "backToChoose": "Bali menyang pilihan foto",
+      "needTwo": "Mangga pilih paling ora rong foto.",
+      "usingFirst": "Nggunakake {max} foto pisanan.",
+      "cleared": "Buku wis dikosongake. Pilih foto kanggo miwiti maneh.",
+      "moved": "Pindah menyang kaca {n}.",
+      "pageOf": "Kaca {n} saka {total}",
+      "lookTogether": "Deleng bareng",
+      "leaveLook": "Bali menyang buku",
+      "print": "Cetak buku foto",
+      "clear": "Kosongake buku",
+      "bookLabel": "Buku foto kulawarga",
+      "pagesLabel": "Bukak kaca-kaca",
+      "previous": "Kaca sadurunge",
+      "next": "Kaca sabanjure",
+      "moveEarlier": "Pindah ndhisik",
+      "moveLater": "Pindah mengko",
+      "captionLabel": "Sawetara tembung kanggo kaca iki, yen kepengin",
+      "captionHelp": "Nganti 80 aksara. Keterangan mung disimpen ing kaca iki lan ilang yen sampeyan nutup.",
+      "sheetTitle": "Buku foto kita",
+      "sheetHow": "Siji foto saben kaca, lan tembungé ing ngisor. Bukak kaca urut-urutan lan rembugan saben siji.",
+      "sheetEmpty": "Pilih fotomu ing kaca dolanan kanggo nyetak bukumu dhewe, utawa cetak kaca kosong iki lan tempelna foto sing wis dicetak.",
+      "sheetFrame": "Tempelna foto cetakan ing kene",
+      "sheetWords": "Sawetara tembung kanggo kaca iki",
+      "skipped": {
+        "other": "{n} berkas dudu foto sing bisa digunakake."
+      }
+    },
+    "quietScene": {
+      "guidance": "Deleng siji gambar wae saben-saben. Pencet Sabanjure utawa Sadurunge nalika sampeyan wis siap. Ora ana sing obah dhewe.",
+      "next": "Gambar sabanjure",
+      "previous": "Gambar sadurunge",
+      "bigPicture": "Gambar luwih gedhe",
+      "showEverything": "Tampilake kabeh",
+      "first": "Iki gambar pisanan.",
+      "last": "Iki gambar pungkasan.",
+      "lines": {
+        "sunrise": "Srengenge metu ing ndhuwur tanah.",
+        "window-with-birds": "Manuk ing njaba jendhela.",
+        "vase-of-flowers": "Vas kembang ing meja.",
+        "teacup": "Cangkir teh ing jejere jendhela.",
+        "tree": "Wit sing ngadeg ing kebon.",
+        "sailboat": "Prahu layar ing banyu.",
+        "lighthouse": "Mercusuar ing pinggir segara.",
+        "rainbow": "Pelangi sawise udan.",
+        "moon": "Rembulan ing langit wengi.",
+        "daisies": "Sakumpulan kembang dhaisi ing suket.",
+        "rowing-boat": "Prahu dayung ing banyu sing tenang.",
+        "potted-plant": "Tanduran ijo ing pot."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Gantenan. Pencet potongan gambar, banjur pencet papan kosong kanggo nempatake ing kono. Apa wae sing digawe ora disimpen utawa dikirim.",
+      "people": [
+        "Wong pisanan",
+        "Wong kapindho"
+      ],
+      "marks": [
+        "lingkaran",
+        "kotak"
+      ],
+      "turn": "Giliran {person|lower}.",
+      "marked": "Potonganmu ditandhani {mark}.",
+      "boardLabel": "Papan bareng",
+      "placeEmpty": "Papan {n}, kosong",
+      "placeFilled": "Papan {n}, {picture|lower}, dipasang dening {person|lower}",
+      "trayHeading": "Potongan gambar",
+      "chosenLabel": "Dipilih",
+      "chosen": "{picture} wis dipilih. Saiki pencet papan kosong.",
+      "unchosen": "Potongan gambar iki ora dipilih maneh.",
+      "needCutout": "Pilih potongan gambar dhisik, banjur pencet papan kosong.",
+      "filled": "Papan {n} wis ana gambare. Pilih papan kosong.",
+      "placed": "{picture} wis ana ing papan {n}. Giliran {next|lower}.",
+      "full": "Kabeh papan wis ana gambare. Copot salah siji kanggo ganti, utawa miwiti maneh.",
+      "pass": "Liwati",
+      "passed": "Ora apa-apa yen liwati. Giliran {person|lower}.",
+      "takeBack": "Copot potongan pungkasan",
+      "takeBackPass": "Batalake liwatan",
+      "tookBack": "Potongan wis dicopot. Giliran {person|lower}.",
+      "tookBackPass": "Liwatan wis dibatalake. Giliran {person|lower}.",
+      "restarted": "Papan wis kosong. Giliran {person|lower}.",
+      "putBack": "Balekake",
+      "putBackDone": "Potongan-potongan wis bali ing papan.",
+      "another": "Sekumpulan gambar liyane",
+      "anotherSet": "Sekumpulan potongan gambar anyar wis ana ing baki. Potongan ing papan tetep ana ing panggonane.",
+      "print": "Cetak papan",
+      "sheetTitle": "Papan kolase",
+      "sheetHow": "Gunting gambar-gambar iki lan gantenan nempatake ing papan. Wong diwasa bisa sing nggunting.",
+      "sheetTray": "Gambar-gambar sing arep digunting"
+    },
+    "gardenPlanner": {
+      "guidance": "Pencet gambar, banjur pencet bedhengan kanggo nempatake ing kono. Pencet bedhengan sing wis ana gambare, nalika ora ana sing dipilih, kanggo dikosongake.",
+      "bedsLabel": "Bedhengan kebon",
+      "bedEmpty": "Bedhengan {n}, kosong",
+      "bedFilled": "Bedhengan {n}, {picture|lower}",
+      "plantsHeading": "Tanduran",
+      "extrasHeading": "Tambahan kebon",
+      "chosenLabel": "Dipilih",
+      "chosen": "{picture} wis dipilih. Saiki pencet bedhengan.",
+      "unchosen": "Ora ana gambar sing dipilih.",
+      "needPicture": "Pilih gambar rumiyin, lajeng pencet bedhengan.",
+      "planted": "{picture} wonten ing bedhengan {n}.",
+      "replaced": "{picture} ngganti gambar ing bedhengan {n}.",
+      "cleared": "Bedhengan {n} kosong. Menawi sampeyan kepengin gambar punika malih, kawangsulaken.",
+      "restarted": "Sakabehing bedhengan kosong.",
+      "putBack": "Kawangsulaken",
+      "putBackDone": "Gambar-gambaripun sampun wangsul dhateng bedhengannipun.",
+      "summaryHeading": "Kebon kula",
+      "summary": "Rencana sampeyan wonten {list}.",
+      "summaryNone": "Dereng wonten gambar ing bedhengan.",
+      "and": "lan",
+      "print": "Cetak rencana",
+      "sheetTitle": "Rencana kebon kita",
+      "sheetHow": "Bedhengan nuduhaken gambar ingkang dipun-pilih ing layar. Menawi kepengin, gambaraken ing bedhengan ingkang kosong.",
+      "sheetNotes": "Cathetan",
+      "notice": "Punika rencana gambar kanggo dirembug, dudu pituduh nandur."
+    },
+    "coloringWall": {
+      "guidance": "Pilih gambar lan jumlah kaca. Cetak tembokipun, lajeng saben wong ngewarnani siji utawa luwih kaca. Boten dicathet wektunipun, boten dinilai, lan boten disimpen.",
+      "pictureLegend": "Gambar",
+      "sizeLegend": "Jumlah kaca",
+      "sizes": {
+        "2x2": "4 kaca (2 x 2)",
+        "3x2": "6 kaca (3 x 2)",
+        "3x3": "9 kaca (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} dipun-pecah dados {n} kaca, {across} ngasamping lan {down} mudhun. Saben kaca nggadhahi label ing pojokipun.",
+      "previewCaption": "Gambar kanthi garis kaca lan label ingkang kagambar ing ndhuwuripun.",
+      "labelsNote": "Huruf mudhun ing tembok lan angka ngasamping, dados A1 punika kaca ing pojok kiwa ndhuwur.",
+      "wallHeading": "Cara ngrakit tembok",
+      "steps": [
+        "Cetak sedaya kaca. Kaca ingkang pisanan isinipun langkah-langkah punika lan peta tembok.",
+        "Saben wong njupuk siji utawa luwih kaca lan ngewarnani.",
+        "Warna lan gaya boten perlu sami. Saben kaca dados bagian saking gambar ingkang sami.",
+        "Dhapuk kaca miturut labelipun, lajeng sambungaken nganggo selotip ing mburinipun.",
+        "Pasang tembok ing papan ingkang saged dipun-deleng sedaya."
+      ],
+      "mapLabel": "Peta tembok: {down} baris, saben baris {across} kaca, dilabeli saka A1 nganti {last}.",
+      "edgeNote": "Garis putus-putus nandhani pinggir saben kaca. Dhapuk kaca pinggir ketemu pinggir ing garis punika, utawa tumpang tindih sethithik.",
+      "pictureLine": "Gambar: {picture}. Tembok punika {n} kaca: {across} ngasamping lan {down} mudhun.",
+      "print": "Cetak tembok"
+    },
+    "findTogether": {
+      "guidance": "Gantenan. Nalika giliran sampeyan, balikaken kartu kaping kalih kanggo golek pasangan. Golekna pasangan sareng-sareng.",
+      "sizeLegend": "Jumlah kartu",
+      "size": "{n} kartu",
+      "viewLegend": "Cara main",
+      "viewShowing": "Main nalika gambar katingal",
+      "viewHidden": "Kartu madhep mudhun",
+      "people": [
+        "Wong pisanan",
+        "Wong kaping pindho"
+      ],
+      "turn": "Giliran: {person}",
+      "turnDone": "Sedaya pasangan sampun kapanggih.",
+      "tally": "Pasangan kapanggih sareng-sareng: {n}",
+      "cardNamed": "{name}, kartu {n}",
+      "cardFaceDown": "Kartu {n}, madhep mudhun",
+      "first": "{name}. Sakmenika balikaken kartu kaping kalih.",
+      "found": "{name}: pasangan, kapanggih sareng-sareng. Sakmenika giliranipun {next|lower}.",
+      "allTogether": "Sampeyan sami nggolet sedaya pasangan sareng-sareng.",
+      "different": "{a} lan {b} beda. Mangga dipun-tingali rumiyin, lajeng pencet Balikaken.",
+      "waiting": "Pencet Balikaken nalika sampeyan sampun siap. Lajeng giliranipun liyane.",
+      "turnedBack": "Sampun dibalik. Sakmenika giliranipun {person|lower}.",
+      "passed": "Boten nopo-nopo menawi ngliwati. Sakmenika giliranipun {person|lower}.",
+      "turnBack": "Balikaken",
+      "pass": "Liwati",
+      "playAgain": "Main malih"
+    },
+    "drawingDuet": {
+      "guidance": "Gantenan gambar siji garis saben wong, lajeng operaken pulpen. Sinten kemawon saged ngliwati. Boten wonten ingkang dikintunaken. Gambar namung medal saking kaca punika menawi sampeyan simpen.",
+      "people": [
+        "Wong pisanan",
+        "Wong kaping pindho"
+      ],
+      "colorLegend": "Warnanipun {person}",
+      "colors": [
+        "Kuning",
+        "Oranye",
+        "Ijo",
+        "Ungu"
+      ],
+      "turn": "Giliranipun {person}",
+      "penColor": "Warna pulpen: {color}.",
+      "canvasLabel": "Gambar bareng, {n} garis sapunika",
+      "canvasLabelOne": "Gambar bareng, {n} garis sapunika",
+      "keys": "Tombol panah ngobahaken titik pulpen ing gambar. Spasi kanggo nurunaken utawa ngangkat pulpen.",
+      "penDown": "Pulpen dithempelaken",
+      "penUp": "Pulpen diangkat",
+      "pass": "Operaken pulpen",
+      "passed": "Boten nopo-nopo menawi ngliwati. Giliranipun {person|lower}.",
+      "takeBack": "Batalaken garis kula ingkang pungkasan",
+      "tookBack": "Garis pungkasan saking {person|lower} dibatalaken.",
+      "noLine": "Boten wonten garis saking {person|lower} ingkang saged dibatalaken.",
+      "restarted": "Kertas sampun resik. Wong pisanan entuk giliran. Menawi boten sengaja, kawangsulaken.",
+      "putBack": "Kawangsulaken",
+      "restored": "Garis-garisipun sampun wangsul kados sawanipun.",
+      "save": "Simpen gambar",
+      "saved": "Gambar sampeyan sampun siap. Ginakaken pranala unduh kanggo nyimpen wonten piranti punika.",
+      "download": "Unduh drawing-duet.png",
+      "print": "Cetak versi kertas",
+      "sheetTitle": "Duet gambar",
+      "paperRules": "Wong loro, siji kertas, loro pulpen. Gantenan: saben wong siji garis utawa bentuk, lajeng operaken pulpen. Sinten kemawon saged ngliwati. Boten wonten gambar ingkang leres."
+    },
+    "colorWash": {
+      "guidance": "Ngecat warna alus ing sakaliyane kaca, sapu siji-siji. Angkat kuas kanggo mandheg, lan mandheg kapan kemawon sampeyan kepengin. Boten wonten ingkang disimpen utawa dikintunaken.",
+      "colorLegend": "Warna sapuan",
+      "sizeLegend": "Ukuran kuas",
+      "colors": [
+        "Kuning",
+        "Oranye",
+        "Ijo",
+        "Ungu"
+      ],
+      "sizes": {
+        "wide": "Lebar",
+        "veryWide": "Lebar banget"
+      },
+      "color": "Warna sapuan: {color}.",
+      "brushDown": "Kuas dithempelaken",
+      "brushUp": "Kuas diangkat",
+      "keys": "Tombol panah ngobahaken bunderan kuas ing kaca. Spasi kanggo nurunaken utawa ngangkat kuas.",
+      "canvasLabel": "Kaca sapuan warna alus",
+      "fresh": "Kaca anyar",
+      "freshMessage": "Kaca anyar.",
+      "putBack": "Kawangsulaken",
+      "restored": "Kaca sampun wangsul."
+    },
     "sortTogether": {
       "guidance": "Pencet satunggal gambar, lajeng pencet kranjang panggenanipun.",
       "restart": "Gambar énggal",
@@ -70,13 +717,17 @@
       "hint": "{name|lower} saged lebet wonten \"{basket}\". Pencet kranjang menika kangge nyelehaken wonten ngriku.",
       "placed": "{name|lower} wonten \"{basket}\".",
       "sorted": "Sedaya sampun kapilah. Mirsani kranjang-kranjang sesarengan, utawi cobi tema sanes.",
+      "largerTargets": "Target ingkang langkung ageng",
+      "largerOn": "Target ingkang langkung ageng sampun dipun-aktifaken. Boten wonten ingkang pindhah.",
+      "largerOff": "Target ingkang langkung ageng sampun dipun-pateni. Boten wonten ingkang pindhah.",
+      "largerOnNewRound": "Target ingkang langkung ageng sampun aktif, kaliyan kalih keranjang. Punika gambar anyar kanggo dipun-pilah.",
       "basket": {
         "other": "Kranjang {basket}, {count} gambar wonten salebetipun"
       }
     },
     "picturePuzzle": {
       "guidance": "Pencet satunggal potongan, lajeng pencet sanes. Potongan menika gantos panggenan.",
-      "restart": "Campur malih",
+      "restart": "Mix up again",
       "pictureLegend": "Gambar",
       "pictures": {
         "sailboat": "Prau layar",
@@ -97,6 +748,18 @@
       },
       "guideAlt": "Gambar jangkep: {name}",
       "guideText": "Makaten gambaripun nalika sampun jangkep.",
+      "ownChoose": "Ginakaken foto piyambak",
+      "ownChange": "Pilih foto sanesipun",
+      "ownBack": "Wangsul dhateng gambar kita",
+      "ownPrivacy": "Foto sampeyan tetep wonten piranti punika. Boten dipun-unggah utawa disimpen.",
+      "ownConsent": "Ginakaken foto piyambak. Takon rumiyin sakdurunge ngginakaken foto tiyang ingkang boten saged paring idin.",
+      "ownWorking": "Foto sampeyan dipun-siapaken.",
+      "ownNotUsable": "Berkas punika boten saged dipun-ginakaken. Pilih berkas foto, kados JPEG utawa PNG.",
+      "ownAlt": "Foto sampeyan",
+      "ownPiece": "Potongan {n}, {place}",
+      "ownWhole": "Foto sampeyan sampun utuh malih. Campur malih menawi sampeyan kepengin.",
+      "ownSheetTitle": "Foto sampeyan kapotong-potong",
+      "ownSheetHow": "Gunting ing sapanjang garis. Campur potongan-potongan, lajeng tukar kalih potongan sapisan dumugi gambar utuh.",
       "piece": "Potongan ing {place}",
       "pieceInPlace": ", wonten panggenan ingkang leres",
       "piecePickedUp": ", dipunpilih",
@@ -118,7 +781,7 @@
         "ngandhap tengen"
       ],
       "done": "Gambaripun sampun jangkep malih. Dolanan malih utawi ngaso rumiyin.",
-      "playAgain": "Campur malih"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Waosen paribasan sesarengan, lajeng pencet tembung ingkang ngrampungaken.",
@@ -185,6 +848,14 @@
       "guidance": "Waosen kertu menika kanthi swanten. Boten wonten wangsulan ingkang lepat.",
       "position": "Kertu {n} saking {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Tampilaken pangajak ngobrol",
+      "bigPicture": "Gambar ageng, kanggo klompok",
+      "passNote": "Sinten kemawon saged ngliwati.",
+      "groupTitle": "Ngoper kartu ing klompok",
+      "groupSit": "Lenggah ing bunderan supados sedaya saged ndeleng gambar. Wong ingkang nyekel kartu, utawa piranti kanthi gambar ageng, maos pangajak kasebut kanthi swara rumiyin.",
+      "groupPass": "Lajeng oper kartu dhateng wong sabanjure. Saben wong ngucap tembung utawa ukara bab gambar, lajeng dioperaken malih.",
+      "groupNoSpeech": "Ngoper kartu tansah dipun-idinaken. Wong saged ngliwati tanpa ngucap nopo-nopo, lan boten wonten ingkang kedah mratelakaken sebabipun.",
+      "groupEnd": "Babak rampung nalika kertu wis puter sak bunderan, utawa klompok wis cukup. Ora ana sing menang. Mandheg kapan wae klompok kepengin.",
       "next": "Kertu candhakipun",
       "previous": "Kertu sakderengipun",
       "print": "Cithak sedaya kertu",
@@ -243,6 +914,20 @@
       "started": "Sampun wiwit. Tarik napas nalika bunderan saya ageng.",
       "stopped": "Sampun mandheg.",
       "finished": "Menika nem napas ingkang alon. Wiwiti malih kapan kemawon."
+    },
+    "storyChain": {
+      "guidance": "Gantian: saben wong siji ukara, lan nambahi gambar sabanjure.",
+      "passNote": "Ucapna ukara sampeyan kanthi swara. Ora ana sing diketik utawa disimpen. Sapa wae bisa liwati.",
+      "chainLabel": "Rantai nganti saiki",
+      "item": "Gambar {n}: {name}",
+      "add": "Tambah gambar",
+      "fullAdd": "Rantai wis penuh. Miwiti rantai anyar",
+      "newChain": "Miwiti rantai anyar",
+      "takeOff": "Copot sing pungkasan",
+      "added": "{name|lower} saiki ana ing pungkasan rantai.",
+      "removed": "{name|lower} wis metu saka rantai.",
+      "fresh": "Rantai anyar, diwiwiti karo {name|lower}.",
+      "full": "Rantai wis ana 8 gambar kabeh. Critakna crita kabeh, utawa miwiti rantai anyar."
     }
   },
   "pictures": {
@@ -278,290 +963,96 @@
     "balloon": "Balon hawa panas",
     "lighthouse": "Mercusuar",
     "sun": "Srengéngé",
-    "moon": "Rembulan lan lintang"
+    "moon": "Rembulan lan lintang",
+    "teapot": "Teko teh",
+    "apple-pie": "Pai apel",
+    "honey-jar": "Toples madu",
+    "boiled-egg": "Endhog ing wadhah endhog",
+    "toaster": "Pemanggang roti",
+    "cheese": "Potongan keju",
+    "milk-jug": "Teko susu",
+    "cupcake": "Kue cupcake",
+    "orange": "Jeruk",
+    "grapes": "Tandan anggur",
+    "watermelon": "Irisan semangka",
+    "pineapple": "Nanas",
+    "peach": "Persik",
+    "rose": "Mawar",
+    "daisies": "Kembang daisy",
+    "mushroom": "Jamur",
+    "wheelbarrow": "Gerobak dorong",
+    "birdhouse": "Kandhang manuk",
+    "cactus": "Kaktus ing pot",
+    "acorn": "Woh ek",
+    "autumn-leaf": "Godhong musim gugur",
+    "rabbit": "Kelinci",
+    "duck": "Bebek",
+    "hen": "Pitik",
+    "sheep": "Domba",
+    "owl": "Burung hantu",
+    "ladybird": "Kumbang kepik",
+    "snail": "Siput",
+    "frog": "Katak",
+    "bee": "Lebah",
+    "clock": "Jam perapian",
+    "vase-of-flowers": "Vas kembang",
+    "radio": "Radio kuna",
+    "books": "Tumpukan buku",
+    "candle": "Lilin",
+    "glasses": "Kacamata baca",
+    "telephone": "Telepon",
+    "ball-of-wool": "Gelondhong wol",
+    "straw-hat": "Topi jerami",
+    "train": "Sepur uap",
+    "bus": "Bis",
+    "airplane": "Pesawat terbang",
+    "suitcase": "Koper",
+    "tractor": "Traktor",
+    "rowing-boat": "Perahu dayung",
+    "rainbow": "Pelangi",
+    "rain-cloud": "Mendhung udan",
+    "snowflake": "Kepingan salju",
+    "kite": "Layang-layang",
+    "sunrise": "Srengenge terbit ing bukit",
+    "decorated-keepsake-box": "Kothak kenangan sing dihias",
+    "painted-plant-pot": "Pot tanduran rempah sing dicat",
+    "repeating-pattern-sheet": "Lembar pola sing diulang",
+    "music-drawn-lines": "Garis digambar miturut musik",
+    "paper-boat-afloat": "Perahu kertas ngambang ing banyu",
+    "folded-towel-stack": "Tumpukan handuk dilipat",
+    "hand-massage-with-lotion": "Tangan ing handuk, karo losion",
+    "open-photo-album": "Album foto sing mbukak",
+    "button-flower-card": "Kembang kancing ing kertu",
+    "blue-torn-paper-collage": "Kolase kertas sobek biru",
+    "family-tree-of-hands": "Wit kulawarga saka tangan",
+    "open-greeting-card": "Kertu ucapan mbukak karo ati",
+    "lavender-sachet": "Kantong lavender diikat pita",
+    "memory-collage-of-photos": "Kolase foto kulawarga",
+    "paper-chain-garland": "Untaian rantai kertas",
+    "open-songbook-with-notes": "Buku lagu mbukak karo not musik",
+    "photo-postcard-with-stamp": "Kertu pos foto karo prangko",
+    "pine-cone-bird-feeder": "Tempat pakan manuk saka kerucut pinus digantung ing cabang",
+    "playlist-phone-and-card": "Ponsel karo daftar putar lagu",
+    "sealed-rice-shaker": "Kocokan beras sing ditutup",
+    "texture-board-with-scraps": "Papan tekstur karo potongan kain",
+    "painted-garden-stone": "Watu taman sing dicat",
+    "shared-painted-canvas": "Kanvas dicat bebarengan",
+    "watercolor-washes-sheet": "Cat air ing kertas",
+    "seedling-in-pot": "Wit cilik ing pot",
+    "pressed-leaves-in-book": "Godhong sing dipenggeti ing buku",
+    "printed-leaves-sheet": "Lembar cetakan godhong",
+    "pinch-pot-clay-bowl": "Pot lempung cubit",
+    "table-sketch-pencil": "Sketsa mangkuk nganggo potlot",
+    "buttons-in-muffin-tin": "Kancing dipilah ing loyang muffin",
+    "family-recipe-book": "Buku resep kulawarga",
+    "drum-with-beat-marks": "Drum meja karo stik",
+    "torn-paper-flower": "Mosaik kembang saka kertas sobek",
+    "window-with-birds": "Jendela karo manuk",
+    "woven-paper-mat": "Tikar kertas dianyam",
+    "yarn-ball-with-thread": "Gelondhong benang",
+    "letter-and-envelope": "Surat ing amplop"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Alon-alon waton",
-        "end": "kelakon",
-        "others": [
-          "rampung",
-          "lestari"
-        ],
-        "prompt": "Punapa ingkang panjenengan remeni dipuntindakaken kanthi alon-alon?"
-      },
-      {
-        "start": "Becik ketitik, ala",
-        "end": "ketara",
-        "others": [
-          "kelingan",
-          "kerungu"
-        ],
-        "prompt": "Sinten tiyang ingkang tansah sae dhateng panjenengan?"
-      },
-      {
-        "start": "Ana dina ana",
-        "end": "upa",
-        "others": [
-          "sega",
-          "kembang"
-        ],
-        "prompt": "Dhaharan punapa ingkang paling panjenengan remeni nalika enjing?"
-      },
-      {
-        "start": "Sapa sing nandur bakal",
-        "end": "ngunduh",
-        "others": [
-          "ngombe",
-          "ngrawat"
-        ],
-        "prompt": "Tanduran punapa ingkang panjenengan remeni?"
-      },
-      {
-        "start": "Kacang ora ninggal",
-        "end": "lanjaran",
-        "others": [
-          "kebon",
-          "pager"
-        ],
-        "prompt": "Wonten kabiasaan sae saking kulawarga ingkang panjenengan remeni?"
-      },
-      {
-        "start": "Tuna satak, bati",
-        "end": "sanak",
-        "others": [
-          "kewan",
-          "griya"
-        ],
-        "prompt": "Kulawarga panjenengan remen kempal nalika punapa?"
-      },
-      {
-        "start": "Rukun agawe santosa, crah agawe",
-        "end": "bubrah",
-        "others": [
-          "sepi",
-          "suwe"
-        ],
-        "prompt": "Punapa ingkang dipunlampahi sesarengan kaliyan tanggi?"
-      },
-      {
-        "start": "Ajining dhiri saka lathi, ajining raga saka",
-        "end": "busana",
-        "others": [
-          "dhaharan",
-          "griya"
-        ],
-        "prompt": "Busana punapa ingkang panjenengan remeni?"
-      },
-      {
-        "start": "Witing tresna jalaran saka",
-        "end": "kulina",
-        "others": [
-          "kembang",
-          "swanten"
-        ],
-        "prompt": "Punapa ingkang panjenengan remeni amargi sampun kulina?"
-      },
-      {
-        "start": "Desa mawa cara, negara mawa",
-        "end": "tata",
-        "others": [
-          "kutha",
-          "gunung"
-        ],
-        "prompt": "Panjenengan nate gesang wonten desa? Kados pundi swasananipun?"
-      },
-      {
-        "start": "Jer basuki mawa",
-        "end": "bea",
-        "others": [
-          "wekdal",
-          "kekarepan"
-        ],
-        "prompt": "Punapa ingkang panjenengan remeni dipundamel piyambak?"
-      },
-      {
-        "start": "Sepi ing pamrih, rame ing",
-        "end": "gawe",
-        "others": [
-          "swara",
-          "dalan"
-        ],
-        "prompt": "Pakaryan punapa ingkang panjenengan remeni?"
-      },
-      {
-        "start": "Nrima ing",
-        "end": "pandum",
-        "others": [
-          "griya",
-          "wekdal"
-        ],
-        "prompt": "Punapa ingkang damel panjenengan raos tentrem?"
-      },
-      {
-        "start": "Mangan ora mangan waton",
-        "end": "kumpul",
-        "others": [
-          "wareg",
-          "enak"
-        ],
-        "prompt": "Panjenengan remen kempal kaliyan sinten nalika dhahar?"
-      },
-      {
-        "start": "Mikul dhuwur mendhem",
-        "end": "jero",
-        "others": [
-          "adoh",
-          "dawa"
-        ],
-        "prompt": "Sinten tiyang ingkang panjenengan ajeni?"
-      },
-      {
-        "start": "Urip iku",
-        "end": "urup",
-        "others": [
-          "turu",
-          "mlaku"
-        ],
-        "prompt": "Punapa ingkang damel dinten panjenengan padhang?"
-      },
-      {
-        "start": "Ngunduh wohing",
-        "end": "pakarti",
-        "others": [
-          "kembang",
-          "taman"
-        ],
-        "prompt": "Woh punapa ingkang panjenengan remeni?"
-      },
-      {
-        "start": "Aja nggege",
-        "end": "mangsa",
-        "others": [
-          "wedhus",
-          "dalan"
-        ],
-        "prompt": "Mangsa punapa ingkang paling panjenengan remeni?"
-      },
-      {
-        "start": "Rawe-rawe rantas, malang-malang",
-        "end": "putung",
-        "others": [
-          "dawa",
-          "tukul"
-        ],
-        "prompt": "Punapa ingkang nate panjenengan tindakaken kanthi gigih?"
-      },
-      {
-        "start": "Sadumuk bathuk, sanyari",
-        "end": "bumi",
-        "others": [
-          "banyu",
-          "udan"
-        ],
-        "prompt": "Panggenan punapa ingkang panjenengan remeni?"
-      },
-      {
-        "start": "Wong Jawa nggone",
-        "end": "semu",
-        "others": [
-          "swara",
-          "kembang"
-        ],
-        "prompt": "Punapa ingkang panjenengan remeni saking adat Jawi?"
-      },
-      {
-        "start": "Gemah ripah loh",
-        "end": "jinawi",
-        "others": [
-          "cilik",
-          "dhuwur"
-        ],
-        "prompt": "Kados pundi gambaran panggenan ingkang subur lan sae miturut panjenengan?"
-      },
-      {
-        "start": "Wani ngalah dhuwur",
-        "end": "wekasane",
-        "others": [
-          "pangkate",
-          "adate"
-        ],
-        "prompt": "Kabecikan alit punapa ingkang nate dipunparingaken dhateng panjenengan?"
-      },
-      {
-        "start": "Sing temen bakal",
-        "end": "tinemu",
-        "others": [
-          "tuwuh",
-          "teka"
-        ],
-        "prompt": "Wonten barang ingkang nate panjenengan padosi lan pikantuk?"
-      },
-      {
-        "start": "Guru iku digugu lan",
-        "end": "ditiru",
-        "others": [
-          "disawang",
-          "dirungu"
-        ],
-        "prompt": "Sinten guru utawi tiyang ingkang nate maringi piwulang ingkang migunani?"
-      },
-      {
-        "start": "Ngeli nanging ora",
-        "end": "keli",
-        "others": [
-          "luwe",
-          "mlaku"
-        ],
-        "prompt": "Panjenengan remen wonten cedhak kali utawi segara?"
-      },
-      {
-        "start": "Gupak pulut ora mangan",
-        "end": "nangkane",
-        "others": [
-          "wohe",
-          "gulane"
-        ],
-        "prompt": "Panganan punapa ingkang paling panjenengan remeni saking pulut utawi nangka?"
-      },
-      {
-        "start": "Mburu uceng kelangan",
-        "end": "deleg",
-        "others": [
-          "kebo",
-          "pancing"
-        ],
-        "prompt": "Panjenengan nate mancing utawi nyekel iwak?"
-      },
-      {
-        "start": "Nglurug tanpa bala, menang tanpa",
-        "end": "ngasorake",
-        "others": [
-          "ngelih",
-          "ngluwihi"
-        ],
-        "prompt": "Punapa ingkang damel panjenengan marem?"
-      },
-      {
-        "start": "Kudu bisa rumangsa, aja rumangsa",
-        "end": "bisa",
-        "others": [
-          "seneng",
-          "kuwat"
-        ],
-        "prompt": "Punapa ingkang panjenengan remen sinau saking tiyang sanes?"
-      },
-      {
-        "start": "Pager mangkok luwih kuwat tinimbang pager",
-        "end": "tembok",
-        "others": [
-          "wesi",
-          "kayu"
-        ],
-        "prompt": "Tanggi panjenengan nate maringi punapa?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABDEGHIKLMNOPRSTUWY",
@@ -987,6 +1478,17 @@
             "Wonten njawi"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Woh-wohan",
+        "animals": "Kewan",
+        "travel": "Cara lelungan",
+        "flowers": "Kembang",
+        "hot-drinks": "Barang kanggo minuman anget",
+        "weather": "Jinis cuaca",
+        "baked": "Barang sing dipanggang ing oven"
       }
     }
   }

@@ -5,6 +5,13 @@
       "stopReading": "Desine legere",
       "region": "Ludus",
       "restart": "Rursus incipe",
+      "rest": "Requiesce nunc",
+      "restingTitle": "Requiescens",
+      "restingText": "Quamdiu opus est, sume tempus. Locus tuus in hac pagina servabitur.",
+      "resume": "Perge",
+      "placeText": "Proxime ex parte tantum processisti. Perge inde, aut incipe de novo.",
+      "placeResume": "Perge",
+      "placeFresh": "Incipe de novo",
       "soundOn": "Soni lenes aperti",
       "soundOff": "Soni lenes clausi",
       "done": "In praesens satis",
@@ -43,7 +50,19 @@
       "viewShowing": "Imagines apertae",
       "viewHidden": "Imagines tectae",
       "playAgain": "Iterum lude novis imaginibus",
-      "talk": "Una de imaginibus colloqui"
+      "talk": "Una de imaginibus colloqui",
+      "modeLegend": "Quae imagines",
+      "modePlay": "Quaevis imagines",
+      "modeDaily": "Tabella hodierna",
+      "dayLegend": "Quis dies",
+      "dayHelp": "Omnes eaedem imagines eodem die habent. Dies priores quoque adsunt, et diem praetermittere nihil constat.",
+      "guidanceDaily": "Tabella hodierna quattuor paria habet. Imaginem tange, deinde eam quae ei respondet.",
+      "restartDaily": "Tabellam hanc iterum incipe",
+      "copy": "Hanc lineam exscribe",
+      "copied": "Exscriptum est. Nihil usquam mittitur.",
+      "calendarTitle": "Tabellae hodiernae, {month}",
+      "calendarHelp": "Quisque dies easdem quattuor imagines omnibus habet. Nihil computatur, neque ullus dies ut praetermissus notatur.",
+      "calendarVersion": "Versio {date}. Imagines omnibus eodem die eaedem sunt."
     },
     "choose": {
       "countLegend": "Quot imagines",
@@ -62,6 +81,635 @@
       "shadowAlt": "Umbra quaerenda",
       "foundAlt": "Umbra: {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Monita",
+      "hintOn": "Monitum post moram",
+      "hintOff": "Sine monitis",
+      "guidance": "Inveni {n} imagines quae simul pertinent, et unamquamque tange.",
+      "countLegend": "Quot imagines",
+      "count": "{n} imagines",
+      "found": "Ita, {name|lower} in hoc genere est.",
+      "elsewhere": "{name|lower} cum alio pertinet. Sume tempus.",
+      "hint": "Monitum: quaere {theme|lower}.",
+      "together": "Haec simul pertinent: {theme}.",
+      "shown": "Hoc est genus: {theme}.",
+      "groupName": "Simul: {theme}",
+      "show": "Genus ostende",
+      "next": "Alius complexus"
+    },
+    "oddOneOut": {
+      "hintLegend": "Monita",
+      "hintOn": "Monitum post moram",
+      "hintOff": "Sine monitis",
+      "guidance": "Inveni imaginem quae cum ceteris non pertinet, et eam tange.",
+      "countLegend": "Quot imagines",
+      "count": "{n} imagines",
+      "belongs": "{name|lower} cum ceteris pertinet. Sume tempus.",
+      "found": "Ita, {name|lower} est quae non pertinet. Ceterae sunt {theme|lower}.",
+      "shown": "Ecce: {name|lower}. Ceterae sunt {theme|lower}.",
+      "hint": "Monitum: {n} ex his sunt {theme|lower}.",
+      "others": "Ceterae: {theme}",
+      "show": "Ostende mihi",
+      "next": "Alius complexus"
+    },
+    "seatedToss": {
+      "guidance": "Ad mensam sede et alternatim molle sacculum fabae in magnum scopum iacite. Numerum in charta una servate.",
+      "stepsHeading": "Quomodo procedit",
+      "steps": [
+        "Scopum et chartam numerorum imprime, et in mensa inter vos plana pone.",
+        "Commode sedete, unus ad utramque partem. Alternatim singulis iactibus leniter iacite, aut praetermittite si mavultis.",
+        "Cum iactus in anulum cadit, qui iecit, unum quadratum in sua columna notat, in ordine illius anuli.",
+        "Si vultis, cum desinitis, notas simul spectate. Nemo quicquam addere debet.",
+        "Desinite quando quisque paratus est."
+      ],
+      "safetyHeading": "Salus",
+      "safetyLine": "Use only a bag with a sewn-shut cover or a rolled-up sock, stay seated, never toss toward a face, and keep an adult nearby. Small parts are a choking hazard.",
+      "flags": [
+        "Non sub 3 annis: partes parvae",
+        "Ab ore procul servate"
+      ],
+      "safety": [
+        "Sacculum fabae eligite cuius tegumentum consutum est, aut tubum chiri mundi involvite. Primum inspicite foramina aut suturas laxas, ne ulla materia excidat.",
+        "Fabae, oryza et alia materia parva suffocationem periculosam faciunt. Ea a parvis liberis et ab eis procul servate qui res in os ponunt.",
+        "Brachii longitudine a ceteris absitis, et diligenter custodite si quid in os poni possit.",
+        "Sedete. Leniter et humiliter in scopum in mensa iacite, numquam in faciem."
+      ],
+      "previewLabel": "Chartae impressae species: scopus trium anulorum, Prope, Medius et Longe, ab extrinseco ad intrinsecum, et numerus cum columna cuique et ordinibus quadratorum vacuorum pro quoque anulo.",
+      "sheetHow": "Chartam inter vos plana pone. Cum iactus in anulum cadit, quadratum in tua columna, in ordine illius anuli, nota.",
+      "rings": [
+        "Prope",
+        "Medius",
+        "Longe"
+      ],
+      "people": [
+        "Prima persona",
+        "Secunda persona"
+      ],
+      "ringHeading": "Annulus",
+      "print": "Scopum et chartam numerorum imprime"
+    },
+    "seasonalPack": {
+      "guidance": "Mensem elige, tres eius problemata chartacea imprime, et unum, duo aut omnia tria simul perfice.",
+      "monthLegend": "Mensem elige",
+      "months": [
+        "Ianuarius",
+        "Februarius",
+        "Martius",
+        "Aprilis",
+        "Maius",
+        "Iunius",
+        "Iulius",
+        "Augustus",
+        "September",
+        "October",
+        "November",
+        "December"
+      ],
+      "monthNote": "Quisque mensis suas imagines habet. Pagina hunc mensem aperit, et quemvis alium eligere potestis.",
+      "restDay": "Hodie dies quietis est",
+      "restLine": "Hodie nulla problemata. Dies quietis quoque bonus est.",
+      "previewHeading": "Tria problemata",
+      "puzzles": {
+        "pairs": {
+          "title": "Paria coniunge",
+          "how": "Ab unaquaque imagine in ordine superiore lineam ad eandem imaginem in ordine inferiore due.",
+          "describe": "Duo ordines eorundem quattuor imaginum, alio ordine dispositi."
+        },
+        "different": {
+          "title": "Quae diversa est?",
+          "how": "Circumda imaginem quae a ceteris tribus diversa est.",
+          "describe": "Ordo quattuor imaginum. Tres eaedem sunt, et una diversa."
+        },
+        "color": {
+          "title": "Pinge",
+          "how": "Imaginem quomodo vis pinge, cretis aut pencillis.",
+          "describe": "Una imago magna ad pingendum."
+        }
+      },
+      "print": "Sarcinam huius mensis imprime",
+      "sheetHow": "Unam paginam imprime. Unum, duo aut omnia tria problemata, quolibet ordine, perfice.",
+      "printFooter": "Unum, duo aut omnia tria perfice. Desine quando vis."
+    },
+    "decorateACard": {
+      "guidance": "Occasionem elige, et tabellam simul cretis aut calamis orna. Nulla tabella recta est.",
+      "occasionLegend": "Occasionem elige",
+      "occasions": {
+        "birthday": {
+          "label": "Dies natalis",
+          "words": "Felix dies natalis"
+        },
+        "thank-you": {
+          "label": "Gratias",
+          "words": "Gratias tibi"
+        },
+        "thinking-of-you": {
+          "label": "De te cogitans",
+          "words": "De te cogito"
+        },
+        "new-season": {
+          "label": "Novum tempus anni",
+          "words": "Novum tempus anni"
+        },
+        "just-because": {
+          "label": "Sine causa",
+          "words": "Sine causa"
+        }
+      },
+      "stepsHeading": "Quomodo simul ornatur",
+      "steps": {
+        "fold": "Tabellam imprime et per lineam punctatam in duas partes plica, ut prior pars extrinsecus sit.",
+        "front": "Unus prioram partem ornat, circum verba.",
+        "inside": "Alter posteriorem partem ornat, aut alternatim in una parte.",
+        "message": "Nuntium simul scribite. Unus scribere potest, dum alter verba dicit.",
+        "stop": "Desine quando vis. Nulla tabella recta est, et simplex aeque bona est."
+      },
+      "materials": "Utere cretis, pencillis coloratis aut calamis. Nihil secandum, glutinandum aut agglutinandum est.",
+      "previewLabel": "Species tabellae in duas partes plicatae. Prior pars habet {words}, cum simplici margine foliorum et stellarum. Posterior pars lineas ad nuntium et lineam Ab habet.",
+      "from": "Ab",
+      "sheetHow": "Chartam per lineam punctatam in duas partes plicate, ita ut pars anterior extrinsecus sit. Nuntium in parte posteriore scribite.",
+      "rulesHeading": "Duobus hominibus",
+      "sheetRules": [
+        "Alternis vicibus facite, aut opus dividite: alter anteriorem partem ornet, alter posteriorem.",
+        "Nuntium simul scribite, aut alter scribat quod alter dicit.",
+        "Quisque quovis tempore desistere potest. Nulla charta recte facta est."
+      ],
+      "print": "Chartam imprimite"
+    },
+    "storyDice": {
+      "guidance": "Imagines spectate et fabulam iis narrate, quolibet ordine. Nulla fabula recta est.",
+      "countLegend": "Quot tesserae",
+      "count": "{n} tesserae",
+      "roll": "Iterum iacite",
+      "pass": "Praetermittite",
+      "passed": "Praetermittere licet. Proximus incipere potest, aut iterum iacere potestis.",
+      "rolled": "Novae imagines: {names}.",
+      "tapped": "{name}. Ab hac incipite, aut ab alia quavis."
+    },
+    "wordPicture": {
+      "guidance": "Tangite imaginem, deinde verbum quod eam nominat. Aut tangite verbum, deinde eius imaginem.",
+      "countLegend": "Quot imagines",
+      "count": "{n} imagines",
+      "picturesGroup": "Imagines",
+      "wordsGroup": "Verba",
+      "readWord": "Legite voce: {name}",
+      "next": "Novae imagines",
+      "putBack": "Reponite",
+      "pickWord": "Nunc tangite verbum quod ei respondet.",
+      "pickPicture": "Nunc tangite imaginem quae ei respondet.",
+      "fit": "Ita, hoc verbum ad {name|lower} pertinet.",
+      "newSet": "Hic est novus imaginum ordo.",
+      "restarted": "Ad initium redistis. Omnes imagines et omnia verba rursus soluta sunt.",
+      "restored": "Repositum est. Paria congruentia rursus ostenduntur.",
+      "all": "Omni verbo sua imago respondet."
+    },
+    "colorMatch": {
+      "guidance": "Spectate colorem eiusque nomen, deinde tangite omnes imagines eius coloris.",
+      "target": "Color est {color|lower}. Tangite omnes imagines quae sunt {color|lower}.",
+      "countLegend": "Quot imagines",
+      "count": "{n} imagines",
+      "found": "Ita, {name|lower} est {color|lower}.",
+      "named": "{name|lower} est {color|lower}.",
+      "all": "Hae sunt omnes imagines {color|lower}.",
+      "shown": "Hae sunt imagines {color|lower}.",
+      "show": "Ostendite eas",
+      "next": "Alius color",
+      "names": {
+        "red": "Ruber",
+        "orange": "Aurantiacus",
+        "yellow": "Flavus",
+        "green": "Viridis",
+        "blue": "Caeruleus"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tangite dimidiam partem a sinistra, deinde dimidiam partem a dextra quae ei congruit.",
+      "countLegend": "Quot imagines",
+      "count": "{n} imagines",
+      "leftGroup": "Dimidiae partes sinistrae",
+      "rightGroup": "Dimidiae partes dextrae",
+      "left": "Pars sinistra {name|lower}",
+      "right": "Pars dextra {name|lower}",
+      "joined": "Coniunctum",
+      "pickRight": "Nunc tangite dimidiam partem a dextra quae ei congruit.",
+      "pickLeft": "Nunc tangite dimidiam partem a sinistra quae ei congruit.",
+      "fit": "Ita, hae duae partes {name|lower} efficiunt.",
+      "apart": "Hae duae non inter se congruunt. Aliam temptate.",
+      "all": "Omnes imagines integrae sunt.",
+      "shown": "Hae sunt imagines, coniunctae.",
+      "show": "Ostendite mihi",
+      "next": "Alius ordo"
+    },
+    "colorByNumber": {
+      "guidance": "Colorem ex clave eligite, deinde quadratum eo implete. Quivis color rectus est.",
+      "sizeLegend": "Magnitudo craticulae",
+      "size": "{n} per {n}",
+      "keyLegend": "Colores",
+      "colors": [
+        "Flavus",
+        "Aurantiacus",
+        "Viridis",
+        "Purpureus"
+      ],
+      "motifs": {
+        "house": "domus",
+        "flower": "flos",
+        "heart": "cor",
+        "tree": "arbor",
+        "boat": "navicula velifera",
+        "pot-plant": "planta in olla"
+      },
+      "region": "Craticula imaginis, {n} per {n}. Si pinax angustus est, in latus volvitur.",
+      "cell": "Numerus {number}, ordo {row}, columna {column}, {color}",
+      "empty": "vacua",
+      "chose": "{name} electum est. Tangite quadratum ut eum impleatis.",
+      "painted": "{name} in ordine {row}, columna {column}.",
+      "sheet": "Omnis quadratus colorem sui numeri habet. Haec est imago in charta: {name}.",
+      "own": "Omnis quadratus impletus est. Haec est vestra imago.",
+      "fillAll": "Implete per numeros",
+      "filledAll": "Omnis quadratus vacuus nunc colorem sui numeri habet.",
+      "clear": "Purgate",
+      "cleared": "Craticula purgata est.",
+      "next": "Alia imago",
+      "fresh": "Hic est alia imago ad colorandum."
+    },
+    "patternMaker": {
+      "guidance": "Tangite quadratum ut eius colorem mutetis. Vester ornatus iuxta eum crescit. Nihil quod facitis servatur aut mittitur.",
+      "sizeLegend": "Magnitudo tessellae",
+      "size": "{n} per {n}",
+      "keyLegend": "Colores, eo ordine quo tactus eos mutat",
+      "colors": [
+        "Flavus",
+        "Aurantiacus",
+        "Viridis",
+        "Purpureus"
+      ],
+      "tileLabel": "Vestra tessella",
+      "region": "Vestra tessella, {n} per {n}. Si pinax angustus est, in latus volvitur.",
+      "patternLabel": "Vester ornatus",
+      "pattern": "Vester ornatus: vestra tessella {n} in latum et {n} in altum repetita.",
+      "square": "Ordo {row}, columna {column}, {color}",
+      "changed": "Ordo {row}, columna {column} nunc est {color}.",
+      "cleared": "Tessella purgata est. Eam reponere potestis.",
+      "surprise": "Aliquid novum mihi date",
+      "surprised": "Hic est nova tessella. Veterem reponere potestis.",
+      "putBack": "Reponite",
+      "restored": "Vestra tessella ut erat rursus est.",
+      "print": "Imprimite meum ornatum",
+      "sheetTitle": "Meus ornatus"
+    },
+    "buildTogether": {
+      "guidance": "Alternis vicibus frustum in locum vacuum ponite. Unusquisque vestrum suum colorem habet. Nihil quod facitis servatur aut mittitur.",
+      "sizeLegend": "Magnitudo craticulae",
+      "size": "{n} per {n}",
+      "people": [
+        "Primus homo",
+        "Secundus homo"
+      ],
+      "colorLegend": "Color: {person}",
+      "colors": [
+        "Flavus",
+        "Aurantiacus",
+        "Viridis",
+        "Purpureus"
+      ],
+      "inUse": "In usu",
+      "turn": "Vestra vice, {person|lower}",
+      "yourColor": "Vester color est {color|lower}.",
+      "built": "Simul aedificatum. Haec est imago quam vos duo fecistis.",
+      "gridLabel": "Communis craticula",
+      "region": "Communis craticula, {n} per {n}. Si pinax angustus est, in latus volvitur.",
+      "cellEmpty": "Ordo {row}, columna {column}, vacua",
+      "cellFilled": "Ordo {row}, columna {column}, {color}, {person|lower} posuit.",
+      "placed": "Ordo {row}, columna {column} nunc est {color}. Vestra vice, {next|lower}.",
+      "placedLast": "Ordo {row}, columna {column} nunc est {color}. Simul aedificatum.",
+      "taken": "Ordo {row}, columna {column} iam frustum habet. Eligite locum vacuum.",
+      "pass": "Praetermittite",
+      "passed": "Praetermittere licet. Vestra vice, {person|lower}.",
+      "takeBack": "Ultimum frustum retrahite",
+      "takeBackPass": "Praetermissionem revocate",
+      "tookBack": "Frustum retractum est. Vestra vice, {person|lower}.",
+      "tookBackPass": "Praetermissio revocata est. Vestra vice, {person|lower}.",
+      "colorChanged": "{person} nunc habet {color|lower}.",
+      "restarted": "Craticula vacua est. Vestra vice, {person|lower}.",
+      "print": "Craticulam imprimite",
+      "sheetTitle": "Simul aedificate",
+      "sheetHelp": "Alternis vicibus facite. In quadrato vacuo quisque suam figuram suo stilo designet.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tangite frustum, deinde spatium in imagine ubi ponendum est. Nihil quod facitis servatur aut mittitur.",
+      "hints": "Ostendite lineas auxilii",
+      "pictureLine": "Haec est {picture}.",
+      "pictures": {
+        "house": "domus",
+        "boat": "navicula",
+        "tree": "arbor",
+        "fish": "piscis",
+        "cat": "feles",
+        "rocket": "missile"
+      },
+      "outlineLabel": "Forma designata: {picture}. Tangite spatium ut frustum electum in eo ponatis.",
+      "trayHeading": "Frusta",
+      "pieces": {
+        "large-triangle": "Triangulum magnum",
+        "small-triangle": "Triangulum parvum",
+        "square": "Quadratum",
+        "parallelogram": "Parallelogrammum",
+        "rectangle": "Rectangulum"
+      },
+      "shapes": {
+        "large-triangle": "triangulum magnum",
+        "small-triangle": "triangulum parvum",
+        "square": "quadratum",
+        "parallelogram": "parallelogrammum",
+        "rectangle": "rectangulum"
+      },
+      "chosenLabel": "Electum",
+      "spaceEmpty": "Spatium {n}, {shape}, vacuum",
+      "spaceFilled": "Spatium {n}, {shape}, suum frustum habet. Tangite ut frustum retrahatis.",
+      "chosen": "{piece} electum est. Nunc tangite spatium in imagine.",
+      "unchosen": "Pecia iam non eligitur.",
+      "placed": "Pecia est in spatio {n}.",
+      "complete": "{picture} perfecta est.",
+      "different": "Haec pecia aliam formam habet quam hoc spatium. Alium spatium tempta.",
+      "needPiece": "Primum pecia e loculo elige.",
+      "filled": "Hoc spatium iam suam peciam habet. Tange eam ut peciam recipias.",
+      "tookBack": "Pecia in loculum rediit.",
+      "cleared": "Pecia in loculum redierunt. Pone eas rursus, si mutaveris consilium.",
+      "restored": "Pecia in imagine redierunt.",
+      "next": "Hoc {picture} est.",
+      "putBack": "Repone eam",
+      "another": "Alia forma",
+      "print": "Hanc formam imprime",
+      "sheetTitle": "Formae quietae",
+      "sheetHow": "Pecias colora, aut eas excide ut in lineamentum congruant. Adultus excisionem facere potest.",
+      "sheetPieces": "Pecias eadem magnitudine ac lineamentum"
+    },
+    "picnicPlanner": {
+      "guidance": "Tange imaginem ut eam in calathum picnicum ponas, et tange eam in calatho ut eam tollas. Calathus sex res capit.",
+      "guidancePlay": "Tange duas imagines quae eaedem sunt. Imagines visibiles manent, et nihil tempore metitur.",
+      "basketHeading": "Calathus noster",
+      "basketLabel": "Calathus picnicus",
+      "takeOut": "{picture} e calatho tolle",
+      "inBasket": "In calatho",
+      "foodHeading": "Cibus",
+      "outingsHeading": "Res faciendae",
+      "added": "{picture} in calatho est.",
+      "removed": "{picture} e calatho exiit.",
+      "already": "{picture} iam in calatho est. Tange eam ibi ut eam tollas.",
+      "full": "Calathus plenus est. Aliquid tolle ut locum facias.",
+      "summary": "Picnic noster: {list}.",
+      "summaryNone": "Nihil adhuc in calatho est.",
+      "and": "et",
+      "play": "Cum picnico nostro ludamus",
+      "needTwo": "Primum elige saltem duas res.",
+      "playAgain": "Iterum ludere",
+      "back": "Ad picnicum redi",
+      "print": "Indicem picnici nostri imprime",
+      "cleared": "Calathus vacuus est.",
+      "notice": "Hoc consilium est de quo loquamur. Nihil tempore metitur, aestimatur aut servatur.",
+      "sheetTitle": "Index picnici nostri",
+      "sheetHow": "Unumquodque notam pone dum sarcinas. Lineas vacuas ad alia quae afferre vis adhibe.",
+      "sheetToPack": "Sarcinandum"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Elige duas ad duodecim imagines tuas ut album incipias.",
+      "guidance": "Paginas una vertite, butonibus aut sagittis Sinistra et Dextra utentes. Si vis, pauca verba sub imagine adde. Nihil quod facis servatur aut mittitur.",
+      "lookGuidance": "Unamquamque paginam una spectate. Loqui potes aut tantum spectare.",
+      "intro": "Elige duas ad duodecim imagines ex hoc instrumento. Unaquaeque pagina libri fit quem una vertere potes.",
+      "consent": "Imaginibus familiae tuae utere. Roga prius, si imaginem alicuius qui affirmare non potest adhibes.",
+      "privacy": "Imagines tuae in hoc instrumento manent. Non in retia onerantur neque servantur.",
+      "choose": "Imagines elige",
+      "chooseDifferent": "Alias imagines elige",
+      "backToBook": "Ad librum redi",
+      "backToChoose": "Ad imagines eligendas redi",
+      "needTwo": "Elige saltem duas imagines, quaeso.",
+      "usingFirst": "Primas {max} imagines adhibemus.",
+      "cleared": "Liber purgatus est. Imagines elige ut rursus incipias.",
+      "moved": "Ad paginam {n} translatum.",
+      "pageOf": "Pagina {n} e {total}",
+      "lookTogether": "Una spectate",
+      "leaveLook": "Ad librum redi",
+      "print": "Album imprime",
+      "clear": "Liber purga",
+      "bookLabel": "Album familiae",
+      "pagesLabel": "Paginas verte",
+      "previous": "Pagina superior",
+      "next": "Pagina proxima",
+      "moveEarlier": "Prius move",
+      "moveLater": "Postea move",
+      "captionLabel": "Pauca verba pro hac pagina, si vis",
+      "captionHelp": "Ad octoginta litterae. Tituli solum in hac pagina manent et cum clauseris abeunt.",
+      "sheetTitle": "Album nostrum",
+      "sheetHow": "Una imago per paginam, cum verbis sub ea. Paginas ordine verte et de unaquaque loquere.",
+      "sheetEmpty": "Imagines in pagina ludi elige ut album tuum imprimas, aut hanc paginam vacuam imprime et imaginem impressam insere.",
+      "sheetFrame": "Imaginem impressam hic adhaere",
+      "sheetWords": "Pauca verba pro hac pagina",
+      "skipped": {
+        "one": "{n} tabula non erat imago quam adhibere possumus.",
+        "other": "{n} tabulae non erant imagines quas adhibere possumus."
+      }
+    },
+    "quietScene": {
+      "guidance": "Unam imaginem simul spectate. Premite Proximum aut Priorem cum paratus es. Nihil per se movetur.",
+      "next": "Imago proxima",
+      "previous": "Imago prior",
+      "bigPicture": "Imago maior",
+      "showEverything": "Omnia ostende",
+      "first": "Haec est prima imago.",
+      "last": "Haec est ultima imago.",
+      "lines": {
+        "sunrise": "Sol super terram oritur.",
+        "window-with-birds": "Aves extra fenestram.",
+        "vase-of-flowers": "Vas floribus in mensa.",
+        "teacup": "Calix tea iuxta fenestram.",
+        "tree": "Arbor in horto stans.",
+        "sailboat": "Navigium velificum in aqua.",
+        "lighthouse": "Pharus iuxta mare.",
+        "rainbow": "Iris post imbrem.",
+        "moon": "Luna in caelo nocturno.",
+        "daisies": "Bellis in herba.",
+        "rowing-boat": "Navis remigans in aqua tranquilla.",
+        "potted-plant": "Planta viridis in vasculo."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Per vices agite. Tange frustum excisum, deinde tange locum vacuum ut eum ibi ponas. Nihil quod facis servatur aut mittitur.",
+      "people": [
+        "Prima persona",
+        "Secunda persona"
+      ],
+      "marks": [
+        "circulum",
+        "quadratum"
+      ],
+      "turn": "Tua vice, {person|lower}.",
+      "marked": "Piecae tuae {mark} notatae sunt.",
+      "boardLabel": "Tabula communis",
+      "placeEmpty": "Locus {n}, vacuus",
+      "placeFilled": "Locus {n}, {picture|lower}, a {person|lower} positus",
+      "trayHeading": "Frusta excisa",
+      "chosenLabel": "Electum",
+      "chosen": "{picture} electum est. Nunc tange locum vacuum.",
+      "unchosen": "Frustum excisum iam non eligitur.",
+      "needCutout": "Primum frustum excisum elige, deinde tange locum vacuum.",
+      "filled": "Locus {n} iam imaginem habet. Elige locum vacuum.",
+      "placed": "{picture} in loco {n} est. Tua vice, {next|lower}.",
+      "full": "Omnia loca imaginem habent. Tolle unam ut eam mutes, aut iterum incipe.",
+      "pass": "Praetermitte",
+      "passed": "Praetermittere licet. Tua vice, {person|lower}.",
+      "takeBack": "Ultimam peciam recipe",
+      "takeBackPass": "Praetermissionem revoca",
+      "tookBack": "Pecia recepta est. Tua vice, {person|lower}.",
+      "tookBackPass": "Praetermissio revocata est. Tua vice, {person|lower}.",
+      "restarted": "Tabula vacua est. Tua vice, {person|lower}.",
+      "putBack": "Repone eas",
+      "putBackDone": "Frusta in tabulam redierunt.",
+      "another": "Alius imaginum numerus",
+      "anotherSet": "Novus numerus frustorum excisorum in loculo est. Frusta in tabula manent ubi sunt.",
+      "print": "Tabulam imprime",
+      "sheetTitle": "Tabula collagii",
+      "sheetHow": "Imagines excide et per vices eas in tabulam pone. Adultus excisionem facere potest.",
+      "sheetTray": "Imagines ad excidendum"
+    },
+    "gardenPlanner": {
+      "guidance": "Tange imaginem, deinde tange area ut eam ibi pones. Tange aream quae imaginem habet, nihil electo, ut eam purges.",
+      "bedsLabel": "Areae horti",
+      "bedEmpty": "Area {n}, vacua",
+      "bedFilled": "Area {n}, {picture|lower}",
+      "plantsHeading": "Plantae",
+      "extrasHeading": "Additamenta horti",
+      "chosenLabel": "Electum",
+      "chosen": "{picture} electum est. Nunc tange aream.",
+      "unchosen": "Nulla imago electa est.",
+      "needPicture": "Sceglie prius imaginem, deinde bracteam tange.",
+      "planted": "{picture} in area {n} est.",
+      "replaced": "{picture} locum imaginis in area {n} occupat.",
+      "cleared": "Area {n} vacua est. Restitue eam si imaginem iterum vis.",
+      "restarted": "Omnes areae vacuae sunt.",
+      "putBack": "Restitue",
+      "putBackDone": "Imagines in areis suis restitutae sunt.",
+      "summaryHeading": "Hortus meus",
+      "summary": "Consilium tuum habet {list}.",
+      "summaryNone": "Nondum imago in area est.",
+      "and": "et",
+      "print": "Consilium imprime",
+      "sheetTitle": "Consilium horti nostri",
+      "sheetHow": "Areae imagines in schermo electas ostendunt. Areas vacuas, si placet, designa.",
+      "sheetNotes": "Notae",
+      "notice": "Hoc consilium imaginum est, de quo loquaris, non consilium de serendis plantis."
+    },
+    "coloringWall": {
+      "guidance": "Imaginem et quot paginas eligue. Murum imprime, et singuli unam vel plures paginas colorant. Nihil tempore metitur, nihil aestimatur, nihil servatur.",
+      "pictureLegend": "Imago",
+      "sizeLegend": "Quot paginae",
+      "sizes": {
+        "2x2": "4 paginae (2 per 2)",
+        "3x2": "6 paginae (3 per 2)",
+        "3x3": "9 paginae (3 per 3)"
+      },
+      "previewLabel": "{picture|lower} in {n} paginas divisa est, {across} in latitudinem et {down} in altitudinem. Quaeque pagina in angulo titulum habet.",
+      "previewCaption": "Imago cum lineis paginarum et titulis designatis.",
+      "labelsNote": "Litterae per murum descendunt et numeri per eum transeunt, ita A1 est pagina summa sinistra.",
+      "wallHeading": "Quomodo murum componas",
+      "steps": [
+        "Omnes paginas imprime. Prima pagina hi gradus et tabula muri est.",
+        "Singuli unam vel plures paginas sumunt et colorant.",
+        "Colores et modi congruere non debent. Omnis pagina eiusdem imaginis pars est.",
+        "Paginas secundum titulos dispone, deinde scotch in tergo coniunge.",
+        "Murum ubi omnes videre possint suspende."
+      ],
+      "mapLabel": "Tabula muri: {down} ordines paginarum {across}, a A1 ad {last} notatae.",
+      "edgeNote": "Linea punctata marginem cuiusque paginae indicat. Paginas margine ad marginem iunge, aut paulum decurre.",
+      "pictureLine": "Imago: {picture}. Hic murus {n} paginas habet: {across} in latitudinem et {down} in altitudinem.",
+      "print": "Murum imprime"
+    },
+    "findTogether": {
+      "guidance": "Per vices age. In tuo turno, duas chartas converte ut par quaeras. Paria una invenite.",
+      "sizeLegend": "Quot chartae",
+      "size": "{n} chartae",
+      "viewLegend": "Quomodo ludere",
+      "viewShowing": "Lude imaginibus ostensis",
+      "viewHidden": "Chartae faciebus deorsum",
+      "people": [
+        "Prima persona",
+        "Secunda persona"
+      ],
+      "turn": "Vicis: {person}",
+      "turnDone": "Omnia paria inventa sunt.",
+      "tally": "Paria una inventa: {n}",
+      "cardNamed": "{name}, charta {n}",
+      "cardFaceDown": "Charta {n}, facie deorsum",
+      "first": "{name}. Nunc alteram chartam converte.",
+      "found": "{name}: par, una inventum. Nunc vicis est {next|lower}.",
+      "allTogether": "Omnia paria una invenistis.",
+      "different": "{a} et {b} diversa sunt. Sume tempus, deinde preme Converte retro.",
+      "waiting": "Preme Converte retro cum paratus es. Tum vicis transit.",
+      "turnedBack": "Conversa retro. Nunc vicis est {person|lower}.",
+      "passed": "Praetermittere licet. Nunc vicis est {person|lower}.",
+      "turnBack": "Converte retro",
+      "pass": "Praetermitte",
+      "playAgain": "Iterum lude"
+    },
+    "drawingDuet": {
+      "guidance": "Per vices lineam unam singuli age, deinde calamum trade. Quisque praetermittere potest. Nihil alio mittitur. Imago hanc paginam relinquit tantum si servaveris.",
+      "people": [
+        "Prima persona",
+        "Secunda persona"
+      ],
+      "colorLegend": "Color {person}",
+      "colors": [
+        "Flavus",
+        "Aurantiacus",
+        "Viridis",
+        "Purpureus"
+      ],
+      "turn": "Vicis {person}",
+      "penColor": "Color calami: {color}.",
+      "canvasLabel": "Pictura communis, hactenus {n} lineae",
+      "canvasLabelOne": "Pictura communis, hactenus {n} linea",
+      "keys": "Claves sagittarum punctum calami in pictura movent. Spatium calamum deponit aut tollit.",
+      "penDown": "Calamus deorsum",
+      "penUp": "Calamus sursum",
+      "pass": "Calamum trade",
+      "passed": "Praetermittere licet. Tuus est vicis, {person|lower}.",
+      "takeBack": "Ultimam meam lineam tolle",
+      "tookBack": "Ultima linea {person|lower} sublata est.",
+      "noLine": "Nulla linea {person|lower} est quam tollere possis.",
+      "restarted": "Charta vacua est. Prima persona vicem habet. Restitue, si non id volebas.",
+      "putBack": "Restitue",
+      "restored": "Lineae sicut erant restitutae sunt.",
+      "save": "Pictura serva",
+      "saved": "Pictura tua parata est. Nexu ad recipiendum utere ut in hoc aparatu servetur.",
+      "download": "Pictura-duo.png recipe",
+      "print": "Versionem chartaceam imprime",
+      "sheetTitle": "Duo pictores",
+      "paperRules": "Duo homines, una charta, duo calami. Per vices: una linea aut forma singuli, deinde calamum trade. Quisque praetermittere potest. Nulla pictura recta est."
+    },
+    "colorWash": {
+      "guidance": "Mollem colorem per paginam pinge, unam lavationem simul. Penicillum tolle ut desinas, et desine quandocumque vis. Nihil servatur aut mittitur.",
+      "colorLegend": "Color lavationis",
+      "sizeLegend": "Magnitudo penicilli",
+      "colors": [
+        "Flavus",
+        "Aurantiacus",
+        "Viridis",
+        "Purpureus"
+      ],
+      "sizes": {
+        "wide": "Lata",
+        "veryWide": "Valde lata"
+      },
+      "color": "Color lavationis: {color}.",
+      "brushDown": "Penicillum deorsum",
+      "brushUp": "Penicillum sursum",
+      "keys": "Claves sagittarum annulum penicilli in pagina movent. Spatium penicillum deponit aut tollit.",
+      "canvasLabel": "Pagina lavationum mollium colorum",
+      "fresh": "Pagina nova",
+      "freshMessage": "Pagina nova.",
+      "putBack": "Restitue",
+      "restored": "Pagina restituta est."
+    },
     "sortTogether": {
       "guidance": "Tange imaginem, deinde corbem ad quem pertinet.",
       "restart": "Novae imagines",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} in \"{basket}\" poni potest. Tange illum corbem ut ibi ponas.",
       "placed": "{name|lower} in \"{basket}\" posita est.",
       "sorted": "Omnia disposita sunt. Inspicite una corbes, vel aliud argumentum temptate.",
+      "largerTargets": "Scopi maiores",
+      "largerOn": "Scopi maiores activi sunt. Nihil motum est.",
+      "largerOff": "Scopi maiores inactivi sunt. Nihil motum est.",
+      "largerOnNewRound": "Scopi maiores activi sunt, cum duobus calathis. Hic sunt imagines novae ad ordinandum.",
       "basket": {
         "one": "Corbis {basket}, {count} imago intus",
         "other": "Corbis {basket}, {count} imagines intus"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Tange unum frustum, deinde aliud. Loca inter se mutabunt.",
-      "restart": "Rursus permisce",
+      "restart": "Mix up again",
       "pictureLegend": "Imago",
       "pictures": {
         "sailboat": "Navicula",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Imago integra: {name}",
       "guideText": "Haec est species imaginis integrae.",
+      "ownChoose": "Tua photographia utere",
+      "ownChange": "Aliam photographiam elige",
+      "ownBack": "Ad nostras imagines redi",
+      "ownPrivacy": "Tua photographia in hoc aparatu manet. Non inlata nec servata est.",
+      "ownConsent": "Tuis photographiis utere. Roga prius antequam photographiam eius qui assentire non potest adhibeas.",
+      "ownWorking": "Photographia tua paratur.",
+      "ownNotUsable": "Hoc documentum usurpari non potuit. Elige documentum photographiae, ut JPEG aut PNG.",
+      "ownAlt": "Tua photographia",
+      "ownPiece": "Pars {n}, {place}",
+      "ownWhole": "Tua photographia iterum integra est. Miscere iterum quandocumque vis.",
+      "ownSheetTitle": "Tua photographia in partibus",
+      "ownSheetHow": "Per lineas seca. Partes misce, deinde binas partes simul permuta, donec imago integra sit.",
       "piece": "Frustum in {place}",
       "pieceInPlace": ", in loco suo",
       "piecePickedUp": ", sublatum",
@@ -122,7 +786,7 @@
         "parte dextra ima"
       ],
       "done": "Imago rursus integra est. Potes iterum ludere vel paulisper requiescere.",
-      "playAgain": "Rursus permisce"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Una proverbium legite, deinde tange verbum quod id complet.",
@@ -190,6 +854,14 @@
       "guidance": "Charta clara voce legatur. Responsa recta aut falsa non sunt.",
       "position": "Charta {n} ex {total}",
       "themeLegend": "Argumentum",
+      "showPrompt": "Monstra incitamentum colloquii",
+      "bigPicture": "Imago magna, ad coetum",
+      "passNote": "Quisque praetermittere potest.",
+      "groupTitle": "Chartam per coetum trada",
+      "groupSit": "Sede in circulo ubi omnes imaginem videre possint. Qui chartam tenet, aut aparatus cum imagine magna, incitamentum primum clara voce legit.",
+      "groupPass": "Deinde chartam proximo trade. Quisque de imagine verbum aut sententiam dicit, deinde trade.",
+      "groupNoSpeech": "Chartam tradere semper licet. Quisque sine verbo praetermittere potest, et nemo causam dicere debet.",
+      "groupEnd": "Ludus finitur, cum charta per circulum ambulaverit aut cum coetus satis habuerit. Nemo vincit. Desinite quandocumque coetus vult.",
       "next": "Proxima charta",
       "previous": "Prior charta",
       "print": "Imprime omnes chartas",
@@ -252,6 +924,20 @@
       "started": "Inceptum est. Inspira dum circulus crescit.",
       "stopped": "Consistit.",
       "finished": "Sex lenti spiritus perfecti sunt. Iterum incipe cum vis."
+    },
+    "storyChain": {
+      "guidance": "Per vices agite: unusquisque unam sententiam dicat et imaginem sequentem addat.",
+      "passNote": "Sententiam vestram voce dicite. Nihil scribitur neque servatur. Quisque licet praetermittere.",
+      "chainLabel": "Catena hucusque",
+      "item": "Imago {n}: {name}",
+      "add": "Imaginem addere",
+      "fullAdd": "Catena plena est. Novam catenam incipite",
+      "newChain": "Novam catenam incipere",
+      "takeOff": "Ultimam removere",
+      "added": "{name|lower} nunc in fine catenae est.",
+      "removed": "{name|lower} e catena sublata est.",
+      "fresh": "Nova catena, a {name|lower} incipiens.",
+      "full": "Catena omnes octo imagines habet. Totam fabulam narrate, aut novam catenam incipite."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Nubes pluvia",
     "snowflake": "Floccus nivis",
     "kite": "Miluus chartaceus",
-    "sunrise": "Ortus solis super colles"
+    "sunrise": "Ortus solis super colles",
+    "decorated-keepsake-box": "Arca memoriae decorata",
+    "painted-plant-pot": "Olla picta cum herbis",
+    "repeating-pattern-sheet": "Folium figurarum iteratarum",
+    "music-drawn-lines": "Lineae ad musicam ductae",
+    "paper-boat-afloat": "Navicula chartacea super aquam fluitans",
+    "folded-towel-stack": "Acervus linteorum complicatorum",
+    "hand-massage-with-lotion": "Manus super linteum cum unguento",
+    "open-photo-album": "Album imaginum apertum",
+    "button-flower-card": "Flos ex globulis in charta",
+    "blue-torn-paper-collage": "Collagium ex chartis caeruleis laceratis",
+    "family-tree-of-hands": "Arbor familiae manibus picta",
+    "open-greeting-card": "Charta gratulationis aperta cum corde",
+    "lavender-sachet": "Sacculus lavandulae nastro ligatus",
+    "memory-collage-of-photos": "Collagium imaginum familiarium",
+    "paper-chain-garland": "Sertum e catenis chartaceis",
+    "open-songbook-with-notes": "Liber cantionum apertus cum notis musicis",
+    "photo-postcard-with-stamp": "Cartula imaginis cum francotypo",
+    "pine-cone-bird-feeder": "Pabulum avium e strobilo pinus, ex ramo pendens",
+    "playlist-phone-and-card": "Telephonum cum indice cantionum et charta",
+    "sealed-rice-shaker": "Crepitaculum oryzae obsignatum",
+    "texture-board-with-scraps": "Tabula cum fragmentis diversorum tactuum",
+    "painted-garden-stone": "Lapis hortensis pictus",
+    "shared-painted-canvas": "Tela picta in commune",
+    "watercolor-washes-sheet": "Folium cum tinctionibus aquarellis",
+    "seedling-in-pot": "Plantulae in olla",
+    "pressed-leaves-in-book": "Folia compressa in libro",
+    "printed-leaves-sheet": "Folium impressionum foliorum",
+    "pinch-pot-clay-bowl": "Vas argillaceum manu formatum",
+    "table-sketch-pencil": "Schema graphite de cantharo",
+    "buttons-in-muffin-tin": "Globuli in formula placentarum ordinati",
+    "family-recipe-book": "Liber coquinarius familiae",
+    "drum-with-beat-marks": "Tympanum cum baculis",
+    "torn-paper-flower": "Musivum floris e chartis laceratis",
+    "window-with-birds": "Fenestra cum avibus",
+    "woven-paper-mat": "Tapetum e chartis textum",
+    "yarn-ball-with-thread": "Glomus lanae cum filo",
+    "letter-and-envelope": "Epistula cum involucro"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Foris"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fructus",
+        "animals": "Animalia",
+        "travel": "Modi vehendi",
+        "flowers": "Flores",
+        "hot-drinks": "Res ad potionem calidam",
+        "weather": "Genera temporis",
+        "baked": "Res in furno coctae"
       }
     }
   }

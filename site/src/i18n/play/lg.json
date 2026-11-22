@@ -5,6 +5,13 @@
       "stopReading": "Lekera awo okusoma",
       "region": "Omuzannyo",
       "restart": "Ddamu buto",
+      "rest": "Okuwummulako kati",
+      "restingTitle": "Okuwummula",
+      "restingText": "Mutwale ekiseera kyonna ky'oyagala. Ekifo kyo kikuumibwa ku mpapula eno.",
+      "resume": "Weeyongere",
+      "placeText": "Mu kiseera ekyayita wayimiridde wakati. Weeyongere wamu, oba otandike buto.",
+      "placeResume": "Weeyongere",
+      "placeFresh": "Tandika buto",
       "soundOn": "Teekako amaloboozi ag'empola",
       "soundOff": "Ggyako amaloboozi ag'empola",
       "done": "Kikome awo kaakano",
@@ -43,7 +50,19 @@
       "viewShowing": "Ebifaananyi ebireebeka",
       "viewHidden": "Ebifaananyi ebikwese",
       "playAgain": "Zzamu ozannye n'ebifaananyi ebiggya",
-      "talk": "Munyuumyeeko ku bifaananyi bino wamu"
+      "talk": "Munyuumyeeko ku bifaananyi bino wamu",
+      "modeLegend": "Ebifaananyi ki",
+      "modePlay": "Ebifaananyi byonna",
+      "modeDaily": "Kaadi ya leero",
+      "dayLegend": "Lunaku ki",
+      "dayHelp": "Buli muntu afuna ebifaananyi bye bimu ku lunaku lumu. Ennaku ezaayita nazo ziri wano, era okuleka olunaku tekikutwalira kintu.",
+      "guidanceDaily": "Kaadi ya leero erina ebibiri bina. Kwata ekifaananyi, oluvannyuma kwata ekifaananyi ekikyetoolodde.",
+      "restartDaily": "Tandika kaadi eno nate",
+      "copy": "Koppa omurongo guno",
+      "copied": "Ekikoppiddwa. Tewali kintu kisindikibwa wadde wa.",
+      "calendarTitle": "Kaadi za leero, {month}",
+      "calendarHelp": "Buli lunaku lulina ebifaananyi bina bye bimu eri buli muntu. Tewali kubalibwa mazima, era tewali lunaku lulangibwa nga lwasubwa.",
+      "calendarVersion": "Verisoni {date}. Ebifaananyi bye bimu eri buli muntu ku lunaku lumu."
     },
     "choose": {
       "countLegend": "Omuwendo gw'ebifaananyi",
@@ -62,6 +81,635 @@
       "shadowAlt": "Ekisiikirize eky'okukwataganya",
       "foundAlt": "Ekisiikirize kya {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Obujulizi",
+      "hintOn": "Obujulizi oluvannyuma lw'okusirika",
+      "hintOff": "Tewali bujulizi",
+      "guidance": "Zuula ebifaananyi {n} ebigenderako wamu, okwate buli kimu.",
+      "countLegend": "Ebifaananyi bingahe",
+      "count": "Ebifaananyi {n}",
+      "found": "Weewaawo, {name|lower} kiri mu kibinja kino.",
+      "elsewhere": "{name|lower} kigenda n'ekintu ekirala. Mutwale obudde bwo.",
+      "hint": "Obujulizi: noonya {theme|lower}.",
+      "together": "Bino bigenderako wamu: {theme}.",
+      "shown": "Kino kye kibinja: {theme}.",
+      "groupName": "Wamu: {theme}",
+      "show": "Laga ekibinja",
+      "next": "Ebirala ebirala"
+    },
+    "oddOneOut": {
+      "hintLegend": "Obujulizi",
+      "hintOn": "Obujulizi oluvannyuma lw'okusirika",
+      "hintOff": "Tewali bujulizi",
+      "guidance": "Zuula ekifaananyi ekitali ku birala, okwate.",
+      "countLegend": "Ebifaananyi bingahe",
+      "count": "Ebifaananyi {n}",
+      "belongs": "{name|lower} kigenda n'ebirala. Mutwale obudde bwo.",
+      "found": "Weewaawo, {name|lower} ye kitali ku birala. Ebirala bya {theme|lower}.",
+      "shown": "Kino kye kino: {name|lower}. Ebirala bya {theme|lower}.",
+      "hint": "Obujulizi: {n} ku bino bya {theme|lower}.",
+      "others": "Ebirala: {theme}",
+      "show": "Mpa kye kino",
+      "next": "Ebirala ebirala"
+    },
+    "seatedToss": {
+      "guidance": "Mutuule ku mmeeza mukyusakyuse okusuula ekisawo ekipya mu kiwendo ekinene. Okubala kukuume ku mpapula, mwenna wamu.",
+      "stepsHeading": "Bwe kukolebwa",
+      "steps": [
+        "Sala ekiwendo n'empapula y'okubala, ozitekeko nga zigaziridde ku mmeeza wakati wammwe.",
+        "Mutuule bulungi, buli omu ku ludda lwe. Mukyusakyuse, buli omu asuula omulundo gumu omuyonjo, oba oyinza okuyitawo bw'oba toyagala.",
+        "Ekisawo bwe kigwa mu mpeta, oyo asudde asiiga akabonero mu kasanduuko ke, ku murongo gw'empeta eyo.",
+        "Bw'omala, mutunuulire obubonero wamu bw'oba oyagala. Tewali amu alina okuteekateeka nate namba.",
+        "Yimirira buli lwe muba mwetegese."
+      ],
+      "safetyHeading": "Obukuumi",
+      "safetyLine": "Kozesa kisawo kinnya ekiriko ekikuubo ekisibiddwa, oba engatto ezikuŋŋaanyiziddwa. Tuula, tosuula okutunuulira mu maaso, era omuntu omukulu abe kumpi. Ebitundu ebitono biyinza okuziyiza omuntu okussa.",
+      "flags": [
+        "Si ku bantu abali wansi w'emyaka 3: ebitundu ebitono",
+        "Ebitali mu kamwa"
+      ],
+      "safety": [
+        "Londa kisawo ekiriko ekikuubo ekisibiddwa, oba kunyiga engatto ennyonjo. Kebera nga tekirina bunnya oba nnyuzi ezitasibiddwa bulungi, ebintu munda bireme okuvaamu.",
+        "Ebinyeebwa, omuceere n'ebintu ebirala ebitono bisobola okuziyiza omuntu okussa. Bikuume wala n'abaana abato ne buli muntu ayingiza ebintu mu kamwa.",
+        "Beera mu bbanga ly'omukono era weekebeje nnyo singa waliwo ekiyinza okuteekebwa mu kamwa.",
+        "Tuula. Suula mpola era wansi okutuukira ekiwendo ku mmeeza, si mu maaso g'omuntu."
+      ],
+      "previewLabel": "Empapula ey'okusaalibwa: ekiwendo ky'empeta ssatu ezirina amannya Ekiri okumpi, Ekiri wakati ne Ekiri wala, okuva ebweru okutuuka munda, n'empapula y'okubala ng'erina ekifo ky'buli muntu n'ennyiriri z'obusanduuko obutaliimu buli mpeta.",
+      "sheetHow": "Teeka empapula wakati wammwe nga egaziridde. Ekisawo bwe kigwa mu mpeta, sala akabonero mu kasanduuko ko, ku murongo gw'empeta eyo.",
+      "rings": [
+        "Ekiri okumpi",
+        "Ekiri wakati",
+        "Ekiri wala"
+      ],
+      "people": [
+        "Omuntu asooka",
+        "Omuntu ow'okubiri"
+      ],
+      "ringHeading": "Empeta",
+      "print": "Saasaanya ekiwendo n'empapula y'okubala"
+    },
+    "seasonalPack": {
+      "guidance": "Londa omwezi, saasaanya enkola zaayo ssatu ez'empapula, olwo okole emu, ebbiri oba zonna ssatu wamu.",
+      "monthLegend": "Londa omwezi",
+      "months": [
+        "Janwaliyo",
+        "Febwaliyo",
+        "Marisi",
+        "Apuli",
+        "Maayi",
+        "Juuni",
+        "Julaayi",
+        "Agusito",
+        "Sebtemba",
+        "Okitobba",
+        "Novemba",
+        "Desemba"
+      ],
+      "monthNote": "Buli mwezi gulina ebifaananyi byagwo. Empapula eggulawo ku mwezi guno, era oyinza okulonda omulala yenna.",
+      "restDay": "Leero ye lunaku lw'okuwummula",
+      "restLine": "Tewali mpuzzi leero. Olunaku lw'okuwummula nalwo lulungi.",
+      "previewHeading": "Empuzzi zo ssatu",
+      "puzzles": {
+        "pairs": {
+          "title": "Funa ebibiri",
+          "how": "Kola omusingo okuva ku kifaananyi kyonna mu murongo ogwa waggulu okutuuka ku kifaananyi kye kimu mu murongo ogwa wansi.",
+          "describe": "Emirongo ebiri egy'ebifaananyi bye bimu ebina, mu nteekateeka ya njawulo."
+        },
+        "different": {
+          "title": "Ki ekirala?",
+          "how": "Wuunisa ekifaananyi ekyawukana ku bisatu ebirala.",
+          "describe": "Omurongo gw'ebifaananyi ebina. Bisatu bifaanagana, ekimu kya njawulo."
+        },
+        "color": {
+          "title": "Kola ekifaananyi",
+          "how": "Kola ekifaananyi nga bw'oyagala, n'obukaddyo oba peensiro.",
+          "describe": "Ekifaananyi ekinene kimu ky'okola."
+        }
+      },
+      "print": "Saasaanya ekitabo k'omwezi guno",
+      "sheetHow": "Saasaanya ompapula emu. Kola emu, ebbiri oba zonna ssatu, mu nkola yonna.",
+      "printFooter": "Kola emu, ebbiri oba zonna ssatu. Yimirira buli lwe oyagala."
+    },
+    "decorateACard": {
+      "guidance": "Londa omukolo, oluvannyuma yonjula kaadi wamu n'obukaddyo oba peni. Tewali kaadi entuufu.",
+      "occasionLegend": "Londa omukolo",
+      "occasions": {
+        "birthday": {
+          "label": "Ssanyu lya bulamu",
+          "words": "Ssanyu lya bulamu"
+        },
+        "thank-you": {
+          "label": "Webale",
+          "words": "Webale"
+        },
+        "thinking-of-you": {
+          "label": "Nkulowoozaako",
+          "words": "Nkulowoozaako"
+        },
+        "new-season": {
+          "label": "Ekiseera ekipya",
+          "words": "Ekiseera ekipya"
+        },
+        "just-because": {
+          "label": "Lwa kubanga",
+          "words": "Lwa kubanga"
+        }
+      },
+      "stepsHeading": "Bwe kiba kikolebwa wamu",
+      "steps": {
+        "fold": "Saasaanya kaadi oginyire wakati ku lusonga lwa dash, ekiruubirirwa kibe ku ludda lwa ebweru.",
+        "front": "Omu ayonjula ku ludda lw'emabega, okwetooloola ebigambo.",
+        "inside": "Omulala ayonjula ku ludda oluddako, oba mukyusakyuse ku ludda lumu.",
+        "message": "Wandiikira obubaka wamu. Omu ayinza okuwandiika ng'omulala agamba ebigambo.",
+        "stop": "Yimirira buli lwe oyagala. Tewali kaadi entuufu, era enfunda nayo nnungi nnyo."
+      },
+      "materials": "Kozesa obukaddyo, obukaddyo obw'langi oba peni ez'ekiwujjo. Tewali kisala, kunyiga wadde okusiba.",
+      "previewLabel": "Okulaba kaadi ng'eginyire wakati. Ebigambo nti {words}, n'ensalo ennyangu ey'amaliba n'emmunyeenye. Ku ludda oluddako waliwo enkoona z'obubaka n'omurongo gwa From.",
+      "from": "Okuva ku",
+      "sheetHow": "Kunya kaadi wakati ng'oyita ku layini ezimenyekamenyeka, ng'ekitundu ky'omu maaso kiri ebweru. Wandiika obubaka ku ludda ly'emabega.",
+      "rulesHeading": "Ku bantu babiri",
+      "sheetRules": [
+        "Mukyusakyusa, oba mugabana omulimu: omu akola ku maaso, omulala ku mabega.",
+        "Obubaka mubuwandiike wamu, oba omu awandiike ky'omulala ky'agamba.",
+        "Buli muntu asobola okuyimirira mu kiseera kyonna. Tewali kaadi ntuufu."
+      ],
+      "print": "Kuba kaadi"
+    },
+    "storyDice": {
+      "guidance": "Tunuulira ebifaananyi obyogereko olugero ng'okozesa ebyo, mu kigendererwa kyonna. Tewali lugero lutuufu.",
+      "countLegend": "Dayisi zingahe",
+      "count": "dayisi {n}",
+      "roll": "Sukkulumula nate",
+      "pass": "Yita",
+      "passed": "Okuyita kulungi. Omuntu omulala asobola okutandika, oba osobola okusukkulumula nate.",
+      "rolled": "Ebifaananyi ebipya: {names}.",
+      "tapped": "{name}. Tandika n'ekyo, oba n'ekirala kyonna."
+    },
+    "wordPicture": {
+      "guidance": "Kwata ekifaananyi, oluvannyuma ekigambo ekikiyita. Oba kwata ekigambo, oluvannyuma ekifaananyi kyakyo.",
+      "countLegend": "Ebifaananyi bingahe",
+      "count": "ebifaananyi {n}",
+      "picturesGroup": "Ebifaananyi",
+      "wordsGroup": "Ebigambo",
+      "readWord": "Soma mu ddoboozi: {name}",
+      "next": "Ebifaananyi ebipya",
+      "putBack": "Zzaayo",
+      "pickWord": "Kaakano kwata ekigambo ekikigenderako.",
+      "pickPicture": "Kaakano kwata ekifaananyi ekikigenderako.",
+      "fit": "Weewaawo, ekigambo ekyo kituukira ku {name|lower}.",
+      "newSet": "Wano waliwo ebifaananyi ebipya.",
+      "restarted": "Tudda ku ntandikwa. Buli kifaananyi ne buli kigambo biri bweru nate.",
+      "restored": "Kizzeeyo. Ebibinja ebituufu biraga nate.",
+      "all": "Buli kigambo kirina ekifaananyi kyakyo."
+    },
+    "colorMatch": {
+      "guidance": "Laba langi n'erinnya lyayo, oluvannyuma kwata buli kifaananyi ekiri mu langi eyo.",
+      "target": "Langi eno ye {color|lower}. Kwata buli kifaananyi ekirina langi {color|lower}.",
+      "countLegend": "Ebifaananyi bingahe",
+      "count": "ebifaananyi {n}",
+      "found": "Weewaawo, {name|lower} kirina langi {color|lower}.",
+      "named": "{name|lower} kirina langi {color|lower}.",
+      "all": "Ebyo bye bifaananyi byonna ebirina langi {color|lower}.",
+      "shown": "Wano waliwo ebifaananyi ebirina langi {color|lower}.",
+      "show": "Biraga",
+      "next": "Langi endala",
+      "names": {
+        "red": "Emmyufu",
+        "orange": "Lalanje",
+        "yellow": "Yero",
+        "green": "Kiragala",
+        "blue": "Buluu"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Kwata ekitundu ekiri ku kkono, oluvannyuma kwata ekitundu ekiri ku ddyo ekikituukirako.",
+      "countLegend": "Ebifaananyi bingahe",
+      "count": "ebifaananyi {n}",
+      "leftGroup": "Ebitundu ebya kkono",
+      "rightGroup": "Ebitundu ebya ddyo",
+      "left": "Ekitundu ky'ekkono kya {name|lower}",
+      "right": "Ekitundu ky'ddyo kya {name|lower}",
+      "joined": "Bikwatiddwa",
+      "pickRight": "Kaakano kwata ekitundu ky'oku ddyo ekikikwatagana nakyo.",
+      "pickLeft": "Kaakano kwata ekitundu ky'oku kkono ekikikwatagana nakyo.",
+      "fit": "Weewaawo, ebitundu ebyo bikola {name|lower}.",
+      "apart": "Ebitundu ebyo tebikwatagana. Gezaako ebirala.",
+      "all": "Buli kifaananyi kikyali kyonna.",
+      "shown": "Wano waliwo ebifaananyi, bikwatiddwa wamu.",
+      "show": "Ndaga",
+      "next": "Ebirala ebipya"
+    },
+    "colorByNumber": {
+      "guidance": "Londa langi okuva ku lukalala, oluvannyuma jjuza akasanduuko ng'okozesa langi eyo. Langi yonna nnungi.",
+      "sizeLegend": "Obunene bw'ekigero",
+      "size": "{n} x {n}",
+      "keyLegend": "Langi",
+      "colors": [
+        "Yero",
+        "Lalanje",
+        "Kiragala",
+        "Zambarau"
+      ],
+      "motifs": {
+        "house": "ennyumba",
+        "flower": "ekimuli",
+        "heart": "omutima",
+        "tree": "omuti",
+        "boat": "eryato ery'empewo",
+        "pot-plant": "ekimera ekiri mu ntamu"
+      },
+      "region": "Ekigero ky'ebifaananyi, {n} x {n}. Kigenda mu bbali singa essirifu terimala.",
+      "cell": "Namba {number}, omugo {row}, omutiiko {column}, {color}",
+      "empty": "tejjuziddwa",
+      "chose": "{name} elondeddwa. Kwata akasanduuko okukajjuza.",
+      "painted": "{name} mu mugo {row}, omutiiko {column}.",
+      "sheet": "Buli kasanduuko kalina langi y'namba yakyo. Kino kye kifaananyi ekiri ku mpapula: {name}.",
+      "own": "Buli kasanduuko kujjuziddwa. Kino kye kifaananyi kyo.",
+      "fillAll": "Jjuza ng'ogoberera namba",
+      "filledAll": "Buli kasanduuko akatannajjuzibwa kaliko langi ya namba yakyo.",
+      "clear": "Ggyawo",
+      "cleared": "Ekigero kiri kyereere.",
+      "next": "Ekifaananyi ekirala",
+      "fresh": "Wano waliwo ekifaananyi ekirala ky'olonda langi."
+    },
+    "patternMaker": {
+      "guidance": "Kwata akasanduuko okukyusa langi yaakyo. Ekifaananyi kyo kikula ku mabbali gaakyo. Tewali ky'okola ekuumibwa oba kisindikibwa.",
+      "sizeLegend": "Obunene bw'ekipande",
+      "size": "{n} x {n}",
+      "keyLegend": "Langi, mu nkola ekwata gye zikyuka",
+      "colors": [
+        "Yero",
+        "Lalanje",
+        "Kiragala",
+        "Zambarau"
+      ],
+      "tileLabel": "Ekipande kyo",
+      "region": "Ekipande kyo, {n} x {n}. Kigenda mu bbali singa essirifu terimala.",
+      "patternLabel": "Ekifaananyi kyo",
+      "pattern": "Ekifaananyi kyo: ekipande kyo kiddiŋŋanwa emirundi {n} okuva ku kkono okudda ku ddyo ne emirundi {n} okuva waggulu okudda wansi.",
+      "square": "Omugo {row}, omutiiko {column}, {color}",
+      "changed": "Omugo {row}, omutiiko {column} kati kiri {color}.",
+      "cleared": "Ekipande kiri kyereere. Osobola okukiddiza.",
+      "surprise": "Nsanyusa",
+      "surprised": "Wano waliwo ekipande ekipya. Osobola okuddiza ekikadde.",
+      "putBack": "Zzaayo",
+      "restored": "Ekipande kyo kizzeeyo nga bwe kyali.",
+      "print": "Kuba ekifaananyi kyange",
+      "sheetTitle": "Ekifaananyi kyange"
+    },
+    "buildTogether": {
+      "guidance": "Mukyusakyusa mu kuteeka ekitundu mu kifo ekitaliimu. Buli omu alina langi ye. Tewali ky'okola ekuumibwa oba kisindikibwa.",
+      "sizeLegend": "Obunene bw'ekigero",
+      "size": "{n} x {n}",
+      "people": [
+        "Omuntu asooka",
+        "Omuntu ow'okubiri"
+      ],
+      "colorLegend": "Langi ya {person}",
+      "colors": [
+        "Yero",
+        "Lalanje",
+        "Kiragala",
+        "Zambarau"
+      ],
+      "inUse": "Ekikozesebwa",
+      "turn": "Kiseera kyo, {person|lower}",
+      "yourColor": "Langi yo ye {color|lower}.",
+      "built": "Kitegekeddwa wamu. Kino kye kifaananyi bombi kye mwakola.",
+      "gridLabel": "Ekigero ekya wamu",
+      "region": "Ekigero ekya wamu, {n} x {n}. Kigenda mu bbali singa essirifu terimala.",
+      "cellEmpty": "Omugo {row}, omutiiko {column}, tewali kintu",
+      "cellFilled": "Omugo {row}, omutiiko {column}, {color}, ekiteekeddwa {person|lower}",
+      "placed": "Omugo {row}, omutiiko {column} kati kiri {color}. Kiseera kyo, {next|lower}.",
+      "placedLast": "Omugo {row}, omutiiko {column} kati kiri {color}. Kitegekeddwa wamu.",
+      "taken": "Omugo {row}, omutiiko {column} gumaze okuba n'ekitundu. Londa ekifo ekitaliimu.",
+      "pass": "Yita",
+      "passed": "Okuyita kulungi. Kiseera kyo, {person|lower}.",
+      "takeBack": "Ddamu ekitundu ekisembayo",
+      "takeBackPass": "Ddamu okuyita okwasembayo",
+      "tookBack": "Ekitundu kiddizibwa. Kiseera kyo, {person|lower}.",
+      "tookBackPass": "Okuyita kuddizibwa. Kiseera kyo, {person|lower}.",
+      "colorChanged": "{person} kati alina {color|lower}.",
+      "restarted": "Ekigero kiri kyereere. Kiseera kyo, {person|lower}.",
+      "print": "Kuba ekigero",
+      "sheetTitle": "Mukole wamu",
+      "sheetHelp": "Mukyusakyusa. Mu kasanduuko akatalimu kintu, buli muntu akola ekifaananyi kye n'ekaalaamu ye.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Kwata ekitundu, oluvannyuma kwata ekifo ekiri mu kifaananyi gye kigenda. Tewali ky'okola ekuumibwa oba kisindikibwa.",
+      "hints": "Laga layini ez'okulungamya",
+      "pictureLine": "Kino kiri {picture}.",
+      "pictures": {
+        "house": "ennyumba",
+        "boat": "eryato",
+        "tree": "omuti",
+        "fish": "ekyennyanja",
+        "cat": "ekinyeebwa",
+        "rocket": "roketi"
+      },
+      "outlineLabel": "Ekisiikirize kya {picture}. Kwata akasanduuko okussaamu ekitundu ekirondeddwa.",
+      "trayHeading": "Ebitundu",
+      "pieces": {
+        "large-triangle": "Ensatu ennene",
+        "small-triangle": "Ensatu ento",
+        "square": "Sikweya",
+        "parallelogram": "Parallelogiramu",
+        "rectangle": "Ensonda"
+      },
+      "shapes": {
+        "large-triangle": "ensatu ennene",
+        "small-triangle": "ensatu ento",
+        "square": "sikweya",
+        "parallelogram": "parallelogiramu",
+        "rectangle": "ensonda"
+      },
+      "chosenLabel": "Elondeddwa",
+      "spaceEmpty": "Ekifo {n}, {shape}, tekirimu kintu",
+      "spaceFilled": "Ekifo {n}, {shape}, kirimu ekitundu kyakyo. Kwata okuddize ekitundu emabega.",
+      "chosen": "{piece} elondeddwa. Kaakano kwata ekifo ekiri mu kifaananyi.",
+      "unchosen": "Kipande si kikyasemu kulondebwa nate.",
+      "placed": "Akapande kali mu kifo {n}.",
+      "complete": "{picture} kimaze.",
+      "different": "Akapande ako kakwata ekifaananyi ekirala okuva ku kifo kino. Gezaakoekifo ekirala.",
+      "needPiece": "Okusooka londa akapande ku kibbo.",
+      "filled": "Ekifo kino kiriko akapande kaakyo. Kikwate okuggyayo akapande.",
+      "tookBack": "Akapande kadda ku kibbo.",
+      "cleared": "Ebitundu byonna biddayo ku kibbo. Obiddize singa okyusizza endowooza.",
+      "restored": "Ebitundu biddayo mu kifaananyi.",
+      "next": "Kino kye kifaananyi kya {picture}.",
+      "putBack": "Kidde mu kifo kyakyo",
+      "another": "Ekifaananyi ekirala",
+      "print": "Sindika ekifaananyi kino",
+      "sheetTitle": "Ebifaananyi ebitategeerekeka",
+      "sheetHow": "Kola ebitundu, oba obisalemu okutuukana n'ensalosalo. Omuntu omukulu asobola okusalaako.",
+      "sheetPieces": "Ebitundu, ebya bunene bumu n'ensalosalo"
+    },
+    "picnicPlanner": {
+      "guidance": "Kwata ekifaananyi okikuumire mu kibbo ky'okulya ebweru, era okikwate mu kibbo okiggyeyo. Ekibbo kiyinza ebintu mukaaga.",
+      "guidancePlay": "Kwata ebifaananyi bibiri ebifaanagana. Ebifaananyi bisigala nga bilabika, era tewali budde bupimibwa.",
+      "basketHeading": "Ekibbo kyaffe",
+      "basketLabel": "Ekibbo ky'okulya ebweru",
+      "takeOut": "Ggyawo {picture} mu kibbo",
+      "inBasket": "Mu kibbo",
+      "foodHeading": "Emmere",
+      "outingsHeading": "Ebintu eby'okukola",
+      "added": "{picture} kiri mu kibbo.",
+      "removed": "{picture} kiggiddwa mu kibbo.",
+      "already": "{picture} kiriko mu kibbo dda. Kikwate omu kibbo okiggyeyo.",
+      "full": "Ekibbo kijjudde. Ggyamu ekintu okutegeka ekifo.",
+      "summary": "Okulya kwaffe ebweru: {list}.",
+      "summaryNone": "Tewali kintu kiri mu kibbo kaakano.",
+      "and": "ne",
+      "play": "Tuzannyire n'ekibbo kyaffe ky'okulya ebweru",
+      "needTwo": "Okusooka londa ebintu byibuli bibiri ku bubwo.",
+      "playAgain": "Zannya nate",
+      "back": "Ddayo ku kulya ebweru",
+      "print": "Sindika olukalala lwaffe olw'okulya ebweru",
+      "cleared": "Ekibbo kiwedde.",
+      "notice": "Kino kye kiteeso ky'okwogerako. Tewali budde bupimibwa, tewali kubalirirwa oba okutereka.",
+      "sheetTitle": "Olukalala lwaffe olw'okulya ebweru",
+      "sheetHow": "Kuba akabonero ku buli kintu ng'okiteeka mu kipakiro. Kozesa emitendera emitaliimu kintu okuteekamu ebirala by'oyagala okutwala.",
+      "sheetToPack": "Ebiteekwa mu kipakiro"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Londa ebifaananyi byo bibiri okutuuka ku kkumi na bibiri okutandika ekitabo.",
+      "guidance": "Kyusa empapula awamu, nga okozesa ebitani oba obutala bwa Left ne Right. Ssaawo ebigambo bitono wansi w'ekifaananyi bw'oyagala. Tewali ky'okola ekitereka oba ekiweerezebwa.",
+      "lookGuidance": "Lengera buli lupapula awamu. Oyinza okwogera oba okulaba buwombeefu.",
+      "intro": "Londa ebifaananyi bibiri okutuuka ku kkumi na bibiri okuva ku kyuma kino. Buli kimu kifuuka lupapula lw'ekitabo ky'osobola okukyusa awamu.",
+      "consent": "Kozesa ebifaananyi byo eby'omu maka. Buuza nga tokozesa kifaananyi kya muntu atasobola kukkiriza.",
+      "privacy": "Ebifaananyi byo bisigala ku kyuma kino. Tebisindikibwa wadde okutereka.",
+      "choose": "Londa ebifaananyi",
+      "chooseDifferent": "Londa ebifaananyi ebirala",
+      "backToBook": "Ddayo ku kitabo",
+      "backToChoose": "Ddayo ku kulonda ebifaananyi",
+      "needTwo": "Londa ebifaananyi byibuli bibiri ku bubwo.",
+      "usingFirst": "Tukozesa ebifaananyi {max} ebisooka.",
+      "cleared": "Ekitabo kiggyiddwamu. Londa ebifaananyi okutandika nate.",
+      "moved": "Kitwaliddwa ku lupapula {n}.",
+      "pageOf": "Lupapula {n} mu {total}",
+      "lookTogether": "Lengera awamu",
+      "leaveLook": "Ddayo ku kitabo",
+      "print": "Sindika ekitabo ky'ebifaananyi",
+      "clear": "Ggyawo ekitabo",
+      "bookLabel": "Ekitabo ky'ebifaananyi ky'omu maka",
+      "pagesLabel": "Kyusa empapula",
+      "previous": "Olupapula oluyise",
+      "next": "Olupapula oluddako",
+      "moveEarlier": "Teeka emabega",
+      "moveLater": "Teeka mu maaso",
+      "captionLabel": "Ebigambo bitono ku lupapula luno, bw'oyagala",
+      "captionHelp": "Okutuuka ku bigambo 80. Ebigambo bisigala ku lupapula luno lwokka era bigenda bw'osaba.",
+      "sheetTitle": "Ekitabo kyaffe ky'ebifaananyi",
+      "sheetHow": "Ekifaananyi kimu ku lupapula, n'ebigambo wansi waakyo. Kyusa empapula mu nkola yaazo era oteseganye ku buli kimu.",
+      "sheetEmpty": "Londa ebifaananyi byo ku lupapula lw'omuzannyo okusindika ekitabo kyo, oba sindika olupapula olutaliimu nteekateeka n'osiba ekifaananyi ekisindikiddwa.",
+      "sheetFrame": "Siba ekifaananyi ekisindikiddwa wano",
+      "sheetWords": "Ebigambo bitono ku lupapula luno",
+      "skipped": {
+        "one": "Faayiro {n} teyali kifaananyi ekisobola okukozesebwa.",
+        "other": "Faayiro {n} tezaali bifaananyi ebisobola okukozesebwa."
+      }
+    },
+    "quietScene": {
+      "guidance": "Lengera ekifaananyi kimu mu kiseera. Nyiga Ekiddako oba Ekiyise bw'oba weetegese. Tewali kintu kikyuka kyekka.",
+      "next": "Ekifaananyi ekiddako",
+      "previous": "Ekifaananyi ekiyise",
+      "bigPicture": "Ekifaananyi ekinene",
+      "showEverything": "Laga byonna",
+      "first": "Ekifaananyi kino kye kisooka.",
+      "last": "Ekifaananyi kino kye kisembayo.",
+      "lines": {
+        "sunrise": "Enjuba evaayo ku nsi.",
+        "window-with-birds": "Ennyonyi ebweru w'ddirisa.",
+        "vase-of-flowers": "Ekibya ky'ebimuli ku mmeeza.",
+        "teacup": "Kikopo ky'omwenge gwa tiiye awali ddirisa.",
+        "tree": "Omuti oguyimiridde mu nnimiro.",
+        "sailboat": "Eryato ery'empewo ku mazzi.",
+        "lighthouse": "Ttaala ku nnyanja.",
+        "rainbow": "Enkuba ey'emyaka oluvannyuma lw'enkuba.",
+        "moon": "Omwezi mu ggulu ekiro.",
+        "daisies": "Ekibanja ky'ebimuli by'emmwanyi mu njasi.",
+        "rowing-boat": "Eryato ery'okuwuga ku mazzi agatambula bitono.",
+        "potted-plant": "Ekimera ekibisi mu ntamu."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Mukyusa. Kwata ekitundu ekisaliddwa, oluvannyuma kwata ekifo ekitaliimu kintu okikiteeko. Tewali ky'okola ekitereka oba ekiweerezebwa.",
+      "people": [
+        "Omuntu asooka",
+        "Omuntu ow'okubiri"
+      ],
+      "marks": [
+        "ekyuma ekyeetooloddwa",
+        "ekisanja"
+      ],
+      "turn": "Kiro kyo, {person|lower}.",
+      "marked": "Ebitundu byo biriko akabonero ka {mark}.",
+      "boardLabel": "Ekipande ekigabanyizibwa",
+      "placeEmpty": "Ekifo {n}, kitaliimu kintu",
+      "placeFilled": "Ekifo {n}, {picture|lower}, ekiteekeddwa {person|lower}",
+      "trayHeading": "Ebitundu ebisaliddwa",
+      "chosenLabel": "Akalonde",
+      "chosen": "{picture} kirondeddwa. Kaakano kwata ekifo ekitaliimu kintu.",
+      "unchosen": "Ekitundu ekisaliddwa tekikyalondeddwa.",
+      "needCutout": "Okusooka londa ekitundu ekisaliddwa, oluvannyuma kwata ekifo ekitaliimu kintu.",
+      "filled": "Ekifo {n} kiriko ekifaananyi dda. Londa ekifo ekitaliimu kintu.",
+      "placed": "{picture} kiri mu kifo {n}. Kiro kyo, {next|lower}.",
+      "full": "Buli kifo kiriko ekifaananyi. Ggyamu kimu okikyuse, oba tandika nate.",
+      "pass": "Yitawo",
+      "passed": "Okuyita kirungi. Kiro kyo, {person|lower}.",
+      "takeBack": "Ggyayo ekitundu ekisembayo",
+      "takeBackPass": "Ggyayo okuyita okwasembayo",
+      "tookBack": "Ekitundu kiggyiddwawo. Kiro kyo, {person|lower}.",
+      "tookBackPass": "Okuyita kuggyiddwawo. Kiro kyo, {person|lower}.",
+      "restarted": "Ekipande kitaliimu kintu. Kiro kyo, {person|lower}.",
+      "putBack": "Kidde mu kifo kyakyo",
+      "putBackDone": "Ebitundu biddayo ku kipande.",
+      "another": "Ekirala ky'ebifaananyi",
+      "anotherSet": "Ekirala ky'ebitundu ebisaliddwa kiteekeddwa mu kibbo. Ebitundu ebiri ku kipande bisigala gye biri.",
+      "print": "Sindika ekipande",
+      "sheetTitle": "Ekipande ky'ebifaananyi ebigattiddwa",
+      "sheetHow": "Sala ebifaananyi wanutte mukyuse okubiteeka ku kipande. Omuntu omukulu asobola okusalaako.",
+      "sheetTray": "Ebifaananyi eby'okusala"
+    },
+    "gardenPlanner": {
+      "guidance": "Kwata ekifaananyi, oluvannyuma kwata ekitanda okikiteeko. Kwata ekitanda ekiriko ekifaananyi, nga tewali kyalondeddwa, okikiggyeeko.",
+      "bedsLabel": "Ebitanda by'ennimiro",
+      "bedEmpty": "Ekitanda {n}, kitaliimu kintu",
+      "bedFilled": "Ekitanda {n}, {picture|lower}",
+      "plantsHeading": "Ebimera",
+      "extrasHeading": "Ebirala eby'omu nnimiro",
+      "chosenLabel": "Akalonde",
+      "chosen": "{picture} kirondeddwa. Kaakano kwata ekitanda.",
+      "unchosen": "Tewali kifaananyi kirondeddwa.",
+      "needPicture": "Londa ekifaananyi ekisooka, oluvannyuma nnyiga ekitanda.",
+      "planted": "Ekifaananyi {picture} kiri mu kitanda {n}.",
+      "replaced": "Ekifaananyi {picture} kidda mu kifo ky'ekifaananyi ekiri mu kitanda {n}.",
+      "cleared": "Ekitanda {n} tekiriimu kintu. Singa oyagala ekifaananyi nate, kidde mu kitanda.",
+      "restarted": "Buli kitanda tekiriimu kintu.",
+      "putBack": "Zzaayo",
+      "putBackDone": "Ebifaananyi biddiddwa mu bitanda byabyo.",
+      "summaryHeading": "Ennimiro yange",
+      "summary": "Enteekateeka yo erimu {list}.",
+      "summaryNone": "Tewali kifaananyi kiri mu kitanda kyonna.",
+      "and": "ne",
+      "print": "Siiga enteekateeka",
+      "sheetTitle": "Enteekateeka yaffe ey'ennimiro",
+      "sheetHow": "Ebitanda biraga ebifaananyi ebirondeddwa ku ssirini. Singa oyagala, kuba ebifaananyi mu bitanda ebitaliimu kintu.",
+      "sheetNotes": "Ebiwandiiko",
+      "notice": "Eno y'enteekateeka ey'ebifaananyi ey'okwogerako, si magezi ga kusimba bimera."
+    },
+    "coloringWall": {
+      "guidance": "Londa ekifaananyi n'omuwendo gw'empapula. Siiga bbugwe, buli muntu asiige langi empapula emu oba nnyingi. Tewali kibalibwa, tewali kipimibwa mu biseera, era tewali kitereekebwa.",
+      "pictureLegend": "Ekifaananyi",
+      "sizeLegend": "Empapula mmeka",
+      "sizes": {
+        "2x2": "Empapula 4 (2 ku 2)",
+        "3x2": "Empapula 6 (3 ku 2)",
+        "3x3": "Empapula 9 (3 ku 3)"
+      },
+      "previewLabel": "Ekifaananyi {picture|lower} kyagabanyizibwamu empapula {n}, {across} mu bugazi ne {down} mu buwanvu. Buli lupapula lulina akabonero mu nsonda yalwo.",
+      "previewCaption": "Ekifaananyi nga kiriko enkonkoma z'empapula n'obubonero.",
+      "labelsNote": "Ennukuta zigenda wansi ku bbugwe ate namba zigenda mu bugazi bwayo, kale A1 y'olupapula olw'omu kkono ku ntikko.",
+      "wallHeading": "Engeri y'okuteeka bbugwe wamu",
+      "steps": [
+        "Siiga empapula zonna. Olupapula olusooka lulimu emitendera gino n'ekifaananyi kya bbugwe.",
+        "Buli muntu addira olupapula lumu oba nnyingi n'alusiiga langi.",
+        "Langi n'engeri y'okukola tezeetaaga kwenkana. Buli lupapula lutuukiriza ekifaananyi kimu.",
+        "Teeka empapula mu nteekateeka y'obubonero bwazo, oluvannyuma zikwatire wamu n'akatimba ku mabega.",
+        "Teeka bbugwe awantu buli muntu w'asobola okulaba."
+      ],
+      "mapLabel": "Ekifaananyi kya bbugwe: emirongo {down} buli emu erimu empapula {across}, nga ziriko obubonero okuva ku A1 okutuuka ku {last}.",
+      "edgeNote": "Ennyiriri ezitali nnywevu zirambika ensalo ya buli lupapula. Teeka empapula ensalo ku nsalo, oba zibikkeko katono.",
+      "pictureLine": "Ekifaananyi: {picture}. Bbugwe lino lirimu empapula {n}: {across} mu bugazi ne {down} mu buwanvu.",
+      "print": "Siiga bbugwe"
+    },
+    "findTogether": {
+      "guidance": "Mukyukiragana. Ku kiseera kyo, kyusa kaadi bbiri onoonye ekigatte. Munoonyeze awamu ebigatte.",
+      "sizeLegend": "Kaadi mmeka",
+      "size": "Kaadi {n}",
+      "viewLegend": "Engeri y'okuzannyamu",
+      "viewShowing": "Zannya nga ebifaananyi biraga",
+      "viewHidden": "Kaadi zisibiddwa wansi",
+      "people": [
+        "Omuntu asooka",
+        "Omuntu ow'okubiri"
+      ],
+      "turn": "Kiseera: {person}",
+      "turnDone": "Ebigatte byonna bizuuliddwa.",
+      "tally": "Ebigatte bye muzudde awamu: {n}",
+      "cardNamed": "{name}, kaadi {n}",
+      "cardFaceDown": "Kaadi {n}, esibiddwa wansi",
+      "first": "{name}. Kaakano kyusa kaadi ey'okubiri.",
+      "found": "{name}: ekigatte, mukizudde awamu. Kaakano kiseera kya {next|lower}.",
+      "allTogether": "Mwazudde ebigatte byonna awamu.",
+      "different": "{a} ne {b} tiziringana. Mwongere ekiseera, oluvannyuma nyiga “Zikyuse nate”.",
+      "waiting": "Nyiga “Zikyuse nate” bw'oba oweddeko. Oluvannyuma kiseera kiyitawo.",
+      "turnedBack": "Bikyuddwa nate. Kaakano kiseera kya {person|lower}.",
+      "passed": "Okuyisa tekikyamu. Kaakano kiseera kya {person|lower}.",
+      "turnBack": "Zikyuse nate",
+      "pass": "Yisa",
+      "playAgain": "Zannya nate"
+    },
+    "drawingDuet": {
+      "guidance": "Mukyukiragana, buli muntu akuba omurongo gumu, oluvannyuma akwasa kalaamu omulala. Buli muntu asobola okuyisa. Tewali kiweerezebwa wadde kimu. Ekifaananyi kiva ku lupapula luno kyokka bw'okitereka.",
+      "people": [
+        "Omuntu asooka",
+        "Omuntu ow'okubiri"
+      ],
+      "colorLegend": "Langi ya {person}",
+      "colors": [
+        "Kyenvu",
+        "Lalanje",
+        "Kiragala",
+        "Purple"
+      ],
+      "turn": "Kiseera kya {person}",
+      "penColor": "Langi y'peni: {color}.",
+      "canvasLabel": "Ekifaananyi ekikolebwa awamu, emirongo {n} okutuuka kaakano",
+      "canvasLabelOne": "Ekifaananyi ekikolebwa awamu, omurongo {n} okutuuka kaakano",
+      "keys": "Obusaale bukyusa akatiiti ka peni ku kifaananyi. Space essa peni wansi oba eyimusa.",
+      "penDown": "Essa peni wansi",
+      "penUp": "Yimusa peni",
+      "pass": "Yisa peni",
+      "passed": "Okuyisa tekikyamu. Kiseera kyo, {person|lower}.",
+      "takeBack": "Ggyawo omurongo gwange ogwasembayo",
+      "tookBack": "Omurongo ogwasembayo ogwa {person|lower} guggyiddwawo.",
+      "noLine": "Tewali murongo gwa {person|lower} gusobola kuggyawo.",
+      "restarted": "Olupapula lwereere. Omuntu asooka y'alina kiseera. Singa temwakigendereranga, mukizzeeyo.",
+      "putBack": "Zzaayo",
+      "restored": "Emirongo gizzeeyo nga bwe gyali.",
+      "save": "Tereka ekifaananyi",
+      "saved": "Ekifaananyi kyo kiwedde. Kozesa ekiyungo ky'okuwanula okukitereka ku kyuma kino.",
+      "download": "Wanula drawing-duet.png",
+      "print": "Siiga versiyo ey'empapula",
+      "sheetTitle": "Okukuba ekifaananyi awamu",
+      "paperRules": "Abantu babiri, olupapula lumu, peni bbiri. Mukyukiragana: buli omu akuba omurongo gumu oba ekifaananyi ekitono, oluvannyuma ayisa peni. Buli muntu asobola okuyisa. Tewali kifaananyi kituufu."
+    },
+    "colorWash": {
+      "guidance": "Siiga langi ennyogovu ku lupapula, emu emu. Ggyayo akaguwa okuyimirira, era oyimirire buli lwe weeyagalira. Tewali kitereekebwa wadde kikubibwa.",
+      "colorLegend": "Langi y'okusiiga",
+      "sizeLegend": "Obunene bw'akaguwa",
+      "colors": [
+        "Kyenvu",
+        "Lalanje",
+        "Kiragala",
+        "Purple"
+      ],
+      "sizes": {
+        "wide": "Mugazi",
+        "veryWide": "Mugazi nnyo"
+      },
+      "color": "Langi y'okusiiga: {color}.",
+      "brushDown": "Teeka akaguwa wansi",
+      "brushUp": "Ggyayo akaguwa",
+      "keys": "Obusaale bukyusa empeta y'akaguwa ku lupapula. Space essa akaguwa wansi oba eyimusa.",
+      "canvasLabel": "Olupapula lw'ennyogovu z'langi",
+      "fresh": "Olupapula oluggya",
+      "freshMessage": "Olupapula oluggya.",
+      "putBack": "Zzaayo",
+      "restored": "Olupapula lizzeeyo."
+    },
     "sortTogether": {
       "guidance": "Nyiga ku kifaananyi, oluvannyuma onyige ku kisero mwe kigendera.",
       "restart": "Ebifaananyi ebiggya",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} kisobola okugenda mu \"{basket}\". Nyiga ku kisero ekyo okukiteekamu.",
       "placed": "{name|lower} kuli mu \"{basket}\".",
       "sorted": "Bikwataganyiziddwa byonna. Mubitunuulire wamu mu bisero, oba mugezeko omulamwa omulala.",
+      "largerTargets": "Ebifo ebinene",
+      "largerOn": "Ebifo ebinene biriko. Tewali kikyuse.",
+      "largerOff": "Ebifo ebinene tebiriko. Tewali kikyuse.",
+      "largerOnNewRound": "Ebifo ebinene biriko, nga waliwo ebibbo bibiri. Wano waliwo ebifaananyi ebipya eby'okusengula.",
       "basket": {
         "one": "Ekisero kya {basket}, mulimu ekifaananyi {count}",
         "other": "Ekisero kya {basket}, mulimu ebifaananyi {count}"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Nyiga ku kitundu kimu, oluvannyuma onyige ku kirala. Bijja kukyusaganya ebifo.",
-      "restart": "Tabaatabamu buto",
+      "restart": "Mix up again",
       "pictureLegend": "Ekifaananyi",
       "pictures": {
         "sailboat": "Ekyombo",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Ekifaananyi kyonna: {name}",
       "guideText": "Bw'kiti ekifaananyi bwe kifaanana nga kijjudde.",
+      "ownChoose": "Kozesa ffoto yo",
+      "ownChange": "Londa ffoto endala",
+      "ownBack": "Ddayo ku bifaananyi byaffe",
+      "ownPrivacy": "Ffoto yo esigala ku kyuma kino. Tegisindikibwa wadde okutereekebwa.",
+      "ownConsent": "Kozesa ffoto zo. Buuza nga tonnakozesa ffoto y'omuntu atasobola kukkiriza.",
+      "ownWorking": "Ffoto yo etegekebwa.",
+      "ownNotUsable": "Fayiro eyo tesobodde kukozesebwa. Londa fayiro ya ffoto, nga JPEG oba PNG.",
+      "ownAlt": "Ffoto yo",
+      "ownPiece": "Ekitundu {n}, {place}",
+      "ownWhole": "Ffoto yo ebeera nate yonna. Ogikyuse nate buli lwe weeyagalira.",
+      "ownSheetTitle": "Ffoto yo mu bitundu",
+      "ownSheetHow": "Sala ku nnyiriri. Gikyuse ebitundu, oluvannyuma okyusekyuse ebitundu bibiri mu kiseera kimu okutuusa ekifaananyi kibeera kyonna.",
       "piece": "Ekitundu ekiri mu {place}",
       "pieceInPlace": ", mu kifo ekituufu",
       "piecePickedUp": ", kikitiddwa",
@@ -122,7 +786,7 @@
         "wansi ku ddyo"
       ],
       "done": "Ekifaananyi kijjudde buto. Zzamu ozannye oba wummulamu.",
-      "playAgain": "Tabaatabamu buto"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Musomere wamu olugero luno, oluvannyuma onyige ku kigambo ekirumaliriza.",
@@ -190,6 +854,14 @@
       "guidance": "Soma kaada eno mu ddoboozi ery'omwanguka. Tewali kuddamu kutuufu kwokka.",
       "position": "Kaada {n} ku {total}",
       "themeLegend": "Omulamwa",
+      "showPrompt": "Laga ekisikiriza okwogera",
+      "bigPicture": "Ekifaananyi ekinene, ky'ekibinja",
+      "passNote": "Buli muntu asobola okuyisa.",
+      "groupTitle": "Okuyisa kaadi mu kibinja",
+      "groupSit": "Mutuule mu bwetoolo awatali buzibu buli muntu w'alaba ekifaananyi. Omuntu akutte kaadi, oba ekyuma ekirina ekifaananyi ekinene, asooka okusoma ekisikiriza mu ddoboozi.",
+      "groupPass": "Oluvannyuma yisa kaadi omuntu ageddako. Buli muntu ayogera ekigambo oba olunyiriri ku kifaananyi, oluvannyuma aliyisa.",
+      "groupNoSpeech": "Okuyisa kaadi kikkirizibwa buli kiseera. Omuntu asobola okuyisa awatali kwogera, era tewali n'omu yeetaaga kunnyonnyola lwaki.",
+      "groupEnd": "Omuzannyo guggwa kaadi bw'eba etambudde wonna mu ttabamiruka, oba ekibinja bwe kiba kimaze. Tewali awangula. Kikomye essaawa yonna ekibinja kye kiyagaliza.",
       "next": "Kaada eddako",
       "previous": "Kaada eyise",
       "print": "Fulumya kaada zonna",
@@ -252,6 +924,20 @@
       "started": "Kitandise. Ssa omukka munda ekyetoolo bwe kiba kigaziwa.",
       "stopped": "Kiyimiriziddwa.",
       "finished": "Gano gabadde masooba mukaaga ag'ompolampola. Tandika nate buli lw'oba oyagadde."
+    },
+    "storyChain": {
+      "guidance": "Mukyuse: buli muntu ayogere omusango gumu, ng'ongerako ekifaananyi ekiddako.",
+      "passNote": "Yogera omusango gwo waggulu. Tewali kikubibwa wadde okutereka. Buli muntu asobola okuyitako.",
+      "chainLabel": "Olujegere olutuuse kati",
+      "item": "Ekifaananyi {n}: {name}",
+      "add": "Ongerako ekifaananyi",
+      "fullAdd": "Olujegere lujjudde. Tandika olujegere oluggya",
+      "newChain": "Tandika olujegere oluggya",
+      "takeOff": "Ggyako eyasembayo",
+      "added": "{name|lower} kati kiri ku nkomerero y'olujegere.",
+      "removed": "{name|lower} kiggiddwa ku lujegere.",
+      "fresh": "Olujegere oluggya, olutandikira ku {name|lower}.",
+      "full": "Olujegere lulimu ebifaananyi munaana. Yogera olugero lwonna, oba otandike olujegere oluggya."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Kire ky'enkuba",
     "snowflake": "Kamyufu k'omuziira",
     "kite": "Kkaayiti",
-    "sunrise": "Njuba ng'evaayo ku nsozi"
+    "sunrise": "Njuba ng'evaayo ku nsozi",
+    "decorated-keepsake-box": "Kasanduuko ey'obujjukizo eyonjebbwa",
+    "painted-plant-pot": "Ensuwa y'ebimera eyasiigibwako langi n'ebikoola by'akawoowo",
+    "repeating-pattern-sheet": "Olupapula lw'ensengeka eziddiŋŋana",
+    "music-drawn-lines": "Emirongo egisikiriddwa ku nyimba",
+    "paper-boat-afloat": "Eryato ery'olupapula ku mazzi",
+    "folded-towel-stack": "Olundi lw'amataawo agazingiddwa",
+    "hand-massage-with-lotion": "Omukono ku ttaawo, n'amafuta",
+    "open-photo-album": "Album y'ebifaananyi eyaggule",
+    "button-flower-card": "Kaadi ey'ekimuli ky'ebbataani",
+    "blue-torn-paper-collage": "Ekikolo ky'empapula ez'ebbulu ezayuzibwa",
+    "family-tree-of-hands": "Omuti gw'ekika ogukoleddwa n'emikono",
+    "open-greeting-card": "Kaadi ey'okulamusa eggule, n'omutima",
+    "lavender-sachet": "Ekikokoola kya layavenda ekisibiddwa n'omusipi",
+    "memory-collage-of-photos": "Ekikolo ky'ebifaananyi by'ab'omu maka",
+    "paper-chain-garland": "Olusogolo lw'empapula ezisibiddwa",
+    "open-songbook-with-notes": "Ekitabo ky'ennyimba ekiggule, ekirimu obubonero bw'ennyimba",
+    "photo-postcard-with-stamp": "Kaadi y'ekifaananyi ng'erina stampu",
+    "pine-cone-bird-feeder": "Ekyokuliisa ennyonyi ekya payini ekiwanikiddwa ku ttabi",
+    "playlist-phone-and-card": "Essimu n'olukalala lw'ennyimba ne kaadi",
+    "sealed-rice-shaker": "Ekikonkoona ky'omuceere ekiggaddwa",
+    "texture-board-with-scraps": "Ekipande ky'ebitundu by'obuwoowo obw'enjawulo",
+    "painted-garden-stone": "Ejjinja ery'omu lusuku eryasiigibwako langi",
+    "shared-painted-canvas": "Kanvasi ey'awamu eyasiigibwako langi",
+    "watercolor-washes-sheet": "Langi ez'amazzi ku lupapula",
+    "seedling-in-pot": "Ensigo ezimeruka mu nsuwa",
+    "pressed-leaves-in-book": "Ebikoola ebinyigiddwa mu kitabo",
+    "printed-leaves-sheet": "Olupapula lw'ebikoola ebikubiddwa",
+    "pinch-pot-clay-bowl": "Ekibya ky'ebbumba ekikoleddwa n'engalo",
+    "table-sketch-pencil": "Ekifaananyi ky'ekikopo ekikoleddwa n'ensulo",
+    "buttons-in-muffin-tin": "Bbataani ezitegekeddwa mu kibya kya keeki",
+    "family-recipe-book": "Ekitabo ky'emmere ky'ab'omu maka",
+    "drum-with-beat-marks": "Ngoma ey'ameeza n'enkoni",
+    "torn-paper-flower": "Ekikolo ky'ekimuli ky'empapula ezayuzibwa",
+    "window-with-birds": "Ddirisa n'ennyonyi",
+    "woven-paper-mat": "Ntiiko ey'empapula eziluke",
+    "yarn-ball-with-thread": "Mupiira gw'obuwuzi",
+    "letter-and-envelope": "Baluwa mu nsawo"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Ebweru"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Ebibala",
+        "animals": "Ensolo",
+        "travel": "Engeri z'okutambulamu",
+        "flowers": "Ebimuli",
+        "hot-drinks": "Ebintu eby'ekyokunywa ekyokya",
+        "weather": "Ebika by'embeera y'obudde",
+        "baked": "Ebintu ebyokebwa mu vvuuni"
       }
     }
   }

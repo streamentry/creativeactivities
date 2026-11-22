@@ -36,6 +36,6 @@ describe('ColorMatch', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'color-match').ui.colorMatch.next).toBe('Another color');
+    expect(playProps('xx', 'color-match').ui.colorMatch.next).toBe('Another color');
   });
 });

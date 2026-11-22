@@ -5,6 +5,13 @@
       "stopReading": "Ñawinchayta sayachiy",
       "region": "Pukllay",
       "restart": "Kaqmanta qallariy",
+      "rest": "Kunanqa samariy",
+      "restingTitle": "Samakuchkan",
+      "restingText": "Munasqaykiman hina samaykuy. Kay paginapin waqaychasqa kanqa.",
+      "resume": "Qatipay",
+      "placeText": "Ñawpa kutipi chawpipi saqisqayki. Chaymanta qatipay, icha musqumanta qallariy.",
+      "placeResume": "Qatipay",
+      "placeFresh": "Musqumanta qallariy",
       "soundOn": "Llampu ruqyay kacharisqa",
       "soundOff": "Llampu ruqyay wañuchisqa",
       "done": "Kunanpaqqa kaykamalla",
@@ -43,7 +50,19 @@
       "viewShowing": "Rikukuq rikch'aykuna",
       "viewHidden": "Pakasqa rikch'aykuna",
       "playAgain": "Musuq rikch'aykunawan kaqmanta pukllay",
-      "talk": "Kuska rikch'aykunamanta rimariy"
+      "talk": "Kuska rikch'aykunamanta rimariy",
+      "modeLegend": "Mayqin rikchakuna",
+      "modePlay": "Imapas rikchakuna",
+      "modeDaily": "Kunan p'unchay tarjeta",
+      "dayLegend": "Mayqin p'unchay",
+      "dayHelp": "Llapa runakunapaq kikin rikchakunam chay p'unchaypi tiyan. Ñawpaq p'unchaykunapas kanmi, p'unchayta mana qawaspaykipas mana imapas pisiyanchu.",
+      "guidanceDaily": "Kunan p'unchay tarjetan tawa par kallpan. Rikchata ch'aqay, chaymantataq chaywan tupaq rikchata ch'aqay.",
+      "restartDaily": "Kay tarjetata musqumanta qallariy",
+      "copy": "Kay qillqata kopiay",
+      "copied": "Kopiasqa. Mana maymanpas apachisqachu.",
+      "calendarTitle": "Kunan p'unchay tarjetakuna, {month}",
+      "calendarHelp": "Sapa p'unchaypi llapa runakunapaq tawa rikcha kan. Mana puntuchasqachu, mana ima p'unchaytapas pantasqa nispa qhawasqachu.",
+      "calendarVersion": "Version {date}. Rikchakunam llapa runakunapaq kikin p'unchaypi tiyan."
     },
     "choose": {
       "countLegend": "Hayk'a rikch'aykuna",
@@ -62,6 +81,635 @@
       "shadowAlt": "Tinkuchinapaq llanthu",
       "foundAlt": "{name|lower} llanthun"
     },
+    "fourTogether": {
+      "hintLegend": "Yanapakuykuna",
+      "hintOn": "Pisi isquspa yanapakuy",
+      "hintOff": "Mana yanapakuykunachu",
+      "guidance": "Tupariy {n} rikchakunata, kuska kaqkunata, hinaspa sapankata ch'aqay.",
+      "countLegend": "Hayk'a rikchakuna",
+      "count": "{n} rikchakuna",
+      "found": "Arí, {name|lower} kay ayllumpim kan.",
+      "elsewhere": "{name|lower} waq imawan kuska kanman. Sumaqta yuyaykuy.",
+      "hint": "Yanapakuy: qhawariy {theme|lower} kaqkunata.",
+      "together": "Kaykunaqa kuskam kanku: {theme}.",
+      "shown": "Kaymi ayllu: {theme}.",
+      "groupName": "Kuska: {theme}",
+      "show": "Ayllutaqa rikuchiy",
+      "next": "Huk huñu"
+    },
+    "oddOneOut": {
+      "hintLegend": "Yanapakuykuna",
+      "hintOn": "Pisi isquspa yanapakuy",
+      "hintOff": "Mana yanapakuykunachu",
+      "guidance": "Tarikuy waq rikchakunawan mana kuska kaq rikchata, hinaspa ch'aqay.",
+      "countLegend": "Hayk'a rikchakuna",
+      "count": "{n} rikchakuna",
+      "belongs": "{name|lower} waq rikchakunawanmi kuska kan. Sumaqta yuyaykuy.",
+      "found": "Arí, {name|lower} mana kaqllachu. Waqkunaqa {theme|lower}.",
+      "shown": "Kaymi: {name|lower}. Waqkunaqa {theme|lower}.",
+      "hint": "Yanapakuy: {n} kaykunaqa {theme|lower}.",
+      "others": "Waqkunaqa: {theme}",
+      "show": "Rikuchiway",
+      "next": "Huk huñu"
+    },
+    "seatedToss": {
+      "guidance": "Mesa patapi tiyaykuspa turnukuspa, hatun blancoman sapa kuti purutu bolsa pallay. Yupaykunata papelpi kuska waqaychay.",
+      "stepsHeading": "Imaynatam ruwakun",
+      "steps": [
+        "Blancota, yupay papelta lluqsichiy, hinaspa mesa patapi chawpi lliullapi churay.",
+        "Sumaqta tiyakuy, sapankaqa huk kallapi. Turnukuspa sapa huk suwa pallayta ruway, otaq munaspaykiqa pasay.",
+        "Pallaykuq anillo ukhuman chayaqtinqa, kikin columnanpi huk casillata t'impun, chay anillopa filanpi.",
+        "Ch'aqtaspaykiqa, munaspaykiqa, t'impukunata kuska qhawariy. Mana pipas ima yupaytapas yupanan kanchu.",
+        "Pipas samayta munaqtin tukuy."
+      ],
+      "safetyHeading": "Waqaychay",
+      "safetyLine": "Qepa qhawasqa bolsallapi icha ch'usaq medyawanmi pallay, tiyasqa kay, rostroman mana pallaychu, hinaspa hatun runa qayllapi kay. Pisi kaqkunaqa ahogakuyman apawanchis.",
+      "flags": [
+        "Mana 3 watayuqmanta pisikunapaq: pisi kaqkuna",
+        "Simi ukhuman ama churaychu"
+      ],
+      "safety": [
+        "Qepa qhawasqa bolsata akllay, icha sumaq ch'usaq medyata watay. Ñawpaqta qhawariy: mana k'uchu kanchu, mana ima lluqsinanpaq.",
+        "Purutu, arroz, wakin pisi imakunaqa ahogakuyman apawanchis. Wawakunamanta, simiman imatapas churaq runakunamanta karunchay.",
+        "Makiykipa ayllupi kay. Simiman imatapas churanman chayqa, sumaqta qhaway.",
+        "Tiyasqa kay. Sumaqllata, mesapi blancoman pallay; rostroman mana pallaychu."
+      ],
+      "previewLabel": "Papel lluqsisqa: kimsa anillo blancowan, nombrasqa Qayllapi, Chawpi, Karu, hawamanta chawpiman. Columna sapa runapaq, filas sapa anillopaq casillakunawan.",
+      "sheetHow": "Papelta mesa patapi chawpipi churay. Pallay anillo ukhuman chayaqtinqa, kikin columnaykipi, chay anillopa filanpi huk casillata t'impuy.",
+      "rings": [
+        "Qayllapi",
+        "Chawpi",
+        "Karu"
+      ],
+      "people": [
+        "Ñawpaq runa",
+        "Iskay runa"
+      ],
+      "ringHeading": "Anillo",
+      "print": "Blancota hinaspa yupay papelta lluqsichiy"
+    },
+    "seasonalPack": {
+      "guidance": "Huk killa akllay, kimsa papel tupanakunata lluqsichiy, hinaspa huk, iskay icha llapanta kuska ruway.",
+      "monthLegend": "Huk killa akllay",
+      "months": [
+        "Enero",
+        "Pebrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Setiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "monthNote": "Sapa killapi kikin rikchakuna kan. Kay paginaqa kay killamanta qallarin, huk killatapas akllayta atinki.",
+      "restDay": "Kunan p'unchayqa samanapaq p'unchay",
+      "restLine": "Kunan p'unchay mana tupanakunachu. Samay p'unchaypas allin p'unchaymi.",
+      "previewHeading": "Kimsa tupana",
+      "puzzles": {
+        "pairs": {
+          "title": "Iskaykunata tupay",
+          "how": "Hanaq filapi sapa rikchamanta, uraq filapi kikin rikchaman huk t'iqata ruway.",
+          "describe": "Kikin tawa rikchakunapa iskay filan, hukniraq ruwaypi."
+        },
+        "different": {
+          "title": "Mayqinmi waqkunamanta huk?",
+          "how": "Kimsa waq rikchakunamanta huk kaq rikchata muyuriy.",
+          "describe": "Huk fila tawa rikchakunawan. Kimsanmi kikin, huknimi huk."
+        },
+        "color": {
+          "title": "Llunch'ay",
+          "how": "Rikchata munasqaykiman hina llunch'ay, lapiskunawan otaq lapiswan.",
+          "describe": "Huk hatun rikcha llunch'anapaq."
+        }
+      },
+      "print": "Kay killaq tupananta lluqsichiy",
+      "sheetHow": "Huk papelta lluqsichiy. Huk, iskay icha kimsa tupanata ruway, ima ruwaypipas.",
+      "printFooter": "Huk, iskay icha kimsanta ruway. Munasqaykiman hina tukuy."
+    },
+    "decorateACard": {
+      "guidance": "Huk ruwasqa akllay, hinaspa tarjetata kuska llunch'ay, lapiskunawan otaq lapiswan. Mana chiqan tarjeta kanchu.",
+      "occasionLegend": "Huk ruwasqa akllay",
+      "occasions": {
+        "birthday": {
+          "label": "Cumpleaños",
+          "words": "Cumpleaños allin kachun"
+        },
+        "thank-you": {
+          "label": "Yupaychay",
+          "words": "Yupaychani"
+        },
+        "thinking-of-you": {
+          "label": "Qanmanta yuyaspa",
+          "words": "Qanmanta yuyaspa"
+        },
+        "new-season": {
+          "label": "Musq'a tiempo",
+          "words": "Musq'a tiempo"
+        },
+        "just-because": {
+          "label": "Mana imarayku",
+          "words": "Mana imarayku"
+        }
+      },
+      "stepsHeading": "Imaynatam kuska llunch'anku",
+      "steps": {
+        "fold": "Tarjetata lluqsichiy, rayakuna chawpinpi iskaymanta huntay, ñawpaq lado hawaman kachun.",
+        "front": "Huk runa ñawpaq laduta llunch'an, simikunaq muyuriypi.",
+        "inside": "Hukniraq runa qhipa laduta llunch'an, otaq huk ladumanta turnukuspa.",
+        "message": "Kuska huk willakuyta qillqay. Huk runa qillqan, hukniraq simikunata niyta atin.",
+        "stop": "Munasqaykiman hina tukuy. Mana chiqan tarjeta kanchu, sencillu ruwasqapas allinmi."
+      },
+      "materials": "Lapiskunawan, lapiswan otaq rotulador-wan llunch'ay. Mana ima ch'utiyta, ch'askiyta, t'iqsiyta munanchu.",
+      "previewLabel": "Huntasqa tarjetapa rikuchiynin. Ñawpaq ladunpi {words} nisqa kanqa, rapra hawin chiqan maqtawan, kanchariywan. Qhipa ladunpi willakuyta qillqanapaq rayakuna, hinaspa Mayqinmanta nisqa huk rayaq.",
+      "from": "Mayqinmanta",
+      "sheetHow": "Karta chiqa rayawan kuchuychis, ñawpa lado hawaman kachun. Qhipa ladupi willakuyta qelqaychis.",
+      "rulesHeading": "Iskay runapaq",
+      "sheetRules": [
+        "Turnukuychis, icha llank'ayta rakiychis: huk runan ñawpa laduta sumaqyachin, huknin qhipa laduta.",
+        "Willakuyta iskaynikichis qelqaychis, icha huk runan qelqan huknin nisqanta.",
+        "Pipas pachapi tukuyta atin. Mana chiqa karta kanchu."
+      ],
+      "print": "Karta imprimiy"
+    },
+    "storyDice": {
+      "guidance": "Rikuychis sawuntakunata, hinaspa paykunawan willakuyta willaychis, ima tupuypipas. Mana chiqap willakuy kanchu.",
+      "countLegend": "Hayk'a dadu",
+      "count": "{n} dadu",
+      "roll": "Huk kutita tirachiy",
+      "pass": "Pasay",
+      "passed": "Pasayqa allinmi. Qhipa runa qallarinman, icha qan huk kutita tirachiyta atinki.",
+      "rolled": "Musuq sawuntakuna: {names}.",
+      "tapped": "{name}. Kaywanmi qallariy, icha huk ima chaywanpas."
+    },
+    "wordPicture": {
+      "guidance": "Huk sawunta tuqiychis, chaymanta sutinta rimaq simita. Icha huk simita tuqiychis, chaymanta sawuntanta.",
+      "countLegend": "Hayk'a sawun",
+      "count": "{n} sawun",
+      "picturesGroup": "Sawunkuna",
+      "wordsGroup": "Simikuna",
+      "readWord": "Kaskallata willay: {name}",
+      "next": "Musuq sawunkuna",
+      "putBack": "Kutichiy",
+      "pickWord": "Kunan tuqiychis chaywan tupaq simita.",
+      "pickPicture": "Kunan tuqiychis chaywan tupaq sawunta.",
+      "fit": "Arí, chay simi tupan: {name|lower}.",
+      "newSet": "Kaymi musuq sawunkuna.",
+      "restarted": "Qallariyman kutimuy. Llapa sawun, simipas mana tupasqa kanku.",
+      "restored": "Kutichisqa. Tupasqa iskaykuna rikukun.",
+      "all": "Llapa simipaqmi sawunnin kan."
+    },
+    "colorMatch": {
+      "guidance": "Rikuychis llimpita, sutinta, hinaspa llapa chay llimpi sawunkunata tuqiychis.",
+      "target": "Llimpi: {color|lower}. Tuqiychis llapa {color|lower} llimpi sawunkunata.",
+      "countLegend": "Hayk'a sawun",
+      "count": "{n} sawun",
+      "found": "Arí, {name|lower} {color|lower} kan.",
+      "named": "{name|lower} {color|lower} kan.",
+      "all": "Chaykunan llapa {color|lower} sawunkuna.",
+      "shown": "Kaykunan {color|lower} sawunkuna.",
+      "show": "Rikuchiy",
+      "next": "Huk llimpi",
+      "names": {
+        "red": "Puka",
+        "orange": "Naranha",
+        "yellow": "Q'ellu",
+        "green": "Q'omer",
+        "blue": "Anqas"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Lluqsi ladupi huk mitayta tuqiychis, chaymanta paña ladupi tupaq mitayta tuqiychis.",
+      "countLegend": "Hayk'a sawun",
+      "count": "{n} sawun",
+      "leftGroup": "Lluqsi mitakuna",
+      "rightGroup": "Paña mitakuna",
+      "left": "{name|lower} lluqsi mitan",
+      "right": "{name|lower} paña mitan",
+      "joined": "Tupasqa",
+      "pickRight": "Kunan tuqiychis paña ladupi tupaq mitayta.",
+      "pickLeft": "Kunan tuqiychis lluqsi ladupi tupaq mitayta.",
+      "fit": "Arí, chay iskaynin {name|lower} tukun.",
+      "apart": "Chay iskay mana tupanchu. Huknatapas ruwaychis.",
+      "all": "Llapa sawunkuna tukuy kanku.",
+      "shown": "Kaykunan sawunkuna, tupasqa.",
+      "show": "Rikuchiway",
+      "next": "Huk huñu"
+    },
+    "colorByNumber": {
+      "guidance": "Ch'aqay llimpita akllaychis, chaymanta huk quchuta chaywan hunt'aychis. Ima llimpipas allinmi.",
+      "sizeLegend": "Kuadrikula tamañu",
+      "size": "{n} x {n}",
+      "keyLegend": "Llimpikuna",
+      "colors": [
+        "Q'ellu",
+        "Naranha",
+        "Q'omer",
+        "Morado"
+      ],
+      "motifs": {
+        "house": "wasi",
+        "flower": "sisa",
+        "heart": "sonqo",
+        "tree": "sach'a",
+        "boat": "wampu",
+        "pot-plant": "mankapi sach'a"
+      },
+      "region": "Sawun kuadrikula, {n} x {n}. Pantalla angosta kaqtinqa lluq'iman purikun.",
+      "cell": "Yupay {number}, fila {row}, columna {column}, {color}",
+      "empty": "ch'usaq",
+      "chose": "{name} akllasqa. Huk quchuta tuqiychis hunt'anaypaq.",
+      "painted": "{name}, fila {row}, columna {column}.",
+      "sheet": "Llapa quchukunapi yupay llimpin kan. Kaymi hojapi sawun: {name}.",
+      "own": "Llapa quchukuna hunt'asqa kanku. Kaymi qanpa kikin sawunniyki.",
+      "fillAll": "Yupaykunawan hunt'ay",
+      "filledAll": "Llapa ch'usaq quchukunaqa kunanqa yupaynin llimpiwan hunt'asqa.",
+      "clear": "Chinkachiy",
+      "cleared": "Kuadrikula chinkasqa.",
+      "next": "Huk sawun",
+      "fresh": "Kaymi huk sawun llimpichanapaq."
+    },
+    "patternMaker": {
+      "guidance": "Huk quchuta tuqiychis llimpin t'ikrachinaypaq. Qanpa patrunniyki chawpipi wiñan. Ruwasqaykiqa mana waqaychakunchu, mana kachakunchu.",
+      "sizeLegend": "Baldosa tamañu",
+      "size": "{n} x {n}",
+      "keyLegend": "Llimpikuna, huk tuqiy t'ikrachinanpaq ordenninpi",
+      "colors": [
+        "Q'ellu",
+        "Naranha",
+        "Q'omer",
+        "Morado"
+      ],
+      "tileLabel": "Qanpa baldosaykin",
+      "region": "Qanpa baldosaykin, {n} x {n}. Pantalla angosta kaqtinqa lluq'iman purikun.",
+      "patternLabel": "Qanpa patrunniyki",
+      "pattern": "Qanpa patrunniyki: qanpa baldosaykin {n} kutin lluq'imanta, {n} kutin uraman tupasqa.",
+      "square": "Fila {row}, columna {column}, {color}",
+      "changed": "Fila {row}, columna {column} kunanqa {color}.",
+      "cleared": "Baldosa chinkasqa kan. Kutichiyta atinkichis.",
+      "surprise": "Sorpresata ruway",
+      "surprised": "Kaymi musuq baldosa. Ñawpaqta kutichiyta atinkichis.",
+      "putBack": "Kutichiy",
+      "restored": "Qanpa baldosaykin kutichisqa, ñawpaqnin hina.",
+      "print": "Patronniyta imprimiy",
+      "sheetTitle": "Patronniy"
+    },
+    "buildTogether": {
+      "guidance": "Turnukuspa huk pedazota ch'usaq chakrapi churaychis. Llapa runa huk llimpiyuq. Ruwasqaykichisqa mana waqaychakunchu, mana kachakunchu.",
+      "sizeLegend": "Kuadrikula tamañu",
+      "size": "{n} x {n}",
+      "people": [
+        "Ñawpa runa",
+        "Qhipa runa"
+      ],
+      "colorLegend": "{person} llimpin",
+      "colors": [
+        "Q'ellu",
+        "Naranha",
+        "Q'omer",
+        "Morado"
+      ],
+      "inUse": "Llank'asqa",
+      "turn": "Qanpa turnun, {person|lower}",
+      "yourColor": "Qanpa llimpiyki {color|lower}.",
+      "built": "Iskaynikichis ruwarqankichis. Kaymi iskaynikichis ruwasqa sawun.",
+      "gridLabel": "Ñuqanchispa kuadrikula",
+      "region": "Ñuqanchispa kuadrikula, {n} x {n}. Pantalla angosta kaqtinqa lluq'iman purikun.",
+      "cellEmpty": "Fila {row}, columna {column}, ch'usaq",
+      "cellFilled": "Fila {row}, columna {column}, {color}, {person|lower} churasqa",
+      "placed": "Fila {row}, columna {column} kunanqa {color}. {next|lower} turnun.",
+      "placedLast": "Fila {row}, columna {column} kunanqa {color}. Iskaynikichis ruwarqankichis.",
+      "taken": "Fila {row}, columna {column}: pedazo kashan. Huk ch'usaq chakrata akllaychis.",
+      "pass": "Pasay",
+      "passed": "Pasay allinmi. Qanpa turnun, {person|lower}.",
+      "takeBack": "Qhipa pedazota kutichiy",
+      "takeBackPass": "Pasayta kutichiy",
+      "tookBack": "Pedazo kutichisqa. Qanpa turnun, {person|lower}.",
+      "tookBackPass": "Pasay kutichisqa. Qanpa turnun, {person|lower}.",
+      "colorChanged": "{person} kunanqa {color|lower} llimpiyuq.",
+      "restarted": "Kuadrikula ch'usaq. Qanpa turnun, {person|lower}.",
+      "print": "Kuadrikulata imprimiy",
+      "sheetTitle": "Iskaynikichis ruway",
+      "sheetHelp": "Turnukuychis. Ch'usaq quchupi llapa runa kikin lapisninwan kikin rikchayninta t'ikrachun.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Huk pedazota tuqiychis, chaymanta sawunpi tiyanata tuqiychis maymanpas chay pedazo tiyanqa. Ruwasqaykichisqa mana waqaychakunchu, mana kachakunchu.",
+      "hints": "Yanapay rayakunata rikuchiy",
+      "pictureLine": "Kayqa huk {picture}.",
+      "pictures": {
+        "house": "wasi",
+        "boat": "wampu",
+        "tree": "sach'a",
+        "fish": "challwa",
+        "cat": "misi",
+        "rocket": "cohete"
+      },
+      "outlineLabel": "Kaymi {picture} qelqasqa. Huk tiyanata tuqiychis, chaypi akllasqa pedazota churanaypaq.",
+      "trayHeading": "Pedazokuna",
+      "pieces": {
+        "large-triangle": "Hatun kimsa kuchu",
+        "small-triangle": "Ch'aqi kimsa kuchu",
+        "square": "Tawa kuchu",
+        "parallelogram": "Paralelogramo",
+        "rectangle": "Rektangulo"
+      },
+      "shapes": {
+        "large-triangle": "hatun kimsa kuchu",
+        "small-triangle": "ch'aqi kimsa kuchu",
+        "square": "tawa kuchu",
+        "parallelogram": "paralelogramo",
+        "rectangle": "rektangulo"
+      },
+      "chosenLabel": "Akllasqa",
+      "spaceEmpty": "Tiyana {n}, {shape}, ch'usaq",
+      "spaceFilled": "Tiyana {n}, {shape}, pedazonwan. Tuqiychis pedazota kutichinaypaq.",
+      "chosen": "{piece} akllasqa. Kunan sawunpi huk tiyanata tuqiychis.",
+      "unchosen": "Kuti mana chaskisqa.",
+      "placed": "Chay pedazu {n} chawpipi kashan.",
+      "complete": "{picture} tukukun.",
+      "different": "Chay pedazu kay chawpimanta mana hina rikchaqmi. Huk chawpita llamkachiy.",
+      "needPiece": "Ñawpaqta bandejamanta huk pedazuta akllay.",
+      "filled": "Chay chawpipi pedazunmi kashan. Pedazuta kutichinaypaq, chaytaqa toqokuy.",
+      "tookBack": "Pedazu bandejaman kutimun.",
+      "cleared": "Pedazukuna bandejaman kutimun. Yuyaykusqaykiman kutiykachaspa, wakichiy.",
+      "restored": "Pedazukuna rikchaman kutimun.",
+      "next": "Kayqa {picture}.",
+      "putBack": "Kutichiy",
+      "another": "Huk rikcha",
+      "print": "Kay rikchata imprimiy",
+      "sheetTitle": "Sumaq rikchakuna",
+      "sheetHow": "Pedazukunata llimpiychik, icha perfilman tupachinaykipaq qupuychik. Hatun runa qupuyta atinmi.",
+      "sheetPieces": "Pedazukuna, perfilwan kikin tamañupi"
+    },
+    "picnicPlanner": {
+      "guidance": "Huk rikchata toqokuspa muyuchiman churay, muyuchimanta qispichinaykipaqpas chaytam toqokuy. Muyuchiqa suqta kosas hapin.",
+      "guidancePlay": "Iskay kikin rikchata toqokuy. Rikchakuna rikchakunqa qawasqa qikllapi kanqa, mana tiempoyuq.",
+      "basketHeading": "Noqayku muyuchi",
+      "basketLabel": "Picnic muyuchi",
+      "takeOut": "{picture} muyuchimanta qispichiy",
+      "inBasket": "Muyuchipi",
+      "foodHeading": "Mikuna",
+      "outingsHeading": "Ruwana kaq kaqkuna",
+      "added": "{picture} muyuchipi kashan.",
+      "removed": "{picture} muyuchimanta lloqsichisqa.",
+      "already": "{picture} muyuchipi kashanraqmi. Chaypi toqokuspa qispichiy.",
+      "full": "Muyuchi hunt'asqa. Wakin kasqata qispichispa, sitiota qoy.",
+      "summary": "Noqayku picnic: {list}.",
+      "summaryNone": "Manaraq muyuchipi imapas kanchu.",
+      "and": "hinallataq",
+      "play": "Picnicniykiwan pukllasunchik",
+      "needTwo": "Ñawpaqta iskay kikin kaqkunata akllay, aswan pisi kanqa.",
+      "playAgain": "Huknawpaq pukllay",
+      "back": "Picnicman kutiy",
+      "print": "Noqayku picnic listata imprimiy",
+      "cleared": "Muyuchiqa chinkan.",
+      "notice": "Kayqa rimanakuypaq yuyaymi. Mana tiempoyuq, mana puntuyuq, mana waqaychasqa.",
+      "sheetTitle": "Noqayku picnic lista",
+      "sheetHow": "Huk kaqta wakichispa, chaskiyuq hawanta chiqnichiy. Yapaq hawakunata, apayta munasqaykikunata qillqay.",
+      "sheetToPack": "Wakichinapaq"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Qanpa kikin photokunamanta iskaymanta chunka iskayniyuq akllay, librota qallarinapaq.",
+      "guidance": "Llapallan kuska wakhakunata kuyuchiy, botonkunawan icha Izquierda chaymanta Derecha ñawpaq ñawpaq rantiwan. Photo ukhupi huk iskay simikunata churaspa, munasqaykiman hina. Ruwasqaykikuna waqaychakunmanchu nitaq kachakunmanchu.",
+      "lookGuidance": "Llapallan kuska wakhakunata qawariy. Rimayta atinkichik, icha tukuy sapalla qawaykuychik.",
+      "intro": "Kay aparatomanta iskaymanta chunka iskayniyuq photokunata akllay. Sapa huk photo kuskanpi libro wakhanmi, kuska kuyunaykichikpaq.",
+      "consent": "Qanpa familiaq photokunata apaychik. Mana arí ninata atiq runa photonta apaspaqa, ñawpaqta tapuy.",
+      "privacy": "Photokunaykichik kay aparatopi qanqa. Mana hawaman apakunchu nitaq waqaychakunchu.",
+      "choose": "Photokunata akllay",
+      "chooseDifferent": "Huk photokunata akllay",
+      "backToBook": "Libroman kutiy",
+      "backToChoose": "Photokuna akllanaman kutiy",
+      "needTwo": "Ama hina kaspa iskay photota akllaychik.",
+      "usingFirst": "Ñawpaq {max} photokunata apaykachashan.",
+      "cleared": "Libroqa chinkachisqa. Qallariyanapaq photokunata akllay.",
+      "moved": "Wakhaq {n} kuskaman apasqa.",
+      "pageOf": "Wakha {n}, {total} ukhupi",
+      "lookTogether": "Kuska qawariy",
+      "leaveLook": "Libroman kutiy",
+      "print": "Scrapbookta imprimiy",
+      "clear": "Librota chinkachiy",
+      "bookLabel": "Familiapa scrapbookninn",
+      "pagesLabel": "Wakhakunata wakhay",
+      "previous": "Ñawpaq wakha",
+      "next": "Qipa wakha",
+      "moveEarlier": "Ñawpaqman apay",
+      "moveLater": "Qipaman apay",
+      "captionLabel": "Kay wakhapaq iskay simi, munaspaqa",
+      "captionHelp": "Chunka pachaq kaq tupuy kaqkama. Simikunaqa kay wakhallapim waqaychakun, libro wichqaspaqa chinkan.",
+      "sheetTitle": "Noqayku scrapbook",
+      "sheetHow": "Huk photo huk wakhapi, uranpi simikunawan. Wakhakunata ordenta wakhay, sapa hukta rimaykuychik.",
+      "sheetEmpty": "Kikin librota imprimispa, photokunaykita juego wakhapi akllay, icha kay chululla wakhata imprimiy, imprimisqa photota chaypi churay.",
+      "sheetFrame": "Imprimisqa photota kaypi churay",
+      "sheetWords": "Kay wakhapaq iskay simi",
+      "skipped": {
+        "one": "{n} willakuy mana apakuq photo kanchu.",
+        "other": "{n} willakuy mana apakuq photokuna kanchu."
+      }
+    },
+    "quietScene": {
+      "guidance": "Huk rikchallata kuska qawariy. Listo kaspaykichik Ñawpaq icha Qipa tukuchiy. Mana imapas kikinmanta kuyunchu.",
+      "next": "Qipa rikcha",
+      "previous": "Ñawpaq rikcha",
+      "bigPicture": "Aswan hatun rikcha",
+      "showEverything": "Llapanta rikuchiy",
+      "first": "Kayqa ñawpaq rikcha.",
+      "last": "Kayqa tukuy qipa rikcha.",
+      "lines": {
+        "sunrise": "Inti hatarimun pampa patapi.",
+        "window-with-birds": "Wayra qhawanpi pisqokuna.",
+        "vase-of-flowers": "Mesapi flor florero.",
+        "teacup": "Wayra qhawanpi t'ika mate.",
+        "tree": "Huerta ukhupi sayasqa sach'a.",
+        "sailboat": "Yakupi velero.",
+        "lighthouse": "Qocha patapi faro.",
+        "rainbow": "Para qipaman arco iris.",
+        "moon": "Tuta lloqsisqa killa.",
+        "daisies": "Pastopi margaritakuna.",
+        "rowing-boat": "Mana kuyuq yakupi remo bote.",
+        "potted-plant": "Maceta ukhupi q'omer sach'a."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Turnota kuska apaychik. Huk recortata toqokuspa, huk chawpi mana ukhuyuq chaypi churay. Ruwasqaykikuna waqaychakunchu nitaq kachakunchu.",
+      "people": [
+        "Ñawpaq runa",
+        "Iskay runa"
+      ],
+      "marks": [
+        "muyu",
+        "llaqta"
+      ],
+      "turn": "Qanpa turnoyki, {person|lower}.",
+      "marked": "Pedazuykiqa {mark} willakuywan qillqasqa.",
+      "boardLabel": "Kuska tablero",
+      "placeEmpty": "Chawpi {n}, mana ukhuyuq",
+      "placeFilled": "Chawpi {n}, {picture|lower}, {person|lower} churasqa",
+      "trayHeading": "Recortakuna",
+      "chosenLabel": "Akllasqa",
+      "chosen": "{picture} akllasqa kanki. Kunan huk mana ukhuyuq chawpita toqokuy.",
+      "unchosen": "Recorte mana akllasqachu kanchu.",
+      "needCutout": "Ñawpaqta huk recortata akllay, chaymanta mana ukhuyuq chawpita toqokuy.",
+      "filled": "Chawpi {n} rikchayuqmi kashan. Mana ukhuyuq chawpita akllay.",
+      "placed": "{picture} chawpi {n} kashan. Qanpa turnoyki, {next|lower}.",
+      "full": "Tukuy chawpikunapi rikchakuna kashan. Mayqintapas kutichispa allichay, icha huknawpaq qallariy.",
+      "pass": "Pasay",
+      "passed": "Pasaykuyqa allinmi. Qanpa turnoyki, {person|lower}.",
+      "takeBack": "Qipa pedazuta kutichiy",
+      "takeBackPass": "Pasaytaqa kutichiy",
+      "tookBack": "Pedazuqa kutichisqa. Qanpa turnoyki, {person|lower}.",
+      "tookBackPass": "Pasayqa kutichisqa. Qanpa turnoyki, {person|lower}.",
+      "restarted": "Tablero chinkan. Qanpa turnoyki, {person|lower}.",
+      "putBack": "Kutichiy",
+      "putBackDone": "Pedazukunaqa tableroman kutimun.",
+      "another": "Huk rikchakuna huñu",
+      "anotherSet": "Bandejapi musuq recortakuna kashan. Tableropi pedazukunaqa chaypi qepakunqa.",
+      "print": "Tablerota imprimiy",
+      "sheetTitle": "Collage tablero",
+      "sheetHow": "Rikchakunata recortaychik, turnota kuska apaspa tableropi churaychik. Hatun runa recortanta atinmi.",
+      "sheetTray": "Recortanapaq rikchakuna"
+    },
+    "gardenPlanner": {
+      "guidance": "Huk rikchata toqokuspa, huk wiñaypa mancha chaypi churay. Rikchayuq mancha toqokuy, mana imapas akllasqa kaspa, chaytaqa chinkachiy.",
+      "bedsLabel": "Huerta manchakuna",
+      "bedEmpty": "Mancha {n}, mana ukhuyuq",
+      "bedFilled": "Mancha {n}, {picture|lower}",
+      "plantsHeading": "Sach'akuna",
+      "extrasHeading": "Huertapa yapaykuna",
+      "chosenLabel": "Akllasqa",
+      "chosen": "{picture} akllasqa kanki. Kunan huk mancha toqokuy.",
+      "unchosen": "Manan rikcha akllasqachu kanchu.",
+      "needPicture": "Sumaq rikchayta akllay, qatiqmantataq chakra t'aqata kutichiy.",
+      "planted": "{picture} chakra t'aqa {n} nisqapi kashan.",
+      "replaced": "{picture} chakra t'aqa {n} nisqapi rikchaqta chaskin.",
+      "cleared": "Chakra t'aqa {n} chinkan. Rikchayta ujta munaspaqa, kutichiy.",
+      "restarted": "Llapa chakra t'aqakuna chinkallanku.",
+      "putBack": "Kutichiy",
+      "putBackDone": "Rikchakunaqa chakra t'aqankuman kutimushanku.",
+      "summaryHeading": "Chakraymi",
+      "summary": "Llankay plan kashan: {list}.",
+      "summaryNone": "Manaraq ima rikchapas chakra t'aqapi kanchu.",
+      "and": "hinallataq",
+      "print": "Planta llluchiy",
+      "sheetTitle": "Ñuqanchikpa chakra plan",
+      "sheetHow": "Chakra t'aqakunaqa pantallapi akllasqa rikchakunata rikuchin. Munaspaykiqa chinka t'aqakunapi rikuychikuy.",
+      "sheetNotes": "Qelqakuna",
+      "notice": "Kayqa rimanakuypaq rikcha plan, mana chakra tarpuy yachachikuy."
+    },
+    "coloringWall": {
+      "guidance": "Rikchayta akllay, hinallataq hayk'a paqina kanman. Paqtata llluchiy, runa tukuy llapanpas huk utaq aswan paqinata llanthuchin. Mana tiempota, puntaykunata utaq waqaychasqa kanchu.",
+      "pictureLegend": "Rikcha",
+      "sizeLegend": "Hayk'a paqina kanman",
+      "sizes": {
+        "2x2": "4 paqina (2 x 2)",
+        "3x2": "6 paqina (3 x 2)",
+        "3x3": "9 paqina (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} {n} paqinaman rakisqa, {across} kikinpi chayna, {down} urayninpi. Sapa paqinapa kuchunpi rikchanakuy kashan.",
+      "previewCaption": "Rikcha, paqina tikakuna hinallataq rikchanakuykunapi.",
+      "labelsNote": "Sutikunaqa paqtaq urayninpi, yupaykunaqa kikinpi, chaymi A1 hanaq kuchu paqina.",
+      "wallHeading": "Imaynatataq paqtata huñunku",
+      "steps": [
+        "Llapa paqinakunata llluchiy. Ñawpaq paqinaqa kaymi yachachikuykuna hinallataq paqtapa mapa.",
+        "Sapa runa huk utaq aswan paqinata akllan hinaspa llanthun.",
+        "Llanthukuyninkuna mana tupanankupaschu. Sapa paqinaqa sapa rikchapa parten.",
+        "Paqinakunata rikchanakuykunaman churay, hinaspa qhipantin chiwiywan huñuy.",
+        "Paqtata llapallan rikunankupaq churay."
+      ],
+      "mapLabel": "Paqtapa mapa: {down} sach'akuna, sapa sach'api {across} paqina, A1 kamachaymanta {last} kamaq.",
+      "edgeNote": "Chakikaq t'aqaqa sapa paqinapa tukukuynin. Chay t'aqapi paqinakunata sapa sapanka churay, utaq huk chikanta yaykuchiy.",
+      "pictureLine": "Rikcha: {picture}. Kay paqtaqa {n} paqina: {across} kikinpi, {down} urayninpi.",
+      "print": "Paqta llluchiy"
+    },
+    "findTogether": {
+      "guidance": "Turnuwan ruway. Sapa turnopi iskay naypita rikuchiy, pareman tariy. Huk kuska pareskunata tariy.",
+      "sizeLegend": "Hayk'a naypa kanman",
+      "size": "{n} naypa",
+      "viewLegend": "Imaynatataq pukllanaypaq",
+      "viewShowing": "Rikchakunata rikuchispa pukllay",
+      "viewHidden": "Naypakuna uraman kashaspa",
+      "people": [
+        "Ñawpaq runa",
+        "Iskay runa"
+      ],
+      "turn": "Turno: {person}",
+      "turnDone": "Llapa paretaqa tarisqa kashan.",
+      "tally": "Kuska tarisqa pareskuna: {n}",
+      "cardNamed": "{name}, naypa {n}",
+      "cardFaceDown": "Naypa {n}, uraman kashaspa",
+      "first": "{name}. Kunan iskay naypata kutichiy.",
+      "found": "{name}: huk pareta, kuska tarisqa. Kunan {next|lower} turnon.",
+      "allTogether": "Llapa paretaqa kuska tarisqaykichik.",
+      "different": "{a} hinaspa {b} huk hinanku. Sapa kaqta hamuchuy, hinaspa Kutichiy nisqata saqtay.",
+      "waiting": "Listo kaspaykiqa Kutichiy nisqata saqtay. Chaymanta turnoqa pasan.",
+      "turnedBack": "Kutimushan. Kunan {person|lower} turnon.",
+      "passed": "Pasay allinmi. Kunan {person|lower} turnon.",
+      "turnBack": "Kutichiy",
+      "pass": "Pasay",
+      "playAgain": "Huknawpaq pukllay"
+    },
+    "drawingDuet": {
+      "guidance": "Sapa huk rayawan turnuwan ruway, hinaspa kallmata qispichiy. Pipas pasayta atin. Ima mana kaqllapas apachikunchu. Rikchaqa kay paqmanta lloqsinmanchu, waqaychaspaykiqa qhaqllapaqmi.",
+      "people": [
+        "Ñawpaq runa",
+        "Iskay runa"
+      ],
+      "colorLegend": "{person} paq color",
+      "colors": [
+        "Qheshwa",
+        "Anaranhado",
+        "Qapchu",
+        "Morado"
+      ],
+      "turn": "{person} turno",
+      "penColor": "Qillqana color: {color}.",
+      "canvasLabel": "Kuska rikcha, kunankama {n} rayakuna",
+      "canvasLabelOne": "Kuska rikcha, kunankama {n} raya",
+      "keys": "Flechakunawan punkuta sapa rikchapi kallmapa punkuta apay. Space nisqawan kallmata uraman utaq hanaman churay.",
+      "penDown": "Kallma uraman",
+      "penUp": "Kallma hanaman",
+      "pass": "Kallmata qispichiy",
+      "passed": "Pasay allinmi. Turnuykiqa kachun, {person|lower}.",
+      "takeBack": "Qhipa rayaymanta kutichiy",
+      "tookBack": "{person|lower} qhipa rayan kutichisqa kashan.",
+      "noLine": "{person|lower} rayanta kutichinapaq mana rayaqa kanchu.",
+      "restarted": "Hoja chinkan. Ñawpaq runa turnopi kashan. Mana munaspaykichu chayqa kutichiy.",
+      "putBack": "Kutichiy",
+      "restored": "Rayakunaqa ñawpaq hinallanmi kutimushan.",
+      "save": "Rikcha waqaychay",
+      "saved": "Rikchaykiqa listo. Kay qhawarisqaman waqaychanaykipaq download link ruway.",
+      "download": "Download drawing-duet.png",
+      "print": "Papel versionta llluchiy",
+      "sheetTitle": "Rayaypa iskay runa",
+      "paperRules": "Iskay runa, huk hoja, iskay qillqana. Turnuwan ruway: sapa huk rayata utaq ch'uyta, hinaspa kallmata qispichiy. Pipas pasayta atin. Mana chiqan rikcha kanchu."
+    },
+    "colorWash": {
+      "guidance": "Sapa huk pasadawan allpa color t'inkiy, hoja tukuy llapan. Brocha hanaman apay, hinaspa munaspaykiqa sayachiy. Mana waqaychasqa nitaq kachasqa.",
+      "colorLegend": "T'inkiy color",
+      "sizeLegend": "Brocha hatun",
+      "colors": [
+        "Qheshwa",
+        "Anaranhado",
+        "Qapchu",
+        "Morado"
+      ],
+      "sizes": {
+        "wide": "Anchu",
+        "veryWide": "Sumaq anchu"
+      },
+      "color": "T'inkiy color: {color}.",
+      "brushDown": "Brocha uraman",
+      "brushUp": "Brocha hanaman",
+      "keys": "Flechakunawan brocha anillota hoja ukhupi apay. Space nisqawan brochata uraman utaq hanaman churay.",
+      "canvasLabel": "Hoja, color t'inkisqa",
+      "fresh": "Musuq hoja",
+      "freshMessage": "Musuq hoja.",
+      "putBack": "Kutichiy",
+      "restored": "Hojaqa kutimushan."
+    },
     "sortTogether": {
       "guidance": "Huk rikch'ayta llamiy, chaymanta mayman yaykunan canastata llamiy.",
       "restart": "Musuq rikch'aykuna",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} nisqaqa \"{basket}\" canastaman yaykunman. Chay canastata llamiy chaypi churanaykipaq.",
       "placed": "{name|lower} nisqaqa \"{basket}\" canastapiña kachkan.",
       "sorted": "Tukuymi allichasqaña. Kuska canastakunata qhawariy, icha huk temata pukllariy.",
+      "largerTargets": "Hatun punkukuna",
+      "largerOn": "Hatun punkukuna kashan. Mana imapas kuyurqachu.",
+      "largerOff": "Hatun punkukuna mana kanchu. Mana imapas kuyurqachu.",
+      "largerOnNewRound": "Hatun punkukuna kashan, iskay chiqllapi. Kaypi musuq rikchakuna t'aqanapaq.",
       "basket": {
         "one": "\"{basket}\" canasta, {count} rikch'ay ukunpi",
         "other": "\"{basket}\" canasta, {count} rikch'aykuna ukunpi"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Huk ch'iqata llamiy, chaymanta huk kaqta llamiy. Tiyanankuta t'ikranakunku.",
-      "restart": "Kaqmanta chaqruy",
+      "restart": "Mix up again",
       "pictureLegend": "Rikch'ay",
       "pictures": {
         "sailboat": "Wayra wampu",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Hunt'asqa rikch'ay: {name}",
       "guideText": "Kayhinatam hunt'asqa kaspa rikch'ayqa qhawarikun.",
+      "ownChoose": "Kikiykipa rikchayta llamkachiy",
+      "ownChange": "Huk rikchata akllay",
+      "ownBack": "Ñuqanchikpa rikchakunaman kutiy",
+      "ownPrivacy": "Rikchaykiqa kay qhawarisqapi qhepan. Mana hawaman apakunchu nitaq waqaychakunchu.",
+      "ownConsent": "Kikiykipa rikchakunata llamkachiy. Mana atiqpa rikchanta llamkachiyta munaspaykiqa, ñawpaqtaqa tapuy.",
+      "ownWorking": "Rikchaykita allichakushan.",
+      "ownNotUsable": "Chay willakuyta mana llamkachiyta atirqanchu. Rikcha willakuyta akllay, jina JPEG utaq PNG.",
+      "ownAlt": "Rikchaykiq",
+      "ownPiece": "Ch'aqwa {n}, {place}",
+      "ownWhole": "Rikchaykiqa tukuyman kutimushan. Munaspaykiqa huknawpaq t'iqsichiy.",
+      "ownSheetTitle": "Rikchaykiq ch'aqwakunapi",
+      "ownSheetHow": "Chakiykunata qatiy. Ch'aqwakunata t'iqsichiy, hinaspa iskay ch'aqwata iskaynin iskaynin sapa kuti rikcha tukuy kanankama tikray.",
       "piece": "{place} kaq ch'iqa",
       "pieceInPlace": ", kitiyllanpi",
       "piecePickedUp": ", uqarisqa",
@@ -122,7 +786,7 @@
         "ura paña"
       ],
       "done": "Rikch'ayqa hunt'asqañam kachkan. Kaqmanta pukllay icha samariy.",
-      "playAgain": "Kaqmanta chaqruy"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Kuska kay yachay rimayta ñawinchaychik, chaymanta tukukuq simita llamiy.",
@@ -190,6 +854,14 @@
       "guidance": "Tarhitata kunkawan ñawinchay. Manam huklla allin kutichiypas kanchu.",
       "position": "{total} tarhitamanta {n} kaq",
       "themeLegend": "Yuyay",
+      "showPrompt": "Rimanakuy yapaqta rikuchiy",
+      "bigPicture": "Hatun rikcha, huñunakuypaq",
+      "passNote": "Pipas pasayta atin.",
+      "groupTitle": "Huñunakuypi naypata muyuchispa",
+      "groupSit": "Muyuypi tiyakuy, llapallaykichik rikchata rikuspa. Naypata hapiq runa, utaq hatun rikchayuq aparatu, ñawpaqta rimanakuyta kallpachaspa willakun.",
+      "groupPass": "Chaymanta naypata qayllaman pasachiy. Sapa runa rikchamanta huk simita utaq huk rimaytapas ninmi, hinaspa pasachin.",
+      "groupNoSpeech": "Naypata pasachiyqa tukuy kuti allinmi. Huk runa mana rimaspapas pasayta atin, pipas manan imarayku nispa tapunchu.",
+      "groupEnd": "Runda tukukun karqa chay cartaq rueda ukllanmanta pasasqa kaptin, icaraq grupo llakisqa kaptin. Ni pipas ganan. Grupo munaptin, tukuy tiempo sayarikuy.",
       "next": "Qatiq tarhita",
       "previous": "Ñawpaq tarhita",
       "print": "Llapan tarhitakunata ch'ipichiy",
@@ -252,6 +924,20 @@
       "started": "Qallarinñam. Muyu hatunyaptin samayta aysay.",
       "stopped": "Sayachisqañam.",
       "finished": "Chayqa suqta allillamanta samaykunam karqan. Munaspaykiqa kaqmanta qallariwaqmi."
+    },
+    "storyChain": {
+      "guidance": "Turnukuspa rimaychis: sapa uno huk rimayta, yapaspa qatiq sutita.",
+      "passNote": "Rimayniykita qhaparispa niy. Mana qillqasqachu nitaq waqaychasqachu. Pipas pasayta atin.",
+      "chainLabel": "Kunankama cadena",
+      "item": "Suti {n}: {name}",
+      "add": "Huk suti yapay",
+      "fullAdd": "Cadena hunt'asqan. Musuq cadena qallariy",
+      "newChain": "Musuq cadena qallariy",
+      "takeOff": "Qhipa kaqta qichuy",
+      "added": "{name|lower} kunan cadenapa qhipanpin kashan.",
+      "removed": "{name|lower} cadenamanta lloqsisqa.",
+      "fresh": "Musuq cadena, {name|lower} wan qallarispa.",
+      "full": "Cadenaqa tawa tawa sutikunawanmi hunt'asqa. Tukuy willakuyta willay, utaq musuq cadena qallariy."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Para phuyu",
     "snowflake": "Riti ch'aska",
     "kite": "Kometa",
-    "sunrise": "Inti lloqsimuy urqukunamanta"
+    "sunrise": "Inti lloqsimuy urqukunamanta",
+    "decorated-keepsake-box": "Rurasqa waqaychana qoqa",
+    "painted-plant-pot": "Lliw llaqtasqa uyu hierbakunawan",
+    "repeating-pattern-sheet": "Mikhuq patrun kuchu",
+    "music-drawn-lines": "Taqimanta llanp'asqa llinkakuna",
+    "paper-boat-afloat": "Paper bote yakupi sayaq",
+    "folded-towel-stack": "Pillpisqa toallakuna pirqa",
+    "hand-massage-with-lotion": "Maki toallapi samasqa, loción wan",
+    "open-photo-album": "Kicharisqa sutikuna album",
+    "button-flower-card": "Botonwan ruraq t'ika cartapi",
+    "blue-torn-paper-collage": "Anqas papel collage",
+    "family-tree-of-hands": "Maykuna wan ruraq ayllu sach'a",
+    "open-greeting-card": "Sonqowan kicharisqa saludo carta",
+    "lavender-sachet": "Lavanda bolsita cinta wan atasqa",
+    "memory-collage-of-photos": "Ayllu sutikunamanta collage",
+    "paper-chain-garland": "Paper cadena guirnalda",
+    "open-songbook-with-notes": "Kicharisqa takiq libro notakunawan",
+    "photo-postcard-with-stamp": "Suti postal sellowan",
+    "pine-cone-bird-feeder": "Pino ruwasqa pisqu mikhuchana rama pi colgasqa",
+    "playlist-phone-and-card": "Telefono takikuna wan takiq carta",
+    "sealed-rice-shaker": "Tapasqa arroz sallqa",
+    "texture-board-with-scraps": "Ch'ipi kaq tabla rantikuna wan",
+    "painted-garden-stone": "Lliw llaqtasqa qhorpa rumi",
+    "shared-painted-canvas": "Ayllu lliw llaqtasqa lienzo",
+    "watercolor-washes-sheet": "Acuarela yakuta papelpi",
+    "seedling-in-pot": "Uyukuna uyu ukupi",
+    "pressed-leaves-in-book": "Ch'iqtasqa rawraqkuna libropi",
+    "printed-leaves-sheet": "Rawraq pakasqa kuchu",
+    "pinch-pot-clay-bowl": "Llukllasqa rumi uyu",
+    "table-sketch-pencil": "Lápiz wan taza dibujo",
+    "buttons-in-muffin-tin": "Botonkuna muffin latapi t'aqasqa",
+    "family-recipe-book": "Ayllu mikhuy libro",
+    "drum-with-beat-marks": "Mesa tinya palos wan",
+    "torn-paper-flower": "Ch'iqasqa papel t'ika mosaico",
+    "window-with-birds": "Pisqu wan ventana",
+    "woven-paper-mat": "Awasqa papel esterilla",
+    "yarn-ball-with-thread": "Llama t'ika aqsu",
+    "letter-and-envelope": "Qillqa sobre ukupi"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Hawapi"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Frutas",
+        "animals": "Animalkuna",
+        "travel": "Purisqa ñankuna",
+        "flowers": "T'ikakuna",
+        "hot-drinks": "Q'oñi upyana rimakuna",
+        "weather": "Pacha kaqkuna",
+        "baked": "Horno ruwasqa kaqkuna"
       }
     }
   }

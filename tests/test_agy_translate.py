@@ -60,6 +60,69 @@ class AgyTranslateTests(unittest.TestCase):
         translated = 'Call 112 if there is immediate danger.'
         self.assertFalse(agy_translate.unsafe_number_additions(source, translated))
 
+    def test_refresh_translates_strings_the_language_does_not_have_yet(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            i18n = Path(tmp)
+            (i18n / 'ui').mkdir()
+            en = {'kept': 'Hello there', 'changed': 'New wording', 'missing': 'Added later'}
+            (i18n / 'ui' / 'en.json').write_text(agy_translate.json.dumps(en))
+            (i18n / 'ui' / 'xx.json').write_text(agy_translate.json.dumps({'kept': 'XX hello', 'changed': 'XX old'}))
+            sent: list[dict] = []
+
+            def fake_chunk(lang, chunk, cats, extra):
+                sent.append(dict(chunk))
+                return {k: f'XX {v}' for k, v in chunk.items()}
+
+            with patch.object(agy_translate, 'I18N', i18n), patch.object(agy_translate, 'translate_chunk', fake_chunk):
+                agy_translate.translate_json('ui', {'code': 'xx', 'english': 'X', 'native': 'X'}, ['other'], {('changed',)})
+            out = agy_translate.json.loads((i18n / 'ui' / 'xx.json').read_text())
+        self.assertEqual(out, {'kept': 'XX hello', 'changed': 'XX New wording', 'missing': 'XX Added later'})
+        self.assertEqual(set().union(*sent), {'changed', 'missing'})
+
+    def test_play_identifiers_are_never_sent_for_translation(self) -> None:
+        self.assertTrue(agy_translate.is_play_identifier(('content', 'conversation', 'cards', 8, 'picture')))
+        self.assertTrue(agy_translate.is_play_identifier(('content', 'conversation', 'cards', 8, 'theme')))
+        self.assertTrue(agy_translate.is_play_identifier(('content', 'wordSearch', 'themes', 0, 'value')))
+        self.assertFalse(agy_translate.is_play_identifier(('content', 'conversation', 'cards', 8, 'prompt')))
+        self.assertFalse(agy_translate.is_play_identifier(('content', 'wordSearch', 'themes', 0, 'label')))
+        self.assertFalse(agy_translate.is_play_identifier(('ui', 'coloring', 'value')))
+        with tempfile.TemporaryDirectory() as tmp:
+            i18n = Path(tmp)
+            (i18n / 'play').mkdir()
+            en = {'content': {'conversation': {'cards': [{'theme': 'food', 'picture': 'bread', 'prompt': 'What smell do you love?'}]}}}
+            (i18n / 'play' / 'en.json').write_text(agy_translate.json.dumps(en))
+            sent: list[dict] = []
+
+            def fake_chunk(lang, chunk, cats, extra):
+                sent.append(dict(chunk))
+                return {k: f'XX {v}' for k, v in chunk.items()}
+
+            with patch.object(agy_translate, 'I18N', i18n), patch.object(agy_translate, 'translate_chunk', fake_chunk):
+                agy_translate.translate_json('play', {'code': 'xx', 'english': 'X', 'native': 'X'}, ['other'])
+            out = agy_translate.json.loads((i18n / 'play' / 'xx.json').read_text())
+        self.assertEqual(out['content']['conversation']['cards'], [{'theme': 'food', 'picture': 'bread', 'prompt': 'XX What smell do you love?'}])
+        self.assertEqual(set().union(*sent), {'content/conversation/cards/0/prompt'})
+
+    def test_play_held_strings_are_not_machine_written(self) -> None:
+        self.assertTrue(agy_translate.is_play_held(('illustrations', 'apple')))
+        self.assertTrue(agy_translate.is_play_held(('ui', 'photoPairs', 'consent')))
+        self.assertFalse(agy_translate.is_play_held(('pictures', 'apple')))
+        self.assertFalse(agy_translate.is_play_held(('ui', 'picturePairs', 'next')))
+        with tempfile.TemporaryDirectory() as tmp:
+            i18n = Path(tmp)
+            (i18n / 'play').mkdir()
+            en = {'illustrations': {'apple': 'Apple'}, 'ui': {'photoPairs': {'consent': 'Only add photos you may share.'}, 'x': {'next': 'Next'}}}
+            (i18n / 'play' / 'en.json').write_text(agy_translate.json.dumps(en))
+            sent: list[dict] = []
+
+            def fake_chunk(lang, chunk, cats, extra):
+                sent.append(dict(chunk))
+                return {k: f'XX {v}' for k, v in chunk.items()}
+
+            with patch.object(agy_translate, 'I18N', i18n), patch.object(agy_translate, 'translate_chunk', fake_chunk):
+                agy_translate.translate_json('play', {'code': 'xx', 'english': 'X', 'native': 'X'}, ['other'])
+        self.assertEqual(set().union(*sent), {'ui/x/next'})
+
     def test_quota_retry_discards_partial_opencode_translation(self) -> None:
         process = FakeProcess(
             [

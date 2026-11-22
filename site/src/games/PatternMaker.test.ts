@@ -109,7 +109,7 @@ describe('PatternMaker', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'pattern-maker').ui.patternMaker.surprise).toBe('Surprise me');
+    expect(playProps('xx', 'pattern-maker').ui.patternMaker.surprise).toBe('Surprise me');
   });
 
   it('starts every tap from the latest game, so two quick taps both land', () => {

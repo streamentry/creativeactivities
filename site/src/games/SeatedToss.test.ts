@@ -80,6 +80,6 @@ describe('SeatedToss', () => {
   });
 
   it('uses the English words in another language until one is reviewed', () => {
-    expect(playProps('es', 'seated-toss').ui.seatedToss.print).toBe('Print the target and tally sheet');
+    expect(playProps('xx', 'seated-toss').ui.seatedToss.print).toBe('Print the target and tally sheet');
   });
 });

@@ -5,6 +5,13 @@
       "stopReading": "停止朗读",
       "region": "游戏",
       "restart": "重新开始",
+      "rest": "先休息一下",
+      "restingTitle": "正在休息",
+      "restingText": "想休息多久都可以。您的进度会保留在这个页面上。",
+      "resume": "继续",
+      "placeText": "上次您做到一半就停下了。可以接着做，也可以重新开始。",
+      "placeResume": "接着做",
+      "placeFresh": "重新开始",
       "soundOn": "轻柔音效：开",
       "soundOff": "轻柔音效：关",
       "done": "先到这里",
@@ -35,12 +42,26 @@
       "guidanceHidden": "点两张图块，把它们翻过来。找找两张一样的。",
       "restart": "换一组图片",
       "sizeLegend": "图块数量",
-      "size": {"other": "{n} 张图块"},
+      "size": {
+        "other": "{n} 张图块"
+      },
       "viewLegend": "玩法",
       "viewShowing": "显示图片",
       "viewHidden": "隐藏图片",
       "playAgain": "换一组图片再玩一次",
-      "talk": "一起聊聊这些图片"
+      "talk": "一起聊聊这些图片",
+      "modeLegend": "选哪些图片",
+      "modePlay": "任意图片",
+      "modeDaily": "今日卡片",
+      "dayLegend": "选哪一天",
+      "dayHelp": "同一天，所有人看到的图片都一样。之前的日子也都可以玩，跳过某一天不会有任何损失。",
+      "guidanceDaily": "今日卡片上有四对图片。点一张图片，再点与它相配的那一张。",
+      "restartDaily": "重新玩这张卡片",
+      "copy": "复制这一行",
+      "copied": "已复制。内容不会发送到任何地方。",
+      "calendarTitle": "{month}的每日卡片",
+      "calendarHelp": "每天都有相同的四张图片，对所有人都一样。不计分，也不会标记哪天未完成。",
+      "calendarVersion": "版本 {date}。同一天，所有人看到的图片都相同。"
     },
     "choose": {
       "countLegend": "图片数量",
@@ -59,6 +80,634 @@
       "shadowAlt": "要配对的影子",
       "foundAlt": "{name}的影子"
     },
+    "fourTogether": {
+      "hintLegend": "提示",
+      "hintOn": "停顿后给出提示",
+      "hintOff": "不给提示",
+      "guidance": "找出 {n} 张放在一起的图片，并逐一点选。",
+      "countLegend": "图片数量",
+      "count": "{n} 张图片",
+      "found": "对，{name|lower}属于这一组。",
+      "elsewhere": "{name|lower}和别的图片放在一起更合适。慢慢来，不着急。",
+      "hint": "提示：想想{theme|lower}。",
+      "together": "这些图片放在一起：{theme}。",
+      "shown": "这一组是：{theme}。",
+      "groupName": "放在一起：{theme}",
+      "show": "显示这一组",
+      "next": "换一组"
+    },
+    "oddOneOut": {
+      "hintLegend": "提示",
+      "hintOn": "停顿后给出提示",
+      "hintOff": "不给提示",
+      "guidance": "找出与其他图片不属于同一类的那一张，并点选它。",
+      "countLegend": "图片数量",
+      "count": "{n} 张图片",
+      "belongs": "{name|lower}和其他图片是同一类的。慢慢来，不着急。",
+      "found": "对，{name|lower}是不一样的那一个。其他的都是{theme|lower}。",
+      "shown": "给您看答案：{name|lower}。其他的都是{theme|lower}。",
+      "hint": "提示：其中 {n} 张是{theme|lower}。",
+      "others": "其他的：{theme}",
+      "show": "告诉我答案",
+      "next": "换一组"
+    },
+    "seatedToss": {
+      "guidance": "坐在桌旁，轮流把软豆袋投进大靶子里。把得分记在纸上，一起完成。",
+      "stepsHeading": "玩法",
+      "steps": [
+        "把靶子和计分表打印出来，平放在你们中间的桌上。",
+        "两人分坐在桌子两侧，坐得舒服就好。轮流轻轻投掷一次，不想投的话可以跳过。",
+        "豆袋落在哪一圈，投掷的人就在自己那一栏里，对应那一圈的行上打一个勾。",
+        "停下来时，如果愿意，可以一起看看打的勾。谁都不必非要把数加起来。",
+        "随时想停，就停下来。"
+      ],
+      "safetyHeading": "安全提示",
+      "safetyLine": "只用缝死封口的豆袋或卷起来的袜子，保持坐着，绝不朝脸的方向投，并确保身边有成年人照看。小零件有噎住的危险。",
+      "flags": [
+        "3岁以下不适用：有小零件",
+        "远离嘴巴"
+      ],
+      "safety": [
+        "选用缝死封口的豆袋，或把一只干净的袜子卷起来。先检查有没有破洞或线头松动，确保里面的填充物不会漏出来。",
+        "豆子、大米和其他小颗粒填充物有噎住的危险。请放在幼儿够不到的地方，也远离喜欢把东西往嘴里放的人。",
+        "如果有人可能把东西放进嘴里，请保持在伸手可及的距离内，并密切看护。",
+        "请坐着不动。轻轻地、低低地朝桌上的靶子投掷，绝不朝脸的方向投。"
+      ],
+      "previewLabel": "打印出来的纸张：一个三圈的靶子，从外到内依次标着“远”“中”“近”，还有一张计分表，每人一栏，每圈一行空白的小格。",
+      "sheetHow": "把纸平放在你们中间。豆袋落在哪一圈，就在自己那一栏、那一圈的行上打一个勾。",
+      "rings": [
+        "远",
+        "中",
+        "近"
+      ],
+      "people": [
+        "第一位",
+        "第二位"
+      ],
+      "ringHeading": "圈",
+      "print": "打印靶子和计分表"
+    },
+    "seasonalPack": {
+      "guidance": "选一个月份，打印出它的三份纸质拼图，然后做一份、两份，或者三份全做。",
+      "monthLegend": "选择月份",
+      "months": [
+        "一月",
+        "二月",
+        "三月",
+        "四月",
+        "五月",
+        "六月",
+        "七月",
+        "八月",
+        "九月",
+        "十月",
+        "十一月",
+        "十二月"
+      ],
+      "monthNote": "每个月都有自己的图案。页面默认打开当前月份，您也可以选择其他月份。",
+      "restDay": "今天是休息日",
+      "restLine": "今天不做拼图。休息也是很好的一天。",
+      "previewHeading": "三份拼图",
+      "puzzles": {
+        "pairs": {
+          "title": "配对",
+          "how": "从上面一行的每张图片出发，画一条线连到下面一行的同一张图片。",
+          "describe": "两行相同的四张图片，只是排列顺序不同。"
+        },
+        "different": {
+          "title": "哪一个不一样？",
+          "how": "圈出与其他三张不同的那一张图片。",
+          "describe": "一行四张图片。其中三张相同，有一张不同。"
+        },
+        "color": {
+          "title": "涂色",
+          "how": "用蜡笔或铅笔，按自己喜欢的方式给图片涂色。",
+          "describe": "一张大图，供涂色用。"
+        }
+      },
+      "print": "打印本月的一套",
+      "sheetHow": "打印一页。三份拼图可以做一份、两份或全部，顺序不限。",
+      "printFooter": "做一份、两份或三份都可以。随时想停就停。"
+    },
+    "decorateACard": {
+      "guidance": "选一个场合，然后用蜡笔或钢笔一起装饰一张卡片。没有标准答案，怎么做都可以。",
+      "occasionLegend": "选择场合",
+      "occasions": {
+        "birthday": {
+          "label": "生日",
+          "words": "生日快乐"
+        },
+        "thank-you": {
+          "label": "感谢",
+          "words": "谢谢您"
+        },
+        "thinking-of-you": {
+          "label": "惦记您",
+          "words": "一直惦记您"
+        },
+        "new-season": {
+          "label": "新季节",
+          "words": "新的季节"
+        },
+        "just-because": {
+          "label": "没有特别的理由",
+          "words": "没有特别的理由"
+        }
+      },
+      "stepsHeading": "一起装饰的方法",
+      "steps": {
+        "fold": "把卡片打印出来，沿虚线对折，让正面朝外。",
+        "front": "一人装饰正面，装饰文字周围的部分。",
+        "inside": "另一人装饰背面，或者你们在同一面上轮流画。",
+        "message": "一起写一段话。一人写字，另一人说出想写的话。",
+        "stop": "随时想停就停。没有标准的卡片，简单的一张同样很好。"
+      },
+      "materials": "用蜡笔、彩色铅笔或水彩笔即可。不需要剪、粘或贴。",
+      "previewLabel": "对折后卡片的预览。正面写着{words}，周围是简单的树叶和星星边框。背面有写留言的横线，以及“署名”一栏。",
+      "from": "署名",
+      "sheetHow": "将卡片沿虚线对折，正面朝外。在背面写下祝福的话。",
+      "rulesHeading": "两人一起做",
+      "sheetRules": [
+        "轮流来，或者分工：一人装饰正面，另一人装饰背面。",
+        "一起写下祝福的话，或者一人写下另一人说的话。",
+        "任何人随时都可以停下。卡片没有标准的样子。"
+      ],
+      "print": "打印卡片"
+    },
+    "storyDice": {
+      "guidance": "看看这些图片，按任意顺序用它们讲一个故事。故事没有标准答案。",
+      "countLegend": "骰子数量",
+      "count": "{n} 个骰子",
+      "roll": "再掷一次",
+      "pass": "跳过",
+      "passed": "跳过也没关系。下一位可以开始，您也可以再掷一次。",
+      "rolled": "新的图片：{names}。",
+      "tapped": "{name}。可以从这一个开始，也可以选别的。"
+    },
+    "wordPicture": {
+      "guidance": "点一张图片，再点写着它名字的词语。或者先点词语，再点对应的图片。",
+      "countLegend": "图片数量",
+      "count": "{n} 张图片",
+      "picturesGroup": "图片",
+      "wordsGroup": "词语",
+      "readWord": "朗读：{name}",
+      "next": "换一组图片",
+      "putBack": "放回去",
+      "pickWord": "现在请点选与它相配的词语。",
+      "pickPicture": "现在请点选与它相配的图片。",
+      "fit": "对，这个词语对应的是{name|lower}。",
+      "newSet": "这是一组新的图片。",
+      "restarted": "回到开头。所有图片和词语都重新打散了。",
+      "restored": "已放回。配对成功的内容重新显示出来了。",
+      "all": "每个词语都找到了对应的图片。"
+    },
+    "colorMatch": {
+      "guidance": "看看颜色和它的名字，然后点选所有这种颜色的图片。",
+      "target": "这种颜色是{color|lower}。请点选所有{color|lower}的图片。",
+      "countLegend": "图片数量",
+      "count": "{n} 张图片",
+      "found": "对，{name|lower}是{color|lower}的。",
+      "named": "{name|lower}是{color|lower}的。",
+      "all": "这些就是所有{color|lower}的图片。",
+      "shown": "这些是{color|lower}的图片。",
+      "show": "显示出来",
+      "next": "换一种颜色",
+      "names": {
+        "red": "红色",
+        "orange": "橙色",
+        "yellow": "黄色",
+        "green": "绿色",
+        "blue": "蓝色"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "点左边的一半，再点右边与它吻合的那一半。",
+      "countLegend": "图片数量",
+      "count": "{n} 张图片",
+      "leftGroup": "左半边",
+      "rightGroup": "右半边",
+      "left": "{name|lower}的左半边",
+      "right": "{name|lower}的右半边",
+      "joined": "已拼合",
+      "pickRight": "现在请点选右边与它吻合的那一半。",
+      "pickLeft": "现在请点选左边与它吻合的那一半。",
+      "fit": "对，这两半拼在一起就是{name|lower}。",
+      "apart": "这两半拼不到一起。换一组试试。",
+      "all": "每张图片都拼完整了。",
+      "shown": "这些是拼合好的图片。",
+      "show": "给我看看",
+      "next": "换一组"
+    },
+    "colorByNumber": {
+      "guidance": "从色卡里选一种颜色，再给方格涂上色。用什么颜色都可以。",
+      "sizeLegend": "网格大小",
+      "size": "{n} × {n}",
+      "keyLegend": "颜色",
+      "colors": [
+        "黄色",
+        "橙色",
+        "绿色",
+        "紫色"
+      ],
+      "motifs": {
+        "house": "一座房子",
+        "flower": "一朵花",
+        "heart": "一颗心",
+        "tree": "一棵树",
+        "boat": "一艘帆船",
+        "pot-plant": "一盆植物"
+      },
+      "region": "图片网格，{n} × {n}。屏幕较窄时可以左右滑动。",
+      "cell": "第{number}号，第{row}行，第{column}列，{color}",
+      "empty": "空白",
+      "chose": "已选择{name}。点一个方格给它涂色。",
+      "painted": "{name}，第{row}行，第{column}列。",
+      "sheet": "每个方格都涂上了与其编号对应的颜色。这是纸上的图片：{name}。",
+      "own": "每个方格都已涂好。这是您自己的画。",
+      "fillAll": "按编号填色",
+      "filledAll": "现在，每个空白方格都涂上了与其编号对应的颜色。",
+      "clear": "清空",
+      "cleared": "网格已清空。",
+      "next": "换一张图",
+      "fresh": "这是另一张可以涂色的图片。"
+    },
+    "patternMaker": {
+      "guidance": "点一个方格可以改变它的颜色，您的图案会在旁边逐渐形成。您做的内容不会被保存或发送。",
+      "sizeLegend": "图块大小",
+      "size": "{n} × {n}",
+      "keyLegend": "颜色，按点击顺序依次变化",
+      "colors": [
+        "黄色",
+        "橙色",
+        "绿色",
+        "紫色"
+      ],
+      "tileLabel": "您的图块",
+      "region": "您的图块，{n} × {n}。屏幕较窄时可以左右滑动。",
+      "patternLabel": "您的图案",
+      "pattern": "您的图案：您的图块横向重复{n}次，纵向重复{n}次。",
+      "square": "第{row}行，第{column}列，{color}",
+      "changed": "第{row}行第{column}列现在是{color}。",
+      "cleared": "图块已清空。您可以随时放回去。",
+      "surprise": "给我一个惊喜",
+      "surprised": "这是一个新图块。您可以把旧的放回去。",
+      "putBack": "放回去",
+      "restored": "您的图块已恢复原样。",
+      "print": "打印我的图案",
+      "sheetTitle": "我的图案"
+    },
+    "buildTogether": {
+      "guidance": "轮流在空白处放一块。两人各有自己的颜色。您做的内容不会被保存或发送。",
+      "sizeLegend": "网格大小",
+      "size": "{n} × {n}",
+      "people": [
+        "第一位",
+        "第二位"
+      ],
+      "colorLegend": "{person}的颜色",
+      "colors": [
+        "黄色",
+        "橙色",
+        "绿色",
+        "紫色"
+      ],
+      "inUse": "已使用",
+      "turn": "轮到{person|lower}。",
+      "yourColor": "您的颜色是{color|lower}。",
+      "built": "两人一起完成了。这是两位共同做出的图案。",
+      "gridLabel": "共用网格",
+      "region": "共用网格，{n} × {n}。屏幕较窄时可以左右滑动。",
+      "cellEmpty": "第{row}行，第{column}列，空白",
+      "cellFilled": "第{row}行，第{column}列，{color}，由{person|lower}放置",
+      "placed": "第{row}行第{column}列现在是{color}。轮到{next|lower}。",
+      "placedLast": "第{row}行第{column}列现在是{color}。两人一起完成了。",
+      "taken": "第{row}行第{column}列已经有一块了。请选择一个空白处。",
+      "pass": "跳过",
+      "passed": "跳过也没关系。轮到{person|lower}。",
+      "takeBack": "收回上一块",
+      "takeBackPass": "收回跳过",
+      "tookBack": "已收回这一块。轮到{person|lower}。",
+      "tookBackPass": "已收回跳过。轮到{person|lower}。",
+      "colorChanged": "{person}现在是{color|lower}。",
+      "restarted": "网格已清空。轮到{person|lower}。",
+      "print": "打印网格",
+      "sheetTitle": "一起搭建",
+      "sheetHelp": "轮流进行。在空白方格里，每人用自己的铅笔画自己的图形。",
+      "sheetKey": "{person}：{color}"
+    },
+    "quietShapes": {
+      "guidance": "点一个图块，再点图中它应该放的位置。您做的内容不会被保存或发送。",
+      "hints": "显示提示线",
+      "pictureLine": "图中画的是{picture}。",
+      "pictures": {
+        "house": "房子",
+        "boat": "小船",
+        "tree": "树",
+        "fish": "鱼",
+        "cat": "猫",
+        "rocket": "火箭"
+      },
+      "outlineLabel": "{picture}的轮廓。点一个空位，把选中的图块放进去。",
+      "trayHeading": "图块",
+      "pieces": {
+        "large-triangle": "大三角形",
+        "small-triangle": "小三角形",
+        "square": "正方形",
+        "parallelogram": "平行四边形",
+        "rectangle": "长方形"
+      },
+      "shapes": {
+        "large-triangle": "大三角形",
+        "small-triangle": "小三角形",
+        "square": "正方形",
+        "parallelogram": "平行四边形",
+        "rectangle": "长方形"
+      },
+      "chosenLabel": "已选",
+      "spaceEmpty": "第{n}格，{shape}，空白",
+      "spaceFilled": "第{n}格，{shape}，已放入图块。点一下可以收回图块。",
+      "chosen": "已选择{piece}。现在请点图中的一个空位。",
+      "unchosen": "这一块已不再选中。",
+      "placed": "这一块已放在第{n}格。",
+      "complete": "{picture}已完成。",
+      "different": "这一块的形状与这一格不同。请试试另一格。",
+      "needPiece": "请先从托盘里选一块。",
+      "filled": "这一格已经放了一块。点一下即可把它拿回。",
+      "tookBack": "这一块已放回托盘。",
+      "cleared": "所有块都已放回托盘。如果您改变了主意，可以再放回去。",
+      "restored": "所有块都已放回图片中。",
+      "next": "这一块是{picture}的一部分。",
+      "putBack": "放回去",
+      "another": "换一个形状",
+      "print": "打印这个形状",
+      "sheetTitle": "安静的形状",
+      "sheetHow": "给这些块涂色，或剪下来放进轮廓里。剪裁可以由成年人来做。",
+      "sheetPieces": "各块，大小与轮廓相同"
+    },
+    "picnicPlanner": {
+      "guidance": "点一张图片把它放进野餐篮，再点篮子里的图片即可取出。篮子最多放6样东西。",
+      "guidancePlay": "点两张相同的图片。图片会一直显示，也没有时间限制。",
+      "basketHeading": "我们的篮子",
+      "basketLabel": "野餐篮",
+      "takeOut": "把{picture}从篮子里拿出来",
+      "inBasket": "在篮子里",
+      "foodHeading": "食物",
+      "outingsHeading": "可以做的事",
+      "added": "{picture}已放进篮子。",
+      "removed": "{picture}已从篮子里拿出。",
+      "already": "{picture}已经在篮子里了。在篮子里点一下即可拿出。",
+      "full": "篮子已满。请先拿出一样东西，腾出位置。",
+      "summary": "我们的野餐：{list}。",
+      "summaryNone": "篮子里还没有东西。",
+      "and": "和",
+      "play": "我们来玩一玩野餐",
+      "needTwo": "请先至少选两样东西。",
+      "playAgain": "再玩一次",
+      "back": "回到野餐",
+      "print": "打印我们的野餐清单",
+      "cleared": "篮子已经空了。",
+      "notice": "这是一个用来聊天的计划。没有时间限制，也不评分，也不会保存。",
+      "sheetTitle": "我们的野餐清单",
+      "sheetHow": "打包时在每一样东西前打勾。空白行可以写下您还想带的其他东西。",
+      "sheetToPack": "待打包"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "请选择2到12张您自己的照片，开始制作这本相册。",
+      "guidance": "一起翻页，可以用按钮，也可以用键盘的左右方向键。如果愿意，可以在照片下面写几句话。您制作的内容不会被保存或发送。",
+      "lookGuidance": "一起看每一页。可以聊一聊，也可以只是静静地看。",
+      "intro": "从这台设备上选择2到12张照片。每张照片会成为相册中的一页，供您一起翻阅。",
+      "consent": "请使用您自己家里的照片。如果要用不能表示同意的人的照片，请先征得同意。",
+      "privacy": "您的照片只留在这台设备上。不会上传，也不会保存。",
+      "choose": "选择照片",
+      "chooseDifferent": "重新选择照片",
+      "backToBook": "回到相册",
+      "backToChoose": "回到选择照片",
+      "needTwo": "请至少选择两张照片。",
+      "usingFirst": "正在使用前{max}张照片。",
+      "cleared": "相册已清空。请选择照片，重新开始。",
+      "moved": "已翻到第{n}页。",
+      "pageOf": "第{n}页，共{total}页",
+      "lookTogether": "一起看看",
+      "leaveLook": "回到相册",
+      "print": "打印相册",
+      "clear": "清空相册",
+      "bookLabel": "家庭相册",
+      "pagesLabel": "翻页",
+      "previous": "上一页",
+      "next": "下一页",
+      "moveEarlier": "往前移",
+      "moveLater": "往后移",
+      "captionLabel": "如果愿意，可以为这一页写几句话",
+      "captionHelp": "最多80个字。文字说明只保留在这一页上，关闭后就没有了。",
+      "sheetTitle": "我们的相册",
+      "sheetHow": "每页一张照片，下面写着几句话。按顺序翻页，并谈谈每一张。",
+      "sheetEmpty": "在游戏页面选好照片，即可打印您自己的相册。或者打印这张空白页，贴上一张打印好的照片。",
+      "sheetFrame": "在这里贴一张打印好的照片",
+      "sheetWords": "这一页的几句话",
+      "skipped": {
+        "other": "有{n}个文件不是我们能使用的照片。"
+      }
+    },
+    "quietScene": {
+      "guidance": "一次只看一张图片。准备好时按“下一张”或“上一张”。不会自动换图。",
+      "next": "下一张图片",
+      "previous": "上一张图片",
+      "bigPicture": "放大图片",
+      "showEverything": "显示全部",
+      "first": "这是第一张图片。",
+      "last": "这是最后一张图片。",
+      "lines": {
+        "sunrise": "太阳从大地上升起。",
+        "window-with-birds": "窗外有鸟。",
+        "vase-of-flowers": "桌上有一瓶花。",
+        "teacup": "窗边有一杯茶。",
+        "tree": "一棵树立在花园里。",
+        "sailboat": "水面上有一艘帆船。",
+        "lighthouse": "海边有一座灯塔。",
+        "rainbow": "雨后出现一道彩虹。",
+        "moon": "夜空中有月亮。",
+        "daisies": "草地上有一片雏菊。",
+        "rowing-boat": "平静的水面上有一条划艇。",
+        "potted-plant": "盆里有一株绿色植物。"
+      }
+    },
+    "collageBoard": {
+      "guidance": "轮流来。点一个剪下的图片，再点一个空位把它放上去。您制作的内容不会被保存或发送。",
+      "people": [
+        "第一位",
+        "第二位"
+      ],
+      "marks": [
+        "一个圆圈",
+        "一个方块"
+      ],
+      "turn": "轮到{person|lower}了。",
+      "marked": "您的图片都标有{mark}。",
+      "boardLabel": "共享画板",
+      "placeEmpty": "第{n}格，空着",
+      "placeFilled": "第{n}格，{picture|lower}，由{person|lower}放下",
+      "trayHeading": "剪下的图片",
+      "chosenLabel": "已选择",
+      "chosen": "已选择{picture}。现在请点一个空位。",
+      "unchosen": "这张剪下的图片已不再选中。",
+      "needCutout": "请先选一张剪下的图片，再点一个空位。",
+      "filled": "第{n}格已经有图片了。请选择一个空位。",
+      "placed": "{picture}已放在第{n}格。轮到{next|lower}了。",
+      "full": "每个位置都已有图片。拿回一张即可更改，或重新开始。",
+      "pass": "跳过",
+      "passed": "跳过也可以。轮到{person|lower}了。",
+      "takeBack": "收回上一张图片",
+      "takeBackPass": "收回跳过",
+      "tookBack": "这张图片已收回。轮到{person|lower}了。",
+      "tookBackPass": "跳过已收回。轮到{person|lower}了。",
+      "restarted": "画板已清空。轮到{person|lower}了。",
+      "putBack": "放回去",
+      "putBackDone": "图片已放回画板。",
+      "another": "换一组图片",
+      "anotherSet": "托盘里已有一组新的剪下图片。画板上的图片保持原位。",
+      "print": "打印画板",
+      "sheetTitle": "拼贴画板",
+      "sheetHow": "剪下图片，然后轮流把它们放到画板上。剪裁可以由成年人来做。",
+      "sheetTray": "要剪下的图片"
+    },
+    "gardenPlanner": {
+      "guidance": "点一张图片，再点一个花床，即可把它放在那里。未选择任何图片时，点一个已有图片的花床，即可清空它。",
+      "bedsLabel": "花园花床",
+      "bedEmpty": "花床{n}，空着",
+      "bedFilled": "花床{n}，{picture|lower}",
+      "plantsHeading": "植物",
+      "extrasHeading": "花园配件",
+      "chosenLabel": "已选择",
+      "chosen": "已选择{picture}。现在请点一个花床。",
+      "unchosen": "没有选择任何图片。",
+      "needPicture": "先选一张图片，再点一块花圃。",
+      "planted": "{picture}放在第{n}号花圃里。",
+      "replaced": "{picture}替换了第{n}号花圃里原来的图片。",
+      "cleared": "第{n}号花圃已空。如果想再放这张图片，可以把它放回去。",
+      "restarted": "所有花圃都已清空。",
+      "putBack": "放回去",
+      "putBackDone": "图片已放回各自的花圃里。",
+      "summaryHeading": "我的花园",
+      "summary": "你的计划里有{list}。",
+      "summaryNone": "目前还没有图片放进花圃。",
+      "and": "和",
+      "print": "打印计划",
+      "sheetTitle": "我们的花园计划",
+      "sheetHow": "花圃里显示的是屏幕上选好的图片。如果愿意，可以在空的花圃里画画。",
+      "sheetNotes": "备注",
+      "notice": "这是一份用来聊天的图片计划，不是种植建议。"
+    },
+    "coloringWall": {
+      "guidance": "选择一张图片和页数。打印出这面墙，每个人给一页或多页上色。不计时，不评分，也不保存。",
+      "pictureLegend": "图片",
+      "sizeLegend": "页数",
+      "sizes": {
+        "2x2": "4页（2行2列）",
+        "3x2": "6页（3行2列）",
+        "3x3": "9页（3行3列）"
+      },
+      "previewLabel": "这张{picture|lower}被分成{n}页，横向{across}页，纵向{down}页。每页的角落都有一个标签。",
+      "previewCaption": "图片上画出了页面分隔线和标签。",
+      "labelsNote": "字母表示纵向排列，数字表示横向排列，所以A1是左上角的一页。",
+      "wallHeading": "如何拼成一面墙",
+      "steps": [
+        "把所有页面打印出来。第一页是这些步骤和一张墙面示意图。",
+        "每个人选择一页或多页，然后上色。",
+        "颜色和风格不必统一。每一页都是同一幅图画的一部分。",
+        "按标签把页面摆好，然后在背面用胶带把它们连起来。",
+        "把这面墙挂在大家都能看到的地方。"
+      ],
+      "mapLabel": "墙面示意图：{down}行，每行{across}页，标签从A1到{last}。",
+      "edgeNote": "虚线标出每一页的边缘。沿着虚线把页面边对边摆放，或者稍微重叠一点。",
+      "pictureLine": "图片：{picture}。这面墙共{n}页：横向{across}页，纵向{down}页。",
+      "print": "打印这面墙"
+    },
+    "findTogether": {
+      "guidance": "轮流进行。轮到你时，翻开两张牌，寻找一对。一起把这些配对找出来。",
+      "sizeLegend": "牌数",
+      "size": "{n}张牌",
+      "viewLegend": "玩法",
+      "viewShowing": "图片朝上玩",
+      "viewHidden": "牌面朝下",
+      "people": [
+        "第一位玩家",
+        "第二位玩家"
+      ],
+      "turn": "轮到：{person}",
+      "turnDone": "所有配对都已找到。",
+      "tally": "一起找到的配对：{n}",
+      "cardNamed": "{name}，第{n}张牌",
+      "cardFaceDown": "第{n}张牌，牌面朝下",
+      "first": "{name}。现在请翻开第二张牌。",
+      "found": "{name}：找到了一对，是一起找到的。现在轮到{next|lower}了。",
+      "allTogether": "你们一起找到了所有配对。",
+      "different": "{a}和{b}不一样。慢慢来，准备好后按“翻回去”。",
+      "waiting": "准备好后按“翻回去”。然后换人。",
+      "turnedBack": "已翻回去。现在轮到{person|lower}了。",
+      "passed": "跳过也没关系。现在轮到{person|lower}了。",
+      "turnBack": "翻回去",
+      "pass": "跳过",
+      "playAgain": "再玩一次"
+    },
+    "drawingDuet": {
+      "guidance": "轮流每人画一笔，然后把笔交给对方。任何人都可以跳过。内容不会发送到任何地方。只有你保存，图画才会离开这个页面。",
+      "people": [
+        "第一位玩家",
+        "第二位玩家"
+      ],
+      "colorLegend": "{person}的颜色",
+      "colors": [
+        "黄色",
+        "橙色",
+        "绿色",
+        "紫色"
+      ],
+      "turn": "轮到{person}",
+      "penColor": "画笔颜色：{color}。",
+      "canvasLabel": "共同绘画，目前{n}笔",
+      "canvasLabelOne": "共同绘画，目前{n}笔",
+      "keys": "方向键移动画布上的笔点。空格键落笔或抬笔。",
+      "penDown": "落笔",
+      "penUp": "抬笔",
+      "pass": "把笔交给对方",
+      "passed": "跳过也没关系。轮到你了，{person|lower}。",
+      "takeBack": "撤回我的上一笔",
+      "tookBack": "已撤回{person|lower}的上一笔。",
+      "noLine": "{person|lower}没有可以撤回的笔画。",
+      "restarted": "画纸已清空。第一位玩家先画。如果不是有意的，可以放回去。",
+      "putBack": "放回去",
+      "restored": "线条已恢复原样。",
+      "save": "保存图画",
+      "saved": "你的图画已准备好。使用下载链接，即可保存到这台设备上。",
+      "download": "下载 drawing-duet.png",
+      "print": "打印纸质版",
+      "sheetTitle": "共同绘画",
+      "paperRules": "两个人，一张纸，两支笔。轮流每人画一条线或一个形状，然后把笔交给对方。任何人都可以跳过。没有标准答案的画。"
+    },
+    "colorWash": {
+      "guidance": "在页面上慢慢涂上柔和的颜色，一次涂一层。抬起画笔即可停止，想停就停。不保存，也不发送任何内容。",
+      "colorLegend": "涂色",
+      "sizeLegend": "笔刷大小",
+      "colors": [
+        "黄色",
+        "橙色",
+        "绿色",
+        "紫色"
+      ],
+      "sizes": {
+        "wide": "宽",
+        "veryWide": "特宽"
+      },
+      "color": "涂色：{color}。",
+      "brushDown": "落笔",
+      "brushUp": "抬笔",
+      "keys": "方向键移动页面上的笔刷圈。空格键落笔或抬笔。",
+      "canvasLabel": "一页柔和的色彩涂层",
+      "fresh": "新的一页",
+      "freshMessage": "已是新的一页。",
+      "putBack": "放回去",
+      "restored": "页面已恢复。"
+    },
     "sortTogether": {
       "guidance": "点一张图片，再点它该放进的篮子。",
       "restart": "换一组图片",
@@ -68,7 +717,13 @@
       "hint": "{name}可以放进“{basket}”。点那个篮子，把它放进去。",
       "placed": "{name}放进了“{basket}”。",
       "sorted": "都分好了。一起翻看各个篮子，或者换个主题试试。",
-      "basket": {"other": "篮子“{basket}”，里面有 {count} 张图片"}
+      "largerTargets": "较大的目标",
+      "largerOn": "已开启较大的目标。没有任何内容移动。",
+      "largerOff": "已关闭较大的目标。没有任何内容移动。",
+      "largerOnNewRound": "已开启较大的目标，并显示两个篮子。这里是新一轮要分类的图片。",
+      "basket": {
+        "other": "篮子“{basket}”，里面有 {count} 张图片"
+      }
     },
     "picturePuzzle": {
       "guidance": "点一块拼图，再点另一块，它们就会交换位置。",
@@ -83,7 +738,9 @@
         "cat": "猫"
       },
       "sizeLegend": "拼块",
-      "size": {"other": "{n} 块"},
+      "size": {
+        "other": "{n} 块"
+      },
       "pickedUp": "拿起了一块。现在点它应该去的位置。",
       "whole": "{name}又完整了。想换一张图片，随时都可以。",
       "swapped": {
@@ -91,10 +748,27 @@
       },
       "guideAlt": "完整的图片：{name}",
       "guideText": "这是图片完整时的样子。",
+      "ownChoose": "使用自己的照片",
+      "ownChange": "选择另一张照片",
+      "ownBack": "返回我们的图片",
+      "ownPrivacy": "你的照片只保存在这台设备上，不会上传或保存。",
+      "ownConsent": "使用自己的照片。如果照片中的人无法表示同意，请先征得同意再使用。",
+      "ownWorking": "正在准备你的照片。",
+      "ownNotUsable": "无法使用该文件。请选择照片文件，例如JPEG或PNG格式。",
+      "ownAlt": "你的照片",
+      "ownPiece": "第{n}块，{place}",
+      "ownWhole": "你的照片已经拼完整了。想再打乱，随时都可以。",
+      "ownSheetTitle": "切成小块的照片",
+      "ownSheetHow": "沿着线剪开。把小块打乱，然后每次交换两块，直到照片重新拼成完整的一张。",
       "piece": "{place}的拼块",
       "pieceInPlace": "，位置正好",
       "piecePickedUp": "，已拿起",
-      "places4": ["左上角", "右上角", "左下角", "右下角"],
+      "places4": [
+        "左上角",
+        "右上角",
+        "左下角",
+        "右下角"
+      ],
       "places9": [
         "左上角",
         "上边中间",
@@ -111,7 +785,7 @@
     },
     "finishTheSaying": {
       "guidance": "一起读出这句俗语，再点能补完它的字。",
-      "gap": "",
+      "gap": " ",
       "ending": "{end}。",
       "yes": "对，“{start}{end}。”",
       "otherEnding": "“{word}”也说得通。常说的是“{end}”。",
@@ -126,7 +800,9 @@
       "restart": "换一份题目",
       "themeLegend": "主题",
       "sizeLegend": "方格大小",
-      "size": {"other": "{n} × {n}（{words} 个词语）"},
+      "size": {
+        "other": "{n} × {n}（{words} 个词语）"
+      },
       "print": "打印这份题目",
       "letterChosen": "选了“{letter}”。现在点这个词语的最后一个字。",
       "found": "找到了“{word}”。",
@@ -172,6 +848,14 @@
       "guidance": "把卡片大声读出来。没有标准答案。",
       "position": "第 {n} 张，共 {total} 张",
       "themeLegend": "主题",
+      "showPrompt": "显示一个聊天提示",
+      "bigPicture": "大图，适合小组使用",
+      "passNote": "任何人都可以跳过。",
+      "groupTitle": "在小组中传递卡片",
+      "groupSit": "大家围成一圈坐下，确保都能看到图片。拿着卡片的人，或者显示大图的设备，先把提示语读出来。",
+      "groupPass": "然后把卡片传给下一个人。每个人说一个词或一句话，谈谈这张图片，再传下去。",
+      "groupNoSpeech": "传递卡片始终可以。任何人都可以不说话就跳过，也不必说明原因。",
+      "groupEnd": "这一轮在卡片传完一圈后结束，或者大家觉得够了就停。没有输赢。团体想停的时候随时可以停。",
       "next": "下一张卡片",
       "previous": "上一张卡片",
       "print": "打印全部卡片",
@@ -204,8 +888,12 @@
       "squaresLegend": "每张卡片的格数",
       "squares": "{n} 格（{side} × {side}）",
       "cardsLegend": "要打印几张卡片",
-      "cards": {"other": "{n} 张卡片"},
-      "print": {"other": "打印 {n} 张卡片"},
+      "cards": {
+        "other": "{n} 张卡片"
+      },
+      "print": {
+        "other": "打印 {n} 张卡片"
+      },
       "ready": "准备好了就开始",
       "next": "下一张",
       "allCalled": "所有图片都叫过了",
@@ -226,6 +914,20 @@
       "started": "开始了。圆圈变大时吸气。",
       "stopped": "已停止。",
       "finished": "刚才是六次缓慢的呼吸。想再来时，随时都可以开始。"
+    },
+    "storyChain": {
+      "guidance": "轮流来：每人说一句，然后加上下一张图片。",
+      "passNote": "请大声说出您的那一句。不打字，也不保存。任何人都可以跳过。",
+      "chainLabel": "目前的故事链",
+      "item": "第 {n} 张图片：{name}",
+      "add": "添加一张图片",
+      "fullAdd": "故事链已满。请开始一条新的故事链",
+      "newChain": "开始一条新的故事链",
+      "takeOff": "移除最后一张",
+      "added": "{name|lower}现在位于故事链的末尾。",
+      "removed": "{name|lower}已从故事链中移除。",
+      "fresh": "一条新的故事链，从{name|lower}开始。",
+      "full": "故事链已经有八张图片了。请把整个故事讲完，或者开始一条新的故事链。"
     }
   },
   "pictures": {
@@ -311,7 +1013,44 @@
     "rain-cloud": "雨云",
     "snowflake": "雪花",
     "kite": "风筝",
-    "sunrise": "山丘上的日出"
+    "sunrise": "山丘上的日出",
+    "decorated-keepsake-box": "装饰好的纪念盒",
+    "painted-plant-pot": "彩绘花盆，里面种着香草",
+    "repeating-pattern-sheet": "重复图案纸",
+    "music-drawn-lines": "随音乐画的线条",
+    "paper-boat-afloat": "漂在水上的纸船",
+    "folded-towel-stack": "叠好的毛巾堆",
+    "hand-massage-with-lotion": "手放在毛巾上，旁边有护手霜",
+    "open-photo-album": "打开的相册",
+    "button-flower-card": "纽扣花卡片",
+    "blue-torn-paper-collage": "蓝色撕纸拼贴",
+    "family-tree-of-hands": "用手印画成的家谱树",
+    "open-greeting-card": "打开的贺卡，上面有一颗心",
+    "lavender-sachet": "用丝带系好的薰衣草香袋",
+    "memory-collage-of-photos": "家庭照片拼贴",
+    "paper-chain-garland": "纸链花环",
+    "open-songbook-with-notes": "打开的歌本，上面有乐谱",
+    "photo-postcard-with-stamp": "贴了邮票的照片明信片",
+    "pine-cone-bird-feeder": "挂在树枝上的松果喂鸟器",
+    "playlist-phone-and-card": "手机歌单和歌曲卡片",
+    "sealed-rice-shaker": "封好口的米粒摇摇器",
+    "texture-board-with-scraps": "拼有各种碎布的质感板",
+    "painted-garden-stone": "彩绘花园石",
+    "shared-painted-canvas": "一起绘制的画布",
+    "watercolor-washes-sheet": "水彩晕染纸",
+    "seedling-in-pot": "花盆里的幼苗",
+    "pressed-leaves-in-book": "夹在书里的压叶",
+    "printed-leaves-sheet": "叶子拓印纸",
+    "pinch-pot-clay-bowl": "捏制的陶碗",
+    "table-sketch-pencil": "马克杯铅笔素描",
+    "buttons-in-muffin-tin": "按类分放在松饼模里的纽扣",
+    "family-recipe-book": "家传食谱本",
+    "drum-with-beat-marks": "带鼓槌的桌面小鼓",
+    "torn-paper-flower": "撕纸花拼贴",
+    "window-with-birds": "有小鸟的窗户",
+    "woven-paper-mat": "编织纸垫",
+    "yarn-ball-with-thread": "一团毛线",
+    "letter-and-envelope": "装在信封里的信"
   },
   "illustrations": {
     "rocking-chair": "摇椅",
@@ -416,55 +1155,6 @@
     "pocket-watch": "怀表"
   },
   "content": {
-    "sayings": [
-      {"start": "一寸光阴一寸", "end": "金", "others": ["银", "玉"], "prompt": "一天当中，您最喜欢哪段时光？"},
-      {"start": "千里之行，始于", "end": "足下", "others": ["门前", "今日"], "prompt": "您喜欢散步吗？平时爱去哪里走走？"},
-      {"start": "三人行，必有我", "end": "师", "others": ["友", "伴"], "prompt": "您跟谁学过一样手艺或本事？"},
-      {"start": "百闻不如一", "end": "见", "others": ["看", "试"], "prompt": "有没有哪个地方，亲眼看到比听说的还要好？"},
-      {"start": "家和万事", "end": "兴", "others": ["顺", "好"], "prompt": "您觉得一家人怎样才能和和睦睦？"},
-      {"start": "有志者事竟", "end": "成", "others": ["通", "好"], "prompt": "有什么事是您下定决心做成的？"},
-      {"start": "开卷有", "end": "益", "others": ["趣", "喜"], "prompt": "您喜欢读什么样的书或报纸？"},
-      {"start": "一年之计在于", "end": "春", "others": ["秋", "冬"], "prompt": "春天来了，您最喜欢做什么？"},
-      {"start": "一日之计在于", "end": "晨", "others": ["午", "夜"], "prompt": "早上起来，您喜欢先做什么？"},
-      {"start": "瑞雪兆丰", "end": "年", "others": ["收", "景"], "prompt": "您喜欢下雪天吗？下雪时爱做些什么？"},
-      {"start": "远亲不如近", "end": "邻", "others": ["亲", "友"], "prompt": "说说您喜欢的一位邻居吧。"},
-      {"start": "众人拾柴火焰", "end": "高", "others": ["旺", "红"], "prompt": "家里有什么活儿，是大家一起干的？"},
-      {"start": "路遥知马", "end": "力", "others": ["快", "壮"], "prompt": "您骑过马，或者近处看过马吗？"},
-      {"start": "熟能生", "end": "巧", "others": ["花", "香"], "prompt": "有没有哪样拿手活，您做过很多很多遍？"},
-      {"start": "种瓜得瓜，种豆得", "end": "豆", "others": ["花", "米"], "prompt": "您种过菜，或者养过花吗？"},
-      {"start": "有朋自远方来，不亦", "end": "乐乎", "others": ["快哉", "美哉"], "prompt": "家里来客人时，您喜欢怎么招待？"},
-      {"start": "一分耕耘，一分", "end": "收获", "others": ["欢喜", "汗水"], "prompt": "有什么事虽然辛苦，做完却觉得特别值得？"},
-      {"start": "人逢喜事精神", "end": "爽", "others": ["好", "足"], "prompt": "最近有什么让您高兴的事？"},
-      {"start": "心急吃不了热", "end": "豆腐", "others": ["包子", "馒头"], "prompt": "您喜欢吃豆腐吗？怎么做最好吃？"},
-      {"start": "尺有所短，寸有所", "end": "长", "others": ["宽", "余"], "prompt": "您觉得自己最拿手的是什么？"},
-      {"start": "车到山前必有", "end": "路", "others": ["桥", "道"], "prompt": "您喜欢坐车出去转转吗？想去哪里？"},
-      {"start": "万事开头", "end": "难", "others": ["好", "早"], "prompt": "您学过的哪样本事，一开始最不容易？"},
-      {"start": "只要功夫深，铁杵磨成", "end": "针", "others": ["刀", "钉"], "prompt": "您会做针线活吗？家里谁的手最巧？"},
-      {"start": "冰冻三尺，非一日之", "end": "寒", "others": ["冷", "雪"], "prompt": "冬天您最喜欢做什么？"},
-      {"start": "人多力量", "end": "大", "others": ["强", "足"], "prompt": "您喜欢热热闹闹，还是清清静静？"},
-      {"start": "近朱者赤，近墨者", "end": "黑", "others": ["白", "灰"], "prompt": "跟谁在一起时，您觉得最开心？"},
-      {"start": "一回生，二回", "end": "熟", "others": ["好", "亲"], "prompt": "和新朋友见面，您喜欢聊些什么？"},
-      {"start": "千里送鹅毛，礼轻情意", "end": "重", "others": ["浓", "深"], "prompt": "什么样的小礼物最让您开心？"},
-      {"start": "塞翁失马，焉知非", "end": "福", "others": ["喜", "好"], "prompt": "有没有一件事，开头不顺，后来反而挺好？"},
-      {"start": "民以食为", "end": "天", "others": ["先", "本"], "prompt": "您最爱吃的一道家常菜是什么？"},
-      {"start": "吃水不忘挖井", "end": "人", "others": ["者", "家"], "prompt": "有谁帮过您，让您一直心存感激？"},
-      {"start": "水滴石", "end": "穿", "others": ["开", "破"], "prompt": "您喜欢听雨声，或者流水声吗？"},
-      {"start": "一个好汉三个", "end": "帮", "others": ["友", "伴"], "prompt": "说说您的好朋友们吧。"},
-      {"start": "金窝银窝，不如自己的", "end": "狗窝", "others": ["小屋", "老房"], "prompt": "家里您最喜欢待在哪个角落？"},
-      {"start": "瓜熟蒂", "end": "落", "others": ["甜", "香"], "prompt": "夏天您最爱吃什么瓜？"},
-      {"start": "春雨贵如", "end": "油", "others": ["金", "玉"], "prompt": "您喜欢春天的小雨吗？"},
-      {"start": "上有天堂，下有", "end": "苏杭", "others": ["江南", "西湖"], "prompt": "您最想去哪个地方走走看看？"},
-      {"start": "秀才不出门，便知天下", "end": "事", "others": ["人", "情"], "prompt": "您平时喜欢看报纸、听广播，还是看电视？"},
-      {"start": "不怕慢，就怕", "end": "站", "others": ["停", "等"], "prompt": "有什么事您喜欢慢慢做？"},
-      {"start": "花好月", "end": "圆", "others": ["明", "亮"], "prompt": "中秋节，您家喜欢怎么过？"},
-      {"start": "授人以鱼，不如授人以", "end": "渔", "others": ["网", "竿"], "prompt": "您喜欢钓鱼，或者在河边坐一坐吗？"},
-      {"start": "磨刀不误砍柴", "end": "工", "others": ["时", "人"], "prompt": "做事之前，您喜欢先把东西准备好吗？"},
-      {"start": "一方水土养一方", "end": "人", "others": ["家", "地"], "prompt": "哪个地方的家乡菜，您最喜欢？"},
-      {"start": "三百六十行，行行出", "end": "状元", "others": ["能人", "好手"], "prompt": "说说您喜欢做的一份工作吧。"},
-      {"start": "酒香不怕巷子", "end": "深", "others": ["长", "远"], "prompt": "您喜欢逛老街和小巷子吗？"},
-      {"start": "桃李满天", "end": "下", "others": ["边", "涯"], "prompt": "说说一位您喜欢的老师吧。"},
-      {"start": "笑口常", "end": "开", "others": ["乐", "在"], "prompt": "什么事最能让您开怀大笑？"}
-    ],
     "conversation": {
       "themes": {
         "all": "全部卡片",
@@ -478,53 +1168,221 @@
         "seasons": "四季"
       },
       "cards": [
-        {"theme": "food", "picture": "bread", "prompt": "厨房里飘出什么味道，最让您喜欢？"},
-        {"theme": "food", "picture": "cake", "prompt": "过生日的时候，您喜欢怎么庆祝？"},
-        {"theme": "food", "picture": "apple", "prompt": "您最喜欢吃什么水果？"},
-        {"theme": "food", "picture": "teacup", "prompt": "您喜欢喝什么茶？绿茶、红茶，还是花茶？"},
-        {"theme": "food", "picture": "frying-pan", "prompt": "什么样的早饭最香？豆浆油条，还是稀饭馒头？"},
-        {"theme": "food", "picture": "strawberry", "prompt": "您喜欢去果园里摘水果吗？"},
-        {"theme": "food", "picture": "lemon", "prompt": "酸的、甜的、辣的，您更爱吃哪一种？"},
-        {"theme": "food", "picture": "cherries", "prompt": "哪种吃的，让您一想到就觉得是夏天？"},
-        {"theme": "home", "picture": "house", "prompt": "说说您住着很喜欢的一个家吧。"},
-        {"theme": "home", "picture": "armchair", "prompt": "您最喜欢坐在哪里歇一歇？"},
-        {"theme": "home", "picture": "lamp", "prompt": "安静的晚上，您喜欢做些什么？"},
-        {"theme": "home", "picture": "key", "prompt": "如果有一个宝贝盒子，您会在里面放些什么？"},
-        {"theme": "home", "picture": "kettle", "prompt": "您想请谁来家里喝杯茶、聊聊天？"},
-        {"theme": "home", "picture": "umbrella", "prompt": "下雨天，您喜欢在家做什么？"},
-        {"theme": "outdoors", "picture": "sunflower", "prompt": "要是有个小院子，您想种些什么花？"},
-        {"theme": "outdoors", "picture": "tree", "prompt": "说说您喜欢的一棵树或者一个公园吧。"},
-        {"theme": "outdoors", "picture": "watering-can", "prompt": "在院子里或阳台上，您最喜欢做什么？"},
-        {"theme": "outdoors", "picture": "tulip", "prompt": "您最喜欢什么颜色的花？"},
-        {"theme": "outdoors", "picture": "potted-plant", "prompt": "您喜欢在家里养花养草吗？"},
-        {"theme": "outdoors", "picture": "sun", "prompt": "天气晴朗的时候，您最想去哪里走走？"},
-        {"theme": "animals", "picture": "dog", "prompt": "说说您认识的一只狗吧。"},
-        {"theme": "animals", "picture": "cat", "prompt": "猫和狗，您更喜欢哪一个？喜欢它们什么？"},
-        {"theme": "animals", "picture": "bird", "prompt": "您喜欢听鸟叫，或者看人在公园里遛鸟吗？"},
-        {"theme": "animals", "picture": "fish", "prompt": "您钓过鱼，或者养过金鱼吗？"},
-        {"theme": "animals", "picture": "butterfly", "prompt": "您见过最漂亮的小动物是什么样的？"},
-        {"theme": "travel", "picture": "car", "prompt": "您喜欢坐车出去兜兜风吗？想去哪儿？"},
-        {"theme": "travel", "picture": "sailboat", "prompt": "去海边和去山里，您更喜欢哪一个？"},
-        {"theme": "travel", "picture": "bicycle", "prompt": "骑上自行车，您想去哪里转一转？"},
-        {"theme": "travel", "picture": "balloon", "prompt": "如果能从天上往下看，您想看看哪个地方？"},
-        {"theme": "travel", "picture": "lighthouse", "prompt": "说说一次让您开心的出游吧。"},
-        {"theme": "work", "picture": "key", "prompt": "什么样的工作，您做起来最有劲？"},
-        {"theme": "work", "picture": "watering-can", "prompt": "有什么爱好，让您一做就是好几个小时？"},
-        {"theme": "work", "picture": "bread", "prompt": "有什么东西，大家都夸您做得好、修得好？"},
-        {"theme": "work", "picture": "house", "prompt": "年轻人刚开始工作，您会给他们什么建议？"},
-        {"theme": "work", "picture": "lamp", "prompt": "闲下来的时候，您喜欢下棋、打牌，还是织毛衣？"},
-        {"theme": "music", "picture": "balloon", "prompt": "什么样的音乐，让您听了想跟着打拍子？"},
-        {"theme": "music", "picture": "cake", "prompt": "您觉得怎样的聚会最热闹、最开心？"},
-        {"theme": "music", "picture": "lamp", "prompt": "您喜欢听什么样的歌？民歌、戏曲，还是老歌？"},
-        {"theme": "music", "picture": "armchair", "prompt": "有哪部电影或电视剧，您愿意一看再看？"},
-        {"theme": "music", "picture": "teacup", "prompt": "您喜欢一边喝茶一边听戏，还是听评书？"},
-        {"theme": "seasons", "picture": "sun", "prompt": "夏天您最喜欢做什么？"},
-        {"theme": "seasons", "picture": "tree", "prompt": "秋天有什么让您喜欢的？"},
-        {"theme": "seasons", "picture": "moon", "prompt": "中秋赏月时，您喜欢吃什么馅的月饼？"},
-        {"theme": "seasons", "picture": "tulip", "prompt": "对您来说，春天来了的第一个信号是什么？"},
-        {"theme": "seasons", "picture": "umbrella", "prompt": "下雪、下雨还是晴天，您最喜欢哪一种？"},
-        {"theme": "seasons", "picture": "house", "prompt": "过年的时候，您家里最喜欢做些什么？"},
-        {"theme": "seasons", "picture": "kettle", "prompt": "冬天的晚上，做什么最暖和舒服？"}
+        {
+          "theme": "food",
+          "picture": "bread",
+          "prompt": "您最喜欢厨房里的哪种气味？"
+        },
+        {
+          "theme": "food",
+          "picture": "cake",
+          "prompt": "办庆祝会的时候，您会选哪种蛋糕？"
+        },
+        {
+          "theme": "food",
+          "picture": "apple",
+          "prompt": "跟我讲讲您最爱的水果派或甜点吧。"
+        },
+        {
+          "theme": "food",
+          "picture": "teacup",
+          "prompt": "您喜欢怎样喝茶或咖啡？"
+        },
+        {
+          "theme": "food",
+          "picture": "frying-pan",
+          "prompt": "什么样的早餐才算真正好？"
+        },
+        {
+          "theme": "food",
+          "picture": "strawberry",
+          "prompt": "您有没有直接从植株上摘过水果？"
+        },
+        {
+          "theme": "food",
+          "picture": "lemon",
+          "prompt": "酸的还是甜的，您更喜欢哪一种？"
+        },
+        {
+          "theme": "food",
+          "picture": "cherries",
+          "prompt": "在您看来，哪种食物吃起来有夏天的味道？"
+        },
+        {
+          "theme": "home",
+          "picture": "house",
+          "prompt": "跟我讲讲您住过的一处让您喜欢的房子吧。"
+        },
+        {
+          "theme": "home",
+          "picture": "armchair",
+          "prompt": "您最喜欢在哪里坐下来放松？"
+        },
+        {
+          "theme": "home",
+          "picture": "lamp",
+          "prompt": "安静的傍晚，您喜欢做些什么？"
+        },
+        {
+          "theme": "home",
+          "picture": "key",
+          "prompt": "如果有一个特别的盒子，您会放进去哪样珍宝？"
+        },
+        {
+          "theme": "home",
+          "picture": "kettle",
+          "prompt": "您会请谁来家里喝杯茶？"
+        },
+        {
+          "theme": "home",
+          "picture": "umbrella",
+          "prompt": "下雨天，您喜欢做些什么？"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sunflower",
+          "prompt": "如果要在花园里种花，您会种哪些？"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tree",
+          "prompt": "跟我讲讲您喜欢的一棵树或一个公园吧。"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "watering-can",
+          "prompt": "待在花园里，最好的是哪一点？"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tulip",
+          "prompt": "您最喜欢什么颜色的花？"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "potted-plant",
+          "prompt": "您喜欢在屋里摆放植物吗？"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sun",
+          "prompt": "在您心目中，完美的晴天是什么样子？"
+        },
+        {
+          "theme": "animals",
+          "picture": "dog",
+          "prompt": "跟我讲讲您认识过的一只狗吧。"
+        },
+        {
+          "theme": "animals",
+          "picture": "cat",
+          "prompt": "猫还是狗，或者都不喜欢？您喜欢它们哪一点？"
+        },
+        {
+          "theme": "animals",
+          "picture": "bird",
+          "prompt": "您在外面都看到或听到哪些鸟？"
+        },
+        {
+          "theme": "animals",
+          "picture": "fish",
+          "prompt": "您钓过鱼，或者养过鱼缸吗？"
+        },
+        {
+          "theme": "animals",
+          "picture": "butterfly",
+          "prompt": "您见过的最美的动物是哪一种？"
+        },
+        {
+          "theme": "travel",
+          "picture": "car",
+          "prompt": "跟我讲讲您喜欢过的一辆车吧。"
+        },
+        {
+          "theme": "travel",
+          "picture": "sailboat",
+          "prompt": "您更愿意在海边过一天，还是在山里过一天？"
+        },
+        {
+          "theme": "travel",
+          "picture": "bicycle",
+          "prompt": "您想去哪里兜兜风？"
+        },
+        {
+          "theme": "travel",
+          "picture": "balloon",
+          "prompt": "如果能飞越任何地方，您最想飞去哪里？"
+        },
+        {
+          "theme": "travel",
+          "picture": "lighthouse",
+          "prompt": "跟我讲讲一次让您很开心的旅行吧。"
+        },
+        {
+          "theme": "work",
+          "picture": "key",
+          "prompt": "您做过哪种工作，觉得很有意思？"
+        },
+        {
+          "theme": "work",
+          "picture": "watering-can",
+          "prompt": "有什么爱好，能让您一做就是几个小时？"
+        },
+        {
+          "theme": "work",
+          "picture": "bread",
+          "prompt": "您以前因为擅长做什么或修什么而出名？"
+        },
+        {
+          "theme": "work",
+          "picture": "house",
+          "prompt": "如果要给刚开始工作的年轻人一句建议，您会说什么？"
+        },
+        {
+          "theme": "music",
+          "picture": "balloon",
+          "prompt": "什么样的音乐会让您忍不住想打拍子？"
+        },
+        {
+          "theme": "music",
+          "picture": "cake",
+          "prompt": "什么样的聚会才算真正好？"
+        },
+        {
+          "theme": "music",
+          "picture": "lamp",
+          "prompt": "您喜欢听哪位歌手的歌？"
+        },
+        {
+          "theme": "music",
+          "picture": "armchair",
+          "prompt": "有没有哪部电影或电视剧，您喜欢一看再看？"
+        },
+        {
+          "theme": "seasons",
+          "picture": "sun",
+          "prompt": "夏天里，您最喜欢什么？"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tree",
+          "prompt": "秋天有什么让您喜欢的地方？"
+        },
+        {
+          "theme": "seasons",
+          "picture": "moon",
+          "prompt": "冬天的晚上，做什么事最让人感到温暖？"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tulip",
+          "prompt": "对您来说，春天最先到来的迹象是什么？"
+        },
+        {
+          "theme": "seasons",
+          "picture": "umbrella",
+          "prompt": "下雪、下雨还是晴天，您更喜欢哪一种？"
+        }
       ]
     },
     "coloring": {
@@ -607,16 +1465,36 @@
       "themes": {
         "kitchen-garden": {
           "label": "厨房和花园",
-          "baskets": ["厨房里", "花园里"]
+          "baskets": [
+            "厨房里",
+            "花园里"
+          ]
         },
         "fruit-animals": {
           "label": "水果和动物",
-          "baskets": ["水果", "动物"]
+          "baskets": [
+            "水果",
+            "动物"
+          ]
         },
         "home-travel": {
           "label": "家里和旅行",
-          "baskets": ["在家里", "出门在外"]
+          "baskets": [
+            "在家里",
+            "出门在外"
+          ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "水果",
+        "animals": "动物",
+        "travel": "出行方式",
+        "flowers": "花",
+        "hot-drinks": "热饮的配料",
+        "weather": "天气种类",
+        "baked": "烤箱里烤出来的东西"
       }
     }
   }

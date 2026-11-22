@@ -5,6 +5,13 @@
       "stopReading": "Stop oplæsning",
       "region": "Spil",
       "restart": "Start forfra",
+      "rest": "Hold en pause for nu",
+      "restingTitle": "Pause",
+      "restingText": "Tag så lang tid, som du har brug for. Din plads bliver gemt på denne side.",
+      "resume": "Fortsæt",
+      "placeText": "Sidst stoppede du halvvejs. Fortsæt derfra, eller start forfra.",
+      "placeResume": "Fortsæt",
+      "placeFresh": "Start forfra",
       "soundOn": "Bløde lyde slået til",
       "soundOff": "Bløde lyde slået fra",
       "done": "Færdig for nu",
@@ -43,7 +50,19 @@
       "viewShowing": "Billeder synlige",
       "viewHidden": "Skjulte billeder",
       "playAgain": "Spil igen med nye billeder",
-      "talk": "Tal om billederne sammen"
+      "talk": "Tal om billederne sammen",
+      "modeLegend": "Hvilke billeder",
+      "modePlay": "Alle slags billeder",
+      "modeDaily": "Dagens kort",
+      "dayLegend": "Hvilken dag",
+      "dayHelp": "Alle får de samme billeder på samme dag. Tidligere dage er også her, og det koster ikke noget at springe en dag over.",
+      "guidanceDaily": "Dagens kort har fire par. Tryk på et billede, og tryk derefter på det billede, der passer til.",
+      "restartDaily": "Start dette kort forfra",
+      "copy": "Kopiér denne linje",
+      "copied": "Kopieret. Intet bliver sendt nogen steder hen.",
+      "calendarTitle": "Dagens kort, {month}",
+      "calendarHelp": "Hver dag har de samme fire billeder for alle. Der bliver ikke givet point, og ingen dag bliver markeret som forsømt.",
+      "calendarVersion": "Version {date}. Billederne er de samme for alle på samme dag."
     },
     "choose": {
       "countLegend": "Antal billeder",
@@ -62,6 +81,635 @@
       "shadowAlt": "En skygge at finde billedet til",
       "foundAlt": "Skyggen af {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Hints",
+      "hintOn": "Hint efter en pause",
+      "hintOff": "Ingen hints",
+      "guidance": "Find de {n} billeder, der hører sammen, og tryk på hvert enkelt.",
+      "countLegend": "Hvor mange billeder",
+      "count": "{n} billeder",
+      "found": "Ja, {name|lower} hører til i denne gruppe.",
+      "elsewhere": "{name|lower} hører sammen med noget andet. Tag dig god tid.",
+      "hint": "Et hint: se efter {theme|lower}.",
+      "together": "Disse hører sammen: {theme}.",
+      "shown": "Her er gruppen: {theme}.",
+      "groupName": "Sammen: {theme}",
+      "show": "Vis gruppen",
+      "next": "Et nyt sæt"
+    },
+    "oddOneOut": {
+      "hintLegend": "Hints",
+      "hintOn": "Hint efter en pause",
+      "hintOff": "Ingen hints",
+      "guidance": "Find billedet, der ikke hører sammen med de andre, og tryk på det.",
+      "countLegend": "Hvor mange billeder",
+      "count": "{n} billeder",
+      "belongs": "{name|lower} hører sammen med de andre. Tag dig god tid.",
+      "found": "Ja, {name|lower} er den, der skiller sig ud. De andre er {theme|lower}.",
+      "shown": "Her er den: {name|lower}. De andre er {theme|lower}.",
+      "hint": "Et hint: {n} af disse er {theme|lower}.",
+      "others": "De andre: {theme}",
+      "show": "Vis mig",
+      "next": "Et nyt sæt"
+    },
+    "seatedToss": {
+      "guidance": "Sid ved et bord, og skiftes til at kaste en blød bønnepose ned i den store målskive. Før optællingen på papir, sammen.",
+      "stepsHeading": "Sådan foregår det",
+      "steps": [
+        "Print målskiven og optællingsarket, og læg det fladt på bordet mellem jer.",
+        "Sid behageligt, én på hver side. Skiftes til at kaste én forsigtig gang hver, eller pas, hvis du hellere vil.",
+        "Når et kast lander i en ring, sætter den, der kastede, ét kryds i en boks i sin kolonne, på rækken for den ring.",
+        "Kig på krydsene sammen, når I stopper, hvis I har lyst. Ingen behøver at lægge noget sammen.",
+        "Stop, når en af jer er klar til det."
+      ],
+      "safetyHeading": "Sikkerhed",
+      "safetyLine": "Brug kun en pose med syet låg eller en oprullet strømpe, bliv siddende, kast aldrig mod et ansigt, og hold en voksen i nærheden. Små dele er en kvælningsrisiko.",
+      "flags": [
+        "Ikke for børn under 3: små dele",
+        "Hold væk fra munden"
+      ],
+      "safety": [
+        "Vælg en bønnepose med syet låg, eller rul en ren strømpe op. Tjek den først for huller eller løse sømme, så intet fyld kan komme ud.",
+        "Bønner, ris og andet småt fyld er en kvælningsrisiko. Hold det væk fra små børn og fra alle, der putter ting i munden.",
+        "Hold dig inden for armlængde, og hold øje tæt med, hvis noget kan komme i munden.",
+        "Bliv siddende. Kast blødt og lavt mod målskiven på bordet, aldrig mod et ansigt."
+      ],
+      "previewLabel": "Det udskrevne ark: en målskive med tre ringe, kaldet Nær, Midt og Fjern, fra ydersiden og ind, og en optælling med en kolonne til hver person og en række tomme bokse til hver ring.",
+      "sheetHow": "Læg arket fladt mellem jer. Når et kast lander i en ring, sæt et kryds i en boks i din kolonne, på rækken for den ring.",
+      "rings": [
+        "Nær",
+        "Midt",
+        "Fjern"
+      ],
+      "people": [
+        "Første person",
+        "Anden person"
+      ],
+      "ringHeading": "Ring",
+      "print": "Print målskiven og optællingsarket"
+    },
+    "seasonalPack": {
+      "guidance": "Vælg en måned, print dens tre papiropgaver, og lav en, to eller alle tre sammen.",
+      "monthLegend": "Vælg en måned",
+      "months": [
+        "Januar",
+        "Februar",
+        "Marts",
+        "April",
+        "Maj",
+        "Juni",
+        "Juli",
+        "August",
+        "September",
+        "Oktober",
+        "November",
+        "December"
+      ],
+      "monthNote": "Hver måned har sine egne billeder. Siden åbner på denne måned, men du kan vælge en hvilken som helst anden.",
+      "restDay": "I dag er en hviledag",
+      "restLine": "Ingen opgaver i dag. En hviledag er også en god dag.",
+      "previewHeading": "De tre opgaver",
+      "puzzles": {
+        "pairs": {
+          "title": "Find parrene",
+          "how": "Tegn en streg fra hvert billede i den øverste række til det samme billede i den nederste række.",
+          "describe": "To rækker med de samme fire billeder i en anden rækkefølge."
+        },
+        "different": {
+          "title": "Hvilken er anderledes?",
+          "how": "Ring det billede ind, der er anderledes end de andre tre.",
+          "describe": "En række med fire billeder. Tre er ens, og ét er anderledes."
+        },
+        "color": {
+          "title": "Farvelæg det",
+          "how": "Farvelæg billedet, som du har lyst, med farvekridt eller blyanter.",
+          "describe": "Ét stort billede at farvelægge."
+        }
+      },
+      "print": "Print denne måneds pakke",
+      "sheetHow": "Print én side. Lav en, to eller alle tre opgaver i vilkårlig rækkefølge.",
+      "printFooter": "Lav en, to eller alle tre. Stop, når du har lyst."
+    },
+    "decorateACard": {
+      "guidance": "Vælg en anledning, og pynt derefter et kort sammen med farvekridt eller pen. Der findes ikke noget rigtigt kort.",
+      "occasionLegend": "Vælg en anledning",
+      "occasions": {
+        "birthday": {
+          "label": "Fødselsdag",
+          "words": "Tillykke med fødselsdagen"
+        },
+        "thank-you": {
+          "label": "Tak",
+          "words": "Tak"
+        },
+        "thinking-of-you": {
+          "label": "Jeg tænker på dig",
+          "words": "Jeg tænker på dig"
+        },
+        "new-season": {
+          "label": "En ny årstid",
+          "words": "En ny årstid"
+        },
+        "just-because": {
+          "label": "Bare fordi",
+          "words": "Bare fordi"
+        }
+      },
+      "stepsHeading": "Sådan pynter I det sammen",
+      "steps": {
+        "fold": "Print kortet, og fold det i to langs den stiplede linje, så forsiden er på ydersiden.",
+        "front": "Den ene person pynter forsiden rundt om ordene.",
+        "inside": "Den anden person pynter bagsiden, eller I skiftes til at pynte den ene side.",
+        "message": "Skriv en besked sammen. Den ene kan skrive, mens den anden siger ordene.",
+        "stop": "Stop, når du har lyst. Der er ikke noget rigtigt kort, og et enkelt kort er lige så godt."
+      },
+      "materials": "Brug farvekridt, farveblyanter eller tusser. Intet skal klippes, limes eller sættes fast.",
+      "previewLabel": "En forhåndsvisning af kortet foldet i to. Forsiden siger {words}, med en enkel ramme af blade og stjerner. Bagsiden har linjer til en besked og en linje til Fra.",
+      "from": "Fra",
+      "sheetHow": "Fold kortet på midten langs den stiplede linje, så forsiden vender udad. Skriv beskeden på bagsiden.",
+      "rulesHeading": "Til to personer",
+      "sheetRules": [
+        "Skift til, eller del arbejdet: den ene pynter forsiden, den anden bagsiden.",
+        "Skriv beskeden sammen, eller lad den ene skrive, mens den anden siger, hvad der skal stå.",
+        "Man må stoppe når som helst. Der findes ikke et rigtigt kort."
+      ],
+      "print": "Udskriv kortet"
+    },
+    "storyDice": {
+      "guidance": "Se på billederne, og fortæl en historie med dem, i den rækkefølge du vil. Der findes ingen rigtig historie.",
+      "countLegend": "Antal terninger",
+      "count": "{n} terninger",
+      "roll": "Slå igen",
+      "pass": "Spring over",
+      "passed": "Det er fint at springe over. Den næste kan begynde, eller du kan slå igen.",
+      "rolled": "Nye billeder: {names}.",
+      "tapped": "{name}. Begynd med denne, eller med en anden."
+    },
+    "wordPicture": {
+      "guidance": "Tryk på et billede og derefter på ordet, der hedder det. Eller tryk på et ord og derefter på billedet.",
+      "countLegend": "Antal billeder",
+      "count": "{n} billeder",
+      "picturesGroup": "Billeder",
+      "wordsGroup": "Ord",
+      "readWord": "Læs højt: {name}",
+      "next": "Nye billeder",
+      "putBack": "Læg den tilbage",
+      "pickWord": "Tryk nu på ordet, der hører til.",
+      "pickPicture": "Tryk nu på billedet, der hører til.",
+      "fit": "Ja, det ord passer til {name|lower}.",
+      "newSet": "Her er et nyt sæt billeder.",
+      "restarted": "Tilbage til start. Alle billeder og ord ligger løst igen.",
+      "restored": "Lagt tilbage. De rigtige par vises igen.",
+      "all": "Hvert ord har sit billede."
+    },
+    "colorMatch": {
+      "guidance": "Se på farven og dens navn, og tryk derefter på alle billeder, der har den farve.",
+      "target": "Farven er {color|lower}. Tryk på alle billeder, der er {color|lower}.",
+      "countLegend": "Antal billeder",
+      "count": "{n} billeder",
+      "found": "Ja, {name|lower} er {color|lower}.",
+      "named": "Farven på {name|lower} er {color|lower}.",
+      "all": "Det er alle billederne, der er {color|lower}.",
+      "shown": "Her er billederne, der er {color|lower}.",
+      "show": "Vis dem",
+      "next": "En anden farve",
+      "names": {
+        "red": "Rød",
+        "orange": "Orange",
+        "yellow": "Gul",
+        "green": "Grøn",
+        "blue": "Blå"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tryk på en halvdel til venstre, og tryk derefter på den halvdel til højre, der passer til den.",
+      "countLegend": "Antal billeder",
+      "count": "{n} billeder",
+      "leftGroup": "Venstre halvdele",
+      "rightGroup": "Højre halvdele",
+      "left": "Venstre halvdel af {name|lower}",
+      "right": "Højre halvdel af {name|lower}",
+      "joined": "Samlet",
+      "pickRight": "Tryk nu på den halvdel til højre, der passer til den.",
+      "pickLeft": "Tryk nu på den halvdel til venstre, der passer til den.",
+      "fit": "Ja, de to halvdele danner {name|lower}.",
+      "apart": "De to passer ikke sammen. Prøv en anden.",
+      "all": "Alle billeder er hele.",
+      "shown": "Her er billederne, samlet.",
+      "show": "Vis mig",
+      "next": "Et nyt sæt"
+    },
+    "colorByNumber": {
+      "guidance": "Vælg en farve fra nøglen, og farv en firkant med den. Alle farver er fine.",
+      "sizeLegend": "Gitterstørrelse",
+      "size": "{n} gange {n}",
+      "keyLegend": "Farver",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grøn",
+        "Lilla"
+      ],
+      "motifs": {
+        "house": "et hus",
+        "flower": "en blomst",
+        "heart": "et hjerte",
+        "tree": "et træ",
+        "boat": "en sejlbåd",
+        "pot-plant": "en plante i en krukke"
+      },
+      "region": "Billedgitter, {n} gange {n}. Det kan rulles til siden, hvis skærmen er smal.",
+      "cell": "Nummer {number}, række {row}, kolonne {column}, {color}",
+      "empty": "tom",
+      "chose": "{name} er valgt. Tryk på en firkant for at farve den.",
+      "painted": "{name} i række {row}, kolonne {column}.",
+      "sheet": "Hver firkant har farven fra sit nummer. Dette er billedet på arket: {name}.",
+      "own": "Alle firkanter er farvet. Dette er dit eget billede.",
+      "fillAll": "Farv efter numrene",
+      "filledAll": "Alle tomme firkanter har nu farven fra sit nummer.",
+      "clear": "Ryd",
+      "cleared": "Gitteret er ryddet.",
+      "next": "Et andet billede",
+      "fresh": "Her er et nyt billede at farve."
+    },
+    "patternMaker": {
+      "guidance": "Tryk på en firkant for at skifte dens farve. Dit mønster vokser ved siden af. Intet, du laver, bliver gemt eller sendt.",
+      "sizeLegend": "Flisestørrelse",
+      "size": "{n} gange {n}",
+      "keyLegend": "Farver, i den rækkefølge et tryk skifter dem",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grøn",
+        "Lilla"
+      ],
+      "tileLabel": "Din flise",
+      "region": "Din flise, {n} gange {n}. Den kan rulles til siden, hvis skærmen er smal.",
+      "patternLabel": "Dit mønster",
+      "pattern": "Dit mønster: din flise gentaget {n} gange i bredden og {n} gange i højden.",
+      "square": "Række {row}, kolonne {column}, {color}",
+      "changed": "Række {row}, kolonne {column} er nu {color}.",
+      "cleared": "Flisen er ryddet. Du kan sætte den gamle tilbage.",
+      "surprise": "Overrask mig",
+      "surprised": "Her er en ny flise. Du kan sætte den gamle tilbage.",
+      "putBack": "Sæt den tilbage",
+      "restored": "Din flise er tilbage, som den var.",
+      "print": "Udskriv mit mønster",
+      "sheetTitle": "Mit mønster"
+    },
+    "buildTogether": {
+      "guidance": "Skiftes til at lægge en brik på en tom plads. Hver af jer har sin egen farve. Intet, I laver, bliver gemt eller sendt.",
+      "sizeLegend": "Gitterstørrelse",
+      "size": "{n} gange {n}",
+      "people": [
+        "Første person",
+        "Anden person"
+      ],
+      "colorLegend": "{person}s farve",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grøn",
+        "Lilla"
+      ],
+      "inUse": "I brug",
+      "turn": "Din tur, {person|lower}",
+      "yourColor": "Din farve er {color|lower}.",
+      "built": "Bygget sammen. Dette er billedet, I to har lavet.",
+      "gridLabel": "Det fælles gitter",
+      "region": "Det fælles gitter, {n} gange {n}. Det kan rulles til siden, hvis skærmen er smal.",
+      "cellEmpty": "Række {row}, kolonne {column}, tom",
+      "cellFilled": "Række {row}, kolonne {column}, {color}, lagt af {person|lower}",
+      "placed": "Række {row}, kolonne {column} er nu {color}. Din tur, {next|lower}.",
+      "placedLast": "Række {row}, kolonne {column} er nu {color}. Bygget sammen.",
+      "taken": "Række {row}, kolonne {column} har allerede en brik. Vælg en tom plads.",
+      "pass": "Spring over",
+      "passed": "Det er fint at springe over. Din tur, {person|lower}.",
+      "takeBack": "Tag den sidste brik tilbage",
+      "takeBackPass": "Fortryd springet",
+      "tookBack": "Brikken er taget tilbage. Din tur, {person|lower}.",
+      "tookBackPass": "Springet er fortrudt. Din tur, {person|lower}.",
+      "colorChanged": "{person} har nu {color|lower}.",
+      "restarted": "Gitteret er tomt. Din tur, {person|lower}.",
+      "print": "Udskriv gitteret",
+      "sheetTitle": "Byg sammen",
+      "sheetHelp": "Skiftes til. I en tom firkant tegner hver sin egen figur med sin egen blyant.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tryk på en brik, og tryk derefter på pladsen i billedet, hvor den skal være. Intet, du laver, bliver gemt eller sendt.",
+      "hints": "Vis hjælpelinjerne",
+      "pictureLine": "Dette er {picture}.",
+      "pictures": {
+        "house": "huset",
+        "boat": "båden",
+        "tree": "træet",
+        "fish": "fisken",
+        "cat": "katten",
+        "rocket": "raketten"
+      },
+      "outlineLabel": "Omridset af {picture}. Tryk på en plads for at lægge en valgt brik i den.",
+      "trayHeading": "Brikkerne",
+      "pieces": {
+        "large-triangle": "Trekant, stor",
+        "small-triangle": "Trekant, lille",
+        "square": "Kvadrat",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Rektangel"
+      },
+      "shapes": {
+        "large-triangle": "en stor trekant",
+        "small-triangle": "en lille trekant",
+        "square": "et kvadrat",
+        "parallelogram": "et parallelogram",
+        "rectangle": "et rektangel"
+      },
+      "chosenLabel": "Valgt",
+      "spaceEmpty": "Plads {n}, {shape}, tom",
+      "spaceFilled": "Plads {n}, {shape}, har sin brik. Tryk for at tage brikken tilbage.",
+      "chosen": "{piece} er valgt. Tryk nu på en plads i billedet.",
+      "unchosen": "Brikken er ikke længere valgt.",
+      "placed": "Brikken ligger på plads {n}.",
+      "complete": "{picture} er færdig.",
+      "different": "Den brik har en anden form end denne plads. Prøv en anden plads.",
+      "needPiece": "Vælg først en brik fra bakken.",
+      "filled": "Pladsen har allerede sin brik. Tryk på den for at tage brikken tilbage.",
+      "tookBack": "Brikken er tilbage i bakken.",
+      "cleared": "Brikkerne er tilbage i bakken. Læg dem på igen, hvis du har ombestemt dig.",
+      "restored": "Brikkerne er tilbage i billedet.",
+      "next": "Denne er en {picture}.",
+      "putBack": "Læg den tilbage",
+      "another": "En anden form",
+      "print": "Udskriv denne form",
+      "sheetTitle": "Stille former",
+      "sheetHow": "Farvelæg brikkerne, eller klip dem ud, så de passer til konturen. En voksen kan klare klippearbejdet.",
+      "sheetPieces": "Brikkerne, i samme størrelse som konturen"
+    },
+    "picnicPlanner": {
+      "guidance": "Tryk på et billede for at lægge det i picnickurven, og tryk på det i kurven for at tage det ud. Kurven rummer seks ting.",
+      "guidancePlay": "Tryk på to billeder, der er ens. Billederne bliver stående, og der er ingen tid.",
+      "basketHeading": "Vores kurv",
+      "basketLabel": "Picnickurven",
+      "takeOut": "Tag {picture} ud af kurven",
+      "inBasket": "I kurven",
+      "foodHeading": "Mad",
+      "outingsHeading": "Ting at lave",
+      "added": "{picture} er i kurven.",
+      "removed": "{picture} er taget ud af kurven.",
+      "already": "{picture} er allerede i kurven. Tryk på den dér for at tage den ud.",
+      "full": "Kurven er fuld. Tag noget ud for at få plads.",
+      "summary": "Vores picnic: {list}.",
+      "summaryNone": "Der er endnu intet i kurven.",
+      "and": "og",
+      "play": "Lad os lege med vores picnic",
+      "needTwo": "Vælg mindst to ting først.",
+      "playAgain": "Spil igen",
+      "back": "Tilbage til picnicen",
+      "print": "Udskriv vores picnicliste",
+      "cleared": "Kurven er tom.",
+      "notice": "Dette er en plan at tale om. Intet er tidsbestemt, bedømt eller gemt.",
+      "sheetTitle": "Vores picnicliste",
+      "sheetHow": "Sæt kryds ved hver ting, når du pakker den. Brug de tomme linjer til alt andet, du vil tage med.",
+      "sheetToPack": "Der skal pakkes"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Vælg to til tolv af dine egne fotos for at starte bogen.",
+      "guidance": "Vend siderne sammen med knapperne eller piletasterne venstre og højre. Tilføj gerne nogle ord under et foto. Intet, du laver, bliver gemt eller sendt.",
+      "lookGuidance": "Kig på hver side sammen. I kan tale sammen eller blot kigge.",
+      "intro": "Vælg to til tolv fotos fra denne enhed. Hvert af dem bliver til en side i en bog, I kan vende sammen.",
+      "consent": "Brug dine egne familiefotos. Spørg først, før du bruger et foto af en person, der ikke selv kan sige ja.",
+      "privacy": "Dine fotos bliver på denne enhed. De bliver ikke uploadet eller gemt.",
+      "choose": "Vælg fotos",
+      "chooseDifferent": "Vælg andre fotos",
+      "backToBook": "Tilbage til bogen",
+      "backToChoose": "Tilbage til valg af fotos",
+      "needTwo": "Vælg venligst mindst to fotos.",
+      "usingFirst": "Bruger de første {max} fotos.",
+      "cleared": "Bogen er ryddet. Vælg fotos for at starte forfra.",
+      "moved": "Flyttet til side {n}.",
+      "pageOf": "Side {n} af {total}",
+      "lookTogether": "Kig sammen",
+      "leaveLook": "Tilbage til bogen",
+      "print": "Udskriv fotoalbummet",
+      "clear": "Ryd bogen",
+      "bookLabel": "Familiens fotoalbum",
+      "pagesLabel": "Vend siderne",
+      "previous": "Forrige side",
+      "next": "Næste side",
+      "moveEarlier": "Flyt tidligere",
+      "moveLater": "Flyt senere",
+      "captionLabel": "Nogle få ord til denne side, hvis du vil",
+      "captionHelp": "Op til 80 tegn. Billedtekster gemmes kun på denne side og forsvinder, når du lukker den.",
+      "sheetTitle": "Vores fotoalbum",
+      "sheetHow": "Ét foto pr. side, med ord under sig. Vend siderne i rækkefølge, og tal om hver enkelt.",
+      "sheetEmpty": "Vælg dine fotos på spilsiden for at udskrive din egen bog, eller udskriv denne tomme side og sæt et udskrevet foto ind.",
+      "sheetFrame": "Sæt et udskrevet foto her",
+      "sheetWords": "Nogle få ord til denne side",
+      "skipped": {
+        "one": "{n} fil var ikke et foto, vi kan bruge.",
+        "other": "{n} filer var ikke fotos, vi kan bruge."
+      }
+    },
+    "quietScene": {
+      "guidance": "Kig på ét billede ad gangen. Tryk på Næste eller Forrige, når I er klar. Intet bevæger sig af sig selv.",
+      "next": "Næste billede",
+      "previous": "Forrige billede",
+      "bigPicture": "Større billede",
+      "showEverything": "Vis alt",
+      "first": "Dette er det første billede.",
+      "last": "Dette er det sidste billede.",
+      "lines": {
+        "sunrise": "Solen står op over landet.",
+        "window-with-birds": "Fugle uden for vinduet.",
+        "vase-of-flowers": "En vase med blomster på bordet.",
+        "teacup": "En kop te ved vinduet.",
+        "tree": "Et træ, der står i haven.",
+        "sailboat": "En sejlbåd på vandet.",
+        "lighthouse": "Et fyrtårn ved havet.",
+        "rainbow": "En regnbue efter regnen.",
+        "moon": "Månen på nattehimlen.",
+        "daisies": "Et lille stykke tusindfryd i græsset.",
+        "rowing-boat": "En roebåd på stille vand.",
+        "potted-plant": "En grøn plante i en krukke."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Skiftes til at vælge. Tryk på en udklipsfigur, og tryk derefter på en tom plads for at lægge den der. Intet, du laver, bliver gemt eller sendt.",
+      "people": [
+        "Første person",
+        "Anden person"
+      ],
+      "marks": [
+        "en cirkel",
+        "en firkant"
+      ],
+      "turn": "Din tur, {person|lower}.",
+      "marked": "Dine brikker er markeret med {mark}.",
+      "boardLabel": "Den fælles tavle",
+      "placeEmpty": "Plads {n}, tom",
+      "placeFilled": "Plads {n}, {picture|lower}, lagt af {person|lower}",
+      "trayHeading": "Udklipsfigurerne",
+      "chosenLabel": "Valgt",
+      "chosen": "{picture} er valgt. Tryk nu på en tom plads.",
+      "unchosen": "Udklipsfiguren er ikke længere valgt.",
+      "needCutout": "Vælg først en udklipsfigur, og tryk derefter på en tom plads.",
+      "filled": "Plads {n} har allerede et billede. Vælg en tom plads.",
+      "placed": "{picture} er på plads {n}. Din tur, {next|lower}.",
+      "full": "Alle pladser har et billede. Tag et tilbage for at ændre det, eller start forfra.",
+      "pass": "Pas",
+      "passed": "Det er helt fint at passe. Din tur, {person|lower}.",
+      "takeBack": "Tag den sidste brik tilbage",
+      "takeBackPass": "Tag passet tilbage",
+      "tookBack": "Brikken er taget tilbage. Din tur, {person|lower}.",
+      "tookBackPass": "Passet er taget tilbage. Din tur, {person|lower}.",
+      "restarted": "Tavlen er tom. Din tur, {person|lower}.",
+      "putBack": "Læg den tilbage",
+      "putBackDone": "Brikkerne er tilbage på tavlen.",
+      "another": "Et andet sæt billeder",
+      "anotherSet": "Et nyt sæt udklipsfigurer er i bakken. Brikkerne på tavlen bliver, hvor de er.",
+      "print": "Udskriv tavlen",
+      "sheetTitle": "Collagetavle",
+      "sheetHow": "Klip billederne ud, og skiftes til at lægge dem på tavlen. En voksen kan klare klippearbejdet.",
+      "sheetTray": "Billederne, der skal klippes ud"
+    },
+    "gardenPlanner": {
+      "guidance": "Tryk på et billede, og tryk derefter på en bed for at lægge det der. Tryk på en bed, der har et billede, uden at noget er valgt, for at rydde den.",
+      "bedsLabel": "Havebedene",
+      "bedEmpty": "Bed {n}, tom",
+      "bedFilled": "Bed {n}, {picture|lower}",
+      "plantsHeading": "Planter",
+      "extrasHeading": "Ekstra til haven",
+      "chosenLabel": "Valgt",
+      "chosen": "{picture} er valgt. Tryk nu på en bed.",
+      "unchosen": "Intet billede er valgt.",
+      "needPicture": "Vælg først et billede, og tryk så på et bed.",
+      "planted": "{picture} er i bed {n}.",
+      "replaced": "{picture} tager pladsen efter billedet i bed {n}.",
+      "cleared": "Bed {n} er tomt. Læg det tilbage, hvis du igen vil have billedet.",
+      "restarted": "Alle bedene er tomme.",
+      "putBack": "Læg det tilbage",
+      "putBackDone": "Billederne er lagt tilbage i deres bede.",
+      "summaryHeading": "Min have",
+      "summary": "Din plan har {list}.",
+      "summaryNone": "Der er endnu ikke noget billede i et bed.",
+      "and": "og",
+      "print": "Udskriv planen",
+      "sheetTitle": "Vores haveplan",
+      "sheetHow": "Bedene viser de billeder, der er valgt på skærmen. Tegn gerne i de tomme bede.",
+      "sheetNotes": "Noter",
+      "notice": "Dette er en billedplan at tale om, ikke en plantevejledning."
+    },
+    "coloringWall": {
+      "guidance": "Vælg et billede og hvor mange sider. Print væggen, og hver person farver en eller flere sider. Der er ingen tidsfrist, ingen point, og intet gemmes.",
+      "pictureLegend": "Billede",
+      "sizeLegend": "Hvor mange sider",
+      "sizes": {
+        "2x2": "4 sider (2 gange 2)",
+        "3x2": "6 sider (3 gange 2)",
+        "3x3": "9 sider (3 gange 3)"
+      },
+      "previewLabel": "{picture|lower} er delt i {n} sider, {across} på tværs og {down} nedad. Hver side har en mærkat i hjørnet.",
+      "previewCaption": "Billedet med sidelinjer og mærkater tegnet ind.",
+      "labelsNote": "Bogstaverne går nedad væggen, og tallene går på tværs af den, så A1 er siden øverst til venstre.",
+      "wallHeading": "Sådan sætter du væggen sammen",
+      "steps": [
+        "Print alle siderne. Den første side er disse trin og et kort over væggen.",
+        "Hver person tager en eller flere sider og farver dem.",
+        "Farver og stil behøver ikke at passe sammen. Hver side er en del af det samme billede.",
+        "Læg siderne ud efter deres mærkater, og sæt dem sammen med tape på bagsiden.",
+        "Hæng væggen op, hvor alle kan se den."
+      ],
+      "mapLabel": "Et kort over væggen: {down} rækker med {across} sider i hver, mærket fra A1 til {last}.",
+      "edgeNote": "Den stiplede linje markerer kanten af hver side. Læg siderne kant mod kant langs den, eller lad dem overlappe lidt.",
+      "pictureLine": "Billede: {picture}. Denne væg er {n} sider: {across} på tværs og {down} nedad.",
+      "print": "Print væggen"
+    },
+    "findTogether": {
+      "guidance": "Skiftes til at spille. Når det er din tur, vender du to kort for at lede efter et par. Find parrene sammen.",
+      "sizeLegend": "Hvor mange kort",
+      "size": "{n} kort",
+      "viewLegend": "Sådan spilles det",
+      "viewShowing": "Spil med billederne synlige",
+      "viewHidden": "Kortene vender nedad",
+      "people": [
+        "Første person",
+        "Anden person"
+      ],
+      "turn": "Tur: {person}",
+      "turnDone": "Alle parrene er fundet.",
+      "tally": "Par fundet sammen: {n}",
+      "cardNamed": "{name}, kort {n}",
+      "cardFaceDown": "Kort {n}, vendt nedad",
+      "first": "{name}. Vend nu et andet kort.",
+      "found": "{name}: et par, fundet sammen. Nu er det {next|lower}s tur.",
+      "allTogether": "I fandt alle parrene sammen.",
+      "different": "{a} og {b} er forskellige. Tag dig god tid, og tryk derefter på Vend dem tilbage.",
+      "waiting": "Tryk på Vend dem tilbage, når du er klar. Så går turen videre.",
+      "turnedBack": "Vendt tilbage. Nu er det {person|lower}s tur.",
+      "passed": "Det er helt fint at springe over. Nu er det {person|lower}s tur.",
+      "turnBack": "Vend dem tilbage",
+      "pass": "Spring over",
+      "playAgain": "Spil igen"
+    },
+    "drawingDuet": {
+      "guidance": "Skiftes til at tegne én linje hver, og giv så pennen videre. Man må gerne springe over. Intet sendes nogen steder. Et billede forlader kun siden, hvis du gemmer det.",
+      "people": [
+        "Første person",
+        "Anden person"
+      ],
+      "colorLegend": "{person}s farve",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grøn",
+        "Lilla"
+      ],
+      "turn": "{person}s tur",
+      "penColor": "Pennens farve: {color}.",
+      "canvasLabel": "Fælles tegning, {n} linjer indtil nu",
+      "canvasLabelOne": "Fælles tegning, {n} linje indtil nu",
+      "keys": "Piletaster flytter pennens prik på tegningen. Mellemrumstasten sætter pennen ned eller op.",
+      "penDown": "Pennen ned",
+      "penUp": "Pennen op",
+      "pass": "Giv pennen videre",
+      "passed": "Det er helt fint at springe over. Din tur, {person|lower}.",
+      "takeBack": "Tag min sidste linje tilbage",
+      "tookBack": "Den sidste linje fra {person|lower} er taget tilbage.",
+      "noLine": "Der er ingen linje fra {person|lower} at tage tilbage.",
+      "restarted": "Arket er tomt. Første person har turen. Læg det tilbage, hvis det ikke var meningen.",
+      "putBack": "Læg det tilbage",
+      "restored": "Linjerne er tilbage, som de var.",
+      "save": "Gem tegningen",
+      "saved": "Din tegning er klar. Brug downloadlinket for at gemme den på denne enhed.",
+      "download": "Download drawing-duet.png",
+      "print": "Udskriv papirudgaven",
+      "sheetTitle": "Tegneduet",
+      "paperRules": "To personer, ét ark, to penner. Skiftes til at tegne én linje eller form hver, og giv så pennen videre. Man må gerne springe over. Der findes ingen rigtig tegning."
+    },
+    "colorWash": {
+      "guidance": "Mal blød farve hen over siden, ét lag ad gangen. Løft penslen for at stoppe, og stop, når du vil. Intet gemmes eller sendes.",
+      "colorLegend": "Farve",
+      "sizeLegend": "Penselstørrelse",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grøn",
+        "Lilla"
+      ],
+      "sizes": {
+        "wide": "Bred",
+        "veryWide": "Meget bred"
+      },
+      "color": "Farve: {color}.",
+      "brushDown": "Pensel ned",
+      "brushUp": "Pensel op",
+      "keys": "Piletaster flytter penselringen på siden. Mellemrumstasten sætter penslen ned eller op.",
+      "canvasLabel": "En side med bløde farvelag",
+      "fresh": "En frisk side",
+      "freshMessage": "En frisk side.",
+      "putBack": "Læg det tilbage",
+      "restored": "Siden er tilbage."
+    },
     "sortTogether": {
       "guidance": "Tryk på et billede, og tryk derefter på den kurv, det hører til i.",
       "restart": "Nye billeder",
@@ -71,6 +719,10 @@
       "hint": "Billedet ({name|lower}) kan lægges i »{basket}«. Tryk på den kurv for at lægge det der.",
       "placed": "Billedet ({name|lower}) ligger i »{basket}«.",
       "sorted": "Alt er sorteret. Se kurvene igennem sammen, eller prøv et andet tema.",
+      "largerTargets": "Større mål",
+      "largerOn": "Større mål er slået til. Intet er flyttet.",
+      "largerOff": "Større mål er slået fra. Intet er flyttet.",
+      "largerOnNewRound": "Større mål er slået til, med to kurve. Her er nye billeder at sortere.",
       "basket": {
         "one": "Kurven {basket}, {count} billede i",
         "other": "Kurven {basket}, {count} billeder i"
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Hele billedet: {name}",
       "guideText": "Sådan ser billedet ud, når det er helt.",
+      "ownChoose": "Brug dit eget foto",
+      "ownChange": "Vælg et andet foto",
+      "ownBack": "Tilbage til vores billeder",
+      "ownPrivacy": "Dit foto bliver på denne enhed. Det uploades ikke og gemmes ikke.",
+      "ownConsent": "Brug egne fotos. Spørg først, hvis du vil bruge et foto af en person, der ikke selv kan sige ja.",
+      "ownWorking": "Gør dit foto klar.",
+      "ownNotUsable": "Filen kunne ikke bruges. Vælg en fotofil, for eksempel en JPEG eller PNG.",
+      "ownAlt": "Dit foto",
+      "ownPiece": "Brik {n}, {place}",
+      "ownWhole": "Dit foto er samlet igen. Bland det igen, når du vil.",
+      "ownSheetTitle": "Dit foto i brikker",
+      "ownSheetHow": "Klip langs linjerne. Bland brikkerne, og byt derefter to brikker ad gangen, indtil billedet er samlet.",
       "piece": "Brik: {place}",
       "pieceInPlace": ", på det rigtige sted",
       "piecePickedUp": ", taget op",
@@ -190,6 +854,14 @@
       "guidance": "Læs kortet højt. Der er ingen rigtige svar.",
       "position": "Kort {n} af {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Vis et samtaleforslag",
+      "bigPicture": "Stort billede, til en gruppe",
+      "passNote": "Man må gerne springe over.",
+      "groupTitle": "At sende et kort rundt i en gruppe",
+      "groupSit": "Sid i en kreds, hvor alle kan se billedet. Personen, der holder kortet, eller enheden med det store billede, læser forslaget højt først.",
+      "groupPass": "Send så kortet videre til næste person. Hver person siger et ord eller en sætning om billedet og sender det derefter videre.",
+      "groupNoSpeech": "Det er altid tilladt at sende kortet videre. Man må gerne springe over uden at sige noget, og ingen behøver at sige hvorfor.",
+      "groupEnd": "Runden slutter, når kortet er gået hele vejen rundt om kredsen, eller når gruppen har fået nok. Ingen vinder. Stop, når gruppen ønsker det.",
       "next": "Næste kort",
       "previous": "Forrige kort",
       "print": "Print alle kort",
@@ -252,6 +924,20 @@
       "started": "Startet. Træk vejret ind, mens cirklen vokser.",
       "stopped": "Stoppet.",
       "finished": "Det var seks langsomme åndedrag. Start igen, når du har lyst."
+    },
+    "storyChain": {
+      "guidance": "Skiftes til: én sætning hver, og tilføj det næste billede.",
+      "passNote": "Sig din sætning højt. Intet skrives eller gemmes. Enhver må springe over.",
+      "chainLabel": "Kæden indtil nu",
+      "item": "Billede {n}: {name}",
+      "add": "Tilføj et billede",
+      "fullAdd": "Kæden er fuld. Start en ny kæde",
+      "newChain": "Start en ny kæde",
+      "takeOff": "Fjern det sidste",
+      "added": "Tilføjet til sidst i kæden: {name|lower}.",
+      "removed": "Fjernet fra kæden: {name|lower}.",
+      "fresh": "Ny kæde, der starter med {name|lower}.",
+      "full": "Kæden har alle 8 billeder. Fortæl hele historien, eller start en ny kæde."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Regnsky",
     "snowflake": "Snefnug",
     "kite": "Drage",
-    "sunrise": "Solopgang over bakkerne"
+    "sunrise": "Solopgang over bakkerne",
+    "decorated-keepsake-box": "Mindeæske med dekorationer",
+    "painted-plant-pot": "Blomsterpotte med malede urter",
+    "repeating-pattern-sheet": "Ark med gentagne mønstre",
+    "music-drawn-lines": "Linjer tegnet til musik",
+    "paper-boat-afloat": "Papirbåd på vandet",
+    "folded-towel-stack": "Stabel med foldede håndklæder",
+    "hand-massage-with-lotion": "Hånd på et håndklæde med creme",
+    "open-photo-album": "Fotoalbum, åbent",
+    "button-flower-card": "Knapblomst på et kort",
+    "blue-torn-paper-collage": "Collage af revet papir i blåt",
+    "family-tree-of-hands": "Stamtræ tegnet med hænder",
+    "open-greeting-card": "Hilsenkort med et hjerte",
+    "lavender-sachet": "Lavendelpose bundet med bånd",
+    "memory-collage-of-photos": "Collage af familiefotos",
+    "paper-chain-garland": "Guirlande af papirkæder",
+    "open-songbook-with-notes": "Sangbog med noder",
+    "photo-postcard-with-stamp": "Fotopostkort med frimærke",
+    "pine-cone-bird-feeder": "Fuglefoder af fyrrekogle, hængende fra en gren",
+    "playlist-phone-and-card": "Telefon med spilleliste og sangkort",
+    "sealed-rice-shaker": "Shaker med ris, forseglet",
+    "texture-board-with-scraps": "Tavle med stofrester og strukturer",
+    "painted-garden-stone": "Havesten, malet",
+    "shared-painted-canvas": "Lærred, malet sammen",
+    "watercolor-washes-sheet": "Papir med vandfarver",
+    "seedling-in-pot": "Frøplanter i en potte",
+    "pressed-leaves-in-book": "Bog med pressede blade",
+    "printed-leaves-sheet": "Ark med bladaftryk",
+    "pinch-pot-clay-bowl": "Lerskål, formet med hånden",
+    "table-sketch-pencil": "Blyantskitse af en krus",
+    "buttons-in-muffin-tin": "Knapper sorteret i en muffinform",
+    "family-recipe-book": "Familiens opskriftsbog",
+    "drum-with-beat-marks": "Bordtromme med trommestikker",
+    "torn-paper-flower": "Blomstermosaik af revet papir",
+    "window-with-birds": "Vindue med fugle",
+    "woven-paper-mat": "Måtte af flettet papir",
+    "yarn-ball-with-thread": "Garnnøgle med tråd",
+    "letter-and-envelope": "Brev i en kuvert"
   },
   "illustrations": {
     "rocking-chair": "Gyngestol",
@@ -442,359 +1165,6 @@
     "pocket-watch": "Lommeur"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Den, der ler sidst, ler",
-        "end": "bedst",
-        "others": [
-          "først",
-          "højest"
-        ],
-        "prompt": "Hvem fik dig altid til at le?"
-      },
-      {
-        "start": "Den, der intet vover, intet",
-        "end": "vinder",
-        "others": [
-          "finder",
-          "får"
-        ],
-        "prompt": "Hvad er det modigste, du har prøvet?"
-      },
-      {
-        "start": "Morgenstund har guld i",
-        "end": "mund",
-        "others": [
-          "hånd",
-          "sol"
-        ],
-        "prompt": "Er du et morgenmenneske eller et aftenmenneske?"
-      },
-      {
-        "start": "Det er ikke guld alt, hvad der",
-        "end": "glimter",
-        "others": [
-          "bider",
-          "brænder"
-        ],
-        "prompt": "Hvad er det smukkeste smykke, du har set?"
-      },
-      {
-        "start": "Når katten er ude, danser musene på",
-        "end": "bordet",
-        "others": [
-          "gulvet",
-          "loftet"
-        ],
-        "prompt": "Har du nogensinde haft en kat?"
-      },
-      {
-        "start": "Man skal ikke sælge skindet, før bjørnen er",
-        "end": "skudt",
-        "others": [
-          "set",
-          "fanget"
-        ],
-        "prompt": "Har du set en bjørn i virkeligheden eller på billeder?"
-      },
-      {
-        "start": "En fugl i hånden er bedre end ti på",
-        "end": "taget",
-        "others": [
-          "grenen",
-          "marken"
-        ],
-        "prompt": "Hvilke fugle kommer forbi din have eller dit vindue?"
-      },
-      {
-        "start": "Mange bække små gør en stor",
-        "end": "å",
-        "others": [
-          "sø",
-          "dal"
-        ],
-        "prompt": "Har du siddet ved en å eller en sø en sommerdag?"
-      },
-      {
-        "start": "Øvelse gør",
-        "end": "mester",
-        "others": [
-          "glad",
-          "stærk"
-        ],
-        "prompt": "Er der noget, du har øvet dig meget på, som et instrument eller en sport?"
-      },
-      {
-        "start": "Alle gode ting er",
-        "end": "tre",
-        "others": [
-          "fire",
-          "nok"
-        ],
-        "prompt": "Hvad er dine tre yndlingsting ved en god dag?"
-      },
-      {
-        "start": "Som man sår, så",
-        "end": "høster",
-        "others": [
-          "spiser",
-          "bager"
-        ],
-        "prompt": "Har du dyrket noget i en have, en kasse eller en urtepotte?"
-      },
-      {
-        "start": "Ude godt, hjemme",
-        "end": "bedst",
-        "others": [
-          "varmt",
-          "stille"
-        ],
-        "prompt": "Hvad gør et sted til et hjem for dig?"
-      },
-      {
-        "start": "Ingen røg uden",
-        "end": "ild",
-        "others": [
-          "vind",
-          "damp"
-        ],
-        "prompt": "Har du siddet ved et bål eller en pejs? Hvordan var det?"
-      },
-      {
-        "start": "Ende godt, alt",
-        "end": "godt",
-        "others": [
-          "fint",
-          "vel"
-        ],
-        "prompt": "Hvilken dag husker du som en rigtig god dag?"
-      },
-      {
-        "start": "Lige børn leger",
-        "end": "bedst",
-        "others": [
-          "glad",
-          "længst"
-        ],
-        "prompt": "Hvad legede du og dine venner, da I var børn?"
-      },
-      {
-        "start": "Kærlighed gør",
-        "end": "blind",
-        "others": [
-          "glad",
-          "varm"
-        ],
-        "prompt": "Hvem er et menneske, du holder meget af?"
-      },
-      {
-        "start": "Det er ikke hver dag, det er",
-        "end": "søndag",
-        "others": [
-          "fest",
-          "jul"
-        ],
-        "prompt": "Hvordan holdt I søndag i dit hjem?"
-      },
-      {
-        "start": "Man skal slå, mens jernet er",
-        "end": "varmt",
-        "others": [
-          "rødt",
-          "blødt"
-        ],
-        "prompt": "Har du arbejdet med værktøj, eller lært et håndværk?"
-      },
-      {
-        "start": "Mange kokke fordærver",
-        "end": "maden",
-        "others": [
-          "suppen",
-          "kagen"
-        ],
-        "prompt": "Hvem var den bedste kok, du har kendt?"
-      },
-      {
-        "start": "Hver ting til sin",
-        "end": "tid",
-        "others": [
-          "plads",
-          "dag"
-        ],
-        "prompt": "Hvad er din yndlingstid på dagen?"
-      },
-      {
-        "start": "Bedre sent end",
-        "end": "aldrig",
-        "others": [
-          "tidligt",
-          "sjældent"
-        ],
-        "prompt": "Er der noget, du først begyndte på senere i livet, og som du nød?"
-      },
-      {
-        "start": "En gang er ingen",
-        "end": "gang",
-        "others": [
-          "sag",
-          "nød"
-        ],
-        "prompt": "Hvad kunne du tænke dig at prøve en gang til?"
-      },
-      {
-        "start": "Der er ingen regel uden",
-        "end": "undtagelse",
-        "others": [
-          "anledning",
-          "ende"
-        ],
-        "prompt": "Hvilken fast vane har du holdt af?"
-      },
-      {
-        "start": "Man skal ikke kaste med sten, når man selv bor i et",
-        "end": "glashus",
-        "others": [
-          "slot",
-          "bjerg"
-        ],
-        "prompt": "Hvordan så huset ud, du boede i som barn?"
-      },
-      {
-        "start": "Kært barn har mange",
-        "end": "navne",
-        "others": [
-          "venner",
-          "hjem"
-        ],
-        "prompt": "Hvilke kælenavne har du haft, eller givet til andre?"
-      },
-      {
-        "start": "Mange hænder gør let",
-        "end": "arbejde",
-        "others": [
-          "kage",
-          "musik"
-        ],
-        "prompt": "Hvilke ting lavede din familie sammen derhjemme?"
-      },
-      {
-        "start": "Man skal ikke gå over åen efter",
-        "end": "vand",
-        "others": [
-          "brød",
-          "hø"
-        ],
-        "prompt": "Hvad er det rareste ved at være tæt på vand?"
-      },
-      {
-        "start": "Stille vande har dybe",
-        "end": "grunde",
-        "others": [
-          "fisk",
-          "dale"
-        ],
-        "prompt": "Kan du lide at sidde ved vandet og bare se på det?"
-      },
-      {
-        "start": "Æblet falder ikke langt fra",
-        "end": "stammen",
-        "others": [
-          "kurven",
-          "bordet"
-        ],
-        "prompt": "Hvem i din familie ligner du mest?"
-      },
-      {
-        "start": "Skønheden ligger i beskuerens",
-        "end": "øjne",
-        "others": [
-          "hænder",
-          "sind"
-        ],
-        "prompt": "Hvilken årstid synes du er den smukkeste?"
-      },
-      {
-        "start": "Hvor der er hjerterum, er der",
-        "end": "husrum",
-        "others": [
-          "sol",
-          "plads"
-        ],
-        "prompt": "Har du haft gæster, som blev længe? Fortæl om dem."
-      },
-      {
-        "start": "Små gryder har også",
-        "end": "ører",
-        "others": [
-          "låg",
-          "hanke"
-        ],
-        "prompt": "Hvad blev der kogt i dit køkken, da du var ung?"
-      },
-      {
-        "start": "Jo før, jo",
-        "end": "bedre",
-        "others": [
-          "mere",
-          "lysere"
-        ],
-        "prompt": "Hvad er noget, du glæder dig til at gøre i morgen?"
-      },
-      {
-        "start": "Den, der venter på noget godt, venter ikke",
-        "end": "forgæves",
-        "others": [
-          "længe",
-          "alene"
-        ],
-        "prompt": "Hvad er noget godt, som du ventede på og fik?"
-      },
-      {
-        "start": "Gammel kærlighed ruster",
-        "end": "aldrig",
-        "others": [
-          "sjældent",
-          "langsomt"
-        ],
-        "prompt": "Hvilken sang hører du gerne igen og igen?"
-      },
-      {
-        "start": "Tålmodighed bringer",
-        "end": "roser",
-        "others": [
-          "glæde",
-          "fred"
-        ],
-        "prompt": "Hvilke blomster kan du bedst lide?"
-      },
-      {
-        "start": "Der er ikke noget så skidt, at det ikke er godt for",
-        "end": "noget",
-        "others": [
-          "alt",
-          "nogen"
-        ],
-        "prompt": "Hvad kan et regnvejr bruges til, synes du?"
-      },
-      {
-        "start": "Som man reder, så",
-        "end": "ligger",
-        "others": [
-          "sover",
-          "bor"
-        ],
-        "prompt": "Hvordan kan du bedst lide at have din seng?"
-      },
-      {
-        "start": "Den, der leger med ilden, brænder",
-        "end": "sig",
-        "others": [
-          "godt",
-          "stille"
-        ],
-        "prompt": "Har du nogensinde tændt et stearinlys eller et bål?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ABCDEFGHIKLMNOPRSTUVY",
@@ -1220,6 +1590,17 @@
             "Ude og rundt"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Frugt",
+        "animals": "Dyr",
+        "travel": "Måder at rejse på",
+        "flowers": "Blomster",
+        "hot-drinks": "Ting til en varm drik",
+        "weather": "Slags vejr",
+        "baked": "Ting bagt i ovnen"
       }
     }
   }

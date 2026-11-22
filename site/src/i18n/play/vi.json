@@ -5,6 +5,13 @@
       "stopReading": "Dừng đọc",
       "region": "Trò chơi",
       "restart": "Chơi lại từ đầu",
+      "rest": "Tạm nghỉ",
+      "restingTitle": "Đang nghỉ",
+      "restingText": "Cứ nghỉ bao lâu tùy ý. Vị trí của bạn vẫn được giữ trên trang này.",
+      "resume": "Tiếp tục",
+      "placeText": "Lần trước bạn đã dừng lại giữa chừng. Tiếp tục từ chỗ đó, hoặc bắt đầu lại từ đầu.",
+      "placeResume": "Tiếp tục",
+      "placeFresh": "Bắt đầu lại",
       "soundOn": "Âm thanh nhẹ: bật",
       "soundOff": "Âm thanh nhẹ: tắt",
       "done": "Tạm nghỉ thôi",
@@ -35,12 +42,26 @@
       "guidanceHidden": "Chạm vào hai ô để lật hình lên. Tìm hai hình giống nhau.",
       "restart": "Hình mới",
       "sizeLegend": "Số ô",
-      "size": {"other": "{n} ô"},
+      "size": {
+        "other": "{n} ô"
+      },
       "viewLegend": "Cách chơi",
       "viewShowing": "Ngửa hình",
       "viewHidden": "Úp hình",
       "playAgain": "Chơi lại với hình mới",
-      "talk": "Cùng trò chuyện về các hình"
+      "talk": "Cùng trò chuyện về các hình",
+      "modeLegend": "Chọn bộ hình",
+      "modePlay": "Hình bất kỳ",
+      "modeDaily": "Thẻ hôm nay",
+      "dayLegend": "Chọn ngày",
+      "dayHelp": "Mọi người đều thấy cùng một bộ hình trong cùng một ngày. Các ngày trước cũng có ở đây, và bỏ qua một ngày cũng không sao cả.",
+      "guidanceDaily": "Thẻ hôm nay có bốn cặp. Chạm vào một hình, rồi chạm vào hình giống với nó.",
+      "restartDaily": "Bắt đầu lại thẻ này",
+      "copy": "Sao chép dòng này",
+      "copied": "Đã sao chép. Không có gì được gửi đi đâu cả.",
+      "calendarTitle": "Thẻ hôm nay, {month}",
+      "calendarHelp": "Mỗi ngày có cùng bốn hình cho mọi người. Không chấm điểm, và không ngày nào bị đánh dấu là đã bỏ lỡ.",
+      "calendarVersion": "Phiên bản {date}. Hình giống nhau cho mọi người trong cùng một ngày."
     },
     "choose": {
       "countLegend": "Số hình",
@@ -59,6 +80,634 @@
       "shadowAlt": "Một cái bóng để ghép",
       "foundAlt": "Bóng của {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Gợi ý",
+      "hintOn": "Gợi ý sau một lúc dừng",
+      "hintOff": "Không có gợi ý",
+      "guidance": "Tìm {n} hình đi cùng nhau, rồi chạm vào từng hình.",
+      "countLegend": "Số lượng hình",
+      "count": "{n} hình",
+      "found": "Đúng rồi, {name|lower} thuộc nhóm này.",
+      "elsewhere": "{name|lower} thuộc về một nhóm khác. Cứ từ từ nhé.",
+      "hint": "Gợi ý: hãy tìm {theme|lower}.",
+      "together": "Những hình này đi cùng nhau: {theme}.",
+      "shown": "Đây là nhóm: {theme}.",
+      "groupName": "Cùng nhau: {theme}",
+      "show": "Xem nhóm",
+      "next": "Bộ khác"
+    },
+    "oddOneOut": {
+      "hintLegend": "Gợi ý",
+      "hintOn": "Gợi ý sau một lúc dừng",
+      "hintOff": "Không có gợi ý",
+      "guidance": "Tìm hình không giống với các hình còn lại, rồi chạm vào hình đó.",
+      "countLegend": "Số lượng hình",
+      "count": "{n} hình",
+      "belongs": "{name|lower} thuộc về nhóm các hình còn lại. Cứ từ từ nhé.",
+      "found": "Đúng rồi, {name|lower} là hình lạc nhóm. Các hình còn lại là {theme|lower}.",
+      "shown": "Đây rồi: {name|lower}. Các hình còn lại là {theme|lower}.",
+      "hint": "Gợi ý: {n} hình trong số này là {theme|lower}.",
+      "others": "Các hình còn lại: {theme}",
+      "show": "Xem đáp án",
+      "next": "Bộ khác"
+    },
+    "seatedToss": {
+      "guidance": "Ngồi quanh bàn và lần lượt ném một túi đậu mềm vào bia lớn. Giữ bảng đếm trên giấy, cùng nhau.",
+      "stepsHeading": "Cách chơi",
+      "steps": [
+        "In bia và phiếu đếm điểm, rồi đặt phẳng lên bàn giữa hai người.",
+        "Ngồi thoải mái, mỗi người một bên. Lần lượt mỗi người ném nhẹ một lần, hoặc bỏ qua nếu bạn không muốn.",
+        "Khi túi rơi vào một vòng, người vừa ném đánh dấu một ô trong cột của mình, trên hàng của vòng đó.",
+        "Khi dừng lại, nếu muốn, hãy cùng nhìn các dấu đã đánh. Không ai phải cộng gì cả.",
+        "Dừng lại bất cứ khi nào ai đó muốn dừng."
+      ],
+      "safetyHeading": "An toàn",
+      "safetyLine": "Chỉ dùng túi có nắp khâu kín hoặc tất cuộn lại, ngồi yên, không bao giờ ném về phía mặt, và luôn có người lớn ở gần. Chi tiết nhỏ có thể gây nghẹn.",
+      "flags": [
+        "Không dành cho trẻ dưới 3 tuổi: có chi tiết nhỏ",
+        "Tránh xa miệng"
+      ],
+      "safety": [
+        "Chọn túi đậu có nắp khâu kín, hoặc cuộn một chiếc tất sạch lại. Kiểm tra trước xem có lỗ thủng hay đường may lỏng không, để phần nhồi không bị rơi ra.",
+        "Đậu, gạo và các loại nhồi nhỏ khác có thể gây nghẹn. Giữ xa trẻ nhỏ và những người hay cho đồ vào miệng.",
+        "Ở trong tầm với và theo dõi sát nếu có khả năng ai đó đưa đồ vào miệng.",
+        "Ngồi yên. Ném nhẹ và thấp về phía bia trên bàn, không bao giờ về phía mặt."
+      ],
+      "previewLabel": "Phiếu in: một bia ba vòng tên là Gần, Giữa và Xa, từ ngoài vào trong, và một bảng đếm có cột cho mỗi người cùng các hàng ô trống cho từng vòng.",
+      "sheetHow": "Đặt phiếu phẳng giữa hai người. Khi túi rơi vào một vòng, đánh dấu một ô trong cột của bạn, trên hàng của vòng đó.",
+      "rings": [
+        "Gần",
+        "Giữa",
+        "Xa"
+      ],
+      "people": [
+        "Người thứ nhất",
+        "Người thứ hai"
+      ],
+      "ringHeading": "Vòng",
+      "print": "In bia và phiếu đếm điểm"
+    },
+    "seasonalPack": {
+      "guidance": "Chọn một tháng, in ba câu đố giấy của tháng đó, rồi làm một, hai hoặc cả ba cùng nhau.",
+      "monthLegend": "Chọn tháng",
+      "months": [
+        "Tháng Một",
+        "Tháng Hai",
+        "Tháng Ba",
+        "Tháng Tư",
+        "Tháng Năm",
+        "Tháng Sáu",
+        "Tháng Bảy",
+        "Tháng Tám",
+        "Tháng Chín",
+        "Tháng Mười",
+        "Tháng Mười Một",
+        "Tháng Mười Hai"
+      ],
+      "monthNote": "Mỗi tháng có các hình riêng. Trang mở ra ở tháng này, và bạn có thể chọn tháng khác.",
+      "restDay": "Hôm nay là ngày nghỉ",
+      "restLine": "Hôm nay không có câu đố. Ngày nghỉ cũng là một ngày tốt.",
+      "previewHeading": "Ba câu đố",
+      "puzzles": {
+        "pairs": {
+          "title": "Ghép cặp",
+          "how": "Vẽ một đường nối từ mỗi hình ở hàng trên đến cùng hình đó ở hàng dưới.",
+          "describe": "Hai hàng gồm cùng bốn hình, nhưng xếp theo thứ tự khác."
+        },
+        "different": {
+          "title": "Hình nào khác?",
+          "how": "Khoanh tròn hình khác với ba hình còn lại.",
+          "describe": "Một hàng bốn hình. Ba hình giống nhau, và một hình khác."
+        },
+        "color": {
+          "title": "Tô màu",
+          "how": "Tô màu hình theo ý bạn, bằng bút sáp hoặc bút chì.",
+          "describe": "Một hình lớn để tô màu."
+        }
+      },
+      "print": "In gói của tháng này",
+      "sheetHow": "In một trang. Làm một, hai hoặc cả ba câu đố, theo thứ tự nào cũng được.",
+      "printFooter": "Làm một, hai hoặc cả ba. Dừng bất cứ lúc nào bạn muốn."
+    },
+    "decorateACard": {
+      "guidance": "Chọn dịp, rồi cùng nhau trang trí một tấm thiệp bằng bút sáp hoặc bút. Không có tấm thiệp nào là đúng cả.",
+      "occasionLegend": "Chọn dịp",
+      "occasions": {
+        "birthday": {
+          "label": "Sinh nhật",
+          "words": "Chúc mừng sinh nhật"
+        },
+        "thank-you": {
+          "label": "Cảm ơn",
+          "words": "Cảm ơn"
+        },
+        "thinking-of-you": {
+          "label": "Nghĩ về bạn",
+          "words": "Nghĩ về bạn"
+        },
+        "new-season": {
+          "label": "Mùa mới",
+          "words": "Một mùa mới"
+        },
+        "just-because": {
+          "label": "Không cần lý do",
+          "words": "Không cần lý do"
+        }
+      },
+      "stepsHeading": "Cách cùng nhau trang trí",
+      "steps": {
+        "fold": "In thiệp và gấp đôi theo đường nét đứt, để mặt trước nằm ở ngoài.",
+        "front": "Một người trang trí mặt trước, quanh các chữ.",
+        "inside": "Người kia trang trí mặt sau, hoặc hai người thay phiên nhau trên một mặt.",
+        "message": "Cùng viết một lời nhắn. Một người viết, người kia nói những lời đó.",
+        "stop": "Dừng bất cứ lúc nào bạn muốn. Không có tấm thiệp nào là đúng cả, và một tấm đơn giản cũng tốt không kém."
+      },
+      "materials": "Dùng bút sáp, bút chì màu hoặc bút dạ. Không cần cắt, dán hay gắn gì cả.",
+      "previewLabel": "Bản xem trước tấm thiệp đã gấp đôi. Mặt trước ghi {words}, với khung đơn giản gồm lá và sao. Mặt sau có dòng để viết lời nhắn và một dòng cho Từ.",
+      "from": "Từ",
+      "sheetHow": "Gấp đôi tấm thiệp theo đường gạch đứt, mặt trước ra ngoài. Viết lời nhắn ở mặt sau.",
+      "rulesHeading": "Dành cho hai người",
+      "sheetRules": [
+        "Thay phiên nhau, hoặc chia việc: một người trang trí mặt trước, người kia trang trí mặt sau.",
+        "Cùng viết lời nhắn, hoặc một người viết theo lời người kia nói.",
+        "Ai cũng có thể dừng lại bất cứ lúc nào. Không có tấm thiệp nào là đúng cả."
+      ],
+      "print": "In tấm thiệp"
+    },
+    "storyDice": {
+      "guidance": "Nhìn các hình và kể một câu chuyện bằng những hình đó, theo thứ tự nào cũng được. Không có câu chuyện nào là đúng cả.",
+      "countLegend": "Số xúc xắc",
+      "count": "{n} xúc xắc",
+      "roll": "Gieo lại",
+      "pass": "Bỏ qua",
+      "passed": "Bỏ qua cũng không sao. Người tiếp theo có thể bắt đầu, hoặc bạn có thể gieo lại.",
+      "rolled": "Hình mới: {names}.",
+      "tapped": "{name}. Bắt đầu với hình này hoặc hình nào khác cũng được."
+    },
+    "wordPicture": {
+      "guidance": "Chạm vào một hình, rồi chạm vào từ gọi tên hình đó. Hoặc chạm vào một từ, rồi chạm vào hình của từ đó.",
+      "countLegend": "Số hình",
+      "count": "{n} hình",
+      "picturesGroup": "Hình",
+      "wordsGroup": "Từ",
+      "readWord": "Đọc to: {name}",
+      "next": "Hình mới",
+      "putBack": "Đặt lại",
+      "pickWord": "Bây giờ hãy chạm vào từ đi với hình này.",
+      "pickPicture": "Bây giờ hãy chạm vào hình đi với từ này.",
+      "fit": "Đúng rồi, từ đó chính là tên của {name|lower}.",
+      "newSet": "Đây là bộ hình mới.",
+      "restarted": "Quay lại từ đầu. Mọi hình và từ đều đã được gỡ ra, chưa ghép.",
+      "restored": "Đã đặt lại. Các cặp đã ghép lại được hiển thị.",
+      "all": "Mỗi từ đều đã có hình của nó."
+    },
+    "colorMatch": {
+      "guidance": "Nhìn màu và tên của màu, rồi chạm vào mọi hình có màu đó.",
+      "target": "Màu này là {color|lower}. Hãy chạm vào mọi hình có màu {color|lower}.",
+      "countLegend": "Số hình",
+      "count": "{n} hình",
+      "found": "Đúng rồi, {name|lower} có màu {color|lower}.",
+      "named": "{name|lower} có màu {color|lower}.",
+      "all": "Đó là tất cả các hình màu {color|lower}.",
+      "shown": "Đây là các hình màu {color|lower}.",
+      "show": "Hiện các hình",
+      "next": "Màu khác",
+      "names": {
+        "red": "Đỏ",
+        "orange": "Cam",
+        "yellow": "Vàng",
+        "green": "Xanh lá",
+        "blue": "Xanh dương"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Chạm vào một nửa bên trái, rồi chạm vào nửa bên phải khớp với nó.",
+      "countLegend": "Số hình",
+      "count": "{n} hình",
+      "leftGroup": "Nửa bên trái",
+      "rightGroup": "Nửa bên phải",
+      "left": "Nửa bên trái của {name|lower}",
+      "right": "Nửa bên phải của {name|lower}",
+      "joined": "Đã ghép",
+      "pickRight": "Bây giờ hãy chạm vào nửa bên phải khớp với nó.",
+      "pickLeft": "Bây giờ hãy chạm vào nửa bên trái khớp với nó.",
+      "fit": "Đúng rồi, hai nửa này ghép thành {name|lower}.",
+      "apart": "Hai nửa này không khớp với nhau. Hãy thử cặp khác.",
+      "all": "Mọi hình đã được ghép đủ.",
+      "shown": "Đây là các hình đã ghép.",
+      "show": "Cho tôi xem",
+      "next": "Bộ khác"
+    },
+    "colorByNumber": {
+      "guidance": "Chọn một màu trong bảng chú thích, rồi tô một ô vuông bằng màu đó. Màu nào cũng được.",
+      "sizeLegend": "Kích cỡ lưới",
+      "size": "{n} x {n}",
+      "keyLegend": "Màu",
+      "colors": [
+        "Vàng",
+        "Cam",
+        "Xanh lá",
+        "Tím"
+      ],
+      "motifs": {
+        "house": "một ngôi nhà",
+        "flower": "một bông hoa",
+        "heart": "một trái tim",
+        "tree": "một cái cây",
+        "boat": "một chiếc thuyền buồm",
+        "pot-plant": "một cây trong chậu"
+      },
+      "region": "Lưới hình, {n} x {n}. Lưới sẽ cuộn ngang nếu màn hình hẹp.",
+      "cell": "Số {number}, hàng {row}, cột {column}, {color}",
+      "empty": "trống",
+      "chose": "Đã chọn {name}. Chạm vào một ô để tô.",
+      "painted": "{name} ở hàng {row}, cột {column}.",
+      "sheet": "Mỗi ô có màu ứng với số của nó. Đây là hình trên tờ giấy: {name}.",
+      "own": "Mọi ô đã được tô. Đây là hình do chính bạn tạo ra.",
+      "fillAll": "Tô theo số",
+      "filledAll": "Mọi ô trống giờ đã có màu ứng với số của nó.",
+      "clear": "Xóa",
+      "cleared": "Lưới đã được xóa trống.",
+      "next": "Hình khác",
+      "fresh": "Đây là một hình khác để tô màu."
+    },
+    "patternMaker": {
+      "guidance": "Chạm vào một ô để đổi màu. Hoa văn của bạn sẽ hiện ra bên cạnh. Không có gì bạn tạo ra được lưu hay gửi đi.",
+      "sizeLegend": "Kích cỡ ô mẫu",
+      "size": "{n} x {n}",
+      "keyLegend": "Màu, theo thứ tự mỗi lần chạm đổi màu",
+      "colors": [
+        "Vàng",
+        "Cam",
+        "Xanh lá",
+        "Tím"
+      ],
+      "tileLabel": "Ô mẫu của bạn",
+      "region": "Ô mẫu của bạn, {n} x {n}. Lưới sẽ cuộn ngang nếu màn hình hẹp.",
+      "patternLabel": "Hoa văn của bạn",
+      "pattern": "Hoa văn của bạn: ô mẫu được lặp lại {n} ô theo chiều ngang và {n} ô theo chiều dọc.",
+      "square": "Hàng {row}, cột {column}, {color}",
+      "changed": "Hàng {row}, cột {column} giờ có màu {color}.",
+      "cleared": "Ô mẫu đã được xóa trống. Bạn có thể đặt lại.",
+      "surprise": "Cho tôi một bất ngờ",
+      "surprised": "Đây là một ô mẫu mới. Bạn có thể đặt lại ô mẫu cũ.",
+      "putBack": "Đặt lại",
+      "restored": "Ô mẫu của bạn đã được khôi phục như cũ.",
+      "print": "In hoa văn của tôi",
+      "sheetTitle": "Hoa văn của tôi"
+    },
+    "buildTogether": {
+      "guidance": "Thay phiên đặt một mảnh vào một chỗ trống. Mỗi người có một màu riêng. Không có gì bạn tạo ra được lưu hay gửi đi.",
+      "sizeLegend": "Kích cỡ lưới",
+      "size": "{n} x {n}",
+      "people": [
+        "Người thứ nhất",
+        "Người thứ hai"
+      ],
+      "colorLegend": "Màu của {person}",
+      "colors": [
+        "Vàng",
+        "Cam",
+        "Xanh lá",
+        "Tím"
+      ],
+      "inUse": "Đang dùng",
+      "turn": "Đến lượt bạn, {person|lower}",
+      "yourColor": "Màu của bạn là {color|lower}.",
+      "built": "Đã cùng xây xong. Đây là hình hai bạn cùng làm nên.",
+      "gridLabel": "Lưới chung",
+      "region": "Lưới chung, {n} x {n}. Lưới sẽ cuộn ngang nếu màn hình hẹp.",
+      "cellEmpty": "Hàng {row}, cột {column}, trống",
+      "cellFilled": "Hàng {row}, cột {column}, {color}, do {person|lower} đặt",
+      "placed": "Hàng {row}, cột {column} giờ có màu {color}. Đến lượt {next|lower}.",
+      "placedLast": "Hàng {row}, cột {column} giờ có màu {color}. Đã cùng xây xong.",
+      "taken": "Hàng {row}, cột {column} đã có một mảnh. Hãy chọn một chỗ trống.",
+      "pass": "Bỏ qua",
+      "passed": "Bỏ qua cũng không sao. Đến lượt {person|lower}.",
+      "takeBack": "Lấy lại mảnh vừa đặt",
+      "takeBackPass": "Hủy lượt bỏ qua",
+      "tookBack": "Mảnh đã được lấy lại. Đến lượt {person|lower}.",
+      "tookBackPass": "Lượt bỏ qua đã được hủy. Đến lượt {person|lower}.",
+      "colorChanged": "{person} giờ có màu {color|lower}.",
+      "restarted": "Lưới đã trống. Đến lượt {person|lower}.",
+      "print": "In lưới",
+      "sheetTitle": "Cùng xây",
+      "sheetHelp": "Thay phiên nhau. Trong mỗi ô trống, mỗi người vẽ hình của mình bằng bút chì riêng.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Chạm vào một mảnh, rồi chạm vào chỗ trong hình mà mảnh đó thuộc về. Không có gì bạn tạo ra được lưu hay gửi đi.",
+      "hints": "Hiện các đường gợi ý",
+      "pictureLine": "Hình này là {picture}.",
+      "pictures": {
+        "house": "ngôi nhà",
+        "boat": "chiếc thuyền",
+        "tree": "cái cây",
+        "fish": "con cá",
+        "cat": "con mèo",
+        "rocket": "tên lửa"
+      },
+      "outlineLabel": "Đường viền của {picture}. Chạm vào một chỗ trống để đặt mảnh đã chọn vào đó.",
+      "trayHeading": "Các mảnh",
+      "pieces": {
+        "large-triangle": "Tam giác lớn",
+        "small-triangle": "Tam giác nhỏ",
+        "square": "Hình vuông",
+        "parallelogram": "Hình bình hành",
+        "rectangle": "Hình chữ nhật"
+      },
+      "shapes": {
+        "large-triangle": "một tam giác lớn",
+        "small-triangle": "một tam giác nhỏ",
+        "square": "một hình vuông",
+        "parallelogram": "một hình bình hành",
+        "rectangle": "một hình chữ nhật"
+      },
+      "chosenLabel": "Đã chọn",
+      "spaceEmpty": "Chỗ {n}, {shape}, trống",
+      "spaceFilled": "Chỗ {n}, {shape}, đã có mảnh. Chạm để lấy mảnh lại.",
+      "chosen": "Đã chọn {piece}. Bây giờ hãy chạm vào một chỗ trong hình.",
+      "unchosen": "Mảnh này không còn được chọn nữa.",
+      "placed": "Mảnh này đang ở ô {n}.",
+      "complete": "Bức {picture} đã hoàn thành.",
+      "different": "Mảnh này khác hình với ô này. Hãy thử một ô khác.",
+      "needPiece": "Hãy chọn một mảnh trong khay trước.",
+      "filled": "Ô này đã có mảnh rồi. Hãy chạm vào ô để lấy mảnh về.",
+      "tookBack": "Mảnh đã trở về khay.",
+      "cleared": "Các mảnh đã trở về khay. Nếu bạn đổi ý, hãy đặt lại mảnh vào.",
+      "restored": "Các mảnh đã trở lại bức tranh.",
+      "next": "Mảnh này là một {picture}.",
+      "putBack": "Đặt lại",
+      "another": "Hình khác",
+      "print": "In hình này",
+      "sheetTitle": "Hình đơn giản",
+      "sheetHow": "Tô màu các mảnh, hoặc cắt chúng ra để vừa với đường viền. Người lớn có thể giúp cắt.",
+      "sheetPieces": "Các mảnh, cùng kích thước với đường viền"
+    },
+    "picnicPlanner": {
+      "guidance": "Chạm vào một hình để cho vào giỏ dã ngoại, và chạm vào hình trong giỏ để lấy ra. Giỏ chứa được sáu món.",
+      "guidancePlay": "Chạm vào hai hình giống nhau. Các hình vẫn hiển thị, và không có thời gian tính.",
+      "basketHeading": "Giỏ của chúng ta",
+      "basketLabel": "Giỏ dã ngoại",
+      "takeOut": "Lấy {picture} ra khỏi giỏ",
+      "inBasket": "Trong giỏ",
+      "foodHeading": "Đồ ăn",
+      "outingsHeading": "Hoạt động",
+      "added": "{picture} đã có trong giỏ.",
+      "removed": "{picture} đã được lấy ra khỏi giỏ.",
+      "already": "{picture} đã có trong giỏ. Hãy chạm vào hình đó trong giỏ để lấy ra.",
+      "full": "Giỏ đã đầy. Hãy lấy bớt một món ra để có chỗ.",
+      "summary": "Buổi dã ngoại của chúng ta: {list}.",
+      "summaryNone": "Giỏ chưa có gì cả.",
+      "and": "và",
+      "play": "Cùng chơi với buổi dã ngoại của chúng ta",
+      "needTwo": "Hãy chọn ít nhất hai món trước.",
+      "playAgain": "Chơi lại",
+      "back": "Quay lại buổi dã ngoại",
+      "print": "In danh sách dã ngoại",
+      "cleared": "Giỏ đã trống.",
+      "notice": "Đây là một kế hoạch để cùng trò chuyện. Không có thời gian tính, không chấm điểm và không lưu lại.",
+      "sheetTitle": "Danh sách dã ngoại của chúng ta",
+      "sheetHow": "Đánh dấu từng món khi bạn xếp vào giỏ. Dùng các dòng trống cho những thứ khác bạn muốn mang theo.",
+      "sheetToPack": "Cần mang theo"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Hãy chọn từ hai đến mười hai ảnh của bạn để bắt đầu cuốn album.",
+      "guidance": "Cùng lật các trang bằng nút hoặc phím mũi tên Trái và Phải. Nếu muốn, hãy thêm vài lời dưới mỗi ảnh. Không có gì bạn làm ra được lưu hay gửi đi.",
+      "lookGuidance": "Cùng xem từng trang. Bạn có thể trò chuyện, hoặc chỉ cần ngắm nhìn.",
+      "intro": "Hãy chọn từ hai đến mười hai ảnh từ thiết bị này. Mỗi ảnh sẽ thành một trang của cuốn album để cùng lật.",
+      "consent": "Hãy dùng ảnh gia đình của chính bạn. Hãy hỏi trước khi dùng ảnh của người không thể tự trả lời.",
+      "privacy": "Ảnh của bạn ở lại trên thiết bị này. Chúng không được tải lên hay lưu lại.",
+      "choose": "Chọn ảnh",
+      "chooseDifferent": "Chọn ảnh khác",
+      "backToBook": "Quay lại album",
+      "backToChoose": "Quay lại chọn ảnh",
+      "needTwo": "Vui lòng chọn ít nhất hai ảnh.",
+      "usingFirst": "Đang dùng {max} ảnh đầu tiên.",
+      "cleared": "Album đã được xóa. Hãy chọn ảnh để bắt đầu lại.",
+      "moved": "Đã chuyển đến trang {n}.",
+      "pageOf": "Trang {n} trên {total}",
+      "lookTogether": "Cùng xem",
+      "leaveLook": "Quay lại album",
+      "print": "In album",
+      "clear": "Xóa album",
+      "bookLabel": "Album gia đình",
+      "pagesLabel": "Lật các trang",
+      "previous": "Trang trước",
+      "next": "Trang sau",
+      "moveEarlier": "Chuyển lên trước",
+      "moveLater": "Chuyển xuống sau",
+      "captionLabel": "Vài lời cho trang này, nếu bạn muốn",
+      "captionHelp": "Tối đa 80 ký tự. Chú thích chỉ được giữ trên trang này và sẽ mất khi bạn đóng lại.",
+      "sheetTitle": "Album của chúng ta",
+      "sheetHow": "Một ảnh cho mỗi trang, cùng lời ghi bên dưới. Hãy lật theo thứ tự và trò chuyện về từng ảnh.",
+      "sheetEmpty": "Chọn ảnh của bạn trên trang trò chơi để in album riêng, hoặc in trang trống này và dán ảnh đã in vào.",
+      "sheetFrame": "Dán ảnh đã in vào đây",
+      "sheetWords": "Vài lời cho trang này",
+      "skipped": {
+        "other": "{n} tệp không phải là ảnh chúng tôi có thể dùng."
+      }
+    },
+    "quietScene": {
+      "guidance": "Hãy nhìn từng bức tranh một. Nhấn Tiếp hoặc Trước khi bạn sẵn sàng. Không có gì tự chuyển động.",
+      "next": "Bức tranh tiếp theo",
+      "previous": "Bức tranh trước",
+      "bigPicture": "Phóng to bức tranh",
+      "showEverything": "Hiện tất cả",
+      "first": "Đây là bức tranh đầu tiên.",
+      "last": "Đây là bức tranh cuối cùng.",
+      "lines": {
+        "sunrise": "Mặt trời đang mọc trên cánh đồng.",
+        "window-with-birds": "Chim bên ngoài cửa sổ.",
+        "vase-of-flowers": "Một bình hoa trên bàn.",
+        "teacup": "Một tách trà bên cửa sổ.",
+        "tree": "Một cái cây đứng giữa vườn.",
+        "sailboat": "Một chiếc thuyền buồm trên mặt nước.",
+        "lighthouse": "Một ngọn hải đăng bên biển.",
+        "rainbow": "Cầu vồng sau cơn mưa.",
+        "moon": "Mặt trăng trên bầu trời đêm.",
+        "daisies": "Một bụi cúc dại trên cỏ.",
+        "rowing-boat": "Một chiếc thuyền chèo trên mặt nước lặng.",
+        "potted-plant": "Một cây xanh trong chậu."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Thay phiên nhau. Chạm vào một mảnh cắt rời, rồi chạm vào chỗ trống để đặt mảnh đó vào. Không có gì bạn làm ra được lưu hay gửi đi.",
+      "people": [
+        "Người thứ nhất",
+        "Người thứ hai"
+      ],
+      "marks": [
+        "một vòng tròn",
+        "một hình vuông"
+      ],
+      "turn": "Đến lượt bạn, {person|lower}.",
+      "marked": "Các mảnh của bạn được đánh dấu bằng {mark}.",
+      "boardLabel": "Bảng chung",
+      "placeEmpty": "Ô {n}, còn trống",
+      "placeFilled": "Ô {n}, {picture|lower}, do {person|lower} đặt",
+      "trayHeading": "Các mảnh cắt rời",
+      "chosenLabel": "Đã chọn",
+      "chosen": "Đã chọn {picture}. Bây giờ hãy chạm vào một ô trống.",
+      "unchosen": "Mảnh cắt rời này không còn được chọn nữa.",
+      "needCutout": "Hãy chọn một mảnh cắt rời trước, rồi chạm vào một ô trống.",
+      "filled": "Ô {n} đã có hình. Hãy chọn một ô trống.",
+      "placed": "{picture} đã ở ô {n}. Đến lượt bạn, {next|lower}.",
+      "full": "Mọi ô đều đã có hình. Hãy lấy một hình ra để thay đổi, hoặc bắt đầu lại.",
+      "pass": "Bỏ qua",
+      "passed": "Bỏ qua cũng không sao. Đến lượt bạn, {person|lower}.",
+      "takeBack": "Lấy lại mảnh vừa đặt",
+      "takeBackPass": "Hủy lượt bỏ qua",
+      "tookBack": "Đã lấy lại mảnh. Đến lượt bạn, {person|lower}.",
+      "tookBackPass": "Đã hủy lượt bỏ qua. Đến lượt bạn, {person|lower}.",
+      "restarted": "Bảng đã trống. Đến lượt bạn, {person|lower}.",
+      "putBack": "Đặt lại",
+      "putBackDone": "Các mảnh đã được đặt lại lên bảng.",
+      "another": "Bộ hình khác",
+      "anotherSet": "Một bộ mảnh cắt rời mới đã có trong khay. Các mảnh trên bảng vẫn ở nguyên chỗ.",
+      "print": "In bảng",
+      "sheetTitle": "Bảng ghép hình",
+      "sheetHow": "Cắt các hình ra và thay phiên nhau đặt lên bảng. Người lớn có thể giúp cắt.",
+      "sheetTray": "Các hình cần cắt"
+    },
+    "gardenPlanner": {
+      "guidance": "Chạm vào một hình, rồi chạm vào một luống để đặt hình đó vào. Chạm vào một luống đã có hình, khi chưa chọn gì, để xóa hình đó.",
+      "bedsLabel": "Các luống trong vườn",
+      "bedEmpty": "Luống {n}, còn trống",
+      "bedFilled": "Luống {n}, {picture|lower}",
+      "plantsHeading": "Cây trồng",
+      "extrasHeading": "Đồ thêm trong vườn",
+      "chosenLabel": "Đã chọn",
+      "chosen": "Đã chọn {picture}. Bây giờ hãy chạm vào một luống.",
+      "unchosen": "Chưa chọn hình nào.",
+      "needPicture": "Chọn một bức tranh trước, rồi chạm vào một luống.",
+      "planted": "{picture} đang ở luống {n}.",
+      "replaced": "{picture} thay thế bức tranh ở luống {n}.",
+      "cleared": "Luống {n} đang trống. Đặt lại bức tranh nếu bạn muốn dùng lại.",
+      "restarted": "Mọi luống đều đang trống.",
+      "putBack": "Đặt lại",
+      "putBackDone": "Các bức tranh đã được đặt lại vào luống.",
+      "summaryHeading": "Khu vườn của tôi",
+      "summary": "Kế hoạch của bạn có {list}.",
+      "summaryNone": "Chưa có bức tranh nào trong luống.",
+      "and": "và",
+      "print": "In kế hoạch",
+      "sheetTitle": "Kế hoạch vườn của chúng tôi",
+      "sheetHow": "Các luống thể hiện những bức tranh đã chọn trên màn hình. Nếu thích, bạn có thể vẽ thêm vào các luống còn trống.",
+      "sheetNotes": "Ghi chú",
+      "notice": "Đây là sơ đồ tranh để cùng trò chuyện, không phải hướng dẫn trồng trọt."
+    },
+    "coloringWall": {
+      "guidance": "Chọn một bức tranh và số trang. In bức tường tranh ra, mỗi người tô một hoặc nhiều trang. Không tính giờ, không chấm điểm và không lưu lại.",
+      "pictureLegend": "Bức tranh",
+      "sizeLegend": "Số trang",
+      "sizes": {
+        "2x2": "4 trang (2 x 2)",
+        "3x2": "6 trang (3 x 2)",
+        "3x3": "9 trang (3 x 3)"
+      },
+      "previewLabel": "Bức tranh {picture|lower} được chia thành {n} trang, {across} trang theo chiều ngang và {down} theo chiều dọc. Mỗi trang có một nhãn ở góc.",
+      "previewCaption": "Bức tranh có các đường kẻ trang và nhãn được vẽ lên.",
+      "labelsNote": "Chữ cái chạy dọc theo bức tường và số chạy ngang, nên A1 là trang ở góc trên bên trái.",
+      "wallHeading": "Cách ghép bức tường tranh",
+      "steps": [
+        "In tất cả các trang. Trang đầu tiên gồm các bước này và sơ đồ bức tường.",
+        "Mỗi người lấy một hoặc nhiều trang và tô màu.",
+        "Màu sắc và kiểu tô không cần giống nhau. Mọi trang đều là một phần của cùng một bức tranh.",
+        "Xếp các trang theo nhãn, rồi dán băng dính ở mặt sau để nối chúng lại.",
+        "Treo bức tường ở nơi mọi người đều nhìn thấy."
+      ],
+      "mapLabel": "Sơ đồ bức tường: {down} hàng, mỗi hàng {across} trang, được đánh nhãn từ A1 đến {last}.",
+      "edgeNote": "Đường nét đứt đánh dấu mép của mỗi trang. Đặt các trang sát mép nhau theo đường này, hoặc chồng lên nhau một chút.",
+      "pictureLine": "Bức tranh: {picture}. Bức tường này gồm {n} trang: {across} trang theo chiều ngang và {down} theo chiều dọc.",
+      "print": "In bức tường"
+    },
+    "findTogether": {
+      "guidance": "Thay phiên nhau. Đến lượt mình, lật hai thẻ để tìm một cặp. Cùng nhau tìm các cặp.",
+      "sizeLegend": "Số thẻ",
+      "size": "{n} thẻ",
+      "viewLegend": "Cách chơi",
+      "viewShowing": "Chơi với các hình đang hiện",
+      "viewHidden": "Thẻ úp xuống",
+      "people": [
+        "Người thứ nhất",
+        "Người thứ hai"
+      ],
+      "turn": "Lượt: {person}",
+      "turnDone": "Đã tìm được tất cả các cặp.",
+      "tally": "Số cặp đã tìm cùng nhau: {n}",
+      "cardNamed": "{name}, thẻ {n}",
+      "cardFaceDown": "Thẻ {n}, úp xuống",
+      "first": "{name}. Giờ hãy lật thẻ thứ hai.",
+      "found": "{name}: một cặp, đã tìm được cùng nhau. Giờ đến lượt {next|lower}.",
+      "allTogether": "Bạn đã cùng nhau tìm được tất cả các cặp.",
+      "different": "{a} và {b} khác nhau. Cứ thong thả, rồi nhấn Úp lại.",
+      "waiting": "Nhấn Úp lại khi bạn sẵn sàng. Sau đó lượt sẽ chuyển sang người khác.",
+      "turnedBack": "Đã úp lại. Giờ đến lượt {person|lower}.",
+      "passed": "Bỏ qua cũng không sao. Giờ đến lượt {person|lower}.",
+      "turnBack": "Úp lại",
+      "pass": "Bỏ qua",
+      "playAgain": "Chơi lại"
+    },
+    "drawingDuet": {
+      "guidance": "Thay phiên nhau, mỗi người vẽ một nét rồi đưa bút cho người kia. Ai cũng có thể bỏ qua lượt. Không có gì được gửi đi đâu cả. Bức vẽ chỉ rời khỏi trang này nếu bạn lưu lại.",
+      "people": [
+        "Người thứ nhất",
+        "Người thứ hai"
+      ],
+      "colorLegend": "Màu của {person}",
+      "colors": [
+        "Vàng",
+        "Cam",
+        "Xanh lá",
+        "Tím"
+      ],
+      "turn": "Lượt của {person}",
+      "penColor": "Màu bút: {color}.",
+      "canvasLabel": "Bức vẽ chung, hiện có {n} nét",
+      "canvasLabelOne": "Bức vẽ chung, hiện có {n} nét",
+      "keys": "Các phím mũi tên di chuyển chấm bút trên bức vẽ. Phím cách (Space) đặt bút xuống hoặc nhấc bút lên.",
+      "penDown": "Đặt bút xuống",
+      "penUp": "Nhấc bút lên",
+      "pass": "Đưa bút cho người kia",
+      "passed": "Bỏ qua cũng không sao. Đến lượt bạn, {person|lower}.",
+      "takeBack": "Xóa nét cuối của tôi",
+      "tookBack": "Đã xóa nét cuối của {person|lower}.",
+      "noLine": "Không có nét nào của {person|lower} để xóa.",
+      "restarted": "Tờ giấy đã được xóa trắng. Người thứ nhất có lượt đầu tiên. Nếu bạn không muốn vậy, hãy đặt lại.",
+      "putBack": "Đặt lại",
+      "restored": "Các nét đã được khôi phục như cũ.",
+      "save": "Lưu bức tranh",
+      "saved": "Bức tranh của bạn đã sẵn sàng. Dùng liên kết tải xuống để giữ nó trên thiết bị này.",
+      "download": "Tải về drawing-duet.png",
+      "print": "In phiên bản trên giấy",
+      "sheetTitle": "Vẽ chung hai người",
+      "paperRules": "Hai người, một tờ giấy, hai cây bút. Thay phiên nhau: mỗi người vẽ một nét hoặc một hình, rồi đưa bút cho người kia. Ai cũng có thể bỏ qua lượt. Không có bức tranh nào là đúng."
+    },
+    "colorWash": {
+      "guidance": "Tô màu nhẹ nhàng khắp trang, mỗi lần một lớp màu. Nhấc cọ lên để dừng, và dừng bất cứ lúc nào bạn muốn. Không có gì được lưu hay gửi đi.",
+      "colorLegend": "Màu loang",
+      "sizeLegend": "Kích cỡ cọ",
+      "colors": [
+        "Vàng",
+        "Cam",
+        "Xanh lá",
+        "Tím"
+      ],
+      "sizes": {
+        "wide": "Rộng",
+        "veryWide": "Rất rộng"
+      },
+      "color": "Màu loang: {color}.",
+      "brushDown": "Hạ cọ xuống",
+      "brushUp": "Nhấc cọ lên",
+      "keys": "Các phím mũi tên di chuyển vòng cọ trên trang. Phím cách (Space) hạ cọ xuống hoặc nhấc cọ lên.",
+      "canvasLabel": "Một trang với các lớp màu loang nhẹ",
+      "fresh": "Trang mới",
+      "freshMessage": "Một trang mới.",
+      "putBack": "Đặt lại",
+      "restored": "Trang đã được khôi phục."
+    },
     "sortTogether": {
       "guidance": "Chạm vào một hình, rồi chạm vào chiếc giỏ hợp với nó.",
       "restart": "Hình mới",
@@ -68,7 +717,13 @@
       "hint": "Có thể để {name|lower} vào giỏ “{basket}”. Chạm vào giỏ đó để đặt hình vào.",
       "placed": "Đã để {name|lower} vào giỏ “{basket}”.",
       "sorted": "Mọi hình đã được xếp xong. Cùng xem lại từng giỏ, hoặc thử một chủ đề khác.",
-      "basket": {"other": "Giỏ “{basket}”, có {count} hình"}
+      "largerTargets": "Mục tiêu lớn hơn",
+      "largerOn": "Đã bật mục tiêu lớn hơn. Chưa có gì được di chuyển.",
+      "largerOff": "Đã tắt mục tiêu lớn hơn. Chưa có gì được di chuyển.",
+      "largerOnNewRound": "Đã bật mục tiêu lớn hơn, với hai giỏ. Đây là những bức tranh mới để phân loại.",
+      "basket": {
+        "other": "Giỏ “{basket}”, có {count} hình"
+      }
     },
     "picturePuzzle": {
       "guidance": "Chạm vào một mảnh, rồi chạm vào một mảnh khác. Hai mảnh sẽ đổi chỗ cho nhau.",
@@ -83,7 +738,9 @@
         "cat": "Con mèo"
       },
       "sizeLegend": "Số mảnh",
-      "size": {"other": "{n} mảnh"},
+      "size": {
+        "other": "{n} mảnh"
+      },
       "pickedUp": "Đã nhấc một mảnh lên. Giờ chạm vào chỗ muốn đặt mảnh đó.",
       "whole": "Bức tranh {name|lower} đã liền lại. Chọn tranh khác tùy ý.",
       "swapped": {
@@ -91,10 +748,27 @@
       },
       "guideAlt": "Bức tranh hoàn chỉnh: {name}",
       "guideText": "Bức tranh trông như thế này khi đã liền lại.",
+      "ownChoose": "Dùng ảnh của bạn",
+      "ownChange": "Chọn ảnh khác",
+      "ownBack": "Quay lại các bức tranh của chúng tôi",
+      "ownPrivacy": "Ảnh của bạn được giữ trên thiết bị này. Ảnh không được tải lên hay lưu lại.",
+      "ownConsent": "Dùng ảnh của chính bạn. Hãy hỏi trước khi dùng ảnh của người không thể tự đồng ý.",
+      "ownWorking": "Đang chuẩn bị ảnh của bạn.",
+      "ownNotUsable": "Không thể dùng tệp đó. Hãy chọn một tệp ảnh, chẳng hạn như JPEG hoặc PNG.",
+      "ownAlt": "Ảnh của bạn",
+      "ownPiece": "Mảnh {n}, {place}",
+      "ownWhole": "Ảnh của bạn đã ghép lại hoàn chỉnh. Có thể xáo trộn lại bất cứ lúc nào bạn muốn.",
+      "ownSheetTitle": "Ảnh của bạn đã cắt thành mảnh",
+      "ownSheetHow": "Cắt theo các đường kẻ. Xáo trộn các mảnh, rồi đổi chỗ hai mảnh một lúc cho đến khi bức ảnh hoàn chỉnh.",
       "piece": "Mảnh ở {place}",
       "pieceInPlace": ", đã nằm đúng chỗ",
       "piecePickedUp": ", đang được nhấc lên",
-      "places4": ["góc trên bên trái", "góc trên bên phải", "góc dưới bên trái", "góc dưới bên phải"],
+      "places4": [
+        "góc trên bên trái",
+        "góc trên bên phải",
+        "góc dưới bên trái",
+        "góc dưới bên phải"
+      ],
       "places9": [
         "góc trên bên trái",
         "giữa hàng trên",
@@ -126,7 +800,9 @@
       "restart": "Bảng chữ mới",
       "themeLegend": "Chủ đề",
       "sizeLegend": "Cỡ bảng chữ",
-      "size": {"other": "{n} × {n} ({words} từ)"},
+      "size": {
+        "other": "{n} × {n} ({words} từ)"
+      },
       "print": "In bảng chữ này",
       "letterChosen": "Đã chọn chữ {letter}. Giờ chạm vào chữ cái cuối của từ.",
       "found": "Đã tìm thấy {word}.",
@@ -172,6 +848,14 @@
       "guidance": "Đọc to thẻ lên. Không có câu trả lời nào là đúng hay sai.",
       "position": "Thẻ {n} trên {total}",
       "themeLegend": "Chủ đề",
+      "showPrompt": "Hiện một gợi ý trò chuyện",
+      "bigPicture": "Tranh lớn, dành cho nhóm",
+      "passNote": "Ai cũng có thể bỏ qua.",
+      "groupTitle": "Chuyền thẻ trong nhóm",
+      "groupSit": "Ngồi thành vòng tròn, nơi mọi người đều nhìn thấy bức tranh. Người đang cầm thẻ, hoặc thiết bị đang hiện bức tranh lớn, đọc to câu gợi ý trước.",
+      "groupPass": "Sau đó chuyền thẻ cho người tiếp theo. Mỗi người nói một từ hoặc một câu về bức tranh, rồi chuyền tiếp.",
+      "groupNoSpeech": "Chuyền thẻ đi luôn được. Ai cũng có thể bỏ qua mà không cần nói gì, và không ai phải giải thích lý do.",
+      "groupEnd": "Vòng chơi kết thúc khi lá thẻ đã đi hết vòng tròn, hoặc khi cả nhóm đã thấy đủ. Không ai thắng cả. Bạn có thể dừng bất cứ lúc nào nhóm muốn.",
       "next": "Thẻ tiếp theo",
       "previous": "Thẻ trước",
       "print": "In tất cả thẻ",
@@ -204,8 +888,12 @@
       "squaresLegend": "Số ô trên mỗi phiếu",
       "squares": "{n} ô ({side} × {side})",
       "cardsLegend": "Số phiếu cần in",
-      "cards": {"other": "{n} phiếu"},
-      "print": {"other": "In phiếu ({n})"},
+      "cards": {
+        "other": "{n} phiếu"
+      },
+      "print": {
+        "other": "In phiếu ({n})"
+      },
       "ready": "Khi nào sẵn sàng thì bắt đầu",
       "next": "Hình tiếp theo",
       "allCalled": "Đã xướng hết các hình",
@@ -226,6 +914,20 @@
       "started": "Đã bắt đầu. Hít vào khi vòng tròn nở ra.",
       "stopped": "Đã dừng.",
       "finished": "Vậy là xong sáu nhịp thở chậm. Bắt đầu lại lúc nào cũng được."
+    },
+    "storyChain": {
+      "guidance": "Thay phiên nhau: mỗi người một câu, rồi thêm hình tiếp theo.",
+      "passNote": "Hãy nói câu của bạn thành lời. Không có gì được gõ hay lưu lại. Ai cũng có thể bỏ qua lượt.",
+      "chainLabel": "Chuỗi đến lúc này",
+      "item": "Hình {n}: {name}",
+      "add": "Thêm một hình",
+      "fullAdd": "Chuỗi đã đầy. Bắt đầu chuỗi mới",
+      "newChain": "Bắt đầu chuỗi mới",
+      "takeOff": "Gỡ hình cuối cùng ra",
+      "added": "{name|lower} giờ đã nằm ở cuối chuỗi.",
+      "removed": "{name|lower} đã được gỡ khỏi chuỗi.",
+      "fresh": "Một chuỗi mới, bắt đầu với {name|lower}.",
+      "full": "Chuỗi đã có đủ tám hình. Hãy kể lại cả câu chuyện, hoặc bắt đầu chuỗi mới."
     }
   },
   "pictures": {
@@ -311,7 +1013,44 @@
     "rain-cloud": "Đám mây mưa",
     "snowflake": "Bông tuyết",
     "kite": "Con diều",
-    "sunrise": "Bình minh trên đồi"
+    "sunrise": "Bình minh trên đồi",
+    "decorated-keepsake-box": "Hộp kỷ vật được trang trí",
+    "painted-plant-pot": "Chậu cây sơn màu với thảo mộc",
+    "repeating-pattern-sheet": "Tờ giấy họa tiết lặp lại",
+    "music-drawn-lines": "Đường nét vẽ theo nhạc",
+    "paper-boat-afloat": "Thuyền giấy trên mặt nước",
+    "folded-towel-stack": "Chồng khăn đã gấp",
+    "hand-massage-with-lotion": "Bàn tay đặt trên khăn, có kem dưỡng",
+    "open-photo-album": "Album ảnh đang mở",
+    "button-flower-card": "Thiệp có hoa làm từ cúc áo",
+    "blue-torn-paper-collage": "Tranh ghép giấy xé màu xanh",
+    "family-tree-of-hands": "Cây gia phả vẽ bằng bàn tay",
+    "open-greeting-card": "Thiệp chúc mừng mở ra có hình trái tim",
+    "lavender-sachet": "Túi thơm hoa oải hương buộc ruy băng",
+    "memory-collage-of-photos": "Tranh ghép ảnh gia đình",
+    "paper-chain-garland": "Dây trang trí xích giấy",
+    "open-songbook-with-notes": "Sổ nhạc đang mở có nốt nhạc",
+    "photo-postcard-with-stamp": "Bưu thiếp ảnh có tem",
+    "pine-cone-bird-feeder": "Mangiatoia chim làm từ quả thông treo trên cành",
+    "playlist-phone-and-card": "Điện thoại với danh sách nhạc và thẻ bài hát",
+    "sealed-rice-shaker": "Hộp lắc gạo đã đậy kín",
+    "texture-board-with-scraps": "Bảng chất liệu với các mảnh vụn",
+    "painted-garden-stone": "Viên đá sơn màu trong vườn",
+    "shared-painted-canvas": "Tấm toan vẽ chung",
+    "watercolor-washes-sheet": "Tờ giấy loang màu nước",
+    "seedling-in-pot": "Cây con trong chậu",
+    "pressed-leaves-in-book": "Lá ép trong sách",
+    "printed-leaves-sheet": "Tờ giấy in dấu lá",
+    "pinch-pot-clay-bowl": "Bình đất nặn bằng tay",
+    "table-sketch-pencil": "Bản phác họa cốc bằng bút chì",
+    "buttons-in-muffin-tin": "Cúc áo được xếp trong khay nướng bánh",
+    "family-recipe-book": "Sổ công thức nấu ăn của gia đình",
+    "drum-with-beat-marks": "Trống bàn kèm dùi",
+    "torn-paper-flower": "Tranh khảm hoa bằng giấy xé",
+    "window-with-birds": "Cửa sổ có chim",
+    "woven-paper-mat": "Tấm thảm đan bằng giấy",
+    "yarn-ball-with-thread": "Cuộn len",
+    "letter-and-envelope": "Thư trong phong bì"
   },
   "illustrations": {
     "rocking-chair": "Ghế bập bênh",
@@ -416,68 +1155,100 @@
     "pocket-watch": "Đồng hồ bỏ túi"
   },
   "content": {
-    "sayings": [
-      {"start": "Ăn quả nhớ kẻ trồng", "end": "cây", "others": ["hoa", "rau"], "prompt": "Bác thích loại quả nào nhất?"},
-      {"start": "Uống nước nhớ", "end": "nguồn", "others": ["sông", "nhà"], "prompt": "Bác thích uống gì nhất: chè xanh, trà nóng hay nước dừa?"},
-      {"start": "Có công mài sắt, có ngày nên", "end": "kim", "others": ["dao", "nồi"], "prompt": "Có việc gì bác đã bền bỉ làm cho đến khi xong không?"},
-      {"start": "Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi", "end": "cao", "others": ["xanh", "to"], "prompt": "Bác thích cùng mọi người làm việc gì?"},
-      {"start": "Bầu ơi thương lấy bí cùng, tuy rằng khác giống nhưng chung một", "end": "giàn", "others": ["vườn", "nhà"], "prompt": "Bác thích canh bầu hay canh bí hơn?"},
-      {"start": "Lá lành đùm lá", "end": "rách", "others": ["xanh", "vàng"], "prompt": "Một việc tốt nhỏ nào làm bác thấy ấm lòng?"},
-      {"start": "Gần mực thì đen, gần đèn thì", "end": "sáng", "others": ["ấm", "vui"], "prompt": "Theo bác, thế nào là một người bạn tốt?"},
-      {"start": "Tốt gỗ hơn tốt nước", "end": "sơn", "others": ["màu", "vôi"], "prompt": "Trong nhà, bác thích món đồ gỗ nào?"},
-      {"start": "Đi một ngày đàng, học một sàng", "end": "khôn", "others": ["hay", "vui"], "prompt": "Nơi nào bác thích đến chơi nhất?"},
-      {"start": "Có chí thì", "end": "nên", "others": ["xong", "vui"], "prompt": "Việc gì bác đã cố gắng làm và thấy vui khi làm được?"},
-      {"start": "Công cha như núi Thái Sơn, nghĩa mẹ như nước trong nguồn chảy", "end": "ra", "others": ["xa", "về"], "prompt": "Bác học được điều gì hay từ cha mẹ?"},
-      {"start": "Chim có tổ, người có", "end": "tông", "others": ["nhà", "bạn"], "prompt": "Tết đến, cả nhà bác hay quây quần làm gì?"},
-      {"start": "Ăn có nhai, nói có", "end": "nghĩ", "others": ["cười", "nghe"], "prompt": "Trong bữa cơm, cả nhà bác hay nói chuyện gì vui?"},
-      {"start": "Tiên học lễ, hậu học", "end": "văn", "others": ["toán", "nghề"], "prompt": "Bác thích điều gì ở thời đi học?"},
-      {"start": "Không thầy đố mày làm", "end": "nên", "others": ["xong", "được"], "prompt": "Bác kể cho con nghe về một thầy cô mà bác quý nhé."},
-      {"start": "Nhiễu điều phủ lấy giá gương, người trong một nước phải thương nhau", "end": "cùng", "others": ["nhiều", "luôn"], "prompt": "Điều gì làm mọi người thấy gần gũi nhau hơn?"},
-      {"start": "Ở hiền gặp", "end": "lành", "others": ["may", "vui"], "prompt": "Bác kể cho con nghe về một người hiền lành mà bác quý nhé."},
-      {"start": "Thương người như thể thương", "end": "thân", "others": ["con", "nhà"], "prompt": "Một việc tử tế nào làm bác thấy vui?"},
-      {"start": "Học thầy không tày học", "end": "bạn", "others": ["sách", "nghề"], "prompt": "Ngày nhỏ, bác hay chơi gì với bạn bè?"},
-      {"start": "Chuồn chuồn bay thấp thì mưa, bay cao thì nắng, bay vừa thì", "end": "râm", "others": ["mát", "gió"], "prompt": "Bác thích trời nắng hay trời mưa hơn?"},
-      {"start": "Nhất nước, nhì phân, tam cần, tứ", "end": "giống", "others": ["cày", "đất"], "prompt": "Nếu có một mảnh vườn, bác muốn trồng gì?"},
-      {"start": "Lời chào cao hơn mâm", "end": "cỗ", "others": ["cơm", "bánh"], "prompt": "Bác thích món nào nhất trong mâm cỗ ngày Tết?"},
-      {"start": "Một miếng khi đói bằng một gói khi", "end": "no", "others": ["vui", "xa"], "prompt": "Một bữa ăn đơn giản nào bác thấy ngon nhất?"},
-      {"start": "Lựa lời mà nói cho vừa lòng", "end": "nhau", "others": ["người", "ta"], "prompt": "Bác thích trò chuyện với ai nhất?"},
-      {"start": "Nước chảy đá", "end": "mòn", "others": ["tròn", "trơn"], "prompt": "Bác thích ngồi bên sông, bên hồ hay bên biển?"},
-      {"start": "Con hơn cha là nhà có", "end": "phúc", "others": ["lộc", "hoa"], "prompt": "Bác mong điều gì tốt đẹp cho con cháu?"},
-      {"start": "Nói ngọt lọt đến", "end": "xương", "others": ["tim", "lòng"], "prompt": "Bác thích nghe những lời nói như thế nào?"},
-      {"start": "Một điều nhịn, chín điều", "end": "lành", "others": ["vui", "hay"], "prompt": "Điều gì giúp bác thấy thư thái?"},
-      {"start": "Ăn chắc mặc", "end": "bền", "others": ["đẹp", "ấm"], "prompt": "Bác thích mặc loại áo nào nhất?"},
-      {"start": "Thuận vợ thuận chồng, tát biển Đông cũng", "end": "cạn", "others": ["được", "xong"], "prompt": "Theo bác, điều gì làm một gia đình êm ấm?"},
-      {"start": "Anh em như thể tay", "end": "chân", "others": ["trái", "phải"], "prompt": "Bác có người bạn nào thân như anh em không? Bác kể cho con nghe nhé."},
-      {"start": "Đi đến nơi, về đến", "end": "chốn", "others": ["nhà", "quê"], "prompt": "Bác thích đi xa hay ở nhà hơn?"},
-      {"start": "Bán anh em xa, mua láng giềng", "end": "gần", "others": ["tốt", "vui"], "prompt": "Hàng xóm tốt bụng thường giúp nhau những việc gì?"},
-      {"start": "Đất lành chim", "end": "đậu", "others": ["hót", "bay"], "prompt": "Bác thích nghe chim hót vào lúc nào trong ngày?"},
-      {"start": "Trăm hay không bằng tay", "end": "quen", "others": ["làm", "khéo"], "prompt": "Bác thích làm việc gì bằng đôi tay của mình?"},
-      {"start": "Mưa dầm thấm", "end": "lâu", "others": ["đất", "sâu"], "prompt": "Bác có thích nghe tiếng mưa rơi không?"},
-      {"start": "Đêm tháng năm chưa nằm đã sáng, ngày tháng mười chưa cười đã", "end": "tối", "others": ["trưa", "xong"], "prompt": "Bác thích những ngày dài mùa hè hay những ngày ngắn mùa đông?"},
-      {"start": "Nhập gia tùy", "end": "tục", "others": ["ý", "lễ"], "prompt": "Ngày Tết, bác thích phong tục nào nhất?"},
-      {"start": "Tấc đất tấc", "end": "vàng", "others": ["ngọc", "hoa"], "prompt": "Bác thích trồng cây gì trước sân nhà?"},
-      {"start": "Trai tài gái", "end": "sắc", "others": ["đẹp", "hiền"], "prompt": "Theo bác, một đám cưới vui cần có những gì?"},
-      {"start": "Râu tôm nấu với ruột bầu, chồng chan vợ húp gật đầu khen", "end": "ngon", "others": ["thơm", "ngọt"], "prompt": "Món canh nào bác thấy ngon nhất?"},
-      {"start": "Ai ơi bưng bát cơm đầy, dẻo thơm một hạt, đắng cay muôn", "end": "phần", "others": ["nơi", "nhà"], "prompt": "Bác thích ăn cơm với món gì nhất?"},
-      {"start": "Rủ nhau xuống bể mò cua, đem về nấu quả mơ chua trên", "end": "rừng", "others": ["núi", "đồi"], "prompt": "Bác thích nấu canh chua với gì?"},
-      {"start": "Mất lòng trước, được lòng", "end": "sau", "others": ["nhau", "lâu"], "prompt": "Lời khuyên thật lòng nào bác thấy quý?"},
-      {"start": "Chị ngã em", "end": "nâng", "others": ["đỡ", "theo"], "prompt": "Anh chị em trong nhà bác hay giúp nhau những việc gì?"},
-      {"start": "Có đi có", "end": "lại", "others": ["về", "đến"], "prompt": "Khi đi thăm ai, bác hay mang quà gì?"},
-      {"start": "Đi đâu mà vội mà", "end": "vàng", "others": ["nhanh", "mau"], "prompt": "Việc gì bác thích làm thật thong thả?"},
-      {"start": "Trâu ơi ta bảo trâu này, trâu ra ngoài ruộng trâu cày với", "end": "ta", "others": ["anh", "tôi"], "prompt": "Bác kể cho con nghe về cánh đồng ở quê nhé."},
-      {"start": "Một nắng hai", "end": "sương", "others": ["mưa", "gió"], "prompt": "Bác thích làm việc ngoài trời hay trong nhà hơn?"},
-      {"start": "Ăn ngay nói", "end": "thật", "others": ["thẳng", "khéo"], "prompt": "Theo bác, đức tính nào ở một người là đáng quý nhất?"}
-    ],
     "wordSearch": {
       "available": true,
       "fill": "AĂÂBCDĐEÊGHIKLMNOÔƠPRSTUƯVXYÁÀẠẤẾÓỒỜÚỪ",
       "themes": [
-        {"value": "fruit", "label": "Trái cây", "words": ["CHUỐI", "XOÀI", "CAM", "BƯỞI", "CHANH", "NHÃN", "VẢI", "DỪA", "MÍT"]},
-        {"value": "garden", "label": "Khu vườn", "words": ["HOA", "CÂY", "ĐẤT", "RAU", "SEN", "CÚC", "MAI", "CÀNH", "CHẬU"]},
-        {"value": "kitchen", "label": "Nhà bếp", "words": ["NỒI", "CHẢO", "BÁT", "ĐŨA", "ĐĨA", "BẾP", "GẠO", "CƠM", "MUỐI"]},
-        {"value": "weather", "label": "Thời tiết", "words": ["MƯA", "NẮNG", "GIÓ", "MÂY", "BÃO", "SƯƠNG", "NÓNG", "MÁT", "LẠNH"]},
-        {"value": "animals", "label": "Con vật", "words": ["MÈO", "CHÓ", "TRÂU", "NGỰA", "VỊT", "CHIM", "VOI", "CUA", "TÔM"]},
-        {"value": "home", "label": "Nhà cửa", "words": ["CỬA", "BÀN", "GHẾ", "GIƯỜNG", "ĐÈN", "CHIẾU", "QUẠT", "GỐI", "SÂN"]}
+        {
+          "value": "fruit",
+          "label": "Trái cây",
+          "words": [
+            "CHUỐI",
+            "XOÀI",
+            "CAM",
+            "BƯỞI",
+            "CHANH",
+            "NHÃN",
+            "VẢI",
+            "DỪA",
+            "MÍT"
+          ]
+        },
+        {
+          "value": "garden",
+          "label": "Khu vườn",
+          "words": [
+            "HOA",
+            "CÂY",
+            "ĐẤT",
+            "RAU",
+            "SEN",
+            "CÚC",
+            "MAI",
+            "CÀNH",
+            "CHẬU"
+          ]
+        },
+        {
+          "value": "kitchen",
+          "label": "Nhà bếp",
+          "words": [
+            "NỒI",
+            "CHẢO",
+            "BÁT",
+            "ĐŨA",
+            "ĐĨA",
+            "BẾP",
+            "GẠO",
+            "CƠM",
+            "MUỐI"
+          ]
+        },
+        {
+          "value": "weather",
+          "label": "Thời tiết",
+          "words": [
+            "MƯA",
+            "NẮNG",
+            "GIÓ",
+            "MÂY",
+            "BÃO",
+            "SƯƠNG",
+            "NÓNG",
+            "MÁT",
+            "LẠNH"
+          ]
+        },
+        {
+          "value": "animals",
+          "label": "Con vật",
+          "words": [
+            "MÈO",
+            "CHÓ",
+            "TRÂU",
+            "NGỰA",
+            "VỊT",
+            "CHIM",
+            "VOI",
+            "CUA",
+            "TÔM"
+          ]
+        },
+        {
+          "value": "home",
+          "label": "Nhà cửa",
+          "words": [
+            "CỬA",
+            "BÀN",
+            "GHẾ",
+            "GIƯỜNG",
+            "ĐÈN",
+            "CHIẾU",
+            "QUẠT",
+            "GỐI",
+            "SÂN"
+          ]
+        }
       ]
     },
     "conversation": {
@@ -493,51 +1264,221 @@
         "seasons": "Mùa trong năm"
       },
       "cards": [
-        {"theme": "food", "picture": "bread", "prompt": "Bác thích ăn bánh mì kèm với gì?"},
-        {"theme": "food", "picture": "cake", "prompt": "Những ngày vui trong nhà, bác thích có món bánh gì?"},
-        {"theme": "food", "picture": "apple", "prompt": "Bác kể cho con nghe về một món chè hay món tráng miệng bác thích nhé."},
-        {"theme": "food", "picture": "teacup", "prompt": "Bác thích uống trà hay cà phê, và pha thế nào thì vừa?"},
-        {"theme": "food", "picture": "frying-pan", "prompt": "Theo bác, bữa sáng ngon nhất là phở, xôi, bánh mì hay món gì khác?"},
-        {"theme": "food", "picture": "strawberry", "prompt": "Bác kể cho con nghe về một lần hái quả trong vườn nhé."},
-        {"theme": "food", "picture": "lemon", "prompt": "Bác thích vị chua hay vị ngọt hơn?"},
-        {"theme": "food", "picture": "cherries", "prompt": "Món ăn nào làm bác nghĩ đến mùa hè?"},
-        {"theme": "food", "picture": "banana", "prompt": "Đi chợ, bác thích mua những gì nhất?"},
-        {"theme": "home", "picture": "house", "prompt": "Bác kể cho con nghe về một ngôi nhà mà bác thích sống nhé."},
-        {"theme": "home", "picture": "armchair", "prompt": "Ở nhà, bác thích ngồi nghỉ ở chỗ nào nhất?"},
-        {"theme": "home", "picture": "lamp", "prompt": "Buổi tối yên tĩnh, bác thích làm gì?"},
-        {"theme": "home", "picture": "key", "prompt": "Nếu có một chiếc hộp nhỏ để cất đồ quý, bác sẽ cất gì trong đó?"},
-        {"theme": "home", "picture": "kettle", "prompt": "Bác muốn mời ai đến nhà uống chén trà?"},
-        {"theme": "home", "picture": "umbrella", "prompt": "Ngày mưa, bác thích làm gì ở nhà?"},
-        {"theme": "outdoors", "picture": "sunflower", "prompt": "Nếu có một khu vườn, bác muốn trồng hoa gì?"},
-        {"theme": "outdoors", "picture": "tree", "prompt": "Bác kể cho con nghe về một cái cây hay một khu vườn mà bác thích nhé."},
-        {"theme": "outdoors", "picture": "watering-can", "prompt": "Bác thích điều gì nhất khi ở trong vườn?"},
-        {"theme": "outdoors", "picture": "tulip", "prompt": "Bác thích hoa màu gì nhất?"},
-        {"theme": "outdoors", "picture": "potted-plant", "prompt": "Bác có thích để cây xanh trong nhà không?"},
-        {"theme": "outdoors", "picture": "sun", "prompt": "Một ngày nắng đẹp, bác muốn đi đâu?"},
-        {"theme": "animals", "picture": "dog", "prompt": "Bác kể cho con nghe về một chú chó mà bác quen nhé."},
-        {"theme": "animals", "picture": "cat", "prompt": "Bác thích mèo hay chó hơn? Bác thích ở chúng điều gì?"},
-        {"theme": "animals", "picture": "bird", "prompt": "Quanh nhà bác hay nghe tiếng chim gì?"},
-        {"theme": "animals", "picture": "fish", "prompt": "Bác có thích đi câu cá hay nuôi cá cảnh không?"},
-        {"theme": "animals", "picture": "butterfly", "prompt": "Con vật nào bác thấy đẹp nhất?"},
-        {"theme": "travel", "picture": "car", "prompt": "Bác kể cho con nghe về một chiếc xe mà bác thích nhé."},
-        {"theme": "travel", "picture": "sailboat", "prompt": "Bác thích một ngày ở biển hay một ngày trên núi hơn?"},
-        {"theme": "travel", "picture": "bicycle", "prompt": "Nếu được đạp xe một vòng, bác muốn đi đâu?"},
-        {"theme": "travel", "picture": "balloon", "prompt": "Nếu được bay qua bất kỳ nơi nào, bác muốn ngắm nơi nào?"},
-        {"theme": "travel", "picture": "lighthouse", "prompt": "Bác kể cho con nghe về một chuyến đi mà bác thích nhé."},
-        {"theme": "work", "picture": "key", "prompt": "Bác thích làm công việc gì nhất?"},
-        {"theme": "work", "picture": "watering-can", "prompt": "Có sở thích nào bác làm hàng giờ cũng không chán?"},
-        {"theme": "work", "picture": "bread", "prompt": "Món gì bác nấu hay làm khéo nhất?"},
-        {"theme": "work", "picture": "house", "prompt": "Bác muốn khuyên một người trẻ mới đi làm điều gì?"},
-        {"theme": "music", "picture": "balloon", "prompt": "Bác thích nghe dân ca, cải lương hay nhạc trữ tình?"},
-        {"theme": "music", "picture": "cake", "prompt": "Theo bác, một bữa tiệc vui cần có những gì?"},
-        {"theme": "music", "picture": "lamp", "prompt": "Bác thích nghe ca sĩ nào hát?"},
-        {"theme": "music", "picture": "armchair", "prompt": "Bộ phim hay chương trình nào bác thích xem lại?"},
-        {"theme": "seasons", "picture": "sun", "prompt": "Bác thích điều gì nhất ở mùa hè?"},
-        {"theme": "seasons", "picture": "tree", "prompt": "Mùa thu, bác thích điều gì?"},
-        {"theme": "seasons", "picture": "moon", "prompt": "Tết Trung thu, bác thích gì nhất: bánh nướng, bánh dẻo hay đèn ông sao?"},
-        {"theme": "seasons", "picture": "tulip", "prompt": "Bác thích điều gì nhất khi mùa xuân về?"},
-        {"theme": "seasons", "picture": "umbrella", "prompt": "Trời nắng, trời mưa hay trời se lạnh, bác thích kiểu nào hơn?"},
-        {"theme": "seasons", "picture": "potted-plant", "prompt": "Ngày Tết, bác thích nhất việc gì: gói bánh chưng, đi chợ hoa hay đi chúc Tết?"}
+        {
+          "theme": "food",
+          "picture": "bread",
+          "prompt": "Mùi nào trong bếp bạn thích nhất?"
+        },
+        {
+          "theme": "food",
+          "picture": "cake",
+          "prompt": "Bạn sẽ chọn loại bánh nào cho một dịp vui?"
+        },
+        {
+          "theme": "food",
+          "picture": "apple",
+          "prompt": "Hãy kể cho tôi nghe về món bánh trái cây hoặc món tráng miệng bạn yêu thích."
+        },
+        {
+          "theme": "food",
+          "picture": "teacup",
+          "prompt": "Bạn thích uống trà hay cà phê kiểu nào?"
+        },
+        {
+          "theme": "food",
+          "picture": "frying-pan",
+          "prompt": "Điều gì làm nên một bữa sáng thật ngon?"
+        },
+        {
+          "theme": "food",
+          "picture": "strawberry",
+          "prompt": "Bạn đã bao giờ hái trái cây ngay từ cây chưa?"
+        },
+        {
+          "theme": "food",
+          "picture": "lemon",
+          "prompt": "Ngọt hay chua: bạn thích vị nào hơn?"
+        },
+        {
+          "theme": "food",
+          "picture": "cherries",
+          "prompt": "Món nào có vị của mùa hè đối với bạn?"
+        },
+        {
+          "theme": "home",
+          "picture": "house",
+          "prompt": "Hãy kể cho tôi nghe về ngôi nhà bạn từng thích sống."
+        },
+        {
+          "theme": "home",
+          "picture": "armchair",
+          "prompt": "Chỗ nào là nơi bạn thích ngồi nghỉ ngơi nhất?"
+        },
+        {
+          "theme": "home",
+          "picture": "lamp",
+          "prompt": "Bạn thích làm gì vào một buổi tối yên tĩnh?"
+        },
+        {
+          "theme": "home",
+          "picture": "key",
+          "prompt": "Bạn sẽ giữ món đồ quý nào trong một chiếc hộp đặc biệt?"
+        },
+        {
+          "theme": "home",
+          "picture": "kettle",
+          "prompt": "Bạn sẽ mời ai đến nhà uống một tách trà?"
+        },
+        {
+          "theme": "home",
+          "picture": "umbrella",
+          "prompt": "Bạn thích làm gì vào ngày mưa?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sunflower",
+          "prompt": "Bạn sẽ trồng những loài hoa nào trong vườn?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tree",
+          "prompt": "Hãy kể cho tôi nghe về một cái cây hoặc công viên bạn thích."
+        },
+        {
+          "theme": "outdoors",
+          "picture": "watering-can",
+          "prompt": "Điều gì thú vị nhất khi ở trong vườn?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tulip",
+          "prompt": "Bạn thích hoa màu gì nhất?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "potted-plant",
+          "prompt": "Bạn có thích trồng cây trong nhà không?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sun",
+          "prompt": "Với bạn, một ngày nắng đẹp lý tưởng là như thế nào?"
+        },
+        {
+          "theme": "animals",
+          "picture": "dog",
+          "prompt": "Hãy kể cho tôi nghe về một chú chó mà bạn từng biết."
+        },
+        {
+          "theme": "animals",
+          "picture": "cat",
+          "prompt": "Mèo hay chó, hay không loài nào? Bạn thích điều gì ở chúng?"
+        },
+        {
+          "theme": "animals",
+          "picture": "bird",
+          "prompt": "Bên ngoài, bạn thấy hoặc nghe thấy những loài chim nào?"
+        },
+        {
+          "theme": "animals",
+          "picture": "fish",
+          "prompt": "Bạn đã bao giờ đi câu cá, hoặc nuôi một bể cá chưa?"
+        },
+        {
+          "theme": "animals",
+          "picture": "butterfly",
+          "prompt": "Con vật đẹp nhất mà bạn từng thấy là con nào?"
+        },
+        {
+          "theme": "travel",
+          "picture": "car",
+          "prompt": "Hãy kể cho tôi nghe về một chiếc xe bạn từng thích."
+        },
+        {
+          "theme": "travel",
+          "picture": "sailboat",
+          "prompt": "Bạn thích dành một ngày ở biển hay ở vùng núi hơn?"
+        },
+        {
+          "theme": "travel",
+          "picture": "bicycle",
+          "prompt": "Bạn muốn đi chơi bằng xe đến nơi nào?"
+        },
+        {
+          "theme": "travel",
+          "picture": "balloon",
+          "prompt": "Nếu bạn có thể bay qua bất kỳ nơi nào, bạn sẽ chọn nơi nào?"
+        },
+        {
+          "theme": "travel",
+          "picture": "lighthouse",
+          "prompt": "Bạn từng thích chuyến đi nào?"
+        },
+        {
+          "theme": "work",
+          "picture": "key",
+          "prompt": "Bạn đã thích làm công việc nào?"
+        },
+        {
+          "theme": "work",
+          "picture": "watering-can",
+          "prompt": "Sở thích nào có thể khiến bạn chăm chú cả giờ đồng hồ?"
+        },
+        {
+          "theme": "work",
+          "picture": "bread",
+          "prompt": "Bạn từng nổi tiếng nhờ làm hoặc sửa thứ gì?"
+        },
+        {
+          "theme": "work",
+          "picture": "house",
+          "prompt": "Bạn sẽ khuyên một người trẻ mới đi làm điều gì?"
+        },
+        {
+          "theme": "music",
+          "picture": "balloon",
+          "prompt": "Loại nhạc nào khiến bạn muốn gõ nhịp bằng chân?"
+        },
+        {
+          "theme": "music",
+          "picture": "cake",
+          "prompt": "Điều gì làm nên một bữa tiệc thật vui?"
+        },
+        {
+          "theme": "music",
+          "picture": "lamp",
+          "prompt": "Ca sĩ nào bạn thích nghe?"
+        },
+        {
+          "theme": "music",
+          "picture": "armchair",
+          "prompt": "Bộ phim hoặc chương trình truyền hình nào bạn thích xem lại?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "sun",
+          "prompt": "Bạn thích nhất điều gì ở mùa hè?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tree",
+          "prompt": "Bạn thích điều gì ở mùa thu?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "moon",
+          "prompt": "Có việc gì ấm cúng để làm vào một buổi tối mùa đông?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tulip",
+          "prompt": "Với bạn, những dấu hiệu đầu tiên của mùa xuân là gì?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "umbrella",
+          "prompt": "Tuyết, mưa hay nắng: bạn thích cái nào hơn?"
+        }
       ]
     },
     "coloring": {
@@ -620,16 +1561,36 @@
       "themes": {
         "kitchen-garden": {
           "label": "Nhà bếp và khu vườn",
-          "baskets": ["Trong bếp", "Ngoài vườn"]
+          "baskets": [
+            "Trong bếp",
+            "Ngoài vườn"
+          ]
         },
         "fruit-animals": {
           "label": "Trái cây và con vật",
-          "baskets": ["Trái cây", "Con vật"]
+          "baskets": [
+            "Trái cây",
+            "Con vật"
+          ]
         },
         "home-travel": {
           "label": "Nhà cửa và du lịch",
-          "baskets": ["Ở nhà", "Đi ra ngoài"]
+          "baskets": [
+            "Ở nhà",
+            "Đi ra ngoài"
+          ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Trái cây",
+        "animals": "Động vật",
+        "travel": "Các phương tiện đi lại",
+        "flowers": "Hoa",
+        "hot-drinks": "Những thứ dùng cho đồ uống nóng",
+        "weather": "Các kiểu thời tiết",
+        "baked": "Những món nướng trong lò"
       }
     }
   }

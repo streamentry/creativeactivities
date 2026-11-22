@@ -5,6 +5,13 @@
       "stopReading": "Okamagy saklaň",
       "region": "Oýun",
       "restart": "Täzeden başlaň",
+      "rest": "Häzirlik üçin dynç alyň",
+      "restingTitle": "Dynç alynýar",
+      "restingText": "Näçe wagt gerek bolsa, şonça dynç alyň. Siziň ýeriňiz şu sahypada saklanýar.",
+      "resume": "Dowam ediň",
+      "placeText": "Soňky gezek ýarymda togtadyňyz. Şol ýerden dowam ediň ýa-da täzeden başlaň.",
+      "placeResume": "Dowam ediň",
+      "placeFresh": "Täzeden başlaň",
       "soundOn": "Ýumşak sesler açyk",
       "soundOff": "Ýumşak sesler öçürilen",
       "done": "Häzirlik ýeterlik",
@@ -43,7 +50,19 @@
       "viewShowing": "Suratlar görkezilýär",
       "viewHidden": "Gizlin suratlar",
       "playAgain": "Täze suratlar bilen ýene oýnaň",
-      "talk": "Suratlar hakda bilelikde gürrüň ediň"
+      "talk": "Suratlar hakda bilelikde gürrüň ediň",
+      "modeLegend": "Haýsy suratlar",
+      "modePlay": "Islendik suratlar",
+      "modeDaily": "Şu günki kartoçka",
+      "dayLegend": "Haýsy gün",
+      "dayHelp": "Hemme adam şol bir günde şol bir suratlary alýar. Öňki günleriň hemmesi hem şu ýerde, we bir günü geçirmek hiç zat töletmeýär.",
+      "guidanceDaily": "Şu günki kartoçkada dört jübüt bar. Bir suraty basyň, soňra oňa meňzeş suraty basyň.",
+      "restartDaily": "Bu kartoçkany täzeden başlaň",
+      "copy": "Bu setiri göçüriň",
+      "copied": "Göçürildi. Hiç ýere iberilmeýär.",
+      "calendarTitle": "Şu günki kartoçkalar, {month}",
+      "calendarHelp": "Her gün hemme adam üçin şol dört surat bar. Hiç zat hasaplanmaýar, hiç bir gün geçirilen diýip belgilenmeýär.",
+      "calendarVersion": "Wersiýa {date}. Şol bir günde hemme adam üçin suratlar birmeňzeş."
     },
     "choose": {
       "countLegend": "Näçe surat",
@@ -62,6 +81,635 @@
       "shadowAlt": "Deňeşdirmeli kölege",
       "foundAlt": "{name|lower} kölegesi"
     },
+    "fourTogether": {
+      "hintLegend": "Maslahatlar",
+      "hintOn": "Pauzadan soň maslahat",
+      "hintOff": "Maslahat ýok",
+      "guidance": "Bile degişli {n} suraty tapyň we olaryň her birini basyň.",
+      "countLegend": "Näçe surat",
+      "count": "{n} surat",
+      "found": "Hawa, {name|lower} şu topara degişli.",
+      "elsewhere": "{name|lower} başga zat bilen degişli. Wagtyňyzy alyň.",
+      "hint": "Maslahat: {theme|lower} gözläň.",
+      "together": "Bular bile degişli: {theme}.",
+      "shown": "Mana topar: {theme}.",
+      "groupName": "Bile: {theme}",
+      "show": "Topary görkezmek",
+      "next": "Başga toplum"
+    },
+    "oddOneOut": {
+      "hintLegend": "Maslahatlar",
+      "hintOn": "Pauzadan soň maslahat",
+      "hintOff": "Maslahat ýok",
+      "guidance": "Beýlekiler bilen degişli bolmadyk suraty tapyň we basyň.",
+      "countLegend": "Näçe surat",
+      "count": "{n} surat",
+      "belongs": "{name|lower} beýlekiler bilen degişli. Wagtyňyzy alyň.",
+      "found": "Hawa, {name|lower} artykmaç. Beýlekiler: {theme|lower}.",
+      "shown": "Mana ol: {name|lower}. Beýlekiler: {theme|lower}.",
+      "hint": "Maslahat: bularyň {n}-si {theme|lower}.",
+      "others": "Beýlekiler: {theme}",
+      "show": "Maňa görkeziň",
+      "next": "Başga toplum"
+    },
+    "seatedToss": {
+      "guidance": "Stol başynda oturyň we nobatma-nobat ullakan nyşana ýumşak haltajyk zyňyň. Hasaby kagyzda bile saklaň.",
+      "stepsHeading": "Nähili geçýär",
+      "steps": [
+        "Nyşanany we hasap kagyzyny çap ediň-de, stoluň üstünde aranyzda ýaýyň.",
+        "Rahat oturyň, her biriňiz bir tarapda. Nobatma-nobat bir ýuwaş zyňmak ediň, ýa-da islemeseňiz geçiň.",
+        "Zyňma halka giren wagty, zyňan adam öz sütünindäki şol halka degişli setirde bir gutujygy belläp goýýar.",
+        "Togtanyňyzda, islese, belgilere bile seredip biliňiz. Hiç kim hiç zady goşmaly däl.",
+        "Kimdir taýýar bolan badyna togtaň."
+      ],
+      "safetyHeading": "Howpsuzlyk",
+      "safetyLine": "Diňe ýüzi dikilip ýapylan ýa-da dolandyrylan jorap ýaly haltajygy ulanyň, oturyň, hiç wagt ýüze zyňmaň we ýakynda uly adam bolsun. Kiçijik bölekler boğulmak howpy döredýär.",
+      "flags": [
+        "3 ýaşdan kiçi çagalar üçin däl: kiçijik bölekler",
+        "Agzyňyzdan uzak saklaň"
+      ],
+      "safety": [
+        "Ýüzi dikilip ýapylan haltajyk saýlaň ýa-da arassa jorabyň ujuny dolap ulanyň. Ilki bilen deşiklerini ýa-da gowşak dikişlerini barlaň, doldurgy çykmasyn.",
+        "Noşat, tüwi we beýleki kiçijik doldurgylar boğulmak howpy döredýär. Olary kiçi çagalardan we zat agzyna salýanlardan uzak saklaň.",
+        "Zat agza salynmagy ähtimal bolsa, elüzegide bolyň we gözegçilik ediň.",
+        "Oturyň. Nyşana stolda ýumşak we pes zyňyň, hiç wagt ýüze däl."
+      ],
+      "previewLabel": "Çap edilen kagyz: üç halkaly nyşana, daşyndan içine tarap Ýakyn, Orta we Uzak diýlip atlandyrylan, her biriňiz üçin sütün we her halka üçin boş gutujyklar setiri bolan hasap.",
+      "sheetHow": "Kagyzy aranyzda ýaýyň. Zyňma halka giren wagty, öz sütüniňizde şol halkanyň setirindäki gutujygy belläň.",
+      "rings": [
+        "Ýakyn",
+        "Orta",
+        "Uzak"
+      ],
+      "people": [
+        "Birinji adam",
+        "Ikinji adam"
+      ],
+      "ringHeading": "Halka",
+      "print": "Nyşanany we hasap kagyzyny çap ediň"
+    },
+    "seasonalPack": {
+      "guidance": "Aý saýlaň, onuň üç kagyz tapmacasyny çap ediň, soňra birini, ikisini ýa-da üçüsini bile ediň.",
+      "monthLegend": "Aý saýlaň",
+      "months": [
+        "Ýanwar",
+        "Fewral",
+        "Mart",
+        "Aprel",
+        "Maý",
+        "Iýun",
+        "Iýul",
+        "Awgust",
+        "Sentýabr",
+        "Oktýabr",
+        "Noýabr",
+        "Dekabr"
+      ],
+      "monthNote": "Her aýyň öz suratlary bar. Sahypa şu aýda açylýar, islendik başga aýy saýlap bilersiňiz.",
+      "restDay": "Şu gün dynç günüdir",
+      "restLine": "Şu gün tapmaça ýok. Dynç gün hem gowy gündür.",
+      "previewHeading": "Üç tapmaça",
+      "puzzles": {
+        "pairs": {
+          "title": "Jübütleri gabat getiriň",
+          "how": "Ýokarky setirdäki her suratdan aşaky setirde şol bir surata çyzyk çekiň.",
+          "describe": "Şol bir dört suratdan iki setir, tertibi başgaça."
+        },
+        "different": {
+          "title": "Haýsy biri başgaça?",
+          "how": "Beýleki üçüsinden tapawutly suraty töwerekläň.",
+          "describe": "Dört suratdan bir setir. Üçüsi birmeňzeş, biri tapawutly."
+        },
+        "color": {
+          "title": "Reňk beriň",
+          "how": "Suraty islediğiňiz ýaly reňkläň, reňkli pastel ýa-da karandaş bilen.",
+          "describe": "Reňk bermek üçin bir uly surat."
+        }
+      },
+      "print": "Şu aýyň toplumyny çap ediň",
+      "sheetHow": "Bir sahypa çap ediň. Üç tapmacanyň birini, ikisini ýa-da üçüsini islendik tertipde ediň.",
+      "printFooter": "Birini, ikisini ýa-da üçüsini ediň. Islän wagtyňyz togtaň."
+    },
+    "decorateACard": {
+      "guidance": "Bir wakany saýlaň, soňra kartoçkany reňkli pastel ýa-da galam bilen bile bezäň. Dogry kartoçka ýok.",
+      "occasionLegend": "Wakany saýlaň",
+      "occasions": {
+        "birthday": {
+          "label": "Doglan gün",
+          "words": "Doglan güniňiz gutly bolsun"
+        },
+        "thank-you": {
+          "label": "Minnetdarlyk",
+          "words": "Sag boluň"
+        },
+        "thinking-of-you": {
+          "label": "Size pikir edýärin",
+          "words": "Size pikir edýärin"
+        },
+        "new-season": {
+          "label": "Täze möwsüm",
+          "words": "Täze möwsüm"
+        },
+        "just-because": {
+          "label": "Sebäpsiz",
+          "words": "Sebäpsiz"
+        }
+      },
+      "stepsHeading": "Bile nähili bezemeli",
+      "steps": {
+        "fold": "Kartoçkany çap ediň we çyzykly çyzyk boýunça ortasyndan ikä büküň, öňki tarapy daşarda bolsun.",
+        "front": "Bir adam öňki tarapy, sözleriň daşyny bezeýär.",
+        "inside": "Beýleki adam arka tarapy bezeýär, ýa-da bir tarapda nobatma-nobat işleýärsiňiz.",
+        "message": "Bile habar ýazyň. Bir adam ýazyp biler, beýlekisi sözleri aýdyp biler.",
+        "stop": "Islän wagtyňyz togtaň. Dogry kartoçka ýok, ýönekeý kartoçka hem şonça gowy."
+      },
+      "materials": "Reňkli pastel, reňkli karandaş ýa-da filt-tip galamlaryny ulanyň. Kesmek, ýelmemek ýa-da ýapyşdyrmak gerek däl.",
+      "previewLabel": "Ortasyndan büklen kartoçkanyň görnüşi. Öňki tarapynda {words} ýazylan, ýapraklardan we ýyldyzlardan ýönekeý çarçuwa bar. Arka tarapynda habar üçin setirler we Kimden üçin setir bar.",
+      "from": "Kimden",
+      "sheetHow": "Kartoçkany dik çyzgy boýunça ikä büküň, öňki tarapy daşarda bolsun. Habary kartoçkanyň yzky tarapyna ýazyň.",
+      "rulesHeading": "Iki adam üçin",
+      "sheetRules": [
+        "Nobatlaşyň ýa-da işi bölüşiň: biri öňki tarapy, beýlekisi yzky tarapy bezesin.",
+        "Habary bilelikde ýazyň, ýa-da biri beýlekisiniň aýdanyny ýazsyn.",
+        "Islendik kim islän wagty durup biler. Dogry kartoçka ýok."
+      ],
+      "print": "Kartoçkany çap ediň"
+    },
+    "storyDice": {
+      "guidance": "Suratlara serediň we olary ulanyp, islendik tertipde hekaýa aýdyň. Dogry hekaýa ýok.",
+      "countLegend": "Zarlaryň sany",
+      "count": "{n} zar",
+      "roll": "Ýene zar atyň",
+      "pass": "Geç",
+      "passed": "Geçmek hem bolýar. Indiki adam başlap biler, ýa-da siz ýene zar atyp bilersiňiz.",
+      "rolled": "Täze suratlar: {names}.",
+      "tapped": "{name}. Muny bilen ýa-da başga islendik biri bilen başlaň."
+    },
+    "wordPicture": {
+      "guidance": "Suratlaryň birini basyň, soňra oňa at berýän sözi basyň. Ýa-da bir sözi basyň, soňra onuň suratyny basyň.",
+      "countLegend": "Suratlaryň sany",
+      "count": "{n} surat",
+      "picturesGroup": "Suratlar",
+      "wordsGroup": "Sözler",
+      "readWord": "Ýokary sesli okaň: {name}",
+      "next": "Täze suratlar",
+      "putBack": "Yzyna goýuň",
+      "pickWord": "Indi oňa degişli sözi basyň.",
+      "pickPicture": "Indi oňa degişli suraty basyň.",
+      "fit": "Hawa, bu söz {name|lower} suratyna laýyk gelýär.",
+      "newSet": "Mana täze suratlaryň toplumy.",
+      "restarted": "Başyna dolandyk. Ähli suratlar we sözler ýene-de erkin.",
+      "restored": "Yzyna goýuldy. Laýyk jübütler ýene görkezilýär.",
+      "all": "Her sözüň öz suraty bar."
+    },
+    "colorMatch": {
+      "guidance": "Reňke we onuň adyna serediň, soňra şol reňkdäki her suraty basyň.",
+      "target": "Reňk: {color|lower}. Şol reňkli ähli suratlary basyň.",
+      "countLegend": "Suratlaryň sany",
+      "count": "{n} surat",
+      "found": "Hawa, {name|lower} reňki: {color|lower}.",
+      "named": "{name|lower} reňki: {color|lower}.",
+      "all": "Şu {color|lower} suratlaryň hemmesi şulardyr.",
+      "shown": "Mana {color|lower} suratlar.",
+      "show": "Görkezip beriň",
+      "next": "Başga reňk",
+      "names": {
+        "red": "Gyzyl",
+        "orange": "Narynç",
+        "yellow": "Sary",
+        "green": "Ýaşyl",
+        "blue": "Gök"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Çepdäki ýarym bölegi basyň, soňra oňa laýyk gelýän sagdaky ýarym bölegi basyň.",
+      "countLegend": "Suratlaryň sany",
+      "count": "{n} surat",
+      "leftGroup": "Çep ýarymlar",
+      "rightGroup": "Sag ýarymlar",
+      "left": "{name|lower} suratynyň çep ýarymy",
+      "right": "{name|lower} suratynyň sag ýarymy",
+      "joined": "Birleşdirildi",
+      "pickRight": "Indi oňa laýyk sagdaky ýarym bölegi basyň.",
+      "pickLeft": "Indi oňa laýyk çepdäki ýarym bölegi basyň.",
+      "fit": "Hawa, şu iki bölek {name|lower} suratyny emele getirýär.",
+      "apart": "Bu iki bölek bir-birine gelişmeýär. Başgasyny synanyşyň.",
+      "all": "Her surat bitin.",
+      "shown": "Mana suratlar, birleşdirilen.",
+      "show": "Görkezip beriň",
+      "next": "Başga toplum"
+    },
+    "colorByNumber": {
+      "guidance": "Açarlykdan reňk saýlaň, soňra kwadraty şol reňk bilen dolduryň. Islendik reňk bolýar.",
+      "sizeLegend": "Tor ölçegi",
+      "size": "{n} x {n}",
+      "keyLegend": "Reňkler",
+      "colors": [
+        "Sary",
+        "Narynç",
+        "Ýaşyl",
+        "Benewşe"
+      ],
+      "motifs": {
+        "house": "öý",
+        "flower": "gül",
+        "heart": "ýürek",
+        "tree": "agaç",
+        "boat": "ýelkenli gämi",
+        "pot-plant": "küpde ösýän ösümlik"
+      },
+      "region": "Surat torlary, {n} x {n}. Ekran dar bolsa, ýana süýşýär.",
+      "cell": "San {number}, setir {row}, sütün {column}, {color}",
+      "empty": "boş",
+      "chose": "{name} saýlandy. Doldurmak üçin kwadrata basyň.",
+      "painted": "{name} setir {row}, sütün {column}.",
+      "sheet": "Her kwadrat öz sanynyň reňki bilen doldy. Kagyzdaky surat: {name}.",
+      "own": "Ähli kwadratlar doldy. Bu siziň öz suratyňyz.",
+      "fillAll": "Sanlar boýunça dolduryň",
+      "filledAll": "Indi boş kwadratlaryň hemmesi öz sanynyň reňki bilen doldy.",
+      "clear": "Arassalaň",
+      "cleared": "Tor arassa.",
+      "next": "Başga surat",
+      "fresh": "Mana boýamak üçin başga surat."
+    },
+    "patternMaker": {
+      "guidance": "Reňkini üýtgetmek üçin kwadrata basyň. Siziň nagşyňyz onuň ýanynda ösýär. Ýasan zadyňyz ýadda saklanmaýar we iberilmeýär.",
+      "sizeLegend": "Plitkanyň ölçegi",
+      "size": "{n} x {n}",
+      "keyLegend": "Reňkler, basylanda üýtgeýän tertibinde",
+      "colors": [
+        "Sary",
+        "Narynç",
+        "Ýaşyl",
+        "Benewşe"
+      ],
+      "tileLabel": "Siziň plitkaňyz",
+      "region": "Siziň plitkaňyz, {n} x {n}. Ekran dar bolsa, ýana süýşýär.",
+      "patternLabel": "Siziň nagşyňyz",
+      "pattern": "Siziň nagşyňyz: plitkaňyz {n} gezek sagda we {n} gezek aşakda gaýtalanýar.",
+      "square": "Setir {row}, sütün {column}, {color}",
+      "changed": "Setir {row}, sütün {column} indi {color}.",
+      "cleared": "Plitka arassa. Ony yzyna goýup bilersiňiz.",
+      "surprise": "Meni geň galdyryň",
+      "surprised": "Mana täze plitka. Köne plitkany yzyna goýup bilersiňiz.",
+      "putBack": "Yzyna goýuň",
+      "restored": "Plitkaňyz öňki ýaly yzyna geldi.",
+      "print": "Nagşymy çap ediň",
+      "sheetTitle": "Meniň nagşym"
+    },
+    "buildTogether": {
+      "guidance": "Boş ýere bölek goýmak üçin nobatlaşyň. Her biriňiziň öz reňkiňiz bar. Ýasan zadyňyz ýadda saklanmaýar we iberilmeýär.",
+      "sizeLegend": "Tor ölçegi",
+      "size": "{n} x {n}",
+      "people": [
+        "Birinji adam",
+        "Ikinji adam"
+      ],
+      "colorLegend": "{person} reňki",
+      "colors": [
+        "Sary",
+        "Narynç",
+        "Ýaşyl",
+        "Benewşe"
+      ],
+      "inUse": "Ulanylýar",
+      "turn": "Nobat siziň, {person|lower}",
+      "yourColor": "Siziň reňkiňiz {color|lower}.",
+      "built": "Bilelikde ýasaldy. Bu ikiňiziň ýasan suratyňyz.",
+      "gridLabel": "Umumy tor",
+      "region": "Umumy tor, {n} x {n}. Ekran dar bolsa, ýana süýşýär.",
+      "cellEmpty": "Setir {row}, sütün {column}, boş",
+      "cellFilled": "Setir {row}, sütün {column}, {color}, {person|lower} goýdy",
+      "placed": "Setir {row}, sütün {column} indi {color}. Nobat siziň, {next|lower}.",
+      "placedLast": "Setir {row}, sütün {column} indi {color}. Bilelikde ýasaldy.",
+      "taken": "Setir {row}, sütün {column} eýýäm bölege eýe. Boş ýer saýlaň.",
+      "pass": "Geç",
+      "passed": "Geçmek hem bolýar. Nobat siziň, {person|lower}.",
+      "takeBack": "Soňky bölegi yzyna alyň",
+      "takeBackPass": "Geçmegi yzyna alyň",
+      "tookBack": "Bölek yzyna alyndy. Nobat siziň, {person|lower}.",
+      "tookBackPass": "Geçmek yzyna alyndy. Nobat siziň, {person|lower}.",
+      "colorChanged": "{person} reňki indi: {color|lower}.",
+      "restarted": "Tor boş. Nobat siziň, {person|lower}.",
+      "print": "Torı çap ediň",
+      "sheetTitle": "Bilelikde ýasaň",
+      "sheetHelp": "Nobatlaşyň. Boş kwadratda her kim öz galamy bilen öz şekilini çyzýar.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Bölegi basyň, soňra suratdaky bölegiň gidýän ýerini basyň. Ýasan zadyňyz ýadda saklanmaýar we iberilmeýär.",
+      "hints": "Maslahat çyzyklaryny görkezmek",
+      "pictureLine": "Bu bir {picture}.",
+      "pictures": {
+        "house": "öý",
+        "boat": "gämi",
+        "tree": "agaç",
+        "fish": "balyk",
+        "cat": "pişik",
+        "rocket": "raketa"
+      },
+      "outlineLabel": "Kontur: {picture}. Saýlan bölegi goýmak üçin boş ýere basyň.",
+      "trayHeading": "Bölekler",
+      "pieces": {
+        "large-triangle": "Uly üçburçluk",
+        "small-triangle": "Kiçi üçburçluk",
+        "square": "Kwadrat",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Gönüburçluk"
+      },
+      "shapes": {
+        "large-triangle": "uly üçburçluk",
+        "small-triangle": "kiçi üçburçluk",
+        "square": "kwadrat",
+        "parallelogram": "parallelogram",
+        "rectangle": "gönüburçluk"
+      },
+      "chosenLabel": "Saýlandy",
+      "spaceEmpty": "Ýer {n}, {shape}, boş",
+      "spaceFilled": "Ýer {n}, {shape}, öz bölegi bar. Bölegi yzyna almak üçin basyň.",
+      "chosen": "{piece} saýlandy. Indi suratdaky ýere basyň.",
+      "unchosen": "Bölek indi saýlanok.",
+      "placed": "Bölek {n}-nji ýerde.",
+      "complete": "{picture} tamamlandy.",
+      "different": "Bu bölek bu ýeriň şekilinden tapawutly. Başga ýere synap görüň.",
+      "needPiece": "Ilki tepsiden bölek saýlaň.",
+      "filled": "Bu ýerde eýýäm bölek bar. Bölegi yzyna almak üçin şoňa basyň.",
+      "tookBack": "Bölek ýene tepsä gaýtdy.",
+      "cleared": "Bölekler ýene tepsä gaýtdy. Pikiriňiz üýtgese, ony ýene ýerine goýuň.",
+      "restored": "Bölekler ýene suratdadyr.",
+      "next": "Bu {picture}.",
+      "putBack": "Ýerine goýuň",
+      "another": "Başga şekil",
+      "print": "Bu şekili çap ediň",
+      "sheetTitle": "Rahat şekiller",
+      "sheetHow": "Bölekleri reňkläň ýa-da çyzgynyň çägine laýyklap kesiň. Kesmegi uly adam edip biler.",
+      "sheetPieces": "Bölekler çyzgynyň ölçegi bilen deň"
+    },
+    "picnicPlanner": {
+      "guidance": "Suratlary basyp piknik sebedine goýuň, sebetdäki suratlary basyp aýyryň. Sebet alty zady saklaýar.",
+      "guidancePlay": "Birmeňzeş iki suraty basyň. Suratlar görnüp durar, hiç zat wagt bilen ölçenmeýär.",
+      "basketHeading": "Biziň sebedimiz",
+      "basketLabel": "Piknik sebedi",
+      "takeOut": "{picture} sebetden aýyryň",
+      "inBasket": "Sebetde",
+      "foodHeading": "Iýmit",
+      "outingsHeading": "Gezelenç çäreleri",
+      "added": "{picture} sebede goýuldy.",
+      "removed": "{picture} sebetden aýryldy.",
+      "already": "{picture} eýýäm sebetde. Aýyrmak üçin ony şol ýerde basyň.",
+      "full": "Sebet doldy. Ýer açmak üçin bir zady aýyryň.",
+      "summary": "Pikniğimiz: {list}.",
+      "summaryNone": "Sebetde heniz hiç zat ýok.",
+      "and": "we",
+      "play": "Pikniğimiz bilen oýnaýyn",
+      "needTwo": "Ilki azyndan iki zat saýlaň.",
+      "playAgain": "Ýene oýnaň",
+      "back": "Pikniğe gaýdyň",
+      "print": "Piknik sanawymyzy çap ediň",
+      "cleared": "Sebet boş.",
+      "notice": "Bu gepleşmek üçin bir meýilnama. Hiç zat wagt bilen ölçenmeýär, baha berilmeýär ýa-da saklanmaýar.",
+      "sheetTitle": "Biziň piknik sanawymyz",
+      "sheetHow": "Her zady gaplanda belläň. Getirmek isleýän beýleki zatlaryňyz üçin boş setirleri ulanyň.",
+      "sheetToPack": "Gaplamaly zatlar"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Kitaby başlamak üçin öz suratlaryňyzdan ikiden on ikä çenli saýlaň.",
+      "guidance": "Sahypalary bilelikde öwüriň, düwmeler ýa-da çep we sag ok düwmeleri bilen. Isleseňiz, surat aşagyna birnäçe söz goşuň. Ýasan zadyňyz saklanmaýar we iberilmeýär.",
+      "lookGuidance": "Her sahypa bilelikde serediň. Gürläp bilersiňiz, ýa-da diňe seredip bilersiňiz.",
+      "intro": "Bu enjamdan ikiden on ikä çenli surat saýlaň. Her surat bilelikde öwrüp bilýän kitabyň bir sahypasy bolar.",
+      "consent": "Öz maşgala suratlaryňyzy ulanyň. Razylyk bildirip bilmeýän adamyň suratyny ulanmazdan ozal, ondan ygtyýar soraň.",
+      "privacy": "Suratlaryňyz şu enjamda galýar. Olar ýüklenmeýär we saklanmaýar.",
+      "choose": "Suratlary saýlaň",
+      "chooseDifferent": "Başga suratlary saýlaň",
+      "backToBook": "Kitaba dolanyň",
+      "backToChoose": "Suratlary saýlamaga dolanyň",
+      "needTwo": "Haýyş, azyndan iki surat saýlaň.",
+      "usingFirst": "Ilkinji {max} surat ulanylýar.",
+      "cleared": "Kitap arassalandy. Täzeden başlamak üçin suratlary saýlaň.",
+      "moved": "{n}-nji sahypa geçirildi.",
+      "pageOf": "{total} sahypanyň {n}-njisi",
+      "lookTogether": "Bilelikde serediň",
+      "leaveLook": "Kitaba dolanyň",
+      "print": "Suratlar kitabyny çap ediň",
+      "clear": "Kitaby arassalaň",
+      "bookLabel": "Maşgala suratlar kitaby",
+      "pagesLabel": "Sahypalary öwüriň",
+      "previous": "Öňki sahypa",
+      "next": "Indiki sahypa",
+      "moveEarlier": "Öňe geçiriň",
+      "moveLater": "Yza geçiriň",
+      "captionLabel": "Isleseňiz, bu sahypa üçin birnäçe söz",
+      "captionHelp": "80 harpa çenli. Düşündirişler diňe bu sahypada saklanýar we ýapylanda ýitýär.",
+      "sheetTitle": "Biziň suratlar kitabymyz",
+      "sheetHow": "Her sahypada bir surat we onuň aşagynda sözler. Sahypalary tertip bilen öwüriň we her biri barada gepleşiň.",
+      "sheetEmpty": "Öz kitabyňyzy çap etmek üçin oýun sahypasynda suratlaryňyzy saýlaň, ýa-da bu boş sahypany çap ediň we çap edilen surat ýelmäň.",
+      "sheetFrame": "Çap edilen suraty şu ýere ýelmäň",
+      "sheetWords": "Bu sahypa üçin birnäçe söz",
+      "skipped": {
+        "one": "{n} faýl biziň ulanyp bilýän surat däl.",
+        "other": "{n} faýl biziň ulanyp bilýän surat däl."
+      }
+    },
+    "quietScene": {
+      "guidance": "Bir wagtda bir suraty serediň. Taýynsyňyz, Indiki ýa-da Öňki düwmesine basyň. Hiç zat özbaşdak hereket etmeýär.",
+      "next": "Indiki surat",
+      "previous": "Öňki surat",
+      "bigPicture": "Uly surat",
+      "showEverything": "Hemmesini görkezüň",
+      "first": "Bu ilkinji surat.",
+      "last": "Bu soňky surat.",
+      "lines": {
+        "sunrise": "Güneş ýeriň üstünden çykýar.",
+        "window-with-birds": "Penjiräniň daşynda guşlar.",
+        "vase-of-flowers": "Stolda gülli bir waza.",
+        "teacup": "Penjiräniň ýanynda bir käse çaý.",
+        "tree": "Bagda duran bir agaç.",
+        "sailboat": "Suwda ýelkenli gämi.",
+        "lighthouse": "Deňziň ýakasynda mayak.",
+        "rainbow": "Ýagyşdan soň gökbogaz.",
+        "moon": "Gijeki gökde aý.",
+        "daisies": "Otda ösen bir topar gündizgi gül.",
+        "rowing-boat": "Sakyn suwda bir gaýyk.",
+        "potted-plant": "Gapda ösýän ýaşyl ösümlik."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Nobatlaşyň. Kesilen şekili basyň, soňra ony goýmak üçin boş ýeri basyň. Ýasan zadyňyz saklanmaýar we iberilmeýär.",
+      "people": [
+        "Birinji adam",
+        "Ikinji adam"
+      ],
+      "marks": [
+        "tegelek",
+        "dörtburç"
+      ],
+      "turn": "Nobat siziň, {person|lower}.",
+      "marked": "Siziň bölekleriňiz {mark} bilen belgilenýär.",
+      "boardLabel": "Umumy tagta",
+      "placeEmpty": "{n}-nji ýer, boş",
+      "placeFilled": "{n}-nji ýer: {picture|lower}, {person|lower} goýdy",
+      "trayHeading": "Kesilen şekiller",
+      "chosenLabel": "Saýlandy",
+      "chosen": "{picture} saýlandy. Indi boş ýeri basyň.",
+      "unchosen": "Kesilen şekil indi saýlanok.",
+      "needCutout": "Ilki kesilen şekili saýlaň, soňra boş ýeri basyň.",
+      "filled": "{n}-nji ýerde eýýäm surat bar. Boş ýer saýlaň.",
+      "placed": "{picture} {n}-nji ýerde. Nobat siziň, {next|lower}.",
+      "full": "Her ýerde surat bar. Üýtgetmek üçin birini yzyna alyň ýa-da täzeden başlaň.",
+      "pass": "Geçmek",
+      "passed": "Geçmek bolar. Nobat siziň, {person|lower}.",
+      "takeBack": "Soňky bölegi yzyna alyň",
+      "takeBackPass": "Geçmegi yzyna alyň",
+      "tookBack": "Bölek yzyna alyndy. Nobat siziň, {person|lower}.",
+      "tookBackPass": "Geçmek yzyna alyndy. Nobat siziň, {person|lower}.",
+      "restarted": "Tagta boş. Nobat siziň, {person|lower}.",
+      "putBack": "Ýerine goýuň",
+      "putBackDone": "Bölekler ýene tagtada.",
+      "another": "Başga suratlar toplumy",
+      "anotherSet": "Tepside kesilen şekilleriň täze toplumy bar. Tagtadaky bölekler öz ýerinde galýar.",
+      "print": "Tagtany çap ediň",
+      "sheetTitle": "Kollaž tagtasy",
+      "sheetHow": "Suratlary kesiň we nobatlaşyp tagtada ýerleşdiriň. Kesmegi uly adam edip biler.",
+      "sheetTray": "Kesmeli suratlar"
+    },
+    "gardenPlanner": {
+      "guidance": "Suraty basyň, soňra ony goýmak üçin bagça ýatagyny basyň. Surat bar ýatagy, hiç zat saýlanmanda, arassalamak üçin basyň.",
+      "bedsLabel": "Bagçanyň ýataklary",
+      "bedEmpty": "{n}-nji ýatak, boş",
+      "bedFilled": "{n}-nji ýatak, {picture|lower}",
+      "plantsHeading": "Ösümlikler",
+      "extrasHeading": "Bagçanyň goşmaça zatlary",
+      "chosenLabel": "Saýlandy",
+      "chosen": "{picture} saýlandy. Indi ýatagy basyň.",
+      "unchosen": "Hiç surat saýlanmady.",
+      "needPicture": "Ilki şekil saýlaň, soňra ýataga basyň.",
+      "planted": "{picture} ýatak {n}-de.",
+      "replaced": "{picture} ýatak {n}-däki şekiliň ornuny aldy.",
+      "cleared": "Ýatak {n} boş. Şekili ýene isleseňiz, ony yzyna goýuň.",
+      "restarted": "Ähli ýataklar boş.",
+      "putBack": "Yzyna goýuň",
+      "putBackDone": "Şekiller ýine öz ýataklarynda.",
+      "summaryHeading": "Meniň bagym",
+      "summary": "Meýilnamaňyzda {list} bar.",
+      "summaryNone": "Entek ýatakda hiç bir şekil ýok.",
+      "and": "we",
+      "print": "Meýilnamany çap ediň",
+      "sheetTitle": "Biziň bag meýilnamamyz",
+      "sheetHow": "Ýataklarda ekranda saýlanan şekiller görkezilýär. Isleseňiz, boş ýataklarda çyzyň.",
+      "sheetNotes": "Bellikler",
+      "notice": "Bu gürleşmek üçin şekil meýilnamasy, ekin boýunça maslahat däl."
+    },
+    "coloringWall": {
+      "guidance": "Şekili we sahypalaryň sanyny saýlaň. Diwary çap ediň; her adam bir ýa-da birnäçe sahypany boýaýar. Hiç zat wagt bilen ölçenmeýär, baha berilmeýär we saklanylmaýar.",
+      "pictureLegend": "Şekil",
+      "sizeLegend": "Sahypalaryň sany",
+      "sizes": {
+        "2x2": "4 sahypa (2 × 2)",
+        "3x2": "6 sahypa (3 × 2)",
+        "3x3": "9 sahypa (3 × 3)"
+      },
+      "previewLabel": "{picture|lower} {n} sahypa bölünen: ini boýunça {across}, boýuna {down}. Her sahypanyň burçunda belgi bar.",
+      "previewCaption": "Sahypa çyzyklary we belgiler çyzylan şekil.",
+      "labelsNote": "Harplar diwaryň boýuna, sanlar ini boýuna gidýär, şonuň üçin A1 çep ýokarky sahypadyr.",
+      "wallHeading": "Diwary nädip ýygnamaly",
+      "steps": [
+        "Ähli sahypalary çap ediň. Birinji sahypada şu ädimler we diwaryň kartasy bar.",
+        "Her adam bir ýa-da birnäçe sahypa alyp boýaýar.",
+        "Reňkler we stiller birmeňzeş bolmaly däl. Her sahypa şol bir şekiliň bölegi.",
+        "Sahypalary belgilerine görä ýaýyň, soňra arkasyndan lenta bilen birikdiriň.",
+        "Diwary hemmeleriň görer ýaly ýerde asyň."
+      ],
+      "mapLabel": "Diwaryň kartasy: aşak {down} hatar, her hatarda {across} sahypa, A1-den {last} çenli belgilenen.",
+      "edgeNote": "Üzük çyzyk her sahypanyň gyrasyny görkezýär. Sahypalary şol çyzyk boýunça gyradan gyra ýaýyň ýa-da biraz üst-üste goýuň.",
+      "pictureLine": "Şekil: {picture}. Bu diwar {n} sahypa: ini boýunça {across}, boýuna {down}.",
+      "print": "Diwary çap ediň"
+    },
+    "findTogether": {
+      "guidance": "Nobatlaşyň. Nobatyňyzda iki kartany açyp, jübüt tapmaga synanyşyň. Jübütleri bilelikde tapyň.",
+      "sizeLegend": "Kartalaryň sany",
+      "size": "{n} karta",
+      "viewLegend": "Nädip oýnamaly",
+      "viewShowing": "Şekiller açyk görnüp durşuna oýnaň",
+      "viewHidden": "Kartalar ters ýüzi bilen",
+      "people": [
+        "Birinji adam",
+        "Ikinji adam"
+      ],
+      "turn": "Nobat: {person}",
+      "turnDone": "Ähli jübütler tapyldy.",
+      "tally": "Bilelikde tapylan jübütler: {n}",
+      "cardNamed": "{name}, karta {n}",
+      "cardFaceDown": "Karta {n}, ters ýüzi bilen",
+      "first": "{name}. Indi ikinji kartany açyň.",
+      "found": "{name}: jübüt, bilelikde tapyldy. Indi {next|lower} nobaty.",
+      "allTogether": "Ähli jübütleri bilelikde tapdyňyz.",
+      "different": "{a} we {b} dürli. Wagtyňyzy alyň, soňra «Olary yzyna öwüriň» düwmesine basyň.",
+      "waiting": "Taýýar bolanyňyzda «Olary yzyna öwüriň» düwmesine basyň. Soňra nobat geçýär.",
+      "turnedBack": "Yzyna öwrüldi. Indi {person|lower} nobaty.",
+      "passed": "Geçmek hem bolar. Indi {person|lower} nobaty.",
+      "turnBack": "Olary yzyna öwüriň",
+      "pass": "Geçmek",
+      "playAgain": "Täzeden oýnaň"
+    },
+    "drawingDuet": {
+      "guidance": "Her gezek bir çyzyk çekip, galamy ýanyna geçiriň. Islendik adam geçip biler. Hiç ýere iberilmeýär. Surat diňe saklasaňyz, bu sahypadan çykýar.",
+      "people": [
+        "Birinji adam",
+        "Ikinji adam"
+      ],
+      "colorLegend": "{person} reňki",
+      "colors": [
+        "Sary",
+        "Narynç",
+        "Ýaşyl",
+        "Binewşe"
+      ],
+      "turn": "{person} nobaty",
+      "penColor": "Galam reňki: {color}.",
+      "canvasLabel": "Bilelikdäki surat, şu wagta çenli {n} çyzyk.",
+      "canvasLabelOne": "Bilelikdäki surat, şu wagta çenli {n} çyzyk.",
+      "keys": "Ok düwmeleri surat üstündäki galam nokadyny hereket etdirýär. Boşluk düwmesi galamy kagyza degirýär ýa-da götürýär.",
+      "penDown": "Galamy kagyza goý",
+      "penUp": "Galamy kagyzdan göter",
+      "pass": "Galamy geçiriň",
+      "passed": "Geçmek hem bolar. Indi {person|lower} nobaty.",
+      "takeBack": "Soňky çyzygymy yzyna al",
+      "tookBack": "{person|lower} soňky çyzygy yzyna alyndy.",
+      "noLine": "{person|lower} üçin yzyna alyjak çyzyk ýok.",
+      "restarted": "Kagyz arassa. Birinji adam nobaty aldy. Niýetiňiz bolmadyk bolsa, yzyna goýuň.",
+      "putBack": "Yzyna goýuň",
+      "restored": "Çyzyklar öňki ýaly yzyna gaýtdy.",
+      "save": "Suraty saklaň",
+      "saved": "Suratyňyz taýýar. Şu enjamda saklamak üçin ýükläp almak baglanyşygyny ulanyň.",
+      "download": "drawing-duet.png ýükläp alyň",
+      "print": "Kagyz görnüşini çap ediň",
+      "sheetTitle": "Bilelikde çyzgy",
+      "paperRules": "Iki adam, bir kagyz, iki galam. Nobat bilen: her kim bir çyzyk ýa-da görnüş çekip, galamy geçiriň. Islendik adam geçip biler. Dogry surat diýen zat ýok."
+    },
+    "colorWash": {
+      "guidance": "Sahypada ýumşak reňk ýaýyň, bir-birden. Durmak üçin ýylmaýy göteriň; islän wagtyňyz duruň. Hiç zat saklanmaýar ýa-da iberilmeýär.",
+      "colorLegend": "Ýaýyljak reňk",
+      "sizeLegend": "Ýylmaýyň ululygy",
+      "colors": [
+        "Sary",
+        "Narynç",
+        "Ýaşyl",
+        "Binewşe"
+      ],
+      "sizes": {
+        "wide": "Giň",
+        "veryWide": "Örän giň"
+      },
+      "color": "Ýaýylýan reňk: {color}.",
+      "brushDown": "Ýylmaýy degir",
+      "brushUp": "Ýylmaýy göter",
+      "keys": "Ok düwmeleri sahypadaky ýylmaý halkasyny hereket etdirýär. Boşluk düwmesi ýylmaýy degirýär ýa-da götürýär.",
+      "canvasLabel": "Ýumşak reňk ýaýylan sahypa",
+      "fresh": "Täze sahypa",
+      "freshMessage": "Täze sahypa.",
+      "putBack": "Yzyna goýuň",
+      "restored": "Sahypa yzyna gaýtdy."
+    },
     "sortTogether": {
       "guidance": "Bir surata basyň, soň ony degişli sebede basyň.",
       "restart": "Täze suratlar",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} «{basket}» sebedine degişli bolup biler. Ony şol sebede basyň.",
       "placed": "{name|lower} «{basket}» sebedinde.",
       "sorted": "Hemmesi tertipleşdirildi. Sebetlere bilelikde serediň ýa-da başga tema saýlaň.",
+      "largerTargets": "Uly nyşanalar",
+      "largerOn": "Uly nyşanalar açyk. Hiç zat süýşürilmedi.",
+      "largerOff": "Uly nyşanalar öçürilen. Hiç zat süýşürilmedi.",
+      "largerOnNewRound": "Uly nyşanalar açyk, iki sebet bilen. Bu ýerde saýlamak üçin täze şekiller bar.",
       "basket": {
         "one": "{basket} sebedi, içinde {count} surat",
         "other": "{basket} sebedi, içinde {count} surat"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Bir bölekden basyň, soň başga bölege basyň. Olar ýerlerini çalşar.",
-      "restart": "Ýene garyşdyryň",
+      "restart": "Mix up again",
       "pictureLegend": "Surat",
       "pictures": {
         "sailboat": "Ýelkenli gaýyk",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Bütin surat: {name}",
       "guideText": "Surat bütin bolanda şeýle görünýär.",
+      "ownChoose": "Öz suratyňyzy ulanyň",
+      "ownChange": "Başga surat saýlaň",
+      "ownBack": "Biziň şekillere gaýdyň",
+      "ownPrivacy": "Suratyňyz şu enjamda galýar. Ol ýüklenmeýär we saklanmaýar.",
+      "ownConsent": "Öz suratlaryňyzy ulanyň. Ýes diýip bilmeýän adamyň suratyny ulanmazdan öň ondan sorag ediň.",
+      "ownWorking": "Suratyňyz taýýarlanýar.",
+      "ownNotUsable": "Bu faýly ulanyp bolmady. JPEG ýa-da PNG ýaly surat faýlyny saýlaň.",
+      "ownAlt": "Siziň suratyňyz",
+      "ownPiece": "Bölek {n}, {place}",
+      "ownWhole": "Suratyňyz ýene bitin boldy. Islän wagtyňyz täzeden garyşdyryň.",
+      "ownSheetTitle": "Suratyňyz böleklerde",
+      "ownSheetHow": "Çyzyklar boýunça kesiň. Böleklerini garyşdyryň, soňra şekil bitin bolýança iki bölegi bir wagtda çalşyryň.",
       "piece": "{place} ýerdäki bölek",
       "pieceInPlace": ", dogry ýerde",
       "piecePickedUp": ", alyndy",
@@ -122,7 +786,7 @@
         "aşaky sag"
       ],
       "done": "Surat ýene bütin boldy. Ýene oýnaň ýa-da dynç alyň.",
-      "playAgain": "Ýene garyşdyryň"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Nakyly bilelikde okaň, soň ony tamamlaýan sözi basyň.",
@@ -190,6 +854,14 @@
       "guidance": "Kartoçkany ses çykaryp okaň. Dogry jogap ýok.",
       "position": "Kartoçka {n}, jemi {total}",
       "themeLegend": "Tema",
+      "showPrompt": "Söhbet ýüzlenmesini görkeziň",
+      "bigPicture": "Topar üçin uly surat",
+      "passNote": "Islendik adam geçip biler.",
+      "groupTitle": "Kartany topar içinde geçirmek",
+      "groupSit": "Hemmeleriň şekili görüp biljek ýerinde töwerek boluň. Kartany tutan adam ýa-da uly surat görkezilýän enjam ilki ýüzlenmäni ses çykaryp okaýar.",
+      "groupPass": "Soňra kartany indiki adama geçiriň. Her kim şekil barada bir söz ýa-da bir jümle aýdyp, geçirýär.",
+      "groupNoSpeech": "Kartany geçirmek hemişe rugsat. Adam hiç zat aýtmazdan geçip biler, we hiç kim sebäbini aýtmaly däl.",
+      "groupEnd": "Tur kartoçka tegelek boýunça bir gezek aýlanyp gutaranda ýa-da topar ýeterlik bolanda gutarýar. Hiç kim ýeňmeýär. Topar islän wagty togtadyp bilersiňiz.",
       "next": "Indiki kartoçka",
       "previous": "Öňki kartoçka",
       "print": "Ähli kartoçkalary çap ediň",
@@ -252,6 +924,20 @@
       "started": "Başlandy. Tegelek ulalanda dem alyň.",
       "stopped": "Durduryldy.",
       "finished": "Bu alty haýal dem boldy. Islän wagtyňyz täzeden başlaň."
+    },
+    "storyChain": {
+      "guidance": "Nobatlaşyň: her kim 1 jümle aýdyp, indiki suraty goşuň.",
+      "passNote": "Jümläňizi ses çykaryp aýdyň. Hiç zat ýazylmaýar we saklanmaýar. Her kim geçip bilýär.",
+      "chainLabel": "Häzirki zynjyr",
+      "item": "Surat {n}: {name}",
+      "add": "Surat goşuň",
+      "fullAdd": "Zynjyr doldy. Täze zynjyr başlaň",
+      "newChain": "Täze zynjyr başlaň",
+      "takeOff": "Soňkusyny aýyryň",
+      "added": "{name|lower} zynjyryň soňunda ýerleşdi.",
+      "removed": "{name|lower} zynjyrdan aýryldy.",
+      "fresh": "Täze zynjyr, {name|lower} bilen başlaýar.",
+      "full": "Zynjyrda 8 surat bar. Ähli hekaýany aýdyň ýa-da täze zynjyr başlaň."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Ýagyşly bulut",
     "snowflake": "Gar tanesi",
     "kite": "Uçurtma",
-    "sunrise": "Gün dogmagy"
+    "sunrise": "Gün dogmagy",
+    "decorated-keepsake-box": "Bezegli ýatlama guty",
+    "painted-plant-pot": "Otly boýalan küýze",
+    "repeating-pattern-sheet": "Gaýtalanýan nagyşly kagyz",
+    "music-drawn-lines": "Saza görä çekilen çyzyklar",
+    "paper-boat-afloat": "Suwda ýüzýän kagyz gämi",
+    "folded-towel-stack": "Büklenen dolamalar üýşmesi",
+    "hand-massage-with-lotion": "Dolamanyň üstünde el, krem bilen",
+    "open-photo-album": "Açyk surat albomy",
+    "button-flower-card": "Kartda düwmeli gül",
+    "blue-torn-paper-collage": "Gök ýyrtylan kagyzdan kolaž",
+    "family-tree-of-hands": "Ellerden çekilen maşgala agajy",
+    "open-greeting-card": "Ýürekli açyk salamlaşyk kartoçkasy",
+    "lavender-sachet": "Lentli lawanda haltajygy",
+    "memory-collage-of-photos": "Maşgala suratlarynyň kolažy",
+    "paper-chain-garland": "Kagyz zynjyr bezegi",
+    "open-songbook-with-notes": "Notaly açyk aýdym kitaby",
+    "photo-postcard-with-stamp": "Markaly suratly otkrytka",
+    "pine-cone-bird-feeder": "Şahadan asylan şam miwesi guş iýmitligi",
+    "playlist-phone-and-card": "Telefon sanawy we aýdym kartoçkasy",
+    "sealed-rice-shaker": "Tüwi doldurylan ýapyk şaklaýjy",
+    "texture-board-with-scraps": "Galyndyly tagta",
+    "painted-garden-stone": "Boýalan bag daşy",
+    "shared-painted-canvas": "Bilelikde boýalan kanwas",
+    "watercolor-washes-sheet": "Kagyzda akware reňkler",
+    "seedling-in-pot": "Küýzede nahallar",
+    "pressed-leaves-in-book": "Kitapda gysylan ýapraklar",
+    "printed-leaves-sheet": "Ýaprak yzlary bilen kagyz",
+    "pinch-pot-clay-bowl": "Barmak bilen ýasalan küýze",
+    "table-sketch-pencil": "Käsäniň galam çyzgysy",
+    "buttons-in-muffin-tin": "Keks kalybynda düwmeler",
+    "family-recipe-book": "Maşgala reseptleri kitaby",
+    "drum-with-beat-marks": "Taýakly dabyl",
+    "torn-paper-flower": "Ýyrtylan kagyz gül mozaikasy",
+    "window-with-birds": "Guşly penjire",
+    "woven-paper-mat": "Örülen kagyz goýluk",
+    "yarn-ball-with-thread": "Ýüp ýumragy",
+    "letter-and-envelope": "Konwertdäki hat"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Daşarda"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Miwe",
+        "animals": "Haýwanlar",
+        "travel": "Syýahat ediş görnüşleri",
+        "flowers": "Güller",
+        "hot-drinks": "Yssy içgi üçin zatlar",
+        "weather": "Howa görnüşleri",
+        "baked": "Peçde bişirilýän zatlar"
       }
     }
   }

@@ -5,6 +5,13 @@
       "stopReading": "Lopeta lukeminen",
       "region": "Peli",
       "restart": "Aloita alusta",
+      "rest": "Pidetään tauko toistaiseksi",
+      "restingTitle": "Tauolla",
+      "restingText": "Ottakaa aikaa niin kauan kuin tarvitsette. Paikkanne säilyy tällä sivulla.",
+      "resume": "Jatketaan",
+      "placeText": "Viime kerralla pysähdyitte kesken. Jatkakaa siitä tai aloittakaa alusta.",
+      "placeResume": "Jatketaan siitä",
+      "placeFresh": "Aloitetaan alusta",
       "soundOn": "Pehmeät äänet päällä",
       "soundOff": "Pehmeät äänet pois",
       "done": "Tältä erää riittää",
@@ -43,7 +50,19 @@
       "viewShowing": "Kuvat näkyvissä",
       "viewHidden": "Piilotetut kuvat",
       "playAgain": "Pelatkaa uudelleen uusilla kuvilla",
-      "talk": "Jutelkaa kuvista yhdessä"
+      "talk": "Jutelkaa kuvista yhdessä",
+      "modeLegend": "Mitkä kuvat",
+      "modePlay": "Mitkä tahansa kuvat",
+      "modeDaily": "Tämän päivän kortti",
+      "dayLegend": "Mikä päivä",
+      "dayHelp": "Kaikilla on samana päivänä samat kuvat. Myös aiemmat päivät ovat täällä, eikä yhden päivän väliin jättäminen haittaa mitään.",
+      "guidanceDaily": "Tämän päivän kortissa on neljä paria. Napauttakaa kuvaa ja sitten sitä vastaavaa kuvaa.",
+      "restartDaily": "Aloita tämä kortti alusta",
+      "copy": "Kopioi tämä rivi",
+      "copied": "Kopioitu. Mitään ei lähetetä minnekään.",
+      "calendarTitle": "Päivittäiset kortit, {month}",
+      "calendarHelp": "Jokaisella päivällä on kaikille samat neljä kuvaa. Pisteitä ei lasketa, eikä mitään päivää merkitä väliin jääneeksi.",
+      "calendarVersion": "Versio {date}. Kuvat ovat samat kaikille samana päivänä."
     },
     "choose": {
       "countLegend": "Montako kuvaa",
@@ -62,6 +81,635 @@
       "shadowAlt": "Varjo yhdistettäväksi",
       "foundAlt": "Varjo: {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Vihjeet",
+      "hintOn": "Vihje tauon jälkeen",
+      "hintOff": "Ei vihjeitä",
+      "guidance": "Etsikää {n} kuvaa, jotka kuuluvat yhteen, ja napauttakaa jokaista.",
+      "countLegend": "Kuinka monta kuvaa",
+      "count": "{n} kuvaa",
+      "found": "Kyllä, {name|lower} kuuluu tähän ryhmään.",
+      "elsewhere": "{name|lower} kuuluu johonkin muuhun. Ottakaa aikaa.",
+      "hint": "Vihje: etsikää {theme|lower}.",
+      "together": "Nämä kuuluvat yhteen: {theme}.",
+      "shown": "Tässä on ryhmä: {theme}.",
+      "groupName": "Yhdessä: {theme}",
+      "show": "Näytä ryhmä",
+      "next": "Toinen sarja"
+    },
+    "oddOneOut": {
+      "hintLegend": "Vihjeet",
+      "hintOn": "Vihje tauon jälkeen",
+      "hintOff": "Ei vihjeitä",
+      "guidance": "Etsikää kuva, joka ei kuulu muiden joukkoon, ja napauttakaa sitä.",
+      "countLegend": "Kuinka monta kuvaa",
+      "count": "{n} kuvaa",
+      "belongs": "{name|lower} kuuluu muiden joukkoon. Ottakaa aikaa.",
+      "found": "Kyllä, {name|lower} on se, joka ei kuulu joukkoon. Muut ovat {theme|lower}.",
+      "shown": "Tässä se on: {name|lower}. Muut ovat {theme|lower}.",
+      "hint": "Vihje: {n} näistä on {theme|lower}.",
+      "others": "Muut: {theme}",
+      "show": "Näytä",
+      "next": "Toinen sarja"
+    },
+    "seatedToss": {
+      "guidance": "Istukaa pöydän ääreen ja heittäkää vuorotellen pehmeä papupussi isoon maaliin. Pitäkää pisteitä paperilla yhdessä.",
+      "stepsHeading": "Miten se käy",
+      "steps": [
+        "Tulostakaa maali ja pistelomake ja asettakaa se tasaisesti pöydälle keskelle.",
+        "Istukaa mukavasti, toinen kummallekin puolelle. Heittäkää vuorotellen yksi hellä heitto kumpikin, tai ohittakaa, jos haluatte.",
+        "Kun heitto osuu renkaaseen, heittäjä rastittaa yhden ruudun omaan sarakkeeseensa kyseisen renkaan riville.",
+        "Katsokaa rasteja yhdessä lopuksi, jos haluatte. Kenenkään ei tarvitse laskea mitään yhteen.",
+        "Lopettakaa, kun kumpi tahansa on valmis."
+      ],
+      "safetyHeading": "Turvallisuus",
+      "safetyLine": "Käyttäkää vain pussia, jonka kansi on ommeltu kiinni, tai kääritty sukka. Pysykää istuvina, älkää koskaan heittäkö kasvoja kohti ja pitäkää aikuinen lähellä. Pienet osat ovat tukehtumisvaara.",
+      "flags": [
+        "Ei alle 3-vuotiaille: pieniä osia",
+        "Pidettävä poissa suusta"
+      ],
+      "safety": [
+        "Valitaan papupussi, jonka kansi on ommeltu kiinni, tai kierretään puhdas sukka kasaan. Tarkistetaan ensin, ettei siinä ole reikiä tai löysiä saumoja, ettei täyte pääse valumaan ulos.",
+        "Pavut, riisi ja muut pienet täytteet ovat tukehtumisvaara. Ne on pidettävä poissa pienten lasten ulottuvilta ja niiltä, jotka laittavat esineitä suuhunsa.",
+        "Pysykää käden ulottuvilla ja valvokaa tarkasti, jos jotain voi joutua suuhun.",
+        "Pysykää istuvina. Heittäkää hellästi ja matalalta pöydällä olevaa maalia kohti, älkää koskaan kasvoja kohti."
+      ],
+      "previewLabel": "Tulostettu lomake: maali, jossa on kolme rengasta nimiltään Lähellä, Keskellä ja Kaukana, ulkoreunasta sisäänpäin, sekä pistelomake, jossa on sarake jokaiselle henkilölle ja rivi tyhjiä ruutuja jokaiselle renkaalle.",
+      "sheetHow": "Asettakaa lomake tasaisesti keskelle. Kun heitto osuu renkaaseen, rastittakaa ruutu omassa sarakkeessanne kyseisen renkaan rivillä.",
+      "rings": [
+        "Lähellä",
+        "Keskellä",
+        "Kaukana"
+      ],
+      "people": [
+        "Ensimmäinen henkilö",
+        "Toinen henkilö"
+      ],
+      "ringHeading": "Rengas",
+      "print": "Tulosta maali ja pistelomake"
+    },
+    "seasonalPack": {
+      "guidance": "Valitkaa kuukausi, tulostakaa sen kolme paperipulmaa ja tehkää yksi, kaksi tai kaikki kolme yhdessä.",
+      "monthLegend": "Kuukausi",
+      "months": [
+        "tammikuu",
+        "helmikuu",
+        "maaliskuu",
+        "huhtikuu",
+        "toukokuu",
+        "kesäkuu",
+        "heinäkuu",
+        "elokuu",
+        "syyskuu",
+        "lokakuu",
+        "marraskuu",
+        "joulukuu"
+      ],
+      "monthNote": "Jokaisella kuukaudella on omat kuvansa. Sivu avautuu tähän kuukauteen, ja voitte valita minkä tahansa muun.",
+      "restDay": "Tänään on lepopäivä",
+      "restLine": "Ei pulmia tänään. Lepopäivä on hyvä päivä sekin.",
+      "previewHeading": "Kolme pulmaa",
+      "puzzles": {
+        "pairs": {
+          "title": "Yhdistä parit",
+          "how": "Vetäkää viiva jokaisesta ylärivin kuvasta samaan kuvaan alarivillä.",
+          "describe": "Kaksi riviä samoja neljää kuvaa, eri järjestyksessä."
+        },
+        "different": {
+          "title": "Mikä eroaa joukosta?",
+          "how": "Ympyröikää kuva, joka eroaa muista kolmesta.",
+          "describe": "Rivi neljää kuvaa. Kolme on samanlaisia, ja yksi eroaa."
+        },
+        "color": {
+          "title": "Väritä kuva",
+          "how": "Väritätte kuvan miten haluatte, liiduilla tai kynillä.",
+          "describe": "Yksi iso kuva väritettäväksi."
+        }
+      },
+      "print": "Tulosta tämän kuukauden paketti",
+      "sheetHow": "Tulostakaa yksi sivu. Tehkää yksi, kaksi tai kaikki kolme pulmaa missä järjestyksessä tahansa.",
+      "printFooter": "Tehkää yksi, kaksi tai kaikki kolme. Lopettakaa, kun haluatte."
+    },
+    "decorateACard": {
+      "guidance": "Valitkaa tilaisuus ja koristelkaa kortti yhdessä liiduilla tai kynillä. Oikeaa korttia ei ole.",
+      "occasionLegend": "Tilaisuus",
+      "occasions": {
+        "birthday": {
+          "label": "Syntymäpäivä",
+          "words": "Hyvää syntymäpäivää"
+        },
+        "thank-you": {
+          "label": "Kiitos",
+          "words": "Kiitos"
+        },
+        "thinking-of-you": {
+          "label": "Ajattelen sinua",
+          "words": "Ajattelen sinua"
+        },
+        "new-season": {
+          "label": "Uusi vuodenaika",
+          "words": "Uusi vuodenaika"
+        },
+        "just-because": {
+          "label": "Ihan vain sen takia",
+          "words": "Ihan vain sen takia"
+        }
+      },
+      "stepsHeading": "Näin koristelette sen yhdessä",
+      "steps": {
+        "fold": "Tulostakaa kortti ja taittakaa se kahtia katkoviivaa pitkin niin, että etusivu jää ulospäin.",
+        "front": "Toinen koristelee etusivun sanojen ympärille.",
+        "inside": "Toinen koristelee takasivun, tai vuorotelkaa yhdellä puolella.",
+        "message": "Kirjoittakaa viesti yhdessä. Toinen voi kirjoittaa, kun toinen sanoo sanat ääneen.",
+        "stop": "Lopettakaa, kun haluatte. Oikeaa korttia ei ole, ja yksinkertainen kortti on yhtä hyvä."
+      },
+      "materials": "Käyttäkää liituja, värikyniä tai tussikyniä. Mitään ei tarvitse leikata, liimata tai kiinnittää.",
+      "previewLabel": "Esikatselu kortista taitettuna kahtia. Etusivulla lukee {words}, ja sen ympärillä on yksinkertainen kehys lehdistä ja tähdistä. Takasivulla on viivat viestille ja rivi Lähettäjä.",
+      "from": "Lähettäjä",
+      "sheetHow": "Taittakaa kortti kahtia katkoviivaa pitkin niin, että etupuoli jää ulkopuolelle. Kirjoittakaa viesti takapuolelle.",
+      "rulesHeading": "Kaksi ihmistä",
+      "sheetRules": [
+        "Vuorotelkaa tai jakakaa työ: toinen koristelee etupuolen ja toinen takapuolen.",
+        "Kirjoittakaa viesti yhdessä tai toinen kirjoittaa sen, mitä toinen sanelee.",
+        "Kumpi tahansa voi lopettaa milloin tahansa. Oikeaa korttia ei ole."
+      ],
+      "print": "Tulosta kortti"
+    },
+    "storyDice": {
+      "guidance": "Katsokaa kuvia ja kertokaa niiden avulla tarina missä järjestyksessä tahansa. Oikeaa tarinaa ei ole.",
+      "countLegend": "Noppien määrä",
+      "count": "{n} noppaa",
+      "roll": "Heitä uudelleen",
+      "pass": "Ohita",
+      "passed": "Ohittaminen on ihan hyvä. Seuraava voi aloittaa, tai voitte heittää uudelleen.",
+      "rolled": "Uudet kuvat: {names}.",
+      "tapped": "{name}. Aloittakaa tästä tai mistä tahansa muusta."
+    },
+    "wordPicture": {
+      "guidance": "Napauttakaa kuvaa ja sen jälkeen kuvan nimeä. Tai napauttakaa ensin sanaa ja sitten sen kuvaa.",
+      "countLegend": "Kuvien määrä",
+      "count": "{n} kuvaa",
+      "picturesGroup": "Kuvat",
+      "wordsGroup": "Sanat",
+      "readWord": "Lue ääneen: {name}",
+      "next": "Uudet kuvat",
+      "putBack": "Aseta takaisin",
+      "pickWord": "Napauttakaa nyt siihen kuuluvaa sanaa.",
+      "pickPicture": "Napauttakaa nyt siihen kuuluvaa kuvaa.",
+      "fit": "Kyllä, tuo sana sopii kuvaan: {name|lower}.",
+      "newSet": "Tässä on uusi kuvasarja.",
+      "restarted": "Takaisin alkuun. Kaikki kuvat ja sanat ovat taas irrallaan.",
+      "restored": "Asetettu takaisin. Yhteen kuuluvat parit näkyvät taas.",
+      "all": "Jokaisella sanalla on kuvansa."
+    },
+    "colorMatch": {
+      "guidance": "Katsokaa väriä ja sen nimeä, ja napauttakaa sitten kaikkia kuvia, jotka ovat samanvärisiä.",
+      "target": "Väri on {color|lower}. Napauttakaa kaikkia kuvia, joiden väri on {color|lower}.",
+      "countLegend": "Kuvien määrä",
+      "count": "{n} kuvaa",
+      "found": "Kyllä, {name|lower} on {color|lower}.",
+      "named": "Kuvassa {name|lower} on {color|lower}.",
+      "all": "Nämä ovat kaikki kuvat, joiden väri on {color|lower}.",
+      "shown": "Tässä ovat kuvat, joiden väri on {color|lower}.",
+      "show": "Näytä ne",
+      "next": "Toinen väri",
+      "names": {
+        "red": "Punainen",
+        "orange": "Oranssi",
+        "yellow": "Keltainen",
+        "green": "Vihreä",
+        "blue": "Sininen"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Napauttakaa vasemmalla olevaa puolikasta ja sitten oikealla olevaa puolikasta, joka sopii siihen.",
+      "countLegend": "Kuvien määrä",
+      "count": "{n} kuvaa",
+      "leftGroup": "Vasemmat puolikkaat",
+      "rightGroup": "Oikeat puolikkaat",
+      "left": "{name|lower}, vasen puolikas",
+      "right": "{name|lower}, oikea puolikas",
+      "joined": "Yhdistetty",
+      "pickRight": "Napauttakaa nyt oikealla olevaa puolikasta, joka sopii siihen.",
+      "pickLeft": "Napauttakaa nyt vasemmalla olevaa puolikasta, joka sopii siihen.",
+      "fit": "Kyllä, nuo kaksi muodostavat kuvan: {name|lower}.",
+      "apart": "Nuo kaksi eivät sovi yhteen. Kokeilkaa toista.",
+      "all": "Jokainen kuva on kokonainen.",
+      "shown": "Tässä ovat kuvat yhdistettyinä.",
+      "show": "Näytä minulle",
+      "next": "Toinen sarja"
+    },
+    "colorByNumber": {
+      "guidance": "Valitkaa väri selitteestä ja täyttäkää sillä ruutu. Mikä tahansa väri käy.",
+      "sizeLegend": "Ruudukon koko",
+      "size": "{n} × {n}",
+      "keyLegend": "Värit",
+      "colors": [
+        "Keltainen",
+        "Oranssi",
+        "Vihreä",
+        "Violetti"
+      ],
+      "motifs": {
+        "house": "talo",
+        "flower": "kukka",
+        "heart": "sydän",
+        "tree": "puu",
+        "boat": "purjevene",
+        "pot-plant": "ruukkukasvi"
+      },
+      "region": "Kuvaruudukko, {n} × {n}. Jos näyttö on kapea, sitä voi vierittää sivusuunnassa.",
+      "cell": "Numero {number}, rivi {row}, sarake {column}, {color}",
+      "empty": "tyhjä",
+      "chose": "Valittu: {name}. Napauttakaa ruutua, niin se täyttyy.",
+      "painted": "{name} rivillä {row}, sarakkeessa {column}.",
+      "sheet": "Jokaisen ruudun väri vastaa sen numeroa. Tämä on arkin kuva: {name}.",
+      "own": "Jokainen ruutu on täytetty. Tämä on teidän oma kuvanne.",
+      "fillAll": "Täytä numeroiden mukaan",
+      "filledAll": "Jokaisella tyhjällä ruudulla on nyt numeronsa väri.",
+      "clear": "Tyhjennä",
+      "cleared": "Ruudukko on tyhjä.",
+      "next": "Toinen kuva",
+      "fresh": "Tässä on toinen kuva väritettäväksi."
+    },
+    "patternMaker": {
+      "guidance": "Napauttakaa ruutua, niin sen väri vaihtuu. Kuviona kasvaa ruudun viereen. Mitään tekemäänne ei tallenneta eikä lähetetä.",
+      "sizeLegend": "Laatan koko",
+      "size": "{n} × {n}",
+      "keyLegend": "Värit siinä järjestyksessä, jossa napautus vaihtaa niitä",
+      "colors": [
+        "Keltainen",
+        "Oranssi",
+        "Vihreä",
+        "Violetti"
+      ],
+      "tileLabel": "Teidän laattanne",
+      "region": "Teidän laattanne, {n} × {n}. Jos näyttö on kapea, sitä voi vierittää sivusuunnassa.",
+      "patternLabel": "Teidän kuvionne",
+      "pattern": "Teidän kuvionne: laatta toistuu {n} kertaa vaakasuunnassa ja {n} kertaa pystysuunnassa.",
+      "square": "Rivi {row}, sarake {column}, {color}",
+      "changed": "Rivi {row}, sarake {column} on nyt {color}.",
+      "cleared": "Laatta on tyhjä. Voitte palauttaa sen takaisin.",
+      "surprise": "Yllätä minut",
+      "surprised": "Tässä on uusi laatta. Voitte palauttaa vanhan takaisin.",
+      "putBack": "Palauta se",
+      "restored": "Teidän laattanne on palautettu entiseen tilaansa.",
+      "print": "Tulosta oma kuvio",
+      "sheetTitle": "Oma kuvio"
+    },
+    "buildTogether": {
+      "guidance": "Vuorotelkaa palan asettamista tyhjään paikkaan. Jokaisella teistä on oma väri. Mitään tekemäänne ei tallenneta eikä lähetetä.",
+      "sizeLegend": "Ruudukon koko",
+      "size": "{n} × {n}",
+      "people": [
+        "Ensimmäinen henkilö",
+        "Toinen henkilö"
+      ],
+      "colorLegend": "Väri: {person}",
+      "colors": [
+        "Keltainen",
+        "Oranssi",
+        "Vihreä",
+        "Violetti"
+      ],
+      "inUse": "Käytössä",
+      "turn": "Teidän vuoro: {person|lower}",
+      "yourColor": "Teidän väri on {color|lower}.",
+      "built": "Rakennettu yhdessä. Tämä on kuva, jonka te kaksi teitte.",
+      "gridLabel": "Yhteinen ruudukko",
+      "region": "Yhteinen ruudukko, {n} × {n}. Jos näyttö on kapea, sitä voi vierittää sivusuunnassa.",
+      "cellEmpty": "Rivi {row}, sarake {column}, tyhjä",
+      "cellFilled": "Rivi {row}, sarake {column}, {color}, asettanut: {person|lower}",
+      "placed": "Rivi {row}, sarake {column} on nyt {color}. Teidän vuoro: {next|lower}.",
+      "placedLast": "Rivi {row}, sarake {column} on nyt {color}. Rakennettu yhdessä.",
+      "taken": "Rivillä {row}, sarakkeessa {column} on jo pala. Valitkaa tyhjä paikka.",
+      "pass": "Ohita",
+      "passed": "Ohittaminen on ihan hyvä. Teidän vuoro: {person|lower}.",
+      "takeBack": "Ota viimeisin pala takaisin",
+      "takeBackPass": "Peru ohitus",
+      "tookBack": "Pala on otettu takaisin. Teidän vuoro: {person|lower}.",
+      "tookBackPass": "Ohitus on peruttu. Teidän vuoro: {person|lower}.",
+      "colorChanged": "{person} väri on nyt {color|lower}.",
+      "restarted": "Ruudukko on tyhjä. Teidän vuoro: {person|lower}.",
+      "print": "Tulosta ruudukko",
+      "sheetTitle": "Rakentakaa yhdessä",
+      "sheetHelp": "Vuorotelkaa. Tyhjään ruutuun jokainen piirtää oman muotonsa omalla kynällään.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Napauttakaa palaa ja sitten kuvassa olevaa paikkaa, johon se kuuluu. Mitään tekemäänne ei tallenneta eikä lähetetä.",
+      "hints": "Näytä apuviivat",
+      "pictureLine": "Tämä on {picture}.",
+      "pictures": {
+        "house": "talo",
+        "boat": "vene",
+        "tree": "puu",
+        "fish": "kala",
+        "cat": "kissa",
+        "rocket": "raketti"
+      },
+      "outlineLabel": "Kuvan ääriviiva: {picture}. Napauttakaa tyhjää paikkaa, niin valittu pala asettuu siihen.",
+      "trayHeading": "Palat",
+      "pieces": {
+        "large-triangle": "Suuri kolmio",
+        "small-triangle": "Pieni kolmio",
+        "square": "Neliö",
+        "parallelogram": "Suunnikas",
+        "rectangle": "Suorakulmio"
+      },
+      "shapes": {
+        "large-triangle": "suuri kolmio",
+        "small-triangle": "pieni kolmio",
+        "square": "neliö",
+        "parallelogram": "suunnikas",
+        "rectangle": "suorakulmio"
+      },
+      "chosenLabel": "Valittu",
+      "spaceEmpty": "Paikka {n}, {shape}, tyhjä",
+      "spaceFilled": "Paikka {n}, {shape}, on täytetty palalla. Napauttamalla otatte palan takaisin.",
+      "chosen": "{piece} on valittu. Napauttakaa nyt kuvassa olevaa paikkaa.",
+      "unchosen": "Palanen ei ole enää valittu.",
+      "placed": "Palanen on paikassa {n}.",
+      "complete": "Tämä {picture} on valmis.",
+      "different": "Tuo palanen on eri muotoinen kuin tämä paikka. Kokeile toista paikkaa.",
+      "needPiece": "Valitse ensin palanen tarjottimelta.",
+      "filled": "Tässä paikassa on jo palanen. Napauta sitä, jos haluat ottaa palasen takaisin.",
+      "tookBack": "Palanen on takaisin tarjottimella.",
+      "cleared": "Palaset ovat takaisin tarjottimella. Palauta ne, jos muutit mieltäsi.",
+      "restored": "Palaset ovat takaisin kuvassa.",
+      "next": "Tämä on {picture}.",
+      "putBack": "Palauta",
+      "another": "Toinen muoto",
+      "print": "Tulosta tämä muoto",
+      "sheetTitle": "Rauhalliset muodot",
+      "sheetHow": "Väritä palaset tai leikkaa ne irti niin, että ne sopivat ääriviivoihin. Leikkaamisessa voi auttaa aikuinen.",
+      "sheetPieces": "Palaset samankokoisina kuin ääriviivat"
+    },
+    "picnicPlanner": {
+      "guidance": "Napauta kuvaa, niin se laitetaan piknikkoriin. Napauta sitä korissa, jos haluat ottaa sen pois. Koriin mahtuu kuusi asiaa.",
+      "guidancePlay": "Napauta kahta samanlaista kuvaa. Kuvat pysyvät näkyvissä, eikä mitään ajasteta.",
+      "basketHeading": "Meidän korimme",
+      "basketLabel": "Piknikkori",
+      "takeOut": "Ota {picture} pois korista",
+      "inBasket": "Korissa",
+      "foodHeading": "Ruoka",
+      "outingsHeading": "Tekemistä",
+      "added": "{picture} on korissa.",
+      "removed": "{picture} ei ole enää korissa.",
+      "already": "{picture} on jo korissa. Napauta sitä siellä, jos haluat ottaa sen pois.",
+      "full": "Kori on täynnä. Ota jotain pois, jotta tilaa vapautuu.",
+      "summary": "Meidän piknikkimme: {list}.",
+      "summaryNone": "Korissa ei ole vielä mitään.",
+      "and": "ja",
+      "play": "Pelataan piknikkimme kuvilla",
+      "needTwo": "Valitse ensin vähintään kaksi asiaa.",
+      "playAgain": "Pelataan uudelleen",
+      "back": "Takaisin piknikkiin",
+      "print": "Tulosta piknikkilistamme",
+      "cleared": "Kori on tyhjä.",
+      "notice": "Tämä on suunnitelma, josta voi jutella. Mitään ei ajoiteta, arvioida tai tallenneta.",
+      "sheetTitle": "Piknikkilistamme",
+      "sheetHow": "Rastita jokainen asia, kun pakkaat sen. Käytä tyhjiä rivejä kaikelle muulle, minkä haluat ottaa mukaan.",
+      "sheetToPack": "Pakattavaa"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Aloita kirja valitsemalla kahdesta kahteentoista omaa valokuvaa.",
+      "guidance": "Selaa sivuja yhdessä painikkeilla tai vasemman ja oikean nuolinäppäimen avulla. Voit halutessasi lisätä valokuvan alle muutaman sanan. Mitään tekemääsi ei tallenneta eikä lähetetä.",
+      "lookGuidance": "Katso jokaista sivua yhdessä. Voi jutella tai vain katsella.",
+      "intro": "Valitse tältä laitteelta kahdesta kahteentoista valokuvaa. Jokaisesta tulee yksi sivu kirjaan, jota voi selata yhdessä.",
+      "consent": "Käytä omia perhekuviasi. Kysy ensin lupa, jos kuvassa on henkilö, joka ei voi sanoa kyllä.",
+      "privacy": "Kuvasi pysyvät tällä laitteella. Niitä ei ladata eikä tallenneta.",
+      "choose": "Valitse kuvat",
+      "chooseDifferent": "Valitse toiset kuvat",
+      "backToBook": "Takaisin kirjaan",
+      "backToChoose": "Takaisin kuvien valintaan",
+      "needTwo": "Valitse vähintään kaksi kuvaa.",
+      "usingFirst": "Käytetään ensimmäiset {max} kuvaa.",
+      "cleared": "Kirja on tyhjennetty. Valitse kuvat, jos haluat aloittaa alusta.",
+      "moved": "Siirryttiin sivulle {n}.",
+      "pageOf": "Sivu {n} / {total}",
+      "lookTogether": "Katsele yhdessä",
+      "leaveLook": "Takaisin kirjaan",
+      "print": "Tulosta leikekirja",
+      "clear": "Tyhjennä kirja",
+      "bookLabel": "Perheen leikekirja",
+      "pagesLabel": "Selaa sivuja",
+      "previous": "Edellinen sivu",
+      "next": "Seuraava sivu",
+      "moveEarlier": "Siirrä aiemmaksi",
+      "moveLater": "Siirrä myöhemmäksi",
+      "captionLabel": "Muutama sana tälle sivulle, jos haluat",
+      "captionHelp": "Enintään 80 merkkiä. Tekstit säilyvät vain tällä sivulla, ja ne katoavat, kun suljet sivun.",
+      "sheetTitle": "Leikekirjamme",
+      "sheetHow": "Yksi kuva sivulla ja sen sanat sen alla. Selaa sivuja järjestyksessä ja jutelkaa jokaisesta.",
+      "sheetEmpty": "Valitse omat kuvasi pelisivulla, jos haluat tulostaa oman kirjasi. Voit myös tulostaa tyhjän sivun ja liittää siihen tulostetun valokuvan.",
+      "sheetFrame": "Liimaa tulostettu valokuva tähän",
+      "sheetWords": "Muutama sana tälle sivulle",
+      "skipped": {
+        "one": "{n} tiedosto ei ollut kuva, jota voimme käyttää.",
+        "other": "{n} tiedostoa ei ollut kuvia, joita voimme käyttää."
+      }
+    },
+    "quietScene": {
+      "guidance": "Katso yhtä kuvaa kerrallaan. Paina seuraavaa tai edellistä, kun olet valmis. Mikään ei liiku itsestään.",
+      "next": "Seuraava kuva",
+      "previous": "Edellinen kuva",
+      "bigPicture": "Suurempi kuva",
+      "showEverything": "Näytä kaikki",
+      "first": "Tämä on ensimmäinen kuva.",
+      "last": "Tämä on viimeinen kuva.",
+      "lines": {
+        "sunrise": "Aurinko nousee maiseman ylle.",
+        "window-with-birds": "Lintuja ikkunan takana.",
+        "vase-of-flowers": "Kukkamaljakko pöydällä.",
+        "teacup": "Teekuppi ikkunan vieressä.",
+        "tree": "Puu seisoo puutarhassa.",
+        "sailboat": "Purjevene veden päällä.",
+        "lighthouse": "Majakka meren rannalla.",
+        "rainbow": "Sateenkaari sateen jälkeen.",
+        "moon": "Kuu yötaivaalla.",
+        "daisies": "Päivänkakkaroita nurmikolla.",
+        "rowing-boat": "Soutuvene tyynellä vedellä.",
+        "potted-plant": "Vihreä kasvi ruukussa."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Vuorotellaan. Napauta leikettä ja sen jälkeen tyhjää paikkaa, johon haluat sen laittaa. Mitään tekemääsi ei tallenneta eikä lähetetä.",
+      "people": [
+        "Ensimmäinen henkilö",
+        "Toinen henkilö"
+      ],
+      "marks": [
+        "ympyrällä",
+        "neliöllä"
+      ],
+      "turn": "Vuoro on {person|lower}.",
+      "marked": "Omat palaset on merkitty {mark}.",
+      "boardLabel": "Yhteinen lauta",
+      "placeEmpty": "Paikka {n}, tyhjä",
+      "placeFilled": "Paikka {n}, {picture|lower}, asetti {person|lower}",
+      "trayHeading": "Leikkeet",
+      "chosenLabel": "Valittu",
+      "chosen": "{picture} on valittu. Napauta nyt tyhjää paikkaa.",
+      "unchosen": "Leike ei ole enää valittu.",
+      "needCutout": "Valitse ensin leike, ja napauta sitten tyhjää paikkaa.",
+      "filled": "Paikassa {n} on jo kuva. Valitse tyhjä paikka.",
+      "placed": "{picture} on paikassa {n}. Vuoro on {next|lower}.",
+      "full": "Jokaisessa paikassa on kuva. Ota yksi takaisin, jos haluat vaihtaa sen, tai aloita alusta.",
+      "pass": "Ohita",
+      "passed": "Ohittaminen on ihan hyvä. Vuoro on {person|lower}.",
+      "takeBack": "Ota viimeisin palanen takaisin",
+      "takeBackPass": "Peru ohitus",
+      "tookBack": "Palanen otettiin takaisin. Vuoro on {person|lower}.",
+      "tookBackPass": "Ohitus peruttiin. Vuoro on {person|lower}.",
+      "restarted": "Lauta on tyhjä. Vuoro on {person|lower}.",
+      "putBack": "Palauta",
+      "putBackDone": "Palaset ovat takaisin laudalla.",
+      "another": "Toinen kuvasarja",
+      "anotherSet": "Tarjottimella on uusi leikesarja. Laudalla olevat palaset pysyvät paikoillaan.",
+      "print": "Tulosta lauta",
+      "sheetTitle": "Kollaasilauta",
+      "sheetHow": "Leikkaa kuvat irti ja aseta ne vuorotellen laudalle. Leikkaamisessa voi auttaa aikuinen.",
+      "sheetTray": "Leikattavat kuvat"
+    },
+    "gardenPlanner": {
+      "guidance": "Napauta kuvaa ja napauta sitten penkkiä, johon haluat sen laittaa. Napauta penkkiä, jossa on kuva, kun mitään ei ole valittuna, niin kuva poistuu.",
+      "bedsLabel": "Puutarhan penkit",
+      "bedEmpty": "Penkki {n}, tyhjä",
+      "bedFilled": "Penkki {n}, {picture|lower}",
+      "plantsHeading": "Kasvit",
+      "extrasHeading": "Puutarhan lisät",
+      "chosenLabel": "Valittu",
+      "chosen": "{picture} on valittu. Napauta nyt penkkiä.",
+      "unchosen": "Mitään kuvaa ei ole valittu.",
+      "needPicture": "Valitse ensin kuva ja napauta sitten penkkiä.",
+      "planted": "{picture} on penkissä {n}.",
+      "replaced": "{picture} korvaa kuvan penkissä {n}.",
+      "cleared": "Penkki {n} on tyhjä. Palauta kuva takaisin, jos haluat sen uudelleen.",
+      "restarted": "Kaikki penkit ovat tyhjiä.",
+      "putBack": "Palauta takaisin",
+      "putBackDone": "Kuvat ovat takaisin penkeissään.",
+      "summaryHeading": "Oma puutarhani",
+      "summary": "Suunnitelmassasi on {list}.",
+      "summaryNone": "Yhtään kuvaa ei ole vielä penkissä.",
+      "and": "ja",
+      "print": "Tulosta suunnitelma",
+      "sheetTitle": "Meidän puutarhasuunnitelmamme",
+      "sheetHow": "Penkit näyttävät näytöllä valitut kuvat. Piirrä tyhjiin penkkeihin, jos haluat.",
+      "sheetNotes": "Muistiinpanot",
+      "notice": "Tämä on kuvasuunnitelma, josta voi keskustella. Se ei ole kasvatusohje."
+    },
+    "coloringWall": {
+      "guidance": "Valitse kuva ja sivujen määrä. Tulosta seinä, ja jokainen väritää yhden tai useamman sivun. Mitään ei ajasteta, pisteytetä eikä tallenneta.",
+      "pictureLegend": "Kuva",
+      "sizeLegend": "Sivujen määrä",
+      "sizes": {
+        "2x2": "4 sivua (2 x 2)",
+        "3x2": "6 sivua (3 x 2)",
+        "3x3": "9 sivua (3 x 3)"
+      },
+      "previewLabel": "Kuva, {picture|lower}, on jaettu {n} sivuun: {across} vaakasuunnassa ja {down} pystysuunnassa. Jokaisen sivun kulmassa on tunniste.",
+      "previewCaption": "Kuva, johon on piirretty sivujen viivat ja tunnisteet.",
+      "labelsNote": "Kirjaimet kulkevat seinää alas ja numerot poikki, joten A1 on vasemmalla ylhäällä oleva sivu.",
+      "wallHeading": "Näin seinä kootaan",
+      "steps": [
+        "Tulosta kaikki sivut. Ensimmäisellä sivulla ovat nämä ohjeet ja kartta seinästä.",
+        "Jokainen ottaa yhden tai useamman sivun ja värittää ne.",
+        "Värien ja tyylien ei tarvitse sopia yhteen. Jokainen sivu kuuluu samaan kuvaan.",
+        "Asettele sivut tunnisteiden mukaan ja kiinnitä ne toisiinsa teipillä takaa.",
+        "Laita seinä esille paikkaan, jossa kaikki näkevät sen."
+      ],
+      "mapLabel": "Kartta seinästä: {down} riviä, {across} sivua riviä kohden, tunnisteet A1–{last}.",
+      "edgeNote": "Katkoviiva merkitsee jokaisen sivun reunan. Aseta sivut reuna reunaa vasten sitä pitkin tai peitä reunaa hieman.",
+      "pictureLine": "Kuva: {picture}. Tämä seinä on {n} sivua: {across} vaakasuunnassa ja {down} pystysuunnassa.",
+      "print": "Tulosta seinä"
+    },
+    "findTogether": {
+      "guidance": "Vuorotellaan. Omalla vuorolla käännetään kaksi korttia parin etsimiseksi. Etsitään parit yhdessä.",
+      "sizeLegend": "Korttien määrä",
+      "size": "{n} korttia",
+      "viewLegend": "Pelitapa",
+      "viewShowing": "Pelataan kuvat näkyvissä",
+      "viewHidden": "Kortit kuvapuoli alaspäin",
+      "people": [
+        "Ensimmäinen henkilö",
+        "Toinen henkilö"
+      ],
+      "turn": "Vuoro: {person}",
+      "turnDone": "Kaikki parit on löydetty.",
+      "tally": "Yhdessä löydetyt parit: {n}",
+      "cardNamed": "{name}, kortti {n}",
+      "cardFaceDown": "Kortti {n}, kuvapuoli alaspäin",
+      "first": "{name}. Käännä nyt toinen kortti.",
+      "found": "{name}: pari, löydetty yhdessä. Nyt on vuorossa {next|lower}.",
+      "allTogether": "Kaikki parit on löydetty yhdessä.",
+      "different": "{a} ja {b} ovat eri kuvia. Ota aikaa, ja paina sitten ”Käännä takaisin”.",
+      "waiting": "Paina ”Käännä takaisin”, kun olet valmis. Sen jälkeen vuoro siirtyy.",
+      "turnedBack": "Käännetty takaisin. Nyt on vuorossa {person|lower}.",
+      "passed": "Ohittaminen on ihan hyvä. Nyt on vuorossa {person|lower}.",
+      "turnBack": "Käännä takaisin",
+      "pass": "Ohita",
+      "playAgain": "Pelaa uudelleen"
+    },
+    "drawingDuet": {
+      "guidance": "Vuorotellaan niin, että jokainen piirtää yhden viivan ja antaa sitten kynän eteenpäin. Kenen tahansa on lupa ohittaa vuoro. Mitään ei lähetetä minnekään. Kuva poistuu tältä sivulta vain, jos se tallennetaan.",
+      "people": [
+        "Ensimmäinen henkilö",
+        "Toinen henkilö"
+      ],
+      "colorLegend": "Väri: {person}",
+      "colors": [
+        "Keltainen",
+        "Oranssi",
+        "Vihreä",
+        "Violetti"
+      ],
+      "turn": "Vuoro: {person}",
+      "penColor": "Kynän väri: {color}.",
+      "canvasLabel": "Yhteinen piirros, {n} viivaa tähän mennessä",
+      "canvasLabelOne": "Yhteinen piirros, {n} viiva tähän mennessä",
+      "keys": "Nuolinäppäimet siirtävät kynän pistettä piirroksella. Välilyönti laskee kynän alas tai nostaa sen ylös.",
+      "penDown": "Kynä alas",
+      "penUp": "Kynä ylös",
+      "pass": "Anna kynä eteenpäin",
+      "passed": "Ohittaminen on ihan hyvä. Nyt on vuorossa {person|lower}.",
+      "takeBack": "Peruuta viimeinen viivani",
+      "tookBack": "Viimeisin viiva, jonka piirsi {person|lower}, on peruttu.",
+      "noLine": "Ei ole viivaa, jonka {person|lower} voisi peruuttaa.",
+      "restarted": "Arkki on tyhjä. Ensimmäinen henkilö on vuorossa. Palauta takaisin, jos et tarkoittanut tätä.",
+      "putBack": "Palauta takaisin",
+      "restored": "Viivat ovat takaisin entisellään.",
+      "save": "Tallenna kuva",
+      "saved": "Kuvasi on valmis. Säilytä se tällä laitteella lataamalla linkistä.",
+      "download": "Lataa drawing-duet.png",
+      "print": "Tulosta paperiversio",
+      "sheetTitle": "Piirrosduetto",
+      "paperRules": "Kaksi henkilöä, yksi arkki, kaksi kynää. Vuorotellaan: jokainen piirtää yhden viivan tai muodon ja antaa sitten kynän eteenpäin. Kenen tahansa on lupa ohittaa vuoro. Oikeaa kuvaa ei ole."
+    },
+    "colorWash": {
+      "guidance": "Maalaa pehmeää väriä yli sivun, yksi sivellys kerrallaan. Nosta siveltimi pysähtyäksesi, ja pysähdy milloin tahansa. Mitään ei tallenneta eikä lähetetä.",
+      "colorLegend": "Sivelyväri",
+      "sizeLegend": "Siveltimen koko",
+      "colors": [
+        "Keltainen",
+        "Oranssi",
+        "Vihreä",
+        "Violetti"
+      ],
+      "sizes": {
+        "wide": "Leveä",
+        "veryWide": "Erittäin leveä"
+      },
+      "color": "Sivelyväri: {color}.",
+      "brushDown": "Sivellin alas",
+      "brushUp": "Sivellin ylös",
+      "keys": "Nuolinäppäimet siirtävät siveltimen rengasta sivulla. Välilyönti laskee siveltimen alas tai nostaa sen ylös.",
+      "canvasLabel": "Sivu pehmeitä värisivelyjä",
+      "fresh": "Uusi sivu",
+      "freshMessage": "Uusi sivu.",
+      "putBack": "Palauta takaisin",
+      "restored": "Sivu on palautettu."
+    },
     "sortTogether": {
       "guidance": "Napauttakaa kuvaa ja sitten koria, johon se kuuluu.",
       "restart": "Uudet kuvat",
@@ -71,6 +719,10 @@
       "hint": "Kuva ”{name|lower}” voisi mennä koriin ”{basket}”. Napauttakaa sitä koria, niin kuva siirtyy sinne.",
       "placed": "Kuva ”{name|lower}” on korissa ”{basket}”.",
       "sorted": "Kaikki on lajiteltu. Katselkaa koreja yhdessä tai kokeilkaa toista teemaa.",
+      "largerTargets": "Suuremmat kohteet",
+      "largerOn": "Suuremmat kohteet ovat päällä. Mitään ei ole siirretty.",
+      "largerOff": "Suuremmat kohteet ovat pois päältä. Mitään ei ole siirretty.",
+      "largerOnNewRound": "Suuremmat kohteet ovat päällä, ja koreja on kaksi. Tässä on uusia kuvia lajiteltavaksi.",
       "basket": {
         "one": "Kori ”{basket}”, {count} kuva sisällä",
         "other": "Kori ”{basket}”, {count} kuvaa sisällä"
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Koko kuva: {name}",
       "guideText": "Tältä kuva näyttää kokonaisena.",
+      "ownChoose": "Käytä omaa valokuvaa",
+      "ownChange": "Valitse toinen valokuva",
+      "ownBack": "Takaisin valmiisiin kuviin",
+      "ownPrivacy": "Valokuvasi pysyy tällä laitteella. Sitä ei lähetetä eikä tallenneta.",
+      "ownConsent": "Käytä omia valokuviasi. Kysy lupa ennen kuin käytät kuvaa henkilöstä, joka ei pysty antamaan lupaa.",
+      "ownWorking": "Valokuvaasi valmistellaan.",
+      "ownNotUsable": "Tätä tiedostoa ei voitu käyttää. Valitse valokuvatiedosto, esimerkiksi JPEG- tai PNG-tiedosto.",
+      "ownAlt": "Valokuvasi",
+      "ownPiece": "Palanen {n}, {place}",
+      "ownWhole": "Valokuvasi on taas kokonainen. Sekoita palaset uudelleen aina, kun haluat.",
+      "ownSheetTitle": "Valokuvasi palasina",
+      "ownSheetHow": "Leikkaa viivoja pitkin. Sekoita palaset, ja vaihda sitten kaksi palasta kerrallaan, kunnes kuva on kokonainen.",
       "piece": "Pala: {place}",
       "pieceInPlace": ", oikealla paikalla",
       "piecePickedUp": ", valittu",
@@ -190,6 +854,14 @@
       "guidance": "Lukekaa kortti ääneen. Oikeita vastauksia ei ole.",
       "position": "Kortti {n} / {total}",
       "themeLegend": "Teema",
+      "showPrompt": "Näytä keskustelukehote",
+      "bigPicture": "Iso kuva ryhmälle",
+      "passNote": "Kenen tahansa on lupa ohittaa.",
+      "groupTitle": "Kortin kiertäminen ryhmässä",
+      "groupSit": "Istutaan piiriin, jossa kaikki näkevät kuvan. Kortin pitävä henkilö tai isoa kuvaa näyttävä laite lukee kehotteen ääneen ensin.",
+      "groupPass": "Anna sitten kortti seuraavalle. Jokainen sanoo kuvasta sanan tai lauseen ja antaa kortin eteenpäin.",
+      "groupNoSpeech": "Kortin antaminen eteenpäin on aina sallittua. Voi ohittaa sanomatta mitään, eikä kenenkään tarvitse kertoa syytä.",
+      "groupEnd": "Kierros päättyy, kun kortti on kiertänyt ympyrän tai ryhmä on saanut tarpeekseen. Kukaan ei voita. Lopettakaa aina silloin, kun ryhmä haluaa.",
       "next": "Seuraava kortti",
       "previous": "Edellinen kortti",
       "print": "Tulosta kaikki kortit",
@@ -252,6 +924,20 @@
       "started": "Aloitettu. Hengittäkää sisään, kun ympyrä kasvaa.",
       "stopped": "Pysäytetty.",
       "finished": "Siinä oli kuusi hidasta hengitystä. Aloittakaa uudelleen, kun haluatte."
+    },
+    "storyChain": {
+      "guidance": "Vuorotelkaa: jokainen sanoo yhden lauseen ja lisää seuraavan kuvan.",
+      "passNote": "Sanokaa lauseenne ääneen. Mitään ei kirjoiteta eikä tallenneta. Kuka tahansa voi ohittaa vuoronsa.",
+      "chainLabel": "Ketju tähän asti",
+      "item": "Kuva {n}: {name}",
+      "add": "Lisää kuva",
+      "fullAdd": "Ketju on täynnä. Aloita uusi ketju",
+      "newChain": "Aloita uusi ketju",
+      "takeOff": "Poista viimeinen",
+      "added": "{name|lower} on nyt ketjun lopussa.",
+      "removed": "{name|lower} on poistettu ketjusta.",
+      "fresh": "Uusi ketju alkaa: {name|lower}.",
+      "full": "Ketjussa on kaikki 8 kuvaa. Kertokaa koko tarina tai aloittakaa uusi ketju."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Sadepilvi",
     "snowflake": "Lumihiutale",
     "kite": "Leija",
-    "sunrise": "Auringonnousu kukkuloiden yllä"
+    "sunrise": "Auringonnousu kukkuloiden yllä",
+    "decorated-keepsake-box": "Muistorasia koristeltuna",
+    "painted-plant-pot": "Kukkaruukku yrttien kanssa",
+    "repeating-pattern-sheet": "Paperi toistuvia kuvioita",
+    "music-drawn-lines": "Viivoja musiikin tahtiin",
+    "paper-boat-afloat": "Paperivene vedessä",
+    "folded-towel-stack": "Pino taitettuja pyyhkeitä",
+    "hand-massage-with-lotion": "Käsi ja voide pyyhkeellä",
+    "open-photo-album": "Valokuva-albumi auki",
+    "button-flower-card": "Nappikukka kortilla",
+    "blue-torn-paper-collage": "Kollaasi revitystä sinisestä paperista",
+    "family-tree-of-hands": "Sukupuu käsistä",
+    "open-greeting-card": "Tervehdyskortti sydämellä",
+    "lavender-sachet": "Laventelipussi nauhalla",
+    "memory-collage-of-photos": "Kollaasi perhekuvista",
+    "paper-chain-garland": "Paperiketjuseppele",
+    "open-songbook-with-notes": "Laulukirja nuoteilla",
+    "photo-postcard-with-stamp": "Valokuvapostikortti postimerkillä",
+    "pine-cone-bird-feeder": "Käpylinnunruokinta oksalla",
+    "playlist-phone-and-card": "Soittolista puhelimessa",
+    "sealed-rice-shaker": "Riisimaraska suljettuna",
+    "texture-board-with-scraps": "Tekstuurialusta palasilla",
+    "painted-garden-stone": "Puutarhakivi maalattuna",
+    "shared-painted-canvas": "Maalauskangas yhteistyönä",
+    "watercolor-washes-sheet": "Vesiväriä paperilla",
+    "seedling-in-pot": "Taimia ruukussa",
+    "pressed-leaves-in-book": "Puristettuja lehtiä kirjassa",
+    "printed-leaves-sheet": "Paperi lehtipainannoilla",
+    "pinch-pot-clay-bowl": "Savikulho",
+    "table-sketch-pencil": "Lyijykynäpiirros mukista",
+    "buttons-in-muffin-tin": "Napit muffinivuoassa",
+    "family-recipe-book": "Reseptikirja perheeltä",
+    "drum-with-beat-marks": "Pöytärumpu ja kapulat",
+    "torn-paper-flower": "Mosaiikki revitystä paperista",
+    "window-with-birds": "Ikkuna ja linnut",
+    "woven-paper-mat": "Paperimatto kudottuna",
+    "yarn-ball-with-thread": "Lankakerä",
+    "letter-and-envelope": "Kirje kuoressa"
   },
   "illustrations": {
     "rocking-chair": "Keinutuoli",
@@ -442,332 +1165,6 @@
     "pocket-watch": "Taskukello"
   },
   "content": {
-    "sayings": [
-      {
-        "start": "Hätä keinot",
-        "end": "keksii",
-        "others": [
-          "etsii",
-          "löytää"
-        ],
-        "prompt": "Kertokaa, milloin olette keksineet jotakin itse, kun valmista ei ollut."
-      },
-      {
-        "start": "Kolmas kerta",
-        "end": "toden sanoo",
-        "others": [
-          "paremmin tulee",
-          "hyvän tekee"
-        ],
-        "prompt": "Mitä olette kokeilleet useammin kuin kerran?"
-      },
-      {
-        "start": "Oma koti",
-        "end": "kullan kallis",
-        "others": [
-          "kaikkein paras",
-          "aina lämmin"
-        ],
-        "prompt": "Mikä teidän kodissanne oli parasta?"
-      },
-      {
-        "start": "Aamu on iltaa",
-        "end": "viisaampi",
-        "others": [
-          "kauniimpi",
-          "rauhallisempi"
-        ],
-        "prompt": "Oletteko aamuihminen vai iltaihminen?"
-      },
-      {
-        "start": "Ei omena kauas puusta",
-        "end": "putoa",
-        "others": [
-          "karkaa",
-          "vierii"
-        ],
-        "prompt": "Millaisista omenoista pidätte eniten?"
-      },
-      {
-        "start": "Työ tekijäänsä",
-        "end": "kiittää",
-        "others": [
-          "palkitsee",
-          "kunnioittaa"
-        ],
-        "prompt": "Millaisesta työstä olette nauttineet?"
-      },
-      {
-        "start": "Ei yksi pääsky kesää",
-        "end": "tee",
-        "others": [
-          "tuo",
-          "anna"
-        ],
-        "prompt": "Mistä tunnette, että kesä on tulossa?"
-      },
-      {
-        "start": "Ystävä tunnetaan",
-        "end": "hädässä",
-        "others": [
-          "juhlassa",
-          "kesällä"
-        ],
-        "prompt": "Kertokaa hyvästä ystävästä."
-      },
-      {
-        "start": "Katso ennen kuin",
-        "end": "hyppäät",
-        "others": [
-          "astut",
-          "menet"
-        ],
-        "prompt": "Oletteko koskaan hypänneet veteen laiturilta?"
-      },
-      {
-        "start": "Kaksi kärpästä",
-        "end": "yhdellä iskulla",
-        "others": [
-          "yhdellä kertaa",
-          "samalla tavalla"
-        ],
-        "prompt": "Mitä asioita on mukava hoitaa samalla reissulla?"
-      },
-      {
-        "start": "Niin metsä vastaa kuin sinne",
-        "end": "huudetaan",
-        "others": [
-          "lauletaan",
-          "kutsutaan"
-        ],
-        "prompt": "Oletteko käyneet marjassa tai sienessä metsässä?"
-      },
-      {
-        "start": "Vierivä kivi ei",
-        "end": "sammaloidu",
-        "others": [
-          "kasva",
-          "lämpene"
-        ],
-        "prompt": "Oletteko muuttaneet usein vai asuneet pitkään samassa paikassa?"
-      },
-      {
-        "start": "Harjoitus tekee",
-        "end": "mestarin",
-        "others": [
-          "taitajan",
-          "osaajan"
-        ],
-        "prompt": "Mikä taito on teille tuttu ja mukava?"
-      },
-      {
-        "start": "Pienet lahjat ylläpitävät",
-        "end": "ystävyyttä",
-        "others": [
-          "iloa",
-          "rauhaa"
-        ],
-        "prompt": "Mikä pieni lahja on ilahduttanut teitä?"
-      },
-      {
-        "start": "Hyvää kannattaa",
-        "end": "odottaa",
-        "others": [
-          "etsiä",
-          "vaalia"
-        ],
-        "prompt": "Mikä on ollut odottamisen arvoista?"
-      },
-      {
-        "start": "Koti on siellä, missä",
-        "end": "sydän on",
-        "others": [
-          "perhe on",
-          "rakkaat ovat"
-        ],
-        "prompt": "Mitkä paikat tuntuvat teistä kodilta?"
-      },
-      {
-        "start": "Jokainen on oman onnensa",
-        "end": "seppä",
-        "others": [
-          "tekijä",
-          "rakentaja"
-        ],
-        "prompt": "Mitä olette tehneet omin käsin?"
-      },
-      {
-        "start": "Veri on vettä",
-        "end": "sakeampaa",
-        "others": [
-          "kirkkaampaa",
-          "lämpimämpää"
-        ],
-        "prompt": "Kertokaa perheestänne tai sukunne kokoontumisista."
-      },
-      {
-        "start": "Rakkaus on",
-        "end": "sokea",
-        "others": [
-          "sanaton",
-          "suuri"
-        ],
-        "prompt": "Mikä on mieluisa rakkaustarina, jonka tiedätte?"
-      },
-      {
-        "start": "Kärsivällisyys ruusuja",
-        "end": "tuottaa",
-        "others": [
-          "kasvattaa",
-          "antaa"
-        ],
-        "prompt": "Minkä kukkien kasvattamisesta pidätte?"
-      },
-      {
-        "start": "Ei kannata ostaa sikaa",
-        "end": "säkissä",
-        "others": [
-          "markkinoilla",
-          "tarhassa"
-        ],
-        "prompt": "Oletteko käyneet torilla tai markkinoilla?"
-      },
-      {
-        "start": "Kun kissa on poissa, hiiret hyppivät",
-        "end": "pöydällä",
-        "others": [
-          "lattialla",
-          "penkillä"
-        ],
-        "prompt": "Onko teillä ollut kissa tai muu lemmikki?"
-      },
-      {
-        "start": "Sopu sijaa",
-        "end": "antaa",
-        "others": [
-          "tekee",
-          "löytää"
-        ],
-        "prompt": "Mikä tuo kotiin hyvän tunnelman?"
-      },
-      {
-        "start": "Hiljaa hyvä",
-        "end": "tulee",
-        "others": [
-          "syntyy",
-          "kasvaa"
-        ],
-        "prompt": "Mikä on rauhallinen hetki, josta pidätte?"
-      },
-      {
-        "start": "Totuus on tarua",
-        "end": "ihmeellisempi",
-        "others": [
-          "kauniimpi",
-          "hauskempi"
-        ],
-        "prompt": "Mikä on hauskin tarina, jonka olette kuulleet?"
-      },
-      {
-        "start": "Nälkä on paras",
-        "end": "kokki",
-        "others": [
-          "ystävä",
-          "opettaja"
-        ],
-        "prompt": "Mikä on lempiruokanne?"
-      },
-      {
-        "start": "Parempi pyy pivossa kuin kymmenen",
-        "end": "oksalla",
-        "others": [
-          "pellolla",
-          "metsässä"
-        ],
-        "prompt": "Mitä lintuja tiedätte?"
-      },
-      {
-        "start": "Lahjahevosen suuhun ei",
-        "end": "katsota",
-        "others": [
-          "puhuta",
-          "kurkisteta"
-        ],
-        "prompt": "Mikä on ollut mieluisa lahja?"
-      },
-      {
-        "start": "Hyvin suunniteltu on",
-        "end": "puoliksi tehty",
-        "others": [
-          "jo valmis",
-          "hyvin alkanut"
-        ],
-        "prompt": "Mitä olette joskus suunnitelleet innolla?"
-      },
-      {
-        "start": "Kysyvä ei tieltä",
-        "end": "eksy",
-        "others": [
-          "lähde",
-          "jää"
-        ],
-        "prompt": "Oletteko koskaan kysyneet tietä vieraassa paikassa?"
-      },
-      {
-        "start": "Ei sitä savua ilman",
-        "end": "tulta",
-        "others": [
-          "tuulta",
-          "puuta"
-        ],
-        "prompt": "Millainen on mieluisa nuotio-ilta?"
-      },
-      {
-        "start": "Joka ensin tulee, se ensin",
-        "end": "jauhaa",
-        "others": [
-          "syö",
-          "istuu"
-        ],
-        "prompt": "Millaisesta leivästä pidätte?"
-      },
-      {
-        "start": "Rakkaalla lapsella on monta",
-        "end": "nimeä",
-        "others": [
-          "ystävää",
-          "tapaa"
-        ],
-        "prompt": "Millä lempinimillä teitä on kutsuttu?"
-      },
-      {
-        "start": "Vanha rakkaus ei",
-        "end": "ruostu",
-        "others": [
-          "jäähdy",
-          "kalpene"
-        ],
-        "prompt": "Mitä vanhoja tavaroita pidätte kalliina?"
-      },
-      {
-        "start": "Ei kukaan ole seppä",
-        "end": "syntyessään",
-        "others": [
-          "lapsena",
-          "nuorena"
-        ],
-        "prompt": "Mitä olette oppineet tekemään itse?"
-      },
-      {
-        "start": "Maassa maan",
-        "end": "tavalla",
-        "others": [
-          "kanssa",
-          "mukaan"
-        ],
-        "prompt": "Mitä vanhoja tapoja pidätte hauskoina?"
-      }
-    ],
     "wordSearch": {
       "available": true,
       "fill": "ADEGHIJKLMNOPRSTUVY",
@@ -1193,6 +1590,17 @@
             "Matkalla"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Hedelmät",
+        "animals": "Eläimet",
+        "travel": "Tapoja matkustaa",
+        "flowers": "Kukat",
+        "hot-drinks": "Kuumaan juomaan kuuluvia asioita",
+        "weather": "Sääilmiöitä",
+        "baked": "Uunissa leivottuja"
       }
     }
   }

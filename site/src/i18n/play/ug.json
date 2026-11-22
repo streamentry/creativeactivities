@@ -5,6 +5,13 @@
       "stopReading": "ئوقۇشنى توختىتىش",
       "region": "ئويۇن",
       "restart": "قايتا باشلاش",
+      "rest": "ھازىرچە ئارام ئېلىڭ",
+      "restingTitle": "ئارام ئېلىۋاتىسىز",
+      "restingText": "خالىغىنىڭىزچە ئېلىڭ. ئورنىڭىز بۇ بەتتە ساقلىنىدۇ.",
+      "resume": "Carry on",
+      "placeText": "Last time you stopped partway. Carry on from there, or start fresh.",
+      "placeResume": "Carry on",
+      "placeFresh": "Start fresh",
       "soundOn": "يۇمشاق ئاۋاز: ئوچۇق",
       "soundOff": "يۇمشاق ئاۋاز: ئۆچۈك",
       "done": "ھازىرچە توختاش",
@@ -43,7 +50,19 @@
       "viewShowing": "رەسىملەر ئاشكارا",
       "viewHidden": "يوشۇرۇن رەسىملەر",
       "playAgain": "يېڭى رەسىملەر بىلەن قايتا ئويناڭ",
-      "talk": "رەسىملەر ھەققىدە بىرگە سۆزلىشىڭ"
+      "talk": "رەسىملەر ھەققىدە بىرگە سۆزلىشىڭ",
+      "modeLegend": "قايسى رەسىملەر",
+      "modePlay": "ھەر قانداق رەسىملەر",
+      "modeDaily": "بۈگۈنكى كارتا",
+      "dayLegend": "قايسى كۈن",
+      "dayHelp": "Everyone gets the same pictures on the same day. Any earlier day is here too, and skipping a day costs nothing.",
+      "guidanceDaily": "بۈگۈنكى كارتىدا تۆت جۈپ بار. بىر رەسىمنى بېسىڭ، ئاندىن ئۇنىڭغا ماس كېلىدىغان رەسىمنى بېسىڭ.",
+      "restartDaily": "بۇ كارتىنى قايتىدىن باشلاش",
+      "copy": "بۇ قۇرنى كۆچۈرۈش",
+      "copied": "كۆچۈرۈلدى. ھېچ نەرسە يەرگە ئەۋەتىلمەيدۇ.",
+      "calendarTitle": "بۈگۈنكى كارتىلار، {month}",
+      "calendarHelp": "ھەر بىر كۈندە ھەممە ئادەمگە ئوخشاش تۆت رەسىم بار. ھېچ نەرسە ھېسابلانمايدۇ ۋە ھېچ كۈن ئۆتكۈزۈۋېتىلگەن دەپ بەلگىلەنمەيدۇ.",
+      "calendarVersion": "نەشرى {date}. ئوخشاش كۈندە ھەممە ئادەمگە رەسىملەر ئوخشاش."
     },
     "choose": {
       "countLegend": "نەچچە رەسىم",
@@ -56,11 +75,640 @@
       "next": "كېيىنكى رەسىم"
     },
     "shadowMatch": {
-      "guidance": "يۇقىرىدىكi سايىگە قاراڭ. ئۇ سايىنى ھاسىل قىلغان رەسىمنى بېسىڭ.",
+      "guidance": "Look at the shadow at the top. Tap the picture that makes it.",
       "yes": "ھەئە، {name|lower} ئۇ سايىنى ھاسىل قىلىدۇ.",
       "next": "كېيىنكى سايە",
       "shadowAlt": "ماس كېلىدىغان سايە",
       "foundAlt": "{name|lower} نىڭ سايىسى"
+    },
+    "fourTogether": {
+      "hintLegend": "ئىشارەتلەر",
+      "hintOn": "توختاپ قالغاندىن كېيىن ئىشارەت",
+      "hintOff": "ئىشارەت يوق",
+      "guidance": "بىر-بىرىگە ماس كېلىدىغان {n} رەسىمنى تېپىپ، ھەربىرىنى بېسىڭ.",
+      "countLegend": "نەچچە رەسىم",
+      "count": "{n} رەسىم",
+      "found": "ھەئە، {name|lower} بۇ گۇرۇپپىغا كىرىدۇ.",
+      "elsewhere": "{name|lower} باشقا نەرسە بىلەن بىللە. ئالدىرىماڭ.",
+      "hint": "ئىشارەت: {theme|lower} نى ئىزدەڭ.",
+      "together": "بۇلار بىللە: {theme}.",
+      "shown": "مانا گۇرۇپپا: {theme}.",
+      "groupName": "بىللە: {theme}",
+      "show": "گۇرۇپپىنى كۆرسىتىش",
+      "next": "يەنە بىر توپلام"
+    },
+    "oddOneOut": {
+      "hintLegend": "ئىشارەتلەر",
+      "hintOn": "توختاپ قالغاندىن كېيىن ئىشارەت",
+      "hintOff": "ئىشارەت يوق",
+      "guidance": "باشقىلار بىلەن ماس كەلمەيدىغان رەسىمنى تېپىپ بېسىڭ.",
+      "countLegend": "نەچچە رەسىم",
+      "count": "{n} رەسىم",
+      "belongs": "{name|lower} باشقىلار بىلەن بىللە. ئالدىرىماڭ.",
+      "found": "ھەئە، {name|lower} ئاجرىلىپ قالغان بىرى. باشقىلىرى {theme|lower}.",
+      "shown": "مانا ئۇ: {name|lower}. باشقىلىرى {theme|lower}.",
+      "hint": "ئىشارەت: بۇلارنىڭ {n} دانىسى {theme|lower}.",
+      "others": "باشقىلىرى: {theme}",
+      "show": "كۆرسەتسىلا",
+      "next": "يەنە بىر توپلام"
+    },
+    "seatedToss": {
+      "guidance": "Sit at a table and take turns tossing a soft bean bag into the big target. Keep the tally on paper, together.",
+      "stepsHeading": "قانداق ئوينايمىز",
+      "steps": [
+        "Print the target and tally sheet, and lay it flat on the table between you.",
+        "Sit comfortably, one on each side. Take turns with one gentle toss each, or pass if you would rather not.",
+        "When a toss lands in a ring, the person who tossed ticks one box in their column, on the row for that ring.",
+        "خالىسىڭىز توختىغاندا بەلگىلەرگە بىللە قاراڭ. ھېچكىم ھېسابلىشى shart ئەمەس.",
+        "Stop whenever anyone is ready to."
+      ],
+      "safetyHeading": "بىخەتەرلىك",
+      "safetyLine": "Use only a bag with a sewn-shut cover or a rolled-up sock, stay seated, never toss toward a face, and keep an adult nearby. Small parts are a choking hazard.",
+      "flags": [
+        "3 ياشتىن كىچىكلەرگە بولمايدۇ: كىچىك بۆلەكلەر",
+        "ئاغزىغا يېقىن قويماڭ"
+      ],
+      "safety": [
+        "Choose a bean bag with a sewn-shut cover, or roll up a clean sock. Check it first for holes or loose stitches, so no filling can come out.",
+        "Beans, rice and other small fillings are a choking hazard. Keep them away from young children and from anyone who puts things in their mouth.",
+        "Stay within arm's reach and supervise closely if anything might be put in the mouth.",
+        "Stay seated. Toss gently and low toward the target on the table, never toward a face."
+      ],
+      "previewLabel": "The printed sheet: a target of three rings named Near, Middle and Far, from the outside in, and a tally with a column for each person and a row of empty boxes for each ring.",
+      "sheetHow": "Lay the sheet flat between you. When a toss lands in a ring, tick a box in your column, on that ring's row.",
+      "rings": [
+        "يېقىن",
+        "ئوتتۇرا",
+        "يىراق"
+      ],
+      "people": [
+        "First person",
+        "Second person"
+      ],
+      "ringHeading": "Ring",
+      "print": "Print the target and tally sheet"
+    },
+    "seasonalPack": {
+      "guidance": "Choose a month, print its three paper puzzles, then do one, two or all three together.",
+      "monthLegend": "بىر ئاي تاللاڭ",
+      "months": [
+        "يانۋار",
+        "فېۋرال",
+        "March",
+        "ئاپرېل",
+        "ماي",
+        "ئىيۇن",
+        "ئىيۇل",
+        "ئاۋغۇست",
+        "سېنتەبىر",
+        "October",
+        "November",
+        "December"
+      ],
+      "monthNote": "Each month has its own pictures. The page opens on this month, and you can choose any other.",
+      "restDay": "بۈگۈن ئارام كۈنى",
+      "restLine": "No puzzles today. A rest day is a good day too.",
+      "previewHeading": "ئۈچ تېكىش",
+      "puzzles": {
+        "pairs": {
+          "title": "جۈپلەرنى تېپىش",
+          "how": "Draw a line from each picture in the top row to the same picture in the bottom row.",
+          "describe": "Two rows of the same four pictures, in a different order."
+        },
+        "different": {
+          "title": "قايسىسى باشقىچە؟",
+          "how": "باشقى ئۈچىدىن پەرقلىق رەسىمنى چەمبەر بىلەن ئوراڭ.",
+          "describe": "A row of four pictures. Three are the same, and one is different."
+        },
+        "color": {
+          "title": "Color it in",
+          "how": "Color the picture however you like, with crayons or pencils.",
+          "describe": "One large picture to color in."
+        }
+      },
+      "print": "Print this month's pack",
+      "sheetHow": "Print one page. Do one, two or all three puzzles, in any order.",
+      "printFooter": "Do one, two or all three. Stop whenever you like."
+    },
+    "decorateACard": {
+      "guidance": "Choose an occasion, then decorate a card together with crayons or pens. There is no right card.",
+      "occasionLegend": "مۇناسىۋەت تاللاڭ",
+      "occasions": {
+        "birthday": {
+          "label": "تۇغۇلغان كۈن",
+          "words": "Happy birthday"
+        },
+        "thank-you": {
+          "label": "Thank you",
+          "words": "Thank you"
+        },
+        "thinking-of-you": {
+          "label": "سىزنى ئويلاپ",
+          "words": "سىزنى ئويلاپ"
+        },
+        "new-season": {
+          "label": "A new season",
+          "words": "A new season"
+        },
+        "just-because": {
+          "label": "Just because",
+          "words": "Just because"
+        }
+      },
+      "stepsHeading": "بىللە قانداق بېزەش",
+      "steps": {
+        "fold": "Print the card and fold it in half along the dashed line, so the front is on the outside.",
+        "front": "One person decorates the front, around the words.",
+        "inside": "The other person decorates the back, or you take turns on one side.",
+        "message": "بىللە بىر خەت يېزىڭ. بىرى يازسا، يەنە بىرى سۆزلەرنى ئېيتسا بولىدۇ.",
+        "stop": "خالىغان ۋاقتىدا توختىڭ. توغرا كارتا دەپ بىر نەرسە يوق، ئاددىي كارتىمۇ تەڭ ياخشى."
+      },
+      "materials": "Use crayons, colored pencils or felt-tip pens. Nothing needs cutting, gluing or sticking.",
+      "previewLabel": "A preview of the card folded in half. The front says {words}, with a simple frame of leaves and stars. The back has lines for a message and a line for From.",
+      "from": "كىمدىن",
+      "sheetHow": "كارتىنى ئۈزۈك سىزىق بويىچە ئىككىگە پۈكۈڭ، ئالدىقى تەرىپى سىرتقا قارىسۇن. ئۇچۇرنى ئارقا تەرىپىگە يېزىڭ.",
+      "rulesHeading": "ئىككى كىشى ئۈچۈن",
+      "sheetRules": [
+        "نۆۋەت بىلەن ئىشلەڭ ياكى ئىشنى بۆلۈۋېلىڭ: بىرىڭىز ئالدىنى، يەنە بىرىڭىز ئارقىسىنى بېزەيدۇ.",
+        "ئۇچۇرنى بىرلىكتە يېزىڭ، ياكى بىرىڭىز يەنە بىرىنىڭ دېگىنىنى يېزىپ قويسۇن.",
+        "خالىغان ۋاقتتا كىم توختىسا بولىدۇ. توغرا كارت دېگەن يوق."
+      ],
+      "print": "كارتنى بېسىڭ"
+    },
+    "storyDice": {
+      "guidance": "رەسىملەرگە قاراپ ئۇلارنى ئىشلىتىپ ھېكايە سۆزلەڭ، رەتتىنى خالىغانچە قىلسىڭىزمۇ بولىدۇ. توغرا ھېكايە دېگەن يوق.",
+      "countLegend": "نەچچە زەر",
+      "count": "{n} دانە زەر",
+      "roll": "يەنە تاشلاڭ",
+      "pass": "ئۆتۈۋېتىش",
+      "passed": "ئۆتۈۋەتسىڭىزمۇ بولىدۇ. كېيىنكى كىشى باشلىسۇن ياكى يەنە تاشلىسىڭىز بولىدۇ.",
+      "rolled": "يېڭى رەسىملەر: {names}.",
+      "tapped": "{name}. بۇنىڭدىن باشلاڭ ياكى باشقىسىدىن."
+    },
+    "wordPicture": {
+      "guidance": "رەسىمنى بېسىڭ، ئاندىن ئۇنى ئاتايدىغان سۆزنى بېسىڭ. ياكى سۆزنى بېسىپ، ئاندىن رەسىمىنى بېسىڭ.",
+      "countLegend": "نەچچە رەسىم",
+      "count": "{n} رەسىم",
+      "picturesGroup": "رەسىملەر",
+      "wordsGroup": "سۆزلەر",
+      "readWord": "ئاۋاز چىقىرىپ ئوقۇڭ: {name}",
+      "next": "يېڭى رەسىملەر",
+      "putBack": "قايتا قويۇش",
+      "pickWord": "ئەمدى ئۇنىڭغا ماس كېلىدىغان سۆزنى بېسىڭ.",
+      "pickPicture": "ئەمدى ئۇنىڭغا ماس كېلىدىغان رەسىمنى بېسىڭ.",
+      "fit": "ھەئە، بۇ سۆز {name|lower} بىلەن ماس كېلىدۇ.",
+      "newSet": "مانا يېڭى بىر توپ رەسىم.",
+      "restarted": "باشلىنىشقا قايتتۇق. ھەممە رەسىم ۋە سۆز يەنە ئايرىم-ئايرىم بولدى.",
+      "restored": "قايتا قويۇلدى. ماس كەلگەن جۈپلەر يەنە كۆرسىتىلدى.",
+      "all": "ھەر بىر سۆزنىڭ رەسمى بار."
+    },
+    "colorMatch": {
+      "guidance": "رەڭنى ۋە ئۇنىڭ ئاتىنى كۆرۈڭ، ئاندىن شۇ رەڭدىكى ھەر بىر رەسىمنى بېسىڭ.",
+      "target": "رەڭ {color|lower}. {color|lower} بولغان ھەر بىر رەسىمنى بېسىڭ.",
+      "countLegend": "نەچچە رەسىم",
+      "count": "{n} رەسىم",
+      "found": "ھەئە، {name|lower} {color|lower} رەڭدە.",
+      "named": "{name|lower} {color|lower} رەڭدە.",
+      "all": "مانا بۇلار بارلىق {color|lower} رەسىملەر.",
+      "shown": "مانا {color|lower} رەسىملەر.",
+      "show": "ئۇلارنى كۆرسەت",
+      "next": "يەنە بىر رەڭ",
+      "names": {
+        "red": "قىزىل",
+        "orange": "ئاپېلسىن",
+        "yellow": "سېرىق",
+        "green": "يېشىل",
+        "blue": "كۆك"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "سولدىكى بىر يېرىمنى بېسىڭ، ئاندىن ئۇنىڭغا ماس كېلىدىغان ئوڭدىكى يېرىمنى بېسىڭ.",
+      "countLegend": "نەچچە رەسىم",
+      "count": "{n} رەسىم",
+      "leftGroup": "سول يېرىملار",
+      "rightGroup": "ئوڭ يېرىملار",
+      "left": "{name|lower} نىڭ سول يېرىمى",
+      "right": "{name|lower} نىڭ ئوڭ يېرىمى",
+      "joined": "بىرلەشتۈرۈلدى",
+      "pickRight": "ئەمدى ئۇنىڭغا ماس كېلىدىغان ئوڭ يېرىمنى بېسىڭ.",
+      "pickLeft": "ئەمدى ئۇنىڭغا ماس كېلىدىغان سول يېرىمنى بېسىڭ.",
+      "fit": "ھەئە، بۇ ئىككىسى {name|lower} نى ھاسىل قىلىدۇ.",
+      "apart": "بۇ ئىككىسى بىر-بىرىگە ماس كەلمەيدۇ. باشقىسىنى سىناڭ.",
+      "all": "ھەر بىر رەسىم تولۇق.",
+      "shown": "مانا رەسىملەر بىرلەشتۈرۈلگەن ھالدا.",
+      "show": "ماڭا كۆرسەت",
+      "next": "يەنە بىر توپ"
+    },
+    "colorByNumber": {
+      "guidance": "چۈشەندۈرۈشتىن بىر رەڭنى تاللاڭ، ئاندىن كۋادراتنى شۇ رەڭ بىلەن تولدۇرۇڭ. خالىغان رەڭ بولىدۇ.",
+      "sizeLegend": "تور چوڭلۇقى",
+      "size": "{n} × {n}",
+      "keyLegend": "رەڭلەر",
+      "colors": [
+        "سېرىق",
+        "ئاپېلسىن",
+        "يېشىل",
+        "بىنەپشە"
+      ],
+      "motifs": {
+        "house": "ئۆي",
+        "flower": "گۈل",
+        "heart": "يۈرەك",
+        "tree": "دەرەخ",
+        "boat": "يەلكەنلىك قايىق",
+        "pot-plant": "چۆمۈچتىكى ئۆسۈملۈك"
+      },
+      "region": "رەسىم تورى، {n} × {n}. ئېكران تار بولسا يان تەرەپكە سىرغىيدۇ.",
+      "cell": "نومۇر {number}، قۇر {row}، ستون {column}، {color}",
+      "empty": "بوش",
+      "chose": "{name} تاللاندى. ئۇنى تولدۇرۇش ئۈچۈن كۋادراتنى بېسىڭ.",
+      "painted": "{name}، قۇر {row}، ستون {column} دە.",
+      "sheet": "Every square has the color of its number. This is the picture on the sheet: {name}.",
+      "own": "ھەر بىر كۋادرات تولدۇرۇلدى. بۇ ئۆزىڭىزنىڭ رەسمى.",
+      "fillAll": "نومۇرلار بويىچە تولدۇرۇش",
+      "filledAll": "ھازىر ھەر بىر بوش كۋادرات نومۇرىنىڭ رەڭگىگە ئىگە بولدى.",
+      "clear": "تازىلاش",
+      "cleared": "تور تازىلاندى.",
+      "next": "يەنە بىر رەسىم",
+      "fresh": "رەڭلەش ئۈچۈن يەنە بىر رەسىم."
+    },
+    "patternMaker": {
+      "guidance": "كۋادراتنى بېسىپ رەڭنى ئۆزگەرتىڭ. نەقشىڭىز ئۇنىڭ يېنىدا كېڭىيىدۇ. قىلغان ئىشلىرىڭىز ساقلانمايدۇ ۋە ئەۋەتىلمەيدۇ.",
+      "sizeLegend": "كاشىنىڭ چوڭلۇقى",
+      "size": "{n} × {n}",
+      "keyLegend": "رەڭلەر، ھەر بېسىشتا ئۆزگىرىش تەرتىبى بويىچە",
+      "colors": [
+        "سېرىق",
+        "ئاپېلسىن",
+        "يېشىل",
+        "بىنەپشە"
+      ],
+      "tileLabel": "كاشىڭىز",
+      "region": "كاشىڭىز، {n} × {n}. ئېكران تار بولسا يان تەرەپكە سىرغىيدۇ.",
+      "patternLabel": "نەقشىڭىز",
+      "pattern": "نەقشىڭىز: كاشىڭىز ئوڭ-سولغا {n} قېتىم، ئۈستى-ئاستىغا {n} قېتىم تەكرارلانغان.",
+      "square": "قۇر {row}، ستون {column}، {color}",
+      "changed": "قۇر {row}، ستون {column} ھازىر {color}.",
+      "cleared": "كاشا تازىلاندى. ئۇنى قايتا قويسىڭىز بولىدۇ.",
+      "surprise": "ماڭا تاسادىپىي كاشا",
+      "surprised": "مانا يېڭى كاشا. ئەسلىكىنى قايتا قويسىڭىز بولىدۇ.",
+      "putBack": "قايتا قويۇش",
+      "restored": "كاشىڭىز ئىلگىرىكى ھالىتىگە قايتتى.",
+      "print": "نەقشىمنى بېسىڭ",
+      "sheetTitle": "مېنىڭ نەقشىم"
+    },
+    "buildTogether": {
+      "guidance": "بوش ئورۇنغا بىر پارچە قويۇشتا نۆۋەت بىلەن ئىشلەڭ. ھەربىرىڭىزنىڭ ئۆز رەڭڭىز بار. قىلغان ئىشلىرىڭىز ساقلانمايدۇ ۋە ئەۋەتىلمەيدۇ.",
+      "sizeLegend": "تور چوڭلۇقى",
+      "size": "{n} × {n}",
+      "people": [
+        "بىرىنچى كىشى",
+        "ئىككىنچى كىشى"
+      ],
+      "colorLegend": "{person} نىڭ رەڭگى",
+      "colors": [
+        "سېرىق",
+        "ئاپېلسىن",
+        "يېشىل",
+        "بىنەپشە"
+      ],
+      "inUse": "ئىشلىتىلىۋاتىدۇ",
+      "turn": "نۆۋەت سىزدە، {person|lower}",
+      "yourColor": "رەڭڭىز {color|lower}.",
+      "built": "بىرلىكتە ياسالدى. بۇ ئىككىڭىز ياسىغان رەسىم.",
+      "gridLabel": "ئورتاق تور",
+      "region": "ئورتاق تور، {n} × {n}. ئېكران تار بولسا يان تەرەپكە سىرغىيدۇ.",
+      "cellEmpty": "قۇر {row}، ستون {column}، بوش",
+      "cellFilled": "قۇر {row}، ستون {column}، {color}، {person|lower} قويغان",
+      "placed": "قۇر {row}، ستون {column} ھازىر {color}. نۆۋەت {next|lower} دە.",
+      "placedLast": "قۇر {row}، ستون {column} ھازىر {color}. بىرلىكتە ياسالدى.",
+      "taken": "قۇر {row}، ستون {column} دە ئاللىبۇرۇن پارچە بار. بوش ئورۇننى تاللاڭ.",
+      "pass": "ئۆتۈۋېتىش",
+      "passed": "ئۆتۈۋەتسىڭىزمۇ بولىدۇ. نۆۋەت {person|lower} دە.",
+      "takeBack": "ئاخىرقى پارچىنى قايتۇرۇۋېلىش",
+      "takeBackPass": "ئۆتۈۋەتكەننى قايتۇرۇۋېلىش",
+      "tookBack": "پارچە قايتۇرۇۋېلىندى. نۆۋەت {person|lower} دە.",
+      "tookBackPass": "ئۆتۈۋەتكەن قايتۇرۇۋېلىندى. نۆۋەت {person|lower} دە.",
+      "colorChanged": "{person} ھازىر {color|lower} رەڭگە ئىگە.",
+      "restarted": "تور بوش. نۆۋەت {person|lower} دە.",
+      "print": "تورنى بېسىڭ",
+      "sheetTitle": "بىرلىكتە ياساش",
+      "sheetHelp": "Take turns. In an empty square, each person draws their own shape with their own pencil.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "پارچىنى بېسىڭ، ئاندىن ئۇ جايلىشىدىغان رەسىمدىكى بوشلۇقنى بېسىڭ. قىلغان ئىشلىرىڭىز ساقلانمايدۇ ۋە ئەۋەتىلمەيدۇ.",
+      "hints": "ئىشارەت سىزىقلىرىنى كۆرسەت",
+      "pictureLine": "بۇ {picture}.",
+      "pictures": {
+        "house": "ئۆي",
+        "boat": "قايىق",
+        "tree": "دەرەخ",
+        "fish": "بېلىق",
+        "cat": "مۈشۈك",
+        "rocket": "راكېت"
+      },
+      "outlineLabel": "{picture} نىڭ كونتۇرى. تاللانغان پارچىنى ئۇنىڭغا قويۇش ئۈچۈن بوشلۇقنى بېسىڭ.",
+      "trayHeading": "پارچىلار",
+      "pieces": {
+        "large-triangle": "چوڭ ئۈچبۇلۇڭ",
+        "small-triangle": "كىچىك ئۈچبۇلۇڭ",
+        "square": "كۋادرات",
+        "parallelogram": "پاراللېل تۆتبۇلۇڭ",
+        "rectangle": "توغرىبۇلۇڭ"
+      },
+      "shapes": {
+        "large-triangle": "چوڭ ئۈچبۇلۇڭ",
+        "small-triangle": "كىچىك ئۈچبۇلۇڭ",
+        "square": "كۋادرات",
+        "parallelogram": "پاراللېل تۆتبۇلۇڭ",
+        "rectangle": "توغرىبۇلۇڭ"
+      },
+      "chosenLabel": "تاللانغان",
+      "spaceEmpty": "بوشلۇق {n}، {shape}، بوش",
+      "spaceFilled": "بوشلۇق {n}، {shape}، پارچىسى بار. پارچىنى قايتۇرۇۋېلىش ئۈچۈن بېسىڭ.",
+      "chosen": "{piece} تاللاندى. ئەمدى رەسىمدىكى بىر بوشلۇقنى بېسىڭ.",
+      "unchosen": "بۇ پارچە ئەمدى تاللانمىدى.",
+      "placed": "بۇ پارچە {n}-ئورۇندا.",
+      "complete": "{picture} تامام بولدى.",
+      "different": "بۇ پارچىنىڭ شەكلى بۇ ئورۇنغا ماس كەلمەيدۇ. باشقا ئورۇننى سىناڭ.",
+      "needPiece": "ئاۋال تەخسىدىن بىر پارچە تاللاڭ.",
+      "filled": "بۇ ئورۇندا ئاللىبۇرۇنلا پارچە بار. پارچىنى تەخسىگە قايتۇرۇۋېلىش ئۈچۈن ئۇنى بېسىڭ.",
+      "tookBack": "پارچە تەخسىگە قايتىپ كەلدى.",
+      "cleared": "پارچىلار تەخسىگە قايتىپ كەلدى. پىكرىڭىز ئۆزگەرگەن بولسا، ئۇنى قايتا قويۇڭ.",
+      "restored": "پارچىلار رەسىمگە قايتا قويۇلدى.",
+      "next": "بۇ {picture}.",
+      "putBack": "قايتا قويۇڭ",
+      "another": "باشقا شەكىل",
+      "print": "بۇ شەكىلنى بېسىپ چىقىرىڭ",
+      "sheetTitle": "جىم شەكىللەر",
+      "sheetHow": "پارچىلارنى رەڭلەڭ ياكى كونتۇرغا ماس كېلىدىغانلا قىلىپ قېيىپ ئېلىڭ. قېيىشنى چوڭلار قىلالايدۇ.",
+      "sheetPieces": "كونتۇر بىلەن ئوخشاش چوڭلۇقتىكى پارچىلار"
+    },
+    "picnicPlanner": {
+      "guidance": "رەسىمنى بېسىپ پىكنىك سېۋىتىگە سالسىڭىز بولىدۇ، سېۋەتتىكى رەسىمنى بېسىپ ئېلىۋېتسىڭىزمۇ بولىدۇ. سېۋەتكە 6 نەرسە سىغىدۇ.",
+      "guidancePlay": "ئوخشاش 2 رەسىمنى بېسىڭ. رەسىملەر كۆرۈنۈپ تۇرىدۇ، ۋاقىت ئۆلچەنمەيدۇ.",
+      "basketHeading": "بىزنىڭ سېۋىتىمىز",
+      "basketLabel": "پىكنىك سېۋىتى",
+      "takeOut": "سېۋەتتىن ئېلىۋېتىش: {picture}",
+      "inBasket": "سېۋەتتە",
+      "foodHeading": "يېمەكلىك",
+      "outingsHeading": "قىلىدىغان ئىشلار",
+      "added": "{picture} سېۋەتكە سېلىندى.",
+      "removed": "{picture} سېۋەتتىن ئېلىندى.",
+      "already": "{picture} ئاللىبۇرۇنلا سېۋەتتە بار. ئېلىۋېتىش ئۈچۈن ئۇنى سېۋەتتە بېسىڭ.",
+      "full": "سېۋەت تولدى. ئورۇن ئېچىش ئۈچۈن بىرەر نەرسىنى ئېلىۋېتىڭ.",
+      "summary": "بىزنىڭ پىكنىكىمىز: {list}.",
+      "summaryNone": "سېۋەتتە تېخى ھېچنەرسە يوق.",
+      "and": "ۋە",
+      "play": "پىكنىكىمىز بىلەن ئوينايلى",
+      "needTwo": "ئاۋال ئەڭ ئاز 2 نەرسە تاللاڭ.",
+      "playAgain": "قايتا ئوينا",
+      "back": "پىكنىككە قايتىش",
+      "print": "پىكنىك تىزىمىمىزنى بېسىپ چىقىرىڭ",
+      "cleared": "سېۋەت بوش.",
+      "notice": "بۇ سۆزلىشىش ئۈچۈن تۈزۈلگەن پىلان. ھېچنېمە ۋاقىتقا ئۆلچەنمەيدۇ، باھالانمايدۇ ياكى ساقلانمايدۇ.",
+      "sheetTitle": "بىزنىڭ پىكنىك تىزىمىمىز",
+      "sheetHow": "ھەربىر نەرسىنى سالغاندا بەلگە قويۇڭ. باشقا ئېلىپ بارماقچى بولغان نەرسىلەر ئۈچۈن بوش قۇرلارنى ئىشلىتىڭ.",
+      "sheetToPack": "To pack"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "كىتابنى باشلاش ئۈچۈن ئۆز سۈرەتلىرىڭىزدىن 2 دىن 12 گىچە تاللاڭ.",
+      "guidance": "بەتلەرنى بىللە ئاغدۇرۇڭ، كۇنۇپكىلار ياكى سولغا ۋە ئوڭغا ئوقنى ئىشلىتىڭ. خالىسىڭىز سۈرەت ئاستىغا بىر نەچچە سۆز قوشسىڭىزمۇ بولىدۇ. ياسىغان نەرسىڭىز ساقلانمايدۇ ۋە ئەۋەتىلمەيدۇ.",
+      "lookGuidance": "ھەربىر بەتنى بىللە كۆرۈڭ. سۆزلىشىڭ ياكى پەقەت قاراپ تۇرسىڭىزمۇ بولىدۇ.",
+      "intro": "بۇ ئۈسكۈنىدىن 2 دىن 12 گىچە سۈرەت تاللاڭ. ھەربىر سۈرەت بىللە ئاغدۇرغىلى بولىدىغان كىتابنىڭ بىر بېتى بولىدۇ.",
+      "consent": "ئائىلىڭىزنىڭ ئۆز سۈرەتلىرىنى ئىشلىتىڭ. ھەئە دېيەلمەيدىغان بىرىنىڭ سۈرىتىنى ئىشلىتىشتىن ئاۋال سوراڭ.",
+      "privacy": "سۈرەتلىرىڭىز بۇ ئۈسكۈنىدىلا قالىدۇ. ئۇلار يۈكلەنمەيدۇ ۋە ساقلانمايدۇ.",
+      "choose": "سۈرەت تاللاڭ",
+      "chooseDifferent": "باشقا سۈرەتلەرنى تاللاڭ",
+      "backToBook": "Back to the book",
+      "backToChoose": "سۈرەت تاللاشقا قايتىش",
+      "needTwo": "ئەڭ ئاز 2 سۈرەت تاللاڭ.",
+      "usingFirst": "ئالدىنقى {max} سۈرەت ئىشلىتىلىۋاتىدۇ.",
+      "cleared": "كىتاب تازىلاندى. قايتا باشلاش ئۈچۈن سۈرەت تاللاڭ.",
+      "moved": "{n}-بەتكە ئۆتتى.",
+      "pageOf": "{total} بەتنىڭ {n}-بەتى",
+      "lookTogether": "بىللە قاراڭ",
+      "leaveLook": "Back to the book",
+      "print": "سۈرەت كىتابىنى بېسىپ چىقىرىڭ",
+      "clear": "كىتابنى تازىلاڭ",
+      "bookLabel": "ئائىلە سۈرەت كىتابى",
+      "pagesLabel": "بەتلەرنى ئاغدۇرۇڭ",
+      "previous": "ئالدىنقى بەت",
+      "next": "كېيىنكى بەت",
+      "moveEarlier": "ئالدىغا يۆتكەش",
+      "moveLater": "كېيىنگە يۆتكەش",
+      "captionLabel": "خالىسىڭىز بۇ بەت ئۈچۈن بىر نەچچە سۆز",
+      "captionHelp": "ئەڭ كۆپ 80 ھەرپ. چۈشەندۈرۈشلەر پەقەت بۇ بەتتە ساقلىنىدۇ ۋە ئېتىۋەتكەندە يوقايدۇ.",
+      "sheetTitle": "بىزنىڭ سۈرەت كىتابىمىز",
+      "sheetHow": "ھەربىر بەتتە بىر سۈرەت، ئاستىدا ئۇنىڭ سۆزلىرى بار. بەتلەرنى تەرتىپ بويىچە ئاغدۇرۇپ ھەربىرى ھەققىدە سۆزلەڭ.",
+      "sheetEmpty": "ئۆز كىتابىڭىزنى بېسىش ئۈچۈن ئوينايدىغان بەتتىن سۈرەتلىرىڭىزنى تاللاڭ، ياكى بۇ ئاق بەتنى بېسىپ چىقىرىپ، بېسىلغان سۈرەتنى ئۇنىڭغا چاپلاڭ.",
+      "sheetFrame": "بېسىلغان سۈرەتنى بۇ يەرگە چاپلاڭ",
+      "sheetWords": "بۇ بەت ئۈچۈن بىر نەچچە سۆز",
+      "skipped": {
+        "one": "{n} ھۆججەت ئىشلەتكىلى بولىدىغان سۈرەت ئەمەس ئىكەن.",
+        "other": "{n} ھۆججەت ئىشلەتكىلى بولىدىغان سۈرەت ئەمەس ئىكەن."
+      }
+    },
+    "quietScene": {
+      "guidance": "ھەر قېتىمدا بىر رەسىمگە قاراڭ. تەييار بولغاندا كېيىنكى ياكى ئالدىنقىنى بېسىڭ. ھېچنەرسە ئۆزلۈكىدىن ھەرىكەت قىلمايدۇ.",
+      "next": "كېيىنكى رەسىم",
+      "previous": "ئالدىنقى رەسىم",
+      "bigPicture": "چوڭراق رەسىم",
+      "showEverything": "ھەممىنى كۆرسىتىش",
+      "first": "بۇ بىرىنچى رەسىم.",
+      "last": "بۇ ئاخىرقى رەسىم.",
+      "lines": {
+        "sunrise": "قۇياش يەر ئۈستىدىن چىقىۋاتىدۇ.",
+        "window-with-birds": "دېرىزە سىرتىدا قۇشلار.",
+        "vase-of-flowers": "ئۈستەلدە گۈل سېلىنغان بىر گۈلدان.",
+        "teacup": "دېرىزە يېنىدا بىر پىيالە چاي.",
+        "tree": "باغدا تۇرغان بىر دەرەخ.",
+        "sailboat": "سۇ ئۈستىدىكى بىر يەلكەنلىك كېمە.",
+        "lighthouse": "دېڭىز بويىدىكى بىر ماياك.",
+        "rainbow": "يامغۇردىن كېيىن چىققان بىر كامالەك.",
+        "moon": "كېچىلىك ئاسماندىكى ئاي.",
+        "daisies": "ئوت ئىچىدىكى بىر توپ ئاق گۈل.",
+        "rowing-boat": "جىم سۇدىكى بىر ئەسكەكلىك كېمە.",
+        "potted-plant": "گۈلدانداكى يېشىل ئۆسۈملۈك."
+      }
+    },
+    "collageBoard": {
+      "guidance": "نۆۋەت بىلەن ئويناڭ. قېيىپ ئېلىنغان پارچىنى بېسىڭ، ئاندىن بوش ئورۇننى بېسىپ ئۇ يەرگە قويۇڭ. ياسىغان نەرسىڭىز ساقلانمايدۇ ۋە ئەۋەتىلمەيدۇ.",
+      "people": [
+        "بىرىنچى كىشى",
+        "ئىككىنچى كىشى"
+      ],
+      "marks": [
+        "چەمبەر",
+        "كۋادرات"
+      ],
+      "turn": "نۆۋەت: {person|lower}.",
+      "marked": "پارچىلىرىڭىز {mark} بەلگىسى بىلەن بېكىتىلگەن.",
+      "boardLabel": "ئورتاق تاختا",
+      "placeEmpty": "{n}-ئورۇن، بوش",
+      "placeFilled": "{n}-ئورۇن، {picture|lower}، قويغۇچى: {person|lower}",
+      "trayHeading": "قېيىپ ئېلىنغان پارچىلار",
+      "chosenLabel": "تاللانغان",
+      "chosen": "{picture} تاللاندى. ئەمدى بوش ئورۇننى بېسىڭ.",
+      "unchosen": "قېيىلغان پارچە ئەمدى تاللانمىدى.",
+      "needCutout": "ئاۋال قېيىلغان پارچىنى تاللاڭ، ئاندىن بوش ئورۇننى بېسىڭ.",
+      "filled": "{n}-ئورۇندا ئاللىبۇرۇنلا رەسىم بار. بوش ئورۇن تاللاڭ.",
+      "placed": "{picture} {n}-ئورۇندا. نۆۋەت: {next|lower}.",
+      "full": "ھەممە ئورۇندا رەسىم بار. ئۆزگەرتىش ئۈچۈن بىرنى ئېلىۋېتىڭ ياكى قايتا باشلاڭ.",
+      "pass": "ئۆتكۈزۈش",
+      "passed": "ئۆتكۈزۈۋەتسىڭىزمۇ بولىدۇ. نۆۋەت: {person|lower}.",
+      "takeBack": "ئاخىرقى پارچىنى قايتۇرۇۋېلىڭ",
+      "takeBackPass": "ئۆتكۈزۈشنى قايتۇرۇۋېلىڭ",
+      "tookBack": "پارچە قايتۇرۇۋېلىندى. نۆۋەت: {person|lower}.",
+      "tookBackPass": "ئۆتكۈزۈش قايتۇرۇۋېلىندى. نۆۋەت: {person|lower}.",
+      "restarted": "تاختا بوش. نۆۋەت: {person|lower}.",
+      "putBack": "قايتا قويۇڭ",
+      "putBackDone": "پارچىلار تاختىغا قايتا قويۇلدى.",
+      "another": "باشقا رەسىملەر توپلىمى",
+      "anotherSet": "تەخسىگە يېڭى قېيىلغان پارچىلار توپلىمى قويۇلدى. تاختىدىكى پارچىلار ئۆز ئورنىدا قالىدۇ.",
+      "print": "تاختىنى بېسىپ چىقىرىڭ",
+      "sheetTitle": "كولاژ تاختىسى",
+      "sheetHow": "رەسىملەرنى قېيىپ ئېلىڭ ۋە نۆۋەت بىلەن تاختىغا قويۇڭ. قېيىشنى چوڭلار قىلالايدۇ.",
+      "sheetTray": "قېيىپ ئېلىدىغان رەسىملەر"
+    },
+    "gardenPlanner": {
+      "guidance": "بىر رەسىمنى بېسىپ، ئاندىن ئۇنى قويماقچى بولغان گۈل تاختىسىنى بېسىڭ. رەسىمى بار گۈل تاختىسىنى، ھېچنېمە تاللانمىغان ھالدا بېسىپ تازىلاڭ.",
+      "bedsLabel": "باغنىڭ گۈل تاختىلىرى",
+      "bedEmpty": "گۈل تاختىسى {n}، بوش",
+      "bedFilled": "گۈل تاختىسى {n}، {picture|lower}",
+      "plantsHeading": "ئۆسۈملۈكلەر",
+      "extrasHeading": "باغ قوشۇمچىلىرى",
+      "chosenLabel": "تاللانغان",
+      "chosen": "{picture} تاللاندى. ئەمدى گۈل تاختىسىنى بېسىڭ.",
+      "unchosen": "ھېچقانداق رەسىم تاللانمىدى.",
+      "needPicture": "ئاۋال بىر رەسىم تاللاڭ، ئاندىن گۈل تاختىسىنى بېسىڭ.",
+      "planted": "{picture} {n}-گۈل تاختىسىدا تۇرىدۇ.",
+      "replaced": "{picture} {n}-گۈل تاختىسىدىكى رەسىمنىڭ ئورنىنى ئالىدۇ.",
+      "cleared": "{n}-گۈل تاختىسى بوش. رەسىمنى يەنە خالىسىڭىز، ئۇنى قايتا قويۇڭ.",
+      "restarted": "ھەممە گۈل تاختىسى بوش.",
+      "putBack": "قايتا قويۇش",
+      "putBackDone": "رەسىملەر گۈل تاختىلىرىغا قايتا قويۇلدى.",
+      "summaryHeading": "مېنىڭ باغچام",
+      "summary": "پىلانىڭىزدا {list} بار.",
+      "summaryNone": "تېخى گۈل تاختىسىدا ھېچقانداق رەسىم يوق.",
+      "and": "ۋە",
+      "print": "پىلاننى بېسىپ چىقىرىش",
+      "sheetTitle": "بىزنىڭ باغچا پىلانىمىز",
+      "sheetHow": "گۈل تاختىلىرىدا ئېكراندا تاللانغان رەسىملەر كۆرسىتىلىدۇ. خالىسىڭىز، بوش گۈل تاختىلىرىغا سىزىڭ.",
+      "sheetNotes": "ئىزاھلار",
+      "notice": "بۇ سۆھبەتلىشىش ئۈچۈن ئىشلىتىلىدىغان رەسىم پىلانى، ئۆسۈملۈك تىكىش مەسلىھىتى ئەمەس."
+    },
+    "coloringWall": {
+      "guidance": "Choose a picture and how many pages. Print the wall, and each person colors one or more pages. Nothing is timed, scored or saved.",
+      "pictureLegend": "رەسىم",
+      "sizeLegend": "بەت سانى",
+      "sizes": {
+        "2x2": "4 بەت (2 × 2)",
+        "3x2": "6 بەت (3 × 2)",
+        "3x3": "9 بەت (3 × 3)"
+      },
+      "previewLabel": "{picture|lower} {n} بەتكە بۆلۈنگەن، {across} بويىغا ۋە {down} ئېگىزىگە. ھەر بەتنىڭ بۇلۇڭىدا بىر بەلگە بار.",
+      "previewCaption": "رەسىم بەت سىزىقلىرى ۋە بەلگىلىرى بىلەن بىللە سىزىلغان.",
+      "labelsNote": "ھەرىپلەر تامنىڭ ئاستىغا قاراپ، سانلار يانغا قاراپ ماڭىدۇ، شۇڭا A1 ئەڭ يۇقىرى سول تەرەپتىكى بەت.",
+      "wallHeading": "تامنى قانداق يىغىش",
+      "steps": [
+        "ھەممە بەتلەرنى بېسىپ چىقىرىڭ. بىرىنچى بەت بۇ قەدەملەر ۋە تامنىڭ خەرىتىسى.",
+        "ھەر كىشى بىر ياكى بىر قانچە بەتنى ئېلىپ ئۇلارنى بوياڭ.",
+        "رەڭ ۋە ئۇسلۇبلار ماس كەلمەسلىكى مۇمكىن. ھەر بەت بىر رەسىمنىڭ بىر قىسمى.",
+        "بەتلەرنى بەلگىلىرى بويىچە قاتار قويۇڭ، ئاندىن ئارقا تەرىپىدىن لېنتا بىلەن ئۇلاڭ.",
+        "تامنى ھەممە كۆرىدىغان جايغا ئېسىڭ."
+      ],
+      "mapLabel": "تامنىڭ خەرىتىسى: {down} قاتار، ھەر قاتاردا {across} بەت، A1 دىن {last} غىچە بەلگىلەنگەن.",
+      "edgeNote": "ئۈزۈك سىزىق ھەر بەتنىڭ گىرۋىكىنى بىلدۈرىدۇ. بەتلەرنى شۇ سىزىق بويىچە گىرۋىكى بىلەن گىرۋىكىنى تۇتاشتۇرۇڭ، ياكى ئازراق ئۈستىگە چىقىرىڭ.",
+      "pictureLine": "رەسىم: {picture}. بۇ تام {n} بەت: {across} بويىغا ۋە {down} ئېگىزىگە.",
+      "print": "تامنى بېسىپ چىقىرىش"
+    },
+    "findTogether": {
+      "guidance": "نۆۋەت بىلەن ئوينىڭ. نۆۋىتىڭىزدە ئىككى كارتىنى ئاچىسىز، جۈپ ئىزدەيسىز. جۈپلەرنى بىرلىكتە تېپىڭ.",
+      "sizeLegend": "كارتا سانى",
+      "size": "{n} كارتا",
+      "viewLegend": "ئويناش ئۇسۇلى",
+      "viewShowing": "رەسىملەر ئوچۇق تۇرغان ھالدا ئويناڭ",
+      "viewHidden": "كارتىلار يۈزى ئاستىغا قاراپ تۇرىدۇ",
+      "people": [
+        "بىرىنچى كىشى",
+        "ئىككىنچى كىشى"
+      ],
+      "turn": "نۆۋەت: {person}",
+      "turnDone": "بارلىق جۈپلەر تېپىلدى.",
+      "tally": "بىرلىكتە تېپىلغان جۈپلەر: {n}",
+      "cardNamed": "{name}، {n}-كارتا",
+      "cardFaceDown": "{n}-كارتا، يۈزى ئاستىغا",
+      "first": "{name}. ئەمدى ئىككىنچى كارتىنى ئاچىڭ.",
+      "found": "{name}: جۈپ، بىرلىكتە تېپىلدى. ئەمدى {next|lower}نىڭ نۆۋىتى.",
+      "allTogether": "بارلىق جۈپلەرنى بىرلىكتە تاپتىڭىز.",
+      "different": "{a} بىلەن {b} ئوخشاش ئەمەس. ۋاقتىڭىزنى ئېلىڭ، ئاندىن “ئۇلارنى ئارقىغا ئۆرۈڭ” نى بېسىڭ.",
+      "waiting": "تەييار بولغاندا “ئۇلارنى ئارقىغا ئۆرۈڭ” نى بېسىڭ. ئاندىن نۆۋەت ئۆتىدۇ.",
+      "turnedBack": "ئارقىغا ئۆرۈلدى. ئەمدى {person|lower}نىڭ نۆۋىتى.",
+      "passed": "ئۆتكۈزۈش ياخشى. ئەمدى {person|lower}نىڭ نۆۋىتى.",
+      "turnBack": "ئۇلارنى ئارقىغا ئۆرۈڭ",
+      "pass": "ئۆتكۈزۈش",
+      "playAgain": "يەنە ئوينا"
+    },
+    "drawingDuet": {
+      "guidance": "ھەر بىرىڭىز بىر سىزىق سىزىپ نۆۋەت بىلەن ئوينايسىز، ئاندىن قەلەمنى ئۆتكۈزىسىز. ھەر كىم ئۆتكۈزەلەيدۇ. ھېچنېمە بىرەرگە ئەۋەتىلمەيدۇ. رەسىم بۇ بەتتىن پەقەت ساقلىغاندىلا چىقىدۇ.",
+      "people": [
+        "بىرىنچى كىشى",
+        "ئىككىنچى كىشى"
+      ],
+      "colorLegend": "{person} نىڭ رەڭگى",
+      "colors": [
+        "سېرىق",
+        "قىزغۇچ سېرىق",
+        "يېشىل",
+        "بىنەپشە"
+      ],
+      "turn": "{person} نىڭ نۆۋىتى",
+      "penColor": "قەلەم رەڭگى: {color}.",
+      "canvasLabel": "ئورتاق رەسىم، ھازىرغىچە {n} سىزىق",
+      "canvasLabelOne": "ئورتاق رەسىم، ھازىرغىچە {n} سىزىق",
+      "keys": "يا ئوقلار رەسىمدىكى قەلەم نۇقتىسىنى يۆتكەيدۇ. بوشلۇق قەلەمنى چۈشۈرۈش ياكى كۆتۈرۈشكە ئىشلىتىلىدۇ.",
+      "penDown": "قەلەمنى چۈشۈرۈش",
+      "penUp": "قەلەمنى كۆتۈرۈش",
+      "pass": "قەلەمنى ئۆتكۈزۈش",
+      "passed": "ئۆتكۈزۈش ياخشى. نۆۋەت سىزدە، {person|lower}.",
+      "takeBack": "ئاخىرقى سىزىقىمنى ئېلىۋېتىش",
+      "tookBack": "{person|lower} نىڭ ئاخىرقى سىزىقى ئېلىۋېتىلدى.",
+      "noLine": "{person|lower} نىڭ ئېلىۋېتىدىغان سىزىقى يوق.",
+      "restarted": "بەت تازىلاندى. بىرىنچى كىشى نۆۋەتتە. ئويلىمىغان بولسىڭىز، قايتا قويۇڭ.",
+      "putBack": "قايتا قويۇش",
+      "restored": "سىزىقلار ئىلگىرىكىدەك قايتا قويۇلدى.",
+      "save": "رەسىمنى ساقلاش",
+      "saved": "رەسىمىڭىز تەييار. ئۇنى بۇ ئۈسكۈنىدە saqlash üchün چۈشۈرۈش ئۇلانمىسىنى ئىشلىتىڭ.",
+      "download": "drawing-duet.png نى چۈشۈرۈش",
+      "print": "قەغەز نۇسخىسىنى بېسىپ چىقىرىش",
+      "sheetTitle": "سىزىش جۈپى",
+      "paperRules": "ئىككى كىشى، بىر بەت، ئىككى قەلەم. نۆۋەت بىلەن ئوينايسىز: ھەر بىرىڭىز بىر سىزىق ياكى شەكىل سىزىپ قەلەمنى ئۆتكۈزىسىز. ھەر كىم ئۆتكۈزەلەيدۇ. توغرا رەسىم دېگەن بولمايدۇ."
+    },
+    "colorWash": {
+      "guidance": "Paint soft color across the page, one wash at a time. Lift the brush to stop, and stop whenever you like. Nothing is saved or sent.",
+      "colorLegend": "سۈركەش رەڭگى",
+      "sizeLegend": "سىيرەك چوڭلۇقى",
+      "colors": [
+        "سېرىق",
+        "قىزغۇچ سېرىق",
+        "يېشىل",
+        "بىنەپشە"
+      ],
+      "sizes": {
+        "wide": "كەڭ",
+        "veryWide": "ناھايىتى كەڭ"
+      },
+      "color": "سۈركەش رەڭگى: {color}.",
+      "brushDown": "سىيرەكنى چۈشۈرۈش",
+      "brushUp": "سىيرەكنى كۆتۈرۈش",
+      "keys": "يا ئوقلار بەتتىكى سىيرەك ھالقىسىنى يۆتكەيدۇ. بوشلۇق سىيرەكنى چۈشۈرۈش ياكى كۆتۈرۈشكە ئىشلىتىلىدۇ.",
+      "canvasLabel": "يۇمشاق رەڭلىك سۈركەلگەن بەت",
+      "fresh": "يېڭى بەت",
+      "freshMessage": "يېڭى بەت.",
+      "putBack": "قايتا قويۇش",
+      "restored": "بەت قايتا قويۇلدى."
     },
     "sortTogether": {
       "guidance": "بىر رەسىمنى بېسىڭ، ئاندىن ئۇ كىرىدىغان سېۋەتنى بېسىڭ.",
@@ -70,7 +718,11 @@
       "pickFirst": "ئاۋال بىر رەسىمنى، ئاندىن بىر سېۋەتنى بېسىڭ.",
       "hint": "{name|lower} “{basket}” سېۋىتىگە كىرىشى مۇمكىن. ئۇنى شۇ يەرگە قويۇش ئۈچۈن شۇ سېۋەتنى بېسىڭ.",
       "placed": "{name|lower} “{basket}” ئىچىدە.",
-      "sorted": "ھەممىسi تۈرگە ئايرىلدى. سېۋەتلەرنى بىرگە كۆرۈڭ ياكى باشقa تېمىنى سىناڭ.",
+      "sorted": "Everything is sorted. Look through the baskets together, or try another theme.",
+      "largerTargets": "چوڭ نىشانلار",
+      "largerOn": "چوڭ نىشانلار قوزغىتىلدى. ھېچنېمە يۆتكەلمىدى.",
+      "largerOff": "چوڭ نىشانلار ئۆچۈرۈلدى. ھېچنېمە يۆتكەلمىدى.",
+      "largerOnNewRound": "چوڭ نىشانلار قوزغىتىلدى، ئىككى سېۋەت بار. ئىرلاشتۇرىدىغان يېڭى رەسىملەر مانا.",
       "basket": {
         "one": "{basket} سېۋىتى، ئىچىدە {count} رەسىم",
         "other": "{basket} سېۋىتى، ئىچىدە {count} رەسىم"
@@ -101,6 +753,18 @@
       },
       "guideAlt": "پۈتۈن رەسىم: {name}",
       "guideText": "رەسىم تولۇق بولغاندا مۇشۇنداق كۆرۈنىدۇ.",
+      "ownChoose": "ئۆزۈمنىڭ سۈرىتىنى ئىشلىتىش",
+      "ownChange": "باشقا سۈرەت تاللاش",
+      "ownBack": "بىزنىڭ رەسىملەرگە قايتىش",
+      "ownPrivacy": "Your photo stays on this device. It is not uploaded or saved.",
+      "ownConsent": "ئۆز سۈرەتلىرىڭىزنى ئىشلىتىڭ. ھەمكارلىشالمايدىغان كىشىنىڭ سۈرىتىنى ئىشلەتمەستىن بۇرۇن سوراڭ.",
+      "ownWorking": "سۈرىتىڭىز تەييارلىنىۋاتىدۇ.",
+      "ownNotUsable": "بۇ ھۆججەتنى ئىشلەتكىلى بولمىدى. JPEG ياكى PNG دەك سۈرەت ھۆججىتى تاللاڭ.",
+      "ownAlt": "سىزنىڭ سۈرىتىڭىز",
+      "ownPiece": "{n}-پارچە، {place}",
+      "ownWhole": "سۈرىتىڭىز قايتا تولۇق بولدى. خالىغان ۋاقتىدا يەنە ئارىلاشتۇرۇڭ.",
+      "ownSheetTitle": "پارچىلانغان سۈرىتىڭىز",
+      "ownSheetHow": "سىزىقلار بويىچە كېسىڭ. پارچىلارنى ئارىلاشتۇرۇڭ، ئاندىن ئىككى پارچىدىن ئالماشتۇرۇپ سۈرەت تولۇق بولغۇچە قىلىڭ.",
       "piece": "{place} تەرەپتىكى پارچە",
       "pieceInPlace": "، توغرا ئورۇندا",
       "piecePickedUp": "، ئېلىنغان",
@@ -157,7 +821,7 @@
       "wordFound": " (تېپىلدى)",
       "sheetTitle": "سۆز چېقىشتۇرمىسى: {theme}",
       "sheetNote": "سۆزلەر يان ياكى تىك ھالدا بولىدۇ.",
-      "unavailable": "بۇ تىلدا ھەرپ جەدۋىلى مۇۋاپىق ئەمەس، شۇڭا بۇ يەردە سۆز چېقىشتۇرمىسى تەقدىم قىلinmaydi. ئورنىغا رەسىملىك ئويۇنلارنى سىناڭ."
+      "unavailable": "A letter grid does not suit this language, so the word search is not offered here. Try the picture games instead."
     },
     "coloring": {
       "guidance": "بىر رەڭنى بېسىڭ، ئاندىن رەسىمنىڭ بىر قىسمىنى بېسىڭ.",
@@ -190,6 +854,14 @@
       "guidance": "كارتىنى ئاۋاز چىقىرىپ ئوقۇڭ. توغرا جاۋاب دېگەن نەرسە يوق.",
       "position": "{total} كارتىنىڭ {n}-كارتىسى",
       "themeLegend": "تېما",
+      "showPrompt": "سۆھبەت ئۈندىمىسىنى كۆرسىتىش",
+      "bigPicture": "گۇرۇپپا ئۈچۈن چوڭ رەسىم",
+      "passNote": "ھەر كىم ئۆتكۈزەلەيدۇ.",
+      "groupTitle": "گۇرۇپپىدا كارتىنى ئايلاندۇرۇش",
+      "groupSit": "ھەممەيلەن رەسىمنى كۆرەلەيدىغان دائىرە شەكلىدە ئولتۇرۇڭ. كارتىنى تۇتقان كىشى ياكى چوڭ رەسىمنى كۆرسىتىۋاتقان ئۈسكۈنە ئالدى بىلەن ئۈندىمىنى ئاۋازلىق ئوقۇيدۇ.",
+      "groupPass": "ئاندىن كارتىنى كېيىنكى كىشىگە بېرىڭ. ھەر كىم رەسىم توغرىسىدا بىر سۆز ياكى بىر جۈملە دەيدۇ، ئاندىن ئۇنى ئۆتكۈزىدۇ.",
+      "groupNoSpeech": "كارتىنى ئۆتكۈزۈش ھەمىشە رۇخسەت. ھەر كىم ھېچنېمە دېمەي ئۆتكۈزەلەيدۇ، ھېچكىم نېمە ئۈچۈن دېيىش شەرت ئەمەس.",
+      "groupEnd": "كارتۇچكا چەمبەرنى بىر ئايلىنىپ بولغاندا ياكى گۇرۇپپا يېتەرلىك دەپ قارىغاندا بۇ ئويۇن ئاخىرلىشىدۇ. ھېچكىم غەلىبە قازانمايدۇ. گۇرۇپپا قاچان توختاشنى خالىسا، شۇ ۋاقىتتا توختىسا بولىدۇ.",
       "next": "كېيىنكى كارتا",
       "previous": "ئالدىنقى كارتا",
       "print": "بارلىق كارتىلارنى بېسىپ چىقىرىش",
@@ -199,7 +871,7 @@
       "guidanceEmpty": "ئاۋال رەسىملىرىڭىزنى تاللاڭ.",
       "guidance": "بىر رەسىمنى بېسىڭ، ئاندىن ئۇنىڭغا ماس كېلىدىغان رەسىمنى بېسىڭ.",
       "restart": "قايتا ئارىلاشتۇرۇش",
-      "intro": "**بۇ ئۈسكۈنىدىن 2 دىن 6 غىچە رەسىم تاللاڭ**. ئۇلار پەقەت مۇشۇ بەتتىلا كۆرسىتىلىدۇ، ھەرگىز يۈklenmeydi ياكى ساقlanmaydi.",
+      "intro": "**Choose 1 to 6 photos** from this device. Look through them one at a time, or match pairs with at least two. They stay on this page and are never uploaded or saved.",
       "choose": "رەسىم تاللاش",
       "chooseDifferent": "باشقا رەسىم تاللاش",
       "clear": "رەسىملەرنى تازىلاش",
@@ -242,7 +914,7 @@
       "guidance": "ئايلانما چەمبەر چوڭىيىپ كەتكەندە نەپەس ئېلىڭ، كىچىكلەپ كەتكەندە نەپەس چىقىرىڭ. ئالتە قېتىمدىن كېيىن ئۆزى توختايدۇ.",
       "paceLegend": "سۈرئەت",
       "paceSlow": "ئاستا (ھەر بىرىگە 5 سېكۇنت)",
-      "paceGentle": "يۇمшاق (ھەر بىرىگە 4 سېكۇنت)",
+      "paceGentle": "Gentle (4 seconds each way)",
       "ready": "تەييار بولغىنىڭىزدا باشلاڭ",
       "in": "نەپەس ئېلىڭ",
       "hold": "ئارام ئېلىڭ",
@@ -251,7 +923,21 @@
       "stop": "توختىتىش",
       "started": "باشلاندى. ئايلانما چەمبەر چوڭايغاندا نەپەس ئېلىڭ.",
       "stopped": "توختىتىلدى.",
-      "finished": "ئالتە قېتىم ئاستا نەپەس ئالدىڭىز. خالىغan ۋاقتىڭىزدا قايتا باشلاڭ."
+      "finished": "That was six slow breaths. Start again whenever you like."
+    },
+    "storyChain": {
+      "guidance": "نۆۋەتلىشىپ: ھەر بىرىڭىز بىردىن جۈملە ئېيتىڭ ۋە كېيىنكى سۈرەتنى قوشۇڭ.",
+      "passNote": "جۈملىڭىزنى ئاۋاز چىقىرىپ ئېيتىڭ. ھېچنېمە يېزىلمايدۇ ۋە ساقلانمايدۇ. ھەر كىم ئۆتكۈزۈۋېتەلەيدۇ.",
+      "chainLabel": "ھازىرغىچە بولغان زەنجىر",
+      "item": "سۈرەت {n}: {name}",
+      "add": "سۈرەت قوشۇش",
+      "fullAdd": "زەنجىر تولدى. يېڭى زەنجىر باشلاڭ",
+      "newChain": "يېڭى زەنجىر باشلاش",
+      "takeOff": "ئاخىرقى بىرنى ئېلىۋېتىش",
+      "added": "{name|lower} ھازىر زەنجىرنىڭ ئاخىرىغا قويۇلدى.",
+      "removed": "{name|lower} زەنجىردىن ئېلىۋېتىلدى.",
+      "fresh": "يېڭى زەنجىر، {name|lower} بىلەن باشلاندى.",
+      "full": "زەنجىردە 8 سۈرەتنىڭ ھەممىسى بار. پۈتۈن ھىكايىنى سۆزلەڭ ياكى يېڭى زەنجىر باشلاڭ."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "بۇلۇت، يامغۇر",
     "snowflake": "قار، تال",
     "kite": "چاڭ",
-    "sunrise": "قۇياش چىقىشى، تاغلار"
+    "sunrise": "قۇياش چىقىشى، تاغلار",
+    "decorated-keepsake-box": "ساندۇق، ئويۇلغان",
+    "painted-plant-pot": "قاچا، ئوت-چۆپ بىلەن",
+    "repeating-pattern-sheet": "ۋاراق، تەكرار نەقىش",
+    "music-drawn-lines": "سىزىقلار، مۇزىكا بويىچە",
+    "paper-boat-afloat": "قەغەز كېمە، سۇدا",
+    "folded-towel-stack": "ياغلىق دۆۋىسى، پۈكۈلگەن",
+    "hand-massage-with-lotion": "قول، ياغلىق ئۈستىدە، كرېم بىلەن",
+    "open-photo-album": "سۈرەت ئالبومى، ئېچىلغان",
+    "button-flower-card": "كارتا، توپمىدىن ياسالغان گۈل",
+    "blue-torn-paper-collage": "كولاژ، كۆك يىرتىلغان قەغەز",
+    "family-tree-of-hands": "دەرەخ، قول ئىزى بىلەن",
+    "open-greeting-card": "كارتا، يۈرەك بەلگىسى بىلەن",
+    "lavender-sachet": "خالتا، لاۋەندا، لېنتا بىلەن",
+    "memory-collage-of-photos": "كولاژ، ئائىلە سۈرەتلىرى",
+    "paper-chain-garland": "گىرلياند، قەغەز زەنجىر",
+    "open-songbook-with-notes": "ناخشا كىتابى، نوتىلار بىلەن",
+    "photo-postcard-with-stamp": "سۈرەتلىك ئوچۇق خەت، ماركا بىلەن",
+    "pine-cone-bird-feeder": "قۇش يەم قاچىسى، شاخقا ئېسىلغان",
+    "playlist-phone-and-card": "ناخشا تىزىمى، تېلېفون ۋە كارتا",
+    "sealed-rice-shaker": "گۈرۈچ شاراقچىسى، يېپىق",
+    "texture-board-with-scraps": "تاختا، ماتېرىيال پارچىلىرى بىلەن",
+    "painted-garden-stone": "تاش، باغ ئۈچۈن بويالغان",
+    "shared-painted-canvas": "كەنۋاس، بىرگە بويالغان",
+    "watercolor-washes-sheet": "ۋاراق، سۇ بوياقنىڭ رەڭلىرى",
+    "seedling-in-pot": "قاچا، كۆچەت",
+    "pressed-leaves-in-book": "كىتاب، بېسىلغان يوپۇراقلار",
+    "printed-leaves-sheet": "ۋاراق، يوپۇراق ئىزلىرى",
+    "pinch-pot-clay-bowl": "قاچا، لاي",
+    "table-sketch-pencil": "كوزا، قەلەم رەسمى",
+    "buttons-in-muffin-tin": "توپمىلەر، قالىپتا",
+    "family-recipe-book": "رېتسېپ كىتابى، ئائىلىۋى",
+    "drum-with-beat-marks": "بارابان، تاياقچە بىلەن",
+    "torn-paper-flower": "موزايكا، يىرتىلغان قەغەزدىن گۈل",
+    "window-with-birds": "دېرىزە، قۇشلار بىلەن",
+    "woven-paper-mat": "گىلەم، قەغەزدىن توقۇلغان",
+    "yarn-ball-with-thread": "يىپ شارى",
+    "letter-and-envelope": "خەت، كونۋېرت بىلەن"
   },
   "content": {
     "wordSearch": {
@@ -507,7 +1230,7 @@
         {
           "theme": "home",
           "picture": "key",
-          "prompt": "ئالاھىدە قutuدا ساقلايدىغان قىممەتلىك نەرسە نېمە؟"
+          "prompt": "What is a treasure you would keep in a special box?"
         },
         {
           "theme": "home",
@@ -612,7 +1335,7 @@
         {
           "theme": "work",
           "picture": "bread",
-          "prompt": "ياسашى ياكى رېمونت قىلىشى بىلەن تونۇلغان نەرسىڭىز نېمە ئىدى؟"
+          "prompt": "What is something you were known for making or fixing?"
         },
         {
           "theme": "work",
@@ -696,7 +1419,7 @@
             "sun": "قۇياش",
             "grass": "ئوت-چۆپ",
             "chimney": "مورى",
-            "walls": "تامlar",
+            "walls": "Walls",
             "roof": "ئۆي تېمى",
             "door": "ئىشىك",
             "window-left": "سول دېرىزە",
@@ -765,6 +1488,17 @@
             "سىرتقا چىقىش"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "مېۋە",
+        "animals": "ھايۋانلار",
+        "travel": "سەپەر قىلىش ئۇسۇللىرى",
+        "flowers": "گۈللەر",
+        "hot-drinks": "ئىسسىق ئىچىملىك ئۈچۈن نەرسىلەر",
+        "weather": "ھاۋا-رايى تۈرلىرى",
+        "baked": "تەنۇردا پىشۇرۇلغان نەرسىلەر"
       }
     }
   }

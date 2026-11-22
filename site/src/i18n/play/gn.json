@@ -5,6 +5,13 @@
       "stopReading": "Emombyta ñemoñe'ẽ",
       "region": "Ñembosarái",
       "restart": "Eñepyrũ jey",
+      "rest": "Descansá ahora",
+      "restingTitle": "Descansando",
+      "restingText": "Pedescansa el tiempo que necesités. Tu lugar queda guardado en esta página.",
+      "resume": "Seguí",
+      "placeText": "La última vez quedaste a mitad de camino. Seguí desde ahí, o comenzá de nuevo.",
+      "placeResume": "Seguí",
+      "placeFresh": "Comenzá de nuevo",
       "soundOn": "Tyapu mbegue hendy",
       "soundOff": "Tyapu mbegue ogue",
       "done": "Oĩmbáma ko'ág̃arã",
@@ -43,7 +50,19 @@
       "viewShowing": "Ta'angakuéra ojehecháva",
       "viewHidden": "Ta'angakuéra okañýva",
       "playAgain": "Eñembosarái jey ta'anga pyahúndi",
-      "talk": "Ñañemongeta oñondive umi ta'angáre"
+      "talk": "Ñañemongeta oñondive umi ta'angáre",
+      "modeLegend": "Mávapa ta'ãnga",
+      "modePlay": "Opaite ta'ãnga",
+      "modeDaily": "Tarjeta de ko árape",
+      "dayLegend": "Mávapa ára",
+      "dayHelp": "Opavave oguereko mismo ta'ãnga mismo árape. Ambue árape kuéra avei oĩ ko'ápe, ha peteĩ árape ndejapóiramo ndaipóri mba'eve ojepe'a.",
+      "guidanceDaily": "Ko árape tarjeta oguereko irundy pár. Eméi peteĩ ta'ãnga, upéi emeí upe oikóva ndive.",
+      "restartDaily": "Comenzá ko tarjeta de nuevo",
+      "copy": "Copiá ko línea",
+      "copied": "Copiado. Ni mba'eve ndojehasái.",
+      "calendarTitle": "Tarjetakuéra de ko árape, {month}",
+      "calendarHelp": "Peteĩteĩ árape oguereko irundy mismo ta'ãnga opavave ramo. Ndaipóri puntaje, ha ni peteĩ árape ndojehai'ỹ 'perdido'.",
+      "calendarVersion": "Versión {date}. Umi ta'ãnga oĩ mismo opavave ramo mismo árape."
     },
     "choose": {
       "countLegend": "Mboy ta'angápa",
@@ -62,6 +81,635 @@
       "shadowAlt": "Peteĩ kuarahy'ã ejuaju hag̃ua",
       "foundAlt": "Pe {name|lower} kuarahy'ã"
     },
+    "fourTogether": {
+      "hintLegend": "Pistakuéra",
+      "hintOn": "Pista pausa rire",
+      "hintOff": "Pista'ỹ",
+      "guidance": "Eheka umi {n} ta'ãnga oñeñandu ojupe, ha eméi peteĩteĩ.",
+      "countLegend": "Mboépa ta'ãnga",
+      "count": "{n} ta'ãnga",
+      "found": "Hẽ, {name|lower} oikóma ko grúpope.",
+      "elsewhere": "{name|lower} oiko ambue mba'ére. Pedescansa el tiempo.",
+      "hint": "Peteĩ pista: eheka {theme|lower}.",
+      "together": "Ko'ã oñeñandu ojupe: {theme}.",
+      "shown": "Ko grúpo: {theme}.",
+      "groupName": "Ojupe: {theme}",
+      "show": "Ehechauka ko grúpo",
+      "next": "Ambue conjunto"
+    },
+    "oddOneOut": {
+      "hintLegend": "Pistakuéra",
+      "hintOn": "Pista pausa rire",
+      "hintOff": "Pista'ỹ",
+      "guidance": "Eheka ta'ãnga ndoikóiva ambuekuéra ndive, ha eméi.",
+      "countLegend": "Mboépa ta'ãnga",
+      "count": "{n} ta'ãnga",
+      "belongs": "{name|lower} oiko ambuekuéra ndive. Pedescansa el tiempo.",
+      "found": "Hẽ, {name|lower} hína upe ndoikóiva. Ambuekuéra hína {theme|lower}.",
+      "shown": "Ko'ápe: {name|lower}. Ambuekuéra hína {theme|lower}.",
+      "hint": "Peteĩ pista: {n} ko'ã hína {theme|lower}.",
+      "others": "Ambuekuéra: {theme}",
+      "show": "Ehechauka chéve",
+      "next": "Ambue conjunto"
+    },
+    "seatedToss": {
+      "guidance": "Sentáte peteĩ mesa rehe ha eñandu tira peteĩ bolsita blanda de porotokuéra peteĩ blanco guasúpe. Anotá los puntos en el papel, ojupe.",
+      "stepsHeading": "Mo'ã ojapo",
+      "steps": [
+        "Imprimí el blanco y la planilla de puntos, y emoĩ plana mesa ári pejupe.",
+        "Sentáte pyhare, peteĩ peteĩ ñuʼã ári. Eñandu peteĩ tiro suave cada uno, térã pasá si ndejogueroviápa ejapo.",
+        "Cuando peteĩ tiro cae en un anillo, la persona que tiró marca peteĩ casilla ijuruguáipe, en la fila de ese anillo.",
+        "Ehecha las marcas ojupe cuando ojeacaba, si quieren. Ni peteĩ ndoikói obligado a sumar nada.",
+        "Pejoko jave oĩ peteĩ ojogueraha rire."
+      ],
+      "safetyHeading": "Seguridad",
+      "safetyLine": "Ejeporu solo bolsita con funda cosida térã peteĩ mita enrollada, pemanda sentáte, ndapeʼiri jamo'ã rovýpe, ha tenéi peteĩ adulto apytépe. Mba'e michĩ oiko riesgo de ahogo.",
+      "flags": [
+        "Ndaipórirõ 3 ary mboyve: mba'e michĩ",
+        "Ejejoko jehe'a rapykue"
+      ],
+      "safety": [
+        "Eiporavo peteĩ bolsita con funda cosida, térã emboty peteĩ mita limpia. Ehechakuaa ante agujero térã costura suelta, ndaipóri oñeʼẽtavo mba'eve.",
+        "Porotokuéra, arroz ha ambue relleno michĩ oiko riesgo de ahogo. Emoañete chupe mitãkuéra michĩ ha umi ojepytáva mba'e boca ryepýpe.",
+        "Pemaña peñuʼã ryepýpe ha ehechakuaa porã si oĩ mba'e ikatu ojepytáta boca ryepýpe.",
+        "Pemanda sentáte. Tira suave ha yvate mesa ári blanco rehe, ndapeʼiri jamo'ã rovýpe."
+      ],
+      "previewLabel": "Ko'ã ojehecha planilla imprimida: peteĩ blanco de mbohapy anillo, Cerca, Medio ha Lejos, gotyo ojehupytýva, ha peteĩ planilla de puntos peteĩ columna peteĩteĩ persona rehe ha peteĩ fila casillas vacías peteĩteĩ anillo rehe.",
+      "sheetHow": "Emoĩ plana pejupe. Tiro peteĩ anillo rupi oguejy rire, marcá peteĩ casilla ndejuruguáipe, upe anillo fila pe.",
+      "rings": [
+        "Cerca",
+        "Medio",
+        "Lejos"
+      ],
+      "people": [
+        "Peteĩha persona",
+        "Mokõiha persona"
+      ],
+      "ringHeading": "Anillo",
+      "print": "Imprimí blanco ha planilla de puntos"
+    },
+    "seasonalPack": {
+      "guidance": "Eiporavo peteĩ mes, imprimí sus mbohapy rompecabeza de papel, ha ejapo peteĩ, mokõi térã opavave ojupe.",
+      "monthLegend": "Eiporavo peteĩ mes",
+      "months": [
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "monthNote": "Peteĩteĩ mes oguereko ijeʼẽ ta'ãnga. Ko página ojopy ko mes, ha pejeporu jaiporavo ambue.",
+      "restDay": "Ko ára hína árape descanso",
+      "restLine": "Ko ára ndaipóri rompecabeza. Descanso ára avei hína peteĩ porã ára.",
+      "previewHeading": "Umi mbohapy rompecabeza",
+      "puzzles": {
+        "pairs": {
+          "title": "Emboguejy umi pár",
+          "how": "Emoĩ peteĩ línea peteĩteĩ ta'ãnga filagui, guasu, ha pejuhu upe mismo ta'ãnga fila ruguái.",
+          "describe": "Mokõi fila mismo irundy ta'ãnga, ambue orden."
+        },
+        "different": {
+          "title": "¿Mávapa diferente?",
+          "how": "Emboty círculo rehe ta'ãnga diferente umi ambue mbohapy ndive.",
+          "describe": "Peteĩ fila irundy ta'ãnga. Mbohapy hína igual, ha peteĩ hína diferente."
+        },
+        "color": {
+          "title": "Pintá",
+          "how": "Pintá ta'ãnga jepe ndejogueroviapa, crayón térã lápiz ndive.",
+          "describe": "Peteĩ ta'ãnga guasu pintavape."
+        }
+      },
+      "print": "Imprimí ko mes paquete",
+      "sheetHow": "Imprimí peteĩ página. Ejapo peteĩ, mokõi térã mbohapy rompecabeza, orden jepe.",
+      "printFooter": "Ejapo peteĩ, mokõi térã mbohapy. Pejoko jave pejoguerohory."
+    },
+    "decorateACard": {
+      "guidance": "Eiporavo peteĩ ocasión, ha ñemboʼe peteĩ tarjeta ojupe crayón térã birome ndive. Ndaipóri tarjeta ojapóva porã.",
+      "occasionLegend": "Eiporavo peteĩ ocasión",
+      "occasions": {
+        "birthday": {
+          "label": "Cumpleaños",
+          "words": "Vy'a cumpleaños"
+        },
+        "thank-you": {
+          "label": "Aguyje",
+          "words": "Aguyje"
+        },
+        "thinking-of-you": {
+          "label": "Aheʼi nderehe",
+          "words": "Aheʼi nderehe"
+        },
+        "new-season": {
+          "label": "Peteĩ estación pyahu",
+          "words": "Peteĩ estación pyahu"
+        },
+        "just-because": {
+          "label": "Ndaipóri motivo",
+          "words": "Ndaipóri motivo"
+        }
+      },
+      "stepsHeading": "Mo'ã ñemboʼe ojupe",
+      "steps": {
+        "fold": "Imprimí la tarjeta y emboty mokõiha ári línea punteada rupi, ko'ẽ frente ojehecháramo gotyo.",
+        "front": "Peteĩ persona ñemboʼe frente, palabra rehe ryepýpe.",
+        "inside": "Ambue persona ñemboʼe atrás, térã eñandu peteĩ lado ári.",
+        "message": "Ejapo peteĩ mensaje ojupe. Peteĩ persona oñemoĩ jeʼe, ha ambue heʼi palabra kuéra.",
+        "stop": "Pejoko jave pejoguerohory. Ndaipóri tarjeta ojapóva porã, ha peteĩ sencilla avei porã."
+      },
+      "materials": "Ejeporu crayón, lápiz de color térã marcador. Ndaipóri cortar, pegar térã engomar.",
+      "previewLabel": "Ko'ã ojehecha tarjeta emboty mokõiha ári. Frente he'i {words}, marco sencillo hoja ha estrella ndive. Atrás oguereko línea mensaje rehe ha peteĩ línea De.",
+      "from": "De",
+      "sheetHow": "Pemboryru pe karta pe línea punteada rehe, ha pe frente ojehechaukáva ári. Pehai pe mensaje pe ryvykue ári.",
+      "rulesHeading": "Mokõi tapicha rehe",
+      "sheetRules": [
+        "Emboguejy, térã ñaiko'ẽ pe tembiapo: peteĩ tapicha ombohermosea pe frente, ambue pe ryvykue.",
+        "Pehai pe mensaje peteĩngo, térã peteĩ tapicha ohai pe ambue ñe'ẽ.",
+        "Peteĩ ha peteĩ ikatu ohepyta jevy umi momento. Ndaipóri karta iporãvéva."
+      ],
+      "print": "Imprimi pe karta"
+    },
+    "storyDice": {
+      "guidance": "Ehecha umi ilustración ha emombe'u peteĩ mombe'u upekuéra rehe, mboyve orden rehe. Ndaipóri mombe'u iporãvéva.",
+      "countLegend": "Mbovy dado",
+      "count": "{n} dado",
+      "roll": "Emoĩ jey",
+      "pass": "Heja",
+      "passed": "Heja ha'e porã. Umi ambue tapicha ikatu oñepyrũ, térã ikatu emoĩ jey.",
+      "rolled": "Ilustración pyahu: {names}.",
+      "tapped": "{name}. Eñepyrũ ko'ápe, térã ambue rehe."
+    },
+    "wordPicture": {
+      "guidance": "Ekytĩ peteĩ ilustración ha upe rire pe ñe'ẽ ohéva upe rehe. Térã ekytĩ peteĩ ñe'ẽ ha upe rire pe ilustración.",
+      "countLegend": "Mávapa ilustración",
+      "count": "{n} ilustración",
+      "picturesGroup": "Ilustración",
+      "wordsGroup": "Ñe'ẽ",
+      "readWord": "Eñe'ẽ ipu'akápe: {name}",
+      "next": "Ilustración pyahu",
+      "putBack": "Emoĩ upe jey",
+      "pickWord": "Ko'ágã ekytĩ pe ñe'ẽ ojoajúva upe rehe.",
+      "pickPicture": "Ko'ágã ekytĩ pe ilustración ojoajúva upe rehe.",
+      "fit": "Heẽ, upe ñe'ẽ ojoaju {name|lower} ndive.",
+      "newSet": "Ko'ápe ilustración pyahu ndive.",
+      "restarted": "Ojepyrũ jey. Opaite ilustración ha ñe'ẽ ndaojoajúi jey.",
+      "restored": "Oñemoĩ jey. Ojehechauka jey umi pár ojoajúva.",
+      "all": "Opaite ñe'ẽ oguereko iilustración."
+    },
+    "colorMatch": {
+      "guidance": "Ehecha pe color ha ijéra, upéi ekytĩ opaite ilustración oiko upe color.",
+      "target": "Upe color ha'e {color|lower}. Ekytĩ opaite ilustración oiko {color|lower}.",
+      "countLegend": "Mávapa ilustración",
+      "count": "{n} ilustración",
+      "found": "Heẽ, {name|lower} oiko {color|lower}.",
+      "named": "Upe {name|lower} oiko {color|lower}.",
+      "all": "Ko'ãva opaite ilustración {color|lower} oiko.",
+      "shown": "Ko'ápe umi ilustración {color|lower}.",
+      "show": "Ehechauka umi",
+      "next": "Ambue color",
+      "names": {
+        "red": "Pytã",
+        "orange": "Naranha",
+        "yellow": "Sa'yju",
+        "green": "Hovy",
+        "blue": "Azul"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Ekytĩ peteĩ mitã izquierda pe, upéi ekytĩ upe mitã derecha pe ojoajúva.",
+      "countLegend": "Mávapa ilustración",
+      "count": "{n} ilustración",
+      "leftGroup": "Mitã izquierda",
+      "rightGroup": "Mitã derecha",
+      "left": "Mitã izquierda: {name|lower}",
+      "right": "Mitã derecha: {name|lower}",
+      "joined": "Ojoajúva",
+      "pickRight": "Ko'ágã ekytĩ mitã derecha ojoajúva upe rehe.",
+      "pickLeft": "Ko'ágã ekytĩ mitã izquierda ojoajúva upe rehe.",
+      "fit": "Heẽ, upe mokõi ojapo {name|lower}.",
+      "apart": "Upe mokõi ndojoajúi. Ejerure ambue.",
+      "all": "Opaite ilustración oĩ tuichaitéva.",
+      "shown": "Ko'ápe umi ilustración ojoajúva.",
+      "show": "Ehechauka chéve",
+      "next": "Ambue juego"
+    },
+    "colorByNumber": {
+      "guidance": "Eporavo peteĩ color clave-gui, upéi emoĩ upe color peteĩ cuadrado-pe. Opaite color iporã.",
+      "sizeLegend": "Cuadrícula tamaño",
+      "size": "{n} x {n}",
+      "keyLegend": "Color",
+      "colors": [
+        "Sa'yju",
+        "Naranha",
+        "Hovy",
+        "Morado"
+      ],
+      "motifs": {
+        "house": "peteĩ óga",
+        "flower": "peteĩ flor",
+        "heart": "peteĩ corazón",
+        "tree": "peteĩ yvyra",
+        "boat": "peteĩ bote a vela",
+        "pot-plant": "peteĩ planta maceta-pe"
+      },
+      "region": "Cuadrícula de ilustración, {n} x {n}. Pantalla hasy'ỹ rupi, oñemboguejy costádo.",
+      "cell": "Número {number}, fila {row}, columna {column}, {color}",
+      "empty": "vacío",
+      "chose": "{name} oporavo. Ekytĩ peteĩ cuadrado emoĩ hag̃ua.",
+      "painted": "{name}, fila {row}, columna {column}.",
+      "sheet": "Opaite cuadrado oguereko upe número ojeporavo color. Kóva ilustración papel-pe: {name}.",
+      "own": "Opaite cuadrado oñemboty. Kóva ndéve ilustración.",
+      "fillAll": "Emoĩ color número rehe",
+      "filledAll": "Opaite cuadrado vacío ko'ágã oguereko upe número ojeporavo color.",
+      "clear": "Ejeity",
+      "cleared": "Cuadrícula ojeity.",
+      "next": "Ambue ilustración",
+      "fresh": "Ko'ápe ambue ilustración emoĩ color hag̃ua."
+    },
+    "patternMaker": {
+      "guidance": "Ekytĩ peteĩ cuadrado color ambue hag̃ua. Ndéve patrón ojepy'apýta upe pe guarã. Opa mba'e ndejapóva ndojesalvái, ni ndoguerahaukái.",
+      "sizeLegend": "Tamaño del azulejo",
+      "size": "{n} x {n}",
+      "keyLegend": "Color, ekytĩ jave oñemoambue upe orden rehe",
+      "colors": [
+        "Sa'yju",
+        "Naranha",
+        "Hovy",
+        "Morado"
+      ],
+      "tileLabel": "Ndéve azulejo",
+      "region": "Ndéve azulejo, {n} x {n}. Pantalla hasy'ỹ rupi, oñemboguejy costádo.",
+      "patternLabel": "Ndéve patrón",
+      "pattern": "Ndéve patrón: ndéve azulejo ojeregua {n} vez costádo ha {n} vez abajo.",
+      "square": "Fila {row}, columna {column}, {color}",
+      "changed": "Fila {row}, columna {column} ko'ágã oiko {color}.",
+      "cleared": "Azulejo ojeity. Ikatu emoĩ jey.",
+      "surprise": "Emoʼã chéve peteĩ sorpresa",
+      "surprised": "Ko'ápe peteĩ azulejo pyahu. Ikatu emoĩ jey upe ymaite.",
+      "putBack": "Emoĩ upe jey",
+      "restored": "Ndéve azulejo oñemoĩ jey ojehai ramo.",
+      "print": "Imprimi che patrón",
+      "sheetTitle": "Che patrón"
+    },
+    "buildTogether": {
+      "guidance": "Ñambokyhyjey oñemoĩ peteĩ pieza peteĩ lugar vacío-pe. Peteĩ-peteĩ oguereko ijéva color. Opa mba'e ndejapóva ndojesalvái, ni ndoguerahaukái.",
+      "sizeLegend": "Cuadrícula tamaño",
+      "size": "{n} x {n}",
+      "people": [
+        "Peteĩ tapicha",
+        "Mokõiha tapicha"
+      ],
+      "colorLegend": "{person} color",
+      "colors": [
+        "Sa'yju",
+        "Naranha",
+        "Hovy",
+        "Morado"
+      ],
+      "inUse": "Ojeporúva",
+      "turn": "Nde turno, {person|lower}",
+      "yourColor": "Nde color ha'e {color|lower}.",
+      "built": "Ojapo ñandejuhu. Kóva ilustración mokõi tapicha ojapo vaekue.",
+      "gridLabel": "Cuadrícula compartida",
+      "region": "Cuadrícula compartida, {n} x {n}. Pantalla hasy'ỹ rupi, oñemboguejy costádo.",
+      "cellEmpty": "Fila {row}, columna {column}, vacío",
+      "cellFilled": "Fila {row}, columna {column}, {color}, {person|lower} oñemoĩva",
+      "placed": "Fila {row}, columna {column} ko'ágã oiko {color}. Nde turno, {next|lower}.",
+      "placedLast": "Fila {row}, columna {column} ko'ágã oiko {color}. Ojapo ñandejuhu.",
+      "taken": "Fila {row}, columna {column} oguereko jávape peteĩ pieza. Eporavo peteĩ lugar vacío.",
+      "pass": "Heja",
+      "passed": "Heja ha'e porã. Nde turno, {person|lower}.",
+      "takeBack": "Ejeity upe pieza ipahápe",
+      "takeBackPass": "Ejeity upe heja",
+      "tookBack": "Upe pieza oñemboguejy. Nde turno, {person|lower}.",
+      "tookBackPass": "Upe heja oñemboguejy. Nde turno, {person|lower}.",
+      "colorChanged": "{person} ko'ágã oguereko {color|lower}.",
+      "restarted": "Cuadrícula ojeity. Nde turno, {person|lower}.",
+      "print": "Imprimi cuadrícula",
+      "sheetTitle": "Ñanderehe ojapo",
+      "sheetHelp": "Ñambokyhyjey. Peteĩ cuadrado vacío-pe, peteĩ-peteĩ ohai ijy'a forma ijy'a lápiz rupive.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Ekytĩ peteĩ pieza, upéi ekytĩ upe espacio ilustración-pe oĩva upe pieza ojoajúva. Opa mba'e ndejapóva ndojesalvái, ni ndoguerahaukái.",
+      "hints": "Ehechauka umi línea de pista",
+      "pictureLine": "Kóva ha'e peteĩ {picture}.",
+      "pictures": {
+        "house": "óga",
+        "boat": "bote",
+        "tree": "yvyra",
+        "fish": "pira",
+        "cat": "mimi",
+        "rocket": "cohete"
+      },
+      "outlineLabel": "Upe {picture} ijeheguí. Ekytĩ peteĩ espacio emoĩ hag̃ua peteĩ pieza eporavóva.",
+      "trayHeading": "Umi pieza",
+      "pieces": {
+        "large-triangle": "Triángulo guasu",
+        "small-triangle": "Triángulo michĩ",
+        "square": "Cuadrado",
+        "parallelogram": "Paralelogramo",
+        "rectangle": "Rectángulo"
+      },
+      "shapes": {
+        "large-triangle": "peteĩ triángulo guasu",
+        "small-triangle": "peteĩ triángulo michĩ",
+        "square": "peteĩ cuadrado",
+        "parallelogram": "peteĩ paralelogramo",
+        "rectangle": "peteĩ rectángulo"
+      },
+      "chosenLabel": "Eporavo",
+      "spaceEmpty": "Espacio {n}, {shape}, vacío",
+      "spaceFilled": "Espacio {n}, {shape}, oguereko ipieza. Ekytĩ pieza ejeity hag̃ua.",
+      "chosen": "{piece} oporavo. Ko'ágã ekytĩ peteĩ espacio ilustración-pe.",
+      "unchosen": "Pe pieza ndojeporavóivéima.",
+      "placed": "Pe pieza oĩ espacio {n}-pe.",
+      "complete": "Pe {picture} oñemoañete.",
+      "different": "Upe pieza ha'e ambue forma ko espacio-gui. Eheka ambue espacio.",
+      "needPiece": "Pieza bandeja-gui ojeporavo mboyve.",
+      "filled": "Ko espacio jau oguereko pieza. Pe'a ha pegueraha jey pieza.",
+      "tookBack": "Pe pieza ojevy jey bandeja-pe.",
+      "cleared": "Pieza kuéra ojevy jey bandeja-pe. Nde rembiapo ndejahéi ndaje, emboguejy jey.",
+      "restored": "Pieza kuéra ojevy jey pe ta'anguépe.",
+      "next": "Kóva ha'e {picture}.",
+      "putBack": "Emboguejy jey",
+      "another": "Ambue forma",
+      "print": "Imprimí ko forma",
+      "sheetTitle": "Forma pytũmby",
+      "sheetHow": "Pintá pieza kuéra, térã japo'i chupe ha'e pe ky'a-gui. Pe tuvicha ikatu japo'i.",
+      "sheetPieces": "Pieza kuéra, ojoavy tuichával pe ky'a-gui"
+    },
+    "picnicPlanner": {
+      "guidance": "Pe'a ta'anguéra ombo'ú hag̃ua pe canasta picnic-pe, ha pe'a canasta-pe jey pegueraha hag̃ua. Pe canasta oguereko 6 mba'e.",
+      "guidancePlay": "Pe'a 2 ta'anguéra ojoavýva. Ta'anguéra oikóta ohechakuaaháicha, ha ndaipóri tiempo.",
+      "basketHeading": "Ñande canasta",
+      "basketLabel": "Pe canasta picnic-gui",
+      "takeOut": "Pegueraha jey {picture} canasta-gui",
+      "inBasket": "Canasta-pe",
+      "foodHeading": "Mba'e'ũ",
+      "outingsHeading": "Mba'e jajapo hag̃ua",
+      "added": "{picture} oĩ canasta-pe.",
+      "removed": "{picture} ojevy jey canasta-gui.",
+      "already": "{picture} oĩ jau canasta-pe. Pe'a upépe pegueraha jey hag̃ua.",
+      "full": "Canasta henyhẽ. Pegueraha peteĩ mba'e, ambue ombo'ú hag̃ua.",
+      "summary": "Ñande picnic: {list}.",
+      "summaryNone": "Ndaipóri mba'e canasta-pe ko'ẽrõ.",
+      "and": "ha",
+      "play": "Jajuega ñande picnic-ndive",
+      "needTwo": "Ojeporavo mboyve 2 mba'e.",
+      "playAgain": "Juega jey",
+      "back": "Jevy ñande picnic-pe",
+      "print": "Imprimí ñande picnic lista",
+      "cleared": "Canasta ndaipóri mba'e.",
+      "notice": "Ko plan oñe'ẽ hag̃ua. Ndaipóri tiempo, ndojehai ni ndojeñongatúi.",
+      "sheetTitle": "Ñande picnic lista",
+      "sheetHow": "Marká peteĩteĩ mba'e reipysaʼa jave. Espacio vacío ojeporu ambue mba'e reguerukáva hag̃ua.",
+      "sheetToPack": "Ipysaʼa hag̃ua"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Ejeporavo 2 ha 12 nde foto ojeikuaa hag̃ua pe kuatiarã.",
+      "guidance": "Ojajuka pe kuatiarã jaikóvo ndive, botón térã flecha Izquierda ha Derecha teclas rupi. Peteĩ foto ruguy nde'ẽ mbovy moñe'ẽ, ha pejeporu hag̃ua. Ndojeñongatúi ni ndojehasa'ỹ pe ojapóva.",
+      "lookGuidance": "Ejechaukaʼi peteĩteĩ página jaikóvo ndive. Nde'ẽ térã ehecha poraite.",
+      "intro": "Ejeporavo 2 ha 12 foto ko mbohapyhápe. Peteĩteĩ oiko kuatiarã página peteĩ, ojajuka hag̃ua jaikóvo ndive.",
+      "consent": "Ejeporu nde rendápe foto. Ejerovia ndepe, ojehai ndaje peteĩ ndaikatúiva ojeʼe hag̃ua.",
+      "privacy": "Nde foto oĩ ko mbohapyhápe. Ndojehasa'ỹ ni ndojeñongatúi.",
+      "choose": "Ejeporavo foto",
+      "chooseDifferent": "Ejeporavo ambue foto",
+      "backToBook": "Jevy kuatiarã-pe",
+      "backToChoose": "Jevy foto ojeporavo hag̃ua",
+      "needTwo": "Ejeporavo mboyve 2 foto.",
+      "usingFirst": "Ojeporu pe {max} foto mboyve.",
+      "cleared": "Kuatiarã ojejoko. Ejeporavo foto ojepyrũ jey hag̃ua.",
+      "moved": "Oho página {n}-pe.",
+      "pageOf": "Página {n} de {total}",
+      "lookTogether": "Ehecha jaikóvo ndive",
+      "leaveLook": "Jevy kuatiarã-pe",
+      "print": "Imprimí kuatiarã",
+      "clear": "Ejoko kuatiarã",
+      "bookLabel": "Ñande família kuatiarã",
+      "pagesLabel": "Ojajuka página kuéra",
+      "previous": "Página mboyveguáva",
+      "next": "Página upeguáva",
+      "moveEarlier": "Emoambue mboyvegua",
+      "moveLater": "Emoambue upeguáva",
+      "captionLabel": "Mokõi ñe'ẽ ko página-pe, nde rembiapo",
+      "captionHelp": "Till 80 mbohapykue. Ñe'ẽ oñongatu ko página-pe anive, ejuhu jey hag̃ua reipe'a.",
+      "sheetTitle": "Ñande kuatiarã",
+      "sheetHow": "Peteĩ foto peteĩ página-pe, ha ñe'ẽ upe mboyve. Ejajuka página kuéra ojehapykuéri ha ejerovia peteĩteĩ-gui.",
+      "sheetEmpty": "Ejeporavo nde foto juego página-pe ejapo hag̃ua nde kuatiarã, térã ejapo ko página ndaipóri ha epegua peteĩ foto ipapéva.",
+      "sheetFrame": "Pegua peteĩ foto ipapéva ápe",
+      "sheetWords": "Mokõi ñe'ẽ ko página-pe",
+      "skipped": {
+        "one": "{n} archivo ndaha'éi foto ojeporúvagua.",
+        "other": "{n} archivo kuéra ndaha'éi foto ojeporúvagua."
+      }
+    },
+    "quietScene": {
+      "guidance": "Ehecha peteĩ ta'anguéra peteĩ jey. Eapreta Próximo térã Anterior rembipota jave. Ndojevymo'ã ni peteĩ.",
+      "next": "Próxima ta'anguéra",
+      "previous": "Ta'anguéra mboyveguáva",
+      "bigPicture": "Ta'anguéra tuichavéva",
+      "showEverything": "Ehechauka opavave",
+      "first": "Kóva ha'e pe mboyve ta'anguéra.",
+      "last": "Kóva ha'e pe hakõ ta'anguéra.",
+      "lines": {
+        "sunrise": "Kuarahy oguejýva yvy ári.",
+        "window-with-birds": "Pájaro kuéra ventána rupi.",
+        "vase-of-flowers": "Flor kuéra florero-pe mesa ári.",
+        "teacup": "Ka'a jarro ventána rovapýpe.",
+        "tree": "Yvyra oĩ jardín-pe.",
+        "sailboat": "Barco velero y ári.",
+        "lighthouse": "Faro mar ykére.",
+        "rainbow": "Arco iris ytu'ũ ohóva.",
+        "moon": "Jasy yvága pyhare-pe.",
+        "daisies": "Margarita kuéra kapi'i rupi.",
+        "rowing-boat": "Bote remo y mbytépe ndaipóri yvytu'ũ.",
+        "potted-plant": "Yvoty hovy maceta-pe."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Jajoko tenonde. Pe'a peteĩ recorte, upéi pe'a espacio vacío ojoaju hag̃ua. Ndojeñongatúi ni ndojehasa'ỹ pe ojapóva.",
+      "people": [
+        "Peteĩ persona",
+        "Mokõiha persona"
+      ],
+      "marks": [
+        "peteĩ círculo",
+        "peteĩ cuadrado"
+      ],
+      "turn": "Ne turno, {person|lower}.",
+      "marked": "Ne pieza ojemarka {mark}-gui.",
+      "boardLabel": "Pe tablero ojoajúvape",
+      "placeEmpty": "Espacio {n}, vacío",
+      "placeFilled": "Espacio {n}, {picture|lower}, oñemoĩ {person|lower} rupi",
+      "trayHeading": "Recorte kuéra",
+      "chosenLabel": "Ojeporavo",
+      "chosen": "{picture} ojeporavo. Ko'ágã pe'a espacio vacío.",
+      "unchosen": "Recorte ndojeporavóivéima.",
+      "needCutout": "Ejeporavo mboyve recorte, upéi pe'a espacio vacío.",
+      "filled": "Espacio {n} jau oguereko ta'anguéra. Ejeporavo espacio vacío.",
+      "placed": "{picture} oĩ espacio {n}-pe. Ne turno, {next|lower}.",
+      "full": "Espacio opavavépe oguereko ta'anguéra. Pegueraha peteĩ jey ojemoambue hag̃ua, térã ejepyrũ jey.",
+      "pass": "Pasa",
+      "passed": "Pasa ojeporu avei. Ne turno, {person|lower}.",
+      "takeBack": "Pegueraha jey pieza hepyme'ẽ",
+      "takeBackPass": "Pegueraha jey pasa",
+      "tookBack": "Pieza ojegueraha jey. Ne turno, {person|lower}.",
+      "tookBackPass": "Pasa ojegueraha jey. Ne turno, {person|lower}.",
+      "restarted": "Tablero ndaipóri. Ne turno, {person|lower}.",
+      "putBack": "Emboguejy jey",
+      "putBackDone": "Pieza kuéra oguejy jey tablero-pe.",
+      "another": "Ambue ta'anguéra mbovy",
+      "anotherSet": "Recorte ambue mbovy oĩ bandeja-pe. Tablero-pe pieza kuéra oikóta upépe reiko.",
+      "print": "Imprimí tablero",
+      "sheetTitle": "Tablero collage",
+      "sheetHow": "Japo'i ta'anguéra ha jajoaju tablero-pe jajuka jave. Tuvicha ikatu japo'i.",
+      "sheetTray": "Ta'anguéra japo'ivape"
+    },
+    "gardenPlanner": {
+      "guidance": "Pe'a ta'anguéra, upéi pe'a peteĩ canteiro ojoaju hag̃ua upépe. Pe'a canteiro ojeguerekóva ta'anguéra, ndaipóri ojeporavóva, ojeheja hag̃ua.",
+      "bedsLabel": "Pe canteiro kuéra jardín-pe",
+      "bedEmpty": "Canteiro {n}, vacío",
+      "bedFilled": "Canteiro {n}, {picture|lower}",
+      "plantsHeading": "Yvoty kuéra",
+      "extrasHeading": "Jardín-pe ambue mba'e",
+      "chosenLabel": "Ojeporavo",
+      "chosen": "{picture} ojeporavo. Ko'ágã pe'a peteĩ canteiro.",
+      "unchosen": "Ndaipóri ta'anguéra ojeporavóva.",
+      "needPicture": "Eiporavo ko'ẽ peteĩ ta'anga, upéi emboguejy peteĩ tenda.",
+      "planted": "{picture} oĩ tenda {n}-pe.",
+      "replaced": "{picture} ojekambia ta'anga oĩvape tenda {n}-pe.",
+      "cleared": "Tenda {n} oĩ'ỹ. Eguerekóramo ta'anga jey, emoin'e chupe jey.",
+      "restarted": "Opa tenda oĩ'ỹ.",
+      "putBack": "Emoin'e jey",
+      "putBackDone": "Ta'anga kuéra oguejy jey tendápe.",
+      "summaryHeading": "Che jardín",
+      "summary": "Ne plan oguereko {list}.",
+      "summaryNone": "Ndaipóri ta'anga tendápe ko'ág̃a.",
+      "and": "ha",
+      "print": "Imprimí plan",
+      "sheetTitle": "Ñande jardín plan",
+      "sheetHow": "Tenda kuéra ohechauka pantallápe ojeporavo'ỹva ta'anga. Eñani tenda ndahasýiva reipota ramo.",
+      "sheetNotes": "Ñemoñe'ẽ",
+      "notice": "Ko plan ta'anga ha'e ñe'ẽpy ñemombe'u rehe, ndaha'éi jardín mbo'epy."
+    },
+    "coloringWall": {
+      "guidance": "Eiporavo peteĩ ta'anga ha mboy'a pe'ẽ. Imprimí pared, ha peteĩ-peteĩ ojapo peteĩ térã mboy'a pe'ẽ. Ndaipóri tiempo, puntaje ni ojeguarda.",
+      "pictureLegend": "Ta'anga",
+      "sizeLegend": "Mboy'a pe'ẽ",
+      "sizes": {
+        "2x2": "4 pe'ẽ (2 x 2)",
+        "3x2": "6 pe'ẽ (3 x 2)",
+        "3x3": "9 pe'ẽ (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} oñemboyke {n} pe'ẽpe, {across} ryguápe ha {down} yvate. Peteĩ-peteĩ pe'ẽ oguereko marca ikyto'pe.",
+      "previewCaption": "Ta'anga, pe'ẽ mbohapy ha marca oñemoñe'ẽva.",
+      "labelsNote": "Letra oho pared yvate ha número ryguápe, upévare A1 ha'e pe'ẽ ypy-ruvicha.",
+      "wallHeading": "Mba'éichapa oñemoĩ pared",
+      "steps": [
+        "Imprimí opa pe'ẽ. Ypy pe'ẽ ha'e ko mba'eichaite ha pared mapa.",
+        "Peteĩ-peteĩ oñemoĩ peteĩ térã mboy'a pe'ẽ ha ojapo chugui color.",
+        "Color ha estilo ndaikatúi ojoaju. Opa pe'ẽ ha'e peteĩ ta'anga pyahu.",
+        "Emoĩ pe'ẽ marca ha'e rehe, upéi embojoaju cinta ryepýpe.",
+        "Emoĩ pared hendápe opa ha'e hecha haguã."
+      ],
+      "mapLabel": "Pared mapa: {down} rapyterã, peteĩ-peteĩ {across} pe'ẽ, marcado A1 peve {last}.",
+      "edgeNote": "Línea pyrõ ohechauka peteĩ-peteĩ pe'ẽ borde. Emoĩ pe'ẽ borde-pe, térã oñemboy'a iñe'ẽ.",
+      "pictureLine": "Ta'anga: {picture}. Ko pared ha'e {n} pe'ẽ: {across} ryguápe ha {down} yvate.",
+      "print": "Imprimí pared"
+    },
+    "findTogether": {
+      "guidance": "Oñemoĩ turno. Nde turnope, emosẽ mokõi karta pareja ojuhu haguã. Ojuhu pareja ñandive.",
+      "sizeLegend": "Mboy'a karta",
+      "size": "{n} karta",
+      "viewLegend": "Mba'éichapa ojoko",
+      "viewShowing": "Ojoko ta'anga ohechakuaáva",
+      "viewHidden": "Karta oho yvate",
+      "people": [
+        "Peteĩ persona",
+        "Mokõiha persona"
+      ],
+      "turn": "Turno: {person}",
+      "turnDone": "Opa pareja ojuhu.",
+      "tally": "Pareja ojuhu ñandive: {n}",
+      "cardNamed": "{name}, karta {n}",
+      "cardFaceDown": "Karta {n}, yvate",
+      "first": "{name}. Ko'ẽ emosẽ mokõiha karta.",
+      "found": "{name}: peteĩ pareja, ojuhu ñandive. Ko'ẽ ha'e {next|lower} turno.",
+      "allTogether": "Opa pareja ojuhu ñandive.",
+      "different": "{a} ha {b} ndaikóiva. Tiempo emoĩ, upéi eprese emoin'e jey.",
+      "waiting": "Eprese emoin'e jey tenonde. Upéi oho turno.",
+      "turnedBack": "Oguejy jey. Ko'ẽ ha'e {person|lower} turno.",
+      "passed": "Pasa ha'e porã. Ko'ẽ ha'e {person|lower} turno.",
+      "turnBack": "Emoin'e jey",
+      "pass": "Pasa",
+      "playAgain": "Emboguejy jey"
+    },
+    "drawingDuet": {
+      "guidance": "Peteĩ-peteĩ turno, peteĩ línea, upéi pasa pluma. Ojehu pasa. Nada ndoheséi. Ta'anga oho ko pe'ẽgui ramo reguardáramo.",
+      "people": [
+        "Peteĩ persona",
+        "Mokõiha persona"
+      ],
+      "colorLegend": "Color {person}-pe",
+      "colors": [
+        "Amarillo",
+        "Naranja",
+        "Verde",
+        "Morado"
+      ],
+      "turn": "Turno {person}",
+      "penColor": "Pluma color: {color}.",
+      "canvasLabel": "Dibujo compartido, {n} línea ko'ẽ peve",
+      "canvasLabelOne": "Dibujo compartido, {n} línea ko'ẽ peve",
+      "keys": "Flechas ojapo pluma punto dibujo ári. Espacio ombojoaju pluma ypy'a térã oipe'a.",
+      "penDown": "Pluma dibujo ári",
+      "penUp": "Pluma ojepe'a",
+      "pass": "Pasa pluma",
+      "passed": "Pasa ha'e porã. Nde turno, {person|lower}.",
+      "takeBack": "Emboguejy che última línea",
+      "tookBack": "Oipe'a {person|lower} rehegua última línea.",
+      "noLine": "Ndaipóri {person|lower} rehegua línea oipe'ahaguã.",
+      "restarted": "Pe'ẽ ndaipóri mba'e. Peteĩ persona oguereko turno. Emoin'e jey nde ndaiporavoi ramo.",
+      "putBack": "Emoin'e jey",
+      "restored": "Línea kuéra oĩ jey mboyve.",
+      "save": "Eguarda ta'anga",
+      "saved": "Nde ta'anga oĩ ready. Eiporavo enlace descarga ko mbohapyhápe oguarda haguã.",
+      "download": "Descargar drawing-duet.png",
+      "print": "Imprimí versión pe'ẽ",
+      "sheetTitle": "Dibujo mokõiha",
+      "paperRules": "Mokõi persona, peteĩ pe'ẽ, mokõi pluma. Turno: peteĩ línea térã forma peteĩ-peteĩ, upéi pasa pluma. Ojehu pasa. Ndaipóri ta'anga porã."
+    },
+    "colorWash": {
+      "guidance": "Emboguejy color pe'ẽ rupi, peteĩ-peteĩ. Pincel oipe'a ramo ojehu, ha ejehu nderekóramo. Nada ndoguardái térã ndoheséi.",
+      "colorLegend": "Color",
+      "sizeLegend": "Pincel tamaño",
+      "colors": [
+        "Amarillo",
+        "Naranja",
+        "Verde",
+        "Morado"
+      ],
+      "sizes": {
+        "wide": "Tuicha",
+        "veryWide": "Tuicha ramo"
+      },
+      "color": "Color: {color}.",
+      "brushDown": "Pincel pe'ẽ ári",
+      "brushUp": "Pincel ojepe'a",
+      "keys": "Flechas ojapo pincel anillo pe'ẽ ári. Espacio oñemoĩ pincel ári térã ojepe'a.",
+      "canvasLabel": "Pe'ẽ peteĩ-peteĩ color ñemoñe'ẽ",
+      "fresh": "Pe'ẽ pyahu",
+      "freshMessage": "Pe'ẽ pyahu.",
+      "putBack": "Emoin'e jey",
+      "restored": "Pe'ẽ oguejy jey."
+    },
     "sortTogether": {
       "guidance": "Epoko peteĩ ta'angáre, upéi epoko pe ajaka oĩva'erãhápe.",
       "restart": "Ta'anga pyahu",
@@ -71,6 +719,10 @@
       "hint": "Pe {name|lower} ikatu oike \"{basket}\"-pe. Epoko upe ajakáre emoĩ hag̃ua uppe.",
       "placed": "Pe {name|lower} oĩma \"{basket}\"-pe.",
       "sorted": "Oñemohendapaitéma. Pema'ẽ oñondive umi ajakakuérare, térã peiporavo ambue mba'e rehegua.",
+      "largerTargets": "Tuichave objetivo",
+      "largerOn": "Tuichave objetivo ojapo. Ndaipóri mba'e ojeity.",
+      "largerOff": "Tuichave objetivo ndojapói. Ndaipóri mba'e ojeity.",
+      "largerOnNewRound": "Tuichave objetivo ojapo, mokõi canasta. Ko'ã ta'anga pyahu oñemboaʼe haguã.",
       "basket": {
         "one": "Ajaka {basket}, {count} ta'anga ipype",
         "other": "Ajaka {basket}, {count} ta'angakuéra ipype"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Epoko peteĩ vorére, upéi epoko ambuére. Omoambue hendaguéra.",
-      "restart": "Embojehe'a jey",
+      "restart": "Mix up again",
       "pictureLegend": "Ta'anga",
       "pictures": {
         "sailboat": "Ygarata",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Ta'anga oĩmbáva: {name}",
       "guideText": "Péicha ojehecha pe ta'anga oĩmba jave.",
+      "ownChoose": "Eiporu nde ta'anga",
+      "ownChange": "Eiporavo ambue ta'anga",
+      "ownBack": "Eguejy ñande ta'anga kuérape",
+      "ownPrivacy": "Nde ta'anga oĩta ko mbohapy ape. Nañemoĩi ni nañemboguejýi.",
+      "ownConsent": "Eiporu nde ta'anga kuéra. Ejerure ntevéi pe persona ndaikatuiva eñe'ẽ haguã ta'anga.",
+      "ownWorking": "Ñaneporu nde ta'anga.",
+      "ownNotUsable": "Upe archivo ndojeporuvéi. Eiporavo ta'anga archivo, JPEG térã PNG.",
+      "ownAlt": "Nde ta'anga",
+      "ownPiece": "Parte {n}, {place}",
+      "ownWhole": "Nde ta'anga oĩ jey opa. Emboguejy jey ejeporavo ramo.",
+      "ownSheetTitle": "Nde ta'anga partes",
+      "ownSheetHow": "Eñe'ẽ línea rupi. Emboaʼe parte kuéra, upéi embojoaju mokõi parte peteĩ jey peve ta'anga opa ojojoaju haguã.",
       "piece": "Vore oĩva {place}",
       "pieceInPlace": ", hendaitépe",
       "piecePickedUp": ", oñehupíva",
@@ -122,7 +786,7 @@
         "guy akatúa"
       ],
       "done": "Pe ta'anga oĩmbáma jey. Eñembosarái jey térã epytu'umi.",
-      "playAgain": "Embojehe'a jey"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Pemoñe'ẽ pe ñe'ẽnga oñondive, upéi pepoko pe ñe'ẽ omohu'ãvare chupe.",
@@ -190,6 +854,14 @@
       "guidance": "Emoñe'ẽ pe kuatia'atã hatã. Ko'ápe ndaipóri mbohovái oĩ porãva térã iváiva.",
       "position": "Kuatia'atã {n}, {total}-gui",
       "themeLegend": "Mba'e reheguápa",
+      "showPrompt": "Emombe'u ñemoñe'ẽ mba'e",
+      "bigPicture": "Tuicha ta'anga, grupo haguã",
+      "passNote": "Ojehu pasa.",
+      "groupTitle": "Karta pasa grupo rupi",
+      "groupSit": "Eiko peteĩ círculo, ojehechahaguã ta'anga. Karta kuaáva térã tuicha ta'anga ojapóva pe dispositivo ñe'ẽ ojepe'a ñepyrũme.",
+      "groupPass": "Upéi pasa karta ambue persóna. Peteĩ-peteĩ he'i peteĩ ñe'ẽ térã peteĩ oración ta'anga rehegua, upéi pasa.",
+      "groupNoSpeech": "Karta pasa ha'e opavavete porã. Persona ikatu pasa ndahe'iri mba'e, ha ndaipóri ohaʼarõ he'ise mbaʼépa.",
+      "groupEnd": "Peteĩ ronda opa jave ko kártape ojeguata ramo ko círculo rupi, térã ko grupo ojekanse ramo. Ndaipóri ojeganá. Oñemboty mboʼehára oipota ramo ko grupo.",
       "next": "Kuatia'atã oúva",
       "previous": "Kuatia'atã mboyvegua",
       "print": "Embokuatia opaite kuatia'atã",
@@ -252,6 +924,20 @@
       "started": "Oñepyrũma. Epytuhe oike pe mba'e apu'a tuichavévo.",
       "stopped": "Opytama.",
       "finished": "Poteĩ jey repytuhe mbeguekatu. Eñepyrũ jey reipotaháicha."
+    },
+    "storyChain": {
+      "guidance": "Peẽ jeikóicha: peteĩteĩ peteĩ mombe'u, ha emoĩ upe rire ta'ãnga.",
+      "passNote": "Ere mombe'u aty. Ndaipóri oñeñeno ni oñeñongatu. Opavave ikatu oñemboty.",
+      "chainLabel": "Ko'ẽme peve ojoaju",
+      "item": "Ta'ãnga {n}: {name}",
+      "add": "Emoĩ peteĩ ta'ãnga",
+      "fullAdd": "Ojoaju ohupyty. Eñepyrũ peteĩ ojoaju pyahu",
+      "newChain": "Eñepyrũ peteĩ ojoaju pyahu",
+      "takeOff": "Emboguejy upe mboyvéva",
+      "added": "Ko {name|lower} oĩ ojoaju mboyvépe ko'ágã.",
+      "removed": "Ko {name|lower} ojeguejy ojoaju guive.",
+      "fresh": "Ojoaju pyahu, oñepyrũvo {name|lower} rupi.",
+      "full": "Ojoaju oguerekópe 8 ta'ãnga. Eñeʼẽ opa mombe'u, térã eñepyrũ peteĩ ojoaju pyahu."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Arai oky hag̃ua",
     "snowflake": "Yrypy'a pehẽngue",
     "kite": "Pandorga",
-    "sunrise": "Kuarahy resẽ yvyty ári"
+    "sunrise": "Kuarahy resẽ yvyty ári",
+    "decorated-keepsake-box": "Kaxa mandu'a ojapóva",
+    "painted-plant-pot": "Ysapy pintado",
+    "repeating-pattern-sheet": "Kuatia patrón ojoaju",
+    "music-drawn-lines": "Línea mborepi rehe",
+    "paper-boat-afloat": "Kuatia bote ysýpe",
+    "folded-towel-stack": "Toalla pirapire ojoaju",
+    "hand-massage-with-lotion": "Po toalla ári, crema",
+    "open-photo-album": "Álbum ta'ãnga",
+    "button-flower-card": "Kuatia flor botónpe",
+    "blue-torn-paper-collage": "Collage kuatia azul",
+    "family-tree-of-hands": "Árbol ñemi po ndive",
+    "open-greeting-card": "Kuatia mborayhu",
+    "lavender-sachet": "Lavanda pakete",
+    "memory-collage-of-photos": "Collage ta'ãnga ñemi",
+    "paper-chain-garland": "Guirnalda kuatia",
+    "open-songbook-with-notes": "Kuaderno mborepi",
+    "photo-postcard-with-stamp": "Postal ta'ãnga",
+    "pine-cone-bird-feeder": "Pino mbyjaʼo",
+    "playlist-phone-and-card": "Celular mborepi",
+    "sealed-rice-shaker": "Ysapy arroz ndive",
+    "texture-board-with-scraps": "Tabla pedazo ndive",
+    "painted-garden-stone": "Ita pintado",
+    "shared-painted-canvas": "Tela pintado",
+    "watercolor-washes-sheet": "Kuatia acuarela",
+    "seedling-in-pot": "Ysapy kaʼaʼỹ",
+    "pressed-leaves-in-book": "Kuatia kaʼaru",
+    "printed-leaves-sheet": "Kuatia kaʼaru ñemoĩ",
+    "pinch-pot-clay-bowl": "Ysapy tovy",
+    "table-sketch-pencil": "Taza lápiz ndive",
+    "buttons-in-muffin-tin": "Botón ysapy",
+    "family-recipe-book": "Kuatia tembi'u ñemi",
+    "drum-with-beat-marks": "Tambor palillo ndive",
+    "torn-paper-flower": "Flor kuatia",
+    "window-with-birds": "Ventana mbyja ndive",
+    "woven-paper-mat": "Esterilla kuatia",
+    "yarn-ball-with-thread": "Ovillo lana",
+    "letter-and-envelope": "Kuatia sobre ndive"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Okápe"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Yva",
+        "animals": "Mymba",
+        "travel": "Mba'éichapa ojeho",
+        "flowers": "Flor",
+        "hot-drinks": "Mba'e ro'ỹva ka'ati",
+        "weather": "Tiempo rehegua",
+        "baked": "Mba'e horno-pe ojapóva"
       }
     }
   }

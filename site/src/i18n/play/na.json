@@ -5,6 +5,13 @@
       "stopReading": "Ekaiko ā ibwe",
       "region": "Ekagāmeno",
       "restart": "Tōre ṉa ekaiko",
+      "rest": "Tōmo ko nan mwiri",
+      "restingTitle": "Mwiri nan",
+      "restingText": "Tōmo ruo ē mwiri. Ruwa ebwe ko kaat ē ka ekwe nan ekan.",
+      "resume": "Tōmo ā ka",
+      "placeText": "Ekaruo ko tōmo ni mo ekwe. Tōmo ā ka mwenen ē nan, ke tōmo fo nan ōnō.",
+      "placeResume": "Tōmo ā ka",
+      "placeFresh": "Tōmo fo",
       "soundOn": "Ṉa eō ekē ṉaṉ mēni",
       "soundOff": "Ṉa eō ekē ṉaṉ mēni ibwe",
       "done": "Ekōmi ṉaṉ tōre",
@@ -43,7 +50,19 @@
       "viewShowing": "Pictures ṉaṉ ekeo",
       "viewHidden": "Pictures ṉaṉ tōre",
       "playAgain": "Ekagāmeno ḷaṅ ā pictures ṉaigo",
-      "talk": "Ekaiko ṉaṉ pictures ṉaṉ mā"
+      "talk": "Ekaiko ṉaṉ pictures ṉaṉ mā",
+      "modeLegend": "Which pictures",
+      "modePlay": "Pikcha ē nang",
+      "modeDaily": "Kaat ē ko ran",
+      "dayLegend": "Ran ē ea",
+      "dayHelp": "Ekōba ē mōng ā kaat ē ko ran ekwe, ma ran ē mwen mwin ko ran ē mōng. Ekōba ran ā ka mōng ā ēn mōng.",
+      "guidanceDaily": "Kaat ē ko ran ā ko ē āu pea. Tōtō pikcha, ma tōtō ē e tōtōō.",
+      "restartDaily": "Tōmo kaat ē ko ran fo",
+      "copy": "Kōpi ēn ekwe",
+      "copied": "Ekōpi. Ēn ekwe ā bwa ekaruo ko bwa.",
+      "calendarTitle": "Kaat ē ko ran, {month}",
+      "calendarHelp": "Ran mōng ā ko ē āu pikcha e tōmo ekōba. Ā bwa kōmwan ekwe ma ā bwa ran ē ka ekōba.",
+      "calendarVersion": "Kōmwan {date}. Pikcha ā tōmo ekōba ran ē mōng."
     },
     "choose": {
       "countLegend": "Ṉā pictures ṉaṉ mā",
@@ -62,6 +81,635 @@
       "shadowAlt": "Shadow ṉaṉ ṉa ekeo ṉaṉ pea",
       "foundAlt": "Shadow ṉaṉ {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Ekōba ē mōng",
+      "hintOn": "Ekōba ē mōng mwenen tōmo",
+      "hintOff": "Ā bwa ekōba",
+      "guidance": "Mwidō pikcha ē {n} ē ko ṉōng, ma tōtō pikcha mōng.",
+      "countLegend": "How many pictures",
+      "count": "{n} pikcha",
+      "found": "Ē, {name|lower} ā ko ṉōng nan ekwe.",
+      "elsewhere": "{name|lower} ā ko ṉōng ē ea. Tōmo ko mwiri ekwe.",
+      "hint": "Ekōba: mwidō {theme|lower}.",
+      "together": "Ā ko ṉōng: {theme}.",
+      "shown": "Ekwe ko ṉōng: {theme}.",
+      "groupName": "Ṉōng: {theme}",
+      "show": "Kōmwan ko ṉōng",
+      "next": "Another set"
+    },
+    "oddOneOut": {
+      "hintLegend": "Ekōba ē mōng",
+      "hintOn": "Ekōba ē mōng mwenen tōmo",
+      "hintOff": "Ā bwa ekōba",
+      "guidance": "Mwidō pikcha ē ā bwa ko ṉōng ma ē ea, ma tōtō.",
+      "countLegend": "How many pictures",
+      "count": "{n} pikcha",
+      "belongs": "{name|lower} ā ko ṉōng ma ē ea. Tōmo ko mwiri ekwe.",
+      "found": "Ē, {name|lower} ā ea mwen ē ea. Ē ea ā {theme|lower}.",
+      "shown": "Ekwe: {name|lower}. Ē ea ā {theme|lower}.",
+      "hint": "Ekōba: {n} mwen ā {theme|lower}.",
+      "others": "Ē ea: {theme}",
+      "show": "Kōmwan ekwe",
+      "next": "Another set"
+    },
+    "seatedToss": {
+      "guidance": "Tōmo ko tebul ma tōmo ē ko mēn tōtō ē ea. Ēn ekaruo ko pepa, ma tōmo ekōba.",
+      "stepsHeading": "Ekaruo ā ka",
+      "steps": [
+        "Pirinti ēn ē tikēt ma pepa ē ekaruo ma tōmo ko tebul mwenen ekōba.",
+        "Tōmo nōnō mwenen tebul, tōmo ē ea ko ea. Tōtō ē ea, ē ea ā tōtō ē ko mōng, ke ē mwen ruo ē ko tōtō.",
+        "Ke bōng tōtō ā ko kiri ṉōng, ē ā tōtō ā kōmwan ēn ē kiri ṉōng ā tōtō ko kaat.",
+        "Mwidō ekwe ṉōng ma tōmo, ke tōmo ko ruo. Ā bwa ē mōng ā kōmwan ēn ekwe.",
+        "Tōmo ā mūrō ke ē mōng ā ruo."
+      ],
+      "safetyHeading": "Mwiri ē ā bwa ekaruo",
+      "safetyLine": "Tōmo ko mēn ē ea ma ē kōnō ā bwa kōdō, tōmo ā nōnō, ma ā bwa tōtō ko mōng mwenen ekwe. Ē ea ā bwa mōng ā ekōba.",
+      "flags": [
+        "Ā bwa nan ē ea ē mōng ō 3: ē ea ā bwa mwen",
+        "Tōmo ko ā mwidō ē ā bwa mōng ā kōdō"
+      ],
+      "safety": [
+        "Tōmo ko mēn ē kōnō ā kōdō, ke ē kōnō ā ka. Mwidō ē ā kōdō ma ā ka nan ē mwen ruo.",
+        "Ē ea ā bwa mōng ā ekōba. Mwidō ē ā bwa ē ea, ē ā kōmwan ā ekōba ē mōng.",
+        "Tōmo ā nōnō mwen ā kaat, ma mwidō ē mōng ā bwa ē ea.",
+        "Tōmo ā nōnō. Tōtō mōng ā ko ē tebul, ā bwa ko ē kōdō."
+      ],
+      "previewLabel": "Pepa ē pirinti: tikēt ē ko ṉōng ma ēn ṉōng ē ṉōng, Ekōn, Mwen ma Ea, nan mwen ē ea. Ēn ā ko bōng ma kaat ē mōng nan ṉōng ē mōng.",
+      "sheetHow": "Mwidō pepa mwenen tōmo ko tebul. Ke tōtō ā ko kiri ṉōng, tōmo ko kaat ē mōng nan ēn ē ṉōng.",
+      "rings": [
+        "Ekōn",
+        "Mwen",
+        "Ea"
+      ],
+      "people": [
+        "Ē mōng",
+        "Ē ruo"
+      ],
+      "ringHeading": "Ṉōng",
+      "print": "Pirinti tikēt ma pepa ē kaat"
+    },
+    "seasonalPack": {
+      "guidance": "Tōmo ko ran, pirinti ēn pazl pepa ē tolu, ma tōmo ekaruo ē mōng, ē ruo ke ē tolu mwenen tōmo.",
+      "monthLegend": "Mwidō ran",
+      "months": [
+        "Januari",
+        "Pepuari",
+        "Mati",
+        "Eprel",
+        "Mei",
+        "Jun",
+        "Julai",
+        "Okosta",
+        "Teteman",
+        "Oketopa",
+        "Novema",
+        "Tisema"
+      ],
+      "monthNote": "Ran mōng ā ko pikcha ē ā ea. Ekwe ā ṉōng ran ēn, ma tōmo ā bwa mwidō ran ē ea.",
+      "restDay": "Ran ēn ā ran mūrō",
+      "restLine": "Ā bwa pazl ran ēn. Ran mūrō ā ran ē mwen ruo.",
+      "previewHeading": "Pazl ē tolu",
+      "puzzles": {
+        "pairs": {
+          "title": "Tōtō ē pair",
+          "how": "Tōmo ko tētēk ka pikcha ē mōng ko bōng ē mwen mwa ē ka pikcha ē mōng ko bōng ē tolu.",
+          "describe": "Two rows of the same four pictures, in a different order."
+        },
+        "different": {
+          "title": "Ē mōng ā ea?",
+          "how": "Ēkōn ē pikcha ē ea mwen ē tolu.",
+          "describe": "Bōng ē pikcha ē ea. Tolu ā ko ṉōng, ma mōng ā ea."
+        },
+        "color": {
+          "title": "Ēn ā kaat",
+          "how": "Kaat pikcha ē mwen ekōba ma ekwe ē tōmo ko kaat ē mōng, nan ekōba ko pensil.",
+          "describe": "Mōng ē pikcha ē mwen ā kaat."
+        }
+      },
+      "print": "Pirinti pakiti ran ēn",
+      "sheetHow": "Pirinti mōng ē pepa. Tōmo ko ē mōng, ē ruo, ke ē tolu, ā bwa ko ṉōng ē mōng.",
+      "printFooter": "Tōmo ko ē mōng, ē ruo, ke ē tolu. Mūrō ko mwiri ka mōng."
+    },
+    "decorateACard": {
+      "guidance": "Tōmo ko ran ē ea, ma tōmo ko kaat ka kāt mwenen kiriōn ko pen. Ā bwa kāt ē ea ē mōng.",
+      "occasionLegend": "Mwidō ran",
+      "occasions": {
+        "birthday": {
+          "label": "Ran ē bōng",
+          "words": "Ko bōng ē mwen ē mōng"
+        },
+        "thank-you": {
+          "label": "Ekōn",
+          "words": "Ekōn"
+        },
+        "thinking-of-you": {
+          "label": "Tōmo ko kōnō",
+          "words": "Tōmo ko kōnō"
+        },
+        "new-season": {
+          "label": "Ran ē fo",
+          "words": "Ran ē fo"
+        },
+        "just-because": {
+          "label": "Ē mōng ā ea",
+          "words": "Ē mōng ā ea"
+        }
+      },
+      "stepsHeading": "Ekaruo ā kaat ka kāt mwenen tōmo",
+      "steps": {
+        "fold": "Pirinti kāt ma fōd kōmwan ko ekwe ē tōtō ē kiri, ke ē mōng ā ko ṉōng ē mōng.",
+        "front": "Ē mōng ā kaat ṉōng ē mōng, ko ēn ko words.",
+        "inside": "Ē ea ā kaat mwen ē mōng, ma tōmo ā mwidō ṉōng ē mōng ē ko mwen ē tōtō.",
+        "message": "Tōmo ā kōmwan ēn ekwe mwenen tōmo. Ē mōng ā bwa ko ekwe, ē ea ā ekwe ē ko words.",
+        "stop": "Mūrō ke bōng ē tōmo ā ka. Kāt ē mōng ā ruo, ma ē ea ā mwen ē ruo."
+      },
+      "materials": "Tōmo ā bwa ko kiriōn ko kaat, pensil ē ko kaat ma pen ē ko kaat. Ā bwa ko kōdō, ko ṉōng ma ko kōtō.",
+      "previewLabel": "Ekwe ē kāt ē fōd kōmwan. Ekwe ā ko {words}, ma ṉōng ē ṉōng ē ko ran ma ṉōng. Ko mwen kāt ā ko ṉōng ekwe ē ea, ma ko bōng ā ko From.",
+      "from": "Ko",
+      "sheetHow": "Ekawidũ kārd ngā ruo ngā bwō ngā ekarīk, ma ngā ekaŋ ngā ekabe ruo kōpi. Ekabe nau ngā ekanobe ngā kārd ngā ekaŋ.",
+      "rulesHeading": "Ngā ruo ngā ekaŋ",
+      "sheetRules": [
+        "Ekabe ngā ekaŋ bwō ngā ruo, ma ngā ekabe ruo ngā kōpi: eni ngā ekaŋ dūpa ngā kārd, ma ngā eni ngā ekabe ngā dūpa.",
+        "Write the message together, or one person writes what the other says.",
+        "Anyone may stop at any time. There is no right card."
+      ],
+      "print": "Ekaŋ kārd ngā ekaŋ"
+    },
+    "storyDice": {
+      "guidance": "Look at the pictures and tell a story using them, in any order. There is no right story.",
+      "countLegend": "Ngā ekaŋ ngā dasi",
+      "count": "{n} dasi",
+      "roll": "Ekarīk nau",
+      "pass": "Ekarāp",
+      "passed": "Passing is fine. The next person can start, or you can roll again.",
+      "rolled": "Ngā ekaŋ ngā ekabe: {names}.",
+      "tapped": "{name}. Begin with this one, or any other."
+    },
+    "wordPicture": {
+      "guidance": "Tap a picture, then the word that names it. Or tap a word, then its picture.",
+      "countLegend": "Ngā kōpi ngā dasi",
+      "count": "{n} kōpi",
+      "picturesGroup": "Ngā kōpi",
+      "wordsGroup": "Ngā ekaŋ",
+      "readWord": "Ekaŋ ngā ekabe: {name}",
+      "next": "New pictures",
+      "putBack": "Ekaŋ nau",
+      "pickWord": "Ekabe ngā ekaŋ ngā ekabe ngā kōpi ngā ekaŋ.",
+      "pickPicture": "Ekabe ngā kōpi ngā ekabe ngā ekaŋ ngā ekaŋ.",
+      "fit": "Eo, ngā ekaŋ ngā ekabe ngā {name|lower}.",
+      "newSet": "Ngā kōpi ngā ekaŋ ngā ekabe ngā ekaŋ.",
+      "restarted": "Back to the start. Every picture and word is loose again.",
+      "restored": "Put back. The matched pairs are shown again.",
+      "all": "Ngā ekaŋ ngā ekabe ngā kōpi ngā ekaŋ."
+    },
+    "colorMatch": {
+      "guidance": "Look at the color and its name, then tap every picture that is that color.",
+      "target": "The color is {color|lower}. Tap every picture that is {color|lower}.",
+      "countLegend": "Ngā kōpi ngā dasi",
+      "count": "{n} kōpi",
+      "found": "Eo, ngā {name|lower} ngā {color|lower}.",
+      "named": "Ngā {name|lower} ngā {color|lower}.",
+      "all": "Ngā ekaŋ ngā kōpi ngā {color|lower} ngā ekabe.",
+      "shown": "Ngā kōpi ngā {color|lower} ngā ekabe.",
+      "show": "Show them",
+      "next": "Ekaŋ ngā kāra nau",
+      "names": {
+        "red": "Ret",
+        "orange": "Orange",
+        "yellow": "Iero",
+        "green": "Kriin",
+        "blue": "Bluu"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tap a half on the left, then tap the half on the right that fits it.",
+      "countLegend": "Ngā kōpi ngā dasi",
+      "count": "{n} kōpi",
+      "leftGroup": "Ngā ekaŋ ngā ekaŋ",
+      "rightGroup": "Ngā ekaŋ ngā ruo",
+      "left": "Ekaŋ ngā ekaŋ ngā {name|lower}",
+      "right": "Ekaŋ ngā ruo ngā {name|lower}",
+      "joined": "Joined",
+      "pickRight": "Ekabe ngā ekaŋ ngā ruo ngā ekabe ngā ekaŋ.",
+      "pickLeft": "Ekabe ngā ekaŋ ngā kōpi ngā ekabe ngā ekaŋ.",
+      "fit": "Eo, ngā ruo ngā ekaŋ ngā {name|lower}.",
+      "apart": "Those two do not fit together. Try another.",
+      "all": "Ngā kōpi ngā ekaŋ ngā ekabe ngā eni.",
+      "shown": "Here are the pictures, joined.",
+      "show": "Show me",
+      "next": "Ngā ekaŋ nau"
+    },
+    "colorByNumber": {
+      "guidance": "Choose a color from the key, then fill a square with it. Any color is fine.",
+      "sizeLegend": "Grid size",
+      "size": "{n} ma {n}",
+      "keyLegend": "Colors",
+      "colors": [
+        "Iero",
+        "Orange",
+        "Kriin",
+        "Purpol"
+      ],
+      "motifs": {
+        "house": "ekaŋ ngā eke",
+        "flower": "ekaŋ ngā dūngo",
+        "heart": "ekaŋ ngā ekabe",
+        "tree": "ekaŋ ngā tikī",
+        "boat": "ekaŋ ngā wa",
+        "pot-plant": "ekaŋ ngā dūngo ngā kōpi ngā ekaŋ"
+      },
+      "region": "Picture grid, {n} by {n}. It scrolls sideways if the screen is narrow.",
+      "cell": "Number {number}, row {row}, column {column}, {color}",
+      "empty": "ekaŋ",
+      "chose": "{name} chosen. Tap a square to fill it.",
+      "painted": "{name} ngā ekaŋ {row}, ngā ekaŋ {column}.",
+      "sheet": "Every square has the color of its number. This is the picture on the sheet: {name}.",
+      "own": "Every square is filled. This is your own picture.",
+      "fillAll": "Ekaŋ ngā ekabe ngā kōpi ngā ekaŋ",
+      "filledAll": "Every empty square now has the color of its number.",
+      "clear": "Ekaŋ nau",
+      "cleared": "Ngā ekaŋ ngā ekabe ngā ekaŋ nau.",
+      "next": "Ngā kōpi nau",
+      "fresh": "Ngā kōpi nau ngā ekabe ngā ekaŋ."
+    },
+    "patternMaker": {
+      "guidance": "Tap a square to change its color. Your pattern grows beside it. Nothing you make is saved or sent.",
+      "sizeLegend": "Tile size",
+      "size": "{n} ma {n}",
+      "keyLegend": "Colors, in the order a tap changes them",
+      "colors": [
+        "Iero",
+        "Orange",
+        "Kriin",
+        "Purpol"
+      ],
+      "tileLabel": "Your tile",
+      "region": "Your tile, {n} by {n}. It scrolls sideways if the screen is narrow.",
+      "patternLabel": "Your pattern",
+      "pattern": "Your pattern: your tile repeated {n} across and {n} down.",
+      "square": "Ngā ekaŋ {row}, ngā ekaŋ {column}, {color}",
+      "changed": "Ngā ekaŋ {row}, ngā ekaŋ {column} ngā ekabe {color}.",
+      "cleared": "The tile is clear. You can put it back.",
+      "surprise": "Surprise me",
+      "surprised": "Here is a new tile. You can put the old one back.",
+      "putBack": "Ekaŋ nau",
+      "restored": "Your tile is back as it was.",
+      "print": "Print my pattern",
+      "sheetTitle": "My pattern"
+    },
+    "buildTogether": {
+      "guidance": "Take turns to put a piece in an empty place. Each of you has your own color. Nothing you make is saved or sent.",
+      "sizeLegend": "Grid size",
+      "size": "{n} ma {n}",
+      "people": [
+        "Ekaŋ ngā ekaŋ",
+        "Ekaŋ ngā ruo"
+      ],
+      "colorLegend": "Ngā kōpi ngā {person}",
+      "colors": [
+        "Iero",
+        "Orange",
+        "Kriin",
+        "Purpol"
+      ],
+      "inUse": "Ekabe ngā ekaŋ",
+      "turn": "Ngā ekabe ngā ekaŋ, {person|lower}",
+      "yourColor": "Ngā kōpi ngā ekaŋ ngā {color|lower}.",
+      "built": "Built together. This is the picture the two of you made.",
+      "gridLabel": "Ngā ekaŋ ngā ekabe ngā ekaŋ",
+      "region": "The shared grid, {n} by {n}. It scrolls sideways if the screen is narrow.",
+      "cellEmpty": "Ngā ekaŋ {row}, ngā ekaŋ {column}, ekaŋ",
+      "cellFilled": "Row {row}, column {column}, {color}, placed by the {person|lower}",
+      "placed": "Row {row}, column {column} is now {color}. Your turn, {next|lower}.",
+      "placedLast": "Row {row}, column {column} is now {color}. Built together.",
+      "taken": "Row {row}, column {column} already has a piece. Choose an empty place.",
+      "pass": "Ekarāp",
+      "passed": "Ekarāp ngā ekaŋ. Ngā ekabe ngā ekaŋ, {person|lower}.",
+      "takeBack": "Ekaŋ nau ngā kōpi ngā ekaŋ ngā ekabe",
+      "takeBackPass": "Ekaŋ nau ngā ekarāp",
+      "tookBack": "The piece is taken back. Your turn, {person|lower}.",
+      "tookBackPass": "The pass is taken back. Your turn, {person|lower}.",
+      "colorChanged": "{person} ngā ekabe {color|lower}.",
+      "restarted": "The grid is empty. Your turn, {person|lower}.",
+      "print": "Ekaŋ ngā ekaŋ ngā ekabe",
+      "sheetTitle": "Build together",
+      "sheetHelp": "Take turns. In an empty square, each person draws their own shape with their own pencil.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tap a piece, then tap the space in the picture where it goes. Nothing you make is saved or sent.",
+      "hints": "Show the hint lines",
+      "pictureLine": "Ngā kōpi ngā ekabe ngā {picture}.",
+      "pictures": {
+        "house": "eke",
+        "boat": "wa",
+        "tree": "tikī",
+        "fish": "ika",
+        "cat": "kāt",
+        "rocket": "rokei"
+      },
+      "outlineLabel": "The outline of the {picture}. Tap a space to put a chosen piece in it.",
+      "trayHeading": "The pieces",
+      "pieces": {
+        "large-triangle": "Triangel ngā ekaŋ",
+        "small-triangle": "Triangel ngā ekaŋ ngā ekaŋ",
+        "square": "Skwea",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Rectangle"
+      },
+      "shapes": {
+        "large-triangle": "triangel ngā ekaŋ",
+        "small-triangle": "triangel ngā ekaŋ ngā ekaŋ",
+        "square": "skwea",
+        "parallelogram": "parallelogram",
+        "rectangle": "rectangle"
+      },
+      "chosenLabel": "Ngā ekabe",
+      "spaceEmpty": "Ngā ekaŋ {n}, {shape}, ekaŋ",
+      "spaceFilled": "Space {n}, {shape}, has its piece. Tap to take the piece back.",
+      "chosen": "{piece} is chosen. Now tap a space in the picture.",
+      "unchosen": "Pis ena ichi ibwiti tabeka.",
+      "placed": "Pis ena ibwiti {n}.",
+      "complete": "{picture} ena ichitichit.",
+      "different": "Pis eni ena shape ichibwe ren bwiti eni. Ibwiti bwiti tabeka.",
+      "needPiece": "Ibwiti pis mi tray mwi.",
+      "filled": "Bwiti eni ena pis ibwe. Tabe ibwe ni ibwiti pis ben.",
+      "tookBack": "Pis ena ibwiti ren tray.",
+      "cleared": "Pis ena ibwiti ren tray. Ibwiti ibwe ibwiti ngeyi ibwe ni ichi ibwe.",
+      "restored": "Pis ena ibwiti ren picture.",
+      "next": "Eni ena {picture}.",
+      "putBack": "Ibwiti ben",
+      "another": "Shape ibwe",
+      "print": "Ibwiti shape eni",
+      "sheetTitle": "Shape ichibwe",
+      "sheetHow": "Ibwiti pis ni ichitichit, ose ibwiti ni ichi ibwe ren outline. Adult ena ibwe ichi ren ibwiti.",
+      "sheetPieces": "Pis eni, ren size ibwe ren outline"
+    },
+    "picnicPlanner": {
+      "guidance": "Tabe picture ni baskit piknik, ose tabe ni baskit ni taitai. Baskit ena 6 ibwe.",
+      "guidancePlay": "Tabe 2 picture ibwe ichitichit. Picture ena ichi ibwiti, ose ena ibwe taim.",
+      "basketHeading": "Baskit ami",
+      "basketLabel": "Baskit piknik",
+      "takeOut": "Ibwiti {picture} ren baskit",
+      "inBasket": "Mi baskit",
+      "foodHeading": "Ibwe ni ania",
+      "outingsHeading": "Ibwe ni ichibwe",
+      "added": "{picture} ena mi baskit.",
+      "removed": "{picture} ena ibwiti ren baskit.",
+      "already": "{picture} ena mi baskit ibwe. Tabe ibwe mi baskit ni ibwiti.",
+      "full": "The basket is full. Take something out to make room.",
+      "summary": "Piknik ami: {list}.",
+      "summaryNone": "Ibwe ena mi baskit ichi.",
+      "and": "ose",
+      "play": "Ichi ibwe ren piknik ami",
+      "needTwo": "Ibwiti ibwe 2 ibwe mwi.",
+      "playAgain": "Ichi ibwe ben",
+      "back": "Ben ren piknik",
+      "print": "Ibwiti list piknik ami",
+      "cleared": "Baskit ena ichi ibwe.",
+      "notice": "Ena plan ni ibwe ichitichit. Ibwe ena ibwe taim, rating ose save.",
+      "sheetTitle": "List piknik ami",
+      "sheetHow": "Tick each thing as you pack it. Use the blank lines for anything else you want to bring.",
+      "sheetToPack": "Ni pack"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Ibwiti 2 ren 12 photo ami ni ichi book.",
+      "guidance": "Ibwiti page ichitichit, ren button ose arrow ren Left ose Right. Ibwe ichi ibwe words mi bwiti photo ena ichi. Ibwe ena save ose tono.",
+      "lookGuidance": "Look ibwe page ichitichit. Ichi ibwe ose ichi look ibwe.",
+      "intro": "Ibwiti 2 ren 12 photo mi device eni. Photo ichitichit ena ichi page ren book ni ibwiti ichitichit.",
+      "consent": "Ibwiti photo ami ren family. Ichi ibwe ren ibwe photo ren ibwe ena ibwe ichi ni yes.",
+      "privacy": "Photo ami ena mi device eni. Ena ibwe upload ose save.",
+      "choose": "Ibwiti photo",
+      "chooseDifferent": "Ibwiti photo ibwe",
+      "backToBook": "Ben mi book",
+      "backToChoose": "Ben ren ibwiti photo",
+      "needTwo": "Ibwiti 2 photo ibwe.",
+      "usingFirst": "Ichi ibwe ren {max} photo mwi.",
+      "cleared": "Book ena ichi. Ibwiti photo ni ichi ibwe.",
+      "moved": "Ena page {n}.",
+      "pageOf": "Page {n} ren {total}",
+      "lookTogether": "Look ichitichit",
+      "leaveLook": "Ben mi book",
+      "print": "Ibwiti scrapbook",
+      "clear": "Ichi book",
+      "bookLabel": "Scrapbook ren family",
+      "pagesLabel": "Ibwiti page",
+      "previous": "Page mwi",
+      "next": "Page ben",
+      "moveEarlier": "Ibwiti mwi",
+      "moveLater": "Ibwiti ben",
+      "captionLabel": "Ibwe words ren page eni, ni ichi ibwe",
+      "captionHelp": "Ibwe 80 character. Caption ena ichi mi page eni, ose ena ichi ren ibwiti.",
+      "sheetTitle": "Scrapbook ami",
+      "sheetHow": "Photo mwi mi page mwi, ren words ni ichi ibwe. Ibwiti page ichitichit ose talk ibwe ichi mwi.",
+      "sheetEmpty": "Ibwiti photo ami mi game page ni print book ami, ose print page eni ni ichi ibwe ren photo ni print.",
+      "sheetFrame": "Ichi photo ni print ni",
+      "sheetWords": "Ibwe words ren page eni",
+      "skipped": {
+        "one": "{n} file ena ibwe photo ni ibwiti.",
+        "other": "{n} file ibwe ena ibwe photo ni ibwiti."
+      }
+    },
+    "quietScene": {
+      "guidance": "Look ibwe picture mwi. Press Next ose Previous ni ichi ibwe. Ibwe ena ichi ibwiti ni ichi.",
+      "next": "Picture ben",
+      "previous": "Picture mwi",
+      "bigPicture": "Picture ena ibwe",
+      "showEverything": "Ichi ibwe ichitichit",
+      "first": "Eni ena picture mwi.",
+      "last": "Eni ena picture ni mwi.",
+      "lines": {
+        "sunrise": "Ena ibwe ichi ren land.",
+        "window-with-birds": "Ibwe ni bird ren window.",
+        "vase-of-flowers": "Vase ren flower mi table.",
+        "teacup": "Ibwe cup ren ti ren window.",
+        "tree": "Ena tree ichi mi garden.",
+        "sailboat": "Sailboat mi water.",
+        "lighthouse": "Lighthouse ren sea.",
+        "rainbow": "Rainbow ren rain.",
+        "moon": "Moon mi sky ren night.",
+        "daisies": "Ibwe daisy mi grass.",
+        "rowing-boat": "Rowing boat mi water ichi.",
+        "potted-plant": "Ena plant green mi pot."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Ibwiti turn. Tabe cut-out, ose tabe place ichi ni ichi eni. Ibwe ena ichi ose ena ibwe save ose tono.",
+      "people": [
+        "Ibwe mwi",
+        "Ibwe rua"
+      ],
+      "marks": [
+        "ibwe kairiu",
+        "ibwe tabeka"
+      ],
+      "turn": "Turn ami, {person|lower}.",
+      "marked": "Pis ami ena mark ren {mark}.",
+      "boardLabel": "Board ichitichit",
+      "placeEmpty": "Place {n}, ena ichi",
+      "placeFilled": "Place {n}, {picture|lower}, ibwiti ren {person|lower}",
+      "trayHeading": "Cut-out",
+      "chosenLabel": "Ibwiti",
+      "chosen": "{picture} ena ibwiti. Tabe place ichi ibwe.",
+      "unchosen": "Cut-out ena ibwiti ren ichi.",
+      "needCutout": "Ibwiti cut-out mwi, ose tabe place ichi ibwe.",
+      "filled": "Place {n} ena ibwe picture. Ibwiti place ichi ibwe.",
+      "placed": "{picture} ena mi place {n}. Turn ami, {next|lower}.",
+      "full": "Place ichitichit ena picture. Ibwiti ibwe ben ni ichi, ose ichi ibwe.",
+      "pass": "Pass",
+      "passed": "Pass ena ibwe. Turn ami, {person|lower}.",
+      "takeBack": "Ibwiti pis mwi",
+      "takeBackPass": "Ibwiti pass mwi",
+      "tookBack": "Pis ena ibwiti. Turn ami, {person|lower}.",
+      "tookBackPass": "Pass ena ibwiti. Turn ami, {person|lower}.",
+      "restarted": "Board ena ichi. Turn ami, {person|lower}.",
+      "putBack": "Ibwiti ben",
+      "putBackDone": "Pis ena ben mi board.",
+      "another": "Set ibwe ren picture",
+      "anotherSet": "Set ibwe ren cut-out ena mi tray. Pis mi board ena ichi ibwe.",
+      "print": "Ibwiti board",
+      "sheetTitle": "Collage board",
+      "sheetHow": "Ibwiti picture ni cut-out, ose turn ibwiti ni ichi ibwe mi board. Adult ena ibwe ichi ren ibwiti.",
+      "sheetTray": "Picture ni cut-out"
+    },
+    "gardenPlanner": {
+      "guidance": "Tabe picture, ose tabe bed ni ichi ibwe. Tabe bed ena picture, ena ibwiti ichi, ni ibwiti.",
+      "bedsLabel": "Bed ren garden",
+      "bedEmpty": "Bed {n}, ena ichi",
+      "bedFilled": "Bed {n}, {picture|lower}",
+      "plantsHeading": "Plant",
+      "extrasHeading": "Ibwe ni garden",
+      "chosenLabel": "Ibwiti",
+      "chosen": "{picture} ena ibwiti. Tabe bed ichi ibwe.",
+      "unchosen": "Picture ena ibwiti ichi.",
+      "needPicture": "Ekaboa ekaibo mobwin, ao ekaboa bed.",
+      "planted": "{picture} e ijan bed {n}.",
+      "replaced": "{picture} e ikaninaiyo ekaibo ijan bed {n}.",
+      "cleared": "Bed {n} e ibwiri. Kaiban ekaibo mo ngan ekabo mo kakaibo.",
+      "restarted": "Bed nako e ibwiri.",
+      "putBack": "Kaiban",
+      "putBackDone": "Ekaibo e ikaiban ijan bed nakon.",
+      "summaryHeading": "Garden inau",
+      "summary": "Plan inau e ikaiyo {list}.",
+      "summaryNone": "Ekaibo ruo nako ijan bed ikaine.",
+      "and": "ao",
+      "print": "Ekaiban plan",
+      "sheetTitle": "Plan garden inau",
+      "sheetHow": "Bed e ikaiyo ekaibo e ikaboa ngan ekran. Ekaibo bed ibwiri ngan ikaibo aiwo.",
+      "sheetNotes": "Ekaiyo",
+      "notice": "Ebwin plan ekaibo ni kakaiban, ma ebwin kaiyo aiwo ni tum garden."
+    },
+    "coloringWall": {
+      "guidance": "Ekaboa ekaibo ao ekaboa ekabo ekaibo. Ekaiban wall, ao ruo ekabo e kakaibo ekaibo ruo ao ekabo. Ebwin ibwiri, ebwin ikain, ao ebwin ekaiban.",
+      "pictureLegend": "Ekaibo",
+      "sizeLegend": "Ekabo ekaibo",
+      "sizes": {
+        "2x2": "4 ekabo (2 ngan 2)",
+        "3x2": "6 ekabo (3 ngan 2)",
+        "3x3": "9 ekabo (3 ngan 3)"
+      },
+      "previewLabel": "{picture|lower} e ikaibo ijan {n} ekabo, {across} ijan ekaboa ao {down} ijan ekaibo. Ruo ekabo e ikaboa ngan ikaibo ijan ekaibo.",
+      "previewCaption": "Ekaibo ngan ekabo wall ao ekaibo e ikaibo ijan.",
+      "labelsNote": "Ekaibo ekabo ijan wall ao ekaibo ekaibo ijan ruo, ao A1 e ekabo ijan ibwiri ikain.",
+      "wallHeading": "Ekaibo wall ni kaiban",
+      "steps": [
+        "Ekaiban ekabo nako. Ekabo ibwiri e ekaiyo kaiyo ao map ijan wall.",
+        "Ruo ekabo ao ekaiban ekabo ekabo ao ekaibo.",
+        "Colors and styles do not need to match. Every page is part of the same picture.",
+        "Ekaiban ekabo ngan ekaibo, ao ekaiban ngan tape ijan kaiban.",
+        "Ekaibo wall ijan ikain ruo ekabo e kakaibo."
+      ],
+      "mapLabel": "Map ijan wall: {down} ekaboa ijan {across} ekabo, ekaibo ngan A1 ibwiri {last}.",
+      "edgeNote": "Ekaboa dashed line e ikaibo ijan ekabo ruo. Ekaiban ekabo ijan ekaboa ao ebwin ekaiban ngan tab.",
+      "pictureLine": "Ekaibo: {picture}. Wall nei e {n} ekabo: {across} ijan ekaboa ao {down} ijan ekaibo.",
+      "print": "Ekaiban wall"
+    },
+    "findTogether": {
+      "guidance": "Ekaiban ekaboa. Ijan ekabo ko, ekaibo ruo kaboa ekaibo ni kakaiban. Kakaiban pairs ngan ikaibo.",
+      "sizeLegend": "Ekabo ekaibo kaiban",
+      "size": "{n} ekabo",
+      "viewLegend": "Ekaibo ekaiyo",
+      "viewShowing": "Kaiban ngan ekaibo e ikaboa",
+      "viewHidden": "Ekabo e ikaibo ibwiri",
+      "people": [
+        "Ruo aiwo",
+        "Ruo ibwiri"
+      ],
+      "turn": "Ekabo: {person}",
+      "turnDone": "Pairs nako e ikaiban.",
+      "tally": "Pairs ikaiban ngan ikaibo: {n}",
+      "cardNamed": "{name}, ekabo {n}",
+      "cardFaceDown": "Ekabo {n}, ibwiri",
+      "first": "{name}. Kaboa ekabo ibwiri.",
+      "found": "{name}: pair, ikaiban ngan ikaibo. Ekabo e {next|lower}.",
+      "allTogether": "Ikaiban pairs nako ngan ikaibo.",
+      "different": "{a} ao {b} e ikaibo ibwiri. Ekaiyo ngan ekabo, ao kaiban Kaiban ibwiri.",
+      "waiting": "Kaiban Kaiban ibwiri ngan ekabo ikaiyo. Ao ekabo e ikaiban.",
+      "turnedBack": "Ibwiri. Ekabo e {person|lower}.",
+      "passed": "Ekaiyo ekabo e ikaibo. Ekabo e {person|lower}.",
+      "turnBack": "Kaiban ibwiri",
+      "pass": "Ekaiyo",
+      "playAgain": "Kakaiban mo"
+    },
+    "drawingDuet": {
+      "guidance": "Ekabo ruo ikaibo ruo, ao kaiban ekaibo. Ruo e ebwin ekaiyo. Ekaibo ruo e ikain ibwiri. Ekaibo e ikaiban ijan ekabo ibwiri ngan ekaiban.",
+      "people": [
+        "Ruo aiwo",
+        "Ruo ibwiri"
+      ],
+      "colorLegend": "Kaiban {person}",
+      "colors": [
+        "Yellow",
+        "Orange",
+        "Green",
+        "Purple"
+      ],
+      "turn": "Ekabo {person}",
+      "penColor": "Kaiban pen: {color}.",
+      "canvasLabel": "Ekaibo ekabo ibwiri, {n} ikaibo ikain",
+      "canvasLabelOne": "Ekaibo ekabo ibwiri, {n} ikaibo ikain",
+      "keys": "Arrow keys e ikaiyo dot ijan ekaibo. Space e ikaiban pen ikain ao ikaiban.",
+      "penDown": "Pen ijan",
+      "penUp": "Pen ikain",
+      "pass": "Ekaiban pen",
+      "passed": "Ekaiyo e ikaibo. Ekabo nim, {person|lower}.",
+      "takeBack": "Kaiban ikaibo ikaiyo",
+      "tookBack": "Ikaibo ikaiyo ijan {person|lower} e ikaiban.",
+      "noLine": "Ruo ikaibo ijan {person|lower} ni kaiban.",
+      "restarted": "Sheet e ibwiri. Ruo aiwo e ekabo. Kaiban ibwiri ngan ekaibo ni kakaiban.",
+      "putBack": "Kaiban",
+      "restored": "Ikaibo e ikaiban ibwiri.",
+      "save": "Kaiban ekaibo",
+      "saved": "Ekaibo nim e ikain. Ekaiyo download ni ekaiban ijan device nei.",
+      "download": "Download drawing-duet.png",
+      "print": "Ekaiban paper version",
+      "sheetTitle": "Drawing duet",
+      "paperRules": "Ruo ibwiri, sheet aiwo, pen ibwiri. Kaiban ekabo: ikaibo aiwo ruo ao shape, ao ekaiban pen. Ruo e ebwin ekaiyo. Ekaibo ruo ebwin ekabo."
+    },
+    "colorWash": {
+      "guidance": "Ekaiban kaiban ekaibo ijan page, ruo wash ikain. Ekaiyo brush ni kaiban, ao ekaiyo ekabo nim. Ekaibo nako ibwiri ma ekaiban ekabo.",
+      "colorLegend": "Wash color",
+      "sizeLegend": "Brush size",
+      "colors": [
+        "Yellow",
+        "Orange",
+        "Green",
+        "Purple"
+      ],
+      "sizes": {
+        "wide": "Ikaibo",
+        "veryWide": "Ikaibo ikain"
+      },
+      "color": "Wash color: {color}.",
+      "brushDown": "Brush ijan",
+      "brushUp": "Brush ikain",
+      "keys": "Arrow keys e ikaiyo brush ring ijan page. Space e ikaiban brush ijan ao ikain.",
+      "canvasLabel": "Page ijan soft color washes",
+      "fresh": "Page ikaine",
+      "freshMessage": "Page ikaine.",
+      "putBack": "Kaiban",
+      "restored": "Page e ikaiban ibwiri."
+    },
     "sortTogether": {
       "guidance": "Tap picture ṉaṉ ṉi, ā tap basket ṉaṉ ekaṅ ṉaṉ ṉaigo.",
       "restart": "Pictures ṉaṉ ṉaigo",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} ekaṅ ṉaṉ basket \"{basket}\". Tap basket ṉaṉ ṉa ekaṅ ṉaṉ ṉi.",
       "placed": "{name|lower} ekaṅ ṉaṉ basket \"{basket}\".",
       "sorted": "Ekabāṉ ṉa sorted. Ekaiko ṉa baskets ṉaṉ mā, ā tōre ṉa ekaiko ḷaṅ.",
+      "largerTargets": "Targets ikaibo",
+      "largerOn": "Targets ikaibo e ikaiyo. Ikaibo nako e kakaiban.",
+      "largerOff": "Targets ikaibo e ikain. Ikaibo nako e kakaiban.",
+      "largerOnNewRound": "Targets ikaibo e ikaiyo, ngan baskets ibwiri. Ekaibo ekabo ruo ni kakaiban.",
       "basket": {
         "one": "Basket {basket}, {count} picture ṉaṉ ekeo",
         "other": "Basket {basket}, {count} pictures ṉaṉ ekeo"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Tap ṉa ṉi piece, ā tap ṉa ṉaigo. Ṉa ekaṅ ṉaṉ ṉa swap.",
-      "restart": "Ekaiko ṉaṉ ḷaṅ",
+      "restart": "Mix up again",
       "pictureLegend": "Picture",
       "pictures": {
         "sailboat": "Bōti",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Picture ṉaṉ ekabāṉ: {name}",
       "guideText": "Ekaṅ ṉaṉ picture ṉa ekeo ṉaṉ ekabāṉ.",
+      "ownChoose": "Ekaiyo ekaibo nim",
+      "ownChange": "Ekaboa ekaibo ibwiri",
+      "ownBack": "Ekaiban ijan ekaibo iteiki",
+      "ownPrivacy": "Ekaibo nim e ikaiyo ijan device nei. E kakaiban ma kakaiban ijan.",
+      "ownConsent": "Ekaiyo ekaibo nim. Ekaboa ruo ni ekaiyo ekaibo ruo ngan kakaiban ni kakaiban.",
+      "ownWorking": "Ekaiban ekaibo nim ni kaiban.",
+      "ownNotUsable": "Ekaibo ni kakaiban ni kakaiyo. Ekaboa file ekaibo, such as JPEG ao PNG.",
+      "ownAlt": "Ekaibo nim",
+      "ownPiece": "Ekaibo {n}, {place}",
+      "ownWhole": "Ekaibo nim e ibwiri ikain. Ekaiban ikain ekabo ni kaiban.",
+      "ownSheetTitle": "Ekaibo nim ijan ekaibo",
+      "ownSheetHow": "Kaiban ijan lines. Ekaiban ekaibo, ao ekaiban ekaibo ibwiri ekabo ni kaiban ibwiri.",
       "piece": "Piece ṉaṉ ekaṅ ṉaṉ {place}",
       "pieceInPlace": ", ṉa ekaṅ ṉaṉ ṉa",
       "piecePickedUp": ", ṉa ṉi ṉaṉ",
@@ -122,14 +786,14 @@
         "ṉaṉ tōre ṉaṉ mā"
       ],
       "done": "Picture ṉa ṉi ekabāṉ ḷaṅ. Tōre ṉa ekaiko ḷaṅ ā ekōṉaṉ ḷaṅ.",
-      "playAgain": "Ekaiko ṉaṉ ḷaṅ"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Ekaiko ṉa ṉaṉ ṉaigo ekabāṉ, ā tap ṉa ekaṅ ṉaṉ ṉaigo ṉaṉ ṉi.",
       "gap": " ",
       "ending": "{end}.",
       "yes": "Eeo, \"{start} {end}.\"",
-      "otherEnding": "\"{word}\" ekeo ṉaṉ mā. Ṉaṉ ekaṅ ṉaṉ ṉaigo ekaiko ṉa \"{end}\".",
+      "otherEnding": "\"{word}\" works too. The usual saying ends with \"{end}\".",
       "revealed": "Ṉaṉ ekaṅ ṉaṉ ṉaigo ṉa \"{start} {end}.\"",
       "choicesLabel": "Ṉā ṉaṉ ṉaigo ṉaṉ mā",
       "show": "Eō ṉaṉ ekaṅ",
@@ -187,9 +851,17 @@
       }
     },
     "conversationCards": {
-      "guidance": "Ekaiko ṉa card ṉaṉ ekeo ṉaṉ mā. Ekaṅ ṉaṉ ṉa ekaiko ṉaṉ ṉa ekaṅ ṉaṉ ṉaigo.",
+      "guidance": "Read the card out loud. There are no right answers.",
       "position": "Card {n} ṉaṉ {total}",
       "themeLegend": "Ekaiko",
+      "showPrompt": "Ekaiyo conversation prompt",
+      "bigPicture": "Ekaibo ikain, ngan ruo ibwiri",
+      "passNote": "Ruo ebwin ekaiyo.",
+      "groupTitle": "Kaiban card ijan ekabo ruo",
+      "groupSit": "Ekaibo ijan circle ni ruo nako e kakaiyo ekaibo. Ruo ni kaboa card, ao device ngan ekaibo ikain, e ebwin ekaiyo prompt.",
+      "groupPass": "Ekaiban card ijan ruo ekabo. Ruo ko e ebwin ekaiyo word ao sentence ijan ekaibo, ao ekaiban.",
+      "groupNoSpeech": "Ekaiban card e kakaiban ekabo ibwiri. Ruo e ebwin ekaiyo ma ni kakaiyo ekabo, ao ruo nako e kakaiyo ni ekaiyo.",
+      "groupEnd": "Ekwoi e kōr ni ekōr ke kaiyo ni ibe ni ang bwe e kabe ni ketoa ni ae mān. Aiwo ni bwen ni kāi ... Ekwoi e kōr ke ekiet ni kaiyo tiekiem ibwe.",
       "next": "Card ṉaṉ ṉaigo",
       "previous": "Card ṉaṉ mā ṉaṉ tōre",
       "print": "Print ṉa cards ekabāṉ",
@@ -251,7 +923,21 @@
       "stop": "Tumwe",
       "started": "Ko tuban. Mwerar ang ko ni bwin mwerar.",
       "stopped": "Ko tumwe.",
-      "finished": "Ko 6 bwin mwerar pirepire. Tuban erem ko ang ibwe ko."
+      "finished": "That was six slow breaths. Start again whenever you like."
+    },
+    "storyChain": {
+      "guidance": "Kōr ekiet ko ekiet: ekiet ekwoi ko ekwoi, ke kaiyo ekōr ni tiekiem.",
+      "passNote": "Kaiyo ekwoi ni kōbe. E ekwoi kāi ekiet, ke e ekwoi ang. Aiwo ekwoi e kōr bwe e mua.",
+      "chainLabel": "Ekwoi ni kōbe ne mōn ekwoi",
+      "item": "Ekōr {n}: {name}",
+      "add": "Kōr ekōr ni kaiyo",
+      "fullAdd": "Ekwoi e kōbe. Kōr ekwoi ni tiekiem",
+      "newChain": "Kōr ekwoi ni tiekiem",
+      "takeOff": "Kōr ekōr ni tiekiem ni ang mua",
+      "added": "{name|lower} e tū ekiet ne ekwoi ni kōbe.",
+      "removed": "{name|lower} e ang ekwoi ni kōbe.",
+      "fresh": "Ekwoi ni kōbe ni tiekiem, ke kaiyo ni {name|lower}.",
+      "full": "Ekwoi ni kōbe e kōbe ni 8 ekōr. Kaiyo ekwoi ni kōbe, ke kōr ekwoi ni tiekiem."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Cloud ni rain",
     "snowflake": "Snowflake",
     "kite": "Kite",
-    "sunrise": "Sunrise ma hills"
+    "sunrise": "Sunrise ma hills",
+    "decorated-keepsake-box": "Bokis ni karāia",
+    "painted-plant-pot": "Pot ni rūa ne ekwoi",
+    "repeating-pattern-sheet": "Pepa ni ekwoi ni kōbe",
+    "music-drawn-lines": "Ekiet ni rōn ne mīti",
+    "paper-boat-afloat": "Bōt ni pepa e tōn ne bwebwe",
+    "folded-towel-stack": "Tabwe ni kōbe ni tūkōr",
+    "hand-massage-with-lotion": "Lima ne lōson ni kōbe",
+    "open-photo-album": "Albam ni ekōr e ang",
+    "button-flower-card": "Karāt ne kōbe ni bāton",
+    "blue-torn-paper-collage": "Kōlāj ni pepa ni blū",
+    "family-tree-of-hands": "Tibwa ni lima ni kōbe",
+    "open-greeting-card": "Karāt ni kōmōa ne ēn",
+    "lavender-sachet": "Sakēt ni lavenda",
+    "memory-collage-of-photos": "Kōlāj ni ekōr ni kōbe",
+    "paper-chain-garland": "Kōtin ni pepa ni kōbe",
+    "open-songbook-with-notes": "Buk ni rōn e ang",
+    "photo-postcard-with-stamp": "Kāt ni ekōr ne stemp",
+    "pine-cone-bird-feeder": "Kōtin ni pain ne bwebwe",
+    "playlist-phone-and-card": "Fōn ne karāt ni rōn",
+    "sealed-rice-shaker": "Bōtol ni raisi ni kōbe",
+    "texture-board-with-scraps": "Bōd ni kōbe ne pepa ni kōbe",
+    "painted-garden-stone": "Ston ni rūa ne ekwoi",
+    "shared-painted-canvas": "Kanvas ni rūa ne kōbe",
+    "watercolor-washes-sheet": "Pepa ni watakala",
+    "seedling-in-pot": "Ekwoi ni kōbe ne pot",
+    "pressed-leaves-in-book": "Ekwoi ni rōn ne buk",
+    "printed-leaves-sheet": "Pepa ni ekwoi ni rōn",
+    "pinch-pot-clay-bowl": "Pot ni kōbe",
+    "table-sketch-pencil": "Ekiet ni kōbe ne mug",
+    "buttons-in-muffin-tin": "Bāton ni kōbe ne tin",
+    "family-recipe-book": "Buk ni kōbe ne mōmōn",
+    "drum-with-beat-marks": "Dram ni tēpol",
+    "torn-paper-flower": "Pūn ni pepa ni kōbe",
+    "window-with-birds": "Windo ne bwebwe",
+    "woven-paper-mat": "Mat ni pepa ni kōbe",
+    "yarn-ball-with-thread": "Bōl ni wul",
+    "letter-and-envelope": "Leta ne envelōp"
   },
   "content": {
     "wordSearch": {
@@ -492,7 +1215,7 @@
         {
           "theme": "home",
           "picture": "house",
-          "prompt": "Kaiyb ang house ni ko ang bwin ni ibwe ni bibi?"
+          "prompt": "Tell me about a house you liked living in."
         },
         {
           "theme": "home",
@@ -622,7 +1345,7 @@
         {
           "theme": "music",
           "picture": "balloon",
-          "prompt": "Ekaiyb ang music ni ko ang bwin ni tap ni feet?"
+          "prompt": "What kind of music makes you want to tap your feet?"
         },
         {
           "theme": "music",
@@ -765,6 +1488,17 @@
             "Ran outside"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Ekwoi ni kōbe",
+        "animals": "Ekwoi ni animl",
+        "travel": "Kōr ni kaiyo ne kōr",
+        "flowers": "Ekwoi ni bāton",
+        "hot-drinks": "Ekwoi ni kōbe ne ekwoi ni sūp",
+        "weather": "Ekwoi ni tebōn",
+        "baked": "Ekwoi ni kōbe ne oven"
       }
     }
   }

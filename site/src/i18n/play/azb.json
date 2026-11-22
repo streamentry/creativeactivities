@@ -1,0 +1,1391 @@
+{
+  "ui": {
+    "frame": {
+      "readAloud": "Read aloud",
+      "stopReading": "Stop reading",
+      "region": "Game",
+      "restart": "Start again",
+      "rest": "Rest for now",
+      "restingTitle": "Resting",
+      "restingText": "Take as long as you need. Your place is kept on this page.",
+      "resume": "Carry on",
+      "placeText": "گئچن دفعه یاریدا دایانمیشدینیز. اوردان داوام ائدین، یا یئنیدن باشلایین.",
+      "placeResume": "داوام ائدین",
+      "placeFresh": "یئنیدن باشلایین",
+      "soundOn": "Soft sounds on",
+      "soundOff": "Soft sounds off",
+      "done": "Done for now",
+      "feedbackQuestion": "Did this help today?",
+      "feedbackYes": "Yes",
+      "feedbackNo": "Not really",
+      "feedbackThanks": "Thank you for telling us."
+    },
+    "tile": {
+      "named": "{name}, tile {n}",
+      "hidden": "Hidden picture, tile {n}",
+      "withState": "{label}, {state}",
+      "matched": "Matched",
+      "selected": "Selected",
+      "picture": "Picture",
+      "photoNumber": "Photo {n}"
+    },
+    "pairs": {
+      "allTogether": "All pairs together. Play again or take a break.",
+      "photoPair": "A pair of photos, together.",
+      "picturePair": "Two pictures of the {name|lower}, together.",
+      "selected": "{name}. Now find its pair.",
+      "mismatch": "Take your time. Tap a picture to continue.",
+      "mismatchNamed": "{a} and {b}. Take your time. Tap a picture to continue."
+    },
+    "picturePairs": {
+      "guidanceShowing": "Tap a picture, then tap the one that matches it.",
+      "guidanceHidden": "Tap two tiles to turn them over. Look for two the same.",
+      "restart": "New pictures",
+      "sizeLegend": "How many tiles",
+      "size": {
+        "one": "{n} tile",
+        "other": "{n} tiles"
+      },
+      "viewLegend": "How to play",
+      "viewShowing": "Pictures showing",
+      "viewHidden": "Hidden pictures",
+      "playAgain": "Play again with new pictures",
+      "talk": "Talk about pictures together",
+      "modeLegend": "هانسی شکیللر",
+      "modePlay": "هر شکیللر",
+      "modeDaily": "بوگونکی کارت",
+      "dayLegend": "هانسی گون",
+      "dayHelp": "هر کس ائینی گونده ائینی شکیللری گؤرور. قاباقکی گونلر da بورادادیر، و بیر گونو کئچمک ضرری یوخدور.",
+      "guidanceDaily": "بوگونکی کارتدا دؤرد جوت وار. بیر شکیله توخونون، سونرا اونا اویغون اولانا توخونون.",
+      "restartDaily": "بو کارتی یئنیدن باشلایین",
+      "copy": "بو سطری کوپی ائدین",
+      "copied": "کوپی ائدیلدی. هئچ یئره گؤندریلمیر.",
+      "calendarTitle": "{month} آیی، گونلوک کارتلار",
+      "calendarHelp": "هر گونده هامی اوچون ائینی دؤرد شکیل وار. هئچ نه حساب ائدیلمیر و هئچ گون قاچیریلمیش کیمی ایشارهلنمیر.",
+      "calendarVersion": "نسخه {date}. شکیللر ائینی گونده هامی اوچون ائینیدیر."
+    },
+    "choose": {
+      "countLegend": "How many pictures",
+      "count": "{n} to choose from",
+      "thatOne": "That one is the {name|lower}. Take your time."
+    },
+    "findTheSame": {
+      "guidance": "Look at the picture at the top. Tap the same one below.",
+      "yes": "Yes, the same {name|lower}.",
+      "next": "Next picture"
+    },
+    "shadowMatch": {
+      "guidance": "Look at the shadow at the top. Tap the picture that makes it.",
+      "yes": "Yes, the {name|lower} makes that shadow.",
+      "next": "Next shadow",
+      "shadowAlt": "A shadow to match",
+      "foundAlt": "The shadow of the {name|lower}"
+    },
+    "fourTogether": {
+      "hintLegend": "ایپوجلار",
+      "hintOn": "مکثدن سونرا ایپوج",
+      "hintOff": "ایپوج یوخدور",
+      "guidance": "بیربیرینه اویغون گلن {n} شکیلی تاپین و هر بیرینه توخونون.",
+      "countLegend": "نئچه شکیل",
+      "count": "{n} شکیل",
+      "found": "بله، {name|lower} بو قروپدادیر.",
+      "elsewhere": "{name|lower} باشقا بیر شئیه اویغوندور. وقتینیزی آلین.",
+      "hint": "ایپوج: {theme|lower} آختارین.",
+      "together": "بونلار بیرلیکده اویغوندور: {theme}.",
+      "shown": "بو قروپ: {theme}.",
+      "groupName": "بیرلیکده: {theme}",
+      "show": "قروپی گؤستərin",
+      "next": "باشقا دسته"
+    },
+    "oddOneOut": {
+      "hintLegend": "ایپوجلار",
+      "hintOn": "مکثدن سونرا ایپوج",
+      "hintOff": "ایپوج یوخدور",
+      "guidance": "باشقالاری ایله اویغون گلمهین شکیلی تاپین و اونا توخونون.",
+      "countLegend": "نئچه شکیل",
+      "count": "{n} شکیل",
+      "belongs": "{name|lower} باشقالاری ایله اویغوندور. وقتینیزی آلین.",
+      "found": "بله، {name|lower} آیریلیر. باشقالار: {theme|lower}.",
+      "shown": "بو: {name|lower}. باشقالار: {theme|lower}.",
+      "hint": "ایپوج: بونلاردان {n} دانهسی {theme|lower}.",
+      "others": "باشقالار: {theme}",
+      "show": "منه گؤستərin",
+      "next": "باشقا دسته"
+    },
+    "seatedToss": {
+      "guidance": "میزین باشیندا اوتورون و نؤوبهیله یومشاق لوبیا کیسهجیغینی بؤیوک هدفه آتین. حساب کاغذدا، بیرلیکده آپارین.",
+      "stepsHeading": "نئجه گئدیر",
+      "steps": [
+        "هدفی و حساب ورقهسینی چاپ ائدین و ایکینیزین آراسیندا میزین اوستونه دوز قویون.",
+        "راحات اوتورون، هر بیرینیز بیر طرفده. نؤوبهیله هر بیرینیز بیر یومشاق آتیش ائدین، یا ایستمیرسینیزسə کئچین.",
+        "آتیش حلقهیه دوشنده، آتان شخص اؤز ستونوندا او حلقهنین سطرینده بیر خانانی ایشارهلهیر.",
+        "Look at the ticks together when you stop, if you like. Nobody has to add anything up.",
+        "هر کس حاضیر اولاندا دایانین."
+      ],
+      "safetyHeading": "امنیت",
+      "safetyLine": "Use only a bag with a sewn-shut cover or a rolled-up sock, stay seated, never toss toward a face, and keep an adult nearby. Small parts are a choking hazard.",
+      "flags": [
+        "3 یاشدان آشاغی اوچون دئییل: کیچیک پارچالار",
+        "آغیزلاردان اوزاق توتون"
+      ],
+      "safety": [
+        "Choose a bean bag with a sewn-shut cover, or roll up a clean sock. Check it first for holes or loose stitches, so no filling can come out.",
+        "Beans, rice and other small fillings are a choking hazard. Keep them away from young children and from anyone who puts things in their mouth.",
+        "Stay within arm's reach and supervise closely if anything might be put in the mouth.",
+        "اوتورون. میزدهکی هدفه یومشاق و آلچاق آتین، هئچ واخت اوزه طرف آتمایین."
+      ],
+      "previewLabel": "The printed sheet: a target of three rings named Near, Middle and Far, from the outside in, and a tally with a column for each person and a row of empty boxes for each ring.",
+      "sheetHow": "Lay the sheet flat between you. When a toss lands in a ring, tick a box in your column, on that ring's row.",
+      "rings": [
+        "یاخین",
+        "اورتا",
+        "اوزاق"
+      ],
+      "people": [
+        "بیرینجی شخص",
+        "ایکینجی شخص"
+      ],
+      "ringHeading": "حلقه",
+      "print": "هدفی و حساب ورقهسینی چاپ ائدین"
+    },
+    "seasonalPack": {
+      "guidance": "بیر آی سئچین، اونون اوچ کاغذ تاپماجاسینی چاپ ائدین، سونرا بیرینی، ایکیسینی یا هر اوچونو بیرلیکده ائدین.",
+      "monthLegend": "بیر آی سئچین",
+      "months": [
+        "یانوار",
+        "فوریه",
+        "مارس",
+        "آوریل",
+        "مه",
+        "ژوئن",
+        "ژوئیه",
+        "آووست",
+        "سنتیابر",
+        "اوکتیابر",
+        "نوویابر",
+        "دکابر"
+      ],
+      "monthNote": "هر آینین اؤز شکیللری وار. صفحه بو آیدا آچیلیر، و istədiyiniz باشقا آیی سئچə بیلرسینیز.",
+      "restDay": "بوگون دینجلیک گونودور",
+      "restLine": "بوگون تاپماجا یوخدور. دینجلیک گونü də یاخشی گوندور.",
+      "previewHeading": "اوچ تاپماجا",
+      "puzzles": {
+        "pairs": {
+          "title": "جوتلاری اویغونلاشدیرین",
+          "how": "یوخاری سطرداکی هر شکیلدən آشاغı سطرداکı ائینی شکیله خط چکین.",
+          "describe": "Two rows of the same four pictures, in a different order."
+        },
+        "different": {
+          "title": "هانسی بیری فرقلیدیر؟",
+          "how": "Circle the picture that is different from the other three.",
+          "describe": "دؤرد شکیلین بیر سطری. اوچü ائینیدیر، بیری فرقلیدیر."
+        },
+        "color": {
+          "title": "رنگ ائدین",
+          "how": "شکیلی istədiyiniz کیمی، بویا قلمی یا قارانداش ایله رنگ ائدین.",
+          "describe": "رنگ ائدیلمهلی بیر بؤیوک شکیل."
+        }
+      },
+      "print": "بو آیین بسته‌سینی چاپ ائدین",
+      "sheetHow": "Print one page. Do one, two or all three puzzles, in any order.",
+      "printFooter": "Do one, two or all three. Stop whenever you like."
+    },
+    "decorateACard": {
+      "guidance": "بیر مناسبت سئچین، سونرا بیرلیکده بویا قلمی یا قلمله کارتی بزهین. دوغرو کارت یوخدور.",
+      "occasionLegend": "بیر مناسبت سئچین",
+      "occasions": {
+        "birthday": {
+          "label": "تولد",
+          "words": "تولدونوز موبارک"
+        },
+        "thank-you": {
+          "label": "تشکور",
+          "words": "تشکور ائدیرم"
+        },
+        "thinking-of-you": {
+          "label": "سیزی یاد ائدیرم",
+          "words": "سیزی یاد ائدیرم"
+        },
+        "new-season": {
+          "label": "یئنی فصل",
+          "words": "یئنی فصل"
+        },
+        "just-because": {
+          "label": "سادهجه بئله",
+          "words": "سادهجه بئله"
+        }
+      },
+      "stepsHeading": "بیرلیکده نئجه بزهیین",
+      "steps": {
+        "fold": "Print the card and fold it in half along the dashed line, so the front is on the outside.",
+        "front": "بیر شخص اؤن طرفی، سؤزلرین اطرافینی بزهیر.",
+        "inside": "The other person decorates the back, or you take turns on one side.",
+        "message": "بیرلیکده بیر پیغام یازین. بیر شخص یازا بیلر، باشقا شخص سؤزلری دئیə بیلر.",
+        "stop": "Stop whenever you like. There is no right card, and a simple one is just as good."
+      },
+      "materials": "بویا قلمی، رنگلی قارانداش یا کئچهلی قلم ایشلدین. هئچ نه کسمک، یاپیشدیرماق لازیم دئییل.",
+      "previewLabel": "A preview of the card folded in half. The front says {words}, with a simple frame of leaves and stars. The back has lines for a message and a line for From.",
+      "from": "کیمدن",
+      "sheetHow": "کارتی خط‌چین‌لی خطین بویونجا ایکی‌یه قاتلاین، اؤن طرفی بیرونا قالسین. پیامی آرخا طرفه یازین.",
+      "rulesHeading": "ایکی نفر اوچون",
+      "sheetRules": [
+        "نؤوبه‌نؤوبه ائدین یا ایشی بؤلوشون: بیر نفر اؤن طرفی، او بیری آرخا طرفی بزه‌سین.",
+        "پیامی برابر یازین، یا بیر نفر او بیرینین دئدیینی یازسین.",
+        "هر کس هر واخت ایسته‌سه دایانا بیلر. دوغرو کارت یوخدور."
+      ],
+      "print": "کارتی چاپ ائدین"
+    },
+    "storyDice": {
+      "guidance": "شکیللره باخین و اونلاردان ایستفاده ائدیب، هر سیرا ایله بیر حیکایه دانیشین. دوغرو حیکایه یوخدور.",
+      "countLegend": "نئچه زار",
+      "count": "{n} زار",
+      "roll": "یئنیدن آت",
+      "pass": "کئچ",
+      "passed": "کئچمک عیبی یوخدور. نؤوبتی کسی باشلایا بیلر، یا سیز یئنیدن آتا بیلرسیز.",
+      "rolled": "یئنی شکیللر: {names}.",
+      "tapped": "{name}. بونونلا باشلایین، یا باشقاسی ایله."
+    },
+    "wordPicture": {
+      "guidance": "بیر شکیله توخونون، سونرا اونون آدینی بیلدیرن سؤزه توخونون. یا بیر سؤزه توخونون، سونرا اونون شکیلینه.",
+      "countLegend": "نئچه شکیل",
+      "count": "{n} شکیل",
+      "picturesGroup": "شکیللر",
+      "wordsGroup": "سؤزلر",
+      "readWord": "بلند اوخویون: {name}",
+      "next": "یئنی شکیللر",
+      "putBack": "گئری قویون",
+      "pickWord": "ایندی اونا اویغون سؤزه توخونون.",
+      "pickPicture": "ایندی اونا اویغون شکیله توخونون.",
+      "fit": "بلی، او سؤز {name|lower} ایله اویغوندور.",
+      "newSet": "ایشته یئنی بیر دسته شکیل.",
+      "restarted": "باشا قاییتدیق. هر شکیل و سؤز یئنه آیریدیر.",
+      "restored": "گئری قویولدو. اویغون جوتلار یئنه گؤستریلیر.",
+      "all": "هر سؤزون اؤز شکیلی وار."
+    },
+    "colorMatch": {
+      "guidance": "رنگه و اونون آدینه باخین، سونرا او رنگده اولان هر شکیله توخونون.",
+      "target": "رنگ: {color|lower}. هر {color|lower} شکیله توخونون.",
+      "countLegend": "نئچه شکیل",
+      "count": "{n} شکیل",
+      "found": "بلی، {name|lower} رنگی: {color|lower}.",
+      "named": "{name|lower} رنگی: {color|lower}.",
+      "all": "بو، بوتون {color|lower} شکیللردیر.",
+      "shown": "ایشته {color|lower} شکیللر.",
+      "show": "اونلاری گؤستər",
+      "next": "باشقا رنگ",
+      "names": {
+        "red": "قیرمیزی",
+        "orange": "نارنجی",
+        "yellow": "ساری",
+        "green": "یاشیل",
+        "blue": "گؤی"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tap a half on the left, then tap the half on the right that fits it.",
+      "countLegend": "نئچه شکیل",
+      "count": "{n} شکیل",
+      "leftGroup": "سول یاریملار",
+      "rightGroup": "ساغ یاریملار",
+      "left": "سول یاریم: {name|lower}",
+      "right": "ساغ یاریم: {name|lower}",
+      "joined": "بیرلشدی",
+      "pickRight": "ایندی اونا اویغون ساغ یاریما توخونون.",
+      "pickLeft": "ایندی اونا اویغون سول یاریما توخونون.",
+      "fit": "بلی، او ایکی یاریم بیرلشیب {name|lower} اولور.",
+      "apart": "او ایکیسی بیر-بیرینه اویغون دگیل. باشقاسینی سیناین.",
+      "all": "هر شکیل تامدیر.",
+      "shown": "ایشته بیرلشمیش شکیللر.",
+      "show": "منه گؤستər",
+      "next": "باشقا بیر دسته"
+    },
+    "colorByNumber": {
+      "guidance": "راهنمادان بیر رنگ سئچین، سونرا بیر خانه‌نی او رنگله دولدورون. هر رنگ اولار.",
+      "sizeLegend": "شبکه اؤلچوسو",
+      "size": "{n} در {n}",
+      "keyLegend": "رنگلر",
+      "colors": [
+        "ساری",
+        "نارنجی",
+        "یاشیل",
+        "بنفش"
+      ],
+      "motifs": {
+        "house": "بیر ائو",
+        "flower": "بیر چیچک",
+        "heart": "بیر اورک",
+        "tree": "بیر آغاج",
+        "boat": "بیر یئلکنلی قایق",
+        "pot-plant": "گلداندا بیر بیتکی"
+      },
+      "region": "شکیل شبکه‌سی، {n} در {n}. اکران دار اولسا، یانا سورشور.",
+      "cell": "نؤمره {number}، سطر {row}، ستون {column}، {color}",
+      "empty": "بوش",
+      "chose": "{name} سئچیلدی. دولدورماق اوچون بیر خانه‌یه توخونون.",
+      "painted": "{name}، سطر {row}، ستون {column}.",
+      "sheet": "هر خانه‌نین رنگی اؤز نؤمره‌سینه گؤره‌دیر. کاغذداکی شکیل: {name}.",
+      "own": "بوتون خانه‌لر دولدو. بو، سیزین اؤز شکیلینیزدیر.",
+      "fillAll": "Fill with the numbers",
+      "filledAll": "ایندی بوش خانه‌لرین هامیسی، نؤمره‌سینین رنگی ایله دولدو.",
+      "clear": "پاک ائدین",
+      "cleared": "شبکه پاکدیر.",
+      "next": "باشقا بیر شکیل",
+      "fresh": "ایشته رنگ ائتمک اوچون باشقا بیر شکیل."
+    },
+    "patternMaker": {
+      "guidance": "Tap a square to change its color. Your pattern grows beside it. Nothing you make is saved or sent.",
+      "sizeLegend": "کاشی اؤلچوسو",
+      "size": "{n} در {n}",
+      "keyLegend": "رنگلر، دییشمه سیراسی ایله",
+      "colors": [
+        "ساری",
+        "نارنجی",
+        "یاشیل",
+        "بنفش"
+      ],
+      "tileLabel": "سیزین کاشینیز",
+      "region": "سیزین کاشینیز، {n} در {n}. اکران دار اولسا، یانا سورشور.",
+      "patternLabel": "سیزین نمونه‌نیز",
+      "pattern": "سیزین نمونه‌نیز: کاشینیز یانا {n} دفعه، آشاغی ایسه {n} دفعه تکرار اولور.",
+      "square": "سطر {row}، ستون {column}، {color}",
+      "changed": "سطر {row}، ستون {column}: ایندی {color}.",
+      "cleared": "کاشی پاکدیر. گئری قویا بیلرسینیز.",
+      "surprise": "منه سورپریز ائدین",
+      "surprised": "ایشته یئنی بیر کاشی. کؤهنه‌سینی ایسه گئری قویا بیلرسینیز.",
+      "putBack": "گئری قویون",
+      "restored": "کاشینیز اؤز حالینا قاییتدی.",
+      "print": "نمونه‌می چاپ ائدین",
+      "sheetTitle": "نمونه‌م"
+    },
+    "buildTogether": {
+      "guidance": "Take turns to put a piece in an empty place. Each of you has your own color. Nothing you make is saved or sent.",
+      "sizeLegend": "شبکه اؤلچوسو",
+      "size": "{n} در {n}",
+      "people": [
+        "بیرینجی نفر",
+        "ایکینجی نفر"
+      ],
+      "colorLegend": "رنگ، {person}",
+      "colors": [
+        "ساری",
+        "نارنجی",
+        "یاشیل",
+        "بنفش"
+      ],
+      "inUse": "ایستفاده‌ده",
+      "turn": "سیزین نؤوبه‌نیز، {person|lower}",
+      "yourColor": "سیزین رنگینیز: {color|lower}.",
+      "built": "Built together. This is the picture the two of you made.",
+      "gridLabel": "اورتاق شبکه",
+      "region": "اورتاق شبکه، {n} در {n}. اکران دار اولسا، یانا سورشور.",
+      "cellEmpty": "سطر {row}، ستون {column}، بوش",
+      "cellFilled": "سطر {row}، ستون {column}، {color}، {person|lower} طرفیندن قویولوب",
+      "placed": "سطر {row}، ستون {column}: ایندی {color}. سیزین نؤوبه‌نیز، {next|lower}.",
+      "placedLast": "سطر {row}، ستون {column}: ایندی {color}. بیرلیکده یارادیلدی.",
+      "taken": "سطر {row}، ستون {column}: آرتیق پارچا وار. بوش بیر یئر سئچین.",
+      "pass": "کئچ",
+      "passed": "کئچمک عیبی یوخدور. سیزین نؤوبه‌نیز، {person|lower}.",
+      "takeBack": "سونونکو پارچانی گئری آلین",
+      "takeBackPass": "کئچمه‌نی گئری آلین",
+      "tookBack": "پارچا گئری آلیندی. سیزین نؤوبه‌نیز، {person|lower}.",
+      "tookBackPass": "کئچمه گئری آلیندی. سیزین نؤوبه‌نیز، {person|lower}.",
+      "colorChanged": "رنگ، {person}: ایندی {color|lower}.",
+      "restarted": "شبکه بوشدور. سیزین نؤوبه‌نیز، {person|lower}.",
+      "print": "شبکه‌نی چاپ ائدین",
+      "sheetTitle": "Build together",
+      "sheetHelp": "نؤوبه‌نؤوبه ائدین. بوش خانه‌ده هر کس اؤز قلمی ایله اؤز شکلینی چکیر.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tap a piece, then tap the space in the picture where it goes. Nothing you make is saved or sent.",
+      "hints": "یول گؤستریجی خطلری گؤستر",
+      "pictureLine": "بو: {picture}.",
+      "pictures": {
+        "house": "ائو",
+        "boat": "قایق",
+        "tree": "آغاج",
+        "fish": "بالیق",
+        "cat": "پیشیک",
+        "rocket": "راکت"
+      },
+      "outlineLabel": "{picture} کنتورو. سئچیلمیش پارچانی قویماق اوچون بیر بوش یئره توخونون.",
+      "trayHeading": "پارچالار",
+      "pieces": {
+        "large-triangle": "بؤیوک اوچبوجاق",
+        "small-triangle": "کیچیک اوچبوجاق",
+        "square": "کوادرات",
+        "parallelogram": "پارالئلوقرام",
+        "rectangle": "دوزبوجاقلی"
+      },
+      "shapes": {
+        "large-triangle": "بیر بؤیوک اوچبوجاق",
+        "small-triangle": "بیر کیچیک اوچبوجاق",
+        "square": "بیر کوادرات",
+        "parallelogram": "بیر پارالئلوقرام",
+        "rectangle": "بیر دوزبوجاقلی"
+      },
+      "chosenLabel": "سئچیلیب",
+      "spaceEmpty": "یئر {n}، {shape}، بوش",
+      "spaceFilled": "یئر {n}، {shape}، پارچاسی وار. پارچانی گئری آلماق اوچون توخونون.",
+      "chosen": "{piece} سئچیلدی. ایندی شکیلده بیر یئره توخونون.",
+      "unchosen": "این تیکه دیگه سئچیلمیر.",
+      "placed": "تیکه {n} نومره‌لی یئرده‌دیر.",
+      "complete": "{picture} تامام اولدو.",
+      "different": "او تیکه‌نین شکلی بو یئرین شکلیندن فرقلی‌دیر. باشقا بیر یئری سینایین.",
+      "needPiece": "اول سینیدن بیر تیکه سئچین.",
+      "filled": "او یئرده آرتیق تیکه‌سی وار. تیکه‌نی گری گؤتورمک اوچون اونا توخونون.",
+      "tookBack": "تیکه گری سینیده‌دیر.",
+      "cleared": "تیکه‌لر گری سینیده‌دیر. فیکریز دییشدیسه، اونو گری قویون.",
+      "restored": "تیکه‌لر یئنه شکیلده‌دیر.",
+      "next": "بو بیر {picture}‌دیر.",
+      "putBack": "گری قویون",
+      "another": "باشقا بیر شکیل",
+      "print": "بو شکیلی چاپ ائدین",
+      "sheetTitle": "ساکیت شکیللر",
+      "sheetHow": "تیکه‌لری رنگلین، یا دا خطین کنارینا اویغون گلسین دئیه کسین. کسمک ایشینی بیر بؤیوک آدام ائده بیلر.",
+      "sheetPieces": "تیکه‌لر، خطین ایله برابر اؤلچوده"
+    },
+    "picnicPlanner": {
+      "guidance": "بیر شکیله توخونون تا پیکنیک سبدینه قویولسون، و سبددə اونا توخونون تا چیخاردیلسین. سبد آلتی شئی گؤتورور.",
+      "guidancePlay": "ایکی برابر شکیله توخونون. شکیللر گؤرونور قالیر و هئچ نه وقتله اؤلچولمور.",
+      "basketHeading": "سبدیمیز",
+      "basketLabel": "پیکنیک سبدی",
+      "takeOut": "{picture}‌ی سبددن چیخاردین",
+      "inBasket": "سبددə",
+      "foodHeading": "یئمک",
+      "outingsHeading": "ائدیله بیلن ایشلر",
+      "added": "{picture} سبددə‌دیر.",
+      "removed": "{picture} سبددن چیخدی.",
+      "already": "{picture} is already in the basket. Tap it there to take it out.",
+      "full": "سبد دولوب. یئر آچماق اوچون بیر شئی چیخاردین.",
+      "summary": "پیکنیکیمیز: {list}.",
+      "summaryNone": "Nothing is in the basket yet.",
+      "and": "و",
+      "play": "گلین پیکنیکیمیزله اویناق",
+      "needTwo": "اول ان آز ایکی شئی سئچین.",
+      "playAgain": "یئنه اوینایین",
+      "back": "پیکنیکه گری",
+      "print": "پیکنیک سیاهیمیزی چاپ ائدین",
+      "cleared": "The basket is empty.",
+      "notice": "This is a plan to talk about. Nothing is timed, rated or saved.",
+      "sheetTitle": "پیکنیک سیاهیمیز",
+      "sheetHow": "Tick each thing as you pack it. Use the blank lines for anything else you want to bring.",
+      "sheetToPack": "یئغیلاجاق"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "کیتابی باشلاماق اوچون اؤز شخصی عکسلریزدن ایکی‌دن اون ایکی‌یه قدر سئچین.",
+      "guidance": "Turn the pages together, with the buttons or the Left and Right arrow keys. Add a few words under a photo if you like. Nothing you make is saved or sent.",
+      "lookGuidance": "Look at each page together. You can talk or simply look.",
+      "intro": "Choose two to twelve photos from this device. Each one becomes a page of a book you can turn together.",
+      "consent": "Use your own family photos. Ask before using a photo of someone who cannot say yes.",
+      "privacy": "Your photos stay on this device. They are not uploaded or saved.",
+      "choose": "عکس سئچین",
+      "chooseDifferent": "Choose different photos",
+      "backToBook": "Back to the book",
+      "backToChoose": "Back to choosing photos",
+      "needTwo": "لوطفاً ان آز ایکی عکس سئچین.",
+      "usingFirst": "Using the first {max} photos.",
+      "cleared": "The book is cleared. Choose photos to start again.",
+      "moved": "{n}-نجی صحیفəyə کئچدی.",
+      "pageOf": "صحیفه {n} / {total}",
+      "lookTogether": "بیرلیکده باخین",
+      "leaveLook": "Back to the book",
+      "print": "کیتابی چاپ ائدین",
+      "clear": "کیتابی تمیزلین",
+      "bookLabel": "ائولی عکس کیتابی",
+      "pagesLabel": "صحیفه‌لری چئویرین",
+      "previous": "اؤنجه‌کی صحیفه",
+      "next": "سونراکی صحیفه",
+      "moveEarlier": "اؤنə کئچیرین",
+      "moveLater": "Move later",
+      "captionLabel": "ایستَسه‌نیز بو صحیفه اوچون بیر نئچه سؤز",
+      "captionHelp": "Up to 80 characters. Captions are kept only on this page and are gone when you close it.",
+      "sheetTitle": "عکس کیتابیمیز",
+      "sheetHow": "One photo to a page, with its words under it. Turn the pages in order and talk about each one.",
+      "sheetEmpty": "Choose your photos on the game page to print your own book, or print this blank page and stick in a printed photo.",
+      "sheetFrame": "Stick a printed photo here",
+      "sheetWords": "بو صحیفه اوچون بیر نئچه سؤز",
+      "skipped": {
+        "one": "{n} file was not a photo we can use.",
+        "other": "{n} files were not a photo we can use."
+      }
+    },
+    "quietScene": {
+      "guidance": "Look at one picture at a time. Press Next or Previous when you are ready. Nothing moves on its own.",
+      "next": "سونراکی شکیل",
+      "previous": "اؤنجه‌کی شکیل",
+      "bigPicture": "داها بؤیوک شکیل",
+      "showEverything": "همه‌سینی گؤستر",
+      "first": "بو ایلک شکیلدیر.",
+      "last": "بو سونونجو شکیلدیر.",
+      "lines": {
+        "sunrise": "گون یئرین اوستوندن دوغور.",
+        "window-with-birds": "Birds outside the window.",
+        "vase-of-flowers": "میزین اوستوندə گول‌لی بیر گولدان.",
+        "teacup": "A cup of tea by the window.",
+        "tree": "A tree standing in the garden.",
+        "sailboat": "سویون اوستوندə بیر یلکن.",
+        "lighthouse": "دنیزین کنارında بیر مایاک.",
+        "rainbow": "A rainbow after the rain.",
+        "moon": "The moon in the night sky.",
+        "daisies": "چمنده بیر دسته پاپاتیا.",
+        "rowing-boat": "دینج سویده بیر قایق.",
+        "potted-plant": "A green plant in a pot."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Take turns. Tap a cut-out, then tap an empty place to put it there. Nothing you make is saved or sent.",
+      "people": [
+        "First person",
+        "Second person"
+      ],
+      "marks": [
+        "بیر دایره",
+        "بیر مربع"
+      ],
+      "turn": "نؤوبه سیزدیر، {person|lower}.",
+      "marked": "Your pieces are marked with {mark}.",
+      "boardLabel": "The shared board",
+      "placeEmpty": "Place {n}, empty",
+      "placeFilled": "Place {n}, {picture|lower}, placed by the {person|lower}",
+      "trayHeading": "The cut-outs",
+      "chosenLabel": "Chosen",
+      "chosen": "{picture} is chosen. Now tap an empty place.",
+      "unchosen": "The cut-out is not chosen any more.",
+      "needCutout": "Choose a cut-out first, then tap an empty place.",
+      "filled": "Place {n} already has a picture. Choose an empty place.",
+      "placed": "{picture} is in place {n}. Your turn, {next|lower}.",
+      "full": "Every place has a picture. Take one back to change it, or start again.",
+      "pass": "کئچ",
+      "passed": "Passing is fine. Your turn, {person|lower}.",
+      "takeBack": "Take back the last piece",
+      "takeBackPass": "Take back the pass",
+      "tookBack": "The piece is taken back. Your turn, {person|lower}.",
+      "tookBackPass": "The pass is taken back. Your turn, {person|lower}.",
+      "restarted": "The board is empty. Your turn, {person|lower}.",
+      "putBack": "گری قویون",
+      "putBackDone": "The pieces are back on the board.",
+      "another": "Another set of pictures",
+      "anotherSet": "A new set of cut-outs is in the tray. The pieces on the board stay where they are.",
+      "print": "لوحه‌نی چاپ ائدین",
+      "sheetTitle": "کولاژ لوحه‌سی",
+      "sheetHow": "Cut out the pictures and take turns placing them on the board. An adult can do the cutting.",
+      "sheetTray": "The pictures to cut out"
+    },
+    "gardenPlanner": {
+      "guidance": "Tap a picture, then tap a bed to put it there. Tap a bed that has a picture, with nothing chosen, to clear it.",
+      "bedsLabel": "The garden beds",
+      "bedEmpty": "Bed {n}, empty",
+      "bedFilled": "Bed {n}, {picture|lower}",
+      "plantsHeading": "Plants",
+      "extrasHeading": "باغ‌چا ایلاوه‌لری",
+      "chosenLabel": "Chosen",
+      "chosen": "{picture} is chosen. Now tap a bed.",
+      "unchosen": "No picture is chosen.",
+      "needPicture": "اول بیر شکیل سئچین، سونرا بیر یاتاغا توخونون.",
+      "planted": "{picture} یاتاق {n}-ده‌دیر.",
+      "replaced": "{picture} takes the place of the picture in bed {n}.",
+      "cleared": "Bed {n} is empty. Put it back if you want the picture again.",
+      "restarted": "Every bed is empty.",
+      "putBack": "یئرینه قویون",
+      "putBackDone": "The pictures are back in their beds.",
+      "summaryHeading": "باغیم",
+      "summary": "Your plan has {list}.",
+      "summaryNone": "No picture is in a bed yet.",
+      "and": "و",
+      "print": "طرحی چاپ ائدین",
+      "sheetTitle": "Our garden plan",
+      "sheetHow": "The beds show the pictures chosen on screen. Draw in the empty beds if you like.",
+      "sheetNotes": "Notes",
+      "notice": "This is a picture plan to talk about, not planting advice."
+    },
+    "coloringWall": {
+      "guidance": "Choose a picture and how many pages. Print the wall, and each person colors one or more pages. Nothing is timed, scored or saved.",
+      "pictureLegend": "شکیل",
+      "sizeLegend": "نئچه صفحə",
+      "sizes": {
+        "2x2": "4 صفحə (2 در 2)",
+        "3x2": "6 صفحə (3 در 2)",
+        "3x3": "9 صفحə (3 در 3)"
+      },
+      "previewLabel": "The {picture|lower} split into {n} pages, {across} across and {down} down. Each page has a label in its corner.",
+      "previewCaption": "The picture with the page lines and labels drawn on it.",
+      "labelsNote": "Letters go down the wall and numbers go across it, so A1 is the top left page.",
+      "wallHeading": "How to put the wall together",
+      "steps": [
+        "Print all the pages. The first page is these steps and a map of the wall.",
+        "Each person takes one or more pages and colors them.",
+        "Colors and styles do not need to match. Every page is part of the same picture.",
+        "Lay the pages out by their labels, then join them with tape on the back.",
+        "Put the wall up where everyone can see it."
+      ],
+      "mapLabel": "A map of the wall: {down} rows of {across} pages, labelled from A1 to {last}.",
+      "edgeNote": "The dashed line marks the edge of each page. Lay the pages edge to edge along it, or overlap it a little.",
+      "pictureLine": "Picture: {picture}. This wall is {n} pages: {across} across and {down} down.",
+      "print": "Print the wall"
+    },
+    "findTogether": {
+      "guidance": "Take turns. On your turn, turn over two cards to look for a pair. Find the pairs together.",
+      "sizeLegend": "How many cards",
+      "size": "{n} cards",
+      "viewLegend": "How to play",
+      "viewShowing": "Play with pictures showing",
+      "viewHidden": "Cards face down",
+      "people": [
+        "بیرینجی آدام",
+        "ایکینجی آدام"
+      ],
+      "turn": "نؤوبه: {person}",
+      "turnDone": "All the pairs are found.",
+      "tally": "Pairs found together: {n}",
+      "cardNamed": "{name}, card {n}",
+      "cardFaceDown": "Card {n}, face down",
+      "first": "{name}. Now turn over a second card.",
+      "found": "{name}: a pair, found together. Now it is the {next|lower}'s turn.",
+      "allTogether": "You found all the pairs together.",
+      "different": "{a} and {b} are different. Take your time, then press Turn them back.",
+      "waiting": "Press Turn them back when you are ready. Then the turn passes.",
+      "turnedBack": "Turned back. Now it is the {person|lower}'s turn.",
+      "passed": "Passing is fine. Now it is the {person|lower}'s turn.",
+      "turnBack": "Turn them back",
+      "pass": "keçin",
+      "playAgain": "Play again"
+    },
+    "drawingDuet": {
+      "guidance": "Take turns with one line each, then pass the pen. Anyone may pass. Nothing is sent anywhere. A picture leaves this page only if you save it.",
+      "people": [
+        "بیرینجی آدام",
+        "ایکینجی آدام"
+      ],
+      "colorLegend": "رنگ: {person}",
+      "colors": [
+        "زرد",
+        "نارنجی",
+        "یاشیل",
+        "بنفش"
+      ],
+      "turn": "نؤوبə: {person}",
+      "penColor": "قلم رنگی: {color}.",
+      "canvasLabel": "Shared drawing, {n} lines so far",
+      "canvasLabelOne": "Shared drawing, {n} line so far",
+      "keys": "Arrow keys move the pen dot on the drawing. Space puts the pen down or up.",
+      "penDown": "Pen down",
+      "penUp": "Pen up",
+      "pass": "Pass the pen",
+      "passed": "Passing is fine. Your turn, {person|lower}.",
+      "takeBack": "Take back my last line",
+      "tookBack": "The last line by the {person|lower} is taken back.",
+      "noLine": "There is no line by the {person|lower} to take back.",
+      "restarted": "The sheet is clear. The first person has the turn. Put it back if you did not mean to.",
+      "putBack": "یئرینه قویون",
+      "restored": "The lines are back as they were.",
+      "save": "Save picture",
+      "saved": "Your picture is ready. Use the download link to keep it on this device.",
+      "download": "Download drawing-duet.png",
+      "print": "Print the paper version",
+      "sheetTitle": "رسم دوئتی",
+      "paperRules": "Two people, one sheet, two pens. Take turns: one line or shape each, then pass the pen. Anyone may pass. There is no right picture."
+    },
+    "colorWash": {
+      "guidance": "Paint soft color across the page, one wash at a time. Lift the brush to stop, and stop whenever you like. Nothing is saved or sent.",
+      "colorLegend": "Wash color",
+      "sizeLegend": "Brush size",
+      "colors": [
+        "زرد",
+        "نارنجی",
+        "یاشیل",
+        "بنفش"
+      ],
+      "sizes": {
+        "wide": "گئنیش",
+        "veryWide": "چوخ گئنیش"
+      },
+      "color": "Wash color: {color}.",
+      "brushDown": "Brush down",
+      "brushUp": "فیرچانı qaldırın",
+      "keys": "Arrow keys move the brush ring on the page. Space puts the brush down or up.",
+      "canvasLabel": "A page of soft color washes",
+      "fresh": "A fresh page",
+      "freshMessage": "A fresh page.",
+      "putBack": "یئرینه قویون",
+      "restored": "The page is back."
+    },
+    "sortTogether": {
+      "guidance": "Tap a picture, then tap the basket it belongs in.",
+      "restart": "New pictures",
+      "themeLegend": "Theme",
+      "selected": "{name}. Now tap the basket it goes in.",
+      "pickFirst": "First tap a picture, then tap a basket.",
+      "hint": "The {name|lower} could go in \"{basket}\". Tap that basket to put it there.",
+      "placed": "The {name|lower} is in \"{basket}\".",
+      "sorted": "Everything is sorted. Look through the baskets together, or try another theme.",
+      "largerTargets": "Larger targets",
+      "largerOn": "Larger targets are on. Nothing has moved.",
+      "largerOff": "Larger targets are off. Nothing has moved.",
+      "largerOnNewRound": "Larger targets are on, with two baskets. Here are new pictures to sort.",
+      "basket": {
+        "one": "{basket} basket, {count} picture inside",
+        "other": "{basket} basket, {count} pictures inside"
+      }
+    },
+    "picturePuzzle": {
+      "guidance": "Tap one piece, then tap another. They swap places.",
+      "restart": "Mix up again",
+      "pictureLegend": "Picture",
+      "pictures": {
+        "sailboat": "Sailboat",
+        "house": "House",
+        "balloon": "Balloon",
+        "sunflower": "Sunflower",
+        "lighthouse": "Lighthouse",
+        "cat": "Cat"
+      },
+      "sizeLegend": "Pieces",
+      "size": {
+        "one": "{n} piece",
+        "other": "{n} pieces"
+      },
+      "pickedUp": "Piece picked up. Now tap where it should go.",
+      "whole": "The {name|lower} is whole again. Choose another picture whenever you like.",
+      "swapped": {
+        "one": "Swapped. {correct} of {total} piece is in place.",
+        "other": "Swapped. {correct} of {total} pieces are in place."
+      },
+      "guideAlt": "The whole picture: {name}",
+      "guideText": "This is how the picture looks when it is whole.",
+      "ownChoose": "Use your own photo",
+      "ownChange": "Choose a different photo",
+      "ownBack": "Back to our pictures",
+      "ownPrivacy": "Your photo stays on this device. It is not uploaded or saved.",
+      "ownConsent": "Use your own photos. Ask before using a photo of someone who cannot say yes.",
+      "ownWorking": "Getting your photo ready.",
+      "ownNotUsable": "That file could not be used. Choose a photo file, such as a JPEG or PNG.",
+      "ownAlt": "Your photo",
+      "ownPiece": "پارچا {n}، {place}",
+      "ownWhole": "Your photo is whole again. Mix it up again whenever you like.",
+      "ownSheetTitle": "Your photo in pieces",
+      "ownSheetHow": "Cut along the lines. Mix the pieces up, then swap two pieces at a time until the picture is whole.",
+      "piece": "Piece in the {place}",
+      "pieceInPlace": ", in the right place",
+      "piecePickedUp": ", picked up",
+      "places4": [
+        "top left",
+        "top right",
+        "bottom left",
+        "bottom right"
+      ],
+      "places9": [
+        "top left",
+        "top center",
+        "top right",
+        "middle left",
+        "center",
+        "middle right",
+        "bottom left",
+        "bottom center",
+        "bottom right"
+      ],
+      "done": "The picture is whole again. Play again or take a break.",
+      "playAgain": "Mix it up again"
+    },
+    "finishTheSaying": {
+      "guidance": "Read the saying together, then tap the word that finishes it.",
+      "gap": " ",
+      "ending": "{end}.",
+      "yes": "Yes, \"{start} {end}.\"",
+      "otherEnding": "\"{word}\" works too. The usual saying ends with \"{end}\".",
+      "revealed": "The saying is \"{start} {end}.\"",
+      "choicesLabel": "Choose the last word",
+      "show": "Show the ending",
+      "talk": "Talk about it: ",
+      "next": "Next saying"
+    },
+    "wordSearch": {
+      "guidance": "Words go across or down. Tap the first letter of a word, then its last letter.",
+      "restart": "New puzzle",
+      "themeLegend": "Theme",
+      "sizeLegend": "Grid size",
+      "size": {
+        "one": "{n} by {n} ({words} word)",
+        "other": "{n} by {n} ({words} words)"
+      },
+      "print": "Print this puzzle",
+      "letterChosen": "Letter {letter} chosen. Now tap the last letter of the word.",
+      "found": "{word} found.",
+      "foundAll": "{word} found. That is every word. Play again or take a break.",
+      "tryAgain": "Take your time. Tap the first letter of a word, then its last letter.",
+      "gridLabel": "Letter grid, {n} rows of {n} letters. Use the arrow keys to move between letters.",
+      "cell": "{letter}, row {row}, column {col}",
+      "cellFound": ", part of a found word",
+      "wordsHeading": "Words to find",
+      "wordFound": " (found)",
+      "sheetTitle": "Word search: {theme}",
+      "sheetNote": "Words go across or down.",
+      "unavailable": "A letter grid does not suit this language, so the word search is not offered here. Try the picture games instead."
+    },
+    "coloring": {
+      "guidance": "Tap a color, then tap a part of the picture.",
+      "restart": "Clear the colors",
+      "cleared": "The page is blank again.",
+      "pageLegend": "Page",
+      "print": "Print this page",
+      "colorsLabel": "Colors",
+      "paintChosen": "{paint} chosen.",
+      "painted": "{part} is now {paint|lower}.",
+      "artLabel": "{page}, {count} parts to color",
+      "partPainted": "{part}, {paint|lower}",
+      "partBlank": "{part}, not colored",
+      "paints": {
+        "red": "Red",
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "blue": "Blue",
+        "purple": "Purple",
+        "pink": "Pink",
+        "brown": "Brown",
+        "sky-blue": "Sky blue",
+        "cream": "Cream",
+        "gray": "Gray",
+        "white": "White"
+      }
+    },
+    "conversationCards": {
+      "guidance": "Read the card out loud. There are no right answers.",
+      "position": "Card {n} of {total}",
+      "themeLegend": "Theme",
+      "showPrompt": "Show a conversation prompt",
+      "bigPicture": "بؤیوک شکیل، قروپ اوچون",
+      "passNote": "هر کس keçə bilər.",
+      "groupTitle": "Passing a card round a group",
+      "groupSit": "Sit in a circle where everyone can see the picture. The person holding the card, or the device with the big picture, reads the prompt out loud first.",
+      "groupPass": "Then pass the card on to the next person. Each person says a word or a sentence about the picture, then passes it on.",
+      "groupNoSpeech": "Handing the card on is always allowed. A person may pass without saying anything, and nobody has to say why.",
+      "groupEnd": "دؤور، کارت دایره‌نین ایراغیندا بوتون اوتوردانلارا چاتاندا یا قروپون کیفایتی یئتنده بیتیر. هئچ کیم قازانمیر. قروپ هر واخت ایستیرسه، دایانا بیلر.",
+      "next": "Next card",
+      "previous": "Previous card",
+      "print": "Print all cards",
+      "sheetTitle": "Conversation cards"
+    },
+    "pictureBingo": {
+      "guidance": "Print the cards first. Then show this caller on the biggest screen you have.",
+      "called": {
+        "one": "{name}. {called} of {total} picture called.",
+        "other": "{name}. {called} of {total} pictures called."
+      },
+      "start": "Tap \"Next picture\" to call the first picture.",
+      "restart": "Start a new game",
+      "squaresLegend": "Squares on each card",
+      "squares": "{n} squares ({side} by {side})",
+      "cardsLegend": "How many cards to print",
+      "cards": {
+        "one": "{n} card",
+        "other": "{n} cards"
+      },
+      "print": {
+        "one": "Print {n} bingo card",
+        "other": "Print {n} bingo cards"
+      },
+      "ready": "Ready when you are",
+      "next": "Next picture",
+      "allCalled": "Every picture has been called",
+      "alreadyCalled": "Already called",
+      "sheetTitle": "Picture bingo · card {n}"
+    },
+    "calmBreathing": {
+      "guidance": "Breathe in as the circle grows, and out as it gets smaller. It stops by itself after six breaths.",
+      "paceLegend": "Pace",
+      "paceSlow": "Slow (5 seconds each way)",
+      "paceGentle": "Gentle (4 seconds each way)",
+      "ready": "Ready when you are",
+      "in": "Breathe in",
+      "hold": "Rest",
+      "out": "Breathe out",
+      "start": "Start",
+      "stop": "Stop",
+      "started": "Started. Breathe in as the circle grows.",
+      "stopped": "Stopped.",
+      "finished": "That was six slow breaths. Start again whenever you like."
+    },
+    "storyChain": {
+      "guidance": "نؤوبه ایله دانیشین: هر بیری بیر جمله دئسین و سونراکی شکیلی علاوه ائدین.",
+      "passNote": "Say your sentence aloud. Nothing is typed or kept. Anyone may pass.",
+      "chainLabel": "The chain so far",
+      "item": "شکیل {n}: {name}",
+      "add": "شکیل علاوه ائدین",
+      "fullAdd": "The chain is full. Start a new chain",
+      "newChain": "Start a new chain",
+      "takeOff": "آخیرنجی شکیلی چیخارین",
+      "added": "The {name|lower} is now at the end of the chain.",
+      "removed": "{name|lower} زنجیردن چیخدی.",
+      "fresh": "A new chain, starting with the {name|lower}.",
+      "full": "The chain has all eight pictures. Tell the whole story, or start a new chain."
+    }
+  },
+  "pictures": {
+    "teacup": "Teacup",
+    "kettle": "Kettle",
+    "bread": "Loaf of bread",
+    "frying-pan": "Frying pan with an egg",
+    "cake": "Birthday cake",
+    "sunflower": "Sunflower",
+    "tulip": "Red tulip",
+    "watering-can": "Watering can",
+    "potted-plant": "Potted plant",
+    "tree": "Tree",
+    "bird": "Robin on a branch",
+    "butterfly": "Butterfly",
+    "dog": "Dog",
+    "cat": "Cat",
+    "fish": "Goldfish",
+    "apple": "Red apple",
+    "pear": "Pear",
+    "strawberry": "Strawberry",
+    "banana": "Banana",
+    "lemon": "Lemon",
+    "cherries": "Cherries",
+    "house": "House",
+    "lamp": "Table lamp",
+    "armchair": "Armchair",
+    "key": "Old key",
+    "umbrella": "Umbrella",
+    "sailboat": "Sailboat",
+    "car": "Classic car",
+    "bicycle": "Bicycle",
+    "balloon": "Hot air balloon",
+    "lighthouse": "Lighthouse",
+    "sun": "Sun",
+    "moon": "Moon and stars",
+    "teapot": "Teapot",
+    "apple-pie": "Apple pie",
+    "honey-jar": "Jar of honey",
+    "boiled-egg": "Egg in an egg cup",
+    "toaster": "Toaster",
+    "cheese": "Wedge of cheese",
+    "milk-jug": "Milk jug",
+    "cupcake": "Cupcake",
+    "orange": "Orange",
+    "grapes": "Bunch of grapes",
+    "watermelon": "Slice of watermelon",
+    "pineapple": "Pineapple",
+    "peach": "Peach",
+    "rose": "Rose",
+    "daisies": "Daisies",
+    "mushroom": "Mushroom",
+    "wheelbarrow": "Wheelbarrow",
+    "birdhouse": "Birdhouse",
+    "cactus": "Cactus in a pot",
+    "acorn": "Acorn",
+    "autumn-leaf": "Autumn leaf",
+    "rabbit": "Rabbit",
+    "duck": "Duck",
+    "hen": "Hen",
+    "sheep": "Sheep",
+    "owl": "Owl",
+    "ladybird": "Ladybird",
+    "snail": "Snail",
+    "frog": "Frog",
+    "bee": "Bee",
+    "clock": "Mantel clock",
+    "vase-of-flowers": "Vase of flowers",
+    "radio": "Old radio",
+    "books": "Pile of books",
+    "candle": "Candle",
+    "glasses": "Reading glasses",
+    "telephone": "Telephone",
+    "ball-of-wool": "Ball of wool",
+    "straw-hat": "Sun hat",
+    "train": "Steam train",
+    "bus": "Bus",
+    "airplane": "Aeroplane",
+    "suitcase": "Suitcase",
+    "tractor": "Tractor",
+    "rowing-boat": "Rowing boat",
+    "rainbow": "Rainbow",
+    "rain-cloud": "Rain cloud",
+    "snowflake": "Snowflake",
+    "kite": "Kite",
+    "sunrise": "Sunrise over the hills",
+    "decorated-keepsake-box": "Decorated keepsake box",
+    "painted-plant-pot": "Painted plant pot with herbs",
+    "repeating-pattern-sheet": "Sheet of repeating patterns",
+    "music-drawn-lines": "Lines drawn to music",
+    "paper-boat-afloat": "Paper boat afloat on water",
+    "folded-towel-stack": "Stack of folded towels",
+    "hand-massage-with-lotion": "Hand resting on a towel, with lotion",
+    "open-photo-album": "Open photo album",
+    "button-flower-card": "Button flower on a card",
+    "blue-torn-paper-collage": "Blue torn-paper collage",
+    "family-tree-of-hands": "Family tree drawn with hands",
+    "open-greeting-card": "Open greeting card with a heart",
+    "lavender-sachet": "Lavender sachet tied with ribbon",
+    "memory-collage-of-photos": "Collage of family photos",
+    "paper-chain-garland": "Paper chain garland",
+    "open-songbook-with-notes": "Open songbook with music notes",
+    "photo-postcard-with-stamp": "Photo postcard with a stamp",
+    "pine-cone-bird-feeder": "Pine cone bird feeder hanging from a branch",
+    "playlist-phone-and-card": "Phone playlist and song card",
+    "sealed-rice-shaker": "Sealed rice shaker",
+    "texture-board-with-scraps": "Texture board with scraps",
+    "painted-garden-stone": "Painted garden stone",
+    "shared-painted-canvas": "Shared painted canvas",
+    "watercolor-washes-sheet": "Watercolor washes on paper",
+    "seedling-in-pot": "Seedlings in a pot",
+    "pressed-leaves-in-book": "Pressed leaves in a book",
+    "printed-leaves-sheet": "Sheet of leaf prints",
+    "pinch-pot-clay-bowl": "Pinch pot",
+    "table-sketch-pencil": "Pencil sketch of a mug",
+    "buttons-in-muffin-tin": "Buttons sorted in a muffin tin",
+    "family-recipe-book": "Family recipe book",
+    "drum-with-beat-marks": "Table drum with sticks",
+    "torn-paper-flower": "Torn paper flower mosaic",
+    "window-with-birds": "Window with birds",
+    "woven-paper-mat": "Woven paper mat",
+    "yarn-ball-with-thread": "Ball of yarn",
+    "letter-and-envelope": "Letter in an envelope"
+  },
+  "content": {
+    "conversation": {
+      "themes": {
+        "all": "All cards",
+        "food": "Food",
+        "home": "Home",
+        "outdoors": "Outdoors",
+        "animals": "Animals",
+        "travel": "Going places",
+        "work": "Work and hobbies",
+        "music": "Music and fun",
+        "seasons": "Seasons"
+      },
+      "cards": [
+        {
+          "theme": "food",
+          "picture": "bread",
+          "prompt": "What is your favorite smell from a kitchen?"
+        },
+        {
+          "theme": "food",
+          "picture": "cake",
+          "prompt": "What kind of cake would you choose for a celebration?"
+        },
+        {
+          "theme": "food",
+          "picture": "apple",
+          "prompt": "Tell me about a favorite fruit pie or dessert."
+        },
+        {
+          "theme": "food",
+          "picture": "teacup",
+          "prompt": "How do you like your tea or coffee?"
+        },
+        {
+          "theme": "food",
+          "picture": "frying-pan",
+          "prompt": "What makes a really good breakfast?"
+        },
+        {
+          "theme": "food",
+          "picture": "strawberry",
+          "prompt": "Have you ever picked fruit straight from the plant?"
+        },
+        {
+          "theme": "food",
+          "picture": "lemon",
+          "prompt": "Sweet or sour: which do you like better?"
+        },
+        {
+          "theme": "food",
+          "picture": "cherries",
+          "prompt": "What is a food that tastes like summer to you?"
+        },
+        {
+          "theme": "home",
+          "picture": "house",
+          "prompt": "Tell me about a house you liked living in."
+        },
+        {
+          "theme": "home",
+          "picture": "armchair",
+          "prompt": "Where is your favorite place to sit and relax?"
+        },
+        {
+          "theme": "home",
+          "picture": "lamp",
+          "prompt": "What do you like to do on a quiet evening?"
+        },
+        {
+          "theme": "home",
+          "picture": "key",
+          "prompt": "What is a treasure you would keep in a special box?"
+        },
+        {
+          "theme": "home",
+          "picture": "kettle",
+          "prompt": "Who would you invite over for a cup of tea?"
+        },
+        {
+          "theme": "home",
+          "picture": "umbrella",
+          "prompt": "What do you like to do on a rainy day?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sunflower",
+          "prompt": "What flowers would you plant in a garden?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tree",
+          "prompt": "Tell me about a tree or park you like."
+        },
+        {
+          "theme": "outdoors",
+          "picture": "watering-can",
+          "prompt": "What is the best part of being in a garden?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "tulip",
+          "prompt": "What color flowers do you like best?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "potted-plant",
+          "prompt": "Do you like having plants in the house?"
+        },
+        {
+          "theme": "outdoors",
+          "picture": "sun",
+          "prompt": "What is your idea of a perfect sunny day?"
+        },
+        {
+          "theme": "animals",
+          "picture": "dog",
+          "prompt": "Tell me about a dog you have known."
+        },
+        {
+          "theme": "animals",
+          "picture": "cat",
+          "prompt": "Cats or dogs, or neither? What do you like about them?"
+        },
+        {
+          "theme": "animals",
+          "picture": "bird",
+          "prompt": "What birds do you see or hear outside?"
+        },
+        {
+          "theme": "animals",
+          "picture": "fish",
+          "prompt": "Have you ever been fishing, or kept a fish tank?"
+        },
+        {
+          "theme": "animals",
+          "picture": "butterfly",
+          "prompt": "What is the most beautiful animal you have seen?"
+        },
+        {
+          "theme": "travel",
+          "picture": "car",
+          "prompt": "Tell me about a car you liked."
+        },
+        {
+          "theme": "travel",
+          "picture": "sailboat",
+          "prompt": "Would you rather spend a day at the beach or in the mountains?"
+        },
+        {
+          "theme": "travel",
+          "picture": "bicycle",
+          "prompt": "Where would you like to go for a ride?"
+        },
+        {
+          "theme": "travel",
+          "picture": "balloon",
+          "prompt": "If you could fly over any place, where would it be?"
+        },
+        {
+          "theme": "travel",
+          "picture": "lighthouse",
+          "prompt": "What is a trip you enjoyed?"
+        },
+        {
+          "theme": "work",
+          "picture": "key",
+          "prompt": "What kind of work have you enjoyed doing?"
+        },
+        {
+          "theme": "work",
+          "picture": "watering-can",
+          "prompt": "What is a hobby that you could spend hours on?"
+        },
+        {
+          "theme": "work",
+          "picture": "bread",
+          "prompt": "What is something you were known for making or fixing?"
+        },
+        {
+          "theme": "work",
+          "picture": "house",
+          "prompt": "What advice would you give a young person starting work?"
+        },
+        {
+          "theme": "music",
+          "picture": "balloon",
+          "prompt": "What kind of music makes you want to tap your feet?"
+        },
+        {
+          "theme": "music",
+          "picture": "cake",
+          "prompt": "What makes a really good party?"
+        },
+        {
+          "theme": "music",
+          "picture": "lamp",
+          "prompt": "Who is a singer you like to listen to?"
+        },
+        {
+          "theme": "music",
+          "picture": "armchair",
+          "prompt": "What is a favorite movie or TV show to watch again?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "sun",
+          "prompt": "What do you like most about summer?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tree",
+          "prompt": "What do you enjoy about the fall?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "moon",
+          "prompt": "What is a cozy thing to do on a winter evening?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "tulip",
+          "prompt": "What are the first signs of spring for you?"
+        },
+        {
+          "theme": "seasons",
+          "picture": "umbrella",
+          "prompt": "Snow, rain or sunshine: which do you prefer?"
+        }
+      ]
+    },
+    "coloring": {
+      "pages": {
+        "flower": {
+          "name": "Flower in a pot",
+          "regions": {
+            "sky": "Background",
+            "table": "Table",
+            "stem": "Stem",
+            "leaf-left": "Left leaf",
+            "leaf-right": "Right leaf",
+            "petal-1": "Petal 1",
+            "petal-2": "Petal 2",
+            "petal-3": "Petal 3",
+            "petal-4": "Petal 4",
+            "petal-5": "Petal 5",
+            "petal-6": "Petal 6",
+            "petal-7": "Petal 7",
+            "petal-8": "Petal 8",
+            "center": "Flower center",
+            "pot": "Pot",
+            "pot-rim": "Pot rim"
+          }
+        },
+        "house": {
+          "name": "House",
+          "regions": {
+            "sky": "Sky",
+            "sun": "Sun",
+            "grass": "Grass",
+            "chimney": "Chimney",
+            "walls": "Walls",
+            "roof": "Roof",
+            "door": "Door",
+            "window-left": "Left window",
+            "window-right": "Right window",
+            "path": "Path"
+          }
+        },
+        "teacup": {
+          "name": "Teacup",
+          "regions": {
+            "background": "Background",
+            "saucer": "Saucer",
+            "handle": "Handle",
+            "cup": "Cup",
+            "band": "Stripe on the cup",
+            "tea": "Tea"
+          }
+        },
+        "butterfly": {
+          "name": "Butterfly",
+          "regions": {
+            "background": "Background",
+            "wing-top-left": "Top left wing",
+            "wing-top-right": "Top right wing",
+            "wing-bottom-left": "Bottom left wing",
+            "wing-bottom-right": "Bottom right wing",
+            "spot-left": "Left wing spot",
+            "spot-right": "Right wing spot",
+            "body": "Body"
+          }
+        },
+        "sailboat": {
+          "name": "Sailboat",
+          "regions": {
+            "sky": "Sky",
+            "sea": "Sea",
+            "sail-big": "Big sail",
+            "sail-small": "Small sail",
+            "mast": "Mast",
+            "hull": "Boat",
+            "flag": "Flag"
+          }
+        }
+      }
+    },
+    "sorting": {
+      "themes": {
+        "kitchen-garden": {
+          "label": "Kitchen and garden",
+          "baskets": [
+            "In the kitchen",
+            "In the garden"
+          ]
+        },
+        "fruit-animals": {
+          "label": "Fruit and animals",
+          "baskets": [
+            "Fruit",
+            "Animals"
+          ]
+        },
+        "home-travel": {
+          "label": "Home and travel",
+          "baskets": [
+            "At home",
+            "Out and about"
+          ]
+        }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "میوه",
+        "animals": "حیوانلار",
+        "travel": "سفر یوللاری",
+        "flowers": "چیچکلر",
+        "hot-drinks": "Things for a hot drink",
+        "weather": "هوانین نؤعلری",
+        "baked": "فرینده بیشیریلن شئیلر"
+      }
+    }
+  }
+}

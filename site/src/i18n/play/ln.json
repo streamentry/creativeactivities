@@ -5,6 +5,13 @@
       "stopReading": "Tika kotánga",
       "region": "Lisano",
       "restart": "Banda lisusu",
+      "rest": "Pema sikawa",
+      "restingTitle": "Kopema",
+      "restingText": "Pema ntango nyonso okolingaka. Esika na yo ebatelami awa.",
+      "resume": "Kokoba",
+      "placeText": "Mbala ya suka otelemaki na katikati. Kokoba wana, to kobanda sika.",
+      "placeResume": "Kokoba",
+      "placeFresh": "Kobanda sika",
       "soundOn": "Makɛlɛ́lɛ ya pɛtɛ́ɛ efungwami",
       "soundOff": "Makɛlɛ́lɛ ya pɛtɛ́ɛ ekangami",
       "done": "Esili mpo na sik'oyo",
@@ -43,7 +50,19 @@
       "viewShowing": "Bililingi oyo ezali komonana",
       "viewHidden": "Bililingi oyo ebombami",
       "playAgain": "Bóbetela lisusu na bililingi ya sika",
-      "talk": "Bósolola elongo mpo na bililingi"
+      "talk": "Bósolola elongo mpo na bililingi",
+      "modeLegend": "Bilingi nini",
+      "modePlay": "Bilingi nyonso",
+      "modeDaily": "Kaarti ya lelo",
+      "dayLegend": "Mokolo nini",
+      "dayHelp": "Bato nyonso bazwi bilingi moko na mokolo moko. Mikolo ya kala mpe ezali awa, mpe kotika mokolo moko ezali na mbano te.",
+      "guidanceDaily": "Kaarti ya lelo ezali na bapaire minei. Kotelela elilingi moko, sima kotelela oyo ekokana na yango.",
+      "restartDaily": "Bandela kaarti oyo lisusu",
+      "copy": "Kokopia maloba oyo",
+      "copied": "Ekopiyami. Eloko moko etindami esika moko te.",
+      "calendarTitle": "Makaarti ya mikolo, {month}",
+      "calendarHelp": "Mokolo mokolo ezali na bilingi minei moko mpo na bato nyonso. Nkombo ekomami te, mpe mokolo moko ekomami te ete ebungisami.",
+      "calendarVersion": "Version {date}. Bilingi ezali moko mpo na bato nyonso na mokolo moko."
     },
     "choose": {
       "countLegend": "Motángo ya bililingi",
@@ -62,6 +81,635 @@
       "shadowAlt": "Elili ya kokokanisa",
       "foundAlt": "Elili ya {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Malakisi",
+      "hintOn": "Malakisi nsima ya kopema mwa moke",
+      "hintOff": "Malakisi te",
+      "guidance": "Zua bilingi {n} oyo ekoki kozala lisanga moko, mpe kotelela yango moko moko.",
+      "countLegend": "Bilingi boni",
+      "count": "Bilingi {n}",
+      "found": "Iyo, {name|lower} ezali na lisanga oyo.",
+      "elsewhere": "{name|lower} ezali na lisanga mosusu. Salá na ntango oyo okolingaka.",
+      "hint": "Malakisi: luka {theme|lower}.",
+      "together": "Oyo ezali lisanga: {theme}.",
+      "shown": "Tala lisanga: {theme}.",
+      "groupName": "Lisanga: {theme}",
+      "show": "Monisa lisanga",
+      "next": "Lisanga mosusu"
+    },
+    "oddOneOut": {
+      "hintLegend": "Malakisi",
+      "hintOn": "Malakisi nsima ya kopema mwa moke",
+      "hintOff": "Malakisi te",
+      "guidance": "Zua elilingi oyo ekokani te na mosusu, mpe kotelela yango.",
+      "countLegend": "Bilingi boni",
+      "count": "Bilingi {n}",
+      "belongs": "{name|lower} ekokani na mosusu. Salá na ntango oyo okolingaka.",
+      "found": "Iyo, {name|lower} ezali oyo ekokani te. Mosusu ezali {theme|lower}.",
+      "shown": "Tala: {name|lower}. Mosusu ezali {theme|lower}.",
+      "hint": "Malakisi: {n} na oyo ezali {theme|lower}.",
+      "others": "Mosusu: {theme}",
+      "show": "Monisa ngai",
+      "next": "Lisanga mosusu"
+    },
+    "seatedToss": {
+      "guidance": "Fandá na mesa mpe bobetaka tour na kotinda sakɛ moke ya ndambo na kibo monene. Bakisa nkombo na lipapela, elongo.",
+      "stepsHeading": "Ndenge ekotambola",
+      "steps": [
+        "Bimisa kibo mpe lipapela ya nkombo, mpe kotia yango plat na mesa katikati na bino.",
+        "Fandá malembe, moko na ngambo moko. Bobetaka tour na kotinda malembe moko moko, to kopema soki olingi te.",
+        "Soki kotinda ekweyi na lokuta, moto oyo atindaki akotia mbango moko na lolenge na ye, na lisusu ya lokuta yango.",
+        "Tala mbango elongo na suka, soki olingi. Moto moko te asengeli kobakisa nkombo.",
+        "Kosuka tango nyonso moko na bino alingi."
+      ],
+      "safetyHeading": "Bobateli",
+      "safetyLine": "Salá kaka na sakɛ oyo ezali na kopikama malamu, to mpuni oyo epikami mosika. Fandá, kotinda epai ya elongi te, mpe tika moto azala pene. Biloko moke ezali likama mpo na kokɔsa.",
+      "flags": [
+        "Ezali te mpo na bana ya leki 3: biloko moke",
+        "Tika kozala pene na monoko"
+      ],
+      "safety": [
+        "Pona sakɛ oyo ezali na kopikama malamu, to pɛtola mpuni ya malamu. Liboso, tala soki ezali na lipasi to mabanga ebimaki, ete eloko moko ekoka kobima te.",
+        "Ndambo, madesu, bele mpe biloko mosusu moke ezali likama mpo na kokɔsa. Batela yango pene na bana ya moke mpe na moto nyonso oyo akotia biloko na monoko.",
+        "Tiká ete moto azala pene mpenza, mpe talá malamu soki eloko moko ekoki kotiama na monoko.",
+        "Fandá. Kotinda malembe mpe na nse, epai ya kibo na mesa. Kotinda epai ya elongi te."
+      ],
+      "previewLabel": "Lipapela oyo ebimisami: kibo ya lokuta misato, na nkombo Pene, Kati mpe Mosika, kobanda na libanda kino na kati, mpe nkombo ya mbango, na lolenge moko mpo na moto nyonso, na mitambo ya mbango mpo na lokuta nyonso.",
+      "sheetHow": "Tia lipapela plat na mesa katikati na bino. Soki kotinda ekweyi na lokuta, tia mbango na lolenge na yo, na lisusu ya lokuta yango.",
+      "rings": [
+        "Pene",
+        "Kati",
+        "Mosika"
+      ],
+      "people": [
+        "Moto ya liboso",
+        "Moto ya mibale"
+      ],
+      "ringHeading": "Lokuta",
+      "print": "Bimisa kibo mpe lipapela ya nkombo"
+    },
+    "seasonalPack": {
+      "guidance": "Pona sanza, bimisa masanga misato ya lipapela na yango, sima salá moko, mibale to misato elongo.",
+      "monthLegend": "Pona sanza",
+      "months": [
+        "Janvie",
+        "Fevrié",
+        "Mars",
+        "Avril",
+        "Mai",
+        "Juin",
+        "Yulyé",
+        "Ut",
+        "Septembre",
+        "Oktobre",
+        "Novembre",
+        "Desembre"
+      ],
+      "monthNote": "Sanza mosusu na mosusu ezali na bilingi na yango. Esika oyo efungoli na sanza oyo, mpe okoki kopona sanza mosusu nyonso.",
+      "restDay": "Lelo ezali mokolo ya kopema",
+      "restLine": "Masanga te lelo. Mokolo ya kopema mpe ezali mokolo malamu.",
+      "previewHeading": "Masanga misato",
+      "puzzles": {
+        "pairs": {
+          "title": "Kokangisa bapaire",
+          "how": "Kotia ndelo longwa na elilingi na mokili ya likolo kino na elilingi moko na mokili ya nse.",
+          "describe": "Mikili mibale ya bilingi minei moko, kasi na ndenge mosusu."
+        },
+        "different": {
+          "title": "Elilingi nini ezali ndenge mosusu?",
+          "how": "Zingá elilingi oyo ezali ndenge mosusu na misato mosusu.",
+          "describe": "Lolenge moko ya bilingi minei. Misato ezali moko, mpe moko ezali mosusu."
+        },
+        "color": {
+          "title": "Kopaka yango na langi",
+          "how": "Paká elilingi lolenge olingi, na krayon to na makalo.",
+          "describe": "Elilingi moko monene mpo na kopaka na langi."
+        }
+      },
+      "print": "Bimisa masanga ya sanza oyo",
+      "sheetHow": "Bimisa lipapela moko. Salá moko, mibale to misato ya masanga, na ndenge nyonso.",
+      "printFooter": "Salá moko, mibale to misato. Kosuka tango nyonso olingi."
+    },
+    "decorateACard": {
+      "guidance": "Pona likambo, sima kopambola kaarti elongo na krayon to na stilo. Kaarti ya malamu mpenza moko ezali te.",
+      "occasionLegend": "Pona likambo",
+      "occasions": {
+        "birthday": {
+          "label": "Mokolo ya kobota",
+          "words": "Mokolo ya kobota malamu"
+        },
+        "thank-you": {
+          "label": "Matondi",
+          "words": "Matondi"
+        },
+        "thinking-of-you": {
+          "label": "Nakanisi yo",
+          "words": "Nakanisi yo"
+        },
+        "new-season": {
+          "label": "Ngonga ya sika",
+          "words": "Ngonga ya sika"
+        },
+        "just-because": {
+          "label": "Kaka mpo na esengo",
+          "words": "Kaka mpo na esengo"
+        }
+      },
+      "stepsHeading": "Ndenge ya kopambola yango elongo",
+      "steps": {
+        "fold": "Bimisa kaarti mpe pɛtola yango na katikati na ndelo ya mikoli, ete liboso ezala na libanda.",
+        "front": "Moto moko apambolá liboso, kozingazinga maloba.",
+        "inside": "Moto mosusu apambola sima, to bobetaka tour na ngambo moko.",
+        "message": "Kokomela nsango elongo. Moto moko akoki kokoma tango mosusu alobi maloba.",
+        "stop": "Kosuka tango nyonso olingi. Kaarti ya malamu mpenza ezali te, mpe moko ya mwa pɛtɛ ezali malamu lokola."
+      },
+      "materials": "Salelá krayon, makalo ya langi to stilo ya feti. Eloko moko esengeli kokata te, kotɛmɛla te, to kobatisa lipapela te.",
+      "previewLabel": "Elilingi ya kaarti oyo epɛtolami na katikati. Libeli elobi {words}, na mokɔngɔ ya mabɛlɛ mpe banzolo. Sima ezali na mikoli mpo na nsango mpe mokoŋo mpo na Longwa na.",
+      "from": "Longwa na",
+      "sheetHow": "Pliá kaati na katikati, na nzela ya mistari ya mbale, na libándá na yango ezali na nse. Kọ́ maloba na sima.",
+      "rulesHeading": "Mpo na bato mibale",
+      "sheetRules": [
+        "Bobalá na tour, to bókabola mosála: moto moko akosála mbele ya kaati, mosúsu akosála sima.",
+        "Bókomá maloba elongo, to moto moko akokoma oyo mosúsu alobi.",
+        "Moto nyonso akoki kotɛ́ka tango nyonso. Kaati ya malamu moko ezali te."
+      ],
+      "print": "Bimisá kaati"
+    },
+    "storyDice": {
+      "guidance": "Tálá milingi mpe lobá lisolo na yango, na lolenge nyonso. Lisolo ya sembo moko ezali te.",
+      "countLegend": "Dé boni",
+      "count": "{n} dé",
+      "roll": "Bobwaká lisúsu",
+      "pass": "Kopɔ́sa",
+      "passed": "Kopɔ́sa ezali malamu. Moto mosúsu akoki kobanda, to bokoki kobwaka lisúsu.",
+      "rolled": "Milingi ya sika: {names}.",
+      "tapped": "{name}. Bandá na oyo, to na oyo mosúsu nyonso."
+    },
+    "wordPicture": {
+      "guidance": "Bopɛ́ssa elilingi, na sima liloba oyo elobeli yango. To bopɛ́ssa liloba, na sima elilingi na yango.",
+      "countLegend": "Milingi boni",
+      "count": "{n} milingi",
+      "picturesGroup": "Milingi",
+      "wordsGroup": "Maloba",
+      "readWord": "Bóyemba na mongongo: {name}",
+      "next": "Milingi ya sika",
+      "putBack": "Kozongisa yango",
+      "pickWord": "Sikoyo pɛ́ssá liloba oyo ekokani na yango.",
+      "pickPicture": "Sikoyo pɛ́ssá elilingi oyo ekokani na yango.",
+      "fit": "Iyo, liloba yango ekokani na {name|lower}.",
+      "newSet": "Tɔ́ndá ya milingi ya sika.",
+      "restarted": "Tozongi na ebandeli. Elilingi nyonso mpe maloba nyonso bazali lisúsu moko moko.",
+      "restored": "Ezongisami. Bapaire oyo ekokani emonisami lisúsu.",
+      "all": "Liloba nyonso ezali na elilingi na yango."
+    },
+    "colorMatch": {
+      "guidance": "Tálá langi mpe nkombo na yango, na sima pɛ́ssá elilingi nyonso oyo ezali na langi yango.",
+      "target": "Langi ezali {color|lower}. Pɛ́ssá elilingi nyonso oyo ezali {color|lower}.",
+      "countLegend": "Milingi boni",
+      "count": "{n} milingi",
+      "found": "Iyo, {name|lower} ezali {color|lower}.",
+      "named": "{name|lower} ezali {color|lower}.",
+      "all": "Yango nde milingi nyonso ya {color|lower}.",
+      "shown": "Yango wana milingi ya {color|lower}.",
+      "show": "Monisa yango",
+      "next": "Langi mosúsu",
+      "names": {
+        "red": "Rouge",
+        "orange": "Orange",
+        "yellow": "Jaune",
+        "green": "Vert",
+        "blue": "Bleu"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Pɛ́ssá ndambo ya lobɔ́kɔ, na sima pɛ́ssá ndambo ya mobɛ́ko oyo ekokani na yango.",
+      "countLegend": "Milingi boni",
+      "count": "{n} milingi",
+      "leftGroup": "Ndambo ya lobɔ́kɔ",
+      "rightGroup": "Ndambo ya mobɛ́ko",
+      "left": "Ndambo ya lobɔ́kɔ ya {name|lower}",
+      "right": "Ndambo ya mobɛ́ko ya {name|lower}",
+      "joined": "Ekangami",
+      "pickRight": "Sikoyo pɛ́ssá ndambo ya mobɛ́ko oyo ekokani na yango.",
+      "pickLeft": "Sikoyo pɛ́ssá ndambo ya lobɔ́kɔ oyo ekokani na yango.",
+      "fit": "Iyo, yango mibale ekokani mpo na kosala {name|lower}.",
+      "apart": "Yango mibale ekokani te. Meká mosúsu.",
+      "all": "Elilingi nyonso ezali mobimba.",
+      "shown": "Yango wana milingi, ekangami.",
+      "show": "Monisa ngai",
+      "next": "Tɔ́ndá mosúsu"
+    },
+    "colorByNumber": {
+      "guidance": "Pona langi na lisúmuki, na sima tondisa carré na yango. Langi nyonso ezali malamu.",
+      "sizeLegend": "Monene ya gridi",
+      "size": "{n} na {n}",
+      "keyLegend": "Langi",
+      "colors": [
+        "Jaune",
+        "Orange",
+        "Vert",
+        "Violet"
+      ],
+      "motifs": {
+        "house": "ndako",
+        "flower": "fleur",
+        "heart": "motema",
+        "tree": "nzɔ́",
+        "boat": "ngato ya mpepe",
+        "pot-plant": "plante na pɔ́t"
+      },
+      "region": "Gridi ya milingi, {n} na {n}. Ekokende na nzela ya mbala soki ekrane ezali moke.",
+      "cell": "Nomɔ̌ {number}, lisanga {row}, lolaka {column}, {color}",
+      "empty": "ezali pamba",
+      "chose": "{name} eponami. Pɛ́ssá carré mpo na kotondisa yango.",
+      "painted": "{name} na lisanga {row}, lolaka {column}.",
+      "sheet": "Carré nyonso ezali na langi ya nomɔ̌ na yango. Oyo ezali elilingi na lilapo: {name}.",
+      "own": "Carré nyonso etondi. Oyo ezali elilingi na yo moko.",
+      "fillAll": "Tondisa na nomɔ̌",
+      "filledAll": "Carré nyonso ya pamba sikoyo ezali na langi ya nomɔ̌ na yango.",
+      "clear": "Kolongola",
+      "cleared": "Gridi ezali pamba.",
+      "next": "Elilingi mosúsu",
+      "fresh": "Oyo ezali elilingi mosúsu mpo na kopakola langi."
+    },
+    "patternMaker": {
+      "guidance": "Pɛ́ssá carré mpo na kobongola langi na yango. Motindo na yo ekokola pembeni na yango. Eloko nyonso oyo okosala ebombami te, mpe etindami te.",
+      "sizeLegend": "Monene ya tuile",
+      "size": "{n} na {n}",
+      "keyLegend": "Langi, na ndenge pɛ́ssá ebongolaka yango",
+      "colors": [
+        "Jaune",
+        "Orange",
+        "Vert",
+        "Violet"
+      ],
+      "tileLabel": "Tuile na yo",
+      "region": "Tuile na yo, {n} na {n}. Ekokende na nzela ya mbala soki ekrane ezali moke.",
+      "patternLabel": "Motindo na yo",
+      "pattern": "Motindo na yo: tuile na yo esalemi mbala {n} na mbɛ́ki mpe mbala {n} na nse.",
+      "square": "Lisanga {row}, lolaka {column}, {color}",
+      "changed": "Lisanga {row}, lolaka {column} ezali sikoyo {color}.",
+      "cleared": "Tuile ezali pamba. Okoki kozongisa yango.",
+      "surprise": "Pésá ngai eloko ya sika",
+      "surprised": "Tuile ya sika oyo. Okoki kozongisa ya kala.",
+      "putBack": "Kozongisa yango",
+      "restored": "Tuile na yo ezongi lokola ezalaki.",
+      "print": "Bimisá motindo na ngai",
+      "sheetTitle": "Motindo na ngai"
+    },
+    "buildTogether": {
+      "guidance": "Bobalá na tour mpo na kotia eloko na esika ya pamba. Moto na moto azali na langi na ye. Eloko nyonso oyo bosali ebombami te, mpe etindami te.",
+      "sizeLegend": "Monene ya gridi",
+      "size": "{n} na {n}",
+      "people": [
+        "Moto ya liboso",
+        "Moto ya mibale"
+      ],
+      "colorLegend": "Langi ya {person}",
+      "colors": [
+        "Jaune",
+        "Orange",
+        "Vert",
+        "Violet"
+      ],
+      "inUse": "Esalemi",
+      "turn": "Tango na yo, {person|lower}",
+      "yourColor": "Langi na yo ezali {color|lower}.",
+      "built": "Esalemi elongo. Oyo ezali elilingi oyo bino mibale osali elongo.",
+      "gridLabel": "Gridi ya bino mibale",
+      "region": "Gridi ya bino mibale, {n} na {n}. Ekokende na nzela ya mbala soki ekrane ezali moke.",
+      "cellEmpty": "Lisanga {row}, lolaka {column}, ezali pamba",
+      "cellFilled": "Lisanga {row}, lolaka {column}, {color}, etiami na {person|lower}",
+      "placed": "Lisanga {row}, lolaka {column} ezali sikoyo {color}. Tango na yo, {next|lower}.",
+      "placedLast": "Lisanga {row}, lolaka {column} ezali sikoyo {color}. Esalemi elongo.",
+      "taken": "Lisanga {row}, lolaka {column} esili kozala na eloko. Pona esika ya pamba.",
+      "pass": "Kopɔ́sa",
+      "passed": "Kopɔ́sa ezali malamu. Tango na yo, {person|lower}.",
+      "takeBack": "Kolongola eloko ya suka",
+      "takeBackPass": "Kolongola kopɔ́sa ya suka",
+      "tookBack": "Eloko elongolami. Tango na yo, {person|lower}.",
+      "tookBackPass": "Kopɔ́sa elongolami. Tango na yo, {person|lower}.",
+      "colorChanged": "{person} azali sikoyo na {color|lower}.",
+      "restarted": "Gridi ezali pamba. Tango na yo, {person|lower}.",
+      "print": "Bimisá gridi",
+      "sheetTitle": "Tongá elongo",
+      "sheetHelp": "Take turns. In an empty square, each person draws their own shape with their own pencil.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Pɛ́ssá eloko moko, na sima pɛ́ssá esika na elilingi epai ekoki kokota yango. Eloko nyonso oyo okosala ebombami te, mpe etindami te.",
+      "hints": "Monisa minyolo ya lisungi",
+      "pictureLine": "Oyo ezali {picture}.",
+      "pictures": {
+        "house": "ndako",
+        "boat": "ngato",
+        "tree": "nzɔ́",
+        "fish": "mbisi",
+        "cat": "mpaka",
+        "rocket": "fuzé"
+      },
+      "outlineLabel": "Ekotisi ya {picture}. Pɛ́ssá esika mpo na kotia eloko oyo opona na yango.",
+      "trayHeading": "Biloko",
+      "pieces": {
+        "large-triangle": "Triangle monene",
+        "small-triangle": "Triangle moke",
+        "square": "Carré",
+        "parallelogram": "Parallélogramme",
+        "rectangle": "Rectangle"
+      },
+      "shapes": {
+        "large-triangle": "triangle monene",
+        "small-triangle": "triangle moke",
+        "square": "carré",
+        "parallelogram": "parallélogramme",
+        "rectangle": "rectangle"
+      },
+      "chosenLabel": "Eponami",
+      "spaceEmpty": "Esika {n}, {shape}, ezali pamba",
+      "spaceFilled": "Esika {n}, {shape}, ezali na eloko na yango. Pɛ́ssá mpo na kolongola eloko yango.",
+      "chosen": "{piece} eponami. Sikoyo pɛ́ssá esika na elilingi.",
+      "unchosen": "Kipanzi kiyo esily te.",
+      "placed": "Kipanzi ezali na esika {n}.",
+      "complete": "{picture} ezali kokokana mobimba.",
+      "different": "Kipanzi yango ezali na mbango mosusu na esika oyo. Meka esika mosusu.",
+      "needPiece": "Pona liboso, pona kipanzi na plato.",
+      "filled": "Esika yango esili na kipanzi na yango. Pesa likasi mpo na kozongisa kipanzi.",
+      "tookBack": "Kipanzi ezali lisusu na plato.",
+      "cleared": "Bipanzi bizongi na plato. Tia yango lisusu soki obongoli makanisi.",
+      "restored": "Bipanzi bizongi na elilingi.",
+      "next": "Oyo ezali {picture}.",
+      "putBack": "Zongisa yango",
+      "another": "Mbango mosusu",
+      "print": "Bimisa mbango oyo",
+      "sheetTitle": "Mbango ya kimia",
+      "sheetHow": "Pakola bipanzi, to kata yango mpo ete ekokana na elilingi. Moto mokolo akoki kosala kokata.",
+      "sheetPieces": "Bipanzi, na monene ekokana na elilingi"
+    },
+    "picnicPlanner": {
+      "guidance": "Pesa elilingi mpo na kotia yango na mokoli ya piki-piki, mpe pesa yango na mokoli mpo na kobimisa yango. Mokoli ezali na bintu motoba.",
+      "guidancePlay": "Pesa elilingi mibale oyo ezali lokola. Ba elilingi yango etikali komonana, mpe ntango ekangami te.",
+      "basketHeading": "Mokoli na biso",
+      "basketLabel": "Mokoli ya piki-piki",
+      "takeOut": "Bimisa {picture} na mokoli",
+      "inBasket": "Na mokoli",
+      "foodHeading": "Bilei",
+      "outingsHeading": "Biloko ya kosala",
+      "added": "{picture} ezali na mokoli.",
+      "removed": "{picture} ebimi na mokoli.",
+      "already": "{picture} ezali already na mokoli. Pesa yango wana mpo na kobimisa yango.",
+      "full": "Mokoli etonda. Bimisa likambo moko mpo na kozala na esika.",
+      "summary": "Piki-piki na biso: {list}.",
+      "summaryNone": "Eloko moko te ezali na mokoli kaka ntango oyo.",
+      "and": "mpe",
+      "play": "Tosala na piki-piki na biso",
+      "needTwo": "Pona liboso, paula biloko mibale na moke.",
+      "playAgain": "Sala lisusu",
+      "back": "Zonga na piki-piki",
+      "print": "Bimisa liste ya piki-piki na biso",
+      "cleared": "Mokoli etikali pamba.",
+      "notice": "Oyo ezali mpo na koloba elongo. Ntango ekangami te, bokaboli bipimi te, mpe eloko ebombami te.",
+      "sheetTitle": "Liste ya piki-piki na biso",
+      "sheetHow": "Tia nkanda na eloko na eloko ntango okokaba yango. Sala na bisika ya polele mpo na eloko mosusu oyo olingi komema.",
+      "sheetToPack": "Ya kokaba"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Pona mpo na kobanda buku, paula bilili mibale kino zomi na mibale ya yo moko.",
+      "guidance": "Bagira mapaji elongo, na bitonelo to na mitindo ya lobō na mwasi na mobali ya Left mpe Right. Bakisa maloba mike na nse ya elilingi soki olingi. Eloko nyonso oyo osali ebombami te, mpe etindami te.",
+      "lookGuidance": "Tala page na page elongo. Okoki koloba to kaka kotala.",
+      "intro": "Paula bilili mibale kino zomi na mibale na esaleli oyo. Elilingi na elilingi ezali page moko ya buku oyo okoki kobalola elongo.",
+      "consent": "Salela bilili ya libota na yo moko. Botuna liboso soki olingi kosalela elilingi ya moto oyo akoki koyanola te.",
+      "privacy": "Bilili na yo etikali na esaleli oyo. Ezali kotindama te, mpe kobombama te.",
+      "choose": "Pona bilili",
+      "chooseDifferent": "Pona bilili mosusu",
+      "backToBook": "Zonga na buku",
+      "backToChoose": "Zonga na kopona bilili",
+      "needTwo": "Pesa ngai bilili mibale na moke.",
+      "usingFirst": "Tozali kosalela bilili {max} ya liboso.",
+      "cleared": "Buku esili kolongolama. Pona bilili mpo na kobanda lisusu.",
+      "moved": "Ekendeki na page {n}.",
+      "pageOf": "Page {n} na {total}",
+      "lookTogether": "Tala elongo",
+      "leaveLook": "Zonga na buku",
+      "print": "Bimisa buku ya libota",
+      "clear": "Longola buku",
+      "bookLabel": "Buku ya libota",
+      "pagesLabel": "Bagira mapaji",
+      "previous": "Page ya liboso",
+      "next": "Page ya sima",
+      "moveEarlier": "Kende liboso",
+      "moveLater": "Kende sima",
+      "captionLabel": "Maloba mike mpo na page oyo, soki olingi",
+      "captionHelp": "Kino na bilembo 80. Maloba yango etikali kaka na page oyo mpe ekolongolama ntango okangi yango.",
+      "sheetTitle": "Buku na biso ya bilili",
+      "sheetHow": "One photo to a page, with its words under it. Turn the pages in order and talk about each one.",
+      "sheetEmpty": "Pona bilili na yo na page ya mosala mpo na kobimisa buku na yo moko, to bimisa page oyo ya pamba mpe kotia elilingi ebimisami.",
+      "sheetFrame": "Kotia elilingi ebimisami awa",
+      "sheetWords": "Maloba mike mpo na page oyo",
+      "skipped": {
+        "one": "Faele {n} ezalaki elilingi te oyo tokoki kosalela.",
+        "other": "Mafaele {n} ezalaki bilili te oyo tokoki kosalela."
+      }
+    },
+    "quietScene": {
+      "guidance": "Tala elilingi moko na mbala moko. Pesa Next to Previous ntango ozali prêt. Eloko moko te ekobonga na yango mosika.",
+      "next": "Elilingi ya sima",
+      "previous": "Elilingi ya liboso",
+      "bigPicture": "Elilingi monene",
+      "showEverything": "Monstra biloko nyonso",
+      "first": "Oyo ezali elilingi ya liboso.",
+      "last": "Oyo ezali elilingi ya suka.",
+      "lines": {
+        "sunrise": "Moi ezali kobimela na mabele.",
+        "window-with-birds": "Bandeke na nse ya fenêtre.",
+        "vase-of-flowers": "Vase ya bafleur na mesa.",
+        "teacup": "Kopo ya thé pembeni ya fenêtre.",
+        "tree": "Nzete etelemi na lopango.",
+        "sailboat": "Bato ya kozela na mai.",
+        "lighthouse": "Phare pembeni ya mbu.",
+        "rainbow": "Arc-en-ciel nsima ya mbula.",
+        "moon": "Sanza na likolo ya butu.",
+        "daisies": "Bifleur ya marguerite na zamba.",
+        "rowing-boat": "Bato ya kopalanga na mai ya kolongwa te.",
+        "potted-plant": "Mbuma ya matiti na pot."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Bakisa mbalakano. Pesa kipanzi, sima pesa esika ya pamba mpo na kotia yango kuna. Eloko nyonso oyo osali ebombami te, mpe etindami te.",
+      "people": [
+        "Moto ya liboso",
+        "Moto ya mibale"
+      ],
+      "marks": [
+        "lokoto",
+        "lokoto ya mwasi"
+      ],
+      "turn": "Tango ya yo, {person|lower}.",
+      "marked": "Bipanzi na yo ezali na elembo {mark}.",
+      "boardLabel": "Elilingi ya libota",
+      "placeEmpty": "Esika {n}, ezali pamba",
+      "placeFilled": "Esika {n}, {picture|lower}, etiyami na {person|lower}",
+      "trayHeading": "Bipanzi ya kokata",
+      "chosenLabel": "Epesami",
+      "chosen": "{picture} epesami. Sikoyo pesa esika ya pamba.",
+      "unchosen": "Kipanzi ya kokata esili kopesama te.",
+      "needCutout": "Pona liboso pona kipanzi ya kokata, sima pesa esika ya pamba.",
+      "filled": "Esika {n} ezali na elilingi já. Pona esika ya pamba.",
+      "placed": "{picture} ezali na esika {n}. Tango ya yo, {next|lower}.",
+      "full": "Esika nyonso ezali na elilingi. Zongisa moko mpo na kobongola, to banda lisusu.",
+      "pass": "Kolongwa",
+      "passed": "Kolongwa ezali malamu. Tango ya yo, {person|lower}.",
+      "takeBack": "Zongisa kipanzi ya suka",
+      "takeBackPass": "Zongisa kolongwa",
+      "tookBack": "Kipanzi esili kozongisama. Tango ya yo, {person|lower}.",
+      "tookBackPass": "Kolongwa esili kozongisama. Tango ya yo, {person|lower}.",
+      "restarted": "Elilingi ezali pamba. Tango ya yo, {person|lower}.",
+      "putBack": "Zongisa yango",
+      "putBackDone": "Bipanzi bizongi na elilingi.",
+      "another": "Lisanga lya elilingi mosusu",
+      "anotherSet": "Lisanga lya sika lya bipanzi ya kokata ezali na plato. Bipanzi na elilingi bikotikala epai bizali.",
+      "print": "Bimisa elilingi",
+      "sheetTitle": "Elilingi ya collage",
+      "sheetHow": "Kata bilili mpe bagira mbalakano mpo na kotia yango na elilingi. Moto mokolo akoki kosala kokata.",
+      "sheetTray": "Bilili ya kokata"
+    },
+    "gardenPlanner": {
+      "guidance": "Pesa elilingi, sima pesa etando mpo na kotia yango kuna. Pesa etando oyo ezali na elilingi, kasi elilingi moko te ezali pesami, mpo na kolongola yango.",
+      "bedsLabel": "Bitando ya lopango",
+      "bedEmpty": "Etando {n}, ezali pamba",
+      "bedFilled": "Etando {n}, {picture|lower}",
+      "plantsHeading": "Bibuma",
+      "extrasHeading": "Biloko ya lopango",
+      "chosenLabel": "Epesami",
+      "chosen": "{picture} epesami. Sikoyo pesa etando.",
+      "unchosen": "Elilingi moko te ezali pesami.",
+      "needPicture": "Pona likanisi liboso, sima pɛta ekuke ya bilanga.",
+      "planted": "{picture} ezali na ekuke {n}.",
+      "replaced": "{picture} ekoti na esika ya likanisi na ekuke {n}.",
+      "cleared": "Ekuke {n} ezali polele. Zongisa yango soki bolingi likanisi yango lisusu.",
+      "restarted": "Ekuke nyonso ezali polele.",
+      "putBack": "Zongisa yango",
+      "putBackDone": "Likanisi ezongi na bikuke na yango.",
+      "summaryHeading": "Elanga na ngai",
+      "summary": "Mokano na bino ezali na {list}.",
+      "summaryNone": "Ata likanisi moko ezali na ekuke te.",
+      "and": "mpe",
+      "print": "Bimisa mokano na papier",
+      "sheetTitle": "Mokano na biso ya elanga",
+      "sheetHow": "Ekuke ezali komonisa likanisi oyo epɛtɛ na skrine. Kokoma na ekuke ezali polele soki bolingi.",
+      "sheetNotes": "Makanisi",
+      "notice": "Oyo ezali mokano ya likanisi mpo na koloba elongo, te toli ya kopanda bilanga."
+    },
+    "coloringWall": {
+      "guidance": "Pona likanisi mpe motango ya bilokasa. Bimisa mur, mpe moto na moto akoloriya bilokasa moko to koleka. Ntango ekotalama te, mapoi ekopesama te, mpe ekobombama te.",
+      "pictureLegend": "Likanisi",
+      "sizeLegend": "Bilokasa boni?",
+      "sizes": {
+        "2x2": "Bilokasa 4 (2 na 2)",
+        "3x2": "Bilokasa 6 (3 na 2)",
+        "3x3": "Bilokasa 9 (3 na 3)"
+      },
+      "previewLabel": "The {picture|lower} split into {n} pages, {across} across and {down} down. Each page has a label in its corner.",
+      "previewCaption": "Likanisi elongo na mistari ya bilokasa mpe etiketi oyo etiyami likolo.",
+      "labelsNote": "Mikanda ekotambola na nse na mur, mpe banɔmba bakotambola na mosika, boye A1 ezali lokasa ya likoló na lobɔ́kɔ.",
+      "wallHeading": "Ndenge ya kosangana mur",
+      "steps": [
+        "Bimisa bilokasa nyonso. Lokasa ya liboso ezali minɔ́kɔ oyo mpe elilingi ya mur.",
+        "Moto na moto akamata lokasa moko to koleka mpe akoloriya yango.",
+        "Langi mpe mitindo ekoki kozala ndenge na ndenge te. Lokasa nyonso ezali sima ya likanisi moko.",
+        "Lay the pages out by their labels, then join them with tape on the back.",
+        "Tia mur epai nyonso ekoki komona yango."
+      ],
+      "mapLabel": "Elilingi ya mur: mitála {down} ya bilokasa {across}, etiketi kobanda na A1 kino {last}.",
+      "edgeNote": "Mistari ya mitɔ́ɔ ekomonisa ebɔ́ndɛ ya lokasa nyonso. Tiya bilokasa ebɔ́ndɛ na ebɔ́ndɛ na nzela yango, to kobɛtana moke.",
+      "pictureLine": "Likanisi: {picture}. Mur oyo ezali na bilokasa {n}: {across} na mosika mpe {down} na nse.",
+      "print": "Bimisa mur"
+    },
+    "findTogether": {
+      "guidance": "Bobalana. Na tour na yo, fungola kaarte mibale mpo na koluka lipaire. Kolukaka lipaire elongo.",
+      "sizeLegend": "Kaarte boni",
+      "size": "Kaarte {n}",
+      "viewLegend": "Ndenge ya kosala jeu",
+      "viewShowing": "Jouer na likanisi ezali komonana",
+      "viewHidden": "Kaarte ezali na elongi na nse",
+      "people": [
+        "Moto ya liboso",
+        "Moto ya mibale"
+      ],
+      "turn": "Tour: {person}",
+      "turnDone": "Lipaire nyonso esili kozwama.",
+      "tally": "Lipaire ezwami elongo: {n}",
+      "cardNamed": "{name}, kaarte {n}",
+      "cardFaceDown": "Kaarte {n}, na elongi na nse",
+      "first": "{name}. Sikoyo fungola kaarte ya mibale.",
+      "found": "{name}: lipaire, ezwami elongo. Sikoyo ezali tour ya {next|lower}.",
+      "allTogether": "Bozwi lipaire nyonso elongo.",
+      "different": "{a} mpe {b} ezali ndenge mosusu. Zala ntango na yo, sima pesa Zongisa yango.",
+      "waiting": "Pesa Zongisa yango ntango okoki. Sima tour ekobalana.",
+      "turnedBack": "Ezongi. Sikoyo ezali tour ya {person|lower}.",
+      "passed": "Kopesa tour ezali malamu. Sikoyo ezali tour ya {person|lower}.",
+      "turnBack": "Zongisa yango",
+      "pass": "Pesa tour",
+      "playAgain": "Salá lisusu"
+    },
+    "drawingDuet": {
+      "guidance": "Bobalana na ligne moko moko, sima pesa stilo. Moto nyonso akoki kopesa tour. Eloko moko ekotindama esika mosusu te. Likanisi ekobima na esika oyo kaka soki bokobomba yango.",
+      "people": [
+        "Moto ya liboso",
+        "Moto ya mibale"
+      ],
+      "colorLegend": "Langi ya {person}",
+      "colors": [
+        "Jaune",
+        "Orange",
+        "Vert",
+        "Violet"
+      ],
+      "turn": "Tour ya {person}",
+      "penColor": "Langi ya stilo: {color}.",
+      "canvasLabel": "Likanisi elongo, ligne {n} kino sikoyo",
+      "canvasLabelOne": "Likanisi elongo, ligne {n} kino sikoyo",
+      "keys": "Bitónɛ ya flèche ekolongisa point ya stilo na likanisi. Espace ekotia stilo na likanisi to ekolongola yango.",
+      "penDown": "Stilo na likanisi",
+      "penUp": "Longola stilo",
+      "pass": "Pesa stilo",
+      "passed": "Kopesa ezali malamu. Tour ya yo, {person|lower}.",
+      "takeBack": "Longola ligne na ngai ya nsuka",
+      "tookBack": "Ligne ya nsuka ya {person|lower} elongolami.",
+      "noLine": "Ezali na ligne moko ya {person|lower} te ya kolongola.",
+      "restarted": "Lipapɛ ezali polele. Moto ya liboso azali na tour. Zongisa yango soki bolingaki kosala yango te.",
+      "putBack": "Zongisa yango",
+      "restored": "Ligne ezongi lolenge ezalaki liboso.",
+      "save": "Kobomba likanisi",
+      "saved": "Likanisi na yo esili. Salá lien ya kolanda mpo na kobomba yango na appareil oyo.",
+      "download": "Kolanda drawing-duet.png",
+      "print": "Bimisa version ya papier",
+      "sheetTitle": "Duo ya likanisi",
+      "paperRules": "Bato mibale, lipapɛ moko, stilo mibale. Bobalana: ligne to forme moko moko, sima pesa stilo. Moto nyonso akoki kopesa tour. Likanisi ya sembo ezali te."
+    },
+    "colorWash": {
+      "guidance": "Pɛnto langi polele na lipapɛ, mbala moko moko. Kanga brosse mpo na kosila, mpe silá ntango nyonso bolingi. Eloko moko ekobombama te to ekotindama te.",
+      "colorLegend": "Langi ya pɛnto",
+      "sizeLegend": "Monene ya brosse",
+      "colors": [
+        "Jaune",
+        "Orange",
+        "Vert",
+        "Violet"
+      ],
+      "sizes": {
+        "wide": "Monene",
+        "veryWide": "Monene mingi"
+      },
+      "color": "Langi ya pɛnto: {color}.",
+      "brushDown": "Brosse na likanisi",
+      "brushUp": "Longola brosse",
+      "keys": "Bitónɛ ya flèche ekolongisa lolɛ ya brosse na lipapɛ. Espace ekotia brosse to ekolongola yango.",
+      "canvasLabel": "Lipapɛ ya mapɛnto ya langi polele",
+      "fresh": "Lipapɛ ya sika",
+      "freshMessage": "Lipapɛ ya sika.",
+      "putBack": "Zongisa yango",
+      "restored": "Lipapɛ ezongi."
+    },
     "sortTogether": {
       "guidance": "Finá elilingi, na nsima finá kitúnga oyo esengeli kokɔta.",
       "restart": "Bililingi ya sika",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} ekoki kokɔta na \"{basket}\". Finá kitúnga wana mpo na kotya yango kuna.",
       "placed": "{name|lower} ekɔti na \"{basket}\".",
       "sorted": "Nyonso esili kokɔta na bisika na yango. Bótala bitúnga elongo, to bómeka motó ya likambo mosusu.",
+      "largerTargets": "Bisika minene ya kotia",
+      "largerOn": "Bisika minene ezali na ntɔmɔ. Eloko moko ekomaki te.",
+      "largerOff": "Bisika minene ezali kolongwa. Eloko moko ekomaki te.",
+      "largerOnNewRound": "Bisika minene ezali na ntɔmɔ, na mikuwa mibale. Tala likanisi ya sika mpo na kokabola.",
       "basket": {
         "one": "Kitúnga \"{basket}\", elilingi {count} na kati",
         "other": "Kitúnga \"{basket}\", bililingi {count} na kati"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Finá eteni moko, na nsima finá eteni mosusu. Bikobongola bisika.",
-      "restart": "Búngisa lisusu bisika",
+      "restart": "Mix up again",
       "pictureLegend": "Elilingi",
       "pictures": {
         "sailboat": "Masuwa ya mopɛpɛ",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Elilingi ya mobimba: {name}",
       "guideText": "Boye nde elilingi esengeli kozala ntango ezali mobimba.",
+      "ownChoose": "Salá foto na yo",
+      "ownChange": "Pona foto mosusu",
+      "ownBack": "Zonga na bikanisi na biso",
+      "ownPrivacy": "Foto na yo ekotikala na appareil oyo. Ekotindama te to ekobombama te.",
+      "ownConsent": "Salá bikanisi na yo. Botuna liboso soki okosalela foto ya moto oyo akoki koyanola te.",
+      "ownWorking": "Foto na yo ezali kosalema sikoyo.",
+      "ownNotUsable": "Fisye oyo ekokaki kosalelama te. Pona fisye ya foto, lokola JPEG to PNG.",
+      "ownAlt": "Foto na yo",
+      "ownPiece": "Eteni {n}, {place}",
+      "ownWhole": "Foto na yo ezali mobimba lisusu. Kobalola yango lisusu soki bolingi.",
+      "ownSheetTitle": "Foto na yo na biteni",
+      "ownSheetHow": "Kata na nzela ya mistari. Bolanga biteni, sima bobongola biteni mibale na mbala moko kino foto ezali mobimba.",
       "piece": "Eteni na {place}",
       "pieceInPlace": ", na esika ya solosolo",
       "piecePickedUp": ", etombwami",
@@ -122,7 +786,7 @@
         "nse na lobɔ́kɔ ya mobali"
       ],
       "done": "Elilingi ebongi lisusu mobimba. Bóbetela lisusu to bópema mwa moke.",
-      "playAgain": "Búngisa lisusu bisika"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Bótánga lisese elongo, na nsima finá liloba oyo esilisaka yango.",
@@ -190,6 +854,14 @@
       "guidance": "Bótánga karte na mongongo makasi. Eyano ya mabe ezali te.",
       "position": "Karte {n} na kati ya {total}",
       "themeLegend": "Motó ya likambo",
+      "showPrompt": "Monisa likambo ya koloba",
+      "bigPicture": "Likanisi monene mpo na lisanga",
+      "passNote": "Moto nyonso akoki kopesa tour.",
+      "groupTitle": "Kopesa karte na lisanga",
+      "groupSit": "Botela na mozingo epai nyonso akoki komona likanisi. Moto oyo akamati karte, to appareil oyo ezali na likanisi monene, akotánga liboso likambo ya koloba na mongongo.",
+      "groupPass": "Sima pesa karte epai ya moto ya sima. Moto na moto alobi liloba to lisolo moke likoki likanisi, sima apesi yango epai ya mosusu.",
+      "groupNoSpeech": "Kopesa karte ezali malamu ntango nyonso. Moto akoki kozala kaka na kolobaka eloko te, mpe moko te akolinga kolimbola mpo na nini.",
+      "groupEnd": "Tour esuki ntango kaati ezingi na etando mobimba, to ntango lisanga elingi kosuka. Moto moko akolonga te. Kotelela ntango nyonso oyo lisanga elingi.",
       "next": "Karte elandi",
       "previous": "Karte ya liboso",
       "print": "Bimisa bakarte nyonso na papye",
@@ -252,6 +924,20 @@
       "started": "Ebandi. Benda mpema wana zinga ezali kokola.",
       "stopped": "Etelemi.",
       "finished": "Osilisi kopema mbala motoba na malembe. Okoki kobanda lisusu ntango nyonso olingi."
+    },
+    "storyChain": {
+      "guidance": "Bosala na tour: moko na moko, lokasa moko, bobakisa elembo ya sima.",
+      "passNote": "Loba lokasa na yo na mongongo. Eloko moko te ekomami to ebombami. Moto nyonso akoki kotika tour na ye.",
+      "chainLabel": "Lisanga ya bilembo kino sikoyo",
+      "item": "Elembo {n}: {name}",
+      "add": "Bakisa elembo",
+      "fullAdd": "Lisanga etonda. Bandisa lisanga ya sika",
+      "newChain": "Bandisa lisanga ya sika",
+      "takeOff": "Longola oyo ya nsuka",
+      "added": "{name|lower} ezali sikoyo na nsuka ya lisanga.",
+      "removed": "{name|lower} elongwi na lisanga.",
+      "fresh": "Lisanga ya sika, ebandi na {name|lower}.",
+      "full": "Lisanga ezali na bilembo 8 nyonso. Lobá lisolo mobimba, to bandisa lisanga ya sika."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Lipata ya mbula",
     "snowflake": "Eteni ya neje",
     "kite": "Mpepo ya papie",
-    "sunrise": "Kobima ya moi na ngomba"
+    "sunrise": "Kobima ya moi na ngomba",
+    "decorated-keepsake-box": "Sanduku ya kobatela biloko, epambami",
+    "painted-plant-pot": "Pot ya kopeinta na bambuma",
+    "repeating-pattern-sheet": "Lipapa ya milongo ya kokoma",
+    "music-drawn-lines": "Milongo esalemi na nzembo",
+    "paper-boat-afloat": "Ngalawa ya lipapa na mai",
+    "folded-towel-stack": "Lirundu ya serviette, epliyami",
+    "hand-massage-with-lotion": "Loboko na serviette mpe lotion",
+    "open-photo-album": "Album ya bilembo efungami",
+    "button-flower-card": "Kaati na fleur ya bouton",
+    "blue-torn-paper-collage": "Collage ya lipapa ya bleu",
+    "family-tree-of-hands": "Arbre ya libota, na maboko",
+    "open-greeting-card": "Kaati ya mbote efungami, na motema",
+    "lavender-sachet": "Mokuwa ya lavande, esangami na ruban",
+    "memory-collage-of-photos": "Collage ya bilembo ya libota",
+    "paper-chain-garland": "Guirlande ya lipapa",
+    "open-songbook-with-notes": "Buku ya nzembo, efungami na banota",
+    "photo-postcard-with-stamp": "Kaati ya elembo na timbre",
+    "pine-cone-bird-feeder": "Mangungu ya ndeke na tawi",
+    "playlist-phone-and-card": "Telefone na playlist, mpe kaati ya nzembo",
+    "sealed-rice-shaker": "Shaker ya malɛ, ekangami",
+    "texture-board-with-scraps": "Planche ya bisika ya biloko",
+    "painted-garden-stone": "Libanga ya elanga, epeinti",
+    "shared-painted-canvas": "Toile ya kopeinta na lisanga",
+    "watercolor-washes-sheet": "Lipapa ya kopeinta na mai",
+    "seedling-in-pot": "Mbuma mike na mungwa",
+    "pressed-leaves-in-book": "Makasa epɛsami na buku",
+    "printed-leaves-sheet": "Lipapa ya makasa ya kobɛtɛla",
+    "pinch-pot-clay-bowl": "Pot ya mabele",
+    "table-sketch-pencil": "Mug ya kokoma na crayon",
+    "buttons-in-muffin-tin": "Bouton na moulɛ ya muffin",
+    "family-recipe-book": "Buku ya recette ya libota",
+    "drum-with-beat-marks": "Ngoma ya mesa na bambeto",
+    "torn-paper-flower": "Mosaïque ya fleur ya lipapa",
+    "window-with-birds": "Libulu na bandeke",
+    "woven-paper-mat": "Mat ya lipapa ekangami",
+    "yarn-ball-with-thread": "Boule ya fil",
+    "letter-and-envelope": "Lokasa na enveloppe"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Na libanda"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Mbuma",
+        "animals": "Banyama",
+        "travel": "Ndenge ya kotambola",
+        "flowers": "Bifololo",
+        "hot-drinks": "Biloko ya komela ya moto",
+        "weather": "Ndenge ya ekolo",
+        "baked": "Biloko ya kobɔka na fourno"
       }
     }
   }

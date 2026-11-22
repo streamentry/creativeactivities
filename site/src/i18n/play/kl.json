@@ -5,6 +5,13 @@
       "stopReading": "Atuarneq unitsiguk",
       "region": "Pinnguaq",
       "restart": "Aallarteqqiguk",
+      "rest": "Ullumikkut siaruarit",
+      "restingTitle": "Siaruartarpoq",
+      "restingText": "Sivisunerusumik siaruarit. Tassani siulliq pissuseq ilaqqissinneqarpoq.",
+      "resume": "Ingerlatsiniarit",
+      "placeText": "Siullermi sivisumik ajornartorsiutit ilaqqarput. Tassanit ingerlatsiniarit, imaluunniit nutaamik aallartiniarit.",
+      "placeResume": "Ingerlatsiniarit",
+      "placeFresh": "Nutaamik aallartiniarit",
       "soundOn": "Nipikitsut ikikkit",
       "soundOff": "Nipikitsut qamikkit",
       "done": "Maannakkut naammaleqaaq",
@@ -43,7 +50,19 @@
       "viewShowing": "Assit saqqummasut",
       "viewHidden": "Assit toqqorsimasut",
       "playAgain": "Assinik nutaanik pinnguaqqigit",
-      "talk": "Assit pillugit oqaloqatigiigitsi"
+      "talk": "Assit pillugit oqaloqatigiigitsi",
+      "modeLegend": "Sooq ersersitat",
+      "modePlay": "Ersersitat assigiinngitsut",
+      "modeDaily": "Ullumi kaarti",
+      "dayLegend": "Sooq ullut",
+      "dayHelp": "Tamarmik ullumi taamaattumik ersersitat pissarsiarineqarput. Siulliit ullutaaq tassaniipput, ullumi ajorsaarnissaq ajornartorsiutaanngilaq.",
+      "guidanceDaily": "Ullumi kaartini ersersitat pingasut ilaqarpoq. Ersersitaq ataatsimik nikikkit, kingornalu tassaasoq nikikkit.",
+      "restartDaily": "Kaartarneq taanna nutaamik aallartiniarit",
+      "copy": "Tassa ilanngussaq kopiiliarit",
+      "copied": "Kopiiffigineqarpoq. Tamaasa tassaniittoq nassiunneqanngilaq.",
+      "calendarTitle": "Ullumi kaartit, {month}",
+      "calendarHelp": "Ulluni tamani tamarmiusumik ersersitat pingasut tassaapput. Pisinnaasaq atorneqanngilaq, ullumi ajorsaarneqanngilaq.",
+      "calendarVersion": "Version {date}. Ersersitat ullumi taamaattumik tamarmik pissarsiarineqarput."
     },
     "choose": {
       "countLegend": "Assit qassit",
@@ -62,6 +81,635 @@
       "shadowAlt": "Tarraq naleqqutissasoq",
       "foundAlt": "{name|lower}-p tarraa"
     },
+    "fourTogether": {
+      "hintLegend": "Ikiuutit",
+      "hintOn": "Unittarnerit kingorna ikiuut",
+      "hintOff": "Ikiuutit pinngillat",
+      "guidance": "Ersersitat {n} ilaatigut atassuteqartut tikkuuffigit, ataasiakkaarlugu nikikkit.",
+      "countLegend": "Ersersitat amerlassusaat",
+      "count": "Ersersitat {n}",
+      "found": "Ii, {name|lower} taamaattumik ilaavoq.",
+      "elsewhere": "{name|lower} allanik atassuteqarpoq. Sivisunerusumik isumaliuttarit.",
+      "hint": "Ikiuut: {theme|lower} isigalugu.",
+      "together": "Taamaattut ilaatigut atassuteqarput: {theme}.",
+      "shown": "Taama ilaatigut ersersitat: {theme}.",
+      "groupName": "Ilaatigut atassuteqartut: {theme}",
+      "show": "Ilaatigut takuuk",
+      "next": "Allat ersersitat"
+    },
+    "oddOneOut": {
+      "hintLegend": "Ikiuutit",
+      "hintOn": "Unittarnerit kingorna ikiuut",
+      "hintOff": "Ikiuutit pinngillat",
+      "guidance": "Allanik ilaqutigisaanngitsoq ersersitaq nikikkit.",
+      "countLegend": "Ersersitat amerlassusaat",
+      "count": "Ersersitat {n}",
+      "belongs": "{name|lower} allanik ilaqqavoq. Sivisunerusumik isumaliuttarit.",
+      "found": "Ii, {name|lower} allanik assingusoq. Allat {theme|lower} ilaapput.",
+      "shown": "Tassa: {name|lower}. Allat {theme|lower} ilaapput.",
+      "hint": "Ikiuut: taakkua {n}-t {theme|lower} ilaapput.",
+      "others": "Allat: {theme}",
+      "show": "Takuuk",
+      "next": "Allat ersersitat"
+    },
+    "seatedToss": {
+      "guidance": "Imarluni tuulu nukiiaq aasaq tikkuuffigit, ataatsimut sakkortunik ataaniittumut nikikkit. Ilanngussat paaqqamut ataatsimut qilanaaruit.",
+      "stepsHeading": "Qanoq ingerlanneqarpa",
+      "steps": [
+        "Tassaasoq aasaq ilanngussaaqlu paaqqamut takussutissiarit, imarluni kiisalu tikkuutit.",
+        "Sit comfortably, one on each side. Take turns with one gentle toss each, or pass if you would rather not.",
+        "Ittoq sakkortunik qulaaqqaaq tikkuuffigisaq, tikkuuffigisaq taamaattumik kingorna qulaaqqaaq ilanngussaq tikkuuffigit.",
+        "Ilanngussat ataatsimut takuut kingorna, pisinnaatitaaffigisat. Nikillit tamarmik allaaserisassaqanngitsut.",
+        "Ajornartorsiutit ajornartorsiutit tikkuuffigit."
+      ],
+      "safetyHeading": "Iserfik",
+      "safetyLine": "Atorlugu nukiiaq aasaq nunaqqaarneqanngitsoq imaluunniit sokkiliaq tuulu, imarluni qanilaarit, paaqqamut nikisuusinnaanngitsoq, inuk nalinginnaasoq qanillutik. Pitsaaq ilaat sinerissat unnuissinnaapput.",
+      "flags": [
+        "3-nik ilaanngitsoq: pitsaaq ilaat",
+        "Kamasaqqanit sorsuk"
+      ],
+      "safety": [
+        "Nukiiaq aasaq nunaqqaarneqanngitsoq imaluunniit sokkiliaq tuulu atuiniarit. Atuinnartillugu qulaaqqanik ajornartorsiutitut, ilaanngitsoq paaqqamut ilanngullugit.",
+        "Pitsaaq, qelqiit aaliillu allat unnuissinnaapput. Ilaqutariinnit kiisalu kamasaqqamik ataatsimik ilanngunneqaqqaarit.",
+        "Inuk nalinginnaasoq tikkuuffigisinnaanngitsoq qanillutik, imarluni kamasaqqamik iserfigisimasumik.",
+        "Imarluni qanilaarit. Ilanngussaq paaqqamut nukitsumik ersersitamik nikillit, paaqqamut nikillit."
+      ],
+      "previewLabel": "Takussutissiaq: paaqqaq qulaaqqat pingasut, Qanittuq, Ilaani, Qeqqaniit, avannarmit qanisut, aammalu tikkuutit inuk ataaseq kingullu pingaaruteqarmat qulaaqqanik ilaqarput.",
+      "sheetHow": "Takussutissiaq imarluni ilanngussaaqqit. Ilanngussaq qulaaqqat ataatsimi tikkuuffigit, tikkuuffigisaq qulaaqqaaq.",
+      "rings": [
+        "Qanittuq",
+        "Ilaani",
+        "Qeqqaniit"
+      ],
+      "people": [
+        "Siullermi inuk",
+        "Aggersumi inuk"
+      ],
+      "ringHeading": "Qulaaq",
+      "print": "Paaqqamut takussutissiarit kiisalu tikkuutit"
+    },
+    "seasonalPack": {
+      "guidance": "Ukiuni ataaseq toqqortarit, pingasut paaqqat takussutissiarit, ataatsimik, marluk imaluunniit pingasut ataatsimut sammisaqarit.",
+      "monthLegend": "Ukiuni ataaseq toqqortarit",
+      "months": [
+        "Januari",
+        "Februari",
+        "Martsi",
+        "Aprili",
+        "Maji",
+        "Juni",
+        "Juli",
+        "Augustusi",
+        "Septembari",
+        "Oktobari",
+        "Novembari",
+        "Decembari"
+      ],
+      "monthNote": "Ukiuni ataatsimi ersersitat nutaat tassaapput. Siulliq ukiuni taanna takutinneqarpoq, allanik toqqortinnissaq pisinnaavoq.",
+      "restDay": "Ullumi siaruarneq",
+      "restLine": "Ullumi paaqqat ilaanngillat. Siaruarneq pitsaaq.",
+      "previewHeading": "Paaqqat pingasut",
+      "puzzles": {
+        "pairs": {
+          "title": "Ataatsimut nikikkit",
+          "how": "Ersersitaq siullermi tassaasoq aalajangersimasoq, ilanngussap kingullermi tassaasoq ataatsimik sukkallutik.",
+          "describe": "Ersersitat assigiit marluk, ataatsimut allanngortinneqarsimasut."
+        },
+        "different": {
+          "title": "Sooq assigiinngitsoq?",
+          "how": "Ersersitaq allanit pingasunit assigiinngitsoq kuuttuutit.",
+          "describe": "Ersersitat pingasut ataatsimik ilanngullugit. Pingasut assingusut, ataatsimik assigiinngitsoq."
+        },
+        "color": {
+          "title": "Kulerit pilluaqquit",
+          "how": "Ersersitaq qanoq ilisimatitsiginnaasoq, kulerit imaluunniit pennit atorlugit pilluaqquit.",
+          "describe": "Ersersitaq ataaseq stooreq pilluarnissaq."
+        }
+      },
+      "print": "Ukiuni taanna paaqqat takussutissiarit",
+      "sheetHow": "Takussutissiaq ataaseq takussutissiarit. Ataatsimik, marluk imaluunniit pingasut ataatsimut sammisaqarit.",
+      "printFooter": "Ataatsimik, marluk imaluunniit pingasut sammisaqarit. Pisinnaatitaaffigisat tamarmik ingerlatsiniarit."
+    },
+    "decorateACard": {
+      "guidance": "Pisariaqarsinnaasaq toqqortarit, kaarti ataatsimut kulerit imaluunniit pennit atorlugit pilluaqquit. Kaarti pitsaasoq tassaanngilaq.",
+      "occasionLegend": "Pisariaqarsinnaasaq toqqortarit",
+      "occasions": {
+        "birthday": {
+          "label": "Ullorsiuk",
+          "words": "Pitsaasumik ullorsiuk"
+        },
+        "thank-you": {
+          "label": "Qujanaq",
+          "words": "Qujanaq"
+        },
+        "thinking-of-you": {
+          "label": "Illit isumaqarpunga",
+          "words": "Illit isumaqarpunga"
+        },
+        "new-season": {
+          "label": "Ukiup nutaaq",
+          "words": "Ukiup nutaaq"
+        },
+        "just-because": {
+          "label": "Taamaallaat",
+          "words": "Taamaallaat"
+        }
+      },
+      "stepsHeading": "Qanoq ataatsimut pilluaqquissaq",
+      "steps": {
+        "fold": "Kaarti paaqqamut takussutissiarit, qaavitsuaq sorsuunneqarpoq, kiisalu siulliq aqqutissarlu avataaniittussaq.",
+        "front": "Inuk ataaseq siulliq pilluaqqarpoq, qelqiit ilaanni.",
+        "inside": "Allaq aggersoq kingullermi pilluaqquvoq, imaluunniit sumiiffik ataatsimi ataatsimik ataatsimik sammisaqarit.",
+        "message": "Allaaserisaq ataatsimut qilanaaruit. Inuk ataaseq qelqisinnaavoq, allaq ilaasa oqaaseqarsinnaavoq.",
+        "stop": "Pisinnaatitaaffigisat tamarmik nassaarit. Kaarti pitsaasoq tassaanngilaq, kaarti sivikitsoq pitsaasoq."
+      },
+      "materials": "Kulerit, kulerit pilluaqqusaasut imaluunniit pennit atorlugit. Kaarti tikkuussaanngilaq, qaqqortinneqarnissaq pisariaqarpoq.",
+      "previewLabel": "Kaarti qaavitsuaq sorsuunneqarsimasoq takussutissiaq. Siulliq qelqiit {words}, qaammataqarnermi pilluaqqaaq kiisalu sasartaqarnerit. Kingullermi allaaserisaq kiisalu Taanit sorsuunneqarpoq.",
+      "from": "Taanit",
+      "sheetHow": "Kortet stiplet linjimik katersi, siulliq avataaniippoq. Beskeden kingorna allaassi.",
+      "rulesHeading": "Inuit marluk",
+      "sheetRules": [
+        "Sivisussusiit atorlugit suliaqarit, imaluunniit suliaq agguaqatigiit: inuk ataaseq siulliq sinerfigisaq, allaq kingorna.",
+        "Beskeden ataatsimut allaassavatit, imaluunniit inuk ataaseq allaassaaq, allaq oqarsimasaa.",
+        "Kina tamaasa sivisuumik ingerlassinnaavoq. Kortip pitsaasumik pissusaanngilaq."
+      ],
+      "print": "Kortip nassiarinissaa"
+    },
+    "storyDice": {
+      "guidance": "Assersuutit takuuk, oqaluttuarillu atorlugit, sinaakkusiinnaanngitsumik. Oqaluttuaq pitsaasoq ilaanngilaq.",
+      "countLegend": "Terninnit qassiat",
+      "count": "{n} terninnit",
+      "roll": "Nutaamik tikkuaruk",
+      "pass": "Ingerlassaaq",
+      "passed": "Ingerlassaaq pitsaavoq. Tulliuttoq aallartussaavoq, imaluunniit nutaamik tikkuaruk.",
+      "rolled": "Assersuutit nutaat: {names}.",
+      "tapped": "{name}. Taanna aallarteruk, imaluunniit allatut."
+    },
+    "wordPicture": {
+      "guidance": "Tap a picture, then the word that names it. Or tap a word, then its picture.",
+      "countLegend": "Assersuutit qassiat",
+      "count": "{n} assersuutit",
+      "picturesGroup": "Assersuutit",
+      "wordsGroup": "Atit",
+      "readWord": "Oqaasertaqqik: {name}",
+      "next": "Assersuutit nutaat",
+      "putBack": "Kingorna ilanngit",
+      "pickWord": "Tassa taassumap atia tikkuarit.",
+      "pickPicture": "Tassa taassumut assersuut tikkuarit.",
+      "fit": "Ii, taanna atia {name|lower}-mut attuumassuteqarpoq.",
+      "newSet": "Assersuutit nutaat taakku.",
+      "restarted": "Aallarnermut utertarpugut. Assersuut atillu tamarmik immikkut ilanngunneqarput.",
+      "restored": "Kingorna ilanngunneqarput. Ataqatigiissitat takuneqarlutik.",
+      "all": "Ata tamarmik assersuutaat ilanngunneqarput."
+    },
+    "colorMatch": {
+      "guidance": "Tunngavik atilu takuuk, kingornalu tunngavimmik assersuut tamarmik tikkuarit.",
+      "target": "Tunngavik {color|lower}. Assersuut tamarmik {color|lower}-mik tikkuarit.",
+      "countLegend": "Assersuutit qassiat",
+      "count": "{n} assersuutit",
+      "found": "Ii, {name|lower} tassaavoq {color|lower}.",
+      "named": "{name|lower} tassaavoq {color|lower}.",
+      "all": "Taakku tamarmik assersuutit {color|lower}-iupput.",
+      "shown": "Taakku assersuutit {color|lower}-iupput.",
+      "show": "Takutitsit",
+      "next": "Tunngavik allaq",
+      "names": {
+        "red": "Kiinnaq",
+        "orange": "Orange",
+        "yellow": "Gul",
+        "green": "Grøn",
+        "blue": "Blaa"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Kangimi affaq tikkuarit, kingornalu kujammi affaq taanna ataqatiginnissaq tikkuarit.",
+      "countLegend": "Assersuutit qassiat",
+      "count": "{n} assersuutit",
+      "leftGroup": "Kangimi affait",
+      "rightGroup": "Kujammi affait",
+      "left": "{name|lower}-ip kangimi affaa",
+      "right": "{name|lower}-ip kujammi affaa",
+      "joined": "Ataqatigiissillugit",
+      "pickRight": "Tassa kujammi affaq tikkuarit, ataqatiginnissaq.",
+      "pickLeft": "Tassa kangimi affaq tikkuarit, ataqatiginnissaq.",
+      "fit": "Ii, taakku marluk {name|lower} tassaapput.",
+      "apart": "Taakku marluk ataqatiginngillat. Allat periarfissiuk.",
+      "all": "Assersuut tamarmik tamaasaapput.",
+      "shown": "Assersuutit ataqatigiissillugit takuneqarput.",
+      "show": "Takutitsit",
+      "next": "Allaq nutaaq"
+    },
+    "colorByNumber": {
+      "guidance": "Tunngavimmik akuerisit, kingornalu quadrat tikkuarlugu tunngavimmik tiguk. Tunngavik tamaasa pitsaavoq.",
+      "sizeLegend": "Qulaaruserup annertussusia",
+      "size": "{n} x {n}",
+      "keyLegend": "Tunngavit",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grøn",
+        "Purpur"
+      ],
+      "motifs": {
+        "house": "illu",
+        "flower": "qarsuaq",
+        "heart": "puisi",
+        "tree": "qaleraq",
+        "boat": "sejlbaadi",
+        "pot-plant": "pottimi naasoq"
+      },
+      "region": "Assersuutit qulaaruseq, {n} x {n}. Ekraani sanaatinnerpoq pillippat, kujanut siaruarneqqittarpoq.",
+      "cell": "Numero {number}, tiit {row}, sumiit {column}, {color}",
+      "empty": "tiguanngitsoq",
+      "chose": "{name} akuerineqarpoq. Quadrat tikkuarlugu tiguk.",
+      "painted": "{name} tiit {row}, sumiit {column}-ip.",
+      "sheet": "Quadrat tamarmik numerip tunngavia ilaqarput. Taamaattoq takuuk assersuut papirimi: {name}.",
+      "own": "Quadrat tamarmik tiguneqarput. Taanna assersuutit nammineq.",
+      "fillAll": "Numerit tunngavilluni tiguk",
+      "filledAll": "Quadrat tiguanngitsut tamarmik numerip tunngavia ilaqarput.",
+      "clear": "Nillertit",
+      "cleared": "Qulaaruseq nillerneqarpoq.",
+      "next": "Assersuut allaq",
+      "fresh": "Assersuut allaq tunngavillugu takuuk."
+    },
+    "patternMaker": {
+      "guidance": "Quadrat tikkuarit tunngavia allanngortissavat. Pisiniarnerit taanna kiinnersaaq ilaat. Pisisaq tamaat nalunaarsorneqanngilaq, nassiunneqanngilaq.",
+      "sizeLegend": "Tiilip annertussusia",
+      "size": "{n} x {n}",
+      "keyLegend": "Tunngavit, tikkuarnerit allanngortiai naapertorlugu",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grøn",
+        "Purpur"
+      ],
+      "tileLabel": "Nammineq tiilip",
+      "region": "Nammineq tiilip, {n} x {n}. Ekraani sanaatinnerpoq pillippat, kujanut siaruarneqqittarpoq.",
+      "patternLabel": "Nammineq pisisaq",
+      "pattern": "Nammineq pisisaq: nammineq tiilip {n} kujammut kujataanilu {n} aqqutigalugu ataatsimoortinneqarpoq.",
+      "square": "Tiit {row}, sumiit {column}, {color}",
+      "changed": "Tiit {row}, sumiit {column} tassaavoq {color} ippoq.",
+      "cleared": "Tiilip nillerneqarpoq. Kingorna ilanngitsiniarsinnaavat.",
+      "surprise": "Pissarsiuk nutaaq",
+      "surprised": "Tiilip nutaaq taanna. Tiilip kingulleq kingorna ilanngitsiniarsinnaavat.",
+      "putBack": "Kingorna ilanngit",
+      "restored": "Nammineq tiilip sivisuumik pissusaatut utertarpoq.",
+      "print": "Nammineq pisisaq nassiarit",
+      "sheetTitle": "Nammineq pisisaq"
+    },
+    "buildTogether": {
+      "guidance": "Tiguanngitsumut ataaseq ilanngitsiniarlu sivisussusiit atorlugit. Inuk tamaasa nammineq tunngavilik. Pisisaq tamaat nalunaarsorneqanngilaq, nassiunneqanngilaq.",
+      "sizeLegend": "Qulaaruseq annertussusia",
+      "size": "{n} x {n}",
+      "people": [
+        "Siulleq inuk",
+        "Aappaluttoq inuk"
+      ],
+      "colorLegend": "{person}-ip tunngavia",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grøn",
+        "Purpur"
+      ],
+      "inUse": "Atorneqarpoq",
+      "turn": "Tassa sivisussusiat, {person|lower}",
+      "yourColor": "Nammineq tunngavik {color|lower} tassaavoq.",
+      "built": "Ataatsimut pilersinneqarpoq. Taanna assersuut inuit marluk pilersitaat.",
+      "gridLabel": "Ataatsimut qulaaruseq",
+      "region": "Ataatsimut qulaaruseq, {n} x {n}. Ekraani sanaatinnerpoq pillippat, kujanut siaruarneqqittarpoq.",
+      "cellEmpty": "Tiit {row}, sumiit {column}, tiguanngitsoq",
+      "cellFilled": "Tiit {row}, sumiit {column}, {color}, {person|lower}-ip ilanngutaa",
+      "placed": "Tiit {row}, sumiit {column} tassaavoq {color}. Tassa sivisussusiat, {next|lower}.",
+      "placedLast": "Tiit {row}, sumiit {column} tassaavoq {color}. Ataatsimut pilersinneqarpoq.",
+      "taken": "Tiit {row}, sumiit {column} ilanngutaqarpoq. Tiguanngitsoq akuerisit.",
+      "pass": "Ingerlassaaq",
+      "passed": "Ingerlassaaq pitsaavoq. Tassa sivisussusiat, {person|lower}.",
+      "takeBack": "Kingullermik ilanngutaq utertit",
+      "takeBackPass": "Ingerlassaaq utertit",
+      "tookBack": "Ilanngutaq utertinneqarpoq. Tassa sivisussusiat, {person|lower}.",
+      "tookBackPass": "Ingerlassaaq utertinneqarpoq. Tassa sivisussusiat, {person|lower}.",
+      "colorChanged": "{person} tunngavik {color|lower} ippoq.",
+      "restarted": "Qulaaruseq tiguanngitsoq. Tassa sivisussusiat, {person|lower}.",
+      "print": "Qulaaruseq nassiarit",
+      "sheetTitle": "Ataatsimut pilersit",
+      "sheetHelp": "Sivisussusiit atorlugit. Quadrat tiguanngitsoq, inuk tamaasa nammineq imaa nammineq kiassaqarluni tunniarpoq.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Ilanngutaq tikkuarit, kingornalu assersuutip ilaani taanna ilanngunneqarsinnaasoq tikkuarit. Pisisaq tamaat nalunaarsorneqanngilaq, nassiunneqanngilaq.",
+      "hints": "Takutitsit ilisimatitsissutit",
+      "pictureLine": "Taanna {picture} tassaavoq.",
+      "pictures": {
+        "house": "illu",
+        "boat": "sejlbaadi",
+        "tree": "qaleraq",
+        "fish": "aalisagaq",
+        "cat": "kattu",
+        "rocket": "raketti"
+      },
+      "outlineLabel": "{picture}-ip ilusaa. Akuerisimasaq ilanngutaq tiguanngitsut ilaanut tikkuarit.",
+      "trayHeading": "Ilanngutaqarit",
+      "pieces": {
+        "large-triangle": "Triangel annertoq",
+        "small-triangle": "Triangel mikisoq",
+        "square": "Kvadrat",
+        "parallelogram": "Parallelogrammi",
+        "rectangle": "Rektangel"
+      },
+      "shapes": {
+        "large-triangle": "triangel annertoq",
+        "small-triangle": "triangel mikisoq",
+        "square": "kvadrat",
+        "parallelogram": "parallelogrammi",
+        "rectangle": "rektangel"
+      },
+      "chosenLabel": "Akuerisimasoq",
+      "spaceEmpty": "Sap {n}, {shape}, tiguanngitsoq",
+      "spaceFilled": "Sap {n}, {shape}, ilanngutaqarpoq. Ilanngutaq utertillugu tikkuarit.",
+      "chosen": "{piece} akuerineqarpoq. Tassa assersuutip ilaani sap tikkuarit.",
+      "unchosen": "Brikkea ilaanngitsoq.",
+      "placed": "Brikkea pingaarnermi {n}-mi.",
+      "complete": "{picture} naammassivoq.",
+      "different": "Brikkea taanna tassani pingaarnermut assinngilaq. Allamik pingaarnermik qinngorit.",
+      "needPiece": "Siullermik tulegaasumit brikkeq ataatsi toqqaguk.",
+      "filled": "Pingaarnermi tassani brikkea ilaavoq. Brikkeq kissaatigaraluarpat tikkuuk.",
+      "tookBack": "Brikkea tulegaasumut utertinneqarpoq.",
+      "cleared": "Brikkit tulegaasumut utertinneqarput. Isumagisaq allanngutiga, utertikkit.",
+      "restored": "Brikkit naqqapput.",
+      "next": "Taanna {picture}-iuvoq.",
+      "putBack": "Utertit",
+      "another": "Allaq assersuut",
+      "print": "Assersuut taanna qalipaasit",
+      "sheetTitle": "Ajornartorsiutinngitsut assersuut",
+      "sheetHow": "Brikkit koloriuk, imaluunniit kanttumut assingguk sanigilluaruk. Sanigineq inuk ataasiak suliassaq pissaaq.",
+      "sheetPieces": "Brikkit, kanttumut assingisa tamaasa tassaasa"
+    },
+    "picnicPlanner": {
+      "guidance": "Assersuut tikkuuk ilulermut tiguk, ilulermilu tikkuuk ilulermit tiguk. Ilulermi tassani pingasut sisaaffigineqarput.",
+      "guidancePlay": "Assersuut marluk assingiliit tikkuuk. Assersuutit ajornartorsiuminngilaq, tiimilu aalajangerneqanngilaq.",
+      "basketHeading": "Ilulerput",
+      "basketLabel": "Qaqqatitut ilulerpput",
+      "takeOut": "{picture} ilulermit tiguk",
+      "inBasket": "Ilulermi",
+      "foodHeading": "Mikisuit",
+      "outingsHeading": "Suliat",
+      "added": "{picture} ilulermini ilaavoq.",
+      "removed": "{picture} ilulermit ikinnerpoq.",
+      "already": "{picture} ilaavoq. Ilulermi tikkuuk ikinnernissaanut.",
+      "full": "Ilulermi tassani naamasarpoq. Ilaanngitsut tikkuunissaanut sanilliullugu tiguk.",
+      "summary": "Qaqqatitut ilulerpput: {list}.",
+      "summaryNone": "Ilulermi tassani ilaanngilaq.",
+      "and": "aamma",
+      "play": "Qaqqatitut ilulerpputtut pilersaarusiortussaaq",
+      "needTwo": "Siullermik ilaatinneqarsinnaasut sisamariaqaraluarput.",
+      "playAgain": "Naammattumik pilersaarusiortussaaq",
+      "back": "Qaqqatitut ilulerpputtut utertit",
+      "print": "Qaqqatitut ilulerpputtut tusarniaasa qalipaasit",
+      "cleared": "Ilulermi naammassivoq.",
+      "notice": "Taanna oqallisissutaavoq. Tiimilu aalajangerneqanngilaq, naammassineqanngilaq imaluunniit ujartorneqanngilaq.",
+      "sheetTitle": "Qaqqatitut ilulerpputtut tusarniaaneq",
+      "sheetHow": "Ilulermut ilaatitsigit tikkuuk. Allamik ilaatitsissagit kiisa pinngitsoorani allassiuk.",
+      "sheetToPack": "Ilulermut ilaatinneqassasut"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Ataatsimoortumik allaqqiissutit pisariaqartinneqarput. Ilaatinneqarsinnaasut marluk-qulinit assigit.",
+      "guidance": "Ataatsimoortumik allaqqiissutit peqqinnerpaarlu, allap tikkuiviata imaluunniit Akulliit aqqutaasa tikkuuk. Allaqqiissutip qulaani sananeqarnerit sumi pilerpassi. Pilersitsisit saveqqunneqanngilaq imaluunniit ingerlatsineqanngilaq.",
+      "lookGuidance": "Allaqqiissutit ataatsimoortumik takusaatit. Oqallisinnaatit imaluunniit takusinnaasi.",
+      "intro": "Taanna ikiuutigineqarsinnaasut marluk-qulinit tassaasa allaqqiissutit taamaattut. Assigiinngitsut ataatsimoortumik takusinnaasut.",
+      "consent": "Ilagiit allaqqiissutit atorit. Kisiisa kissaatigisinnaanngitsoq allaqqiissuteqarsimappat, siunnerfilluni akulerusuppit.",
+      "privacy": "Allaqqiissutit taanna ilusiliaq pissaaq. Ikiuutinneqanngillat imaluunniit allasinnaasinnaanngillat.",
+      "choose": "Allaqqiissutit toqqaguk",
+      "chooseDifferent": "Allaqqiissutit allat toqqaguk",
+      "backToBook": "Allamut utertit",
+      "backToChoose": "Allaqqiissutit toqqanissamut utertit",
+      "needTwo": "Allaqqiissutit sisamariaqaraluarput.",
+      "usingFirst": "Siullermi allaqqiissutit {max} atorpput.",
+      "cleared": "Tassaasa naammassivoq. Allaqqiissutit toqqanissaatik nutaamik ingerlatsissaatit.",
+      "moved": "Pingaarnermut {n} aaqqiissutaaq.",
+      "pageOf": "Pingaarnermi {n}, tamaasa {total}-t ilaat",
+      "lookTogether": "Ataatsimoortumik takusaatit",
+      "leaveLook": "Allamut utertit",
+      "print": "Allaqqiissutit qalipaasit",
+      "clear": "Allaqqiissutit naammassit",
+      "bookLabel": "Ilaqutariit allaqqiissutaasa",
+      "pagesLabel": "Pingaarnerit tikkuuk",
+      "previous": "Siullermi pingaarneq",
+      "next": "Qaffasinnerusumi pingaarneq",
+      "moveEarlier": "Siullermut ingerlasit",
+      "moveLater": "Qaffasinnerusumut ingerlasit",
+      "captionLabel": "Pingaarnermi taanna sanilliullugu oqaasiiniit, pisussaaffiuk",
+      "captionHelp": "Tamarmik 80 karakterit tikillugit. Oqaatsit pingaarnermi taanna kissaatigisinnaanngitsoq, tassa taanna allaqqiissutit nuunnerinnittarpat naammassissapput.",
+      "sheetTitle": "Allaqqiissutit tassaasa",
+      "sheetHow": "Pingaarneq ataatsi, oqaatsit tassaasa iluaniittut. Pingaarnerit siullermik tikkuuk, taakkununga oqallisiuk.",
+      "sheetEmpty": "Allaqqiissutit toqqaguk, qaqqatitut allaqqiissutit qalipaaseqqunik toqqaguk, imaluunniit allaqqiissuteqarsimasoq pingaarnermi naqqapput.",
+      "sheetFrame": "Qalipaasit allaqqiissut taama naqqapput",
+      "sheetWords": "Pingaarnermi taanna oqaatsit ilaat",
+      "skipped": {
+        "one": "Fiilip {n}-p allaqqiissut atorneqarsinnaanngilaq.",
+        "other": "Fiilit {n} allaqqiissut atorneqarsinnaanngillat."
+      }
+    },
+    "quietScene": {
+      "guidance": "Qamuteqarlu, takusaqarit ataatsimik. Ukiakkut tikkuiviit imaluunniit Siullermik tikkuiviit tikkuuk. Pilersaarusiorneq ilaatinneqanngilaq.",
+      "next": "Qaffasinnerusumi takusaq",
+      "previous": "Siullermi takusaq",
+      "bigPicture": "Qaffasinnerusumik takusaq",
+      "showEverything": "Tamarmik takuuk",
+      "first": "Taanna siullermi takusaqarpoq.",
+      "last": "Taanna naammassinnerusumi takusaqarpoq.",
+      "lines": {
+        "sunrise": "Nuna qaavatigut ulloq ikerpoq.",
+        "window-with-birds": "Silap aqqutaa iluani qupernerit.",
+        "vase-of-flowers": "Paasisut pigisaq tuaviatigut.",
+        "teacup": "Ulluinnarni teeeqarpoq aqqutaa qaavanut.",
+        "tree": "Qeqqata iluani aputeqarpoq.",
+        "sailboat": "Immap qaavatigut sejllukkap.",
+        "lighthouse": "Kuup qaavatigut fyrrimi.",
+        "rainbow": "Imaqa qaavatigut ilaqqatit.",
+        "moon": "Qaammat ammasumi qaammattoq.",
+        "daisies": "Aqisseq aputaarnerni kuisimalerput.",
+        "rowing-boat": "Imap qaavatigut umiarsuaq aqqutigisaq.",
+        "potted-plant": "Pigisami tunngavilik ujaqqaq."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Ataatsimoortumik sunniuk. Ikiuutissat tikkuuk, appasissat toqqinnerusumut tikkuuk. Pilersitsisit saveqqunneqanngilaq imaluunniit ingerlatsineqanngilaq.",
+      "people": [
+        "Siullermi inuk",
+        "Aappaani inuk"
+      ],
+      "marks": [
+        "timersoq",
+        "kulinnaq"
+      ],
+      "turn": "Sunniukkut, {person|lower}.",
+      "marked": "Brikkiit {mark}-mik allassimapput.",
+      "boardLabel": "Ataatsimoortumik sumiffik",
+      "placeEmpty": "Pingaarneq {n}, naammassivoq",
+      "placeFilled": "Pingaarneq {n}, {picture|lower}, {person|lower} pilersitsivoq",
+      "trayHeading": "Ikiuutissat",
+      "chosenLabel": "Toqqaneqarpoq",
+      "chosen": "{picture} toqqaneqarpoq. Tassa naammassivoq pingaarneq tikkuuk.",
+      "unchosen": "Ikiuutissaq taanna toqqaneqanngilaq.",
+      "needCutout": "Siullermik ikiuutissaq toqqaguk, kingornalu naammassivoq pingaarneq tikkuuk.",
+      "filled": "Pingaarneq {n}-p allaqqiissutaasa ilaat. Naammassiq pingaarneq toqqaguk.",
+      "placed": "{picture} pingaarnermi {n}-mi. Sunniukkut, {next|lower}.",
+      "full": "Pingaarnerit tamarmik allaqqiissutaasa ilaat. Allanngutiniarutit tikkuuk imaluunniit nutaamik aallartiguk.",
+      "pass": "Aallaaveq",
+      "passed": "Aallaaveq pissaaq. Sunniukkut, {person|lower}.",
+      "takeBack": "Siullermik brikkiit utertiguk",
+      "takeBackPass": "Aallaaveq utertiguk",
+      "tookBack": "Brikkea utertinneqarpoq. Sunniukkut, {person|lower}.",
+      "tookBackPass": "Aallaaveq utertinneqarpoq. Sunniukkut, {person|lower}.",
+      "restarted": "Sumiffik naammassivoq. Sunniukkut, {person|lower}.",
+      "putBack": "Utertit",
+      "putBackDone": "Brikkit sumiffimut utertinneqarput.",
+      "another": "Allaq allaqqiissutit",
+      "anotherSet": "Ikiuutissat nutaat tulegaasumi ilaapput. Sumiffimi brikkit pisuunissaat.",
+      "print": "Sumiffik qalipaasit",
+      "sheetTitle": "Collage-sumiffik",
+      "sheetHow": "Allaqqiissutit ikiuutigiit, sunniukkut sumiffimi tikkuuk. Sanigineq inuk ataasiak suliassaq pissaaq.",
+      "sheetTray": "Ikiuutinneqassasut allaqqiissutit"
+    },
+    "gardenPlanner": {
+      "guidance": "Allaqqiissuteqarluni tikkuuk, kingornalu pingaarneq toqqaguk tikkuuk. Allaqqiissuteqartoq toqqaneqanngitsoq nerisat pingaarneq toqqaguk.",
+      "bedsLabel": "Ujaqqat sumiffiit",
+      "bedEmpty": "Ujaqqat {n}, naammassivoq",
+      "bedFilled": "Ujaqqat {n}, {picture|lower}",
+      "plantsHeading": "Ujaqqat",
+      "extrasHeading": "Ujaqqat allat",
+      "chosenLabel": "Toqqaneqarpoq",
+      "chosen": "{picture} toqqaneqarpoq. Tassa ujaqqat tikkuuk.",
+      "unchosen": "Allaqqiissut toqqaneqanngilaq.",
+      "needPicture": "Assersuut siullermik toqqarit, taava aqqusineq tappiit.",
+      "planted": "{picture} aqqusineq {n}-mi ippoq.",
+      "replaced": "{picture} aqqusineq {n}-mi assersuup sinneranik ippoq.",
+      "cleared": "Aqqusineq {n} tuniniarpoq. Assersuut utertariaqarpat, uteqqit.",
+      "restarted": "Aqqusinerit tamarmik tuniniarput.",
+      "putBack": "Uteqqit",
+      "putBackDone": "Assersuutit aqqusinernut utertippaat.",
+      "summaryHeading": "Aqqusinerka",
+      "summary": "Pilersaarutit {list} ilaqarpoq.",
+      "summaryNone": "Aqqusinernut assersuut ilaanngilaq.",
+      "and": "aamma",
+      "print": "Pilersaarut qalipaatiterit",
+      "sheetTitle": "Aqqusinerput pilersaarutaa",
+      "sheetHow": "Aqqusinerit ekraanimi toqqaneqartut assersuutit takutippaat. Tuniniartut aqqusinerit qinnuigineqarpat naqqiffiginissaq.",
+      "sheetNotes": "Allakkat",
+      "notice": "Tassa assersuutit pilersaarusiaq oqaloqatigiinnermut, tuniniaanermut siunnersuut ilaanngilaq."
+    },
+    "coloringWall": {
+      "guidance": "Assersuut toqqarit, qupperneq qanoq amerlatiginersoq toqqarit. Qaqqap qalipaatiterit, inuit tamarmik qupperneq ataaseq imaluunniit amerlanerusut naqqiffigisariaqarput. Tiimitsinneqanngilaq, pitsaanerpaaffigineqanngilaq, allakkatigut atorneqanngilaq.",
+      "pictureLegend": "Assersuut",
+      "sizeLegend": "Qupperneq qanoq amerlatiginersoq",
+      "sizes": {
+        "2x2": "4 qupperneq (2 x 2)",
+        "3x2": "6 qupperneq (3 x 2)",
+        "3x3": "9 qupperneq (3 x 3)"
+      },
+      "previewLabel": "{picture|lower} qupperneq {n}-mik agguarneqarpoq: {across} sanilliulluni, {down} ikiaroornerulluni. Qupperneq tamaat kujataani ujarlertaavoq.",
+      "previewCaption": "Assersuut, qupperneq sinerit ujarlerillu ilanngullugit.",
+      "labelsNote": "Ujarlerit qarmut ataqatigiissut, tallit sanilliullutik ilaqarput, taamaattumik A1 kujataa ilaani qupperneq ippoq.",
+      "wallHeading": "Qaqqap qanoq ataqatigiissinnissaa",
+      "steps": [
+        "Qupperneq tamarmik qalipaatiterit. Siullermi qupperneq ingerlatsinerit qaqqaplu nalunaarusiaat ilaqarpoq.",
+        "Inuk tamaat qupperneq ataaseq imaluunniit amerlanerusoq toqqarpoq, naqqiffigisarpoq.",
+        "Nuannaarutit sinneri naligiinnerinnaanngillat. Qupperneq tamaat assersuutip ataatsip ilaaniippoq.",
+        "Qupperneqarnit ujarlerit tunngavigalugit ataqatigiissitit, kiinaq tape-imik qaavatigut ataqatigiissitit.",
+        "Qaqqap takuneqarnissaa pisariaqarpat ilaasortaq tamarmik takusinnaasumi sersitsit."
+      ],
+      "mapLabel": "Qaqqap nalunaarusiaq: {down} ikiaroornerit, qupperneq {across} sanilliulluni, A1-imit {last}-mut ujarlerneqarput.",
+      "edgeNote": "Pissuseq qiterpaaq qupperneq tamaat qilaanerinik takutippaa. Qupperneqarnit qilaanerit ataqatigiit, imaluunniit mikisumik ikorfarlutik ataqatigiissinnissaa.",
+      "pictureLine": "Assersuut: {picture}. Qaqqap ataani qupperneq {n}-ooq: sanilliulluni {across}, ikiaroornerulluni {down}.",
+      "print": "Qaqqap qalipaatiterit"
+    },
+    "findTogether": {
+      "guidance": "Sivisuumik sivikitsumik ataaseq ataaseq. Sivisuumi kaartit marluk kallaareqqit assersuut ataatsimik takusinniarlugu. Ataatsimut takusinniarlugit.",
+      "sizeLegend": "Kaartit qanoq amerlatiginersut",
+      "size": "{n} kaartit",
+      "viewLegend": "Qanoq pilersaarneqarnersoq",
+      "viewShowing": "Assersuutit takuneqarlutik pilersaarlugit",
+      "viewHidden": "Kaartit ikaarlugit",
+      "people": [
+        "Siulleq inuk",
+        "Aggersoq inuk"
+      ],
+      "turn": "Sivisuumik: {person}",
+      "turnDone": "Assersuutit ataqatigiit tamarmik takuneqarpput.",
+      "tally": "Ataatsimut takuneqarsimasut: {n}",
+      "cardNamed": "{name}, kaartit {n}",
+      "cardFaceDown": "Kaartit {n}, ikaarlugu",
+      "first": "{name}. Kaartit aggersoq kallaareqqit.",
+      "found": "{name}: assersuut ataatsimik takuneqarpoq, ataatsimut. Taava sivisuumik {next|lower}-ip.",
+      "allTogether": "Assersuutit tamarmik ataatsimut takusinnaasarput.",
+      "different": "{a} aamma {b} allaapput. Tiguk sivisuumi, taava uteqqit.",
+      "waiting": "Uteqqit tiguniarit, sivisuumi taassumalu sivisuumik tikillugu.",
+      "turnedBack": "Uteqqarpoq. Taava sivisuumik {person|lower}-ip.",
+      "passed": "Pinnaaneq pitsaaq. Taava sivisuumik {person|lower}-ip.",
+      "turnBack": "Uteqqit",
+      "pass": "Pinnaaq",
+      "playAgain": "Aamma nassaarit"
+    },
+    "drawingDuet": {
+      "guidance": "Sivisuumik tallimaarit, inuk ataaseq ataasiarluni tallimaartaq, taava kalaaq aggersoq tunniviit. Pinnaaneq pitsaaq. Naqqiffik avatinut nassiunneqanngilaq. Naqqiffik erniaqarfimmi pilersaarneqarpat kisianni allakkatigut.",
+      "people": [
+        "Siulleq inuk",
+        "Aggersoq inuk"
+      ],
+      "colorLegend": "{person}-ip nuannaarutaa",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grøn",
+        "Lilla"
+      ],
+      "turn": "{person}-ip sivisuutaa",
+      "penColor": "Kalaaq nuannaarutaa: {color}.",
+      "canvasLabel": "Ataatsimut naqqiffik, tallimaarit {n} tikillugit",
+      "canvasLabelOne": "Ataatsimut naqqiffik, tallimaaraq {n} tikillugu",
+      "keys": "Nuanniit ilaasa naqqiffiup ilaani kalaap qiterpaaq ilaqarpoq. Tikkuaq kalaaq tiguk imaluunniit ikkernerpoq.",
+      "penDown": "Kalaaq tiguk",
+      "penUp": "Kalaaq ikkernerpoq",
+      "pass": "Kalaaq aggersoq tunniviit",
+      "passed": "Pinnaaneq pitsaaq. Sivisuutit, {person|lower}.",
+      "takeBack": "Kingusinnerusoq tallimaaq uteqqit",
+      "tookBack": "{person|lower}-ip kingusinnerusoq tallimaaq uterpoq.",
+      "noLine": "{person|lower}-ip tallimaaq uteqqarniarlugu ilaqanngilaq.",
+      "restarted": "Naqqiffik tuniniarpoq. Siulleq inuk sivisuumik ilaqarpoq. Akornusiinnaraanni uteqqit.",
+      "putBack": "Uteqqit",
+      "restored": "Tallimaarit siunnerfiusimasut utertippaat.",
+      "save": "Naqqiffik qulakkeerit",
+      "saved": "Naqqiffiit pilerpoq. Download-linkimik atorlugu erniaqarfimmi aalajangersarit.",
+      "download": "Download drawing-duet.png",
+      "print": "Papiruserlu qalipaatiterit",
+      "sheetTitle": "Naqqiffik tallimaarit ataatsimut",
+      "paperRules": "Inuit marluk, pappiaq ataaq, kalaaqqat marluk. Sivisuumik tallimaartit, tallimaaq ataaseq imaluunniit ilusiliaq, taava kalaaq pinnaaq. Pinnaaneq pitsaaq. Naqqiffik pitsaaq ataaseq ilaanngilaq."
+    },
+    "colorWash": {
+      "guidance": "Qupperneq ilaani nuannaarutit naasut sinnerlugit tallimaarit, ataaseq ataaseq. Pinaakkut ikkarniarit tikilluarlu, pinnaaq. Allakkatigut atorneqanngilaq.",
+      "colorLegend": "Tallimaarit nuannaarutaat",
+      "sizeLegend": "Tallimaarit qanoq naatsoq",
+      "colors": [
+        "Gul",
+        "Orange",
+        "Grøn",
+        "Lilla"
+      ],
+      "sizes": {
+        "wide": "Naatsoq",
+        "veryWide": "Naatsoq tamakkiisumik"
+      },
+      "color": "Nuannaarut: {color}.",
+      "brushDown": "Tallimaaq tiguk",
+      "brushUp": "Tallimaaq ikkernerpoq",
+      "keys": "Nuanniit ilaasa tallimaap aqqaneq qiterpaaq qupperneq ilaani ittoq. Tikkuaq tallimaaq tiguk imaluunniit ikkernerpoq.",
+      "canvasLabel": "Qupperneq nuannaarutit naasut",
+      "fresh": "Qupperneq nutaaq",
+      "freshMessage": "Qupperneq nutaaq.",
+      "putBack": "Uteqqit",
+      "restored": "Qupperneq utertippoq."
+    },
     "sortTogether": {
       "guidance": "Assi tooruk, taavalu oorbi inissisimaffissaa toorlugu.",
       "restart": "Assit nutaat",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} uunga inissinneqarsinnaavoq \"{basket}\". Oorbi tooruk tassunga inissinniarlugu.",
       "placed": "{name|lower} maanna \"{basket}\"-miippoq.",
       "sorted": "Tamarmik immikkoortiterneqarput. Oorbiit ataatsimoorlusi qimerroorsigit, imaluunniit qulequtaq alla misiliguk.",
+      "largerTargets": "Naatsunerusut ilaatinnerit",
+      "largerOn": "Naatsunerusut ilaatinnerit tiguneqarput. Ataatsimik nikerarneqanngilaq.",
+      "largerOff": "Naatsunerusut ilaatinnerit ikkerput. Ataatsimik nikerarneqanngilaq.",
+      "largerOnNewRound": "Naatsunerusut ilaatinnerit tiguneqarput, sarpiit marluk ilaqarlutik. Assersuutit nutaat sortinniarlugit taaneqarput.",
       "basket": {
         "one": "Oorbi \"{basket}\", iluani assi {count}",
         "other": "Oorbi \"{basket}\", iluani assit {count}"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Ilaa ataaseq tooruk, taavalu alla toorlugu. Inissisimaffii taarserneqassapput.",
-      "restart": "Akuleqqikkit",
+      "restart": "Mix up again",
       "pictureLegend": "Assi",
       "pictures": {
         "sailboat": "Umiatsiaq tingerlaattalik",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Assi tamarmiusoq: {name}",
       "guideText": "Assi ilivitsunngoruni taama isikkoqarpoq.",
+      "ownChoose": "Namminerlu assersuut atorit",
+      "ownChange": "Assersuut allaq toqqarit",
+      "ownBack": "Assersuutinut uteqqit",
+      "ownPrivacy": "Assersuutit erniaqarfimmi ilaqarpoq. Nassiunneqanngilaq imaluunniit allakkatigut.",
+      "ownConsent": "Namminerlu assersuutit atorit. Inuup akuersinnginnerani assersuutaa atorneqanngilaq, siunnersuuteqarit.",
+      "ownWorking": "Assersuut sungiusarneqarpoq.",
+      "ownNotUsable": "Taanna allakkat atorneqarsinnaanngilaq. Assersuut toqqarit, JPEG imaluunniit PNG-ut.",
+      "ownAlt": "Namminerlu assersuut",
+      "ownPiece": "Paasi {n}, {place}",
+      "ownWhole": "Assersuut ataatsimut tamarmik utertippoq. Ilaasa taaneqarluni nutaamik mikisissiniarit.",
+      "ownSheetTitle": "Namminerlu assersuut paasit",
+      "ownSheetHow": "Sinerit tunngavigalugit kaasit. Paasit naqqiffiit, marluk marluusut sinerit ikkaarit, assersuut ataatsimut utertippaaq.",
       "piece": "Ilamernga uaniittoq: {place}",
       "pieceInPlace": ", eqqortumik inissisimasoq",
       "piecePickedUp": ", tiguneqartoq",
@@ -122,7 +786,7 @@
         "ataani talerperleq"
       ],
       "done": "Assi ilivitsuunngoqqippoq. Pinnguaqqigit imaluunniit unillatsiarit.",
-      "playAgain": "Akuleqqikkit"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Oqariartaaseq ataatsimoorlusi atuaruk, taavalu oqaaseq naammassinnittoq toorlugu.",
@@ -190,6 +854,14 @@
       "guidance": "Kaarti nipituumik atuaruk. Eqqortumik akissutissaqanngilaq.",
       "position": "Kaarti {n} {total}-nit",
       "themeLegend": "Qulequtaq",
+      "showPrompt": "Oqaloqatigiinnermut tunngavik takutiu",
+      "bigPicture": "Assersuut naatsoq, inuit ataqatigiit",
+      "passNote": "Inuit tamarmik pinnaarsinnaapput.",
+      "groupTitle": "Kaartit inuit akornanni tikkuarneqarnerat",
+      "groupSit": "Ikkut ataatsimut takuneqarnissaa pisariaqartinneqarpoq, assersuut naatsoq takusinnaasumi. Kaartitsiniarneq imaluunniit assersuut naatsoq ilaqarpoq, oqaasiit siullermik oqaatigineqarpoq.",
+      "groupPass": "Taava kaartit inuk aggersoq tunniviuk. Inuk tamaat assersuutip kingorna sammisimmat imaluunniit oqaatigisariaqarpoq, taava tunniviuk.",
+      "groupNoSpeech": "Kaartit tikkuarnermi aalajangersarneqarpoq. Inuk pinnaarsinnaavoq oqaatigineqanngitsoq, pissutsit kinaassutsimik allaqqaaqqusanngilaq.",
+      "groupEnd": "Ilusilersuut naammassaqarpoq, kortip tikkuarneqarnera tuluttut ilannguni, imaluunniit katersugaasut nukittoqqaarpata. Kikkut toqqarneqanngilaq. Katersugaasut kissaatigaat taamaallaat ilusilersuut nassaarneqarsinnaavoq.",
       "next": "Kaarti tulliq",
       "previous": "Kaarti siulleq",
       "print": "Kaartit tamaasa naqikkit",
@@ -252,6 +924,20 @@
       "started": "Aallartippoq. Ammaneq alliartorpat ilummut anersaarit.",
       "stopped": "Unippoq.",
       "finished": "Tassa arfinileriarluni arriitsumik anersaartorneq. Qaqugukkulluunniit piumaguit aallarteqqissinnaavutit."
+    },
+    "storyChain": {
+      "guidance": "Ataatsimut sammisaqarluni: 1 oqaatsi ataasiakkaarluni, nerisassaq aggersoq ilanngutiuk.",
+      "passNote": "Oqaatsit nassuiaqqit oqaloqatigisinnaasut. Qilanaarneqanngillat imaluunniit nassaarneqanngillat. Kikkut ikiuunnginnerpaasinnaavoq.",
+      "chainLabel": "Taamaalilluni sammisaqarneq",
+      "item": "Nerisassaq {n}: {name}",
+      "add": "Nerisassaq ilanngut",
+      "fullAdd": "Sammisaqarneq naammassivoq. Sammisaqarneq nutaaq aallartitsigit",
+      "newChain": "Sammisaqarneq nutaaq aallartitsigit",
+      "takeOff": "Kingullermik nassaarit",
+      "added": "{name|lower} sammisaqarnerup kingunissaanut ilaavoq.",
+      "removed": "{name|lower} sammisaqarnermit nassaarneqarpoq.",
+      "fresh": "Sammisaqarneq nutaaq, {name|lower}-ip aallartinnerani.",
+      "full": "Sammisaqarnermi nerisassat 8 tamarmik immikkoortinneqarput. Oqaaseq tamaat oqaloqatigit imaluunniit sammisaqarneq nutaaq aallartitsigit."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Nuiaq siallililik",
     "snowflake": "Qanik",
     "kite": "Tingisartagaq",
-    "sunrise": "Seqineq qaqqat qulaatigut nuisoq"
+    "sunrise": "Seqineq qaqqat qulaatigut nuisoq",
+    "decorated-keepsake-box": "Kassi sanaartorfiusoq",
+    "painted-plant-pot": "Ikarsaarsiorfik kalerrisaq",
+    "repeating-pattern-sheet": "Qupperneq sanaartorfiusoq",
+    "music-drawn-lines": "Musikkimut sammisoq",
+    "paper-boat-afloat": "Qaarsoq imermi sinniisoq",
+    "folded-towel-stack": "Tuvaliutit uterneqarsimasut",
+    "hand-massage-with-lotion": "Kiinnaq lotionimik",
+    "open-photo-album": "Nerisassanut album ammasoq",
+    "button-flower-card": "Kortip kulttiinik",
+    "blue-torn-paper-collage": "Qaleriasoq qaajuaq",
+    "family-tree-of-hands": "Ilaqutariit kiinnaat",
+    "open-greeting-card": "Kortip ammasoq ujugaarluni",
+    "lavender-sachet": "Lavendelimik sajiitsoq",
+    "memory-collage-of-photos": "Ilaqutariit nerisassaat qaleriasut",
+    "paper-chain-garland": "Qaarsut sammisagaasut",
+    "open-songbook-with-notes": "Sinerissat ammasut",
+    "photo-postcard-with-stamp": "Postkort nerisassaq",
+    "pine-cone-bird-feeder": "Qaaqqamik kiliarsoq",
+    "playlist-phone-and-card": "Telefoni sinerissat kortillu",
+    "sealed-rice-shaker": "Qaasamaaq naligiffigisoq",
+    "texture-board-with-scraps": "Pissutsit qaajuaqqat",
+    "painted-garden-stone": "Qaqqaq ilumoorsoq",
+    "shared-painted-canvas": "Nerisassaq kalerriffiusoq",
+    "watercolor-washes-sheet": "Akvarellit qupperneq",
+    "seedling-in-pot": "Naggatsat ikarsaarsiorfimmi",
+    "pressed-leaves-in-book": "Ikarnerit siviniarsimasut",
+    "printed-leaves-sheet": "Qupperneq ikarnerit",
+    "pinch-pot-clay-bowl": "Ikarsaarsiorfik pillerfigisoq",
+    "table-sketch-pencil": "Kulisaq pencilmik",
+    "buttons-in-muffin-tin": "Kulttit muffin-imi sorsimasut",
+    "family-recipe-book": "Ilaqutariit neqerooruteqarfik",
+    "drum-with-beat-marks": "Qarsaq timmiaat",
+    "torn-paper-flower": "Kulttiit qaaqqammi",
+    "window-with-birds": "Qulaarsuaq timmissat",
+    "woven-paper-mat": "Qaaqqamik nassaarfik",
+    "yarn-ball-with-thread": "Sipiliaq kilersoq",
+    "letter-and-envelope": "Allakkat kuuttoq"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Angalanermi"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Qiteq",
+        "animals": "Uumasut",
+        "travel": "Angalanermi sunniisa",
+        "flowers": "Kulttut",
+        "hot-drinks": "Kaffemik uffallu",
+        "weather": "Pissutsit",
+        "baked": "Qaqqamit neqeroorutit"
       }
     }
   }

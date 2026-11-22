@@ -100,6 +100,6 @@ describe('FindTogether', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'find-together').ui.findTogether.pass).toBe('Pass');
+    expect(playProps('xx', 'find-together').ui.findTogether.pass).toBe('Pass');
   });
 });

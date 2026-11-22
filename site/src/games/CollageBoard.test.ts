@@ -131,6 +131,6 @@ describe('CollageBoard', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'collage-board').ui.collageBoard.people[0]).toBe('First person');
+    expect(playProps('xx', 'collage-board').ui.collageBoard.people[0]).toBe('First person');
   });
 });

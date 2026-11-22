@@ -21,6 +21,6 @@ describe('StoryDice', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'story-dice').ui.storyDice.roll).toBe('Roll again');
+    expect(playProps('xx', 'story-dice').ui.storyDice.roll).toBe('Roll again');
   });
 });

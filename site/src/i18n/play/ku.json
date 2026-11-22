@@ -5,6 +5,13 @@
       "stopReading": "Xwendinê rawestîne",
       "region": "Lîstik",
       "restart": "Ji nû ve dest pê bike",
+      "rest": "Niha bêhna xwe vedin",
+      "restingTitle": "Bêhn vedidin",
+      "restingText": "Heta hûn dixwazin bisekinin. Cihê we li ser vê rûpelê tê parastin.",
+      "resume": "Berdewam bikin",
+      "placeText": "Car berê hûn di nîvê de sekinîn. Ji wir berdewam bikin, an ji nû ve dest pê bikin.",
+      "placeResume": "Berdewam bikin",
+      "placeFresh": "Ji nû ve dest pê bikin",
       "soundOn": "Dengên nerm vekirî ne",
       "soundOff": "Dengên nerm girtî ne",
       "done": "Ji bo niha qediya",
@@ -36,14 +43,26 @@
       "restart": "Wêneyên nû",
       "sizeLegend": "Hejmara parçeyan",
       "size": {
-        "one": "{n} parçe",
-        "other": "{n} parçe"
+        "one": "{n} tile",
+        "other": "{n} tiles"
       },
       "viewLegend": "Awayê lîstinê",
       "viewShowing": "Wêneyên vekirî",
       "viewHidden": "Wêneyên veşartî",
       "playAgain": "Bi wêneyên nû dîsa bilîzin",
-      "talk": "Bi hev re li ser wêneyan bipeyivin"
+      "talk": "Bi hev re li ser wêneyan bipeyivin",
+      "modeLegend": "Kîjan wêne",
+      "modePlay": "Her wêne",
+      "modeDaily": "Kartê îroj",
+      "dayLegend": "Kîjan roj",
+      "dayHelp": "Herkes di heman rojê de heman wêneyan distîne. Rojên berê jî li vir in, û derbaskirina rojekê tu bedel nade.",
+      "guidanceDaily": "Kartê îroj çar cot wêne heye. Li wêneyekî bitikînin, paşê li wêneya ku jê re li hev e bitikînin.",
+      "restartDaily": "Vê kartê ji nû ve dest pê bikin",
+      "copy": "Vê rêzê kopî bikin",
+      "copied": "Hate kopîkirin. Tiştek ji bo kesek din nayê şandin.",
+      "calendarTitle": "Kartên îroj, {month}",
+      "calendarHelp": "Her rojekê ji bo herkesî heman çar wêne hene. Tu tişt nayê puankirin, û tu roj wekî têkçûyî nayê nîşankirin.",
+      "calendarVersion": "Guhertoya {date}. Wêne ji bo herkesî di heman rojê de yek in."
     },
     "choose": {
       "countLegend": "Hejmara wêneyan",
@@ -62,6 +81,635 @@
       "shadowAlt": "Siyek ji bo hevrûkirinê",
       "foundAlt": "Siya {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Şîret",
+      "hintOn": "Şîret piştî demekê",
+      "hintOff": "Şîret tune",
+      "guidance": "Wêneyên {n} hevgirtî bibînin, û li her yekê bitikînin.",
+      "countLegend": "Çend wêne",
+      "count": "{n} wêne",
+      "found": "Erê, {name|lower} di vê komê de ye.",
+      "elsewhere": "{name|lower} bi tiştekî din re ye. Hêdî hêdî bifikirin.",
+      "hint": "Şîretek: li {theme|lower} bigerin.",
+      "together": "Ev bi hev re ne: {theme}.",
+      "shown": "Vê komê nîşan didim: {theme}.",
+      "groupName": "Bi hev re: {theme}",
+      "show": "Komê nîşan bidin",
+      "next": "Setek din"
+    },
+    "oddOneOut": {
+      "hintLegend": "Şîret",
+      "hintOn": "Şîret piştî demekê",
+      "hintOff": "Şîret tune",
+      "guidance": "Wêneya ku bi yên din re li hev nake bibînin, û li wê bitikînin.",
+      "countLegend": "Çend wêne",
+      "count": "{n} wêne",
+      "belongs": "{name|lower} bi yên din re ye. Hêdî hêdî bifikirin.",
+      "found": "Erê, {name|lower} ew e ku ji komê derketiye. Yên din {theme|lower} ne.",
+      "shown": "Vêga: {name|lower}. Yên din {theme|lower} in.",
+      "hint": "Şîretek: {n} ji van {theme|lower} in.",
+      "others": "Yên din: {theme}",
+      "show": "Nîşanê min bidin",
+      "next": "Setek din"
+    },
+    "seatedToss": {
+      "guidance": "Li sifreyekê rûnin û bi nobet kîsikeke nerm a fasûlyayê bavêjin nav armanca mezin. Hejmartina li ser kaxezê bi hev re bigirin.",
+      "stepsHeading": "Çawa diçe",
+      "steps": [
+        "Armanc û rûpela hejmartinê çap bikin, û li ser sifrê, di navbera we de, bi rûyê rast belav bikin.",
+        "Rehet rûnin, yek li her aliyekî. Bi nobet her yek bi avêtineke nerm bavêjin, an jî heke naxwazin, derbas bibin.",
+        "Dema avêtin dikeve nav xelekê, kesê avêtî di stûna xwe de, li ser rêza wê xelekê, qutiyekê xêz dike.",
+        "Dema hûn rawestin, heke bixwazin, nîşanan bi hev re binêrin. Ne hewce ye kes tiştekî bijmêre.",
+        "Her dem ku kesek amade be, rawestin."
+      ],
+      "safetyHeading": "Ewlehî",
+      "safetyLine": "Tenê kîsikeke bi dirzî girtî an jorabeke pêçayî bikar bînin, rûnin, qet ber bi rûyekî ve nehavêjin, û mezinekî li nêzîk be. Perçeyên biçûk xetera xeniqînê ne.",
+      "flags": [
+        "Ji bo yên di bin 3 salî de nayê bikaranîn: perçeyên biçûk",
+        "Ji devan dûr bigirin"
+      ],
+      "safety": [
+        "Kîsikeke bi dirzî girtî hilbijêrin, an jorabeke paqij bipêçin. Berî bikaranînê kontrol bikin ku qulik an dirzên şil tune bin, da ku tu tişt ji wê dernekeve.",
+        "Fasûlye, brinc û tiştên din ên biçûk xetera xeniqînê ne. Wan ji zarokên piçûk û ji kesên ku tiştan dixin devê xwe dûr bigirin.",
+        "Heke tiştek dibe ku bikeve devê, nêzî bimînin û baş çavdêrî bikin.",
+        "Rûnin. Bi nermî û nizm ber bi armanca li ser sifrê ve bavêjin, qet ber bi rûyekî ve nebavêjin."
+      ],
+      "previewLabel": "Pêşdîtina kaxeza çapkirî: armancek bi sê xelekên bi navên Nêzîk, Navîn û Dûr, ji derve ber bi navendê ve, û hejmartinek bi stûnekê ji bo her kesî û rêzek qutiyên vala ji bo her xelekê.",
+      "sheetHow": "Kaxezê li ser sifrê di navbera we de belav bikin. Dema avêtin dikeve nav xelekê, di stûna xwe de, li ser rêza wê xelekê, qutiyekê xêz bikin.",
+      "rings": [
+        "Nêzîk",
+        "Navîn",
+        "Dûr"
+      ],
+      "people": [
+        "Kesê yekem",
+        "Kesê duyem"
+      ],
+      "ringHeading": "Xelek",
+      "print": "Armanc û rûpela hejmartinê çap bikin"
+    },
+    "seasonalPack": {
+      "guidance": "Mehekî hilbijêrin, sê lîstikên kaxezî yên wî çap bikin, û yekê, duyan an hemûyan bi hev re bikin.",
+      "monthLegend": "Mehekî hilbijêrin",
+      "months": [
+        "Rêbendan",
+        "Reşemî",
+        "Adar",
+        "Nîsan",
+        "Gulan",
+        "Hezîran",
+        "Tîrmeh",
+        "Tebax",
+        "Îlon",
+        "Cotmeh",
+        "Mijdar",
+        "Berfanbar"
+      ],
+      "monthNote": "Her mehê wêneyên xwe hene. Rûpel bi vî mehî vedibe, û hûn dikarin her mehekî din hilbijêrin.",
+      "restDay": "Îro roja bêhnvedanê ye",
+      "restLine": "Îro ti lîstik tune. Roja bêhnvedanê jî rojek baş e.",
+      "previewHeading": "Sê lîstik",
+      "puzzles": {
+        "pairs": {
+          "title": "Cotan li hev bikin",
+          "how": "Ji her wêneyê di rêza jorîn de xêzekê bikişînin heta heman wêneya di rêza jêrîn.",
+          "describe": "Du rêz heman çar wêne, bi rêzeke cuda."
+        },
+        "different": {
+          "title": "Kîjan cuda ye?",
+          "how": "Wêneya ku ji sê yên din cuda ye, dor bikişînin.",
+          "describe": "Rêzek çar wêne. Sê heman in, yek jî cuda ye."
+        },
+        "color": {
+          "title": "Rengê bikin",
+          "how": "Wêneyê bi her awayê ku hûn dixwazin reng bikin, bi kreyon an qelemên rengîn.",
+          "describe": "Wêneyekî mezin ji bo rengkirinê."
+        }
+      },
+      "print": "Pakêta vî mehî çap bikin",
+      "sheetHow": "Rûpelekê çap bikin. Yek, du an hemû sê lîstikan, bi her rêzê, bikin.",
+      "printFooter": "Yek, du an hemû sê bikin. Her dem ku bixwazin rawestin."
+    },
+    "decorateACard": {
+      "guidance": "Bûyerekê hilbijêrin, paşê bi kreyon an pênûsan kartekê bi hev re bixemilînin. Kartek rast tune ye.",
+      "occasionLegend": "Bûyerekê hilbijêrin",
+      "occasions": {
+        "birthday": {
+          "label": "Rojbûn",
+          "words": "Rojbûna we pîroz be"
+        },
+        "thank-you": {
+          "label": "Spas",
+          "words": "Spas dikim"
+        },
+        "thinking-of-you": {
+          "label": "Bîra min li we ye",
+          "words": "Bîra min li we ye"
+        },
+        "new-season": {
+          "label": "Demsaleke nû",
+          "words": "Demsaleke nû"
+        },
+        "just-because": {
+          "label": "Bê sedem",
+          "words": "Bê sedem"
+        }
+      },
+      "stepsHeading": "Çawa bi hev re bixemilînin",
+      "steps": {
+        "fold": "Kartê çap bikin û li xêza xêzkirî nîvco bikin, da ku aliyê pêş li derve be.",
+        "front": "Yek kes dora peyvan aliyê pêş dixemilîne.",
+        "inside": "Yê din aliyê paş dixemilîne, an jî li aliyekî dor bi dor bixebitin.",
+        "message": "Bi hev re peyamekê binivîsin. Yek kes dikare binivîse dema yê din peyvan dibêje.",
+        "stop": "Her dem ku bixwazin rawestin. Kartek rast tune ye, yekî sade jî wekhev baş e."
+      },
+      "materials": "Kreyon, qelemên rengîn an pênûsên bi mirekêb bikar bînin. Ti tişt ne hewce ye ku were birrîn, sîwankirin an zeliqandin.",
+      "previewLabel": "Pêşdîtina kartê ku nîvco bûye. Aliyê pêş {words} dibêje, bi çarçoveyeke sade ya pelan û stêrkan. Aliyê paş ji bo peyamê rêzik û rêzekê ji bo Ji heye.",
+      "from": "Ji",
+      "sheetHow": "Kartê li ser xeta xêzkirî nîvî bikin, bi aliyê pêş li derve. Peyamê li aliyê paş binivîsin.",
+      "rulesHeading": "Ji bo du kesan",
+      "sheetRules": [
+        "Dor bigirin, an karê xwe parve bikin: yek kes aliyê pêş xemilîne, yê din aliyê paş.",
+        "Peyamê bi hev re binivîsin, an yek kes ya ku yê din dibêje binivîse.",
+        "Her kes dikare di her demê de rawestîne. Ti kartek rast tune ye."
+      ],
+      "print": "Kartê çap bikin"
+    },
+    "storyDice": {
+      "guidance": "Li wêneyan binêrin û bi karanîna wan çîrokekê bibêjin, bi her rêzê. Çîrokeke rast tune ye.",
+      "countLegend": "Çend zar",
+      "count": "{n} zar",
+      "roll": "Dîsa bavêjin",
+      "pass": "Derbas bikin",
+      "passed": "Derbaskirin baş e. Kesê din dikare dest pê bike, an hûn dikarin dîsa bavêjin.",
+      "rolled": "Wêneyên nû: {names}.",
+      "tapped": "{name}. Bi vê dest pê bikin, an bi yekî din."
+    },
+    "wordPicture": {
+      "guidance": "Li wêneyekî bikirtînin, paşê li peyva ku navê wî ye. An jî li peyvekê, paşê li wêneya wê.",
+      "countLegend": "Çend wêne",
+      "count": "{n} wêne",
+      "picturesGroup": "Wêne",
+      "wordsGroup": "Peyv",
+      "readWord": "Bi dengbêjî bixwîne: {name}",
+      "next": "Wêneyên nû",
+      "putBack": "Vegerîne cihê xwe",
+      "pickWord": "Niha li peyva ku jê re heye bikirtînin.",
+      "pickPicture": "Niha li wêneya ku jê re heye bikirtînin.",
+      "fit": "Erê, ev peyv bi {name|lower} re ye.",
+      "newSet": "Ev komeke nû ya wêneyan e.",
+      "restarted": "Vegeriya destpêkê. Her wêne û peyv dîsa ji hev veqetiyane.",
+      "restored": "Vegeriya cihê xwe. Cotên hevgirtî dîsa xuya dibin.",
+      "all": "Her peyvekê wêneya xwe heye."
+    },
+    "colorMatch": {
+      "guidance": "Li rengê û navê wî binêrin, paşê li her wêneyê ku wê rengê ye bikirtînin.",
+      "target": "Reng {color|lower} ye. Li her wêneya ku {color|lower} e bikirtînin.",
+      "countLegend": "Çend wêne",
+      "count": "{n} wêne",
+      "found": "Erê, {name|lower} {color|lower} e.",
+      "named": "{name|lower} {color|lower} e.",
+      "all": "Ev hemû wêneyên {color|lower} in.",
+      "shown": "Li vir wêneyên {color|lower} in.",
+      "show": "Wan nîşan bidin",
+      "next": "Rengekî din",
+      "names": {
+        "red": "Sor",
+        "orange": "Porteqalî",
+        "yellow": "Zer",
+        "green": "Kesk",
+        "blue": "Şîn"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Li nîvekî li aliyê çepê bikirtînin, paşê li nîvê aliyê rast ku jê re tê bikirtînin.",
+      "countLegend": "Çend wêne",
+      "count": "{n} wêne",
+      "leftGroup": "Nîvên çep",
+      "rightGroup": "Nîvên rast",
+      "left": "Nîvê çep ji {name|lower}",
+      "right": "Nîvê rast ji {name|lower}",
+      "joined": "Girêdayî",
+      "pickRight": "Niha li nîvê rast ku jê re tê bikirtînin.",
+      "pickLeft": "Niha li nîvê çep ku jê re tê bikirtînin.",
+      "fit": "Erê, ew her du {name|lower} çêdikin.",
+      "apart": "Ew her du bi hev re nagirin. Yekî din biceribînin.",
+      "all": "Her wêne temam e.",
+      "shown": "Li vir wêne bi hev ve girêdayî ne.",
+      "show": "Nîşanî min bidin",
+      "next": "Komeke din"
+    },
+    "colorByNumber": {
+      "guidance": "Rengekî ji navnîşanê hilbijêrin, paşê çargoşeyekê bi wî rengî tijî bikin. Her reng baş e.",
+      "sizeLegend": "Mezinahiya torê",
+      "size": "{n} bi {n}",
+      "keyLegend": "Reng",
+      "colors": [
+        "Zer",
+        "Porteqalî",
+        "Kesk",
+        "Mor"
+      ],
+      "motifs": {
+        "house": "xanîyek",
+        "flower": "gulek",
+        "heart": "dilek",
+        "tree": "darek",
+        "boat": "keştiyek bi bayî",
+        "pot-plant": "nebatek di tasê de"
+      },
+      "region": "Tora wêneyê, {n} bi {n}. Heke ekran teng be, ew bi aliyan dikare were gerandin.",
+      "cell": "Hejmar {number}, rêz {row}, stûn {column}, {color}",
+      "empty": "vala",
+      "chose": "{name} hate hilbijartin. Li çargoşeyekê bikirtînin da ku tijî bibe.",
+      "painted": "{name} di rêza {row}, stûna {column} de.",
+      "sheet": "Her çargoşe rengê hejmara xwe digire. Ev wêne li ser kaxezê ye: {name}.",
+      "own": "Her çargoşe tijî ye. Ev wêneya we ya bi xwe ye.",
+      "fillAll": "Bi hejmaran tijî bikin",
+      "filledAll": "Hər kvadrat indi nömrəsinin rəngindədir.",
+      "clear": "Təmizlə",
+      "cleared": "Şəbəkə təmizdir.",
+      "next": "Başqa şəkil",
+      "fresh": "Rəngləmək üçün başqa bir şəkil budur."
+    },
+    "patternMaker": {
+      "guidance": "Rəngini dəyişmək üçün bir kvadrata toxunun. Naxışınız yanında böyüyəcək. Etdiyiniz heç nə saxlanılmır və göndərilmir.",
+      "sizeLegend": "Kafel ölçüsü",
+      "size": "{n} x {n}",
+      "keyLegend": "Rənglər, toxunuşun dəyişdirmə sırası ilə",
+      "colors": [
+        "Sarı",
+        "Narıncı",
+        "Yaşıl",
+        "Bənövşəyi"
+      ],
+      "tileLabel": "Kafeliniz",
+      "region": "Kafeliniz, {n} x {n}. Ekran dar olarsa, yanlara doğru sürüşür.",
+      "patternLabel": "Naxışınız",
+      "pattern": "Naxışınız: kafeliniz yanlara {n} dəfə, aşağıya {n} dəfə təkrarlanır.",
+      "square": "Sətir {row}, sütun {column}, {color}",
+      "changed": "Sətir {row}, sütun {column} indi {color} rəngdədir.",
+      "cleared": "Kafel təmizdir. İstəsəniz onu geri qoya bilərsiniz.",
+      "surprise": "Məni təəccübləndirin",
+      "surprised": "Budur yeni kafel. Köhnəni geri qoya bilərsiniz.",
+      "putBack": "Geri qoy",
+      "restored": "Kafeliniz əvvəlki kimi geri qayıtdı.",
+      "print": "Naxışımı çap et",
+      "sheetTitle": "Naxışım"
+    },
+    "buildTogether": {
+      "guidance": "Növbə ilə boş yerə bir parça qoyun. Hər birinizin öz rəngi var. Etdiyiniz heç nə saxlanılmır və göndərilmir.",
+      "sizeLegend": "Şəbəkə ölçüsü",
+      "size": "{n} x {n}",
+      "people": [
+        "Birinci şəxs",
+        "İkinci şəxs"
+      ],
+      "colorLegend": "{person} rəngi",
+      "colors": [
+        "Sarı",
+        "Narıncı",
+        "Yaşıl",
+        "Bənövşəyi"
+      ],
+      "inUse": "İstifadədədir",
+      "turn": "Növbə sizdədir, {person|lower}",
+      "yourColor": "Rəngininiz {color|lower}.",
+      "built": "Birlikdə qurdunuz. Bu, ikinizin yaratdığı şəkildir.",
+      "gridLabel": "Ortaq şəbəkə",
+      "region": "Ortaq şəbəkə, {n} x {n}. Ekran dar olarsa, yanlara doğru sürüşür.",
+      "cellEmpty": "Sətir {row}, sütun {column}, boşdur",
+      "cellFilled": "Sətir {row}, sütun {column}, {color}, {person|lower} tərəfindən qoyulub",
+      "placed": "Sətir {row}, sütun {column} indi {color} rəngdədir. Növbə sizdədir, {next|lower}.",
+      "placedLast": "Sətir {row}, sütun {column} indi {color} rəngdədir. Birlikdə qurdunuz.",
+      "taken": "Sətir {row}, sütun {column} artıq parça var. Boş bir yer seçin.",
+      "pass": "Ötür",
+      "passed": "Ötürmək də olar. Növbə sizdədir, {person|lower}.",
+      "takeBack": "Son parçanı geri götür",
+      "takeBackPass": "Ötürməni geri götür",
+      "tookBack": "Parça geri götürüldü. Növbə sizdədir, {person|lower}.",
+      "tookBackPass": "Ötürmə geri götürüldü. Növbə sizdədir, {person|lower}.",
+      "colorChanged": "{person} indi {color|lower} rəngə malikdir.",
+      "restarted": "Şəbəkə boşdur. Növbə sizdədir, {person|lower}.",
+      "print": "Şəbəkəni çap et",
+      "sheetTitle": "Birlikdə qurun",
+      "sheetHelp": "Növbə ilə edin. Boş kvadratda hər kəs öz qələmi ilə öz formasını çəkir.",
+      "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Bir parçaya toxunun, sonra onun gedəcəyi şəkildəki boşluğa toxunun. Etdiyiniz heç nə saxlanılmır və göndərilmir.",
+      "hints": "Köməkçi xətləri göstər",
+      "pictureLine": "Bu bir {picture}dir.",
+      "pictures": {
+        "house": "ev",
+        "boat": "qayıq",
+        "tree": "ağac",
+        "fish": "balıq",
+        "cat": "pişik",
+        "rocket": "raketa"
+      },
+      "outlineLabel": "{picture} konturu. Seçdiyiniz parçanı qoymaq üçün boşluğa toxunun.",
+      "trayHeading": "Parçalar",
+      "pieces": {
+        "large-triangle": "Böyük üçbucaq",
+        "small-triangle": "Kiçik üçbucaq",
+        "square": "Kvadrat",
+        "parallelogram": "Paralelqram",
+        "rectangle": "Düzbucaqlı"
+      },
+      "shapes": {
+        "large-triangle": "böyük üçbucaq",
+        "small-triangle": "kiçik üçbucaq",
+        "square": "kvadrat",
+        "parallelogram": "paralelqram",
+        "rectangle": "düzbucaqlı"
+      },
+      "chosenLabel": "Seçilib",
+      "spaceEmpty": "Boşluq {n}, {shape}, boşdur",
+      "spaceFilled": "Boşluq {n}, {shape}, öz parçasına malikdir. Parçanı geri götürmək üçün toxunun.",
+      "chosen": "{piece} seçildi. İndi şəkildə bir boşluğa toxunun.",
+      "unchosen": "Perçe êdî nehatiye hilbijartin.",
+      "placed": "Perçe di cihê {n} de ye.",
+      "complete": "{picture} temam bû.",
+      "different": "Ev perçe ji vî cihî cuda ye. Cihekî din biceribînin.",
+      "needPiece": "Pêşî perçeyekî ji tepsiyê hilbijêrin.",
+      "filled": "Ev cih berê perça xwe heye. Ji bo vegerandina perçeyê, li ser bikirtînin.",
+      "tookBack": "Perçe vegeriya tepsiyê.",
+      "cleared": "Perçe vegeriyan tepsiyê. Heke we raya xwe guhert, dîsa wan bi cih bikin.",
+      "restored": "Perçe vegeriyan nav wêneyê.",
+      "next": "Ev yek {picture} ye.",
+      "putBack": "Dîsa bi cih bikin",
+      "another": "Şekleke din",
+      "print": "Vî şekilî çap bikin",
+      "sheetTitle": "Şeklên aram",
+      "sheetHow": "Perçeyan reng bikin, an jî wan bibirin da ku li gorî xêzeyê bicihbin. Mezinek dikare birînê bike.",
+      "sheetPieces": "Perçe, bi heman mezinahiya xêzeyê"
+    },
+    "picnicPlanner": {
+      "guidance": "Li ser wêneyekî bikirtînin da ku wê di selika pîknîkê de deynin, û di selikê de li ser bikirtînin da ku wê derxin. Selik şeş tiştan digire.",
+      "guidancePlay": "Li ser du wêneyên wekhev bikirtînin. Wêne dê xuya bimînin, û tu tişt bi dem nayê pîvandin.",
+      "basketHeading": "Selika me",
+      "basketLabel": "Selika pîknîkê",
+      "takeOut": "{picture} ji selikê derxin",
+      "inBasket": "Di selikê de",
+      "foodHeading": "Xwarin",
+      "outingsHeading": "Çalakî",
+      "added": "{picture} di selikê de ye.",
+      "removed": "{picture} ji selikê derket.",
+      "already": "{picture} berê di selikê de ye. Ji bo derxistinê, li wir bikirtînin.",
+      "full": "Selik tije ye. Ji bo cihê vala, tiştekî derxin.",
+      "summary": "Pîknîka me: {list}.",
+      "summaryNone": "Hê tiştek di selikê de nîne.",
+      "and": "û",
+      "play": "Em bi pîknîka xwe bilîzin",
+      "needTwo": "Pêşî bi kêmanî du tiştan hilbijêrin.",
+      "playAgain": "Dîsa bilîzin",
+      "back": "Vegere pîknîkê",
+      "print": "Lîsteya pîknîka xwe çap bikin",
+      "cleared": "Selik vala ye.",
+      "notice": "Ev plansazîyek e ku li ser bipeyivin. Tu tişt bi dem nayê pîvandin, nirxandin an tomarkirin.",
+      "sheetTitle": "Lîsteya pîknîka me",
+      "sheetHow": "Her tiştê ku hûn dikin selikê, wî nîşan bikin. Ji bo tiştên din ku hûn dixwazin bînin, xetên vala bikar bînin.",
+      "sheetToPack": "Ji bo pakkirinê"
+    },
+    "scrapbook": {
+      "guidanceEmpty": "Ji bo destpêkirina pirtûkê, ji wêneyên xwe yên taybet du heta diwanzdeh hilbijêrin.",
+      "guidance": "Bi hev re rûpelan bizivirînin, bi bişkokan an bi tîrên çep û rast ên klavyeyê. Heke hûn bixwazin, di bin wêneyekî de çend peyvan zêde bikin. Tiştên ku hûn çêdikin nayên tomarkirin an şandin.",
+      "lookGuidance": "Bi hev re li her rûpelê binêrin. Hûn dikarin bipeyivin an tenê binêrin.",
+      "intro": "Ji vê amûrê du heta diwanzdeh wêneyan hilbijêrin. Her wêne dibe rûpelekî pirtûkekê ku hûn dikarin bi hev re bizivirînin.",
+      "consent": "Wêneyên malbata xwe bikar bînin. Berî ku wêneyê kesekî bikar bînin ku nikare erê bibêje, destûrê bixwazin.",
+      "privacy": "Wêneyên we li ser vê amûrê dimînin. Ew nayên barkirin an tomarkirin.",
+      "choose": "Wêneyan hilbijêrin",
+      "chooseDifferent": "Wêneyên cuda hilbijêrin",
+      "backToBook": "Vegere pirtûkê",
+      "backToChoose": "Vegere hilbijartina wêneyan",
+      "needTwo": "Ji kerema xwe bi kêmanî du wêneyan hilbijêrin.",
+      "usingFirst": "Bi kar anîna {max} wêneyên pêşîn.",
+      "cleared": "Pirtûk hate paqijkirin. Ji bo dîsa destpêkirinê wêneyan hilbijêrin.",
+      "moved": "Çû rûpela {n}.",
+      "pageOf": "Rûpela {n} ji {total}",
+      "lookTogether": "Bi hev re binêrin",
+      "leaveLook": "Vegere pirtûkê",
+      "print": "Pirtûka wêneyan çap bikin",
+      "clear": "Pirtûkê paqij bikin",
+      "bookLabel": "Pirtûka wêneyên malbatê",
+      "pagesLabel": "Rûpelan bizivirînin",
+      "previous": "Rûpela berê",
+      "next": "Rûpela din",
+      "moveEarlier": "Berê bibe",
+      "moveLater": "Paşê bibe",
+      "captionLabel": "Heke hûn bixwazin, çend peyvan ji bo vê rûpelê",
+      "captionHelp": "Heta 80 karakter. Binnivîs tenê li ser vê rûpelê tên parastin û dema hûn wê bigirin, winda dibin.",
+      "sheetTitle": "Pirtûka wêneyên me",
+      "sheetHow": "Yek wêne li ser rûpelekî, bi peyvên xwe li binê wê. Rûpelan bi rêzê bizivirînin û li ser her yekê bipeyivin.",
+      "sheetEmpty": "Ji bo çapkirina pirtûka xwe, wêneyên xwe li ser rûpela lîstikê hilbijêrin, an jî vê rûpela vala çap bikin û wêneyekî çapkirî têxin nav wê.",
+      "sheetFrame": "Wêneyekî çapkirî li vir daliqînin",
+      "sheetWords": "Çend peyvan ji bo vê rûpelê",
+      "skipped": {
+        "one": "{n} pel wêneyek nebû ku em dikarin bikar bînin.",
+        "other": "{n} pel wêneyên ku em dikarin bikar bînin nebûn."
+      }
+    },
+    "quietScene": {
+      "guidance": "Her carê yek wêne binêrin. Dema hûn amade bin, li ser Ya pêş an Ya berê bikirtînin. Tiştek bi xwe naguhere.",
+      "next": "Wêneya pêş",
+      "previous": "Wêneya berê",
+      "bigPicture": "Wêneyê mezintir",
+      "showEverything": "Hemû nîşan bide",
+      "first": "Ev yekem wêne ye.",
+      "last": "Ev dawîn wêne ye.",
+      "lines": {
+        "sunrise": "Roj li ser axê radibe.",
+        "window-with-birds": "Balinde li derveyî pencereyê.",
+        "vase-of-flowers": "Vazoyek kulîlkan li ser sifrê.",
+        "teacup": "Fincanek çayê li kêleka pencereyê.",
+        "tree": "Darekî li baxçeyê radiweste.",
+        "sailboat": "Keştiyeke lepikê li ser avê.",
+        "lighthouse": "Fenerekî li kenarê deryayê.",
+        "rainbow": "Keviroşk piştî baranê.",
+        "moon": "Heyv di ezmanê şevê de.",
+        "daisies": "Refek kulîlkên gul-çavî di nav giyayê de.",
+        "rowing-boat": "Keştiyeke avjenê li ser ava aram.",
+        "potted-plant": "Nebatekî kesk di kêlekê de."
+      }
+    },
+    "collageBoard": {
+      "guidance": "Bi nobetê bilîzin. Li ser parçeyekî bikirtînin, paşê li cihekî vala bikirtînin da ku wê li wir deynin. Tiştên ku hûn çêdikin nayên tomarkirin an şandin.",
+      "people": [
+        "Kesê yekem",
+        "Kesê duyem"
+      ],
+      "marks": [
+        "çemberek",
+        "çargoşeyek"
+      ],
+      "turn": "Nobeta we ye, {person|lower}.",
+      "marked": "Perçeyên we bi {mark} hatine nîşankirin.",
+      "boardLabel": "Tabloya hevpar",
+      "placeEmpty": "Cih {n}, vala",
+      "placeFilled": "Cih {n}, {picture|lower}, ji aliyê {person|lower} ve hatiye danîn",
+      "trayHeading": "Wêneyên birî",
+      "chosenLabel": "Hatiye hilbijartin",
+      "chosen": "{picture} hate hilbijartin. Niha li cihekî vala bikirtînin.",
+      "unchosen": "Wêneya birî êdî nehatiye hilbijartin.",
+      "needCutout": "Pêşî wêneyekî birî hilbijêrin, paşê li cihekî vala bikirtînin.",
+      "filled": "Cih {n} berê wêneyek heye. Cihekî vala hilbijêrin.",
+      "placed": "{picture} li cih {n} e. Nobeta we ye, {next|lower}.",
+      "full": "Her cih wêneyek heye. Ji bo guhertinê yekê vegerînin, an jî ji nû ve dest pê bikin.",
+      "pass": "Derbas bike",
+      "passed": "Derbas bûn baş e. Nobeta we ye, {person|lower}.",
+      "takeBack": "Perça dawîn vegerîne",
+      "takeBackPass": "Derbasbûnê vegerîne",
+      "tookBack": "Perçe hate vegerandin. Nobeta we ye, {person|lower}.",
+      "tookBackPass": "Derbasbûn hate vegerandin. Nobeta we ye, {person|lower}.",
+      "restarted": "Tablo vala ye. Nobeta we ye, {person|lower}.",
+      "putBack": "Dîsa bi cih bikin",
+      "putBackDone": "Perçe vegeriyan ser tabloyê.",
+      "another": "Komeke din a wêneyan",
+      "anotherSet": "Komeke nû ya wêneyên birî di tepsiyê de ye. Perçeyên li ser tabloyê li cihê xwe dimînin.",
+      "print": "Tabloyê çap bikin",
+      "sheetTitle": "Tabloya kolajê",
+      "sheetHow": "Wêneyan bibirin û bi nobetê wan li ser tabloyê bicihbikin. Mezinek dikare birînê bike.",
+      "sheetTray": "Wêneyên ku divê werin birîn"
+    },
+    "gardenPlanner": {
+      "guidance": "Li ser wêneyekî bikirtînin, paşê li ser qadekî baxçê bikirtînin da ku wê li wir deynin. Ji bo paqijkirinê, li ser qadekî ku wêneyek lê heye bikirtînin, bêyî ku tiştek were hilbijartin.",
+      "bedsLabel": "Qadên baxçê",
+      "bedEmpty": "Qad {n}, vala",
+      "bedFilled": "Qad {n}, {picture|lower}",
+      "plantsHeading": "Nebat",
+      "extrasHeading": "Tiştên zêde yên baxçê",
+      "chosenLabel": "Hatiye hilbijartin",
+      "chosen": "{picture} hate hilbijartin. Niha li ser qadekî bikirtînin.",
+      "unchosen": "Wêneyek nehatiye hilbijartin.",
+      "needPicture": "Pêşî wêneyekî hilbijêrin, paşê li bexçeyekê bikirtînin.",
+      "planted": "{picture} di bexçeya {n} de ye.",
+      "replaced": "{picture} cihê wêneya di bexçeya {n} de digire.",
+      "cleared": "Bexçeya {n} vala ye. Heke hûn dixwazin wêneyê dîsa bikar bînin, wê vegerînin.",
+      "restarted": "Hemû bexçe vala ne.",
+      "putBack": "Vegerînin",
+      "putBackDone": "Wêne vegeriyan bexçeyên xwe.",
+      "summaryHeading": "Bexçeya min",
+      "summary": "Di plana we de {list} heye.",
+      "summaryNone": "Hîn tu wêne di bexçeyekê de nîne.",
+      "and": "û",
+      "print": "Plana çap bikin",
+      "sheetTitle": "Plana bexçeya me",
+      "sheetHow": "Bexçeyan wêneyên ku li ser ekranê hatine hilbijartin nîşan didin. Heke hûn bixwazin, di bexçeyên vala de xêz bikin.",
+      "sheetNotes": "Têbînî",
+      "notice": "Ev plansaziyeke wêneyan e ku li ser bipeyivin, ne şîreta çandinê."
+    },
+    "coloringWall": {
+      "guidance": "Wêneyekî û hejmara rûpelan hilbijêrin. Dîwarê çap bikin, û her kes yek an çend rûpelan reng bike. Tiştek bi demê nayê pîvandin, puan nayê dayîn, û nayê tomarkirin.",
+      "pictureLegend": "Wêne",
+      "sizeLegend": "Hejmara rûpelan",
+      "sizes": {
+        "2x2": "4 rûpel (2 bi 2)",
+        "3x2": "6 rûpel (3 bi 2)",
+        "3x3": "9 rûpel (3 bi 3)"
+      },
+      "previewLabel": "Wêneya {picture|lower} li {n} rûpelan hatiye dabeşkirin, {across} li ber hev û {down} li jêr hev. Her rûpel di quncika xwe de etîketek heye.",
+      "previewCaption": "Wêneya bi xêzên rûpelan û etîketan ku li ser hatine kişandin.",
+      "labelsNote": "Herf ji jor ber bi jêr diçin û jimar ji çep ber bi rast, ji ber vê A1 rûpela li quncika jorîn a çepê ye.",
+      "wallHeading": "Meriv çawa dîwar pêk tîne",
+      "steps": [
+        "Hemû rûpelan çap bikin. Rûpela yekem ev gav û nexşeya dîwarê ne.",
+        "Her kes yek an çend rûpelan digire û wan reng dike.",
+        "Reng û şêwaz ne hewce ye ku li hev bin. Her rûpel beşek ji heman wêneyê ye.",
+        "Rûpelan li gor etîketên wan rêz bikin, paşê bi bendê li pişta wan bi hev ve girêbidin.",
+        "Dîwarê li cihê ku herkes dikare bibîne, deyn bikin."
+      ],
+      "mapLabel": "Nexşeya dîwarê: {down} rêzên {across} rûpelan, ji A1 heta {last} etîketkirî.",
+      "edgeNote": "Xeta çirçî sînorê her rûpelê nîşan dide. Rûpelan li gor wê dor bi dor rêz bikin, an jî hinekî li hev bigirin.",
+      "pictureLine": "Wêne: {picture}. Ev dîwar {n} rûpel e: {across} li ber hev û {down} li jêr hev.",
+      "print": "Dîwarê çap bikin"
+    },
+    "findTogether": {
+      "guidance": "Dor bi dor bilîzin. Di dora xwe de du kartan vekin, da ku cotekê bibînin. Cotan bi hev re bibînin.",
+      "sizeLegend": "Hejmara kartan",
+      "size": "{n} kart",
+      "viewLegend": "Meriv çawa dilîze",
+      "viewShowing": "Bi wêneyên xuyayî bilîzin",
+      "viewHidden": "Kart bi rûyê xwe ber bi jêr ve",
+      "people": [
+        "Kesê yekem",
+        "Kesê duyemîn"
+      ],
+      "turn": "Dor: {person}",
+      "turnDone": "Hemû cot hatin dîtin.",
+      "tally": "Cotên bi hev re dîtî: {n}",
+      "cardNamed": "{name}, kart {n}",
+      "cardFaceDown": "Kart {n}, bi rûyê xwe ber bi jêr ve",
+      "first": "{name}. Niha kartekê duyemîn veke.",
+      "found": "{name}: cotek, bi hev re hat dîtin. Niha dora {next|lower} e.",
+      "allTogether": "Hemû cotan bi hev re dîtin.",
+      "different": "{a} û {b} ne wekhev in. Bi hêdî bifikirin, paşê “Vegerînin” bikirtînin.",
+      "waiting": "Dema hûn amade bin, “Vegerînin” bikirtînin. Wê gavê dor diguhere.",
+      "turnedBack": "Hatin vegerandin. Niha dora {person|lower} e.",
+      "passed": "Derbasbûn baş e. Niha dora {person|lower} e.",
+      "turnBack": "Vegerînin",
+      "pass": "Derbas bikin",
+      "playAgain": "Dîsa bilîzin"
+    },
+    "drawingDuet": {
+      "guidance": "Dor bi dor, her carekê yek xêzê bikişînin, paşê qelemê bidin yê din. Her kes dikare derbas bike. Tiştek li cihekî din nayê şandin. Wêne ji vê rûpelê tenê dema hûn tomar bikin derdikeve.",
+      "people": [
+        "Kesê yekem",
+        "Kesê duyemîn"
+      ],
+      "colorLegend": "Rengê {person}",
+      "colors": [
+        "Zer",
+        "Porteqalî",
+        "Kesk",
+        "Mor"
+      ],
+      "turn": "Dora {person}",
+      "penColor": "Rengê qelemê: {color}.",
+      "canvasLabel": "Xêzkirina hevbeş, heta niha {n} xêz",
+      "canvasLabelOne": "Xêzkirina hevbeş, heta niha {n} xêzek",
+      "keys": "Bişkokên tîrê nuqteya qelemê li ser xêzkirinê diguherînin. Space qelemê deyne ser an hilde dike.",
+      "penDown": "Qelem deyne ser",
+      "penUp": "Qelem hilde",
+      "pass": "Qelem bide yê din",
+      "passed": "Derbasbûn baş e. Dora we ye, {person|lower}.",
+      "takeBack": "Xêza min a dawî jê bibe",
+      "tookBack": "Xêza dawî ya {person|lower} hate jêbirin.",
+      "noLine": "Ji aliyê {person|lower} xêzek tune ku were jêbirin.",
+      "restarted": "Rûpel vala ye. Dora kesê yekem e. Heke ne bi mebest kirin, wê vegerînin.",
+      "putBack": "Vegerînin",
+      "restored": "Xêz wek berê vegeriyan.",
+      "save": "Wêneyê tomar bikin",
+      "saved": "Wêneya we amade ye. Ji bo ku li ser vê amûrê bimîne, girêdana daxistinê bikar bînin.",
+      "download": "Daxistina drawing-duet.png",
+      "print": "Guhertoya kaxezê çap bikin",
+      "sheetTitle": "Duetoya xêzkirinê",
+      "paperRules": "Du kes, kaxezek, du qelem. Dor bi dor: her kes yek xêz an şiklekî bike, paşê qelemê bide yê din. Her kes dikare derbas bike. Wêneyek rast tune."
+    },
+    "colorWash": {
+      "guidance": "Bi rengê nerm li ser rûpelê bibaxin, carekê yek qat. Berûs rakin da ku rawestin, û her dem bixwazin bisekinin. Tiştek nayê tomarkirin an şandin.",
+      "colorLegend": "Rengê boyaxê",
+      "sizeLegend": "Mezinahiya firçeyê",
+      "colors": [
+        "Zer",
+        "Porteqalî",
+        "Kesk",
+        "Mor"
+      ],
+      "sizes": {
+        "wide": "Firehe",
+        "veryWide": "Pir firehe"
+      },
+      "color": "Rengê boyaxê: {color}.",
+      "brushDown": "Firçe deyne ser",
+      "brushUp": "Firçe hilde",
+      "keys": "Bişkokên tîrê halqa firçeyê li ser rûpelê diguherînin. Space firçeyê deyne ser an hilde dike.",
+      "canvasLabel": "Rûpelek bi qatên rengê nerm",
+      "fresh": "Rûpelek nû",
+      "freshMessage": "Rûpelek nû.",
+      "putBack": "Vegerînin",
+      "restored": "Rûpel vegeriya."
+    },
     "sortTogether": {
       "guidance": "Li ser wêneyekê bixin, paşê li ser selika ku jê re guncaw e bixin.",
       "restart": "Wêneyên nû",
@@ -71,6 +719,10 @@
       "hint": "{name|lower} dikare têkeve nav «{basket}». Li ser wê selikê bixin da ku têxin navê.",
       "placed": "{name|lower} di nav «{basket}» de ye.",
       "sorted": "Her tişt hate rêzkirin. Bi hev re li selikan binêrin, an jî mijareke din biceribînin.",
+      "largerTargets": "Armancên mezintir",
+      "largerOn": "Armancên mezintir çalak in. Tiştek nehat guhertin.",
+      "largerOff": "Armancên mezintir neçalak in. Tiştek nehat guhertin.",
+      "largerOnNewRound": "Armancên mezintir çalak in, bi du sepetan. Li vir wêneyên nû ji bo cudakirinê hene.",
       "basket": {
         "one": "Selika {basket}, {count} wêne tê de ye",
         "other": "Selika {basket}, {count} wêne tê de ne"
@@ -78,7 +730,7 @@
     },
     "picturePuzzle": {
       "guidance": "Li ser parçeyekê bixin, paşê li ser parçeyekî din bixin. Ew ê cihên xwe biguherin.",
-      "restart": "Dîsa tevlihev bike",
+      "restart": "Mix up again",
       "pictureLegend": "Wêne",
       "pictures": {
         "sailboat": "Keştiya bano",
@@ -90,8 +742,8 @@
       },
       "sizeLegend": "Parçe",
       "size": {
-        "one": "{n} parçe",
-        "other": "{n} parçe"
+        "one": "{n} piece",
+        "other": "{n} pieces"
       },
       "pickedUp": "Parçe hate hilgirtin. Niha li cihê ku divê biçe bixin.",
       "whole": "{name|lower} dîsa bû yek parçe. Kengî bixwazin wêneyekî din hilbijêrin.",
@@ -101,6 +753,18 @@
       },
       "guideAlt": "Wêneyê temam: {name}",
       "guideText": "Dema wêne temam dibe, bi vî rengî xuya dike.",
+      "ownChoose": "Wêneya xwe bikar bînin",
+      "ownChange": "Wêneyek din hilbijêrin",
+      "ownBack": "Vegerin ser wêneyên me",
+      "ownPrivacy": "Wêneya we li ser vê amûrê dimîne. Ew nayê barkirin an tomarkirin.",
+      "ownConsent": "Wêneyên xwe bikar bînin. Berî wêneya kesekî ku nikare erê bibêje bikar bînin, bipirsin.",
+      "ownWorking": "Wêneya we tê amadekirin.",
+      "ownNotUsable": "Ew pel nehat bikaranîn. Pelek wêneyê hilbijêrin, wek JPEG an PNG.",
+      "ownAlt": "Wêneya we",
+      "ownPiece": "Perçe {n}, {place}",
+      "ownWhole": "Wêneya we dîsa temam e. Her gava ku bixwazin, dîsa tevlihev bikin.",
+      "ownSheetTitle": "Wêneya we di perçeyan de",
+      "ownSheetHow": "Li ser xêzan bibirin. Perçeyan tevlihev bikin, paşê her carê du perçeyan biguherînin heta ku wêne temam bibe.",
       "piece": "Parçeyê li {place}",
       "pieceInPlace": ", di cihê rast de",
       "piecePickedUp": ", hatiye hilgirtin",
@@ -122,7 +786,7 @@
         "jêrê li rastê"
       ],
       "done": "Wêne dîsa temam bû. Dîsa bilîzin an jî bêhna xwe vedin.",
-      "playAgain": "Dîsa tevlihev bike"
+      "playAgain": "Mix it up again"
     },
     "finishTheSaying": {
       "guidance": "Gotinê bi hev re bixwînin, paşê li ser peyva ku wê temam dike bixin.",
@@ -190,6 +854,14 @@
       "guidance": "Qertê bi dengê bilind bixwînin. Bersiveke rast an şaş nîne.",
       "position": "Qerta {n} ji {total}",
       "themeLegend": "Mijar",
+      "showPrompt": "Pêşniyarek axaftinê nîşan bidin",
+      "bigPicture": "Wêneyek mezin, ji bo komekê",
+      "passNote": "Her kes dikare derbas bike.",
+      "groupTitle": "Kartekê li dora komê dan",
+      "groupSit": "Li dor çemberekê rûnin ku herkes wêneyê bibîne. Kesê ku kartê digire, an amûra bi wêneya mezin, pêşî pêşniyarê bi dengekî bilind dixwîne.",
+      "groupPass": "Paşê kartê bidin kesê din. Her kes li ser wêneyê peyvekê an hevokekê dibêje, paşê wê dide yê din.",
+      "groupNoSpeech": "Dayîna kartê her dem destûr e. Kes dikare bêyî ku tiştekî bibêje derbas bike, û kes neçar nine ku sedemê bibêjin.",
+      "groupEnd": "Gera dawî dibe dema ku kart li dora çemberê gerand, an jî kom têr bû. Kes qezenc nake. Her dema ku kom bixwaze, hûn dikarin bisekinin.",
       "next": "Qerta din",
       "previous": "Qerta berê",
       "print": "Hemû qertan çap bike",
@@ -252,6 +924,20 @@
       "started": "Dest pê kir. Gava xelek mezin dibe bêhna xwe bikişînin.",
       "stopped": "Sekinî.",
       "finished": "Ev şeş bêhnhildanên hêdî bûn. Kengî bixwazin dîsa dest pê bikin."
+    },
+    "storyChain": {
+      "guidance": "Dor bigirin: her kes bi yek hevokê, wêneya din zêde bike.",
+      "passNote": "Hevoka xwe bi deng bibêjin. Tişt nayê nivîsandin an tomarkirin. Her kes dikare derbas bike.",
+      "chainLabel": "Zincîra heta niha",
+      "item": "Wêne {n}: {name}",
+      "add": "Wêneyekî zêde bike",
+      "fullAdd": "Zincîr tije ye. Zincîreke nû dest pê bikin",
+      "newChain": "Zincîreke nû dest pê bikin",
+      "takeOff": "Ya dawîn rake",
+      "added": "{name|lower} niha li dawiya zincîrê ye.",
+      "removed": "{name|lower} ji zincîrê hate derxistin.",
+      "fresh": "Zincîreke nû, bi {name|lower} dest pê dike.",
+      "full": "Zincîr hemû 8 wêneyan dihewîne. Hemû çîrokê bibêjin, an jî zincîreke nû dest pê bikin."
     }
   },
   "pictures": {
@@ -337,7 +1023,44 @@
     "rain-cloud": "Ewrê baranê",
     "snowflake": "Kuliya berfê",
     "kite": "Bafirok",
-    "sunrise": "Hilatina rojê li ser çiyayan"
+    "sunrise": "Hilatina rojê li ser çiyayan",
+    "decorated-keepsake-box": "Qutiya xemilandî ya bîranînê",
+    "painted-plant-pot": "Guldanek boyaxkirî bi giyayan",
+    "repeating-pattern-sheet": "Pelê şêwazên dubarebûyî",
+    "music-drawn-lines": "Xêzên li gorî muzîkê",
+    "paper-boat-afloat": "Keştiyeke kaxezî li ser avê",
+    "folded-towel-stack": "Stûna tewalên tekkirî",
+    "hand-massage-with-lotion": "Destek li ser tewalekê, bi kremekê",
+    "open-photo-album": "Albûma wêneyan a vekirî",
+    "button-flower-card": "Kartek bi guleke ji bişkojan",
+    "blue-torn-paper-collage": "Kolaja kaxezên şîn ên qetandî",
+    "family-tree-of-hands": "Dara malbatê ya bi destan xêzkirî",
+    "open-greeting-card": "Kartek silavê ya vekirî bi dilekî",
+    "lavender-sachet": "Kîsikek lavandê bi rîbonekê girêdayî",
+    "memory-collage-of-photos": "Kolaja wêneyên malbatê",
+    "paper-chain-garland": "Girlanda zincîra kaxezî",
+    "open-songbook-with-notes": "Pirtûka stranan a vekirî, bi notan",
+    "photo-postcard-with-stamp": "Postkarta wêneyî bi pûlekê",
+    "pine-cone-bird-feeder": "Cihê xwarina çûkan ji konê çamê, ji daran daliqandî",
+    "playlist-phone-and-card": "Lîsteya stranan a telefonê û kartek",
+    "sealed-rice-shaker": "Şeqoyekî birincê ya girtî",
+    "texture-board-with-scraps": "Tabloya teksturan bi perçeyên tevlihev",
+    "painted-garden-stone": "Kevirek boyaxkirî ji baxçeyê",
+    "shared-painted-canvas": "Kanavaseke boyaxkirî ya hevbeş",
+    "watercolor-washes-sheet": "Pelê boyaxên avê li ser kaxezê",
+    "seedling-in-pot": "Nihalan di guldanê de",
+    "pressed-leaves-in-book": "Pelên pêçayî di pirtûkekê de",
+    "printed-leaves-sheet": "Pelê çapên pelan",
+    "pinch-pot-clay-bowl": "Kasa gilî ya bi tiliyan çêkirî",
+    "table-sketch-pencil": "Xêza fincanekê bi pênûsê",
+    "buttons-in-muffin-tin": "Bişkojên rêzkirî di qalibê kekê de",
+    "family-recipe-book": "Pirtûka reçeteyên malbatê",
+    "drum-with-beat-marks": "Defa masê bi çubikan",
+    "torn-paper-flower": "Mozaîka kulîlka kaxezê ya qetandî",
+    "window-with-birds": "Pencereyek bi çûkan",
+    "woven-paper-mat": "Xalîçeya kaxezî ya hûnandî",
+    "yarn-ball-with-thread": "Gûleke tiyar",
+    "letter-and-envelope": "Name di zerfekê de"
   },
   "content": {
     "wordSearch": {
@@ -765,6 +1488,17 @@
             "Li derve"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fêkî",
+        "animals": "Heywan",
+        "travel": "Awayên rêwîtiyê",
+        "flowers": "Gul",
+        "hot-drinks": "Tiştên vexwarina germ",
+        "weather": "Celebên hewayê",
+        "baked": "Tiştên di firinê de pijandî"
       }
     }
   }

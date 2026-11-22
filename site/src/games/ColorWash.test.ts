@@ -108,7 +108,7 @@ describe('ColorWash', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'color-wash').ui.colorWash.guidance).toBe(t.guidance);
+    expect(playProps('xx', 'color-wash').ui.colorWash.guidance).toBe(t.guidance);
   });
 });
 
