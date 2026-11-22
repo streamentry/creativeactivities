@@ -8,9 +8,12 @@ import 'package:flutter/material.dart';
 /// website's rules and explains why each activity fits. It makes no network
 /// call and keeps the choices in memory only.
 class FinderPage extends StatefulWidget {
-  const new({required this.cards, super.key});
+  const new({required this.cards, this.onOpen, super.key});
 
   final List<FinderCard> cards;
+
+  /// Opens one result by its card id. When null, results are not tappable.
+  final void Function(String id)? onOpen;
 
   @override
   State<FinderPage> createState() => _FinderPageState();
@@ -126,6 +129,9 @@ class _FinderPageState extends State<FinderPage> {
                       _reasonText(l10n, reason),
                   ],
                   whyLabel: l10n.finderWhyFits,
+                  onOpen: widget.onOpen == null
+                      ? null
+                      : () => widget.onOpen?.call(card.id),
                 ),
             const SizedBox(height: gmSpaceLg),
             GmOutlineButton(
@@ -163,16 +169,18 @@ class _ResultTile extends StatelessWidget {
     required this.name,
     required this.reasons,
     required this.whyLabel,
+    this.onOpen,
   });
 
   final String name;
   final List<String> reasons;
   final String whyLabel;
+  final VoidCallback? onOpen;
 
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
-    return Container(
+    final tile = Container(
       margin: const EdgeInsets.only(bottom: gmSpaceSm),
       padding: const EdgeInsets.all(gmSpaceMd),
       decoration: BoxDecoration(
@@ -199,6 +207,16 @@ class _ResultTile extends StatelessWidget {
             ),
           ],
         ],
+      ),
+    );
+    final open = onOpen;
+    if (open == null) return tile;
+    return Semantics(
+      button: true,
+      child: InkWell(
+        onTap: open,
+        borderRadius: BorderRadius.circular(gmRadiusMd),
+        child: tile,
       ),
     );
   }
