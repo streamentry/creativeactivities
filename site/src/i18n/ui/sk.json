@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "Prejsť na hlavný obsah",
     "brandName": "Creative Activities",
@@ -6,16 +7,22 @@
     "homeLabel": "Creative Activities, domovská stránka",
     "mainNav": "Hlavná navigácia",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: veľké, priateľské obrázky šálky čaju, slnečnice a psa",
+    "defaultImageAlt": "Creative Activities: veľké, priateľské kresby každodenných vecí na vytváranie a aktivity",
     "languages": "Jazyk",
     "englishOnly": "(po anglicky)",
     "machineTranslated": "Táto stránka bola preložená automaticky a rodený hovoriaci ju zatiaľ nekontroloval.",
     "readOriginal": "Prečítať si originál po anglicky",
     "nav": {
+      "find": "Find an activity",
       "games": "Hry",
       "activities": "Aktivity",
       "caregiving": "Starostlivosť",
-      "brainHealth": "Zdravie mozgu"
+      "brainHealth": "Zdravie mozgu",
+      "crafts": "Tvorenie",
+      "kids": "Deti",
+      "together": "Spoločne",
+      "creativeCalm": "Tvorivý pokoj",
+      "search": "Hľadať"
     },
     "faqTitle": "Otázky a odpovede",
     "breadcrumb": "Cesta na stránke",
@@ -26,7 +33,32 @@
       "label": "Veľkosť textu",
       "smaller": "Štandardný text",
       "larger": "Väčší text",
-      "contrast": "Vyšší kontrast"
+      "contrast": "Vyšší kontrast",
+      "colors": "Farby",
+      "light": "Svetlý",
+      "dark": "Tmavý",
+      "device": "Rovnako ako toto zariadenie",
+      "lineLength": "Dĺžka riadkov",
+      "standardLines": "Štandardná",
+      "shorterLines": "Kratšie riadky",
+      "spacing": "Medzery",
+      "standardSpacing": "Štandardné",
+      "moreSpace": "Viac priestoru"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -35,11 +67,12 @@
     "conversationCards": "Kartičky na rozhovor",
     "pictureBingo": "Obrázkové bingo",
     "allGames": "Všetky hry",
+    "pictures": "Obrázky na tlač",
     "activityIdeas": "Nápady na aktivity",
     "ideas101": "101 nápadov na aktivity",
     "lateStage": "Aktivity pre neskoršie štádium",
     "printable": "Aktivity na vytlačenie",
-    "allActivities": "Všetky aktivity",
+    "allActivities": "Všetci sprievodcovia aktivitami",
     "forCaregivers": "Pre opatrovateľov",
     "playTogether": "Ako hrať spolu",
     "selfCare": "Starostlivosť o seba",
@@ -52,10 +85,15 @@
     "app": "Aplikácia Creative Activities",
     "appHelp": "Pomoc k aplikácii",
     "support": "Podpora",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Právne informácie",
     "sitePrivacy": "Súkromie na webe",
     "appPrivacy": "Zásady ochrany súkromia aplikácie",
     "privacyChoices": "Voľby súkromia",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Podmienky a licencia aplikácie",
     "safety": "Bezpečnosť a určené použitie",
     "accessibility": "Prístupnosť",
@@ -63,14 +101,18 @@
     "allLegal": "Všetky právne informácie",
     "note": "Creative Activities ponúka jednoduché spoločné aktivity na potešenie. Nie je to lekárska rada, test ani liečba a nikoho nediagnostikuje, nemeria ani nehodnotí. S otázkami o zdraví sa obráťte na lekára. V núdzovej situácii volajte 112.",
     "publisher": "Vydavateľ: Cloudjet Solutions Pte. Ltd.",
-    "pictures": "Obrázky na tlač"
+    "crafts": "Tvorenie pre všetky vekové skupiny",
+    "kids": "Aktivity pre deti",
+    "together": "Aktivity na spoločné robenie",
+    "creativeCalm": "Tvorivý pokoj",
+    "dementiaActivities": "Aktivity pre ľudí s demenciou"
   },
   "home": {
-    "title": "Hry a aktivity pri demencii a Alzheimerovej chorobe | Creative Activities",
-    "description": "Bezplatné pokojné obrázkové hry online a nápady na aktivity pre ľudí s demenciou či Alzheimerovou chorobou a opatrovateľov. Bez registrácie, časovačov a bodov.",
+    "title": "Creative Activities pre každého, kto sa o niekoho stará",
+    "description": "Bezplatné tvorivé aktivity pre každého, kto sa o niekoho stará: tvorenie, veci pre deti, aktivity na spoločné robenie a pokojné tvorivé nápady.",
     "eyebrow": "Zadarmo · Bez reklám · Bez registrácie · Bez časovačov a bodov",
-    "h1": "Pokojné hry a aktivity pre ľudí s demenciou",
-    "lede": "Jednoduché obrázkové hry, známe fotografie a aktivity na spoločné chvíle, vlastným tempom.",
+    "h1": "Spoločne niečo vytvorte",
+    "lede": "Nájdite aktivitu, ktorá sa hodí k človeku, k chvíli aj k tomu, čo máte po ruke. Jednoduché tvorenie, detské výtvarné činnosti, veci na spoločné robenie a pokojné tvorivé nápady, s jednoduchšími verziami a kartou na tlač. Kedykoľvek môžete prestať.",
     "playGame": "Zahrať si hru",
     "findIdeas": "Nájsť nápady na aktivity",
     "facts": [
@@ -105,13 +147,13 @@
     "ideas101": "101 nápadov na aktivity",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Skoré štádium",
         "text": "Pokračujte v tom, čo má človek rád, s malými úpravami: záľuby, výlety, slovné hry a spoločné plánovanie.",
         "label": "Nápady pre skoré štádium"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Stredné štádium",
         "text": "Jednoduché, známe činnosti rozdelené na kroky: skladanie, triedenie, hudba, obrázkové hry a krátke prechádzky.",
         "label": "Nápady pre stredné štádium"
@@ -123,10 +165,10 @@
         "label": "Nápady pre neskoršie štádium"
       }
     ],
-    "specificHtml": "Hľadáte niečo konkrétne? Skúste <a href=\"/activities/alzheimers/\">aktivity a hry pri Alzheimerovej chorobe</a>, <a href=\"/activities/memory-games/\">pokojné hry na pamäť</a>, <a href=\"/activities/trivia/\">jednoduché otázky na rozhovor</a> alebo <a href=\"/activities/puzzles/\">puzzle</a>.",
+    "specificHtml": "Hľadáte niečo konkrétne? Skúste <a href=\"/dementia-activities/\">aktivity a hry pri Alzheimerovej chorobe</a>, <a href=\"/together/puzzles-and-table-games/\">skladačky a stolové hry</a>, <a href=\"/together/conversation-games-for-all-ages/\">konverzačné hry</a> alebo <a href=\"/together/puzzles-and-table-games/\">skladačky</a>.",
     "approachEyebrow": "Náš prístup",
-    "approachTitle": "Spoločná aktivita, nie skúška pamäte",
-    "approachLede": "Mnohé „hry na tréning mozgu“ stoja na rýchlosti, bodoch a sériách. Pre človeka žijúceho s demenciou to môže pôsobiť ako skúška. My sme urobili pravý opak.",
+    "approachTitle": "Spoločná aktivita, nie test",
+    "approachLede": "Mnohé „mozgové hry“ stoja na rýchlosti, bodoch a sériách úspechov. Pre človeka, ktorý je unavený, necíti sa dobre alebo žije s demenciou, to môže pôsobiť ako skúška. My sme postupovali opačne.",
     "approachLink": "Prečo to robíme takto",
     "principles": [
       {
@@ -165,14 +207,14 @@
         "text": "Časté dôvody odmietnutia a pokojné spôsoby, ako to skúsiť neskôr."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Nastavenie tabletu",
-        "text": "Väčší text, menej vyrušení a jedna jednoduchá domovská obrazovka."
+        "href": "/activities/group-art-activities/",
+        "title": "Skupinové výtvarné aktivity",
+        "text": "Spoločné projekty pre stôl s niekoľkými ľuďmi, pričom každý má svoju úlohu."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Bezplatné aktivity na vytlačenie",
-        "text": "Osemsmerovky, omaľovánky, bingo a kartičky na rozhovor vo veľkej tlači."
+        "href": "/activities/ideas/",
+        "title": "101 nápadov na aktivity",
+        "text": "Jednoduché nápady, roztriedené podľa toho, čo máte k dispozícii a koľko máte energie."
       }
     ],
     "researchTitle": "Zdravie mozgu: čo hovorí výskum naozaj",
@@ -184,16 +226,16 @@
     "aboutApp": "O aplikácii",
     "faq": [
       {
-        "q": "Aké hry sú vhodné pre ľudí s demenciou?",
-        "a": "Dobré hry sú jednoduché, známe a bez tlaku: veľké obrázky na hľadanie dvojíc, triedenie, ľahké puzzle, dopĺňanie známych porekadiel, omaľovánky, obrázkové bingo a kartičky na rozhovor. Najlepšia je tá, ktorú má človek rád práve dnes. Vyhnite sa časovačom, bodom a všetkému, čo pripomína test."
+        "q": "Aké sú dobré hry pre staršich ľudí?",
+        "a": "Dobré hry sú jednoduché, známe a bez tlaku: veľké obrázky na párovanie, triedenie, ľahké skladačky, dokončovanie známych príslovií, maľovanie, obrázkové bingo a konverzačné karty. Hodia sa pre mnohých starších ľudí, aj pre ľudí s demenciou. Najlepšia voľba je tá, ktorú človek dnes rád robí. Vyhnite sa časovačom, bodom a všetkému, čo pôsobí ako skúška."
       },
       {
-        "q": "Sú tieto hry pri demencii zadarmo?",
+        "q": "Sú tieto hry zadarmo?",
         "a": "Áno. Každá hra a každá tlačivá aktivita na Creative Activities je zadarmo, bez účtu, registrácie či sťahovania. Hry bežia vo webovom prehliadači na telefóne, tablete alebo počítači."
       },
       {
         "q": "Predchádzajú hry demencii?",
-        "a": "Nepreukázalo sa, že by nejaká hra demencii predchádzala, a Creative Activities netvrdí, že niečo lieči alebo že niečomu predchádza. Naše hry sú na potešenie a spoločný čas. Časť o zdraví mozgu vysvetľuje, čo výskum ukazuje a čo nie."
+        "a": "Žiadna hra sa nepreukázala tak, že by predchádzala demencii, a Creative Activities netvrdí, že niečo lieči alebo predchádza. Naše hry slúžia na radosť a na spoločne strávený čas a žiadna stránka s aktivitami neuvádza zdravotné tvrdenie."
       },
       {
         "q": "Sú tieto hry vhodné pre človeka s Alzheimerovou chorobou?",
@@ -209,7 +251,36 @@
       },
       {
         "q": "Kto vytvára Creative Activities?",
-        "a": "Creative Activities je malý tím, ktorý vytvára pokojné, dôstojné obrázkové aktivity pre rodiny a opatrovateľov, na webe aj ako bezplatnú aplikáciu. Nie sme klinickí odborníci a nič tu nie je lekárskou radou."
+        "a": "Creative Activities je malý tím, ktorý pripravuje pokojné tvorivé aktivity pre dospelých, pre každého, kto sa o niekoho stará, na webe aj ako bezplatnú aplikáciu. Nie sme lekári a nič tu nie je lekárska rada."
+      }
+    ],
+    "groupsEyebrow": "Nájdite si cestu",
+    "groupsTitle": "Štyri druhy tvorivých aktivít",
+    "groupsLede": "Začnite skupinou, ktorá sa hodí k tomu, s kým ste a čo máte k dispozícii. Každá stránka obsahuje jednoduchšie verzie a bezpečnostné poznámky.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Tvorenie",
+        "text": "Projekty z papiera, farby, recyklovaných materiálov a sezónne projekty, ku každému s jednoduchšou verziou.",
+        "label": "Prezrieť tvorenie"
+      },
+      {
+        "href": "/kids/",
+        "title": "Deti",
+        "text": "Výtvarné činnosti a hry pre deti s dospelým nablízku a jasnými bezpečnostnými poznámkami.",
+        "label": "Prezrieť aktivity pre deti"
+      },
+      {
+        "href": "/together/",
+        "title": "Spoločne",
+        "text": "Konverzácia, skladačky, čas vonku a spôsoby, ako zostať blízko naprieč generáciami.",
+        "label": "Prezrieť veci na spoločné robenie"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Tvorivý pokoj",
+        "text": "Pomalé, tiché tvorivé chvíle s ceruzkou, papierom alebo piesňou. Nie terapia.",
+        "label": "Prezrieť tvorivý pokoj"
       }
     ]
   },
@@ -228,6 +299,21 @@
     "printable": "Na vytlačenie",
     "play": "Hrať: {name} →",
     "readGuide": "Prečítať si príručku"
+  },
+  "listen": {
+    "listenSteps": "Vypočuť si kroky",
+    "pause": "Pozastaviť",
+    "resume": "Pokračovať",
+    "stop": "Zastaviť",
+    "speed": "Rýchlosť",
+    "normal": "Normálna",
+    "slower": "Pomalšie",
+    "reading": "Nahlas čítam kroky.",
+    "paused": "Pozastavené. Stlačte Pokračovať.",
+    "note": "Používa hlas vášho zariadenia. Niektoré zariadenia posielajú text výrobcovi, aby ho prečítal.",
+    "listen": "Vypočuť",
+    "stepLabel": "Vypočuť krok {n}",
+    "stopStep": "Zastaviť krok {n}"
   },
   "playCta": {
     "title": "Máte chuť na pokojnú hru?",
@@ -248,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Aktivity",
-      "title": "Aktivity pre ľudí s demenciou",
-      "seo": "Aktivity pre ľudí s demenciou: nápady podľa štádia",
-      "description": "Nápady na aktivity pre ľudí s demenciou v každom štádiu: hudba, spomínanie, bežné činnosti, zmyslové chvíle, tvorenie, pobyt vonku a materiály na vytlačenie.",
-      "lede": "Zmysluplná aktivita je všetko, čo prináša pohodu, zmysel alebo chvíľu blízkosti. Začnite tým, čo človek mal vždy rád, a prispôsobte to dnešku."
+      "label": "Sprievodcovia aktivitami",
+      "title": "Sprievodcovia aktivitami",
+      "seo": "Sprievodcovia aktivitami: nápady, výtvarné potreby a ako začať",
+      "description": "Jednoduchí sprievodcovia tvorivými aktivitami, ktoré môžete robiť s niekým: jednoduché nápady, lacné výtvarné potreby, skupinové výtvarné práce, písanie listov, spomienky a vysvetlená arteterapia.",
+      "lede": "Krátki, praktickí sprievodcovia, ako si vybrať aktivitu a začať ju s niekým, bez ohľadu na jeho vek alebo schopnosti."
+    },
+    "crafts": {
+      "label": "Tvorenie",
+      "title": "Tvorenie pre všetky vekové skupiny",
+      "seo": "Jednoduché tvorenie pre všetky vekové skupiny, s jednoduchšími verziami",
+      "description": "Jednoduché tvorenie pre dospelých, deti a rodiny: práce z papiera, maľovanie, recyklované a sezónne projekty, s verziami, ktoré sa ľahšie držia, a verziami na sedenie, bez špeciálnych zručností.",
+      "lede": "Tvorenie, ktoré vychádza z vecí, ktoré má väčšina domácností, každé s jednoduchšou verziou, aby mohol niečo vytvoriť ktokoľvek."
+    },
+    "kids": {
+      "label": "Deti",
+      "title": "Tvorivé aktivity pre deti",
+      "seo": "Tvorivé aktivity pre deti: výtvarné, zmyslové a pokojné",
+      "description": "Tvorivé aktivity pre deti: výtvarné činnosti pre malé deti, procesné výtvarníctvo, zmyslové hry, tvorenie na dažďové dni a nápady na upokojenie, s bezpečnostnými poznámkami a verziami pre zmyslové potreby.",
+      "lede": "Nápady na výtvarné činnosti a hry pre deti rôzneho veku a potrieb, s jasnými bezpečnostnými poznámkami a dospelým nablízku."
+    },
+    "together": {
+      "label": "Spoločne",
+      "title": "Aktivity na spoločné robenie",
+      "seo": "Aktivity na spoločné robenie naprieč generáciami",
+      "description": "Aktivity pre dve alebo viac generácií: konverzačné hry, skladačky, čas vonku, tvorenie pre starých rodičov a vnúčatá a spôsoby, ako zostať blízko aj na diaľku.",
+      "lede": "Nápady, ako zdieľať čas s rodičom, starým rodičom, dieťaťom alebo priateľom, doma, vonku, na návšteve alebo na diaľku."
+    },
+    "creative-calm": {
+      "label": "Tvorivý pokoj",
+      "title": "Tvorivý pokoj",
+      "seo": "Tvorivý pokoj: uvoľňujúce výtvarné aktivity a činnosti na oddych",
+      "description": "Uvoľňujúce tvorivé aktivity pre dospelých a opatrovateľov: všímavé výtvarníctvo, písanie denníka, hudba, zmyslové chvíle a pokojné popoludnia. Tvorivá aktivita, nie terapia.",
+      "lede": "Jemné spôsoby, ako spomaliť s ceruzkou, papierom alebo piesňou. Ide o tvorivé aktivity, nie o terapiu, a nevyžadujú žiadne zručnosti."
     },
     "caregiving": {
-      "label": "Starostlivosť",
-      "title": "Príručky pre opatrovateľov",
-      "seo": "Príručky pre opatrovateľov pri demencii: praktická pomoc na každý deň",
-      "description": "Praktické, láskavé príručky pre opatrovateľov pri demencii: spoločné hranie, dorozumievanie, odmietanie, nepokoj k večeru, tablety a starostlivosť o seba.",
-      "lede": "Jasná, praktická pomoc pre bežné chvíle starostlivosti o človeka žijúceho s demenciou, vrátane starostlivosti o seba."
+      "label": "Starostlivosť o demenciu",
+      "title": "Starostlivosť o človeka s demenciou",
+      "seo": "Starostlivosť o človeka s demenciou: aktivity a pomoc",
+      "description": "Sprievodcovia pre rodiny, ktoré sa starajú o človeka s demenciou: ako spolu hrať, čo robiť, keď povie nie, a kde nájsť dôveryhodnú pomoc po diagnóze.",
+      "lede": "Pomoc zameraná na spoločné aktivity pre rodiny, ktoré sa starajú o človeka s demenciou, a informácie o tom, kam sa obrátiť so zdravotnými a opatrovateľskými otázkami."
     },
     "brain-health": {
       "label": "Zdravie mozgu",
@@ -282,7 +396,16 @@
     "tryTogether": "Vyskúšajte spolu",
     "relatedGuides": "Súvisiace príručky",
     "related": "Súvisiace",
-    "startHere": "Začnite tu"
+    "startHere": "Začnite tu",
+    "staleAria": "Preklad je zastaraný",
+    "staleTitle": "Tento preklad je zastaraný",
+    "staleText": "Vznikol z predchádzajúcej verzie anglickej stránky, ktorá sa od tej doby zmenila. Aktuálna je anglická stránka.",
+    "staleHealth": "Obsahuje informácie o zdraví, preto si pozrite anglickú stránku a pred konaním sa poraďte s lekárom alebo sestrou.",
+    "staleLink": "Prečítajte si aktuálnu anglickú stránku"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Upozornenie k zdravotným informáciám",
@@ -291,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Spoločná aktivita, nie skúška pamäte",
+      "title": "Spoločná aktivita, nie test",
       "seoTitle": "O Creative Activities: náš prístup",
-      "description": "Prečo hry Creative Activities nemajú časovače, body ani série, prečo obrázky zostávajú viditeľné a čo o demencii tvrdiť budeme a čo nie.",
+      "description": "Prečo Creative Activities nemá časomiery, bodovanie ani sériu dní, prečo obrázky zostávajú zobrazené a čo o zdraví tvrdiť budeme a nebudeme.",
       "crumb": "Náš prístup",
-      "lede": "Creative Activities vytvára pokojné, dôstojné obrázkové aktivity, ktoré si môžu vedľa seba užiť opatrovateľ a človek žijúci s demenciou.",
-      "bodyHtml": "<h2>V čo veríme</h2><p>Zmyslom aktivity je samotná chvíľa: rozhovor, úsmev, radosť z toho, že dva obrázky k sebe pasujú, alebo jednoducho sedieť blízko seba. Nie je to na to, aby sme niekoho merali, tlačili ďalej alebo niečo dokazovali.</p><p>Mnohé aplikácie na tréning mozgu stoja na rýchlosti, bodoch, sériách a úrovniach. Pre človeka žijúceho s demenciou to môže pôsobiť ako skúška, ktorú nemôže zvládnuť. Navrhli sme pravý opak a držíme sa týchto pravidiel:</p><ul><li><strong>V ničom nemožno zlyhať.</strong> Žiadne hodiny, body, počítadlo ťahov, životy, série, konfety ani odpočítavanie, na žiadnej obrazovke.</li><li><strong>Spoznávanie namiesto vybavovania.</strong> Obrázky zostávajú predvolene viditeľné. Námety pozývajú k rozhovoru a nikdy sa nepýtajú na mená ani spomienky.</li><li><strong>Veľké, jasné a stále.</strong> Veľký text a obrázky, vysoký kontrast a ovládacie prvky, ktoré zostávajú na rovnakom mieste.</li><li><strong>Dôstojnosť dospelého.</strong> Obrázky zo skutočného sveta a jasné, vrelé slová. Žiadne kreslené postavičky, spevavá pochvala ani odmeny v podobe emotikonov.</li><li><strong>Ľahký odchod.</strong> „Zatiaľ dosť“ je vždy viditeľné. Skončiť v polovici je dobrý výsledok.</li><li><strong>Súkromie predvolene.</strong> Bez účtov a reklám. Fotografie, ktoré vyberiete, zostávajú vo vašom zariadení.</li></ul><h2>Čo netvrdíme</h2><p>Naše hry sú na potešenie a blízkosť. Nestanovujú diagnózu, netestujú, nemerajú, neliečia, nespomaľujú ani nezabraňujú demencii či Alzheimerovej chorobe a nikto by si ich nemal vyberať z tohto dôvodu. Keď na našich <a href=\"/brain-health/\">stránkach o zdraví mozgu</a> píšeme o výskume, jasne uvádzame, kde sú dôkazy slabé, a nikdy ho nespájame s našimi hrami.</p><h2>Kto sme</h2><p>Creative Activities je malý nezávislý tím. Nie sme klinickí odborníci. Naše príručky vychádzajú zo zverejnených odporúčaní organizácií, ako sú National Institute on Aging a Alzheimer’s Association, a každá príručka uvádza svoje zdroje. Prečítajte si, <a href=\"/editorial-policy/\">ako píšeme a kontrolujeme naše stránky</a>.</p><h2>Povedzte nám, čo by pomohlo</h2><p>Radi si vypočujeme, čo vám funguje a čo nie, najmä od ľudí žijúcich s demenciou, rodinných opatrovateľov a pracovníkov aktivít. Napíšte na <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Sponzori a partneri",
+        "none": "Creative Activities nemá sponzorov, platené umiestnenia ani partnerov, ktorých logá sa na stránke objavujú.",
+        "listed": "Toto sú sponzori a partneri Creative Activities. Každý vzťah je zverejnený aj na stránke, kde sa objavuje.",
+        "policy": "Ak sa to zmení, každá takáto stránka to uvedie na mieste, kde sa objavuje, žiadna aktivita nikdy nebude niesť meno sponzora a zoznam partnerov bude na tejto stránke.",
+        "listHeading": "Zoznam partnerov",
+        "noPartners": "Momentálne nemáme žiadnych partnerov."
+      },
+      "lede": "Creative Activities ponúka pokojné aktivity pre dospelých, ktoré si dvaja ľudia môžu užiť vedľa seba, či sa jeden z nich stará o druhého, alebo chcú jednoducho stráviť spolu čas.",
+      "bodyHtml": "<h2>Pre koho je to určené</h2><p>Pre každého, kto sa o niekoho stará: rodiča, starého rodiča, dieťa, partnera, priateľa alebo človeka žijúceho s demenciou. Rodiny, staršie osoby aj zamestnanci aktivít môžu používať tie isté stránky.</p><h2>V čo veríme</h2><p>Zmysel aktivity je v samotnom okamihu: v rozhovore, úsmeve, pocite uspokojenia z toho, keď spojíte dva obrázky, alebo jednoducho v tom, že sedíte blízko seba. Nejde o to niekoho merať, tlačiť ďalej ani niečo dokazovať.</p><p>Mnohé aplikácie na tréning mozgu sú postavené na rýchlosti, bodoch, sériách a úrovniach. Pre človeka, ktorý je unavený, necíti sa dobre alebo žije s demenciou, to môže pôsobiť ako skúška, ktorú nemôže zložiť. My sme navrhli opak a dodržiavame tieto pravidlá:</p><ul><li><strong>Nič, čo by sa dalo nezvládnuť.</strong> Žiadne hodiny, body, počítadlá ťahov, životy, série, konfety ani odpočítavanie, na žiadnej obrazovke.</li><li><strong>Rozpoznávanie namiesto vybavovania.</strong> Obrázky predvolene zostávajú zobrazené. Podnety pozývajú k rozhovoru a nikdy nevyskúšajú mená ani spomienky.</li><li><strong>Veľké, jednoduché a stabilné.</strong> Veľký text a obrázky, vysoký kontrast a ovládacie prvky, ktoré zostávajú na svojom mieste.</li><li><strong>Dôstojnosť dospelého.</strong> Obrázky zo skutočného sveta a jednoduché, vľúdne slová. Žiadne karikatúry, detinská chvála ani odmeny emotikonmi.</li><li><strong>Jednoduchý spôsob, ako skončiť.</strong> Možnosť „Zatiaľ hotovo“ je vždy viditeľná. Zastaviť uprostred je dobrý výsledok.</li><li><strong>Predvolene súkromie.</strong> Žiadne účty ani reklamy. Fotografie, ktoré si vyberiete, zostávajú vo vašom zariadení.</li></ul><h2>Čo netvrdíme</h2><p>Naše hry a aktivity slúžia na zábavu a spojenie. Nediagnostikujú, netestujú, nemerajú, neliečia, nespomaľujú ani nepredchádzajú demencii či Alzheimerovej chorobe a nikto by si ich nemal vyberať z tohto dôvodu. Keď píšeme o zdravotníckom výskume, jasne uvádzame, kde sú dôkazy slabé, a nikdy ho nespájame s našimi vlastnými aktivitami.</p><h2>Kto sme</h2><p>Creative Activities je malý nezávislý tím. Nie sme klinickí odborníci. Naši sprievodcovia vychádzajú z publikovaných odporúčaní organizácií, ako sú National Institute on Aging a Alzheimer’s Association, a každý sprievodca uvádza svoje zdroje. Prečítajte si, <a href=\"/editorial-policy/\">ako píšeme a kontrolujeme naše stránky</a>.</p><h2>Napíšte nám, čo by pomohlo</h2><p>Radi počujeme, čo vám funguje a čo nie, najmä od ľudí žijúcich s demenciou, rodinných opatrovateľov a zamestnancov aktivít. Napíšte na <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Ako píšeme a kontrolujeme naše stránky",
       "seoTitle": "Redakčné zásady",
-      "description": "Ako Creative Activities skúma, píše, dokladá a aktualizuje svoje stránky o aktivitách pri demencii a zdraví mozgu a čo nikdy nezverejníme.",
+      "description": "Ako Creative Activities skúma, píše, získava zdroje a aktualizuje svoje stránky o aktivitách a zdraví, a čo nikdy nezverejníme.",
       "crumb": "Redakčné zásady",
       "bodyHtml": "<h2>Naše zdroje</h2><p>Naše príručky vychádzajú z verejných odporúčaní organizácií, ako sú National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance a NHS, a z recenzovaného výskumu, ako sú prehľady Cochrane a veľké klinické štúdie. Každá príručka uvádza zdroje, o ktoré sa opiera. Každý zdroj otvoríme, skôr než ho citujeme, a uvádzame iba to, čo naozaj hovorí.</p><h2>Ako píšeme</h2><ul><li>Najprv praktické: čo robiť dnes, jasným jazykom.</li><li>Úprimní k dôkazom: píšeme „súvisí s“, „môže“ a „dôkazy sú nejednotné“, keď je to pravda.</li><li>S rešpektom: o ľuďoch žijúcich s demenciou píšeme ako o dospelých a nikdy nepoužívame vypytovanie ani zahanbovanie.</li><li>Nič vymyslené: žiadne vymyslené štatistiky, citáty, odborníci, štúdie, recenzie ani svedectvá.</li></ul><h2>Kto naše stránky kontroluje</h2><p>Stránky píše a kontroluje tím Creative Activities, s pomocou nástrojov umelej inteligencie na výskum a prípravu textu. Každú stránku tím porovná s jej zdrojmi. Naše stránky <strong>neprešli</strong> kontrolou lekára ani iného klinického odborníka a nič také netvrdíme. Sú to všeobecné informácie, nie lekárska rada.</p><h2>Čo nikdy nezverejníme</h2><ul><li>Tvrdenia, že hra, jedlo, doplnok, pôst alebo rutina predchádza demencii, lieči ju, spomaľuje ju alebo ju vylieči.</li><li>Testy, kvízy alebo body, ktoré naznačujú, že niekto demenciu má alebo nemá.</li><li>Rady začať, prestať alebo zmeniť akýkoľvek liek.</li><li>Reklamu alebo sponzorovaný obsah vydávaný za radu.</li></ul><h2>Aktualizácie a opravy</h2><p>Každá stránka uvádza dátum poslednej aktualizácie. Ak nájdete chybu alebo zastaraný zdroj, napíšte na <a href=\"mailto:{email}\">{email}</a> a my to rýchlo skontrolujeme.</p>"
     },
     "faq": {
       "title": "Otázky a odpovede",
-      "seoTitle": "Hry a aktivity pri demencii: otázky a odpovede",
-      "description": "Odpovede na časté otázky o hrách a aktivitách pri demencii: ktoré hry vyskúšať, ako dlho hrať, nápady pre neskoršie štádium, zdravie mozgu a súkromie.",
+      "seoTitle": "Otázky a odpovede o Creative Activities",
+      "description": "Odpovede na časté otázky o hrách a aktivitách: ktoré vyskúšať, ako dlho hrať, skupiny a nápady pre neskoršie štádiá, zdravie a súkromie.",
       "crumb": "Otázky a odpovede",
       "lede": "Krátke, jasné odpovede na otázky, ktoré opatrovatelia kladú najčastejšie.",
       "groups": [
@@ -317,7 +448,7 @@
           "title": "O hrách",
           "items": [
             {
-              "q": "Aké hry sú najlepšie pre človeka s demenciou?",
+              "q": "Aké sú najlepšie hry pre staršie osoby?",
               "a": "Najlepšie sú hry známe, jednoduché a bez tlaku a tá pravá je tá, ktorú má človek rád práve dnes. Hľadanie dvojíc s viditeľnými obrázkami, triedenie, ľahké puzzle, dopĺňanie známych porekadiel, omaľovánky a obrázkové bingo vyhovujú mnohým ľuďom. Vyhnite sa časovačom, bodom a všetkému, čo pripomína test."
             },
             {
@@ -362,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Zdravie mozgu",
+          "title": "Demencia a zdravie",
           "items": [
             {
               "q": "Môžu hry demencii predchádzať alebo ju spomaliť?",
@@ -393,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Viac podrobností: <a href=\"/caregiving/how-to-play-together/\">ako hrať spolu</a>, <a href=\"/caregiving/when-they-say-no/\">keď povedia nie</a>, <a href=\"/activities/late-stage/\">aktivity pre neskoršie štádium</a> a <a href=\"/brain-health/can-dementia-be-prevented/\">dá sa demencii predchádzať?</a>"
+      "moreHtml": "Viac podrobností: <a href=\"/caregiving/how-to-play-together/\">ako spolu hrať</a>, <a href=\"/caregiving/when-they-say-no/\">keď povie nie</a>, <a href=\"/activities/late-stage/\">aktivity pre neskoršie štádiá</a> a <a href=\"/dementia-activities/\">aktivity pre demenciu doma</a>."
     },
     "handout": {
       "title": "Bezplatné pokojné hry pre ľudí žijúcich s demenciou",
@@ -407,21 +538,21 @@
     },
     "organizations": {
       "title": "Pre domovy seniorov, knižnice a podporné skupiny",
-      "seoTitle": "Bezplatné aktivity pri demencii pre domovy a skupiny",
-      "description": "Ako domovy seniorov, denné centrá, knižnice a podporné skupiny využívajú naše bezplatné hry pri demencii, aj s textom na zaradenie do zoznamu zdrojov.",
+      "seoTitle": "Bezplatné aktivity pre domovy sociálnych služieb, knižnice a skupiny",
+      "description": "Ako domovy sociálnych služieb, denné programy pre dospelých, knižnice, agentúry pre seniorov a podporné skupiny používajú naše bezplatné hry a sprievodcov aktivitami, a text, ktorým nás môžete pridať do zoznamu zdrojov.",
       "crumb": "Pre organizácie",
       "lede": "Všetko na tomto webe môžete bezplatne používať s obyvateľmi, členmi a klientmi, bez účtu, licencie či poplatku. Táto stránka vysvetľuje, čo tu nájdete a ako to zdieľať.",
-      "shortText": "{name}: bezplatné pokojné obrázkové hry a príručky aktivít pre ľudí žijúcich s demenciou a ich opatrovateľov. Bez registrácie, časovačov a bodov.",
-      "longText": "{name} ({domain}) ponúka {count} bezplatných hier v prehliadači pre ľudí žijúcich s demenciou, vrátane hľadania dvojíc s ponechanými viditeľnými obrázkami, ľahkých puzzle, triedenia, známych porekadiel a obrázkového binga s kartičkami na vytlačenie. Nie je tu žiadny účet, reklama, časovač ani body. Web obsahuje aj jasné príručky aktivít pre každé štádium demencie, ktoré odkazujú na National Institute on Aging a Alzheimer’s Association.",
+      "shortText": "{name}: bezplatné, jemné obrázkové hry a sprievodcovia aktivitami pre staršie osoby, rodiny a ľudí žijúcich s demenciou. Bez registrácie, bez časomier a bez bodov.",
+      "longText": "{name} ({domain}) ponúka {count} bezplatných hier v prehliadači pre starších dospelých, rodiny a ľudí žijúcich s demenciou, vrátane hľadania dvojíc obrázkov so zobrazenými obrázkami, ľahkého puzzle, triedenia, známych príslovín a obrázkového bingo s tlačiteľnými kartami. Nie je potrebný účet, reklamy, časovač ani skóre. Stránka má tiež návody k aktivitám v jednoduchom jazyku pre rodiny, starších dospelých a personál, so zdrojmi ako National Institute on Aging a Alzheimer's Association.",
       "useTitle": "Čo môžu organizácie používať",
       "gamesItemHtml": "<strong>Hry v prehliadači ({count})</strong>, ktoré bežia na notebooku, tablete alebo na televízore pripojenom k počítaču. Bez inštalácie, účtu a sťahovania. Pozrite si <a href=\"/games/\">všetky hry</a>.",
       "printablesLabel": "Materiály na vytlačenie ({count}):",
       "printablesAfter": "Použite tlačidlo Tlačiť na každej stránke.",
-      "moreItemsHtml": "<li><strong>Skupinové formy:</strong> <a href=\"/games/picture-bingo/\">Obrázkové bingo</a> má kartičky na vytlačenie a obrazovkové vyťahovanie obrázkov a <a href=\"/activities/trivia/\">jednoduché otázky na rozhovor</a> obsahujú 50 otázok s možnosťami odpovedí a námetmi na rozhovor.</li><li><strong>Príručky aktivít</strong> pre personál a rodiny, podľa štádia a druhu, napísané jasným jazykom a so zdrojmi. Začnite so <a href=\"/activities/ideas/\">101 nápadmi na aktivity</a> alebo <a href=\"/activities/care-home-groups/\">skupinovými aktivitami pre domovy seniorov</a>.</li>",
+      "moreItemsHtml": "<li><strong>Formáty pre skupiny:</strong> <a href=\"/games/picture-bingo/\">Obrázkové bingo</a> obsahuje tlačiteľné karty a hlasateľa na obrazovke a <a href=\"/together/conversation-games-for-all-ages/\">konverzačné hry</a> obsahujú otázky s možnosťami odpovedí a body na rozhovor.</li><li><strong>Návody k aktivitám</strong> pre personál a rodiny, napísané jednoduchým jazykom so zdrojmi. Začnite s <a href=\"/activities/ideas/\">101 nápadmi na aktivity</a> alebo so <a href=\"/crafts/craft-group-sessions/\">skupinovými aktivitami pre domovy sociálnych služieb</a>.</li>",
       "restHtml": "<h2>Ako to skupiny využívajú</h2><ul><li><strong>Domovy seniorov a zariadenia s pamäťovou starostlivosťou:</strong> obrázkové bingo alebo dopĺňanie porekadiel na televízore v spoločenskej miestnosti, pričom za skupinu klepe jeden človek.</li><li><strong>Denné centrá pre dospelých:</strong> tabletová stanica s Obrázkovými dvojicami nastavenými na štyri dlaždice pre krátke stretnutia jeden na jedného.</li><li><strong>Verejné knižnice:</strong> vytlačené osemsmerovky a kartičky na rozhovor v pamäťových súpravách a web v záložkách na knižničných tabletoch.</li><li><strong>Podporné skupiny pre opatrovateľov a pamäťové kaviarne:</strong> <a href=\"/handout/\">jednostranový leták na vytlačenie</a>, ktorý si rodiny odnesú domov.</li><li><strong>Nemocnice a plánovači prepustenia:</strong> leták v balíčkoch pre opatrovateľov, ako námet na pokojnú činnosť doma alebo pri lôžku.</li></ul><h2>Čo nerobíme</h2><p>Hry sú na potešenie a spoločný čas. Nestanovujú diagnózu, netestujú, nehodnotia, neliečia ani nespomaľujú demenciu a žiadame organizácie, aby ich tak neopisovali. Nie sú tu reklamy a hry nežiadajú mená, zdravotné údaje ani nahrávanie fotografií. Web používa Google Analytics na počítanie návštev. Naše <a href=\"/privacy/\">oznámenie o súkromí</a> vysvetľuje, čo sa tým zbiera. Fotografie použité v hre <a href=\"/games/photo-pairs/\">Fotografické dvojice</a> zostávajú v prehliadači.</p><h2>Pridajte nás do zoznamu zdrojov</h2><p>Ak vediete zoznam zdrojov pre opatrovateľov, môžete odkazovať na <a href=\"/\">{domain}</a>. Môžete skopírovať ktorýkoľvek z opisov.</p>",
       "shortTitle": "Krátky opis",
       "longTitle": "Dlhší opis",
-      "linksHtml": "<p>Užitočné stránky, na ktoré môžete odkazovať priamo: <a href=\"/games/\">bezplatné hry</a>, <a href=\"/activities/printable/\">bezplatné materiály na vytlačenie</a>, <a href=\"/activities/alzheimers/\">aktivity pri Alzheimerovej chorobe</a> a <a href=\"/caregiving/how-to-play-together/\">ako hrať spolu</a>.</p><h2>Otázky alebo opravy</h2><p>Ak je niečo na webe nesprávne alebo nejasné, alebo ak potreby niektorého obyvateľa nepokrýva to, čo tu je, napíšte nám na <a href=\"mailto:{email}\">{email}</a>. Neposielajte prosím osobné ani zdravotné údaje o obyvateľoch či klientoch.</p>"
+      "linksHtml": "<p>Užitočné stránky, na ktoré môžete odkazovať priamo: <a href=\"/games/\">bezplatné hry</a>, <a href=\"/games/\">bezplatné tlačiteľné materiály</a>, <a href=\"/dementia-activities/\">aktivity pri demencii doma</a> a <a href=\"/caregiving/how-to-play-together/\">ako hrať spoločne</a>.</p><h2>Otázky alebo opravy</h2><p>Ak je niečo na stránke nesprávne alebo nejasné, alebo potreby obyvateľa nie sú zohľadnené tým, čo tu je, dajte nám prosím vedieť na <a href=\"mailto:{email}\">{email}</a>. Prosím, neposielajte osobné ani zdravotné údaje o obyvateľoch ani klientoch.</p>"
     },
     "app": {
       "title": "Aplikácia Creative Activities",
@@ -436,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Bezplatné hry pri demencii a Alzheimerovej chorobe online",
-    "description": "Bezplatné online hry pre seniorov s demenciou či Alzheimerovou chorobou: dvojice, ľahké puzzle, triedenie, porekadlá, bingo. Bez registrácie a časovačov.",
+    "title": "Bezplatné hry na spoločné hranie online",
+    "description": "Bezplatné online hry pre starších dospelých, rodiny a ľudí žijúcich s demenciou: párovanie obrázkov, ľahké puzzle, triedenie, príslovia, maľovanie a bingo. Bez registrácie, časovačov a skóre.",
     "crumb": "Hry",
-    "h1": "Pokojné hry pre ľudí s demenciou",
+    "h1": "Jemné hry na spoločné hranie",
     "lede": "{count} bezplatných hier na spoločné hranie vo vašom prehliadači. Veľké obrázky, jasné slová a nič, v čom by sa dalo zlyhať: žiadne časovače, body ani registrácia.",
-    "listName": "Pokojné hry pre ľudí s demenciou",
+    "listName": "Jemné hry na spoločné hranie",
     "byStageTitle": "Výber hry podľa štádia",
     "byStageLede": "Štádiá sú len hrubým vodidlom. Riaďte sa tým, čo človek rád robí a čo je príjemné práve dnes.",
     "stageCol": "Štádium",
     "gamesCol": "Hry, ktoré často vyhovujú",
-    "moreHtml": "Ďalšie nápady mimo obrazovky: <a href=\"/activities/ideas/\">101 aktivít pre ľudí s demenciou</a>, <a href=\"/activities/alzheimers/\">aktivity a hry pri Alzheimerovej chorobe</a>, <a href=\"/activities/memory-games/\">pokojné hry na pamäť</a> a <a href=\"/activities/puzzles/\">puzzle</a>.",
+    "moreHtml": "Ďalšie nápady mimo obrazovky: <a href=\"/activities/ideas/\">101 nápadov na aktivity</a>, <a href=\"/dementia-activities/\">aktivity pri demencii doma</a> a <a href=\"/crafts/\">remeslá</a>.",
     "faq": [
       {
         "q": "Ktorou hrou by sme mali začať?",
@@ -462,7 +593,7 @@
       },
       {
         "q": "Sú to hry na pamäť pre seniorov?",
-        "a": "Sú to hry na hľadanie dvojíc a s obrázkami, ktoré môže baviť každého staršieho dospelého, no sú urobené tak, aby pamäť neskúšali: v Obrázkových dvojiciach zostávajú obrázky odkryté, kým sa nerozhodnete inak. Naša príručka o hrách na pamäť pre seniorov s demenciou vysvetľuje, ako udržať akúkoľvek hru pokojnú."
+        "a": "Ide o hry na párovanie a obrázkové hry, ktoré si môže užiť ktorýkoľvek starší dospelý, no sú navrhnuté tak, aby nepreverovali pamäť: v hre Dvojice obrázkov zostávajú obrázky otočené lícom nahor, pokiaľ si nezvolíte inak. Akúkoľvek pamäťovú hru možno urobiť jemnejšou tak, že odstránite časovač a skóre."
       },
       {
         "q": "Sú tu hry aj pre skupiny v domove seniorov?",
@@ -483,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Existuje aplikácia s aktivitami pri demencii?",
+        "q": "Existuje aplikácia pre starších dospelých a rodiny?",
         "a": "Áno. Creative Activities (v obchodoch uvedený ako „{storeName}“) je zadarmo v App Store a Google Play. Ponúka pokojné hľadanie dvojíc s veľkými dlaždicami, hry s rodinnými fotografiami, ktoré si vyberiete, a obrázkové balíčky, ktoré fungujú offline."
       },
       {
@@ -525,7 +656,7 @@
     "printable": "Na vytlačenie",
     "howTo": "Ako hrať: {name}",
     "tips": "Tipy na spoločné hranie",
-    "newToPlayingHtml": "Hráte prvýkrát s človekom, ktorý má demenciu? Prečítajte si <a href=\"/caregiving/how-to-play-together/\">ako hrať hry spolu</a>, aj o tom, čo robiť, ak záujem opadne.",
+    "newToPlayingHtml": "Nehrali ste ešte so starším dospelým alebo s človekom žijúcim s demenciou? Prečítajte si <a href=\"/caregiving/how-to-play-together/\">ako hrať hry spoločne</a>, vrátane toho, čo robiť, ak stratia záujem.",
     "moreAria": "Ďalšie na preskúmanie",
     "helpfulGuides": "Užitočné príručky",
     "appTitle": "Hrajte v aplikácii",
@@ -535,6 +666,35 @@
     "goodToKnow": "Dobré vedieť",
     "goodToKnowText": "Táto hra je na potešenie a spoločný čas. Nič netestuje, nemeria ani nelieči.",
     "moreGames": "Ďalšie pokojné hry",
-    "crumb": "Hry"
+    "crumb": "Hry",
+    "print": {
+      "heading": "Hra na papieri",
+      "sameRules": "Papierová verzia má rovnaké pravidlá ako hra na obrazovke:",
+      "button": "Vytlačiť papierovú verziu",
+      "pageNote": "Jedna strana na formáte A4 alebo US Letter, vhodná aj čiernobiele. Verzia {date}.",
+      "islandNote": "Vytlačí sa to, čo je práve na obrazovke. Verzia {date}.",
+      "sheetTitle": "{name}: papierová verzia",
+      "point": "Na papieri ukazujte na obrázok namiesto klikania, alebo ho zakrúžkujte perom. Každý riadok je novou sadou.",
+      "pointTarget": "Na papieri je obrázok, na ktorý sa treba pozrieť, v políčku na začiatku každého riadku. Ukazujte na obrázok namiesto klikania, alebo ho zakrúžkujte perom.",
+      "halves": "Každý obrázok je rozrezaný na polovicu. Nakreslite čiaru od každej polovice vľavo k polovici vpravo, ktorá k nej patrí, alebo ukážte prstom. Nič sa nemusí strihať.",
+      "grid": "Každé políčko má číslo. Nájdite toto číslo v kľúči a vyfarbite políčko ceruzkou danej farby. Akákoľvek iná farba je tiež v poriadku. Nič sa nemusí strihať.",
+      "colors": "Každý riadok pomenúva farbu. Ukážte na každý obrázok, ktorý má túto farbu, alebo ho zakrúžkujte perom. Každý riadok je novou sadou.",
+      "dice": "Každý riadok je sada kociek. Vyberte riadok, alebo vystrihnite obrázky a vytiahnite niekoľko z hromádky, potom s nimi povedzte príbeh v ľubovoľnom poradí. Ktokoľvek môže pasovať.",
+      "words": "Vystrihnite slová, alebo nakreslite čiaru od každého slova k jeho obrázku. Pri postupe slová nahlas čítajte.",
+      "cards": "Vystrihnite karty pozdĺž prerušovaných čiar. Položte ich lícom nahor na stôl a potom hľadajte dvojice.",
+      "chain": "Na papieri čítajte obrázky zľava doprava, jeden za druhým. Každý človek povie jednu vetu o doterajších obrázkoch a potom ukáže na ďalší obrázok. Ktokoľvek môže pasovať.",
+      "sort": "Vystrihnite obrázky pozdĺž prerušovaných čiar a potom každý vložte do škatuľky, kam patrí.",
+      "puzzle": "Veľký obrázok rozstrihnite pozdĺž prerušovaných čiar na štyri časti a zamiešajte ich. Vymieňajte vždy dve časti, kým nebude obrázok celý. Malý obrázok slúži ako vodítko.",
+      "cutSafety": "Pred začiatkom môže strihanie urobiť pomocník. Potom nožnice odložte.",
+      "version": "Verzia {date} · {url}",
+      "reasons": {
+        "photos": "Papierová verzia neexistuje. Táto hra používa vaše vlastné fotografie, ktoré zostávajú vo vašom prehliadači a nikdy sa neodosielajú, takže ich stránka nemôže vytlačiť. Ak chcete hrať na papieri, doma vytlačte dve kópie niekoľkých obľúbených fotografií a párujte ich na stole.",
+        "paced": "Papierová verzia neexistuje. Kruh na obrazovke udáva pomalé, rovnomerné tempo, čo vytlačená stránka nedokáže, takže by to bola iná aktivita. Tichá prestávka spoločne bez obrazovky je vždy možnosťou.",
+        "turns": "Papierová verzia tejto hry neexistuje. Ak chcete hľadať dvojice na stole, vytlačte obrázkové karty z hry Dvojice obrázkov a striedajte sa pri ich otáčaní.",
+        "screen": "Na papieri to neexistuje. Ide o obrázok, ktorý si spolu pozeriate na obrazovke; rovnako funguje aj obľúbená fotka alebo pohľadnica položená na stole.",
+        "wash": "Na papieri to neexistuje. Akvarel na papieri je rovnaká myšlienka: mokrý štetec a jedna farba naraz.",
+        "sayings": "Zatiaľ nie je k dispozícii verzia na papieri. Na papieri by sa každý koniec ukázal naraz a stratil by sa jemný krok „Ukáž koniec“. Čítajte príslovia spolu z obrazovky alebo sa podeľte o niekoľko, ktoré obaja poznáte."
+      }
+    }
   }
 }

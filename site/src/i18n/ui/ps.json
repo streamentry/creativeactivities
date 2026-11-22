@@ -7,16 +7,22 @@
     "homeLabel": "د Creative Activities کور پاڼه",
     "mainNav": "اصلي",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: د چای د پیالې، د لمر ګل او سپي لوی او دوستانه انځورونه",
+    "defaultImageAlt": "Creative Activities: لوی او دوستانه انځورونه د ورځنیو شیانو لپاره چې جوړ یې کړئ او ترسره یې کړئ",
     "languages": "ژبه",
     "englishOnly": "(انګلیسي)",
     "machineTranslated": "دا پاڼه په اتوماتیک ډول ژباړل شوې ده او لا تر اوسه د پښتو اصلي ویونکي له خوا نه ده کتل شوې.",
     "readOriginal": "اصلي انګلیسي نسخه ولولئ",
     "nav": {
+      "find": "Find an activity",
       "games": "لوبې",
       "activities": "فعالیتونه",
       "caregiving": "پالنه",
-      "brainHealth": "د مغزو روغتیا"
+      "brainHealth": "د مغزو روغتیا",
+      "crafts": "لاسي کارونه",
+      "kids": "ماشومان",
+      "together": "یوځای",
+      "creativeCalm": "هنري آرامښت",
+      "search": "پلټنه"
     },
     "faqTitle": "پوښتنې او ځوابونه",
     "breadcrumb": "د پاڼې لاره",
@@ -27,7 +33,32 @@
       "label": "د متن اندازه",
       "smaller": "عادي متن",
       "larger": "لوی متن",
-      "contrast": "لوړ تضاد"
+      "contrast": "لوړ تضاد",
+      "colors": "رنګونه",
+      "light": "روښانه",
+      "dark": "تیاره",
+      "device": "د دې وسیلې په څیر",
+      "lineLength": "د کرښې اوږدوالی",
+      "standardLines": "معیاري",
+      "shorterLines": "لنډې کرښې",
+      "spacing": "واټن",
+      "standardSpacing": "معیاري",
+      "moreSpace": "ډیر واټن"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "د 101 فعالیتونو نظرونه",
     "lateStage": "د وروستۍ مرحلې فعالیتونه",
     "printable": "چاپ کېدونکي فعالیتونه",
-    "allActivities": "ټول فعالیتونه",
+    "allActivities": "د ټولو فعالیتونو لارښوونې",
     "forCaregivers": "د پالنه کوونکو لپاره",
     "playTogether": "یوځای لوبه څنګه وکړو",
     "selfCare": "د ځان پالنه",
@@ -54,24 +85,34 @@
     "app": "د Creative Activities اپلیکېشن",
     "appHelp": "د اپلیکېشن مرسته",
     "support": "ملاتړ",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "قانوني",
     "sitePrivacy": "د وېب پاڼې محرمیت",
     "appPrivacy": "د اپلیکېشن د محرمیت تګلاره",
     "privacyChoices": "د محرمیت انتخابونه",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "شرایط او د اپلیکېشن جواز",
     "safety": "خوندیتوب او د کارونې موخه",
     "accessibility": "لاسرسی",
     "healthNotice": "د روغتیايي معلوماتو خبرتیا",
     "allLegal": "ټول قانوني معلومات",
     "note": "Creative Activities د خوند اخیستو لپاره ساده ګډ فعالیتونه وړاندې کوي. دا طبي مشوره، ازمایښت یا درملنه نه ده، او دا هېڅوک نه تشخیصوي، نه اندازه کوي او نه نمره ورکوي. د روغتیا د پوښتنو لپاره له ډاکټر سره خبرې وکړئ. په بېړني حالت کې ستاسو د سیمې بېړني شمېرې ته زنګ ووهئ.",
-    "publisher": "د Cloudjet Solutions Pte. Ltd. له خوا خپور شوی."
+    "publisher": "د Cloudjet Solutions Pte. Ltd. له خوا خپور شوی.",
+    "crafts": "د ټولو عمرونو لپاره لاسي کارونه",
+    "kids": "د ماشومانو لپاره فعالیتونه",
+    "together": "د یوځای ترسره کولو فعالیتونه",
+    "creativeCalm": "هنري آرامښت",
+    "dementiaActivities": "د ډیمنشیا سره اوسیدونکو خلکو لپاره فعالیتونه"
   },
   "home": {
-    "title": "د ډیمنشیا او الزایمر لوبې او فعالیتونه | Creative Activities",
-    "description": "د ډیمنشیا یا الزایمر سره د ژوند کوونکو او د هغوی د پالنه کوونکو لپاره وړیا نرمې انځوریزې لوبې او د فعالیتونو نظرونه. نه نوم لیکنه، نه ټایمر، نه نمرې.",
+    "title": "د هغو کسانو لپاره هنري فعالیتونه چې یو چا ته پاملرنه کوي",
+    "description": "د هغو کسانو لپاره وړیا هنري فعالیتونه چې یو چا ته پاملرنه کوي: لاسي کارونه، د ماشومانو لپاره شیان، یوځای ترسره کولو فعالیتونه او ارامه هنري نظریات۔",
     "eyebrow": "وړیا · بې اشتهاره · بې نوم لیکنې · بې ټایمر او نمرو",
-    "h1": "د ډیمنشیا لرونکو کسانو لپاره نرمې لوبې او فعالیتونه",
-    "lede": "ساده انځوریزې لوبې، پېژندل شوي عکسونه، او یوځای د خوند اخیستو فعالیتونه، ستاسو په خپل ګام.",
+    "h1": "یوځای یو شی جوړ کړئ",
+    "lede": "هغه فعالیت وموومئ چې د شخص، شیبې او هغو شیانو سره مناسب وي چې تاسو یې لرئ۔ اسانه لاسي کارونه، د ماشومانو هنر، یوځای ترسره کولو شیان او ارامه هنري نظریات، د اسانو بڼو او د چاپولو وړ کارت سره۔ هر وخت چې وغواړئ ودریږئ۔",
     "playGame": "لوبه وکړئ",
     "findIdeas": "د فعالیتونو نظرونه ومومئ",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "د 101 فعالیتونو نظرونه",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "لومړنۍ مرحله",
         "text": "هغه کارونه ته دوام ورکړئ چې خوښ یې دي، په کوچنیو سمونونو سره: شوقونه، سفرونه، د کلمو لوبې او یوځای پلان جوړول.",
         "label": "د لومړنۍ مرحلې نظرونه"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "منځنۍ مرحله",
         "text": "ساده، پېژندل شوي کارونه چې په ګامونو ویشل شوي وي: تاه کول، ترتیبول، موسیقي، انځوریزې لوبې او لنډې قدمونه.",
         "label": "د منځنۍ مرحلې نظرونه"
@@ -124,10 +165,10 @@
         "label": "د وروستۍ مرحلې نظرونه"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "یو ځانګړی شی په لټه کې یاست؟ <a href=\"/dementia-activities/\">د الزایمر لپاره فعالیتونه او لوبې</a>، <a href=\"/together/puzzles-and-table-games/\">پزلونه او میز لوبې</a>، <a href=\"/together/conversation-games-for-all-ages/\">د خبرو اترو لوبې</a> یا <a href=\"/together/puzzles-and-table-games/\">پزلونه</a> هڅه وکړئ۔",
     "approachEyebrow": "زموږ لاره",
-    "approachTitle": "یو ګډ فعالیت، نه د یادولو ازموینه",
-    "approachLede": "ډېرې «د مغزو لوبې» په چټکۍ، نمرو او پرله پسې بریاوو جوړې شوې دي. د ډیمنشیا لرونکي کس لپاره دا کېدای شي د امتحان په څېر ښکاره شي. موږ برعکس جوړ کړ.",
+    "approachTitle": "یو شریک فعالیت، نه ازموینه",
+    "approachLede": "ډیری «د دماغ لوبې» د چټکتیا، نمرو او پرله پسې بریاوو شاوخوا جوړې شوي دي۔ د هغه چا لپاره چې ستړی، ناروغ یا د حافظې د زوال سره اوسیږي، دا کیدای شي د ازموینې په څیر ښکاره شي۔ موږ برعکس جوړ کړی دی۔",
     "approachLink": "موږ ولې دا ډول جوړوو",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "د انکار عام لاملونه، او وروسته بیا د هڅې نرمې لارې."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "د تابلېټ برابرول",
-        "text": "لوی متن، لږ ګډوډي او یو ساده کور سکرین."
+        "href": "/activities/group-art-activities/",
+        "title": "د ډله ییز هنر فعالیتونه",
+        "text": "د یو میز شاوخوا ډیرو کسانو لپاره شریک پروژې، چې د هرچا لپاره دنده لري۔"
       },
       {
-        "href": "/activities/printable/",
-        "title": "وړیا چاپ کېدونکي فعالیتونه",
-        "text": "په لوی چاپ د کلمو لټون، د رنګولو پاڼې، بینګو او د خبرو اترو کارتونه."
+        "href": "/activities/ideas/",
+        "title": "101 د فعالیت نظریات",
+        "text": "ساده نظریات، ترتیب شوي د هغه څه له مخې چې لرئ او څومره انرژي چې شتون لري۔"
       }
     ],
     "researchTitle": "د مغزو روغتیا: څیړنه واقعاً څه وايي",
@@ -185,16 +226,16 @@
     "aboutApp": "د اپلیکېشن په اړه",
     "faq": [
       {
-        "q": "د ډیمنشیا لرونکو کسانو لپاره ښې لوبې کومې دي؟",
-        "a": "ښې لوبې ساده، پېژندل شوې او له فشار پرته وي: د برابرولو لپاره لوی انځورونه، ترتیبول، اسانه جیګسا، پېژندل شوي متلونه بشپړول، رنګول، د انځورونو بینګو او د خبرو اترو کارتونه. تر ټولو ښه انتخاب هغه دی چې هغه کس نن یې خوښوي. ټایمر، نمرې او هر هغه شی چې د ازموینې په څېر ښکاري مه کاروئ."
+        "q": "د زړو کسانو لپاره ښې لوبې کومې دي؟",
+        "a": "ښې لوبې ساده، پیژندل شوي او له فشار پرته وي: د لویو انځورونو جوړول، ترتیب کول، اسانې جګسا ټوټې، د پیژندل شویو متلونو بشپړول، رنګ کول، د انځورونو بینګو او د خبرو اترو کارتونه۔ دا د ډیرو زړو کسانو لپاره مناسبې دي، پشمول د هغو کسانو چې د ډیمنشیا سره ژوند کوي۔ ښه انتخاب هغه دی چې شخص نن ورسره خوښ وي۔ ټایمرونه، نمرې او هر هغه شی چې د ازموینې په څیر ښکاري، ډډه وکړئ۔"
       },
       {
-        "q": "ایا دا د ډیمنشیا لوبې وړیا دي؟",
+        "q": "آیا دا لوبې وړیا دي؟",
         "a": "هو. په Creative Activities کې هره لوبه او چاپ کېدونکی شی وړیا دی، پرته له حساب، نوم لیکنې یا ډاونلوډ. لوبې په تلیفون، تابلېټ یا کمپیوټر کې په وېب براوزر کې چلېږي."
       },
       {
         "q": "ایا د مغزو لوبې ډیمنشیا مخنیوی کوي؟",
-        "a": "نه، هېڅ لوبه نه ده ښودل شوې چې ډیمنشیا مخنیوی وکړي، او Creative Activities د هېڅ شي د درملنې یا مخنیوي ادعا نه کوي. زموږ لوبې د خوند اخیستو او یوځای وخت تېرولو لپاره دي. زموږ د مغزو د روغتیا برخه تشریح کوي چې څیړنې څه ښيي او څه نه ښيي."
+        "a": "هیڅ لوبه نه ده ښودل شوې چې ډیمنشیا مخنیوی کړي، او Creative Activities داسې ادعا نه کوي چې کوم شی درملنه یا مخنیوی کوي۔ زموږ لوبې د خوښۍ او یوځای وخت لپاره دي، او هیڅ فعالیت پاڼه د روغتیا ادعا نه کوي۔"
       },
       {
         "q": "ایا دا لوبې د الزایمر لرونکي کس لپاره مناسبې دي؟",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Creative Activities څوک جوړوي؟",
-        "a": "Creative Activities یوه کوچنۍ ډله ده چې د کورنیو او پالنه کوونکو لپاره آرام، د لویانو انځوریز فعالیتونه جوړوي، په ویب او د وړیا اپلیکېشن په توګه. موږ کلینیکي کارپوهان نه یو، او دلته هېڅ شی طبي مشوره نه ده."
+        "a": "Creative Activities د یوې کوچنۍ ډلې لخوا جوړه شوې ده چې د هغو بالغانو لپاره ارامه هنري فعالیتونه جوړوي چې یو چا ته پاملرنه کوي، په ویب او د وړیا اپلیکیشن په بڼه۔ موږ ډاکټران نه یو، او دلته هیڅ طبي مشوره نشته۔"
+      }
+    ],
+    "groupsEyebrow": "خپله لاره پیدا کړئ",
+    "groupsTitle": "څلور ډوله هنري فعالیتونه",
+    "groupsLede": "له هغه ډلې پیل وکړئ چې له چا سره یاست او څه لرئ۔ هره پاڼه اسانې بڼې او د خوندیتوب یادښتونه لري۔",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "لاسي کارونه",
+        "text": "کاغذ، رنګ، بیا کارول شوي او موسمي پروژې، د هرې لپاره یوه اسانه بڼه۔",
+        "label": "لاسي کارونه وګورئ"
+      },
+      {
+        "href": "/kids/",
+        "title": "ماشومان",
+        "text": "د ماشومانو لپاره هنر او لوبې، د نږدې بالغ سره او روښانه د خوندیتوب یادښتونو سره۔",
+        "label": "د ماشومانو فعالیتونه وګورئ"
+      },
+      {
+        "href": "/together/",
+        "title": "یوځای",
+        "text": "خبرې اترې، پزلونه، د هوا وخت او د نسلونو ترمنځ نږدې پاتې کیدو لارې۔",
+        "label": "یوځای ترسره کولو شیان وګورئ"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "هنري آرامښت",
+        "text": "ورو، ارام هنري شیبې د قلم، پاڼې یا سندرې سره۔ دا درملنه نه ده۔",
+        "label": "هنري آرامښت وګورئ"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "چاپ کېدونکی",
     "play": "{name} لوبه وکړئ ←",
     "readGuide": "لارښود ولولئ"
+  },
+  "listen": {
+    "listenSteps": "مرحلې واورئ",
+    "pause": "درول",
+    "resume": "بیا پیل",
+    "stop": "ودرول",
+    "speed": "سرعت",
+    "normal": "عادي",
+    "slower": "ورو",
+    "reading": "مرحلې په غږ لوستل کیږي۔",
+    "paused": "ودرول شوی۔ د ادامې لپاره «بیا پیل» تڼۍ کېکاږئ۔",
+    "note": "ستاسو د وسیلې خپل غږ کاروي۔ ځینې وسیلې متن د خپل جوړونکي ته لیږي ترڅو هغه ووایي۔",
+    "listen": "واورئ",
+    "stepLabel": "د {n} مرحلې واورئ",
+    "stopStep": "{n} مرحله ودروئ"
   },
   "playCta": {
     "title": "د یوې نرمې لوبې لپاره چمتو یاست؟",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "فعالیتونه",
-      "title": "د ډیمنشیا لرونکو کسانو لپاره فعالیتونه",
-      "seo": "د ډیمنشیا لپاره فعالیتونه: د مرحلې له مخې نظرونه",
-      "description": "د ډیمنشیا لرونکو کسانو لپاره د هرې مرحلې د فعالیتونو نظرونه: موسیقي، د زړو ورځو یادول، ورځني کارونه، لاسي کارونه او وړیا چاپ کېدونکي شیان.",
-      "lede": "معنا لرونکی فعالیت هر هغه شی دی چې آرام، موخه یا د اړیکې یوه شېبه راوړي. له هغه شي پیل کړئ چې هغه کس تل خوښ کړی، او دا د نن ورځې سره برابر کړئ."
+      "label": "د فعالیت لارښوونې",
+      "title": "د فعالیت لارښوونې",
+      "seo": "د فعالیت لارښوونې: نظریات، هنري توکي او د پیل لارې",
+      "description": "د هنري فعالیتونو ساده لارښوونې چې له یو چا سره یې ترسره کولی شئ: ساده نظریات، په لږ بودجه هنري توکي، ډله ییز هنر، لیکونه، یادونې او د هنري درملنې تشریح۔",
+      "lede": "لنډې، عملي لارښوونې د فعالیت د غوره کولو او له یو چا سره د پیلولو لپاره، هرې عمر یا وړتیا ولري۔"
+    },
+    "crafts": {
+      "label": "لاسي کارونه",
+      "title": "د ټولو عمرونو لپاره لاسي کارونه",
+      "seo": "د ټولو عمرونو لپاره اسانې لاسي کارونه، د اسانو بڼو سره",
+      "description": "د بالغانو، ماشومانو او کورنیو لپاره اسانې لاسي کارونه: کاغذ، رنګ کول، بیا کارول شوي او موسمي کارونه، د نیولو اسانو او ناست بڼو سره، پرته له ځانګړې مهارت۔",
+      "lede": "لاسي کارونه چې د ډیرو کورونو سره شتون لري، هر یو د اسانې بڼې سره، ترڅو هرڅوک یو شی جوړ کړای شي۔"
+    },
+    "kids": {
+      "label": "ماشومان",
+      "title": "د ماشومانو لپاره هنري فعالیتونه",
+      "seo": "د ماشومانو لپاره هنري فعالیتونه: هنر، حسي او آرامښت",
+      "description": "د ماشومانو لپاره هنري فعالیتونه: د کوچنیو ماشومانو هنر، د پروسې هنر، حسي لوبې، د باران ورځې لاسي کارونه او د آرامولو نظریات، د خوندیتوب یادښتونو او د حسي اړتیاو لپاره بڼو سره۔",
+      "lede": "د مختلفو عمرونو او اړتیاو ماشومانو لپاره د هنر او لوبو نظریات، روښانه خوندیتوب یادښتونه او یو نږدې بالغ۔"
+    },
+    "together": {
+      "label": "یوځای",
+      "title": "یوځای ترسره کولو فعالیتونه",
+      "seo": "یوځای ترسره کولو فعالیتونه، د نسلونو ترمنځ",
+      "description": "د دوو یا ډیرو نسلونو لپاره فعالیتونه: د خبرو اترو لوبې، پزلونه، د هوا وخت، د نیکه او نواسو لپاره لاسي کارونه او د لیرې پاتې کیدو سره نږدې پاتې کیدو لارې۔",
+      "lede": "د مور یا پلار، نیکه یا نیاګۍ، ماشوم یا ملګري سره د وخت شریکولو نظریات، په کور، هوا کې، لیدنه کې یا لیرې څخه۔"
+    },
+    "creative-calm": {
+      "label": "هنري آرامښت",
+      "title": "هنري آرامښت",
+      "seo": "هنري آرامښت: د آرامولو لپاره هنر او فعالیتونه",
+      "description": "د بالغانو او پاملرنه کوونکو لپاره آرامونکي هنري فعالیتونه: د پام هنر، ډایري لیکل، موسیقي، حسي شیبې او ارامې ماښامونه۔ هنري فعالیت، درملنه نه۔",
+      "lede": "د قلم، پاڼې یا سندرې سره د ورو کیدو نرمې لارې۔ دا هنري فعالیتونه دي، درملنه نه، او هیڅ مهارت نه غواړي۔"
     },
     "caregiving": {
-      "label": "پالنه",
-      "title": "د پالنې لارښودونه",
-      "seo": "د ډیمنشیا د پالنې لارښودونه: ورځنۍ عملي مرسته",
-      "description": "د ډیمنشیا د پالنه کوونکو لپاره عملي او مهربانه لارښودونه: یوځای لوبې، خبرې، انکار، د ورځې په پای کې ناآرامي، تابلېټ، د اپلیکېشنونو ټاکل او د ځان پالنه.",
-      "lede": "د ډیمنشیا لرونکي کس د پالنې د ورځنیو شېبو لپاره ساده، عملي مرسته، پشمول د خپل ځان پالنې."
+      "label": "نرسنګ/پاملرنه",
+      "title": "د ډیمنشیا لرونکي چا ته پاملرنه",
+      "seo": "د ډیمنشیا لرونکي چا ته پاملرنه: فعالیتونه او مرستې",
+      "description": "د ډیمنشیا لرونکي چا ته پاملرنه کوونکو کورنیو لپاره لارښوونې: څنګه یوځای لوبې وکړئ، کله چې هغوی نه وایي څه وکړئ، او تشخیص وروسته باوري مرستې چیرته ومومئ.",
+      "lede": "د ډیمنشیا سره ژوند کوونکو چا ته پاملرنه کوونکو کورنیو لپاره د فعالیت پر بنسټ مرستې، او د طبي او پاملرنې مشورو لپاره چیرته مراجعه وکړئ."
     },
     "brain-health": {
       "label": "د مغزو روغتیا",
@@ -283,7 +396,16 @@
     "tryTogether": "یوځای هڅه وکړئ",
     "relatedGuides": "اړوند لارښودونه",
     "related": "اړوند",
-    "startHere": "له دې ځایه پیل کړئ"
+    "startHere": "له دې ځایه پیل کړئ",
+    "staleAria": "ژباړه زړه ده",
+    "staleTitle": "دا ژباړه زړه ده",
+    "staleText": "دا د انګلیسي پاڼې له پخوانۍ نسخې څخه جوړه شوې وه، چې له هغه وروسته بدله شوې ده. اوسنۍ پاڼه انګلیسي ده.",
+    "staleHealth": "دا د روغتیا معلومات وړاندې کوي، نو مخکې له دې چې پر هغه عمل وکړئ، انګلیسي پاڼه وګورئ او د ډاکټر یا نرس سره مشوره وکړئ.",
+    "staleLink": "اوسنۍ انګلیسي پاڼه ولولئ"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "د روغتیايي معلوماتو خبرتیا",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "یو ګډ فعالیت، نه د یادولو ازموینه",
+      "title": "یوځای فعالیت، نه ازموینه",
       "seoTitle": "د Creative Activities په اړه: زموږ لاره",
-      "description": "ولې د Creative Activities لوبې ټایمر، نمره یا پرله پسې بریاوې نه لري، ولې انځورونه ښکاره پاتې کېږي، او موږ د ډیمنشیا په اړه څه ادعا کوو او څه نه.",
+      "description": "ولې Creative Activities کې ټایمرونه، نمرې یا پرله‌پسې ورځې نشته، ولې عکسونه ښکاره پاتې کیږي، او موږ د روغتیا په اړه څه ادعا کوو او څه نه کوو.",
       "crumb": "زموږ لاره",
-      "lede": "Creative Activities آرام، د لویانو انځوریز فعالیتونه جوړوي چې پالنه کوونکی او د ډیمنشیا لرونکی کس یې څنګ تر څنګ خوند اخیستلی شي.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "سپانسران او شریکان",
+        "none": "Creative Activities هیڅ سپانسران، هیڅ پیسې ورکړل شوي ځایونه او هیڅ داسې شریکان نه لري چې لوگوګانې یې پر سایټ ښکاره شي.",
+        "listed": "دا د Creative Activities سپانسران او شریکان دي. هر اړیکه د هغه پاڼې پر سر هم ښودل شوې ده چېرې چې ښکاره کیږي.",
+        "policy": "که دا بدله شي، نو هر داسې پاڼه به دا چېرې چې ښکاره کیږي هلته وښيي، هیڅ فعالیت به هیڅکله سپانسر ونه لري، او د شریکانو لیست به همدې پاڼه کې وي.",
+        "listHeading": "د شریکانو لیست",
+        "noPartners": "اوس مهال هیڅ شریکان نشته."
+      },
+      "lede": "Creative Activities داسې آرامه، بالغانو لپاره فعالیتونه جوړوي چې دوه کسان یو له بل سره کنار ته ترې خوند اخیستی شي، که یو بل ته پاملرنه کوي یا یوازې غواړي یوځای وخت تیر کړي.",
+      "bodyHtml": "<h2>دا د چا لپاره دی</h2><p>د هرچا لپاره چې یو چا ته پاملرنه کوي: مور یا plar، نیکه یا نیکمرغه، ماشوم، ملګری، ملګرۍ یا هغه کس چې د ډیمنشیا سره ژوند کوي. کورنۍ، مشر عمر لرونکي او د فعالیت کارکوونکي ټول کولی شي همدا پاڼې وکاروي.</p><h2>موږ څه باور لرو</h2><p>د فعالیت ارزښت همدا شیبه ده: یوه خبرې، یوه موسکا، د دوو عکسونو سره یوځای کولو رضایت، یا یوازې نږدې کېناستل. دا د چا ارزونې، د هغه د پرمختګ یا د هیڅ شي د ثابتولو لپاره نه دی.</p><p>ډیری د مغز روزنې اپلیکیشنونه د چټکتیا، نمرو، پرله‌پسې ورځو او کچو شاوخوا جوړ شوي دي. د هغه چا لپاره چې ستړی، ناروغ یا د ډیمنشیا سره ژوند کوي، دا کېدای شي داسې ازموینه ښکاره شي چې هغه نشي بریالي کولی. موږ برعکس جوړ کړی دی، او موږ ځانونه پر دې قاعدو ساتو:</p><ul><li><strong>د ناکامۍ څه نشته.</strong> هیڅ ساعت، نمره، د حرکتونو شمېرنه، ژوند، پرله‌پسې ورځې، رنګین ځړول یا شمارښت، په هیڅ سکرین کې نه.</li><li><strong>پېژندنه د یادولو پر ځای.</strong> عکسونه په تلوسه ښکاره پاتې کیږي. اشارې خبرو ته بلنه ورکوي او هیڅکله نومونه یا یادونه نه پوښتي.</li><li><strong>لوی، ساده او ثابت.</strong> لوی متن او عکسونه، لوړ توپیر، او کنټرولونه چې په ورته ځای کې پاتې کیږي.</li><li><strong>د بالغ کس عزت.</strong> د ریښتیني ژوند عکسونه او ساده، ګرم الفاظ. نه کارټونونه، نه د سندرې په ډول ستاینه او نه د ایموجي انعامونه.</li><li><strong>اسانه لاره وتل.</strong> «اوس بس» تل ښکاره وي. نیمایي کې ودریدل یو ښه پایله ده.</li><li><strong>په تلوسه کې شخصي.</strong> نه حساب، نه اعلانونه. هغه عکسونه چې تاسو یې غوره کوئ ستاسو په وسیله کې پاتې کیږي.</li></ul><h2>هغه څه چې موږ یې ادعا نه کوو</h2><p>زموږ لوبې او فعالیتونه د خوند او اړیکې لپاره دي. دوی د ډیمنشیا یا الزهایمر ناروغۍ تشخیص، ازموینه، اندازه، درملنه، ورو کول یا مخنیوی نه کوي، او هیچا باید دا د دې دلیل له مخې غوره نه کړي. کله چې موږ د روغتیا څیړنې په اړه لیکو، موږ په ښکاره ډول وایو چې شواهد چېرې کمزوري دي، او هیڅکله یې زموږ د خپلو فعالیتونو سره نه تړو.</p><h2>موږ څوک یو</h2><p>Creative Activities یو کوچنی خپلواک ټیم دی. موږ طبیبان نه یو. زموږ لارښوونې د خپرو شوو لارښوونو پر بنسټ لیکل کیږي، لکه د National Institute on Aging او Alzheimer’s Association په شان سازمانونو لخوا، او هره لارښوونه خپل سرچینې لیست کوي. ولولئ <a href=\"/editorial-policy/\">موږ څنګه خپلې پاڼې لیکو او سمو یې</a>.</p><h2>موږ ته ووایاست څه مرسته کوي</h2><p>موږ به خوښ شو چې واورو چې ستاسو لپاره څه کار کوي او څه نه کوي، په ځانګړې توګه د ډیمنشیا سره ژوند کوونکو، کورنیو پاملرنه کوونکو او د فعالیت کارکوونکو څخه. ليک وليږئ <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "موږ خپلې پاڼې څنګه لیکو او کتو",
       "seoTitle": "د لیکنې تګلاره",
-      "description": "Creative Activities د ډیمنشیا فعالیتونو او د مغزو د روغتیا پاڼې څنګه څېړي، لیکي، سرچینې ورکوي او تازه کوي، او موږ هېڅکله څه نه خپروو.",
+      "description": "Creative Activities څنګه د خپلو فعالیت او روغتیا پاڼو لپاره څیړنه کوي، لیکي، سرچینې ټاکي او تازه کوي، او موږ به هیڅکله څه خپروو.",
       "crumb": "د لیکنې تګلاره",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "پوښتنې او ځوابونه",
-      "seoTitle": "د ډیمنشیا لوبې او فعالیتونه: پوښتنې او ځوابونه",
-      "description": "د ډیمنشیا لوبو او فعالیتونو د عامو پوښتنو ځوابونه: کومې لوبې هڅه وکړئ، څومره وخت لوبه وکړئ، د وروستۍ مرحلې نظرونه، د مغزو روغتیا او محرمیت.",
+      "seoTitle": "د Creative Activities په اړه پوښتنې او ځوابونه",
+      "description": "د لوبو او فعالیتونو په اړه د عامو پوښتنو ځوابونه: کومه هڅه وکړئ، څومره وخت لوبې وکړئ، ډلې او وروستي پړاو لپاره نظرونه، روغتیا او محرمیت.",
       "crumb": "پوښتنې او ځوابونه",
       "lede": "لنډ، ساده ځوابونه هغو پوښتنو ته چې پالنه کوونکي تر ټولو ډېر کوي.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "د لوبو په اړه",
           "items": [
             {
-              "q": "د ډیمنشیا لرونکي کس لپاره تر ټولو ښې لوبې کومې دي؟",
+              "q": "د مشرو عمر لرونکو لپاره غوره لوبې کومې دي؟",
               "a": "تر ټولو ښې لوبې پېژندل شوې، ساده او له فشار پرته دي، او سمه لوبه هغه ده چې هغه کس نن یې خوښوي. په ښکاره انځورونو سره د انځورونو برابرول، ترتیبول، اسانه جیګسا، پېژندل شوي متلونه بشپړول، رنګول او د انځور بینګو د ډېرو خلکو لپاره ښه کار کوي. ټایمر، نمرې او هر هغه شی چې د ازموینې په څېر ښکاري مه کاروئ."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "د مغزو روغتیا",
+          "title": "ډیمنشیا او روغتیا",
           "items": [
             {
               "q": "ایا لوبې کولای شي ډیمنشیا مخنیوی وکړي یا ورو کړي؟",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "نور تفصیل: <a href=\"/caregiving/how-to-play-together/\">څنګه یوځای لوبې وکړئ</a>، <a href=\"/caregiving/when-they-say-no/\">کله چې هغوی نه وائي</a>، <a href=\"/activities/late-stage/\">وروستي پړاو فعالیتونه</a> او <a href=\"/dementia-activities/\">په کور کې د ډیمنشیا فعالیتونه</a>."
     },
     "handout": {
       "title": "د ډیمنشیا سره د ژوند کوونکو لپاره وړیا نرمې لوبې",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "د پالنې کورونو، کتابتونونو او ملاتړ ډلو لپاره",
-      "seoTitle": "د پالنې کورونو او ډلو لپاره وړیا د ډیمنشیا فعالیتونه",
-      "description": "د پالنې کورونه، د ورځې برنامې، کتابتونونه، د سالمندانو ادارې او ملاتړ ډلې زموږ وړیا د ډیمنشیا لوبې څنګه کاروي، او د سرچینو لېست کې د زموږ اضافه کولو متن.",
+      "seoTitle": "د نرسنګ کورونو، کتابتونونو او ډلو لپاره وړیا فعالیتونه",
+      "description": "نرسنګ کورونه، د ورځني پاملرنې برنامې، کتابتونونه، د مشرو عمر ادارې او د ملاتړ ډلې زموږ وړیا لوبې او د فعالیت لارښوونې څنګه کاروي، سربیره پر متن چې موږ د سرچینو لیست ته اضافه کړئ.",
       "crumb": "د ادارو لپاره",
       "lede": "پدې وېب پاڼه کې هر څه د اوسېدونکو، غړو او مراجعینو سره د کارولو لپاره وړیا دي، پرته له حساب، جواز یا فیس. دا پاڼه تشریح کوي چې دلته څه شته او څنګه یې شریک کړئ.",
-      "shortText": "{name}: د ډیمنشیا سره د ژوند کوونکو او د هغوی د پالنه کوونکو لپاره وړیا نرمې انځوریزې لوبې او د فعالیتونو لارښودونه. نه نوم لیکنه، نه ټایمر، نه نمرې.",
-      "longText": "{name} ({domain}) {count} وړیا براوزر لوبې وړاندې کوي چې د ډیمنشیا سره د ژوند کوونکو لپاره جوړې شوې دي، پشمول د ښکاره انځورونو سره د جوړو برابرول، اسانه جیګسا، ترتیبول، پېژندل شوي متلونه او د چاپ کېدونکو کارتونو سره د انځور بینګو. حساب، اشتهار، ټایمر یا نمره نشته. وېب پاڼه د ډیمنشیا د هرې مرحلې لپاره ساده ژبې د فعالیتونو لارښودونه هم لري چې د سالمندۍ ملي انستیتیوت او د الزایمر ټولنې حواله ورکوي.",
+      "shortText": "{name}: وړیا، نرمې عکسي لوبې او د فعالیت لارښوونې د مشرو عمر لرونکو، کورنیو او د ډیمنشیا سره ژوند کوونکو لپاره. نه ثبت نوم، نه ټایمر، نه نمرې.",
+      "longText": "{name} ({domain}) د زوړ عمر لرونکو، کورنیو او د ډیمینشیا سره ژوند کوونکو لپاره {count} وړیا آنلاین لوبې وړاندې کوي، پشمول د انځورونو جوړه کول چې انځورونه ښکاره پاتې وي، اسانه جورسا معمې، ترتیب کول، معروف متلونه او د چاپ وړ کارتونو سره د انځورونو بنګو. نه حساب دی، نه اعلانونه، نه وخت شمارونکی او نه نمرې. سایټ همدارنګه د کورنیو، زوړ عمر لرونکو او کارمندانو لپاره په ساده ژبه د فعالیتونو لارښوونې لري، چې سرچینې یې لکه National Institute on Aging او Alzheimer's Association دي.",
       "useTitle": "هغه څه چې ادارې یې کارولای شي",
       "gamesItemHtml": "<strong>{count} براوزر لوبې</strong> چې په لپتاپ، تابلېټ یا د کمپیوټر سره وصل تلویزیون کې چلېږي. نصبولو، حساب یا ډاونلوډ ته اړتیا نشته. <a href=\"/games/\">ټولې لوبې</a> وګورئ.",
       "printablesLabel": "{count} چاپ کېدونکي شیان:",
       "printablesAfter": "په هره پاڼه کې د چاپ تڼۍ وکاروئ.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>د ډلې ډولونه:</strong> <a href=\"/games/picture-bingo/\">د انځورونو بنګو</a> چاپ وړ کارتونه او د سکرین پر سر اعلانوونکی لري، او <a href=\"/together/conversation-games-for-all-ages/\">د خبرو لوبې</a> د ځوابونو انتخابونو او د خبرو ټکو سره پوښتنې لري.</li><li><strong>د فعالیت لارښوونې</strong> د کارمندانو او کورنیو لپاره، په ساده ژبه او د سرچینو سره لیکل شوي. په <a href=\"/activities/ideas/\">101 د فعالیت نظرونو</a> یا <a href=\"/crafts/craft-group-sessions/\">د پاملرنې کورونو لپاره ډلیز فعالیتونو</a> پیل یې وکړئ.</li>",
       "restHtml": "<h2>ډلې دا څنګه کاروي</h2><ul><li><strong>د پالنې کورونه او د حافظې پالنه:</strong> د ګډې خونې په تلویزیون کې د انځور بینګو یا متل بشپړول، د ډلې لپاره یو کس ټک کوي.</li><li><strong>د ورځې برنامې:</strong> یو تابلېټ سټیشن چې د انځورونو جوړې په څلورو کاشیو ټاکل شوې وي، د لنډو یو په یو ناستو لپاره.</li><li><strong>عامه کتابتونونه:</strong> د حافظې کڅوړو کې چاپ شوي د کلمو لټون او د خبرو اترو کارتونه، او په کتابتون تابلېټونو کې د وېب پاڼې نښه.</li><li><strong>د پالنه کوونکو د ملاتړ ډلې او د حافظې کافې:</strong> <a href=\"/handout/\">یوه پاڼه چاپ کېدونکی</a> چې کورنۍ یې له ځان سره کور ته یوسي.</li><li><strong>روغتونونه او د رخصتۍ پلان جوړوونکي:</strong> په کور یا د بستر په څنګ کې د آرام شي لپاره د پالنه کوونکو کڅوړو کې پاڼه.</li></ul><h2>هغه څه چې موږ یې نه کوو</h2><p>لوبې د خوند اخیستو او یوځای وخت تېرولو لپاره دي. دا ډیمنشیا نه تشخیصوي، نه ازمویي، نه نمره ورکوي، نه یې درملنه کوي او نه یې ورو کوي، او موږ له ادارو غواړو چې داسې یې بیان نه کړي. اشتهارونه نشته، او لوبې نه غواړي چې نومونه، د روغتیا جزئیات یا عکسونه اپلوډ شي. وېب پاڼه Google Analytics کاروي ترڅو لیدنې وشمېري؛ زموږ <a href=\"/privacy/\">د محرمیت خبرتیا</a> تشریح کوي چې دا څه راټولوي. هغه عکسونه چې په <a href=\"/games/photo-pairs/\">د عکسونو جوړو</a> کې کارول کېږي په براوزر کې پاتې کېږي.</p><h2>موږ ستاسو د سرچینو لېست کې اضافه کړئ</h2><p>که تاسو د پالنه کوونکو لپاره د سرچینو لېست ساتئ، تاسو ته ښه راغلاست چې <a href=\"/\">{domain}</a> ته لینک ورکړئ. تاسو کولای شئ هر یو بیان کاپي کړئ.</p>",
       "shortTitle": "لنډ بیان",
       "longTitle": "اوږد بیان",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>د مستقیم لینک لپاره ګټورې پاڼې: <a href=\"/games/\">وړیا لوبې</a>، <a href=\"/games/\">وړیا چاپ وړ مواد</a>، <a href=\"/dementia-activities/\">په کور کې د ډیمینشیا فعالیتونه</a> او <a href=\"/caregiving/how-to-play-together/\">څنګه ګډې لوبې وکړو</a>.</p><h2>پوښتنې یا سمونې</h2><p>که په سایټ کې کوم شی غلط یا ناسم وي، یا د یو اوسیدونکي اړتیاوې د دې ځای د مواد له مخې پوره نه شي، مهرباني وکړئ موږ ته <a href=\"mailto:{email}\">{email}</a> باندې خبر راکړئ. مهرباني وکړئ د اوسیدونکو یا پیرودونکو شخصي یا روغتیایي معلومات مه لیږئ.</p>"
     },
     "app": {
       "title": "د Creative Activities اپلیکېشن",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "وړیا د ډیمنشیا او الزایمر لوبې آنلاین",
-    "description": "د ډیمنشیا یا الزایمر سره د ژوند کوونکو لپاره وړیا آنلاین لوبې: د انځورونو برابرول، اسانه جیګسا، ترتیبول، رنګول، بینګو. نه نوم لیکنه، نه ټایمر، نه نمرې.",
+    "title": "وړیا لوبې چې آنلاین ګډې ولوبیږي",
+    "description": "د زوړ عمر لرونکو، کورنیو او د ډیمینشیا سره ژوند کوونکو لپاره وړیا آنلاین لوبې: د انځورونو جوړه کول، اسانه جورسا معمې، ترتیب کول، متلونه، رنګ کول او بنګو. نه ثبت نوم، نه وخت شمارونکي، نه نمرې.",
     "crumb": "لوبې",
-    "h1": "د ډیمنشیا لرونکو کسانو لپاره نرمې لوبې",
+    "h1": "نرمې لوبې چې ګډې ولوبیږي",
     "lede": "{count} وړیا لوبې چې په خپل براوزر کې یوځای یې وکړئ. لوی انځورونه، ساده کلمې، او د ناکامېدو شی نشته: نه ټایمر، نه نمرې، نه نوم لیکنه.",
-    "listName": "د ډیمنشیا لرونکو کسانو لپاره نرمې لوبې",
+    "listName": "نرمې لوبې چې ګډې ولوبیږي",
     "byStageTitle": "د مرحلې له مخې لوبه ټاکل",
     "byStageLede": "مرحلې یوازې یو نژدې لارښود دی. هغه څه تعقیب کړئ چې هغه کس یې خوښوي او نن آرام دي.",
     "stageCol": "مرحله",
     "gamesCol": "لوبې چې ډېر ځله سمون خوري",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "د سکرین نه بهر نور نظرونه: <a href=\"/activities/ideas/\">101 د فعالیت نظرونه</a>، <a href=\"/dementia-activities/\">په کور کې د ډیمینشیا فعالیتونه</a> او <a href=\"/crafts/\">لاسي کارونه</a>.",
     "faq": [
       {
         "q": "کومې لوبې سره پیل وکړو؟",
@@ -463,7 +593,7 @@
       },
       {
         "q": "ایا دا د سالمندانو لپاره د یادولو لوبې دي؟",
-        "a": "دا د برابرولو او انځوریزې لوبې دي چې هر زوړ کس یې خوند اخیستلی شي، خو دا داسې جوړې شوې چې حافظه ونه ازمویي: د انځورونو جوړو کې انځورونه مخامخ پاتې کېږي، مګر چې تاسو بل ډول وټاکئ. زموږ د ډیمنشیا لرونکو سالمندانو لپاره د یادولو لوبو لارښود تشریح کوي چې هره لوبه څنګه نرمه وساتئ."
+        "a": "دا د انځورونو جوړه کولو او انځورونو لوبې دي چې هر زوړ عمر لرونکی کولی شي له یې خوند واخلي، خو داسې جوړې شوې دي چې حافظه وازمویي نه: په انځورونو جوړو کې، که بل ډول وټاکئ، انځورونه مخ پورته ښکاره پاتې کیږي. هر حافظې لوبه کېدای شي د وخت شمارونکي او نمرو له لرې کولو سره نرمه شي."
       },
       {
         "q": "ایا د پالنې په کور کې د ډلو لپاره لوبې شته؟",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "ایا د ډیمنشیا فعالیتونو اپلیکېشن شته؟",
+        "q": "آیا د زوړ عمر لرونکو او کورنیو لپاره اپلیکیشن شته؟",
         "a": "هو. Creative Activities (لېست شوی لکه \"{storeName}\") په App Store او Google Play کې وړیا دی. دا د لویو کاشیو سره د عکسونو نرمه برابرول، د هغه کورنۍ عکسونو سره لوبې چې تاسو یې ټاکئ، او د انځور کڅوړې وړاندې کوي چې له انټرنیټ پرته کار کوي."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "چاپ کېدونکی",
     "howTo": "{name} څنګه وکړو",
     "tips": "د یوځای لوبې لپاره لارښوونې",
-    "newToPlayingHtml": "د ډیمنشیا لرونکي کس سره د لوبې لپاره نوي یاست؟ ولولئ <a href=\"/caregiving/how-to-play-together/\">یوځای لوبې څنګه وکړو</a>، پشمول دا چې که هغه علاقه له لاسه ورکړي څه وکړئ.",
+    "newToPlayingHtml": "د زوړ عمر لرونکي یا د ډیمینشیا سره ژوند کوونکي چا سره د لوبو کولو لپاره نوي یاست؟ <a href=\"/caregiving/how-to-play-together/\">څنګه ګډې لوبې وکړو</a> ولولئ، پشمول دا چې څه وکړئ که هغوی علاقه له لاسه ورکړي.",
     "moreAria": "د ډېرو کشفولو لپاره",
     "helpfulGuides": "ګټور لارښودونه",
     "appTitle": "په اپلیکېشن کې یې لوبه وکړئ",
@@ -536,6 +666,35 @@
     "goodToKnow": "پوهېدل ښه دي",
     "goodToKnowText": "دا لوبه د خوند اخیستو او یوځای وخت تېرولو لپاره ده. دا هېڅ شی نه ازمویي، نه اندازه کوي او نه درملنه کوي.",
     "moreGames": "نورې نرمې لوبې",
-    "crumb": "لوبې"
+    "crumb": "لوبې",
+    "print": {
+      "heading": "په کاغذ لوبه وکړئ",
+      "sameRules": "د کاغذي نسخه د سکرین د لوبې په ورته قواعدو سره ده:",
+      "button": "د کاغذي نسخه چاپ کړئ",
+      "pageNote": "یوه پاڼه په A4 یا US Letter، په تور او سپین رنګ هم ښه. نسخه {date}.",
+      "islandNote": "دا هغه څه چاپوي چې اوس په سکرین کې دي. نسخه {date}.",
+      "sheetTitle": "{name}: د کاغذ نسخه",
+      "point": "په کاغذ کې، د انځور ټکولو پر ځای ورته اشاره وکړئ، یا د قلم سره یې کرښه وټاکئ. هره کرښه نوې ټولګه ده.",
+      "pointTarget": "په کاغذ کې، هغه انځور چې باید وګورئ د هرې کرښې په پیل کې په بکس کې دی. د ټکولو پر ځای ورته اشاره وکړئ، یا د قلم سره یې کرښه وټاکئ.",
+      "halves": "هر انځور په منځ کې پرې شوی. له کیڼ اړخ د هر نیمایي څخه، هغه نیمایي ته کرښه راکاږئ چې ورسره سم وي، یا په ګوتې اشاره وکړئ. هیڅ شی پرې کولو ته اړتیا نلري.",
+      "grid": "هر مربع شمیره لري. دا شمیره په کیلي کې ومومئ، او مربع د هغه رنګ پنسل سره رنګ کړئ. نور هر خوښ رنګ هم ښه دی. هیڅ شی پرې کولو ته اړتیا نلري.",
+      "colors": "هره کرښه یو رنګ نومي. هغه ټول انځورونه ټاکئ چې دغه رنګ لري، یا د قلم سره یې کرښه وټاکئ. هره کرښه نوې ټولګه ده.",
+      "dice": "د ډایسونو هره کرښه یوه ټولګه ده. یوه کرښه وټاکئ، یا انځورونه پرې کړئ او له یوې ډډې ځینې راوباسئ، بیا د هغوی په هر ترتیب کې یوه کیسه وکړئ. هرچا کولی شي تیر شي.",
+      "words": "کلمې پرې کړئ، یا له هرې کلمې څخه تر انځور پورې کرښه راکاږئ. کله چې ځئ، کلمې په لوړ آواز ولولئ.",
+      "cards": "کارتونه د ډیرو کرښو سره پرې کړئ. مخ پورته په میز کې یې کیږدئ، بیا جوړې ومومئ.",
+      "chain": "په کاغذ کې، انځورونه له کیڼ څخه ښي خوا ته، یو په بل پسې ولولئ. هر کس د تر اوسه انځورونو په اړه یوه جمله وایي، بیا بل انځور ته اشاره کوي. هرچا کولی شي تیر شي.",
+      "sort": "انځورونه د ډیرو کرښو سره پرې کړئ، بیا هر یو هغه بکس ته واچوئ چې ورپورې تړاو لري.",
+      "puzzle": "لوی انځور د ډیرو کرښو سره په څلورو ټوټو پرې کړئ او ګډ یې کړئ. په هر وخت دوې ټوټې بدلې کړئ تر دې چې انځور بشپړ شي. کوچنی انځور لارښود دی.",
+      "cutSafety": "یو مرستندوی کولی شي له پیل مخکې پرې کول وکړي. وروسته څاښې ځای ته کیږدئ.",
+      "version": "نسخه {date} · {url}",
+      "reasons": {
+        "photos": "د کاغذ نسخه نشته. دا لوبه ستاسو خپل عکسونه کاروي، چې ستاسو په براوزر کې پاتې کیږي او هیڅکله نه اپلوډیږي، نو سایټ یې نشي چاپولی. د کاغذ پر سر د لوبې لپاره، د ځینو خوښو عکسونو دوه کاپي په کور کې چاپ کړئ او په میز کې یې سره جوړه کړئ.",
+        "paced": "د کاغذ نسخه نشته. دایره په سکرین کې ورو، یو ثابت وخت ټاکي، او چاپ شوې پاڼه دا نشي کولی، نو دا به بل ډول فعالیت وي. یو ارام وقفه ګډه، بې له سکرین، تل یو انتخاب دی.",
+        "turns": "د دې لوبې کاغذي نسخه نشته. د میز پر سر جوړې موندلو لپاره، د انځورونو جوړه کولو کارتونه چاپ کړئ او په نوبت یې اړوئ.",
+        "screen": "د کاغذ نسخه نشته. دا یوه انځور دی چې په سکرین کې یوځای وګورئ؛ میز ته د یوې خوښې عکس یا پوستکارډ ایښودل همدا کار کوي.",
+        "wash": "د کاغذ نسخه نشته. په کاغذ باندې د اوبو رنګ هم همدا نظر لري: یوه لوند برش او هرځل یو رنګ.",
+        "sayings": "تر اوسه د کاغذ نسخه نشته. په کاغذ کې به ټول پای یوځل ښکاره شي، او د نرم «پای ښکاره کړئ» ګام به له لاسه ولاړ شي. ویناوې په سکرین کې یوځای ولولئ، یا هغه څو ویناوې شریکې کړئ چې تاسو دواړه یې پېژنئ."
+      }
+    }
   }
 }

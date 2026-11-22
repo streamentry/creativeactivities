@@ -536,17 +536,17 @@
   "seasonal-pack": {
     "name": "Évszakos rejtvénycsomag",
     "seoTitle": "Évszakos rejtvénycsomag: kinyomtatható papíralapú rejtvények",
-    "h1": "Évszakos rejtvénycsomag: három papíralapú rejtvény minden évszakra",
-    "description": "Három kis, kinyomtatható rejtvény tavaszra, nyárra, őszre vagy télre: párosítsa az azonos képeket, karikázza be a különbözőt, és színezzen ki egy képet. Válasszon évszakot, vagy tartson pihenőnapot. Ingyenesen nyomtatható.",
-    "short": "Három kinyomtatható rejtvény a kiválasztott évszakhoz, vagy egy pihenőnap.",
+    "h1": "Szezonális kirakós csomag: három papírkirakós minden hónapra",
+    "description": "Három kis nyomtatható kirakós bármelyik év bármelyik hónapjára: párosítsa össze az azonos képeket, karikázza be a más(ik) képet, és színezzen ki egy rajzot. Az oldal az aktuális hónappal nyílik, de választhat másikat is, vagy pihenőnapot. Nyomtatása ingyenes.",
+    "short": "Három nyomtatható kirakós a kiválasztott hónapra, vagy pihenőnap.",
     "players": "Minden korosztálynak, egyedül vagy egymás mellett",
-    "intro": "Válasszon évszakot, és az oldal az évszak képeiből készült három kis papíros rejtvényt mutat: két sort, amelyeket vonallal kell összekötni, egy négyes sort, amelyben be kell karikázni a különbözőt, és egy képet, amelyet ki lehet színezni. Egy oldalt nyomtat ki, majd a három rejtvény közül egyet, kettőt vagy mind a hármat megoldhatja, a saját tempójában. Ha inkább a „Ma pihenőnap van” lehetőséget választja, nincs semmi teendő.",
+    "intro": "Válasszon egy hónapot, és az oldal az adott hónap képeiből három kis papírkirakóst mutat: két sort, amelyeket vonallal kell összekötni, egy négyes sort, amelyben be kell karikázni a más képet, valamint egy képet, amelyet ki lehet színezni. Az oldal eszköze szerinti aktuális hónappal nyílik meg. Egy oldalt nyomtasson ki, majd a három feladatból egyet, kettőt vagy mind a hármat csinálhat meg, a saját tempójában. Ha inkább a \"Ma pihenőnap van\" lehetőséget választja, nincs teendő.",
     "howTo": [
-      "Válasszon évszakot, vagy a „Ma pihenőnap van” lehetőséget.",
-      "Nézze meg a három rejtvényt, majd koppintson az „Az évszak csomagjának nyomtatása” gombra.",
-      "Oldjon meg egyet, kettőt vagy mind a hármat, a saját tempójában.",
-      "Kösse össze a párokat vonallal, karikázza be a különbözőt, és színezze ki a nagy képet.",
-      "Abbahagyhatja bármikor. A pihenőnap is egy jó nap."
+      "Válasszon egy hónapot, vagy a \"Ma pihenőnap van\" lehetőséget.",
+      "Nézze meg a három kirakóst, majd koppintson a \"Ennek a hónapnak a csomagjának nyomtatása\" gombra.",
+      "Egyet, kettőt vagy mind a hármat csinálhatják, a saját tempójukban.",
+      "Kösse össze a párokat vonallal, karikázza be a más képet, és színezze ki a nagy képet.",
+      "Bármikor abbahagyhatják. A pihenőnap is jó nap."
     ],
     "tips": [
       "Kezdjen azzal a rejtvénnyel, amelyik ma a legkönnyebbnek tűnik. Egy is elég.",
@@ -717,6 +717,49 @@
       {
         "q": "Ingyenes, és kell regisztrálni?",
         "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, tableten vagy számítógépen, a webböngészőben működik."
+      }
+    ]
+  },
+  "word-and-picture-pairs": {
+    "name": "Szavak és képek párosítása",
+    "seoTitle": "Szavak és képek párosítása: illesszen szavakat a képekhez",
+    "h1": "Szavak és képek párosítása: illessze a szót a képhez",
+    "description": "Párosítsa az angol szavakat a hozzájuk tartozó képekkel, és bármelyik szót felolvastathatja. A képek végig láthatók, nincs időmérés, pontszám vagy próbálkozások számlálása. Játszani és nyomtatni is ingyenes.",
+    "short": "Párosítsa minden szót a képéhez, és hallgassa meg felolvasva.",
+    "players": "Egy felnőtt, vagy egy család, akik egymás mellett játszanak",
+    "intro": "Négy vagy hat kép látható, a nekik megfelelő angol szavak pedig más sorrendben. Koppintson egy szóra, majd a hozzá tartozó képre, vagy előbb egy képre, majd a hozzá tartozó szóra. Az egymáshoz illő pár vastag kerettel és a \"Párosítva\" szóval együtt marad. Bármelyik szó mellett a \"Felolvasás\" gombra koppintva meghallgathatja a szó kiejtését. Nincs időmérés és pontozás, a nem egyező koppintás pedig magától törlődik.",
+    "howTo": [
+      "Válasszon négy vagy hat képet. A négy a legegyszerűbb.",
+      "Koppintson egy szóra, majd a hozzá tartozó képre. Vagy előbb koppintson egy képre, majd a hozzá tartozó szóra.",
+      "Az egymáshoz illő pár együtt marad. A nem egyező koppintás csendben törlődik, így próbálja meg újra.",
+      "Ha az eszköze tud szöveget felolvasni, koppintson a szó melletti \"Felolvasás\" gombra.",
+      "Új képkészletért koppintson az \"Új képek\" gombra, vagy a \"Kezdje újra\" gombbal bontsa szét az összes párt. A \"Visszateszem\" gomb visszahozza az utolsó párosításokat."
+    ],
+    "tips": [
+      "Mielőtt párosítana egy szót, mondják ki együtt hangosan, és beszéljenek a képről.",
+      "A családtagok váltva játszhatnak. Mindenki egyszerre egy szót vagy egy képet választ.",
+      "Először a már ismert szavakkal kezdjenek, a többit hagyják későbbre."
+    ],
+    "faq": [
+      {
+        "q": "Van időmérő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vereség sem. Bármikor abbahagyhatja, és a félbehagyott játék is teljesen rendben van."
+      },
+      {
+        "q": "Gyerekeknek készült?",
+        "a": "Felnőtteknek készült, akik angol szavakat tanulnak vagy újra tanulnak, illetve családoknak, akik egymás mellett játszanak. Nem gyerekeknek íródott."
+      },
+      {
+        "q": "Mi van, ha az eszközöm nem tud szöveget felolvasni?",
+        "a": "A \"Felolvasás\" gomb a böngészőjében már meglévő hangot használja. Ha a böngésző nem tud beszélni, a gomb nem jelenik meg, a játék pedig enélkül is működik."
+      },
+      {
+        "q": "Van papíralapú változata?",
+        "a": "Igen. Egy egy oldalas lapon hat kép és a hozzájuk tartozó hat szó található, amelyeket kivághat vagy vonallal összeköthet."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálnom?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, tableten vagy számítógépen, webböngészőben működik."
       }
     ]
   },

@@ -84,13 +84,19 @@ class AgyTranslateTests(unittest.TestCase):
         self.assertIn("retry in 5s", str(error.exception))
 
 
-    def test_language_catalog_has_185_unique_codes_including_south_azerbaijani(self) -> None:
+    def test_language_catalog_has_190_unique_codes_including_south_azerbaijani(self) -> None:
         codes = [language['code'] for language in agy_translate.languages()]
-        self.assertEqual(len(codes), 185)
-        self.assertEqual(len(set(codes)), 185)
+        self.assertEqual(len(codes), 190)
+        self.assertEqual(len(set(codes)), 190)
         self.assertIn('en', codes)
         self.assertIn('azb', codes)
         self.assertEqual(codes.count('az'), 1)
+
+    def test_language_catalog_covers_every_site_language_including_regional_variants(self) -> None:
+        codes = {language['code'] for language in agy_translate.languages()}
+        self.assertEqual(set(agy_translate.locale_codes()) - codes, set())
+        for code in ('pt-BR', 'pt-PT', 'zh-Hans', 'zh-Hant', 'fil'):
+            self.assertIn(code, codes)
 
     def test_language_catalog_rejects_duplicate_codes(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

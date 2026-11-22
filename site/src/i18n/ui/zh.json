@@ -7,16 +7,22 @@
     "homeLabel": "Creative Activities 首页",
     "mainNav": "主要导航",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities：茶杯、向日葵与小狗的温馨大图",
+    "defaultImageAlt": "Creative Activities：大幅、亲切的插画，展示日常生活中的各种物件，供人动手制作和一起玩",
     "languages": "语言",
     "englishOnly": "（英文）",
     "machineTranslated": "本页面为自动翻译内容，尚未经过人工审核。",
     "readOriginal": "阅读英文原文",
     "nav": {
+      "find": "Find an activity",
       "games": "小游戏",
       "activities": "日常活动",
       "caregiving": "陪伴照护",
-      "brainHealth": "大脑健康"
+      "brainHealth": "大脑健康",
+      "crafts": "手工",
+      "kids": "儿童",
+      "together": "共享时光",
+      "creativeCalm": "创意放松",
+      "search": "搜索"
     },
     "faqTitle": "常见问答",
     "breadcrumb": "当前位置",
@@ -27,7 +33,32 @@
       "label": "字号大小",
       "smaller": "标准字号",
       "larger": "大号字体",
-      "contrast": "高对比度"
+      "contrast": "高对比度",
+      "colors": "配色",
+      "light": "浅色",
+      "dark": "深色",
+      "device": "与本设备相同",
+      "lineLength": "行长",
+      "standardLines": "标准",
+      "shorterLines": "较短的行",
+      "spacing": "间距",
+      "standardSpacing": "标准",
+      "moreSpace": "更宽松"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 种活动灵感",
     "lateStage": "后期舒缓活动",
     "printable": "可打印活动",
-    "allActivities": "全部活动",
+    "allActivities": "所有活动指南",
     "forCaregivers": "给照护者",
     "playTogether": "如何一起互动",
     "selfCare": "关爱自己",
@@ -54,24 +85,34 @@
     "app": "Creative Activities 应用程序",
     "appHelp": "应用帮助",
     "support": "支持与咨询",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "法律信息",
     "sitePrivacy": "网站隐私政策",
     "appPrivacy": "应用隐私政策",
     "privacyChoices": "隐私选项",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "条款与许可",
     "safety": "安全与设计初衷",
     "accessibility": "无障碍说明",
     "healthNotice": "健康信息须知",
     "allLegal": "全部法律信息",
     "note": "Creative Activities 提供简单易用的互动活动，旨在带来愉悦与陪伴。本网站不提供医疗建议，不做测试或治疗，也不对任何人进行诊断、评估或打分。如有健康疑问，请咨询专业医生。如遇紧急情况，请拨打急救电话 120。",
-    "publisher": "由 Cloudjet Solutions Pte. Ltd. 出版发行"
+    "publisher": "由 Cloudjet Solutions Pte. Ltd. 出版发行",
+    "crafts": "适合所有年龄的手工",
+    "kids": "儿童活动",
+    "together": "可以一起做的活动",
+    "creativeCalm": "创意放松",
+    "dementiaActivities": "为患有痴呆症的人设计的活动"
   },
   "home": {
-    "title": "认知症与阿尔茨海默病互动游戏与日常活动 | Creative Activities",
-    "description": "专为认知症或阿尔茨海默病人士及其照护者设计的免费温和在线图片游戏与活动灵感。无需注册，没有倒计时或计分。",
+    "title": "为照顾他人的人准备的创意活动",
+    "description": "免费的创意活动，适合照顾他人的人：手工、儿童活动、可以一起做的事情，以及轻松的创意点子。",
     "eyebrow": "免费 · 无广告 · 无需注册 · 无计时与计分",
-    "h1": "为认知症人士设计的温和游戏与日常活动",
-    "lede": "简单的图片游戏、熟悉的生活照片，以及一起轻松享受的活动——节奏完全由您做主。",
+    "h1": "一起动手做点什么",
+    "lede": "找一个适合对方、适合当下情况、也适合您手边材料的活动。简单的手工、儿童绘画、可以一起做的事情，以及轻松的创意点子，都附有更容易的做法和可打印的卡片。想停下来随时可以停。",
     "playGame": "体验小游戏",
     "findIdeas": "寻找活动灵感",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 种活动灵感",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "早期阶段",
         "text": "稍微做些调整，继续享受他们喜爱的事情：兴趣爱好、外出走走、文字互动以及一起商量日常安排。",
         "label": "早期活动灵感"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "中期阶段",
         "text": "把熟悉简单的事情拆解成小步骤：叠衣服、整理归类、听音乐、图片互动以及短途散步。",
         "label": "中期活动灵感"
@@ -124,10 +165,10 @@
         "label": "后期活动灵感"
       }
     ],
-    "specificHtml": "想找特定类型的活动？不妨看看<a href=\"/activities/alzheimers/\">适合阿尔茨海默病的活动与游戏</a>、<a href=\"/activities/memory-games/\">温和记忆小游戏</a>、<a href=\"/activities/trivia/\">轻松趣味问答</a>或<a href=\"/activities/puzzles/\">益智拼图</a>。",
+    "specificHtml": "想找特定的内容？可以试试<a href=\"/dementia-activities/\">阿尔茨海默病的活动和游戏</a>、<a href=\"/together/puzzles-and-table-games/\">拼图和桌面游戏</a>、<a href=\"/together/conversation-games-for-all-ages/\">交谈游戏</a>，或者<a href=\"/together/puzzles-and-table-games/\">拼图</a>。",
     "approachEyebrow": "我们的理念",
-    "approachTitle": "是一起享受的活动，而非记忆测试",
-    "approachLede": "许多“大脑训练游戏”都在强调速度、分数和连胜纪录。对认知症人士来说，这往往更像一场考试。而我们所做的恰恰相反。",
+    "approachTitle": "一起参与的活动，而不是测验",
+    "approachLede": "许多“益智游戏”都围绕速度、分数和连胜来设计。对于疲惫、身体不适或患有痴呆症的人来说，这可能像是一场考试。我们做的恰恰相反。",
     "approachLink": "我们为什么这样设计",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "常见的拒绝原因，以及过会儿再温和尝试的方法。"
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "如何设置平板电脑",
-        "text": "调大字号、减少通知干扰，并保留一个简洁清爽的主屏幕。"
+        "href": "/activities/group-art-activities/",
+        "title": "集体艺术活动",
+        "text": "适合一张桌子边几个人共同完成的作品，每个人都有一份任务。"
       },
       {
-        "href": "/activities/printable/",
-        "title": "免费可打印活动素材",
-        "text": "大字版寻字游戏、填色图纸、宾果与聊天卡片。"
+        "href": "/activities/ideas/",
+        "title": "101 个活动点子",
+        "text": "简单的点子，按您手边的材料和当下的精力来分类。"
       }
     ],
     "researchTitle": "大脑健康：科学研究究竟怎么说",
@@ -185,19 +226,19 @@
     "aboutApp": "了解应用",
     "faq": [
       {
-        "q": "哪些游戏适合认知症人士？",
-        "a": "好的互动游戏通常简单、熟悉，而且没有任何压力：大图配对、物品分类、简单拼图、接俗语下半句、涂色、图片宾果以及对话卡片。最好的选择，就是长辈今天玩得开心的那一个。尽量避开倒计时、计分，以及任何让人觉得像在考试的环节。"
+        "q": "适合老年人的游戏有哪些？",
+        "a": "好的游戏简单、熟悉、没有压力：配对大图片、分类、简单的拼图、补全大家熟知的俗语、涂色、图片宾果和交谈卡片。这些游戏适合许多老年人，包括患有痴呆症的人。最好的选择是对方今天喜欢的那一个。避免计时、记分，以及任何让人觉得像考试的东西。"
       },
       {
-        "q": "这些适合认知症人士的游戏是免费的吗？",
+        "q": "这些游戏是免费的吗？",
         "a": "是的。Creative Activities 上的每一款游戏和打印素材都是完全免费的，无需注册账号、登录或下载。通过手机、平板或电脑的网页浏览器即可直接开始。"
       },
       {
         "q": "益智游戏能预防认知症吗？",
-        "a": "目前尚无研究表明任何游戏可以预防认知症，Creative Activities 也从不声称具有治疗或预防功效。我们的游戏旨在带来乐趣与相伴的时光。在脑健康板块中，我们客观介绍了现有研究所证实及尚未证实的内容。"
+        "a": "目前没有任何游戏被证明可以预防痴呆症，Creative Activities 也不声称能治疗或预防任何疾病。我们的游戏是为了让人享受乐趣、共度时光，没有任何活动页面会做出健康方面的声明。"
       },
       {
-        "q": "这些游戏适合阿尔茨海默病人士吗？",
+        "q": "这些游戏适合患有阿尔茨海默病的人吗？",
         "a": "适合。阿尔茨海默病是导致认知症最常见的原因，我们的游戏正是为此量身设计：画面大且始终显示、选项少，无需刻意记忆，也不会有做错的挫败感。配对、分类和接俗语依靠的是长期积累的记忆与常识，不需要重新学习新技能。"
       },
       {
@@ -210,7 +251,36 @@
       },
       {
         "q": "谁制作了 Creative Activities？",
-        "a": "Creative Activities 是一个小团队，致力于通过网站和免费应用程序，为家庭及照护者提供温和、适合成年人的图片互动活动。我们不是临床医生，此处提供的任何内容均不构成医疗建议。"
+        "a": "Creative Activities 是一个小团队，为照顾他人的成年人制作平和的创意活动，提供网页版和免费应用。我们不是临床医生，这里的内容也不构成医疗建议。"
+      }
+    ],
+    "groupsEyebrow": "从这里开始",
+    "groupsTitle": "四类创意活动",
+    "groupsLede": "从最适合您身边的人和手边材料的类别开始。每个页面都有更容易的做法和安全提示。",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "手工",
+        "text": "纸张、颜料、废旧材料和应季主题的作品，每一项都有更容易的版本。",
+        "label": "浏览手工"
+      },
+      {
+        "href": "/kids/",
+        "title": "儿童",
+        "text": "为儿童设计的绘画和游戏，身边有成年人陪伴，并附有清晰的安全提示。",
+        "label": "浏览儿童活动"
+      },
+      {
+        "href": "/together/",
+        "title": "共享时光",
+        "text": "交谈、拼图、户外活动，以及跨越几代人保持亲近的方式。",
+        "label": "浏览可以一起做的事情"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "创意放松",
+        "text": "用铅笔、纸张或一首歌，安静地度过放慢节奏的创意时刻。这不是治疗。",
+        "label": "浏览创意放松"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "打印素材",
     "play": "开始玩 {name} →",
     "readGuide": "阅读指南"
+  },
+  "listen": {
+    "listenSteps": "听取步骤",
+    "pause": "暂停",
+    "resume": "继续",
+    "stop": "停止",
+    "speed": "语速",
+    "normal": "正常",
+    "slower": "更慢",
+    "reading": "正在朗读步骤。",
+    "paused": "已暂停。按“继续”接着听。",
+    "note": "使用您设备自带的语音。有些设备会把文字发送给其制造商来朗读。",
+    "listen": "听取",
+    "stepLabel": "听取第 {n} 步",
+    "stopStep": "停止第 {n} 步"
   },
   "playCta": {
     "title": "准备好开始轻松温和的互动了吗？",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "日常活动",
-      "title": "适合认知症人士的日常活动",
-      "seo": "适合认知症人士的活动：分阶段活动灵感",
-      "description": "为处于不同阶段的认知症人士准备的活动灵感：音乐、怀旧回忆、日常家务、感官体验、手工艺、户外散步以及免费打印素材。",
-      "lede": "有意义的活动，是任何能带来舒适感、归属感或温情连接的事物。从长辈一直以来的喜好出发，并根据当下的状态灵活调整。"
+      "label": "活动指南",
+      "title": "活动指南",
+      "seo": "活动指南：点子、美术材料和开始的方法",
+      "description": "通俗易懂的指南，介绍可以和他人一起做的创意活动：简单的点子、省钱的美术材料、集体绘画、书信、回忆，以及对艺术治疗的解释。",
+      "lede": "简短实用的指南，帮助您和对方一起挑选并开始一项活动，无论对方的年龄或能力如何。"
+    },
+    "crafts": {
+      "label": "手工",
+      "title": "适合所有年龄的手工",
+      "seo": "适合所有年龄的简单手工，附更容易的做法",
+      "description": "适合成年人、儿童和家庭的简单手工：纸工、涂色、废旧材料和应季手工，附有更易抓握和可坐着完成的做法，无需特殊技能。",
+      "lede": "从大多数家里都有的材料开始的手工，每项都附有更容易的做法，人人都能做出一件作品。"
+    },
+    "kids": {
+      "label": "儿童",
+      "title": "儿童创意活动",
+      "seo": "儿童创意活动：艺术、感官与平静",
+      "description": "面向儿童的创意活动：幼儿绘画、过程艺术、感官游戏、雨天手工和让情绪平静下来的点子，附安全提示，并提供适合感官需求的版本。",
+      "lede": "为不同年龄和需求的儿童准备的绘画和游戏点子，附清晰的安全提示，并需要成年人在旁陪伴。"
+    },
+    "together": {
+      "label": "共享时光",
+      "title": "可以一起做的活动",
+      "seo": "可以一起做的活动，跨越几代人",
+      "description": "适合两代或更多代人的活动：交谈游戏、拼图、户外时光、祖孙一起做的手工，以及远隔两地时保持亲近的方式。",
+      "lede": "与父母、祖辈、孩子或朋友分享时光的点子，无论在家中、户外、探访时，还是相隔两地时都适用。"
+    },
+    "creative-calm": {
+      "label": "创意放松",
+      "title": "创意放松",
+      "seo": "创意放松：舒缓的艺术活动，帮您放松身心",
+      "description": "适合成年人和照护者的舒缓创意活动：正念绘画、写日记、音乐、感官时刻和宁静的下午。这是创意活动，不是治疗。",
+      "lede": "用铅笔、纸张或一首歌，温和地慢下来。这些是创意活动，不是治疗，也不需要任何技能。"
     },
     "caregiving": {
-      "label": "照护指南",
-      "title": "照护实用指南",
-      "seo": "认知症照护指南：日常实用建议与支持",
-      "description": "为认知症照护者提供的实用贴心指南：一同互动游戏、沟通交流、应对抗拒情绪、傍晚烦躁（日落综合征）、平板电脑使用、应用选择以及自我关怀。",
-      "lede": "在照顾认知症长辈的日常点滴中，为您提供平实、实用的帮助，同时也关怀照顾好您自己。"
+      "label": "痴呆症照护",
+      "title": "照顾患有痴呆症的家人",
+      "seo": "照顾患有痴呆症的家人：活动与帮助",
+      "description": "为照顾痴呆症家人的家庭提供指南：如何一起玩、对方拒绝时怎么办，以及确诊后去哪里找可信赖的帮助。",
+      "lede": "为照顾患有痴呆症家人的家庭，提供以活动为先的帮助，并指引您去哪里获取医疗和照护方面的建议。"
     },
     "brain-health": {
       "label": "脑健康",
@@ -283,7 +396,16 @@
     "tryTogether": "一起试试",
     "relatedGuides": "相关指南",
     "related": "相关推荐",
-    "startHere": "从这里开始"
+    "startHere": "从这里开始",
+    "staleAria": "译文已过时",
+    "staleTitle": "此译文已过时",
+    "staleText": "此译文是根据英文页面的较早版本翻译的，之后英文页面已有更新。英文页面才是最新版本。",
+    "staleHealth": "此页面提供健康信息，请先查看英文页面，并在采取行动前咨询医生或护士。",
+    "staleLink": "阅读最新的英文页面"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "健康信息声明",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "共享陪伴的活动，而非记忆测试",
+      "title": "一起做的活动，而不是测验",
       "seoTitle": "关于 Creative Activities：我们的理念",
-      "description": "为什么 Creative Activities 游戏没有计时、计分或连续记录，为什么图片始终显示，以及我们对认知症秉持怎样的客观表述。",
+      "description": "为什么 Creative Activities 没有计时器、分数或连续记录，为什么图片会一直显示，以及我们会和不会对健康作出哪些说法。",
       "crumb": "我们的理念",
-      "lede": "Creative Activities 致力于打造温和、适合成年人的图片活动，让照护者能与认知症长辈并肩享受轻松愉悦的相伴时光。",
-      "bodyHtml": "<h2>我们的理念</h2><p>一次互动的意义，就在于当下的这一刻：一句简单的交谈、一个微笑、把两张图片拼在一起的满足感，或是安安静静地并肩坐着。活动不是为了衡量谁的能力、催促谁进步，也不是为了证明什么。</p><p>很多健脑应用常常围绕速度、得分、连胜记录和关卡来设计。对于认知障碍人士来说，这往往像是一场通不过的考试。我们的设计恰恰相反，并始终遵循以下原则：</p><ul><li><strong>没有失败这回事。</strong>任何页面都不会出现倒计时、计分、步数限制、生命值、连胜、撒花特效或时间限制。</li><li><strong>认得就好，无需费力回忆。</strong>图片默认保持展开可见。提示语重在开启交流，从不考问人名或过去的记忆。</li><li><strong>大字、清晰、稳定。</strong>文字和图片清晰易读，对比度高，操作按键始终固定在同一位置。</li><li><strong>维护成年人的尊严。</strong>采用贴近生活的真实照片，搭配朴实温和的文字。没有低幼的卡通图画、夸张的表扬语或表情包奖励。</li><li><strong>随时轻松退出。</strong>页面上总能看到“先到这里吧”的退出选项。玩到一半随时停下，本身就是很好的体验。</li><li><strong>注重隐私。</strong>无需注册账号，没有广告。您选择的照片仅保留在您的设备本地。</li></ul><h2>我们不做任何医疗承诺</h2><p>我们的游戏旨在带来乐趣与亲近的陪伴。它们不能诊断、测试、评估、治疗、延缓或预防认知障碍症或阿尔茨海默病，任何人都不应出于这些目的来选择这些游戏。当我们在<a href=\"/brain-health/\">脑健康页面</a>介绍相关研究时，如果证据不足，我们会如实说明，绝不会将研究结论与我们的游戏关联起来。</p><h2>我们是谁</h2><p>Creative Activities 是一个小型独立团队。我们不是临床医生。我们的指南内容均基于 National Institute on Aging 和 Alzheimer’s Association 等机构公开发布的指导资料撰写，每份指南均注明参考来源。请阅读<a href=\"/editorial-policy/\">我们撰写和审核内容的方式</a>。</p><h2>期待您的反馈</h2><p>我们非常想了解哪些设计对您有帮助、哪些体验不够理想，尤其期待收到认知障碍人士、家庭照护者以及活动组织人员的真实想法。欢迎发送邮件至 <a href=\"mailto:{email}\">{email}</a>。</p>"
+      "sponsors": {
+        "heading": "赞助方与合作伙伴",
+        "none": "Creative Activities 没有赞助方，没有付费推广，也没有在网站上展示标志的合作伙伴。",
+        "listed": "以下是 Creative Activities 的赞助方与合作伙伴。每一项合作关系也会在其出现的页面上予以说明。",
+        "policy": "如果情况有变，相关页面会在出现之处予以说明；任何活动都不会带有赞助方名称，合作伙伴名单也将列在本页。",
+        "listHeading": "合作伙伴名单",
+        "noPartners": "目前没有合作伙伴。"
+      },
+      "lede": "Creative Activities 提供平和、适合成年人的活动，两个人可以并肩一起享受，无论是一方在照顾另一方，还是两人只想共度时光。",
+      "bodyHtml": "<h2>适合哪些人</h2><p>适合所有照顾他人的人：父母、祖父母、子女、伴侣、朋友，或患有痴呆症的人本人。家庭、年长者和活动工作人员都可以使用相同的页面。</p><h2>我们的理念</h2><p>活动的意义在于当下的时刻：一次交谈、一个笑容、把两张图片拼在一起的满足感，或者只是安静地坐在一起。它不是为了评估任何人、不是为了推动对方更进一步，也不是为了证明什么。</p><p>许多脑力训练应用都围绕速度、分数、连续记录和等级来设计。对于疲惫、身体不适或患有痴呆症的人来说，这可能像一场无法及格的考试。我们做的恰恰相反，并坚持以下规则：</p><ul><li><strong>没有失败的可能。</strong>任何屏幕上都没有时钟、分数、步数计数、生命值、连续记录、彩带或倒计时。</li><li><strong>重在辨认，而非回忆。</strong>图片默认一直显示。提示用于引发交谈，从不考问名字或记忆。</li><li><strong>大字、简明、稳定。</strong>大号文字和图片、高对比度，操作按钮始终放在同一位置。</li><li><strong>保持成年人的尊严。</strong>使用真实场景的图片和朴实温暖的文字。不使用卡通、哄孩子式的赞美或表情符号奖励。</li><li><strong>随时可以停下。</strong>“暂时到此为止”始终清晰可见。做到一半就停下，同样是很好的结果。</li><li><strong>默认保护隐私。</strong>没有账户，也没有广告。您选择的照片只保存在您的设备上。</li></ul><h2>我们不作的声称</h2><p>我们的游戏和活动是为了带来乐趣和彼此联系。它们不能诊断、测试、测量、治疗、延缓或预防痴呆症或阿尔茨海默病，也不应基于这一目的来选择它们。在撰写健康研究内容时，我们会清楚说明证据何处薄弱，也绝不将其与我们自己的活动联系起来。</p><h2>我们是谁</h2><p>Creative Activities 是一个规模不大的独立团队。我们不是临床医生。我们的指南依据国家老龄研究所、阿尔茨海默病协会等机构发布的指导意见撰写，每份指南都列出了其来源。请阅读<a href=\"/editorial-policy/\">我们如何撰写和核查页面</a>。</p><h2>告诉我们什么会有帮助</h2><p>我们很希望听到哪些做法对您有用、哪些没有用，尤其是来自患有痴呆症的人、家庭照顾者和活动工作人员的意见。请发送邮件至 <a href=\"mailto:{email}\">{email}</a>。</p>"
     },
     "editorial": {
       "title": "我们如何撰写与审核内容",
       "seoTitle": "内容编辑准则",
-      "description": "了解 Creative Activities 如何查证、撰写、引用资料并更新认知症活动与脑健康内容，以及我们坚决不予发布的内容原则。",
+      "description": "Creative Activities 如何研究、撰写、取材并更新其活动和健康页面，以及我们绝不会发布哪些内容。",
       "crumb": "编辑准则",
       "bodyHtml": "<h2>参考来源</h2><p>我们的指南基于来自 National Institute on Aging、CDC、Alzheimer’s Association、Alzheimer’s Foundation of America、Family Caregiver Alliance 和 NHS 等机构的公开指引，以及 Cochrane reviews 和大型临床试验等经同行评议的研究成果。每篇指南均列出了所依据的参考来源。在引用前，我们会认真查阅每一份原始文献，并且只如实转述其结论。</p><h2>撰写原则</h2><ul><li>注重实用：用通俗易懂的语言，说明当下切实可行的事情。</li><li>实事求是：如实陈述证据，该用“可能”、“与……相关”或“现有证据尚不一致”时绝不夸大。</li><li>尊重成人：始终以成年人的视角对待认知障碍人士，绝不使用考问或令人难堪的措辞。</li><li>绝不编造：绝不杜撰任何数据、引言、专家、研究、评论或用户评价。</li></ul><h2>内容审核</h2><p>所有页面均由 Creative Activities 团队撰写并审核，部分调研与草拟过程使用了人工智能工具辅助。每一页内容都由团队对照原始参考来源仔细核对。我们的内容<strong>未经</strong>医生或其他临床医疗专业人员审核，我们也绝不会谎称通过了此类审核。页面内容仅供一般信息参考，不可替代专业医疗建议。</p><h2>我们坚决不予发布的内容</h2><ul><li>宣称某种游戏、食物、营养补充剂、禁食法或生活习惯可以预防、治疗、延缓或逆转认知障碍症。</li><li>暗示某人是否患有认知障碍症的测试、问答或评分工具。</li><li>关于开始、停止或调整任何药物的建议。</li><li>伪装成实用建议的商业广告或赞助内容。</li></ul><h2>内容更新与纠错</h2><p>每个页面均注明最近更新日期。如果您发现内容有误或引用的来源已过时，请发送邮件至 <a href=\"mailto:{email}\">{email}</a>，我们将尽快核实并修正。</p>"
     },
     "faq": {
       "title": "常见问题",
-      "seoTitle": "认知症游戏与活动：常见问题解答",
-      "description": "解答关于认知症游戏与活动的常见疑问：适合尝试哪些游戏、建议玩多长时间、中晚期活动建议、脑健康常识以及隐私保护。",
+      "seoTitle": "关于 Creative Activities 的问答",
+      "description": "常见问题解答：该尝试哪些游戏和活动、每次玩多久、适合团体与后期阶段的想法，以及健康和隐私方面的问题。",
       "crumb": "常见问题解答",
       "lede": "用通俗朴实的语言，回答照护者最常关心的问题。",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "关于游戏",
           "items": [
             {
-              "q": "哪些游戏适合认知障碍人士？",
+              "q": "哪些游戏最适合年长者？",
               "a": "最好的游戏通常简单、熟悉且毫无压力，只要对方今天玩得开心，就是最适合的选择。直观可见的图片配对、物品分类、简单拼图、补全熟悉的谚语俗语、填色涂鸦以及图片宾果等，对许多人来说都非常合适。尽量避免计时、计分或任何让人感觉像在考试的设计。"
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "脑部健康",
+          "title": "痴呆症与健康",
           "items": [
             {
               "q": "玩游戏能预防或延缓认知症吗？",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "了解更多详情：<a href=\"/caregiving/how-to-play-together/\">如何一起玩游戏</a>、<a href=\"/caregiving/when-they-say-no/\">当对方拒绝时</a>、<a href=\"/activities/late-stage/\">晚期活动建议</a>以及<a href=\"/brain-health/can-dementia-be-prevented/\">认知症可以预防吗？</a>"
+      "moreHtml": "更多详情：<a href=\"/caregiving/how-to-play-together/\">如何一起玩</a>、<a href=\"/caregiving/when-they-say-no/\">对方拒绝时怎么办</a>、<a href=\"/activities/late-stage/\">后期阶段的活动</a>，以及<a href=\"/dementia-activities/\">在家进行的痴呆症活动</a>。"
     },
     "handout": {
       "title": "适合认知症人士的温和免费小游戏",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "供养老院、图书馆和互助小组使用",
-      "seoTitle": "面向照护机构与团体的免费认知症活动",
-      "description": "介绍养老院、日间照料中心、图书馆、老龄机构及互助小组如何使用我们的免费认知症游戏，并提供可添加到资源清单中的简介文字。",
+      "seoTitle": "适用于养老院、图书馆和团体的免费活动",
+      "description": "养老院、成人日间项目、图书馆、老龄机构和支持小组如何使用我们免费的游戏和活动指南，以及将我们加入资源清单的文字范本。",
       "crumb": "机构专区",
       "lede": "本网站的所有内容均可免费用于照护院舍长者、会员及服务对象，无需注册账号、无需购买授权，亦无任何费用。本页面将向您介绍站内资源及分享方式。",
-      "shortText": "{name}：专为认知症人士及其照护者设计的免费温和图片游戏与活动指南。无需注册，没有倒计时，不设分数。",
-      "longText": "{name}（{domain}）提供 {count} 款专为认知症人士设计的免费网页游戏，包括正面朝上的图片配对、简易拼图、物品归类、熟悉俗语填空，以及附有可打印卡片的图片宾果游戏。无需注册账号，没有广告，不设计时器或得分。网站还提供通俗易懂的各阶段活动指南，内容参考自 National Institute on Aging 与 Alzheimer's Association。",
+      "shortText": "{name}：为年长者、家庭和患有痴呆症的人提供免费、温和的图片游戏和活动指南。无需注册，没有计时器，也没有分数。",
+      "longText": "{name}（{domain}）为老年人、家庭和患有痴呆症的人免费提供 {count} 款浏览器游戏，包括露出部分图片的配对游戏、简单拼图、分类、熟悉的俗语，以及可打印卡片的图片宾果。无需账户，没有广告、计时器或分数。网站还提供面向家庭、老年人和工作人员的通俗易懂的活动指南，资料来源包括美国国家老龄研究所和阿尔茨海默病协会。",
       "useTitle": "机构可使用的资源",
       "gamesItemHtml": "<strong>{count} 款网页游戏</strong>，可在笔记本电脑、平板电脑或连接电脑的电视上运行。无需安装、注册或下载。查看<a href=\"/games/\">全部游戏</a>。",
       "printablesLabel": "{count} 份可打印资料：",
       "printablesAfter": "请使用每个页面上的“打印”按钮。",
-      "moreItemsHtml": "<li><strong>团体活动形式：</strong><a href=\"/games/picture-bingo/\">图片宾果</a>配有可打印卡片和屏幕报号器，<a href=\"/activities/trivia/\">简易问答</a>包含 50 道带选项和互动话题的问题。</li><li><strong>活动指南</strong>面向工作人员与家属，按不同阶段和类型分类，用通俗语言写成并注明资料来源。您可以从<a href=\"/activities/ideas/\">101 个活动点子</a>或<a href=\"/activities/care-home-groups/\">养老院团体活动</a>开始了解。</li>",
+      "moreItemsHtml": "<li><strong>小组形式：</strong><a href=\"/games/picture-bingo/\">图片宾果</a>提供可打印的卡片和屏幕上的主持人，<a href=\"/together/conversation-games-for-all-ages/\">交谈游戏</a>提供带选项的问题和谈话要点。</li><li><strong>活动指南</strong>，供工作人员和家庭使用，语言通俗，附有资料来源。可以从<a href=\"/activities/ideas/\">101 个活动创意</a>或<a href=\"/crafts/craft-group-sessions/\">养老机构的小组活动</a>开始。</li>",
       "restHtml": "<h2>各类机构的使用方式</h2><ul><li><strong>养老院与记忆照护机构：</strong>在活动室的电视上运行图片宾果或补全俗语，由一位陪护人员协助操作屏幕。</li><li><strong>日间照料中心：</strong>设置平板电脑活动角，将“图片配对”设置为四张卡片，用于简短的一对一陪伴互动。</li><li><strong>公共图书馆：</strong>将打印好的寻字游戏和交流卡放入记忆关爱包中，并在馆内平板电脑上收藏本网站。</li><li><strong>照护者互助小组与记忆咖啡馆：</strong>提供一份<a href=\"/handout/\">单页可打印资料</a>供家庭带回家中使用。</li><li><strong>医院与出院规划团队：</strong>将资料放入照护者指导包中，为居家或床边陪伴提供一份宁静轻松的活动选择。</li></ul><h2>我们不提供的功能与承诺</h2><p>这些游戏旨在带来乐趣与相伴时光。它们不能诊断、测试、评估、治疗或延缓认知症，我们也恳请各机构不要做此类描述。网站内没有广告，游戏亦不会要求填写姓名、健康信息或上传照片。本网站使用 Google Analytics 统计访问次数；我们的<a href=\"/privacy/\">隐私声明</a>详细说明了相关收集内容。<a href=\"/games/photo-pairs/\">照片配对</a>中使用的照片仅保存在浏览器本地。</p><h2>将我们添加到您的资源清单</h2><p>如果您整理了面向照护者的资源清单，欢迎添加指向 <a href=\"/\">{domain}</a> 的链接。您可以直接复制上方任一段简介文字。</p>",
       "shortTitle": "简短介绍",
       "longTitle": "详细介绍",
-      "linksHtml": "<p>建议直接链接的实用页面：<a href=\"/games/\">免费游戏</a>、<a href=\"/activities/printable/\">免费打印资料</a>、<a href=\"/activities/alzheimers/\">适合阿尔茨海默病的活动</a>以及<a href=\"/caregiving/how-to-play-together/\">如何一起玩</a>。</p><h2>疑问或内容勘误</h2><p>如果网站内容有误、表述不清，或者现有内容无法满足长者的需求，请通过 <a href=\"mailto:{email}\">{email}</a> 告知我们。请勿发送长者或服务对象的个人信息或健康隐私资料。</p>"
+      "linksHtml": "<p>可以直接链接的实用页面：<a href=\"/games/\">免费游戏</a>、<a href=\"/games/\">免费可打印材料</a>、<a href=\"/dementia-activities/\">居家痴呆症活动</a>和<a href=\"/caregiving/how-to-play-together/\">如何一起玩</a>。</p><h2>问题或更正</h2><p>如果网站上有内容错误或不清楚，或者居民的需求无法通过这里的内容得到满足，请发送邮件至 <a href=\"mailto:{email}\">{email}</a> 告诉我们。请不要发送居民或服务对象的个人信息或健康信息。</p>"
     },
     "app": {
       "title": "Creative Activities 应用",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "适合认知障碍与阿尔茨海默病长辈的免费在线游戏",
-    "description": "适合认知障碍或阿尔茨海默病长辈的免费在线游戏：图片配对、简单拼图、分类整理、成语俗语、涂色、宾果游戏。无需注册，无计时器，不计分数。",
+    "title": "免费在线游戏，一起玩",
+    "description": "为老年人、家庭和患有痴呆症的人提供的免费在线游戏：图片配对、简单拼图、分类、俗语、涂色和宾果。无需注册，没有计时或计分。",
     "crumb": "游戏",
-    "h1": "适合认知障碍人士的温和游戏",
+    "h1": "轻松的游戏，一起玩",
     "lede": "{count} 款可在浏览器中一同游玩的免费游戏。大图呈现，文字通俗易懂，没有挫败感：无需计时、不计分数、无需注册。",
-    "listName": "适合认知症长辈的温和游戏",
+    "listName": "轻松的游戏，一起玩",
     "byStageTitle": "根据阶段挑选合适的游戏",
     "byStageLede": "阶段划分仅供大致参考。最重要的是顺应长辈今天的喜好与舒适度。",
     "stageCol": "阶段",
     "gamesCol": "通常合适的游戏",
-    "moreHtml": "更多远离屏幕的活动灵感：<a href=\"/activities/ideas/\">适合认知障碍长辈的101种日常活动</a>、<a href=\"/activities/alzheimers/\">阿尔茨海默病活动与游戏</a>、<a href=\"/activities/memory-games/\">温和的记忆游戏</a>以及<a href=\"/activities/puzzles/\">益智拼图</a>。",
+    "moreHtml": "离开屏幕的更多创意：<a href=\"/activities/ideas/\">101 个活动创意</a>、<a href=\"/dementia-activities/\">居家痴呆症活动</a>和<a href=\"/crafts/\">手工</a>。",
     "faq": [
       {
         "q": "我们应该从哪款游戏开始？",
@@ -463,7 +593,7 @@
       },
       {
         "q": "这些是给长辈玩的记忆游戏吗？",
-        "a": "它们是任何长辈都能享受的配对与图片游戏，但设计初衷并不是为了考验记忆力：在“图片配对”中，除非您主动选择遮盖，否则图片会始终正面朝上。我们为认知障碍长辈编写的记忆游戏指南中，也介绍了如何让各类记忆活动保持轻松温和。"
+        "a": "这些是配对和图片游戏，任何老年人都可以享受，但设计初衷并非考验记忆：在“图片配对”中，除非你另行选择，图片会一直正面朝上。任何记忆游戏都可以通过去掉计时器和分数而变得更温和。"
       },
       {
         "q": "照护机构的多人活动有合适的游戏吗？",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "有适合认知障碍长辈的活动应用吗？",
+        "q": "有没有适合老年人和家庭使用的应用程序？",
         "a": "有的。Creative Activities（在应用商店中名称为“{storeName}”）可在 App Store 和 Google Play 免费下载。它提供大图块的温和图片配对、支持自定义家庭照片的互动，以及可离线使用的图片包。"
       },
       {
@@ -526,7 +656,7 @@
     "printable": "可打印",
     "howTo": "如何游玩 {name}",
     "tips": "一起游玩的实用建议",
-    "newToPlayingHtml": "初次陪伴患有认知症的家人玩游戏？请阅读<a href=\"/caregiving/how-to-play-together/\">如何一起玩游戏</a>，包括他们失去兴趣时该怎么做。",
+    "newToPlayingHtml": "第一次和老年人或患有痴呆症的人一起玩？请阅读<a href=\"/caregiving/how-to-play-together/\">如何一起玩游戏</a>，其中包括对方失去兴趣时该怎么办。",
     "moreAria": "探索更多内容",
     "helpfulGuides": "实用指南",
     "appTitle": "在应用中体验",
@@ -536,6 +666,35 @@
     "goodToKnow": "温馨提示",
     "goodToKnowText": "这款游戏旨在带来乐趣和共度美好时光。它不用于任何测试、评估或治疗。",
     "moreGames": "更多温和游戏",
-    "crumb": "游戏"
+    "crumb": "游戏",
+    "print": {
+      "heading": "纸上玩",
+      "sameRules": "纸质版与屏幕上的游戏规则相同：",
+      "button": "打印纸质版",
+      "pageNote": "一页 A4 或美国信纸，黑白打印也清晰。版本 {date}。",
+      "islandNote": "打印的是当前屏幕上显示的内容。版本 {date}。",
+      "sheetTitle": "{name}：纸质版",
+      "point": "在纸上玩时，用手指指向图片，而不是点击，或者用笔圈出。每一行是一组新的图片。",
+      "pointTarget": "在纸上玩时，要看的图片位于每一行开头的方框中。用手指指向图片，而不是点击，或者用笔圈出。",
+      "halves": "每张图片都从中间剪开。用笔把左边的每一半与右边合适的那一半连起来，或用手指指出来。无需剪裁。",
+      "grid": "每个方格都有一个数字。在图例中找到该数字，然后用相应颜色的铅笔给方格涂色。涂其他喜欢的颜色也可以。无需剪裁。",
+      "colors": "每一行都标明一种颜色。指出所有该颜色的图片，或用笔圈出。每一行是一组新的图片。",
+      "dice": "每一行是一组骰子图片。选一行，或者把图片剪下来，从一堆中抽取，然后按任意顺序用它们讲一个故事。任何人都可以跳过。",
+      "words": "剪下词语，或用笔把每个词语与对应的图片连起来。边看边大声读出词语。",
+      "cards": "沿虚线剪下卡片。正面朝上摆在桌上，然后找出配对的卡片。",
+      "chain": "在纸上玩时，从左到右依次看图片。每个人根据目前看到的图片说一句话，然后指向下一张图片。任何人都可以跳过。",
+      "sort": "沿虚线剪下图片，然后把每张图片放进它所属的盒子里。",
+      "puzzle": "沿虚线把大图片剪成四块并打乱。每次交换两块，直到图片拼完整。小图片作为参考。",
+      "cutSafety": "开始前可以请人帮忙剪裁。用完后把剪刀收好。",
+      "version": "版本 {date} · {url}",
+      "reasons": {
+        "photos": "没有纸质版。这个游戏使用你自己的照片，照片只保存在你的浏览器中，不会上传，因此网站无法打印它们。若想在纸上玩，可以在家中把几张喜欢的照片各打印两份，然后在桌上配对。",
+        "paced": "没有纸质版。屏幕上的圆圈会设定缓慢而稳定的节奏，印刷的纸页无法做到这一点，因此会变成另一种活动。不借助屏幕、一起安静地停下来，始终是一个选择。",
+        "turns": "这个游戏没有纸质版。若想在桌上找配对，可以打印“图片配对”中的图片卡片，轮流翻开。",
+        "screen": "这没有纸质版本。这是一张需要一起在屏幕上看的图片；桌上放一张喜欢的照片或明信片，也能达到同样的效果。",
+        "wash": "这没有纸质版本。在纸上用水彩也是同样的道理：蘸湿画笔，一次只用一种颜色。",
+        "sayings": "目前还没有纸质版本。印在纸上时，每个结局都会一次全部显示，而循序渐进的“看看结局”这一步就会失去。请一起在屏幕上读这些谚语，或者分享你们都熟悉的几句。"
+      }
+    }
   }
 }

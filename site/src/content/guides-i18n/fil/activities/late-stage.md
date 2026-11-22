@@ -1,34 +1,28 @@
 ---
-title: "Mga Aktibidad sa Huling Yugto ng Dementia, Kahit sa Kama o Upuan"
-seoTitle: "Aktibidad sa Huling Yugto ng Dementia: Kama at Upuan"
-description: "Banayad na aktibidad sa huling yugto ng dementia, kahit sa kama o upuan: musika, haplos, pagbabasa nang malakas, mga tunog at pagsasama, may paalala sa kaligtasan."
+title: "Mga Gawain para sa Dementia sa Huling Yugto, Kasama ang Nasa Kama o Upuan"
+seoTitle: "Mga Gawain sa Huling Yugto ng Dementia: Mga Ideya para sa Kama at Upuan"
+description: "Banayad na gawain para sa dementia sa huling yugto, kasama ang taong nasa kama o upuan: musika, paghawak, pagbabasa nang malakas, mga tunog, at simpleng pagsasama, kasama ang mga paalala sa kaligtasan."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Sa huling yugto ng dementia, nakasentro ang mga aktibidad sa mga pandama at
-  sa inyong pagsama: pagpapatugtog ng paboritong musika, paghawak ng kamay,
-  mabagal na masahe sa kamay, pagbabasa nang malakas, pagtingin sa mga litrato,
-  mga tunog ng kalikasan at pag-upo sa tabi ng bintana o sa labas. Magagawa
-  ang mga ito sa kama o upuan. Panatilihing maikli ang mga sesyon, bantayan
-  ang mukha at mga kamay para sa ginhawa, at tandaang aktibidad na rin ang
-  pagiging naroon.
+  Sa dementia sa huling yugto, umiikot ang mga gawain sa mga pandama at sa iyong pagsasama: pagpapatugtog ng paboritong musika, paghawak ng kamay, mabagal na masahe sa kamay, pagbabasa nang malakas, pagtingin sa mga larawan, mga tunog ng kalikasan, at pag-upo malapit sa bintana o sa labas. Gumagana ang mga ito sa kama o sa upuan. Panatilihing maikli ang bawat sesyon, bantayan ang mukha at kamay para sa ginhawa, at tandaang ang pagiging naroon mismo ay isa nang gawain.
 keyPoints:
-  - "Posible pa rin ang pagkakaugnay. Sa huling yugto, higit na sa pamamagitan ng mga pandama nararanasan ang mundo."
-  - "Madalas na naaabot ng musika, banayad na haplos, pamilyar na tinig at malalambot na hahawakan ang mga tao kapag hindi na kaya ng mga salita."
-  - "Halos lahat ng ideya rito ay magagawa para sa taong nasa kama o upuan."
-  - "Bantayan ang ginhawa at hindi ginhawa sa mukha, kamay at paghinga, at huminto sa anumang senyales ng pagkabalisa."
-  - "Iwasan ang maliliit na bagay at mag-alok lang ng pagkain o inumin ayon sa payo ng care team, dahil maaaring maging hindi ligtas ang paglunok."
+  - "Posible pa rin ang koneksyon. Sa huling yugto, pangunahing nararanasan ng tao ang mundo sa pamamagitan ng mga pandama."
+  - "Kadalasang umaabot sa tao ang musika, banayad na paghawak, pamilyar na boses, at malambot na bagay na mahahawakan kapag hindi na umabot ang mga salita."
+  - "Halos lahat ng ideya dito ay gumagana para sa taong nasa kama o upuan."
+  - "Bantayan ang ginhawa at hindi-ginhawa sa mukha, kamay, at paghinga, at huminto sa anumang senyales ng pagkabalisa."
+  - "Iwasan ang maliliit na bagay, at mag-alok ng pagkain o inumin lamang ayon sa payo ng care team, dahil maaaring maging hindi ligtas ang paglunok."
 faq:
-  - q: "Anong mga aktibidad ang magagawa kasama ang taong nasa huling yugto ng dementia na nasa kama?"
-    a: "Patugtugin ang paborito nilang musika, hawakan ang kamay nila, bigyan sila ng mabagal na masahe sa kamay gamit ang lotion, magbasa nang malakas mula sa aklat o panalanging mahal nila, ipakita ang mga litrato, o magpatugtog ng banayad na tunog ng kalikasan. Buksan ang kurtina para makita nila ang labas. Karaniwang pinakamainam ang maikli at mahinahong sesyon na isang bagay lang sa bawat pagkakataon."
-  - q: "Nasisiyahan pa ba sa musika ang mga taong nasa huling yugto ng dementia?"
-    a: "Marami ang oo. Binabanggit ng Alzheimer's Association na kahit sa huling yugto, maaaring makapag-tap ng ritmo o makasabay sa awit mula sa pagkabata ang isang tao. Pumili ng musikang minahal nila noong bata pa sila at panatilihing mahina ang lakas ng tunog."
-  - q: "Paano ko malalaman kung nasisiyahan sila sa isang aktibidad?"
-    a: "Magmasid sa maliliit na senyales: relaks na balikat, mas malambot na mukha, pagtitig sa mata, paghuni, pagpisil ng kamay o mas mabagal na paghinga. Ang pagngiwi, pag-iwas, hindi pagkapakali o pag-ungol ay maaaring nangangahulugan ng hindi ginhawa o sakit. Kung makita ninyo ang mga ito, huminto at sabihin sa care team kung magpapatuloy."
-  - q: "Sulit pa bang dumalaw kung hindi na nila ako nakikilala?"
-    a: "Oo. Binabanggit ng National Institute on Aging na nakakapagpakalma ang pagiging naroon lang, at na maaari pa ring magbigay ng ginhawa ang haplos, musika at mga kuwento sa advanced na dementia. Maaaring pamilyar pa rin ang tinig at haplos ninyo kahit hindi na ang pangalan ninyo."
+  - q: "Anong mga gawain ang puwede kong gawin kasama ang taong may dementia sa huling yugto na nasa kama?"
+    a: "Patugtugin ang paborito nilang musika, hawakan ang kamay nila, bigyan sila ng mabagal na masahe sa kamay gamit ang lotion, magbasa nang malakas mula sa aklat o dasal na mahal nila, ipakita ang mga larawan, o magpatugtog ng banayad na tunog ng kalikasan. Buksan ang kurtina para makita nila ang labas. Karaniwang pinakamainam ang maikli at kalmadong sesyon na iisang bagay lang ang ginagawa."
+  - q: "Nakaka-enjoy pa rin ba ng musika ang mga taong may dementia sa huling yugto?"
+    a: "Marami sa kanila, oo. Ayon sa Alzheimer's Association, kahit sa huling yugto ay maaaring makapalo ng daliri sa tiyempo ng tugtog ang tao, o makisabay sa pagkanta ng kantang mula pa noong bata siya. Piliin ang musikang mahal nila noong mas bata pa sila, at panatilihing mahina ang volume."
+  - q: "Paano ko malalaman kung nasisiyahan sila sa isang gawain?"
+    a: "Bantayan ang maliliit na senyales: nakarelaks na balikat, mas malambot na mukha, pakikipag-tingin sa mata, mahinang paghuni, pagpisil sa kamay, o mas mabagal na paghinga. Ang pagkunot ng mukha, pag-iwas, pagkabalisa, o pag-ungol ay maaaring senyales ng hindi-ginhawa o sakit. Kapag nakita mo ang mga ito, huminto at sabihin sa care team kung magpapatuloy."
+  - q: "Sulit pa bang dalawin sila kung hindi na nila ako nakikilala?"
+    a: "Oo. Ayon sa National Institute on Aging, nakakapagpakalma ang simpleng pagiging naroon, at maaari pa ring magbigay ng ginhawa ang paghawak, musika, at kuwento sa mas malalang dementia. Maaaring pamilyar pa rin ang boses at haplos mo kahit hindi na pamilyar ang pangalan mo."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -50,55 +44,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-Sa huling yugto ng dementia, maaaring kaunti na lang ang salitang sinasabi ng tao, kailangan na niya ng tulong sa lahat ng araw-araw na pag-aalaga, at malaking bahagi ng araw ay nasa kama o upuan siya. Maaaring parang wala nang magagawang magkasama. Mayroon pa. Binabanggit ng [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) na maaaring manatili ang ilang ubod ng pagkatao ng tao, at na sa yugtong ito, higit na sa pamamagitan ng mga pandama nararanasan ang mundo. Maaari pa ring magdulot ng ginhawa at mga sandali ng pagkakaugnay ang musika, haplos, pamilyar na tinig at ang mahinahon ninyong pagsama.
+Sa huling yugto ng dementia, maaaring kaunti na lang ang sinasabi ng tao, kailangan na niya ng tulong sa lahat ng pang-araw-araw na pangangalaga, at karamihan ng araw ay nasa kama o upuan. Maaaring maramdaman na wala nang maaaring gawin nang magkasama. Mayroon pa. Ayon sa [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage), maaaring may natitirang bahagi pa rin ng pagkatao ng tao, at sa yugtong ito ay pangunahing nararanasan ang mundo sa pamamagitan ng mga pandama. Ang musika, paghawak, pamilyar na boses, at mahinahon mong pagsasama ay maaari pa ring magbigay ng ginhawa at mga sandali ng koneksyon.
 
-## Anong mga aktibidad ang nakakatulong sa huling yugto ng dementia?
+## Anong mga gawain ang nakakatulong sa dementia sa huling yugto?
 
-Pinakanakakatulong sa huling yugto ang mga simpleng aktibidad na pandama at tahimik na pagsama. Iminumungkahi ng Alzheimer's Association ang pagpapatugtog ng paboritong musika, pagbabasa ng mga bahagi ng makabuluhang aklat, pagpapahid ng lotion na may paboritong amoy sa balat, at pag-upo sa labas nang magkasama sa magandang araw. Dinadagdagan ito ng [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) ng pagkukuwento, pagpapakita ng mga litrato, banayad na haplos o masahe, at musika, white noise o tunog ng kalikasan, at sinasabi nitong nakakapagpakalma na ang presensya ninyo lang.
+Ang mga simpleng gawaing pandama at tahimik na pagsasama ang pinakanakakatulong sa huling yugto. Iminumungkahi ng Alzheimer's Association ang pagpapatugtog ng paboritong musika, pagbabasa ng mga bahagi ng aklat na may kahulugan, pagmamasahe ng lotion na may paboritong amoy sa balat, at pag-upo sa labas nang magkasama sa magandang araw. Dinadagdagan ng [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) ang pagkukuwento, pagpapakita ng larawan, banayad na paghawak o masahe, at musika, white noise, o tunog ng kalikasan, at sinasabi nitong nakakapagpakalma na ang presensya mo lang.
 
-Binabanggit ng [Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) na madalas na may malakas na pangangailangan ang mga nasa huling yugto na yakapin ang isang bagay para sa ginhawa, at iminumungkahi nito ang mga simpleng aktibidad na pandama, banayad na stretch, paggalaw ng panyo, musika, pagbisita ng mga hayop, haplos ng tao at malayang sining.
+Sinasabi ng [Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) na madalas ay malakas ang pangangailangan ng tao sa huling yugto na may mahawakang malapit sa kanya para sa ginhawa. Nagmumungkahi ito ng simpleng gawaing pandama, banayad na pag-unat, paggalaw ng scarf, musika, pagbisita ng hayop, paghawak ng tao, at malayang sining.
 
-## Mga aktibidad para sa taong nasa kama o upuan
+## Mga gawain para sa taong nasa kama o upuan
 
-1. **Patugtugin ang musika nila.** Pumili ng mga awit mula sa kabataan nila, sa pananampalataya nila o sa pamilya nila. Panatilihing mahina ang lakas ng tunog at umupo nang malapit. Kahit ngayon, may mga taong nagtataktak ng daliri o humuhuni. Tingnan ang [mga aktibidad na musika](/activities/music/).
-2. **Hawakan ang kamay.** Aktibidad na ang paghawak lang ng kamay, na may banayad na paghagod ng hinlalaki. Sabihin muna kung ano ang ginagawa ninyo.
-3. **Magbigay ng mabagal na masahe sa kamay.** Initin nang bahagya ang kaunting lotion sa mga palad ninyo at hagurin mula pulso hanggang dulo ng daliri. Pumili ng lotion na walang amoy, o amoy na lagi nilang minahal kung kaya ito ng balat nila.
-4. **Magbasa nang malakas.** Isang paboritong tula, isang bahagi ng mahal na aklat, kasulatan o pahina ng palakasan. Mas mahalaga ang indayog ng tinig ninyo kaysa ang mga salita.
-5. **Magkuwento.** Pag-usapan ang isang biyahe ng pamilya o ang araw ng kasal nila. Hindi ninyo kailangan ng sagot.
-6. **Magpakita ng mga litrato.** Hawakan ang isang malaking litrato sa antas ng mata at ilarawan ito nang mainit ang tinig. Iwasang itanong kung sino ang nasa litrato.
-7. **Mag-alok ng malambot na mahahawakan.** Isang tinuping panyo, isang parisukat na fleece o isang malambot na hayop. Iminumungkahi ng NIA na bigyan ang tao ng panyo na hahawakan habang inililipat siya, para mas maliit ang tsansang abutin niya kayo o ang mga kasangkapan.
-8. **Magpatugtog ng tunog ng kalikasan.** Ulan, alon o huni ng ibon sa mahinang lakas ay makakapagpalambot sa maingay na silid.
-9. **Dalhin sa loob ang labas.** Buksan ang kurtina, maglagay ng lalagyan ng pagkain ng ibon sa labas ng bintana, o magdala ng ilang sariwang bulaklak o dahon na titingnan at hahawakan.
-10. **Lumabas.** Kung kaya ng tao na umupo sa wheelchair, maaaring napakaganda ng ilang minuto sa lilim sa banayad na araw.
-11. **Suklayin ang buhok nila o mag-alok ng maiinit na pamunas.** Maaaring maramdaman bilang pag-aaruga ang mabagal at banayad na pag-aayos at ang maligamgam na panyo para sa kamay at mukha.
-12. **Gumalaw nang banayad kasabay ng musika.** Magkasamang magkaway ng magaang panyo, o iindayog ang mga kamay ayon sa awit. Para sa mga stretch at galaw ng kasukasuan, magpatulong muna sa physical therapist o nars na ituro ang mga ligtas na paraan.
-13. **Gumawa ng malayang sining.** Ikalat ang pinturang hindi nakalalason sa malaking papel gamit ang espongha o kamay, na ginagabayan ng kamay ninyo. Walang tamang resulta.
-14. **Salubungin ang pagbisita ng mga hayop.** Isang mahinahong alaga sa kama o kandungan, kung nasisiyahan ang tao sa mga hayop at pinapayagan ng lugar.
-15. **Sabay na huminga nang mabagal.** Umupo nang malapit at huminga nang mabagal at maririnig. Maaaring ritmuhan kayong dalawa ng [mahinahong paghinga](/games/calm-breathing/), at kayo ang nagsisimula at humihinto rito.
-16. **Naroon lang.** Umupo sa malapit, humuni, magniting o magbasa nang tahimik. Sapat na ang pagiging naroon.
+1. **Patugtugin ang musika nila.** Pumili ng kantang mula sa kabataan nila, sa pananampalataya nila, o sa pamilya nila. Panatilihing mahina ang volume at umupo nang malapit. Kahit sa yugtong ito, may ilang taong pumapalo ng daliri o humuhuni. Tingnan ang [mga gawaing may musika](/creative-calm/music-for-calm-and-connection/).
+2. **Magkahawak-kamay.** Ang paghawak lang sa kamay, na may banayad na haplos ng hinlalaki, ay isa nang gawain. Sabihin muna ang ginagawa mo.
+3. **Magbigay ng mabagal na masahe sa kamay.** Painitin nang kaunti ang lotion sa palad mo at haplusin mula pulso hanggang dulo ng daliri. Pumili ng walang amoy na lotion, o amoy na lagi nilang minahal kung kaya ng balat nila.
+4. **Magbasa nang malakas.** Paboritong tula, bahagi ng mahal na aklat, banal na kasulatan, o pahina ng isports. Mas mahalaga ang ritmo ng boses mo kaysa sa mga salita.
+5. **Magkuwento.** Pag-usapan ang paglalakbay ng pamilya o ang araw ng kasal nila. Hindi mo kailangan ng sagot.
+6. **Magpakita ng larawan.** Ihawak ang isang malaking larawan sa bawat pagkakataon, nasa antas ng mata, at ilarawan ito nang mainit. Iwasang itanong kung sino ang nasa larawan.
+7. **Mag-alok ng malambot na mahahawakan.** Nakatuping basahan, parisukat na fleece, o malambot na laruang hayop. Iminumungkahi ng NIA na bigyan ang tao ng basahan na hahawakan habang inililipat, para hindi gaanong makakapit nang biglaan sa iyo o sa muwebles.
+8. **Magpatugtog ng tunog ng kalikasan.** Ulan, alon, o huni ng ibon nang mahina ay makakapagpalambot sa maingay na silid.
+9. **Dalhin ang labas sa loob.** Buksan ang kurtina, maglagay ng bird feeder sa labas ng bintana, o magdala ng ilang sariwang bulaklak o dahon na titingnan at mahahawakan.
+10. **Lumabas.** Kung kaya ng tao na nakaupo sa wheelchair, ang ilang minuto sa lilim sa mahinahong araw ay maaaring maging magandang karanasan.
+11. **Suklayin ang buhok nila o mag-alok ng maligamgam na basahan.** Ang mabagal at banayad na pag-aayos, at maligamgam na basahan para sa kamay at mukha, ay maaaring makaramdam ng pag-aaruga.
+12. **Gumalaw nang banayad kasabay ng musika.** Iwagayway nang magkasama ang magaang scarf, o igalaw ang mga kamay sa tugtog. Para sa pag-unat at paggalaw ng kasukasuan, magpakita muna sa iyo ng ligtas na paraan ang physical therapist o nurse.
+13. **Gumawa ng malayang sining.** Ikalat ang non-toxic na pintura sa malaking papel gamit ang espongha o kamay, sa gabay ng iyong kamay. Walang tamang resulta.
+14. **Tanggapin ang pagbisita ng hayop.** Isang kalmadong alagang hayop sa kama o kandungan, kung mahilig sa hayop ang tao at pinapayagan ito ng lugar.
+15. **Huminga nang dahan-dahan nang magkasama.** Umupo nang malapit at huminga nang mabagal at maririnig. Makakatulong ang [pagpapahinga sa paghinga](/games/calm-breathing/) para magsabay ang inyong paghinga, at ikaw ang nagsisimula at nagtatapos nito.
+16. **Basta naroon ka.** Umupo sa malapit, humuni, magniniting, o tahimik na magbasa. Sapat na ang pagiging naroon.
 
-## Paano magbahagi ng aktibidad sa yugtong ito
+## Paano magbahagi ng gawain sa yugtong ito
 
-- **Lumapit mula sa harap.** Sabihin ang pangalan nila at ang pangalan ninyo, at magsalita nang mabagal at malumanay bago humawak.
-- **Mag-alok ng isang bagay sa bawat pagkakataon.** Patayin ang TV bago magpatugtog ng musika. Isang pandama lang sa bawat pagkakataon.
-- **Panatilihing maikli.** Maaaring sapat na ang ilang minuto. Mas mabuti ang ilang maiikling sandali sa buong araw kaysa isang mahabang sesyon.
-- **Gawing komportable muna.** Tiyaking maayos ang suporta sa tao. Iminumungkahi ng NIA ang lap board para ipahinga ang mga braso at suportahan ang itaas na katawan kapag nakaupo.
-- **Bantayan ang tugon.** Ang relaks na mga kamay, mas malambot na mukha, pagtitig sa mata o paghuni ay nagpapahiwatig ng ginhawa. Binabanggit ng NIA na maaaring senyales ng sakit ang pag-ungol, pagngiwi, pagprotekta sa isang bahagi ng katawan o biglang pagkabalisa. Huminto, at sabihin sa care team.
+- **Lumapit sa harapan.** Sabihin ang pangalan nila at ang pangalan mo, at magsalita nang mabagal at mahina bago humawak.
+- **Mag-alok ng isang bagay sa bawat pagkakataon.** Patayin ang TV bago magpatugtog ng musika. Isang pandama sa bawat pagkakataon.
+- **Panatilihing maikli.** Sapat na ang ilang minuto. Mas mabuti ang ilang maikling sandali sa buong araw kaysa isang mahabang sesyon.
+- **Siguraduhing komportable muna.** Tingnan kung maayos na nakasuporta ang tao. Iminumungkahi ng NIA ang lap board para ipahinga ang mga braso at suportahan ang itaas na bahagi ng katawan kapag nakaupo.
+- **Bantayan ang tugon.** Ang nakarelaks na kamay, mas malambot na mukha, pakikipag-tingin sa mata, o paghuni ay nagpapahiwatig ng ginhawa. Ayon sa NIA, ang pag-ungol, pagkunot ng mukha, pagprotekta sa isang bahagi ng katawan, o biglaang pagkabalisa ay maaaring senyales ng sakit. Huminto, at sabihin sa care team.
 
 ## Mabilis na gabay ayon sa pandama
 
 | Pandama | Mga ideya | Mag-ingat |
 | --- | --- | --- |
-| Pandinig | Paboritong musika, ang tinig ninyong nagbabasa, tunog ng kalikasan | Panatilihing mahina ang lakas; isang tunog sa bawat pagkakataon |
-| Pandama ng haplos | Masahe sa kamay, paghawak ng kamay, malambot na tela, maligamgam na panyo | Magtanong o ipaalam muna; tiyaking hindi masakit o may sugat ang balat |
-| Paningin | Mga litrato, bulaklak, tanawin mula sa bintana, mabagal na video ng kalikasan | Hawakan sa antas ng mata; magandang ilaw, walang silaw |
-| Pang-amoy | Paboritong lotion, sariwang bulaklak, kapeng nagtitimpla sa malapit | Iwasan ang matatapang na amoy; tingnan ang allergy at paghinga |
-| Panlasa | Isang maliit na tikim ng paboritong lasa | Pagkain at texture lang na sinabi ng care team na ligtas |
+| Pandinig | Paboritong musika, boses mong nagbabasa, tunog ng kalikasan | Panatilihing mahina ang volume; isang tunog sa bawat pagkakataon |
+| Paghawak | Masahe sa kamay, paghawak ng kamay, malambot na tela, maligamgam na basahan | Magtanong o magsabi muna; tiyaking hindi masakit o sugatan ang balat |
+| Paningin | Larawan, bulaklak, tanaw mula sa bintana, mabagal na video ng kalikasan | Ihawak sa antas ng mata; sapat na liwanag, walang silaw |
+| Amoy | Paboritong lotion, sariwang bulaklak, kapeng tinitimpla sa malapit | Iwasan ang malalakas na amoy; tingnan ang allergy at paghinga |
+| Panlasa | Kaunting lasa ng paboritong pagkain | Pagkain at tekstura lang na sinabi ng care team na ligtas |
 
 ## Kaligtasan sa yugtong ito
 
-Maaaring humirap ang paglunok sa huling yugto, at nagbababala ang NIA na tumataas ang panganib na mabilaukan dahil dito. Huwag mag-iwan ng maliliit na bagay na abot-kamay, at mag-alok lang ng pagkain o inumin sa mga texture at posisyong inirerekomenda ng care team. Dahan-dahang suriin ang balat sa mga aktibidad na may haplos, dahil madaling mapunit o magkapasa ang balat. Para sa higit pang ligtas na ideyang pandama, tingnan ang [mga aktibidad na pandama](/activities/sensory/).
+Maaaring maging mahirap ang paglunok sa huling yugto, at binabalaan ng NIA na tumataas nito ang panganib ng pagkabulol. Huwag mag-iwan ng maliliit na bagay na maaabot, at mag-alok lang ng pagkain o inumin sa tekstura at posisyong inirerekomenda ng care team. Dahan-dahang tingnan ang balat habang may paghawak, dahil madaling mapunit o magkapasa ang balat. Para sa mas marami pang ligtas na ideyang pandama, tingnan ang [mga gawaing pandama](/creative-calm/sensory-activities-for-adults/).
 
-## Alagaan din ang sarili ninyo
+## Pag-alaga rin sa sarili mo
 
-Nakakapagod sa katawan at damdamin ang pag-aalaga sa huling yugto, nasa bahay man o sa mga pagbisita sa care home. Makakatulong ang mga hospice at palliative care team sa ginhawa, suporta at pagpaplano, at inililista sila ng NIA bilang mapagkukunan ng tulong. Sulit ang maiikli at mahinahong pagbisita; tingnan ang [pagbisita sa taong may dementia](/activities/visiting/). Kung namumuno kayo ng mga grupo, may mga ideya ang [mga pangkatang aktibidad sa care home](/activities/care-home-groups/) sa pag-aangkop ng mga sesyon. At pakibasa po ang [pag-aalaga sa sarili ng tagapag-alaga](/caregiving/caregiver-self-care/): bahagi ng mahusay na pag-aalaga ang pahinga.
+Nakakapagod sa katawan at damdamin ang pag-aalaga sa huling yugto, sa bahay man o sa mga pagbisita sa care home. Makakatulong ang mga team ng hospice at palliative care sa ginhawa, suporta, at pagpaplano, at isinasama sila ng NIA bilang pinagkukunan ng tulong. Mahalaga ang maikli at kalmadong pagbisita; tingnan ang [pagbisita sa taong may dementia](/together/visiting-someone-in-care/). Kung namumuno ka ng mga grupo, may mga ideya ang [mga gawain ng grupo sa care home](/crafts/craft-group-sessions/) para iangkop ang mga sesyon. At pakibasa ang [pag-aalaga sa sarili ng tagapag-alaga](/creative-calm/creative-self-care-for-caregivers/): bahagi ng maayos na pag-aalaga ang pahinga.

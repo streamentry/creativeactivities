@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "Asosiy mazmunga oʻtish",
     "brandName": "Creative Activities",
@@ -6,16 +7,22 @@
     "homeLabel": "Creative Activities bosh sahifasi",
     "mainNav": "Asosiy",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: choy piyolasi, kungaboqar va itning katta, samimiy rasmlari",
+    "defaultImageAlt": "Creative Activities: kundalik narsalarning katta, samimiy rasmlari — yasash va qilish uchun",
     "languages": "Til",
     "englishOnly": "(inglizcha)",
     "machineTranslated": "Bu sahifa avtomatik tarjima qilingan va hali ona tilida soʻzlashuvchi tomonidan tekshirilmagan.",
     "readOriginal": "Asl nusxasini inglizcha oʻqish",
     "nav": {
+      "find": "Find an activity",
       "games": "Oʻyinlar",
       "activities": "Mashgʻulotlar",
       "caregiving": "Parvarish",
-      "brainHealth": "Miya salomatligi"
+      "brainHealth": "Miya salomatligi",
+      "crafts": "Hunarmandchilik",
+      "kids": "Bolalar",
+      "together": "Birgalikda",
+      "creativeCalm": "Ijodiy tinchlik",
+      "search": "Qidirish"
     },
     "faqTitle": "Savol va javoblar",
     "breadcrumb": "Sahifa yoʻli",
@@ -26,7 +33,32 @@
       "label": "Matn hajmi",
       "smaller": "Oddiy matn",
       "larger": "Kattaroq matn",
-      "contrast": "Kontrast yuqoriroq"
+      "contrast": "Kontrast yuqoriroq",
+      "colors": "Ranglar",
+      "light": "Yorug‘",
+      "dark": "Qorong‘i",
+      "device": "Qurilmadagidek",
+      "lineLength": "Qator uzunligi",
+      "standardLines": "Oddiy",
+      "shorterLines": "Qisqaroq qatorlar",
+      "spacing": "Oraliq",
+      "standardSpacing": "Oddiy",
+      "moreSpace": "Ko‘proq joy"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -40,7 +72,7 @@
     "ideas101": "101 ta mashgʻulot gʻoyasi",
     "lateStage": "Keyingi bosqich mashgʻulotlari",
     "printable": "Chop etiladigan mashgʻulotlar",
-    "allActivities": "Barcha mashgʻulotlar",
+    "allActivities": "Barcha faoliyat qo‘llanmalari",
     "forCaregivers": "Qarovchilar uchun",
     "playTogether": "Birga qanday oʻynash",
     "selfCare": "Oʻzingizga gʻamxoʻrlik",
@@ -53,24 +85,34 @@
     "app": "Creative Activities ilovasi",
     "appHelp": "Ilova yordami",
     "support": "Yordam",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Huquqiy ma’lumot",
     "sitePrivacy": "Veb-sayt maxfiyligi",
     "appPrivacy": "Ilova maxfiylik siyosati",
     "privacyChoices": "Maxfiylik tanlovlari",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Shartlar va ilova litsenziyasi",
     "safety": "Xavfsizlik va moʻljallangan foydalanish",
     "accessibility": "Foydalanish imkoniyati",
     "healthNotice": "Sogʻliq haqida ma’lumot ogohlantirishi",
     "allLegal": "Barcha huquqiy ma’lumotlar",
     "note": "Creative Activities zavqlanish uchun oddiy birgalikdagi mashgʻulotlarni taklif qiladi. Bu tibbiy maslahat, test yoki davolash emas va u hech kimni aniqlamaydi, oʻlchamaydi yoki baholamaydi. Sogʻliq haqidagi savollar boʻyicha shifokor bilan gaplashing. Favqulodda holatda hududingizdagi favqulodda raqamga qoʻngʻiroq qiling.",
-    "publisher": "Cloudjet Solutions Pte. Ltd. tomonidan nashr etilgan."
+    "publisher": "Cloudjet Solutions Pte. Ltd. tomonidan nashr etilgan.",
+    "crafts": "Barcha yoshdagilar uchun hunarmandchilik",
+    "kids": "Bolalar uchun faoliyatlar",
+    "together": "Birgalikda bajariladigan faoliyatlar",
+    "creativeCalm": "Ijodiy tinchlik",
+    "dementiaActivities": "Demensiyasi bor odamlar uchun faoliyatlar"
   },
   "home": {
-    "title": "Demensiya va Alsgeymer uchun oʻyinlar | Creative Activities",
-    "description": "Demensiya yoki Alsgeymer bilan yashayotganlar va qarovchilari uchun bepul sokin rasm oʻyinlari va mashgʻulot gʻoyalari. Roʻyxatsiz, taymersiz, ballsiz.",
+    "title": "Kimningdir g‘amxo‘rligini qilayotganlar uchun ijodiy faoliyatlar",
+    "description": "Kimningdir g‘amxo‘rligini qilayotganlar uchun bepul ijodiy faoliyatlar: hunarmandchilik, bolalar uchun mashg‘ulotlar, birgalikda bajariladigan faoliyatlar va tinch ijodiy g‘oyalar.",
     "eyebrow": "Bepul · Reklamasiz · Roʻyxatdan oʻtishsiz · Taymer va ballsiz",
-    "h1": "Demensiya bilan yashayotganlar uchun sokin oʻyin va mashgʻulotlar",
-    "lede": "Oddiy rasm oʻyinlari, tanish suratlar va birga zavqlanish uchun mashgʻulotlar: oʻzingizga qulay sur’atda.",
+    "h1": "Birgalikda bir narsa yasang",
+    "lede": "Odamga, vaziyatga va qo‘lingizdagi narsalarga mos faoliyatni toping. Oson hunarmandchilik, bolalar san’ati, birgalikda bajariladigan ishlar va tinch ijodiy g‘oyalar — oson variantlar va chop etish uchun kartochka bilan. Xohlagan vaqtda to‘xtashingiz mumkin.",
     "playGame": "Oʻyin oʻynash",
     "findIdeas": "Mashgʻulot gʻoyalarini topish",
     "facts": [
@@ -105,13 +147,13 @@
     "ideas101": "101 ta mashgʻulot gʻoyasi",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Dastlabki bosqich",
         "text": "Sevgan ishingizni ozgina moslashtirib davom ettiring: mashgʻulotlar, sayrlar, soʻz oʻyinlari va birga rejalashtirish.",
         "label": "Dastlabki bosqich gʻoyalari"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Oʻrta bosqich",
         "text": "Qadamlarga boʻlingan oddiy, tanish ishlar: buklash, saralash, musiqa, rasm oʻyinlari va qisqa sayrlar.",
         "label": "Oʻrta bosqich gʻoyalari"
@@ -123,10 +165,10 @@
         "label": "Keyingi bosqich gʻoyalari"
       }
     ],
-    "specificHtml": "Aniq narsa qidiryapsizmi? <a href=\"/activities/alzheimers/\">Alsgeymer uchun mashgʻulotlar va oʻyinlar</a>, <a href=\"/activities/memory-games/\">sokin xotira oʻyinlari</a>, <a href=\"/activities/trivia/\">oson viktorina</a> yoki <a href=\"/activities/puzzles/\">jumboqlarni</a> sinab koʻring.",
+    "specificHtml": "Aniq bir narsani qidiryapsizmi? <a href=\"/dementia-activities/\">Alsgeymer kasalligi uchun faoliyat va o‘yinlarni</a>, <a href=\"/together/puzzles-and-table-games/\">jumboqlar va stol o‘yinlarini</a>, <a href=\"/together/conversation-games-for-all-ages/\">suhbat o‘yinlarini</a> yoki <a href=\"/together/puzzles-and-table-games/\">jumboqlarni</a> ko‘rib chiqing.",
     "approachEyebrow": "Yondashuvimiz",
-    "approachTitle": "Birgalikdagi mashgʻulot, xotira sinovi emas",
-    "approachLede": "Koʻp «miya oʻyinlari» tezlik, ball va ketma-ket gʻalabalar atrofida qurilgan. Demensiya bilan yashayotgan inson uchun bu imtihondek tuyulishi mumkin. Biz buning teskarisini yaratdik.",
+    "approachTitle": "Birgalikdagi faoliyat, sinov emas",
+    "approachLede": "Ko‘p “miya o‘yinlari” tezlik, ball va ketma-ket yutuqlar atrofida quriladi. Charchagan, sog‘lig‘i yomon yoki demensiyasi bor odam uchun bu imtihonga o‘xshab tuyulishi mumkin. Biz buning aksini qildik.",
     "approachLink": "Nega bunday ishlab chiqamiz",
     "principles": [
       {
@@ -165,14 +207,14 @@
         "text": "Rad etishning keng tarqalgan sabablari va keyinroq yana urinib koʻrishning muloyim usullari."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Planshetni sozlash",
-        "text": "Kattaroq matn, kamroq uzilishlar va bitta oddiy bosh ekran."
+        "href": "/activities/group-art-activities/",
+        "title": "Guruhli san’at faoliyatlari",
+        "text": "Bir necha kishi o‘tirgan stol atrofida bajariladigan umumiy loyihalar, har bir kishining o‘z vazifasi bilan."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Bepul chop etiladigan mashgʻulotlar",
-        "text": "Yirik harfli soʻz izlash, boʻyash sahifalari, bingo va suhbat kartalari."
+        "href": "/activities/ideas/",
+        "title": "101 ta faoliyat g‘oyasi",
+        "text": "Oddiy g‘oyalar — qo‘lingizdagi narsalar va kuchingiz miqdoriga ko‘ra saralangan."
       }
     ],
     "researchTitle": "Miya salomatligi: tadqiqotlar aslida nima deydi",
@@ -184,16 +226,16 @@
     "aboutApp": "Ilova haqida",
     "faq": [
       {
-        "q": "Demensiya bilan yashayotganlar uchun qanday oʻyinlar yaxshi?",
-        "a": "Yaxshi oʻyinlar oddiy, tanish va bosimsiz: juftlash uchun katta rasmlar, saralash, oson jumboqlar, mashhur maqollarni tugatish, boʻyash, rasmli bingo va suhbat kartalari. Eng yaxshi tanlov — inson bugun yoqtirgani. Taymer, ball va sinovga oʻxshagan narsalardan qoching."
+        "q": "Keksa yoshdagi odamlar uchun qanday o‘yinlar yaxshi?",
+        "a": "Yaxshi o‘yinlar oddiy, tanish va bosimsiz bo‘ladi: katta rasmlarni moslash, saralash, oson jumboqlar, mashhur maqollarni davom ettirish, rang berish, rasmli bingo va suhbat kartochkalari. Ular ko‘plab keksa odamlarga, jumladan demensiyasi bor odamlarga mos keladi. Eng yaxshi tanlov — odam bugun yoqtiradigan o‘yin. Taymer, ball va sinovga o‘xshab tuyuladigan narsalardan saqlaning."
       },
       {
-        "q": "Bu demensiya oʻyinlari bepulmi?",
+        "q": "Bu o‘yinlar bepulmi?",
         "a": "Ha. Creative Activitiesdagi har bir oʻyin va chop etiladigan material bepul: akkaunt, roʻyxatdan oʻtish yoki yuklab olish shart emas. Oʻyinlar telefon, planshet yoki kompyuterdagi veb-brauzerda ishlaydi."
       },
       {
         "q": "«Miya oʻyinlari» demensiyaning oldini oladimi?",
-        "a": "Hech bir oʻyin demensiyaning oldini olishi isbotlanmagan va Creative Activities hech narsani davolash yoki oldini olishni da’vo qilmaydi. Oʻyinlarimiz zavq va birga vaqt oʻtkazish uchun. Miya salomatligi boʻlimimiz tadqiqotlar nimani koʻrsatishi va nimani koʻrsatmasligini tushuntiradi."
+        "a": "Hech qanday o‘yin demensiyaning oldini olishi isbotlanmagan va Creative Activities hech narsani davolash yoki oldini olishni da’vo qilmaydi. Bizning o‘yinlarimiz zavq va birga o‘tkazilgan vaqt uchun mo‘ljallangan, hech bir faoliyat sahifasi sog‘liq bo‘yicha da’vo qilmaydi."
       },
       {
         "q": "Bu oʻyinlar Alsgeymer bilan yashayotgan inson uchun mosmi?",
@@ -209,7 +251,36 @@
       },
       {
         "q": "Creative Activitiesni kim yaratadi?",
-        "a": "Creative Activities — oilalar va qarovchilar uchun veb va bepul ilova koʻrinishida sokin, kattalarga mos rasm mashgʻulotlarini yaratadigan kichik jamoa. Biz shifokor emasmiz va bu yerdagi hech narsa tibbiy maslahat emas."
+        "a": "Creative Activities — kimningdir g‘amxo‘rligini qilayotganlar uchun tinch, katta yoshdagilar uchun ijodiy faoliyatlar yaratadigan kichik jamoa; u veb-saytda va bepul ilova sifatida ishlaydi. Biz shifokorlar emasmiz va bu yerdagi hech narsa tibbiy maslahat emas."
+      }
+    ],
+    "groupsEyebrow": "Qayerdan boshlashni toping",
+    "groupsTitle": "To‘rt xil ijodiy faoliyat",
+    "groupsLede": "Kim bilan birga ekaningiz va qo‘lingizda nima borligiga mos guruhdan boshlang. Har bir sahifada oson variantlar va xavfsizlik eslatmalari bor.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Hunarmandchilik",
+        "text": "Qog‘oz, bo‘yoq, qayta ishlangan va mavsumiy loyihalar — har biri uchun oson variant bilan.",
+        "label": "Hunarmandchilikni ko‘rish"
+      },
+      {
+        "href": "/kids/",
+        "title": "Bolalar",
+        "text": "Bolalar uchun san’at va o‘yin, yonida katta odam va aniq xavfsizlik eslatmalari bilan.",
+        "label": "Bolalar faoliyatlarini ko‘rish"
+      },
+      {
+        "href": "/together/",
+        "title": "Birgalikda",
+        "text": "Suhbat, jumboqlar, ochiq havodagi vaqt va avlodlar orasida yaqin bo‘lish yo‘llari.",
+        "label": "Birgalikda bajariladigan ishlarni ko‘rish"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Ijodiy tinchlik",
+        "text": "Qalam, varaq yoki qo‘shiq bilan sekin, jim ijodiy lahzalar. Bu terapiya emas.",
+        "label": "Ijodiy tinchlikni ko‘rish"
       }
     ]
   },
@@ -228,6 +299,21 @@
     "printable": "Chop etiladigan",
     "play": "{name} oʻynash →",
     "readGuide": "Qoʻllanmani oʻqish"
+  },
+  "listen": {
+    "listenSteps": "Qadamlarni tinglang",
+    "pause": "To‘xtatish",
+    "resume": "Davom ettirish",
+    "stop": "To‘xtatish",
+    "speed": "Tezlik",
+    "normal": "Oddiy",
+    "slower": "Sekinroq",
+    "reading": "Qadamlar ovoz chiqarib o‘qilmoqda.",
+    "paused": "To‘xtatildi. Davom etish uchun “Davom ettirish” tugmasini bosing.",
+    "note": "Qurilmangizning o‘z ovozidan foydalanadi. Ba’zi qurilmalar matnni uni ishlab chiqargan kompaniyaga yuborib, o‘qitishi mumkin.",
+    "listen": "Tinglash",
+    "stepLabel": "{n}-qadamni tinglang",
+    "stopStep": "{n}-qadamni to‘xtatish"
   },
   "playCta": {
     "title": "Sokin oʻyinga tayyormisiz?",
@@ -248,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Mashgʻulotlar",
-      "title": "Demensiya bilan yashayotganlar uchun mashgʻulotlar",
-      "seo": "Demensiya uchun mashgʻulotlar: bosqichlar boʻyicha gʻoyalar",
-      "description": "Demensiya bilan yashayotganlar uchun har bir bosqichga mashgʻulot gʻoyalari: musiqa, xotiralar, kundalik ishlar, hunar va bepul chop etiladigan materiallar.",
-      "lede": "Mazmunli mashgʻulot — bu qulaylik, maqsad yoki yaqinlik lahzasini beradigan har qanday narsa. Insonning doim yoqtirgan narsasidan boshlang va uni bugungi kunga moslang."
+      "label": "Faoliyat qo‘llanmalari",
+      "title": "Faoliyat qo‘llanmalari",
+      "seo": "Faoliyat qo‘llanmalari: g‘oyalar, san’at materiallari va boshlash yo‘llari",
+      "description": "Kimdir bilan birga qilish mumkin bo‘lgan ijodiy faoliyatlar haqida sodda qo‘llanmalar: oddiy g‘oyalar, arzon san’at materiallari, guruhli san’at, xatlar, xotiralar va san’at terapiyasi tushuntirilgan.",
+      "lede": "Yoshi yoki imkoniyatidan qat’i nazar, kimdir bilan faoliyat tanlash va boshlash uchun qisqa, amaliy qo‘llanmalar."
+    },
+    "crafts": {
+      "label": "Hunarmandchilik",
+      "title": "Barcha yoshdagilar uchun hunarmandchilik",
+      "seo": "Barcha yoshdagilar uchun oson hunarmandchilik, oson variantlar bilan",
+      "description": "Katta yoshdagilar, bolalar va oilalar uchun oson hunarmandchilik: qog‘oz, rang berish, qayta ishlangan va mavsumiy buyumlar, ushlash oson va o‘tirgan holda bajariladigan variantlar bilan, maxsus mahoratsiz.",
+      "lede": "Ko‘p uylarda bor narsalardan boshlanadigan hunarmandchilik, har biri oson variant bilan — shunda hamma narsa yasay oladi."
+    },
+    "kids": {
+      "label": "Bolalar",
+      "title": "Bolalar uchun ijodiy faoliyatlar",
+      "seo": "Bolalar uchun ijodiy faoliyatlar: san’at, sensor va tinch o‘yinlar",
+      "description": "Bolalar uchun ijodiy faoliyatlar: kichkintoylar san’ati, jarayon san’ati, sensor o‘yinlar, yomg‘irli kunlar hunarmandchiligi va tinchlanish g‘oyalari, xavfsizlik eslatmalari va sensor ehtiyojlar uchun variantlar bilan.",
+      "lede": "Turli yosh va ehtiyojdagi bolalar uchun san’at va o‘yin g‘oyalari, aniq xavfsizlik eslatmalari va yonida katta odam bilan."
+    },
+    "together": {
+      "label": "Birgalikda",
+      "title": "Birgalikda bajariladigan faoliyatlar",
+      "seo": "Avlodlar orasida birgalikda bajariladigan faoliyatlar",
+      "description": "Ikki yoki undan ortiq avlod uchun faoliyatlar: suhbat o‘yinlari, jumboqlar, ochiq havodagi vaqt, buvi-bobolar va nevaralar uchun hunarmandchilik hamda uzoqdan yaqin bo‘lish yo‘llari.",
+      "lede": "Ota-ona, buvi-bobo, farzand yoki do‘st bilan vaqtni birga o‘tkazish g‘oyalari — uyda, ochiq havoda, mehmonga borganda yoki uzoqdan."
+    },
+    "creative-calm": {
+      "label": "Ijodiy tinchlik",
+      "title": "Ijodiy tinchlik",
+      "seo": "Ijodiy tinchlik: dam olish uchun tinchlantiruvchi san’at va faoliyatlar",
+      "description": "Katta yoshdagilar va g‘amxo‘rlar uchun dam oluvchi ijodiy faoliyatlar: e’tiborli san’at, kundalik yozish, musiqa, sensor lahzalar va tinch tushlar. Bu ijodiy faoliyat, terapiya emas.",
+      "lede": "Qalam, varaq yoki qo‘shiq bilan sekinlashishning yumshoq yo‘llari. Bu ijodiy faoliyatlar, terapiya emas, va ularga hech qanday mahorat talab qilinmaydi."
     },
     "caregiving": {
-      "label": "Parvarish",
-      "title": "Parvarish qoʻllanmalari",
-      "seo": "Demensiya parvarishi qoʻllanmalari: kundalik amaliy yordam",
-      "description": "Demensiya qarovchilari uchun amaliy, mehribon qoʻllanmalar: birga oʻynash, muloqot, rad etish, kechki bezovtalik, planshetlar va oʻzingizga gʻamxoʻrlik.",
-      "lede": "Demensiya bilan yashayotgan insonni parvarish qilishning kundalik lahzalari uchun oddiy, amaliy yordam, shu jumladan oʻzingizga gʻamxoʻrlik."
+      "label": "Qarovchilik",
+      "title": "Demensiya bilan kasallangan yaqiningizga gʻamxoʻrlik qilish",
+      "seo": "Demensiya bilan kasallangan yaqiningizga gʻamxoʻrlik qilish: mashgʻulotlar va yordam",
+      "description": "Demensiya bilan kasallangan yaqiniga gʻamxoʻrlik qilayotgan oilalar uchun qoʻllanmalar: birga qanday oʻynash, ular rad etganda nima qilish kerak va tashxisdan keyin ishonchli yordamni qayerdan topish mumkin.",
+      "lede": "Demensiya bilan yashayotgan yaqiniga gʻamxoʻrlik qilayotgan oilalar uchun mashgʻulotga asoslangan yordam, hamda tibbiy va parvarish boʻyicha maslahat olish mumkin boʻlgan manbalar."
     },
     "brain-health": {
       "label": "Miya salomatligi",
@@ -282,7 +396,16 @@
     "tryTogether": "Birga sinab koʻring",
     "relatedGuides": "Tegishli qoʻllanmalar",
     "related": "Tegishli",
-    "startHere": "Shu yerdan boshlang"
+    "startHere": "Shu yerdan boshlang",
+    "staleAria": "Tarjima eskirgan",
+    "staleTitle": "Bu tarjima eskirgan",
+    "staleText": "U sahifaning avvalgi ingliz tilidagi versiyasi asosida tayyorlangan, oradan vaqt oʻtib u oʻzgargan. Hozirgi versiya ingliz tilidagi sahifadir.",
+    "staleHealth": "Unda sogʻliq haqida maʼlumot berilgan, shuning uchun harakat qilishdan oldin ingliz tilidagi sahifani tekshiring va shifokor yoki hamshiraga murojaat qiling.",
+    "staleLink": "Hozirgi ingliz tilidagi sahifani oʻqing"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Sogʻliq haqida ma’lumot ogohlantirishi",
@@ -291,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Birgalikdagi mashgʻulot, xotira sinovi emas",
+      "title": "Birgalikdagi mashgʻulot, sinov emas",
       "seoTitle": "Creative Activities haqida: yondashuvimiz",
-      "description": "Nega Creative Activities oʻyinlarida taymer, ball yoki ketma-ket gʻalaba yoʻq, nega rasmlar koʻrinib turadi va demensiya haqida nimani da’vo qilamiz va qilmaymiz.",
+      "description": "Creative Activities nega taymer, ball yoki ketma-ket gʻalabalarsiz ishlashi, nega rasmlar koʻrinib turishi va sogʻliq haqida nimalarni daʼvo qilmasligimiz va qilmasligimiz haqida.",
       "crumb": "Yondashuvimiz",
-      "lede": "Creative Activities qarovchi va demensiya bilan yashayotgan inson yonma-yon zavqlanishi mumkin boʻlgan sokin, kattalarga mos rasm mashgʻulotlarini yaratadi.",
-      "bodyHtml": "<h2>Nimaga ishonamiz</h2><p>Mashgʻulotning mohiyati — shu lahzaning oʻzi: suhbat, tabassum, ikkita rasmni birlashtirishdan olinadigan mamnuniyat yoki shunchaki yonma-yon oʻtirish. Maqsad hech kimni oʻlchash, undan koʻproq narsa talab qilish yoki biror narsani isbotlash emas.</p><p>Koʻp miya mashqi ilovalari tezlik, ball, ketma-ket gʻalabalar va darajalar atrofida qurilgan. Demensiya bilan yashayotgan inson uchun bu oʻtib boʻlmaydigan imtihondek tuyulishi mumkin. Biz buning teskarisini yaratdik va oʻzimizga quyidagi qoidalarni qoʻyamiz:</p><ul><li><strong>Yutqazadigan narsa yoʻq.</strong> Hech bir ekranda soat, ball, yurishlar hisoblagichi, jonlar, ketma-ket gʻalabalar, konfetti yoki teskari sanoq yoʻq.</li><li><strong>Eslab qolishdan koʻra tanish.</strong> Rasmlar odatda koʻrinib turadi. Savollar suhbatga taklif qiladi va hech qachon ism yoki xotiralarni soʻramaydi.</li><li><strong>Katta, oddiy va barqaror.</strong> Katta matn va rasmlar, yuqori kontrast va doim bir joyda turadigan boshqaruv elementlari.</li><li><strong>Kattalarga munosib hurmat.</strong> Hayotiy rasmlar va oddiy, iliq soʻzlar. Multfilmlar, qoʻshiqdek maqtovlar yoki emoji mukofotlari yoʻq.</li><li><strong>Oson chiqish yoʻli.</strong> «Hozircha yetarli» har doim koʻrinib turadi. Yarmida toʻxtash — yaxshi natija.</li><li><strong>Dastlab maxfiy.</strong> Akkaunt ham, reklama ham yoʻq. Tanlagan suratlaringiz qurilmangizda qoladi.</li></ul><h2>Nimani da’vo qilmaymiz</h2><p>Oʻyinlarimiz zavq va yaqinlik uchun. Ular demensiya yoki Alsgeymer kasalligini aniqlamaydi, sinamaydi, oʻlchamaydi, davolamaydi, sekinlashtirmaydi yoki oldini olmaydi va hech kim ularni shu sababli tanlamasligi kerak. <a href=\"/brain-health/\">Miya salomatligi sahifalarimizda</a> tadqiqotlar haqida yozganimizda, dalillar zaif joyini ochiq aytamiz va uni hech qachon oʻz oʻyinlarimizga bogʻlamaymiz.</p><h2>Biz kimmiz</h2><p>Creative Activities — kichik mustaqil jamoa. Biz shifokor emasmiz. Qoʻllanmalarimiz Milliy qarilik instituti (National Institute on Aging) va Alsgeymer assotsiatsiyasi (Alzheimer’s Association) kabi tashkilotlarning e’lon qilingan tavsiyalaridan yozilgan va har bir qoʻllanma manbalarini koʻrsatadi. <a href=\"/editorial-policy/\">Sahifalarimizni qanday yozishimiz va tekshirishimiz</a> haqida oʻqing.</p><h2>Nima foydali boʻlishini ayting</h2><p>Sizga nima yordam berishi va nima bermasligini eshitishni istardik, ayniqsa demensiya bilan yashayotganlar, oila qarovchilari va mashgʻulot xodimlaridan. <a href=\"mailto:{email}\">{email}</a> manziliga yozing.</p>"
+      "sponsors": {
+        "heading": "Homiylar va hamkorlar",
+        "none": "Creative Activities da homiylar, pullik joylashuvlar va saytda logotiplari koʻrsatilgan hamkorlar yoʻq.",
+        "listed": "Bular Creative Activities ning homiylari va hamkorlaridir. Har bir munosabat ham uni koʻrsatadigan sahifada eʼlon qilingan.",
+        "policy": "Agar bu oʻzgarsa, bunday har bir sahifa buni oʻsha joyda aytadi, hech bir mashgʻulotda homiy boʻlmaydi va hamkorlar roʻyxati shu sahifada boʻladi.",
+        "listHeading": "Hamkorlar roʻyxati",
+        "noPartners": "Hozircha hamkorlar yoʻq."
+      },
+      "lede": "Creative Activities ikki kishi yonma-yon zavq bilan bajara oladigan, sokin va kattalarga mos mashgʻulotlar yaratadi, bunda biri ikkinchisiga gʻamxoʻrlik qilayotgan boʻlsinmi yoki ular shunchaki birga vaqt oʻtkazmoqchi boʻlsinmi.",
+      "bodyHtml": "<h2>Kimlar uchun</h2><p>Kimgadir gʻamxoʻrlik qilayotgan har bir kishi uchun: ota-ona, bobo yoki buvi, farzand, hamkor, doʻst yoki demensiya bilan yashayotgan inson. Oilalar, katta yoshdagilar va mashgʻulot xodimlari bir xil sahifalardan foydalanishi mumkin.</p><h2>Biz nimaga ishonamiz</h2><p>Mashgʻulotning maqsadi oʻsha lahzaning oʻzidir: suhbat, tabassum, ikki rasmni bir-biriga joylashtirishdan olingan qoniqish yoki shunchaki yonma-yon oʻtirish. Uning maqsadi kimnidir baholash, unga bosim oʻtkazish yoki biror narsani isbotlash emas.</p><p>Koʻplab miyani mashq qildiruvchi ilovalar tezlik, ball, ketma-ket gʻalabalar va darajalar atrofida yaratilgan. Charchagan, sogʻligi yomon yoki demensiya bilan yashayotgan inson uchun bu topshirib boʻlmaydigan imtihon kabi tuyulishi mumkin. Biz buning teskarisini yaratdik va oʻzimizni quyidagi qoidalarga bogʻlaymiz:</p><ul><li><strong>Yutqazish yoʻq.</strong> Istalgan ekranda soat, ball, harakatlar hisoblagich, hayotlar, ketma-ket gʻalabalar, konfetti yoki teskari sanoq yoʻq.</li><li><strong>Eslashdan koʻra tanish.</strong> Rasmlar sukut boʻyicha koʻrinib turadi. Savollar suhbatni taklif qiladi va hech qachon ismlar yoki xotiralar boʻyicha imtihon oʻtkazmaydi.</li><li><strong>Katta, oddiy va barqaror.</strong> Katta matn va rasmlar, yuqori kontrast hamda boshqaruv elementlari oʻz joyida turadi.</li><li><strong>Kattalar qadr-qimmati.</strong> Haqiqiy hayotdan olingan rasmlar va oddiy, iliq soʻzlar. Multfilm, bolalarcha maqtov yoki emoji mukofotlari yoʻq.</li><li><strong>Osonlik bilan chiqish imkoniyati.</strong> “Hozircha tugatdik” tugmasi doim koʻrinib turadi. Yarim yoʻlda toʻxtash ham yaxshi natija.</li><li><strong>Sukut boʻyicha maxfiylik.</strong> Hisob yaratish va reklama yoʻq. Siz tanlagan suratlar qurilmangizda qoladi.</li></ul><h2>Biz nimalarni daʼvo qilmaymiz</h2><p>Bizning oʻyinlar va mashgʻulotlarimiz zavq va aloqa uchun moʻljallangan. Ular demensiya yoki Alzheimer kasalligini tashxislamaydi, sinamaydi, oʻlchamaydi, davolamaydi, sekinlashtirmaydi va oldini olmaydi, hech kim ularni shu maqsadda tanlamasligi kerak. Sogʻliqni tadqiq qilish haqida yozganimizda, dalillar qayerda kuchsiz ekanini ochiq aytamiz va ularni hech qachon oʻz mashgʻulotlarimizga bogʻlamaymiz.</p><h2>Biz kimmiz</h2><p>Creative Activities kichik mustaqil jamoa. Biz klinitsistlar emasmiz. Qoʻllanmalarimiz National Institute on Aging va Alzheimer’s Association kabi tashkilotlarning nashr etilgan tavsiyalari asosida yoziladi va har bir qoʻllanma oʻz manbalarini roʻyxatlaydi. <a href=\"/editorial-policy/\">Sahifalarimizni qanday yozishimiz va tekshirishimiz</a> bilan tanishing.</p><h2>Qanday yordam berishimiz mumkinligini ayting</h2><p>Sizga nima yoqishi va nima yoqmasligini bilishni istardik, ayniqsa demensiya bilan yashayotgan insonlar, oila aʼzolari gʻamxoʻrlari va mashgʻulot xodimlaridan. Elektron pochta: <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Sahifalarimizni qanday yozamiz va tekshiramiz",
       "seoTitle": "Tahririyat siyosati",
-      "description": "Creative Activities demensiya mashgʻulotlari va miya salomatligi sahifalarini qanday tadqiq qilishi, yozishi va yangilashi hamda nimani hech qachon e’lon qilmasligi.",
+      "description": "Creative Activities oʻzining mashgʻulot va sogʻliq sahifalarini qanday tadqiq qilishi, yozishi, manbalarini tanlashi va yangilashi, hamda biz hech qachon nimani eʼlon qilmasligimiz haqida.",
       "crumb": "Tahririyat siyosati",
       "bodyHtml": "<h2>Manbalarimiz</h2><p>Qoʻllanmalarimizni Milliy qarilik instituti, CDC, Alsgeymer assotsiatsiyasi, Amerika Alsgeymer jamgʻarmasi, Oila qarovchilari alyansi va NHS kabi tashkilotlarning ochiq tavsiyalariga hamda Cochrane sharhlari va yirik klinik sinovlar kabi ekspertlar tekshiruvidan oʻtgan tadqiqotlarga asoslaymiz. Har bir qoʻllanma tayanadigan manbalarni koʻrsatadi. Har bir manbani keltirishdan oldin ochib koʻramiz va faqat u aslida aytgan narsani yozamiz.</p><h2>Qanday yozamiz</h2><ul><li>Avvalo amaliylik: bugun nima qilish, oddiy tilda.</li><li>Dalillar haqida halollik: haqiqat shunday boʻlganda «bogʻliq», «mumkin» va «dalillar aralash» deymiz.</li><li>Hurmat: demensiya bilan yashayotganlar haqida kattalar sifatida yozamiz va hech qachon sinash yoki uyaltirish tilini ishlatmaymiz.</li><li>Oʻylab topilgan narsa yoʻq: toʻqib chiqarilgan statistika, iqtibos, mutaxassis, tadqiqot, sharh yoki guvohlik yoʻq.</li></ul><h2>Sahifalarni kim tekshiradi</h2><p>Sahifalarni Creative Activities jamoasi yozadi va tekshiradi, tadqiqot va qoralama uchun sun’iy intellekt yozuv vositalaridan yordam olinadi. Har bir sahifa jamoa tomonidan manbalariga qarab tekshiriladi. Sahifalarimizni shifokor yoki boshqa klinisist <strong>koʻrib chiqmagan</strong> va biz aksini da’vo qilmaymiz. Ular umumiy ma’lumot, tibbiy maslahat emas.</p><h2>Nimani hech qachon e’lon qilmaymiz</h2><ul><li>Oʻyin, ovqat, qoʻshimcha, roʻza yoki tartib demensiyaning oldini oladi, davolaydi, sekinlashtiradi yoki yoʻqotadi degan da’volar.</li><li>Kimdadir demensiya borligi yoki yoʻqligini anglatadigan testlar, viktorinalar yoki ballar.</li><li>Har qanday dorini boshlash, toʻxtatish yoki oʻzgartirish boʻyicha maslahat.</li><li>Yoʻl-yoʻriq niqobidagi reklama yoki homiylik kontenti.</li></ul><h2>Yangilanishlar va tuzatishlar</h2><p>Har bir sahifada oxirgi yangilanish sanasi koʻrsatiladi. Xato yoki eskirgan manbani topsangiz, iltimos, <a href=\"mailto:{email}\">{email}</a> manziliga yozing, biz uni tezda tekshiramiz.</p>"
     },
     "faq": {
       "title": "Savol va javoblar",
-      "seoTitle": "Demensiya oʻyinlari va mashgʻulotlari: savol va javoblar",
-      "description": "Demensiya oʻyinlari va mashgʻulotlari haqida keng tarqalgan savollarga javoblar: qaysi oʻyinlarni sinash, qancha oʻynash, miya salomatligi va maxfiylik.",
+      "seoTitle": "Creative Activities haqida savol-javoblar",
+      "description": "Oʻyin va mashgʻulotlar boʻyicha koʻp beriladigan savollarga javoblar: qaysilarini sinab koʻrish, qancha vaqt oʻynash, guruhlar va keyingi bosqich gʻoyalari, sogʻliq va maxfiylik.",
       "crumb": "Savol va javoblar",
       "lede": "Qarovchilar eng koʻp soʻraydigan savollarga qisqa, oddiy javoblar.",
       "groups": [
@@ -317,7 +448,7 @@
           "title": "Oʻyinlar haqida",
           "items": [
             {
-              "q": "Demensiya bilan yashayotgan inson uchun eng yaxshi oʻyinlar qaysilar?",
+              "q": "Katta yoshdagilar uchun eng yaxshi oʻyinlar qaysilar?",
               "a": "Eng yaxshi oʻyinlar tanish, oddiy va bosimsiz, toʻgʻri oʻyin esa inson bugun yoqtirgani. Rasmlari koʻrinib turadigan juftlash, saralash, oson jumboqlar, tanish maqollarni tugatish, boʻyash va rasmli bingo koʻpchilik uchun yaxshi ishlaydi. Taymer, ball va sinovga oʻxshagan narsalardan qoching."
             },
             {
@@ -362,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Miya salomatligi",
+          "title": "Demensiya va sogʻliq",
           "items": [
             {
               "q": "Oʻyinlar demensiyaning oldini olishi yoki sekinlashtirishi mumkinmi?",
@@ -393,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Batafsil: <a href=\"/caregiving/how-to-play-together/\">birga qanday oʻynash</a>, <a href=\"/caregiving/when-they-say-no/\">«yoʻq» deyishganda</a>, <a href=\"/activities/late-stage/\">keyingi bosqich mashgʻulotlari</a> va <a href=\"/brain-health/can-dementia-be-prevented/\">demensiyaning oldini olish mumkinmi?</a>"
+      "moreHtml": "Batafsil maʼlumot: <a href=\"/caregiving/how-to-play-together/\">birga qanday oʻynash</a>, <a href=\"/caregiving/when-they-say-no/\">ular rad etganda</a>, <a href=\"/activities/late-stage/\">keyingi bosqich mashgʻulotlari</a> va <a href=\"/dementia-activities/\">uyda demensiya mashgʻulotlari</a>."
     },
     "handout": {
       "title": "Demensiya bilan yashayotganlar uchun bepul, sokin oʻyinlar",
@@ -407,21 +538,21 @@
     },
     "organizations": {
       "title": "Parvarish uylari, kutubxonalar va yordam guruhlari uchun",
-      "seoTitle": "Parvarish uylari va guruhlar uchun bepul mashgʻulotlar",
-      "description": "Parvarish uylari, kutubxonalar va yordam guruhlari bepul demensiya oʻyinlarimizdan qanday foydalanishi hamda bizni resurslar roʻyxatiga qoʻshish matni.",
+      "seoTitle": "Qarovxonalar, kutubxonalar va guruhlar uchun bepul mashgʻulotlar",
+      "description": "Qarovxonalar, kunduzgi parvarish dasturlari, kutubxonalar, qariyalar bilan ishlovchi agentliklar va qoʻllab-quvvatlash guruhlari bizning bepul oʻyinlar va mashgʻulot qoʻllanmalarimizdan qanday foydalanadi, hamda bizni resurslar roʻyxatiga qoʻshish uchun matn.",
       "crumb": "Tashkilotlar uchun",
       "lede": "Bu saytdagi hamma narsadan yashovchilar, a’zolar va mijozlar bilan bepul foydalanish mumkin: akkaunt, litsenziya yoki toʻlov kerak emas.",
-      "shortText": "{name}: demensiya bilan yashayotganlar va qarovchilari uchun bepul, sokin rasm oʻyinlari va mashgʻulot qoʻllanmalari. Roʻyxatdan oʻtish, taymer va ball yoʻq.",
-      "longText": "{name} ({domain}) demensiya bilan yashayotganlar uchun moʻljallangan {count} ta bepul brauzer oʻyinini taklif qiladi: rasmlari koʻrinib turadigan juftlash, oson jumboq, saralash, tanish maqollar va chop etiladigan kartali rasmli bingo. Akkaunt, reklama, taymer yoki ball yoʻq. Saytda demensiyaning har bir bosqichi uchun Milliy qarilik instituti va Alsgeymer assotsiatsiyasiga tayanadigan oddiy tildagi mashgʻulot qoʻllanmalari ham bor.",
+      "shortText": "{name}: katta yoshdagilar, oilalar va demensiya bilan yashayotgan insonlar uchun bepul, yumshoq rasmli oʻyinlar va mashgʻulot qoʻllanmalari. Roʻyxatdan oʻtish yoʻq, taymer yoʻq, ball yoʻq.",
+      "longText": "{name} ({domain}) bepul brauzerda o‘ynaladigan {count} ta o‘yinni taklif etadi. Ular katta yoshdagilar, oilalar va xotira pasayishi bilan yashayotgan odamlar uchun mo‘ljallangan: rasmlarni juftlash (rasmlar ochiq qolgan holda), oson yig‘ma rasm, saralash, mashhur maqollar va chop etish mumkin bo‘lgan kartochkalar bilan rasmli bingo. Hisob yozuvi, reklama, taymer yoki ball yo‘q. Saytda oilalar, katta yoshdagilar va xodimlar uchun sodda tilda yozilgan faoliyat qo‘llanmalari ham bor; manbalar sifatida National Institute on Aging va Alzheimer's Association ko‘rsatilgan.",
       "useTitle": "Tashkilotlar nimadan foydalanishi mumkin",
       "gamesItemHtml": "<strong>{count} ta brauzer oʻyini</strong> noutbuk, planshet yoki kompyuterga ulangan televizorda ishlaydi. Oʻrnatish, akkaunt yoki yuklab olish shart emas. <a href=\"/games/\">Barcha oʻyinlarni</a> koʻring.",
       "printablesLabel": "{count} ta chop etiladigan material:",
       "printablesAfter": "Har bir sahifadagi «Chop etish» tugmasidan foydalaning.",
-      "moreItemsHtml": "<li><strong>Guruh formatlari:</strong> <a href=\"/games/picture-bingo/\">Rasmli bingo</a>da chop etiladigan kartalar va ekrandagi e’lon qiluvchi bor, <a href=\"/activities/trivia/\">oson viktorina</a>da esa javob variantlari va suhbat mavzulari bilan 50 ta savol bor.</li><li><strong>Mashgʻulot qoʻllanmalari</strong> xodimlar va oilalar uchun, bosqich va tur boʻyicha, manbalari bilan oddiy tilda yozilgan. <a href=\"/activities/ideas/\">101 ta mashgʻulot gʻoyasi</a> yoki <a href=\"/activities/care-home-groups/\">parvarish uylari uchun guruh mashgʻulotlari</a>dan boshlang.</li>",
+      "moreItemsHtml": "<li><strong>Guruh shakllari:</strong> <a href=\"/games/picture-bingo/\">Rasmli bingo</a> chop etish mumkin bo‘lgan kartochkalar va ekrandagi ovoz beruvchiga ega, <a href=\"/together/conversation-games-for-all-ages/\">suhbat o‘yinlari</a> esa javob variantli savollar va suhbat uchun mavzularni o‘z ichiga oladi.</li><li><strong>Faoliyat qo‘llanmalari</strong> xodimlar va oilalar uchun, manbalar ko‘rsatilgan sodda tilda yozilgan. <a href=\"/activities/ideas/\">101 ta faoliyat g‘oyasi</a> yoki <a href=\"/crafts/craft-group-sessions/\">parvarish uylari uchun guruh faoliyatlari</a> bilan boshlang.</li>",
       "restHtml": "<h2>Guruhlar bundan qanday foydalanadi</h2><ul><li><strong>Parvarish uylari va xotira parvarishi:</strong> umumiy xonadagi televizorda rasmli bingo yoki maqol tugatish, guruh uchun bir kishi bosadi.</li><li><strong>Kunduzgi dasturlar:</strong> toʻrtta katakka sozlangan «Rasm juftliklari» bilan planshet stansiyasi, qisqa yakkama-yakka mashgʻulotlar uchun.</li><li><strong>Ommaviy kutubxonalar:</strong> xotira toʻplamlarida chop etilgan soʻz izlash va suhbat kartalari, kutubxona planshetlarida saqlab qoʻyilgan sayt.</li><li><strong>Qarovchilar yordam guruhlari va xotira kafelari:</strong> oilalar uyga olib ketishi uchun <a href=\"/handout/\">bir sahifalik chop etiladigan varaqa</a>.</li><li><strong>Kasalxonalar va chiqarish rejalashtiruvchilari:</strong> uyda yoki bemor yonida qilinadigan sokin ish uchun qarovchilar toʻplamidagi varaqa.</li></ul><h2>Nimani qilmaymiz</h2><p>Oʻyinlar zavq va birga vaqt oʻtkazish uchun. Ular demensiyani aniqlamaydi, sinamaydi, baholamaydi, davolamaydi yoki sekinlashtirmaydi va tashkilotlardan ularni shunday tasvirlamaslikni soʻraymiz. Reklama yoʻq va oʻyinlar ism, sogʻliq ma’lumotlari yoki suratlarni yuklashni soʻramaydi. Veb-sayt tashriflarni sanash uchun Google Analytics’dan foydalanadi; <a href=\"/privacy/\">maxfiylik bildirishnomamiz</a> u nimani yigʻishini tushuntiradi. <a href=\"/games/photo-pairs/\">Surat juftliklari</a>da ishlatilgan suratlar brauzerda qoladi.</p><h2>Bizni resurslar roʻyxatingizga qoʻshing</h2><p>Qarovchilar uchun resurslar roʻyxatini yuritsangiz, <a href=\"/\">{domain}</a> manziliga havola qoʻyishingiz mumkin. Ikkala tavsifdan birini nusxalashingiz mumkin.</p>",
       "shortTitle": "Qisqa tavsif",
       "longTitle": "Batafsilroq tavsif",
-      "linksHtml": "<p>Toʻgʻridan-toʻgʻri havola berish uchun foydali sahifalar: <a href=\"/games/\">bepul oʻyinlar</a>, <a href=\"/activities/printable/\">bepul chop etiladigan materiallar</a>, <a href=\"/activities/alzheimers/\">Alsgeymer uchun mashgʻulotlar</a> va <a href=\"/caregiving/how-to-play-together/\">birga qanday oʻynash</a>.</p><h2>Savollar yoki tuzatishlar</h2><p>Saytdagi biror narsa notoʻgʻri yoki tushunarsiz boʻlsa yoxud yashovchining ehtiyojlari bu yerdagilar bilan qondirilmasa, iltimos, <a href=\"mailto:{email}\">{email}</a> manziliga yozing. Iltimos, yashovchilar yoki mijozlar haqida shaxsiy yoki sogʻliq ma’lumotlarini yubormang.</p>"
+      "linksHtml": "<p>To‘g‘ridan-to‘g‘ri havola qilish uchun foydali sahifalar: <a href=\"/games/\">bepul o‘yinlar</a>, <a href=\"/games/\">bepul chop etiladigan materiallar</a>, <a href=\"/dementia-activities/\">uyda xotira pasayishi bilan bog‘liq faoliyatlar</a> va <a href=\"/caregiving/how-to-play-together/\">birgalikda qanday o‘ynash kerak</a>.</p><h2>Savollar yoki tuzatishlar</h2><p>Saytdagi biror narsa noto‘g‘ri yoki tushunarsiz bo‘lsa yoki bu yerdagi ma’lumotlar yashovchining ehtiyojlarini qondirmasa, iltimos, <a href=\"mailto:{email}\">{email}</a> manziliga yozing. Iltimos, yashovchilar yoki mijozlar haqida shaxsiy yoki sog‘liq haqidagi ma’lumotlarni yubormang.</p>"
     },
     "app": {
       "title": "Creative Activities ilovasi",
@@ -436,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Bepul demensiya va Alsgeymer oʻyinlari onlayn",
-    "description": "Demensiya yoki Alsgeymer bilan yashayotgan keksalar uchun bepul onlayn oʻyinlar: rasm juftlash, oson jumboq, saralash, maqollar, boʻyash, bingo.",
+    "title": "Onlayn birgalikda o‘ynash uchun bepul o‘yinlar",
+    "description": "Katta yoshdagilar, oilalar va xotira pasayishi bilan yashayotgan odamlar uchun bepul onlayn o‘yinlar: rasmlarni juftlash, oson yig‘ma rasmlar, saralash, maqollar, rang berish va bingo. Ro‘yxatdan o‘tish, taymer yoki ball yo‘q.",
     "crumb": "Oʻyinlar",
-    "h1": "Demensiya bilan yashayotganlar uchun sokin oʻyinlar",
+    "h1": "Birgalikda o‘ynash uchun yumshoq o‘yinlar",
     "lede": "Brauzeringizda birga oʻynash uchun {count} ta bepul oʻyin. Katta rasmlar, oddiy soʻzlar va yutqazadigan narsa yoʻq: taymer, ball va roʻyxatdan oʻtish yoʻq.",
-    "listName": "Demensiya bilan yashayotganlar uchun sokin oʻyinlar",
+    "listName": "Birgalikda o‘ynash uchun yumshoq o‘yinlar",
     "byStageTitle": "Oʻyinni bosqich boʻyicha tanlash",
     "byStageLede": "Bosqichlar faqat taxminiy yoʻl-yoʻriq. Inson nimadan zavqlansa va bugun nima qulay tuyulsa, shunga ergashing.",
     "stageCol": "Bosqich",
     "gamesCol": "Koʻpincha mos keladigan oʻyinlar",
-    "moreHtml": "Ekrandan tashqari yana gʻoyalar: <a href=\"/activities/ideas/\">demensiya bilan yashayotganlar uchun 101 ta mashgʻulot</a>, <a href=\"/activities/alzheimers/\">Alsgeymer uchun mashgʻulotlar va oʻyinlar</a>, <a href=\"/activities/memory-games/\">sokin xotira oʻyinlari</a> va <a href=\"/activities/puzzles/\">jumboqlar</a>.",
+    "moreHtml": "Ekrandan tashqaridagi qo‘shimcha g‘oyalar: <a href=\"/activities/ideas/\">101 ta faoliyat g‘oyasi</a>, <a href=\"/dementia-activities/\">uyda xotira pasayishi bilan bog‘liq faoliyatlar</a> va <a href=\"/crafts/\">hunarmandchilik</a>.",
     "faq": [
       {
         "q": "Qaysi oʻyindan boshlaymiz?",
@@ -462,7 +593,7 @@
       },
       {
         "q": "Bu keksalar uchun xotira oʻyinlarimi?",
-        "a": "Bular har qanday keksa kattalar zavqlanishi mumkin boʻlgan juftlash va rasm oʻyinlari, lekin xotirani sinamaslik uchun qurilgan: «Rasm juftliklari»da rasmlar boshqacha tanlamasangiz yuzi tepaga qaragan holda qoladi. Demensiyali keksalar uchun xotira oʻyinlari qoʻllanmamiz har qanday xotira oʻyinini qanday sokin saqlashni tushuntiradi."
+        "a": "Bu o‘yinlar har qanday katta yoshdagi odam zavq olishi mumkin bo‘lgan juftlash va rasmli o‘yinlardir, lekin ular xotirani sinash uchun yaratilmagan: “Rasmli juftlar” o‘yinida, siz boshqacha tanlamasangiz, rasmlar yuzi bilan ochiq turadi. Har qanday xotira o‘yinini taymer va ballarni olib tashlash orqali yumshoqroq qilish mumkin."
       },
       {
         "q": "Parvarish uyida guruhlar uchun oʻyinlar bormi?",
@@ -483,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Demensiya mashgʻulotlari ilovasi bormi?",
+        "q": "Katta yoshdagilar va oilalar uchun ilova bormi?",
         "a": "Ha. Creative Activities (“{storeName}” nomi bilan) App Store va Google Playda bepul. U katta katakli sokin rasm juftlash, siz tanlagan oilaviy suratlar bilan oʻyinlar va internetsiz ishlaydigan rasm toʻplamlarini taklif qiladi."
       },
       {
@@ -525,7 +656,7 @@
     "printable": "Chop etiladigan",
     "howTo": "{name} qanday oʻynaladi",
     "tips": "Birga oʻynash uchun maslahatlar",
-    "newToPlayingHtml": "Demensiyali inson bilan oʻynashni endi boshlayapsizmi? Qiziqishini yoʻqotsa nima qilish haqidagi <a href=\"/caregiving/how-to-play-together/\">oʻyinlarni birga qanday oʻynash</a> qoʻllanmasini oʻqing.",
+    "newToPlayingHtml": "Katta yoshdagi odam yoki xotira pasayishi bilan yashayotgan odam bilan birinchi marta o‘ynayapsizmi? <a href=\"/caregiving/how-to-play-together/\">birgalikda o‘yinlarni qanday o‘ynash</a> haqida o‘qing, shu jumladan ular qiziqishini yo‘qotsa nima qilish kerakligini.",
     "moreAria": "Koʻproq kashf qilish",
     "helpfulGuides": "Foydali qoʻllanmalar",
     "appTitle": "Ilovada oʻynang",
@@ -535,6 +666,35 @@
     "goodToKnow": "Bilish foydali",
     "goodToKnowText": "Bu oʻyin zavq va birga vaqt oʻtkazish uchun. U hech narsani sinamaydi, oʻlchamaydi yoki davolamaydi.",
     "moreGames": "Yana sokin oʻyinlar",
-    "crumb": "Oʻyinlar"
+    "crumb": "Oʻyinlar",
+    "print": {
+      "heading": "Qog‘ozda o‘ynang",
+      "sameRules": "Qog‘oz variantida ekrandagi o‘yin bilan bir xil qoidalar bor:",
+      "button": "Qog‘oz variantini chop eting",
+      "pageNote": "A4 yoki US Letter formatidagi bir sahifa, qora-oq rangda ham yaxshi chiqadi. Versiya {date}.",
+      "islandNote": "U ekranda hozir ko‘rinayotgan narsani chop etadi. Versiya {date}.",
+      "sheetTitle": "{name}: qog‘oz varianti",
+      "point": "Qog‘ozda rasmni bosish o‘rniga unga barmog‘ingiz bilan ishora qiling yoki qalam bilan doira chizing. Har bir qator yangi to‘plamdir.",
+      "pointTarget": "Qog‘ozda ko‘rish uchun rasm har bir qatorning boshidagi katakchada. Rasmni bosish o‘rniga unga barmog‘ingiz bilan ishora qiling yoki qalam bilan doira chizing.",
+      "halves": "Har bir rasm o‘rtasidan kesiladi. Chapdagi har bir yarmidan o‘ngdagi unga mos yarmigacha chiziq torting yoki barmog‘ingiz bilan ishora qiling. Hech narsa kesish talab etilmaydi.",
+      "grid": "Har bir katakchada raqam bor. Shu raqamni kalitdan toping va katakchani shu rangdagi qalam bilan bo‘yang. Boshqa istalgan rang ham yaxshi. Hech narsa kesish talab etilmaydi.",
+      "colors": "Har bir qatorda rang nomi yozilgan. Shu rangdagi har bir rasmga barmog‘ingiz bilan ishora qiling yoki qalam bilan doira chizing. Har bir qator yangi to‘plamdir.",
+      "dice": "Har bir qator zarlar to‘plamidir. Qatorni tanlang yoki rasmlarni kesib, uyumdan tortib oling va ulardan istalgan tartibda hikoya tuzing. Har kim o‘tib ketishi mumkin.",
+      "words": "So‘zlarni kesib oling yoki har bir so‘zdan uning rasmigacha chiziq torting. Davomida so‘zlarni ovoz chiqarib o‘qing.",
+      "cards": "Kartochkalarni uzuq chiziqlar bo‘ylab kesib oling. Ularni stolga yuzi bilan yoying, so‘ng juftlarini toping.",
+      "chain": "Qog‘ozda rasmlarni chapdan o‘ngga, ketma-ket o‘qing. Har bir ishtirokchi hozirgacha ko‘rilgan rasmlar haqida bitta gap aytadi, so‘ng keyingi rasmga ishora qiladi. Har kim o‘tib ketishi mumkin.",
+      "sort": "Rasmlarni uzuq chiziqlar bo‘ylab kesib oling, so‘ng har birini tegishli qutiga joylashtiring.",
+      "puzzle": "Katta rasmni uzuq chiziqlar bo‘ylab to‘rt bo‘lakka kesing va aralashtiring. Rasm butun bo‘lguncha bir vaqtda ikki bo‘lakni almashtiring. Kichik rasm yo‘riqnoma vazifasini bajaradi.",
+      "cutSafety": "Boshlashdan oldin kesishni yordamchi bajarishi mumkin. Keyin qaychini joyiga qo‘yib qo‘ying.",
+      "version": "Versiya {date} · {url}",
+      "reasons": {
+        "photos": "Qog‘oz varianti yo‘q. Bu o‘yin sizning shaxsiy suratlaringizdan foydalanadi, ular brauzeringizda qoladi va hech qachon yuklanmaydi, shuning uchun sayt ularni chop eta olmaydi. Qog‘ozda o‘ynash uchun bir nechta sevimli suratdan uyda ikki nusxadan chop eting va stolda juftlang.",
+        "paced": "Qog‘oz varianti yo‘q. Doira ekranda sekin, barqaror sur’atni belgilaydi, bosilgan sahifa bunday qila olmaydi, shuning uchun bu boshqa faoliyat bo‘lib qolardi. Ekransiz birgalikda sokin tanaffus qilish doim mumkin.",
+        "turns": "Bu o‘yinning qog‘oz varianti yo‘q. Stolda juftlarni topish uchun “Rasmli juftlar” o‘yinidagi rasm kartochkalarini chop eting va navbat bilan ag‘darib chiqing.",
+        "screen": "Bu qog'oz varianti yo'q. Bu birgalikda ekranda qarab ko'riladigan rasm; stolda turgan sevimli fotosurat yoki otkritka ham xuddi shu vazifani bajaradi.",
+        "wash": "Qog'oz varianti yo'q. Qog'ozdagi akvarel ham xuddi shunday g'oya: nam mo'yqalam va bir vaqtda bitta rang.",
+        "sayings": "Hozircha qog'oz varianti yo'q. Qog'ozda har bir yakun bir vaqtda ko'rinib qolardi va muloyim \"Yakunni ko'rsatish\" bosqichi yo'qolardi. Maqollarni ekrandan birgalikda o'qing yoki ikkalangiz biladigan bir nechtasini ayting."
+      }
+    }
   }
 }
