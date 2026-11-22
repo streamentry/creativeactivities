@@ -7,16 +7,22 @@
     "homeLabel": "Саҳифаи асосии Creative Activities",
     "mainNav": "Асосӣ",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: расмҳои калон ва меҳрубон аз пиёлаи чой, офтобпараст ва саг",
+    "defaultImageAlt": "Creative Activities: катҳои калон ва меҳрубон аз чизҳои ҳаррӯза барои сохтан ва кардан",
     "languages": "Забон",
     "englishOnly": "(англисӣ)",
     "machineTranslated": "Ин саҳифа бо роҳи автоматӣ тарҷума шудааст ва ҳанӯз аз ҷониби хонандаи забони модарӣ санҷида нашудааст.",
     "readOriginal": "Матни аслиро ба забони англисӣ бихонед",
     "nav": {
+      "find": "Find an activity",
       "games": "Бозиҳо",
       "activities": "Фаъолиятҳо",
       "caregiving": "Ғамхорӣ",
-      "brainHealth": "Саломатии мағз"
+      "brainHealth": "Саломатии мағз",
+      "crafts": "Ҳунармандӣ",
+      "kids": "Кӯдакон",
+      "together": "Якҷоя",
+      "creativeCalm": "Оромии эҷодӣ",
+      "search": "Ҷустуҷӯ"
     },
     "faqTitle": "Саволу ҷавобҳо",
     "breadcrumb": "Роҳнамои саҳифа",
@@ -27,7 +33,32 @@
       "label": "Андозаи матн",
       "smaller": "Матни стандартӣ",
       "larger": "Матни калонтар",
-      "contrast": "Контрасти баландтар"
+      "contrast": "Контрасти баландтар",
+      "colors": "Рангҳо",
+      "light": "Равшан",
+      "dark": "Торик",
+      "device": "Мисли ин дастгоҳ",
+      "lineLength": "Дарозии сатр",
+      "standardLines": "Стандартӣ",
+      "shorterLines": "Сатрҳои кӯтоҳтар",
+      "spacing": "Фосила",
+      "standardSpacing": "Стандартӣ",
+      "moreSpace": "Фосилаи бештар"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 ғояи фаъолият",
     "lateStage": "Фаъолиятҳо барои марҳилаи охирин",
     "printable": "Фаъолиятҳои барои чоп",
-    "allActivities": "Ҳамаи фаъолиятҳо",
+    "allActivities": "Ҳамаи роҳнамоҳои фаъолият",
     "forCaregivers": "Барои ғамхорон",
     "playTogether": "Чӣ тавр якҷоя бозӣ кардан",
     "selfCare": "Ғамхорӣ аз худ",
@@ -54,24 +85,34 @@
     "app": "Барномаи Creative Activities",
     "appHelp": "Кумак дар барнома",
     "support": "Дастгирӣ",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Ҳуқуқӣ",
     "sitePrivacy": "Махфияти сайт",
     "appPrivacy": "Сиёсати махфияти барнома",
     "privacyChoices": "Интихоби махфият",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Шартҳо ва иҷозатномаи барнома",
     "safety": "Бехатарӣ ва истифодаи мақсаднок",
     "accessibility": "Дастрасӣ",
     "healthNotice": "Огоҳии иттилооти тиббӣ",
     "allLegal": "Ҳамаи иттилооти ҳуқуқӣ",
     "note": "Creative Activities фаъолиятҳои соддаи якҷоя барои лаззат бурдан пешниҳод мекунад. Ин маслиҳати тиббӣ, санҷиш ё табобат нест ва ҳеҷ кас таҳлил, чен ё баҳо намекунад. Барои саволҳои саломатӣ бо духтур маслиҳат кунед. Дар ҳолати фавқулодда ба 112 занг занед.",
-    "publisher": "Нашр аз ҷониби Cloudjet Solutions Pte. Ltd."
+    "publisher": "Нашр аз ҷониби Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Ҳунармандӣ барои ҳама синну сол",
+    "kids": "Фаъолият барои кӯдакон",
+    "together": "Фаъолият барои якҷоя иҷро кардан",
+    "creativeCalm": "Оромии эҷодӣ",
+    "dementiaActivities": "Фаъолият барои одамони бо деменсия зиндагикунанда"
   },
   "home": {
-    "title": "Бозиҳо ва фаъолиятҳо барои деменсия ва Алсгеймер | Creative Activities",
-    "description": "Бозиҳои ройгон ва мулоим бо расм барои бозӣ дар интернет ва ғояҳои фаъолият барои одамоне, ки бо деменсия ё Алсгеймер зиндагӣ мекунанд, ва ғамхорони онҳо. Бе сабти ном, вақтсанҷ ва холҳо.",
+    "title": "Фаъолиятҳои эҷодӣ барои ҳар кас, ки аз касе ғамхорӣ мекунад",
+    "description": "Фаъолиятҳои эҷодии ройгон барои ҳар кас, ки аз касе ғамхорӣ мекунад: ҳунармандӣ, чизҳо барои кӯдакон, фаъолият барои якҷоя иҷро кардан ва ғояҳои эҷодии оромбахш.",
     "eyebrow": "Ройгон · Бе реклама · Бе сабти ном · Бе вақтсанҷ ва холҳо",
-    "h1": "Бозиҳо ва фаъолиятҳои мулоим барои одамони бо деменсия",
-    "lede": "Бозиҳои соддаи бо расм, аксҳои ошно ва фаъолиятҳо барои якҷоя лаззат бурдан — бо суръати худатон.",
+    "h1": "Якҷоя чизе созед",
+    "lede": "Фаъолиятеро ёбед, ки ба шахс, лаҳза ва чизе ки доред, мувофиқ аст. Ҳунармандии осон, санъати кӯдакон, корҳо барои якҷоя иҷро кардан ва ғояҳои оромбахши эҷодӣ, бо версияҳои осонтар ва корти барои чоп кардан. Ҳар вақт хоҳед, бас кунед.",
     "playGame": "Бозиро оғоз кунед",
     "findIdeas": "Ёфтани ғояҳои фаъолият",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 ғояи фаъолият",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Марҳилаи аввал",
         "text": "Он чи дӯст медоранд, бо тағйироти хурд идома диҳед: машғулиятҳо, сайругашт, бозиҳои калимаҳо ва нақшаи якҷоя.",
         "label": "Ғояҳо барои марҳилаи аввал"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Марҳилаи миёна",
         "text": "Корҳои соддаву ошно, ба қадамҳо тақсимшуда: ба ҳам печондан, ҷудо кардан, мусиқӣ, бозиҳо бо расм ва сайругаштҳои кӯтоҳ.",
         "label": "Ғояҳо барои марҳилаи миёна"
@@ -124,10 +165,10 @@
         "label": "Ғояҳо барои марҳилаи охирин"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "Чизи мушаххас меҷӯед? Кӯшиш кунед <a href=\"/dementia-activities/\">фаъолият ва бозиҳо барои бемории Алсгеймер</a>, <a href=\"/together/puzzles-and-table-games/\">пазлҳо ва бозиҳои стольӣ</a>, <a href=\"/together/conversation-games-for-all-ages/\">бозиҳои суҳбат</a> ё <a href=\"/together/puzzles-and-table-games/\">пазлҳо</a>.",
     "approachEyebrow": "Равиши мо",
-    "approachTitle": "Фаъолияти якҷоя, на санҷиши хотира",
-    "approachLede": "Бисёре аз «бозиҳои мағз» дар атрофи суръат, холҳо ва пай дар пай ғолибият сохта шудаанд. Барои одаме, ки бо деменсия зиндагӣ мекунад, ин метавонад мисли имтиҳон бошад. Мо баръакс сохтем.",
+    "approachTitle": "Фаъолияти якҷоя, на санҷиш",
+    "approachLede": "Бисёре аз «бозиҳои зеҳнӣ» бар асоси суръат, холҳо ва пайдарпайӣ сохта шудаанд. Барои касе, ки хаста аст, бемор аст ё бо деменсия зиндагӣ мекунад, ин метавонад мисли имтиҳон ба назар расад. Мо баръакс сохтаем.",
     "approachLink": "Чаро мо онро ин тавр тарроҳӣ кардем",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Сабабҳои маъмули рад ва роҳҳои мулоим барои кӯшиши дубора дар вақти дигар."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Танзими планшет",
-        "text": "Матни калонтар, вақфаҳои кам ва як экрани хонагии содда."
+        "href": "/activities/group-art-activities/",
+        "title": "Фаъолиятҳои санъатии гурӯҳӣ",
+        "text": "Лоиҳаҳои муштарак барои миз бо чанд нафар, ки барои ҳар кас вазифае дорад."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Фаъолиятҳои ройгон барои чоп",
-        "text": "Ҷустуҷӯи калимаҳо бо хатти калон, варақаҳои рангкорӣ, бинго ва корташкаҳои суҳбат."
+        "href": "/activities/ideas/",
+        "title": "101 ғояи фаъолият",
+        "text": "Ғояҳои содда, ба тартиби он чи доред ва чӣ қадар қувват доред, ҷойгиршуда."
       }
     ],
     "researchTitle": "Саломатии мағз: тадқиқот воқеан чиро нишон медиҳад",
@@ -185,16 +226,16 @@
     "aboutApp": "Дар бораи барнома",
     "faq": [
       {
-        "q": "Барои одамони бо деменсия кадом бозиҳо хубанд?",
-        "a": "Бозиҳои хуб содда, ошно ва бе фишор ҳастанд: тасвирҳои калон барои мувофиқ кардан, ҷудо кардан, пазлҳои осон, ба охир расонидани гуфтаҳои маъмул, рангкорӣ, бингои тасвирӣ ва кортҳои суханронӣ. Беҳтарин интихоб он бозие аст, ки имрӯз ба шахс маъқул аст. Вақтсанҷ, холҳо ва ҳар чизе, ки ба имтиҳон монанд аст, худдорӣ кунед."
+        "q": "Барои калонсолон бозиҳои хуб кадоманд?",
+        "a": "Бозиҳои хуб содда, шинос ва бе фишор мебошанд: тасвирҳои калон барои мутобиқ кардан, ҷудо кардан, пазлҳои осон, давом додани мақолаҳои маъруф, ранг кардан, бинго бо тасвирҳо ва корти суҳбат. Онҳо ба бисёр калонсолон, аз ҷумла одамони бо деменсия зиндагикунанда мувофиқанд. Беҳтарин интихоб ҳамон аст, ки шахс имрӯз аз он лаззат мебарад. Таймер, холҳо ва ҳар чизе, ки ба имтиҳон монанд аст, худдорӣ кунед."
       },
       {
-        "q": "Оё ин бозиҳои деменсия ройгонанд?",
+        "q": "Оё ин бозиҳо ройгонанд?",
         "a": "Бале. Ҳар бозӣ ва ҳар чопшаванда дар Creative Activities ройгон аст, бе ҳисоб, бе бақайдгирӣ ва бе зеркашӣ. Бозиҳо дар браузери веб дар телефон, планшет ё компютер кушода мешаванд."
       },
       {
         "q": "Оё бозиҳои мағз деменсияро пешгирӣ мекунанд?",
-        "a": "Не, ҳеҷ бозие нишон дода нашудааст, ки деменсияро пешгирӣ кунад ва Creative Activities даъво намекунад, ки ягон чизро табобат ё пешгирӣ мекунад. Бозиҳои мо барои шодмонӣ ва вақти якҷоя ҳастанд. Бахши саломатии мағз мо шарҳ медиҳад, ки тадқиқот чиро нишон медиҳад ва чиро не."
+        "a": "Ҳеҷ бозие нишон дода нашудааст, ки деменсияро пешгирӣ мекунад ва Creative Activities даъво намекунад, ки ягон чизро табобат ё пешгирӣ мекунад. Бозиҳои мо барои лаззат ва вақти якҷоя гузарондан аст ва ҳеҷ саҳифаи фаъолият даъвои саломатиро намекунад."
       },
       {
         "q": "Are these games suitable for someone with Alzheimer's?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Creative Activities-ро кӣ месозад?",
-        "a": "Creative Activities дастаи хурде аст, ки фаъолиятҳои оромбахши тасвирии калонсолонро барои оилаҳо ва парасторон дар веб ва ҳамчун барномаи ройгон месозад. Мо мутахассисони тиббӣ нестем ва ҳеҷ чизи инҷо маслиҳати тиббӣ нест."
+        "a": "Creative Activities гурӯҳи хурди касбест, ки фаъолиятҳои эҷодии оромбахш ва барои калонсолон барои ҳар кас, ки аз касе ғамхорӣ мекунад, месозад, дар веб ва ҳамчун барномаи ройгон. Мо духтур нестем ва ҳеҷ чизи инҷо маслиҳати тиббӣ нест."
+      }
+    ],
+    "groupsEyebrow": "Роҳи худро пайдо кунед",
+    "groupsTitle": "Чор намуди фаъолияти эҷодӣ",
+    "groupsLede": "Аз гурӯҳе оғоз кунед, ки ба он ки бо кӣ ҳастед ва чӣ доред, мувофиқ аст. Дар ҳар саҳифа версияҳои осонтар ва ёддоштҳои бехатарӣ ҳастанд.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Ҳунармандӣ",
+        "text": "Лоиҳаҳои коғаз, рангкорӣ, аз маводи такрорӣ ва мавсимӣ, бо версияи осонтар барои ҳар яке.",
+        "label": "Ҳунармандиро дидан"
+      },
+      {
+        "href": "/kids/",
+        "title": "Кӯдакон",
+        "text": "Санъат ва бозӣ барои кӯдакон, бо калонсол дар наздикӣ ва ёддоштҳои равшани бехатарӣ.",
+        "label": "Фаъолияти кӯдаконро дидан"
+      },
+      {
+        "href": "/together/",
+        "title": "Якҷоя",
+        "text": "Суҳбат, пазлҳо, вақт дар берун ва роҳҳои наздик мондан дар байни наслҳо.",
+        "label": "Корҳоеро дидан, ки якҷоя кардан мумкин аст"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Оромии эҷодӣ",
+        "text": "Лаҳзаҳои эҷодии суст ва ором бо қалам, саҳифа ё суруд. Табобат нест.",
+        "label": "Оромии эҷодиро дидан"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Барои чоп",
     "play": "Бозии {name} →",
     "readGuide": "Роҳнаморо хонед"
+  },
+  "listen": {
+    "listenSteps": "Қадамҳоро гӯш кунед",
+    "pause": "Таваққуф",
+    "resume": "Идома додан",
+    "stop": "Қатъ кардан",
+    "speed": "Суръат",
+    "normal": "Муқаррарӣ",
+    "slower": "Slower",
+    "reading": "Қадамҳо баландовоз хонда мешаванд.",
+    "paused": "Таваққуф шуд. Барои идома додан «Идома додан»-ро пахш кунед.",
+    "note": "Овози худи дастгоҳатонро истифода мебарад. Баъзе дастгоҳҳо матнро барои хондан ба созандаи худ мефиристанд.",
+    "listen": "Гӯш кардан",
+    "stepLabel": "Listen to step {n}",
+    "stopStep": "Stop step {n}"
   },
   "playCta": {
     "title": "Барои бозии оромбахш омодаед?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Фаъолиятҳо",
-      "title": "Фаъолиятҳо барои одамоне, ки бо деменсия зиндагӣ мекунанд",
-      "seo": "Фаъолиятҳо барои одамоне, ки бо деменсия зиндагӣ мекунанд: ғояҳо аз рӯи марҳила",
-      "description": "Ғояҳои фаъолият барои одамоне, ки бо деменсия зиндагӣ мекунанд, дар ҳар марҳила: мусиқӣ, ёдоварӣ, корҳои ҳаррӯза, лаҳзаҳои ҳиссиётӣ, ҳунарҳои дастӣ, берун аз хона ва чопҳои ройгон.",
-      "lede": "Фаъолияти аҳамиятнок ҳар чизест, ки осоиш, мақсад ё лаҳзаи пайвастагӣ меорад. Бо он чизе оғоз кунед, ки шахс ҳамеша дӯст медошт ва онро ба имрӯз мутобиқ кунед."
+      "label": "Роҳнамоҳои фаъолият",
+      "title": "Роҳнамоҳои фаъолият",
+      "seo": "Роҳнамоҳои фаъолият: ғояҳо, маводи санъат ва роҳҳои оғоз",
+      "description": "Роҳнамоҳои содда ба фаъолиятҳои эҷодӣ, ки бо касе иҷро кардан мумкин аст: ғояҳои осон, маводи санъат бо буҷаи кам, санъати гурӯҳӣ, ҳарфҳо, хотираҳо ва шарҳи терапияи санъат.",
+      "lede": "Роҳнамоҳои кӯтоҳ ва амалӣ барои интихоб ва оғоз кардани фаъолият бо касе, новобаста аз синну сол ё имкониятҳо."
+    },
+    "crafts": {
+      "label": "Ҳунармандӣ",
+      "title": "Ҳунармандӣ барои ҳама синну сол",
+      "seo": "Ҳунармандии осон барои ҳама синну сол, бо версияҳои осонтар",
+      "description": "Ҳунармандии осон барои калонсолон, кӯдакон ва оилаҳо: коғаз, ранг кардан, аз маводи такрорӣ ва мавсимӣ, бо версияҳои осонтар барои гирифтан ва нишаста, бе маҳорати махсус.",
+      "lede": "Ҳунармандӣ, ки аз чизҳое оғоз мешавад, ки дар аксари хонаҳо ҳаст, ҳар кадом бо версияи осонтар, то ҳар кас чизе сохта тавонад."
+    },
+    "kids": {
+      "label": "Кӯдакон",
+      "title": "Фаъолиятҳои эҷодӣ барои кӯдакон",
+      "seo": "Фаъолиятҳои эҷодӣ барои кӯдакон: санъат, ҳиссӣ ва оромӣ",
+      "description": "Фаъолиятҳои эҷодӣ барои кӯдакон: санъати хурдсолон, санъати раванд, бозии ҳиссӣ, ҳунармандии рӯзҳои борон ва ғояҳо барои оромшавӣ, бо ёддоштҳои бехатарӣ ва версияҳо барои ниёзҳои ҳиссӣ.",
+      "lede": "Ғояҳои санъат ва бозӣ барои кӯдакони синну соли гуногун ва ниёзҳои гуногун, бо ёддоштҳои равшани бехатарӣ ва калонсоле дар наздикӣ."
+    },
+    "together": {
+      "label": "Якҷоя",
+      "title": "Фаъолиятҳо барои якҷоя иҷро кардан",
+      "seo": "Фаъолиятҳо барои якҷоя иҷро кардан, дар байни наслҳо",
+      "description": "Фаъолиятҳо барои ду ё зиёда наслҳо: бозиҳои суҳбат, пазлҳо, вақт дар берун, ҳунармандӣ барои бобою бибӣ ва набера ва роҳҳои наздик мондан аз дур.",
+      "lede": "Ғояҳо барои вақт гузарондан бо модар, падар, бобою бибӣ, фарзанд ё дӯст, дар хона, дар берун, ҳангоми дидан ё аз дур."
+    },
+    "creative-calm": {
+      "label": "Оромии эҷодӣ",
+      "title": "Оромии эҷодӣ",
+      "seo": "Оромии эҷодӣ: санъат ва фаъолиятҳои оромбахш барои истироҳат",
+      "description": "Фаъолиятҳои эҷодии оромбахш барои калонсолон ва ғамхорон: санъати бо диққат, рӯзнависӣ, мусиқӣ, лаҳзаҳои ҳиссӣ ва нимрӯзҳои ором. Фаъолияти эҷодӣ, на терапия.",
+      "lede": "Роҳҳои мулоим барои суст шудан бо қалам, саҳифа ё суруд. Инҳо фаъолиятҳои эҷодианд, на терапия, ва ягон маҳорат талаб намекунанд."
     },
     "caregiving": {
-      "label": "Парасторӣ",
-      "title": "Роҳнамоҳо барои парасторон",
-      "seo": "Роҳнамоҳо барои парасторони деменсия: кӯмаки амалии ҳаррӯза",
-      "description": "Роҳнамоҳои амалӣ ва меҳрубонона барои парасторони деменсия: бозии якҷоя, муошират, рад кардан, безориҳои охири рӯз, планшетҳо, интихоби барномаҳо ва худпарастӣ.",
-      "lede": "Кӯмаки содда ва амалӣ барои лаҳзаҳои ҳаррӯзаи парастории касе, ки бо деменсия зиндагӣ мекунад, аз ҷумла худатонро парастан."
+      "label": "Парасторӣ аз беморони деменсия",
+      "title": "Парасторӣ аз шахсе, ки деменсия дорад",
+      "seo": "Парасторӣ аз шахсе, ки деменсия дорад: фаъолиятҳо ва кумак",
+      "description": "Роҳнамо барои оилаҳое, ки аз шахсе бо деменсия парасторӣ мекунанд: чӣ гуна якҷоя бозӣ кунанд, чӣ кор кунанд вақте ки онҳо рад мекунанд ва пас аз ташхис кумаки боэътимодро аз кучо пайдо кунанд.",
+      "lede": "Кумак бо назардошти фаъолият барои оилаҳое, ки аз шахсе бо деменсия парасторӣ мекунанд, ва он ҷое, ки барои маслиҳати тиббӣ ва парастории беморон муроҷиат кардан мумкин аст."
     },
     "brain-health": {
       "label": "Саломатии мағз",
@@ -283,7 +396,16 @@
     "tryTogether": "Якҷоя санҷед",
     "relatedGuides": "Роҳнамоҳои марбут",
     "related": "Марбут",
-    "startHere": "Аз ин ҷо оғоз кунед"
+    "startHere": "Аз ин ҷо оғоз кунед",
+    "staleAria": "Тарҷума кӯҳна шудааст",
+    "staleTitle": "Ин тарҷума кӯҳна шудааст",
+    "staleText": "Он аз версияи пештараи саҳифаи англисӣ тайёр шудааст, ки аз он пас тағйир ёфтааст. Саҳифаи англисӣ версияи ҷорӣ аст.",
+    "staleHealth": "Он маълумоти тиббӣ медиҳад, бинобар ин пеш аз амал кардан саҳифаи англисиро санҷед ва бо духтур ё ҳамшираи худ маслиҳат кунед.",
+    "staleLink": "Саҳифаи ҷории англисиро хонед"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Огоҳии маълумоти тиббӣ",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Фаъолияти якҷоя, на санҷиши хотира",
+      "title": "Фаъолияти муштарак, на озмоиш",
       "seoTitle": "Дар бораи Creative Activities: равиши мо",
-      "description": "Чаро бозиҳои Creative Activities вақтсанҷ, холҳо ё сериҳо надоранд, чаро тасвирҳо дар назар мемонанд ва дар бораи деменсия чиро даъво мекунем ва чиро не.",
+      "description": "Чаро Creative Activities таймер, холҳо ё силсилаи пайдарпаӣ надорад, чаро тасвирҳо нишон дода мешаванд ва мо дар бораи саломатӣ чиро иддао мекунем ва чиро не.",
       "crumb": "Равиши мо",
-      "lede": "Creative Activities фаъолиятҳои оромбахши тасвирии калонсолонро месозад, ки парастор ва касе, ки бо деменсия зиндагӣ мекунад, метавонанд якҷоя аз онҳо лаззат баранд.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "ҲомиёН ва шарикон",
+        "none": "Creative Activities ҳомиён, ҷойгиршавии пулакӣ ва шариконе надорад, ки логотипҳои онҳо дар сайт нишон дода шаванд.",
+        "listed": "Инҳо ҳомиён ва шарикони Creative Activities мебошанд. Ҳар як робита инчунин дар саҳифае, ки дар он пайдо мешавад, эълон карда мешавад.",
+        "policy": "Агар ин тағйир ёбад, ҳар як чунин саҳифа дар ҷои пайдоиши худ ин туро нишон медиҳад, ҳеҷ фаъолият ҳомиеро дорост нахоҳад шуд ва рӯйхати шарикон дар ҳамин саҳифа хоҳад буд.",
+        "listHeading": "Рӯйхати шарикон",
+        "noPartners": "Ҳоло шарикон вуҷуд надоранд."
+      },
+      "lede": "Creative Activities фаъолиятҳои ороми калонсолонро барои он месозад, ки ду нафар онҳоро якҷоя, паҳлӯ ба паҳлӯ, лаззат баранд, хоҳ яке аз онҳо ба дигаре парасторӣ кунад ва хоҳ онҳо танҳо мехоҳанд вақтро якҷоя бигузаронанд.",
+      "bodyHtml": "<h2>Барои кӣ аст</h2><p>Барои ҳар кас, ки ба касе парасторӣ мекунад: падар ё модар, бобо ё бибӣ, фарзанд, ҳамсар, дӯст ё шахсе, ки бо деменсия зиндагӣ мекунад. Оилаҳо, калонсолон ва кормандони фаъолият ҳама метавонанд ҳамон саҳифаҳоро истифода баранд.</p><h2>Ба чӣ бовар дорем</h2><p>Нуқтаи фаъолият худи лаҳза аст: сӯҳбат, табассум, қаноатмандӣ аз ба ҳам гузоштани ду тасвир ё танҳо дар наздикӣ нишастан. Он барои чен кардани кас, пеш рондани ӯ ё исбот кардани чизе нест.</p><p>Бисёре аз барномаҳои машқи мағз бар асоси суръат, холҳо, силсилаи пайдарпаӣ ва сатҳҳо сохта шудаанд. Барои шахсе, ки хаста, бемор аст ё бо деменсия зиндагӣ мекунад, ин метавонад ба имтиҳоне монанд бошад, ки ӯ наметавонад онро гузарад. Мо баръакси ин чизро тарҳрезӣ кардем ва худро ба ин қоидаҳо пойбанд медонем:</p><ul><li><strong>Чизе барои нокомӣ нест.</strong> Дар ҳеҷ экран соат, холҳо, шумораи ҳаракатҳо, ҷонҳо, силсилаи пайдарпаӣ, конфетти ё шумораи вақти поён нест.</li><li><strong>Шинохт болотар аз ёдоварӣ.</strong> Тасвирҳо пешфарз нишон дода мешаванд. Ишоратҳо сӯҳбатро даъват мекунанд ва ҳеҷ гоҳ номҳо ё хотираҳоро имтиҳон намекунанд.</li><li><strong>Калон, содда ва устувор.</strong> Матни калон ва тасвирҳо, контрасти баланд ва идоракунӣ, ки дар як ҷой мемонанд.</li><li><strong>Арҷмандии калонсолон.</strong> Тасвирҳои воқеӣ ва калимаҳои содда ва гарм. Расмҳои мультфилмӣ, ситоиши кӯдакона ё подоши эмоҷӣ нест.</li><li><strong>Роҳи осон барои баромадан.</strong> «Ҳоло тамом» ҳамеша намоён аст. Нимароҳ истодан натиҷаи хуб аст.</li><li><strong>Пешфарз хусусӣ.</strong> Ҳеҷ гуна ҳисоб ё реклама нест. Аксҳое, ки шумо интихоб мекунед, дар дастгоҳи шумо мемонанд.</li></ul><h2>Чиро иддао намекунем</h2><p>Бозиҳо ва фаъолиятҳои мо барои лаззат ва робита мебошанд. Онҳо деменсия ё бемории Алзгеймерро ташхис, санҷиш, чен, табобат, суст ё пешгирӣ намекунанд ва ҳеҷ кас набояд онҳоро барои ин мақсад интихоб кунад. Вақте ки дар бораи таҳқиқоти тиббӣ менависем, возеҳ мегӯем, ки далелҳо кучо суст аст ва ҳеҷ гоҳ онро ба фаъолиятҳои худамон пайваст намекунем.</p><h2>Мо кистем</h2><p>Creative Activities як дастаи хурди мустақил аст. Мо духтур нестем. Роҳнамоҳои мо аз дастурҳои нашршудаи ташкилотҳо, аз қабили Институти миллии пиршавӣ (National Institute on Aging) ва Иттиҳодияи Алзгеймер (Alzheimer’s Association), навишта шудаанд ва ҳар роҳнамо манбаъҳои худро номбар мекунад. Бо <a href=\"/editorial-policy/\">тарзи навиштан ва санҷидани саҳифаҳои мо</a> шинос шавед.</p><h2>Ба мо бигӯед, ки чӣ кумак мекунад</h2><p>Мо мехоҳем бишнавем, ки барои шумо чӣ кор мекунад ва чӣ не, хусусан аз ҷониби шахсони бо деменсия зиндагикунанда, парастандагони оилавӣ ва кормандони фаъолият. Ба <a href=\"mailto:{email}\">{email}</a> нома фиристед.</p>"
     },
     "editorial": {
       "title": "Чӣ гуна мо саҳифаҳоро менависем ва месанҷем",
       "seoTitle": "Сиёсати таҳририявӣ",
-      "description": "Creative Activities чӣ гуна саҳифаҳои фаъолият ва тандурустии мағзи худро барои одамони бо деменсия таҳқиқ, навишта, манбаъ медиҳад ва навсозӣ мекунад ва чиро ҳеҷ гоҳ нашр намекунад.",
+      "description": "Creative Activities чӣ гуна фаъолият ва саҳифаҳои тиббии худро таҳқиқ, навишта, манбаъ ва навсозӣ мекунад ва мо ҳеҷ гоҳ чиро нашр намекунем.",
       "crumb": "Сиёсати таҳририявӣ",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Саволу ҷавобҳо",
-      "seoTitle": "Бозиҳо ва фаъолиятҳои деменсия: саволу ҷавобҳо",
-      "description": "Ҷавобҳо ба саволҳои маъмул дар бораи бозиҳо ва фаъолиятҳо барои деменсия: кадом бозиҳоро санҷидан, чӣ қадар бозӣ кардан, ғояҳо барои марҳилаҳои баъдӣ, тандурустии мағз ва махфият.",
+      "seoTitle": "Саволу ҷавобҳо дар бораи Creative Activities",
+      "description": "Ҷавобҳо ба саволҳои маъмул дар бораи бозиҳо ва фаъолиятҳо: кадомро санҷед, чанд вақт бозӣ кунед, гурӯҳҳо ва ғояҳо барои марҳилаи баъдӣ, саломатӣ ва махфият.",
       "crumb": "Саволу ҷавобҳо",
       "lede": "Ҷавобҳои кӯтоҳ ва сода ба саволҳое, ки парасторон бештар мепурсанд.",
       "groups": [
@@ -318,12 +448,12 @@
           "title": "Дар бораи бозиҳо",
           "items": [
             {
-              "q": "Барои шахсе, ки бо деменсия зиндагӣ мекунад, беҳтарин бозиҳо кадомҳоанд?",
+              "q": "Беҳтарин бозиҳо барои калонсолон кадомҳоанд?",
               "a": "Беҳтарин бозиҳо ошно, сода ва бе фишор ҳастанд ва бозии дуруст он аст, ки шахс имрӯз аз он лаззат мебарад. Мувофиқ кардани тасвирҳои намоён, ҷудокунӣ, ҷигсои осон, идома додани ибораҳои маъмул, рангкорӣ ва бинго бо тасвирҳо барои бисёриҳо хуб аст. Аз вақтсанҷ, холҳо ва ҳар чизе, ки ба имтиҳон монанд аст, худдорӣ кунед."
             },
             {
               "q": "Оё бозиҳо воқеан ройгон ҳастанд?",
-              "a": "Ҳа. Ҳамаи бозиҳо ва чопшавандаҳо ройгонанд, бе ҳисоб, бе бақайдгирӣ, бе зеркашӣ ва бе реклама."
+              "a": "Yes. All games and printables are free, with no account, sign-up, download or advertising."
             },
             {
               "q": "Чаро дар бозиҳо холҳо, сатҳҳо ва вақтсанҷ нест?",
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Саломатии мағз",
+          "title": "Деменсия ва саломатӣ",
           "items": [
             {
               "q": "Оё бозиҳо метавонанд деменсияро пешгирӣ ё суст кунанд?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Тафсилоти бештар: <a href=\"/caregiving/how-to-play-together/\">чӣ гуна якҷоя бозӣ кардан</a>, <a href=\"/caregiving/when-they-say-no/\">вақте ки онҳо рад мекунанд</a>, <a href=\"/activities/late-stage/\">фаъолиятҳо барои марҳилаи баъдӣ</a> ва <a href=\"/dementia-activities/\">фаъолиятҳо барои деменсия дар хона</a>."
     },
     "handout": {
       "title": "Бозиҳои ройгон ва мулоим барои шахсоне, ки бо деменсия зиндагӣ мекунанд",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Барои хонаҳои парасторӣ, китобхонаҳо ва гурӯҳҳои дастгирӣ",
-      "seoTitle": "Фаъолиятҳои ройгони деменсия барои хонаҳои нигоҳубин ва гурӯҳҳо",
-      "description": "Чӣ тавр хонаҳои нигоҳубини пиронсолон, барномаҳои рӯзонаи калонсолон, китобхонаҳо, муассисаҳои пиронсолон ва гурӯҳҳои дастгирӣ бозиҳои ройгони деменсияи моро истифода мебаранд, ва матне барои илова кардани мо ба рӯйхати захираҳо.",
+      "seoTitle": "Фаъолиятҳои ройгон барои хонаҳои нигоҳубин, китобхонаҳо ва гурӯҳҳо",
+      "description": "Чӣ гуна хонаҳои нигоҳубин, барномаҳои рӯзона барои калонсолон, китобхонаҳо, ташкилотҳои пиршавӣ ва гурӯҳҳои дастгирӣ бозиҳо ва роҳнамоҳои фаъолияти ройгони моро истифода мебаранд, ҳамчунин матни илова кардани мо ба феҳристи манбаъҳо.",
       "crumb": "Барои ташкилотҳо",
       "lede": "Ҳама чизи ин сайт барои истифода бо сокинон, аъзоён ва муроҷиаткунандагон ройгон аст, бе ҳисоб, иҷозатнома ё пардохт. Ин саҳифа мегӯяд, ки дар он чӣ ҳаст ва чӣ тавр онро паҳн кардан мумкин аст.",
-      "shortText": "{name}: бозиҳои ройгон ва мулоим бо расм ва роҳнамои фаъолиятҳо барои одамони гирифтори деменсия ва нигоҳубинкунандагонашон. Бе сабти ном, бе вақтсанҷ, бе холҳо.",
-      "longText": "{name} ({domain}) {count} бозии браузерии ройгонро пешниҳод мекунад, ки барои одамони гирифтори деменсия сохта шудаанд: ҷуфткунии расмҳо бо расмҳои кушодашуда, пазли осон, ҷудокунӣ, ибораҳои маъруф ва бинго бо расм бо варақаҳои чопшаванда. Ҳисоб, реклама, вақтсанҷ ё хол нест. Сайт инчунин роҳнамоҳои содаи фаъолият барои ҳар марҳилаи деменсия дорад, ки ба National Institute on Aging ва Alzheimer's Association истинод мекунанд.",
+      "shortText": "{name}: бозиҳои ройгон ва оромбахши тасвирӣ ва роҳнамоҳои фаъолият барои калонсолон, оилаҳо ва шахсони бо деменсия зиндагикунанда. Бидуни бақайдгирӣ, бидуни таймер ва холҳо.",
+      "longText": "{name} ({domain}) {count} бозии ройгони браузериро барои калонсолон, оилаҳо ва одамоне, ки бо деменсия зиндагӣ мекунанд, пешниҳод мекунад. Аз ҷумла: ҷуфт кардани тасвирҳо бо тасвирҳои рӯ ба боло, пазлҳои осон, ҷудо кардан, ҷумлаҳои маъмул ва бинго бо тасвир ва корташкҳои чопшаванда. Ҳисоб, реклама, таймер ё хол вуҷуд надорад. Сайт инчунин роҳнамоҳои фаҳмо оид ба фаъолият барои оилаҳо, калонсолон ва кормандон дорад, ки бо сарчашмаҳо ба монанди National Institute on Aging ва Alzheimer's Association ҳамроҳ аст.",
       "useTitle": "Чӣ метавонанд ташкилотҳо истифода баранд",
       "gamesItemHtml": "<strong>{count} бозии браузерӣ</strong>, ки дар ноутбук, планшет ё телевизори бо компютер пайвастшуда кор мекунанд. Насб, ҳисоб ё зеркашӣ лозим нест. Ҳамаи бозиҳоро бинед: <a href=\"/games/\">ҳамаи бозиҳо</a>.",
       "printablesLabel": "{count} варақаи чопшаванда:",
       "printablesAfter": "Дар ҳар саҳифа тугмаи чопро истифода баред.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Шаклҳои гурӯҳӣ:</strong> <a href=\"/games/picture-bingo/\">Бинго бо тасвирҳо</a> корташкҳои чопшаванда ва ронандаи бинго дар экран дорад, ва <a href=\"/together/conversation-games-for-all-ages/\">бозиҳои суҳбат</a> саволҳо бо интихоби ҷавобҳо ва нуқтаҳои сӯҳбат дорад.</li><li><strong>Роҳнамоҳои фаъолият</strong> барои кормандон ва оилаҳо, бо забони фаҳмо ва бо сарчашмаҳо. Аз <a href=\"/activities/ideas/\">101 ғояи фаъолият</a> ё <a href=\"/crafts/craft-group-sessions/\">фаъолиятҳои гурӯҳӣ барои хонаҳои нигоҳубин</a> оғоз кунед.</li>",
       "restHtml": "<h2>Гурӯҳҳо чӣ гуна истифода мебаранд</h2><ul><li><strong>Хонаҳои нигоҳубин ва нигоҳубини хотира:</strong> бинго бо расм ё ибораро бо охир расонидан дар телевизори толори умумӣ, ки як нафар барои гурӯҳ тугмаро пахш мекунад.</li><li><strong>Барномаҳои рӯзонаи калонсолон:</strong> истгоҳи планшет бо «Ҷуфти расмҳо» дар чаҳор хона барои сессияҳои кӯтоҳи як-ба-як.</li><li><strong>Китобхонаҳои ҷамъиятӣ:</strong> ҷустуҷӯи калимаҳо ва кортҳои сӯҳбат дар қуттиҳои хотира, ва сайт дар планшетҳои китобхона дар хатбаркҳо сабт шудааст.</li><li><strong>Гурӯҳҳои дастгирии нигоҳубинкунандагон ва «қаҳвахонаҳои хотира»:</strong> <a href=\"/handout/\">варақаи яксаҳифагии чопшаванда</a> барои оилаҳо, ки ба хона мебаранд.</li><li><strong>Беморхонаҳо ва нақшабандони баромадан аз беморхона:</strong> варақа дар бастаҳои нигоҳубинкунандагон, барои кори ором дар хона ё назди бистар.</li></ul><h2>Мо чиро анҷом намедиҳем</h2><p>Бозиҳо барои лаззат ва вақти якҷоя ҳастанд. Онҳо деменсияро ташхис, санҷиш, холгузорӣ, табобат ё суст намекунанд, ва мо аз ташкилотҳо мехоҳем, ки онҳоро ин тавр тавсиф накунанд. Реклама нест, ва бозиҳо ном, маълумоти саломатӣ ё боргузории расмҳоро талаб намекунанд. Сайт барои шумурдани боздидҳо Google Analytics-ро истифода мебарад; <a href=\"/privacy/\">изҳороти махфияти мо</a> шарҳ медиҳад, ки чӣ ҷамъ оварда мешавад. Расмҳои истифодашуда дар <a href=\"/games/photo-pairs/\">Ҷуфти суратҳо</a> дар браузер мемонанд.</p><h2>Моро ба рӯйхати захираҳои худ илова кунед</h2><p>Агар шумо рӯйхати захираҳо барои нигоҳубинкунандагон нигоҳ доред, шумо метавонед ба <a href=\"/\">{domain}</a> пайванд диҳед. Ҳар кадом аз тавсифҳоро нусхабардорӣ карда метавонед.</p>",
       "shortTitle": "Тавсифи кӯтоҳ",
       "longTitle": "Тавсифи муфассал",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Саҳифаҳои муфид барои пайванди мустақим: <a href=\"/games/\">бозиҳои ройгон</a>, <a href=\"/games/\">чопҳои ройгон</a>, <a href=\"/dementia-activities/\">фаъолиятҳо бо деменсия дар хона</a> ва <a href=\"/caregiving/how-to-play-together/\">чӣ тавр якҷоя бозӣ кардан</a>.</p><h2>Савол ё ислоҳ</h2><p>Агар чизе дар сайт нодуруст ё норавшан бошад, ё ниёзҳои сокин бо он чӣ дар ин ҷост қонеъ нашаванд, лутфан ба мо дар <a href=\"mailto:{email}\">{email}</a> хабар диҳед. Лутфан маълумоти шахсӣ ё тиббӣ дар бораи сокинон ё муроҷиатқунандагон ирсол накунед.</p>"
     },
     "app": {
       "title": "Барномаи Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Бозиҳои ройгон барои деменсия ва Алсгеймер дар интернет",
-    "description": "Бозиҳои ройгони онлайн барои пиронсолоне, ки бо деменсия ё Алсгеймер зиндагӣ мекунанд: мувофиқ кардани расмҳо, пазлҳои осон, ҷудокунӣ, мақолҳо, ранг кардан, бинго. Бе бақайдгирӣ, вақтсанҷ ё холдиҳӣ.",
+    "title": "Бозиҳои ройгон барои якҷоя бозӣ кардан онлайн",
+    "description": "Бозиҳои ройгони онлайн барои калонсолон, оилаҳо ва одамоне, ки бо деменсия зиндагӣ мекунанд: ҷуфт кардани тасвирҳо, пазлҳои осон, ҷудо кардан, ҷумлаҳои маъмул, рангкунӣ ва бинго. Бе бақайдгирӣ, таймер ё хол.",
     "crumb": "Бозиҳо",
-    "h1": "Бозиҳои оромбахш барои одамони гирифтори деменсия",
+    "h1": "Бозиҳои мулоим барои якҷоя бозӣ кардан",
     "lede": "{count} бозии ройгон барои якҷоя бозӣ кардан дар браузери шумо. Расмҳои калон, калимаҳои сода ва ҳеҷ гуна шикаст нест: бе вақтсанҷ, бе холдиҳӣ, бе бақайдгирӣ.",
-    "listName": "Бозиҳои оромбахш барои одамони гирифтори деменсия",
+    "listName": "Бозиҳои мулоим барои якҷоя бозӣ кардан",
     "byStageTitle": "Интихоби бозӣ аз рӯи марҳила",
     "byStageLede": "Stages are only a rough guide. Follow what the person enjoys and what feels comfortable today.",
     "stageCol": "Марҳила",
     "gamesCol": "Бозиҳое, ки аксар вақт мувофиқанд",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Ғояҳо бе экран: <a href=\"/activities/ideas/\">101 ғояи фаъолият</a>, <a href=\"/dementia-activities/\">фаъолиятҳо бо деменсия дар хона</a> ва <a href=\"/crafts/\">ҳунарҳои дастӣ</a>.",
     "faq": [
       {
         "q": "Бо кадом бозӣ оғоз кунем?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Оё ин бозиҳои хотира барои пиронсолон ҳастанд?",
-        "a": "Онҳо бозиҳои ҷуфткунӣ ва расмӣ мебошанд, ки ҳар пиронсол метавонад аз онҳо лаззат барад, аммо сохта шудаанд, ки хотираро наозмоянд: дар «Ҷуфтҳои расм» расмҳо, агар шумо дигар интихоб накунед, рӯ ба боло мемонанд. Роҳнамои мо оид ба бозиҳои хотира барои пиронсолони гирифтори деменсия шарҳ медиҳад, ки чӣ гуна ҳар бозии хотираро оромбахш нигоҳ доштан мумкин аст."
+        "a": "Инҳо бозиҳои ҷуфткунӣ ва тасвирӣ мебошанд, ки ҳар калонсол метавонад аз онҳо лаззат барад, аммо онҳо барои санҷидани хотира сохта нашудаанд: дар «Ҷуфтҳои тасвирҳо» тасвирҳо, агар шумо хилофашро интихоб накунед, рӯ ба боло мемонанд. Ҳар бозии хотиравӣ метавонад мулоимтар карда шавад, агар таймер ва холро бардоред."
       },
       {
         "q": "Оё барои гурӯҳ дар хонаи нигоҳубин бозӣ ҳаст?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Оё барномаи фаъолияти деменсия ҳаст?",
+        "q": "Оё барои калонсолон ва оилаҳо барнома ҳаст?",
         "a": "Ҳа. Creative Activities (ки дар феҳрист «{storeName}» ном дорад) дар App Store ва Google Play ройгон аст. Он мувофиқкунии оромбахши расмҳо бо плиткаҳои калон, бозиҳо бо аксҳои оилавии интихобкардаи шумо ва маҷмуаҳои расмҳоро пешниҳод мекунад, ки офлайн кор мекунанд."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Барои чоп",
     "howTo": "Чӣ тавр {name} бозед",
     "tips": "Маслиҳатҳо барои бозӣ якҷоя",
-    "newToPlayingHtml": "Оё шумо бори аввал бо касе, ки деменсия дорад, бозӣ мекунед? <a href=\"/caregiving/how-to-play-together/\">Чӣ тавр якҷоя бозӣ кардан</a>-ро хонед, аз ҷумла он ки агар онҳо бозиро дӯст надошта бошанд, чӣ кор кардан лозим аст.",
+    "newToPlayingHtml": "Барои нав бозӣ кардан бо калонсол ё бо одаме, ки бо деменсия зиндагӣ мекунад? Бихонед: <a href=\"/caregiving/how-to-play-together/\">чӣ тавр бозиҳоро якҷоя бозӣ кардан</a>, аз ҷумла он ки агар онҳо ба бозӣ майл надошта бошанд, чӣ бояд кард.",
     "moreAria": "Бештар барои кашф кардан",
     "helpfulGuides": "Роҳнамоҳои муфид",
     "appTitle": "Онро дар барнома бозед",
@@ -536,6 +666,35 @@
     "goodToKnow": "Донистани муҳим",
     "goodToKnowText": "Ин бозӣ барои лаззат ва вақти якҷоя гузаронидан аст. Он ҷизеро наметавонад санҷад, чен кунад ё табобат кунад.",
     "moreGames": "Бозиҳои оромбахши бештар",
-    "crumb": "Бозиҳо"
+    "crumb": "Бозиҳо",
+    "print": {
+      "heading": "Бозӣ дар коғаз",
+      "sameRules": "Нусхаи коғазӣ ҳамон қоидаҳоеро дорад, ки бозии дар экран:",
+      "button": "Нусхаи коғазиро чоп кунед",
+      "pageNote": "Як саҳифа дар A4 ё US Letter, дар сиёҳу сафед ҳам хуб. Нусха {date}.",
+      "islandNote": "Он чизеро чоп мекунад, ки ҳоло дар экран аст. Нусха {date}.",
+      "sheetTitle": "{name}: нусхаи коғазӣ",
+      "point": "Дар коғаз, ба ҷои пахш кардани тасвир, ба он ангушт ишора кунед ё бо қалам давра занед. Ҳар сатр маҷмӯаи нав аст.",
+      "pointTarget": "Дар коғаз, тасвире, ки бояд ба он нигоҳ кунанд, дар қуттии аввали ҳар сатр аст. Ба тасвир ишора кунед ба ҷои пахш кардан, ё бо қалам давра занед.",
+      "halves": "Ҳар тасвир аз миёна бурида шудааст. Аз ҳар нимаи тарафи чап хатте ба нимаи тарафи рост, ки ба он мувофиқ аст, кашед, ё бо ангушт ишора кунед. Ҳеҷ чиз бурида лозим нест.",
+      "grid": "Ҳар хона рақам дорад. Ин рақамро дар калид ёбед ва хонаро бо қалами ҳамон ранг ранг кунед. Ҳар ранги дигари дилхоҳ низ хуб аст. Ҳеҷ чиз бурида лозим нест.",
+      "colors": "Ҳар сатр як рангро номбар мекунад. Ба ҳар тасвире, ки ҳамон ранг аст, ишора кунед ё бо қалам давра занед. Ҳар сатр маҷмӯаи нав аст.",
+      "dice": "Ҳар сатр як маҷмӯаи тасвирҳои кубӣ аст. Сатреро интихоб кунед, ё тасвирҳоро бурида аз тӯдае бардоред ва бо тартиби дилхоҳ ҳикоя гӯед. Ҳар кас метавонад гузарад.",
+      "words": "Калимаҳоро бурида гиред, ё аз ҳар калима то тасвираш хатт кашед. Ҳангоми кор калимаҳоро баланд хонед.",
+      "cards": "Корташкҳоро аз рӯи хатҳои порчаҳо бурида гиред. Онҳоро рӯ ба боло дар миз гузоред, сипас ҷуфтҳоро ёбед.",
+      "chain": "Дар коғаз, тасвирҳоро аз чап ба рост, яке пас аз дигаре хонед. Ҳар нафар як ҷумла дар бораи тасвирҳои то ҳол гуфта мегӯяд, сипас ба тасвири навбатӣ ишора мекунад. Ҳар кас метавонад гузарад.",
+      "sort": "Тасвирҳоро аз рӯи хатҳои порчаҳо бурида гиред, сипас ҳар яктоашро ба қуттие, ки ба он тааллуқ дорад, гузоред.",
+      "puzzle": "Тасвири калонро аз рӯи хатҳои порчаҳо ба чор порча бурида, омехта кунед. Ду порчаро якбора иваз кунед, то тасвир пурра шавад. Тасвири хурд роҳнамост.",
+      "cutSafety": "Пеш аз оғоз, ёваре метавонад бурриданро иҷро кунад. Баъд қайчиро ҷойгир кунед.",
+      "version": "Нусха {date} · {url}",
+      "reasons": {
+        "photos": "Нусхаи коғазӣ вуҷуд надорад. Ин бозӣ аксҳои шуморо истифода мебарад, ки дар браузери шумо мемонанд ва ҳеҷ гоҳ бор карда намешаванд, бинобар ин сайт онҳоро чоп карда наметавонад. Барои бозӣ дар коғаз, аз чанд аксҳои дӯстдоштаатон дар хона ду нусха чоп кунед ва дар миз ҷуфт кунед.",
+        "paced": "Нусхаи коғазӣ вуҷуд надорад. Доира дар экран суръати оҳиста ва устувор муқаррар мекунад, ва саҳифаи чопшуда ин корро карда наметавонад, пас ин фаъолияти дигар мешавад. Таваққуфи ором якҷоя бе экран ҳамеша варианти интихобист.",
+        "turns": "Ин бозӣ нусхаи коғазӣ надорад. Барои ёфтани ҷуфтҳо дар миз, корташкҳои тасвирии «Ҷуфтҳои тасвирҳо»-ро чоп кунед ва навбатан онҳоро гардонед.",
+        "screen": "Бо варақаи чопшуда нест. Ин тасвирест, ки якҷоя дар экран тамошо мекунед; акси маҳбуб ё кортчаи пушти миз ҳамон корро мекунад.",
+        "wash": "Бо варақаи чопшуда нест. Ранги обӣ дар коғаз ҳамон фикр аст: қалами тар ва як ранг дар як вақт.",
+        "sayings": "Ҳоло варақаи чопшуда нест. Дар коғаз ҳар анҷом якбора нишон дода мешуд ва қадами оромбахши «Анҷомро нишон деҳ» аз даст мерафт. Ин ибораҳоро якҷоя аз экран хонед ё чанде аз онҳоеро, ки ҳардуи шумо медонед, нақл кунед."
+      }
+    }
   }
 }

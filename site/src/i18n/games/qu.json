@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Kikin rurukuna",
-    "seoTitle": "Tupachiy pukllay Alzheimer onqoywan kawsaqkunapaq: Kikin rurukuna",
+    "seoTitle": "Memoryspil for voksne: Billedpar",
     "h1": "Kikin rurukuna: llumpay sumaq tupachiy pukllay",
-    "description": "Qispisqa, sumaq tupachiy pukllay Alzheimer onqoywan kawsaq runakunapaq. Hatun rurukunaqa rikukunmi, mana reloj nitaq puntaje kanchu, 4 kama 12 kama tayakunata akllanki.",
+    "description": "Et gratis, roligt memoryspil for voksne og ældre, herunder personer, der lever med demens. Billederne kan blive synlige. Ingen timer og ingen point.",
     "short": "Tariy iskay kikin rurukunata. Rurukunaqa rikukuspapas kanman.",
     "players": "1 utaq 2 runa, chimpa chimpapi",
     "intro": "Mayqinpas rurukunata llimpuy, chaymantataq chaywan kikin rurukunata llimpuy. Rurukunaqa sapa kutin rikukunmi, chaymi mana yuyariyta munanchu. Iskay kikin rurukuna tinkuqtinqa, qori kiruwan hinaspa check simbolunwan rikuchikunqa.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Kikinta tarikuy",
-    "seoTitle": "Kikin rurukunata tariy: sencillo pukllay Alzheimer onqoywan kawsaqkunapaq",
+    "seoTitle": "Find det samme billede: Simpelt billedspil",
     "h1": "Kikin rurukunata tariy",
-    "description": "Hanaqpi huk ruru, uraypi iskay kama tawa kama. Kikinta llimpuy. Qispisqa, sumaq rurukuna pukllay Alzheimer onqoywan kawsaq runakunapaq, mana reloj kaspa.",
+    "description": "Ét billede øverst, to til fire nedenunder. Tryk på det, der er det samme. Et roligt, gratis billedspil for voksne, ældre og familier, uden timer.",
     "short": "Hanaq rurukunata qaway, hinaspa uraypi kikinta llimpuy.",
     "players": "1 utaq 2 runa",
     "intro": "Hanaq pantallapi huk ruru sayan. Urayninpi iskay, kimsa utaq tawa rurukuna. Kikinta llimpuy. Sapa kutilla huk akllayllam, anchata rimanakuspa.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Llanthu tupachiy",
-    "seoTitle": "Llanthu tupachiy pukllay Alzheimer onqoywan kawsaqkunapaq: qolqe mana",
+    "seoTitle": "Skyggematch-spil: Gratis online for voksne",
     "h1": "Llanthu tupachiy: sumaq rurukuna pukllay",
-    "description": "Hanaqpi tuta llanthu, uraypi iskay kama tawa kama rurukuna. Llanthuta ruraq rurukunata llimpuy. Qispisqa, sumaq llanthu tupachiy pukllay Alzheimer onqoywan kawsaqkunapaq, mana reloj kaspa.",
+    "description": "En mørk skygge øverst, to til fire billeder nedenunder. Tryk på det billede, der laver skyggen. Et gratis, roligt skyggematch-spil uden timer.",
     "short": "Llanthuta qaway, hinaspa llanthuta ruraq rurukunata llimpuy.",
     "players": "1 utaq 2 runa",
     "intro": "Llanthu tupachiy, papelpi ruraq llamkaymi karqan, kaywanqa sumaq rurukunawan, mana papelta llank'aspa. Hanaq pantallapi suave llanthu sayan, uraypi iskay, kimsa utaq tawa rurukuna suyanku. Llanthuta ruraq rurukunata llimpuy. Bicicleta, paraguas utaq tasa hina rurukunapipas rimanakuyta atinki.",
@@ -100,8 +100,8 @@
         "a": "Manan. Mana reloj, puntaje, kutichiy yupay nitaq pitiy kanchu. Pitapas tukuspaykichis atikunki, chaymi chawpipi tukuyqa allinmi kay."
       },
       {
-        "q": "¿Allinchu llanthu tupuy demencia nisqawan kawsaq runakunapaq?",
-        "a": "Wakin runakunapaqqa kusikuypaq sasachakuq mana kaq sumaq ruway kanman, astawanqa qallariy pachapi. Rikunakuyqa rimaymanta aswan sasachu. Kusikuypaq, rimanakuypaqmi kachkan, mana tapuypaqchu. Mana qawachinchu, mana allichanchu, mana unquyta sayachinchu. Sasachakuy kaqtinqa, \"Kikin tupuy\" ruwayta llamk'achiychis, icha rikuykunata kuska qawaychis."
+        "q": "Kan personer, der lever med demens, more sig med skyggematch?",
+        "a": "Mange voksne har glæde af det, herunder nogle personer, der lever med demens, ofte i de tidlige stadier. Former er lettere at genkende end ord. Det er til hygge og samtale, ikke en test, og det behandler eller bremser ikke demens. Hvis det skaber frustration, så prøv Find det samme, eller se blot billeder sammen."
       },
       {
         "q": "Imataq pasan pantasqa rikuyta llakiptinqa?",
@@ -113,11 +113,661 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Fire sammen",
+    "seoTitle": "Billedgrupperingsspil for voksne: Fire sammen",
+    "h1": "Fire sammen: et roligt billedgrupperingsspil",
+    "description": "Nogle af billederne hører sammen i et tema, fx frugt eller vejr. Tryk på dem, der passer sammen. Et gratis, roligt grupperingsspil uden timer og uden point.",
+    "short": "Find de billeder, der hører sammen, fx frugt eller vejr.",
+    "players": "1 eller 2 personer",
+    "intro": "Et lille sæt billeder, og nogle af dem hører sammen: fire slags frugt, måske, eller fire måder at rejse på. Tryk på dem, der deler et tema. Hvis et billede passer sammen med noget andet, nævner spillet det blot og venter. Efter en stille pause nævner et hint temaet, og \"Vis gruppen\" afslører svaret på ethvert tidspunkt.",
+    "howTo": [
+      "Vælg fire, seks eller otte billeder. Fire er det enkleste, med tre, der hører sammen.",
+      "Se billederne sammen, og tal om, hvad de har til fælles.",
+      "Tryk på hvert billede, der hører med i gruppen. Det får en gylden kant og et hakmærke.",
+      "Hvis et billede passer sammen med noget andet, nævner spillet det og venter. Tag din tid.",
+      "Tryk på \"Vis gruppen\", når du vil, og derefter \"Et nyt sæt\" for nye billeder."
+    ],
+    "tips": [
+      "Sig højt, hvad du lægger mærke til: \"De to her er begge ting, man kan spise.\"",
+      "Der er ingen hast. Et hint, der nævner temaet, dukker op efter en pause, og du kan ignorere det.",
+      "Tal om gruppen, når den er fundet: en yndlingsfrugt, en togrejse, vejret i dag."
+    ],
+    "faq": [
+      {
+        "q": "Er der en timer eller et point?",
+        "a": "Nej. Der er intet ur, ingen point, ingen trækketæller og ingen tab. Du kan stoppe når som helst, og at stoppe halvvejs er en helt god måde at slutte på."
+      },
+      {
+        "q": "Hvad sker der, hvis der trykkes på et billede uden for gruppen?",
+        "a": "Intet ubehageligt. Der er ingen summelyd, intet rødt kryds og ingen rystelser. Spillet nævner billedet, siger at det hører sammen med noget andet, og venter på næste tryk."
+      },
+      {
+        "q": "Hvilke grupper findes der?",
+        "a": "Hverdagstemaer, som ikke kræver særlig viden: frugt, dyr, blomster, vejr, måder at rejse på, ting til en varm drik og ting, der bages i ovnen. Hvert billede hører til præcis én gruppe."
+      },
+      {
+        "q": "Er det gratis, og skal jeg oprette mig?",
+        "a": "Ja, det er gratis, og der kræves ingen konto, tilmelding eller download. Det virker i webbrowseren på telefon, tablet eller computer."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Den, der er anderledes",
+    "seoTitle": "Den, der er anderledes: billedspil for voksne",
+    "h1": "Den, der er anderledes: et afslappet billedspil",
+    "description": "Tre eller fire billeder, og alle undtagen ét deler et tema, fx frugt eller vejr. Tryk på det, der ikke hører med. Gratis, roligt, uden timer og uden point.",
+    "short": "Find det billede, der ikke hører sammen med de andre.",
+    "players": "1 eller 2 personer",
+    "intro": "Tre eller fire billeder, og alle undtagen ét hører sammen: frugt, måske, eller måder at rejse på. Tryk på det billede, der ikke hører med. Hvis et billede faktisk hører sammen med de andre, siger spillet det blot og venter. Efter en stille pause nævner et hint, hvad de andre har til fælles, og \"Vis mig\" peger på den, der er anderledes, på ethvert tidspunkt.",
+    "howTo": [
+      "Vælg tre eller fire billeder. Tre er det enkleste.",
+      "Se billederne sammen, og tal om, hvad de fleste har til fælles.",
+      "Tryk på det billede, der ikke hører med. Det får en gylden kant og et hakmærke.",
+      "Hvis et billede hører sammen med de andre, siger spillet det og venter. Tag din tid.",
+      "Tryk på \"Vis mig\", når du vil, og derefter \"Et nyt sæt\" for nye billeder."
+    ],
+    "tips": [
+      "Tal det igennem højt: \"Æblet og peren er begge frugt. Hvad med bussen?\"",
+      "Der er ingen hast. Et hint, der nævner temaet, dukker op efter en pause, og du kan ignorere det.",
+      "Ethvert billede er et godt udgangspunkt for en samtale: en yndlingsfrugt, en bustur, en regnfuld dag."
+    ],
+    "faq": [
+      {
+        "q": "Er der en timer eller et point?",
+        "a": "Nej. Der er intet ur, ingen point, ingen trækketæller og ingen tab. Du kan stoppe når som helst, og at stoppe halvvejs er en helt god måde at slutte på."
+      },
+      {
+        "q": "Hvad sker der, hvis der trykkes på et billede, der hører med?",
+        "a": "Intet ubehageligt. Der er ingen summelyd, intet rødt kryds og ingen rystelser. Spillet nævner billedet, siger at det hører sammen med de andre, og venter på næste tryk."
+      },
+      {
+        "q": "Hvordan vælges det billede, der er anderledes?",
+        "a": "Billederne kommer fra hverdagstemaer, som ikke kræver særlig viden: frugt, dyr, blomster, vejr, måder at rejse på, ting til en varm drik og ting, der bages i ovnen. Hvert billede hører til præcis ét tema, og det anderledes billede kommer altid fra et andet tema."
+      },
+      {
+        "q": "¿Qhalla kanchu, hinaspa registrakuyta munankichu?",
+        "a": "Arí, qhalla. Mana kuentayuq kanchu, mana registrakuy nitaq descarga kanchu. Web navegadorpi llamkan, celularpi, tabletapi utaq computadorapi."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Llimphu tupuy",
+    "seoTitle": "Llimphu tupuy: qhali rikch'akunawan pukllay",
+    "h1": "Llimphu tupuy: hukniraq llimphuyuq rikch'akunata tarikuy",
+    "description": "Hatun llimphu sutinwan, chaymanta tawa utaq suqta rikch'akuna. Chay llimphuyuq rikch'akunata tukuyta t'oqochay. Mana rawraq, mana puntaq, huk llimphutaqa sutinwanmi nin. Qhalla pukllay, qhalla qillqay.",
+    "short": "Rikuchisqa llimphuwan hinalla llimphuyuq rikch'akunata tukuy tarikuy.",
+    "players": "1 utaq 2 runa, utaq hatun runa wawawan",
+    "intro": "Hatun llimphu rikch'ay rikuchikun, sutinpas chimpanpi qelqasqa, hinaspa uraypi tawa utaq suqta rikch'akuna kanku. Chay llimphuyuq rikch'akunata t'oqochay: ahina puka mansana utaq puka tasa, pitaqmi. Huk llimphuyuq mana rikch'ay kaptinqa, pukllaq sutinta ninmi (“Pera q'omer.”), hinaspa suyanmi. “Rikuchiykuna” nispa maqanakuspa tupasqa rikch'akunata rikuchin; “Huk llimphu” nispa qhepaman rin.",
+    "howTo": [
+      "Tawa utaq suqta rikch'akuna akllay. Tawa aswan sasa.",
+      "Llimphuta qhawaychik, sutintapas tukuywan qhawarichiykuna.",
+      "Chay llimphuyuq rikch'akunata tukuy t'oqochay. Sapankanmi anchata ruphanan, hinaspa tikrasqa qillqa churasqa kanqa.",
+      "Huk llimphuyuq rikch'ay kaptinqa, pukllaq ninmi chay llimphuta, hinaspa suyanmi. Sumaqta hap'ipuy.",
+      "Munaqtiyki “Rikuchiykuna” t'oqochay, hinaspa “Huk llimphu” qhepaman rinaypaq."
+    ],
+    "tips": [
+      "Llimphuta qaqaypi nisqayki, hinaspa wasipi maytaq qhawariy: ima huk llimphuyuq kanman?",
+      "Munaqtiykiqa kikiykipa rimayniyuqta rimay. “Tumati” utaq “hanaq pacha” nispa rimasqaykiqa, “puka” utaq “yana” nisqa hina allinmi.",
+      "T'oqochayta hina, t'oqaywan rikuchiyqa allinmi. Chiqpi tiyakuychik, pantallata ambos rikunaykichikpaq."
+    ],
+    "faq": [
+      {
+        "q": "¿Rawraq utaq puntaq kanchu?",
+        "a": "Mana. Mana reloj, mana puntaq, mana t'oqoy yupaq utaq chinkachiy kanchu. Pitapas tukuyta munaqtiyki sayarikuyta atinki, chaymanta kuchunpi saqiyqa allinmi."
+      },
+      {
+        "q": "¿Imataq pasan huk llimphuyuq rikch'ayta t'oqochaqtiyki?",
+        "a": "Mana mancharisqa kanchu. Mana timbrepas, mana cruzpas, mana t'aqaypas. Pukllaq rikch'aq sutinta llimphunmanta ninmi, (“Pera q'omer.”) hinaspa suyanmi huk t'oqochayta."
+      },
+      {
+        "q": "¿Llimphullachu yachachin?",
+        "a": "Mana. Llimphu hatun rikch'ay hina rikuchisqa, sutinpas qelqasqa kanmi, rikch'akunapas t'oqochasqa kaptinqa sutinta ninmi. Llimphuta sasachakuq runaqa sutinta qhawaspa pukllayta atinmi."
+      },
+      {
+        "q": "¿Tukuy rikch'akuna chaylla llimphuyuqchu?",
+        "a": "Rikch'akunata makiwan akllanku, chaylla chaykunata churanku, pi rikch'ay huk llimphullachu. Achka llimphuyuq rikch'akunata, hina wayra rikch'akunata qepanku."
+      },
+      {
+        "q": "¿Qillqa kaq versión kanchu?",
+        "a": "Arí. Huk p'anqa, tawa chaqrayuq. Sapa chaqrapi huk llimphu sutinwan, tawa rikch'akunawan rikuchin, t'oqochaspa utaq muyuchispa."
+      },
+      {
+        "q": "¿Qhalla kanchu, hinaspa registrakuyta munankichu?",
+        "a": "Arí, qhalla. Mana kuentayuq kanchu, mana registrakuy nitaq descarga kanchu. Web navegadorpi llamkan, celularpi, tabletapi utaq computadorapi."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Chawpi tupuy",
+    "seoTitle": "Chawpi tupuy: qhali rikch'a pukllay",
+    "h1": "Chawpi tupuy: rikch'ayta iskay chawpinta tinkuchiy",
+    "description": "Iskay utaq kimsa rikch'aypa ch'iqi chawpinkuna huk ladupi, derecha chawpinkunataq huk ladupi. Huk chawpita t'oqochay, chaymanta chaqruq chawpita. Mana rawraq, mana puntaq, mana tinkuq chawpikunaqa sapanka wiqinku. Qhalla pukllay, qhalla qillqay.",
+    "short": "Iskay tinkuq chawpita t'oqochay, hukllaq rikch'ayta hamunankupaq.",
+    "players": "1 utaq 2 runa, utaq hatun runa wawawan",
+    "intro": "Sapa rikch'ay chawpimanta tajasqa. Iskay utaq kimsa rikch'aypa ch'iqi chawpinkuna huk chaupipi kanku, paykunapa derecha chawpinkunataq huk ordenpi, huk chaupipi. Ch'iqipi huk chawpita t'oqochay, hinaspa tinkuq derecha chawpita t'oqochay, ahina tetera pico utaq asan. Tinkuq chawpikuna hukllaq rikch'ayman tinkunku. Mana tinkuq chawpikuna qhepaman sapanka wiqinku, pukllaqmi sumaqta nin. “Rikuchiway” nispa tukuy tinkuchin.",
+    "howTo": [
+      "Iskay utaq kimsa rikch'ayta akllay. Iskay aswan sasa.",
+      "Ch'iqi chawpikunata tukuywan qhawaychik. Ima rikch'ap partinmi kanman, sapa chawpi?",
+      "Ch'iqimanta huk chawpita t'oqochay, hinaspa derechamanta tinkuq chawpita t'oqochay. Ukhumanta ruwaspapas atinki.",
+      "Tinkuq chawpikuna tinkusqa kanku, tikrasqa qillqa churasqa, hatun ruphaywan. Mana tinkuqtinqa qhepaman wiqinku, hinaspa huktaq ruwaytapas atinki.",
+      "Munaqtiyki “Rikuchiway” t'oqochay, hinaspa “Huk akllasqa” qhepaman rinaypaq."
+    ],
+    "tips": [
+      "Chawpi ladupa sinkata maqanwan ch'aqay. Rikch'ay maypi chaupiman chayan?",
+      "Imata rikunkitaq rimay: “Chaymi asa kanchis.” Tukuy rikch'akunata sutinwan ninaykipas manan kanchu.",
+      "T'oqochayta hina, t'oqaywan rikuchiyqa allinmi. Chiqpi tiyakuychik, pantallata ambos rikunaykichikpaq."
+    ],
+    "faq": [
+      {
+        "q": "¿Rawraq utaq puntaq kanchu?",
+        "a": "Mana. Mana reloj, mana puntaq, mana t'oqoy yupaq utaq chinkachiy kanchu. Pitapas tukuyta munaqtiyki sayarikuyta atinki, chaymanta kuchunpi saqiyqa allinmi."
+      },
+      {
+        "q": "¿Imataq pasan iskay chawpi mana tinkuqtinqa?",
+        "a": "Mana mancharisqa kanchu. Mana timbre, mana cruz, mana t'aqay. Iskay chawpi qhepaman wiqinku, pukllaqmi nin: “Chay iskay mana tinkunkuchu. Huktawan ruway.” Mana yupasqa kanchu."
+      },
+      {
+        "q": "¿Rikch'akunaqa sapankaman t'aqwiriyta atinchu?",
+        "a": "Arí. Rikch'akunata makiwan akllanku, hinaspa huk taqpi iskay rikch'ayqa manan huk ayllumanta kanchu, ahina iskay mirachu utaq iskay animalchu. Iskay chawpinkuna kikin hina rikukuq rikch'akunaqa qepanku, ahina inti utaq arcoiris."
+      },
+      {
+        "q": "¿Qillqa kaq versión kanchu?",
+        "a": "Ja. Ene pankapi kaqmi kin kuchu kashan kay kimsa rurachikunata kichaspa iskaynin kuchunkunata, paykunapa chimpa kashan lado kaqllata, hukman. Hukmanmi chay sapa paqu tiyan kashan. Kichaspa, sapa kuchunmanta chay tiyan kashan hukman ruwasqaman sikllawai."
+      },
+      {
+        "q": "¿Chiqan kanmanchu, manachu rijsichikunata chayta?",
+        "a": "Ari, chiqan. Manan cuenta kanchu, manan rijsichikuspa churakunata, manan pichus rantikuspapas. Celularpi, tabletpi utaq computadorapi web nawpipi ruwan."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Yupaywan llinpiy",
+    "seoTitle": "Yupaywan Llinpiy: Sumaq Ruwayta Llinpichinapaq Pasiy Hatun Letrakunawan",
+    "h1": "Yupaywan Llinpiy: Chukllakunata Llinpiy, Munasqaykiman Hina Llinpiy",
+    "description": "Hatun chukllakunamanta, yupaykunawan, chaymanta tawa llinpikunamanta, sutinkunawan lliw. Llinpita akllay, chaymanta chukllakunata riqsichiy llinpichinapaq. Ima llinpipas allinmi, mana tiempo nitaq puntos kanchu, huk botonniyoq yupaykunawan tukuchinapaq. Chiqan kanmi ruwanapaq chaymanta qillqanapaq.",
+    "short": "Llinpita akllay, chaymanta yupaykuna chukllakunata riqsichiy llinpichinapaq.",
+    "players": "1 utaq 2 runa, kuchu kuchu",
+    "intro": "Hatun chukllakunamanta kuchu, sapa chukllapi yupay kashan, pawapi tawa llinpikunata kashan, sapanka yupaywan, sutinwan. Llinpita akllay, chaymanta chukllakunata riqsichiy. Kuchu 4 x 4 kanqa qallariypi, 6 x 6 utaq 8 x 8 munaspaykiqa aswan chukllakunata. Sapa chukllapi yupaypa llinpin kaspaqa, kuchu qillqapi hina kanqa. Huk llinpiwan llinpichisqa chukllakunaqa, kikiykipa qillqaykim, mana ima nisqatapas willanchu. \"Yupaykunawan llinpiy\" nisqa, chukllakunata llinpichinmi.",
+    "howTo": [
+      "Kuchu rakiyta akllay. 4 x 4 aswan hatun chukllakunayuqmi, aswan sasa.",
+      "Kuchu pawapi llinpikunata qhawariy. Sapanka yupaywan, sutiwan, hinaspa \"1 Qillu\" hina.",
+      "Llinpita akllay, chaymanta chukllakunata riqsichiy chaywan llinpichinapaq.",
+      "Yupaypa llinpin utaq munasqaykiman hina llinpi. Iskaynin allinmi.",
+      "\"Yupaykunawan llinpiy\" nisqata riqsichiy mana llinpichisqa chukllakunapaq, \"Qispichiy\" nisqata qallariy kuchuta yapamanta, utaq \"Huk kuchu\" nisqata huk kuchuta munaspaykiqa."
+    ],
+    "tips": [
+      "Kuchu kuchu tiyaspa turnukuspa ruwaychis: huk runan llinpita akllan, huknin chukllata riqsichin.",
+      "Llinpikunamanta rimaychis: \"Qaraqiwan munayman.\" Mana ima kanqa kuchu sutinta willanaykipaqpas.",
+      "Sasa pantalla patapi 8 x 8 kuchuqa kikin cuadronpi tawaykuspa sayarinqa. Chukllakunaqa allin hatun kanqa.",
+      "Qillqasqa kuchuqa allinmi, lapicikunawan mesa patapi."
+    ],
+    "faq": [
+      {
+        "q": "¿Tiempo utaq puntos kanchu?",
+        "a": "Manan. Manan reloj, puntos, movimiento yupana, nitaq pitapas chinkachinchu. Ima tiempopipas saqiyta atinki, chawpimanta saqiyqa allinmi tukuyta."
+      },
+      {
+        "q": "¿Y si llinpita yupaymanta huk llinpiwan llinpichiptiy?",
+        "a": "Ima mana pasanchu, chaymi kachun. Ima llinpipas ima chukllapipas churakunman, juegopas mana ima nisqatapas willanchu. Sapa chukllapi yupaypa llinpin kaspaqa, juegom suave nin, munasqaykiman hina llinpichisqa pawaqa allinmi."
+      },
+      {
+        "q": "¿Tawa llinpikunataqa llinpi mana riqsiqkunapas riqsinmanchu?",
+        "a": "Akllasqa kanku chaypaq. Sapanka llinpipas yupayuqmi, sutiyuqmi, hinaspa huk pisi rikchayuqmi, chaymi llinpillanta mana sapallan riqsinanchu. Tawa llinpikunaqa qhawasqa kan puka-qarwa, azul-amarillo llinpi mana riqsiqkunapaq, hinaspa qanchisninkunapas huk hinan. Llinpi mana riqsiq runa mana chayta ruwarqanchu, chaymi willawaychis sichus iskayninqa kikin kanman."
+      },
+      {
+        "q": "¿Chukllakunaqa hatun kanchu, ñawpaq tipiyuq utaq pisi pantallapi?",
+        "a": "Sapa chukllaqa chunka pachaq pixelninpi kanmi, 4 x 4 kuchupiqa 56. Kuchuqa pantallaman hatun kaptinqa, kikin cuadronpi tawaykuspa sayarinqa, chukllakunata pisiyachispa mana."
+      },
+      {
+        "q": "¿Qillqasqa kanchu?",
+        "a": "Ari. Huk qillqa kuchupi yupaykuna chukllakuna kashan, chaymanta tawa llinpikunapa sutinkunawan. Sapa chukllata lapiwan llinpichiy yupaypa llinpinwan, utaq munasqaykiman hina."
+      },
+      {
+        "q": "¿Chiqan kanmanchu, manachu rijsichikunata chayta?",
+        "a": "Ari, chiqan. Manan cuenta kanchu, manan rijsichikuspa churakunata, manan pichus rantikuspapas. Celularpi, tabletpi utaq computadorapi web nawpipi ruwan."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Patrón ruwaq",
+    "seoTitle": "Patrón Ruwaq: Huk Teja Ruway, Patrónta Qillqay",
+    "h1": "Patrón Ruwaq: Huk Teja Ruway, Qhaway Kutirinanta",
+    "description": "Huk pisi teja chukllakunata llinpiy, chaymi kutirin sapa patrónman, tawa llinpikunawan, sapanka sutiyuq, rikchayuq. Manan tiempo nitaq puntos kanchu. Chiqan kanmi ruwanapaq chaymanta qillqanapaq.",
+    "short": "Huk pisi teja chukllakunata llinpiy, chaymi patrón hina kutirin.",
+    "players": "1 utaq 2 runa, kuchu kuchu",
+    "intro": "Huk pisi teja, 3 x 3 chukllayuq, munaspaykiqa 4 x 4, chaymanta chiqanpi \"sapaykiq patrónniyki\": chaymi chay teja kutirisqa huk bloqupi. Huk chukllata riqsichiy, chaymi tawa llinpikunamanta huknin llinpiman tikrakun, sapanka sutiyuq, rikchayuq. Chiqanpi patrónpas chaqnamanta tikrakun. Manan allin patrón kanchu, manan waqaychasqachu nitaq kachasqachu. \"Patrónniyta qillqay\" nisqa, kutirisqa patrónta huk qillqapi churan waqaychanapaq, llinpichinapaq utaq qowanapaq.",
+    "howTo": [
+      "Teja chaymanta chiqanpi sapaykiq patrónniykita qhawariy. Chaymi kikin teja, kutirisqa.",
+      "Huk chukllata riqsichiy. Chaymi hanaq tawa llinpikunamanta huk llinpiman tikrakun.",
+      "Chukllakunata riqsichiy patrón allin hina rikhurinankama. Ima patrónpas allinmi.",
+      "\"Huk sapa ruway\" nisqata riqsichiy huk teja kananpaq, utaq \"Qallariy kutimanta\" nisqata chiqan kananpaq. \"Kutichiy\" nisqa, ñawpaq tejata kutichin.",
+      "\"Patrónniyta qillqay\" nisqata riqsichiy papelpi munaspaykiqa, utaq Samay nisqata riqsichiy puchukanapaq."
+    ],
+    "tips": [
+      "Chiqapi tiyakuspa turnukuspa ruwaychik: huk runan huk cuadradota t'oqan, hukninmi imatachus rikusqanta willan.",
+      "Imatachus rikusqaykita parlaychik: \"Kayqa huk sisum hina.\" Mana imatapas sutichanaqa necesariochu.",
+      "Chay mismo teqsita iskay llimpillawan ruway, chaymanta tawa llimpiwan tawachus ruway.",
+      "Papelpi ruwasqaqa lapiswan llimpichiyta atinki, kartapaq t'aqakunaman k'utiyta, icha huch'uy regalota awaspa pakayta."
+    ],
+    "faq": [
+      {
+        "q": "Tiempota yupaq reloj utaq puntaje kanchu?",
+        "a": "Mana. Mana reloj, puntaje, ruwasqa yupaq utaq chinkay kanchu. Ima horapipas saqiyta atinki, chawpimanta saqiyqa allinmi tukukuyta."
+      },
+      {
+        "q": "Ruwasqaykiqa waqaychasqachu utaq apachisqachu kan?",
+        "a": "Mana. Teqsiykiqa kay paginallapi kachkan. Mana waqaychasqachu, hawaman apachisqachu utaq yupasqachu, paginata wichqaspa chinkan. Patrónta waqaychayta munaspaykiqa, papelpi qillqachiy."
+      },
+      {
+        "q": "Huk cuadradota pantaspa t'oqaspa utaq teqsita pantaspa chinkachispa, ima ruwanaq?",
+        "a": "Mana pantasqa cuadrado kanchu: huk kutita t'oqaspa hawaq llimpiman tinkiy. \"Qallariy kutimanta\" utaq \"Musyaykuna ruway\" nispa ruwasqaykichik qipaman, \"Kutichiy\" nispa teqsiykita kutichin."
+      },
+      {
+        "q": "Llimpi mana rikuq runakunapas tawa llimpikunata t'aqwiyta atinkuman?",
+        "a": "Chaypaqmi akllasqa karqan. Llimpi tukuynin sutinwanmi qillqasqa, cuadrado tukuynintinpas huch'uy rikchaqwan kan, chaymi llimpillawanqa mana t'aqwinanchu. Tawa llimpikunata puka-qumir utaq anqas-q'illu llimpi mana rikuq runaq rikuyninman hina simulacionkunawan qhawarisqa karqan. Llimpi mana rikuq runaqa manaraq ruwanankupaq mana ruwarqanchu, chaymi willaychik, iskay llimpi chiqa rikukuqtin."
+      },
+      {
+        "q": "Cuadradokunaqa ch'uqchiq makiwan utaq huch'uy pantallawan ruwayta atinapaq hatuchu?",
+        "a": "Tukuy cuadrado 56 píxel hatunmi kan. Teqsi pantallaman hatunraqtinqa, cuadradokunata huch'uyachispa mana, kikin kuchunpi ladomanta purikun."
+      },
+      {
+        "q": "Papelpi ruwasqa kanchu?",
+        "a": "Ari. \"Patrónniyta papelman qillqachiy\" nispa, ruwasqayki patrónta huk pankapi qillqachin, tawa llimpikunata sutinkunawan. Yana-yuraq allinta rikukunmi, llimpi tukuynin sapa rikchaqwan kaqtin."
+      },
+      {
+        "q": "Qullqi mana kaspachu kan, registrakuyta necesarioschu?",
+        "a": "Ari, mana qullqi kaspa, mana cuentapas, registrakuypas utaq descargapas necesarinchu. Celularpi, tabletpi utaq computadorapi web nawipi allin llamkan."
+      }
+    ]
+  },
+  "drawing-duet": {
+    "name": "Iskay llikllay",
+    "seoTitle": "Iskay llikllay: Iskay runa, huk rikch'aq",
+    "h1": "Iskay llikllay: Iskay runa, huk papel",
+    "description": "Iskay runa turnukuspa huk kuska llikllana papelpi liñakunata llikllanku, sapankanpa llimpiwan. Mana pipas puntajuchu utaq ganachu, rikch'aqtapas waqaychayta utaq papelpi qillqachiyta atinki. Qullqi mana kaspa, cuentayuqpas mana kanaqtin, pukllay.",
+    "short": "Chiqapi kaq runawan turnukuspa huk kuska rikch'aqta llikllay.",
+    "players": "2 runa, chiqa chiqa",
+    "intro": "Huk llikllana papel, iskay runa. Sapankaykichik llimpita akllanki, llimpi tukuynin sutinwan qillqasqa. Turnukuspa llikllanki: huk liña utaq rikch'ayta llikllaspa lapista qusay. Ima horapipas iskaynin lapista qusayta atinku. Mana chanin rikch'ay utaq puntaje kanchu. Gustaqtaykiqa rikch'aqta aparatuykiman waqaychay, icha papel versionta qillqachiy: huk papel, iskay lapis.",
+    "howTo": [
+      "Sapankaykichik llimpita akllanki. Banderapi rikuchin ima turnu, chay runaq llimpin sutinwan.",
+      "Huk liñata utaq rikch'ayta dedoykiwan, mausiwan utaq lapiswan llikllay. Icha flecha t'aqakunawan utaq Space t'oqanawan llikllay, mana punteroyuq kaspa.",
+      "Listo kaqtiykichik, \"Lapista qusay\" nispa t'oqay. Ima horapipas iskaynin lapista qusayta atinku.",
+      "\"Qhipa liñayta kutichiy\" nispa t'oqay, turnu kaq runaq musuq liñanta chinkachinapaq.",
+      "\"Rikch'aqta waqaychay\" nispa t'oqaspa aparatuykipi rikch'aq file ruway, icha \"Papel versionta qillqachiy\" nispa huk papelpaq, iskay lapiswan."
+    ],
+    "tips": [
+      "Chiqapi tiyakuspa llikllaspa parlaychik: \"K'uchupi inti huk churasaq.\"",
+      "Huk punta, huk liña utaq sencillo rikch'ayta llikllaspa qallariy, hukninchu kutichinanpaq.",
+      "Mana pipas imatapas rikch'ayta necesarinchu. Liñakunaq patrónpas, escenamanta hina allinmi.",
+      "Saqsuyta munaspaykiqa, \"Kunan tukusqa\" nispa t'oqay. Paginamanta lluqsisqaykiman rikch'aqniykiqa mana waqaychasqachu kanqa, mana waqaychaspaqa."
+    ],
+    "faq": [
+      {
+        "q": "Pitapas ganan utaq puntaje kanchu?",
+        "a": "Mana. Mana pitapas ganaq, mana puntaje, mana reloj, mana turnukuna yupaq. Mana chanin rikch'ay kanchu, mana imapas tupasqa utaq t'aqwisqa."
+      },
+      {
+        "q": "Rikch'aqqa waqaychasqachu utaq apachisqachu kan?",
+        "a": "Mana, mana imapas maykipipas apachisqachu. Rikch'aqqa kay paginallapi kachkan, wichqayuntinkama. \"Rikch'aqta waqaychay\" nispa t'oqaspaykiqa, aparatuykipi file ruwasqa kanqa, descargachinaykipaq. Mana imapas hawaman apachisqachu."
+      },
+      {
+        "q": "Huk liñata kutichiyta atinichu?",
+        "a": "Ari. \"Qhipa liñayta kutichiy\" turnu kaq runaq musuq liñanta chinkachin. \"Qallariy kutimanta\" papelta chinkachin, \"Kutichiy\" liñakunata kutichin, huk kutilla."
+      },
+      {
+        "q": "Mausi utaq t'aqa pantalla mana kaspa, kayta llamkachiyta atinichu?",
+        "a": "Ari. Rikch'ay qhawarisqa kaqtin, flecha t'oqakuna lapis punduta purichin, Space t'oqaqa lapista urmachin utaq hatarichin. Pantallan \"Lapis urmachisqa\" utaq \"Lapis hatarisqa\" nispa qillqan, sapa kuti."
+      },
+      {
+        "q": "Imaynan llimpikunan kanku, llimpi mana rikuq runakunapas t'aqwiyta atinkuchu?",
+        "a": "Qillu, naranha, q'umir, morado; kay tawa llimpi, rikch'aq pukllaykunapi hina. Sapankanpaqpas qillqasqa sutin kan, sutinkunatapas turnupi rikunki. Llimpi rikuynin hina simulacionkunawan qhawarisqa karqan, llimpi rikuy t'aqwiyninkuwan mana rikuq runa manaraq ruwarqanchu."
+      },
+      {
+        "q": "Papel versionpas kanchu?",
+        "a": "Ari. \"Papel versionta qillqachiy\" nispa, huk papelpi kamachikuykunata qillqasqa, llikllanapaq hatun q'ala marco qillqachin, iskay runapaq iskay lapiswan. Yana-yuraq ruwan."
+      },
+      {
+        "q": "Qullqi mana kaspachu kan, registrakuyta necesarioschu?",
+        "a": "Ja, es ist gratis, und Sie brauchen kein Konto, keine Anmeldung und keinen Download. Es funktioniert im Webbrowser auf Telefon, Tablet oder Computer."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Gemeinsam bauen",
+    "seoTitle": "Gemeinsam bauen: Zwei Menschen bauen ein Muster",
+    "h1": "Gemeinsam bauen: Zwei Menschen, ein Raster",
+    "description": "Zwei Menschen legen abwechselnd ein Teil in ein gemeinsames Raster, bis es voll ist. Jeder hat eine eigene Farbe mit Namen und Form. Es gibt keinen Gewinner, keine Zeit und keine Punkte. Kostenlos zum Spielen und Ausdrucken.",
+    "short": "Wechseln Sie sich mit einer Person neben Ihnen ab und füllen Sie ein gemeinsames Raster.",
+    "players": "2 Personen, nebeneinander",
+    "intro": "Ein gemeinsames Raster mit 4 mal 4 Feldern oder, wenn Sie möchten, 3 mal 3. Jede Person wählt eine Farbe, und jede Farbe hat einen eigenen geschriebenen Namen und eine eigene Form. Sie wechseln sich ab: Tippen Sie bei Ihrem Zug auf ein leeres Feld, um dort Ihr Teil hinzulegen. Wenn jedes Feld belegt ist, ist das Bild gemeinsam entstanden. Es gibt keinen Gewinner, denn Sie gestalten es zu zweit, und nichts wird gespeichert oder gesendet. „Raster drucken“ druckt ein leeres Raster auf eine Seite, damit Sie mit zwei Stiften bauen können.",
+    "howTo": [
+      "Jede Person wählt eine Farbe. Eine Farbe, die die andere Person schon hat, ist mit „In Benutzung“ markiert.",
+      "Die Person, die anfängt, beginnt. Der Bildschirm zeigt, wer am Zug ist und welche Farbe zu wem gehört.",
+      "Tippen Sie auf ein leeres Feld, um dort Ihr Teil hinzulegen. Der Zug geht an die andere Person.",
+      "Wenn Sie kein Teil legen möchten, tippen Sie auf „Aussetzen“. Jede Person darf jederzeit aussetzen.",
+      "Wenn jedes Feld belegt ist, haben Sie das Bild gemeinsam gebaut. Tippen Sie auf „Neu beginnen“, um ein weiteres zu bauen, oder auf Pause, um aufzuhören."
+    ],
+    "tips": [
+      "Sitzen Sie nebeneinander, damit Sie beide den Bildschirm sehen und erreichen können. Sprechen Sie dabei: „Ich lege meins neben deins.“",
+      "Versuchen Sie, ein Muster zu bauen, Streifen, ein Schachbrett oder einen Rand, oder legen Sie die Teile einfach dorthin, wo Sie möchten. Beides ist in Ordnung.",
+      "Ein Kind oder eine Person, die schnell müde wird, darf so oft aussetzen, wie sie möchte. Das Bild entsteht trotzdem gemeinsam.",
+      "Auf Papier nimmt jede Person einen Stift und zeichnet ihre eigene Form in die leeren Quadrate."
+    ],
+    "faq": [
+      {
+        "q": "Gibt es einen Gewinner, eine Zeit oder Punkte?",
+        "a": "Nein. Es gibt keinen Gewinner, denn Sie bauen gemeinsam ein Bild. Es gibt keine Uhr, keine Punkte, keine Zählung der Teile und kein Verlieren. Sie können jederzeit aufhören, und auch auf halbem Weg aufzuhören ist eine gute Art, das Spiel zu beenden."
+      },
+      {
+        "q": "Wird das, was wir gestalten, gespeichert oder gesendet?",
+        "a": "Nein. Das Raster bleibt nur auf dieser Seite. Es wird nicht gespeichert, hochgeladen oder gezählt, und es ist weg, sobald Sie die Seite schließen. Wenn Sie es behalten möchten, drucken Sie das Raster aus und bauen Sie auf Papier weiter."
+      },
+      {
+        "q": "Was ist, wenn ich ein Teil an die falsche Stelle lege?",
+        "a": "Es gibt keine falsche Stelle. Tippen Sie auf „Letztes Teil zurücknehmen“, dann ist wieder Sie am Zug. Sie können Schritt für Schritt zurücknehmen, auch ein Aussetzen."
+      },
+      {
+        "q": "Können Menschen mit Farbenblindheit die vier Farben unterscheiden?",
+        "a": "Die Farben wurden genau dafür ausgewählt. Jede Farbe hat außerdem einen geschriebenen Namen und eine eigene kleine Form in jedem Teil, sodass Farbe nie das einzige Unterscheidungsmerkmal ist. Die vier Farben wurden mit Simulationen von Rot-Grün- und Blau-Gelb-Farbenblindheit geprüft. Eine Person mit Farbenblindheit hat sie noch nicht ausprobiert. Bitte sagen Sie uns, wenn zwei Farben für Sie gleich aussehen."
+      },
+      {
+        "q": "Sind die Felder groß genug für ein Zittern der Hand oder einen kleinen Bildschirm?",
+        "a": "Jedes Feld ist mindestens 56 Pixel breit. Ist das Raster für den Bildschirm zu breit, lässt es sich innerhalb seines eigenen Rahmens seitlich verschieben, statt die Felder zu verkleinern."
+      },
+      {
+        "q": "Gibt es eine Version zum Ausdrucken?",
+        "a": "Ja. „Raster drucken“ druckt ein leeres Raster auf eine Seite mit den beiden Farben und ihren Namen, damit Sie mit zwei Stiften bauen können. Es funktioniert auch in Schwarzweiß, weil jede Farbe ihre eigene Form hat."
+      },
+      {
+        "q": "Ist es kostenlos, und muss ich mich anmelden?",
+        "a": "Ja, es ist gratis, und Sie brauchen kein Konto, keine Anmeldung und keinen Download. Es funktioniert im Webbrowser auf Telefon, Tablet oder Computer."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Sitzwurf-Zählliste",
+    "seoTitle": "Sitzwurf-Zählliste: ein Sitzsackspiel für zwei",
+    "h1": "Sitzwurf-Zählliste: gemeinsam am Tisch werfen",
+    "description": "Zwei Menschen am Tisch werfen abwechselnd einen weichen Sitzsack in ein großes Ziel und halten die Zählung auf Papier fest. Nichts wird auf Zeit gespielt oder gepunktet. Kostenlos zum Ausdrucken.",
+    "short": "Werfen Sie sich abwechselnd einen Sitzsack auf ein großes Ziel zu, und halten Sie die Zählung auf Papier fest.",
+    "players": "2 Personen, am Tisch",
+    "intro": "Ein ruhiges Wurfspiel für zwei Personen, die am Tisch sitzen. Sie legen ein ausgedrucktes Ziel auf den Tisch und werfen abwechselnd einen weichen Sitzsack oder eine zusammengerollte Socke, sodass sie auf den Ringen landet. Jede Person führt die Zählung auf Papier, indem sie Kästchen ankreuzt, und Sie sehen sich die Kreuze gemeinsam an, wenn Sie aufhören. Nichts wird auf Zeit gemessen, nichts auf dem Bildschirm zusammengezählt, und nichts wird gespeichert oder gesendet. Lesen Sie bitte zuerst die Sicherheitshinweise: Kleine Füllungen sind eine Erstickungsgefahr.",
+    "howTo": [
+      "Lesen Sie die Sicherheitshinweise. Wählen Sie einen Sitzsack mit zugenähtem Bezug oder rollen Sie eine saubere Socke auf.",
+      "Tippen Sie auf „Ziel und Zählblatt drucken“ und legen Sie das Blatt flach zwischen Ihnen auf den Tisch.",
+      "Sitzen Sie bequem, je eine Person auf jeder Seite, und werfen Sie abwechselnd sanft. Jede Person darf aussetzen.",
+      "Landet ein Wurf in einem Ring, kreuzen Sie ein Kästchen in Ihrer Spalte an, in der Zeile für diesen Ring.",
+      "Schauen Sie sich die Kreuze gemeinsam an, wenn Sie aufhören, oder tippen Sie auf Pause, um zu unterbrechen."
+    ],
+    "tips": [
+      "Sit close enough that a gentle underhand toss reaches the target without any stretching.",
+      "Talk about the toss, not the result: \"Vaq ch'aki tiro.\" Everyone cheers for every toss.",
+      "A rolled-up sock is light and easy to hold with a weak grip. Rest an arm on the table between turns.",
+      "If someone would rather watch, they can be the one who ticks the boxes."
+    ],
+    "faq": [
+      {
+        "q": "Is there a timer or a score?",
+        "a": "No. There is no clock, score, move counter or losing. You can stop at any moment, and stopping halfway is a perfectly good way to finish."
+      },
+      {
+        "q": "Is it safe to toss a bean bag?",
+        "a": "It can be, with care. Use a bag with a sewn-shut cover or a rolled-up sock, never loose beans, rice or small fillings, which are a choking hazard for young children and for anyone who puts things in their mouth. Stay seated, toss gently toward the table and never toward a face, and keep an adult close by."
+      },
+      {
+        "q": "Is anything counted or saved on the screen?",
+        "a": "No. The tally is only on paper, in boxes you tick yourselves. The page keeps no count and no timer, and nothing is saved or sent."
+      },
+      {
+        "q": "What if someone cannot toss, or the bag lands off the sheet?",
+        "a": "Anyone may pass, and a bag that lands off the sheet is simply picked up for the next turn. Nothing is counted for it."
+      },
+      {
+        "q": "What is on the printed sheet?",
+        "a": "One page: a large target with its three rings named Near, Middle and Far, a table with a column for each person and a row of small boxes to tick for each ring, and a line of safety advice. The names are written on the rings, so it works in black and white."
+      },
+      {
+        "q": "Is it free, and do I need to sign up?",
+        "a": "Yes, it is free, and there is no account, sign-up or download. It works in the web browser on a phone, tablet or computer."
+      }
+    ]
+  },
+  "seasonal-pack": {
+    "name": "Seasonal puzzle pack",
+    "seoTitle": "Seasonal Puzzle Pack: Printable Paper Puzzles",
+    "h1": "Seasonal Puzzle Pack: Three Paper Puzzles for Each Month",
+    "description": "Three small printable puzzles for any month of the year: match the pairs, circle the one that is different, and color a picture in. The page opens on this month, or choose another, or take a rest day. Free to print.",
+    "short": "Three printable puzzles for the month you choose, or a rest day.",
+    "players": "All ages, solo or side by side",
+    "intro": "Choose a month, and the page shows three small paper puzzles drawn from that month's pictures: two rows to join with lines, a row of four to circle the one that is different, and a picture to color in. The page opens on the current month of your device. You print one page, then do one, two or all three, at your own pace. Choose \"Today is a rest day\" instead and there is nothing to do.",
+    "howTo": [
+      "Choose a month, or choose \"Today is a rest day\".",
+      "Look at the three puzzles, then tap \"Print this month's pack\".",
+      "Do one, two or all three, at your own pace.",
+      "Join the matching pictures with a line, circle the one that is different, and color the large picture in.",
+      "Stop whenever you like. A rest day is a good day too."
+    ],
+    "tips": [
+      "Start with the puzzle that feels easiest today. One is enough.",
+      "Say the name of each picture aloud, if that helps.",
+      "Use crayons or pencils. Any colors are fine.",
+      "Keep the page for next time, or let it go."
+    ],
+    "faq": [
+      {
+        "q": "Is there a timer or a score?",
+        "a": "No. There is no clock, score, move counter or losing. You can stop at any moment, and stopping halfway is a perfectly good way to finish."
+      },
+      {
+        "q": "Does the page know which season it is?",
+        "a": "No. You choose the season. The page does not look at the date or your location."
+      },
+      {
+        "q": "Is there a score or a right answer?",
+        "a": "No. Nothing is timed, scored or checked on the screen, and no answers are shown. Each puzzle is only a picture to look at, join, circle or color."
+      },
+      {
+        "q": "What if nobody wants puzzles today?",
+        "a": "Choose \"Today is a rest day\". The page then shows one calm line, and there is nothing to print or do."
+      },
+      {
+        "q": "What is on the printed sheet?",
+        "a": "One page for the season you chose: its three puzzles, each with a short line of how to do it, and a line saying you can do one, two or all three."
+      },
+      {
+        "q": "Is it free, and do I need to sign up?",
+        "a": "Yes, it is free, and there is no account, sign-up or download. It works in the web browser on a phone, tablet or computer."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Decorate a card together",
+    "seoTitle": "Decorate a Card Together: a Printable Greeting Card",
+    "h1": "Decorate a Card Together: Make One for Someone",
+    "description": "Two people decorate a printed greeting card for a birthday, a thank you or just because, then write a message on the back together. Crayons or pens only. No timer or score. Free to print.",
+    "short": "Decorate a printed greeting card together.",
+    "players": "2 people, side by side",
+    "intro": "A quiet making game for two people sitting side by side. You print one sheet, which folds in half to make a card. Choose an occasion, such as a birthday or a thank you, and decorate the front around its words. Then write a message on the back, together or one person writing what the other says. Use crayons, colored pencils or felt-tip pens. There is no right card, and nothing is timed, scored or sent.",
+    "howTo": [
+      "Elige una ocasión y luego toca \"Imprimir la tarjeta\".",
+      "Dobla la hoja por la mitad siguiendo la línea punteada, para que la parte delantera quede por fuera.",
+      "Una persona decora la parte delantera y la otra decora la de atrás, o se turnan para decorar un solo lado.",
+      "Escriban juntos un mensaje. Una persona puede escribir mientras la otra dice las palabras.",
+      "Para cuando quieras. Una tarjeta sencilla vale tanto como una muy detallada."
+    ],
+    "tips": [
+      "Empieza con las palabras de la parte delantera y luego agrega hojas, estrellas o puntos alrededor, uno por uno.",
+      "Si alguien prefiere no dibujar, puede elegir los colores o escribir el mensaje.",
+      "Di lo que te gusta de los trazos de la otra persona, en vez de si están bien o mal.",
+      "Guarda la tarjeta en un lugar donde pueda entregarse, o déjala simplemente sobre la mesa por ahora."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay un temporizador o un puntaje?",
+        "a": "No. No hay reloj, puntaje, contador de movimientos ni derrota. Puedes parar en cualquier momento, y parar a mitad de camino también es una buena forma de terminar."
+      },
+      {
+        "q": "¿Necesitamos pegamento, tijeras o calcomanías?",
+        "a": "No. Basta con crayones, lápices de colores o marcadores. Nada hay que cortar, pegar ni sujetar."
+      },
+      {
+        "q": "¿Podemos hacer una tarjeta para una ocasión que no está en la lista?",
+        "a": "Elige \"Solo porque sí\" y escribe tus propias palabras en la parte delantera, o simplemente decora la tarjeta sin ninguna ocasión."
+      },
+      {
+        "q": "¿Se cuenta, se juzga o se guarda algo en la pantalla?",
+        "a": "No. La página solo muestra la tarjeta y los pasos. Nada se clasifica, puntúa ni guarda, y no existe una tarjeta correcta."
+      },
+      {
+        "q": "¿Qué hay en la hoja impresa?",
+        "a": "Una página: una tarjeta doblada por la mitad, con las palabras de la ocasión y un marco sencillo en la parte delantera, y líneas para un mensaje y para un \"De:\" en la parte de atrás. Las reglas para dos personas están impresas en la parte inferior."
+      },
+      {
+        "q": "¿Es gratis y necesito registrarme?",
+        "a": "Sí, es gratis, y no hay cuenta, registro ni descarga. Funciona en el navegador web de un teléfono, tableta o computadora."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Encontrar juntos",
+    "seoTitle": "Encontrar juntos: dos personas buscan los pares",
+    "h1": "Encontrar juntos: dos personas, un equipo",
+    "description": "Dos personas comparten una pantalla y se turnan para voltear dos tarjetas con dibujos y buscar un par. Los pares se encuentran juntos y se cuentan en un marcador compartido. Es gratis, sin temporizador ni puntaje.",
+    "short": "Túrnense con alguien a su lado para encontrar los pares de dibujos.",
+    "players": "2 personas, una al lado de la otra",
+    "intro": "Las tarjetas empiezan con sus dibujos a la vista, o puedes colocarlas boca abajo. En tu turno volteas dos tarjetas. Si forman un par, lo han encontrado juntos y el turno pasa. Si son distintas, se quedan boca arriba hasta que toques \"Volver a voltearlas\", para que ambos puedan mirarlas. Puedes pasar en cualquier momento. El marcador de arriba solo sube: son los pares que han encontrado juntos.",
+    "howTo": [
+      "Elige cuántas tarjetas usar. Seis tarjetas, tres pares, es un buen comienzo tranquilo.",
+      "La pantalla indica de quién es el turno, con un círculo para la primera persona y un cuadrado para la segunda.",
+      "Voltea dos tarjetas, una tras otra. Si coinciden, el par queda encontrado juntos.",
+      "Si son distintas, toca \"Volver a voltearlas\" cuando ambos estén listos. Entonces el turno pasa.",
+      "Cualquiera de los dos puede tocar \"Pasar\" en cualquier momento. Toca \"Empezar de nuevo\" para tarjetas nuevas, o toca Descansar para detenerte."
+    ],
+    "tips": [
+      "Siéntense uno al lado del otro y digan en voz alta los dibujos juntos: \"Una taza de té. ¿Usted toma la leche con el té?\"",
+      "Deje que la persona que cuida toque la pantalla, aunque tarde un poco. Señale en lugar de tocar por ella.",
+      "Elija \"Tarjetas boca abajo\" si a ambos les gusta voltear las tarjetas para encontrar los dibujos.",
+      "Una persona que se cansa con facilidad puede pasar tantas veces como quiera. Los pares se siguen encontrando juntos."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay un ganador, un temporizador o un puntaje?",
+        "a": "No. No hay ganador, porque los pares se encuentran en equipo. No hay reloj, puntaje ni conteo de fallos. El marcador solo cuenta los pares que han encontrado juntos, y puedes parar en cualquier momento."
+      },
+      {
+        "q": "¿Tenemos que recordar dónde están los dibujos?",
+        "a": "No. El juego empieza con todos los dibujos a la vista. Con las tarjetas boca abajo, pueden preguntarse entre ustedes qué vieron, o simplemente volver a voltearlas."
+      },
+      {
+        "q": "¿Qué pasa cuando dos tarjetas son distintas?",
+        "a": "Se quedan boca arriba, para que ambos puedan mirarlas todo el tiempo que necesiten. Nada las vuelve a voltear por sí solo. Cuando estén listos, toquen \"Volver a voltearlas\" y el turno pasa a la otra persona."
+      },
+      {
+        "q": "¿Se guarda o se envía algo de lo que jugamos?",
+        "a": "No. Las tarjetas se quedan solo en esta página. Nada se guarda, sube ni cuenta, y todo desaparece al cerrar la página."
+      },
+      {
+        "q": "¿Son lo bastante grandes las tarjetas para un temblor o una pantalla pequeña?",
+        "a": "Cada tarjeta mide al menos 64 píxeles de ancho y es tan grande como permite la pantalla. Quienes usan teclado o lector de pantalla escuchan cada tarjeta por su lugar y su dibujo."
+      },
+      {
+        "q": "¿Es gratis y necesito registrarme?",
+        "a": "Sí, es gratis, y no hay cuenta, registro ni descarga. Funciona en el navegador web de un teléfono, tableta o computadora."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Dados de historia",
+    "seoTitle": "Dados de historia: un juego de contar historias con dibujos",
+    "h1": "Dados de historia: cuenten una historia con dibujos",
+    "description": "Tres o cuatro dados con dibujos para contar una historia, en el orden que quieran. Sin leer, sin respuesta correcta, sin temporizador y sin puntaje. Lancen otra vez o pasen. Es gratis para jugar e imprimir.",
+    "short": "Lancen dados con dibujos y cuenten una historia juntos, en el orden que quieran.",
+    "players": "2 o más personas, o un adulto y un niño",
+    "intro": "Se muestran tres o cuatro imágenes, como dados. Juntas, inventen una historia que las use, en cualquier orden. Una historia puede ser de una frase o de varias, y puede ser divertida o cercana a la vida real. No hay una historia correcta, y nadie tiene que nombrar ni recordar nada. Toque \"Tirar de nuevo\" para ver imágenes nuevas, y cualquiera puede pasar su turno.",
+    "howTo": [
+      "Elija tres o cuatro dados. Tres es lo más sencillo.",
+      "Miren las imágenes juntos. Toque una si quiere empezar por ella.",
+      "Por turnos, cuenten una historia que use las imágenes, en cualquier orden. Basta con una frase cada uno.",
+      "Cualquiera puede pasar. Toque \"Pasar\" y la siguiente persona puede empezar.",
+      "Toque \"Tirar de nuevo\" para ver imágenes nuevas cuando quiera, o toque Descansar para terminar."
+    ],
+    "tips": [
+      "Haga una pregunta en lugar de esperar una respuesta: \"¿A dónde podría ir el paraguas?\"",
+      "Continúe lo que dijo la persona anterior en lugar de corregirla. Cualquier historia sirve.",
+      "Una historia puede tratar de un recuerdo real. Una imagen es un buen punto de partida."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay temporizador o puntuación?",
+        "a": "No. No hay reloj, puntuación, contador de movimientos ni derrota. Puede detenerse en cualquier momento, y parar a medio camino es una manera perfectamente válida de terminar."
+      },
+      {
+        "q": "¿Necesito leer o nombrar las imágenes?",
+        "a": "No. El juego funciona solo con las imágenes. Los participantes pueden señalar, describir o simplemente decir qué les recuerda la imagen. No se pide a nadie que nombre ni recuerde nada."
+      },
+      {
+        "q": "¿Qué pasa si alguien no quiere tomar su turno?",
+        "a": "Puede pasar en cualquier momento, sin dar explicaciones. El juego simplemente espera, y la siguiente persona puede empezar o usted puede tirar de nuevo."
+      },
+      {
+        "q": "¿Hay una versión en papel?",
+        "a": "Sí. Una hoja de una página tiene dieciséis imágenes distintas en cuatro filas. Elija una fila, o recorte las imágenes y saque algunas de un montón."
+      },
+      {
+        "q": "¿Es gratis y necesito registrarme?",
+        "a": "Sí, es gratis, y no hay cuenta, registro ni descarga. Funciona en el navegador web de un teléfono, tableta o computadora."
+      }
+    ]
+  },
+  "word-and-picture-pairs": {
+    "name": "Word and picture pairs",
+    "seoTitle": "Word and Picture Pairs: Match Words to Pictures",
+    "h1": "Word and Picture Pairs: Match the Word to the Picture",
+    "description": "Match English words to their pictures, and hear any word read aloud. Pictures stay in view, with no timer, score or count of tries. Free to play and print.",
+    "short": "Match each word to its picture, and hear it read aloud.",
+    "players": "One adult, or a family playing side by side",
+    "intro": "Four or six pictures are shown, with their English words in a different order. Tap a word and then its picture, or a picture and then its word. A matched pair stays together with a thick border and the word \"Matched\". Tap \"Read aloud\" beside any word to hear it spoken. Nothing is timed or scored, and a tap that does not match simply clears itself.",
+    "howTo": [
+      "Choose four or six pictures. Four is the simplest.",
+      "Tap a word, then the picture it names. Or tap a picture first, then its word.",
+      "A matched pair stays together. A tap that does not match clears quietly, so try another.",
+      "Tap \"Read aloud\" beside a word to hear it, if your device can read text aloud.",
+      "Tap \"New pictures\" for another set, or \"Start again\" to take every pair apart. \"Put it back\" brings back the last matches."
+    ],
+    "tips": [
+      "Say each word aloud together before you match it, and talk about the picture.",
+      "Families can take turns. Each person chooses one word or picture at a time.",
+      "Use the words you already know first, and leave the others for later."
+    ],
+    "faq": [
+      {
+        "q": "Is there a timer or a score?",
+        "a": "No. There is no clock, score, move counter or losing. You can stop at any moment, and stopping halfway is a perfectly good way to finish."
+      },
+      {
+        "q": "Is this for children?",
+        "a": "It is made for adults learning or relearning English words, and for families playing side by side. It is not written for children."
+      },
+      {
+        "q": "What if my device cannot read text aloud?",
+        "a": "The Read aloud button uses the voice your browser already has. If the browser cannot speak, the button is not shown and the game works without it."
+      },
+      {
+        "q": "Is there a paper version?",
+        "a": "Yes. A one-page sheet has six pictures and their six words, to cut out or to join with a line."
+      },
+      {
+        "q": "Is it free, and do I need to sign up?",
+        "a": "Yes, it is free, and there is no account, sign-up or download. It works in the web browser on a phone, tablet or computer."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Kuska ch'aqway",
-    "seoTitle": "Demencia nisqawan kawsaqkunapaq ch'aqway pukllay: Kuska ch'aqway",
+    "seoTitle": "Sorting Game: Sort Together for Adults",
     "h1": "Kuska ch'aqway: rikuykunata ch'aqway ruway",
-    "description": "Sapa rikuyta akllay, chaymanta wayk'uta akllay, chay rikuy kasqan hinata: wasi-chakra, miski-animalkuna. Demencia nisqawan kawsaq runakunapaq sumaq, mana qolqe ch'aqway ruway.",
+    "description": "Tap a picture, then the basket it belongs in: kitchen or garden, fruit or animals. A calm, free sorting game for adults and families.",
     "short": "Sapa rikuyta wayk'unman churay: wasi-chakra, hinallataq aswan.",
     "players": "1 icha 2 runa",
     "intro": "Ch'aqway ancha riqsisqa, kusikuq llank'ay, hina yupaychay icha mikhuy wasiman churay hina. Sapa rikuyta akllay, chaymanta wayk'uta akllay, chay rikuy kasqan wayk'uman. Mana apurakuychu, mana pantasqa ruwaypas kanchu.",
@@ -136,7 +786,7 @@
     "faq": [
       {
         "q": "¿Hora chaqnichu icha puntukunachu kan?",
-        "a": "Mana. Mana reloj, mana puntu, mana cuenta, mana chinkay. Pachata tukuyta atinkichis, hinaspa chawpimanta tukuy kaqqa sumaq tukuy kanmi."
+        "a": "No. There is no clock, score, move counter or losing. You can stop at any moment, and stopping halfway is a perfectly good way to finish."
       },
       {
         "q": "¿Imaraykun ch'aqway?",
@@ -150,12 +800,12 @@
   },
   "picture-puzzle": {
     "name": "Rikuy rompecabeza",
-    "seoTitle": "Demencia nisqawan kawsaqkunapaq sasachakuq mana rompecabeza: 4 icha 9 pedazo",
+    "seoTitle": "Easy Online Jigsaw: 4 or 9 Large Pieces",
     "h1": "Rikuy rompecabeza: mana sasa rompecabeza",
-    "description": "Demencia nisqawan kawsaq runakunapaq mana sasa rompecabeza: 4 icha 9 sinchi pedazo, tukuy rikuy qawasqa kanqa, pedazo iskaytam kuska llamk'achiychis.",
+    "description": "An easy online jigsaw for adults: 4 or 9 large pieces, the whole picture stays visible, and you tap two pieces to swap them. Use your own photo, which stays on this device. Free, no timer.",
     "short": "Iskay pedazota llamk'achispa, rikuy tukuy kananpaq wartaychis.",
     "players": "1 icha 2 runa",
-    "intro": "Huk sumaq rikuy 4 icha 9 sinchi pedazokunaman rakisqa, hinaspa wayk'uchisqa. Tukuy rikuyqa qawasqa kanqa yanapakuq hina. Huk pedazota akllay, chaymanta huk pedazota, hinaspa qayantam ch'ankhanku. Mana llapchiy kanchu.",
+    "intro": "A friendly picture is cut into four or nine large pieces and mixed up. The whole picture stays visible as a guide. Tap one piece, then another, and they swap places. No dragging is needed. You can also use one of your own photos. It stays on this device and is never uploaded.",
     "howTo": [
       "Huk rikuyta akllay, 4 icha 9 pedazo. Tawa kaqqa qallariy sasachakuq mana.",
       "Hanaq pachapi tukuy rikuyta qawariy.",
@@ -171,7 +821,7 @@
     "faq": [
       {
         "q": "¿Hora chaqnichu icha puntukunachu kan?",
-        "a": "Mana. Mana reloj, mana puntu, mana cuenta, mana chinkay. Pachata tukuyta atinkichis, hinaspa chawpimanta tukuy kaqqa sumaq tukuy kanmi."
+        "a": "No. There is no clock, score, move counter or losing. You can stop at any moment, and stopping halfway is a perfectly good way to finish."
       },
       {
         "q": "¿Pedazokunata rastrarinachu?",
@@ -185,7 +835,7 @@
   },
   "finish-the-saying": {
     "name": "Rimayta tukuy",
-    "seoTitle": "Rimayta tukuy: Yachay rimaykunapaq pukllay wayqekunapaq",
+    "seoTitle": "Finish the Saying: Familiar Sayings Game",
     "h1": "Rimayta tukuy",
     "description": "Riqsisqa rimaykuna, qayna simi mana kaspa, hina: \"Ama llulla, ama suwa, ama ___\". Huk akllay icha tukuyta rikuchiy, chaymanta rimanakuychis.",
     "short": "Riqsisqa rimaykunata kuska tukuychis, chaymanta rimanakuychis.",
@@ -219,9 +869,9 @@
   },
   "word-search": {
     "name": "Hatun qillqa simi tupuy",
-    "seoTitle": "Hatun Qillqa Simi Tupuy demencia nisqawan kawsaqkunapaq, imprimiypaq",
+    "seoTitle": "Large Print Word Search, Free and Printable",
     "h1": "Hatun Qillqa Simi Tupuy",
-    "description": "Qispi hatun qillqa simi tupuy ancianukunapaq hinaspa demencia nisqawan kawsaq runakunapaq. Pisi simikuna, hatun qillqakuna, hanaqman icha uraymanllataq. Internetpi pukllay icha imprimiy.",
+    "description": "A free large-print word search for older adults and families. Few words, big letters, words across and down only. Play online or print.",
     "short": "Hatun qillqakuna, pisi simikuna, hanaqpi icha uraypi nomás. Imprimiyta atinkitaqmi.",
     "players": "1 icha 2 runa",
     "intro": "Pisi quchka hatun qillqakunawan, pisi simikunawan, tukuy hanaqman icha uraymanllataq qillqasqa. Simi ñawpaq qillqanta chaqray, hinaspa qipa qillqanta chaqray. ¿Papelpi munankichu? Musuq tupuyta huk chaqnaypi imprimiy.",
@@ -254,7 +904,7 @@
   },
   "coloring": {
     "name": "Rikchaqana láminakuna",
-    "seoTitle": "Rikchaqana láminakuna demencia nisqawan kawsaq runakunapaq (qispi)",
+    "seoTitle": "Free Adult Coloring Pages, Large and Simple",
     "h1": "Rikchaqana Láminakuna",
     "description": "Pisi, hatun runakunapaq rikchaqana láminakuna, hatun chimpakuna: huk rikchayta akllay, hinaspa láminapi huk chaypi chaqray. Mana llantu, mana pantay rikchay, sapa láminata qispi imprimiy atinki.",
     "short": "Huk rikchayta akllay, hinaspa láminapi huk chaypi chaqray. Láminatapas imprimiy.",
@@ -289,9 +939,9 @@
   },
   "conversation-cards": {
     "name": "Rimanakuy cartakuna",
-    "seoTitle": "Rimanakuy qallariy demenciapaq: rikchaq cartakuna",
+    "seoTitle": "Rimanakuy Qallarichiq Tarjetakuna: Familiakunapaq Rikch'anakuna",
     "h1": "Rimanakuy Cartakuna",
-    "description": "Rikchaq cartakuna sumaq tapukuykunawan demencia nisqawan kawsaq runakunapaq: mana yachaykunata tapuy, mana chiqniyuq. Pantallapi icha imprimiy llapa cartakunata.",
+    "description": "Rikch'anakunawan tarjetakuna, suave rimanakuy qallarichiqkunapaq familiakunapaq, amigokunapaq, machu runakunapaq, yuyaynin qunqasqa runakunapaqpas. Mana tapukuy kanchu, mana chiqap kutichiykuna kanchu.",
     "short": "Rikchaq cartakuna kichka, sumaq tapukuykunawan. Mana yachaykunata tapuy.",
     "players": "2 runa icha huk tantakuna",
     "intro": "Sapa cartaqa huk riqsisqa rikchawan tupachin, kichka rimanakuyta tapukuywan: “¿Ima timpo munankipaq?” Mana cheqaq kutichiy kanchu, mana yuyanakuy kanchu. Huk temata akllay icha llapanta chaqray.",
@@ -329,12 +979,13 @@
     "description": "Ayllu rikch'akuykiwan sumaq parejachakuy pukllayta ruway. Celularniykipi utaq computadoraykipi 2 kama 6 rikch'ata akllay; navegadorniykipi qhepanqa, manataq hawaman kachakunchu.",
     "short": "Qanpa rikch'akunata akllay, hinaspa parejachay. Mana imapas hawaman apakunchu.",
     "players": "2 runa, chimpa-chimpa",
-    "intro": "Celular, tablet utaq computadoraykimanta iskay kama soqta rikch'ata akllay, hinaqtinmi hatun, qawarinapaq rikch'akunawan parejakuna pukllay kanqa. Rikch'akunaqa kay paginapi qhawarillanmi. Manan hawaman apakunchu, mana waqaychakunchu, mana rimasqachu kanqa; paginata wichqaspaykiqa tukukunqa.",
+    "intro": "Telefonniykimanta, tabletniykimanta utaq computadorayki-manta familiaykipa iskaymanta suqta fotonkunata akllaychis, chaymi hatun, rikunapaq rikch'anakunawan kaq tikrachikuy pukllaman tukun. Fotokunaqa kay paginallapim rikukun. Manan hawaman apasqachu, waqaychasqachu, nitaq huknirunakunaman kachasqachu, pagina wichqasqaykichis chinkan. Munaspaqa, sapa foto uranpi iskay simikunata yapayta atinkichis. Pausa qhepaqa, huk iskay tikrachikuyta rikuchinman yanapay kanman. Kaymi familia fotokunata kuska qhawanapaq.",
     "howTo": [
-      "“Rikch'ata akllay” nispa kutichiy, hinaspa iskay kama soqta rikch'ata akllay.",
-      "Sapa rikch'a iskay kutin rikukun. Huk rikch'ata kutichiy, hinaspa paranta kutichiy.",
-      "Sapa rikch'ata tarispaykichis, rimaychis rikch'amanta.",
-      "Tukuspaykichis, paginata wichqay utaq “Rikch'ata qarqay” nispa kutichiy. Mana imapas waqaychakunchu."
+      "“Fotokuna akllay” nisqata pitiychis, iskaymanta suqta fotokunata akllaychis.",
+      "Sapa foto iskay kutin rikhurin. Huknin pitiychis, chaymanta chaypa jinantapas pitiychis.",
+      "Munaspaqa, sapa fotopa uranpi iskay simikunata qillqay. Qillqasqakunaqa mana waqaychasqachu kanku.",
+      "Sapa fotota tarispaykichis, chaymantan rimanakuychis.",
+      "Tukuspaykichis, pagina wichqaychis icha “Fotokunata chinkachiy” nisqata pitiychis. Mana imapas waqaychasqachu kanku."
     ],
     "tips": [
       "Allin qhawariq rikch'akunata akllay, kusikuq, riqsisqa kaqkunamanta: michi, muyu, munasqa chaskisqa, casarakuy p'unchay.",
@@ -358,9 +1009,9 @@
   },
   "picture-bingo": {
     "name": "Rikch'a bingo",
-    "seoTitle": "Rikch'a bingo machu runakunapaq: imprimiyuq",
+    "seoTitle": "Paqarichisqa Bingo Rikch'anakuna Grupokunapaq",
     "h1": "Rikch'a bingo huñunakuq runakunapaq",
-    "description": "Mana qolqeniyuq imprimiy rikch'a bingo, yuyaykuna waqaychaq wasikunapaq huk machu runakunapaq. Pantallapi hatun waqyaq kaqwan. Hatun rikch'akuna simikunawan, 9 utaq 16 cuadradonawan, mana qillqata liyispa.",
+    "description": "Mana qolqechu paqarichisqa rikch'ana bingo familiakunapaq, machu grupokunapaq, wasikunapi qhawasqa runakunapaq. Hatun rikch'anakuna simikunawan, 9 utaq 16 cuadradokuna, hinaspa pantallapi hatun willaq.",
     "short": "Imprimiy rikch'a bingo kartakuna, huñunakuq runakunapaq hatun pantalla waqyaqwan.",
     "players": "2 kama 30 runakama huñunakuq",
     "intro": "Riqsisqa bingo yupaq kaqpi rikch'akunawan, chaymi pitapas mana sasachu liyinan. Huk kaq kartakunata imprimiy, hinaspa pantalla waqyaq kaqwan sapa rikch'ata televisor, laptop utaq tabletpi hatunta rikuchiy.",
@@ -392,9 +1043,268 @@
       }
     ]
   },
+  "picnic-planner": {
+    "name": "Picnic yuyaychay",
+    "seoTitle": "Picnic Yuyaychay: Paseopaq Rikch'anakunata Akllay",
+    "h1": "Picnic Yuyaychay: Rikch'anakunata akllay, chaymanta tikrachiy",
+    "description": "Picnicpaq mikhuna rikch'anakunata, paseo ruwanakunata akllay, chaymanta kaqkunawan suave tikrachikuy pukllay. Manan tiempowanchu, manan puntukunawanchu. Mana qolqechu pukllay, imprimiy kanman.",
+    "short": "Picnicpaq mikhuna rikch'anakunata, paseo rikch'anakunata akllay, chaymanta tikrachiy.",
+    "players": "Sapallan, icha iskay runa kuska",
+    "intro": "Mikhuna rikch'anakunata, ruwanakunata sapa kutin pitiychis, chaymi canastaman yaykun. Canastaqa suqtakama churanata atin. Huk rimanakuy mancha willakun canastapi imakuna kashasqanta, kayhina: “Picnicniykupi: t'anta, quso, manzanakuna, hinaspa wayrapuchu.” Chaymanta “Picnicniykuwan pukllashun” nisqata pitiychis, chaymi akllasqaykichis rikch'anakunamanta suave tikrachikuy pukllay kanqa. Rikch'anakunaqa qhawasqallan kanqa, manan tiempoqa yupasqachu, manan puntuqa yapasqachu, manan waqaychasqapas. “Picnicniykuta listata imprimiy” nisqata pitiptiyqa, akllasqaykichis listata imprimikunkichis, sapa apanaykichis imapaq chiqanchasqa casillawan.",
+    "howTo": [
+      "Mikhuna rikch'anata utaq ruwanata pitiychis. Chaymi canastaman yaykun.",
+      "Canastapi rikch'ana pitiychis, chaymi lloqsimunqa.",
+      "Iskaymanta aswan akllaychis, chaymanta “Picnicniykuwan pukllashun” nisqata pitiychis.",
+      "Iskay kikin rikch'ana pitiychis. Rikch'anakunaqa qhawasqallan kanqa, chaymi manan yuyanaykichischu.",
+      "Llapan pukllay tukuspa, “Picnicniykuta listata imprimiy” nisqata pitiychis, paper listata apanaykichispaq."
+    ],
+    "tips": [
+      "Kuska kaqkunata tapuychis, imatachus apamuyta munasqankuta, chaymanta rikch'anakunata kuska akllaychis.",
+      "Sapa rikch'ana yaykuptin rimanakuychis: “Yuyankichu playapi wayrapuchuta kawasqayku?”",
+      "Paperpi, qillqanaqa mana qillqasqa rayakunam, wakin apanaykichis imakunapaq icha sutipaq."
+    ],
+    "faq": [
+      {
+        "q": "Kanchu tiempo, puntu utaq gananchaq?",
+        "a": "Mana. Manan imapas tiempopi yupasqachu, manan yupasqachu, pipas gananchu. Tikrachikuy pukllaypiqa manan pantaykuna kanchu, manan puntukunapas kanku."
+      },
+      {
+        "q": "Kaymi mikhuna yuyaychay kanchu?",
+        "a": "Mana. Kaymi paseopaq rikch'ana yuyaychay, rimanakunapaq, paperpi aprinapaq. Manan pipaq imata mikhunanmantapas nin."
+      },
+      {
+        "q": "Akllasqayku rikch'anakunaqa waqaychasqachu utaq kachasqachu kanku?",
+        "a": "Mana. Canastaqa kay paginallapim kashan. Manan waqaychasqachu, manan apamunasqachu, manan kachasqachu. Pagina wichqasqaykichismantaqa chinkan."
+      },
+      {
+        "q": "Paperpi kaq versionninchu kan?",
+        "a": "Arí. “Picnicniykuta listata imprimiy” nisqa huk paginata imprimin, A4 utaq US Letter tamañupi. Akllasqaykichis rikch'anakunata rikuchin, sapamanta mana chiqnisqa casillawan, chaymanta mana qillqasqa rayakunawan imapaq hukpas yapanaykichispaq."
+      },
+      {
+        "q": "Mana qolqechu kanchu, icha cuenta kanaykichu?",
+        "a": "Arí, mana qolqechu. Manan cuenta, manan registro, nitaq descarga kanchu. Telefonpi, tabletpi utaq computadorapi web nawpi llank'an."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Album",
+    "seoTitle": "Album: Familiaykipa fotokunata kuska tiqlay, sapa paginapi",
+    "h1": "Album: Fotoykikunata utaq simikunata yapay, chaymanta paginakunata tiqlay",
+    "description": "Aparatuykipi iskaymanta chunka iskayyuq familiaykipa fotokunata akllay, libro hina tiqlay, sapa fotopa uranpi iskay simi yapaywan. Manan imapas tikrakunchu. Mana qolqechu imprimiy kanman.",
+    "short": "Familiaykipa fotokunata kuska libro hina tiqlay.",
+    "players": "Sapallan, icha iskay runa kuska",
+    "intro": "Kay aparatumanta iskaymanta chunka iskayyuq fotoykikunata akllaychis. Sapa foto huk paginaman tukun, rikunapaq hatun, munaspaqa uranpi iskay simiwan. Paginakunata botonkunawan utaq flechakunawan tiqlaychis, “Kuska qhawariy” nisqata pitispaykichis, fotokunallawan simikunallawanpas kuska tiyaspa qhawankichis. Fotoykikunaqa kay aparatullapin kashan. Manan hawaman apasqachu, manan waqaychasqachu, paginata wichqaspaykichis libropas chinkan. “Album imprimiy” nisqa sapa paginapi huk fotota, uranpi simintin, paginapa yupayninwan imprimin.",
+    "howTo": [
+      "“Fotokuna akllay” nisqata pitiychis, iskaymanta chunka iskayyuq fotokunata akllaychis. Mana arí nispa atiq runapa fotonta apaspaykichis, ñawpaqtam tapuychis.",
+      "“Ñawpaq paginata” utaq “Qhipa paginata” nisqawan paginakunata tiqlaychis, icha izquierda hinaspa derecha flechakunawanpas.",
+      "Munaspaqa fotu uranpi iskay simikunata yapaychis. “Ñawpaqman apay” utaq “Qhipaman apay” nisqawan orden tikrachiychis.",
+      "“Kuska qhawariy” nisqata pitiychis, chaymi llank'ana botonkuna pakakun, libro kuska tiyaspa qhawasqa kanki.",
+      "“Album imprimiy” nisqata pitiychis, paper kopiyata munaspaqa, icha tukuspaykichis “Albumta chinkachiy” nisqata. Mana imapas waqaychasqachu kanku."
+    ],
+    "tips": [
+      "Elige fotos de cosas alegres y conocidas: un jardín, una mascota, un lugar favorito. Habla de cada página mientras pasas la hoja.",
+      "Deja que la persona diga unas palabras para cada página, aunque sea una sola, y anótalas tal como las dice.",
+      "En papel, las páginas impresas pueden guardarse en una carpeta, y la familia puede añadir sus propias fotos y notas alrededor."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay temporizador, puntuación o ganador?",
+        "a": "No. Nada se cronometra, puntúa ni cuenta, y nadie gana. El número de página solo sirve para saber dónde estás en el libro."
+      },
+      {
+        "q": "¿Se guardan, suben o envían nuestras fotos o pies de foto?",
+        "a": "No. Esta página solo lee las fotos, que no se suben, guardan ni envían a ningún lugar. Los pies de foto se mantienen solo mientras la página está abierta. Cuando cierras la página, el libro desaparece."
+      },
+      {
+        "q": "¿Podemos imprimir el libro?",
+        "a": "Sí. «Imprimir el álbum» imprime una foto y su pie de foto en cada página, con los números de página. Elige A4 o US Letter en el diálogo de impresión."
+      },
+      {
+        "q": "¿Es gratis y hay que registrarse?",
+        "a": "Sí, es gratis, y no hace falta cuenta, registro ni descarga. Funciona en el navegador web de un teléfono, una tableta o un ordenador."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Tablero de collage",
+    "seoTitle": "Tablero de collage: dos personas colocan imágenes por turnos",
+    "h1": "Tablero de collage: colocar imágenes en un mismo tablero, por turnos",
+    "description": "Dos personas se turnan para colocar imágenes recortadas en un tablero compartido. Toca una imagen recortada y luego un hueco vacío. Sin temporizador ni puntuación. Gratis para jugar e imprimir.",
+    "short": "Turnaos para colocar imágenes en un tablero compartido.",
+    "players": "2 personas, una al lado de la otra",
+    "intro": "Dos personas se sientan una al lado de la otra, con un tablero de doce huecos y una bandeja de ocho imágenes recortadas. Toca una imagen recortada y después un hueco vacío, y la imagen se colocará allí. Entonces el turno pasa a la otra persona. Las imágenes de cada persona llevan su propia forma, un círculo o un cuadrado, de modo que el tablero muestra quién colocó cada una sin depender del color. Cualquiera de las dos puede pasar el turno, y se puede deshacer un paso. Nada se cronometra, puntúa ni guarda. «Imprimir el tablero» imprime el tablero vacío y las imágenes para recortar.",
+    "howTo": [
+      "Toca una imagen recortada de la bandeja. Mientras esté seleccionada, aparecerá «Elegida».",
+      "Toca un hueco vacío del tablero. La imagen recortada se colocará allí y el turno pasará.",
+      "Cualquiera de las dos personas puede tocar «Pasar» en cualquier momento, o «Quitar la última pieza» para deshacer un paso.",
+      "Toca «Otro conjunto de imágenes» para una bandeja distinta. Las imágenes que ya están en el tablero se quedan donde están.",
+      "Toca «Empezar de nuevo» para vaciar el tablero, y «Devolver» si cambias de opinión."
+    ],
+    "tips": [
+      "Di el nombre de cada imagen al colocarla, por ejemplo «la taza de té va junto a la casa». Hablar convierte la actividad en algo compartido.",
+      "Deja que las dos personas se turnen también para elegir la imagen recortada, no solo el hueco, para que ambas tengan voz.",
+      "En papel, recorta las ocho imágenes con ayuda de un adulto y luego colócalas sobre los recuadros impresos."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay temporizador, puntuación o ganador?",
+        "a": "No. Nada se cronometra, puntúa ni cuenta, y nadie gana. Un tablero completo es simplemente uno con una imagen en cada hueco."
+      },
+      {
+        "q": "¿Se guardan o envían las imágenes que colocamos?",
+        "a": "No. El tablero se queda solo en esta página. No se guarda, sube ni cuenta, y desaparece al cerrar la página."
+      },
+      {
+        "q": "¿Cómo sabemos de quién es cada imagen?",
+        "a": "Cada persona tiene una forma. Las imágenes de la primera llevan un círculo en la esquina, y las de la segunda, un cuadrado, y el nombre de cada una aparece encima del tablero."
+      },
+      {
+        "q": "¿Hay una versión en papel?",
+        "a": "Sí. «Imprimir el tablero» imprime el tablero vacío en doce recuadros, con las ocho imágenes debajo del mismo tamaño y la línea de corte. Un adulto puede encargarse de recortarlas."
+      },
+      {
+        "q": "¿Es gratis y hay que registrarse?",
+        "a": "Sí, es gratis, y no hace falta cuenta, registro ni descarga. Funciona en el navegador web de un teléfono, una tableta o un ordenador."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Planificador de jardín",
+    "seoTitle": "Planificador de jardín: diseña un terreno con imágenes de plantas",
+    "h1": "Planificador de jardín: elige imágenes y diseña un terreno",
+    "description": "Elige imágenes de plantas y cosas de jardín, y colócalas en doce bancales de un terreno. Toca una imagen y luego un bancal. Sin temporizador ni puntuación. Gratis para jugar e imprimir.",
+    "short": "Elige imágenes de plantas y diseña un terreno de doce bancales.",
+    "players": "Individual, o 2 personas una al lado de la otra",
+    "intro": "Elige imágenes de una bandeja de plantas y cosas de jardín, y luego toca un bancal para colocar cada una en su sitio. Un terreno tiene doce bancales, y cada bancal admite una imagen. Un resumen en palabras indica lo que contiene el plan, por ejemplo: «Tu plan tiene 3 girasoles, 2 rosales y 1 árbol». Nada se cronometra, puntúa ni guarda, y no hay turnos. Es un plan con imágenes para comentar, no un consejo de cultivo. «Imprimir el plan» imprime los bancales con las imágenes que elegiste, con bancales vacíos para dibujar y líneas para notas.",
+    "howTo": [
+      "Toca una imagen de la bandeja. Mientras esté seleccionada, aparecerá «Elegida».",
+      "Toca un bancal. La imagen se colocará allí y la elección quedará fijada.",
+      "Para cambiar un bancal, elige otra imagen y tócalo. Para vaciar un bancal, tócalo sin tener ninguna imagen elegida.",
+      "Toca «Empezar de nuevo» para vaciar todos los bancales, y «Devolver» si cambias de opinión.",
+      "Toca «Imprimir el plan» para obtener una copia en papel del terreno y del resumen."
+    ],
+    "tips": [
+      "Nyachaykuna saqiy imaymana rikchaqta yaykuchkaqtin, hina \"tuqllu tarpuy kaqman rumi wasi patapi pajarukuna wasita churay\" nispa. Rimanakuspaqa ruwanakuy tukun.",
+      "Sapa runa turnupi rikchaq akllaychis, icha rikchaqkunata tupaspa akllaychis, chaymi sapanka runapas willakuyman yuyaychayta munan.",
+      "Papelpi, chusaq tarpuy kaqkunaqa kikin yuyaykuyninta qillqanapaq, notas kaq rikchakuna qawasqa qillqanapaq."
+    ],
+    "faq": [
+      {
+        "q": "Chay tarpuy yachachiyllachu?",
+        "a": "Mana. Kayqa rimanakuq rikchaq yachachiy, mana tarpuy yachachiy. Ima pachapi, maymanpi icha imaynata tarpunata mana willakunchu, chaymi sapa runa maypi tiyasqanmanta qatiykachan."
+      },
+      {
+        "q": "Ch'uyanchaq, puntos icha ganaq ima kanchu?",
+        "a": "No. Nothing is timed, scored, rated or counted, and nobody wins. A full plot gets no special message."
+      },
+      {
+        "q": "Akllasqaykichis rikchaqkunaqa waqaychanchu icha kachanchu?",
+        "a": "No. The plan stays on this page only. It is not saved, uploaded or counted, and it is gone when you close the page."
+      },
+      {
+        "q": "Papel llamkaypas kanchu?",
+        "a": "Arí. \"Plan lluqsichiy\" nispa tuqllayuqqa hukllaq paginallatan A4 icha US Letter papelpi lluqsichin. Chaypi chunka iskay tarpuy kaqkuna, akllasqaykichis rikchaqkuna, rimaypi kaq hatun willakuy, chaymanta notas qillqanapaq yuraq kaqkuna rikukun."
+      },
+      {
+        "q": "Qispichu kanman, kuentata kicharuymanchu?",
+        "a": "Arí, qispi, mana kuenta kanchu, mana kicharuy kanchu, mana descargaspapas. Celular, tablet icha computadorapi web navegadorpi llamkan."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Ayllumanta pintana pared",
+    "seoTitle": "Ayllumanta Pintana Pared: Hukllaq Hatun Rikchaq Miraq Makikunawan",
+    "h1": "Ayllumanta Pintana Pared: Hatun Rikchaqta Ayllumanta Pintasun",
+    "description": "Hatun rikchaqta achka paginakunapi lluqsichiy, chaynapi wasi runakuna, yachaq ayllu icha wasi kuraq kawsaq runakuna hukllawan pared pintanankupaq. Qispi lluqsichiy. Mana tiempo icha puntos kanchu.",
+    "short": "Hatun rikchaqta pachakunapi lluqsichiy, achka runakuna pintanankupaq.",
+    "players": "Ayllu, mesapi icha paredpi",
+    "intro": "Pintana paginakunamanta rikchaqta akllay, chaymanta 4, 6 icha 9 paginakunawan pared akllay. Paredta lluqsichiy: punta pagina imaynata ukllanapaq rikukun, hukkuna paginakunaqa hatun rikchaqpa hukninmi, ichaqa esquinanpi A1 hina rótulo kanqa. Sapa runa hukniykaman icha aswan paginakunata pintan, imayna colorkunawanpas, imayna estilowanpas. Chaymanta paginakunata rótulokuwanmi ukllachinku, qhepa ladonpi cintawan ch'askichinku. Mana tiempo, mana puntos, mana waqaychasqa kanchu.",
+    "howTo": [
+      "Rikchaqta akllay, chaymanta pared kanan paginakunata akllay.",
+      "Pantallapi kaq mapata qawaspa, sapa rótulo maymanchus rinanta yachay.",
+      "\"Paredta lluqsichiy\" nispa tuqllayuqta sallpaychis, tukuy paginakunata lluqsichiy.",
+      "Sapa runaman hukniykaman icha aswan paginakunata pintanaypaq quy. Colorkuna, estilokuna mana kikinchakunanchu.",
+      "Paginakunata rótulokuwan churay, qhepa ladonpi cintawan ch'askichiy."
+    ],
+    "tips": [
+      "Aswan sasa lluqsiykuna kaq paginakunata isquykunata mana ruwayta munaq runakunaman quy, aswan sasa kaqkunatana gustaqkunaman quy.",
+      "Paredta tukuy runakuna qawanankupaq churay, rikchaqta hukllawan parlay.",
+      "Huch'uy mesapaqqa huch'uy paredta, hatun cuartopaqqa hatun paredta akllay."
+    ],
+    "faq": [
+      {
+        "q": "Ch'uyanchaq, puntos icha ganaq ima kanchu?",
+        "a": "Mana. Ima kaqmi mana tiempo, mana puntoyuq, mana yupasqa, nitaq pipas gananchu. Paredqa sapallan achka runakuna pintasqa rikchaqmi."
+      },
+      {
+        "q": "Paginakuna waqaychasqachu icha maykuman kachasqachu?",
+        "a": "No. The wall is made on this page only. It is not saved, uploaded or counted, and it is gone when you close the page."
+      },
+      {
+        "q": "Colorkuna tupanankuchu?",
+        "a": "Mana. Sapa runa imayna colorkunatapas, imayna estilotapas apaykachanman. Paginakunaqa ainda hukllaq rikchaqman ukllakanqa."
+      },
+      {
+        "q": "Papel llamkaypas kanchu?",
+        "a": "Arí. Lluqsichisqa pared tukuy juegonmi: punta pagina pasukuna mapawan, hukniyuq pagina rikchaq sapa partinpaq."
+      },
+      {
+        "q": "Qispichu kanman, kuentata kicharuymanchu?",
+        "a": "Arí, qispi, mana kuenta kanchu, mana descargaspapas. Celular, tablet icha computadorapi web navegadorpi llamkan."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Upallaq rikchaq rompecabezas",
+    "seoTitle": "Upallaq Rikchaq Rompecabezas: Rikchaqkunata Rikchaqman Churay",
+    "h1": "Upallaq Rikchaq Rompecabezas: Rikchaq Pedazokunata Rikchaqman Churay",
+    "description": "Sasa mana rikchaqkunata wasi, wampu, challwa, hukkunapi churay. Pedazuta sut'iyay, chaymanta isqunniyuq kaq espaciota. Mana tiempo icha puntos kanchu. Qispi llamkay icha lluqsichiy.",
+    "short": "Sasa rikchaqkunata rikchaqman churay, kikin ritmuykiwan.",
+    "players": "1 runa, mesapi",
+    "intro": "Rikchaq esquemata, wasi, wampu icha cohete hina, espaciokunaman rakisqa. Sapa espaciopi isqunniyuq rikchaq pedazo kan: hatun icha huch'uy kuchu triangulo, kuchu, paralelogramo icha rectangulo. Pedazuta sut'iyay, chaymanta isqunniyuq espaciota sut'iyay, chaymi chaskanmanta. Espacio pedazuta muyun, mana jap'iy nitaq muyuchiy. Pedazo mana isqunniyuq kaqtinqa bandejapi qolqanmi, huch'uy willakuywan. Mana tiempo, mana puntos, mana waqaychasqa icha kachasqa. \"Kay rikchaqta lluqsichiy\" nispa tuqllayuqqa esquemata pedazokunawan hukllaq paginapi lluqsichin, colorenapaq icha ch'ayanapaq.",
+    "howTo": [
+      "Bandejapi pedazuta sut'iyay. Akllasqa kaqtinqa \"Akllasqa\" nispa rikukun.",
+      "Rikchaqpi espaciota sut'iyay. Rikchaq isqunniyuqtaqa pedazo chaymanta chaskanmi.",
+      "Mana isqunniyuqtaqa hukniyuq espaciota ensayay. Ensayaspaqa mana imapas chinkanchu.",
+      "Rikchaqpi pedazuta sut'iyaspa bandejaman kutichiy, icha tukuy pedazokunata kutichinaykipaq \"Qallariy hukmanta\" nispa tuqllayuqta usay.",
+      "Tukuy espaciokunaman pedazo chaskasqa kaqtinqa rikchaqqa tukukun. \"Hukniyuq rikchaq\" nispa tuqllayuqta sut'iyay hukniyuq rikchaqpaq, icha Samay nispa sut'iyay samanapaq."
+    ],
+    "tips": [
+      "Activa las líneas de pista para ver cada espacio. Apágalas para un rompecabezas más difícil, con solo el contorno como guía.",
+      "Empieza por las figuras grandes, como los triángulos grandes y los rectángulos. Las piezas pequeñas suelen quedar para el final.",
+      "Nombren las figuras en voz alta mientras avanzan: «un triángulo, un cuadrado, un rectángulo largo». Hablar juntos puede convertirlo en una actividad compartida.",
+      "En papel, colorea las piezas con dos o tres colores, o recórtalas con ayuda de un adulto."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay temporizador, puntuación o contador de movimientos?",
+        "a": "No. Nada se cronometra, cuenta ni puntúa. Una pieza que no encaja simplemente no se coloca, y puedes parar cuando quieras."
+      },
+      {
+        "q": "¿Se guarda o se envía lo que hacemos?",
+        "a": "No. El dibujo queda solo en esta página. No se guarda, no se sube ni se cuenta, y desaparece al cerrar la página."
+      },
+      {
+        "q": "¿Los espacios son lo bastante grandes para un temblor o una pantalla pequeña?",
+        "a": "El contorno se dibuja tan grande como permite la pantalla, y cada espacio es un botón al que puedes llegar con el dedo o con la tecla Tab. Las piezas de la bandeja son los botones grandes de la página."
+      },
+      {
+        "q": "¿Hay una versión en papel?",
+        "a": "Sí. «Imprimir esta figura» imprime un dibujo en una sola página: el contorno con sus líneas de pista, y las piezas dibujadas al mismo tamaño junto a él. Colorea las piezas o recórtalas para que encajen. Un adulto puede encargarse del recorte."
+      },
+      {
+        "q": "¿Es gratis? ¿Hace falta registrarse?",
+        "a": "Sí, es gratis, y no hace falta cuenta, registro ni descarga. Funciona en el navegador web de un teléfono, una tableta o una computadora."
+      }
+    ]
+  },
   "calm-breathing": {
     "name": "Sumaq samay ukuy",
-    "seoTitle": "Huk sumaq samay ukuy samanakuy, machu runakunapaq hinaspa qhawaqkunapaq",
+    "seoTitle": "Una pausa de respiración tranquila para compartir",
     "h1": "Huk sumaq samay ukuy samanakuy",
     "description": "Huk allin samay ukuy samanakuy hukwan kawsakunapaq: muyu hatunchakun hinaspa pisiyan suqta samaykunapaq. Qallariwaq, tukuyta munaspaykiqa tukuy horapi tukuyta atiwanki.",
     "short": "Hukllawan samaypaq muyu. Munasqaykiman hina qallarichiy utaq tukuy.",
@@ -423,6 +1333,131 @@
       {
         "q": "Qolqe mañakunchu, hinaspa cuenta kichanaypaq ima necesitanichu?",
         "a": "Ari, qolqe mañakunchu. Mana cuenta, qillqachikuy utaq apariy kanchu. Celularpi, tablet nisqapi utaq computadorapi web qawarichiqpi llamkan."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Cadena de historia",
+    "seoTitle": "Cadena de historia: un juego compartido de historias con imágenes",
+    "h1": "Cadena de historia: cuenta una historia una imagen a la vez",
+    "description": "Una fila de imágenes crece una a la vez, y cada persona dice en voz alta una frase sobre ella. Nada que escribir, sin respuesta correcta. Gratis, tranquilo, sin temporizador ni puntuación.",
+    "short": "Añade una imagen y luego cada uno dice una frase, por turnos.",
+    "players": "2 personas o más",
+    "intro": "El juego empieza con una imagen y hace crecer la cadena una imagen a la vez. Cada persona dice en voz alta, por turno, una frase sobre la cadena hasta ese momento. Una frase puede hablar de lo que se ve, de un lugar que trae a la memoria o de algo gracioso. No se escribe, no se graba ni se guarda nada, no hay respuesta correcta y cualquiera puede pasar su turno. La cadena se detiene en ocho imágenes, y después pueden empezar una nueva.",
+    "howTo": [
+      "Miren juntos la primera imagen.",
+      "Por turnos, cada persona dice una frase sobre la cadena hasta ese momento. Cualquiera puede pasar.",
+      "Toca «Añadir una imagen» para poner la siguiente imagen al final de la cadena.",
+      "Toca «Quitar la última» si prefieres volver una imagen atrás.",
+      "Cuando la cadena tenga ocho imágenes, toca «Empezar una cadena nueva» para comenzar otra, o simplemente deja de jugar."
+    ],
+    "tips": [
+      "Las frases cortas están bien: «Alguien puso a hervir el agua.». La siguiente persona continúa, o pasa.",
+      "Dejen que las imágenes guíen. No hay una historia a la que deban llegar.",
+      "Paren cuando quieran. Detenerse a mitad de camino es una manera perfectamente buena de terminar."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay temporizador o puntuación?",
+        "a": "No. No hay reloj, puntuación, contador de movimientos ni derrota. Pueden parar en cualquier momento, y detenerse a mitad de camino es una manera perfectamente buena de terminar."
+      },
+      {
+        "q": "¿Se escribe o se graba algo?",
+        "a": "No. Las frases se dicen en voz alta y no se escriben, graban ni envían a ningún lado. El juego solo muestra las imágenes."
+      },
+      {
+        "q": "¿Qué pasa si alguien no quiere decir nada?",
+        "a": "Cualquiera puede pasar, y la siguiente persona continúa. Nadie tiene que nombrar ni recordar una imagen."
+      },
+      {
+        "q": "¿Es gratis? ¿Hace falta registrarse?",
+        "a": "Sí, es gratis, y no hace falta cuenta, registro ni descarga. Funciona en el navegador web de un teléfono, una tableta o una computadora."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Escena tranquila",
+    "seoTitle": "Escena tranquila: una imagen a la vez",
+    "h1": "Escena tranquila: una imagen fija a la vez",
+    "description": "Una imagen grande y fija a la vez, cada una con una frase suave debajo. Pulsa Siguiente o Anterior cuando estés listo. Nada se mueve ni se reproduce solo, y no hay temporizador ni puntuación. Se juega gratis, sin cuenta.",
+    "short": "Mira una imagen fija a la vez, a tu propio ritmo.",
+    "players": "Solo, o en grupo en la misma habitación",
+    "intro": "Una imagen grande ocupa la pantalla, con una frase corta debajo. Pulsa «Imagen siguiente» o «Imagen anterior» cuando quieras ver otra. Nada se mueve, se desvanece ni cambia por sí solo, y nada se cronometra. Toca «Imagen más grande» para mostrar solo la imagen, de modo que todos en la habitación la vean en un televisor.",
+    "howTo": [
+      "Miren juntos la imagen.",
+      "Lean en voz alta la frase de debajo, si quieren.",
+      "Pulsen «Imagen siguiente» o «Imagen anterior» cuando estén listos.",
+      "Toquen «Imagen más grande» para mostrar solo la imagen, y «Mostrar todo» para volver a ver el resto.",
+      "Paren cuando quieran con «Por ahora basta»."
+    ],
+    "tips": [
+      "Dejen que la persona elija cuándo pasar a la siguiente: esperen a que mire la imagen y luego pulsen Siguiente.",
+      "En grupo, usen «Imagen más grande» en un televisor o una pantalla grande, y siéntense donde todos puedan verla.",
+      "No hay una forma correcta de mirar una imagen. Simplemente hablar sobre ella es una actividad completa."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay temporizador o puntuación?",
+        "a": "No. No hay reloj, puntuación, contador de movimientos ni derrota. Pueden parar en cualquier momento, y detenerse a mitad de camino es una manera perfectamente buena de terminar."
+      },
+      {
+        "q": "¿Reproduce sonido o se mueve?",
+        "a": "No. No hay sonido, y nada se mueve, se desvanece ni cambia por sí solo. Una imagen cambia solo cuando pulsas un botón."
+      },
+      {
+        "q": "¿Papelpi qillqasqa rikuchiyqa kanchu?",
+        "a": "Mana. Kaymi huk rikuchiy, pantallapi kuska qhawanapaq. Qanpa munasqa photo utaq postal mesapi churasqanwanqa, chaymi hinallam ruwan."
+      },
+      {
+        "q": "¿Mana qullqiwanchu? ¿Qillqakuyta munanchu?",
+        "a": "Arí, mana qullqiwanmi, manataq cuenta, qillqakuy nitaq descargay kanchu. Internet pusaqpi llank'an, celular, tablet utaq computadorapi."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Colorkuna pintay",
+    "seoTitle": "Color Wash: Llumpay colorkuna huk p'anqapi",
+    "h1": "Color Wash: Llumpay colorkunata huk p'anqapi pintay",
+    "description": "Llumpay brocha huk p'anqapi anchas, k'anchaq colorkunata pintan, tawa colorwan iskay brocha tamañowan. Mana tukukuy kanchu, mana puntaje nitaq reloj kanchu. Mana qullqiwan, mana cuentawan ruwanki.",
+    "short": "Huk p'anqapi llumpay colorkunata pintay, qanpa kallpaykiwan.",
+    "players": "Sapallayki, utaq 2 runa chimpa-chimpa",
+    "intro": "Huk p'anqa, huk llumpay brocha. Huk colorta akllay, brochapa tamañunta akllay, hinaspa p'anqa tukuypi hayt'ay, colorwan huk pintasqa tukuyta churanaykipaq. Mana tukukuy p'anqachu: mana tukuna kanchu, mana rikuchiy allinta chayachinankupaq, mana puntajuchu. Imayna askha pintaytapas churayta atinki, icha brochata churaspa qhawallaytapas. “Mosoq p'anqa” nisqata ruwaspa tukuy imata chinkachin, “Kutichiy” nisqatataq ruwaspaqa pintasqakunata kutichin.",
+    "howTo": [
+      "Huk color akllay. Cada colorpa qillqasqa sutin kan.",
+      "Anchas utaq Aswan anchas nisqata akllay. Aswan anchas akllasqaqa, huk hayt'aypi aswan askha p'anqata hap'in.",
+      "Huk pintasqa tukuyta churanaykipaq p'anqa tukuypi dedoykiwan, mouse nisqawan utaq lapisniykiwan hayt'ay.",
+      "Icha flechakunata usaspa brocha ruedata apariy, hinaspa Space teclata usaspa brochata uraykachiy utaq hatarichiy.",
+      "“Mosoq p'anqa” nisqata t'ikray p'anqata chinkachinaypaq, “Kutichiy” nisqatataq pintasqakunata kutichinaypaq munaspaqa."
+    ],
+    "tips": [
+      "Huk runaq qhipa pintaypaq colorta akllananpaq dejay, colorkuna churasqanman hina rimaykuychis.",
+      "Aswan anchas akllasqaqa makiy ch'aqwaspapas aswan sasachu, brochaqa mana chiqaq kanchu.",
+      "Pintanapaq mana huk chiqaq ruway kanchu. Munasqaykiman hina tukuy, icha “Kunanqa tukusqa” nisqata t'ikray."
+    ],
+    "faq": [
+      {
+        "q": "¿Tukukuy, puntaje utaq reloj kanchu?",
+        "a": "No. The page has no end point. Nothing is finished, counted, timed or scored, and no message ever asks you to do more."
+      },
+      {
+        "q": "¿P'anqaqa waqaychasqachu utaq kachasqachu?",
+        "a": "Mana. Mana imapas waqaychasqa, imprimisqa nitaq maykamanpas kachasqa. Pintasqakunaqa kay p'anqapi qhepan, kikiykita lluqsiykukaptinkama."
+      },
+      {
+        "q": "¿Mouse utaq touch pantalla mana kaptinpas usayman?",
+        "a": "Arí. P'anqa qhawasqa kaptinqa, flechakuna brocha ruedata apan, Space teclan brochata uraykachin utaq hatarichin. Pantallaqa cada kutipi “Brocha uraman” utaq “Brocha hanaman” nispa willakun."
+      },
+      {
+        "q": "¿Papelpi qillqasqa rikuchiyqa kanchu?",
+        "a": "Mana. Papelpi acuarela chaymantam hinallaraq: qasqu brocha, huk color huk kutilla. Chayraqmi mesapi ruwanaykipaq huk ruway."
+      },
+      {
+        "q": "¿Ima colorkunam kanku?",
+        "a": "Qillu, naranja, q'omer, morado, chaymi wakin rikuchiy pukllaykunapipas kikin tawa colorkuna. Sapanka colorpa qillqasqa sutin kan, akllaspa sutinqa rikurin."
+      },
+      {
+        "q": "¿Mana qullqiwanchu, hinaspa qillqakuyta munanchu?",
+        "a": "Arí, mana qullqiwanmi, manataq cuenta, qillqakuy nitaq descargay kanchu. Internet pusaqpi llank'an, celular, tablet utaq computadorapi."
       }
     ]
   }

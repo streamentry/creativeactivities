@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "Үндсэн агуулга руу очих",
     "brandName": "Creative Activities",
@@ -6,16 +7,22 @@
     "homeLabel": "Creative Activities нүүр хуудас",
     "mainNav": "Үндсэн цэс",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: цайны аяга, наранцэцэг, нохойн том, нөхөрсөг зургууд",
+    "defaultImageAlt": "Creative Activities: большие, дружелюбные рисунки повседневных предметов, которые можно сделать и с которыми можно заняться",
     "languages": "Хэл",
     "englishOnly": "(Англи хэлээр)",
     "machineTranslated": "Энэ хуудсыг автоматаар орчуулсан бөгөөд эх хэлээрээ ярьдаг хүн хараахан шалгаагүй байна.",
     "readOriginal": "Эх хувийг англи хэлээр унших",
     "nav": {
+      "find": "Find an activity",
       "games": "Тоглоом",
       "activities": "Үйл ажиллагаа",
       "caregiving": "Асрамж",
-      "brainHealth": "Тархины эрүүл мэнд"
+      "brainHealth": "Тархины эрүүл мэнд",
+      "crafts": "Käsitöö",
+      "kids": "Хүүхдүүд",
+      "together": "Хамтдаа",
+      "creativeCalm": "Бүтээлч тайван байдал",
+      "search": "Хайх"
     },
     "faqTitle": "Асуулт хариулт",
     "breadcrumb": "Хуудасны зам",
@@ -26,7 +33,32 @@
       "label": "Текстийн хэмжээ",
       "smaller": "Энгийн текст",
       "larger": "Том текст",
-      "contrast": "Өндөр тодосгол"
+      "contrast": "Өндөр тодосгол",
+      "colors": "Өнгө",
+      "light": "Гэрэлтэй",
+      "dark": "Харанхуй",
+      "device": "Энэ төхөөрөмжтэй адил",
+      "lineLength": "Мөрийн урт",
+      "standardLines": "Стандарт",
+      "shorterLines": "Богино мөрүүд",
+      "spacing": "Зай",
+      "standardSpacing": "Стандарт",
+      "moreSpace": "Илүү их зай"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -40,7 +72,7 @@
     "ideas101": "101 үйл ажиллагааны санаа",
     "lateStage": "Хожуу шатны үйл ажиллагаа",
     "printable": "Хэвлэж болох үйл ажиллагаа",
-    "allActivities": "Бүх үйл ажиллагаа",
+    "allActivities": "Бүх үйл ажиллагааны заавар",
     "forCaregivers": "Асран хамгаалагчдад",
     "playTogether": "Хамт хэрхэн тоглох вэ",
     "selfCare": "Өөрийгөө асрах нь",
@@ -53,24 +85,34 @@
     "app": "Creative Activities апп",
     "appHelp": "Аппын тусламж",
     "support": "Тусламж",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Хууль эрх зүй",
     "sitePrivacy": "Вэбсайтын нууцлал",
     "appPrivacy": "Аппын нууцлалын бодлого",
     "privacyChoices": "Нууцлалын сонголт",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Нөхцөл ба аппын лиценз",
     "safety": "Аюулгүй байдал ба зориулалт",
     "accessibility": "Хүртээмж",
     "healthNotice": "Эрүүл мэндийн мэдээллийн мэдэгдэл",
     "allLegal": "Хууль эрх зүйн бүх мэдээлэл",
     "note": "Creative Activities нь таашаал авах энгийн хамтын үйл ажиллагаа санал болгодог. Энэ нь эмнэлгийн зөвлөгөө, шалгалт, эмчилгээ биш бөгөөд хэнийг ч оношлохгүй, хэмжихгүй, оноогоор дүгнэхгүй. Эрүүл мэндийн асуудлаар эмчтэйгээ ярилцаарай. Яаралтай тохиолдолд орон нутгийнхаа яаралтай тусламжийн дугаар луу залгана уу.",
-    "publisher": "Cloudjet Solutions Pte. Ltd. нийтэлсэн."
+    "publisher": "Cloudjet Solutions Pte. Ltd. нийтэлсэн.",
+    "crafts": "Бүх насны гар урлал",
+    "kids": "Хүүхдэд зориулсан үйл ажиллагаа",
+    "together": "Хамтдаа хийх үйл ажиллагаа",
+    "creativeCalm": "Бүтээлч тайван байдал",
+    "dementiaActivities": "Дементиатай хүмүүст зориулсан үйл ажиллагаа"
   },
   "home": {
-    "title": "Дементиа, Альцгеймерийн тоглоом ба үйл ажиллагаа | Creative Activities",
-    "description": "Дементиа эсвэл Альцгеймертэй хүн, түүний асран хамгаалагчдад зориулсан үнэгүй, тайван зургийн тоглоом, үйл ажиллагааны санаа. Бүртгэл, цаг хэмжигч, оноогүй.",
+    "title": "Хэн нэгнийг асарч буй хүмүүст зориулсан бүтээлч үйл ажиллагаа",
+    "description": "Хэн нэгнийг асарч буй хүн бүрт зориулсан үнэгүй бүтээлч үйл ажиллагаа: гар урлал, хүүхдэд зориулсан зүйлс, хамтдаа хийх үйл ажиллагаа, тайван бүтээлч санаанууд.",
     "eyebrow": "Үнэгүй · Зарлалгүй · Бүртгэлгүй · Цаг хэмжигч, оноогүй",
-    "h1": "Дементиатай хүнд зориулсан тайван тоглоом ба үйл ажиллагаа",
-    "lede": "Энгийн зургийн тоглоом, танил зургууд, хамт таашаах үйл ажиллагаа: өөрийн хурдаар.",
+    "h1": "Хамтдаа нэгэн зүйл бүтээе",
+    "lede": "Хүн, цаг мөч, танд байгаа зүйлд тохирох үйл ажиллагааг олоорой. Энгийн гар урлал, хүүхдийн урлаг, хамтдаа хийх зүйлс болон тайван бүтээлч санаанууд, хялбар хувилбарууд, хэвлэх картын хамт. Хүссэн үедээ зогсоож болно.",
     "playGame": "Тоглоом тоглох",
     "findIdeas": "Үйл ажиллагааны санаа олох",
     "facts": [
@@ -105,13 +147,13 @@
     "ideas101": "101 үйл ажиллагааны санаа",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Эхний шат",
         "text": "Дуртай зүйлээ жижиг тохируулгатайгаар үргэлжлүүлээрэй: хобби, зугаалга, үгийн тоглоом, хамт төлөвлөх.",
         "label": "Эхний шатны санаанууд"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Дунд шат",
         "text": "Алхамд хуваасан энгийн, танил ажлууд: нугалах, ангилах, хөгжим, зургийн тоглоом, богино алхалт.",
         "label": "Дунд шатны санаанууд"
@@ -123,10 +165,10 @@
         "label": "Хожуу шатны санаанууд"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "Тодорхой зүйл хайж байна уу? <a href=\"/dementia-activities/\">Альцгеймерт зориулсан үйл ажиллагаа болон тоглоомууд</a>, <a href=\"/together/puzzles-and-table-games/\">зурагт тоглоом, ширээний тоглоомууд</a>, <a href=\"/together/conversation-games-for-all-ages/\">яриан дээрх тоглоомууд</a> эсвэл <a href=\"/together/puzzles-and-table-games/\">зурагт тоглоомууд</a>-ыг үзээрэй.",
     "approachEyebrow": "Бидний хандлага",
-    "approachTitle": "Хамтын үйл ажиллагаа, санах ойн шалгалт биш",
-    "approachLede": "Олон “тархины тоглоом” хурд, оноо, дараалсан ялалт дээр тулгуурладаг. Дементиатай хүнд энэ нь шалгалт шиг санагдаж болно. Бид эсрэгийг нь бүтээсэн.",
+    "approachTitle": "Хамтдаа хийдэг үйл ажиллагаа, шалгалт биш",
+    "approachLede": "Олон “оюуны тоглоом” хурд, оноо, дараалсан амжилтын дээр тулгуурладаг. Ядарсан, эрүүл мэнд муутай эсвэл дементиатай хүнд энэ нь шалгалт мэт санагдаж болно. Бид эсрэгээрээ бүтээсэн.",
     "approachLink": "Бид яагаад ингэж зохиосон бэ",
     "principles": [
       {
@@ -165,14 +207,14 @@
         "text": "Татгалзах нийтлэг шалтгаанууд, дараа нь зөөлөн дахин оролдох арга."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Таблет тохируулах",
-        "text": "Том үсэг, цөөн таслалт, нэг энгийн нүүр дэлгэц."
+        "href": "/activities/group-art-activities/",
+        "title": "Бүлгийн урлагийн үйл ажиллагаа",
+        "text": "Хэд хэдэн хүний ширээний ард хийх хамтын төслүүд, хүн бүрт өөрийн даалгавартай."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Үнэгүй хэвлэж болох үйл ажиллагаа",
-        "text": "Том үсгээр үгийн хайлт, будах хуудас, бинго, ярианы картууд."
+        "href": "/activities/ideas/",
+        "title": "101 үйл ажиллагааны санаа",
+        "text": "Энгийн санаанууд, танд байгаа зүйл болон хүчний байдлаар ангилсан."
       }
     ],
     "researchTitle": "Тархины эрүүл мэнд: судалгаа үнэндээ юу хэлдэг вэ",
@@ -184,16 +226,16 @@
     "aboutApp": "Аппын тухай",
     "faq": [
       {
-        "q": "Дементиатай хүнд ямар тоглоом тохиромжтой вэ?",
-        "a": "Сайн тоглоом нь энгийн, танил, дарамтгүй байдаг: хослуулах том зургууд, ангилах, хялбар оньс, танил зүйр цэцэн үг гүйцээх, будах, зургийн бинго, ярианы картууд. Хамгийн сайн сонголт бол тухайн хүн өнөөдөр таашаадаг нь. Цаг хэмжигч, оноо болон шалгалт шиг санагдах зүйлээс зайлсхийгээрэй."
+        "q": "Насанд хүрэгчдэд зориулсан сайн тоглоомууд ямар вэ?",
+        "a": "Сайн тоглоомууд нь энгийн, танил, дарамтгүй байдаг: том зургуудыг таарууулах, ангилах, хялбар зурагт хэсэгчлэн нийлүүлэх, алдартай үгийн хэллэгийг дуусгах, будах, зурагт бингó болон яриан картууд. Тэд дементиатай хүмүүс гэхдээ олон насанд хүрэгчдэд тохиромжтой. Хамгийн сайн сонголт бол тухайн хүн өнөөдөр таалагдаж буй зүйл. Цаг хэмжигч, оноо, шалгалт мэт санагдах зүйлсээс зайлсхийгээрэй."
       },
       {
-        "q": "Эдгээр дементиагийн тоглоом үнэгүй юу?",
+        "q": "Эдгээр тоглоомууд үнэгүй юу?",
         "a": "Тийм. Creative Activities дээрх тоглоом, хэвлэх зүйл бүр үнэгүй бөгөөд бүртгэл, нэвтрэх, татаж авах шаардлагагүй. Тоглоомууд утас, таблет, компьютерийн вэб хөтөч дээр ажиллана."
       },
       {
         "q": "Тархины тоглоом дементиагаас урьдчилан сэргийлдэг үү?",
-        "a": "Ямар ч тоглоом дементиагаас урьдчилан сэргийлдэг нь батлагдаагүй бөгөөд Creative Activities юуг ч эмчилнэ, урьдчилан сэргийлнэ гэж мэдэгддэггүй. Манай тоглоомууд таашаал, хамт өнгөрүүлэх цагт зориулагдсан. Тархины эрүүл мэндийн хэсэгт судалгаа юу харуулдаг, юу харуулдаггүйг тайлбарласан."
+        "a": "Дементиаг урьдчилан сэргийлдэг гэж нотлогдсон тоглоом байхгүй бөгөөд Creative Activities ямар ч зүйлийг эмчилнэ эсвэл урьдчилан сэргийлнэ гэж мэдэгддэггүй. Бидний тоглоомууд зугаа цэнгэлд болон хамтдаа цагаа өнгөрөөхөд зориулагдсан бөгөөд ямар ч үйл ажиллагааны хуудсанд эрүүл мэндийн баталгаа байдаггүй."
       },
       {
         "q": "Эдгээр тоглоом Альцгеймертэй хүнд тохиромжтой юу?",
@@ -209,7 +251,36 @@
       },
       {
         "q": "Creative Activities-ийг хэн бүтээдэг вэ?",
-        "a": "Creative Activities бол гэр бүл, асран хамгаалагчдад зориулж вэб болон үнэгүй апп хэлбэрээр тайван, насанд хүрэгчдэд тохирсон зургийн үйл ажиллагаа бүтээдэг жижиг баг юм. Бид эмнэлгийн мэргэжилтэн биш бөгөөд энд байгаа зүйл эмнэлгийн зөвлөгөө биш."
+        "a": "Creative Activities бол вэб болон үнэгүй апп хэлбэрээр хэн нэгнийг асарч буй хүмүүст зориулсан тайван, насанд хүрэгчдэд зориулсан бүтээлч үйл ажиллагаа бүтээдэг жижиг баг юм. Бид эмч нар биш бөгөөд энд байгаа зүйлс эмнэлгийн зөвлөгөө биш."
+      }
+    ],
+    "groupsEyebrow": "Өөрт тохирохоо олоорой",
+    "groupsTitle": "Бүтээлч үйл ажиллагааны дөрвөн төрөл",
+    "groupsLede": "Хэнтэй хамт байгаа байдал болон танд байгаа зүйлд тохирох бүлгээс эхлээрэй. Хуудас бүр хялбар хувилбар болон аюулгүй байдлын зөвлөмжтэй.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Гар урлал",
+        "text": "Цаас, будаг, дахин ашигласан болон улирлын төслүүд, бүрт хялбар хувилбартай.",
+        "label": "Гар урлалыг үзэх"
+      },
+      {
+        "href": "/kids/",
+        "title": "Хүүхдүүд",
+        "text": "Хүүхдэд зориулсан урлаг, тоглоом, ойрхон байгаа насанд хүрсэн хүний хамт, тодорхой аюулгүй байдлын зөвлөмжтэй.",
+        "label": "Хүүхдийн үйл ажиллагааг үзэх"
+      },
+      {
+        "href": "/together/",
+        "title": "Хамтдаа",
+        "text": "Яриа, зурагт тоглоом, гадаа цагаа өнгөрөөх болон үе дамжсан ойр дотно байх арга замууд.",
+        "label": "Хамтдаа хийх зүйлсийг үзэх"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Бүтээлч тайван байдал",
+        "text": "Харандаа, цаас эсвэл дуутай хамт удаан, тайван бүтээлч мөчүүд. Эмчилгээ биш.",
+        "label": "Бүтээлч тайван байдлыг үзэх"
       }
     ]
   },
@@ -228,6 +299,21 @@
     "printable": "Хэвлэх боломжтой",
     "play": "{name} тоглох →",
     "readGuide": "Гарын авлагыг унших"
+  },
+  "listen": {
+    "listenSteps": "Алхмуудыг сонсох",
+    "pause": "Түр зогсоох",
+    "resume": "Үргэлжлүүлэх",
+    "stop": "Зогсоох",
+    "speed": "Хурд",
+    "normal": "Энгийн",
+    "slower": "Удаан",
+    "reading": "Алхмуудыг дуугаар уншиж байна.",
+    "paused": "Түр зогслоо. Үргэлжлүүлэхийн тулд Үргэлжлүүлэх товчийг дарна уу.",
+    "note": "Таны төхөөрөмжийн өөрийн дуу хоолойг ашигладаг. Зарим төхөөрөмж текстийг уншихаар үйлдвэрлэгчдэд илгээдэг.",
+    "listen": "Сонсох",
+    "stepLabel": "{n}-р алхмыг сонсох",
+    "stopStep": "{n}-р алхмыг зогсоох"
   },
   "playCta": {
     "title": "Тайван тоглоом тоглоход бэлэн үү?",
@@ -248,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Үйл ажиллагаа",
-      "title": "Дементиатай хүнд зориулсан үйл ажиллагаа",
-      "seo": "Дементиатай хүнд зориулсан үйл ажиллагаа: шатаар нь санаанууд",
-      "description": "Дементиатай хүнд шат бүрт зориулсан үйл ажиллагааны санаа: хөгжим, дурсамж, өдөр тутмын ажил, мэдрэхүйн мөч, гар урлал, гадаа, үнэгүй хэвлэх зүйлс.",
-      "lede": "Утга учиртай үйл ажиллагаа гэдэг нь тав тух, зорилго эсвэл холбоо мэдрэх нэг мөчийг авчирдаг бүх зүйл юм."
+      "label": "Үйл ажиллагааны заавар",
+      "title": "Үйл ажиллагааны заавар",
+      "seo": "Үйл ажиллагааны заавар: санаа, урлагийн хэрэгсэл, эхлүүлэх арга замууд",
+      "description": "Хэн нэгэнтэй хамт хийж болох бүтээлч үйл ажиллагааны энгийн заавар: энгийн санаанууд, хямд урлагийн хэрэгслүүд, бүлгийн урлаг, үсгүүд, дурсамжууд болон урлагийн эмчилгээний тайлбар.",
+      "lede": "Хүнтэй хамт үйл ажиллагаа сонгож эхлүүлэхэд зориулсан товч, практик заавар, нас болон чадамжаас үл хамаарна."
+    },
+    "crafts": {
+      "label": "Гар урлал",
+      "title": "Бүх насны гар урлал",
+      "seo": "Бүх насны хялбар гар урлал, хялбар хувилбартай",
+      "description": "Насанд хүрэгчид, хүүхдүүд болон гэр бүлд зориулсан хялбар гар урлал: цаас, будалт, дахин ашигласан болон улирлын гар урлал, барихад хялбар болон суун хийх хувилбартай, тусгай ур чадвар шаардахгүй.",
+      "lede": "Ихэнх гэрт байдаг зүйлсээс эхэлсэн гар урлал, бүрт хялбар хувилбартай тул хэн ч нэгэн зүйл бүтээж чадна."
+    },
+    "kids": {
+      "label": "Хүүхдүүд",
+      "title": "Хүүхдэд зориулсан бүтээлч үйл ажиллагаа",
+      "seo": "Хүүхдэд зориулсан бүтээлч үйл ажиллагаа: урлаг, мэдрэхүй, тайван байдал",
+      "description": "Хүүхдэд зориулсан бүтээлч үйл ажиллагаа: бага насны урлаг, процессын урлаг, мэдрэхүйн тоглоом, бороотой өдрийн гар урлал болон тайвширахад зориулсан санаанууд, аюулгүй байдлын зөвлөмж болон мэдрэхүйн хэрэгцээнд зориулсан хувилбартай.",
+      "lede": "Өөр өөр нас, хэрэгцээтэй хүүхдэд зориулсан урлаг, тоглоомын санаанууд, тодорхой аюулгүй байдлын зөвлөмж болон ойрхон байгаа насанд хүрсэн хүнтэй."
+    },
+    "together": {
+      "label": "Хамтдаа",
+      "title": "Хамтдаа хийх үйл ажиллагаа",
+      "seo": "Үе дамжсан, хамтдаа хийх үйл ажиллагаа",
+      "description": "Хоёр ба түүнээс дээш үеийнхэнд зориулсан үйл ажиллагаа: яриан дээрх тоглоом, зурагт тоглоом, гадаа цагаа өнгөрөөх, өвөө эмээ болон ууган хүүхдүүдэд зориулсан гар урлал, алсаас ойр байх арга замууд.",
+      "lede": "Эцэг эх, өвөө эмээ, хүүхэд эсвэл найзтайгаа гэртээ, гадаа, айлчлалын үед эсвэл алсаас цагаа хуваалцах санаанууд."
+    },
+    "creative-calm": {
+      "label": "Бүтээлч тайван байдал",
+      "title": "Бүтээлч тайван байдал",
+      "seo": "Бүтээлч тайван байдал: тайвшруулах урлаг болон үйл ажиллагаа",
+      "description": "Насанд хүрэгчид болон асран халамжлагчдад зориулсан тайвшруулах бүтээлч үйл ажиллагаа: анхааралтай урлаг, сэтгэлийн тэмдэглэл, хөгжим, мэдрэхүйн мөчүүд болон тайван үдэш. Бүтээлч үйл ажиллагаа, эмчилгээ биш.",
+      "lede": "Харандаа, цаас эсвэл дуутай хамт удаашруулах зөөлөн арга замууд. Эдгээр нь бүтээлч үйл ажиллагаа бөгөөд эмчилгээ биш, ямар ч ур чадвар шаарддаггүй."
     },
     "caregiving": {
-      "label": "Асрамж",
-      "title": "Асрамжийн гарын авлага",
-      "seo": "Дементиагийн асрамжийн гарын авлага: өдөр тутмын практик тусламж",
-      "description": "Дементиатай хүний асран хамгаалагчдад зориулсан практик гарын авлага: хамт тоглох, харилцаа, татгалзал, таблет, өөрийгөө асрах.",
-      "lede": "Дементиатай хүнийг асрах өдөр тутмын мөчүүдэд зориулсан энгийн, практик тусламж, түүний дотор өөрийгөө асрах нь."
+      "label": "Уйлангийн асрамж",
+      "title": "Дементиатай хүнийг асрах нь",
+      "seo": "Дементиатай хүнийг асрах нь: үйл ажиллагаа ба тусламж",
+      "description": "Дементиатай хүнийг асарч буй гэр бүлд зориулсан зөвлөмж: хамтдаа хэрхэн тоглох, тэд татгалзвал юу хийх, оношлогдсоны дараа найдвартай тусламжийг хаанаас олох талаар.",
+      "lede": "Дементиатай амьдарч буй хүнийг асарч буй гэр бүлд үйл ажиллагаанд төвлөрсөн тусламж, мөн эмнэлгийн болон асрамжийн зөвлөгөө авах газрын талаарх мэдээлэл."
     },
     "brain-health": {
       "label": "Тархины эрүүл мэнд",
@@ -282,7 +396,16 @@
     "tryTogether": "Хамт туршаарай",
     "relatedGuides": "Холбоотой гарын авлага",
     "related": "Холбоотой",
-    "startHere": "Эндээс эхлэх"
+    "startHere": "Эндээс эхлэх",
+    "staleAria": "Орчуулга хуучирсан",
+    "staleTitle": "Энэ орчуулга хуучирсан байна",
+    "staleText": "Энэ орчуулга англи хуудасны өмнөх хувилбараас хийгдсэн бөгөөд тэр хуудас сүүлд өөрчлөгдсөн. Идэвхтэй хувилбар нь англи хуудас мөн.",
+    "staleHealth": "Энд эрүүл мэндийн мэдээлэл байгаа тул англи хуудсыг шалгаж, үйлдэл хийхээсээ өмнө эмч эсвэл сувилагчаас асуугаарай.",
+    "staleLink": "Одоогийн англи хуудсыг уншина уу"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Эрүүл мэндийн мэдээллийн мэдэгдэл",
@@ -291,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Хамтын үйл ажиллагаа, санах ойн шалгалт биш",
+      "title": "Хамтдаа хийх үйл ажиллагаа, шалгалт биш",
       "seoTitle": "Creative Activities-ийн тухай: бидний хандлага",
-      "description": "Creative Activities-ийн тоглоомд яагаад цаг хэмжигч, оноо байхгүй, зургууд яагаад харагдсан хэвээр байдаг, бид дементиагийн тухай юуг мэдэгддэггүй вэ.",
+      "description": "Creative Activities яагаад цаг хэмжигч, оноо, дараалсан амжилтгүй байдаг вэ, зургууд яагаад үргэлж харагдаж байдаг вэ, эрүүл мэндийн талаар юу хэлж, юу хэлэхгүй гэдгийг тайлбарлана.",
       "crumb": "Бидний хандлага",
-      "lede": "Creative Activities нь асран хамгаалагч болон дементиатай хүн зэрэгцэн суугаад таашаах боломжтой тайван, насанд хүрэгчдэд тохирсон зургийн үйл ажиллагаа бүтээдэг.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Спонсорууд ба хамтрагчид",
+        "none": "Creative Activities-д спонсор, төлбөртэй байрлал, сайт дээр лого нь гардаг хамтрагч байхгүй.",
+        "listed": "Эдгээр нь Creative Activities-ийн спонсорууд болон хамтрагчид юм. Харилцаа бүрийг тухайн хуудсан дээрээ мөн зарласан байна.",
+        "policy": "Хэрэв энэ өөрчлөгдвөл тийм хуудас бүр харагдах газартаа үүнийг заана, ямар ч үйл ажиллагаанд спонсор байрлуулахгүй, хамтрагчдын жагсаалт энэ хуудсанд байна.",
+        "listHeading": "Хамтрагчдын жагсаалт",
+        "noPartners": "Одоогоор хамтрагч байхгүй байна."
+      },
+      "lede": "Creative Activities нь хоёр хүн хамтдаа тайван, насанд хүрсэн хүмүүст тохирсон үйл ажиллагаа хийхэд зориулагдсан. Нэг нь нөгөөгөө асарч буй эсвэл зүгээр л хамтдаа цагийг өнгөрөөхийг хүсч буй ч хамаагүй.",
+      "bodyHtml": "<h2>Хэнд зориулсан бэ</h2><p>Хэн нэгнийг асарч буй хэн бүхэнд: эцэг эх, өвөө, эмээ, хүүхэд, хань, найз, эсвэл дементиатай амьдарч буй хүнд. Гэр бүл, ахмад настнууд болон үйл ажиллагааны ажилтнууд бүгд ижил хуудсуудыг ашиглаж болно.</p><h2>Бидний итгэл үнэмшил</h2><p>Үйл ажиллагааны гол утга нь тэр мөч өөрөө юм: яриа, инээмсэглэл, хоёр зургийг нийлүүлэх сэтгэл ханамж, эсвэл зүгээр л ойрхон суух. Хэн нэгнийг үнэлэх, түлхэх, юмаа баталгаажуулах зорилгогүй.</p><p>Тархины дасгалын олон апп хурд, оноо, дараалал, түвшинд тулгуурласан байдаг. Ядарсан, эрүүл мэнд муудсан эсвэл дементиатай хүний хувьд энэ нь тэнцэх боломжгүй шалгалт мэт санагдаж болно. Бид эсрэгээр бүтээж, эдгээр дүрмийг баримталдаг:</p><ul><li><strong>Бүтэлгүйтэх зүйлгүй.</strong> Ямар ч дэлгэц дээр цаг, оноо, нүүдлийн тоо, амь, дараалал, баяр дүүргэлт, урвуу тоолол байхгүй.</li><li><strong>Дурсан санахаас илүү таних.</strong> Зургууд үндсэндээ харагдсаар байна. Сануулга нь яриаг урьж, нэр эсвэл дурсамжийг шалгадаггүй.</li><li><strong>Том, энгийн, тогтвортой.</strong> Том текст, зураг, өндөр тодосгол, удирдлага нь үргэлж ижил байрлалд байна.</li><li><strong>Насанд хүрсэн хүний нэр төр.</strong> Бодит зураг, энгийн, дулаан үг. Хүүхэлдэй зураг, дуулсан шагнал, эможи шагнал байхгүй.</li><li><strong>Амархан гарах боломж.</strong> “Одоохондоо дууслаа” гэсэн сонголт үргэлж харагдана. Дунд нь зогсоох нь сайн үр дүн.</li><li><strong>Үндсэндээ хувийн.</strong> Данс эсвэл зар сурталчилгаа байхгүй. Таны сонгосон зураг таны төхөөрөмж дээр үлдэнэ.</li></ul><h2>Бидний хэлдэггүй зүйл</h2><p>Манай тоглоом, үйл ажиллагаа нь таашаал авах, холбоо тогтоох зорилготой. Эдгээр нь дементи эсвэл Альцгеймерийн өвчнийг оношлохгүй, шалгахгүй, хэмжихгүй, эмчлэхгүй, удаашруулахгүй, урьдчилан сэргийлэхгүй бөгөөд хэн ч ийм зорилгоор сонгох ёсгүй. Эрүүл мэндийн судалгааны тухай бичихдээ нотолгоо сул газрыг нь тодорхой хэлж, үүнийг өөрсдийн үйл ажиллагаатай хэзээ ч холбохгүй.</p><h2>Бид хэн бэ</h2><p>Creative Activities бол жижиг, бие даасан баг. Бид эмч нар биш. Манай зөвлөмжүүд нь National Institute on Aging, Alzheimer’s Association зэрэг байгууллагуудын нийтлэсэн зааврыг үндэслэсэн бөгөөд зөвлөмж бүр эх сурвалжаа жагсаадаг. <a href=\"/editorial-policy/\">Бид хуудсуудаа хэрхэн бичиж, шалгадгийг</a> уншина уу.</p><h2>Юу тусалснаа бидэнд хэлээрэй</h2><p>Танд юу тохирч, юу тохирохгүй байгааг, ялангуяа дементиатай амьдарч буй хүмүүс, гэр бүлийн асран хамгаалагчид болон үйл ажиллагааны ажилтнуудаас сонсоход таатай байх болно. Имэйл: <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Бид хуудсуудаа хэрхэн бичиж, шалгадаг вэ",
       "seoTitle": "Редакцийн бодлого",
-      "description": "Creative Activities дементиагийн үйл ажиллагаа, тархины эрүүл мэндийн хуудсуудаа хэрхэн судалж, бичиж, эх сурвалжлаж, шинэчилдэг тухай.",
+      "description": "Creative Activities нь үйл ажиллагаа болон эрүүл мэндийн хуудсуудаа хэрхэн судалж, бичиж, эх сурвалжлаж, шинэчилдэг талаар, ямар зүйлийг хэзээ ч нийтлэхгүй байхыг тайлбарлана.",
       "crumb": "Редакцийн бодлого",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Асуулт хариулт",
-      "seoTitle": "Дементиагийн тоглоом ба үйл ажиллагаа: асуулт хариулт",
-      "description": "Дементиагийн тоглоом, үйл ажиллагааны нийтлэг асуултын хариулт: ямар тоглоом туршиж үзэх, хэр удаан тоглох, хожуу шатны санаа, тархины эрүүл мэнд, нууцлал.",
+      "seoTitle": "Creative Activities-ийн тухай асуулт, хариулт",
+      "description": "Тоглоом, үйл ажиллагааны талаарх түгээмэл асуултын хариулт: аль нь туршиж үзэх вэ, хэр удаан тоглох вэ, бүлэг болон хожмын үе шатны санаанууд, эрүүл мэнд ба нууцлал.",
       "crumb": "Асуулт хариулт",
       "lede": "Асран хамгаалагчдын хамгийн их асуудаг асуултад өгсөн богино, энгийн хариултууд.",
       "groups": [
@@ -317,7 +448,7 @@
           "title": "Тоглоомын тухай",
           "items": [
             {
-              "q": "Дементиатай хүнд ямар тоглоом хамгийн тохиромжтой вэ?",
+              "q": "Ахмад настнуудад хамгийн сайн тоглоом аль вэ?",
               "a": "Хамгийн сайн тоглоом нь танил, энгийн, дарамтгүй бөгөөд тохирох нь тухайн хүн өнөөдөр таашаадаг зүйл юм. Зургууд харагдсан хэвээр байдаг хослуулах тоглоом, ангилах, хялбар оньс, танил үг гүйцээх, будах, зургийн бинго зэрэг нь олон хүнд тохирдог. Цаг хэмжигч, оноо болон шалгалт шиг санагдах зүйлээс зайлсхийгээрэй."
             },
             {
@@ -362,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Тархины эрүүл мэнд",
+          "title": "Дементи ба эрүүл мэнд",
           "items": [
             {
               "q": "Тоглоом дементиагаас урьдчилан сэргийлж эсвэл удаашруулж чадах уу?",
@@ -393,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Дэлгэрэнгүй: <a href=\"/caregiving/how-to-play-together/\">хамтдаа хэрхэн тоглох</a>, <a href=\"/caregiving/when-they-say-no/\">тэд татгалзвал</a>, <a href=\"/activities/late-stage/\">хожмын үе шатны үйл ажиллагаа</a> ба <a href=\"/dementia-activities/\">гэрт хийх дементийн үйл ажиллагаа</a>."
     },
     "handout": {
       "title": "Дементиатай хүмүүст зориулсан үнэгүй, тайван тоглоом",
@@ -407,21 +538,21 @@
     },
     "organizations": {
       "title": "Асрамжийн газар, номын сан, дэмжих бүлгүүдэд",
-      "seoTitle": "Асрамжийн газар, бүлгүүдэд зориулсан дементиагийн үнэгүй үйл ажиллагаа",
-      "description": "Асрамжийн газар, номын сан, дэмжих бүлгүүд манай үнэгүй дементиагийн тоглоомыг хэрхэн ашигладаг, мөн нөөцийн жагсаалтад нэмэх текст.",
+      "seoTitle": "Асрамжийн газар, номын сан, бүлгүүдэд зориулсан үнэгүй үйл ажиллагаа",
+      "description": "Асрамжийн газрууд, өдрийн үйлчилгээ, номын сан, ахмадын байгууллага, дэмжлэгийн бүлгүүд манай үнэгүй тоглоом, үйл ажиллагааны зааврыг хэрхэн ашигладаг тухай, мөн нөөцийн жагсаалтад нэмэх текст.",
       "crumb": "Байгууллагуудад",
       "lede": "Энэ сайт дээрх бүх зүйлийг оршин суугчид, гишүүд, үйлчлүүлэгчидтэйгээ үнэгүй ашиглаж болох бөгөөд бүртгэл, лиценз, төлбөр шаардлагагүй.",
-      "shortText": "{name}: дементиатай хүмүүс болон тэдний асран хамгаалагчдад зориулсан үнэгүй, тайван зургийн тоглоом, үйл ажиллагааны гарын авлага. Бүртгэл, цаг хэмжигч, оноогүй.",
-      "longText": "{name} ({domain}) нь дементиатай хүмүүст зориулсан {count} үнэгүй хөтчийн тоглоом санал болгодог: зургууд харагдсан хэвээр байдаг хос хослуулах, хялбар оньс, ангилах, танил зүйр цэцэн үг, хэвлэх картуудтай зургийн бинго. Бүртгэл, зарлал, цаг хэмжигч, оноо байхгүй. Сайт нь мөн дементиагийн шат бүрт зориулсан, Үндэсний хөгшрөлтийн хүрээлэн болон Альцгеймерийн холбоог иш татсан энгийн хэлээр бичсэн үйл ажиллагааны гарын авлагатай.",
+      "shortText": "{name}: ахмад настан, гэр бүл болон дементиатай амьдарч буй хүмүүст зориулсан үнэгүй, тайван зургийн тоглоом ба үйл ажиллагааны заавар. Бүртгэл, цаг, оноо байхгүй.",
+      "longText": "{name} ({domain}) нь ахмад настан, гэр бүл болон ой тогтоолтын эмгэгтэй амьдарч буй хүмүүст зориулсан {count} үнэгүй вэб тоглоом санал болгодог. Үүнд зургийн хосыг олох (зургууд нүүрээ дээш харсан хэвээр), хялбар пазл, ангилах, танил үг хэллэг, зургийн бинго орно; бинго картыг хэвлэж болно. Бүртгэл, сурталчилгаа, цаг хэмжигч, оноо байхгүй. Сайт дээр гэр бүлд, ахмад настанд болон ажилтнуудад зориулсан энгийн хэлээр бичсэн үйл ажиллагааны гарын авлага байдаг бөгөөд National Institute on Aging, Alzheimer's Association зэрэг эх сурвалжтай.",
       "useTitle": "Байгууллагууд юуг ашиглаж болох вэ",
       "gamesItemHtml": "<strong>{count} хөтчийн тоглоом</strong> нь зөөврийн компьютер, таблет эсвэл компьютерт холбосон ТВ дээр ажиллана. Суулгах, бүртгэл, татах шаардлагагүй. <a href=\"/games/\">Бүх тоглоомыг</a> үзээрэй.",
       "printablesLabel": "{count} хэвлэх зүйл:",
       "printablesAfter": "Хуудас бүр дээрх Хэвлэх товчийг ашиглана уу.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Бүлгийн хэлбэрүүд:</strong> <a href=\"/games/picture-bingo/\">Зургийн бинго</a> нь хэвлэх картуудтай, дэлгэц дээр дуудагчтай; <a href=\"/together/conversation-games-for-all-ages/\">яриан тоглоомууд</a> нь хариултын сонголттой асуултууд болон ярианы сэдвүүдтэй.</li><li><strong>Үйл ажиллагааны гарын авлага</strong> ажилтнууд болон гэр бүлд зориулсан, эх сурвалжтай, энгийн хэлээр бичигдсэн. Эхлэхдээ <a href=\"/activities/ideas/\">101 үйл ажиллагааны санаа</a> эсвэл <a href=\"/crafts/craft-group-sessions/\">асрамжийн газрын бүлгийн үйл ажиллагаа</a>-г үзнэ үү.</li>",
       "restHtml": "<h2>Бүлгүүд хэрхэн ашигладаг вэ</h2><ul><li><strong>Асрамжийн газар ба санах ойн асрамж:</strong> нийтийн өрөөний ТВ дээр зургийн бинго эсвэл үг гүйцээх, бүлгийн өмнөөс нэг хүн товшино.</li><li><strong>Өдрийн хөтөлбөр:</strong> богино ганцаарчилсан хичээлд зориулж “Зургийн хос”-ыг дөрвөн хавтанд тохируулсан таблет цэг.</li><li><strong>Нийтийн номын сан:</strong> санах ойн хайрцагт хэвлэсэн үгийн хайлт, ярианы картууд, номын сангийн таблетад хавчуургалсан сайт.</li><li><strong>Асран хамгаалагчдын дэмжих бүлэг ба санах ойн кафе:</strong> гэр бүлд гэртээ авч явах <a href=\"/handout/\">нэг хуудас хэвлэх материал</a>.</li><li><strong>Эмнэлэг ба эмнэлгээс гаргалтын төлөвлөгчид:</strong> асран хамгаалагчийн багцад орсон материал, гэртээ эсвэл орны дэргэд хийх тайван зүйл.</li></ul><h2>Бид юуг хийдэггүй вэ</h2><p>Тоглоомууд таашаал, хамт өнгөрүүлэх цагт зориулагдсан. Тэд дементиаг оношлохгүй, шалгахгүй, оноогоор дүгнэхгүй, эмчлэхгүй, удаашруулахгүй бөгөөд байгууллагуудаас ингэж тайлбарлахгүй байхыг хүсье. Зарлал байхгүй бөгөөд тоглоомууд нэр, эрүүл мэндийн мэдээлэл, зураг байршуулахыг хүсдэггүй. Вэбсайт зочилсон тоог тоолоход Google Analytics ашигладаг; <a href=\"/privacy/\">нууцлалын мэдэгдэл</a> нь юу цуглуулдгийг тайлбарласан. <a href=\"/games/photo-pairs/\">Гэрэл зургийн хос</a> тоглоомд ашигласан зургууд хөтөч дээр үлдэнэ.</p><h2>Бидний нэрийг нөөцийн жагсаалтдаа нэмээрэй</h2><p>Хэрэв та асран хамгаалагчдад зориулсан нөөцийн жагсаалт хөтөлдөг бол <a href=\"/\">{domain}</a> руу холбоос тавьж болно. Дараах тайлбаруудын аль нэгийг хуулж авч болно.</p>",
       "shortTitle": "Товч тайлбар",
       "longTitle": "Дэлгэрэнгүй тайлбар",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Шууд холбоход тустай хуудсууд: <a href=\"/games/\">үнэгүй тоглоомууд</a>, <a href=\"/games/\">үнэгүй хэвлэх материалууд</a>, <a href=\"/dementia-activities/\">гэрт хийх ой тогтоолтын эмгэгтэй хүмүүст зориулсан үйл ажиллагаа</a> ба <a href=\"/caregiving/how-to-play-together/\">хамтдаа хэрхэн тоглох вэ</a>.</p><h2>Асуулт эсвэл засвар</h2><p>Сайт дээрх зүйл буруу эсвэл ойлгомжгүй байвал, эсвэл асрамжид байгаа хүмүүсийн хэрэгцээг энд байгаа зүйлс хангахгүй байвал <a href=\"mailto:{email}\">{email}</a> хаягаар бидэнд мэдэгднэ үү. Асрамжид байгаа хүмүүсийн хувийн эсвэл эрүүл мэндийн мэдээлэл бүү илгээнэ үү.</p>"
     },
     "app": {
       "title": "Creative Activities апп",
@@ -436,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Дементиа, Альцгеймерийн үнэгүй тоглоом онлайнаар",
-    "description": "Дементиа эсвэл Альцгеймертэй ахмадад зориулсан үнэгүй онлайн тоглоом: зураг хослуулах, оньс, ангилах, бинго. Бүртгэл, цаг хэмжигч, оноогүй.",
+    "title": "Онлайнаар хамтдаа тоглох үнэгүй тоглоомууд",
+    "description": "Ахмад настан, гэр бүл болон ой тогтоолтын эмгэгтэй амьдарч буй хүмүүст зориулсан онлайн үнэгүй тоглоомууд: зургийг тааруулах, хялбар пазл, ангилах, танил үг хэллэг, будах, бинго. Бүртгүүлэх, цаг хэмжигч, оноо шаардахгүй.",
     "crumb": "Тоглоом",
-    "h1": "Дементиатай хүнд зориулсан тайван тоглоом",
+    "h1": "Хамтдаа тоглоход тустай эелдэг тоглоомууд",
     "lede": "Хөтөч дээрээ хамт тоглох {count} үнэгүй тоглоом. Том зургууд, энгийн үг, бүтэлгүйтэх зүйлгүй: цаг хэмжигч, оноо, бүртгэлгүй.",
-    "listName": "Дементиатай хүнд зориулсан тайван тоглоом",
+    "listName": "Хамтдаа тоглох эелдэг тоглоомууд",
     "byStageTitle": "Шатаар нь тоглоом сонгох",
     "byStageLede": "Шатууд нь зөвхөн ойролцоо чиглүүлэг. Тухайн хүн юу таашааж, өнөөдөр юу тохиромжтой санагдаж буйг дагаарай.",
     "stageCol": "Шат",
     "gamesCol": "Ихэвчлэн тохирдог тоглоомууд",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Дэлгэцээс гадуур хийх санаанууд: <a href=\"/activities/ideas/\">101 үйл ажиллагааны санаа</a>, <a href=\"/dementia-activities/\">гэрт хийх ой тогтоолтын эмгэгтэй хүмүүст зориулсан үйл ажиллагаа</a> ба <a href=\"/crafts/\">гар урлал</a>.",
     "faq": [
       {
         "q": "Аль тоглоомоос эхлэх вэ?",
@@ -462,7 +593,7 @@
       },
       {
         "q": "Эдгээр нь ахмадуудад зориулсан санах ойн тоглоом уу?",
-        "a": "Эдгээр нь аливаа ахмад настан таашаах боломжтой хослуулах, зургийн тоглоом боловч санах ойг шалгахгүйгээр бүтээгдсэн: “Зургийн хос”-д та өөрөөр сонгохгүй бол зургууд нээлттэй хэвээр байна. Дементиатай ахмадуудад зориулсан санах ойн тоглоомын гарын авлага нь аливаа санах ойн тоглоомыг хэрхэн тайван байлгахыг тайлбарласан."
+        "a": "Эдгээр нь насанд хүрсэн хэн бүхэн сэтгэл хангалуунаар тоглож болох зургийн болон тааруулах тоглоомууд боловч ой санамжийг шалгахаар зохиогдоогүй: Зургийн хосууд тоглоомд сонгохгүй бол зургууд нүүрээ дээш харсан хэвээр байна. Ямар ч ой санамжийн тоглоомыг цаг хэмжигч, оноог хасвал илүү эелдэг болгож болно."
       },
       {
         "q": "Асрамжийн газрын бүлэгт зориулсан тоглоом бий юу?",
@@ -483,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Дементиатай хүнд зориулсан үйл ажиллагааны апп бий юу?",
+        "q": "Ахмад настан болон гэр бүлд зориулсан апп байдаг уу?",
         "a": "Бий. Creative Activities (“{storeName}” нэрээр жагсаагдсан) нь App Store болон Google Play дээр үнэгүй. Том хавтантай тайван зураг хослуулах, таны сонгосон гэр бүлийн зургаар тоглох, интернетгүй ажилладаг зургийн багцыг санал болгодог."
       },
       {
@@ -525,7 +656,7 @@
     "printable": "Хэвлэх боломжтой",
     "howTo": "{name} хэрхэн тоглох вэ",
     "tips": "Хамт тоглох зөвлөгөө",
-    "newToPlayingHtml": "Дементиатай хүнтэй хамт тоглож үзээгүй юу? Тэд сонирхлоо алдвал яах тухай оруулаад <a href=\"/caregiving/how-to-play-together/\">хамт хэрхэн тоглох</a> тухай уншаарай.",
+    "newToPlayingHtml": "Ахмад настантай эсвэл ой тогтоолтын эмгэгтэй амьдарч буй хүнтэй тоглоход шинээр орсон уу? <a href=\"/caregiving/how-to-play-together/\">тоглоомыг хамтдаа хэрхэн тоглох</a> талаар уншина уу, мөн тэд сонирхлоо алдвал юу хийх талаар орно.",
     "moreAria": "Дэлгэрэнгүй үзэх",
     "helpfulGuides": "Тустай гарын авлага",
     "appTitle": "Аппаараа тоглоорой",
@@ -535,6 +666,35 @@
     "goodToKnow": "Мэдэж аваарай",
     "goodToKnowText": "Энэ тоглоом таашаал, хамт өнгөрүүлэх цагт зориулагдсан. Энэ нь юуг ч шалгадаггүй, хэмждэггүй, эмчилдэггүй.",
     "moreGames": "Бусад тайван тоглоом",
-    "crumb": "Тоглоом"
+    "crumb": "Тоглоом",
+    "print": {
+      "heading": "Цаасан дээр тоглох",
+      "sameRules": "Цаасан хувилбар нь дэлгэц дээрх тоглоомтой ижил дүрэмтэй:",
+      "button": "Цаасан хувилбар хэвлэх",
+      "pageNote": "A4 эсвэл US Letter хэмжээний нэг хуудас, хар цагаанаар ч сайн харагдана. Хувилбар {date}.",
+      "islandNote": "Энэ нь одоо дэлгэц дээр байгаа зүйлийг хэвлэнэ. Хувилбар {date}.",
+      "sheetTitle": "{name}: цаасан хувилбар",
+      "point": "Цаасан дээр зураг дарахын оронд хуруугаараа заах эсвэл үзгээр тойруулна уу. Мөр бүр шинэ багц юм.",
+      "pointTarget": "Цаасан дээр харах зураг мөр бүрийн эхлэл дэх хайрцагт байна. Зураг дарахын оронд хуруугаараа заах эсвэл үзгээр тойруулна уу.",
+      "halves": "Зураг бүр дундаас нь хагасалсан байна. Зүүн талын хагас бүрээс баруун талын тохирох хагас руу шугам зурах эсвэл хуруугаараа заана уу. Юуг ч хайчлах шаардлагагүй.",
+      "grid": "Квадрат бүр дугаартай. Тэр дугаарыг тайлбараас олоод, тэр өнгийн харандаагаар квадратыг будна уу. Өөр дуртай өнгө ч болно. Юуг ч хайчлах шаардлагагүй.",
+      "colors": "Мөр бүр нэг өнгийг нэрлэнэ. Тэр өнгөтэй зураг бүрийг заах эсвэл үзгээр тойруулна уу. Мөр бүр шинэ багц юм.",
+      "dice": "Мөр бүр нэг багц шоо юм. Мөр сонгох эсвэл зургуудыг хайчилж, овоолгоос сугалаад, ямар ч дарааллаар ашиглан үлгэр ярина уу. Хэн ч алгасаж болно.",
+      "words": "Үгсийг хайчилна уу, эсвэл үг бүрээс түүний зураг руу шугам зурна уу. Явахдаа үгсийг чангаар уншина уу.",
+      "cards": "Картуудыг тасархай шугамын дагуу хайчилна уу. Нүүрээ дээш харуулан ширээн дээр тавиад, хосуудыг олно уу.",
+      "chain": "Цаасан дээр зургуудыг зүүнээс баруун тийш, нэг нэгээр нь уншина уу. Хүн бүр одоог хүртэлх зургуудын талаар нэг өгүүлбэр хэлж, дараагийн зургийг заана. Хэн ч алгасаж болно.",
+      "sort": "Зургуудыг тасархай шугамын дагуу хайчилж, тус бүрийг хамаарах хайрцагт хийнэ үү.",
+      "puzzle": "Том зургийг тасархай шугамын дагуу дөрвөн хэсэг болгон хайчилж, холино уу. Нэг дор хоёр хэсгийг сольж, зураг бүтэн болтол үргэлжлүүлнэ үү. Жижиг зураг бол заавар юм.",
+      "cutSafety": "Тоглохын өмнө туслагч хүн хайчлахад тусалж болно. Дууссаны дараа хайчаа хадгална уу.",
+      "version": "Хувилбар {date} · {url}",
+      "reasons": {
+        "photos": "Цаасан хувилбар байхгүй. Энэ тоглоом таны өөрийн зургуудыг ашигладаг бөгөөд тэдгээр нь таны хөтөч дээр үлдэж, хэзээ ч байршуулагддаггүй тул сайт тэдгээрийг хэвлэж чадахгүй. Цаасан дээр тоглохын тулд дуртай хэдэн зургийнхаа хоёр хувийг гэртээ хэвлэж, ширээн дээр тааруулна уу.",
+        "paced": "Цаасан хувилбар байхгүй. Тойрог дэлгэц дээр тогтмол, удаан хэмнэлийг тогтоодог бөгөөд хэвлэсэн хуудас үүнийг хийж чадахгүй тул энэ нь өөр үйл ажиллагаа болно. Дэлгэцгүйгээр хамтдаа тайван зогсолт хийх нь үргэлж сонголт байна.",
+        "turns": "Энэ тоглоомын цаасан хувилбар байхгүй. Ширээн дээр хос олохын тулд Зургийн хосууд тоглоомын зургийн картуудыг хэвлэж, ээлжлэн эргүүлнэ үү.",
+        "screen": "Бумтай хувилбар байхгүй. Энэ бол дэлгэц дээрээс хамтдаа харах зураг; ширээн дээрх дуртай гэрэл зураг эсвэл ил захидал ч мөн адил үүрэг гүйцэтгэнэ.",
+        "wash": "Бумтай хувилбар байхгүй. Цаасан дээрх ус будгийн зураг ч мөн адил санаа: нойтон сойз, нэг нэг өнгө.",
+        "sayings": "Бумтай хувилбар одоогоор байхгүй. Цаасан дээр төгсгөл бүр нэг дор харагдах бөгөөд \"Төгсгөлийг харах\" алхам алдагдана. Үгүүдийг дэлгэцээс хамтдаа уншаарай, эсвэл та хоёрын мэддэг хэдэн үгийг хуваалцаарай."
+      }
+    }
   }
 }

@@ -1,36 +1,36 @@
 ---
-title: "Paano Maglaro Kasama ang Taong may Dementia"
-description: "Praktikal na gabay sa paglalaro kasama ang taong may dementia: paghahanda, bilis, hindi pagtatama, pagpapadali ng laro, at kung kailan titigil."
+title: "Paano Maglaro ng Laro kasama ang Taong may Dementia"
+description: "Praktikal na gabay sa paglalaro kasama ang taong nabubuhay na may dementia: paghahanda, takbo ng laro, hindi pagtutuwid, pagpapadali ng laro, at kung kailan titigil."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Ituring ang laro bilang oras na magkasama, hindi pagsusulit. Pumili ng
-  kalmadong oras ng araw, umupong magkatabi sa tahimik na silid, at mag-alok
-  ng isang simpleng laro. Hayaang ang tao ang magtakda ng bilis, huwag
-  itama ang mga di-nakakapinsalang pagkakamali, pagaanin ang laro sa unang
-  senyales ng hirap, at gawing usapan ang mga larawan. Huminto habang masaya
-  pa. Magandang kinalabasan ang maagang paghinto, o ang magkasamang panonood
-  lang.
+  Ituring ang laro bilang oras na magkasama, hindi bilang pagsusulit. Pumili ng
+  mahinahong oras ng araw, umupo nang magkatabi sa tahimik na silid, at mag-alok
+  ng isang payak na laro. Hayaang ang tao ang magtakda ng takbo, huwag itama ang
+  mga pagkakamaling walang masamang epekto, pagaanin ang laro sa unang senyales
+  ng hirap, at gawing usapan ang mga larawan. Tumigil habang masarap pa ang
+  pakiramdam. Ang maagang pagtatapos, o simpleng pagsasama lang sa panonood, ay
+  magandang kinalabasan.
 keyPoints:
-  - "Ang layunin ay kasiyahan at pakikipag-ugnayan, hindi ang pagtapos o pagkuha ng tamang sagot."
-  - "Maghanda muna: tahimik na silid, magandang ilaw, nakasuot ang salamin at hearing aid, patay ang TV, handa ang isang laro."
-  - "Huwag itama ang mga di-nakakapinsalang pagkakamali. Sabihin ang “Subukan natin sa ganitong paraan” o magpatuloy na lang."
-  - "Pagaanin ang laro bago lumala ang pagkabigo: mas kaunting larawan, mas kaunting pagpipilian, mga larawang nakikita."
-  - "Gamitin ang mga larawan bilang panimula ng kuwento sa pamamagitan ng “Ikuwento po ninyo...” sa halip na “Natatandaan po ba ninyo...?”"
-  - "Huminto sa unang senyales ng pagod o pagkabalisa. Tagumpay ang maagang paghinto, hindi pagkabigo."
+  - "Ang layunin ay kasiyahan at pagkakaugnay, hindi ang pagtapos o pagsagot nang tama."
+  - "Maghanda muna: tahimik na silid, magandang ilaw, nakasuot ang salamin at hearing aid, nakapatay ang TV, at handa na ang isang laro."
+  - "Huwag itama ang mga pagkakamaling walang masamang epekto. Sabihing \"Subukan natin sa ganitong paraan\" o magpatuloy lang."
+  - "Pagaanin ang laro bago pa mabuo ang inis: mas kaunting larawan, mas kaunting pagpipilian, at nakikita pa rin ang mga larawan."
+  - "Gamitin ang mga larawan bilang simula ng kuwento, sa pamamagitan ng \"Ikuwento mo sa akin ang tungkol sa...\" sa halip na \"Naaalala mo ba...?\""
+  - "Tumigil sa unang senyales ng pagod o pagkabagabag. Ang maagang pagtigil ay tagumpay, hindi kabiguan."
 faq:
-  - q: "Gaano katagal dapat kaming maglaro?"
-    a: "Walang tamang haba. Para sa maraming tao, sapat na ang ilang minuto, at may mga araw na sapat na ang isang round. Pagmasdan ang tao sa halip na ang orasan, at huminto habang mukha pa silang relaks."
-  - q: "Dapat ko ba silang hayaang manalo o magkunwaring hindi napapansin ang mga pagkakamali?"
-    a: "Sa magkasama at walang-pressure na laro, walang mapapanalunan o matatalo. Kung hindi naaabala ang tao ng pagkakamali, hayaan na. Kung mukhang naaabala siya, tahimik na tumulong o pagaanin ang laro nang hindi ito itinuturo."
-  - q: "Paano kung mas gusto nilang panoorin akong maglaro?"
-    a: "Ayos lang iyon. Iminumungkahi ng National Institute on Aging na hayaang manood lang ang tao kung mukhang mas nasisiyahan siya roon. Pag-usapan ang nakikita ninyo at anyayahan silang ituro o pumili kailanman nila gusto."
-  - q: "Paraan ba ng pagsubok sa memorya ang mga larong ito?"
-    a: "Hindi. Mga simpleng aktibidad na magkasamang ginagawa ang aming mga laro para sa saya at usapan. Hindi ito pagsusulit sa memorya, wala itong sinusukat, at hindi ito gamutan sa dementia."
-  - q: "Aling laro ang pinakamainam na simulan?"
-    a: "Magsimula sa pinakasimpleng akma sa tao. Banayad na panimula ang Magkapares na larawan na may apat na tile at nakikitang mga larawan, o ang Hanapin ang magkapareho na may dalawang pagpipilian. Bagay ang Mga kard ng usapan kung mas gusto ng tao ang makipag-usap kaysa mag-tap."
+  - q: "Gaano katagal dapat ang isang laro?"
+    a: "Walang tamang haba. Para sa maraming tao, sapat na ang ilang minuto, at sa ilang araw, sapat na ang isang ikot. Pagmasdan ang tao sa halip na ang orasan, at tumigil habang mukha pa silang relaks."
+  - q: "Dapat ko bang hayaan silang manalo o magkunwaring hindi napapansin ang mga pagkakamali?"
+    a: "Sa magkasamang laro na walang gaanong pressure, walang dapat ipanalo o ipatalo. Kung hindi nakakaabala sa tao ang isang pagkakamali, palampasin ito. Kung tila nakakaabala, tumulong nang tahimik o pagaanin ang laro nang hindi ito itinuturo."
+  - q: "Paano kung mas gusto nilang panoorin ako habang naglalaro?"
+    a: "Ayos lang iyon. Iminumungkahi ng National Institute on Aging na hayaan lang ang tao na manood kung tila mas nasisiyahan siya roon. Pag-usapan ang mga nakikita mo at anyayahan silang magturo o pumili kahit kailan nila gusto."
+  - q: "Pagsubok ba ng memorya ang mga larong ito?"
+    a: "Hindi. Ang aming mga laro ay payak na aktibidad na pinagsasaluhan para sa kasiyahan at usapan. Hindi ito pagsusulit sa memorya, wala itong sinusukat, at hindi ito paggamot sa dementia."
+  - q: "Aling laro ang pinakamagandang simulan?"
+    a: "Simulan sa pinakapayak na akma sa tao. Ang Magkapares na larawan na may apat na tile at nakikitang mga larawan, o ang Hanapin ang magkapareho na may dalawang pagpipilian, ay mahinahong panimula. Mahusay ang Mga kard ng usapan kung mas gusto ng tao ang pakikipag-usap kaysa pagpindot."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -49,127 +49,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Hindi mukhang paligsahan ang magandang laro kasama ang taong may dementia. Mukha itong dalawang taong magkalapit na nakaupo, nagtuturo sa mga larawan, natatawa sa isang kasabihan, at nag-uusap tungkol sa anumang lumitaw. Dahilan lang ang laro para magkasama kayo.
+Ang mabuting laro kasama ang taong nabubuhay na may dementia ay hindi mukhang paligsahan. Mukha itong dalawang taong magkatabi, nagtuturo ng mga larawan, nagtatawanan sa isang kasabihan, at nag-uusap tungkol sa anumang lumitaw. Ang laro ay dahilan lang para magkasama ng oras.
 
-Saklaw ng gabay na ito kung paano maghanda, paano i-pace ang laro, ano ang sasabihin kapag may “nagkamali”, paano pagaanin o bahagyang pahirapan ang anumang laro, paano gawing usapan ito, at paano malalaman kung kailan titigil. Gumagana ito para sa aming [mga laro](/games/) at para sa mga baraha, puzzle at board game na mayroon na kayo.
+Tinatalakay ng gabay na ito kung paano maghanda, paano itakda ang takbo ng laro, ano ang sasabihin kapag may "nagkamali", paano pagagaanin o bahagyang pahihirapan ang anumang laro, paano ito gagawing usapan, at kung paano malalaman kung kailan titigil. Angkop ito sa aming [mga laro](/games/) at sa mga baraha, puzzle at board game na mayroon ka na.
 
-## Ano ang pinakamahusay na paraan para maglaro kasama ang taong may dementia?
+## Ano ang pinakamabuting paraan ng paglalaro kasama ang taong may dementia?
 
-Tumuon sa kasiyahan, hindi sa tagumpay. Iyan ang pangunahing payo mula sa [gabay ng Alzheimer's Association sa mga aktibidad](https://www.alz.org/help-support/caregiving/daily-care/activities): magtayo sa mga kasanayang mayroon pa ang tao, tulungan siyang magsimula, kayo na ang tumapos sa mahihirap na bahagi, at huwag pintasan o itama ang mga di-nakakapinsalang gawain.
+Tumuon sa kasiyahan, hindi sa tagumpay. Iyon ang pangunahing payo mula sa [gabay ng Alzheimer's Association tungkol sa mga aktibidad](https://www.alz.org/help-support/caregiving/daily-care/activities): gamitin ang kakayahang taglay pa rin ng tao, tulungan silang magsimula, ikaw na ang tumapos sa mahihirap na bahagi, at huwag punahin o itama ang mga aktibidad na walang masamang epekto.
 
-Sa praktika, nangangahulugan ito ng:
+Sa praktika, ibig sabihin nito:
 
-- **Umupo sa tabi nila, hindi sa harap.** Kapag magkatabi, kapwa ninyo nakikita ang screen o mesa, at pakiramdam ng pagtutulungan ang pagtulong, hindi pagbabantay.
-- **Mag-alok ng isang laro sa bawat pagkakataon.** Maaaring parang pagsusulit ang menu ng mga pagpipilian bago pa magsimula ang anuman.
-- **Sundan ang pangunguna nila.** Kung gusto nilang i-tap ang mga larawan sa sarili nilang pagkakasunod-sunod, pag-usapan ang isang larawan sa loob ng sampung minuto, o huminto pagkatapos ng dalawang turn, iyon ang laro ngayon.
-- **Bilangin ang magagandang sandali, hindi ang natapos na round.** Ang ngiti, kuwento o kalmadong kalahating oras ang kinalabasang hinahanap ninyo.
+- **Umupo sa tabi nila, hindi sa tapat.** Magkatabi, pareho ninyong nakikita ang screen o mesa, at ang pagtulong ay parang pagtutulungan, hindi pagbabantay.
+- **Mag-alok ng isang laro sa isang pagkakataon.** Ang listahan ng mga pagpipilian ay maaaring maramdamang pagsusulit bago pa magsimula.
+- **Sundin ang gusto nila.** Kung gusto nilang pindutin ang mga larawan sa sarili nilang pagkakasunod-sunod, pag-usapan ang isang larawan nang sampung minuto, o tumigil pagkatapos ng dalawang ikot, iyon na ang laro sa araw na iyon.
+- **Bilangin ang mabubuting sandali, hindi ang natapos na ikot.** Ang ngiti, kuwento o isang tahimik na kalahating oras ang bunga na hinahanap mo.
 
-## Paano ako maghahanda bago kami magsimula?
+## Paano maghanda bago tayo magsimula?
 
-Napipigilan ng ilang minutong paghahanda ang karamihan ng pagkabigong isinisisi ng mga tao sa mismong laro.
+Ang ilang minutong paghahanda ay nakakaiwas sa karamihan ng inis na madalas ibintang sa laro mismo.
 
-1. **Piliin ang pinakamagandang oras ng araw nila.** Iminumungkahi ng [gabay ng National Institute on Aging (NIA) sa pag-aangkop ng mga aktibidad](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) na planuhin ang mga lakad at aktibidad sa oras ng araw na pinakamaayos ang pakiramdam ng tao. Para sa marami, iyon ay kalagitnaan ng umaga. Madalas na mas mahirap ang hapon; tingnan ang [mga kalmadong aktibidad sa hapon](/caregiving/late-day-restlessness/).
-2. **Patahimikin ang silid.** Patayin ang TV at radyo at isara ang pinto kung kaya. Inirerekomenda ng [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) na limitahan ang ingay at abala bago subukang makipag-usap.
-3. **Tiyakin muna ang ginhawa.** May inumin sa malapit, nakapag-banyo na, komportableng upuan, at nakasuot ang salamin at hearing aid.
-4. **Liwanagan nang mabuti ang lugar.** Mas madaling makita ang mga larawan sa maliwanag at pantay na ilaw na walang silaw sa screen.
-5. **Ihanda ang laro bago umupo.** Buksan ito, piliin ang mga setting at ayusin ang lakas ng tunog. Saka iharap ang screen sa kanila. Para sa mga tip sa tablet, tingnan ang [pag-set up ng tablet o telepono](/caregiving/tablets-and-screens/).
-6. **Itayo ang device.** Ang stand o case na nagpapatayo sa tablet ay nangangahulugang walang kailangang humawak, at mas madali itong ituro.
+1. **Piliin ang pinakamainam nilang oras ng araw.** Iminumungkahi ng [gabay ng National Institute on Aging (NIA) sa pag-aangkop ng mga aktibidad](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) na iplano ang mga lakad at aktibidad para sa oras kung kailan pinakamagaling ang tao. Para sa marami, ito ay mga kalagitnaan ng umaga. Madalas mas mahirap ang huling hapon; tingnan ang [mga mahinahong aktibidad sa huling hapon](/creative-calm/calm-afternoon-activities/).
+2. **Gawing tahimik ang silid.** Patayin ang TV at radyo, at isara ang pinto kung kaya. Inirerekomenda ng [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) na bawasan ang ingay at mga gambala bago subukang makipag-usap.
+3. **Tingnan muna ang ginhawa.** Maglagay ng inumin sa malapit, magbanyo bago magsimula, umupo sa komportableng silya, at nakasuot ang salamin at hearing aid.
+4. **Maayos na ilawan ang espasyo.** Ang maliwanag at pantay na ilaw na walang silaw sa screen ay nagpapadali sa pagtingin sa mga larawan.
+5. **Ihanda ang laro bago umupo.** Buksan ito, piliin ang mga setting, at ikaw na ang magtakda ng volume. Saka iharap ang screen sa kanila. I-on ang mas malaking teksto sa device kung nakakatulong.
+6. **Itayo ang device.** Ang stand o kaso na nagpapatayo sa tablet ay nangangahulugang walang kailangang humawak nito, at mas madaling magturo.
 
-## Paano ko sila aanyayahan nang walang pressure?
+## Paano sila anyayahan nang walang pressure?
 
-Gawing kaswal at madaling tanggihan ang paanyaya. Ilang pariralang karaniwang epektibo:
+Gawing kaswal at madaling tanggihan ang imbitasyon. Ilang pariralang kadalasang tumatama nang maayos:
 
-- “Nakakita ako ng mga larawan ng hardin. Gusto po ba ninyong tingnan ang mga ito kasama ko?”
-- “Matutulungan po ba ninyo ako sa puzzle na ito? Natigil ako.”
-- “Gusto po ba ninyo ang mga bulaklak o ang mga ibon ngayon?” (mas madali ang pagpipilian ng dalawa kaysa bukas na tanong)
-- “Gumagawa ako ng kard para sa kapatid ninyo. Anong kulay po kaya ito?”
+- "May nakita akong mga larawan ng hardin. Gusto mo bang tingnan natin nang magkasama?"
+- "Matutulungan mo ba ako sa puzzle na ito? Natigil ako."
+- "Mga bulaklak o mga ibon ang gusto mo ngayon?" (mas madali ang pagpili sa dalawa kaysa bukas na tanong)
+- "Gumagawa ako ng kard para sa kapatid mo. Anong kulay ang dapat dito?"
 
-Iminumungkahi ng Alzheimer's Association na ipaliwanag ang layunin ng isang aktibidad, tulad ng paggawa ng kard para sa isang kaibigan, dahil nagbibigay ng kahulugan ang dahilan. Gumagana rin ang paghingi ng tulong dahil pinaparamdam nito sa tao na may silbi siya.
+Iminumungkahi ng Alzheimer's Association na ipaliwanag ang layunin ng aktibidad, halimbawa ang paggawa ng kard para sa kaibigan, dahil ang dahilan ay nagbibigay ng kahulugan. Gumagana rin ang paghingi ng tulong, dahil nararamdaman ng tao na may silbi siya.
 
-Kung tumanggi sila, tanggapin ito. Subukan muli mamaya o mag-alok ng iba. Mas malalim pa ang aming gabay sa [ano ang gagawin kapag tumanggi sila](/caregiving/when-they-say-no/).
+Kung tumanggi sila, tanggapin ito. Subukan ulit mamaya o mag-alok ng iba. Ang aming gabay sa [kapag tumanggi sila](/caregiving/when-they-say-no/) ay mas detalyado.
 
-## Gaano katagal dapat ang laro, at gaano kabilis?
+## Gaano katagal dapat ang laro, at gaano kabilis tayo dapat?
 
-Hayaang ang tao ang magtakda ng bilis, at magplano ng mga maikling sesyon. Walang ideal na haba na batay sa ebidensya para sa magkasamang laro. Kumpletong aktibidad na ang dalawa hanggang limang kalmadong minuto.
+Hayaang ang tao ang magtakda ng takbo, at magplano ng maiikling sesyon. Walang iisang ideal na haba para sa magkasamang laro na suportado ng ebidensya. Ang dalawa hanggang limang mahinahong minuto ay maaari nang maging buong aktibidad.
 
-- **Maghintay nang mas matagal kaysa natural sa pakiramdam.** Pinapayuhan ng NIA na bigyan ng mas maraming oras ang tao para sumagot at subukang huwag sumingit. Magbilang ng sampu sa isip bago kayo tumulong.
-- **Isang hakbang sa bawat pagkakataon.** Magbigay ng iisang maikling tagubilin (“I-tap po ang isang larawan”), saka maghintay. Magpakita sa halip na magpaliwanag: ituro kung saan mag-tap.
-- **Magpahinga nang malaya.** Kung huminto sila para pag-usapan ang isang larawan, makakapaghintay ang laro. Hindi na kailangang magmadali.
-- **Hayaan silang manood.** Binabanggit ng NIA na may mga taong mas gustong manood, at wastong pagpili iyon.
+- **Maghintay nang mas matagal kaysa sa tila natural.** Pinapayuhan ng NIA na bigyan ng mas maraming oras ang tao para tumugon at subukang huwag putulin ang sinasabi nila. Bilangin hanggang sampu sa isip mo bago tumulong.
+- **Isang hakbang sa isang pagkakataon.** Magbigay ng iisa at maikling tagubilin ("Pindutin ang isang larawan"), saka maghintay. Ipakita sa halip na ipaliwanag: ituro kung saan ididiin.
+- **Huminto nang malaya.** Kung huminto sila para pag-usapan ang isang larawan, maaaring maghintay ang laro. Walang dahilan para magmadali.
+- **Hayaan silang manood.** Sinasabi ng NIA na may ilang taong mas gustong manood, at iyon ay balidong pagpili.
 
-## Dapat ko bang itama ang maling sagot?
+## Dapat ko bang itama ang mga maling sagot?
 
-Hindi. Ang paulit-ulit na banayad na pagtatama sa isang tao ay nagsasabi sa kanyang bumabagsak siya, kahit mabuti ang intensyon ninyo. Pinapayuhan ng Alzheimer's Association na huwag pintasan o itama ang mga di-nakakapinsalang gawain. Sa laro, halos lahat ng pagkakamali ay di-nakakapinsala.
+Hindi. Ang paulit-ulit na pagtutuwid ay nagpaparamdam sa kanila na palpak sila, kahit mabuti ang intensyon mo. Pinapayuhan ng Alzheimer's Association na huwag punahin o itama ang mga aktibidad na walang masamang epekto. Sa laro, halos lahat ng pagkakamali ay walang masamang epekto.
 
-| Sa halip na | Subukan ang |
+| Sa halip na | Subukan |
 | --- | --- |
-| “Hindi po, mali iyan.” | “Subukan po natin sa ganitong paraan.” (halimbawang ibinibigay ng NIA) |
-| “Hindi iyan magkatugma. Tingnan po ninyo ulit.” | Huwag magsabi ng anuman at ituloy ang susunod na turn, o “Naku, parehong pula ang dalawang iyan.” |
-| “Natatandaan po ba ninyo kung sino ito?” | “Ikuwento po ninyo sa akin ang larawang ito.” |
-| “Nagawa na po ninyo iyan.” | “Magandang isa iyan. Gawin po natin ulit.” |
-| “Sige na po, alam na ninyo ito.” | “Gusto po ba ninyong ipakita ko ang wakas?” |
+| "Hindi, mali iyan." | "Subukan natin sa ganitong paraan." (halimbawang ibinigay ng NIA) |
+| "Hindi iyan magkapares. Tingnan mo ulit." | Huwag magsalita at ituloy ang susunod na ikot, o "Ay, pareho pala silang pula." |
+| "Naaalala mo ba kung sino ito?" | "Ikuwento mo sa akin ang tungkol sa larawang ito." |
+| "Nagawa mo na iyan." | "Ang ganda niyan. Gawin natin ulit." |
+| "Halika na, alam mo ito." | "Gusto mo bang ipakita ko ang dulo?" |
 
-Kung malinaw na nabibigo ang tao sa isang pagkakamali, tumulong nang tahimik. Ituro ang tamang larawan, magkaroon kayo ng turn, o pagaanin ang laro sa susunod na round. Kung nagkaroon ng nakakatawang maling wakas ang isang kasabihan, makitawa. Baka mas maganda ang wakas nila.
+Kung malinaw na nakakainis sa kanila ang isang pagkakamali, tumulong nang tahimik. Ituro ang tamang larawan, ikaw ang kumuha ng ikot, o pagaanin ang laro sa susunod na ikot. Kung nakatawa ang kasabihan dahil sa kakaibang dulo, tumawa kasama nila. Baka mas maganda pa ang dulo nila.
 
-## Paano ko pagagaanin o bahagyang pahihirapan ang laro?
+## Paano pagagaanin o pahihirapan ang laro?
 
-Iangkop ang laro sa tao sa araw na iyon, hindi sa tawag sa yugto. Maaaring mangailangan ang iisang tao ng mas simpleng bersyon sa gabi kaysa sa umaga. Ang unang tip ng NIA ay iangkop ang aktibidad sa kaya ng tao at tiyaking maramdaman nilang nagtagumpay sila.
+Iakma ang laro sa tao sa araw na iyon, hindi sa label ng yugto. Maaaring mas kailangan ng parehong tao ang mas payak na bersyon sa gabi kaysa sa umaga. Ang unang payo ng NIA ay itugma ang aktibidad sa kaya ng tao at tiyaking nakakaramdam sila ng tagumpay.
 
-| Laro | Pagaanin | Bahagyang pahirapan |
+| Laro | Gawing mas madali | Gawing bahagyang mas mahirap |
 | --- | --- | --- |
-| [Magkapares na larawan](/games/picture-pairs/) | Magsimula sa 4 na tile at iwanang nakikita ang mga larawan | Mas maraming tile, o itago ang mga larawan kung komportable sila |
+| [Magkapares na larawan](/games/picture-pairs/) | Magsimula sa 4 na tile at iwanang nakikita ang mga larawan | Mas maraming tile, o itago ang mga larawan kung kumportable ito |
 | [Hanapin ang magkapareho](/games/find-the-same/) | 2 pagpipilian | Hanggang 4 na pagpipilian |
-| [Pag-uri-uriin nang magkasama](/games/sort-together/) | Kayo ang may hawak ng larawan, sila ang magtuturo sa basket | Sila mismo ang mag-tap sa larawan at sa basket |
+| [Pag-uri-uriin nang magkasama](/games/sort-together/) | Ikaw ang may hawak ng larawan, sila ang tumuturo sa basket | Sila mismo ang pumipindot sa larawan at basket |
 | [Puzzle ng larawan](/games/picture-puzzle/) | 4 na piraso, pag-usapan muna ang buong larawan | 9 na piraso |
-| [Tapusin ang kasabihan](/games/finish-the-saying/) | Ipakita ang wakas, saka sabihin ito nang magkasama | Hayaan silang sabihin ang wakas bago mag-tap |
-| [Word search](/games/word-search/) | I-print ito, maghanap ng isang salita nang magkasama, ituro ang unang letra nito | Hayaan silang pumili ng susunod na salitang hahanapin |
-| [Mga pangkulay](/games/coloring/) | Kayo ang pipili ng dalawang kulay, sila ang pipili sa pagitan ng mga ito | Sila ang pipili ng lahat ng kulay |
-| [Mga kard ng usapan](/games/conversation-cards/) | Tingnan lang nang magkasama ang larawan | Gamitin ang mga bukas na tanong sa kard |
-| [Magkapares na litrato](/games/photo-pairs/) | Ilang minamahal na litrato ng pamilya | Magdagdag ng mas maraming litrato |
-| [Bingo ng larawan](/games/picture-bingo/) | May katulong na nakaupo sa bawat manlalaro | Sila mismo ang magmamarka ng sarili nilang kard |
-| [Mahinahong paghinga](/games/calm-breathing/) | Umupo lang at panoorin ito nang magkasama | Huminga nang mabagal kasabay nito |
+| [Tapusin ang kasabihan](/games/finish-the-saying/) | Ipakita ang dulo, saka sabay na sabihin | Hayaan silang sabihin ang dulo bago pumindot |
+| [Word search](/games/word-search/) | I-print ito, hanapin nang magkasama ang isang salita, ituro ang unang titik nito | Hayaan silang pumili ng susunod na salitang hahanapin |
+| [Mga pangkulay](/games/coloring/) | Ikaw ang pumili ng dalawang kulay, sila ang pumili sa pagitan nito | Sila ang pumili ng lahat ng kulay |
+| [Mga kard ng usapan](/games/conversation-cards/) | Tingnan lang nang magkasama ang larawan | Gamitin ang bukas na tanong sa kard |
+| [Magkapares na litrato](/games/photo-pairs/) | Ilang paboritong larawan ng pamilya | Magdagdag ng mas maraming larawan |
+| [Bingo ng larawan](/games/picture-bingo/) | May katulong na nakaupo sa bawat manlalaro | Sila mismo ang nagmamarka ng sarili nilang card |
+| [Mahinahong paghinga](/games/calm-breathing/) | Umupo lang at panoorin ito nang magkasama | Huminga nang dahan-dahan kasabay nito |
 
-Mga senyales na masyadong mahirap ang laro: mahabang paghinto na mukhang nag-aalala kaysa nag-iisip, paulit-ulit na “Hindi ko kaya”, pagtulak sa device, o mga pagkakamaling bumabagabag sa kanila. Mga senyales na maaaring masyadong madali: pagkainip, o pagsasabi nilang pambata ito. Kung mangyari iyon, igalang ito at lumipat sa mas pang-adulto ang pakiramdam, tulad ng word search, puzzle ng totoong litrato, o pag-uusap tungkol sa larawan ng dati nilang hanapbuhay.
+Mga senyales na sobrang hirap ang laro: mahahabang pagtigil na mukhang nababahala sa halip na nag-iisip, paulit-ulit na "Hindi ko kaya," pagtulak palayo sa device, o mga pagkakamaling nakakainis sa kanila. Mga senyales na baka sobrang dali: pagkabagot, o pagsasabing pambata ito. Kung ganoon, igalang ito at lumipat sa isang bagay na pang-adulto ang dating, gaya ng word search, puzzle ng totoong litrato, o pag-uusap tungkol sa larawan ng dati nilang trabaho.
 
-## Paano ko gagawing usapan ang laro?
+## Paano gagawing usapan ang laro?
 
-Gamitin ang bawat larawan bilang paanyaya para mag-usap, at ituring na magandang sagot ang anumang sabihin nila. Para sa maraming pamilya, ito ang pinakamagandang bahagi ng paglalaro.
+Gamitin ang bawat larawan bilang paanyayang mag-usap, at ituring na magandang sagot ang anumang sabihin nila. Para sa maraming pamilya, ito ang pinakamagandang bahagi ng paglalaro.
 
-- **Magtanong ng bukas na tanong na walang maling sagot.** “Ano po ang napapansin ninyo?” “Alin po ang gusto ninyo?” “Ikuwento po ninyo ang isang kusinang ganito.”
-- **Kayo muna ang magbahagi.** “May aso ang lola ko na ganito.” Mas madali para sa kanilang magbahagi kapag nagbahagi kayo.
-- **Sundan ang pagliko ng usapan.** Kung humantong sa kuwento tungkol sa isang biyahe ang larawan ng kotse, ang kuwento ang aktibidad. Iwanang naka-pause ang laro.
-- **Huwag mag-fact-check.** Sa pagbabalik-tanaw, mas mahalaga ang kaaya-ayang usapan kaysa sa tamang detalye. Kung nag-iba ang kuwento mula noong huli, tamasahin ang bagong bersyon.
-- **Gamitin ang mga built-in na paanyaya.** Sumusunod sa bawat kasabihan ng [Tapusin ang kasabihan](/games/finish-the-saying/) ang isang paanyaya sa usapan, at ang [Mga kard ng usapan](/games/conversation-cards/) ay dinisenyo para mismo rito. Gumagamit ang [Magkapares na litrato](/games/photo-pairs/) ng sarili ninyong litrato ng pamilya, na madalas na nagpapasimula ng pinakamayamang kuwento.
+- **Magtanong nang bukas, walang maling sagot.** "Ano ang napapansin mo?" "Alin ang gusto mo?" "Ikuwento mo sa akin ang tungkol sa kusinang tulad nito."
+- **Ikaw muna ang magbahagi.** "May aso ang lola ko na ganito." Ang iyong kuwento ay nagpapadali sa kanila na magbahagi rin ng sa kanila.
+- **Sundan ang tangent.** Kung ang larawan ng kotse ay humantong sa kuwento tungkol sa biyahe, ang kuwento na ang aktibidad. I-pause ang laro.
+- **Huwag i-fact-check.** Sa reminiscence, mas mahalaga ang masayang usapan kaysa tumpak na detalye. Kung nagbago ang kuwento mula noong huli, tanggapin ang bagong bersyon.
+- **Gamitin ang mga nakalakip na tanong.** Ang [Tapusin ang kasabihan](/games/finish-the-saying/) ay may kasamang tanong para sa usapan pagkatapos ng bawat kasabihan, at ang [Mga kard ng usapan](/games/conversation-cards/) ay ginawa para dito mismo. Ang [Magkapares na litrato](/games/photo-pairs/) ay gumagamit ng sarili ninyong mga larawan ng pamilya, na madalas nagbubukas ng pinakamayayamang kuwento.
 
-May higit pang ideya sa aming mga gabay sa [mga aktibidad ng pagbabalik-tanaw](/activities/reminiscence/) at [mga payo sa komunikasyon](/caregiving/communication-tips/).
+Mas marami pang ideya sa aming gabay sa [mga aktibidad ng reminiscence](/activities/reminiscence/). Para sa suporta pagkatapos ng diagnosis, tingnan ang [mga unang hakbang pagkatapos ng diagnosis](/caregiving/after-dementia-diagnosis/).
 
-## Kailan kami dapat huminto?
+## Kailan tayo dapat tumigil?
 
-Huminto sa unang senyales ng pagod o pagkabalisa, at mas mabuti kung bago pa ito. Pinapayuhan ng Alzheimer's Association na huminto o magpalit ng aktibidad kapag humihina ang atensyon o tumataas ang pagkabigo.
+Tumigil sa unang senyales ng pagod o pagkabagabag, at mas mainam nang kaunti bago pa iyon. Pinapayuhan ng Alzheimer's Association na tumigil o palitan ang aktibidad kapag humina ang atensyon o tumaas ang inis.
 
 Bantayan ang:
 
-- paghikab, pagyuko o paglayo ng tingin sa screen;
-- pagkabalisa sa upuan, pagtayo, o paghiling na umalis;
-- pagbubuntong-hininga, maiikling sagot, o “Hindi ako magaling dito”;
-- pag-tap nang walang direksyon o pagtulak sa device;
-- pagluha, pagkairita, o biglaang pagbabago ng mood.
+- paghikab, pagkalaylay o paglayo ng tingin sa screen;
+- pagkabalisa, pagtayo, o paghiling na umalis;
+- pagbuntong-hininga, maiikling sagot, o "Hindi ako magaling dito";
+- pagpindot nang walang direksyon o pagtulak palayo sa device;
+- pag-iyak, pagkairita, o biglaang pagbabago ng mood.
 
-Paano huminto nang maayos:
+Paano tumigil nang maayos:
 
-- **Tapusin sa madaling bagay.** Isang huling tugma na kaya nilang gawin, o huling larawang hahangaan.
-- **Gawin itong tungkol sa inyo.** Iniiwasan ng “Gusto kong uminom ng tsaa. Hanggang dito na lang po ba tayo?” ang anumang pahiwatig na hindi sila nagtagumpay.
-- **Lumipat sa pisikal o nakakapagpahingang gawain.** Maikling lakad, meryenda, pagtutupi ng labada o musika.
-- **Magsabi ng mainit na salita.** “Nasiyahan po ako sa paggawa nito kasama kayo.” Walang papuri sa “pagkuha ng tama,” kundi kasiyahan lang sa oras na magkasama.
+- **Tapusin sa isang madaling bagay.** Isang huling pares na kaya nilang buuin, o isang huling larawang puwede nilang hangaan.
+- **Gawing tungkol sa sarili mo.** "Gusto ko na ng tsaa. Dito na muna tayo tumigil?" ay umiiwas sa anumang pahiwatig na masama ang nagawa nila.
+- **Lumipat sa bagay na pisikal o nakakapagpakalma.** Maikling lakad, meryenda, pagtutupi ng labada o musika.
+- **Magsabi ng mainit na salita.** "Nasiyahan ako na kasama kita." Walang papuri sa "pagtama," kundi kasiyahan lang sa oras na magkasama.
 
-Ang maagang paghinto, pagbabago ng plano, o pagsuko sa laro at pag-upo na lang nang magkasama ay pawang magandang kinalabasan.
+Ang maagang pagtatapos, pagbabago ng plano, o pagtigil sa laro para magkasama na lang umupo ay lahat magagandang kinalabasan.
 
-## Puwede ba kaming maglaro sa grupo o sa video call?
+## Puwede ba tayong maglaro sa grupo o sa video call?
 
-Oo, na may kaunting dagdag na paghahanda. Sa grupo, panatilihin sa ilang tao lang, ilagay ang mga katulong sa tabi ng sinumang nangangailangan, at pumili ng larong may malinaw na pinagsasaluhang pokus. May mga napi-print na kard at tagatawag sa screen para sa mga grupo ang [Bingo ng larawan](/games/picture-bingo/). Tingnan ang [mga aktibidad para sa mga grupo sa care home](/activities/care-home-groups/) para sa higit pa.
+Oo, may kaunting dagdag na paghahanda. Sa grupo, panatilihing iilan ang tao, paupuin ang mga katulong sa tabi ng sinumang nangangailangan, at pumili ng larong may malinaw na iisang pokus. Ang [Bingo ng larawan](/games/picture-bingo/) ay may mga naiimprentang card at tagatawag sa screen para sa grupo. Tingnan ang [mga aktibidad para sa grupo sa care home](/crafts/craft-group-sessions/) para sa higit pa.
 
-Sa video call, maaaring ilarawan ng taong nasa tawag ang isang larawan habang may nagtuturo at nagta-tap sa silid. Panatilihing maikli at pamilyar ang mga tawag. May higit pang tip ang aming gabay sa [tawag at video call](/activities/phone-and-video-calls/).
+Sa video call, maaaring ilarawan ng taong nasa tawag ang larawan habang may nasa silid na nagtuturo at pumipindot. Panatilihing maikli at pamilyar ang mga tawag. Ang aming gabay sa [tawag sa telepono at video](/together/staying-connected-from-afar/) ay may mas maraming tip.
 
-## Paano kung hindi talaga gumagana ang isang laro?
+## Ano ang gagawin kung hindi gumagana ang laro?
 
-May mga araw na walang tumatama, at hindi iyon pagpapakita ng anuman tungkol sa inyo o sa kanila. Itabi ang laro at subukan sa ibang oras ng araw, ibang laro, o walang laro. Maraming magagandang aktibidad ang walang kinalaman sa screen: musika, pagtutupi ng tuwalya, pagtingin sa album ng litrato, o maikling lakad. Tingnan ang aming [mga ideya sa aktibidad](/activities/ideas/) para sa higit pa.
+May mga araw na walang tumatama, at hindi iyon sumasalamin sa iyo o sa kanila. Itabi ang laro at subukan sa ibang oras ng araw, sa ibang laro, o walang laro. Maraming mabuting aktibidad na walang kinalaman sa screen: musika, pagtutupi ng tuwalya, pagtingin sa album ng litrato, o maikling lakad. Tingnan ang aming [mga ideya sa aktibidad](/activities/ideas/) para sa higit pa.

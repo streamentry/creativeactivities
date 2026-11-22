@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "ମୁଖ୍ୟ ବିଷୟବସ୍ତୁକୁ ଯାଆନ୍ତୁ",
     "brandName": "Creative Activities",
@@ -6,16 +7,22 @@
     "homeLabel": "Creative Activities ମୁଖ୍ୟ ପୃଷ୍ଠା",
     "mainNav": "ମୁଖ୍ୟ",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: ଚା’ କପ୍, ସୂର୍ଯ୍ୟମୁଖୀ ଫୁଲ ଓ ଏକ କୁକୁରର ବଡ଼, ମିତ୍ରଭାବାପନ୍ନ ଛବି",
+    "defaultImageAlt": "Creative Activities: ଦୈନନ୍ଦିନ ଜିନିଷର ବଡ଼ ଓ ସୁଖଦ ଛବି, ତିଆରି ଓ କରିବା ପାଇଁ",
     "languages": "ଭାଷା",
     "englishOnly": "(ଇଂରାଜୀ)",
     "machineTranslated": "ଏହି ପୃଷ୍ଠା ସ୍ୱୟଂଚାଳିତ ଭାବରେ ଅନୁବାଦ ହୋଇଛି ଏବଂ ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ମାତୃଭାଷୀ ଏହାକୁ ଯାଞ୍ଚ କରିନାହାଁନ୍ତି।",
     "readOriginal": "ମୂଳ ଇଂରାଜୀ ପଢ଼ନ୍ତୁ",
     "nav": {
+      "find": "Find an activity",
       "games": "ଖେଳ",
       "activities": "କାର୍ଯ୍ୟକଳାପ",
       "caregiving": "ଯତ୍ନ ନେବା",
-      "brainHealth": "ମସ୍ତିଷ୍କ ସ୍ୱାସ୍ଥ୍ୟ"
+      "brainHealth": "ମସ୍ତିଷ୍କ ସ୍ୱାସ୍ଥ୍ୟ",
+      "crafts": "ହସ୍ତଶିଳ୍ପ",
+      "kids": "ପିଲାମାନେ",
+      "together": "ଏକାଠି",
+      "creativeCalm": "ସୃଜନଶୀଳ ଶାନ୍ତି",
+      "search": "ଖୋଜନ୍ତୁ"
     },
     "faqTitle": "ପ୍ରଶ୍ନ ଓ ଉତ୍ତର",
     "breadcrumb": "ପଥ ସୂଚକ",
@@ -26,7 +33,32 @@
       "label": "ଲେଖାର ଆକାର",
       "smaller": "ସାଧାରଣ ଲେଖା",
       "larger": "ବଡ଼ ଲେଖା",
-      "contrast": "ଅଧିକ କଣ୍ଟ୍ରାଷ୍ଟ"
+      "contrast": "ଅଧିକ କଣ୍ଟ୍ରାଷ୍ଟ",
+      "colors": "ରଙ୍ଗ",
+      "light": "ହାଲୁକା",
+      "dark": "ଗାଢ଼",
+      "device": "ଏହି ଉପକରଣ ପରି",
+      "lineLength": "ଧାଡ଼ିର ଦୈର୍ଘ୍ୟ",
+      "standardLines": "ସାଧାରଣ",
+      "shorterLines": "ଛୋଟ ଧାଡ଼ି",
+      "spacing": "ବ୍ୟବଧାନ",
+      "standardSpacing": "ସାଧାରଣ",
+      "moreSpace": "ଅଧିକ ସ୍ଥାନ"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -40,7 +72,7 @@
     "ideas101": "101 କାର୍ଯ୍ୟକଳାପର ଧାରଣା",
     "lateStage": "ଶେଷ ପର୍ଯ୍ୟାୟର କାର୍ଯ୍ୟକଳାପ",
     "printable": "ପ୍ରିଣ୍ଟ କରିବା ଯୋଗ୍ୟ କାର୍ଯ୍ୟକଳାପ",
-    "allActivities": "ସବୁ କାର୍ଯ୍ୟକଳାପ",
+    "allActivities": "ସମସ୍ତ କାର୍ଯ୍ୟକଳାପ ଗାଇଡ୍",
     "forCaregivers": "ଯତ୍ନ ନେଉଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ",
     "playTogether": "ମିଶି କିପରି ଖେଳିବେ",
     "selfCare": "ନିଜର ଯତ୍ନ ନେବା",
@@ -53,24 +85,34 @@
     "app": "Creative Activities ଆପ୍",
     "appHelp": "ଆପ୍ ସହାୟତା",
     "support": "ସହାୟତା",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "ଆଇନଗତ",
     "sitePrivacy": "ୱେବସାଇଟ୍ ଗୋପନୀୟତା",
     "appPrivacy": "ଆପ୍ ଗୋପନୀୟତା ନୀତି",
     "privacyChoices": "ଗୋପନୀୟତା ପସନ୍ଦ",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "ନିୟମାବଳୀ ଓ ଆପ୍ ଲାଇସେନ୍ସ",
     "safety": "ସୁରକ୍ଷା ଓ ଉଦ୍ଦିଷ୍ଟ ବ୍ୟବହାର",
     "accessibility": "ସୁଗମ୍ୟତା",
     "healthNotice": "ସ୍ୱାସ୍ଥ୍ୟ ସୂଚନା ବିଜ୍ଞପ୍ତି",
     "allLegal": "ସମସ୍ତ ଆଇନଗତ ସୂଚନା",
     "note": "Creative Activities ଆନନ୍ଦ ପାଇଁ ସରଳ, ମିଶି କରିବା ଭଳି କାର୍ଯ୍ୟକଳାପ ଦିଏ। ଏହା ଚିକିତ୍ସା ପରାମର୍ଶ, ପରୀକ୍ଷା କିମ୍ବା ଚିକିତ୍ସା ନୁହେଁ, ଏବଂ ଏହା କାହାରି ନିର୍ଣ୍ଣୟ, ମାପ କିମ୍ବା ସ୍କୋର୍ କରେ ନାହିଁ। ସ୍ୱାସ୍ଥ୍ୟ ସମ୍ବନ୍ଧୀୟ ପ୍ରଶ୍ନ ପାଇଁ ଡାକ୍ତରଙ୍କ ସହ କଥା ହୁଅନ୍ତୁ। ଜରୁରୀକାଳୀନ ପରିସ୍ଥିତିରେ ଆପଣଙ୍କ ଅଞ୍ଚଳର ଜରୁରୀକାଳୀନ ନମ୍ବରକୁ ଫୋନ୍ କରନ୍ତୁ।",
-    "publisher": "Cloudjet Solutions Pte. Ltd. ଦ୍ୱାରା ପ୍ରକାଶିତ।"
+    "publisher": "Cloudjet Solutions Pte. Ltd. ଦ୍ୱାରା ପ୍ରକାଶିତ।",
+    "crafts": "ସବୁ ବୟସ ପାଇଁ ହସ୍ତଶିଳ୍ପ",
+    "kids": "ପିଲାମାନଙ୍କ ପାଇଁ କାର୍ଯ୍ୟକଳାପ",
+    "together": "ଏକାଠି କରିବା ପାଇଁ କାର୍ଯ୍ୟକଳାପ",
+    "creativeCalm": "ସୃଜନଶୀଳ ଶାନ୍ତି",
+    "dementiaActivities": "ସ୍ମୃତିହ୍ରାସ ସହ ଥିବା ଲୋକଙ୍କ ପାଇଁ କାର୍ଯ୍ୟକଳାପ"
   },
   "home": {
-    "title": "ଡିମେନ୍ସିଆ ଓ ଆଲଜାଇମର ଖେଳ ଓ କାର୍ଯ୍ୟକଳାପ | Creative Activities",
-    "description": "ଡିମେନ୍ସିଆ କିମ୍ବା ଆଲଜାଇମର ଥିବା ବ୍ୟକ୍ତି ଓ ଯତ୍ନକାରୀଙ୍କ ପାଇଁ ଅନଲାଇନ୍‌ରେ ଖେଳିବା ଭଳି ମାଗଣା କୋମଳ ଛବି ଖେଳ ଓ କାର୍ଯ୍ୟକଳାପର ଧାରଣା। ସାଇନ୍-ଅପ୍, ଟାଇମର୍ ବା ସ୍କୋର୍ ନାହିଁ।",
+    "title": "ଯିଏ କାହାରିକୁ ଯତ୍ନ ନିଅନ୍ତି, ତାଙ୍କ ପାଇଁ Creative Activities",
+    "description": "କାହାରିକୁ ଯତ୍ନ ନେଉଥିବା ସମସ୍ତଙ୍କ ପାଇଁ ମାଗଣା ସୃଜନଶୀଳ କାର୍ଯ୍ୟକଳାପ: ହସ୍ତଶିଳ୍ପ, ପିଲାମାନଙ୍କ ପାଇଁ ଜିନିଷ, ଏକାଠି କରିବା ପାଇଁ କାର୍ଯ୍ୟକଳାପ ଓ ଶାନ୍ତ ସୃଜନଶୀଳ ଧାରଣା।",
     "eyebrow": "ମାଗଣା · ବିଜ୍ଞାପନ ନାହିଁ · ସାଇନ୍-ଅପ୍ ନାହିଁ · ଟାଇମର୍ କିମ୍ବା ସ୍କୋର୍ ନାହିଁ",
-    "h1": "ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ କୋମଳ ଖେଳ ଓ କାର୍ଯ୍ୟକଳାପ",
-    "lede": "ସରଳ ଛବି ଖେଳ, ଚିହ୍ନା ଫଟୋ, ଏବଂ ମିଶି ଉପଭୋଗ କରିବା ଭଳି କାର୍ଯ୍ୟକଳାପ, ଆପଣଙ୍କ ନିଜ ଗତିରେ।",
+    "h1": "ଏକାଠି କିଛି ତିଆରି କରନ୍ତୁ",
+    "lede": "ଯେ ବ୍ୟକ୍ତି, ଯେ ମୂହୂର୍ତ୍ତ ଓ ଆପଣଙ୍କ ପାଖରେ ଥିବା ଜିନିଷ ସହ ମେଳ ଖାଉଥିବା କାର୍ଯ୍ୟକଳାପ ଖୋଜନ୍ତୁ। ସହଜ ହସ୍ତଶିଳ୍ପ, ପିଲାମାନଙ୍କ କଳା, ଏକାଠି କରିବା ପାଇଁ କାର୍ଯ୍ୟକଳାପ ଓ ଶାନ୍ତ ସୃଜନଶୀଳ ଧାରଣା, ସହଜ ସଂସ୍କରଣ ଓ ଛାପିବା ପାଇଁ ଏକ କାର୍ଡ ସହ। ଯେତେବେଳେ ଇଚ୍ଛା ହୁଏ ବନ୍ଦ କରିପାରିବେ।",
     "playGame": "ଏକ ଖେଳ ଖେଳନ୍ତୁ",
     "findIdeas": "କାର୍ଯ୍ୟକଳାପର ଧାରଣା ଖୋଜନ୍ତୁ",
     "facts": [
@@ -105,13 +147,13 @@
     "ideas101": "101 କାର୍ଯ୍ୟକଳାପର ଧାରଣା",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "ପ୍ରାରମ୍ଭିକ ପର୍ଯ୍ୟାୟ",
         "text": "ଯାହା ଭଲ ପାଆନ୍ତି ତାହା ଛୋଟ ଛୋଟ ବଦଳ ସହ କରନ୍ତୁ: ସଉକ, ବୁଲିବା, ଶବ୍ଦ ଖେଳ ଓ ମିଶି ଯୋଜନା କରିବା।",
         "label": "ପ୍ରାରମ୍ଭିକ ପର୍ଯ୍ୟାୟର ଧାରଣା"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "ମଝି ପର୍ଯ୍ୟାୟ",
         "text": "ସରଳ, ଚିହ୍ନା କାମ ଧାପ ଧାପରେ: ଭାଜ କରିବା, ବାଛି ରଖିବା, ସଙ୍ଗୀତ, ଛବି ଖେଳ ଓ ଛୋଟ ବୁଲାବୁଲି।",
         "label": "ମଝି ପର୍ଯ୍ୟାୟର ଧାରଣା"
@@ -123,10 +165,10 @@
         "label": "ପରବର୍ତ୍ତୀ ପର୍ଯ୍ୟାୟର ଧାରଣା"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "କିଛି ନିର୍ଦ୍ଦିଷ୍ଟ ଖୋଜୁଛନ୍ତି କି? <a href=\"/dementia-activities/\">ଆଲଜାଇମର୍ସ ପାଇଁ କାର୍ଯ୍ୟକଳାପ ଓ ଖେଳ</a>, <a href=\"/together/puzzles-and-table-games/\">ପଜଲ ଓ ଟେବୁଲ ଖେଳ</a>, <a href=\"/together/conversation-games-for-all-ages/\">କଥାବାର୍ତ୍ତା ଖେଳ</a> କିମ୍ବା <a href=\"/together/puzzles-and-table-games/\">ପଜଲ</a> ଚେଷ୍ଟା କରନ୍ତୁ।",
     "approachEyebrow": "ଆମର ଦୃଷ୍ଟିକୋଣ",
-    "approachTitle": "ମିଶି କରିବା ଭଳି କାର୍ଯ୍ୟକଳାପ, ସ୍ମୃତି ପରୀକ୍ଷା ନୁହେଁ",
-    "approachLede": "ଅନେକ “ମସ୍ତିଷ୍କ ଖେଳ” ଗତି, ସ୍କୋର୍ ଓ ଧାରାବାହିକତା ଆଧାରରେ ତିଆରି। ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କୁ ତାହା ପରୀକ୍ଷା ପରି ଲାଗିପାରେ। ଆମେ ଠିକ୍ ତାହାର ବିପରୀତ ତିଆରି କରିଛୁ।",
+    "approachTitle": "ଏକ ଏକାଠି କାର୍ଯ୍ୟକଳାପ, ପରୀକ୍ଷା ନୁହେଁ",
+    "approachLede": "ଅନେକ “ମସ୍ତିଷ୍କ ଖେଳ” ଗତି, ସ୍କୋର ଓ ଧାରାବାହିକ ଜିତ ଉପରେ ଗଠିତ। ଯିଏ କ୍ଲାନ୍ତ, ଅସୁସ୍ଥ କିମ୍ବା ସ୍ମୃତିହ୍ରାସ ସହ ଜୀବନଯାପନ କରୁଛନ୍ତି, ତାଙ୍କ ପାଇଁ ଏହା ଏକ ପରୀକ୍ଷା ପରି ଲାଗିପାରେ। ଆମେ ଠିକ୍ ବିପରୀତ ଢଂରେ ତିଆରି କରିଛୁ।",
     "approachLink": "ଆମେ ଏପରି କାହିଁକି ତିଆରି କରୁ",
     "principles": [
       {
@@ -165,14 +207,14 @@
         "text": "ମନା କରିବାର ସାଧାରଣ କାରଣ, ଏବଂ ପରେ ପୁଣି ଚେଷ୍ଟା କରିବାର କୋମଳ ଉପାୟ।"
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "ଏକ ଟାବଲେଟ୍ ସେଟ୍ କରିବା",
-        "text": "ବଡ଼ ଅକ୍ଷର, କମ୍ ବାଧା ଏବଂ ଗୋଟିଏ ସରଳ ହୋମ୍ ସ୍କ୍ରିନ୍।"
+        "href": "/activities/group-art-activities/",
+        "title": "ଗୋଷ୍ଠୀ କଳା କାର୍ଯ୍ୟକଳାପ",
+        "text": "ଅନେକ ଲୋକଙ୍କ ଏକ ଟେବୁଲ ପାଇଁ ସାମୂହିକ ପ୍ରକଳ୍ପ, ପ୍ରତ୍ୟେକଙ୍କ ପାଇଁ ଗୋଟିଏ ଗୋଟିଏ କାମ ସହ।"
       },
       {
-        "href": "/activities/printable/",
-        "title": "ମାଗଣା ପ୍ରିଣ୍ଟ କରିବା ଯୋଗ୍ୟ କାର୍ଯ୍ୟକଳାପ",
-        "text": "ବଡ଼ ଅକ୍ଷରର ଶବ୍ଦ ଖୋଜା, ରଙ୍ଗ ଭରିବା ପୃଷ୍ଠା, ବିଙ୍ଗୋ ଓ କଥାବାର୍ତ୍ତା କାର୍ଡ।"
+        "href": "/activities/ideas/",
+        "title": "101 କାର୍ଯ୍ୟକଳାପ ଧାରଣା",
+        "text": "ସହଜ ଧାରଣା, ଆପଣଙ୍କ ପାଖରେ ଥିବା ଜିନିଷ ଓ ଶକ୍ତି କେତେ ଅଛି ସେ ଅନୁସାରେ ସଜାଯାଇଛି।"
       }
     ],
     "researchTitle": "ମସ୍ତିଷ୍କ ସ୍ୱାସ୍ଥ୍ୟ: ଗବେଷଣା ପ୍ରକୃତରେ କ’ଣ କହେ",
@@ -184,16 +226,16 @@
     "aboutApp": "ଆପ୍ ବିଷୟରେ",
     "faq": [
       {
-        "q": "ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ ଭଲ ଖେଳ କେଉଁଗୁଡ଼ିକ?",
-        "a": "ଭଲ ଖେଳ ସରଳ, ଚିହ୍ନା ଓ ଚାପମୁକ୍ତ ହୋଇଥାଏ: ମେଳ କରିବା ପାଇଁ ବଡ଼ ଛବି, ବାଛି ରଖିବା, ସହଜ ଜିଗ୍‌ସ, ଜଣାଶୁଣା ପ୍ରବାଦ ପୂରଣ କରିବା, ରଙ୍ଗ ଭରିବା, ଛବି ବିଙ୍ଗୋ ଓ କଥାବାର୍ତ୍ତା କାର୍ଡ। ସବୁଠୁ ଭଲ ପସନ୍ଦ ହେଉଛି ବ୍ୟକ୍ତି ଆଜି ଯାହା ଉପଭୋଗ କରନ୍ତି। ଟାଇମର୍, ସ୍କୋର୍ ଓ ପରୀକ୍ଷା ଭଳି ଲାଗୁଥିବା ଜିନିଷ ଏଡ଼ାନ୍ତୁ।"
+        "q": "ବୟସ୍କ ଲୋକଙ୍କ ପାଇଁ ଭଲ ଖେଳ କ’ଣ?",
+        "a": "ଭଲ ଖେଳ ସହଜ, ପରିଚିତ ଓ ଚାପମୁକ୍ତ ହୁଏ: ମେଳ କରିବା ପାଇଁ ବଡ଼ ଛବି, ସାଜାଇବା, ସହଜ ଜିଗ୍‌ସ, ଜଣାଶୁଣା କଥା ସମାପ୍ତ କରିବା, ରଙ୍ଗ ଭରିବା, ଛବି ବିଙ୍ଗୋ ଓ କଥାବାର୍ତ୍ତା କାର୍ଡ। ଏଗୁଡ଼ିକ ସ୍ମୃତିହ୍ରାସ ସହ ଜୀବନଯାପନ କରୁଥିବା ଅନେକ ବୟସ୍କ ଲୋକଙ୍କ ପାଇଁ ଉପଯୁକ୍ତ। ସର୍ବୋତ୍ତମ ପସନ୍ଦ ହେଉଛି ଯାହା ବ୍ୟକ୍ତି ଆଜି ଉପଭୋଗ କରନ୍ତି। ସମୟ-ଘଣ୍ଟା, ସ୍କୋର ଓ ପରୀକ୍ଷା ପରି ଲାଗୁଥିବା ଜିନିଷରୁ ଦୂରେଇ ରୁହନ୍ତୁ।"
       },
       {
-        "q": "ଏହି ଡିମେନ୍ସିଆ ଖେଳ ମାଗଣା କି?",
+        "q": "ଏହି ଖେଳଗୁଡ଼ିକ କ’ଣ ମାଗଣା?",
         "a": "ହଁ। Creative Activities ର ପ୍ରତ୍ୟେକ ଖେଳ ଓ ପ୍ରିଣ୍ଟ କରିବା ଯୋଗ୍ୟ ସାମଗ୍ରୀ ମାଗଣା, କୌଣସି ଆକାଉଣ୍ଟ, ସାଇନ୍-ଅପ୍ କିମ୍ବା ଡାଉନଲୋଡ୍ ଆବଶ୍ୟକ ନାହିଁ। ଖେଳଗୁଡ଼ିକ ଫୋନ୍, ଟାବଲେଟ୍ କିମ୍ବା କମ୍ପ୍ୟୁଟରର ୱେବ୍ ବ୍ରାଉଜରରେ ଚାଲେ।"
       },
       {
         "q": "ମସ୍ତିଷ୍କ ଖେଳ ଡିମେନ୍ସିଆକୁ ରୋକେ କି?",
-        "a": "ନା। କୌଣସି ଖେଳ ଡିମେନ୍ସିଆକୁ ରୋକେ ବୋଲି ପ୍ରମାଣିତ ହୋଇନାହିଁ, ଏବଂ Creative Activities କିଛି ଚିକିତ୍ସା କିମ୍ବା ପ୍ରତିରୋଧ କରେ ବୋଲି ଦାବି କରେ ନାହିଁ। ଆମ ଖେଳ ଆନନ୍ଦ ଓ ମିଶି ସମୟ କଟାଇବା ପାଇଁ। ଗବେଷଣା କ’ଣ ଦେଖାଏ ଓ କ’ଣ ଦେଖାଏ ନାହିଁ, ତାହା ଆମ ମସ୍ତିଷ୍କ ସ୍ୱାସ୍ଥ୍ୟ ବିଭାଗରେ ବୁଝାଯାଇଛି।"
+        "a": "କୌଣସି ଖେଳ ସ୍ମୃତିହ୍ରାସ ରୋକିବା ପାଇଁ ଦେଖାଯାଇ ନାହିଁ, ଏବଂ Creative Activities କୌଣସି କିଛି ଚିକିତ୍ସା ବା ରୋକିବାର ଦାବି କରେ ନାହିଁ। ଆମ ଖେଳ ଉପଭୋଗ ଓ ଏକାଠି ସମୟ କଟାଇବା ପାଇଁ, ଏବଂ କୌଣସି କାର୍ଯ୍ୟକଳାପ ପୃଷ୍ଠା ସ୍ୱାସ୍ଥ୍ୟ ସମ୍ବନ୍ଧୀୟ ଦାବି କରେ ନାହିଁ।"
       },
       {
         "q": "ଏହି ଖେଳ ଆଲଜାଇମର ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ ଉପଯୁକ୍ତ କି?",
@@ -209,7 +251,36 @@
       },
       {
         "q": "Creative Activities କିଏ ତିଆରି କରେ?",
-        "a": "Creative Activities ଏକ ଛୋଟ ଦଳ, ଯେଉଁମାନେ ପରିବାର ଓ ଯତ୍ନ ନେଉଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ ୱେବ୍ ଓ ଏକ ମାଗଣା ଆପ୍ ଭାବରେ ଶାନ୍ତ, ବୟସ୍କଙ୍କ ପାଇଁ ଉପଯୁକ୍ତ ଛବି କାର୍ଯ୍ୟକଳାପ ତିଆରି କରନ୍ତି। ଆମେ ଚିକିତ୍ସକ ନୁହୁଁ, ଏବଂ ଏଠାରେ କିଛି ଚିକିତ୍ସା ପରାମର୍ଶ ନୁହେଁ।"
+        "a": "Creative Activities ହେଉଛି ଏକ ଛୋଟ ଦଳ, ଯାହା ୱେବରେ ଓ ମାଗଣା ଆପ୍ ଭାବେ ଯେକୌଣସି ବ୍ୟକ୍ତି ପାଇଁ ଶାନ୍ତ, ବୟସ୍କ ସୃଜନଶୀଳ କାର୍ଯ୍ୟକଳାପ ତିଆରି କରେ, ଯିଏ କାହାରିକୁ ଯତ୍ନ ନିଅନ୍ତି। ଆମେ ଚିକିତ୍ସକ ନୁହଁ, ଏଠାରେ ଥିବା କିଛି ମଧ୍ୟ ଚିକିତ୍ସା ପରାମର୍ଶ ନୁହେଁ।"
+      }
+    ],
+    "groupsEyebrow": "ନିଜ ପଥ ଖୋଜନ୍ତୁ",
+    "groupsTitle": "ସୃଜନଶୀଳ କାର୍ଯ୍ୟକଳାପର ଚାରି ପ୍ରକାର",
+    "groupsLede": "ଆପଣ କାହା ସହ ଅଛନ୍ତି ଓ ଆପଣଙ୍କ ପାଖରେ କ’ଣ ଅଛି, ସେଥିରେ ମେଳ ଖାଉଥିବା ଗୋଷ୍ଠୀରୁ ଆରମ୍ଭ କରନ୍ତୁ। ପ୍ରତ୍ୟେକ ପୃଷ୍ଠାରେ ସହଜ ସଂସ୍କରଣ ଓ ସୁରକ୍ଷା ପରାମର୍ଶ ଅଛି।",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "ହସ୍ତଶିଳ୍ପ",
+        "text": "କାଗଜ, ରଙ୍ଗ, ପୁନଃବ୍ୟବହୃତ ଓ ଋତୁ ଅନୁସାରେ ପ୍ରକଳ୍ପ, ପ୍ରତ୍ୟେକ ପାଇଁ ଏକ ସହଜ ସଂସ୍କରଣ ସହ।",
+        "label": "ହସ୍ତଶିଳ୍ପ ଦେଖନ୍ତୁ"
+      },
+      {
+        "href": "/kids/",
+        "title": "ପିଲାମାନେ",
+        "text": "ପିଲାମାନଙ୍କ ପାଇଁ କଳା ଓ ଖେଳ, ପାଖରେ ଜଣେ ବୟସ୍କ ଓ ସ୍ପଷ୍ଟ ସୁରକ୍ଷା ପରାମର୍ଶ ସହ।",
+        "label": "ପିଲାମାନଙ୍କ କାର୍ଯ୍ୟକଳାପ ଦେଖନ୍ତୁ"
+      },
+      {
+        "href": "/together/",
+        "title": "ଏକାଠି",
+        "text": "କଥାବାର୍ତ୍ତା, ପଜଲ, ବାହାରେ ସମୟ ଓ ପିଢ଼ିମାନଙ୍କ ମଧ୍ୟରେ ନିକଟତର ରହିବାର ଉପାୟ।",
+        "label": "ଏକାଠି କରିବା ପାଇଁ ଜିନିଷ ଦେଖନ୍ତୁ"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "ସୃଜନଶୀଳ ଶାନ୍ତି",
+        "text": "ପେନସିଲ, ପୃଷ୍ଠା କିମ୍ବା ଗୀତ ସହ ଧୀର, ଶାନ୍ତ ସୃଜନଶୀଳ ମୂହୂର୍ତ୍ତ। ଏହା ଚିକିତ୍ସା ନୁହେଁ।",
+        "label": "ସୃଜନଶୀଳ ଶାନ୍ତି ଦେଖନ୍ତୁ"
       }
     ]
   },
@@ -228,6 +299,21 @@
     "printable": "ପ୍ରିଣ୍ଟ କରିବା ଯୋଗ୍ୟ",
     "play": "{name} ଖେଳନ୍ତୁ →",
     "readGuide": "ଗାଇଡ୍ ପଢ଼ନ୍ତୁ"
+  },
+  "listen": {
+    "listenSteps": "ପଦକ୍ଷେପଗୁଡ଼ିକ ଶୁଣନ୍ତୁ",
+    "pause": "ରୋକନ୍ତୁ",
+    "resume": "ପୁଣି ଆରମ୍ଭ କରନ୍ତୁ",
+    "stop": "ବନ୍ଦ କରନ୍ତୁ",
+    "speed": "ଗତି",
+    "normal": "ସାଧାରଣ",
+    "slower": "ଧୀର",
+    "reading": "ପଦକ୍ଷେପଗୁଡ଼ିକ ସ୍ୱରରେ ପଢ଼ାଯାଉଛି।",
+    "paused": "ରୋକାଯାଇଛି। ଆଗକୁ ଯିବାକୁ ପୁଣି ଆରମ୍ଭ ଦବାନ୍ତୁ।",
+    "note": "ଆପଣଙ୍କ ଉପକରଣର ନିଜସ୍ୱ ସ୍ୱର ବ୍ୟବହାର କରେ। କିଛି ଉପକରଣ ଲେଖାକୁ ସ୍ୱର ଦେବା ପାଇଁ ଏହାର ନିର୍ମାତାଙ୍କୁ ପଠାଏ।",
+    "listen": "ଶୁଣନ୍ତୁ",
+    "stepLabel": "ପଦକ୍ଷେପ {n} ଶୁଣନ୍ତୁ",
+    "stopStep": "ପଦକ୍ଷେପ {n} ବନ୍ଦ କରନ୍ତୁ"
   },
   "playCta": {
     "title": "ଏକ କୋମଳ ଖେଳ ପାଇଁ ପ୍ରସ୍ତୁତ?",
@@ -248,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "କାର୍ଯ୍ୟକଳାପ",
-      "title": "ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ କାର୍ଯ୍ୟକଳାପ",
-      "seo": "ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ କାର୍ଯ୍ୟକଳାପ: ପର୍ଯ୍ୟାୟ ଅନୁସାରେ ଧାରଣା",
-      "description": "ପ୍ରତ୍ୟେକ ପର୍ଯ୍ୟାୟରେ ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ କାର୍ଯ୍ୟକଳାପର ଧାରଣା: ସଙ୍ଗୀତ, ପୁରୁଣା କଥା, ଦୈନନ୍ଦିନ କାମ, ସଂବେଦନ, ହସ୍ତଶିଳ୍ପ, ବାହାର କାମ ଓ ମାଗଣା ପ୍ରିଣ୍ଟେବଲ୍।",
-      "lede": "ଅର୍ଥପୂର୍ଣ୍ଣ କାର୍ଯ୍ୟକଳାପ ହେଉଛି ଯାହା ଆରାମ, ଉଦ୍ଦେଶ୍ୟ କିମ୍ବା ସମ୍ପର୍କର ଏକ ମୁହୂର୍ତ୍ତ ଆଣେ। ବ୍ୟକ୍ତି ସବୁବେଳେ ଯାହା ଭଲ ପାଇଛନ୍ତି ତାହାରୁ ଆରମ୍ଭ କରନ୍ତୁ, ଏବଂ ତାହାକୁ ଆଜିର ଅବସ୍ଥା."
+      "label": "କାର୍ଯ୍ୟକଳାପ ଗାଇଡ୍",
+      "title": "କାର୍ଯ୍ୟକଳାପ ଗାଇଡ୍",
+      "seo": "କାର୍ଯ୍ୟକଳାପ ଗାଇଡ୍: ଧାରଣା, କଳା ସାମଗ୍ରୀ ଓ ଆରମ୍ଭ କରିବାର ଉପାୟ",
+      "description": "କାହା ସହ କରିପାରିବା ସୃଜନଶୀଳ କାର୍ଯ୍ୟକଳାପର ସରଳ ଗାଇଡ୍: ସହଜ ଧାରଣା, ସୀମିତ ବଜେଟରେ କଳା ସାମଗ୍ରୀ, ଗୋଷ୍ଠୀ କଳା, ଚିଠି, ସ୍ମୃତି ଓ କଳା ଚିକିତ୍ସା କ’ଣ ତାହାର ବ୍ୟାଖ୍ୟା।",
+      "lede": "ଯେକୌଣସି ବୟସ ବା ସାମର୍ଥ୍ୟର କାହା ସହ ଏକ କାର୍ଯ୍ୟକଳାପ ବାଛିବା ଓ ଆରମ୍ଭ କରିବା ପାଇଁ ଛୋଟ, ବ୍ୟବହାରିକ ଗାଇଡ୍।"
+    },
+    "crafts": {
+      "label": "ହସ୍ତଶିଳ୍ପ",
+      "title": "ସବୁ ବୟସ ପାଇଁ ହସ୍ତଶିଳ୍ପ",
+      "seo": "ସବୁ ବୟସ ପାଇଁ ସହଜ ହସ୍ତଶିଳ୍ପ, ସହଜ ସଂସ୍କରଣ ସହ",
+      "description": "ବୟସ୍କ, ପିଲା ଓ ପରିବାର ପାଇଁ ସହଜ ହସ୍ତଶିଳ୍ପ: କାଗଜ, ରଙ୍ଗ ଭରିବା, ପୁନଃବ୍ୟବହୃତ ଓ ଋତୁ ଅନୁସାରେ ହସ୍ତଶିଳ୍ପ, ସହଜରେ ଧରାଯାଉଥିବା ଓ ବସି କରାଯାଉଥିବା ସଂସ୍କରଣ ସହ, କୌଣସି ବିଶେଷ ଦକ୍ଷତା ଦରକାର ନାହିଁ।",
+      "lede": "ଅଧିକାଂଶ ଘରେ ଥିବା ଜିନିଷରୁ ଆରମ୍ଭ ହେଉଥିବା ହସ୍ତଶିଳ୍ପ, ପ୍ରତ୍ୟେକ ସହ ଏକ ସହଜ ସଂସ୍କରଣ, ଯେଉଁଥିରେ ଯେ କେହି କିଛି ତିଆରି କରିପାରିବେ।"
+    },
+    "kids": {
+      "label": "ପିଲାମାନେ",
+      "title": "ପିଲାମାନଙ୍କ ପାଇଁ ସୃଜନଶୀଳ କାର୍ଯ୍ୟକଳାପ",
+      "seo": "ପିଲାମାନଙ୍କ ପାଇଁ ସୃଜନଶୀଳ କାର୍ଯ୍ୟକଳାପ: କଳା, ସେନସରି ଓ ଶାନ୍ତି",
+      "description": "ପିଲାମାନଙ୍କ ପାଇଁ ସୃଜନଶୀଳ କାର୍ଯ୍ୟକଳାପ: ଛୋଟ ପିଲାଙ୍କ କଳା, ପ୍ରକ୍ରିୟା କଳା, ସେନସରି ଖେଳ, ବର୍ଷା ଦିନର ହସ୍ତଶିଳ୍ପ ଓ ଶାନ୍ତ ହେବା ପାଇଁ ଧାରଣା, ସୁରକ୍ଷା ପରାମର୍ଶ ଓ ସେନସରି ଆବଶ୍ୟକତା ପାଇଁ ସଂସ୍କରଣ ସହ।",
+      "lede": "ବିଭିନ୍ନ ବୟସ ଓ ଆବଶ୍ୟକତା ଥିବା ପିଲାମାନଙ୍କ ପାଇଁ କଳା ଓ ଖେଳ ଧାରଣା, ସ୍ପଷ୍ଟ ସୁରକ୍ଷା ପରାମର୍ଶ ଓ ପାଖରେ ଜଣେ ବୟସ୍କ ସହ।"
+    },
+    "together": {
+      "label": "ଏକାଠି",
+      "title": "ଏକାଠି କରିବା ପାଇଁ କାର୍ଯ୍ୟକଳାପ",
+      "seo": "ଏକାଠି କରିବା ପାଇଁ କାର୍ଯ୍ୟକଳାପ, ପିଢ଼ିମାନଙ୍କ ମଧ୍ୟରେ",
+      "description": "ଦୁଇ ବା ତତୋଧିକ ପିଢ଼ି ପାଇଁ କାର୍ଯ୍ୟକଳାପ: କଥାବାର୍ତ୍ତା ଖେଳ, ପଜଲ, ବାହାରେ ସମୟ, ଜେଜେ-ଜେଜୀମା ଓ ନାତି-ନାତୁଣୀ ପାଇଁ ହସ୍ତଶିଳ୍ପ ଓ ଦୂରରୁ ନିକଟତର ରହିବାର ଉପାୟ।",
+      "lede": "ବାପା-ମାଆ, ଜେଜେ-ଜେଜୀମା, ପିଲା କିମ୍ବା ସାଙ୍ଗ ସହ ସମୟ ବାଣ୍ଟିବା ପାଇଁ ଧାରଣା, ଘରେ, ବାହାରେ, ଦେଖାସାକ୍ଷାତ ବେଳେ କିମ୍ବା ଦୂରରୁ।"
+    },
+    "creative-calm": {
+      "label": "ସୃଜନଶୀଳ ଶାନ୍ତି",
+      "title": "ସୃଜନଶୀଳ ଶାନ୍ତି",
+      "seo": "ସୃଜନଶୀଳ ଶାନ୍ତି: ଆରାମଦାୟକ କଳା ଓ କାର୍ଯ୍ୟକଳାପ, ମନକୁ ହାଲୁକା କରିବା ପାଇଁ",
+      "description": "ବୟସ୍କ ଓ ଯତ୍ନ ନେଉଥିବା ଲୋକଙ୍କ ପାଇଁ ଆରାମଦାୟକ ସୃଜନଶୀଳ କାର୍ଯ୍ୟକଳାପ: ମନୋଯୋଗୀ କଳା, ଜର୍ନାଲିଂ, ସଙ୍ଗୀତ, ସେନସରି ମୂହୂର୍ତ୍ତ ଓ ଶାନ୍ତ ଅପରାହ୍ନ। ସୃଜନଶୀଳ କାର୍ଯ୍ୟକଳାପ, ଚିକିତ୍ସା ନୁହେଁ।",
+      "lede": "ପେନସିଲ, ପୃଷ୍ଠା କିମ୍ବା ଗୀତ ସହ ଧୀରେ ଧୀରେ ଗତି କମାଇବାର ସହଜ ଉପାୟ। ଏଗୁଡ଼ିକ ସୃଜନଶୀଳ କାର୍ଯ୍ୟକଳାପ, ଚିକିତ୍ସା ନୁହେଁ, ଏବଂ କୌଣସି ଦକ୍ଷତା ଦରକାର ନାହିଁ।"
     },
     "caregiving": {
-      "label": "ଯତ୍ନ ନେବା",
-      "title": "ଯତ୍ନ ଗାଇଡ୍",
-      "seo": "ଡିମେନ୍ସିଆ ଯତ୍ନ ଗାଇଡ୍: ଦୈନନ୍ଦିନ ବ୍ୟବହାରିକ ସାହାଯ୍ୟ",
-      "description": "ଡିମେନ୍ସିଆ ଯତ୍ନକାରୀଙ୍କ ପାଇଁ ବ୍ୟବହାରିକ, ଦୟାଳୁ ଗାଇଡ୍: ମିଶି ଖେଳିବା, କଥାବାର୍ତ୍ତା, ମନା କରିବା, ଅପରାହ୍ନର ଅସ୍ଥିରତା, ଟାବଲେଟ୍, ଆପ୍ ବାଛିବା ଓ ନିଜର ଯତ୍ନ।",
-      "lede": "ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ଯତ୍ନର ଦୈନନ୍ଦିନ ମୁହୂର୍ତ୍ତ ପାଇଁ ସରଳ, ବ୍ୟବହାରିକ ସାହାଯ୍ୟ, ନିଜର ଯତ୍ନ ସମେତ।"
+      "label": "ଡିମେନସିଆ ଯତ୍ନ",
+      "title": "ଡିମେନସିଆ ଥିବା ଜଣଙ୍କର ଯତ୍ନ ନେବା",
+      "seo": "ଡିମେନସିଆ ଥିବା ଜଣଙ୍କର ଯତ୍ନ ନେବା: କାର୍ଯ୍ୟକଳାପ ଓ ସହାୟତା",
+      "description": "ଡିମେନସିଆ ଥିବା ଜଣଙ୍କର ଯତ୍ନ ନେଉଥିବା ପରିବାର ପାଇଁ ମାର୍ଗଦର୍ଶିକା: ଏକତ୍ର କିପରି ଖେଳିବେ, ସେମାନେ ନାଁ କହିଲେ କଣ କରିବେ, ଏବଂ ନିଦାନ ପରେ ବିଶ୍ୱସ୍ତ ସହାୟତା କୁଆଡ଼େ ମିଳିବ।",
+      "lede": "ଡିମେନସିଆ ସହିତ ରହୁଥିବା ଜଣଙ୍କର ଯତ୍ନ ନେଉଥିବା ପରିବାର ପାଇଁ କାର୍ଯ୍ୟକଳାପ-ପ୍ରଥମ ସହାୟତା, ଏବଂ ଡାକ୍ତରୀ ଓ ଯତ୍ନ ପରାମର୍ଶ ପାଇଁ କେଉଁଠାକୁ ଯିବେ।"
     },
     "brain-health": {
       "label": "ମସ୍ତିଷ୍କ ସ୍ୱାସ୍ଥ୍ୟ",
@@ -282,7 +396,16 @@
     "tryTogether": "ମିଶି ଚେଷ୍ଟା କରନ୍ତୁ",
     "relatedGuides": "ସମ୍ବନ୍ଧିତ ଗାଇଡ୍",
     "related": "ସମ୍ବନ୍ଧିତ",
-    "startHere": "ଏଠାରୁ ଆରମ୍ଭ କରନ୍ତୁ"
+    "startHere": "ଏଠାରୁ ଆରମ୍ଭ କରନ୍ତୁ",
+    "staleAria": "ଅନୁବାଦ ପୁରୁଣା ହୋଇଯାଇଛି",
+    "staleTitle": "ଏହି ଅନୁବାଦ ପୁରୁଣା ହୋଇଯାଇଛି",
+    "staleText": "ଏହା ଇଂରାଜୀ ପୃଷ୍ଠାର ଏକ ପୂର୍ବ ସଂସ୍କରଣରୁ ତିଆରି ହୋଇଥିଲା, ଯାହା ତା’ପରେ ବଦଳିଯାଇଛି। ବର୍ତ୍ତମାନ ଇଂରାଜୀ ପୃଷ୍ଠା ହିଁ ସଠିକ୍।",
+    "staleHealth": "ଏଥିରେ ସ୍ୱାସ୍ଥ୍ୟ ସୂଚନା ଅଛି, ତେଣୁ କିଛି କରିବା ପୂର୍ବରୁ ଇଂରାଜୀ ପୃଷ୍ଠା ଯାଞ୍ଚ କରନ୍ତୁ ଏବଂ ଡାକ୍ତର କିମ୍ବା ନର୍ସଙ୍କୁ ପଚାରନ୍ତୁ।",
+    "staleLink": "ବର୍ତ୍ତମାନର ଇଂରାଜୀ ପୃଷ୍ଠା ପଢନ୍ତୁ"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "ସ୍ୱାସ୍ଥ୍ୟ ସୂଚନା ବିଜ୍ଞପ୍ତି",
@@ -291,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "ମିଶି କରିବା ଭଳି କାର୍ଯ୍ୟକଳାପ, ସ୍ମୃତି ପରୀକ୍ଷା ନୁହେଁ",
+      "title": "ଏକତ୍ର କରାଯାଉଥିବା କାର୍ଯ୍ୟକଳାପ, ପରୀକ୍ଷା ନୁହେଁ",
       "seoTitle": "Creative Activities ବିଷୟରେ: ଆମର ଦୃଷ୍ଟିକୋଣ",
-      "description": "Creative Activities ଖେଳରେ କାହିଁକି ଟାଇମର୍, ସ୍କୋର୍ କିମ୍ବା ଧାରାବାହିକତା ନାହିଁ, ଛବି କାହିଁକି ଦେଖାଯାଉଥାଏ, ଏବଂ ଡିମେନ୍ସିଆ ବିଷୟରେ ଆମେ କ’ଣ ଦାବି କରିବୁ ଓ କରିବୁ ନାହିଁ।",
+      "description": "Creative Activities ରେ କାହିଁକି ଟାଇମର, ସ୍କୋର ବା ଷ୍ଟ୍ରିକ୍ ନାହିଁ, ଛବିଗୁଡ଼ିକ କାହିଁକି ଦେଖାଯାଏ, ଏବଂ ସ୍ୱାସ୍ଥ୍ୟ ବିଷୟରେ ଆମେ କଣ ଦାବି କରିବୁ ଓ କଣ କରିବୁ ନାହିଁ।",
       "crumb": "ଆମର ଦୃଷ୍ଟିକୋଣ",
-      "lede": "Creative Activities ଶାନ୍ତ, ବୟସ୍କଙ୍କ ପାଇଁ ଉପଯୁକ୍ତ ଛବି କାର୍ଯ୍ୟକଳାପ ତିଆରି କରେ, ଯାହା ଜଣେ ଯତ୍ନକାରୀ ଓ ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତି ପାଖାପାଖି ବସି ଉପଭୋଗ କରିପାରିବେ।",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "ପ୍ରାୟୋଜକ ଓ ସହଯୋଗୀ",
+        "none": "Creative Activities ର କୌଣସି ପ୍ରାୟୋଜକ ନାହାନ୍ତି, କୌଣସି ଅର୍ଥ ଦେଇ ସ୍ଥାନ କିଣାଯାଇନାହିଁ, ଏବଂ ସାଇଟରେ କୌଣସି ସହଯୋଗୀଙ୍କ ଲୋଗୋ ଦେଖାଯାଉନାହିଁ।",
+        "listed": "ଏଗୁଡ଼ିକ Creative Activities ର ପ୍ରାୟୋଜକ ଓ ସହଯୋଗୀ। ପ୍ରତ୍ୟେକ ସମ୍ପର୍କ ମଧ୍ୟ ଯେଉଁ ପୃଷ୍ଠାରେ ଦେଖାଯାଏ, ସେଠାରେ ଜଣାଯାଇଛି।",
+        "policy": "ଯଦି ଏହା ବଦଳେ, ପ୍ରତ୍ୟେକ ଏପରି ପୃଷ୍ଠା ଯେଉଁଠି ଦେଖାଯିବ ସେଠାରେ ତାହା ଜଣାଇବ, କୌଣସି କାର୍ଯ୍ୟକଳାପରେ କେବେ ବି ପ୍ରାୟୋଜକ ରହିବେ ନାହିଁ, ଏବଂ ସହଯୋଗୀଙ୍କ ତାଲିକା ଏହି ପୃଷ୍ଠାରେ ରହିବ।",
+        "listHeading": "ସହଯୋଗୀଙ୍କ ତାଲିକା",
+        "noPartners": "ଏବେ କୌଣସି ସହଯୋଗୀ ନାହାନ୍ତି।"
+      },
+      "lede": "Creative Activities ଶାନ୍ତ, ବୟସ୍କଙ୍କ ପାଇଁ ଉପଯୁକ୍ତ କାର୍ଯ୍ୟକଳାପ ତିଆରି କରେ, ଯାହାକୁ ଦୁଇଜଣ ପାଖାପାଖି ବସି ଉପଭୋଗ କରିପାରିବେ, ସେ ଯତ୍ନ ନେଉଥିବା ବ୍ୟକ୍ତି ହୁଅନ୍ତୁ କିମ୍ବା ଶୁଦ୍ଧ ଏକତ୍ର ସମୟ କଟାଇବାକୁ ଚାହୁଁଥିବା ଲୋକ ହୁଅନ୍ତୁ।",
+      "bodyHtml": "<h2>ଏହା କାହା ପାଇଁ</h2><p>ଯେକୌଣସି ଲୋକ ଯିଏ କାହାରିକୁ ଯତ୍ନ ନେଉଛନ୍ତି: ପିତାମାତା, ଜେଜେମା ବା ଜେଜେବାପା, ସନ୍ତାନ, ସାଥୀ, ବନ୍ଧୁ, କିମ୍ବା ଡିମେନସିଆ ସହିତ ରହୁଥିବା ବ୍ୟକ୍ତି। ପରିବାର, ବୟସ୍କ ଲୋକ ଏବଂ କାର୍ଯ୍ୟକଳାପ କର୍ମୀ ସମସ୍ତେ ଏକା ପୃଷ୍ଠାଗୁଡ଼ିକ ବ୍ୟବହାର କରିପାରିବେ।</p><h2>ଆମେ କଣ ବିଶ୍ୱାସ କରୁ</h2><p>କାର୍ଯ୍ୟକଳାପର ଉଦ୍ଦେଶ୍ୟ ସେହି ମୁହୂର୍ତ୍ତ ନିଜେ: ଏକ କଥାବାର୍ତ୍ତା, ଏକ ହସ, ଦୁଇଟି ଛବି ମେଳ କରିବାର ସନ୍ତୋଷ, କିମ୍ବା କେବଳ ପାଖାପାଖି ବସିବା। ଏହା କାହାରିକୁ ମାପିବା, ଆଗକୁ ଠେଲିବା କିମ୍ବା କିଛି ପ୍ରମାଣ କରିବା ପାଇଁ ନୁହେଁ।</p><p>ଅନେକ ମସ୍ତିଷ୍କ-ତାଲିମ ଆପ୍ ଗତି, ସ୍କୋର, ଷ୍ଟ୍ରିକ୍ ଓ ସ୍ତର ଉପରେ ଗଢ଼ାଯାଇଥାଏ। କ୍ଳାନ୍ତ, ଅସୁସ୍ଥ କିମ୍ବା ଡିମେନସିଆ ସହିତ ରହୁଥିବା ଲୋକଙ୍କ ପାଇଁ ତାହା ଏପରି ପରୀକ୍ଷା ଭଳି ଲାଗିପାରେ ଯାହା ସେମାନେ ପାସ୍ କରି ପାରିବେ ନାହିଁ। ଆମେ ଠିକ୍ ବିପରୀତ ଭାବେ ଡିଜାଇନ୍ କରିଛୁ, ଏବଂ ଏହି ନିୟମଗୁଡ଼ିକୁ ନିଜ ଉପରେ ଲାଗୁ କରୁ:</p><ul><li><strong>ହାରିବାର କିଛି ନାହିଁ।</strong> କୌଣସି ସ୍କ୍ରିନରେ ଘଡ଼ି, ସ୍କୋର, ଚାଲ ଗଣନା, ଜୀବନ, ଷ୍ଟ୍ରିକ୍, ଚମକ କିମ୍ବା କାଉଣ୍ଟଡାଉନ୍ ନାହିଁ।</li><li><strong>ମନେ ପକାଇବା ଅପେକ୍ଷା ଚିହ୍ନିବା।</strong> ଡିଫଲ୍ଟରେ ଛବିଗୁଡ଼ିକ ଦେଖାଯାଏ। ପ୍ରସଙ୍ଗ କଥାବାର୍ତ୍ତାକୁ ଆମନ୍ତ୍ରଣ କରେ, ଏବଂ କେବେ ବି ନାଁ କିମ୍ବା ସ୍ମୃତି ବିଷୟରେ ପରୀକ୍ଷା ନିଏ ନାହିଁ।</li><li><strong>ବଡ଼, ସରଳ ଓ ସ୍ଥିର।</strong> ବଡ଼ ଲେଖା ଓ ଛବି, ସ୍ପଷ୍ଟ ବିପରୀତତା, ଏବଂ ନିୟନ୍ତ୍ରଣ ସର୍ବଦା ଏକା ସ୍ଥାନରେ ରହେ।</li><li><strong>ବୟସ୍କଙ୍କ ମର୍ଯ୍ୟାଦା।</strong> ବାସ୍ତବ ଜୀବନର ଛବି ଓ ସରଳ, ଉଷ୍ମ ଶବ୍ଦ। କାର୍ଟୁନ, ଶିଶୁ ଭଳି ପ୍ରଶଂସା କିମ୍ବା ଇମୋଜି ପୁରସ୍କାର ନାହିଁ।</li><li><strong>ସହଜ ବାହାରିବାର ପଥ।</strong> “ଏବେ ସମାପ୍ତ” ସର୍ବଦା ଦେଖାଯାଏ। ଅଧାରେ ବନ୍ଦ କରିବା ମଧ୍ୟ ଏକ ଭଲ ଫଳାଫଳ।</li><li><strong>ଡିଫଲ୍ଟରେ ଗୋପନୀୟ।</strong> କୌଣସି ଆକାଉଣ୍ଟ କିମ୍ବା ବିଜ୍ଞାପନ ନାହିଁ। ଆପଣ ବାଛିଥିବା ଫଟୋ ଆପଣଙ୍କ ଡିଭାଇସରେ ରହେ।</li></ul><h2>ଆମେ କଣ ଦାବି କରୁନାହୁଁ</h2><p>ଆମର ଖେଳ ଓ କାର୍ଯ୍ୟକଳାପ ଆନନ୍ଦ ଓ ସଂଯୋଗ ପାଇଁ। ସେଗୁଡ଼ିକ ଡିମେନସିଆ ବା ଆଲଜାଇମର୍ ରୋଗର ନିଦାନ, ପରୀକ୍ଷା, ମାପ, ଚିକିତ୍ସା, ମନ୍ଥର କରିବା କିମ୍ବା ପ୍ରତିରୋଧ କରିବା ପାଇଁ ନୁହେଁ, ଏବଂ ଏହି କାରଣରୁ କେହି ସେଗୁଡ଼ିକୁ ବାଛିବା ଉଚିତ ନୁହେଁ। ସ୍ୱାସ୍ଥ୍ୟ ଗବେଷଣା ବିଷୟରେ ଲେଖିବା ବେଳେ ଆମେ ସ୍ପଷ୍ଟ ଭାବେ କହୁ ଯେ ପ୍ରମାଣ କେଉଁଠି ଦୁର୍ବଳ, ଏବଂ ଆମ ନିଜ କାର୍ଯ୍ୟକଳାପ ସହିତ ଏହାକୁ କେବେ ବି ଯୋଡ଼ୁନାହୁଁ।</p><h2>ଆମେ କିଏ</h2><p>Creative Activities ଏକ ଛୋଟ ସ୍ୱାଧୀନ ଦଳ। ଆମେ ଚିକିତ୍ସକ ନୁହଁ। ଆମର ମାର୍ଗଦର୍ଶିକାଗୁଡ଼ିକ National Institute on Aging ଓ Alzheimer’s Association ଭଳି ସଂସ୍ଥାର ପ୍ରକାଶିତ ପରାମର୍ଶ ଆଧାରରେ ଲେଖାଯାଇଛି, ଏବଂ ପ୍ରତ୍ୟେକ ମାର୍ଗଦର୍ଶିକା ନିଜର ଉତ୍ସଗୁଡ଼ିକ ତାଲିକାଭୁକ୍ତ କରେ। <a href=\"/editorial-policy/\">ଆମେ ଆମର ପୃଷ୍ଠାଗୁଡ଼ିକ କିପରି ଲେଖୁ ଓ ଯାଞ୍ଚ କରୁ</a> ପଢନ୍ତୁ।</p><h2>କଣ ସାହାଯ୍ୟ କରିବ ଜଣାନ୍ତୁ</h2><p>ଆପଣଙ୍କ ପାଇଁ କଣ କାମ କରେ ଓ କଣ କରେ ନାହିଁ, ତାହା ଜାଣିବାକୁ ଆମେ ଖୁସି ହେବୁ, ବିଶେଷ କରି ଡିମେନସିଆ ସହିତ ରହୁଥିବା ଲୋକ, ପରିବାରର ଯତ୍ନ ନେଉଥିବା ବ୍ୟକ୍ତି ଓ କାର୍ଯ୍ୟକଳାପ କର୍ମୀଙ୍କଠାରୁ। <a href=\"mailto:{email}\">{email}</a> ରେ ଇମେଲ କରନ୍ତୁ।</p>"
     },
     "editorial": {
       "title": "ଆମେ ଆମ ପୃଷ୍ଠା କିପରି ଲେଖୁ ଓ ଯାଞ୍ଚ କରୁ",
       "seoTitle": "ସମ୍ପାଦକୀୟ ନୀତି",
-      "description": "Creative Activities ଡିମେନ୍ସିଆ କାର୍ଯ୍ୟକଳାପ ଓ ମସ୍ତିଷ୍କ ସ୍ୱାସ୍ଥ୍ୟ ପୃଷ୍ଠା କିପରି ଗବେଷଣା କରେ, ଲେଖେ, ସୂତ୍ର ଦିଏ ଓ ଅପଡେଟ୍ କରେ, ଏବଂ କ’ଣ କେବେ ପ୍ରକାଶ କରିବ ନାହିଁ।",
+      "description": "Creative Activities କିପରି ଗବେଷଣା କରେ, ଲେଖେ, ଉତ୍ସ ସଂଗ୍ରହ କରେ ଓ ନିଜର କାର୍ଯ୍ୟକଳାପ ଓ ସ୍ୱାସ୍ଥ୍ୟ ପୃଷ୍ଠାଗୁଡ଼ିକୁ ଅଦ୍ୟତନ କରେ, ଏବଂ ଆମେ କଦାପି କଣ ପ୍ରକାଶ କରିବୁ ନାହିଁ।",
       "crumb": "ସମ୍ପାଦକୀୟ ନୀତି",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "ପ୍ରଶ୍ନ ଓ ଉତ୍ତର",
-      "seoTitle": "ଡିମେନ୍ସିଆ ଖେଳ ଓ କାର୍ଯ୍ୟକଳାପ: ପ୍ରଶ୍ନ ଓ ଉତ୍ତର",
-      "description": "ଡିମେନ୍ସିଆ ଖେଳ ଓ କାର୍ଯ୍ୟକଳାପ ବିଷୟରେ ସାଧାରଣ ପ୍ରଶ୍ନର ଉତ୍ତର: କେଉଁ ଖେଳ ଚେଷ୍ଟା କରିବେ, କେତେ ସମୟ ଖେଳିବେ, ପରବର୍ତ୍ତୀ ପର୍ଯ୍ୟାୟ, ମସ୍ତିଷ୍କ ସ୍ୱାସ୍ଥ୍ୟ ଓ ଗୋପନୀୟତା।",
+      "seoTitle": "Creative Activities ବିଷୟରେ ପ୍ରଶ୍ନ ଓ ଉତ୍ତର",
+      "description": "ଖେଳ ଓ କାର୍ଯ୍ୟକଳାପ ବିଷୟରେ ସାଧାରଣ ପ୍ରଶ୍ନର ଉତ୍ତର: କେଉଁଗୁଡ଼ିକ ଚେଷ୍ଟା କରିବେ, କେତେ ସମୟ ଖେଳିବେ, ଗୋଷ୍ଠୀ ଓ ପରବର୍ତ୍ତୀ ପର୍ଯ୍ୟାୟର ଧାରଣା, ସ୍ୱାସ୍ଥ୍ୟ ଓ ଗୋପନୀୟତା।",
       "crumb": "ପ୍ରଶ୍ନ ଓ ଉତ୍ତର",
       "lede": "ଯତ୍ନକାରୀମାନେ ସବୁଠୁ ଅଧିକ ପଚାରୁଥିବା ପ୍ରଶ୍ନର ସଂକ୍ଷିପ୍ତ, ସରଳ ଉତ୍ତର।",
       "groups": [
@@ -317,7 +448,7 @@
           "title": "ଖେଳ ବିଷୟରେ",
           "items": [
             {
-              "q": "ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ ସବୁଠୁ ଭଲ ଖେଳ କେଉଁଗୁଡ଼ିକ?",
+              "q": "ବୟସ୍କଙ୍କ ପାଇଁ ସର୍ବୋତ୍ତମ ଖେଳ କଣ?",
               "a": "ସବୁଠୁ ଭଲ ଖେଳ ଚିହ୍ନା, ସରଳ ଓ ଚାପମୁକ୍ତ, ଏବଂ ଠିକ୍ ଖେଳ ହେଉଛି ବ୍ୟକ୍ତି ଆଜି ଯାହା ଉପଭୋଗ କରନ୍ତି। ଦେଖାଯାଉଥିବା ଛବି ସହ ମେଳ କରିବା, ବାଛି ରଖିବା, ସହଜ ଜିଗ୍‌ସ, ଜଣାଶୁଣା ପ୍ରବାଦ ପୂରଣ କରିବା, ରଙ୍ଗ ଭରିବା ଓ ଛବି ବିଙ୍ଗୋ ଅନେକଙ୍କ ପାଇଁ ଭଲ କାମ କରେ। ଟାଇମର୍, ସ୍କୋର୍ ଓ ପରୀକ୍ଷା ଭଳି ଲାଗୁଥିବା ଜିନିଷ ଏଡ଼ାନ୍ତୁ।"
             },
             {
@@ -362,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "ମସ୍ତିଷ୍କ ସ୍ୱାସ୍ଥ୍ୟ",
+          "title": "ଡିମେନସିଆ ଓ ସ୍ୱାସ୍ଥ୍ୟ",
           "items": [
             {
               "q": "ଖେଳ ଡିମେନ୍ସିଆକୁ ରୋକିପାରେ କି ମନ୍ଥର କରିପାରେ କି?",
@@ -393,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "ଅଧିକ ବିବରଣୀ: <a href=\"/caregiving/how-to-play-together/\">ଏକତ୍ର କିପରି ଖେଳିବେ</a>, <a href=\"/caregiving/when-they-say-no/\">ସେମାନେ ନାଁ କହିଲେ</a>, <a href=\"/activities/late-stage/\">ପରବର୍ତ୍ତୀ ପର୍ଯ୍ୟାୟର କାର୍ଯ୍ୟକଳାପ</a> ଏବଂ <a href=\"/dementia-activities/\">ଘରେ ଡିମେନସିଆ କାର୍ଯ୍ୟକଳାପ</a>।"
     },
     "handout": {
       "title": "ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ ମାଗଣା, କୋମଳ ଖେଳ",
@@ -407,21 +538,21 @@
     },
     "organizations": {
       "title": "କେୟାର ହୋମ୍, ଲାଇବ୍ରେରୀ ଓ ସହାୟତା ଗୋଷ୍ଠୀ ପାଇଁ",
-      "seoTitle": "କେୟାର ହୋମ୍ ଓ ଗୋଷ୍ଠୀ ପାଇଁ ମାଗଣା ଡିମେନ୍ସିଆ କାର୍ଯ୍ୟକଳାପ",
-      "description": "କେୟାର ହୋମ୍, ଡେ ପ୍ରୋଗ୍ରାମ୍, ଲାଇବ୍ରେରୀ ଓ ସହାୟତା ଗୋଷ୍ଠୀ ଆମ ମାଗଣା ଡିମେନ୍ସିଆ ଖେଳ କିପରି ବ୍ୟବହାର କରନ୍ତି, ଏବଂ ଆମକୁ ସୂଚୀରେ ଯୋଡ଼ିବା ପାଇଁ ଲେଖା।",
+      "seoTitle": "ଯତ୍ନ ଗୃହ, ପାଠାଗାର ଓ ଗୋଷ୍ଠୀ ପାଇଁ ମାଗଣା କାର୍ଯ୍ୟକଳାପ",
+      "description": "ଯତ୍ନ ଗୃହ, ବୟସ୍କ ଦିବା କାର୍ଯ୍ୟକ୍ରମ, ପାଠାଗାର, ବୟସ ସଂସ୍ଥା ଓ ସହାୟତା ଗୋଷ୍ଠୀ କିପରି ଆମର ମାଗଣା ଖେଳ ଓ କାର୍ଯ୍ୟକଳାପ ମାର୍ଗଦର୍ଶିକା ବ୍ୟବହାର କରନ୍ତି, ଏବଂ ଏକ ଉତ୍ସ ତାଲିକାରେ ଆମକୁ ଯୋଡ଼ିବା ପାଇଁ ପାଠ୍ୟ।",
       "crumb": "ସଂସ୍ଥା ପାଇଁ",
       "lede": "ଏହି ସାଇଟ୍‌ର ସବୁକିଛି ବାସିନ୍ଦା, ସଦସ୍ୟ ଓ ଗ୍ରାହକଙ୍କ ସହ ମାଗଣା ବ୍ୟବହାର କରିହେବ, କୌଣସି ଆକାଉଣ୍ଟ, ଲାଇସେନ୍ସ କିମ୍ବା ଶୁଳ୍କ ନାହିଁ। ଏହି ପୃଷ୍ଠା ବୁଝାଏ ଏଠାରେ କ’ଣ ଅଛି ଓ ତାହା କିପରି ବାଣ୍ଟିବେ।",
-      "shortText": "{name}: ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତି ଓ ସେମାନଙ୍କ ଯତ୍ନକାରୀଙ୍କ ପାଇଁ ମାଗଣା, କୋମଳ ଛବି ଖେଳ ଓ କାର୍ଯ୍ୟକଳାପ ଗାଇଡ୍। ସାଇନ୍-ଅପ୍ ନାହିଁ, ଟାଇମର୍ ନାହିଁ, ସ୍କୋର୍ ନାହିଁ।",
-      "longText": "{name} ({domain}) ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ ତିଆରି {count}ଟି ମାଗଣା ବ୍ରାଉଜର ଖେଳ ଦିଏ, ଯେଉଁଥିରେ ଛବି ଦେଖାଯାଉଥିବା ମେଳ ଯୋଡ଼ି, ଏକ ସହଜ ଜିଗ୍‌ସ, ବାଛି ରଖିବା, ଜଣାଶୁଣା ପ୍ରବାଦ ଓ ପ୍ରିଣ୍ଟ କରିବା ଯୋଗ୍ୟ କାର୍ଡ ସହ ଛବି ବିଙ୍ଗୋ ଅଛି। କୌଣସି ଆକାଉଣ୍ଟ, ବିଜ୍ଞାପନ, ଟାଇମର୍ କିମ୍ବା ସ୍କୋର୍ ନାହିଁ। ସାଇଟ୍‌ରେ ଡିମେନ୍ସିଆର ପ୍ରତ୍ୟେକ ପର୍ଯ୍ୟାୟ ପାଇଁ ସରଳ ଭାଷାରେ କାର୍ଯ୍ୟକଳାପ ଗାଇଡ୍ ମଧ୍ୟ ଅଛି, ଯାହା National Institute on Aging ଓ Alzheimer's Association କୁ ଉଦ୍ଧୃତ କରେ।",
+      "shortText": "{name}: ବୟସ୍କ, ପରିବାର ଓ ଡିମେନସିଆ ସହିତ ରହୁଥିବା ଲୋକଙ୍କ ପାଇଁ ମାଗଣା, ଶାନ୍ତ ଛବି ଖେଳ ଓ କାର୍ଯ୍ୟକଳାପ ମାର୍ଗଦର୍ଶିକା। ସାଇନ-ଅପ୍ ନାହିଁ, ଟାଇମର ନାହିଁ, ସ୍କୋର ନାହିଁ।",
+      "longText": "{name} ({domain}) ଏକ୍‌ଗୁଡ଼ିକ ପ୍ରବୀଣ ବୟସ୍କ, ପରିବାର ଓ ଡିମେନସିଆ ସହ ବସବାସ କରୁଥିବା ଲୋକଙ୍କ ପାଇଁ {count}ଟି ମାଗଣା ବ୍ରାଉଜର ଖେଳ ଦିଏ, ଯେଉଁଥିରେ ଛବି ଦେଖାଯାଉଥିବା ମିଳାଣ ଯୋଡ଼ି, ସହଜ ଜିଗ୍‌ସଅ, ବାଛିବା କାମ, ପରିଚିତ କଥା ଓ ଛପାଯାଇପାରୁଥିବା କାର୍ଡ ସହ ଛବି ବିଙ୍ଗୋ ଅନ୍ତର୍ଭୁକ୍ତ। ଏଥିରେ କୌଣସି ଆକାଉଣ୍ଟ, ବିଜ୍ଞାପନ, ସମୟ ଗଣନା କିମ୍ବା ସ୍କୋର ନାହିଁ। ସାଇଟ୍‌ରେ ପରିବାର, ପ୍ରବୀଣ ବୟସ୍କ ଓ କର୍ମଚାରୀଙ୍କ ପାଇଁ ସରଳ ଭାଷାରେ କାର୍ଯ୍ୟକଳାପ ଗାଇଡ୍ ମଧ୍ୟ ଅଛି, ଯେଉଁଥିରେ ନ୍ୟାସନାଲ ଇନଷ୍ଟିଚ୍ୟୁଟ୍ ଅଫ୍ ଏଜିଂ ଓ ଆଲଜାଇମର୍ସ ଆସୋସିଏସନ୍ ଭଳି ଉତ୍ସ ଉଲ୍ଲେଖ ଅଛି।",
       "useTitle": "ସଂସ୍ଥାମାନେ କ’ଣ ବ୍ୟବହାର କରିପାରିବେ",
       "gamesItemHtml": "<strong>{count}ଟି ବ୍ରାଉଜର ଖେଳ</strong> ଯାହା ଲାପଟପ୍, ଟାବଲେଟ୍ କିମ୍ବା କମ୍ପ୍ୟୁଟର ସହ ଯୋଡ଼ାଯାଇଥିବା ଟିଭିରେ ଚାଲେ। କୌଣସି ଇନଷ୍ଟଲ୍, ଆକାଉଣ୍ଟ କିମ୍ବା ଡାଉନଲୋଡ୍ ନାହିଁ। <a href=\"/games/\">ସବୁ ଖେଳ</a> ଦେଖନ୍ତୁ।",
       "printablesLabel": "{count}ଟି ପ୍ରିଣ୍ଟେବଲ୍:",
       "printablesAfter": "ପ୍ରତ୍ୟେକ ପୃଷ୍ଠାରେ ପ୍ରିଣ୍ଟ ବଟନ୍ ବ୍ୟବହାର କରନ୍ତୁ।",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>ଗୋଷ୍ଠୀ ଫର୍ମାଟ୍:</strong> <a href=\"/games/picture-bingo/\">ଛବି ବିଙ୍ଗୋ</a>ରେ ଛପାଯାଇପାରୁଥିବା କାର୍ଡ ଓ ସ୍କ୍ରିନ୍ ଉପରେ ଡାକନ୍ତି ଥାଏ, ଏବଂ <a href=\"/together/conversation-games-for-all-ages/\">କଥାବାର୍ତ୍ତା ଖେଳ</a>ରେ ଉତ୍ତର ବିକଳ୍ପ ଥିବା ପ୍ରଶ୍ନ ଓ ଆଲୋଚନା ପାଇଁ ବିଷୟ ମିଳେ।</li><li><strong>କାର୍ଯ୍ୟକଳାପ ଗାଇଡ୍</strong> କର୍ମଚାରୀ ଓ ପରିବାର ପାଇଁ, ଉତ୍ସ ସହ ସରଳ ଭାଷାରେ ଲେଖା। <a href=\"/activities/ideas/\">101ଟି କାର୍ଯ୍ୟକଳାପ ଧାରଣା</a> କିମ୍ବା <a href=\"/crafts/craft-group-sessions/\">ଯତ୍ନ ଗୃହ ପାଇଁ ଗୋଷ୍ଠୀ କାର୍ଯ୍ୟକଳାପ</a>ରୁ ଆରମ୍ଭ କରନ୍ତୁ।</li>",
       "restHtml": "<h2>ଗୋଷ୍ଠୀ ଏହାକୁ କିପରି ବ୍ୟବହାର କରନ୍ତି</h2><ul><li><strong>କେୟାର ହୋମ୍ ଓ ମେମୋରୀ କେୟାର:</strong> ସାଧାରଣ କକ୍ଷର ଟିଭିରେ ଛବି ବିଙ୍ଗୋ କିମ୍ବା ପ୍ରବାଦ ପୂରଣ, ଗୋଷ୍ଠୀ ପାଇଁ ଜଣେ ଟ୍ୟାପ୍ କରନ୍ତି।</li><li><strong>ବୟସ୍କ ଦିନିକିଆ କାର୍ଯ୍ୟକ୍ରମ:</strong> ଚାରିଟି ଟାଇଲ୍ ସହ ‘ଛବି ଯୋଡ଼ି’ ସେଟ୍ ହୋଇଥିବା ଏକ ଟାବଲେଟ୍ ସ୍ଥାନ, ଛୋଟ ଏକ-ଏକ ସତ୍ର ପାଇଁ।</li><li><strong>ସାର୍ବଜନୀନ ଲାଇବ୍ରେରୀ:</strong> ମେମୋରୀ କିଟ୍‌ରେ ପ୍ରିଣ୍ଟ କରାଯାଇଥିବା ଶବ୍ଦ ଖୋଜା ଓ କଥାବାର୍ତ୍ତା କାର୍ଡ, ଏବଂ ଲାଇବ୍ରେରୀ ଟାବଲେଟ୍‌ରେ ସାଇଟ୍ ବୁକମାର୍କ୍।</li><li><strong>ଯତ୍ନକାରୀ ସହାୟତା ଗୋଷ୍ଠୀ ଓ ମେମୋରୀ କାଫେ:</strong> ପରିବାର ଘରକୁ ନେବା ପାଇଁ <a href=\"/handout/\">ଏକ ପୃଷ୍ଠାର ପ୍ରିଣ୍ଟେବଲ୍ ହ୍ୟାଣ୍ଡଆଉଟ୍</a>।</li><li><strong>ହସ୍ପିଟାଲ୍ ଓ ଡିସ୍‌ଚାର୍ଜ ଯୋଜନାକାରୀ:</strong> ଯତ୍ନକାରୀ ପ୍ୟାକେଟ୍‌ରେ ହ୍ୟାଣ୍ଡଆଉଟ୍, ଘରେ କିମ୍ବା ଶଯ୍ୟା ପାଖରେ କିଛି ଶାନ୍ତ କରିବା ପାଇଁ।</li></ul><h2>ଆମେ କ’ଣ କରୁନାହୁଁ</h2><p>ଖେଳଗୁଡ଼ିକ ଆନନ୍ଦ ଓ ମିଶି ସମୟ କଟାଇବା ପାଇଁ। ଏଗୁଡ଼ିକ ଡିମେନ୍ସିଆର ନିର୍ଣ୍ଣୟ, ପରୀକ୍ଷା, ସ୍କୋର୍, ଚିକିତ୍ସା କିମ୍ବା ମନ୍ଥର କରେ ନାହିଁ, ଏବଂ ଆମେ ସଂସ୍ଥାମାନଙ୍କୁ ଏହାକୁ ସେପରି ବର୍ଣ୍ଣନା ନକରିବାକୁ ଅନୁରୋଧ କରୁ। କୌଣସି ବିଜ୍ଞାପନ ନାହିଁ, ଏବଂ ଖେଳଗୁଡ଼ିକ ନାମ, ସ୍ୱାସ୍ଥ୍ୟ ବିବରଣୀ କିମ୍ବା ଫଟୋ ଅପଲୋଡ୍ କରିବାକୁ କହେ ନାହିଁ। ୱେବସାଇଟ୍ ପରିଦର୍ଶନ ଗଣିବା ପାଇଁ Google Analytics ବ୍ୟବହାର କରେ; ଆମର <a href=\"/privacy/\">ଗୋପନୀୟତା ବିଜ୍ଞପ୍ତି</a> ତାହା କ’ଣ ସଂଗ୍ରହ କରେ ବୁଝାଏ। <a href=\"/games/photo-pairs/\">ଫଟୋ ଯୋଡ଼ି</a>ରେ ବ୍ୟବହୃତ ଫଟୋ ବ୍ରାଉଜରରେ ରହେ।</p><h2>ଆମକୁ ଆପଣଙ୍କ ସୂଚୀରେ ଯୋଡ଼ନ୍ତୁ</h2><p>ଆପଣ ଯତ୍ନକାରୀଙ୍କ ପାଇଁ ସମ୍ବଳର ସୂଚୀ ରଖିଥିଲେ, <a href=\"/\">{domain}</a> କୁ ଲିଙ୍କ୍ କରିବାକୁ ଆପଣଙ୍କୁ ସ୍ୱାଗତ। ଆପଣ ଯେକୌଣସି ବର୍ଣ୍ଣନା କପି କରିପାରିବେ।</p>",
       "shortTitle": "ସଂକ୍ଷିପ୍ତ ବର୍ଣ୍ଣନା",
       "longTitle": "ବିସ୍ତୃତ ବର୍ଣ୍ଣନା",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>ସିଧାସଳଖ ଲିଙ୍କ୍ କରିବା ପାଇଁ ଉପଯୋଗୀ ପୃଷ୍ଠାଗୁଡ଼ିକ: <a href=\"/games/\">ମାଗଣା ଖେଳ</a>, <a href=\"/games/\">ମାଗଣା ଛପାଯାଇପାରୁଥିବା ସାମଗ୍ରୀ</a>, <a href=\"/dementia-activities/\">ଘରେ ଡିମେନସିଆ କାର୍ଯ୍ୟକଳାପ</a> ଏବଂ <a href=\"/caregiving/how-to-play-together/\">ଏକତ୍ର କିପରି ଖେଳିବେ</a>।</p><h2>ପ୍ରଶ୍ନ ବା ସଂଶୋଧନ</h2><p>ସାଇଟ୍‌ରେ କିଛି ଭୁଲ ବା ଅସ୍ପଷ୍ଟ ଥିଲେ, କିମ୍ବା କୌଣସି ବାସିନ୍ଦାଙ୍କ ଆବଶ୍ୟକତା ଏଠାରେ ଥିବା ସାମଗ୍ରୀ ଦ୍ୱାରା ପୂରଣ ନହେଲେ, ଦୟାକରି <a href=\"mailto:{email}\">{email}</a>ରେ ଆମକୁ ଜଣାନ୍ତୁ। ଦୟାକରି ବାସିନ୍ଦା ବା ଗ୍ରାହକଙ୍କ ବ୍ୟକ୍ତିଗତ ବା ସ୍ୱାସ୍ଥ୍ୟ ସୂଚନା ପଠାନ୍ତୁ ନାହିଁ।</p>"
     },
     "app": {
       "title": "Creative Activities ଆପ୍",
@@ -436,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "ମାଗଣା ଡିମେନ୍ସିଆ ଓ ଆଲଜାଇମର ଖେଳ ଅନଲାଇନ୍",
-    "description": "ଡିମେନ୍ସିଆ କିମ୍ବା ଆଲଜାଇମର ଥିବା ବୟସ୍କଙ୍କ ପାଇଁ ମାଗଣା ଅନଲାଇନ୍ ଖେଳ: ଛବି ମେଳ, ସହଜ ଜିଗ୍‌ସ, ବାଛି ରଖିବା, ପ୍ରବାଦ, ରଙ୍ଗ ଭରିବା, ବିଙ୍ଗୋ। ସାଇନ୍-ଅପ୍, ଟାଇମର୍ ବା ସ୍କୋର୍ ନାହିଁ।",
+    "title": "ଏକତ୍ର ଅନଲାଇନ୍ ଖେଳିବା ପାଇଁ ମାଗଣା ଖେଳ",
+    "description": "ପ୍ରବୀଣ ବୟସ୍କ, ପରିବାର ଓ ଡିମେନସିଆ ସହ ବସବାସ କରୁଥିବା ଲୋକଙ୍କ ପାଇଁ ମାଗଣା ଅନଲାଇନ୍ ଖେଳ: ଛବି ମିଳାଣ, ସହଜ ଜିଗ୍‌ସଅ, ବାଛିବା କାମ, କଥା, ରଙ୍ଗ ଭରିବା ଓ ବିଙ୍ଗୋ। ସାଇନ୍-ଅପ୍, ସମୟ ଗଣନା କିମ୍ବା ସ୍କୋର ନାହିଁ।",
     "crumb": "ଖେଳ",
-    "h1": "ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ କୋମଳ ଖେଳ",
+    "h1": "ଏକତ୍ର ଖେଳିବା ପାଇଁ ମୃଦୁ ଖେଳ",
     "lede": "ଆପଣଙ୍କ ବ୍ରାଉଜରରେ ମିଶି ଖେଳିବା ପାଇଁ {count}ଟି ମାଗଣା ଖେଳ। ବଡ଼ ଛବି, ସରଳ ଶବ୍ଦ, ଏବଂ ଫେଲ୍ ହେବାର କିଛି ନାହିଁ: ଟାଇମର୍ ନାହିଁ, ସ୍କୋର୍ ନାହିଁ, ସାଇନ୍-ଅପ୍ ନାହିଁ।",
-    "listName": "ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ପାଇଁ କୋମଳ ଖେଳ",
+    "listName": "ଏକତ୍ର ଖେଳିବା ପାଇଁ ମୃଦୁ ଖେଳ",
     "byStageTitle": "ପର୍ଯ୍ୟାୟ ଅନୁସାରେ ଖେଳ ବାଛିବା",
     "byStageLede": "ପର୍ଯ୍ୟାୟ କେବଳ ଏକ ମୋଟାମୋଟି ମାର୍ଗଦର୍ଶନ। ବ୍ୟକ୍ତି ଯାହା ଉପଭୋଗ କରନ୍ତି ଓ ଆଜି ଯାହା ଆରାମଦାୟକ ଲାଗେ ତାହାକୁ ଅନୁସରଣ କରନ୍ତୁ।",
     "stageCol": "ପର୍ଯ୍ୟାୟ",
     "gamesCol": "ପ୍ରାୟତଃ ଉପଯୁକ୍ତ ଖେଳ",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "ସ୍କ୍ରିନ୍‌ରୁ ଦୂରରେ ଥିବା ଅଧିକ ଧାରଣା: <a href=\"/activities/ideas/\">101ଟି କାର୍ଯ୍ୟକଳାପ ଧାରଣା</a>, <a href=\"/dementia-activities/\">ଘରେ ଡିମେନସିଆ କାର୍ଯ୍ୟକଳାପ</a> ଏବଂ <a href=\"/crafts/\">ହସ୍ତଶିଳ୍ପ</a>।",
     "faq": [
       {
         "q": "ଆମେ କେଉଁ ଖେଳରୁ ଆରମ୍ଭ କରିବା?",
@@ -462,7 +593,7 @@
       },
       {
         "q": "ଏଗୁଡ଼ିକ କ’ଣ ବୟସ୍କଙ୍କ ପାଇଁ ସ୍ମୃତି ଖେଳ?",
-        "a": "ଏଗୁଡ଼ିକ ମେଳ ଓ ଛବି ଖେଳ ଯାହା ଯେକୌଣସି ବୟସ୍କ ଉପଭୋଗ କରିପାରିବେ, କିନ୍ତୁ ଏଗୁଡ଼ିକ ସ୍ମୃତି ପରୀକ୍ଷା ନକରିବା ପାଇଁ ତିଆରି: ‘ଛବି ଯୋଡ଼ି’ରେ ଆପଣ ଅନ୍ୟଥା ନବାଛିଲେ ଛବି ଉପରମୁହାଁ ରହେ। ଡିମେନ୍ସିଆ ଥିବା ବୟସ୍କଙ୍କ ପାଇଁ ସ୍ମୃତି ଖେଳ ଉପରେ ଆମ ଗାଇଡ୍ ବୁଝାଏ କିପରି ଯେକୌଣସି ସ୍ମୃତି ଖେଳକୁ କୋମଳ ରଖିବେ।"
+        "a": "ଏଗୁଡ଼ିକ ମିଳାଣ ଓ ଛବି ଖେଳ, ଯାହା ଯେକୌଣସି ପ୍ରବୀଣ ବୟସ୍କ ଉପଭୋଗ କରିପାରିବେ, କିନ୍ତୁ ସେଗୁଡ଼ିକ ସ୍ମୃତି ପରୀକ୍ଷା କରିବା ପାଇଁ ତିଆରି ନୁହେଁ: ଛବି ଯୋଡ଼ି ଖେଳରେ ଆପଣ ଅନ୍ୟ ଭାବେ ନ ବାଛିଲେ ଛବିଗୁଡ଼ିକ ଉପରକୁ ମୁହଁ କରି ରହେ। ଯେକୌଣସି ସ୍ମୃତି ଖେଳକୁ ସମୟ ଗଣନା ଓ ସ୍କୋର ହଟାଇ ଅଧିକ ମୃଦୁ କରାଯାଇପାରେ।"
       },
       {
         "q": "କେୟାର ହୋମ୍‌ର ଗୋଷ୍ଠୀ ପାଇଁ ଖେଳ ଅଛି କି?",
@@ -483,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "ଡିମେନ୍ସିଆ କାର୍ଯ୍ୟକଳାପ ପାଇଁ କୌଣସି ଆପ୍ ଅଛି କି?",
+        "q": "ପ୍ରବୀଣ ବୟସ୍କ ଓ ପରିବାର ପାଇଁ କୌଣସି ଆପ୍ ଅଛି କି?",
         "a": "ହଁ। Creative Activities (ଷ୍ଟୋରରେ “{storeName}” ନାମରେ) App Store ଓ Google Play ରେ ମାଗଣା। ଏହା ବଡ଼ ଟାଇଲ୍ ସହ କୋମଳ ଛବି ମେଳ, ଆପଣ ବାଛିଥିବା ପରିବାର ଫଟୋ ସହ ଖେଳ, ଏବଂ ଅଫଲାଇନ୍‌ରେ ଚାଲୁଥିବା ଛବି ପ୍ୟାକ୍ ଦିଏ।"
       },
       {
@@ -525,7 +656,7 @@
     "printable": "ପ୍ରିଣ୍ଟ କରିବା ଯୋଗ୍ୟ",
     "howTo": "{name} କିପରି ଖେଳିବେ",
     "tips": "ମିଶି ଖେଳିବା ପାଇଁ ପରାମର୍ଶ",
-    "newToPlayingHtml": "ଡିମେନ୍ସିଆ ଥିବା ବ୍ୟକ୍ତିଙ୍କ ସହ ଖେଳିବାରେ ନୂଆ? <a href=\"/caregiving/how-to-play-together/\">ମିଶି ଖେଳ କିପରି ଖେଳିବେ</a> ପଢ଼ନ୍ତୁ, ସେମାନେ ଆଗ୍ରହ ହରାଇଲେ କ’ଣ କରିବେ ତାହା ସହିତ।",
+    "newToPlayingHtml": "ପ୍ରବୀଣ ବୟସ୍କ ବା ଡିମେନସିଆ ସହ ବସବାସ କରୁଥିବା ବ୍ୟକ୍ତିଙ୍କ ସହ ଖେଳିବାରେ ନୂଆ କି? ଏକତ୍ର ଖେଳ କିପରି ଖେଳିବେ ପଢ଼ନ୍ତୁ, ଯେଉଁଥିରେ ସେମାନେ ଆଗ୍ରହ ହରାଇଲେ କଣ କରିବେ ତାହା ମଧ୍ୟ ଅଛି: <a href=\"/caregiving/how-to-play-together/\">ଏକତ୍ର ଖେଳ କିପରି ଖେଳିବେ</a>।",
     "moreAria": "ଆହୁରି ଦେଖିବା ପାଇଁ",
     "helpfulGuides": "ଉପଯୋଗୀ ଗାଇଡ୍",
     "appTitle": "ଆପ୍‌ରେ ଖେଳନ୍ତୁ",
@@ -535,6 +666,35 @@
     "goodToKnow": "ଜାଣିବା ଭଲ",
     "goodToKnowText": "ଏହି ଖେଳ ଆନନ୍ଦ ଓ ମିଶି ସମୟ କଟାଇବା ପାଇଁ। ଏହା କିଛି ପରୀକ୍ଷା, ମାପ କିମ୍ବା ଚିକିତ୍ସା କରେ ନାହିଁ।",
     "moreGames": "ଆହୁରି କୋମଳ ଖେଳ",
-    "crumb": "ଖେଳ"
+    "crumb": "ଖେଳ",
+    "print": {
+      "heading": "କାଗଜରେ ଖେଳନ୍ତୁ",
+      "sameRules": "କାଗଜ ସଂସ୍କରଣରେ ସ୍କ୍ରିନ୍ ଖେଳ ପରି ସମାନ ନିୟମ ଅଛି:",
+      "button": "କାଗଜ ସଂସ୍କରଣ ଛାପନ୍ତୁ",
+      "pageNote": "A4 କିମ୍ବା US Letter ରେ ଏକ ପୃଷ୍ଠା, କଳା-ଧଳାରେ ମଧ୍ୟ ଠିକ୍। ସଂସ୍କରଣ {date}।",
+      "islandNote": "ସ୍କ୍ରିନ୍ ଉପରେ ବର୍ତ୍ତମାନ ଥିବା ବିଷୟ ଛପାଯାଏ। ସଂସ୍କରଣ {date}।",
+      "sheetTitle": "{name}: କାଗଜ ସଂସ୍କରଣ",
+      "point": "କାଗଜରେ, ଛବିକୁ ଟ୍ୟାପ୍ କରିବା ବଦଳରେ ଆଙ୍ଗୁଳିରେ ଦେଖାନ୍ତୁ, କିମ୍ବା କଲମରେ ଘେରନ୍ତୁ। ପ୍ରତ୍ୟେକ ଧାଡ଼ି ଏକ ନୂଆ ସେଟ୍।",
+      "pointTarget": "କାଗଜରେ, ଦେଖିବା ପାଇଁ ଛବିଟି ପ୍ରତ୍ୟେକ ଧାଡ଼ିର ଆରମ୍ଭରେ ଥିବା ବାକ୍ସରେ ଅଛି। ଛବିକୁ ଟ୍ୟାପ୍ କରିବା ବଦଳରେ ଆଙ୍ଗୁଳିରେ ଦେଖାନ୍ତୁ, କିମ୍ବା କଲମରେ ଘେରନ୍ତୁ।",
+      "halves": "ପ୍ରତ୍ୟେକ ଛବି ମଝିରୁ କଟାଯାଇଛି। ବାମ ପାଖର ପ୍ରତ୍ୟେକ ଅଂଶରୁ ଡାହାଣ ପାଖର ସେଥିରେ ଫିଟ୍ ହେଉଥିବା ଅଂଶ ପର୍ଯ୍ୟନ୍ତ ଏକ ଲାଇନ୍ ଟାଣନ୍ତୁ, କିମ୍ବା ଆଙ୍ଗୁଳିରେ ଦେଖାନ୍ତୁ। କିଛି କାଟିବାର ଆବଶ୍ୟକତା ନାହିଁ।",
+      "grid": "ପ୍ରତ୍ୟେକ ବର୍ଗରେ ଏକ ନମ୍ବର ଅଛି। ସେ ନମ୍ବରକୁ ଚାବିରେ ଖୋଜନ୍ତୁ, ଏବଂ ସେ ରଙ୍ଗର ପେନ୍ସିଲରେ ବର୍ଗଟି ରଙ୍ଗ କରନ୍ତୁ। ଅନ୍ୟ ଯେକୌଣସି ରଙ୍ଗ ମଧ୍ୟ ଠିକ୍। କିଛି କାଟିବାର ଆବଶ୍ୟକତା ନାହିଁ।",
+      "colors": "ପ୍ରତ୍ୟେକ ଧାଡ଼ି ଏକ ରଙ୍ଗର ନାମ ଦିଏ। ସେ ରଙ୍ଗର ପ୍ରତ୍ୟେକ ଛବିକୁ ଆଙ୍ଗୁଳିରେ ଦେଖାନ୍ତୁ, କିମ୍ବା କଲମରେ ଘେରନ୍ତୁ। ପ୍ରତ୍ୟେକ ଧାଡ଼ି ଏକ ନୂଆ ସେଟ୍।",
+      "dice": "ପ୍ରତ୍ୟେକ ଧାଡ଼ି ପାଶାର ଏକ ସେଟ୍। ଏକ ଧାଡ଼ି ବାଛନ୍ତୁ, କିମ୍ବା ଛବିଗୁଡ଼ିକ କାଟି ଗଦାରୁ କିଛି ଟାଣନ୍ତୁ, ଏବଂ ସେଗୁଡ଼ିକୁ ଯେକୌଣସି କ୍ରମରେ ବ୍ୟବହାର କରି ଏକ କାହାଣୀ କୁହନ୍ତୁ। କେହି ବି ଛାଡ଼ି ଦେଇପାରନ୍ତି।",
+      "words": "ଶବ୍ଦଗୁଡ଼ିକ କାଟନ୍ତୁ, କିମ୍ବା ପ୍ରତ୍ୟେକ ଶବ୍ଦରୁ ତାର ଛବି ପର୍ଯ୍ୟନ୍ତ ଏକ ଲାଇନ୍ ଟାଣନ୍ତୁ। ଆଗକୁ ବଢ଼ିବା ସମୟରେ ଶବ୍ଦଗୁଡ଼ିକ ଉଚ୍ଚ ସ୍ୱରରେ ପଢ଼ନ୍ତୁ।",
+      "cards": "ଡଟେଡ୍ ଲାଇନ୍ ଅନୁସାରେ କାର୍ଡଗୁଡ଼ିକ କାଟନ୍ତୁ। ସେଗୁଡ଼ିକୁ ଟେବୁଲ୍ ଉପରେ ମୁହଁ ଉପରକୁ କରି ରଖନ୍ତୁ, ତା'ପରେ ଯୋଡ଼ି ଖୋଜନ୍ତୁ।",
+      "chain": "କାଗଜରେ, ଛବିଗୁଡ଼ିକୁ ବାମରୁ ଡାହାଣକୁ, ଗୋଟିପରେ ଗୋଟି ପଢ଼ନ୍ତୁ। ପ୍ରତ୍ୟେକ ଜଣେ ଏପର୍ଯ୍ୟନ୍ତ ଥିବା ଛବିଗୁଡ଼ିକ ବିଷୟରେ ଗୋଟିଏ ବାକ୍ୟ କହନ୍ତି, ତା'ପରେ ପରବର୍ତ୍ତୀ ଛବି ଦେଖାନ୍ତି। କେହି ବି ଛାଡ଼ି ଦେଇପାରନ୍ତି।",
+      "sort": "ଡଟେଡ୍ ଲାଇନ୍ ଅନୁସାରେ ଛବିଗୁଡ଼ିକ କାଟନ୍ତୁ, ତା'ପରେ ପ୍ରତ୍ୟେକକୁ ଯେଉଁ ବାକ୍ସରେ ସେ ଠିକ୍ ସେଠାରେ ରଖନ୍ତୁ।",
+      "puzzle": "ଡଟେଡ୍ ଲାଇନ୍ ଅନୁସାରେ ବଡ଼ ଛବିକୁ ଚାରି ଅଂଶରେ କାଟି ମିଶାନ୍ତୁ। ଛବି ସମ୍ପୂର୍ଣ୍ଣ ନହେଲା ପର୍ଯ୍ୟନ୍ତ ଏକ ସମୟରେ ଦୁଇଟି ଅଂଶ ବଦଳାନ୍ତୁ। ଛୋଟ ଛବିଟି ଏକ ମାର୍ଗଦର୍ଶକ।",
+      "cutSafety": "ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ ଜଣେ ସହାୟକ କାଟିପାରନ୍ତି। ପରେ କଞ୍ଚି ଦୂରରେ ରଖନ୍ତୁ।",
+      "version": "ସଂସ୍କରଣ {date} · {url}",
+      "reasons": {
+        "photos": "ଏଥିର କୌଣସି କାଗଜ ସଂସ୍କରଣ ନାହିଁ। ଏହି ଖେଳ ଆପଣଙ୍କ ନିଜର ଫଟୋ ବ୍ୟବହାର କରେ, ଯାହା ଆପଣଙ୍କ ବ୍ରାଉଜରରେ ରହେ ଏବଂ କଦାପି ଅପଲୋଡ୍ ହୁଏ ନାହିଁ, ତେଣୁ ସାଇଟ୍ ସେଗୁଡ଼ିକ ଛାପି ପାରିବ ନାହିଁ। କାଗଜରେ ଖେଳିବା ପାଇଁ ଘରେ କିଛି ପ୍ରିୟ ଫଟୋର ଦୁଇ କପି ଛାପନ୍ତୁ ଏବଂ ଟେବୁଲ୍ ଉପରେ ସେଗୁଡ଼ିକୁ ମିଳାନ୍ତୁ।",
+        "paced": "ଏଥିର କୌଣସି କାଗଜ ସଂସ୍କରଣ ନାହିଁ। ସର୍କଲ୍ ସ୍କ୍ରିନ୍ ଉପରେ ଏକ ଧୀର, ସ୍ଥିର ଗତି ସେଟ୍ କରେ, ଏବଂ ଛାପା ପୃଷ୍ଠା ତାହା କରିପାରେ ନାହିଁ, ତେଣୁ ତାହା ଏକ ଭିନ୍ନ କାର୍ଯ୍ୟକଳାପ ହୋଇଯିବ। ସ୍କ୍ରିନ୍ ବିନା ଏକତ୍ର ଶାନ୍ତ ବିରାମ ସର୍ବଦା ଏକ ବିକଳ୍ପ।",
+        "turns": "ଏହି ଖେଳର କୌଣସି କାଗଜ ସଂସ୍କରଣ ନାହିଁ। ଟେବୁଲ୍ ଉପରେ ଯୋଡ଼ି ଖୋଜିବା ପାଇଁ, ଛବି ଯୋଡ଼ି ଖେଳରୁ ଛବି କାର୍ଡ ଛାପନ୍ତୁ ଏବଂ ପାଳିରେ ସେଗୁଡ଼ିକୁ ଓଲଟାନ୍ତୁ।",
+        "screen": "ପେପର ଭର୍ସନ୍ ନାହିଁ। ଏହା ଏକ ଚିତ୍ର ଯାହା ସ୍କ୍ରିନ୍ ରେ ମିଶି ଦେଖିବାକୁ ହୁଏ; ଟେବୁଲ୍ ଉପରେ ଏକ ପ୍ରିୟ ଫଟୋ କିମ୍ବା ପୋଷ୍ଟକାର୍ଡ ରଖିଲେ ମଧ୍ୟ ସେହି କାମ ହୁଏ।",
+        "wash": "ପେପର ଭର୍ସନ୍ ନାହିଁ। କାଗଜ ଉପରେ ୱାଟରକଲର୍ ମଧ୍ୟ ସେହି ଧାରଣା: ଓଦା ବ୍ରଶ୍ ଓ ଥରକେ ଗୋଟିଏ ରଙ୍ଗ।",
+        "sayings": "ଏବେ ପେପର ଭର୍ସନ୍ ନାହିଁ। କାଗଜରେ ପ୍ରତ୍ୟେକ ଶେଷ ଏକାସାଙ୍ଗରେ ଦେଖାଯିବ, ଏବଂ ଧୀରେ \"ଶେଷ ଦେଖାନ୍ତୁ\" ପଦକ୍ଷେପ ହଜିଯିବ। ସ୍କ୍ରିନ୍ ରୁ ଏକତ୍ର ପଢନ୍ତୁ, କିମ୍ବା ଆପଣ ଦୁହିଁଙ୍କ ଜଣାଥିବା କିଛି ବାକ୍ୟ ପରସ୍ପର ସହ ବାଣ୍ଟନ୍ତୁ।"
+      }
+    }
   }
 }
