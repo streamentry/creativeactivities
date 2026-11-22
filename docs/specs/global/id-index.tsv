@@ -52,7 +52,7 @@ WEB-050	P1	S2	partial	03-features-web.md	Share a card
 WEB-051	P1	S2	partial	03-features-web.md	Games filters
 WEB-052	P1	S2	partial	03-features-web.md	Printable partner on each game page
 WEB-053	P1	S2	partial	03-features-web.md	Difficulty without scores
-WEB-054	P0	S2	exists	03-features-web.md	Stop and rest on every game
+WEB-054	P0	S2	partial	03-features-web.md	Stop and rest on every game
 WEB-055	P0	S1	exists	03-features-web.md	Family photos stay on the device
 WEB-056	P0	S1	exists	03-features-web.md	Structured data that matches visible content
 WEB-057	P0	S1	partial	03-features-web.md	Byline and reviewer block
@@ -75,22 +75,22 @@ WEB-073	P0	S2	partial	03-features-web.md	Image consent and rights log
 WEB-074	P0	S1	partial	03-features-web.md	Performance budget
 WEB-075	P0	S2	exists	03-features-web.md	Accessibility tests in CI
 WEB-076	P1	S2	partial	03-features-web.md	Due-for-review queue
-APP-014	P0	S2	new	04-features-app.md	App-to-website handoff: every activity links to its full guide
+APP-014	P0	S2	partial	04-features-app.md	App-to-website handoff: every activity links to its full guide
 APP-018	P0	S2	partial	04-features-app.md	Screen-reader-first activity reading
 APP-019	P0	S2	partial	04-features-app.md	First run asks for nothing
 APP-001	P1	S2	partial	04-features-app.md	Offline activity cards (bundled subset)
 APP-002	P1	S2	new	04-features-app.md	Print an activity card or pack from the app
-APP-003	P1	S2	new	04-features-app.md	Personal activity plan on the device
+APP-003	P1	S2	partial	04-features-app.md	Personal activity plan on the device
 APP-004	P1	S2	partial	04-features-app.md	On-device "We tried this" list
-APP-005	P1	S2	new	04-features-app.md	Offline finder with the website filters
+APP-005	P1	S2	partial	04-features-app.md	Offline finder with the website filters
 APP-006	P1	S2	partial	04-features-app.md	Helper mode on one device
 APP-013	P1	S2	new	04-features-app.md	Website-to-app link for offline use
 APP-011	P1	S2	new	04-features-app.md	Home-screen quick actions
-APP-020	P1	S2	new	04-features-app.md	Share an activity as text and a link
+APP-020	P1	S2	partial	04-features-app.md	Share an activity as text and a link
 APP-025	P1	S3	partial	04-features-app.md	Language status and picker
 APP-026	P1	S2	partial	04-features-app.md	Content changes only through app releases
 APP-029	P1	S2	new	04-features-app.md	Facilitator page for each card
-APP-030	P1	S2	new	04-features-app.md	I have this materials checklist
+APP-030	P1	S2	partial	04-features-app.md	I have this materials checklist
 APP-031	P1	S2	new	04-features-app.md	Picture-only card view
 APP-034	P1	S2	partial	04-features-app.md	Experiment gates
 APP-007	P2	S3	new	04-features-app.md	Care-setting kiosk
@@ -102,11 +102,11 @@ APP-015	P3	S4	new	04-features-app.md	Optional account sync for website saves
 APP-016	P2	S3	new	04-features-app.md	No-account device transfer
 APP-017	P2	S3	new	04-features-app.md	Household profiles without health data
 APP-021	P2	S2	new	04-features-app.md	Memory card image
-APP-022	P2	S2	new	04-features-app.md	Bedside mode
-APP-023	P2	S2	new	04-features-app.md	Optional haptics
+APP-022	P2	S2	partial	04-features-app.md	Bedside mode
+APP-023	P2	S2	partial	04-features-app.md	Optional haptics
 APP-024	P3	S2	partial	04-features-app.md	Dark theme after contrast check
 APP-027	P3	S3	new	04-features-app.md	Adult-set child mode
-APP-028	P2	S2	new	04-features-app.md	One-switch and keyboard play
+APP-028	P2	S2	partial	04-features-app.md	One-switch and keyboard play
 APP-032	P2	S3	new	04-features-app.md	Read-aloud for cards
 APP-033	P3	S3	new	04-features-app.md	Printable "what we did" log
 APP-035	P3	S3	new	04-features-app.md	Opt-in aggregate counts
@@ -125,7 +125,7 @@ GAME-023	P2	S3	partial	05-games.md	Word and picture pairs
 GAME-024	P3	S3	new	05-games.md	Rhyme pictures
 GAME-025	P1	S2	partial	05-games.md	Story dice
 GAME-026	P2	S2	new	05-games.md	Sound loop maker
-GAME-027	P2	S2	new	05-games.md	Keep the beat
+GAME-027	P2	S2	partial	05-games.md	Keep the beat
 GAME-028	P2	S3	new	05-games.md	Music choices
 GAME-029	P1	S2	new	05-games.md	Singing sheets
 GAME-030	P3	S3	new	05-games.md	Draw a sound
@@ -164,8 +164,8 @@ GAME-057	P3	S3	new	05-games.md	Feed the animal
 GAME-004	P1	S2	exists	05-games.md	Sort together
 GAME-005	P1	S2	exists	05-games.md	Picture puzzle (web)
 GAME-015	P1	S2	partial	05-games.md	Picture puzzle (app)
-GAME-016	P2	S2	new	05-games.md	Tap-to-place puzzle (app)
-GAME-017	P2	S2	new	05-games.md	Picture sorting (app)
+GAME-016	P2	S2	partial	05-games.md	Tap-to-place puzzle (app)
+GAME-017	P2	S2	partial	05-games.md	Picture sorting (app)
 GAME-019	P1	S2	partial	05-games.md	Large-target sort
 GAME-058	P2	S2	partial	05-games.md	Jigsaw from your photo
 GAME-059	P1	S2	new	05-games.md	Spot the difference
@@ -297,7 +297,7 @@ COM-021	P1	S2	new	11-community-ugc.md	Editorial review queue and roles
 COM-031	P0	S2	exists	11-community-ugc.md	Suggest a correction on every activity
 COM-022	P2	S3	new	11-community-ugc.md	Partner organisation pages ("Groups that use this")
 COM-023	P2	S3	new	11-community-ugc.md	Care-home coordinator feedback channel
-COM-024	P2	S2	new	11-community-ugc.md	My made list (private, on the device)
+COM-024	P2	S2	partial	11-community-ugc.md	My made list (private, on the device)
 COM-025	P2	S2	new	11-community-ugc.md	Made together printable card with credit
 COM-026	P2	S3	new	11-community-ugc.md	Curated story page (with permission)
 COM-027	P2	S3	new	11-community-ugc.md	Volunteer translation and review contributions
@@ -491,7 +491,7 @@ BIZ-014	P3	S3	new	16-business-model.md	Affiliate links (only if evidence support
 BIZ-015	P2	S4	new	16-business-model.md	App premium only for genuinely new features
 BIZ-016	P1	S2	new	16-business-model.md	Paid review and translation as a cost line
 BIZ-017	P3	S4	new	16-business-model.md	Non-clinical facilitator training
-BIZ-018	P0	S2	new	16-business-model.md	No paid child content and no in-app purchases for children
+BIZ-018	P0	S2	partial	16-business-model.md	No paid child content and no in-app purchases for children
 MET-001	P0	S2	partial	17-metrics-and-evidence.md	Confirmed activity starts ("We tried this")
 MET-002	P0	S2	new	17-metrics-and-evidence.md	Start rate
 MET-003	P1	S2	new	17-metrics-and-evidence.md	Prints, saves and shares per 1,000 card views

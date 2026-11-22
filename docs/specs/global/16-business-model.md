@@ -230,7 +230,7 @@ Risks / not doing: any course that teaches therapy techniques. Not in scope.
 ### Children
 
 ### BIZ-018 · No paid child content and no in-app purchases for children
-Priority P0 · Phase S2 · Status new · Pillars: GROW
+Priority P0 · Phase S2 · Status partial · Pillars: GROW
 Why: [R2 §5] shows that the trusted kids' apps (Khan Academy Kids, PBS KIDS, CBeebies Learn) have no ads and no purchases. [R5 §5.1] names COPPA and the UK Age Appropriate Design Code, which set high-privacy defaults and ban nudges to share data.
 What: all child-directed content is free, with no purchases inside it. No child accounts. Paid products for families (BIZ-007) are sold to adults, and their pages make no child-directed claim.
 Acceptance:

@@ -41,7 +41,7 @@ Status and existing behavior come from the [senior-first feature catalog](../sen
 
 ### APP-014 · App-to-website handoff: every activity links to its full guide
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 
 Why: The app must send people back to real activities. A link to the full guide and printable card keeps the website useful on its own ([MISSION](../../../MISSION.md), "get people off the app"; [VISION](../../../VISION.md), "app bridges").
 
@@ -139,7 +139,7 @@ Risks / not doing: No printer accounts or print-service integrations.
 
 ### APP-003 · Personal activity plan on the device
 
-Priority P1 · Phase S2 · Status new · Pillars: all, TOGETHER
+Priority P1 · Phase S2 · Status partial · Pillars: all, TOGETHER
 
 Why: A free weekly plan of three to five activities is a proven low-commitment entry point ([R2 §3 #4]). The core job is "one visit, twenty minutes" ([MISSION](../../../MISSION.md), problem statement).
 
@@ -177,7 +177,7 @@ Risks / not doing: The number must never become a target people feel they miss. 
 
 ### APP-005 · Offline finder with the website filters
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
 Why: "Fit the moment, not the demographic" is the product's second difference ([MISSION](../../../MISSION.md), "What makes us different").
 
@@ -253,7 +253,7 @@ Risks / not doing: No dynamic shortcuts that show progress or missed days.
 
 ### APP-020 · Share an activity as text and a link
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
 Why: Useful sharing is a main distribution route ([VISION](../../../VISION.md), "distribution"). File sharing is deferred (GM-022), so this item shares text only.
 
@@ -327,7 +327,7 @@ Risks / not doing: Not a training course and not clinical guidance.
 
 ### APP-030 · "I have this" materials checklist
 
-Priority P1 · Phase S2 · Status new · Pillars: MAKE, GROW
+Priority P1 · Phase S2 · Status partial · Pillars: MAKE, GROW
 
 Why: The promise is an activity that fits "what you have" ([MISSION](../../../MISSION.md), supporting promise).
 
@@ -393,11 +393,11 @@ Risks / not doing: A flag is not a decision. Promotion needs the pilot evidence.
 | APP-016 | No-account device transfer | P2 · S3 · new | Move plans and the tried list to another device by QR code or a local file. Nothing is stored on a server. The code expires. | Approval (file exchange; GM-022 deferred). APP-003, APP-004 |
 | APP-017 | Household profiles without health data | P2 · S3 · new | A nickname, favorites and plans for each person in the household. No age, diagnosis or condition field. No child accounts. | Approval. GM-020, GM-027 |
 | APP-021 | Memory card image | P2 · S2 · new | Renders "We tried this: four pairs with Grandad" on the device, for the person to save or share. No photos unless added; no identifiers. Spoiler-free by design ([R4 §3 #2]). | APP-020 |
-| APP-022 | Bedside mode | P2 · S2 · new | One large activity, a low-brightness theme, no sound by default, large controls within one-hand reach. Status 2026-11-22: built as a bedside theme in the comfort settings, from bedside tokens in DESIGN.md. Taps make no click sound in this mode. Open: the one large activity layout and the one hand reach layout are not built; the device check and the person check are not done. | GM-015, GM-016 |
-| APP-023 | Optional haptics | P2 · S2 · new | Off by default. Never the only feedback for any action. Status 2026-11-22: built. Off by default; a switch in the comfort settings turns on a selection click per tile tap, with no new permission. A refused buzz changes nothing, and a test checks that a match works with haptics refused. Device check open. | GM-015 |
+| APP-022 | Bedside mode | P2 · S2 · partial | One large activity, a low-brightness theme, no sound by default, large controls within one-hand reach. Status 2026-11-22: built as a bedside theme in the comfort settings, from bedside tokens in DESIGN.md. Taps make no click sound in this mode. Open: the one large activity layout and the one hand reach layout are not built; the device check and the person check are not done. | GM-015, GM-016 |
+| APP-023 | Optional haptics | P2 · S2 · partial | Off by default. Never the only feedback for any action. Status 2026-11-22: built. Off by default; a switch in the comfort settings turns on a selection click per tile tap, with no new permission. A refused buzz changes nothing, and a test checks that a match works with haptics refused. Device check open. | GM-015 |
 | APP-024 | Dark theme after contrast check | P3 · S2 · partial | Ship only after contrast and photo-viewing checks ([baseline](../senior-first/baseline.md), R0 integration). | None |
 | APP-027 | Adult-set child mode | P3 · S3 · new | An adult chooses activities for children. No child accounts, no child sign-in, no child data. | Approval. UK Children's Code and COPPA review first ([R5 §5.1]). Children are a later audience ([VISION](../../../VISION.md), Stage 3). |
-| APP-028 | One-switch and keyboard play | P2 · S2 · new | Every picture game can be played with one switch or an external keyboard ([R4 §8 #32]). Status 2026-11-22: keyboard part built on the matching game and the puzzle: Tab order, arrow keys, Enter and Space, and a visible focus ring. One switch input is not built, and the one switch device pass stays open. | GM-013, GM-017 |
+| APP-028 | One-switch and keyboard play | P2 · S2 · partial | Every picture game can be played with one switch or an external keyboard ([R4 §8 #32]). Status 2026-11-22: keyboard part built on the matching game and the puzzle: Tab order, arrow keys, Enter and Space, and a visible focus ring. One switch input is not built, and the one switch device pass stays open. | GM-013, GM-017 |
 | APP-032 | Read-aloud for cards | P2 · S3 · proposed | User-started playback with an on-device voice and an always-visible Stop. | Approval (GM-011). No voice recording, no microphone |
 | APP-033 | Printable "what we did" log | P3 · S3 · new | A one-page summary of tried activities, printed by the person for a family book. | APP-004, APP-002 |
 | APP-035 | Opt-in aggregate counts | P3 · S3 · new | If ever approved, anonymous counts of "We tried this" as the north-star input. No identifiers, no health context. | Approval. No custom telemetry is approved today ([validation](../senior-first/validation.md)); see [metrics](17-metrics-and-evidence.md) |

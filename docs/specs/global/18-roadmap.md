@@ -153,29 +153,29 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 
 | ID | P | Status | Title |
 |---|---|---|---|
-| APP-014 | P0 | new | App-to-website handoff: every activity links to its full guide |
+| APP-014 | P0 | partial | App-to-website handoff: every activity links to its full guide |
 | APP-018 | P0 | partial | Screen-reader-first activity reading |
 | APP-019 | P0 | partial | First run asks for nothing |
 | APP-001 | P1 | partial | Offline activity cards (bundled subset) |
 | APP-002 | P1 | new | Print an activity card or pack from the app |
-| APP-003 | P1 | new | Personal activity plan on the device |
+| APP-003 | P1 | partial | Personal activity plan on the device |
 | APP-004 | P1 | partial | On-device "We tried this" list |
-| APP-005 | P1 | new | Offline finder with the website filters |
+| APP-005 | P1 | partial | Offline finder with the website filters |
 | APP-006 | P1 | partial | Helper mode on one device |
 | APP-013 | P1 | new | Website-to-app link for offline use |
 | APP-011 | P1 | new | Home-screen quick actions |
-| APP-020 | P1 | new | Share an activity as text and a link |
+| APP-020 | P1 | partial | Share an activity as text and a link |
 | APP-026 | P1 | partial | Content changes only through app releases |
 | APP-029 | P1 | new | Facilitator page for each card |
-| APP-030 | P1 | new | I have this materials checklist |
+| APP-030 | P1 | partial | I have this materials checklist |
 | APP-031 | P1 | new | Picture-only card view |
 | APP-034 | P1 | partial | Experiment gates |
 | APP-010 | P2 | new | Home-screen widget |
 | APP-021 | P2 | new | Memory card image |
-| APP-022 | P2 | new | Bedside mode |
-| APP-023 | P2 | new | Optional haptics |
+| APP-022 | P2 | partial | Bedside mode |
+| APP-023 | P2 | partial | Optional haptics |
 | APP-024 | P3 | partial | Dark theme after contrast check |
-| APP-028 | P2 | new | One-switch and keyboard play |
+| APP-028 | P2 | partial | One-switch and keyboard play |
 
 #### Games (05)
 
@@ -194,7 +194,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-022 | P1 | partial | Four together |
 | GAME-025 | P1 | partial | Story dice |
 | GAME-026 | P2 | new | Sound loop maker |
-| GAME-027 | P2 | new | Keep the beat |
+| GAME-027 | P2 | partial | Keep the beat |
 | GAME-029 | P1 | new | Singing sheets |
 | GAME-008 | P0 | exists | Coloring |
 | GAME-031 | P1 | partial | Paint-by-number lite |
@@ -224,8 +224,8 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-004 | P1 | exists | Sort together |
 | GAME-005 | P1 | exists | Picture puzzle (web) |
 | GAME-015 | P1 | partial | Picture puzzle (app) |
-| GAME-016 | P2 | new | Tap-to-place puzzle (app) |
-| GAME-017 | P2 | new | Picture sorting (app) |
+| GAME-016 | P2 | partial | Tap-to-place puzzle (app) |
+| GAME-017 | P2 | partial | Picture sorting (app) |
 | GAME-019 | P1 | partial | Large-target sort |
 | GAME-058 | P2 | partial | Jigsaw from your photo |
 | GAME-059 | P1 | new | Spot the difference |
@@ -365,7 +365,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | COM-020 | P0 | new | Contributor guidelines and claim rules |
 | COM-021 | P1 | new | Editorial review queue and roles |
 | COM-031 | P0 | partial | Suggest a correction on every activity |
-| COM-024 | P2 | new | My made list (private, on the device) |
+| COM-024 | P2 | partial | My made list (private, on the device) |
 | COM-025 | P2 | new | Made together printable card with credit |
 | COM-028 | P2 | new | Email digest of new activities (opt-in) |
 | COM-034 | P1 | new | Community quality metrics |
@@ -536,7 +536,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | BIZ-011 | P1 | new | Grants and philanthropy under a written grant policy |
 | BIZ-012 | P1 | new | Research and evaluation funding |
 | BIZ-016 | P1 | new | Paid review and translation as a cost line |
-| BIZ-018 | P0 | new | No paid child content and no in-app purchases for children |
+| BIZ-018 | P0 | partial | No paid child content and no in-app purchases for children |
 
 #### Metrics and evidence (17)
 

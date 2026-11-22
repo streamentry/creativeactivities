@@ -4,7 +4,7 @@ Date: 2026-11-22. Scope: all 162 rows with status `new` in [id-index.tsv](id-ind
 
 Method: each item's full text was read from its `###` section, or from its table row where the item is a table row (the digest covered Why, What, Acceptance, Depends on and Risks). Each ID and feature was grepped in `site/`, `lib/`, `scripts/` and `tests/`, and the app's `pubspec.yaml` was checked for the packages a feature would need. Dependencies were read from the index. A `build` row names the test that proves it; device, reviewer, counsel and usability checks in a build row are listed as manual steps, not as blockers.
 
-Counts: build 13, decision 22, person 36, service 35, later 55, built 1 (total 162). Lead corrections on 2026-11-22: PLAT-034 moved from build to decision (privacy review first, per the decided table in COMPLETION.md); SEO-041 moved from decision to later (decided 2026-11-21).
+Counts: build 13, decision 22, person 36, service 35, later 55, built 1 (total 162). Lead corrections on 2026-11-22: PLAT-034 moved from build to decision (privacy review first, per the decided table in COMPLETION.md); SEO-041 moved from decision to later (decided 2026-11-21). Updated 2026-11-22 after batches 63 to 68: all 13 `build` rows are now built (partial, pending device and person checks); the class counts above are the triage as made.
 
 Tooling: 11 of the 13 build rows are in the Flutter app (APP-, GAME-016, GAME-017, GAME-027). They need the pinned Flutter SDK (`.fvmrc`: 3.47.7), which the machine used for this triage does not have, so they are buildable only where the SDK is installed and the widget tests can run. The two website rows (BIZ-018, COM-024) are buildable here.
 
@@ -36,20 +36,20 @@ Build plans (one line each, with the proving test):
 
 | ID | Phase | Priority | Class | Reason or plan |
 |---|---|---|---|---|
-| APP-014 | S2 | P0 | build | url_launcher is already a dependency; add a QR encoder and test the canonical URL has no parameters. Screen-reader pass stays manual. |
-| BIZ-018 | S2 | P0 | build | Add a test that child-directed routes contain no checkout, donate or purchase links. Counsel review stays separate. |
-| APP-003 | S2 | P1 | build | Plan CRUD on shared_preferences with a five-item cap and restart test. Printing waits for APP-002. |
-| APP-005 | S2 | P1 | build | Port the website finder filters to Dart over bundled cards; shared fixture test; no network call in airplane-mode test. |
-| APP-020 | S2 | P1 | build | share_plus is already used; a pure builder shares title, description and canonical link as plain text. Unit-test the payload. |
-| APP-030 | S2 | P1 | build | Per-activity ticks in shared_preferences, cleared with data deletion; widget tests for the all-ticked message and no links. |
+| APP-014 | S2 | P0 | build | url_launcher is already a dependency; add a QR encoder and test the canonical URL has no parameters. Screen-reader pass stays manual. Built in batch 67 (PR #130) and placed on the card screen in batch 68 (PR #132). |
+| BIZ-018 | S2 | P0 | build | Add a test that child-directed routes contain no checkout, donate or purchase links. Counsel review stays separate. Built in batch 65 (PR #128). |
+| APP-003 | S2 | P1 | build | Plan CRUD on shared_preferences with a five-item cap and restart test. Printing waits for APP-002. Built in batch 67 (PR #130); on the Home menu. |
+| APP-005 | S2 | P1 | build | Port the website finder filters to Dart over bundled cards; shared fixture test; no network call in airplane-mode test. Built in batch 67 (PR #130) and on the Home menu in batch 68 (PR #132). |
+| APP-020 | S2 | P1 | build | share_plus is already used; a pure builder shares title, description and canonical link as plain text. Unit-test the payload. Built in batch 67 (PR #130) and placed on the card screen in batch 68 (PR #132). |
+| APP-030 | S2 | P1 | build | Per-activity ticks in shared_preferences, cleared with data deletion; widget tests for the all-ticked message and no links. Built in batch 67 (PR #130) and shown on the card screen in batch 68 (PR #132). |
 | PLAT-034 | S2 | P1 | decision | Maintainer allowed a reviewed service worker (2026-11-21) but it needs a privacy review first; see COMPLETION.md decisions. |
-| APP-022 | S2 | P2 | build | Bedside theme from gm tokens and a large-control variant; widget tests for target sizes and sound-off default. |
-| APP-023 | S2 | P2 | build | Haptics off by default and never the only feedback; widget test that no action depends on haptics. |
-| APP-028 | S2 | P2 | build | Keyboard shortcuts and focus order on picture games with widget tests. The one-switch device pass stays manual. |
-| COM-024 | S2 | P2 | build | Extend the browser tried list with local notes and a printable list. Nothing is sent; unit and Playwright tests. |
-| GAME-016 | S2 | P2 | build | Tap-to-place two- or four-piece puzzle in Flutter using existing pictures; English text now, translations later. |
-| GAME-017 | S2 | P2 | build | Tap-to-group picture sorting with undo on existing packs; widget tests for undo and no timer. |
-| GAME-027 | S2 | P2 | build | Visible-pulse tap game with no score; widget tests for no timer text and a single-switch input path. |
+| APP-022 | S2 | P2 | build | Bedside theme from gm tokens and a large-control variant; widget tests for target sizes and sound-off default. Built in batch 67 (PR #130). |
+| APP-023 | S2 | P2 | build | Haptics off by default and never the only feedback; widget test that no action depends on haptics. Built in batch 67 (PR #130). |
+| APP-028 | S2 | P2 | build | Keyboard shortcuts and focus order on picture games with widget tests. The one-switch device pass stays manual. Built in batch 67 (PR #130). |
+| COM-024 | S2 | P2 | build | Extend the browser tried list with local notes and a printable list. Nothing is sent; unit and Playwright tests. Built in batch 65 (PR #128). |
+| GAME-016 | S2 | P2 | build | Tap-to-place two- or four-piece puzzle in Flutter using existing pictures; English text now, translations later. Built in batch 67 (PR #130), a pilot game behind the experiments flag. |
+| GAME-017 | S2 | P2 | build | Tap-to-group picture sorting with undo on existing packs; widget tests for undo and no timer. Built in batch 67 (PR #130), a pilot game behind the experiments flag. |
+| GAME-027 | S2 | P2 | build | Visible-pulse tap game with no score; widget tests for no timer text and a single-switch input path. Built in batch 67 (PR #130), a pilot game behind the experiments flag. |
 | BIZ-004 | S2 | P0 | decision | Editorial no-paid-placement policy text needs maintainer sign-off before it is published. |
 | COM-006 | S2 | P0 | decision | Three-choice wording and replacing the WEB-026 reasons need a maintainer decision; copy must reach all 185 codes. |
 | L10N-033 | S2 | P0 | decision | Maintainer must record the top-50 index decision before those languages are indexed; conflicts with L10N-020. |

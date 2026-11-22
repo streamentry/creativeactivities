@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 71 | 241 | 95 | 407 |
+| S2 | 70 | 255 | 82 | 407 |
 | S3 | 2 | 17 | 56 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **85** | **286** | **162** | **533** |
+| **All** | **84** | **300** | **149** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -537,6 +537,80 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | Three one-page partner sheets (library programming, activity director summary, facilitator note), held from search, linked from the English for-organizations page, with a feedback line on screen only | SEO-025 partial | Checked against the SEO-025 spec. Fixes: each sheet prints on one A4 and one Letter page (the library sheet had spilled onto two), print color from the print token instead of black, and a feedback line (the spec asks for feedback). No logo, partner name or endorsement; card names and times come from the live cards, and the build fails if a card is missing or withdrawn |
 | Print-ready activity card PDFs for A4 and Letter (`card-pdf-lib.mjs`, with tests) | PLAT-019 | Reviewed before this batch |
 | Header logo at 96 px (`brand-mark.png`) | No spec item | The header mark only, no partner logo; not separately reviewed in this batch |
+
+### Batch 63 (2026-11-21): search, Rest keeps your place, printables and the child-image check
+
+Merged as PR #126. Evidence: the PR's checks on its final build (vitest 5,420 pass, `tsc`, `content:validate`, `check:print` 17 of 17, `check:a11y` 0 failing of 310, 18,518 pages built).
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Search: a question that matches only a game also brings the closest cards and situations that share a word; "Scrapbook" and "Picnic planner" reach a card through new synonyms; a no-match answer says so and offers the finder; 14 English guides that no card links to still show, with the finder beside them | WEB-003 stays partial (a search box on every page, a no-JavaScript query, a screen-reader test and translations are open) | `site/src/data/search-synonyms.ts`, `site/src/lib/search.test.ts` |
+| Rest keeps your place: "Rest for now" stores the game's board on this device under `gm-place-v1-<game>`; a later visit offers "Carry on" or "Start fresh"; corrupt or blocked storage is ignored; Photo pairs, Scrapbook and Picture puzzle never save; the keys are on `/your-data/` | WEB-054 partial (the index had it as exists; the spec's own status was partial) | `site/src/games/shared/place.ts`, `place.test.ts`, `GameFrame.tsx`. Browser preview: "Carry on" restored Card 3 of 43 after a reload. Open: the offer text is English only; no screen-reader check of the offer |
+| Keepsake card (`/printables/keepsake-card/`) and family note (`/printables/family-note/`), one page each on A4 and Letter, held from search | CNT-007 partial | `site/src/data/printables.ts`, `check:print`. Open: the basic-inkjet grayscale print and a real-paper check need a person |
+| Child images: the provenance record has `child_release` (unknown or verified), and only a person may set verified; a test fails when a served child image has no verified release; a test fails when a website file refers to the app's image catalog | PLAT-003 stays partial | `docs/specs/asset-provenance.json`, `asset-provenance.test.ts`. No current record shows a child |
+
+### Batch 64 (2026-11-21): review queue owners and a roadmap that matches the index
+
+Merged as PR #127. Evidence: vitest 5,400 pass, `tsc`, `content:validate`, `check:card-versions`, the Python tests (171), `spec_tally.py --check`, and the site checks, all exit 0.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Optional `reviewOwner` on activity cards and guides, one of three roles: `editor`, `safety-reviewer`, `translation-reviewer`. It holds a role, never a name, and an unknown value fails. `pnpm review:queue` shows each owner; a page with no owner gets one from a rule and the line says "(defaulted)"; safety-flagged pages default to the safety reviewer; `-- --owner=<role>` filters | PLAT-012 and TSA-036 stay partial. The role names are proposals for the maintainer to confirm; the interval is not set, and no schedule or messages exist | `site/src/lib/review-owner.ts`, `site/scripts/review-queue-lib.mjs` |
+| The roadmap's S2 rows that said `new` for items already built now match `id-index.tsv` (54 rows); SEO-035 moved from new to partial. Tally after this batch: 85 exists, 286 partial, 162 new (was 85, 285, 163) | Tally only | `18-roadmap.md`, `id-index.tsv`. 20 rows where the roadmap says partial but the index says exists were left for a separate review |
+
+Not included: a search box in every page header (WEB-003). A GET form would put the question in the address and in logs, so a design that keeps questions out of the address is needed first.
+
+### Batch 65 (2026-11-21): no purchase prompts on kids pages and a private made list
+
+Merged as PR #128. Evidence: vitest 6,432 pass, `tsc`, `content:validate`, `check:card-versions`, and the site checks, all exit 0; a browser check marked an activity "We tried this", saved a note containing `<b>`, and showed it as plain text on `/made/print/`.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| `check:site` checks every built `/kids/` page (floor of 8 pages) for calls to buy, donate, subscribe or upgrade, checkout and cart wording, prices and currency, and payment or donation links; denials and craft wording such as "buy a glue stick" are not flagged. A planted buy prompt, price and shop link made the check fail with three errors | BIZ-018 partial (the counsel review the spec asks for is not done; translated prompts are not matched; the store download buttons on kids pages are not flagged) | `site/scripts/child-purchase-rules.mjs`, `site/scripts/check-site.mjs`, `site/src/lib/child-purchase.test.ts` |
+| My made list: `/made/` shows the activities marked "We tried this", each with an optional private note (plain text, 280 characters, up to 200 notes); `/made/print/` is the printable version; both are noindex; notes are stored only in this browser under `ca-made-notes-v1`, and "Delete everything" clears them | COM-024 partial (no print budget for `/made/print/`; deleting the tried list leaves the notes until they are deleted; a person check is not done) | `site/src/lib/made-list.ts`, `site/src/pages/made/index.astro`, `site/src/pages/made/print/index.astro`, `site/src/lib/made-list.test.ts`, `data-inventory.md` |
+
+### Batch 66 (2026-11-21): saved collections, metric records, link and title checks, and an accessibility record
+
+Merged as PR #129, after an audit of all 285 partial items. Evidence: vitest 5,480 pass, `tsc`, `content:validate`, `check:card-versions`, the Python tests (174), `spec_tally.py --check`, and the site checks, all exit 0 (`check:orphans --strict` 0 pages under two links; `check:patterns` 0 collisions in 7,895 pages; `check:a11y` 310 of 310 pages).
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Saved collections on `/activity/`: named groups of saved activities, with add, remove, rename, delete, and download or load of a collections file. One key, `ca-collections-v1`; the import checks every field and limit, refuses a bad file whole, refuses a name already on the device, and never replaces collections | WEB-028 partial (keyboard and screen-reader use of the section, and a download and import check in a browser, are not done) | `site/src/lib/saved-collections.ts`, `saved-collections.test.ts`, `site/src/tools/SavedCollections.tsx` |
+| Metric records: the spec has rows for `activity_view`, `activity_restart` and `app_cta_click`, and a test fails when code has an event with no row; `pnpm run metrics:content` reports safety-field completeness for published cards: 56 of 56 (flags, notes and supervision); `scripts/l10n_defects.py` counts defects by calendar quarter | PLAT-024 partial (the GA4 and GTM settings are a maintainer step); MET-018 partial (topic-level safety fields such as scissors or falls are not in the card schema, so they are not counted); L10N-025 partial (no denominator and no logged defect yet) | `site/src/lib/track.test.ts`, `events.md`, `docs/l10n/defects.csv`, `scripts/l10n_defects.py` |
+| Link and title checks in CI: `check:orphans --strict` fails when an indexable page has fewer than two linking pages (the glossary had one, now linked from the printables page); `check:patterns` fails when two indexable pages of one language and type share a title pattern, H1 pattern and subject | SEO-014 partial; SEO-006 partial (the page-type field is not built; the pattern check is) | `site/scripts/check-orphans.mjs`, `site/scripts/check-duplicates.mjs`, `site/src/lib/title-patterns.ts` |
+| Accessibility record: `check:a11y -- --record=<file>` writes a dated record (commit, pages, violations per template) with the statement that automated checks are not enough; the first website release checklist is in `docs/release/site-release-checks.md` | TSA-001 and MET-016 stay partial (the record is automated checks only; the spec's person and release checks are open) | `site/scripts/a11y-check.mjs`, `site/scripts/a11y-record-lib.mjs`, `site/src/lib/a11y-record.test.ts` |
+| Drag alternatives: a test fails if a game has a pointer drag with no keyboard path. Color wash and Drawing duet are the only drag games, and both pass; a table under TSA-004 names each alternative and its test | TSA-004 partial (the person and device checks in the spec are open) | `site/src/lib/games/games.test.ts`, `docs/specs/global/14-trust-safety-accessibility-privacy.md` |
+
+Also merged after this batch (not a numbered batch): PR #131, the crisis box no longer prints "Numbers checked on 2026-11-15". That date had no source behind it. Maintainer decision, 2026-11-22. Each route's check date is now null, and a date is printed only when every route that gives a number has a check date and an official source. CNT-1003 stays partial until a person checks each number on the service's own page and records the source. Evidence: `site/src/data/crisis-routes.ts`, `crisis-routes.test.ts` (33 crisis tests).
+
+### Batch 67 (2026-11-22): app plan, materials checklist, offline finder logic, website link and share, bedside theme, haptics, keyboard play, three pilot games
+
+Merged as PR #130, after the pinned Flutter SDK (3.47.7) was installed from Google's storage with its checksum verified (decided 2026-11-22). Evidence on the PR branch: `flutter test` 874 pass, `flutter analyze --fatal-infos --fatal-warnings` clean, `dart format` clean; vitest 6,535 pass; `tsc --noEmit` clean; the Python tests and `release_metadata.py --check` pass. The 138 new app strings were machine-translated into the 64 other app locales and stay marked unreviewed.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Personal plan: "My plan for a visit" from Home; one plan of up to five items, a title of 60 characters and a note of 200; stored under `personal_plan.v1`; an unreadable record is kept, and only "Start a new plan", after a confirmation, clears it | APP-003 partial (printing, APP-002, is not built; plan items do not accept cards yet) | `lib/features/plan/data/personal_plan.dart` and its tests |
+| "I have this" checklist: "I have this / Need to get" ticks, stored under `material_ticks.v1`, at most ten materials per activity and 200 activities; no product or shopping links | APP-030 partial (device checks of VoiceOver, TalkBack and one-switch use are open) | `lib/features/materials/data/material_ticks.dart` |
+| Offline finder logic: a Dart port of the website finder rules, checked against a shared fixture of 38 queries over the 56 cards, generated from the website code by `site/scripts/export-finder-fixture.ts`; an airplane-mode test fails if an HTTP client is created | APP-005 partial (the screen was not reachable until batch 68) | `site/scripts/export-finder-fixture.ts`, `test/features/finder` |
+| Website link: opens `https://creativeactivities.org/activity/<slug>/` with no query, fragment or identifier; if the browser does not open, the address and a QR code drawn on the device are shown (the `qr` package, the one new dependency) | APP-014 partial (the link is not on a screen until batch 68; device checks of the browser handoff are open) | `lib/shared/links/activity_guide_link.dart`, `lib/shared/widgets/activity_guide_actions.dart` |
+| Share as text: the name, a short line and the canonical link only; never photos, notes or plan names | APP-020 partial (the share sheet has not been checked on a device) | `lib/shared/sharing/activity_share_text.dart` |
+| Bedside theme: a dim palette from seven `bedside-*` tokens, added to `DESIGN.md` and `lib/design_system.dart` together; an opt-in switch, the system theme stays light; the tile click sound is off in this mode (decided 2026-11-22) | APP-022 partial (the one large activity layout and the one-hand reach layout are not built; the device check and the person check are not done) | `DESIGN.md`, `lib/design_system.dart` |
+| Optional haptics: "Vibrate on taps", off by default, with no new permission; a refused buzz changes nothing and a test checks that a match works with haptics refused | APP-023 partial (device check open) | comfort settings in `lib/features/gentle_activities` |
+| Keyboard play on the matching game and picture puzzle: Tab follows the board order, arrow keys move between tiles, Enter and Space choose, and the focused tile has a visible ring | APP-028 partial (the one-switch device pass stays manual) | `lib/features/gentle_activities` |
+| Three pilot games behind the existing `GM_EXPERIMENTS` flag (the default build is unchanged): GAME-016 tap-to-place puzzle (four pieces; a two-piece board is not built); GAME-017 picture sorting with undo (Kitchen and Garden baskets); GAME-027 Keep the beat (one large target, a visible pulse; taps are never counted or graded) | GAME-016, GAME-017 and GAME-027 partial (a person check of the pulse and of the games is open; the family-photo entry behind the same flag still exists) | `lib/features/gentle_activities`, tests in `test/features/gentle_activities` |
+
+Storage: `personal_plan.v1` and `material_ticks.v1` are listed in `data-inventory.md`. The comfort preferences gain `bedside` and `haptics`, both false by default. No new permissions, network calls or telemetry.
+
+### Batch 68 (2026-11-22): the app bundles the listed activity cards offline
+
+Merged as PR #132 (rebuilt on `main` after PR #130). Evidence on the PR branch: `flutter test` 900 pass, `flutter analyze` clean, `dart format` clean; vitest 6,539 pass (1 skipped); `astro sync` and `tsc --noEmit` clean; the Python tests, release metadata and tally pass. Maintainer decision, 2026-11-22.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| `assets/cards/cards.v1.json` holds version 1 and the 56 listed cards (about 146 KB), registered in `pubspec.yaml`. It is exported by `site/scripts/export-app-cards.ts` from the website's own code and checked against the website schema. Author and reviewer names, images, sources and variation text are not exported. A freshness test fails when the file differs from the website cards; a wording test fails when the app's crisis text differs from the website's | APP-001 partial (card text is English in every app language; device checks are open) | `assets/cards/cards.v1.json`, `lib/features/activity_cards/data/activity_catalog.dart`, `activity_card.dart`, `crisis_routes.dart` |
+| "Find an activity" on Home opens the offline finder over the bundled cards; the activity card screen shows the summary, card version, reviewed status, the "I have this" checklist, numbered steps, safety notes, the stop note, the website link, share and "Done for now"; cards that invite talk about feelings show the crisis routes with no "Numbers checked on" date | APP-005 (on screen now; partial), APP-014 (link on the card screen), APP-020 (share on the card screen), APP-030 (checklist on the card screen) stay partial | `lib/features/finder/presentation/finder_page.dart`, `lib/features/activity_cards/presentation/activity_card_page.dart`, `find_activity_page.dart` |
+
+Open after batch 68: the app's device checks (browser handoff, share sheet, airplane mode, VoiceOver and TalkBack, one-switch, and app size on the lowest device) are not done. Plan items do not accept cards yet. The website's card translations are not in the app.
 
 ## What blocks the rest
 
