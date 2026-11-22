@@ -19,15 +19,16 @@ class PersonalPlan extends Equatable {
   /// Marks an entry that names a bundled activity card (APP-001). Picture
   /// pack ids never contain a colon, so `card:` entries cannot collide with
   /// the entries that older saved plans hold.
-  static const cardPrefix = 'card:';
+  static const cardEntryMark = 'card:';
   static final _cardEntryPattern = RegExp(r'^card:ca-\d{4}$');
 
   /// The plan entry for the bundled card [cardId], for example `ca-0022`.
-  static String cardEntry(String cardId) => '$cardPrefix$cardId';
+  static String cardEntry(String cardId) => '$cardEntryMark$cardId';
 
   /// The card id held by a `card:` entry, or null for a picture pack id.
-  static String? cardIdOf(String entry) =>
-      entry.startsWith(cardPrefix) ? entry.substring(cardPrefix.length) : null;
+  static String? cardIdOf(String entry) => entry.startsWith(cardEntryMark)
+      ? entry.substring(cardEntryMark.length)
+      : null;
 
   final String title;
   final String note;
