@@ -3,6 +3,7 @@ import 'package:creative_activities/features/activity_cards/data/activity_card.d
 import 'package:creative_activities/features/activity_cards/data/crisis_routes.dart';
 import 'package:creative_activities/features/activity_cards/data/safety_flag_labels.dart';
 import 'package:creative_activities/features/materials/presentation/materials_checklist.dart';
+import 'package:creative_activities/features/plan/data/personal_plan.dart';
 import 'package:creative_activities/l10n/l10n.dart';
 import 'package:creative_activities/shared/links/activity_guide_link.dart';
 import 'package:creative_activities/shared/widgets/activity_guide_actions.dart';
@@ -10,12 +11,19 @@ import 'package:flutter/material.dart';
 
 /// One activity from the bundled cards (APP-001): what you need with the
 /// "I have this" checklist, the steps, safety, the stop note, the website
-/// link and share. Card text is English, as on the website. Nothing here
-/// counts, times or closes by itself.
+/// link, share and "Add to my plan" (APP-003). Card text is English, as on
+/// the website. Nothing here counts, times or closes by itself.
 class ActivityCardPage extends StatelessWidget {
-  const new({required this.card, super.key});
+  const new({
+    required this.card,
+    this.planStore = const PersonalPlanStore(),
+    super.key,
+  });
 
   final ActivityCard card;
+
+  /// The saved personal plan the card can be added to. Replaceable in tests.
+  final PersonalPlanStore planStore;
 
   @override
   Widget build(BuildContext context) {
@@ -106,6 +114,8 @@ class ActivityCardPage extends StatelessWidget {
               const _CrisisRoutes(),
             ],
             const SizedBox(height: gmSpaceLg),
+            _AddToPlan(card: card, store: planStore),
+            const SizedBox(height: gmSpaceLg),
             ActivityGuideActions(
               activity: ActivityGuide(
                 slug: card.slug,
@@ -121,6 +131,79 @@ class ActivityCardPage extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+/// Adds this card to the saved plan (APP-003). The plan is read again when
+/// the button is pressed, so a change made elsewhere is never overwritten.
+/// Full, already listed, no plan and unreadable plans say so calmly and
+/// leave the saved record as it is.
+class _AddToPlan extends StatefulWidget {
+  const new({required this.card, required this.store});
+
+  final ActivityCard card;
+  final PersonalPlanStore store;
+
+  @override
+  State<_AddToPlan> createState() => _AddToPlanState();
+}
+
+enum _PlanOutcome { added, alreadyIn, full, needsPlan, unreadable, saveFailed }
+
+class _AddToPlanState extends State<_AddToPlan> {
+  _PlanOutcome? _outcome;
+
+  Future<void> _add() async {
+    final outcome = await _attemptAdd();
+    if (!mounted) return;
+    setState(() => _outcome = outcome);
+  }
+
+  Future<_PlanOutcome> _attemptAdd() async {
+    final entry = PersonalPlan.cardEntry(widget.card.id);
+    final read = await widget.store.load();
+    if (!read.readable) return _PlanOutcome.unreadable;
+    final plan = read.plan;
+    if (plan == null) return _PlanOutcome.needsPlan;
+    if (plan.activityIds.contains(entry)) return _PlanOutcome.alreadyIn;
+    final next = plan.withActivity(entry);
+    if (next == null) return _PlanOutcome.full;
+    return await widget.store.save(next)
+        ? _PlanOutcome.added
+        : _PlanOutcome.saveFailed;
+  }
+
+  static String _message(BuildContext context, _PlanOutcome outcome) {
+    final l10n = context.l10n;
+    return switch (outcome) {
+      _PlanOutcome.added => l10n.cardAddedToPlan,
+      _PlanOutcome.alreadyIn => l10n.cardAlreadyInPlan,
+      _PlanOutcome.full => l10n.cardPlanFull,
+      _PlanOutcome.needsPlan => l10n.cardPlanNeedsPlan,
+      _PlanOutcome.unreadable => l10n.cardPlanUnreadable,
+      _PlanOutcome.saveFailed => l10n.planSaveFailed,
+    };
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final outcome = _outcome;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        GmOutlineButton(label: context.l10n.cardAddToPlan, onTap: _add),
+        if (outcome != null) ...[
+          const SizedBox(height: gmSpaceSm),
+          Semantics(
+            liveRegion: true,
+            child: Text(
+              _message(context, outcome),
+              style: Theme.of(context).textTheme.bodyLarge,
+            ),
+          ),
+        ],
+      ],
     );
   }
 }

@@ -3,6 +3,9 @@ import 'dart:async';
 import 'package:creative_activities/data/models/pack.dart';
 import 'package:creative_activities/data/services/local_pack_service.dart';
 import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/activity_cards/data/activity_card.dart';
+import 'package:creative_activities/features/activity_cards/data/activity_catalog.dart';
+import 'package:creative_activities/features/activity_cards/presentation/activity_card_page.dart';
 import 'package:creative_activities/features/plan/data/personal_plan.dart';
 import 'package:creative_activities/l10n/l10n.dart';
 import 'package:creative_activities/l10n/pack_text.dart';
@@ -12,18 +15,23 @@ import 'package:flutter/material.dart';
 typedef LoadPacks = Future<List<Pack>> Function();
 
 /// A short personal plan of up to five activities, kept on this device.
-/// The person names it, chooses activities, and deletes it when they like.
-/// A saved plan that cannot be read is shown as such and is not changed
-/// unless the person starts a new plan.
+/// Entries are picture packs or bundled activity cards (APP-003). The person
+/// names the plan, chooses activities, and deletes it when they like. A saved
+/// plan that cannot be read is shown as such and is not changed unless the
+/// person starts a new plan.
 class PersonalPlanPage extends StatefulWidget {
   const new({
     this.store = const PersonalPlanStore(),
     this.loadPacks,
+    this.catalogStore = const ActivityCatalogStore(),
     super.key,
   });
 
   final PersonalPlanStore store;
   final LoadPacks? loadPacks;
+
+  /// Reads the bundled cards so that card entries can show their names.
+  final ActivityCatalogStore catalogStore;
 
   @override
   State<PersonalPlanPage> createState() => _PersonalPlanPageState();
@@ -32,6 +40,7 @@ class PersonalPlanPage extends StatefulWidget {
 class _PersonalPlanPageState extends State<PersonalPlanPage> {
   PersonalPlanRead? _read;
   List<Pack> _packs = const [];
+  ActivityCatalog? _catalog;
   bool _editing = false;
   bool _saveFailed = false;
   String? _nameError;
@@ -60,6 +69,26 @@ class _PersonalPlanPageState extends State<PersonalPlanPage> {
       _read = read;
       _packs = packs;
     });
+    // Card names arrive separately, so the plan never waits on the card file.
+    unawaited(_loadCards());
+  }
+
+  Future<void> _loadCards() async {
+    final cards = await widget.catalogStore.load();
+    if (!mounted) return;
+    setState(() => _catalog = cards is CatalogLoaded ? cards.catalog : null);
+  }
+
+  /// Opens a card in the plan. The plan is read again on return, so a card
+  /// added on that screen is not lost by a later edit here.
+  Future<void> _openCard(ActivityCard card) async {
+    await Navigator.of(context).push<void>(
+      MaterialPageRoute(
+        builder: (_) => ActivityCardPage(card: card, planStore: widget.store),
+      ),
+    );
+    if (!mounted) return;
+    await _load();
   }
 
   PersonalPlan? get _plan => _read?.plan;
@@ -290,13 +319,7 @@ class _PersonalPlanPageState extends State<PersonalPlanPage> {
       if (plan.activityIds.isEmpty)
         Text(l10n.planNoActivities, style: _body(context))
       else
-        for (final id in plan.activityIds)
-          _ActivityRow(
-            name: byId[id] == null
-                ? null
-                : context.packText.packTitle(byId[id]!),
-            onRemove: () => _removeActivity(id),
-          ),
+        for (final entry in plan.activityIds) _rowFor(context, entry, byId),
       const SizedBox(height: gmSpaceLg),
       if (plan.isFull)
         Text(l10n.planFullMessage, style: _body(context))
@@ -311,6 +334,25 @@ class _PersonalPlanPageState extends State<PersonalPlanPage> {
       const SizedBox(height: gmSpaceLg),
       _doneForNow(context),
     ];
+  }
+
+  /// A card entry opens its card when the card is still bundled. A pack
+  /// entry keeps its own look and has no open action.
+  Widget _rowFor(BuildContext context, String entry, Map<String, Pack> byId) {
+    final cardId = PersonalPlan.cardIdOf(entry);
+    if (cardId != null) {
+      final card = _catalog?.byId(cardId);
+      return _ActivityRow(
+        name: card?.name,
+        onOpen: card == null ? null : () => _openCard(card),
+        onRemove: () => _removeActivity(entry),
+      );
+    }
+    final pack = byId[entry];
+    return _ActivityRow(
+      name: pack == null ? null : context.packText.packTitle(pack),
+      onRemove: () => _removeActivity(entry),
+    );
   }
 
   Widget _doneForNow(BuildContext context) => GmOutlineButton(
@@ -331,22 +373,36 @@ class _PersonalPlanPageState extends State<PersonalPlanPage> {
 
 /// One activity in the plan, with its own remove button.
 class _ActivityRow extends StatelessWidget {
-  const new({required this.name, required this.onRemove});
+  const new({required this.name, required this.onRemove, this.onOpen});
 
   /// Null when the activity is no longer in the app.
   final String? name;
   final VoidCallback onRemove;
+
+  /// Set for a card entry that is still bundled; null otherwise.
+  final VoidCallback? onOpen;
 
   @override
   Widget build(BuildContext context) {
     final l10n = context.l10n;
     final theme = Theme.of(context);
     final label = name ?? l10n.planActivityMissing;
+    final open = onOpen;
     return Padding(
       padding: const EdgeInsets.only(bottom: gmSpaceSm),
       child: Row(
         children: [
-          Expanded(child: Text(label, style: theme.textTheme.bodyLarge)),
+          Expanded(
+            child: open == null
+                ? Text(label, style: theme.textTheme.bodyLarge)
+                : Align(
+                    alignment: AlignmentDirectional.centerStart,
+                    child: TextButton(
+                      onPressed: open,
+                      child: Text(label, style: theme.textTheme.bodyLarge),
+                    ),
+                  ),
+          ),
           Semantics(
             label: name == null
                 ? l10n.planRemoveActivity

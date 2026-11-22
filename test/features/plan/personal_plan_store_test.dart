@@ -23,6 +23,35 @@ void main() {
       expect(fewer.withActivity('a')!.activityIds.last, 'a');
     });
 
+    test('pack and card entries count together toward the five cap', () {
+      var plan = const PersonalPlan(
+        title: 'Tea',
+        activityIds: ['animals_farm'],
+      );
+      for (final id in ['ca-0001', 'ca-0002', 'ca-0003', 'ca-0004']) {
+        plan = plan.withActivity(PersonalPlan.cardEntry(id))!;
+      }
+      expect(plan.isFull, isTrue);
+      expect(plan.withActivity(PersonalPlan.cardEntry('ca-0005')), isNull);
+      expect(plan.withActivity('nature_mountains'), isNull);
+      expect(
+        plan.withActivity(PersonalPlan.cardEntry('ca-0001')),
+        isNull,
+        reason: 'already listed',
+      );
+    });
+
+    test('a card entry can be removed like a pack entry', () {
+      const plan = PersonalPlan(
+        title: 'Tea',
+        activityIds: ['animals_farm', 'card:ca-0022'],
+      );
+      expect(
+        plan.withoutActivity(PersonalPlan.cardEntry('ca-0022')).activityIds,
+        ['animals_farm'],
+      );
+    });
+
     test('removing an id that is not listed changes nothing', () {
       const plan = PersonalPlan(title: 'x', activityIds: ['a']);
       expect(plan.withoutActivity('zz'), plan);
@@ -67,6 +96,44 @@ void main() {
       });
     });
 
+    test('an old record with pack ids only loads unchanged', () async {
+      SharedPreferences.setMockInitialValues({
+        _key:
+            '{"v":1,"title":"Sunday with Dad","note":"Bring the blue cups", '
+            '"activities":["animals_farm","nature_mountains"]}',
+      });
+      final read = await const PersonalPlanStore().load();
+      expect(read.readable, isTrue);
+      expect(
+        read.plan,
+        const PersonalPlan(
+          title: 'Sunday with Dad',
+          note: 'Bring the blue cups',
+          activityIds: ['animals_farm', 'nature_mountains'],
+        ),
+      );
+    });
+
+    test('a card entry is saved as card: plus its card id', () async {
+      const store = PersonalPlanStore();
+      final plan = const PersonalPlan(
+        title: 'Tea',
+        activityIds: ['animals_farm'],
+      ).withActivity(PersonalPlan.cardEntry('ca-0022'))!;
+      expect(await store.save(plan), isTrue);
+
+      final raw = (await SharedPreferences.getInstance()).getString(_key)!;
+      expect(jsonDecode(raw), {
+        'v': 1,
+        'title': 'Tea',
+        'note': '',
+        'activities': ['animals_farm', 'card:ca-0022'],
+      });
+      expect((await store.load()).plan, plan);
+      expect(PersonalPlan.cardIdOf('card:ca-0022'), 'ca-0022');
+      expect(PersonalPlan.cardIdOf('animals_farm'), isNull);
+    });
+
     test('clear removes the plan', () async {
       const store = PersonalPlanStore();
       await store.save(const PersonalPlan(title: 'Tea'));
@@ -100,6 +167,32 @@ void main() {
       (
         'a number as an activity',
         '{"v":1,"title":"x","note":"","activities":[3]}',
+      ),
+      (
+        'a card entry with a short card id',
+        '{"v":1,"title":"x","note":"","activities":["card:ca-022"]}',
+      ),
+      (
+        'a card entry with an upper case card id',
+        '{"v":1,"title":"x","note":"","activities":["card:CA-0022"]}',
+      ),
+      (
+        'a card entry with no card id',
+        '{"v":1,"title":"x","note":"","activities":["card:"]}',
+      ),
+      (
+        'a card entry with a slash after the id',
+        '{"v":1,"title":"x","note":"","activities":["card:ca-0022/x"]}',
+      ),
+      (
+        'a card repeated',
+        '{"v":1,"title":"x","note":"", '
+            '"activities":["card:ca-0022","card:ca-0022"]}',
+      ),
+      (
+        'six mixed pack and card entries',
+        '{"v":1,"title":"x","note":"","activities":["a","b","card:ca-0001",'
+            '"card:ca-0002","card:ca-0003","card:ca-0004"]}',
       ),
     ]) {
       test('a record with $label is unreadable, not empty', () async {
